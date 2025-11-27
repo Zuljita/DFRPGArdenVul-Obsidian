@@ -7,8 +7,6 @@ aliases:
   - Unknown human alchemist, working with the halfling thugs
 appears_in:
   - "Session 26 - The Scouring of the Shire"
-aliases:
-  - Blandveg, Archontean mage, alchemist, and poisoner
 ---
 # Blandveg
 

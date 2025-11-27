@@ -5,8 +5,6 @@ tags:
 aliases:
   - Claudine of Narsileon, human arms dealer
   - Claudine
-aliases:
-  - Claudine
 ---
 # Claudine of Narsileon
 

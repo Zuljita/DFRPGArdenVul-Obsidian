@@ -119,5 +119,3 @@ None until they go back to town.  So far they have only visited a couple of new 
 Next Week:
 
 The Right for Riches Company appears to be invading the Forum of Set.  Do they smash a major faction of Arden Vul, or get swarmed and make new PCs?  I have no idea.
-
-2025-09-13

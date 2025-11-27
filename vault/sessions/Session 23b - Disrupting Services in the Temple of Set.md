@@ -73,5 +73,3 @@ None until they get back to town, but they explored even more new territory and 
 Next Week:
 
 They're pretty sure they're close to Lillian now, so they're going to try to rescue her and get out before whatever portion of the Set cult is left gets their revenge.
-
-2025-08-30

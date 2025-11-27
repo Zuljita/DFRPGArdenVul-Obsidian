@@ -20,8 +20,8 @@ Hot, dry
 Player Characters: 
 
 [[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin)
-Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva)
+[[Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fighter (Martin)
+[[npcs/Chrysalis (Lasselanta Ashcroft)]], Half-Elven mercenary martial artist (Archon Shiva)
 
 
 Significant NPCs:
@@ -97,5 +97,3 @@ Total:  3 XP
 Next Week:
 
 We should have more PCs next time.  Maybe they'll try to finish off the stirges, or the halflings, or something else.
-
-2025-07-12

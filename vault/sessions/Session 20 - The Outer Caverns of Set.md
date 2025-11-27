@@ -114,4 +114,3 @@ Bottom of Privy Shaft
 Caves behind the waterfall
 They also have the Scorpion Teleporter, which they have used 3 times and ended up in 3 places.
 
-2025-08-02

@@ -108,4 +108,3 @@ Total: 3 XP
 Next Week:
 I expect they'll come back to the Well of Light and try to finish searching the Library or play with the mirrors or explore more.  But every time I expect them to focus on the same job for two weeks in a row they surprise me, so we'll see.
 
-2025-08-09

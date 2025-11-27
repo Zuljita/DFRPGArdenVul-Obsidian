@@ -29,17 +29,17 @@ Player Characters:
 Significant NPCs:
 
 Mariposa, Chrysalis's monkey
-Gwelf, deceased dwarven thief
+[[Gwelf]], deceased dwarven thief
 [[npcs/Lyssandra Astorion.md|Lyssandra Astorion]], Archontean wizard, co-owner of the Arcane Practitioners' Club
 [[npcs/Creon.md|Creon]], pawnbroker
-Flavius Aurelius, Archontean merchant
+[[Flavius Aurelius]], Archontean merchant
 Several merchant teamster/guards
 Several mules
 Suspicious bat that transformed into a suspicious worm
-4 Settite Guild of Service slavers
-Harold, Archontean fighter
-Hjalti, Wiskin fighter
-Kiglon, Thorcin ranger
+4 Settite [[Guild of Service]] slavers
+[[Harold]], [[Archontean]] fighter
+[[Hjalti]], [[Wiskin]] fighter
+[[Kiglon]], [[Thorcins|Thorcin]] ranger
 
 
 

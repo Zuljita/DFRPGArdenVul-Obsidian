@@ -104,5 +104,3 @@ Total: 3 XP
 Next Week:
 
 Most of Left for Loot should be back from Newmarket and will probably be jealous of all the stuff Ioannes and the mercenaries found.  I suspect that they'll want to revisit the area behind the falls, since they left some unopened doors and a mysterious woman behind.  Of course that will only happen if Goat is available again, as he's currently their only source of Breathe Water and Swim.
-
-2025-06-14

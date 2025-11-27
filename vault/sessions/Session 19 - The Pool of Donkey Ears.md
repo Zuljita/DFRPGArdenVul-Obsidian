@@ -99,4 +99,3 @@ Total: 3 XP each.  Vael also got 1 extra HP for the statue fight.
 Next Week:
 Maybe they'll keep exploring this level and see if anyone else can get donkey ears.  Maybe they'll go back up to the baboon level and look for the [[locations/Library of Thoth.md|Library of Thoth]].  Maybe they'll go back down the privy.  I have no real idea at this point, and I suspect the players don't either.
 
-2025-07-27

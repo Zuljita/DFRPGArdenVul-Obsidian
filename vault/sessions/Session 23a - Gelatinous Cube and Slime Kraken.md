@@ -93,6 +93,3 @@ None until they get back to down, but they explored some new territory and found
 Next Week:
 
 We know they'll be starting the session fighting those Set guards, and then, if they win, presumably resuming the search for Lillian.
-
-
-2025-08-23

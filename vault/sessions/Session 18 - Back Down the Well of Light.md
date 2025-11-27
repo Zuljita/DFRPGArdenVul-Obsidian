@@ -88,5 +88,3 @@ Total: 3 XP
 
 Next Week:
 Ioannes expressed interest in finding the Library of Thoth and moving Stamelis there.  So there's a chance they will attempt that.  There was also continued griping about Plumthorn's Halflings being in the way of wherever they want to go, so maybe they'll try removing them.
-
-2025-07-19

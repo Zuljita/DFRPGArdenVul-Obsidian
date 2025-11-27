@@ -18,8 +18,8 @@ Player Characters:
 [[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
 [[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
 [[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-Ashe "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) 
-Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) 
+[[Ashe Maykum|Ashe "GOAT" Maykum]], Goblin mercenary druid (Sharp Frank) 
+[[Merenuithiel Lacrymosa Armaris]], Elven mercenary archer (Archon Shiva) 
 
 Significant NPCs:
 [[npcs/Camilla.md|Camilla]], primary summoned goat
@@ -93,5 +93,3 @@ Total: 2-3 XP each
 Next Week:
 
 They had the druid along this week so could have gone back behind the waterfall.  They had three good fighters this week so could have fought the halfling toll collectors.  But they chose the Great Cavern instead.  So my guess is they will keep exploring the Great Cavern, but who knows?
-
-2025-06-28

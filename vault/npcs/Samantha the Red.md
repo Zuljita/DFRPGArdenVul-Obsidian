@@ -4,7 +4,6 @@ tags:
   - npc
 aliases:
   - Samantha
-aliases:
 ---
 # Samantha the Red
 

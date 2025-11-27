@@ -4,7 +4,6 @@ tags:
   - npc
 aliases:
   - Isocritis
-aliases:
   - Isocrates
 ---
 # Isocritis Half-Hand

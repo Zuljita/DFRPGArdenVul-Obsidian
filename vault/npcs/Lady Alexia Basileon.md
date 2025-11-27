@@ -5,12 +5,8 @@ tags:
 aliases:
   - Lady Alexia
   - Lady Alexia Basilion
-aliases:
   - Green Lady
-aliases:
-  - Lady Alexia
   - The Green Lady
-  - Lady Alexia Basilion
 appears_in:
   - "Session 8a - Never Trust a Scorpion"
 ---

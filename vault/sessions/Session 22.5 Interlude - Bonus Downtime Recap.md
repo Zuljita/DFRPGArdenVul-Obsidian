@@ -1,0 +1,19 @@
+DFRPG Bonus Downtime Recap: Strange Happenings in Gosterwick
+There's this idea in DFRPG that Town is a "safe zone".  PCs can shop and train there and don't have to worry about being robbed or murdered.
+
+Is that true in Gosterwick, 10 miles south of the ruins of Arden Vul?  Apparently not.
+
+The Right for Riches company returned to Gosterwick after their successful mission to rescue Canon Lillian of the Church of Mitra from the dungeons of the Cult of Set. This mission incidentally resulted in the deaths of about a dozen Settites guarding the path to Lillian's cell, plus about a dozen more Settites in the nearby Temple of Set who just happened to be doing the wrong evil ritutal in the wrong place at the wrong time.  And a giant crocodile who took advantage of the chaos to try to eat an allied NPC.  While the PCs were in the Temple of Set, they also stole anything valuable looking that wasn't too heavy, including a couple of gigantic and incredibly valuable rubies from the largest cult statue's eyes.  And some of the PCs may or may not have urinated on a holy altar of Set; the stories are inconsistent.
+
+
+
+
+
+(Artistic interpretation of Uvash and Ioannes stealing the ruby eyes of the cult statue in the Temple of Set, over the corpse of the giant crocodile Susarra killed, while Vael, Michael, Vallium, and an unidentified NPC discuss their next move.)
+It appears that the Cult of Set was not happy about any of this.  A few days after the Right for Riches Company returned to Gosterwick, two things happened:
+
+Coinbase, leader of the Grudge Brigade Mercenary Company, received an anonymous offer under his door.  It promised a payment of $2500 each for Vael, Vallium, Ioannes, Uvash, Michael, or Susarra, dead or alive.  They or their remains should be brought to the Duty Deacon in the [[locations/Forum of Set.md|Forum of Set]], who would then contact the Pontifex to verify the identify of the invader and pay the reward.  (Coinbase decided to sell the contract to Vael rather than acting on it.)
+Susarra was decapitated in her bed at the Yellow Cloak Inn.  Her head and the more valuable and portable parts of her gear were missing.  Vallium, who the innkeeper had seen with Susarra, was called in to identify the body, and then Vael showed up and asked for a blood sample from the victim.  His request was initially denied by the guards at the crime scene, while one of them added Vael's name to A List.  Later that denial was overruled by Audun Yellow-Eyes, head of the Drome in Gosterwick, who sent a blood sample to Vael.
+Once he got the blood sample, Vael cast Seeker followed by Trace, revealing that Susarra's head was currently in a backpack tossed in a corner of a comfortable room, about ten miles north of Gosterwick.  Vael could maintain the Trace spell as long as he could stay awake, but could not cast Seeker again for a week, so he advocated cutting short the usual week of downtime between delves and immediately going after whoever murdered Susarra.
+
+To be continued...

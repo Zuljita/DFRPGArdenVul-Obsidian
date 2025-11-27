@@ -4,7 +4,6 @@ tags:
   - npc
 aliases:
   - The Tower Ghost
-aliases:
   - Yrtol the Angry Ghost
 ---
 # Yrtol

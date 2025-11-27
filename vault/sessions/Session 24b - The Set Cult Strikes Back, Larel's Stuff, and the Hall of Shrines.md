@@ -102,4 +102,3 @@ XP:
 Next Week:
 
 They have a lot of options.  They can go after the Set Cult again, or deal with the halflings, or try to revisit the goblins, or explore more of the Halls of Thoth east of the chasm, or go back to the Hall of Shrines.  Or a half-dozen other places.  Arden Vul is big.
-2025-09-20

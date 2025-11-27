@@ -105,5 +105,3 @@ Total: 3 XP
 Next Week:
 
 I think they might actually take a shot at Plumthorn's halflings, if they get a full party.  The lure of Chekhov's Statue Head might be too much to resist.
-
-2025-05-31

@@ -88,5 +88,3 @@ Exploration: 6 new locations, good for 1 XP
 Loot: Looks like 1 XP if they don't sell the good magic items, 2 XP if they do
 Achievements: 0 XP
 Total:  Probably 2 XP
-
-2025-10-25

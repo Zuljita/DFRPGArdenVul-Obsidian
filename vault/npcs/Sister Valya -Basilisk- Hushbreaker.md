@@ -1,5 +1,5 @@
 ---
-title: "Sister Valya "Basilisk" Hushbreaker"
+title: 'Sister Valya "Basilisk" Hushbreaker'
 tags:
   - npc
 appears_in:

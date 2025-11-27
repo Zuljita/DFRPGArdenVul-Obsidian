@@ -126,4 +126,3 @@ Next Week:
 
 With the halflings eliminated, the [[factions/Right for Riches Company.md|Right for Riches Company]] needs to pick a new goal.  Do they explore more of the former halfling territory, explore more of Goblintown proper, go looking for the Troll Lifts, or resume their war against the Cult of Set?  I have no idea.
 
-2025-10-18

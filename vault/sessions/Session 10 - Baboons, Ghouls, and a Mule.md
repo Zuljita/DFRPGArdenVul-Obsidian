@@ -89,4 +89,3 @@ Next Week:
 
 I haven't heard any concrete plans yet.  There was a bit of the usual discussion about taking down Plumthorn's gang.  They might also try one of the other dungeon entrances they know about, or spend another week exploring the surface ruins.
 
-2025-05-24
