@@ -1,0 +1,39 @@
+{
+  "spells": [
+    "Affect Spirits","Agonize","Air Jet","Alertness (VH)","Ambidexterity","Analyze Magic","Animal Control","Apportation","Arboreal Immurement","Armor","Astral Block","Astral Vision (VH)","Aura","Awaken","Balance","Banish","Beast Link","Beast Possession","Beast Seeker","Beast Speech","Beast Summoning","Beast-Rouser","Beast-Soother","Blackout","Bladeturning","Bless","Blink","Blink Other (VH)","Blur","Borrow Language","Borrow Skill","Bravery","Breathe Water","Bright Vision","Burning Touch","Charm","Cleansing","Climbing","Clumsiness","Cold","Colors","Command","Command Spirit","Compel Truth","Complex Illusion","Conceal","Concussion","Continual Light","Control Gate","Control Illusion","Control Person","Cook","Coolness","Copy","Counterspell","Create Air","Create Animal","Create Earth","Create Fire","Create Food","Create Plant","Create Water","Cure Disease","Curse","Dark Vision","Darkness","Daze","Death Vision","Deathtouch","Debility","Decay","Deflect Energy","Deflect Missile","Dehydrate","Delayed Message","Destroy Air","Destroy Water","Detect Magic","Detect Poison","Dispel Illusion","Dispel Magic","Dispel Possession","Divert Teleport (VH)","Drunkenness","Dull Sense","Dullness (VH)","Earth to Air","Earth to Stone","Earth Vision","Earthquake","Entombment","Entrap Spirit","Essential Food (VH)","Ethereal Body (VH)","Explosive Fireball","Explosive Lightning","Extinguish Fire","Far-Feeling","Far-Hearing","Far-Tasting","Fascinate","Fasten","Fear","Final Rest","Find Direction","Find Weakness","Fire Cloud","Fireball","Fireproof","Flame Jet","Flaming Missiles","Flaming Weapon","Flesh to Stone","Flight (VH)","Fog","Foolishness","Forest Warning","Forgetfulness","Frailty","Freeze","Frostbite","Garble","Geyser (VH)","Gift of Letters (VH)","Gift of Tongues (VH)","Glass Wall","Glow","Glue","Grace","Grease","Great Haste (VH)","Great Healing (VH)","Great Voice","Great Ward","Hail","Haste","Hawk Vision","Healing Slumber","Heat","Hide","Hide Emotion","Hide Path","Hide Thoughts","Hinder","History","Hold Breath","Hush","Hybrid Control (VH)","Ice Dagger","Ice Sphere","Icy Missiles","Icy Weapon","Identify Plant","Identify Spell","Ignite Fire","Illusion Disguise","Illusion Shell","Independence","Infravision","Initiative","Instant Neutralize Poison (VH)","Invisibility","Iron Arm","Itch","Keen Hearing","Keen Sense","Knot","Know Illusion","Know Location","Lend Energy","Lend Language","Lend Skill","Lend Vitality","Levitation","Light","Light Jet","Light Tread","Lighten Burden","Lightning","Lightning Missiles","Lightning Weapon","Lockmaster","Locksmith","Loyalty","Mage Sight","Mage-Stealth","Magelock","Magic Resistance","Major Healing (VH)","Manipulate","Mapmaker","Mass Daze","Mass Sleep","Master","Measurement","Message","Might","Mind-Reading","Mind-Search (VH)","Mind-Sending","Minor Healing","Mirror","Missile Shield","Monk's Banquet","Mystic Mist","Nauseate","Neutralize Poison","Night Vision","Nightingale","No-Smell","Noise","Pain","Panic","Paralyze Limb","Pathfinder","Pentagram","Perfect Illusion","Persuasion","Phantom (VH)","Phase","Phase Other (VH)","Plant Control","Plant Sense","Plant Speech","Plant Vision","Poison Food","Pollen Cloud","Possession (VH)","Prepare Game","Projection","Protect Animal","Protection from Evil","Purify Air","Purify Earth","Purify Food","Purify Water","Quick March","Recover Energy","Reflect","Reflect Gaze (VH)","Reflexes","Regeneration (VH)","Rejoin","Relieve Paralysis","Relieve Sickness","Remember Path","Remove Curse","Repair","Repel Animal","Repel Hybrids (VH)","Repel Spirits","Resist Acid","Resist Cold","Resist Disease","Resist Fire","Resist Lightning","Resist Pain","Resist Poison","Resist Sound","Resist Water","Restoration (VH)","Restore","Restore Hearing","Restore Memory","Restore Sight","Restore Speech","Retch","Rider","Rider Within","Rive (VH)","Rooted Feet","Roundabout","Sanctuary (VH)","Sandstorm","Scry Gate","Scryguard","See Invisible","See Secrets","Seek Earth","Seek Fire","Seek Food","Seek Gate","Seek Magic","Seek Plant","Seek Water","Seeker","Sense Danger","Sense Emotion","Sense Evil","Sense Foes","Sense Life","Sense Spirit","Sensitize","Shape Air","Shape Earth","Shape Fire","Shape Plant","Shape Water","Share Energy","Share Vitality","Sharpen","Shatter (VH)","Shatterproof","Shield","Shocking Touch","Sickness","Silence","Silver Tongue","Simple Illusion","Sleep","Slow","Slow Fall","Smoke","Soul Rider","Sound","Sound Jet","Spark Cloud","Spark Storm","Spasm","Spell Shield","Steelwraith","Stench","Stiffen","Stone Missile","Stone to Earth","Stone to Flesh","Stop Bleeding","Stop Paralysis","Stop Spasm","Strengthen Will","Strike Blind","Strike Deaf","Strike Dumb","Stun","Summon Spirit","Sunbolt","Sunlight","Suspended Animation","Swim","Tangle Growth","Tanglefoot","Telepathy (VH)","Teleport Shield","Tell Position","Terror","Test Food","Test Load","Thunderclap","Tickle","Total Paralysis","Trace","Trace Teleport","Truthsayer","Turn Spirit","Turn Zombie","Umbrella","Undo","Vigil (VH)","Vigor","Voices","Walk on Air","Walk on Water","Walk Through Earth","Walk Through Plants","Walk Through Wood","Wall of Lightning","Wall of Silence","Wallwalker","Ward","Warmth","Watchdog","Water Jet","Water Vision","Weaken","Weaken Will","Weather Dome","Windstorm","Wisdom","Wither Limb","Wither Plant","Wizard Eye","Curse Item","Basil's Torch Treatment","The Bracteros Effect","Frigg's Elephant Ears","Perpetual Light","The Hekate's Bonds","Brain Full of Small Spiders","Frigg's Jelly Legs","Hallow","Frigg's Fraud"
+  ],
+  "stop_location": [
+    "door", "cave", "cavern", "passage", "short passage", "path", "wall", "north wall", "cliff", "ledge",
+    "pond", "sinkhole", "bottom of sinkhole", "worked but decaying room", "octagonal room", "room with hot bath",
+    "secret door", "rock formation", "cave wall passage", "passages to the east", "small barricade",
+    "room with 19 beautiful statues of archontean worthies", "continually lit chamber",
+    "small cave", "shaft", "cavern complex", "pool of water", "tunnel", "pillar",
+    "octagonal crossroads room", "small room behind secret door", "room south of small room", "workbench",
+    "slave pit", "classical temple", "archon's palace", "arden vul ruins", "forum", "urns",
+    "dark stairs", "stone passage", "small room", "spiral stairway", "tower of scrutiny (level)",
+    "spiral stairs", "broken wooden stairs", "roof", "indoor pyramid", "well of light level",
+    "rug to their apartment", "huge underground graveyard", "mausoleum in the southwest corner",
+    "graveyard room", "room with spider webs", "crossroads", "pit trap", "second covered pit",
+    "cliff face", "small room with spiral stairway", "room with spiral stairs", "small room with two exits"
+  ],
+  "stop_items": [
+    "rug", "portrait"
+  ],
+  "commodity_items": [
+    "rope", "paper", "books", "flasks", "discs", "dried fruit", "meat",
+    "inscription", "stones", "sarcophagus", "sarcophagi", "tools and jars",
+    "spices", "key", "plaques", "gear", "objects", "items", "kit",
+    "lamp", "helmet", "pebble", "altar", "block", "images", "orb"
+  ],
+  "unique_item_patterns": [
+    "\\b(Wand|Ring|Amulet|Spear|Sword|Axe|Tablet|Bone Ring|Iron Circlet|Ebon Spear|Bottomless Purse)\\b",
+    "\\b[A-Z][a-zA-Z]+ of [A-Z][a-zA-Z]+( [A-Z][a-zA-Z]+)?\\b"
+  ],
+  "stop_factions": [
+    "none", "archon", "archons", "archonteans", "legionnaires",
+    "priests of thoth", "priests of set", "priests of horus", "right for riches", "set outpost", "goblin guards", "wraiths", "clerics"
+  ],
+  "stop_npcs": [
+    "ashe the goblin", "vael lockmaster", "mummy", "coinbase levitated"
+  ]
+}

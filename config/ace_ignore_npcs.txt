@@ -1,0 +1,47 @@
+# Names to exclude from ACE prioritization (case-insensitive canonical names).
+# Rationale: generic monsters or non-article entities that should not be enriched.
+Wight
+Wyvern
+Basilisk
+Zombie
+Skeleton
+Ghoul
+Goblin
+Ogre
+Troll
+Hydra
+Manticore
+Giant Spider
+Spectre
+Shade
+Vampire
+Werewolf
+Elemental
+Slime
+Kraken
+Giant Rat
+Giant Scorpion
+Giant Snake
+Giant Lizard
+Zombie porter
+Pig-headed beastman
+Shambling Mound
+Phase spider
+Mountain Lion
+Walking Pigs
+Flaming skull
+Dire snapping turtle
+Invisible Stalker
+Set Guards
+Set animals
+Several Set guards
+Sheep-headed Critters
+# Fragments / Scaffold to demote
+Again
+The Rescuers
+The Set Cult Strikes Back
+Undead librarian
+clockwork dragonfly
+# Aliases/Titles to avoid linking as entities
+Weird guy who hangs out with baboons
+Broken Head Lankios

@@ -1,0 +1,167 @@
+---
+title: "DFRPG Arden Vul Session 16: Random Scorpion Teleport to the Hall of Judgment"
+tags:
+  - session
+  - recap
+session_id: 16
+in_world_date: Demmasday, 27th of Jelenius, 2993 AE
+---
+# DFRPG Arden Vul Session 16: Random Scorpion Teleport to the [[locations/Hall of Judgment.md|Hall of Judgment]]
+
+Date: 
+Demmasday, 27th of Jelenius, 2993 AE 
+
+
+Weather: 
+
+Hot, dry with a chance of thunderstorms
+
+
+Player Characters: 
+
+[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
+[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
+[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
+Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin)
+Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva)
+
+
+Significant NPCs:
+
+3 undead rats
+2 ghouls
+Small ball-shaped rolling demon
+[[npcs/Gerrilad.md|Gerrilad]], Half-Elven druid
+[[npcs/Sisko.md|Sisko]], giant 4-armed intelligent baboon
+[[npcs/Trefko.md|Trefko]], giant 4-armed intelligent baboon
+Many large albino baboons
+2 large crocodiles
+Some kind of goo creature
+[[npcs/Njal.md|Njal]], Wiskin jailer
+[[npcs/Samantha the Red.md|Samantha the Red]], Archontean fighter prisoner
+[[npcs/Tresti.md|Tresti]], Half-Elven wizard prisoner
+[[npcs/Gwelf.md|Gwelf]], crazy Dwarven thief prisoner
+[[npcs/Jost.md|Jost]], Thorcin barbarian prisoner and member of Dalton's Darlings
+Many stirges
+Several giant centipedes
+[[npcs/Dalton.md|Dalton]], Archontean fighter and leader of Dalton's Darlings
+[[npcs/Jason.md|Jason]], [[npcs/Helga.md|Helga]], Heliagabulus, Isisor, and Yvette: Dalton's Darlings
+
+
+With Vael still not back from Newmarket and Uvash still busy trying to set up a new church, the Right for Riches company hired two mercenaries, Thronebreaker and Chrysalis.  After some brief ritualistic discussion about killing Plumthorn's halflings, they decided to go down the less traveled steps into the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] and use the Scorpion teleporter, even though they were not sure where it would take them.
+
+They bought a wheelbarrow full of food as trade goods, and walked all the way to the Cliff Face, then climbed all the way up the [[locations/Long Stair.md|Long Stair]] to the ruins of Arden Vul, and reached the Pyramid of [[npcs/Thoth.md|Thoth]] with no significant encounters.  They pushed both of the statue's arms straight up to open the less-used entrance, and didn't even bother spiking it open.  They proceded down the dusty stairs, past corpses they had already looted, until they reached the area where Vallium thought the slide trap was.  At that point Ioannes suggested tying a rope around Vallium, so that if he triggered the trap he would not fall very far.  However, Vallium managed to jump over the trap without triggering it, and the others followed.  They proceded down the stairs, over the closed lid over the Pit of Bones, and over to the probably-false door that they knew would open the pit.
+
+While listening to the door Just In Case, Chrysalis heard what sounded like the skittering of rats above.  Everyone got into ambush position, and put away their light sources since the room was adequately lit by orange Continual Light.  Three undead rats and two ghouls ran into the room, and were not surprised.  They were no match for Vallium Michael, and Chrysalis, though, and the fight was over pretty quickly.
+
+There was some discussion of having Thronebreaker destroy the false door, but someone mentioned that the pit might not open if they broke the mechanism, so instead they opened the false door (which opened the pit lid), then smashed the wall behind it.  This made a dent in the wall but did not reveal anything interesting.  At that point four of them held a rope and lowered Vallium down 25' into the pit.  He didn't find any enemies, just bones, so Michael lowered each of the others in turn.  As the last one in the room above, Michael tied the rope to the doorknob of the false door, then climbed down the rope, while Vallium prepared to catch him if necessarily.  Michael executed both the knot-tying and the rope climbing successfully, so there was no catching necessary.  However, this did cost the group a rope.
+
+After a quick look through the bones at the bottom of the pit in case they missed any treasure, Vallium went east into the room with the scorpion statue.  As expected, one of the small spherical demons immediately came out of the black gate to attack.  Since it was expected, the ambush attack failed, and it was a five-on-one fight.  The demon got thoroughly chopped up, and then the group proceeded together to the scorpion statue.  Wary of possibly being teleported to different places, they all held hands and tried to grab the scorpion's tail together.
+
+They teleported -- and ended up in a placed they had never before entered but had looked into from afar, the Hall of Judgment near the bottom of the [[locations/Well of Light.md|Well of Light]].  The half-elven druid they had spotted before was standing in front of a giant throne that looked like it had been curved from a single ruby gem.  Once again he was torturing and questioning a prisoner manacled to a post, but this time it was a muscular redheaded woman.  The druid was flanked by two giant four-armed baboons, and several smaller (but still large, about man-sized) albino baboons were watching the show.
+
+Vallium engaged the nearer of the giant baboons.  He quickly cripped one of his arms with an accurate sword cut.  Michael heaved a boomerang, but it was dodged.  Chrysalis used Flurry of Blows to achieve super-half-elven speed, and charged the druid.  Thronebreaker attempted Intimidation, and caused the smaller baboons to hesitate to join the fight.  Ioannes moved up to cast a Shield spell on Michael.
+
+The giant baboon engaged Vallium, but got its huge punch parried and another arm badly injured.  Michael drew his sword to helm, as Ioannes started casting Flaming Weapon.  Thronebreaker ran forward, slowly, to help the prisoner.  Chrysalis started smacking the druid around with her staff, interfering with his attempts to cast spells and direct his minions.
+
+Quickly, the druid was knocked unconscious and one of the giant baboons was down, with a couple of crippled arms and a crippled leg.  This caused the other giant baboon and all the smaller baboons to break and run.  Vallium and Michael then gradually hacked the wounded giant baboon to bits, repeatedly crippling limbs and stunning him until he was all out of arms and legs.  Then Thronebreaker smashed the prisoner's manacles, while Michael cut the bonds around her ankles.
+
+A door opened to the east, and a man charged in, wearing mail and holding an axe and shield, to help save his boss.  Unfortunately for him, with the druid and one giant baboon down and the others fled, he was a bit late and running into an unfair fight.  He took several hits, got knocked down, and then was killed with a blow to the skull from Chrysalis.
+
+Freed from the torture post, Samantha the Red walked over to the ruby throne and hit a hidden stud that she had seen the druid use before.  A hidden pit opened to the southwest, and another to the southeast.  She went to pick up the evil druid and throw him in the pit, but someone asked if they should keep him alive for questioning and someone else said they should at least take off his armor first since it looked magical.  Samantha pretended not to hear the first request but acknowledged the second.  She rolled her eyes, then helped strip the druid.  Once all his gear was off, she picked him up, walked over to the pit, and threw him in.  There were two large crocodiles in the pit, and they were apparently not very trained, as they cheerfully ate their unconscious master.  An inhuman voice echoed out "The Thrice-Born Lingust!", and nobody was quite sure what that meant.  They looked in the other pit, and there was some kind of goo creature with tentacles inside, so they didn't look closer.
+
+Samantha thanked the group for rescuing her, then pointed at the dead guy and said "that's Njal; he was the jailer."  She pointed to the door he came through and said "the cells are over there and there are three other prisoners."  Chrysalis ran in and started looking for loot in the jailer's room.  Vallium had Gerrilad's keys, and used them to unlock three cells and release Tresti the half-elven mage, Jost the Thorcin barbarian, and Gwelf the apparently insane dwarf, who was running around his cage singing silly dwarven drinking songs.  Once released, Gwelf immediately ran to the jailer's room, found the barrel of food, and ate several meals of it, then ran behind the throne and started scooping up coins from a large pile there.  Not wanting to be outdone, everyone else started scooping coins too.  There were three backpacks in the jailer's room, and three of the former prisoners each took one and filled it with coins.  When they were done picking up the coins, they saw an inscription in Mithric on the floor under where the pile had been.  Ioannes thought it said something like "Speak the Secret Name and Claim Your Reward."
+
+The prisoners looked to their rescuers for help getting out, but the rescuers explained that they'd teleported in and didn't really know the way out, but maybe they could get up the Well of Light with Apportation if they had to.  (Neither Ioannes nor Tresti had Levitation.)  While everyone discussed what to do next, someone noticed that Gwelf was gone, and the door to the northeast was open.  Everyone eventually went that way, then west down a corridor, then south then west some more.  Eventually they found some stairs, but they went down rather than up.  There was also a closed portcullis to the west, with a lever next to it.  There were some closed doors around, but someone advised not opening closed doors, as they didn't want any more fights if they could avoid them.  Chrysalis went off exploring on her own, and ran into 6 baboons.  They mobbed her, and she retreated while occasionally smacking one with her staff, while the others rushed over to help.  By the time the rest of the group arrived, one baboon was badly hurt and the rest realized this was not the easy fight they wanted, and ran away.
+
+The group decided to take the stairs down, and found a closed portcullis.  Beyond the portcullis was a room with 3 levers, about five yards out of reach.  Vallium asked if Ioannes could use Apportation to move the lever, but with his low magical aptitude and high number of active Bless spells, he didn't think the odds were great.  Tresti stepped up and said she could give it a try, and managed to move the lever.  The portcullis opened.  A passage lead east, past the fresh corpse of a dead adventurer, which was quickly looted of a few coins and potions.  Continuing further east, everyone saw that they were in territory they recognized, northwest of the Glory of Thoth.
+
+Jost revealed that he knew another exit that Dalton's Darlings used to smuggle treasure out past the halflings, and that maybe they should go that way rather than giving the halflings a cut of all these coins.  Everyone agreed.  Jost led them east, then north.  He then said "watch this" and walked right through the eastern wall.  The others followed him through the illusory wall, into a room with a spiral staircase up.  At the top of the stairs, Jost indicated that everyone needed to run south and look out for stirges and giant centipedes.  Jost protected Tresti and casually knocked a strix out of the air with Njal's axe, as everyone ran south.  They then ran past several giant centipedes and up some stairs, emerging from a ruin just west of the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].
+
+Shortly after coming out of the ruin, they spotted another group of adventurers approaching.  When Jost saw them he was thrilled, as they were his friends, Dalton's Darlings.  Jost ran forward to embrace Dalton, who had assumed he was dead.  After the reunion, Dalton invited everyone over to the Sign of the Broken Head for a drink, while Jost relayed the story of being captured by Gerrilad and his baboons and kept in their jail in his west Thorcin hill accent.  Jost stayed with Dalton's Darlings, while the Right for Riches company took Samantha the Red and Tresti back to [[locations/Gosterwick.md|Gosterwick]].
+
+
+GM's Comments:
+
+My Internet had gone down during a power outage the night before and was not back up by game time, so I ran this session using my phone as a hotspot for both FoundryVTT and Discord voice.  Ugh.
+
+I was a bit surprised when the players decided on the random scorpion teleporter as their best option, and when I rolled "Hall of Judgment" I thought they might be teleporting into a TPK.  Gerrilad, 2 giant baboons, 6 large baboons, and Njal was not an easy fight, and teleporting in meant they had no line of retreat.  They had a few things in their favor, though.  One, they had brought 4 front-line fighters, an unusually tough group.  Two, Gerrilad was in the middle of a questioning session and was not really ready for a fight.  Three, Njal was in his own room and had to make a hearing roll then get his gear together before he could join.  Four, Thronebreaker has a ridiculous Intimidate skill, which came in handy for scaring away some of the baboons.  Five, and probably most critically, my GURPS conversion of the giant 4-armed baboons did not give them the Striker advantage.  My advice to big strong monsters with hands but no Strikers is to learn how to use a club.  It could save your arms! 
+
+Almost every GURPS mage has Levitation (super useful spell, and cheap to cast if the target is light enough, with the only prerequisite being Apportation, which is itself useful), yet somehow none of the four mages in this group had it.  To be fair, only Tresti was a full-time mage; the others were all dabblers.  And she's an NPC converted from an AD&D module, so she kinda has an excuse of not really being optimized in GURPS.  Still, embarrassing.  Luckily they found another way off the level besides flying up the Well of Light, and so didn't have to fight their way through an entire Planet of the Apes sequel.
+
+
+Achievements:
+Prison Break: 1 XP for saving Samantha, Tresti, Jost, and maybe Gwelf.
+
+XP:
+Exploration: 15 new locations, good for 1 XP
+Loot: Gerrilad's stuff, Njal's stuff, stuff they found on a dead body, a whole pile of coins: good for 1-2 XP depending on how much of the magic they sell
+Achievements: 1 XP
+Total: 3-4 XP 
+
+Next Week:
+
+Jost showed them a new entrance to the Halls, so maybe they'll try going back that way.  Or maybe they'll play Scorpion Teleporter Roulette again, as it's worked three times in a row.
+
+2025-06-30
+DFRPG Arden Vul: Mid-2993 Summary
+It's the end of Jelenios, halfway through the year 2993 AEP, so it's time for a quick summary of the state of the DFRPG Arden Vul campaign.
+
+Number of sessions: 16
+
+Number of players: 8
+
+Number of PCs: 10
+
+Cheese and Crackers / Right for Riches / Left for Loot members: 5
+Grudge Brigade mercenaries: 5
+Number of PCs killed: 0 (!)
+
+Highest PC point total: 179 (Ioannes)
+
+Entrances to the Halls of Arden Vul found and used: 7
+Pyramid of Thoth, statue arms forward, stairs to Glory of Thoth
+Plumthorn's halflings may no longer allow entry
+Well of Light
+Over 200' down, requires magical flight or a lot of rope
+Pyramid of Thoth, statue arms up, stairs to pit to Scorpion teleporter
+Teleported to Great Hall
+Teleported to Gog's Cave
+Teleported to [[items/Ruby Chair.md|Ruby Chair]]
+Beastman secret entrance from Long Stair to [[locations/Great Cavern.md|Great Cavern]]
+Cistern leading to tunnels to Howling Caves
+Tunnel plugged using Shape Earth, may no longer be usable
+Underwater tunnels behind waterfall plunge pool
+Found using Water Vision spell
+May require super-human swimming or water breathing to survive
+Ruined basement to hidden staircase northwest of Glory of Thoth
+Found by Dalton's Darlings, secret shared by Jost
+Entrances to Halls of Arden Vul rumored but not yet explored: 1
+Basket up the Cliff Face west of the Swift River to the [[locations/Forum of Set.md|Forum of Set]]
+Arden Vul Iconic Locations found: 8
+The Pyramid of Thoth
+The Glory of Thoth
+The Well of Light
+The Great Hall
+The Great Cavern
+The Great Chasm
+The Howling Caves
+The Archon's Palace of Arden Vul
+NPCs Rescued from the Halls: 5
+Klisko
+Versania
+Samantha the Red
+Jost
+Tresti
+NPCs Who Mysteriously Disappeared While Being Rescued from the Halls: 1
+Gwelf
+Largest Enemy Killed:
+Giant Snapping Turtle (SM +4)
+Largest Enemy Appeased:
+Craastonistorex, Green Dragon (SM +5)
+Smallest Enemy Killed:
+Bees (SM -10)
+Smallest Enemy Appeased:
+Plumthorn's Halflings (SM -2)
+
+2025-07-05

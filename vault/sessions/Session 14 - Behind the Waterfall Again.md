@@ -1,0 +1,116 @@
+---
+title: "DFRPG Arden Vul Session 14: Behind the Waterfall Again"
+tags:
+  - session
+  - recap
+session_id: 14
+---
+# DFRPG Arden Vul Session 14: Behind the [[locations/Waterfall.md|Waterfall]] Again
+
+Date: 
+
+Demmasday, 13th of Jelenius, 2993 AE
+
+
+Weather:
+
+Cool, overcast
+
+
+Player Characters:
+
+[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
+[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
+[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
+Ashe "GOAT" Maykum, Goblin mercenary druid (Sharp Frank)
+Sister Valya "Basilisk", Halfling mercenary martial artist (Archon Shiva)
+
+
+Significant NPCs:
+
+Dire snapping turtle
+[[npcs/Lytta - Versania.md|Lytta / Versania]], dirty starving crazy woman with a giant magic belt
+[[npcs/Camilla.md|Camilla]], summoned goat
+Additional summoned goats
+Summoned bat swarms
+Summoned large manta rays
+Summoned boars
+Large statue with hammer hands
+6 Rock Elementals
+[[npcs/Vivian.md|Vivian]], Thorcin chief priest of the Temple of Demma in [[locations/Gosterwick.md|Gosterwick]]
+[[npcs/Jador the Just.md|Jador the Just]], Wiskin chief priestess of the Temple of Mitra in Gosterwick
+
+
+Vallium and Uvash took a week-long trip to Newmarket.  While there, Vallium saw the town and did some carousing for rumors.  Uvash met the Priest of Zodarrim, Gedric Malachite, who warned him to be wary of dopplegangers.  When they returned, Ioannes told them about the trip he had taken with a couple of the Grudge Brigade mercenaries, behind the plunge pool of the waterfall beneath the Cliff Face leading to Arden Vul.  They decided to revisit the area behind the waterfall, to try to kill the giant turtle that had attacked them and rescue the starving crazy woman they had met there.
+
+Getting behind the waterfall safely required some swimming or fish summoning magic, so they hired GOAT the druid again.  GOAT was very interested in getting a good look at the giant turtle, to see if he could summon more like it.  They also brought along Basilisk, the tiny halfling martial artist.  The night before leaving, Ioannes Blessed everyone and made some Continual Light rocks.  They headed out toward the waterfall early on Demmasday morning.  When the reached the vicinity of the waterfall, Vallium and GOAT spotted some lizardmen climbing down the cliffs west of the waterfall, but they were too high up to be a threat.
+
+GOAT summoned three large manta rays to tow people underwater, and cast Swim on Uvash and Water Vision on Vallium.  Vallium was wearing a Ring of Free Action, which allowed him to pass through the water unnaturally quickly.  Everyone went quickly underwater through the western tunnel behind the waterfall, and emerged in the underground grotto.  The giant turtle was nowhere to be seen, so Vallium went to the side cave to the east and, with his Water Vision, saw the giant turtle there, at the limit of his Continual Light.  The turtle saw Vallium's light at the same time, and charged at him with its mouth open.
+
+A furious fight ensued at the surface of the water.  Vallium fought the turtle while swimming.  He parried its bite and it retreated and dodged his attempt to stab its huge eye.  Meanwhile Basilisk jumped off a manta ray onto the wall of the cavern, where she clung while making repeated stunning kiai screams at the turtle.  Another manta ray charged at the turtle and tried hitting it with its tail barb, but failed to penetrate the tough hide on its flippers.
+
+The battle was a standstill for several seconds, with Basilisk repeatedly stunning the turtle and preventing it from attacking, then the turtle shaking off the stun and managing to dodge Vallium's blows.  Finally Basilisk unleashed a particularly vicious kiai that stunned the turtle for a longer duration, and Vallium managed to stab it deeply through the eye and into the brain.  This was not quite enough to kill the huge turtle, but it did knock it unconscous, and Vallium fatally stabbed before it could recover, and then stabbed it several more times just to be sure.  After it was dead, the GOAT inspected the remains of the turtle, and sadly decided it was some kind of magical dire animal rather than just a large natural animal, so he did not have the power to create more like it.
+
+With help from the manta rays, the group pushed the huge corpse of the turtle west toward the huge statue of Arden and the underwater stairs heading north.  During the operation, Ioannes spotted something on the bottom that he thought might be magic, so he asked Vallium to dive for it.  Vallium pulled up a brooch.  At that point they decided it would make sense to search the whole grotto for valuables.  The Swim spell had expired, so the others rested on relatively dry land while Vallium swam around with the help of his magic ring and Ioannes let a manta ray tow him while he looked for magic items.  They ended up pulling up a silver scroll case, a shortsword tightly wrapped in a bear skin, a small statue of a discus thrower, two small silver tokens with Arden on one side and "Now she must be defended" in Mithric on the other, a small pot of silver coins, a helmet, and an ivory coffer with some candles inside.  Eventually they didn't find any more treasure for a while, and decided it was time to proceed north up the stairs.
+
+The rays towed the group underwater and up the stairs until they emerged into breathable air.  The GOAT had a hard time maintaining the large summoned rays in the unnatural dungeon environment, so dispelled them after everyone was ashore.  He then immediately summoned some boars and bat swarms, which were smaller and easier to keep around.  The group headed north and east, then through an open doorway to a foul-smelling graffiti-covered room.  The crazy smelly starving woman wearing the huge belt was still there, hiding behind a table.  She was generally hostile until Vallium offered some food, then ran up to grab it.  She told them a rambling story about a small, non-demonic turtle that had crawled up the stairs with food strapped to its back, then disappeared but left her the food.  Unfortunately no more food-bearing turtles had appeared since, so she had had to return to the edge of the water to catch fish, and she had spotted the giant demon turtle still lurking in the grotto waiting to get her.  GOAT offered her a deal she didn't believe: killing her enemy the giant demon turtle and giving her all the turtle meat she wanted and a trip back to town, in exchange for her belt.  She didn't believe they could kill the turtle since it was huge and also a demon, so countered with a demand for five more rations and also a birthday cake.  (She'd missed her birthday in the cave so someone owed her some cake.)  Vallium gave her the rest of his rations, but they said they didn't have a birthday cake with them and she'd have to come back to town for that.  GOAT also claimed the turtle was dead and she should come see.  The woman didn't believe him, but ran west then south, then into the large Continually Lit room with the pillars, then opened a secret door that led into the head of the statue of Arden.  From her perch in the statue she looked down at the grotto and saw the dead giant turtle.  She then ignored the group as she repeatedly dove into the water, cut some meat off the turtle with her knife, and hid the meat in some corner of her lair.
+
+While the woman was storing away turtle meat, the party explored west, toward a locked wooden door they had not unlocked last time.  Nobody had any lockpicks, or the key, and they didn't have Vael and his Lockmaster spell along, so after listening at the door and hearing nothing, Vallium gave it a good kick.  The door didn't open, so GOAT started sending his boars charging at it.  One boar suffered a fatal head injury, and a second boar injured itself to the point that GOAT dispelled it, but eventually the third boar managed to smash the door down.  Behind the door were some stairs, eventually leading up to another locked door, this one stone.  The door had a small slot next to it.  Ignoring the slot, GOAT cast Stone Shape on the lower half of the door and created a hole big enough to crawl through.  (Or for Basilisk to walk through.)
+
+Peering through the hole in the door revealed a room containing a large statue of Arden holding two hammers instead of a spear, and a bunch of corpses on the floor.  Most of the bodies were human, but a couple were lizardmen, and one was some kind of large clockwork spider.  They all showed signs of extreme blunt trauma.  GOAT was very tired after shaping the worked stone, so all the spellcasters called a rest to get their energy back before entering the room.
+
+Vallium crawled in, and a voice started yelling something in Mithric.  Ioannes translated it as "present signs of your fidelity and you shall pass."  There were slots on the inside of the wrecked door too.  Vallium checked to see if they had anything that fit the slots, and the tokens with Arden on them that they'd found in the grotto looked like they might, so he slid one in.  The voice silenced.  The door made some clicking noises, but had been too managed to open, so they all had to crawl through the hole they'd made in it.
+
+The statue with the hammers looked menacing, but didn't move.  Vallium and the summoned animals eyed the statue, just in case, as the rest searched the bodies.  They recovered a knit cap that Ioannes thought looked magical, several shortswords, a ring, a scroll case, and a few coins.  There were also some shields that looked usable, but Ioannes thought they were too much bother to take.  They also investigated the spider construct, which looked destroyed, and had some empty storage compartments and no obvious weaponry beyond its clockwork spider legs.  There was a wooden door on the north wall.  Fortunately, this one was unlocked.  It led to a lot more stairs up, apparently enough to lead to a new level, so after a bit of climbing they decided to turn back and continue exploring behind the waterfall.
+
+They went back down the stairs, past the scary hammer statue.  The disembodied voice went off again, warning them to present signs of their fidelity to pass.  Not sure if it was really needed, Vallium put the Arden token in the slot again, silencing the voice.  Everyone then crawled through the hole in the southern door.
+
+They went back down the stairs, north and east past the crazy woman's room, as she continued stowing bits of turtle meat in every hiding place she could think of.  They turned north again, crawled over a barricade and a bunch of old bodies that they looted on their last visit, and reached closed doors to the north and east.  They listened at both, heard nothing, and decided to go east.  The door was unlocked and led to a large room.  It had an amazing 25' tall vaulted ceiling, beautiful teak wainscotting, and twenty large and well-crafted states of various ancient Archontean lumarnies.  Everyone recognized a few of the states, like Arden and Vul and Marius Tricotor.  One of the states had been smashed beyond recognition for whatever reason, and there was an ancient female corpse next to it.  Ioannes inspected the body and saw that whoever she was had died a violent death, with multiple horrible fractures.  The non-smashed statues looked very valuable, but also very difficult to move, as they were about 10' tall and very heavy.
+
+Inspecting the walls, Vallium spotted a hole in the southern wall about 20' up.  GOAT directed a bat swarm to fly in and check it out, and it returned intact.  Basilisk climbed up next, and walked down the 3' tall hole.  She explored south down a rough passage, with widened to about 5'.  Eventually it reached a crossroads with other cave passages going south and east, and a worked stone passage leading west to some stairs leading up.  There was a sconce on the finished wall to the west, with a silver pendant of a [[npcs/Set.md|Set]] animal hanging from it.  Basilisk absentmindedly pocketed the holy symbol, then west back to the others to report the passages and that one probably led to a temple of Set, without mentioning the holy symbol.
+
+Someone tied a rope to a goat, who scampered up the wall on its second try.  Once the rope was up there, everyone climbed it, and then crawled south down the passage single-file.  At the intersection they continued south.  The passage eventually changed to some kind of strange white material.  GOAT thought it reminded him of insect chitin.  There were horrible burn marks on the walls and floor near the entrance, as though some kind of huge fire trap had gone off there.  There were also a couple of interesting hexagonal shapes farther down the passage, and at the end of the passage was a strange round metal door.
+
+Suspicious of the hexagons, the group stood back while the GOAT sent a summoned goat down the passage.  When it got within about 5' of the strange hexagons, they exploded violently, sending metal fragments everywhere.  The summoned goat was absolutely obliterated.  The others were out of the blast radius, but did have to dodge some stray metal fragments.  After recovering from the shock of the explosion, GOAT sent another summoned goat down the passage.  Nothing else exploded, and it made it to the door.  The party carefullly walked up to inspect the door.  It was round, and metal, and expertly crafted.  There was no obvious handle.  They didn't hear anything when they listened at it.  There was a raised spot on the wall next to the door, but it did not contain any writing or symbols or a keyhole.  Vallium touched the panel with his armored hand, but nothing happened.  The door looked too strong to bash down, so they decided to come back when they had more ideas or a wizard with a Lockmaster spell.
+
+The group turned back, then turned east to a new cave passage.  It led to a room with some stalagmites and stalactites, which glittered as though they might contain precious metals.  Nobody saw any obvious large chunks of precious metal to take, though, and they didn't have the equipment to start a mining operation, so they continued.  They went south, and reached another room with glittery ore.  However, this one was inhabited, by six beings that appeared to be some kind of earth elementals, who were chewing on the walls.  The elementals didn't appreciate the interruption, and charged at the intruders.
+
+The party fought back.  Ioannes cast a Shield spell on Vallium.  Vallium and Uvash dodged and blocked and parried several blocks from large rock fists, and initially failed to injure the rock creatures.  Meanwhile Basilisk climbed up a wall and started using Kiai to stun some of the elementals, and flash nagateppos to try to blind them.  The rock creatures were skilled and tough and punched rapidly.  They smashed a couple of the GOAT's summoned animals, while he made more.  The creatures in the back that did not have room to engage in melee started picking up and throwing large rocks.  After a few seconds and only a few small wounds inflicted on the rock creatures, the party decided they were overmatched, and that it was time to retreat.  Leaving the summoned creatures behind to cover their retreat, they pulled back in good order, then GOAT used Stone Shape to mostly seal up the narrow passage behind them so the elementals could not easily follow, while Basilisk snuck through a small hole near the ceiling.  They heard the sound of pursuit behind them, but the summons and the stone plug slowed down the elementals enough that the party was able to get out of the cave tunnels before the rock creatures caught them, and the elementals did not pursue them down the rope and back into the statue room.
+
+Deciding it was time to head back to Gosterwick, the group rounded up the crazy woman who was still busy squirreling away chunks of turtle meat, and offered her a ride on the back of a tame manta ray out of the grotto, and then to be taken back to town, where they would buy her a birthday cake.  She agreed, and the GOAT summoned some new manta rays to drag everyone against the strong current out of the grotto.  The woman said her name was Lytta, though she didn't seem too certain.  While she had apparently managed to survive in the cave for years, she was clearly not really suited to life in town, so they took her to the temple of Demma.  Father Vivian said the woman needed stronger healing magic than he knew, and recommended Mother Jador at the Temple of Mitra.  Jador took a look at Lytta and said that she had been mentally scarred by her experience living alone in the cave, trying to catch enough fish to survive while avoiding the giant snapping turtle, but could be cured by Mitra's grace.  Jador cast some kind of Cure Insanity spell, and Vallium made a large donation to the temple.  The no-longer-crazy woman thanked everyone involved profusely, and said that her real name was actually Versania.  She was from the big city of Narsileon on the coast, but had been working as a woman-at-arms for a group intending to explore the ruins of Arden Vul.  She had been fooling around near the plunge pool with some other mercenaries and had fallen in, then been sucked into the grotto by the strong current, and had somehow dodged the turtle and made it up the stairs into the dry tunnels.  She had survived there for years since, terrified of the turtle but needing to occasionally come near it and catch some fish to avoid starving.  She had no idea what to do with her life now except that she had no intention to return to Arden Vul or even get too close to Totey Lake.  In the short term she decided to volunteer at the House of the Gods to thank all of the gods for saving her.
+
+
+GM's Comments:
+
+The fight against the turtle was never that scary to the PCs once Basilisk started stunning it every turn with Kiai, but only Vallium was effectively attacking it (a manta ray was trying to help but didn't do enough damage to matter), and the turtle kept dodging.  Poor tactics by the PCs made the fight harder than it should have been, but eventually Basilisk rolled a 3 on a Kiai and I ruled it was an extra-strong Kiai that would stun for at least 2 seconds, and the -4 for stun was enough for Vallium to land an eye shot and knock it out.
+
+I wasn't sure if the PCs would ever get around to fully searching the grotto floor, but eventually they did, and with the turtle dead they had the time they needed to find a bunch of stuff.
+
+Boars do not have as much skull DR as goats, and so are at a bit more risk to themselves when smashing doors down with their heads.  I decided not to bother tracking exact damage to the door, since the GOAT could keep summoning more boars and there were no dangerous wandering monsters nearby so there was no real chance of failure, just a question of how efficiently the boars destroyed the door.  So I had each boar roll 3d6 vs. their Forced Entry default, and one of them rolled an 18 to critically fail and kill itself, and another rolled a 16 to hurt itself, and the third rolled well and broke down the door.  (Note: These were just animal-shaped manifestations of druidic nature force.  No actual animals were harmed in this RPG session.  Well, except the turtle, but that was a dire animal.  Also, it tried to eat the PCs first.)
+
+I found it funny that the PCs tried Stone Shape before they tried sticking small objects in the stone door's slots, but whatever works.  In the end they didn't get hammered by the big stone statue so they must have done something right.  I was not surprised that they turned around when they realized the stairs led to another level, as these players tend to be tidy about trying to finish one area before starting another.  (At least during a session.  Between sessions, they often change goals.)
+
+The hexagonal explosive trap was a legitimate chance for a TPK, as it did absolutely horrible damage if you were right on top of it.  But the damage dropped off quickly with distance and the PCs were smart to send in a summoned goat first, and so it was merely a One Goat Kill.
+
+The fight against the six stone elemental creatures was also rough, but after a few turns of figuring out how tough they were, Vallium called for a retreat and the group managed to get away in good order.  Fortunately for the PCs, those big rock things were slower than them, so once they disengaged they weren't going to get caught.  And the GOATs wave of summons helped by soaking up hits and blocking the way.
+
+Finally, they figured a way to motivate Lytta to come back to town with them (food) and a way to make her give up her magic belt (more food).  And they were generous enough to pay for a Cure Insanity for her, though that was only fair after she traded them a magic belt for a rescue and some food.  Her "seeing belt" was identified as a Belt of Dwarvenkind, which granted Night Vision but also other dwarven traits like extra fatigue points, extra lifting strength, poison resistance, and a very nice beard.  We'll see if the PCs keep the belt for its powers or sell it for the loot XP.
+
+
+Achievements:
+
+The Rescuers: 1 XP each for rescuing Lytta / Versania and curing her insanity
+
+
+XP:
+
+Exploration: 8 new locations, good for 1 XP
+Loot: enough for 1 XP if they kept some magic items, or 2 XP if they sold almost everything
+Achievements: 1 XP for rescue
+Total: 3-4 XP depending on what they sell
+
+Next Week:
+
+Of course there has already been talk about going after Plumthorn's Halflings, but that happens every week and so far they have they always backed down.  They still have unexplored territory behind the waterfall, but they probably only feel safe going there if they have the GOAT and his collection of Aquaman spells.  If not, they might explore the [[locations/Great Cavern.md|Great Cavern]] or the surface ruins.
+
+2025-06-21
