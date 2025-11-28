@@ -1,0 +1,120 @@
+---
+title: "DFRPG Arden Vul Session 3: Dragons and Baboons and Beastmen, Oh My!"
+tags:
+  - session
+  - recap
+session_id: 3
+---
+
+# DFRPG Arden Vul Session 3: Dragons and Baboons and Beastmen, Oh My!
+
+Date:
+
+Demmasday, 28th of Toternios, 2993 AEP
+
+
+Weather:
+
+Cool, overcast, light rain
+
+
+Player Characters:
+
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Michael J Dundee, Thorcin barbarian (Adam)
+Vael Sunshadow, Half-Elven mage (Kyle)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Coinbase Ethereum Thuringwador, Elven Shield Bro (mercenary) (Archon Shiva)
+
+
+Significant NPCs:
+
+Wyvern
+Craastonistorex, green dragon
+Roskelly Winterleaf, halfling underground toll collector lieutenant
+Several halfling toll collectors
+Several large albino baboons
+Two huge four-armed baboons
+Weird guy who hangs out with baboons
+Dwarf prisoner
+Skeleton, possibly of a former member of the Krakteros family
+Pig-headed beastman
+Many Children of Deino (heard but not seen)
+
+
+Before setting off for Arden Vul, Vallium bought a fresh high-quality sweetroll from one of Gosterwick's bakers.  The group hiked uneventfully through the cool and somewhat rainy morning to the Cliff Face.  The waterfall looked a bit less violent than usual, but nobody was certain what effect their meddling with the dam control had.  Vael asked Vallium to push his wheelbarrow up the Long Stair and decided to Levitate instead of walk.  He stayed with the group, however, rather than just zooming straight up and splitting the party.  Nobody slipped on the way up, despite the somewhat treacherous conditions.  The group stopped at the gateway to Arden Vul to discuss a plan, and decided to proceed north to revisit the Pyramid of Thoth.
+
+But as they walked, they spotted a large flying reptilian beast off to the west, coming toward them.  It flew overhead, took a good look, then flew back to the west.  It had the distinctive tail barb like the one they saw before, but this time didn't attempt to drop anything on them.
+
+They continued toward the Pyramid, and then saw an even larger flying reptilian beast approaching, without the barbed tail.  This one actually landed on the Forum nearby.  It was clearly a green dragon, and it was huge, and it was terrifying.  Most of the group was strongly afffected by dragon fear, but chose to freeze rather than flee.  The others also stayed with them.  The dragon introduced himself as Craastonistorex, the apex predator of the ruins of Arden Vul.  He spoke a bit about how he found some adventurers useful, as they went into places too small for him to go, extracted treasure, and gave some of it to him as tribute.  He then mentioned that one of his pet wyverns had spotted some humans and elves and dwarves breaking into the dam the week before, and that soon afterward the water level of the swamp had started to rise.  He asked whether any of those here were among those who broke into the dam, and emphasized that lying might have fatal consequences.
+
+The two PCs who hadn't been there the week before immediately proclaimed their innocence, while those who had apologetically revealed that they had been at the dam.  Craastonistorex asked whether they had been sent to deliberately mess with his swamp, or if they had just been idiots messing with things they did not understand.  Multiple simultaneous confessions of idiocy ensued.  The dragon instructed them to return to the dam, reset the water level to where it had been before, leave notes both inside and outside the dam warning against disturbing the dam again on pain of breath weapon, and to leave some good tribute by the dam.  The group agreed, and the dragon warned them to stay away from his tower to the southwest because his pet wyverns were territorial and sometimes ate anyone who came too close.  He then flew away.
+
+The party kept the first part of the deal, immediately hiking to the dam and resetting the water level.  Vael half-heartedly stuck to the second part of the deal, chalking a couple of brief warnings inside and outside the dam.  They didn't leave any tribute by the dam though, and hiked back to the pyramid.  The three who had entered the pyramid last week explained the way pointing both statue arms forward had opened a passage to stairs down.  Vael said that before they took the same stairs, he wanted to try all the other statue arm settings and see if they found anything else.  Remembering the pits and chutes that playing with the other statue's arms had opened, Vael first cast Levitation and asked the others to back up as far as possible.  He then tried every other setting of the statue's arms.  Pointing them both straight up at the sky produced an interesting result -- the floor panel slid the other way, revealing a different staircase going down into the pyramid in the opposite direction.  The other settings didn't do anything interesting.
+
+Looking down into the new stairs, a couple of people noticed a lack of a handle to open the door from the inside.  That was a bit scary, so they decided to leave some of the group on top of the pyramid to reopen the door.  Ioannes went down the stairs alone a bit, and saw that these stairs were much less worn than the other ones, that there were pictures of various animals (hippo, crocodile, ibis, baboon, giraffe) on the front of the stairs, and that there were some corpses on the stairs.  Also, one of the corpses was wearing leather armor that looked magical.
+
+The corpses and lack of an obvious exit said stop, but the magic armor said loot, so the group descended on the bodies.  Ioannes tried to diagnose cause of death and saw multiple causes: some gnaw marks, some cut wounds, and some blunt trauma.  They decided not to go down these stairs today, but grabbed all the visible loot and dragged it to the top of the staircase, then left most of it there to grab later.  They instead reset the statue's arms to face forward and reveal the staircase they took last week, which didn't feature corpses.
+
+Plodding down the stairs, they found the room at the bottom of the first staircase still had the orange Continual Light glowing.  Magery didn't pick it up as a permanent enchantment though.   They continued down the second staircase, and eventually emerged in the room with the statue of Thoth with the offering chest.  The halfling toll collectors noticed them, came out to greet them, and saw two new party members who had not yet purchased Adventuring Licenses.  50 silver pieces later, Coinbase and Michael each had a dull brass token giving them permission to adventure in halfling territory as long as they paid a tithe of 10% of treasure found.  Vallium produced the sweetroll he had purchased early that morning in Gosterwick and gave it to Roskelly, the halfling lieutenant, as a gift.  Roskelly seemed surprised, but took it.
+
+Once the halflings went back to their portcullis, Vallium wanted to play with the statue of Thoth in the entry room.  They had tried coins and a scroll before, but he remembered that Thoth liked light, so he put a Continual Light stone and some coins in the offering chest and then manipulated the statue's arms.  This did not produce any obvious effect, and he took his rock and coins back.
+
+Vael cast Seek Earth, looking for gold then silver.  The nearest gold was to the east, behind the halfling portcullis.  The nearest silver was southwest, which seemed more promising.  Rather than heading directly for the silver, the group decided to explore the indoor triangular pyramid, also to the southwest.  The walked through the gray-green mist, past the Magic Mouth illusion that said something in a language they didn't know, and up to the pyramid.  This time they climbed to the top.  There was a small trangular platform there, surfaced with lapis lazuli, and with an aged but not rusted metal lever on top.  After some discussion, Vael cast Levitation, asked everyone else to step back, and pushed the lever down while floating a few inches above the pyramid.  Nothing happened.  Next Michael pushed the lever while standing on the platform -- and disappeared!  After a bit of discussion the other four also hit the lever, two at a time, with Vael this time standing on the pyramid.
+
+All five of them ended up standing on an almost identical pyramid, with the same platform on top, but no lever this time.  They climbed down, left the room to the north, and realized they were definitely in a different spot as the room had a mosaic (of the same triangular pyramid) on the floor, along with a couple of corpses.  There was a message on the wall in blood: “They are deterred by light. We should restore the well!”  They looted the corpses, with Vallium taking and putting on some scale armor.  The only remaining exit from that room led to an east-west hallway, with light in both directons.  They went east, and found a bunch of mirrors along the hall, most of them stationary, a couple mobile.  They also saw a thin shaft of daylight ahead.  They took a hallway to the southeast and found a little room with some benches facing a yellow circle on the wall and some Mythric writing saying “The Light Must Be Guarded Against the Impious.”
+
+Going back to the northeast to investigate the daylight, they saw that it was the bottom of a 5' wide mirror-lined shaft leading up into the distance.  Below the shaft was a smelly pile of mud and dung, covering something.  Vael thought he recognized the mirror-lined shaft, and looked around for the Continual Light rock he had previously dropped.  He didn't find any glowing rock, but he did find a rock that might have once had Continual Light cast on it.  As the group discussed trying to uncover whatever was under the muck, they heard some hoots and shrieks to the north.  Someone was getting beat up.  They decided to investigate, but carefully.  They put away their light sources and sneaked forward.  Far to the north was a bizarre scene: a huge room, containing a throne that appeared to be made of red glass, a bunch of large albino baboons, and couple of huge four-armed baboons, and a man torturing a dwarf prisoner, asking about how he found the entrance, while the baboons cheered him on.  Considering the odds, the group decided to leave the dwarf to his fate and retreat to the south.
+
+After some discussion about possibly Levitating up the mirror shaft or possibly exploring more of this area, the group decided to finish digging through the muck first.  Underneath was a huge mirror, and when they uncovered it the room lit up brightly.  The light reached some of the other mirrors, which could be manipulated to direct light around the area.  However, doing this caused the sounds of baboon hooting to become louder.  The group decided to Levitate everyone up the Well of Light before the baboons got over their fear of the light and attacked.  They ran back to the room with the corpses, grabbed all the loot they could carry, then Vael Levitated everyone up the shaft.  He wasn't confident in being able to maintain five Levitation spells at once, so they split the party, with Vael taking two people up (slowly, taking alternating Concentrate maneuvers to move one of them at a time), coming down alone, then taking the other two up.  Fortunately, the baboons had not found the courage to charge into the brightly lit room until the party had escaped.
+
+Vael remembered something the dragon had said about baboons to the east, and decided he should investigate a bit to the east, thinking maybe the baboons had an entrance to the surface.  A dry fountain revealed the huge marble probably-feminine arm of a broken statue, which interestingly appeared magic, but seemed too heavy to take, so they left it there.  He cast Seek Earth a couple more times looking for gold and silver, and found gold west under the pyramid, and silver west under the Well of Light.
+
+The group decided to go back down the stairs into the Pyramid of Thoth again.  First they used the statue to reveal the scary stairs and stashed more loot there, then they went down the safe stairs back to the halfling room.  They weren't eager to reveal to the halflings that they had an alternate exit, but failed to sneak past them, and told Roskelly a story about a trap that ended up depositing them outside in a way they totally couldn't repeat.  They weren't sure if Roskelly bought it, but a quick pat-down revealed no hidden treasure, and the party was coming in not going out, so the halflings let them go to explore.
+
+This time they went back to the nest of the giant rats they defeated last week, hoping to find more treasure they had missed.  The nest was empty, but as they explored north they found one burial niche that was still plugged closed, apparently not looted.  It was about 12' up, so Vael Levitated Michael up.  Michael wiped the soot off the niche plug and found both an image of ibis-headed Thoth with his left arm forward and his right arm down, and a sigil of a tower with light shining out of one window.  Several people recognized this as the symbol of the Krakteros family, one of the five leading families of the empire.  Undeterred, the group decided to smash the plug open, but nobody had a crowbar and Michael didn't have any weapons he wanted to risk breaking.  Coinbase, however, had an orichalcum shield that was probably unbreakable, so Vael Levitated the elf up next to Michael, and Coinbase started smashing his ridiculously expensive shield into the tomb plug, treating it like a crowbar.  The shield withstood the damage fine, and the plug eventually broke.
+
+The animated skeleton behind the plug had ample warning and was waiting with its shortsword drawn to ambush the tomb robbers, but Coinbase critically succeeded on his Perception roll and the skeleton failed its ambush attack.  Coinbase tried using Rapier Wit to stun the skeleton with some pseudo-financial babble, but the skeleton appeared immune to such nonsense.  The skeleton tried to stab Michael, but Coinbase sacrificially blocked the blow.  Michael smacked the skeleton hard with his sword, Vael lowered Michael to the ground, and the others waited below, unable to reach the skeleton.  The skeleton next attacked Coinbase, who blocked again with his shield.  Michael fast-drew his boomerang and winged it at the skeleton, breaking some ribs.  Vael lowered Coinbase to the ground, and now the skeleton had no enemies within shortsword range.  The skeleton bravely jumped to the ground to pursue its enemies, and made its default Acrobatics roll to avoid taking any falling damage.  However, that meant it was outnumbered five to one.  Coinbase blocked the skeleton's last attack, while Vallium and Michael raced to smash it to bits.  The skeleton parried Vallium's attack, but failed to block Michael's, which knocked it below -HP, which was automatic destruction for the Unnatural skeleton.
+
+With the skeleton in pieces, Vael floated Michael back up to loot its niche.  There Michael found a green necklace (with the same Krakteros tower symbol that had been on the niche plug before Coinbase smashed it) and three small black spheres.  He brought them back down for inspection, and Vael used his Merchant skill to say the necklace was jade and the spheres were black pearls and that all were valuable.  The skeleton's shortsword also appeared to be high quality.  After grabbing all the loot, the group went back to the south.  This time they headed east, triggering first the Magic Mouth in an unknown language they'd heard twice before, then a second Magic Mouth in Archontean mocking Thoth and his worshippers.
+
+Spotting a wooden door leading south, Ioannes first listened at it.  Hearing nothing, Vallium opened it.  A stone passage led south to another door, where they repeated the process.  The next room contained a makeshift wooden barricade, with doors to the south and east.  There was a halfling head on a spike in front of the south door.  Vallium went that way to check it out, and stepped on a spike trap crossing the barricade.  Fortunately, it was a glancing blow, and his newly-looted scale armor prevented any real damage.
+
+Wondering who put a halfling head on a spike, but generally in favor of the idea, the group continued south.  They went past a door on the west wall, turned east past a line of slits in the north wall, and looked through a pair of large double doors, which were slightly open.  There was a large room beyond, extending past the range of their Continual Light stones.  As they started to enter the room, a horn sounded from behind the slits to the north.  A few seconds later, some drums replied form the east.  Not sure exactly what they were walking into, the group decided to retreat.  However Vael could not resist peeking into one of the slits, and found himself face-to-face with a 4' tall pig-headed beastman.  They were both surprised to see each other at such close range, neither attacked, and Vael quickly stepped to the side.
+
+Not wanting to return to the surface yet, Ioannes listened to the previously bypassed door to the west, then Vallium opened it and stepped inside.  He didn't see the deadfall trap above the door, which dropped several large rocks on him.  Fortunately they were just painfully large rocks, not fatally huge rocks, and his armor somewhat reduced the damage.  A corridor led west, with exits north and south and an open door further to the west.  Beyond the open door was a room with a chest against the back wall.  Everyone was suspicious of the chest, but nobody could resist investigating it, so the group entered the room.  Vael got about five yards from the chest to have a decent chance of casting Apportation, then remotely opened the lid.  The chest was empty, but it had served its purpose of luring the group into the room, as someone behind them slammed the door shut then barred it from the outside.  They were trapped, by someone unknown.
+
+There were more horn noises, and after a few minutes and the sound of a lot of shuffling feet, a voice was heard from the other side.  Who were they, were they allied with the halflings, and why were they in the territory of the Children of Deino?  The group explained that they were adventurers, they had met and been extorted by the halflings but were not their allies, and that they had not deliberately invaded anyone's territory.  The unseen speaker paused a bit, then said this trespass would be forgiven the first time, but that future visits needed to be announced and permitted, no sneaking around their territory allowed.  He then stated that the group should listen for the door to be unbarred, wait 30 seconds for the Children of Deino to leave the area, then proceed immediately out of Children of Deino territory back to the north.  Remembering a rumor about pig-headed creatures kidnapping a cleric and a reward offered for her recovery, Vael asked if the unseen speaker knew anything about a priestess of Mitra named Lillian and offered to pay for her safe return.  The voice hesitated, then said they currently held no such priestess captive.  Vael tried again and got no more information.  The party complied and left without violence.  On the way out, they grabbed the spike with the halfling head.
+
+They took a new passage to the northeast toward the halflings, and spotted a fresco of a baboon.  Remembering a rumor about a baboon picture, they searched the fresco for secret doors, and found one.  A few minutes later they figured out how to open it, and saw that behind the secret door were some stairs leading down.  They didn't go down the stairs, and closed the secret door.
+
+Returning to the halfling territory, Coinbase gave the halfling head on the spike to Roskelly and said that should be enough tribute.  Roskelly passed the head to another halfling and said to bring it to Plumthorn, then said no and demanded to see the treasure.  Vael, having hidden the pearls and necklace, said the only treasure they found was the shortsword.  Roskelly said that since you couldn't usefully split up a shortsword, 10% of a shortsword was the whole shortsword and to hand it over, but Vael protested that they should really only have to pay 10% of the price of a shortsword, and offered 40 silver pieces.  Coinbase couldn't resist negotiating and said it was a used shortsword and so it should be more like 16 silver, but then Roskelly went back to asking for the whole sword, and Vael (who knew it was actually a pretty nice sword worth more than the usual), handed over the 40 silver before the halflings got too suspicious.  The halflings performed a quick pat-down search but didn't find the hidden gems or jewels, and the group returned to the surface, then made it back safely to Gosterwick.
+
+GM's Comments:
+
+Well that was a whirlwind session.
+A green dragon
+Another staircase into the Pyramid of Thoth, this one much scarier than the first one
+A teleporter
+The bottom of the Well of Light, and hallways full of lots of mirrors
+Many baboons, a couple of huge four-armed baboons, and a creepy guy torturing a dwarf
+An undead skeleton
+A couple of traps
+At least one pig-headed beastman hiding behind an arrow slit
+Some unseen Children of Deino who trapped the party in a room, then let them go
+Secret stairs down
+They managed to avoid fighting the dragon, the baboons, or the Children of Deino, this time.  They grabbed a bunch of unguarded loot, plus defeated the skeleton and took its stuff.
+
+Achievements:
+
+Iconic Location: Well of Light: The whole party got this achievement for being the first to find the Well of Light.  (They found just the top of it previously, but this time they fully explored it.)
+
+XP:
+Exploration: about 16 new locations, good for 1 XP
+Loot: some magic leather armor, a potion, some black pearls, a jade necklace, a nice shortsword, a suit of scale armor, and some random equipment and a few coins.  Even after subtracting some bribes to the halflings (two more Adventuring Licenses, $40 for 10% of a shortsword, and a sweetroll for Roskelly), that will end up being profitable enough for 2XP, assuming they have Coinbase sell most of the equipment they found, using his Wealth to get a better price.
+Bonus: 1 XP for everyone for the Iconic Location.
+Next week:
+
+It sounds like they're going to keep exploring the halfling level.  They don't like paying off the halflings, and there's been some vague discussion of fighting the halflings, but they don't seem ready yet.  It seems they're more likely to try to sneak treasure around the halflings than fight them, at least in the near term.
+
+2025-04-05

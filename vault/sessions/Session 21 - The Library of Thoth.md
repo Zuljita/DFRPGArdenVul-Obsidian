@@ -1,15 +1,16 @@
 ---
-title: "DFRPG Arden Vul Session 21: Library of Thoth"
+title: "DFRPG Arden Vul Session 21: The Library of Thoth"
 tags:
   - session
   - recap
 session_id: 21
 ---
-# DFRPG Arden Vul Session 21: The Library of [[npcs/Thoth.md|Thoth]]
+
+# DFRPG Arden Vul Session 21: The Library of Thoth
 
 Date: 
 
-Basilsday, 2nd of Gerakios, 2993 AE
+Basilsday, 2nd of Gerakios, 2993 AE 
 
 
 Weather: 
@@ -19,10 +20,10 @@ Cool, dry
 
 Player Characters: 
 
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
+Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo)
+Vael Sunshadow, Half-Elven mage (Kyle)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
 Sister Valya "Basilisk" Hushbreaker, Halfling mercenary monk (ArchonShiva)
 
 
@@ -30,19 +31,19 @@ Significant NPCs:
 
 Giant lizard
 Many large albino baboons
-[[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]], Archontean wizard
+Isocritis Half-Hand, Archontean wizard
 6 baboon zombies
 8 logovores
-Magically animated head of [[npcs/Stamelis.md|Stamelis]], Librarian of Thoth
-[[npcs/Umsko.md|Umsko]], giant 4-armed intelligent baboon
-[[npcs/Yamki.md|Yamki]], giant 4-armed intelligent baboon
-[[npcs/Thalia.md|Thalia]], Thorcin ranger
-[[npcs/Fetch.md|Fetch]], elderly Archontean slave prisoner
+Magically animated head of Stamelis, Librarian of Thoth
+Umsko, giant 4-armed intelligent baboon
+Yamki, giant 4-armed intelligent baboon
+Thalia, Thorcin ranger
+Fetch, elderly Archontean slave prisoner
 
 
-In [[locations/Gosterwick.md|Gosterwick]], Vael paid [[npcs/Creon.md|Creon]] the pawnbroker to let him know about any particularly interesting items before putting them up for general sale.  Creon let Vael know about a Wand of Air Jet that came in, but Vael declined to buy it.  More graffiti appeared on the town walls, in a slightly different style than the previous graffiti, this time depicting some chickens killing a huge red dragon, then running from tiny halflings.  Vael and Uvash went to the Demmasday market looking for Elven and Dwarven rations.  Neither found what they were looking for, but Octavian's Cucina had some Arden Vul Cakes available, which Vael purchased.  Nobody was quite sure of the origin of the cakes, except that they were occasionally found in the ruins of Arden Vul, were highly nutritious if not very tasty, and lasted forever if kept dry.
+In Gosterwick, Vael paid Creon the pawnbroker to let him know about any particularly interesting items before putting them up for general sale.  Creon let Vael know about a Wand of Air Jet that came in, but Vael declined to buy it.  More graffiti appeared on the town walls, in a slightly different style than the previous graffiti, this time depicting some chickens killing a huge red dragon, then running from tiny halflings.  Vael and Uvash went to the Demmasday market looking for Elven and Dwarven rations.  Neither found what they were looking for, but Octavian's Cucina had some Arden Vul Cakes available, which Vael purchased.  Nobody was quite sure of the origin of the cakes, except that they were occasionally found in the ruins of Arden Vul, were highly nutritious if not very tasty, and lasted forever if kept dry.
 
-Vallium, newly nominated as the Right for Riches Company's official destination planner, decided that they would go down the [[locations/Well of Light.md|Well of Light]] and look for the [[locations/Library of Thoth.md|Library of Thoth]].  With Michael still off in the mountains somewhere, they hired Basilisk, the tiny halfling monk with the piercing high-pitched kiai shout.  As usual, Basilisk asked to ride on someone's shoulder rather than walking all the way to Arden Vul on her very short legs.  When they reached the [[locations/Long Stair.md|Long Stair]], however, she somehow walked right up the side of the cliff.  Vael Levitated, and everyone else climbed up the steep and treacherous path the regular way, without incident.
+Vallium, newly nominated as the Right for Riches Company's official destination planner, decided that they would go down the Well of Light and look for the Library of Thoth.  With Michael still off in the mountains somewhere, they hired Basilisk, the tiny halfling monk with the piercing high-pitched kiai shout.  As usual, Basilisk asked to ride on someone's shoulder rather than walking all the way to Arden Vul on her very short legs.  When they reached the Long Stair, however, she somehow walked right up the side of the cliff.  Vael Levitated, and everyone else climbed up the steep and treacherous path the regular way, without incident.
 
 As they walked north through the ruins of Arden Vul, a giant lizard attempted to ambush them from behind a tree.  Its attempt at surprise failed, and Vallium stabbed it.  Noting the lizard's thick hide might be useful, Vallium skinned it, and Vael used his Levitation to carry the hide up and stow it in the top of a tree.
 
@@ -108,3 +109,4 @@ Total: 3 XP
 Next Week:
 I expect they'll come back to the Well of Light and try to finish searching the Library or play with the mirrors or explore more.  But every time I expect them to focus on the same job for two weeks in a row they surprise me, so we'll see.
 
+2025-08-09

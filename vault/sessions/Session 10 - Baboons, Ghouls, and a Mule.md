@@ -5,9 +5,10 @@ tags:
   - recap
 session_id: 10
 ---
+
 # DFRPG Arden Vul Session 10: Baboons, Ghouls, and a Mule
 
-Date: 
+Date:
 
 Demmasday, 16th of Ligarios, 2993 AE
 
@@ -19,20 +20,20 @@ Warm, overcast
 
 Player Characters:
 
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Based Cosmo)
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Michael J. Dundee, Thorcin barbarian (Adam)
+Vael Sunshadow, Half-Elven mage (Kyle)
+Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo)
 
 
 Significant NPCs:
 
-[[npcs/Sakeon.md|Sakeon]], horse whisperer
-[[npcs/Fael.md|Fael]], half-elven food merchant
-[[npcs/Inventorium Burdenus Maximus.md|Unnamed large mule]]
-[[npcs/Kronos Kettle-Belly.md|Kronos Kettle-Belly]], innkeeper
-[[npcs/Estelle.md|Estelle]], innkeeper
+Sakeon, horse whisperer
+Fael, half-elven food merchant
+Unnamed large mule
+Kronos Kettle-Belly, innkeeper
+Estelle, innkeeper
 Many large albino baboons
 Four-armed intelligent giant baboon
 Giant rats
@@ -41,7 +42,7 @@ A swarm of bees
 3 ghasts
 
 
-The Left for Loot or Rich for Riches company decided they needed a mule, so they could haul more stuff up and down the [[locations/Long Stair.md|Long Stair]].  They went to the Livestock and Horse Merchant in [[locations/Gosterwick.md|Gosterwick]] and bought a large mule from Sakeon.  He also sold them a bit and bridle and six saddlebags, but Vale declined the saddle.  They then visited the Grain Hall and bought enough various food to fill the saddlebags.  With their heavily laden mule grudgingly following, they hiked from Gosterwick to the Cliff Face, then up the Long Stair to the ruins of Arden Vul.  From there they continued north and west to the Sign of the Broken Head.  There, they offered Kronos and Estelle a deal: most of the contents of the saddlebags at a reasonable cost.  Kronos out-dealt them and they ended up giving him an even better deal than they intended, but he threw in mule stabling for up to two weeks.
+The Left for Loot or Rich for Riches company decided they needed a mule, so they could haul more stuff up and down the Long Stair.  They went to the Livestock and Horse Merchant in Gosterwick and bought a large mule from Sakeon.  He also sold them a bit and bridle and six saddlebags, but Vale declined the saddle.  They then visited the Grain Hall and bought enough various food to fill the saddlebags.  With their heavily laden mule grudgingly following, they hiked from Gosterwick to the Cliff Face, then up the Long Stair to the ruins of Arden Vul.  From there they continued north and west to the Sign of the Broken Head.  There, they offered Kronos and Estelle a deal: most of the contents of the saddlebags at a reasonable cost.  Kronos out-dealt them and they ended up giving him an even better deal than they intended, but he threw in mule stabling for up to two weeks.
 
 With the mule and most of the food left behind, they decided to visit the baboon tower on the east side of the ruins.  As they approached the tower, the baboons inside responded first with hoots and howls, then with thrown rocks.  Nobody got hit.  Vael cast a Concussion spell that he planned to throw inside the tower to stun some baboons.  Seeing no entrances on the ground level of the tower, just some arrow slits, they decided to climb the partly-ruined city wall to the north and approach the tower from the second level.  A couple of baboons detected their approach and threw more rocks.  By the time they got closer to the tower, there were four baboons throwing rocks through arrow slits from the first floor of the tower and four more throwing rocks down from the roof.  They also heard the much deeper growls of a giant four-armed intelligent baboon inside the tower.
 
@@ -89,3 +90,4 @@ Next Week:
 
 I haven't heard any concrete plans yet.  There was a bit of the usual discussion about taking down Plumthorn's gang.  They might also try one of the other dungeon entrances they know about, or spend another week exploring the surface ruins.
 
+2025-05-24

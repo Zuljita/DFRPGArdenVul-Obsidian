@@ -4,8 +4,8 @@ tags:
   - session
   - recap
 session_id: 17
-in_world_date: Demmasday, 4th of Masporios, 2993 AE
 ---
+
 # DFRPG Arden Vul Session 17: Cleaning Out the Vermin
 
 Date: 
@@ -19,9 +19,9 @@ Hot, dry
 
 Player Characters: 
 
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fighter (Martin)
-[[npcs/Chrysalis (Lasselanta Ashcroft)]], Half-Elven mercenary martial artist (Archon Shiva)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin)
+Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva)
 
 
 Significant NPCs:
@@ -31,14 +31,14 @@ Several giant centipedes
 Many large spiders
 Zombie porter
 3 Stone monkeys
-[[npcs/Lankios.md|Lankios]], very old hermit
+Lankios, very old hermit
 Carcass creeper
 Many Stirges
 2 Baboon skeletons
 Dust monster
 
 
-With Vael, Uvash, Michael, and Ioannes all busy, Vallium decided to hire the same pair of Grudge Brigade mercenaries as last time, and explore more of the ruined basement that Jost had showed them.  They brought a wheelbarrow full of food as trade goods.  It was a hot dry day, so footing was good on the [[locations/Long Stair.md|Long Stair]].
+With Vael, Uvash, Michael, and Ioannes all busy, Vallium decided to hire the same pair of Grudge Brigade mercenaries as last time, and explore more of the ruined basement that Jost had showed them.  They brought a wheelbarrow full of food as trade goods.  It was a hot dry day, so footing was good on the Long Stair, and they did not encounter anything of note on the way to the ruins.  They continued north through the ruins of Arden Vul, past the Obilisk of the Sun, through the Forum, past the creepy square tower, to the ruined building west of the Pyramid of Thoth.
 
 They headed down the stairs into the ruined basement, initially leaving the wheelbarrow behind.  The stairs entered a large rectangular room with the roof supported by columns, with debris and trash all over the floor, along with a couple of relatively fresh bodies.  Vallium first circled the room to find the exits, then came back to search the corpses.  Both had necrotic skin and some bite marks.  One wore scale armor and the other had mail, and one was clutching a potion that looked magic.  They stripped off the armor and took the potion, then went back up the stairs to get the wheelbarrow, and left it just behind the stairs, with the armor inside.
 
@@ -76,7 +76,7 @@ The stone door to the south did not have a handle and they could not figure out 
 
 They went through a door east into a room with a couple of inches of dust on the floor, and some bright orange light coming through peepholes near some large bronze double doors to the south.  As they searched the room, some of the dust formed into a miniature tornado, which attacked them.  The wind blew them around enough that Chrysalis and Thronebreaker had a hard time keeping their bearings, but Vallium's magic ring left him unaffected.  The three of them took turns bashing the dust creature, but their blows only did minimal damage, so it took a long time to beat it down.  It failed to injure any of them, however.  When it finally went down, they dumped some water on its remains, which seemed to finish it off.  Searching the room revealed a magic halberd and a human corpse.  The body had a gold signet ring with "Gregor" inscribed, a magic potion, and a flask of water.
 
-At that point, Vallium declared that they had found enough treasure and he did not want to press their luck further by opening any more doors.  So they went back up the stairs, then tried sprinting past the stirges again.  This time, about a half-dozen were waiting for them, and one managed to bite Thronebreaker.  It was only a minor wound, and then they were past the stirge lair.  They continued back to their wheelbarrow, dragged it up the stairs, and headed back south across the ruins, down the [[locations/Long Stair.md|Long Stair]], and then back to [[locations/Gosterwick.md|Gosterwick]].
+At that point, Vallium declared that they had found enough treasure and he did not want to press their luck further by opening any more doors.  So they went back up the stairs, then tried sprinting past the stirges again.  This time, about a half-dozen were waiting for them, and one managed to bite Thronebreaker.  It was only a minor wound, and then they were past the stirge lair.  They continued back to their wheelbarrow, dragged it up the stairs, and headed back south across the ruins, down the Long Stair, and then back to Gosterwick.
 
 Once back in town, Thronebreaker discovered he was feeling awful: the minor stirge bite was starting to give him a nasty case of Stirge Fever.  Not wanting to unnecessarily spend any of his hard-earned gold on a cleric, he sat at home, counting his money, and waiting for his strong dwarven immune system to fix the problem.
 
@@ -97,3 +97,5 @@ Total:  3 XP
 Next Week:
 
 We should have more PCs next time.  Maybe they'll try to finish off the stirges, or the halflings, or something else.
+
+2025-07-12

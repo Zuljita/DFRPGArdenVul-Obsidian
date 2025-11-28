@@ -5,9 +5,10 @@ tags:
   - recap
 session_id: 13
 ---
+
 # DFRPG Arden Vul Session 13: Yrtol and the Turtle
 
-Date: 
+Date:
 
 Demmasday, 6th of Jelenius, 2993 AE
 
@@ -19,29 +20,29 @@ Cool, overcast
 
 Player Characters:
 
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
 Ashe "Goat" Maykum, Goblin mercenary druid (Sharp Frank)
 Lasselanta "Chrysalis" Ashcroft, Half-Elven mercenary martial artist (ArchonShiva)
 
 
 Significant NPCs:
 
-[[factions/Hama and Company, adventurers.md|Hama and Company]], adventurers
-[[npcs/Yrtol.md|Yrtol]], unfriendly ghost
+Hama and Company, adventurers
+Yrtol, unfriendly ghost
 Dire snapping turtle
 Dirty starving crazy woman with a giant magic belt
-[[npcs/Camilla.md|Camilla]], summoned goat
+Camilla, summoned goat
 Additional summoned goats
 Summoned bat swarms
 Summoned fish swarm
 Summoned poisonous water snake
 
 
-Most of the Left for Loot (alias Right for Riches) company decided to take a shopping trip to Newmarket, but Ioannes didn't want to spend that long away from his newly acquired cats, so he stayed in [[locations/Gosterwick.md|Gosterwick]].  And then he got bored so he went over to the Grudge Brigade Mercenary HQ and hired both the animal summoning goblin druid "Goat" and the mysterious half-elven staff fighter "Chrysalis".  Crysalis had just bought a Staff of Blue Light that Left for Loot had found in the [[locations/Great Cavern.md|Great Cavern]], and wanted to test it out.  Ioannis told them that with a small group he didn't want to go all the way up the [[locations/Long Stair.md|Long Stair]] into the ruins of Arden Vul, just go to the base of the waterfall and check out the old haunted watchtower and the tunnels that Goat had previously found behind the waterfall's plunge pool using a Water Vision spell.  The mercs were fine with that, as long as they got paid.
+Most of the Left for Loot (alias Right for Riches) company decided to take a shopping trip to Newmarket, but Ioannes didn't want to spend that long away from his newly acquired cats, so he stayed in Gosterwick.  And then he got bored so he went over to the Grudge Brigade Mercenary HQ and hired both the animal summoning goblin druid "Goat" and the mysterious half-elven staff fighter "Chrysalis".  Crysalis had just bought a Staff of Blue Light that Left for Loot had found in the Great Cavern, and wanted to test it out.  Ioannis told them that with a small group he didn't want to go all the way up the Long Stair into the ruins of Arden Vul, just go to the base of the waterfall and check out the old haunted watchtower and the tunnels that Goat had previously found behind the waterfall's plunge pool using a Water Vision spell.  The mercs were fine with that, as long as they got paid.
 
 Ioannes dropped the Bless spells on his usual companions, figuring they couldn't get in too much trouble shopping, and Blessed both Goat and Chrysalis.  He also made a couple of new Continual Light rocks.  Chrysalis cast Keen Hearing on all three of them, saying she could maintain it all day.  Goat summoned two more goats (in addition to Camilla) and offered to let the goats carry everyone's backpacks.  He also summoned some bat swarms, but those didn't carry anything.
 
-The group headed north on the Imperial Road toward Arden Vul, and ran into a group of 6 adventurers heading the other way.  The leader of the other company, a big Thorcin fighter, introduced himself as Hama and also mentioned the names of his companions.  Ioannes introduced himself as Ioannes, from Right for Riches.  Hama asked if there was news from Gosterwick, and Ioannes didn't have anything major to report.  Ioannes asked Hama for news from Arden Vul and was told the halflings under the pyramid were doing a major construction project, building new doors around the Glory of [[npcs/Thoth.md|Thoth]].
+The group headed north on the Imperial Road toward Arden Vul, and ran into a group of 6 adventurers heading the other way.  The leader of the other company, a big Thorcin fighter, introduced himself as Hama and also mentioned the names of his companions.  Ioannes introduced himself as Ioannes, from Right for Riches.  Hama asked if there was news from Gosterwick, and Ioannes didn't have anything major to report.  Ioannes asked Hama for news from Arden Vul and was told the halflings under the pyramid were doing a major construction project, building new doors around the Glory of Thoth.
 
 After bidding Hama and Company farewell, the party and the world's worst traveling petting zoo continued north until they approached the waterfall.  Their plan was to fight the terrifying ghost they had fled from before, but with some new spells to give them a better chance.  Ioannes cast Bravery on everyone to defeat the ghost's fear attack, and planned to later cast Affect Spirits on their weapons (including a goat) so they could actually hurt it.  They crept toward the watchtower, but the ghost didn't show himself.  Goat started casting Mystic Mist to make the battlefield unfair in their favor, and when he was almost done, Ioannes cast Affect Spirits on Chrysalis's blue staff, then Chrysalis ran forward and opened the trap door leading to the basement.
 
@@ -104,3 +105,5 @@ Total: 3 XP
 Next Week:
 
 Most of Left for Loot should be back from Newmarket and will probably be jealous of all the stuff Ioannes and the mercenaries found.  I suspect that they'll want to revisit the area behind the falls, since they left some unopened doors and a mysterious woman behind.  Of course that will only happen if Goat is available again, as he's currently their only source of Breathe Water and Swim.
+
+2025-06-14

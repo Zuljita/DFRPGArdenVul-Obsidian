@@ -1,12 +1,12 @@
 ---
-title: "DFRPG Arden Vul Session 25: Forum of Set"
+title: "DFRPG Arden Vul Session 25: Looking for the Back Door to the Forum of Set"
 tags:
   - session
   - recap
 session_id: 25
-in_world_date: Tahsday, 27th of Gerakios, 2993 AE
 ---
-# DFRPG Arden Vul Session 25: Looking for the Back Door to the Forum of [[npcs/Set.md|Set]]
+
+# DFRPG Arden Vul Session 25: Looking for the Back Door to the Forum of Set
 
 Date: 
 Tahsday, 27th of Gerakios, 2993 AE 
@@ -19,18 +19,18 @@ Warm, dry
 
 Player Characters: 
 
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
+Vael Sunshadow, Half-Elven mage (Kyle)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Michael J. Dundee, Thorcin barbarian (Adam)
+Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo)
 
 
 Significant NPCs:
 
-[[npcs/Wicktrimmer.md|Wicktrimmer]], Imperial Goblin Leader of the Rarities Factor
-[[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]], Halfling Lawyer
-[[npcs/Yrtol.md|Yrtol]] the Angry Ghost
+Wicktrimmer, Imperial Goblin Leader of the Rarities Factor
+Barnaby Goodbarrel, Halfling Lawyer
+Yrtol the Angry Ghost
 3 Fire Mephits
 4 Set Guards
 12 Zombies
@@ -39,22 +39,22 @@ Large Black Pudding
 Many Fungal Foresters
 6 Beastmen, Servants of Androsia
 Several Cave Lizards
-4 [[factions/Varumani.md|Varumani]]
+4 Varumani
 
 
-Wicktrimmer, the leader of the Rarities Factor in [[locations/Gosterwick.md|Gosterwick]], sent a message to the [[factions/Right for Riches Company.md|Right for Riches Company]] that he believed they had found some significant magical items and he wanted to trade for them.  Vael, Vallium, and Ioannes met with him at the Rarities Factor.  Vael was curious how Wicktrimmer knew, and Wicktrimmer said he was a collector of magical items and regularly used magical means to detect any new powerful items in Gosterwick, but did not give details.
+Wicktrimmer, the leader of the Rarities Factor in Gosterwick, sent a message to the Right for Riches Company that he believed they had found some significant magical items and he wanted to trade for them.  Vael, Vallium, and Ioannes met with him at the Rarities Factor.  Vael was curious how Wicktrimmer knew, and Wicktrimmer said he was a collector of magical items and regularly used magical means to detect any new powerful items in Gosterwick, but did not give details.
 
-After a long negotiation, the [[factions/Right for Riches Company.md|Right for Riches Company]] contacted a local halfling lawyer, Barnaby Goodbarrel, and had him write up papers incorporating them as an officialy chartered company within Gosterwick, then get approval from the Thesmothete of Vetucaster, Eusbia Phokas.  With their Company legally able to own property, they returned to Wicktrimmer to conclude the deal.
+After a long negotiation, the Right for Riches Company contacted a local halfling lawyer, Barnaby Goodbarrel, and had him write up papers incorporating them as an officialy chartered company within Gosterwick, then get approval from the Thesmothete of Vetucaster, Eusbia Phokas.  With their Company legally able to own property, they returned to Wicktrimmer to conclude the deal.
 
 He gave them 20000 pieces of silver, free lifetime banking at the Rarities Factor, personal shopping services in Narsileon (for up to five designated items per month, if available and found by his agent there, using their own funds deposited at the Rarities Factor), and any information on their enemies (particularly the Cult of Set) that he learned.  In exchange they would give him the powerful magic stiletto Larel's Pin and right of first refusal on any magical or historical items the company or its members wanted to sell in the future (except for a few items which Lady Alexia specifically claimed).
 
-Wicktrimmer did not have any new information on the Set cult, beyond the contract on their heads that Coinbase had already told them about.  Vallium decided they should revisit the [[locations/Great Cavern.md|Great Cavern]] and see if the Settite guard post they had found there connected with the [[locations/Forum of Set.md|Forum of Set]].  Vael's Living Wheelbarrow (invented by Ashe the goblin druid) was ready, so cast Levitation on it and used it to carry Larel's Sack.
+Wicktrimmer did not have any new information on the Set cult, beyond the contract on their heads that Coinbase had already told them about.  Vallium decided they should revisit the Great Cavern and see if the Settite guard post they had found there connected with the Forum of Set.  Vael's Living Wheelbarrow (invented by Ashe the goblin druid) was ready, so cast Levitation on it and used it to carry Larel's Sack.
 
 Ioannes spent some of his wealth on an even more expensive power item, which enabled him to cast Bless +2 on Vael, Vallium, and Michael, as long as they paid for the power item recharges.  Uvash declined and kept his Bless +1.
 
 The group left for Arden Vul early Tahsday morning (varying their delve day to throw off their enemies).  They first visited Yrtol's ruined watchtower.  Everyone gathered closely around Uvash and his Amulet of Bravery to resist Yrtol's fear effect, and Vael wore Larel's Cloak in hopes it would impress the ghost.  When they opened the trap door into the basement, Yrtol appeared and started talking about killing them and the rest of the Settites who'd sacrificed his Nyema.  Vael said something about killing many Settites themselves, which slowed Yrtol a bit.  Yrtol asked about Michael's red scale armor, and Vael said that it had come off a dead Settite.  At that point Yrtol decided to spare them, this time, but said not to come back until they'd killed 50 more Settites and recovered Nyema's body.  They asked how they would know her, and Yrtol said she'd had a wedding necklace with her name on it, in Mithric, if any of them could read.
 
-Leaving Yrtol, the group headed north to the waterfall, up the [[locations/Long Stair.md|Long Stair]] to the beastman secret door into the Great Cavern.  After going in, Vallium led them north to the statue of The Philosopher, where he put two magical silver eyes into its empty eye sockets to see what would happen.  The silver eyes disappeared but there was no obvious magical effect.  Vael cast Identify Spell and determined that the statue had just cast some kind of Great Healing spell over the area, but since none of them had been injured, it was wasted.
+Leaving Yrtol, the group headed north to the waterfall, up the Long Stair to the beastman secret door into the Great Cavern.  After going in, Vallium led them north to the statue of The Philosopher, where he put two magical silver eyes into its empty eye sockets to see what would happen.  The silver eyes disappeared but there was no obvious magical effect.  Vael cast Identify Spell and determined that the statue had just cast some kind of Great Healing spell over the area, but since none of them had been injured, it was wasted.
 
 Next, Vallium lead the group east then north through side caverns until they reached the cave with 3 fire mephits and a column of magical fire.  He asked Michael, wearing the Salamander Amulet, to check out the fire and see if it led anywhere interesting.  It did not.  It nicely cleaned his armor, though.  The mephits were a bit grumpy, because they were out of Eye Opener mushrooms.  They asked the group to bring them some.
 
@@ -70,7 +70,7 @@ To the southwest there was a passage with some kind of flickery force field at t
 
 After a few minutes to recover, the group searched for secret doors, then Vael cast Seek Earth looking for gold, and Seek Magic.  The nearest unknown gold and magic were to the east, so they went that way.  The magic turned out to be a cave full of some kind of shimmering opalescent fog.  Nobody was sure what it was, and nobody wanted to go into it, so they left that cave.  The gold seemed to be in the direction of a cave full of mushrooms and fungal foresters that they'd visited before.
 
-As they reached mushroom cave, the fungal foresters started speaking a language that nobody recognized.  Ioannes cast Gift of Tongues on Vael to let him speak fungal forester.  The lead forester talked about how cool [[npcs/Ptarmis.md|Ptarmis]] was and how much he liked the living wheelbarrow and asked if they were friends of Ptarmis.  Vael indicated that they were also friends of Ptarmis and asked if the foresters had a source of cloud cap mushrooms.  The forester indicated that cloud caps were in short supply because the beastmen kept taking them, but might trade some for that wheelbarrow.  Vael said not today, but maybe next time.  He also cast Seek Earth again and found the gold was a bit northwest.  Searching the northwest wall for secret doors, they eventually found one, which the fungal foresters were apparently unaware of, as they were pretty excited when it opened.
+As they reached mushroom cave, the fungal foresters started speaking a language that nobody recognized.  Ioannes cast Gift of Tongues on Vael to let him speak fungal forester.  The lead forester talked about how cool Ptarmis was and how much he liked the living wheelbarrow and asked if they were friends of Ptarmis.  Vael indicated that they were also friends of Ptarmis and asked if the foresters had a source of cloud cap mushrooms.  The forester indicated that cloud caps were in short supply because the beastmen kept taking them, but might trade some for that wheelbarrow.  Vael said not today, but maybe next time.  He also cast Seek Earth again and found the gold was a bit northwest.  Searching the northwest wall for secret doors, they eventually found one, which the fungal foresters were apparently unaware of, as they were pretty excited when it opened.
 
 The group crowded into a room, containing a big bubbling cauldron and 6 very skinny beastman troopers.  Vael again used Larel's Cloak to appear friendly and charismatic.  The beastmen asked if they were new recruits to Androsia and if they had any food.  Vael lied and said they were, and a couple of them gave their rations to the hungry beastmen.  At that point Vallium led the beastmen to the western part of the room and asked a lot of questions about marching and guarding and Androsia and the area, while Vael turned invisible and started looting the cave.  He found a magic bag, some gold solidi and ancient silver coins, some magic glass eyes on the wall, and a couple of potions on a shelf.  He threw the magic bag into the wheelbarrow and the rest of the stuff into Larel's Sack, then went back out the secret door.  After Vael left, Vallium said something about forgetting something to the southeast before they could return to take their guard shift, and the group left.  The fungal foresters were sniffing around the secret door, so Ioannes cast Gift of Tongues on Vael again, so he could explain that there were beastmen on the other side of the secret door who might be hungry and not friendly, so the foresters might want to keep it closed.
 
@@ -102,3 +102,4 @@ Total 2-3 XP each
 Next Week:
 
 No game the next two weeks; GM on vacation.  We'd played every week since March, so this ends a good streak, but we'll start another one when I get back.
+2025-10-11

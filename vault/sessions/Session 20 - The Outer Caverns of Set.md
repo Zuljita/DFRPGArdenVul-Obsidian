@@ -5,11 +5,12 @@ tags:
   - recap
 session_id: 20
 ---
-# DFRPG Arden Vul Session 20: The Outer Caverns of [[npcs/Set.md|Set]]
+
+# DFRPG Arden Vul Session 20: The Outer Caverns of Set
 
 Date: 
 
-Basilsday, 26th of Masporios, 2993 AE
+Basilsday, 26th of Masporios, 2993 AE 
 
 
 Weather: 
@@ -19,17 +20,17 @@ Hot, dry
 
 Player Characters: 
 
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
+Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo)
+Vael Sunshadow, Half-Elven mage (Kyle)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
 Ashe "GOAT" Maykum, Goblin mercenary druid (ArchonShiva)
 
 
 Significant NPCs:
 
-[[npcs/Creon.md|Creon]], pawnbroker
-[[npcs/Egrk.md|Egrk]], caveman
+Creon, pawnbroker
+Egrk, caveman
 Many other cave people
 6 small chasm cephalopods
 8 giant boring beetles
@@ -39,7 +40,7 @@ Several unseen humans, including a female human fighter
 Summoned manta rays, bat swarms, goats, boars, and warhorses
 
 
-Vael suggested pushing the group's weekly delves into Arden Vul back a day, from Demmasday to Basilsday, to give an opportunity to shop at [[locations/Gosterwick.md|Gosterwick]]'s Demmasday market, the biggest of the week.  Everyone agreed, but none of the peddlers at the market this week had anything very exciting for sale.  Vael did find some Delver's Webbing at Creon's Curios, and paid Creon to be notified of any new interesting items that came in before they went on the shop floor.
+Vael suggested pushing the group's weekly delves into Arden Vul back a day, from Demmasday to Basilsday, to give an opportunity to shop at Gosterwick's Demmasday market, the biggest of the week.  Everyone agreed, but none of the peddlers at the market this week had anything very exciting for sale.  Vael did find some Delver's Webbing at Creon's Curios, and paid Creon to be notified of any new interesting items that came in before they went on the shop floor.
 
 Michael was off in the woods somewhere, so the Right for Riches company hired the Grudge Brigade mercenary on call, the goblin druid GOAT.  GOAT brought along his recent invention, the Living Wheelbarrow, a wooden wheelbarrow containing enough living plant material that it could be affected by the Levitation spell.  He showed his creation to Vael, who immediately bought one.
 
@@ -53,7 +54,7 @@ Vael cast Levitation on himself, and everyone else started trudging up the stair
 A handsome man with a neat beard, with empty spherical eye sockets
 A stereotypically Archontean looking middle aged woman, with large empty disc-shaped eye sockets
 A monstrous-looking creature that resembled Gog, with an open oval-shaped mouth
-A caricature of a priest of [[npcs/Thoth.md|Thoth]], with small empty disc-shaped eye sockets
+A caricature of a priest of Thoth, with small empty disc-shaped eye sockets
 A goblin with a large hole where its missing nose should be
 Vallium had some small gold grooved discs that he hoped might match one of the holes, but they did not.  Everyone went through their small items looking for anything that was an obvious match, but nobody had anything that looked like an obviously good fit.  Someone suggested bringing different kinds of coins and gems next time.
 
@@ -104,13 +105,14 @@ I have no idea where they are going, and neither do they.   They discuss it a bi
 At this point they've found the following areas:
 Surface Ruins of Arden Vul
 Basement (they think they have probably fully explored this)
-[[locations/Well of Light.md|Well of Light]]
+Well of Light
 Howling Caves
 Halls of Thoth
-[[locations/Great Cavern.md|Great Cavern]]
-Caves presumably leading to the [[locations/Forum of Set.md|Forum of Set]]
+Great Cavern
+Caves presumably leading to the Forum of Set
 Gog's Cave
 Bottom of Privy Shaft
 Caves behind the waterfall
 They also have the Scorpion Teleporter, which they have used 3 times and ended up in 3 places.
 
+2025-08-02

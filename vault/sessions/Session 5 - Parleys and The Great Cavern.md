@@ -5,21 +5,107 @@ tags:
   - recap
 session_id: 5
 ---
-# Session 5 - Parleys and The Great Cavern
 
-Note: Reconstructed stub. TODO: restore full narrative.
+# DFRPG Arden Vul Session 5: Parleys and The Great Cavern
 
-## Highlights
-- First significant foray into the [[locations/Great Cavern.md|Great Cavern]].
-- Parleys with locals; setup for later Set encounters.
+Date:
 
-## Player Characters
-- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]]
-- [[pcs/Vallium Halcyon.md|Vallium]]
-- [[pcs/Uvash Edzuson.md|Uvash]]
-- [[pcs/Vael Sunshadow.md|Vael]] (may be absent based on notes)
+Demmasday, 11th of Lucrios, 2993 AEP
 
-## Notable Mentions
-- [[npcs/Freydis the Stern.md|Freydis]] (gatekeeping audiences)
-- [[locations/Great Cavern.md|Great Cavern]] (iconic)
 
+Weather:
+
+Cool, overcast, rainy
+
+
+Player Characters:
+
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Vael Sunshadow, Half-Elven mage (Kyle)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo)
+Sister Valya "Basilisk" Hushbreaker, halfling monk (Mercenary) (Archon Shiva)
+
+
+Significant NPCs:
+
+Lyssandra Astorion, principal of the Arcane Practitioners' Club
+Freydis, steward to Lady Alexia Basilion
+Lady Alexia Basileon, ruler of the town of Gosterwick
+Roskelly Winterleaf, halfling underground toll collector lieutenant
+Several halfling toll collectors
+Many beastmen
+Count Skleros, beastman military commander
+2 ghouls
+giant salamander
+giant crab
+clockwork dragonfly
+Ptarmis, strange robed human
+3 rock reptiles
+Bellringer, goblin sub-chief
+2 other goblins
+
+
+After identifying the magical gem they found in the Pyramid of Thoth as a very valuable Gem of Insight, the group decided to sell it rather than keeping it.  Lyssandra mentioned the Gem to Lady Alexia's steward, Freydis, who invited the party for a meeting to discuss the Gem.  After some questions about the group and the Gem, Freydis arranged an audience with Lady Alexia herself.  Lady Alexia purchased the Gem, and also told the group about her Regalia, four items within Arden Vul that were extremely important to her, and for which she would richly reward the finders.  The Regalia named were the Bone Ring of Jagri-Naz, the Tablet of the Beacon, the Ebon Spear of Arden, and the Iron Circlet of Ghanor.  Lady Alexia did not go into further detail, saying that various delvers with whom she had shared information had failed to find any of the Regalia for years, so she'd prefer that new groups go in with fresh eyes lest flaws in her intelligence led them astray.  Asked if there was anything Gosterwick could do to assist the group with finding the Regalia and other important treasure, there was a general grumbling about a lack of magic items and special purpose adventuring gear for sale in town.  Lady Alexia said that she had some healing potions available for sale and would continue trying to improve the supply of other gear, but that Gosterwick was not exactly Archontos.
+
+Ioannes decided to research the Regalia, but didn't find anything interesting in the Arcane Practitioners' Club's small library.  He also ordered some finer quality leather armor and a new axe.  Vallium spread more coin around the local taverns looking for information, visited Astableon the Scribe and Bookseller to buy a history book, and visited Chairduster's Fine Metallurgy to buy some gold and silver jewelry for dragon tribute.  Vael picked up his fancy new robes and also purchased some mundane adventuring equipment to leave in the ruins.  The group visited all three merchant factors in Gosterwick (Rarities Factor, Prosperity Factor, and Silent Factor) to look for a place to set up bank accounts, and Vael also got a reference to a lawyer who could set up an adventuring company as a legal entity.  Uvash returned from the House of the Gods to join the others on the trip, but Michael was once again out in the wilderness somewhere, so the group recruited the on-call mercenary at the Grudge Brigade, a tiny halfling monk called Basilisk.
+
+They set out for the ruins of Arden Vul early the next morning.  Uvash recommended roping themselves together for safety in case of another slip on the Long Stair, but they didn't have enough rope for everyone.  Vael once again Levitated himself up the cliff face, and Basilisk rode in the wheelbarrow that Vallium was pushing.  This time everyone made it to the top without a slip, despite the rainy conditions.
+
+They decided to first deliver the tribute to the dragon.  The party walked over to the dam and checked that the lock they had installed the week before was intact, stowed some equipment inside the dam, and left the tribute jewelry on top of the dam in a sack as the dragon had commanded.  They then proceeded to the Pyramid of Thoth and manipulated the statue's arms forward to open the safer entrance.
+
+On the large landing room halfway down the steps inside the pyramid, they encountered Roskelly and a couple of his halfling toll collectors.  Basilisk hid.  After a brief conversation, the halflings went back downstairs to their territory, followed by the party.  Vallium walked over to the statue of Thoth and the base of the stairs, put his book in the offering chest, and loudly proclaimed that the offering was in Thoth's name.  Nothing happened.  They added some coins to the offering chest.  Nothing happened.  Vael theorized that maybe a mundane book wasn't good enough and it had to be magic scroll, but they didn't have any, so they recovered their book and coins.
+
+The group proceeded south toward beastman territory.  When they crossed the barricade they yelled out for parley, rather than trespassing.  First a beastman trooper, then a sergeant, came to investigate.  After a brief discussion the sergeant said to wait, and returned a bit later with a beastman leader, Count Skleros, and his honor guard.  Skleros asked if they were the Cheese and Crackers group that had been trying to negotate, and after confirmation asked what they wanted.  Vael said they wanted safe passage through Children of Deino territory and access to any other dungeon entrances that faction might control.  Skleros wanted to know what they could do for him in exchange, and Vael asked what he needed.  Skleros gave a list: for the dragon to stop eating his troops, wood, iron, steel, mushrooms particularly a variety called Cloud Caps, fresh fruits and vegetables, magic items, and coins.  Vael said something about putting a good word in with the dragon and bringing some food next time, which Skleros said was fine, and they would give them safe conduct through their territory and tell them where the entrance was next time.  Vael asked if there was anything they could do today, and Skleros mentioned a small ghoul problem.  A couple of ghouls were in a room near a beastman guard post, and they were barricaded inside so they weren't currently a serious problem, but they were costing the beastmen the use of that room and also terrifying some of the soldiers.  He asked if any of the party were the kind of clerics who would make undead dead.
+
+Unfortunately none of the clerics had undead destroying powers, but Vael had Create Fire, so he asked some details about the room where the ghouls were barricaded and whether anything important was inside.  Told it was about 25 feet square and there were no known valuables there, Vael cast Seek Earth looking for gold or silver inside to confirm.  Finding none, he used the newly found magic ring of seeing through things to look through the door of the room, then tried a large Create Fire to incinerate the ghouls without opening the door.  The first casting of the spell surprisingly failed, but eventually Vael managed to torch the room.  A few minutes later the group formed up and Vallium unbarred and opened the door, revealing a very hot room containing two charred corpses.  Ioannes chopped off their heads just to be sure.  Vael was very tired after incinerating a decent-sized room, but two clerics and a monk all started Lending Energy and pretty soon everyone was rested.
+
+With the ghouls taken care of, Skleros instructed a sergeant to guide the party through their territory to the Great Cavern and give them directions to the exit.  The sergeant and a few troopers led the group across the Great Hall (telling them to run across before any gargoyles above noticed them and attacked), then through several rooms full of beastmen.  One room contained a bunch of parchments, possibly maps, that had been quickly turned upside-down to hide them from untrusted eyes.
+
+At the south end of beastman territory, the sergeant handed the group off to another sergeant who said he was with the Long Range Cavern Patrol.  He said to climb down the cliff, go south until it wasn't possible to go south any more, than go east until they found a cave entrance, then go south and west until they found the exit.  He also said the cliff was infested with giant centipedes, and gave the group a bucket full of nasty smelling paste that he said repelled them.  He led them out to a cage, high in the air above a huge cavern full of glowing mushrooms.  The cage had a locked door leading to a ladder down into the cavern.
+
+Everyone climbed or Levitated down to the cavern floor, then walked south to the top of a cliff, with the sound of running water below.  Vael Levitated down the cliff to scout ahead, and saw a stream with a small island with a worn stone statue on it.  But when he moved closer to investigate, a giant salamander showed interest, so Vael noped back up to the group.  Between them, they had more than 50' of rope, so Uvash tied everyone's ropes together and then tied one end to a spike the beastmen had placed at the top of the cliff, then everyone put on the giant centipede repellent and started climbing down.  (Except Vael Levitated, and the tiny Basilisk rode down on Vael's shoulders.)
+
+Unfortunately, Uvash had critically failed his Climbing roll to set the rope, so the group was unknowingly actually free-climbing, not getting the bonus for the rope.  Fortunately, they all made their Climbing rolls without the bonus, so nobody fell.  Vael flew back up and untied the rope (which detached from the spike suspiciously easily) and returned it to its owners.  No giant centipedes had made an appearance, but nobody knew if that was because the repellent worked.
+
+The group followed the north edge of the stream west until it emptied into an underground pond.  They walked along the north edge of the lake west until they saw a dock with a couple of fresh but unlit torches, and a couple of rowboats.  They lit the torches, which was mostly redundant because their Continual Light rocks were brighter, then continued walking west until they reached the other side of the pond, up against a rock wall.  There was no obvious way around; they needed to swim or boat or fly across.  Nobody in the group had any Boating skill, and they didn't know if they could trust the boats, so Vael decided to Levitate across to scout, with Basilisk on his shoulders.
+
+Flying across, they saw a cave entrance high up above the water, with some interesting crystal formations inside, but did not go in to investigate.  They also spotted a sandy island in the middle of the pond, with a huge crab sitting on the beach, and a bit of apparently magical treasure in the sand.  Finally they spotted a second dock with another rowboat on the south side of the pond.  Vael and Basilisk flew back to the group to discuss their findings, and they all decided that fighting the crab was probably unnecessary and they might be able to scare it off and grab the treasure.
+
+Vael and Basilisk flew back above the crab, and Vael dropped a Create Fire on top of it.  The crab jumped in alarm and then dove into the water.  Once the crab had been gone for a few seconds, Vael and Basilisk landed on the island and picked up three things that looked magical: a shield, a green square of glass, and a rusty suit of scale armor.  The armor was a bit heavy, so Vael cast a separate Levitation spell on Basilisk, who clung to the armor while Vael guided them both back to the north shore.
+
+The scale armor was heavy and annoying to carry, so they decided to cast Analyze Magic right there in the cavern, despite it taking an hour, to see if it was worth the trouble.  While Vael was casting, a beastman came down the cliff to their north, hailed the group, then retreated back north.  Later, an 8" long clockwork dragonfly with blue gem eyes flew up to investigate them silently, then eventually flew away.  Finally, the Analyze Magic was finished, and revealed that the scale armor was not magical.  Vael asked Ioannes for a second opinion, and it didn't look magic to him either.  Vael had apparently critically failed his earlier Perception plus Magery check.  Scowling, they abandoned the rusty armor, but packed away the green glass square and took the magic shield.
+
+Still not trusting the boats, Vael cast Levitation on the entire group and shuttled them all south above the lake.  It was tedious as he could only concentrate on moving one of them at a time, but it was only 20 yards from dock to dock, so the whole operation took less than a minute.  There were paths through the fungal forest to the southeast and southwest.  Following the earlier instructions, they went southeast.   To the south was a platform about 20' high covered with marble pavers.  Vael flew up to investigate, and on top of the platform saw a huge stone chair, containing a human wearing worn wizard robes and years of accumulated body odor.  The man identified himself as Ptarmis, the master of the cavern.  Deciding this guy was creepy, Vael excused himself and flew away.  Meanwhile the others climbed some stairs up to the south end of the platform and saw some huge block rock doors into the rock wall to the south, with no visible handles or keyholes, and a purple glowing light around the doors.
+
+Everyone continued down a path to the east, which eventually became a cave entrance into a rock wall.  The path south was blocked by a cave-in, but Vallium led the group north then east then south down another passage.  The passage opened into a larger room, where they were ambushed by 3 rock reptiles.  The rock reptiles achieved surprise, but their initial Move and Attacks did not hit, and Vallium in front quickly regained his wits and was ready to defend against their next attacks.  Vael threw a Smoke spell to blind and confuse the reptiles.  The reptiles retreated from it while everyone else recovered from surprise.  Vael dropped the Smoke and cast a Thunderclap to try to deafen the reptiles, Ioannes cast Flaming Weapon on Vallium's sword.  Two of the reptiles decided that the Smoke followed by the Thunderclap were scary, and ran away.  The third on stood its ground, until Vallium stabbed and badly wounded it.  It failed its stun check, fell over, failed its consciousness check, and passed out.  The group finished it off then noticed there was a bit of treasure in the cavern: a couple of silver ingots, a potion, a small stone snake head that looked like it was broken off a statue, and a single magical boot.
+
+They looked for the second boot and failed to find it.  Vael cast Seek Magic to try to find the second boot, and the spell said the nearest magic (excluding what they carried) was outside the cave, back in the big cavern.  The group decided to stay on target and left the cave to the south, then took a tunnel generally west.  Turning south, they found 3 goblins in a cave.  One of them spoke some Archontean and indicated that he did not want a fight.  He said that his name was Bellringer, he was a goblin sub-chief, and his group was returning from the Arena 3 levels down when they decided to look for King Weskenim's missing brother Gribble,  when they got ambushed by beastmen and most of them were killed.  He asked if the party had any food or knew a way down to the goblin caverns.  They gave most of their rations to the goblins, but told them that they didn't know the way.  Bellringer thanked them for the food and asked their names, and asked that if they met King Weskenim before he did, to relay the news.
+
+The group left the goblins and continued north and west.  Ioannes was worried they were lost and wondered if they should double back to the Great Cavern, but the group decided to press on.  They found a giant boulder in a cave, and Vael Levitated up and saw that it had a flat spot on top that had been used as a campsite.  They found a passage south, which contained a couple of moldy beastman corpses.  Ioannes said they were too old to determine cause of death, and they had no treasure.  Continuing south, the group found a dead end, with a suspicious amount of graffiti.  The graffiti was in a mix of languages: Archontean, Elvish, and Dwarvish.  They decided to search for secret doors, and eventually found one.  Once they managed to open it, they found the Long Stair was right outside, and they were about two-thirds of the way up.
+
+Vael didn't want to go home without finding the other magic boot, so having found the exit, the group doubled back to the Great Cavern.  Vael then flew up on top of the big rock where Seek Magic had pointed him.  Atop the rock was an old, creepy-looking pillar.  Vael tried inspecting the pillar closely, but doing so made him dizzy.  He backed away and found a hole on the other side of the big rock, leading down past the range of his Continual Light.  He dropped a purple glowing rock inside and saw the rock fall about 80' into another cave.  It was interesting, but a bit scary to investigate right now, so he flew back to the rest of the group, and they went back to the secret door, down the Long Stair, and back to Gosterwick.
+
+
+GM's Comments:
+
+The group achieved their goals for this week: talking with the beastmen and finding another entrance to the dungeon.  They weren't planning for the entrance to be all the way across the Great Cavern though.  They parleyed with Lady Alexia and Count Skleros and Bellringer.  They set ghouls on fire without opening the door and letting them hit back.  The got surprised by rock reptiles but killed one and scared the others off.  And they avoided every other possible fight.
+
+
+Achievements:
+
+Iconic Location: The Great Cavern
+
+
+XP:
+
+Exploration: 25 new locations explored, for 2 XP.
+Loot: Magic shield, Flight potion, silver ingots, minus dragon tribute.  Selling the potion was enough for 1 XP.
+Achievements: 1 XP for finding (with beastman help) and exploring the Great Cavern. 
+
+
+Next week:
+
+They are really sick of paying tribute to both halflings and the dragon, so it sounds like they'll be going back to the newly found entrance at the south end of the Great Cavern.  We'll see whether they decide to explore the cavern more or just use it as a route back to the Halls of Thoth.
+
+2025-04-19

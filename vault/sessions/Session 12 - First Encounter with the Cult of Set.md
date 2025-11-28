@@ -5,9 +5,10 @@ tags:
   - recap
 session_id: 12
 ---
-# DFRPG Arden Vul Session 12: First Encounter with the Cult of [[npcs/Set.md|Set]]
 
-Date: 
+# DFRPG Arden Vul Session 12: First Encounter with the Cult of Set
+
+Date:
 
 Demmasday, 30th of Ligarios, 2993 AE
 
@@ -19,28 +20,28 @@ Cool, rainy
 
 Player Characters:
 
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Based Cosmo)
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Vael Sunshadow, Half-Elven mage (Kyle)
+Michael J. Dundee, Thorcin barbarian (Adam)
+Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo)
 
 
 Significant NPCs:
 
-[[npcs/Fael.md|Fael]], Half-Elven druid at the Grain House
-[[npcs/Onyx.md|Onyx]], disturbingly smart cat
+Fael, Half-Elven druid at the Grain House
+Onyx, disturbingly smart cat
 3 feral cats
 4 Guards from the Cult of Set
 1 Invisible Stalker
-[[npcs/Skizz and Burzip.md|Skizz and Burzip]], lost Lizardmen
+Skizz and Burzip, lost Lizardmen
 3 Shriekers shrieking
 3 Mud People
 
 
-Ioannes and Thronebreaker adopted the four cats found in the [[locations/Great Cavern.md|Great Cavern]] the previous week.  Ioannes paid Fael the druid to cast Beast Speech and speak to the black cat who appeared to be the leader.  He explained that his name was Onyx, that he used to be the familiar of an Elven mage named Lyra, and that Lyra had been killed by a giant lizard while foolishly adventuring without sufficient bodyguards.  He had met the other cats while looking for a way out the Great Cavern, and had survived by adopting their primitive lifestyle of eating mice and small lizards and sleeping in a damp cave, but he didn't like it at all.  He had been trying to find a way out, so they could find a nice wizard to adopt them and provide a civilized existence, but had not yet succeeded until Ioannes and his bodyguards had found them.  He asked Fael if he could be placed with a female elven wizard who was smart enough not to go adventuring, as having his previous wizard killed had been stressful.  Fael smiled and relayed Onyx's message and returned him to Ioannes, who then took the cats back to his apartment at the Arcane Practitioners' Club.
+Ioannes and Thronebreaker adopted the four cats found in the Great Cavern the previous week.  Ioannes paid Fael the druid to cast Beast Speech and speak to the black cat who appeared to be the leader.  He explained that his name was Onyx, that he used to be the familiar of an Elven mage named Lyra, and that Lyra had been killed by a giant lizard while foolishly adventuring without sufficient bodyguards.  He had met the other cats while looking for a way out the Great Cavern, and had survived by adopting their primitive lifestyle of eating mice and small lizards and sleeping in a damp cave, but he didn't like it at all.  He had been trying to find a way out, so they could find a nice wizard to adopt them and provide a civilized existence, but had not yet succeeded until Ioannes and his bodyguards had found them.  He asked Fael if he could be placed with a female elven wizard who was smart enough not to go adventuring, as having his previous wizard killed had been stressful.  Fael smiled and relayed Onyx's message and returned him to Ioannes, who then took the cats back to his apartment at the Arcane Practitioners' Club.
 
-After a brief discussion about whether it was time to kill Plumthorn's halflings the Left for Loot club decided to instead continue exploring the Great Cavern.  They threw away their two-week-old supply of trade food and bought a wheelbarrow full of new food, then pushed it back to the secret entrance two-thirds of the way up the [[locations/Long Stair.md|Long Stair]].  Leaving the wheelbarrow inside the entrance, they first checked the stone supply chest nearby, but it appeared nobody else had disturbed it in the past week.  Vallium then led them through a series of small cave passages until they emerged into the Great Cavern, full of giant mushrooms.  They walked north to the shore of the lake and then west to the dock, and discussed whether they should take a boat north or fly.  Ioannes mentioned that they hadn't fully explored the southwest corner of the cavern yet, so they followed a path southwest from the dock.
+After a brief discussion about whether it was time to kill Plumthorn's halflings the Left for Loot club decided to instead continue exploring the Great Cavern.  They threw away their two-week-old supply of trade food and bought a wheelbarrow full of new food, then pushed it back to the secret entrance two-thirds of the way up the Long Stair.  Leaving the wheelbarrow inside the entrance, they first checked the stone supply chest nearby, but it appeared nobody else had disturbed it in the past week.  Vallium then led them through a series of small cave passages until they emerged into the Great Cavern, full of giant mushrooms.  They walked north to the shore of the lake and then west to the dock, and discussed whether they should take a boat north or fly.  Ioannes mentioned that they hadn't fully explored the southwest corner of the cavern yet, so they followed a path southwest from the dock.
 
 The path eventually revealed a constructed platform about twenty-five feet up the west wall of the cavern, with several humans standing on it, wearing red scale armor and holding crossbows.  The guards told them to go away or get shot.  The party did not want to go away, so the lead arbalist took a shot at Vael, at the same time Vael started casting Missile Shield on himself.  The crossbowman was a bit faster than the caster, and the bolt almost plugged Vael in the chest, but then his Bless spell intervened and made it slightly miss.  Vael did not lose his spell, finished making himself immune to missiles, and then did his best impersonation of a wizard about to cast Fireball in an attempt to draw more shots at himself.
 
@@ -64,7 +65,7 @@ They went northeast, into a cave full of mushrooms.  One of the mushrooms starte
 
 Another exit led to a hot room with a bunch of hot mud on the floor.  Someone was immediately concerned that there might be mudmen, so everyone was on guard.  Nobody had a 6-foot, 10-foot, or 11-foot pole, so Vael used his Wizard's Staff to poke the mud while hiding behind Vallium.  That was enough to annoy a mud person, who popped out of the mud and punched Vallium.  The attack was ineffective, and Vallium stabbed it for its affront.  A brief fight started, where that mud person fought Vallium while two more mud people stayed back in the mud and lobbed hot mud balls.  Someone said that mud people were unlikely to have treasure so this fight was stupid and they should all leave.  Most of the group started retreating, but Uvash missed the message and attacked the wounded mud person, and it looked like Uvash might get mobbed by all three mud people.  Fortunately his friends noticed that he was lagging behind and waited for him, and he eventually.  With one of the mud people almost dead, they did not pursue the group out of their muddy cave.
 
-Left for Loot decided that was enough adventuring for the day, and retraced their steps back to the Great Cavern.  The corpses of Set guards were still there, along with their armor and weapons.  They took all the armor and weapons back to their wheelbarrow inside the secret door, then brought it all back to [[locations/Gosterwick.md|Gosterwick]], where they would attempt to sell it without revealing themselves to the Set cult.
+Left for Loot decided that was enough adventuring for the day, and retraced their steps back to the Great Cavern.  The corpses of Set guards were still there, along with their armor and weapons.  They took all the armor and weapons back to their wheelbarrow inside the secret door, then brought it all back to Gosterwick, where they would attempt to sell it without revealing themselves to the Set cult.
 
 
 GM's Comments:
@@ -92,3 +93,4 @@ Next Week:
 
 A couple of players will be unavailable, so the others are unlikely to feel strong enough to take a run at the halflings.  I suspect they'll continue exploring the Great Cavern area, or the surface ruins.
 
+2025-06-07

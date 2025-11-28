@@ -5,7 +5,8 @@ tags:
   - recap
 session_id: 18
 ---
-# DFRPG Arden Vul Session 18: Back Down the [[locations/Well of Light.md|Well of Light]]
+
+# DFRPG Arden Vul Session 18: Back Down the Well of Light
 
 Date:
  
@@ -20,27 +21,27 @@ Hot, dry
 Player Characters: 
 
 
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Michael J. Dundee, Thorcin barbarian (Adam)
+Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo)
+Vael Sunshadow, Half-Elven mage (Kyle)
 
 
 Significant NPCs:
 
 Several large albino baboons
-[[npcs/Yrsko.md|Yrsko]], giant 4-armed intelligent baboon cook
-[[npcs/Brokenneck.md|Brokenneck]] and 2 other goblin prisoner / cooks
-[[npcs/Marco.md|Marco]], one-armed beastman prisoner
-[[npcs/Ketil.md|Ketil]], Wiskin ranger prisoner
-[[npcs/Egrk.md|Egrk]], caveman prisoner
+Yrsko, giant 4-armed intelligent baboon cook
+Brokenneck and 2 other goblin prisoner / cooks
+Marco, one-armed beastman prisoner
+Ketil, Wiskin ranger prisoner
+Egrk, caveman prisoner
 Shrieker mushroom
 2 small spotted mushroom people
-[[npcs/Stamelis.md|Stamelis]], enchanted head of a Thothian librarian
+Stamelis, enchanted head of a Thothian librarian
 Undead librarian
 
 
-Vael returned from Newmarket, after doing some shopping and failing to meet the wizard in the Tower of the Ape.  He rounded up Michael, Uvash, and Ioannes for a trip back to the ruins of Arden Vul.  After ascending the [[locations/Long Stair.md|Long Stair]] (with 3 of them roped together and Vael Levitating) they decided to go down the Well of Light.  Vael first cast Darkness above the Well to make the mirrored shaft less blindingly bright inside, then cast Flight on Michael, who carried each of the others down the Well in turn.
+Vael returned from Newmarket, after doing some shopping and failing to meet the wizard in the Tower of the Ape.  He rounded up Michael, Uvash, and Ioannes for a trip back to the ruins of Arden Vul.  After ascending the Long Stair (with 3 of them roped together and Vael Levitating) they decided to go down the Well of Light.  Vael first cast Darkness above the Well to make the mirrored shaft less blindingly bright inside, then cast Flight on Michael, who carried each of the others down the Well in turn.
 
 The mirror at the bottom of the well was once again covered in debris and baboon feces.  The group spent a few minutes cleaning it off, then went east then southwest and explored a small room with some benches and and inscription on the wall that said "Let the Faithful Render Honor and Glory to the Light Which Reveals All” in Mithric.  Ioannes poked at a magical-looking marble circle on the floor with his axe, then stood on it, but nothing interesting happened.
 
@@ -56,7 +57,7 @@ The group went into the room to the south, which appeared to be the big baboon's
 
 Continuing south from Yrsko's room, they saw closed doors to the south and east.  They listened to both and didn't hear anything.  They first went south, and found a room with paintings of a jungle scene with baboons on the wall.  To the south was a mulch pit full of mushrooms.  As they approached, one of the mushrooms started shrieking.  Ioannes stepped forward to silence it.  This was effective, but offended a couple of small mushroom people who were hiding in the mulch pit.  Both attacked Ioannes, the first ineffectively, the second landing a pretty good punch.  This drew the attention of Michael and Uvash, who finished off both of the mushroom men.
 
-On the east side of the room was a large bust of a middle-aged Archontean man, which appeared magical.  Vael tried talking to the statue, and he surprisingly responded.  He said his name was Stamelis and he had been a Librarian of [[npcs/Thoth.md|Thoth]].  Vael and Ioannes asked Stamelis a lot of questions, and he verified that the [[locations/Library of Thoth.md|Library of Thoth]] was just to the west of here, that this had been Gerrilad's room, that Gerrilad hasn't been here for a couple of weeks, and that Gerrilad was not an adherent of Thoth, but followed some odd nature religion and seemed to have an unhealthy obsession with baboons.  Vael wanted to take the statue with them, but it was hundreds of pounds, so they left it for now, but told Stamelis that they would return.
+On the east side of the room was a large bust of a middle-aged Archontean man, which appeared magical.  Vael tried talking to the statue, and he surprisingly responded.  He said his name was Stamelis and he had been a Librarian of Thoth.  Vael and Ioannes asked Stamelis a lot of questions, and he verified that the Library of Thoth was just to the west of here, that this had been Gerrilad's room, that Gerrilad hasn't been here for a couple of weeks, and that Gerrilad was not an adherent of Thoth, but followed some odd nature religion and seemed to have an unhealthy obsession with baboons.  Vael wanted to take the statue with them, but it was hundreds of pounds, so they left it for now, but told Stamelis that they would return.
 
 They checked the door to the north, and found a bedroom, with nobody home.  There was a chest, which Vael again used Apportation to open.  Inside was a small silver mirror and some platinum coins, which Vael took.
 
@@ -68,7 +69,7 @@ Vael resumed casting the Analyze Magic spell that had been interrupted, but afte
 
 Not wanting to spend all day analyzing the arcanum in this dangerous environment, the group decided to escape from the Halls and analyze the globe back at the Arcane Practitioners' Club.  First Vael mentioned using the small pyramid to teleport back to the other small pyramid and then take the goblins down to Gog, but Ioannes reminded him that they had never teleported in that direction and didn't know if it was possible.  They then decided to just fly everyone back up the Well of Light to the surface.  Vael asked Ketil to carry the arcanum globe, and the goblins to take the cauldron again, and they all went north back to the bottom of the Well.  Vael cast Flight on Michael again, and he flew up and down the well many times, carrying either somebody or some heavy piece of loot on each trip.  After ten trips up and down, everyone was at the top.  The three goblins had run off in the commotion, but they left the magic cauldron.
 
-The group and their remaining followers headed south through the ruins then west to the dam, where they had a wheelbarrow stashed.  They put the arcanum and cauldron in the wheelbarrow, then continued south to the Long Stair.  About a third of the way down, Marco the Beastmen said goodbye and went into the secret door into the [[locations/Great Cavern.md|Great Cavern]].  At the bottom of the cliff, Egrk waved goodbye and headed west.  Ketil the Wiskin ranger went back to [[locations/Gosterwick.md|Gosterwick]] with the party, and helped push the wheelbarrow.
+The group and their remaining followers headed south through the ruins then west to the dam, where they had a wheelbarrow stashed.  They put the arcanum and cauldron in the wheelbarrow, then continued south to the Long Stair.  About a third of the way down, Marco the Beastmen said goodbye and went into the secret door into the Great Cavern.  At the bottom of the cliff, Egrk waved goodbye and headed west.  Ketil the Wiskin ranger went back to Gosterwick with the party, and helped push the wheelbarrow.
 
 
 GM's Comments:
@@ -88,3 +89,5 @@ Total: 3 XP
 
 Next Week:
 Ioannes expressed interest in finding the Library of Thoth and moving Stamelis there.  So there's a chance they will attempt that.  There was also continued griping about Plumthorn's Halflings being in the way of wherever they want to go, so maybe they'll try removing them.
+
+2025-07-19

@@ -5,9 +5,10 @@ tags:
   - recap
 session_id: 14
 ---
-# DFRPG Arden Vul Session 14: Behind the [[locations/Waterfall.md|Waterfall]] Again
 
-Date: 
+# DFRPG Arden Vul Session 14: Behind the Waterfall Again
+
+Date:
 
 Demmasday, 13th of Jelenius, 2993 AE
 
@@ -19,9 +20,9 @@ Cool, overcast
 
 Player Characters:
 
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo)
 Ashe "GOAT" Maykum, Goblin mercenary druid (Sharp Frank)
 Sister Valya "Basilisk", Halfling mercenary martial artist (Archon Shiva)
 
@@ -29,16 +30,16 @@ Sister Valya "Basilisk", Halfling mercenary martial artist (Archon Shiva)
 Significant NPCs:
 
 Dire snapping turtle
-[[npcs/Lytta - Versania.md|Lytta / Versania]], dirty starving crazy woman with a giant magic belt
-[[npcs/Camilla.md|Camilla]], summoned goat
+Lytta / Versania, dirty starving crazy woman with a giant magic belt
+Camilla, summoned goat
 Additional summoned goats
 Summoned bat swarms
 Summoned large manta rays
 Summoned boars
 Large statue with hammer hands
 6 Rock Elementals
-[[npcs/Vivian.md|Vivian]], Thorcin chief priest of the Temple of Demma in [[locations/Gosterwick.md|Gosterwick]]
-[[npcs/Jador the Just.md|Jador the Just]], Wiskin chief priestess of the Temple of Mitra in Gosterwick
+Vivian, Thorcin chief priest of the Temple of Demma in Gosterwick
+Jador the Just, Wiskin chief priestess of the Temple of Mitra in Gosterwick
 
 
 Vallium and Uvash took a week-long trip to Newmarket.  While there, Vallium saw the town and did some carousing for rumors.  Uvash met the Priest of Zodarrim, Gedric Malachite, who warned him to be wary of dopplegangers.  When they returned, Ioannes told them about the trip he had taken with a couple of the Grudge Brigade mercenaries, behind the plunge pool of the waterfall beneath the Cliff Face leading to Arden Vul.  They decided to revisit the area behind the waterfall, to try to kill the giant turtle that had attacked them and rescue the starving crazy woman they had met there.
@@ -67,7 +68,7 @@ They went back down the stairs, past the scary hammer statue.  The disembodied v
 
 They went back down the stairs, north and east past the crazy woman's room, as she continued stowing bits of turtle meat in every hiding place she could think of.  They turned north again, crawled over a barricade and a bunch of old bodies that they looted on their last visit, and reached closed doors to the north and east.  They listened at both, heard nothing, and decided to go east.  The door was unlocked and led to a large room.  It had an amazing 25' tall vaulted ceiling, beautiful teak wainscotting, and twenty large and well-crafted states of various ancient Archontean lumarnies.  Everyone recognized a few of the states, like Arden and Vul and Marius Tricotor.  One of the states had been smashed beyond recognition for whatever reason, and there was an ancient female corpse next to it.  Ioannes inspected the body and saw that whoever she was had died a violent death, with multiple horrible fractures.  The non-smashed statues looked very valuable, but also very difficult to move, as they were about 10' tall and very heavy.
 
-Inspecting the walls, Vallium spotted a hole in the southern wall about 20' up.  GOAT directed a bat swarm to fly in and check it out, and it returned intact.  Basilisk climbed up next, and walked down the 3' tall hole.  She explored south down a rough passage, with widened to about 5'.  Eventually it reached a crossroads with other cave passages going south and east, and a worked stone passage leading west to some stairs leading up.  There was a sconce on the finished wall to the west, with a silver pendant of a [[npcs/Set.md|Set]] animal hanging from it.  Basilisk absentmindedly pocketed the holy symbol, then west back to the others to report the passages and that one probably led to a temple of Set, without mentioning the holy symbol.
+Inspecting the walls, Vallium spotted a hole in the southern wall about 20' up.  GOAT directed a bat swarm to fly in and check it out, and it returned intact.  Basilisk climbed up next, and walked down the 3' tall hole.  She explored south down a rough passage, with widened to about 5'.  Eventually it reached a crossroads with other cave passages going south and east, and a worked stone passage leading west to some stairs leading up.  There was a sconce on the finished wall to the west, with a silver pendant of a Set animal hanging from it.  Basilisk absentmindedly pocketed the holy symbol, then west back to the others to report the passages and that one probably led to a temple of Set, without mentioning the holy symbol.
 
 Someone tied a rope to a goat, who scampered up the wall on its second try.  Once the rope was up there, everyone climbed it, and then crawled south down the passage single-file.  At the intersection they continued south.  The passage eventually changed to some kind of strange white material.  GOAT thought it reminded him of insect chitin.  There were horrible burn marks on the walls and floor near the entrance, as though some kind of huge fire trap had gone off there.  There were also a couple of interesting hexagonal shapes farther down the passage, and at the end of the passage was a strange round metal door.
 
@@ -111,5 +112,6 @@ Total: 3-4 XP depending on what they sell
 
 Next Week:
 
-Of course there has already been talk about going after Plumthorn's Halflings, but that happens every week and so far they have they always backed down.  They still have unexplored territory behind the waterfall, but they probably only feel safe going there if they have the GOAT and his collection of Aquaman spells.  If not, they might explore the [[locations/Great Cavern.md|Great Cavern]] or the surface ruins.
+Of course there has already been talk about going after Plumthorn's Halflings, but that happens every week and so far they have they always backed down.  They still have unexplored territory behind the waterfall, but they probably only feel safe going there if they have the GOAT and his collection of Aquaman spells.  If not, they might explore the Great Cavern or the surface ruins.
 
+2025-06-21

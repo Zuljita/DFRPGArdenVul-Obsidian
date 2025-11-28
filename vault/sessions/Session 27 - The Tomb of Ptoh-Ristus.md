@@ -4,8 +4,8 @@ tags:
   - session
   - recap
 session_id: 27
-in_world_date: Mitrasday, 10th of Besemios, 2993 AE
 ---
+
 # DFRPG Arden Vul Session 27: The Tomb of Ptoh-Ristus
 
 Date: 
@@ -19,20 +19,20 @@ Cool, dry
 
 Player Characters: 
 
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
+Vael Sunshadow, Half-Elven mage (Kyle)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo)
 Sister Valya "Basilisk" Hushbreaker, Halfling mercenary monk (ArchonShiva)
 
 
 Significant NPCs:
 
-[[npcs/Vivian.md|Vivian]], priest of Demma
-[[npcs/Wicktrimmer.md|Wicktrimmer]], Imperial Goblin banker and trader
-[[npcs/Sanguinette.md|Sanguinette]], Basilisk's bat familiar
-8 [[npcs/Set.md|Set]] cultists
-[[npcs/Bottleneck.md|Bottleneck]], goblin sergeant
+Vivian, priest of Demma
+Wicktrimmer, Imperial Goblin banker and trader
+Sanguinette, Basilisk's bat familiar
+8 Set cultists
+Bottleneck, goblin sergeant
 Lots and lots of goblins
 4 huge spiders
 2 animated spearman constructs
@@ -41,15 +41,15 @@ Lots and lots of goblins
 
 Uvash, Vael, and Ioannes were all very sick.  Ioannes had no idea what it was but suspected something magical, so they went to the Temple of Demma, where the head priest Vivian diagnosed them with a magical curse and cast a Remove Curse spell on each of them, in exchange for a suitable donation to feed the poor.  They were never quite sure where the curse came from, but the spell seemed to fix it.  They grumbled about the cost anyway.
 
-Vael went to visit Wicktrimmer at the Rarities Factor, found out that there was no news on their shopping list in Narsileon, and discussed whether Wicktrimmer would be willing to take over running the [[locations/Forum of Set.md|Forum of Set]] if the [[factions/Right for Riches Company.md|Right for Riches Company]] successfully destroyed the Settites.  Wicktrimmer was non-committal.
+Vael went to visit Wicktrimmer at the Rarities Factor, found out that there was no news on their shopping list in Narsileon, and discussed whether Wicktrimmer would be willing to take over running the Forum of Set if the Right for Riches company successfully destroyed the Settites.  Wicktrimmer was non-committal.
 
 Trying to keep their delve dates and times unpredictable, the Right for Riches company left at midnight on Demmasday.  Uvash wasn't happy about having to get up in the middle of the night.  The lights were shining in the entrance to the Set level, so Vael turned invisible and Levitated up to spy on the Settites, with Basilisk climbing the wall nearby and Basilisk's bat familiar Sanguinette flying beside.  The Settites charged with raising and lowering the basket were out of sight from outside.  Then some red-robed Set cultists started waving lanterns and torches below, and the Settites at the top lowered the basket and hoisted 4 of them up.  After a brief whispered discussion with Vael, Basilisk cut the rope, and the basket and its four cultists fell a very long way and smashed into the ground below.  The remaining cultists who had been waiting for their turn in the basket ran away, but the Right for Riches company chased them down and killed them.
 
-With their daily quota of Settites eliminated, the PCs crossed over the Swift River at the northern bridge, then climbed up the [[locations/Long Stair.md|Long Stair]] toward the ruins of Arden Vul.  They left a Hand of Glory (an evil Settite magic item they didn't think they could safely use) on top of the dam as tribute to Craas the green dragon, then headed for the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].  They manipulated the statue arms to open the trap door to the safer set of stairs down, and went down into the pyramid.  At the first large landing below they met a guard party of goblins, who said this was now goblin territory.  Vael said something about how they were the [[factions/Right for Riches Company.md|Right for Riches Company]] and were allowed, and the goblin sergeant checked his notes and said they were indeed expected and should check in with Master Sergeant Bottleneck near the Glory of Weskenim.
+With their daily quota of Settites eliminated, the PCs crossed over the Swift River at the northern bridge, then climbed up the Long Stair toward the ruins of Arden Vul.  They left a Hand of Glory (an evil Settite magic item they didn't think they could safely use) on top of the dam as tribute to Craas the green dragon, then headed for the Pyramid of Thoth.  They manipulated the statue arms to open the trap door to the safer set of stairs down, and went down into the pyramid.  At the first large landing below they met a guard party of goblins, who said this was now goblin territory.  Vael said something about how they were the Right for Riches company and were allowed, and the goblin sergeant checked his notes and said they were indeed expected and should check in with Master Sergeant Bottleneck near the Glory of Weskenim.
 
 When they reached the bottom of the stairs, there was a closed door with a little window in it, and a goblin guard watching through the window.  After they announced themselves, the guard went to get Bottleneck, who let them in.  He seemed happy to see them, and gave Vael, Vallium, and Ioannes similar embroidered patches featuring a goblin impaling a halfling, commemorating the liberation of Upper Goblintown from the evil halflings.  (Uvash and Basilisk didn't get patches.)  Bottleneck pointed around the new goblin territory, warned the PCs about a couple of pit traps and the dangers of wandering zombies and Settites to the west, and said they were welcome to visit anytime.  He asked them to tell any other surface dwellers who wanted to visit the new goblin territory to bring booze.
 
-Vael suggested a slight detour to the southwest to the small inside pyramid, because Vael wanted to cast Seeker to see if he could find the teleport control lever for the other pyramid on the [[locations/Well of Light.md|Well of Light]] level, and figured that doing so while looking at an identical lever would improve his odds.  Sure enough, he got a vision of a lever sitting at the bottom of a wet pit, next to some kind of slimy monster, in the room with the [[items/Ruby Chair.md|Ruby Chair]].  The group briefly discussed going after that lever, but decided that finding treasure in the new goblin territory was more urgent, in case the goblins found it first.
+Vael suggested a slight detour to the southwest to the small inside pyramid, because Vael wanted to cast Seeker to see if he could find the teleport control lever for the other pyramid on the Well of Light level, and figured that doing so while looking at an identical lever would improve his odds.  Sure enough, he got a vision of a lever sitting at the bottom of a wet pit, next to some kind of slimy monster, in the room with the Ruby Chair.  The group briefly discussed going after that lever, but decided that finding treasure in the new goblin territory was more urgent, in case the goblins found it first.
 
 They went east, through the gray smelly mist, past the disgusting pool that the goblin guards called their new swimming pool, through a couple of secret passages, and into a room full of pillars.  They went east to where there were two adjacent doors that both led to known traps.  They opened the eastern door, which they knew led to a pit trap.  Vallium spiked it open, worried about self-closing doors.  They avoided the known pit trap, went to the end of the hall, tried to open a false door, and opened the known pit plus three previously unknown ones.  They were somewhat prepared for this, with Vallium secured to Uvash by a rope and Vael Levitating, so nobody actually fell in.  After verifying that none of the pits had anything useful inside and that the door was actually false, they went back out.
 
@@ -65,19 +65,19 @@ Continuing north and west up the Chasm, they spotted a narrow passage heading ea
 
 A dead end passage south looked like an obvious place for another secret door, but there was no obvious way to open it.  Everyone looked, and then Vael tried a Lockmaster spell, but nothing worked.  Uvash suggested a pickaxe, but that seemed like too much effort so Vael used a Shape Earth spell.  That opened a hole into a larger room, containing two normal-sized white marble sargophagi and a huge black basalt sarcophagus.  There were also a couple of man-sized statues of spearmen.  When Vallium went into the room, the statues animated and charged.
 
-A short fight ensued, where Vallium stabbed the statues while Basilisk glided down from the ceiling while attempting to stun them with kiai yells.  Once both constructs were smashed, the group continued into the room to look at the large sarcophagus.  It had a Mithric inscription saying “Ptoh-Ristus, Servant of the Lord [[npcs/Thoth.md|Thoth]], Knower of Secrets and Founder of these Halls”.  Vallium removed the lid, at which point the lids of the other two sarcophagi popped off and two mummies came out.
+A short fight ensued, where Vallium stabbed the statues while Basilisk glided down from the ceiling while attempting to stun them with kiai yells.  Once both constructs were smashed, the group continued into the room to look at the large sarcophagus.  It had a Mithric inscription saying “Ptoh-Ristus, Servant of the Lord Thoth, Knower of Secrets and Founder of these Halls”.  Vallium removed the lid, at which point the lids of the other two sarcophagi popped off and two mummies came out.
 
 There were then two somewhat separate fights, with Vallium and Vael fighting the southern mummy and Uvash and Ioannes fighting the northern one, with Basilisk gliding around and yelling kiai at whichever one was closer.  One of the mummies hit Uvash pretty hard once, then knocked his Bless spell off with another punch.  Vael cast Great Haste on Vallium, who finished off one mummy then ran across the room to help with the other one.  Eventually Vallium downed it, while Uvash and Ioannes cautiously defended themselves.
 
 The large sarcophagus contained another mummy, this one inert, with a magical golden death mask.  It also held some coins and some doll-sized furniture, including a tiny magic chair.  The group took everything that looked valuable, but Vael was suspicious they might be missing something, so used a charge from the Wand of See Secrets.  This didn't find any more treasure, but it showed a secret door in the southeast of the room, a huge falling stone block trap inside the secret door, and a bunch of poison dart traps along two walls.  Vael avoided touching any of the trapped areas and used magic to open the secret door, then Levitated down the secret passage to finish mapping the area.  It led back to an area he already knew, so he returned to the group.
 
-With a decent amount of treasure found and everyone feeling tired, the group rested a bit, then Vael cast Walk on Air on everyone again.  They continued north up the Chasm until they reached a goblin-occupied room, where they greeted the goblin guards then walked over to the Glory of Thoth and up the stairs to the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].  They then headed back to [[locations/Gosterwick.md|Gosterwick]].
+With a decent amount of treasure found and everyone feeling tired, the group rested a bit, then Vael cast Walk on Air on everyone again.  They continued north up the Chasm until they reached a goblin-occupied room, where they greeted the goblin guards then walked over to the Glory of Thoth and up the stairs to the Pyramid of Thoth.  They then headed back to Gosterwick.
 
 GM's Comments:
 
 The players knew (due to knowledge magic) there was gold, platinum, and magic in the area southeast of the former halfling territory, but not exactly where, but they did a pretty good job of staying on target and using their map to search for secret doors until they found it.  They actually found the "back door" from the chasm to the Tomb; the "front door" that they didn't find until the end was actually much more dangerous as it had the worst traps, including the 10'x10'x10' stone block of "if this lands on you, you are just dead.  We don't need to roll the damage."
 
-Two of the magic items they found in the tomb were very interesting.  The pair of magic rugs were [[items/Rugs of Instant Access.md|Rugs of Instant Access]], which allow teleportation from one to the other.  This seemed very useful, but they weren't sure about the exact limits yet.  The Death Mask of Ptoh-Ristus had a bunch of useful powers (Infravision, See Secrets, Will bonus, bonus to detect lies and illusions), but also some remaining magic that appeared very difficult to identify, as Vael and Lyssanra and Pelteon all failed.  We'll see if the [[factions/Right for Riches Company.md|Right for Riches Company]] sells these items or keeps them for use.
+Two of the magic items they found in the tomb were very interesting.  The pair of magic rugs were Rugs of Instant Access, which allow teleportation from one to the other.  This seemed very useful, but they weren't sure about the exact limits yet.  The Death Mask of Ptoh-Ristus had a bunch of useful powers (Infravision, See Secrets, Will bonus, bonus to detect lies and illusions), but also some remaining magic that appeared very difficult to identify, as Vael and Lyssanra and Pelteon all failed.  We'll see if the Right for Riches company sells these items or keeps them for use.
 
 Achievements:
 
@@ -88,3 +88,5 @@ Exploration: 6 new locations, good for 1 XP
 Loot: Looks like 1 XP if they don't sell the good magic items, 2 XP if they do
 Achievements: 0 XP
 Total:  Probably 2 XP
+
+2025-10-25

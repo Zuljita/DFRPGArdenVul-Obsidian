@@ -4,8 +4,8 @@ tags:
   - session
   - recap
 session_id: 29
-in_world_date: Horasday, 26th of Besemios, 2993 AE
 ---
+
 # DFRPG Arden Vul Session 29: The Tower of Scrutiny
 
 Date: 
@@ -19,9 +19,9 @@ Cool, cloudy, chance of rain
 
 Player Characters: 
 
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo)
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
 Ethereum "Coinbase" Thuringwador, Elf Illusionist (Mercenary) (Archon Shiva)
 
 
@@ -46,11 +46,11 @@ The Plan:
 
 
 Vallium's plan for the week was:
-Leave one Rug of Instant Access at an apartment in the Arcane Practitioners' Club in [[locations/Gosterwick.md|Gosterwick]] and then teleport to it from the other Rug every mile or so on the way to Arden Vul, to find the Rugs' maximum range.
+Leave one Rug of Instant Access at an apartment in the Arcane Practitioners' Club in Gosterwick and then teleport to it from the other Rug every mile or so on the way to Arden Vul, to find the Rugs' maximum range.
 Leave the set of silver chess pieces they found last week on the dam as tribute for Craastonistorax.
-Try exploring the square tower next to the Forum in the ruins of Arden Vul.  First try to get in the front door, then search for secret doors, then see if the Eyes of [[npcs/Set.md|Set]] allowed seeing through the darkness on the stairs down from the roof, then try using ropes or magical flight to send someone down the stairs.
-Go through the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] to the [[locations/Well of Light.md|Well of Light]], check on Yamki and the baboons, give the baboons some food if they're behaving, and trade Trefko a live goat (teleported in from Gosterwick using the Rugs) for his Dwarven Life-Stone.  Give Trefko a sheet to cover the mirror at the bottom of the Well when the party isn't using it, rather than having baboons poop on it.
-Explore the exit up from the Well of Light, northwest of the [[items/Ruby Chair.md|Ruby Chair]].
+Try exploring the square tower next to the Forum in the ruins of Arden Vul.  First try to get in the front door, then search for secret doors, then see if the Eyes of Set allowed seeing through the darkness on the stairs down from the roof, then try using ropes or magical flight to send someone down the stairs.
+Go through the Pyramid of Thoth to the Well of Light, check on Yamki and the baboons, give the baboons some food if they're behaving, and trade Trefko a live goat (teleported in from Gosterwick using the Rugs) for his Dwarven Life-Stone.  Give Trefko a sheet to cover the mirror at the bottom of the Well when the party isn't using it, rather than having baboons poop on it.
+Explore the exit up from the Well of Light, northwest of the Ruby Chair.
 Explore the Howling Caves beyond the portcullis.
 Go shopping at the Goblin Market.
 
@@ -58,7 +58,7 @@ Go shopping at the Goblin Market.
 What Actually Happened:
 
 
-The [[factions/Right for Riches Company.md|Right for Riches Company]], without Vael or Michael but with Coinbase the head Grudge Brigade Mercenary, left Gosterwick just before dawn on Horasday.  They had a [[items/Rugs of Instant Access.md|Rug of Instant Access]] spread out in one apartment, and a live goat left in another apartment (not the same one with the Rug).  On the ten-mile walk to the Cliff Face below Arden Vul, they stopped every mile or so, spread out the Rug, and used it to teleport someone to Gosterwick and back.  When they reached the Cliff Face, everyone except Coinbase stepped through the Rug, Coinbase Levitated up the Cliff Face with the Rug, and then everyone stepped back through the Rug to join Coinbase at the top of the cliff.  Overall, playing with the Rugs took a couple of minutes, but not having to walk all the way up the [[locations/Long Stair.md|Long Stair]] saved over an hour, so this shortened the trip by about an hour while proving that the Rugs' range was at least ten miles.
+The Right for Riches company, without Vael or Michael but with Coinbase the head Grudge Brigade Mercenary, left Gosterwick just before dawn on Horasday.  They had a Rug of Instant Access spread out in one apartment, and a live goat left in another apartment (not the same one with the Rug).  On the ten-mile walk to the Cliff Face below Arden Vul, they stopped every mile or so, spread out the Rug, and used it to teleport someone to Gosterwick and back.  When they reached the Cliff Face, everyone except Coinbase stepped through the Rug, Coinbase Levitated up the Cliff Face with the Rug, and then everyone stepped back through the Rug to join Coinbase at the top of the cliff.  Overall, playing with the Rugs took a couple of minutes, but not having to walk all the way up the Long Stair saved over an hour, so this shortened the trip by about an hour while proving that the Rugs' range was at least ten miles.
 
 After reaching the ruins, they walked over to the dam and left a silver Archontean chess set as tribute for the dragon.  They then walked over to the squat square tower by the Forum, where they had long ago found locked doors, bodies on the roof, and stairs down into impenetrable magical darkness.  This time the doors were still locked, and none of the many keys on Vallium's keyring fit.  The whole group circled the base of the tower looking for secret doors, and Uvash found one on the back side of the tower.  Everyone took a close look and nobody saw an obvious way to open it, until Ioannes found a small keyhole.  None of Vallium's keys fit, and nobody had lockpicks or a Lockmaster spell, and the door looked like very sturdy stone that they would not be able to break through, so they gave up on opening the secret door.
 
@@ -88,19 +88,19 @@ And then a third wraith appeared.  At that point Coinbase said it was probably t
 
 The whole group ran south, then east, then north, then west to the spiral stairs, then up two levels, with the wraiths sniffing behind.  Coinbase, the fastest runner, got far enough ahead that he stopped for a couple of seconds to cast Flight on Vallium.  Once they reached the top of the spiral stairs, they ran around the upper level to the bottom of the broken wooden stairs leading to the roof.  By then there was some distance to the wraiths, so Vallium picked up Ioannes and carried him to the roof, then came back and carried Uvash up, while Coinbase Levitated himself to the roof.  Nobody had any safety ropes this time, but they were pretty sure the mana level was fine based on their entry, and nobody thought they could afford the time to set up ropes.
 
-Once everyone reached the roof, Vallium and Coinbase ferried them to the ground at the base of the tower.  No wraiths appeared to be following them, so Ioannes took a few minutes to heal everyone of their wraith wounds, then rested for a few minutes.  That was enough of the Tower of Scrutiny for one day, so the group walked north to the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], manipulated its arms to open the trap door, and went down the steps to the Glory of Thoth.
+Once everyone reached the roof, Vallium and Coinbase ferried them to the ground at the base of the tower.  No wraiths appeared to be following them, so Ioannes took a few minutes to heal everyone of their wraith wounds, then rested for a few minutes.  That was enough of the Tower of Scrutiny for one day, so the group walked north to the Pyramid of Thoth, manipulated its arms to open the trap door, and went down the steps to the Glory of Thoth.
 
 Vallium knocked on the door and announced himself, and the goblin guards let them in.  There were even more goblins in Upper Goblintown than last time, and many of them were holding small orange gourds full of alcohol.  The giant ibis-headed Thoth statue was wearing a pink turban, sort of resembling the one King Weskenim wore.  Vallium mentioned to Bottleneck that this was the goblins' third week in a row of partying, and Bottleneck said that it was because they had continued to expand their territory, and also it was a goblin holiday celebration.
 
 The group went south and west to the indoor pyramid, flipped the control rod to teleport to the other indoor pyramid on the Well of Light level, and then walked over to visit Yamki.  Yamki said that Trefko was still in his room and was still grumpy but was not causing trouble.  He said that Sisko's harem were still rude but they did not appear to have destroyed anything.  Vallium was satisfied with Yamki's story and gave him a large pile of meat that he pulled out of Larel's Sack.  Yamki gave some of the meat to each of the nearby female baboons, then headed south to the Howling Caves to feed the others.
 
-The group headed north and west to Trefko's room.  They knocked on the door and Trefko opened it.  Trefko asked if they had his goat.  Vallium said to wait a minute, then went around a corner, spread out the Rug, walked through to the apartment in Gosterwick, went to the apartment next door with the goat, grappled the goat, and carried it back through the Rug.  He carried the squirming goat over toward Trefko.  Coinbase tried a Levitation on the goat to make it float peacefully, but the goat stubbornly resisted the spell.  Trefko ended the commotion by reaching out with two of his huge arms to grab the goat.  He then removed his dwarven life-stone necklace with his other two hands, and gave it to Uvash.  The life-stone said "[[npcs/Schist Corundam.md|Schist Corundam]]" in Dwarven Runic, which Uvash identified as a dwarven name, with Schist being the given name and Corundam a clan name.  Vallium asked Trefko how things were going, and he said he preferred his quiet room to all the noisy kids in the Howling Caves.  Vallium said that was fine, as long as Trefko kept the others from vandalizing the mirrors.  He gave Trefko a sheet that he could use to cover the mirror when it wasn't being used.
+The group headed north and west to Trefko's room.  They knocked on the door and Trefko opened it.  Trefko asked if they had his goat.  Vallium said to wait a minute, then went around a corner, spread out the Rug, walked through to the apartment in Gosterwick, went to the apartment next door with the goat, grappled the goat, and carried it back through the Rug.  He carried the squirming goat over toward Trefko.  Coinbase tried a Levitation on the goat to make it float peacefully, but the goat stubbornly resisted the spell.  Trefko ended the commotion by reaching out with two of his huge arms to grab the goat.  He then removed his dwarven life-stone necklace with his other two hands, and gave it to Uvash.  The life-stone said "Schist Corundam" in Dwarven Runic, which Uvash identified as a dwarven name, with Schist being the given name and Corundam a clan name.  Vallium asked Trefko how things were going, and he said he preferred his quiet room to all the noisy kids in the Howling Caves.  Vallium said that was fine, as long as Trefko kept the others from vandalizing the mirrors.  He gave Trefko a sheet that he could use to cover the mirror when it wasn't being used.
 
 The party then went north and west to the hole in the ceiling.  Vallium pulled a ladder out of Larel's Sack to make it easier to reach, and everyone went up. They went north through a narrow natural cavern passage, until it opened into a cavern.  The cavern contained a half-eaten dwarf corpse, which Ioannes recognized as Gwelf, the dwarf they had freed from Gerrilad's prison, who had then run off.  Gwelf appeared to have taken a fatal blow from a large cutting weapon.  Uvash cast Final Rest on Gwelf, while Ioannes cast Bless on Uvash to replace the Bless that had absorbed a wraith attack.
 
 The room also contained a couple of statues, a 4' marble whippet and a 5' bronze Ptah.  The bronze statue took all of Vallium's strength to budge.  Uvash spotted a single ancient gold solidi coin on the floor.  Coinbase cast Lighten Burden to make it a bit easier to manage, and Vallium took both statues and Gwelf's body through the Rug to their apartment.  While he was there, he dumped a bunch of newly found loot out of Larel's Sack.
 
-There were two exits from the cavern, a passage north at ground level and a passage west about 25' up.  Coinbase Levitated up to take a look, but didn't see much.  The group decided "[[factions/Right for Riches Company.md|Right for Riches]]" meant north, and then they turned right at a fork.  This led to a passage that went down a long way, as the passage got drier.  After about half a mile of descending, the party decided to turn around and went back.
+There were two exits from the cavern, a passage north at ground level and a passage west about 25' up.  Coinbase Levitated up to take a look, but didn't see much.  The group decided "Right for Riches" meant north, and then they turned right at a fork.  This led to a passage that went down a long way, as the passage got drier.  After about half a mile of descending, the party decided to turn around and went back.
 
 They took a few more right turns and then entered a huge underground graveyard.  There were sarcophagi scattered all over, some with blank lids, others with gisants with pictures of people and sometimes names carved in Mithric, always "Brother Someone."  Coinbase tentatively flew around to map the room, and found several mausoleums along the north and south walls.  The room felt creepy, with Low Sanctity.  After much discussion, they decided to take the lid off a sarcophagus near the entrance where it would be easier to run.  Inside was an inert mummy and some ancient silver coins.  They decided not to rob the grave, and opened a second one.  This one contained a ghoul, who attacked them.  It was four on one, so the ghoul didn't last long.  There was also some silver in this one, and they decided to take it, since the ghoul had attacked them.
 
@@ -121,7 +121,7 @@ They escaped the Tower of Scrutiny without dying.  The wraiths are no joke.  The
 
 When the party found that deeply descending tunnel and turned around, they didn't actually want to turn around.  I told them the map they were approaching wasn't ready, so they had to turn around (or pause there), but it would be ready for next session.  This is the first time this has happened in this campaign, so they got an achievement for it.  (It's a one-time-only achievement as I don't want them deliberately trying to exceed the limits of the mapped area.)
 
-The [[items/Rugs of Instant Access.md|Rugs of Instant Access]] are the kind of magic item that totally changes the game.  They players are still figuring them out, but got a lot of use out of them.  (Including questionable uses like teleporting random monster corpses back to their apartments.)
+The Rugs of Instant Access are the kind of magic item that totally changes the game.  They players are still figuring them out, but got a lot of use out of them.  (Including questionable uses like teleporting random monster corpses back to their apartments.)
 
 
 Achievements:

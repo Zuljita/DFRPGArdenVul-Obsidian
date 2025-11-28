@@ -5,9 +5,10 @@ tags:
   - recap
 session_id: 11
 ---
-# DFRPG Arden Vul Session 11: The [[locations/Great Cavern.md|Great Cavern]] Redux
 
-Date: 
+# DFRPG Arden Vul Session 11: The Great Cavern Redux
+
+Date:
 
 Demmasday, 23rd of Ligarios, 2993 AE
 
@@ -19,15 +20,15 @@ Cool, windy
 
 Player Characters:
 
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Vael Sunshadow, Half-Elven mage (Kyle)
 Thrainor "Thronebreaker" Ironvein, Dwarven martial artist (Archon Shiva)
 
 
 Significant NPCs:
 
-[[npcs/Klisko.md|Klisko]], badly injured mage
+Klisko, badly injured mage
 One skeleton
 Three mushroom-smoking fire mephits
 Four feral cats
@@ -38,7 +39,7 @@ Several giant lizards
 
 Uvash had church and Michael was gone on another hunting trip, so the group felt a bit shorthanded this week, and hired a dwarven mercenary named Thronebreaker from the Grudge Brigade.  Ioannes spent several days taking equine handling lessons from Sakeon the Horse Whisperer, then the group decided to visit the Great Cavern and didn't bring their mule along.  They did grab the leftover food out of the mule's saddlebag and put it in their wheelbarrow, in case they ran into any hungry monsters.  Ioannes rudely dropped the Bless spells he was maintaining on Uvash and Michael, and cast one on Thronebreaker, who had apparently heard from some other mercenary that he could cast it.
 
-The four got up early and hiked from [[locations/Gosterwick.md|Gosterwick]] to the Cliff Face, then about two-thirds of the way up the [[locations/Long Stair.md|Long Stair]] to the secret entrance to the Great Cavern.  They found the secret door without problems, and left their wheelbarrow full of food right inside.  They turned left (for loot) and found a cavern containing a padlocked stone chest with the icon of a mailed fist on top.  Vael cast Lockmaster and the lock sprung open, but remained hanging from the chest.  Vael reached out to grab it and the contact poison on the lock seeped right through his gloves and knocked him down.  Fortunately it was not fatal, and Ioannes cast Stop Bleeding while Thronebreaker expressed surprise that a wizard who knew Apportation would ever touch a small object with his bare hands.
+The four got up early and hiked from Gosterwick to the Cliff Face, then about two-thirds of the way up the Long Stair to the secret entrance to the Great Cavern.  They found the secret door without problems, and left their wheelbarrow full of food right inside.  They turned left (for loot) and found a cavern containing a padlocked stone chest with the icon of a mailed fist on top.  Vael cast Lockmaster and the lock sprung open, but remained hanging from the chest.  Vael reached out to grab it and the contact poison on the lock seeped right through his gloves and knocked him down.  Fortunately it was not fatal, and Ioannes cast Stop Bleeding while Thronebreaker expressed surprise that a wizard who knew Apportation would ever touch a small object with his bare hands.
 
 Vael stood back up and Apportated the lock off the chest.  Thronebreaker ripped the lid open.  Inside the chest were some rations, torches, javelins, gourd canteens, and flasks of oil.  There was also a leather pouch.  Vael cautiously Apportated the pouch out and flipped it over, and some red mushrooms fell out.  They took the mushrooms and left the rest, figuring they could come back and get it on the way out if they were desperate enough for loot that torches and javelins were worth carrying.
 
@@ -105,3 +106,5 @@ Total: 3 XP
 Next Week:
 
 I think they might actually take a shot at Plumthorn's halflings, if they get a full party.  The lure of Chekhov's Statue Head might be too much to resist.
+
+2025-05-31

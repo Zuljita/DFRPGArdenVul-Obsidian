@@ -4,8 +4,8 @@ tags:
   - session
   - recap
 session_id: 26
-in_world_date: Lunday, 1st of Besemios, 2993 AE
 ---
+
 # DFRPG Arden Vul Session 26: The Scouring of the Shire
 
  
@@ -21,46 +21,46 @@ Cool, dry
 
 Player Characters: 
 
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
+Vael Sunshadow, Half-Elven mage (Kyle)
+Vallium Halcyon, Archontean fighter (Greybrown)
+Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Michael J. Dundee, Thorcin barbarian (Adam)
 Lacrymosa, Elf Grudge Brigade mercenary archer (Archon Shiva)
 
 
 Significant NPCs:
 
-[[npcs/Craastonistorex.md|Craastonistorex]], green dragon
-[[npcs/Briar.md|Briar]], Wyvern
+Craastonistorex, green dragon
+Briar, Wyvern
 Giant Tick
-[[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]], Halfling mob boss
-[[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]], Halfling toll collector and mob lieutenant
-[[npcs/Blandveg.md|Blandveg]], Archontean mage, alchemist, and poisoner
+Phlebotomas Plumthorn, Halfling mob boss
+Roskelly Winterleaf, Halfling toll collector and mob lieutenant
+Blandveg, Archontean mage, alchemist, and poisoner
 Many halfling fighters
 Many halfling thieves
 Many goblin fighters
-[[npcs/Bottleneck.md|Bottleneck]], goblin sergeant
-[[npcs/Killick.md|Killick]], goblin Big Boss of the Wet Caves
-[[npcs/Weskenim.md|Weskenim]], Grand King of the United Goblins
-[[npcs/Gribble.md|Gribble]], goblin prince
-[[npcs/Palestrim.md|Palestrim]], goblin major-domo
-[[npcs/Skimmel.md|Skimmel]], goblin advisor
-[[npcs/Reeflik.md|Reeflik]], goblin advisor
-[[npcs/Sir Sorrow.md|Sir Sorrow]], Sun-Scarred Knight
-[[npcs/Huguette.md|Huguette]], varlet to Sir Sorrow
-[[npcs/Rizzit.md|Rizzit]], demon
-[[npcs/Claudine of Narsileon.md|Claudine of Narsileon]], Archontean arms merchant
-[[npcs/Thorgrim the Easy.md|Thorgrim the Easy]], Wiskin food and drinks merchant
-[[npcs/Leifcrim.md|Leifcrim]], halfling curios and magic items merchant
+Bottleneck, goblin sergeant
+Killick, goblin Big Boss of the Wet Caves
+Weskenim, Grand King of the United Goblins
+Gribble, goblin prince
+Palestrim, goblin major-domo
+Skimmel, goblin advisor
+Reeflik, goblin advisor
+Sir Sorrow, Sun-Scarred Knight
+Huguette, varlet to Sir Sorrow
+Rizzit, demon
+Claudine of Narsileon, Archontean arms merchant
+Thorgrim the Easy, Wiskin food and drinks merchant
+Leifcrim, halfling curios and magic items merchant
 
 
-The [[factions/Right for Riches Company.md|Right for Riches Company]] decided it was finally time to take down Plumthorn's extortionist halfling gang.  But they waited until the Lunday after the Voluptarian Days intercalary period to go back to Arden Vul.  Uvash was unexpectedly ill (some suspected a hangover after the harvest festivals, but that was also unusual for a dwarf), so they hired Lacrymosa the mercenary archer from the Grudge Brigade.
+The Right for Riches company decided it was finally time to take down Plumthorn's extortionist halfling gang.  But they waited until the Lunday after the Voluptarian Days intercalary period to go back to Arden Vul.  Uvash was unexpectedly ill (some suspected a hangover after the harvest festivals, but that was also unusual for a dwarf), so they hired Lacrymosa the mercenary archer from the Grudge Brigade.
 
-They woke up very early, with the goal of arriving at the base of the Cliff Face beneath the ruins of Arden Vul around dawn.  Vael Levitated himself and a Living Wheelbarrow containing a Bag of Holding up the cliff, while the others roped themselves together for safety and climbed the [[locations/Long Stair.md|Long Stair]].  As they walked north through the ruins of Arden Vul, a huge green shape flanked by a merely large green shape appeared overhead, then dropped down in front of them into the Forum of Arden Vul.  It was Craastonistorex the green dragon, and he was angry.  He informed them that Someone Had Messed With the Water Level Again, and that as Wardens of the Dam, it was their job to keep that from happening.  He also informed them that they were late with their tribute.  Vael apologized, said they'd fix the dam right away, and that they'd bring tribute next week.  Craastonistorex said that next week wasn't soon enough, and he needed a magic item now or he would eat one of them.  Lacrymosa set down a potion.  [[npcs/Craastonistorex.md|Craastonistorex]] appeared to consider eating her for such a paltry gift, but magnanimously let it slide, as [[npcs/Briar.md|Briar]] the wyvern picked up the potion in his claws.  The dragon repeated his instruction to fix the water level immediately, and flew away, flanked by his pet.
+They woke up very early, with the goal of arriving at the base of the Cliff Face beneath the ruins of Arden Vul around dawn.  Vael Levitated himself and a Living Wheelbarrow containing a Bag of Holding up the cliff, while the others roped themselves together for safety and climbed the Long Stair.  As they walked north through the ruins of Arden Vul, a huge green shape flanked by a merely large green shape appeared overhead, then dropped down in front of them into the Forum of Arden Vul.  It was Craastonistorex the green dragon, and he was angry.  He informed them that Someone Had Messed With the Water Level Again, and that as Wardens of the Dam, it was their job to keep that from happening.  He also informed them that they were late with their tribute.  Vael apologized, said they'd fix the dam right away, and that they'd bring tribute next week.  Craastonistorex said that next week wasn't soon enough, and he needed a magic item now or he would eat one of them.  Lacrymosa set down a potion.  Craastonistorex appeared to consider eating her for such a paltry gift, but magnanimously let it slide, as Briar the wyvern picked up the potion in his claws.  The dragon repeated his instruction to fix the water level immediately, and flew away, flanked by his pet.
 
 The group immediately headed for the dam.  They saw their lock was gone from the door.  Inside the dam, all the tools they had been storing were gone.  Vallium immediately used the dam controls to reset the water level to the dragon's preferred setting.  Meanwhile, Vael cast Seeker looking for the wheelbarrow they had kept in the dam, and saw that it was in Newmarket, about 30 miles to the South.  He then cast Trace to prepare to hunt down the thieves, but they realized 30 miles was a long walk and keeping the spell up that long was impractial, and let it lapse.  He finally used Shape Earth to close some of the dam's stonework over the door, so that nobody else could easily go in and manipulate the water level again.
 
-Vallium led the group to the basement entrance southwest of the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].  As they walked through the ruined basement, a giant tick (roughly the size of a large dog) attempted to surprise and eat Lacrymosa.  She saw it coming, didn't deign to waste any arrows on it, and called from help while running away.  Michael, nearby, pulled out his sword and chopped the vermin in half.  The group then continued north through the basement and down the spiral stairs.  Halfway down the spiral stairs to the Halls of [[npcs/Thoth.md|Thoth]], Vallium tripped over a tripwire, connected to some bells.  He did not fall, but the bells made a lot of noise.  The others stepped over the tripwire, but they were worried that whoever placed the tripwire was now alerted to their presence.
+Vallium led the group to the basement entrance southwest of the Pyramid of Thoth.  As they walked through the ruined basement, a giant tick (roughly the size of a large dog) attempted to surprise and eat Lacrymosa.  She saw it coming, didn't deign to waste any arrows on it, and called from help while running away.  Michael, nearby, pulled out his sword and chopped the vermin in half.  The group then continued north through the basement and down the spiral stairs.  Halfway down the spiral stairs to the Halls of Thoth, Vallium tripped over a tripwire, connected to some bells.  He did not fall, but the bells made a lot of noise.  The others stepped over the tripwire, but they were worried that whoever placed the tripwire was now alerted to their presence.
 
 At the bottom of the stairs, Vael cast Keen Vision to reduce the chance of further surprise, and cast Bracteros Effect on his Continual Light rock so that nobody could see it from a distance.  He asked the others to put their lights away, and then moved up to the front next to Vallium to look for trouble.  The group continued south and east until they were near the cavern, then halted to discuss tactics.  After some discussion Vael borrowed Lacrymosa's Lion's Cloak to gain Infravision, cast Wizard Eye, cast Invisibility on it, and sent the invisible Wizard Eye down the chasm to investigate.  The Eye peeked into the first room full of halflings and saw three guards by the chasm and several other halflings within the room.  It continued south and peeked in the second room, spying Plumthorn, Blandveg, and three more guards.  It continued south further and found another chasm exit on the east side of the chasm, then a couple of rooms they had previously found even further south, then winked out of existence as Vael decided not to maintain the spell.
 
@@ -92,7 +92,7 @@ The group then went west into the Glory of Thoth and searched the unexplored roo
 
 As the party finished their searches, the goblin sergeant Bottleneck came back up to the barricade.  He said his messenger had informed Killik, the Big Boss of the Wet Caves, who had gone to see King Weskenim, but they had not heard back from the King yet.  Vael advised that the goblins could take their new territory but should not go west of the Glory of Thoth because there were Settites there.  The group then followed a goblin guide down to the Wet Caves, then down to Goblintown.  The goblin led them over a frail bridge (none of the big people broke through), and over to the Goblin Court.  Killik was there, waiting for King Weskenim to come out of his harem.
 
-A few minutes later, the King emerged from the harem room, spoke to Killik, went into his audience room, spoke to his advisors, then invited the Right for Riches company in.  He informed them that he was very happy that the rightful goblin territory had been restored, and rewarded them with a large perfect diamond.  He also said that he still owed them a reward for freeing his brother Gribble from [[npcs/Set.md|Set]] prison, and pointed at a human-sized set of magical scale armor on display.  It was the armor of a huge ancient goblin king, but it was too big for Weskenim, so he was awarding it to them.
+A few minutes later, the King emerged from the harem room, spoke to Killik, went into his audience room, spoke to his advisors, then invited the Right for Riches company in.  He informed them that he was very happy that the rightful goblin territory had been restored, and rewarded them with a large perfect diamond.  He also said that he still owed them a reward for freeing his brother Gribble from Set prison, and pointed at a human-sized set of magical scale armor on display.  It was the armor of a huge ancient goblin king, but it was too big for Weskenim, so he was awarding it to them.
 
 At that point Vael started negotiating with the king.  He would happily present the former halfling territory to the goblins, but wanted free passage through goblin territory.  The king agreed, but said that some goblin territory was dangerous so they should get an escort.  Vallium asked about Gislu and the Scepter of the Goblins.  The king said that Gislu was some kind of fake mystic and the Scepter seemed like a ploy to steal power, and it might not exist, but if it did exist, it was the rightful property of the king and he would reward them for finding it.  They also asked about the Regalia that the Green Lady was looking for, but the goblin king didn't know anything about that.  Weskenim also noted that he had a guest room that was currently occupied by a Sun-Scarred Knight, but that if the occupants moved on, the Right for Riches company would be welcome to use it.  In the meantime they would be welcome to visit the Goblin Great Hall for shopping and dining.  Vael also asked about the Troll Lifts, and the king said they were east of the goblin territory in the Wet Caves and Killick could point out the way.  And also that the trolls preferred to be called varumani.
 
@@ -102,7 +102,7 @@ At the conclusion of the conversation, the company said farewell to Sir Sorrow, 
 
 The first merchant was an Archontean woman selling weapons and armor, but nobody saw anything magical, so they kept walking.  The second merchant was an angry Wiskin guy selling food and drink, but nobody was hungry. The third merchant was a halfling named Master Leifcrim selling curios, and a couple of them looked magical, so they stopped to shop.  He ended up selling them another Returning Pebble (and explained that if a proper sales contract was written out, the magic of the pebble somehow knew that it had a new owner and would return to them), another magic fish-shaped rod of unknown use (but probably something to do with boats), and a small non-magical orange oval object made of a strange substance (it felt kind of like insect chitin) with strange glyphs and no known use.  They weren't sure they wanted the orange thing, but Leifcrim hinted that he had some really good magical items for really rich good customers, so they paid full price for the orange thing hoping that would lead to good deals in the future.
 
-At that point, it was time to go back to [[locations/Gosterwick.md|Gosterwick]], so the [[factions/Right for Riches Company.md|Right for Riches Company]] took their wheelbarrow and magical bags full of halfling loot and headed back up the stairs, then up the slope to the Glory of Thoth, then up the stairs to the surface and down the cliff.  They did not see Plumthorn or his followers on the way.
+At that point, it was time to go back to Gosterwick, so the Right for Riches Company took their wheelbarrow and magical bags full of halfling loot and headed back up the stairs, then up the slope to the Glory of Thoth, then up the stairs to the surface and down the cliff.  They did not see Plumthorn or his followers on the way.
 
 
 GM's Comments:
@@ -124,5 +124,6 @@ Total: 5 XP
 
 Next Week:
 
-With the halflings eliminated, the [[factions/Right for Riches Company.md|Right for Riches Company]] needs to pick a new goal.  Do they explore more of the former halfling territory, explore more of Goblintown proper, go looking for the Troll Lifts, or resume their war against the Cult of Set?  I have no idea.
+With the halflings eliminated, the Right for Riches company needs to pick a new goal.  Do they explore more of the former halfling territory, explore more of Goblintown proper, go looking for the Troll Lifts, or resume their war against the Cult of Set?  I have no idea.
 
+2025-10-18
