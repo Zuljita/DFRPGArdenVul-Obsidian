@@ -1,0 +1,21 @@
+{
+  "routes": [
+    { "route": "/", "headers": { "cache-control": "public, max-age=300, must-revalidate" } },
+    { "route": "/**/*.html", "headers": { "cache-control": "public, max-age=300, must-revalidate" } },
+    { "route": "/**/*.xml", "headers": { "cache-control": "public, max-age=300, must-revalidate" } },
+    { "route": "/**/*.json", "headers": { "cache-control": "public, max-age=300, must-revalidate" } },
+    { "route": "/**/*.css", "headers": { "cache-control": "public, max-age=31536000, immutable" } },
+    { "route": "/**/*.js",  "headers": { "cache-control": "public, max-age=31536000, immutable" } },
+    { "route": "/**/*.svg", "headers": { "cache-control": "public, max-age=31536000, immutable" } },
+    { "route": "/**/*.png", "headers": { "cache-control": "public, max-age=31536000, immutable" } },
+    { "route": "/**/*.jpg", "headers": { "cache-control": "public, max-age=31536000, immutable" } },
+    { "route": "/**/*.jpeg","headers": { "cache-control": "public, max-age=31536000, immutable" } },
+    { "route": "/**/*.webp","headers": { "cache-control": "public, max-age=31536000, immutable" } },
+    { "route": "/**/*.woff2","headers": { "cache-control": "public, max-age=31536000, immutable" } },
+    { "route": "/**/*.woff", "headers": { "cache-control": "public, max-age=31536000, immutable" } }
+  ],
+  "globalHeaders": {
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  }
+}
+

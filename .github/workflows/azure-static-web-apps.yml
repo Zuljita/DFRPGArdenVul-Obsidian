@@ -36,6 +36,10 @@ jobs:
         working-directory: quartz
         run: node ./quartz/bootstrap-cli.mjs build -d ../vault -o public
 
+      - name: Add SWA config (caching/headers)
+        run: |
+          cp config/staticwebapp.config.json quartz/public/staticwebapp.config.json
+
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
@@ -44,4 +48,3 @@ jobs:
           action: upload
           app_location: quartz/public
           skip_app_build: true
-
