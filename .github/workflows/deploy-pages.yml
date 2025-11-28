@@ -43,6 +43,11 @@ jobs:
         working-directory: quartz
         run: node ./quartz/bootstrap-cli.mjs build -d ../vault -o public
 
+      - name: Ensure lowercase index and disable Jekyll
+        run: |
+          cp quartz/public/Index.html quartz/public/index.html || true
+          touch quartz/public/.nojekyll
+
       - name: Add CNAME for custom domain
         run: echo "ardenvul.dungeonsonautomatic.com" > quartz/public/CNAME
 
@@ -61,4 +66,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
