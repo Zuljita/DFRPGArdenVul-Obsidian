@@ -1,7 +1,9 @@
 ---
 title: "Vael Sunshadow"
 tags:
-  - pc  - "Session 32 - Fast Exploration"
+  - pc
+aliases:
+  - Vael
 ---
 # Vael Sunshadow
 

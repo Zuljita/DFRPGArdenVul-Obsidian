@@ -1,7 +1,9 @@
 ---
 title: "Ioannes Grammatikos Byzantios"
 tags:
-  - pc  - "Session 32 - Fast Exploration"
+  - pc
+aliases:
+  - Ioannes
 ---
 # Ioannes Grammatikos Byzantios
 

@@ -1,7 +1,9 @@
 ---
 title: "Uvash Edzuson"
 tags:
-  - pc  - "Session 32 - Fast Exploration"
+  - pc
+aliases:
+  - Uvash
 ---
 # Uvash Edzuson
 

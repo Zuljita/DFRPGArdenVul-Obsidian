@@ -8,7 +8,7 @@ TBD
 
 ## Known History
 [[Vallium Halcyon]] commissioned a similar patch depicting 11 wooden mugs to commemorate a recent accomplishment.
-Owned by [[Michael J Dundee]], [[Vael Sunshadow]], [[Merenuithiel Lacrymosa Armaris|Lacrymosa]], [[Ioannes]], [[Vallium Halcyon]]
+Owned by [[pcs/Michael J. Dundee.md|Michael J Dundee]], [[pcs/Vael Sunshadow.md|Vael Sunshadow]], [[Merenuithiel Lacrymosa Armaris|Lacrymosa]], [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]], [[pcs/Vallium Halcyon.md|Vallium Halcyon]]
 
 ## Notes
 TBD

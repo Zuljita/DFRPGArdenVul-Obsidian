@@ -1,7 +1,10 @@
 ---
 title: "Michael J. Dundee"
 tags:
-  - pc  - Michael J. Dundee, Thorcin barbarian
+  - pc
+aliases:
+  - Michael J Dundee
+  - Michael
 ---
 # Michael J. Dundee
 

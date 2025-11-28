@@ -14,7 +14,7 @@ Professional mercenary.
 - Party members (temporary associates)
 
 ## Notes
-Hired as a replacement for the absent [[pcs/Michael J Dundee|Michael J Dundee]] during the second session.
+Hired as a replacement for the absent [[pcs/Michael J. Dundee.md|Michael J Dundee]] during the second session.
 
 ## Sessions
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
