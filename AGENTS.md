@@ -118,11 +118,11 @@ The SOP emphasizes determinism first (regex/rg passes), then constrained LLM ass
 
 ### LCE: Location Connections Extraction
 - Goal: Populate `## Connections` (and `## Sources`) on location pages with explicit, sourced routes.
-- What counts: direct links (leads to/through/via/across/down/up), multi‑step routes, and methods/features (rope ladder, teleporter, secret door).
+- What counts: direct links (leads to/through/via/across/down/up) and methods/features (rope ladder, teleporter, secret door).
 - Deterministic pre‑scan: for each location mentioned in the changed session, collect 2–4 paragraph windows around the mention; keep only windows containing connector phrases (connect/lead/via/through/across/toward/into/onto/to/from/down/up/entrance/exit/gate/basket/rappel/levitat/teleport/stair/hole).
-- LLM screen: YES/NO — “Does this segment describe movement or explicit connections (including multi‑step routes)? Answer YES or NO.”
+- LLM screen: YES/NO — “Does this segment describe movement or explicit connections? Answer YES or NO.”
 - LLM extraction (if YES):
-  - “Extract ONLY explicit connections between named locations and multi‑step routes. Output two sections: 1) Edges: ‘A -> B [via X] [method: M] [feature: F]’. 2) Routes: ‘A -> B -> C …’ with [via/method/feature] where stated. Use names exactly as in text; Title Case; exclude non‑locations; no commentary.”
+  - “Extract ONLY explicit connections between named locations. Output Edges ‘A -> B [via X] [method: M] [feature: F]’. Use names exactly as in text; Title Case; exclude non‑locations; no commentary. For example, if the text says 'we went from The Great Chasm to the Glory of Thoth, and from there to the Arden Vul Surface', you should extract 'The Great Chasm -> Glory of Thoth' and 'Glory of Thoth -> Arden Vul Surface', but not 'The Great Chasm -> Arden Vul Surface'.”
 - Mapping: exact filename in `vault/locations/` → frontmatter `aliases` → UNMAPPED (manual review). Never invent.
 - Patching: add bullets to `## Connections` and cite supporting sessions in `## Sources`. Remove “Residents” dumps from dungeon pages; use “Hazards & Encounters” and “Notable Finds”.
 - Quality gates: every bullet has a session citation; all wikilinks resolve; omit inferred hops.

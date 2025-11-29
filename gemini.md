@@ -570,7 +570,7 @@ The process is executed file by file for clarity and precision. For each file in
 
 5.  **Create New Articles:** If an article for an entity does not exist, a new "stub" article is created in the appropriate subdirectory (e.g., `vault/npcs/` for a new NPC). These stubs are created using the official project templates found in `vault/templates/` to ensure consistency.
 
-6.  **Wikilinking:** Throughout the enrichment and creation process, wikilinks (`[[Page Name]]`) are used to connect articles, building a web of relationships within the vault. If a linked page doesn't exist, this action implicitly creates a "red link" in Obsidian, flagging it for future creation. Whenever possible, these linked pages are created as stubs in the same pass.
+6.  **Wikilinking:** Throughout the enrichment and creation process, wikilinks (`[[Page Name]]`) are used to connect articles, a web of relationships within the vault. If a linked page doesn't exist, this action implicitly creates a "red link" in Obsidian, flagging it for future creation. Whenever possible, these linked pages are created as stubs in the same pass.
 
 ## Example Execution (Initial Run)
 This workflow was successfully applied to the following files:
@@ -592,3 +592,17 @@ This workflow was successfully applied to the following files:
     -   **Enriched:** `vault/npcs/Akla-Chah.md` with her role within the Beacon.
 
 This iterative process transforms raw, unstructured notes into a structured, interconnected, and easily browsable knowledge base, fulfilling the core objective of the project plan.
+
+---
+# Gemini Agent Workflow (as of 2025-11-29)
+
+This section documents the process used to consolidate character information and refine the LCE instructions.
+
+-   **Vael/Sunshadow Consolidation**:
+    -   Investigated the user's report of a `sunshadow.md` file. The file did not exist, but `Vael Sunshadow.md` was found in `vault/pcs/`.
+    -   The `pcs/Index.md` file contained several broken links related to "Vael". These broken links were removed and the index was cleaned up to only include valid links to the canonical character files.
+    -   The alias "Sunshadow" was added to `vault/pcs/Vael Sunshadow.md` to ensure all names point to the same place.
+
+-   **LCE Instruction Update**:
+    -   The LCE instructions in `AGENTS.md` were updated to remove the extraction of multi-step routes.
+    -   The instructions now clarify that only direct connections between locations should be extracted, with an example to guide the LLM.
