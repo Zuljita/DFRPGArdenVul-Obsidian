@@ -103,7 +103,7 @@ At the conclusion of the conversation, the company said farewell to Sir Sorrow, 
 The first merchant was an Archontean woman selling weapons and armor, but nobody saw anything magical, so they kept walking.  The second merchant was an angry Wiskin guy selling food and drink, but nobody was hungry. The third merchant was a halfling named Master Leifcrim selling curios, and a couple of them looked magical, so they stopped to shop.  He ended up selling them another Returning Pebble (and explained that if a proper sales contract was written out, the magic of the pebble somehow knew that it had a new owner and would return to them), another magic fish-shaped rod of unknown use (but probably something to do with boats), and a small non-magical orange oval object made of a strange substance (it felt kind of like insect chitin) with strange glyphs and no known use.  They weren't sure they wanted the orange thing, but Leifcrim hinted that he had some really good magical items for really rich good customers, so they paid full price for the orange thing hoping that would lead to good deals in the future.
 
 At that point, it was time to go back to Gosterwick, so the Right for Riches Company took their wheelbarrow and magical bags full of halfling loot and headed back up the stairs, then up the slope to the Glory of Thoth, then up the stairs to the surface and down the cliff.  They did not see Plumthorn or his followers on the way.
-
+Sure
 
 GM's Comments:
 

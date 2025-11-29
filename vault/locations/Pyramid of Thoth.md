@@ -2,6 +2,7 @@
 title: "Pyramid of Thoth"
 tags:
   - location
+  - entrance
 ---
 # Pyramid of Thoth
 
@@ -61,7 +62,7 @@ Surface, [[Arden Vul]].
 - Continual Light
 - Cool
 - [[npcs/Count Skleros.md|Count Skleros]]
-- [[npcs/Craas.md|Craas]]
+- [[npcs/Craastonistorex.md|Craas]]
 - [[npcs/Craastonistorex.md|Craastonistorex]]
 - Crackers
 - [[npcs/Dalton.md|Dalton]]

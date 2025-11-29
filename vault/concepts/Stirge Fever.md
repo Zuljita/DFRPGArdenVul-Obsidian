@@ -1,3 +1,9 @@
+---
+title: "Stirge Fever"
+tags:
+  - disease
+  - hazard
+---
 # Stirge Fever
 
 ## Summary

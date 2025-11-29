@@ -2,6 +2,9 @@
 title: "Demetrios"
 tags:
   - npc
+  - gender/unknown
+  - race/unknown
+  - profession/squire
 ---
 # Demetrios
 

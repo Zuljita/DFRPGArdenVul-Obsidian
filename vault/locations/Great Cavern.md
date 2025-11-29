@@ -17,206 +17,35 @@ A vast and ancient underground cavern system beneath [[Arden Vul]], characterize
 
 ## Connections
 
-- [[locations/Forum of Set.md|Forum of Set]]
-- [[locations/Glory of Thoth.md|Glory of Thoth]]
-- [[locations/Long Stair.md|Long Stair]]
-- [[locations/Pyramid of Thoth.md|Pyramid of Thoth]]
-- [[locations/Tomb of Theskalon.md|Tomb of Theskalon]]
-- [[locations/Waterfall.md|Waterfall]]
-- [[locations/Well of Light.md|Well of Light]]
+- [[locations/Long Stair.md|Long Stair]] → [[locations/Great Cavern.md|Great Cavern]] via beastman secret entrance (about two‑thirds up the Stair).
+  - method: secret door; feature: cliff face access
+- [[locations/Halls of Thoth.md|Halls of Thoth]] → [[locations/Great Cavern.md|Great Cavern]] via Long Range Cavern Patrol observation cage and ladder.
+ - [[locations/Great Cavern.md|Great Cavern]] → [[locations/Forum of Set.md|Forum of Set]] via former Set outpost on the western wall (≈25′ up) and stairs down to the Forum level.
+   - method: rope ladder / Walk on Air; features: outpost platform, stairway
 
-## Residents
+## Hazards & Encounters
 
-- Again
-- [[npcs/Akla-Chah.md|Akha-Chah]]
-- [[npcs/Akla-Chah.md|Akla-Chah]]
-- [[npcs/Akla-Chah.md|Akla-Chan, hologram of a Rudishva artificial intelligence psychologist]]
-- Also
-- Archontean
-- [[npcs/Arden.md|Arden]]
-- [[Arden Vul|Arden Vul]]
-- [[npcs/Lasselanta Ashcroft.md|Lasselanta Ashcroft]]
-- Baboons
-- [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]]
-- [[npcs/Uriel Basileon.md|Uriel Basileon]]
-- [[npcs/Basilisk.md|Basilisk]]
-- [[locations/Beacon.md|Beacon]]
-- Beastmen
-- [[npcs/Bellringer.md|Bellringer]]
-- [[npcs/Burzip.md|Burzip]]
-- [[npcs/Camilla.md|Camilla]]
-- Cave
-- Cavern
-- [[locations/Great Chasm.md|Great Chasm]]
-- [[npcs/Chisel the War Dog.md|Chisel the War Dog]]
-- [[npcs/Chrysalis.md|Chrysalis]]
-- [[npcs/Claudine of Narsileon.md|Claudine of Narsileon]]
-- [[npcs/Claudine of Narsileon.md|Claudine of Narsileon]]
-- Cliff Face
-- [[items/Club.md|Club]]
-- Club Creon
-- [[npcs/Freydis the Stern.md|Freydis]]
-- Cool
-- [[npcs/Count Skleros.md|Count Skleros]]
-- [[npcs/Craastonistorex.md|Craastonistorex]]
-- Crackers
-- [[npcs/Creon.md|Creon]]
-- [[factions/Cult of Set.md|Cult of Set]]
-- [[npcs/Dalton.md|Dalton]]
-- [[factions/Dalton's Darlings.md|Dalton's Darlings]]
-- Darlings
-- [[npcs/Demma.md|Demma]]
-- [[npcs/Domo Gribble.md|Domo Gribble]]
-- [[pcs/Michael J. Dundee.md|Dundee]]
-- Factor
-- [[npcs/Fael.md|Fael]]
-- Finally
-- Fire
-- Fire Mephits
-- [[npcs/Flavius Aurelius.md|Flavius Aurelius]]
-- Flight
-- Forum
-- Four
-- Four feral cats
-- [[npcs/Freydis the Stern.md|Freydis]]
-- Ghouls
-- [[factions/Goblins.md|Goblin]]
-- Goblins
-- [[Gosterwick|Gosterwick]]
-- [[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]]
-- [[npcs/Onyx.md|Onyx]]
-- [[Great Chasm|Great Chasm]]
-- [[Great Hall|Great Hall]]
-- [[npcs/Gribble.md|Gribble]]
-- [[factions/Grudge Brigade.md|Grudge Brigade]]
-- [[npcs/Gwelf.md|Gwelf]]
-- Halflings
-- Hall
-- Halls
-- [[npcs/Harold.md|Harold]]
-- [[npcs/Hjalti.md|Hjalti]]
-- Horse Whisperer
-- [[locations/Howling Caves.md|Howling Caves]]
-- Huge snapping turtle
-- [[npcs/Hushbreaker.md|Hushbreaker]]
-- [[lore/Iconic Location.md|Iconic Location]]
-- Imperial Stone Guardians
-- Imperial Stone Guardians
-- In Gosterwick
-- Insight
-- Instead
-- Invisible Stalker
- - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]]
-- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]]
-- [[npcs/Thronebreaker.md|Ironvein]]
-- [[npcs/Jost.md|Jost]]
-- Just
-- [[npcs/Keth.md|Keth]]
-- [[npcs/Kiglon.md|Kiglon]]
-- [[npcs/Killick.md|Killik]]
-- [[npcs/Weskenim.md|King Weskenim]]
-- [[npcs/Klisko.md|Klisko]]
-- [[npcs/Lacrymosa.md|Lacrymosa]]
-- [[npcs/Lady Alexia Basileon.md|Lady Alexia]]
-- [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]
- 
- 
-- Levitation
-- Light
-- [[npcs/Lycandus.md|Lycandus]]
-- [[npcs/Lyssandra Astorion.md|Lyssandra Astorion]]
-- Many
-- [[npcs/Many beastmen.md|Many beastmen]]
-- [[npcs/Many crocodiles.md|Many crocodiles]]
-- [[npcs/Many goblins.md|Many goblins]]
-- March
-- [[npcs/Marco.md|Marco]]
-- [[npcs/Mariposa.md|Mariposa]]
- - [[pcs/Michael J. Dundee.md|Michael]]
-- Mud People
-- [[locations/Narsileon.md|Narsileon]]
-- Next
-- One skeleton
-- [[npcs/Onyx.md|Onyx]]
-- [[npcs/Palestrim.md|Palestrim]]
-- [[npcs/Plumthorn.md|Plumthorn]]
-- [[npcs/Ptarmis.md|Ptarmis]]
-- Pyramid
-- [[npcs/Roskelly Winterleaf.md|Roskelly]]
-- [[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]]
-- [[items/Ruby Chair.md|Ruby Chair]]
-- [[factions/Rudishva.md|Rudishva]]
-- Ruins
-- [[npcs/Sakeon.md|Sakeon]]
-- [[npcs/Samantha the Red.md|Samantha]]
-- [[locations/Scorpion Teleporter.md|Scorpion Teleporter]]
-- [[npcs/Selket.md|Selket]]
-- Set Guards
-- [[factions/Cult of Set.md|Settite Guild of Service slavers]]
- 
- 
- 
- 
- 
- 
- 
-- Shape Earth
-- Shriekers shrieking
-- [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya "Basilisk" Hushbreaker]]
-- Skeleton
-- Staff
-- Stair
-- Stars
-- Stone
- - [[factions/Survivors of the Stone.md|Survivors of the Stone]]
- - Suspicious bat that transformed into a suspicious worm
-- [[locations/Swift River.md|Swift River]]
-- [[npcs/Temrin.md|Temrin]]
-- There
-- [[npcs/Thoth.md|Thoth]]
-- [[npcs/Thronebreaker.md|Thrainor "Thronebreaker" Ironvein]]
-- Three
-- Three mushroom-smoking fire mephits
-- [[npcs/Thronebreaker.md|Thronebreaker]]
-- [[npcs/Tresti.md|Tresti]]
-- Two selenite guardians
-- [[npcs/Palestrim.md|Palestrim]]
- - [[pcs/Uvash Edzuson.md|Uvash]]
-- [[pcs/Uvash Edzuson.md|Uvash Edzuson]]
- - [[pcs/Vael Sunshadow.md|Vael]]
-- Vael Levitated
-- [[pcs/Vael Sunshadow.md|Vael Sunshadow]]
- - [[pcs/Vallium Halcyon.md|Vallium]]
-- [[pcs/Vallium Halcyon.md|Vallium Halcyon]]
-- [[factions/Varumani.md|Varumani]]
-- Varumani Lifts conductors and laborers
-- Varumani guards
-- Varumani miners
-- [[npcs/Versania.md|Versania]]
-- Water
-- Water Vision
-- Well
-- [[npcs/Weskenim.md|Weskenim]]
-- [[locations/Wet Caves.md|Wet Caves]]
-- [[npcs/Gog.md|Gog]]
-- [[npcs/Wicktrimmer.md|Wicktrimmer]]
-- Young Varumani pranksters
-- [[npcs/Yrtol.md|Yrtol]]
-- [[npcs/Zodarrim.md|Zodarrim]]
-- clockwork dragonfly
-- crocodiles
-- feral cats
-- giant crab
-- giant lizards
-- giant salamander
-- other goblins
-- rock reptiles
-- vanishing earth elementals
+- Giant salamander; giant crab; giant lizards; rock reptiles; stirges; giant centipede
+- Ghouls; skeleton; selenite guardians; walking mushrooms; fire mephits
+- Traps (rockfall); cliffs and ledges; lake crossings by skiff
+
+## Notable Finds
+
+- Dock and skiffs on the underground lake; beastman observation cage with ladder
+- Padlocked stone chest (mailed fist icon); statue with gem eyes; sarcophagi with loot
 
 ## Tags
 
 ## Notes
 - In [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5]], the party extensively explored parts of the Cavern, finding a map and encountering various creatures and ancient constructs.
+
+## Sources
+- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+- [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]]
+- [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
+- [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15 - The Great Cavern Re-Revisited]]
+- [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]]
+- [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
 
 
 

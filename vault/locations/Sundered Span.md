@@ -17,3 +17,11 @@ appears_in:
 ## Notes
 
 - **Rumor:** A great stone seat near the Sundered Span is a landmark from which one can rappel down the [[Great Chasm]] to find the main entrance to [[Goblintown]].
+
+## Connections
+
+- [[locations/Sundered Span.md|Sundered Span]] → [[locations/Goblintown.md|Goblintown]] (rumor) by rappelling down the [[locations/Great Chasm.md|Great Chasm]] from the great stone seat landmark.
+  - method: rappel; feature: great stone seat landmark
+
+## Sources
+- [[locations/Goblintown.md|Goblintown]] — rumor noted on page

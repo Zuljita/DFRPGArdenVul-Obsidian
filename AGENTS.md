@@ -80,3 +80,53 @@ Thoroughness is more important than speed or brevity.
 - Safe mode: If used, run a dry run only and review its suggestions before creating anything: `python3 scripts/process_new_data.py --input "..."`.
 - Creation: Only run with `--create` after confirming canonical names and that no fragments (e.g., “X Date”) are produced. Never create pages for common words.
 - Follow-up: Always re-run Quartz preview/build and clean up any duplicates the script might generate. If in doubt, revert and follow the LLM plan.
+
+## Ingestion SOP (IAC · ACE · LCE)
+
+This vault uses a three‑phase, LLM‑assisted intake flow for any new narrative data (especially new session recaps):
+
+- IAC — Identify Article Candidates
+- ACE — Article Candidate Enrichment
+- LCE — Location Connections Extraction
+
+The SOP emphasizes determinism first (regex/rg passes), then constrained LLM assists, and finally conservative edits with sources.
+
+### IAC: Identify Article Candidates
+- Goal: From the new text, list canonical entity candidates by type (NPC, Location, Faction, Item). Do not map or invent.
+- Deterministic pre‑pass: fix malformed wikilinks, close brackets, normalize obvious targets.
+- Prompt (candidates only):
+  - “From the text, list entity candidates grouped by type (NPC, Location, Faction, Item). Title Case; exclude generics and scaffolding words; do not invent; no mapping.”
+- Settings: temperature 0.1–0.2, max_tokens 300–600, chunk size 2–3k chars.
+- Output: short list per type (no descriptions). Use this to drive ACE.
+
+### ACE: Article Candidate Enrichment
+- Goal: Create/update minimal pages for true entities, with safe frontmatter and short summaries (no invention).
+- Pages: one concept per file, correct folder (`npcs/`, `locations/`, `factions/`, `items/`).
+- Frontmatter conventions:
+  - NPCs: `tags: [npc, gender/<value>, race/<value>, profession/<value>]` using `unknown` when not stated.
+  - Items: `tags: [item/<weapon|armor|magic|mundane>]` inferred only if stated.
+  - Factions/Locations: `tags: [faction]` or `[location]`; add `entrance` only for proven access points.
+- Aliases: add alternate spellings/epithets on the canonical page; update links to canonical where safe.
+- Stubs: include 1–2 sentence summary + “Sources” sessions; no speculation.
+
+### LCE: Location Connections Extraction
+- Goal: Populate `## Connections` (and `## Sources`) on location pages with explicit, sourced routes.
+- What counts: direct links (leads to/through/via/across/down/up), multi‑step routes, and methods/features (rope ladder, teleporter, secret door).
+- Deterministic pre‑scan: for each location mentioned in the changed session, collect 2–4 paragraph windows around the mention; keep only windows containing connector phrases (connect/lead/via/through/across/toward/into/onto/to/from/down/up/entrance/exit/gate/basket/rappel/levitat/teleport/stair/hole).
+- LLM screen: YES/NO — “Does this segment describe movement or explicit connections (including multi‑step routes)? Answer YES or NO.”
+- LLM extraction (if YES):
+  - “Extract ONLY explicit connections between named locations and multi‑step routes. Output two sections: 1) Edges: ‘A -> B [via X] [method: M] [feature: F]’. 2) Routes: ‘A -> B -> C …’ with [via/method/feature] where stated. Use names exactly as in text; Title Case; exclude non‑locations; no commentary.”
+- Mapping: exact filename in `vault/locations/` → frontmatter `aliases` → UNMAPPED (manual review). Never invent.
+- Patching: add bullets to `## Connections` and cite supporting sessions in `## Sources`. Remove “Residents” dumps from dungeon pages; use “Hazards & Encounters” and “Notable Finds”.
+- Quality gates: every bullet has a session citation; all wikilinks resolve; omit inferred hops.
+
+### Local LLM
+- Endpoint: `http://192.168.21.76:1234` (OpenAI‑compatible).
+- Default: `qwen2.5-7b-instruct` (or `qwen2.5-14b-instruct` if headroom).
+- Timeouts: 60–180s; temperature: 0.1–0.2; max_tokens: 300–600; chunk size: 2–3k.
+
+### Automation Hooks (recommended)
+- Pre‑commit (local): when `vault/sessions/*` changes, run LCE dry‑run and show the patch for affected locations.
+- CI (optional): on PRs, post an LCE report and fail if there are unmapped names, unresolved links, or missed connections.
+
+Helper: `scripts/lce_extract.py` collects windows, queries the local LLM, maps canonical names, and prints patch suggestions (dry‑run by default).

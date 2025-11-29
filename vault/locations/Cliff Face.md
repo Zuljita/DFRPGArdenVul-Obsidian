@@ -1,3 +1,9 @@
+---
+title: "Cliff Face"
+tags:
+  - location
+  - entrance
+---
 # Cliff Face
 
 ## Summary

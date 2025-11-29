@@ -3,6 +3,11 @@ title: "Ring of Free Action"
 tags:
   - item
 ---
+---
+title: "Ring of Free Action"
+tags:
+  - item/magic
+---
 # Ring of Free Action
 
 ## Summary

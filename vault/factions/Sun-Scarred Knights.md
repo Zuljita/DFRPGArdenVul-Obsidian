@@ -8,6 +8,11 @@ tags:
 ## Summary
 Order associated with figures like Sir Sorrow; referenced in armor and knightly encounters.
 
+## Members
+
+- [[npcs/Sir Sorrow.md|Sir Sorrow]]
+- [[npcs/Scarred Knight Huguette.md|Huguette]]
+
 ## Sessions
 
 ## Sessions

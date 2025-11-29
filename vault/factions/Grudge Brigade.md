@@ -2,6 +2,7 @@
 title: "Grudge Brigade"
 tags:
   - faction
+  - mercenary
 aliases:
   - Grudge Brigade Mercenary Company
 
@@ -20,10 +21,6 @@ The [[Grudge Brigade]] is a mercenary company operating out of [[Gosterwick]], o
 - [[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]
 - [[npcs/Ashe Maykum.md|Ashe "GOAT" Maykum]]
 - [[npcs/Lacrymosa Merenuithiel Armaris.md|Lacrymosa Merenuithiel Armaris]]
-
-## Not Members
-
-- [[npcs/Sir Sorrow.md|Sir Sorrow]] — member of the [[factions/Sun-Scarred Knights.md|Sun-Scarred Knights]]
 
 ## History
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]: [[Lacrymosa Merenuithiel Armaris]], a mercenary from the Grudge Brigade, killed [[npcs/Roskelly Winterleaf|Roskelly Winterleaf]] during an engagement in the [[Glory of Thoth]].

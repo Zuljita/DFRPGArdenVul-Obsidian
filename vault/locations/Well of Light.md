@@ -2,6 +2,7 @@
 title: "Well of Light"
 tags:
   - location
+  - entrance
 aliases:
   - The Well of Light
 ---

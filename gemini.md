@@ -37,6 +37,23 @@
 
 ---
 
+# Ingestion SOP (IAC · ACE · LCE)
+
+When new session recaps land, follow this three‑phase intake suitable for local LLMs (Qwen via LM Studio) or Gemini:
+
+- IAC — Identify Article Candidates
+  - Prompt: “From the text, list entity candidates grouped by type (NPC, Location, Faction, Item). Title Case; exclude generics and scaffolding words; do not invent; no mapping.”
+  - Settings: temp 0.1–0.2; max_tokens 300–600; chunk size 2–3k.
+- ACE — Article Candidate Enrichment
+  - Create/update minimal pages; one concept per file; add frontmatter: NPCs (gender/race/profession), Items (item/*), Faction/Location (faction/location; add `entrance` only when proven).
+  - Add `aliases` for variants; include a “Sources” section listing sessions.
+- LCE — Location Connections Extraction
+  - YES/NO: “Does this segment describe movement or explicit connections (including multi‑step routes)? Answer YES or NO.”
+  - Extraction: “Extract ONLY explicit connections between named locations and multi‑step routes. Output Edges ‘A -> B [via X] [method: M] [feature: F]’ and Routes ‘A -> B -> C …’. Use names exactly as in text; Title Case; exclude non‑locations; no commentary.”
+  - Map to canonical files (filename → aliases); patch `## Connections` + `## Sources` on target location pages. No invention.
+
+Use `scripts/lce_extract.py` for review‑first automation (dry‑run default). Default endpoint: `http://192.168.21.76:1234` (`qwen2.5-7b-instruct`).
+
 # project_plan.md Content
 
 # DFRPG Arden Vul — Project Plan

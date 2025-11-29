@@ -2,6 +2,9 @@
 title: "Zoe"
 tags:
   - npc
+  - gender/unknown
+  - race/unknown
+  - profession/squire
 ---
 # Zoe
 

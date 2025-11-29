@@ -5,46 +5,14 @@ tags:
 ---
 # Tomb of Ptoh
 
-## Level
-
-## Aliases
+## Summary
+Stub for the tomb associated with Ptoh. Concrete details are not yet extracted in sessions; this page needs verification and connections.
 
 ## Connections
-## Residents
-
-- Archontean
-- [[npcs/Arden.md|Arden]]
-- [[Arden Vul|Arden Vul]]
-- [[npcs/Basilisk.md|Basilisk]]
-- [[npcs/Bottleneck.md|Bottleneck]]
-- Cool
-- [[npcs/Demma.md|Demma]]
-- [[npcs/Demma Wicktrimmer.md|Demma Wicktrimmer]]
-- [[factions/Goblins.md|Goblin]]
-- Goblins
-- [[npcs/Hushbreaker.md|Hushbreaker]]
- - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]]
-- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]]
-- [[npcs/Lots.md|Lots]]
-- [[npcs/Lots and lots of goblins.md|Lots and lots of goblins]]
-- [[npcs/Sanguinette.md|Sanguinette]]
-- [[npcs/Set cultists.md|Set cultists]]
-- [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya "Basilisk" Hushbreaker]]
- - [[pcs/Uvash Edzuson.md|Uvash]]
-- [[pcs/Uvash Edzuson.md|Uvash Edzuson]]
- - [[pcs/Vael Sunshadow.md|Vael]]
-- [[pcs/Vael Sunshadow.md|Vael Sunshadow]]
- - [[pcs/Vallium Halcyon.md|Vallium]]
-- [[pcs/Vallium Halcyon.md|Vallium Halcyon]]
-- [[npcs/Vivian.md|Vivian]]
-- [[npcs/Wicktrimmer.md|Wicktrimmer]]
-- [[npcs/Zodarrim.md|Zodarrim]]
-- [[npcs/animated spearman constructs.md|animated spearman constructs]]
-- [[npcs/mummies.md|mummies]]
-
-## Tags
+TBD — add once explicit paths are identified in session notes.
 
 ## Notes
+- Replace this stub with specific encounters/loot when a session references this location directly.
 
-## Sessions
-- Session 27 - The Tomb of Ptoh-Ristus
+## Sources
+- No direct session recap yet linked; see nearby content under [[locations/The Tomb of Ptoh-Ristus.md|The Tomb of Ptoh‑Ristus]].

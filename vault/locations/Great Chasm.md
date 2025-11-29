@@ -31,4 +31,13 @@ aliases:
   - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — They continued west down a wide passage, past a statue of a four-armed monster and a statue of a Rudishva (who welcomed visitors to the Arena in Archontean, Varumani, and Rudishva), past some magical darkness, and finally west to the Gre...
 
 ## Notes
+ 
+## Connections
 
+- [[locations/Arena.md|Arena]] ↔ [[locations/Great Chasm.md|Great Chasm]] via Troll Lifts; also a partial bridge across with planks.
+  - method: lift (varumani winch), bridge with gap and planks
+- [[locations/Sundered Span.md|Sundered Span]] → [[locations/Goblintown.md|Goblintown]] (rumor) by rappelling down the Chasm to the goblin gate.
+  - method: rappel; feature: great stone seat landmark
+
+## Sources
+- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]

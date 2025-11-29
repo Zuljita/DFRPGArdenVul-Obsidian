@@ -1,3 +1,9 @@
+---
+title: "Magic Spear"
+tags:
+  - item/weapon
+  - item/magic
+---
 # Magic Spear
 
 ## Summary
