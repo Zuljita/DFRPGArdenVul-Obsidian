@@ -1,3 +1,9 @@
+---
+title: "Set Armor"
+tags:
+  - item/armor
+  - item/mundane
+---
 # Set Armor
 
 ## Description

@@ -28,7 +28,7 @@ Archontean fighter who briefly adventured with the party in the lower caverns be
   - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]] — Susarra, Vallium, and Michael filled the corridor to the south, with Uvash, Vael, and Ioannes behind them.
 - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Jador the Just, chief priestess of Mitra in Gosterwick Audun Yellow-Eyes, logothete of the House of Sight ("Drome") in Gosterwick Freydi...
   - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — Audun explained that he was appalled by the murder of Susarra, but could not officially endorse an attack on Set, or lend any resources to one.
-- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Shrines.md|Hall of Shrines]]]] — They resolved to treat Gosterwick as a dangerous place after Susarra's murder and try to watch each other's backs.
+- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]] — They resolved to treat Gosterwick as a dangerous place after Susarra's murder and try to watch each other's backs.
 
 ## Notes
 

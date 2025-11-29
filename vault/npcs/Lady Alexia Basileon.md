@@ -2,6 +2,9 @@
 title: "Lady Alexia Basileon"
 tags:
   - npc
+  - gender/unknown
+  - race/unknown
+  - profession/unknown
 aliases:
   - Lady Alexia
   - Lady Alexia Basilion

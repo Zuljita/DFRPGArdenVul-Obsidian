@@ -1,3 +1,9 @@
+---
+title: "Magic Long Knife"
+tags:
+  - item/weapon
+  - item/magic
+---
 # Magic Long Knife
 
 ## Summary

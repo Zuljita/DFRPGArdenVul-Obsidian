@@ -115,3 +115,8 @@ Graffiti on the stairs in the [[Pyramid of Thoth]]: "I told [[Robin]] not to tou
 
 #### [[Gedrick Malachite]]'s Warning
 [[Gedrick Malachite]] says that [[doppelgangers]] have been showing up here. He also tells to give every [[Dwarf]] a good look over, as they might be a [[doppelganger]].
+
+## Location Rumors (Indexed)
+
+- [[locations/Sundered Span.md|Sundered Span]] — A great stone seat near the Span marks where one can rappel down the [[Great Chasm]] to reach the main [[Goblintown]] entrance.
+- [[locations/Goblintown.md|Goblintown]] — The main entrance is a huge iron gate in the wall of the [[Great Chasm]], reached by rappelling near the [[Sundered Span]]; tribute is required for entry.

@@ -1,3 +1,9 @@
+---
+title: "Magic Bracer"
+tags:
+  - item/armor
+  - item/magic
+---
 # Magic Bracer
 
 ## Summary

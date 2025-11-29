@@ -1,3 +1,9 @@
+---
+title: "Magic Halberd"
+tags:
+  - item/weapon
+  - item/magic
+---
 # Magic Halberd
 
 ## Summary

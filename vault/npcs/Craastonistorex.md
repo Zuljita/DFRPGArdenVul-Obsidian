@@ -5,6 +5,7 @@ tags:
 aliases:
   - Huge Green Dragon
   - Craastonistorax
+  - Craas
 ---
 # Craastonistorex
 

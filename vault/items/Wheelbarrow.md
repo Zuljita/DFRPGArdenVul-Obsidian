@@ -1,3 +1,8 @@
+---
+title: "Wheelbarrow"
+tags:
+  - item/mundane
+---
 # Wheelbarrow
 
 ## Summary

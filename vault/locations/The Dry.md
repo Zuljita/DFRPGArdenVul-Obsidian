@@ -1,3 +1,9 @@
+---
+title: "The Dry"
+tags:
+  - location
+  - entrance
+---
 # The Dry
 
 ## Summary

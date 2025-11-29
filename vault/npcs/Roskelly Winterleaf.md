@@ -61,5 +61,4 @@ aliases:
 ## Notes
 
 ## Death
-- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a — Never Trust a Scorpion]]: During the fight near the [[locations/Glory of Thoth.md|Glory of Thoth]], Roskelly attempted to flee after [[Phlebotomas Plumthorn]] agreed to surrender. [[npcs/Lacrymosa.md|Lacrymosa]] shot him repeatedly with arrows, killing him.
-
+- [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 — The Scouring of the Shire]]: During the confrontation near the [[locations/Glory of Thoth.md|Glory of Thoth]], Roskelly attempted to flee as [[Phlebotomas Plumthorn]] negotiated surrender. [[npcs/Lacrymosa.md|Lacrymosa]] shot him repeatedly with arrows, killing him.

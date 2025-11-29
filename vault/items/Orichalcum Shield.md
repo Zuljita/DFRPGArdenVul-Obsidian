@@ -1,3 +1,8 @@
+---
+title: "Orichalcum Shield"
+tags:
+  - item/armor
+---
 # Orichalcum Shield
 
 ## Summary

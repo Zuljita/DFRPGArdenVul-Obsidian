@@ -22,8 +22,7 @@ Thorcin chief priest of [[Demma]] in [[Gosterwick]]. A stern but fair cleric cap
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]] — The Remove Curse was cast by Vivian, the Thorcin male chief priest of the temple; it's unclear whether any of the other four priests can cast spells that powerful.
 - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — # DFRPG Arden Vul Session 14: Behind the [[locations/Waterfall.md|Waterfall]] Again Date: Demmasday, 13th of Jelenius, 2993 AE Weather: Cool, overcast Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented...
   - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — Father Vivian said the woman needed stronger healing magic than he knew, and recommended Mother Jador at the [[locations/Temple of Mitra.md|Temple of Mitra]].
-- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - Tomb of Ptoh-Ristus.md|The Tomb of Ptoh-Ristus]]]] — # DFRPG Arden Vul Session 27: locations/The Tomb of Ptoh-Ristus.md|The [[locations/Tomb of Ptoh.md|Tomb of Ptoh-Ristus]] Date: Mitrasday, 10th of Besemios, 2993 AE Weather: Cool, dry Player Characters: V...
-  - [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - Tomb of Ptoh-Ristus.md|The Tomb of Ptoh-Ristus]]]] — Ioannes had no idea what it was but suspected something magical, so they went to the [[locations/Temple of Demma.md|Temple of Demma]], where the head priest Vivian diagnosed them with a magical curse and cast a Remove Curse spell on each...
+- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]] — Ioannes suspected a magical curse; Vivian at the [[locations/Temple of Demma.md|Temple of Demma]] diagnosed and cast Remove Curse for the group.
 
 ## Notes
 

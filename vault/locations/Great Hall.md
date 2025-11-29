@@ -27,3 +27,10 @@ appears_in:
 
 ## Notes
 
+## Connections
+
+- [[locations/Great Pyramid.md|Great Pyramid]] → [[locations/Great Hall.md|Great Hall]] via Selket bust scorpion‑tail teleporter.
+  - method: teleporter (Selket bust)
+
+## Sources
+- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]

@@ -1,8 +1,16 @@
+---
+title: "Book of Priors"
+tags:
+  - item/magic
+---
 # Book of Priors
 
 ## Description
 
-The Book of Priors is a six-volume work written in Mithric by a succession of Thothian priors. The work was started by [[Gaius Probus]] in 937 AEP and continued until 1782 AEP. It is a detailed chronicle of the history, architecture, and inhabitants of [[Arden Vul]].
+The Book of Priors is a six-volume work written in [[lore/Mithric.md|Mithric]] by a succession of Thothian priors. The work was started by [[Gaius Probus]] in 937 AEP and continued until 1782 AEP. It is a detailed chronicle of the history, architecture, and inhabitants of [[Arden Vul]].
+
+## See Also
+- [[lore/Mithric.md|Mithric]]
 
 ## Contents
 

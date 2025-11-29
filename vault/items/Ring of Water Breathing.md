@@ -1,3 +1,8 @@
+---
+title: "Ring of Water Breathing"
+tags:
+  - item/magic
+---
 # Ring of Water Breathing
 
 ## Summary

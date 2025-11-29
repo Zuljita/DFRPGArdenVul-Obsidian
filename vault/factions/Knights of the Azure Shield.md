@@ -23,6 +23,13 @@ aliases:
 
 ## Members
 
+- [[npcs/Sir Lucia.md|Sir Lucia]] — Knight Commander
+- [[npcs/Sir Basil.md|Sir Basil]] — Knight
+- [[npcs/Sir Irene.md|Sir Irene]] — Knight
+- [[npcs/Alexios.md|Alexios]] — Squire
+- [[npcs/Demetrios.md|Demetrios]] — Squire
+- [[npcs/Zoe.md|Zoe]] — Squire
+
 
 ## Sessions
 

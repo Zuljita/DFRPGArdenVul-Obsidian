@@ -2,6 +2,9 @@
 title: "Sir Irene"
 tags:
   - npc
+  - gender/unknown
+  - race/unknown
+  - profession/knight
 ---
 # Sir Irene
 

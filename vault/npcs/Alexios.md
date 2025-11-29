@@ -2,6 +2,9 @@
 title: "Alexios"
 tags:
   - npc
+  - gender/unknown
+  - race/unknown
+  - profession/squire
 aliases:
 ---
 # Alexios

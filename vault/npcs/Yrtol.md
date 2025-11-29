@@ -5,6 +5,7 @@ tags:
 aliases:
   - The Tower Ghost
   - Yrtol the Angry Ghost
+  - Angry scary ghost
 ---
 # Yrtol
 

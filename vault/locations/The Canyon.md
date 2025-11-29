@@ -1,3 +1,9 @@
+---
+title: "The Canyon"
+tags:
+  - location
+  - entrance
+---
 # The Canyon
 
 ## Description
