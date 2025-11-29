@@ -81,6 +81,13 @@ Thoroughness is more important than speed or brevity.
 - Creation: Only run with `--create` after confirming canonical names and that no fragments (e.g., “X Date”) are produced. Never create pages for common words.
 - Follow-up: Always re-run Quartz preview/build and clean up any duplicates the script might generate. If in doubt, revert and follow the LLM plan.
 
+## Pacing & Quality Principles
+
+- Thorough over fast: prioritize accuracy, conservative edits, and clear sourcing over speed. It is acceptable (and preferred) to defer uncertain changes to a later pass with a TODO entry.
+- Review-first automation: use dry-run/report modes (e.g., LCE helper) before applying broad changes.
+- Session-grounded edits: only add connections/tags/claims that are explicitly present in session text or established pages. Avoid invention.
+
+
 ## Ingestion SOP (IAC · ACE · LCE)
 
 This vault uses a three‑phase, LLM‑assisted intake flow for any new narrative data (especially new session recaps):
