@@ -1,0 +1,25 @@
+**2025-11-10**
+**A COUPLE MORE FOUNDRY MODULES WE'RE USING FOR GURPS**
+
+Previous Post
+A quick update on the Foundry VTT configuration we're using in DFRPG Arden Vul:
+
+CORE FOUNDRYVTT VERSION
+I'm still running Foundry v12, even though v13 has been out for a while and most of the modules we use claim support for it. I just don't want to make major changes in the middle of a campaign and risk breaking compatibility or breaking all the content we've made. I'd choose v13 for a new campaign though.
+
+GAME SYSTEM
+We're still using GGA, GURPS Game Aid, the main GURPS system for Foundry. (DFRPG is not GURPS in Steve Jackson Games marketing land, but it's 99% GURPS in real life, so this is the right system.) We're using version 0.18.4. 0.18.6 is out, but I've seen system updates break things, so I don't update this without a good reason.
+
+MODULES
+In addition to the long list in the previous post, we've added a couple more:
+
+X-CARD
+This adds a little button with an "X" on it. If any player clicks that button, a big "X" appears in the middle of everyone's screen. The intent is a player safety tool: if the GM or another player starts going into content that really bothers a player for whatever reason, they can pop up the "X" to say stop. However it can also be used as a general stop tool even for more mundane reasons like "all the audio is messed up and I can't hear you guys" or "hey you skipped my combat turn!" Basically, if someone triggers the big X, everyone pause the game for a bit and we can sort out what's wrong, then continue.
+
+(There's another similar module called Raise My Hand that's similar but designed to be a bit less intrusive, for saying "please let me talk next after this person finishes" rather than "everyone stop right now!" Ideally I'd like a separate button for that, but Raise My Hand only supports v13 and so didn't install easily to v12. I may see if I can force it to install at some point.)
+
+SIMPLE CALENDAR SYSTEM
+This is an absurdly good calendar module. You can pick from a few predefined calendars (modern Earth, Traveller Imperium, Greyhawk, etc.) or enter your own. (The Arden Vul calendar wasn't in there, but it only took me a few minutes to enter.) Then the GM can set the current day in the game world and everyone can instantly see the month, day of month, day of week, season, phase of the moon, etc. If you want you can also track time of day, along with variable sunrise and sunset. Finally, it can integrate with the game system, so the time of day can automatically be changed by game actions. Foundry is missing a combat turn counter by default, so this is an easy way to see how much duration is left on that Great Haste, without adding another time tracker module just for that. (I might still want to add some other time trackers, in particular a per-player Luck timer, but this is a good start.)
+at November 10, 2025 No comments:
+Email ThisBlogThis!Share to XShare to FacebookShare to Pinterest
+Labels: GURPS, tips
