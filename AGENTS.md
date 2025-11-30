@@ -152,3 +152,10 @@ The SOP emphasizes determinism first (regex/rg passes), then constrained LLM ass
 - CI (optional): on PRs, post an LCE report and fail if there are unmapped names, unresolved links, or missed connections.
 
 Helper: `scripts/lce_extract.py` collects windows, queries the local LLM, maps canonical names, and prints patch suggestions (dry‑run by default).
+
+### Rumor Consolidation
+To provide a centralized view of all rumors, a consolidation process is used:
+
+1.  **Identify Rumors:** All files in the vault are searched for the term "rumor".
+2.  **Create Central Page:** A single page, `vault/lore/Rumors.md`, is used to collect all rumors.
+3.  **Transclude Rumors:** Rumors from other pages are transcluded into the central `Rumors.md` page using block references. This keeps the original source intact while providing a unified view. Each rumor or section of rumors should have a block ID (e.g., `^rumors`) to allow for transclusion.
