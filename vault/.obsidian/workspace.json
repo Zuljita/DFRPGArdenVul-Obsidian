@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sessions/Session 33 - Nyema.md",
+                "file": "locations/Gosterwick.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Session 33 - Nyema"
+              "title": "Gosterwick"
             }
           }
         ]
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,8 +183,10 @@
   },
   "active": "fe1fc7ba886767f2",
   "lastOpenFiles": [
-    "items/Watcher's eyes.md",
+    "locations/Imperial Road.md",
+    "locations/Water Gate.md",
     "sessions/Session 33 - Nyema.md",
+    "items/Watcher's eyes.md",
     "2025-11-28.md",
     "locations/Hall of Forty Pillars.md",
     "locations/Catacombs of Thoth.md",
@@ -206,8 +209,6 @@
     "locations/Forum of Arden Vul.md",
     "locations/Exarchate of Narsileon.md",
     "locations/Eighth Level Grotto of Singing Heads.md",
-    "locations/Dripping Hog.md",
-    "locations/Dam (Arden Vul).md",
     "Untitled.canvas",
     "sessions/XXXJiRei",
     "notes",
