@@ -14,3 +14,7 @@ A restless ghost haunting the [[Haunted Tower]] at the base of the [[Waterfall]]
 
 ## Appears In
 - [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]
+- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+
+## Notes
+- In [[Session 33 - Nyema]], the party brought [[Nyema]]'s skeleton to Yrtol. He asked them to bury her. After they did, he disappeared, leaving behind two huge eye-shaped sapphires ([[Watcher's eyes]]).

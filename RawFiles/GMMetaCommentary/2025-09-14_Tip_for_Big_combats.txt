@@ -1,0 +1,22 @@
+2025-09-14
+Tip for Big Combats: Make a Table of When Reinforcements Arrive
+DFRPG Arden Vul session 24a ended with the PCs in the dungeon, chasing retreating Settite guards down the stairs toward the Forum of Set.  So I knew that session 24b would start with a big set-piece battle.  Exactly how big, I was a bit fuzzy on, and the players had no idea.
+
+So I went through the area around the Forum of Set and found every NPC that might possibly be involved in the fight.
+
+I first identified the ones that were close to the bottom of the stairs where the PCs would arrive, and guaranteed to be attentive and hostile.  Basically, the ones they just chased down the stairs, plus the guards on duty in the Forum whose actual job was to fight off intruders.  Those were the Turn 1 opponents.  I made a list of those to make sure I remembered to tag them all as combatants in Foundry at the start of the fight.
+
+I then went through everyone else in the Forum to figure out who would actively close with the PCs and fight, who would stand their ground and fight only in self-defense, who would hide, who would run away, who would go get help, who would hesitate and wait for instructions from their superiors, etc.  Most of these were pretty obvious, but there were some NPCs who could conceivably react in multiple ways, so I made reaction rolls for those.  High rolls were good for the PCs (usually meaning the NPC would only fight if personally attacked), and low rolls were bad for the PCs (usually meaning the NPC would actively help defend the Forum).  
+
+I then repeated the process for other rooms in the area, compiling a list of everyone who would participate in the defense.  (The ones who would not participate could just be left off the list, saving time.)
+
+The next step was figuring out how long it would take each potential responder to hear the news of the attack, get their equipment ready, and reach the Forum staircase where the PCs were likely to be.  For example a guard 50 hexes away might take 10 seconds to hear the news, 5 seconds to get up and grab their weapons, and 10 seconds to run to the battle, meaning they would join the fight on turn 25.
+
+The last step was to make a table, sorted by the turn each combatant would arrive where the PCs were.  Then I could happily ignore all the offscreen action before then and focus my attention on what my players could see.  So if there were hypothetically 50 total NPCs involved, but only 10 of them started near the PCs, I could just play those 10, and ignore the other 40 until they arrived.  I just had to track turns, and when I got to a turn number when my table said some reinforcements were due, I could add their tokens to the map at the edge of the PCs' line of sight and add them as combatants in Foundry.
+
+I want a consistent world.  I want things to make sense.  I want verisimilitude for my players.  I want a fair fight.  But I would also prefer that a combat turn take 5 minutes rather than 10 minutes, so it's good if I can avoid spending precious game time meticulously moving tokens around outside the players' line of sight.  If the players can't see something, the exact details don't matter.
+
+So the takeaways are:
+
+If there are things that you can just as easily roll before the session as during the session, you might as well roll them before the session.  Pre-rolling some NPC reactions let me take some NPCs out of the fight, saving time during play.
+Feel free to put your data in the form that's easiest to use in play.  A map key with NPCs placed in each room is good for a static dungeon where the PCs are the only ones moving, but it's not ideal for a fight where the PCs are fairly stationary and the NPCs are moving toward them.  So make a new table, with the data in the most useful order: which turn each reinforcement will arrive, in ascending order.

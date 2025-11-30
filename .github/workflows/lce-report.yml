@@ -1,0 +1,71 @@
+name: LCE Report
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  lce-report:
+    name: Generate LCE suggestions (dry-run)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Compute changed sessions
+        id: changes
+        run: |
+          git fetch origin "${{ github.event.pull_request.base.ref }}" --depth=1
+          DIFF_FILES=$(git diff --name-only FETCH_HEAD...HEAD | tr '\n' ' ')
+          echo "files=$DIFF_FILES" >> "$GITHUB_OUTPUT"
+
+      - name: Install deps (none)
+        run: |
+          echo "Using system python only."
+
+      - name: LCE dry-run report
+        id: lce
+        continue-on-error: true
+        env:
+          LLM_ENDPOINT: ${{ secrets.LLM_ENDPOINT }}
+          LLM_MODEL: qwen2.5-7b-instruct
+        run: |
+          set -e
+          HUBS=(
+            "Glory of Thoth"
+            "Well of Light"
+            "Great Hall"
+            "Great Cavern"
+            "Great Chasm"
+            "Howling Caves"
+          )
+          REPORT="lce_report.txt"
+          : > "$REPORT"
+          for f in ${{ steps.changes.outputs.files }}; do
+            case "$f" in
+              vault/sessions/*.md)
+                for loc in "${HUBS[@]}"; do
+                  echo "# Session: $f | Location: $loc" >> "$REPORT"
+                  python3 scripts/lce_extract.py --session "$f" --location "$loc" --dry-run >> "$REPORT" || echo "(no suggestions or LLM unavailable)" >> "$REPORT"
+                  echo >> "$REPORT"
+                done
+                ;;
+              *) ;;
+            esac
+          done
+          echo "LCE report generated at $REPORT"
+
+      - name: Upload LCE report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: lce-report
+          path: lce_report.txt
+          if-no-files-found: warn
+

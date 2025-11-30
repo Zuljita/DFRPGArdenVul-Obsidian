@@ -5,6 +5,7 @@ tags:
 appears_in:
   - "Session 31 - I Want to Believe"
   - "Session 32 - Fast Exploration"
+  - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
   - Akla-Chan, hologram of a Rudishva artificial intelligence psychologist
 aliases:
   - Akla-Chah, Rudishva hologram therapist
@@ -24,3 +25,6 @@ aliases:
     - **Cremation:** The third-best option, feasible if a suitably hot fire can be built outside the [[Beacon]].
 - **Language Training:** Can provide language training to the party as a downtime activity.
 - **Therapeutic Abilities:** Good at asking questions and functions as a therapist or psychologist.
+
+## Notes
+- In [[Session 33 - Nyema]], [[Stamelis]] was brought to the [[Beacon]] to keep her company.

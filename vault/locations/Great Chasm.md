@@ -38,6 +38,8 @@ aliases:
   - method: lift (varumani winch), bridge with gap and planks
 - [[locations/Sundered Span.md|Sundered Span]] → [[locations/Goblintown.md|Goblintown]] (rumor) by rappelling down the Chasm to the goblin gate.
   - method: rappel; feature: great stone seat landmark
+- [[Great Chasm]] -> [[Glory of Weskenim]]
 
 ## Sources
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
+- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]

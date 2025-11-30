@@ -20,6 +20,7 @@ Stamelis is the animated, enchanted head of a former Librarian of [[Thoth]]. He 
 - [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
+- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 
 ## Roles & Influence
 - Guardian‑scholar of the [[Library of Thoth]]; dispenses lore, procedures, and cautions.
@@ -29,3 +30,4 @@ Stamelis is the animated, enchanted head of a former Librarian of [[Thoth]]. He 
 - [[Library of Thoth]]: bound locale and knowledge source.
 - PCs: recurring consultations and errands.
 - [[Undead Librarian]]s: He provides information about these creatures that inhabit the library.
+- [[Akla-Chah]]: The party brought Stamelis to the [[Beacon]] to keep the Rudishva AI company.

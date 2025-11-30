@@ -236,7 +236,7 @@ Store templates in `/vault/templates/`:
 
 \## Summary
 
-\## Events
+\## Full Recap
 
 \## NPCs Encountered
 

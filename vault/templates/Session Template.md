@@ -2,7 +2,7 @@
 
 ## Summary
 
-## Events
+## Full Recap
 
 ## NPCs Encountered
 

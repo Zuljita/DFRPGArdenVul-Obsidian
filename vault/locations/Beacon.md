@@ -43,5 +43,8 @@ A system of oval keycards is used to operate doors:
 
 ## Residents
 - [[Akla-Chah]]
+- [[Stamelis]]
+- [[Stamelis]]
 
 ## Sessions
+- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]

@@ -26,6 +26,8 @@ Massive four‑armed baboon chieftain encountered near the Howling Caves; wounde
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — # DFRPG Arden Vul Session 29: [[locations/Tower of Scrutiny.md|The Tower of Scrutiny]] Date: Horasday, 26th of Besemios, 2993 AE Weather: Cool, cloudy, chance of r...
   - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — Go through the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] to the [[locations/Well of Light.md|Well of Light]], check on Yamki and the baboons, give the baboons some food if they're behaving, and trade Trefko a live goat (teleport...
 
+- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]] — Yamki reported that [[The Thane]] had kidnapped two young baboons, [[Bobo]] and [[Bifki]], from the [[Howling Caves]]. He explained that [[Bumpko]] had tried to fight off The Thane but was stunned by "bad juju".
+
 ## Roles & Influence
 - Local leader among the baboons; controls access and behavior near key choke points.
 - Pragmatic in dealings with delvers when fed and respected.
