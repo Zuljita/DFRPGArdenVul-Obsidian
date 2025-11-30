@@ -2,6 +2,7 @@
 title: "The Obsidian Gates"
 tags:
   - location
+  - location
 aliases:
   - Obsidian Gates
 ---

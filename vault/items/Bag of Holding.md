@@ -2,6 +2,7 @@
 title: "Bag of Holding"
 tags:
   - item
+  - item
 ---
 # Bag of Holding
 

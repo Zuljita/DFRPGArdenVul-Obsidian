@@ -2,6 +2,7 @@
 title: "Leifcrim"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 26 - The Scouring of the Shire"
 aliases:

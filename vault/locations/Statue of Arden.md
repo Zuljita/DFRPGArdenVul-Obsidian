@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Statue of Arden
 
 ## Summary

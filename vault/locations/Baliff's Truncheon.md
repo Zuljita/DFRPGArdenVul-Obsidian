@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Baliff's Truncheon
 
 ## Description

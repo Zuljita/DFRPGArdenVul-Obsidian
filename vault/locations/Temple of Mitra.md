@@ -2,6 +2,7 @@
 title: "Temple of Mitra"
 tags:
   - location
+  - location
 ---
 # Temple of Mitra
 

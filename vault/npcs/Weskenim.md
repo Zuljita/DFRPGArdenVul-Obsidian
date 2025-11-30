@@ -2,6 +2,7 @@
 title: "Weskenim"
 tags:
   - npc
+  - npc
   - goblin
 aliases:
   - King Weskenim

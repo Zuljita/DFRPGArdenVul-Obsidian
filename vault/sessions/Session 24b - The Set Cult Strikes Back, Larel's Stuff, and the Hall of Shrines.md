@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 24B: The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines"
 tags:
   - session
+  - session
   - recap
 session_id: 24b
 in_world_date: Mitrasday, 19th of Gerakios, 2993 AE

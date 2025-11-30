@@ -2,6 +2,7 @@
 title: "Lytta / Versania"
 tags:
   - npc
+  - npc
 aliases:
   - Dirty starving crazy woman with a giant magic belt
 ---

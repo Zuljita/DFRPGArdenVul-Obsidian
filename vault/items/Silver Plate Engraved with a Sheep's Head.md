@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Silver Plate Engraved with a Sheep's Head
 
 ## Summary

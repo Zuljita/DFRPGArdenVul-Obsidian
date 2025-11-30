@@ -2,6 +2,7 @@
 title: "Ebon Spear of Arden"
 tags:
   - item
+  - item
 
 
 ---

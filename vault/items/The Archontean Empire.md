@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # The Archontean Empire
 
 ## Description

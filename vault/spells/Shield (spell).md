@@ -2,6 +2,7 @@
 title: "Shield (spell)"
 tags:
   - spell
+  - spell
 ---
 # Shield (spell)
 

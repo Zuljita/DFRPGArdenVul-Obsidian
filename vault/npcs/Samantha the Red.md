@@ -2,6 +2,7 @@
 title: "Samantha the Red"
 tags:
   - npc
+  - npc
 aliases:
   - Samantha
 ---

@@ -2,6 +2,7 @@
 title: "Oracle of Thoth"
 tags:
   - location
+  - location
 ---
 # Oracle of Thoth
 

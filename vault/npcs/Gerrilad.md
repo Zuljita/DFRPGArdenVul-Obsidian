@@ -2,6 +2,7 @@
 title: "Gerrilad"
 tags:
   - npc
+  - npc
 aliases:
   - Weird guy who hangs out with baboons
 appears_in:

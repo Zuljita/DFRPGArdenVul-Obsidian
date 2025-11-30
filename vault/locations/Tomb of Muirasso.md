@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Tomb of Muirasso
 
 ## Summary

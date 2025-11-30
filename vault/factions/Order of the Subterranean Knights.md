@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # Order of the Subterranean Knights
 
 ## Summary

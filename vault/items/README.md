@@ -9,5 +9,6 @@ Suggested front matter:
 title: Muirasso's Broadsword
 tags:
   - item
+  - item
 aliases: []
 ---

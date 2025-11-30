@@ -2,6 +2,7 @@
 title: "Dalton"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Dalton

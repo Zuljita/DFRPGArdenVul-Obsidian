@@ -2,6 +2,7 @@
 title: "Major Healing"
 tags:
   - spell
+  - spell
 ---
 # Major Healing
 

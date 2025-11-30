@@ -2,6 +2,7 @@
 title: "Ruby Chair"
 tags:
   - item
+  - item
 ---
 # Ruby Chair
 

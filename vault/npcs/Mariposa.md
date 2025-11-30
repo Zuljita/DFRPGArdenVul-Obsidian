@@ -2,6 +2,7 @@
 title: "Mariposa"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Mariposa

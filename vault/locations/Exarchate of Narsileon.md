@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Exarchate of Narsileon
 
 ## Summary

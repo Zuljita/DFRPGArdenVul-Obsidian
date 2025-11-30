@@ -2,6 +2,7 @@
 title: "Dust Monster"
 type: monster
 tags:
+  - monster
 aliases:
 ---
 # Dust Monster

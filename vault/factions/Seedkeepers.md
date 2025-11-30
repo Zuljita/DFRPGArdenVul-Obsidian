@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # Seedkeepers
 
 ## Summary

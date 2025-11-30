@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # Lord Iskander Burdock
 
 ## Summary

@@ -2,6 +2,7 @@
 title: "Skizz and Burzip"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Skizz and Burzip

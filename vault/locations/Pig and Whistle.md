@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Pig and Whistle
 
 ## Summary

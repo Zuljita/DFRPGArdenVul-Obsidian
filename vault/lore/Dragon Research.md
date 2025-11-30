@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Dragon Research
 
 ## Ioannes' Research Project

@@ -2,6 +2,7 @@
 title: "Horus"
 tags:
   - npc
+  - npc
 ---
 # Horus
 

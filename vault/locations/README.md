@@ -9,5 +9,6 @@ Suggested front matter:
 title: Pyramid of Thoth
 tags:
   - location
+  - location
 aliases: []
 ---

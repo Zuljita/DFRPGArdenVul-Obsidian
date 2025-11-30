@@ -2,6 +2,7 @@
 title: "Thorgrim the Easy"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Thorgrim the Easy

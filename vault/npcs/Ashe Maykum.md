@@ -2,6 +2,7 @@
 title: "Ashe Maykum"
 tags:
   - npc
+  - npc
 aliases:
   - Ashe
   - Ashe "GOAT" Maykum

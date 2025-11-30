@@ -2,6 +2,7 @@
 title: "Yrtol"
 tags:
   - npc
+  - npc
 aliases:
   - The Tower Ghost
   - Yrtol the Angry Ghost

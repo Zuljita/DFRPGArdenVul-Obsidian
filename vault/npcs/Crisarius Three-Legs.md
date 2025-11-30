@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # Crisarius Three-Legs
 
 ## Summary

@@ -2,6 +2,7 @@
 title: "Kronos Kettle-Belly"
 tags:
   - npc
+  - npc
 aliases:
   - Kronos
 ---

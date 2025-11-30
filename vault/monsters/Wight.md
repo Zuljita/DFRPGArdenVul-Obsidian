@@ -2,6 +2,7 @@
 title: "Wight"
 type: monster
 tags:
+  - monster
   - classification/undead
 aliases:
 ---

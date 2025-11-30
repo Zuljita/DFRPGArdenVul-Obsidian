@@ -2,6 +2,7 @@
 title: "Demma"
 tags:
   - npc
+  - npc
   - deity
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"

@@ -2,6 +2,7 @@
 title: "Mitra"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
   - "Session 21 - The Library of Thoth"

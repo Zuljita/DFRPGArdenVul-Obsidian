@@ -2,6 +2,7 @@
 title: "Njal"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Njal

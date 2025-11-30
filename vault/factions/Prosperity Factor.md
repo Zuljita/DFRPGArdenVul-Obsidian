@@ -2,6 +2,7 @@
 title: "Prosperity Factor"
 tags:
   - faction
+  - faction
 ---
 # Prosperity Factor
 

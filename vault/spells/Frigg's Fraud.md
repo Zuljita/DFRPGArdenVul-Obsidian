@@ -2,6 +2,7 @@
 title: "Frigg's Fraud"
 tags:
   - spell
+  - spell
 ---
 # Frigg's Fraud
 

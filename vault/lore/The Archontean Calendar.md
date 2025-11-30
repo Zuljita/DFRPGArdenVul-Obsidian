@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # The Archontean Calendar
 
 ## Summary

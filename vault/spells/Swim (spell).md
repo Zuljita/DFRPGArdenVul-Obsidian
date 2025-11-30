@@ -2,6 +2,7 @@
 title: "Swim (spell)"
 tags:
   - spell
+  - spell
 ---
 # Swim (spell)
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Cult of Set Research
 
 ## Ioannes' Research Project

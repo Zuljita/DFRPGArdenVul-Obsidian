@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Massive Road
 
 ## Summary

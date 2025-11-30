@@ -2,6 +2,7 @@
 title: "Tablet of the Beacon"
 tags:
   - item
+  - item
 
 
 ---

@@ -2,6 +2,7 @@
 title: "Brain Full of Small Spiders"
 tags:
   - spell
+  - spell
 ---
 # Brain Full of Small Spiders
 

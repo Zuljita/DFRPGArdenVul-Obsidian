@@ -2,6 +2,7 @@
 title: "Anaximander"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 22 - The Oracle of Thoth and The Litany of Light"
   - "Session 23c - Set Jailbreak and Down to Goblintown"

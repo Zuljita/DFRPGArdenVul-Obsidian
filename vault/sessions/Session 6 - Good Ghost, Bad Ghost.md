@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 6: Good Ghost, Bad Ghost"
 tags:
   - session
+  - session
   - recap
 session_id: 6
 ---

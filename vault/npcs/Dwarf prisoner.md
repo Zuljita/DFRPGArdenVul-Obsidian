@@ -2,6 +2,7 @@
 title: "Dwarf prisoner"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 3 - Dragons and Baboons and Beastmen, Oh My!"
 ---

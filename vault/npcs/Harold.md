@@ -2,6 +2,7 @@
 title: "Harold"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Harold

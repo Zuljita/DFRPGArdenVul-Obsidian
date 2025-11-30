@@ -2,6 +2,7 @@
 title: "Schist Corundam"
 tags:
   - npc
+  - npc
 aliases:
   - Schist of Clan Corundam
 ---

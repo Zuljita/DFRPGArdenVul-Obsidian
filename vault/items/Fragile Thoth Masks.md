@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Fragile Thoth Masks
 
 ## Description

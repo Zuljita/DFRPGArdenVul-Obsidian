@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Lower Halls of the Archons
 
 ## Description

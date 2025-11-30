@@ -2,6 +2,7 @@
 title: "Shrines"
 tags:
   - location
+  - location
 ---
 # Shrines
 

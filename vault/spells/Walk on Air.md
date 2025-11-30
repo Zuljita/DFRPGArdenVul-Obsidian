@@ -2,6 +2,7 @@
 title: "Walk on Air"
 tags:
   - spell
+  - spell
 ---
 # Walk on Air
 

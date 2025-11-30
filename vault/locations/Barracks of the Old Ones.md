@@ -2,6 +2,7 @@
 title: "Barracks of the Old Ones"
 tags:
   - location
+  - location
 aliases:
 ---
 # Barracks of the Old Ones

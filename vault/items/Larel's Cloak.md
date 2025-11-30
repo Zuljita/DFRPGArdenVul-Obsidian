@@ -2,6 +2,7 @@
 title: "Larel's Cloak"
 tags:
   - item
+  - item
 ---
 # Larel's Cloak
 

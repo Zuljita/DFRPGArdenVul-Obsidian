@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # Hithra Paleologos
 
 ## Summary

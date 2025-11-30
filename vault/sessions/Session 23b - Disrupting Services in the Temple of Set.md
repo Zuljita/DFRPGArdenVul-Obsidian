@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 23B: Disrupting Services in the Temple of Set"
 tags:
   - session
+  - session
   - recap
 session_id: 23b
 in_world_date: Basilsday, 16th of Gerakios, 2993 AE

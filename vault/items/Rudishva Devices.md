@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Rudishva Devices
 
 ## Description

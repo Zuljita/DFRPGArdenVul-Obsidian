@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Grudge Brigade Headquarters
 
 ## Summary

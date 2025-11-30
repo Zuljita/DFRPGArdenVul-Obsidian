@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 14: Behind the Waterfall Again"
 tags:
   - session
+  - session
   - recap
 session_id: 14
 ---

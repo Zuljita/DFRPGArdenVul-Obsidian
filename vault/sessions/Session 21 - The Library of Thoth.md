@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 21: The Library of Thoth"
 tags:
   - session
+  - session
   - recap
 session_id: 21
 ---

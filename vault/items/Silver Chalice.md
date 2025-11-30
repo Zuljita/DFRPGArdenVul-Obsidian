@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Silver Chalice
 
 ## Summary

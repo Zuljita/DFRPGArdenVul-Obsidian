@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # Alcheboretal Animossities
 
 ## Summary

@@ -2,6 +2,7 @@
 title: "Bellringer"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Bellringer

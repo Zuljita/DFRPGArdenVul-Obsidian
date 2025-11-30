@@ -2,6 +2,7 @@
 title: "Inventorium Burdenus Maximus"
 tags:
   - npc
+  - npc
 aliases:
   - Unnamed large mule
   - Bernie

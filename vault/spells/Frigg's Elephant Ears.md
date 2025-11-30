@@ -2,6 +2,7 @@
 title: "Frigg's Elephant Ears"
 tags:
   - spell
+  - spell
 ---
 # Frigg's Elephant Ears
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # Dalton's Darlings
 
 ## Summary

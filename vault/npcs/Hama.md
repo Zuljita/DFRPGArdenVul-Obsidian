@@ -2,6 +2,7 @@
 title: "Hama"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 13 - Yrtol and the Turtle"
 ---

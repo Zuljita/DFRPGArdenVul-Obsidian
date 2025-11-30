@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # Roger's Cousin
 
 ## Summary

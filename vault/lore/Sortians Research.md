@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Sortians Research
 
 [[Ioannes]] researches the eyes that activate statues.

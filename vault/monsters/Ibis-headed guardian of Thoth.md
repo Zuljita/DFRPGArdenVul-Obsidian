@@ -2,6 +2,7 @@
 title: "Ibis-headed guardian of Thoth"
 type: monster
 tags:
+  - monster
   - classification/construct
   - body_plan/humanoid
   - sentience/mindless

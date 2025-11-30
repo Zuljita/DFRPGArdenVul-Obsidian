@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Rumors
 
 This document collects various rumors circulating among adventurers and locals regarding [[Arden Vul]] and its surroundings.

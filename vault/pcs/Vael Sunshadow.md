@@ -2,6 +2,7 @@
 title: "Vael Sunshadow"
 tags:
   - pc
+  - pc
 aliases:
   - Vael
 ---

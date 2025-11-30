@@ -2,6 +2,7 @@
 title: "Create Fire"
 tags:
   - spell
+  - spell
 ---
 # Create Fire
 

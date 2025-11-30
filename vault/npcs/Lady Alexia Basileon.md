@@ -2,6 +2,7 @@
 title: "Lady Alexia Basileon"
 tags:
   - npc
+  - npc
   - gender/unknown
   - race/unknown
   - profession/unknown

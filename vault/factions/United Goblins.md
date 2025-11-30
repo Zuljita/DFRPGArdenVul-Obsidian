@@ -2,6 +2,7 @@
 title: "United Goblins"
 tags:
   - faction
+  - faction
 ---
 # United Goblins
 

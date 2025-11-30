@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 24A: Revenge on the Set Cult"
 tags:
   - session
+  - session
   - recap
 session_id: 24a
 in_world_date: Mitrasday, 19th of Gerakios, 2993 AE

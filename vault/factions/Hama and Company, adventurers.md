@@ -2,6 +2,7 @@
 title: "Hama and Company, adventurers"
 tags:
   - faction
+  - faction
 aliases:
   - Hama and Company
 

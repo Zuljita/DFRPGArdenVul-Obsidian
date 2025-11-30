@@ -1,6 +1,7 @@
 ---
 title: "Magic Bracer"
 tags:
+  - item
   - item/armor
   - item/magic
 ---

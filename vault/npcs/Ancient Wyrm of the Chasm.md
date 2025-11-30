@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # Ancient Wyrm of the Chasm
 
 ## Summary

@@ -2,6 +2,7 @@
 title: "Zodarrim"
 tags:
   - npc
+  - npc
   - deity
 appears_in:
   - "Session 14 - Behind the Waterfall Again"

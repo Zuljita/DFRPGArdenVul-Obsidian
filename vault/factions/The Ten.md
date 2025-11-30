@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # The Ten
 
 ## Summary

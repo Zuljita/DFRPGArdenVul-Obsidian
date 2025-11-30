@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Dickios and Janius Learn Mithric
 
 ## Description

@@ -2,6 +2,7 @@
 title: "Ioannes Grammatikos Byzantios"
 tags:
   - pc
+  - pc
 aliases:
   - Ioannes
 ---

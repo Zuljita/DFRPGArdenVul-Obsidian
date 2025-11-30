@@ -2,6 +2,7 @@
 title: "Living Wheelbarrow"
 tags:
   - item
+  - item
 ---
 # Living Wheelbarrow
 

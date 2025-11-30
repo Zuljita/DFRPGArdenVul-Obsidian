@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # Sheepshead Rangers
 
 ## Summary

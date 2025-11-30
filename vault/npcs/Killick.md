@@ -2,6 +2,7 @@
 title: "Killick"
 tags:
   - npc
+  - npc
 aliases:
   - Killik
   - Killick, goblin Big Boss of the Wet Caves

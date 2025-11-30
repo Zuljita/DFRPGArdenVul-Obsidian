@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 20: The Outer Caverns of Set"
 tags:
   - session
+  - session
   - recap
 session_id: 20
 ---

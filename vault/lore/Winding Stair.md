@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Winding Stair Details
 
 This document outlines details regarding the physical characteristics and travel times of the [[Long Stair|cliff face]] leading to [[Arden Vul]].

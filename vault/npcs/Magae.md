@@ -2,6 +2,7 @@
 title: "Magae"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 1 - First Visit to the Ruins of Arden Vul"
 ---

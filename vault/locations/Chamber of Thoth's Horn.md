@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Chamber of Thoth's Horn
 
 ## Summary

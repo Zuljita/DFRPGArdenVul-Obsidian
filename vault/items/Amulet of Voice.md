@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Amulet of Voice
 
 ## Description

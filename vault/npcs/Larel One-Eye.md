@@ -2,6 +2,7 @@
 title: "Larel One-Eye"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines"
 ---

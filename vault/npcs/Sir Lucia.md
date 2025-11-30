@@ -2,6 +2,7 @@
 title: "Sir Lucia"
 tags:
   - npc
+  - npc
   - gender/female
   - race/unknown
   - profession/knight

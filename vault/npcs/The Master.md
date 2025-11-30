@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # The Master
 
 ## Summary

@@ -1,6 +1,7 @@
 ---
 title: "Ring of Water Breathing"
 tags:
+  - item
   - item/magic
 ---
 # Ring of Water Breathing

@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 23C: Set Jailbreak and Down to Goblintown"
 tags:
   - session
+  - session
   - recap
 session_id: 23c
 in_world_date: Basilsday, 16th of Gerakios, 2993 AE

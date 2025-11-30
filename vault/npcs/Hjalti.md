@@ -2,6 +2,7 @@
 title: "Hjalti"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Hjalti

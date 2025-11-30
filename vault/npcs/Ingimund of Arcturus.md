@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # Ingimund of Arcturus
 
 ## Summary

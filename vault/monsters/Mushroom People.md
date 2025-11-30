@@ -2,6 +2,7 @@
 title: "Mushroom People"
 type: monster
 tags:
+  - monster
   - sentience/sapient
 aliases:
 ---

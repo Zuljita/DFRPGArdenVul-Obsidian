@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Staff of Blue Light
 
 ## Summary

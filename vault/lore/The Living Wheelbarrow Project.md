@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # The Living Wheelbarrow Project
 
 [[Ashe Maykum|Ashe's]] [[Alcheboretal Animossities]] is raising funds for [[The Living Wheelbarrow]]!

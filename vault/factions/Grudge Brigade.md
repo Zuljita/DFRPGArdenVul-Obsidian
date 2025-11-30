@@ -2,6 +2,7 @@
 title: "Grudge Brigade"
 tags:
   - faction
+  - faction
   - mercenary
 aliases:
   - Grudge Brigade Mercenary Company

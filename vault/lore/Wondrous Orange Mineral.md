@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Wondrous Orange Mineral
 
 ## Summary

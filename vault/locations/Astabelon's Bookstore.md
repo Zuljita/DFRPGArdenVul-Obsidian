@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Astabelon's Bookstore
 
 ## Summary

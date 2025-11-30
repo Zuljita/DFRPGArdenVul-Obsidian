@@ -1,6 +1,7 @@
 ---
 title: "Merchants & Factors"
 tags:
+  - faction
   - index
 ---
 # Merchants & Factors

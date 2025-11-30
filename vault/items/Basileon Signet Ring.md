@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Basileon Signet Ring
 
 ## Summary

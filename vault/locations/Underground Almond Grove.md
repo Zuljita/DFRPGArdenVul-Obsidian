@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Underground Almond Grove
 
 ## Summary

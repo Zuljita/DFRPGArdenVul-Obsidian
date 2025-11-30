@@ -2,6 +2,7 @@
 title: "Arden Vul"
 tags:
   - location
+  - location
 aliases:
   - Ruins of Arden Vul
 ---

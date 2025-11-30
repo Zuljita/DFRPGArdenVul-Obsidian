@@ -2,6 +2,7 @@
 title: "Claudine of Narsileon"
 tags:
   - npc
+  - npc
 aliases:
   - Claudine of Narsileon, human arms dealer
   - Claudine

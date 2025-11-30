@@ -2,6 +2,7 @@
 title: "Green Fang Kobolds"
 tags:
   - faction
+  - faction
 ---
 # Green Fang Kobolds
 

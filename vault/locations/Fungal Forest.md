@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Fungal Forest
 
 ## Summary

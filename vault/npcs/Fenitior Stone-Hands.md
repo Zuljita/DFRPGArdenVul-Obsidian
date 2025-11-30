@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # Fenitior Stone-Hands
 
 ## Summary

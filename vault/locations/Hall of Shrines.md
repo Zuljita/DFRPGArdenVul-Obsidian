@@ -2,6 +2,7 @@
 title: "Hall of Shrines"
 tags:
   - location
+  - location
 aliases:
   - Hall of Shrines Date
 ---

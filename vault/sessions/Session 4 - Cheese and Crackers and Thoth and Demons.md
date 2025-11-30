@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 4: Cheese and Crackers and Thoth and Demons"
 tags:
   - session
+  - session
   - recap
 session_id: 4
 ---

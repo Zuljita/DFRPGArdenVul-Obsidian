@@ -2,6 +2,7 @@
 title: "Merenuithiel Armaris"
 tags:
   - npc
+  - npc
 aliases:
   - Lacrymosa Merenuithiel Armaris
   - Lacrymosa

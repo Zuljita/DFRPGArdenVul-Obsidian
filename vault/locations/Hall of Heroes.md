@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Hall of Heroes
 
 ## Description

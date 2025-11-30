@@ -2,6 +2,7 @@
 title: "Torunn the Smith"
 tags:
   - npc
+  - npc
 aliases:
   - Torunn
 ---

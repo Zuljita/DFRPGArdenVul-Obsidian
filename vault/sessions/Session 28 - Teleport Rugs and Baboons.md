@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 28: Teleport Rugs and Baboons"
 tags:
   - session
+  - session
   - recap
 session_id: 28
 ---

@@ -2,6 +2,7 @@
 title: "Craas"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 31 - I Want to Believe"
 ---

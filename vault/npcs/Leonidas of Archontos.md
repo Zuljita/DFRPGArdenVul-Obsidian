@@ -2,6 +2,7 @@
 title: "Leonidas of Archontos"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Leonidas of Archontos

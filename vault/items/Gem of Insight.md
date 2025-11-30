@@ -2,6 +2,7 @@
 title: "Gem of Insight"
 tags:
   - item
+  - item
 
 
 ---

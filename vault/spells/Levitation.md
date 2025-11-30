@@ -1,3 +1,8 @@
+---
+tags:
+  - spell
+---
+
 # Levitation
 
 ## Description

@@ -2,6 +2,7 @@
 title: "Temple of Set"
 tags:
   - location
+  - location
 ---
 # Temple of Set
 

@@ -2,6 +2,7 @@
 title: "Basilisk"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 5 - Parleys and The Great Cavern"
   - "Session 14 - Behind the Waterfall Again"

@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Azure Keep
 
 ## Summary

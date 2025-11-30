@@ -2,6 +2,7 @@
 title: "Stone Monkeys"
 type: monster
 tags:
+  - monster
   - classification/construct
   - sentience/mindless
 aliases:

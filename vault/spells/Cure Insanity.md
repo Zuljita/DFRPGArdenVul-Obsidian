@@ -2,6 +2,7 @@
 title: "Cure Insanity"
 tags:
   - spell
+  - spell
 ---
 # Cure Insanity
 

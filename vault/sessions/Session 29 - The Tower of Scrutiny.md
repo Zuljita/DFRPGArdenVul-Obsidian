@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 29: The Tower of Scrutiny"
 tags:
   - session
+  - session
   - recap
 session_id: 29
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Book of Priors"
 tags:
+  - item
   - item/magic
 ---
 # Book of Priors

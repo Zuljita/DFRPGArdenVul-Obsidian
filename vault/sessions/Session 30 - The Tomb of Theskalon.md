@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 30: The Tomb of Theskalon"
 tags:
   - session
+  - session
   - recap
 session_id: 30
 ---

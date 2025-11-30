@@ -2,6 +2,7 @@
 title: "Gwelf"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 16 - Random Scorpion Teleport to the Hall of Judgment"
   - "Session 29 - The Tower of Scrutiny"

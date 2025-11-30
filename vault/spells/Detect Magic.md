@@ -2,6 +2,7 @@
 title: "Detect Magic"
 tags:
   - spell
+  - spell
 ---
 # Detect Magic
 

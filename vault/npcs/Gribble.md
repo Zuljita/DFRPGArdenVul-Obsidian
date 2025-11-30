@@ -2,6 +2,7 @@
 title: "Gribble"
 tags:
   - npc
+  - npc
 aliases:
   - United Goblins Gribble
 ---

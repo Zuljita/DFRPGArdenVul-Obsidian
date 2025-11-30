@@ -2,6 +2,7 @@
 title: "Library of Thoth"
 tags:
   - location
+  - location
 
 aliases:
   - The Library of Thoth

@@ -1,3 +1,8 @@
+---
+tags:
+  - pc
+---
+
 # PCs Index
 
 Total: 18

@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # Lacrymosa Merenuithiel Armaris
 
 ## Summary

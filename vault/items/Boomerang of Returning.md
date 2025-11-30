@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Boomerang of Returning
 
 ## Summary

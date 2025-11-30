@@ -2,6 +2,7 @@
 title: "Tomb of Theskalon"
 tags:
   - location
+  - location
 
 aliases:
   - The Tomb of Theskalon

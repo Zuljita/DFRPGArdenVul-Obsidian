@@ -2,6 +2,7 @@
 title: "Yellow Cloak Inn"
 tags:
   - location
+  - location
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
 ---

@@ -2,6 +2,7 @@
 title: "Mountain Lion"
 type: monster
 tags:
+  - monster
   - classification/beast
   - body_plan/quadruped
   - sentience/animal

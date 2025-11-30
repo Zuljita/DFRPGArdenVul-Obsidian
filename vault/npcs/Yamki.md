@@ -2,6 +2,7 @@
 title: "Yamki"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 21 - The Library of Thoth"
   - "Session 22 - The Oracle of Thoth and The Litany of Light"

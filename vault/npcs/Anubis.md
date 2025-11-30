@@ -2,6 +2,7 @@
 title: "Anubis"
 tags:
   - npc
+  - npc
 ---
 # Anubis
 

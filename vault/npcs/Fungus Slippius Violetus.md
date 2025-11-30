@@ -2,6 +2,7 @@
 title: "Fungus Slippius Violetus"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 20 - The Outer Caverns of Set"
 ---

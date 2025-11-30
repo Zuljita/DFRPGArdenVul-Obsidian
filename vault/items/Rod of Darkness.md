@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Rod of Darkness
 
 ## Summary

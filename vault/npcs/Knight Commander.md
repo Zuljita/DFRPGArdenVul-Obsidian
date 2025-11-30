@@ -2,6 +2,7 @@
 title: "Knight Commander"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 8a - Never Trust a Scorpion"
 ---

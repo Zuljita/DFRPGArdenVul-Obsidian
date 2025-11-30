@@ -2,6 +2,7 @@
 title: "Flaming Weapon"
 tags:
   - spell
+  - spell
 ---
 # Flaming Weapon
 

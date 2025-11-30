@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Irthuin
 
 ## Summary

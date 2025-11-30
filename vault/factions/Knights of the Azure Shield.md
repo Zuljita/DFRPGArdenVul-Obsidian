@@ -2,6 +2,7 @@
 title: "Knights of the Azure Shield"
 tags:
   - faction
+  - faction
 aliases:
   - Order of the Azure Shield
   - Azure Shield

@@ -2,6 +2,7 @@
 title: "Vivian"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
   - "Session 27 - The Tomb of Ptoh-Ristus"

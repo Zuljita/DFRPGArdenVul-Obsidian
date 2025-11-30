@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Halfling-Killer Patch
 
 ## Description

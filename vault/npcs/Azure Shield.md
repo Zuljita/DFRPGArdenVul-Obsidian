@@ -2,6 +2,7 @@
 title: "Azure Shield"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 1 - First Visit to the Ruins of Arden Vul"
   - "Session 13 - Yrtol and the Turtle"

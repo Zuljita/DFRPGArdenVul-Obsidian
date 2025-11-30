@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 31: I Want to Believe"
 tags:
   - session
+  - session
   - recap
 session_id: 31
 ---

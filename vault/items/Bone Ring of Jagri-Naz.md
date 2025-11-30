@@ -2,6 +2,7 @@
 title: "Bone Ring of Jagri-Naz"
 tags:
   - item
+  - item
 
 
 ---

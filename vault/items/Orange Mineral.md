@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Orange Mineral
 
 ## Summary

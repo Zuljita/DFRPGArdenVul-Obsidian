@@ -1,3 +1,8 @@
+---
+tags:
+  - session
+---
+
 # Session 33 - Nyema
 
 ## Summary

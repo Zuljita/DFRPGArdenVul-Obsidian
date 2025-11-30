@@ -2,6 +2,7 @@
 title: "Craastonistorex"
 tags:
   - npc
+  - npc
 aliases:
   - Huge Green Dragon
   - Craastonistorax

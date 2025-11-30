@@ -2,6 +2,7 @@
 title: "Halflings"
 tags:
   - faction
+  - faction
 aliases:
   - "Plumthorn's halflings"
 ---

@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 23A: Gelatinous Cube and Slime Kraken"
 tags:
   - session
+  - session
   - recap
 session_id: 23a
 in_world_date: Basilsday, 16th of Gerakios, 2993 AE

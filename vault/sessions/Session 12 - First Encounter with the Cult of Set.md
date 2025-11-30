@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 12: First Encounter with the Cult of Set"
 tags:
   - session
+  - session
   - recap
 session_id: 12
 ---

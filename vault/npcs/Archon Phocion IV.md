@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # Archon Phocion IV
 
 ## Summary

@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 11: The Great Cavern Redux"
 tags:
   - session
+  - session
   - recap
 session_id: 11
 ---

@@ -2,6 +2,7 @@
 title: "Five Families"
 tags:
   - faction
+  - faction
 ---
 # Five Families
 

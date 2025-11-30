@@ -2,6 +2,7 @@
 title: "Ogre"
 type: monster
 tags:
+  - monster
   - classification/beast
   - body_plan/humanoid
 aliases:

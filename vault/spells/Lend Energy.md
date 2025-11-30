@@ -2,6 +2,7 @@
 title: "Lend Energy"
 tags:
   - spell
+  - spell
 ---
 # Lend Energy
 

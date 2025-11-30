@@ -2,6 +2,7 @@
 title: "Versania"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 14 - Behind the Waterfall Again"
 ---

@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Southern Necropolis of Set
 
 ## Description

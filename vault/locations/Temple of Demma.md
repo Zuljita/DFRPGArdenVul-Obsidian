@@ -2,6 +2,7 @@
 title: "Temple of Demma"
 tags:
   - location
+  - location
 ---
 # Temple of Demma
 

@@ -2,6 +2,7 @@
 title: "Survivors of the Stone"
 tags:
   - faction
+  - faction
 aliases:
   - Survivors of the Stone, dwarven adventuring party
 ---

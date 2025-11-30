@@ -2,6 +2,7 @@
 title: "Muirasso's Tomb"
 tags:
   - location
+  - location
 ---
 # Muirasso's Tomb
 

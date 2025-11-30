@@ -2,6 +2,7 @@
 title: "Umsko"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Umsko

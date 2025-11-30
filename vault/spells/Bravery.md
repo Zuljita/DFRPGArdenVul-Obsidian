@@ -2,6 +2,7 @@
 title: "Bravery"
 tags:
   - spell
+  - spell
 ---
 # Bravery
 

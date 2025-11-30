@@ -126,7 +126,8 @@ The SOP emphasizes determinism first (regex/rg passes), then constrained LLM ass
 - Frontmatter conventions:
   - NPCs: `tags: [npc, gender/<value>, race/<value>, profession/<value>]` using `unknown` when not stated.
   - Items: `tags: [item/<weapon|armor|magic|mundane>]` inferred only if stated.
-  - Factions/Locations: `tags: [faction]` or `[location]`; add `entrance` only for proven access points.
+  - Factions: `tags: [faction]`.
+  - Locations: `tags: [location]`; add `entrance` only for proven access points.
 - Aliases: add alternate spellings/epithets on the canonical page; update links to canonical where safe.
 - Stubs: include 1–2 sentence summary + “Sources” sessions; no speculation.
 

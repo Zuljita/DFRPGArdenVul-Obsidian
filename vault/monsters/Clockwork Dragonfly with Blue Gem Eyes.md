@@ -2,6 +2,7 @@
 title: "Clockwork Dragonfly with Blue Gem Eyes"
 type: monster
 tags:
+  - monster
   - classification/construct
   - body_plan/vermin
   - sentience/mindless

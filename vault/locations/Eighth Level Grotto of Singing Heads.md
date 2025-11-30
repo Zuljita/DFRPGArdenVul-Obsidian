@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Eighth Level Grotto of Singing Heads
 
 ## Summary

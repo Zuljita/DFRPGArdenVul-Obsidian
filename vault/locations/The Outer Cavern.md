@@ -2,6 +2,7 @@
 title: "The Outer Cavern"
 tags:
   - location
+  - location
 ---
 # The Outer Cavern
 

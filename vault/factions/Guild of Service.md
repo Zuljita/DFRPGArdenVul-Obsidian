@@ -2,6 +2,7 @@
 title: "Guild of Service"
 tags:
   - faction
+  - faction
 aliases:
 ---
 # Guild of Service

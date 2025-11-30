@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Newmarket
 
 ## Description

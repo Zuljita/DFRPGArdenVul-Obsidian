@@ -2,6 +2,7 @@
 title: "Hallow"
 tags:
   - spell
+  - spell
 ---
 # Hallow
 

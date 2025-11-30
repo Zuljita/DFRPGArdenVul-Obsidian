@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Announcing DFRPG Arden Vul (2025-03-05)
 
 ## Campaign Overview

@@ -1,6 +1,7 @@
 ---
 title: "Set Armor"
 tags:
+  - item
   - item/armor
   - item/mundane
 ---
