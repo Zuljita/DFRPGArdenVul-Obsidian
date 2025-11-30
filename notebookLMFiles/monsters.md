@@ -1,0 +1,1185 @@
+---
+title: "Angry scary ghost"
+type: monster
+tags:
+  - monster
+  - classification/undead
+aliases:
+---
+# Angry scary ghost
+
+## Summary
+- TODO: Short description.
+
+## Appears In
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Animated Armors"
+type: monster
+tags:
+  - monster
+  - classification/construct
+  - body_plan/humanoid
+  - sentience/mindless
+aliases:
+---
+# Animated Armors
+
+## Summary
+Empty suits of armor magically animated to serve as guardians or attackers. Two were encountered.
+
+## First Appearance
+[[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+## Disposition
+Mindless, aggressive.
+
+## Known Associates
+Their creator or controller (unknown).
+
+## Notes
+Typically resistant to many forms of damage due to their metallic composition.
+
+## Sessions
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Apophis the giant lizard"
+type: monster
+tags:
+  - monster
+  - classification/beast
+  - body_plan/quadruped
+  - sentience/animal
+appears_in:
+  - "Session 24a - Revenge on the Set Cult"
+---
+# Apophis the giant lizard
+
+## Appears In
+- Session 24a - Revenge on the Set Cult
+
+## History
+- [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Jador the Just, chief priestess of Mitra in Gosterwick Audun Yellow-Eyes, logothete of the House of Sight ("Drome") in Gosterwick Freydi...
+
+## Notes
+
+
+---
+title: "Assassin Vine"
+type: monster
+tags:
+  - monster
+  - body_plan/amorphous
+aliases:
+---
+# Assassin Vine
+
+## Summary
+A carnivorous, semi-sentient plant that ambushes and constricts its prey.
+
+## First Appearance
+[[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+
+## Disposition
+Aggressively predatory.
+
+## Known Associates
+None.
+
+## Notes
+Often found in overgrown areas, using its vine-like appendages to entangle and crush victims.
+
+## Sessions
+- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+
+
+---
+title: "Carcass Creeper"
+type: monster
+tags:
+  - monster
+  - classification/beast
+  - body_plan/vermin
+  - sentience/animal
+aliases:
+---
+# Carcass Creeper
+
+## Summary
+A type of monstrous creature, likely scavenging or predatory, associated with carcasses.
+
+## First Appearance
+[[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+
+## Disposition
+Hostile, predatory.
+
+## Known Associates
+None specified.
+
+## Notes
+Often found in areas with dead bodies or carrion.
+
+## Sessions
+- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+
+
+---
+title: "Clockwork Dragonfly with Blue Gem Eyes"
+type: monster
+tags:
+  - monster
+  - classification/construct
+  - body_plan/vermin
+  - sentience/mindless
+aliases:
+---
+# Clockwork Dragonfly with Blue Gem Eyes
+
+## Summary
+A small, intricate clockwork construct resembling a dragonfly, with eyes made of blue gems.
+
+## First Appearance
+[[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+## Disposition
+Mechanical, possibly a scout or messenger.
+
+## Known Associates
+Unknown.
+
+## Notes
+Found within the ruins, possibly a remnant of ancient Archontean technology or a magical creation.
+
+## Sessions
+- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+
+---
+title: "Dust Monster"
+type: monster
+tags:
+  - monster
+aliases:
+---
+# Dust Monster
+
+## Summary
+A creature composed of animated dust or fine particles, capable of forming into a menacing shape.
+
+## First Appearance
+[[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+## Disposition
+Hostile, amorphous.
+
+## Known Associates
+None specified.
+
+## Notes
+Often found in ancient, undisturbed locations, rising from accumulated dust.
+
+## Sessions
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Flying Monkey Statue (Huge Ears)"
+type: monster
+tags:
+  - monster
+  - classification/construct
+  - sentience/mindless
+aliases:
+---
+# Flying Monkey Statue (Huge Ears)
+
+## Summary
+A magically animated statue of a monkey that can fly, distinguished by its unusually large, shrieking ears.
+
+## First Appearance
+[[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+## Disposition
+Animated, possibly hostile or guardian.
+
+## Known Associates
+Unknown, likely a magical construct.
+
+## Notes
+Found within [[Arden Vul]]. Its huge ears and shrieking might indicate special auditory abilities or an alarm function.
+
+## Sessions
+- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+
+---
+title: "Flying Monkey Statue (Huge Eyes)"
+type: monster
+tags:
+  - monster
+  - classification/construct
+  - sentience/mindless
+aliases:
+---
+# Flying Monkey Statue (Huge Eyes)
+
+## Summary
+A magically animated statue of a monkey that can fly, distinguished by its unusually large eyes.
+
+## First Appearance
+[[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+## Disposition
+Animated, possibly hostile or guardian.
+
+## Known Associates
+Unknown, likely a magical construct.
+
+## Notes
+Found within [[Arden Vul]]. Its huge eyes might indicate special sensory abilities.
+
+## Sessions
+- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+
+---
+title: "Ghost (of a Knight)"
+type: monster
+tags:
+  - monster
+  - classification/undead
+aliases:
+---
+# Ghost (of a Knight)
+
+## Summary
+The spectral remnant of a deceased knight, encountered guarding a location or seeking peace/vengeance.
+
+## First Appearance
+[[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+## Disposition
+Varies; can be hostile, helpful, or melancholic.
+
+## Known Associates
+Likely former comrades or liege lord.
+
+## Notes
+Typically immune to physical attacks and possesses chilling magical abilities.
+
+## Sessions
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Giant Centipedes"
+type: monster
+tags:
+  - monster
+  - classification/beast
+  - body_plan/vermin
+  - sentience/animal
+aliases:
+---
+# Giant Centipedes
+
+## Summary
+Enormous, venomous centipedes, typically found in dark, damp underground environments.
+
+## First Appearance
+[[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+## Disposition
+Aggressively predatory.
+
+## Known Associates
+None.
+
+## Notes
+Their bites deliver a potent venom, capable of paralyzing or incapacitating victims.
+
+## Sessions
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Giant Rat"
+type: monster
+tags:
+  - monster
+  - classification/beast
+  - body_plan/quadruped
+  - sentience/animal
+aliases:
+---
+# Giant Rat
+
+## Summary
+A larger, more aggressive variant of a common rat, often found in dark, damp environments like dungeons or sewers.
+
+## First Appearance
+[[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
+
+## Disposition
+Aggressive, scavenger.
+
+## Known Associates
+None.
+
+## Notes
+Encountered in a nest within the [[Pyramid of Thoth]].
+
+## Sessions
+- [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
+
+
+---
+title: "Huge Spiders"
+type: monster
+tags:
+  - monster
+  - classification/beast
+  - body_plan/vermin
+  - sentience/animal
+aliases:
+---
+# Huge Spiders
+
+## Summary
+Large arachnids encountered in the ruins of [[Arden Vul]], particularly in the gatehouse towers.
+
+## First Appearance
+Encountered in Session 1 of the campaign.
+
+## Disposition
+Aggressive.
+
+## Known Associates
+TBD
+
+## Notes
+- Six huge spiders were found ambushing PCs in the west gatehouse tower.
+- They were defeated by a combination of [[Ashe Maykum|Ashe's]] summoned rat and bat swarms and direct combat from the PCs.
+
+## Sessions
+
+
+---
+title: "Ibis-headed guardian of Thoth"
+type: monster
+tags:
+  - monster
+  - classification/construct
+  - body_plan/humanoid
+  - sentience/mindless
+aliases:
+  - Ibis-headed guardians of Thoth
+  - Ibis Constructs
+---
+# Ibis-headed guardian of Thoth
+
+## Appears In
+- [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]
+
+## History
+- [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]] — Ibis-headed construct encountered during exploration.
+- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]] — Secret door positions triggered guardians to attack; fights were manageable.
+
+## Notes
+
+
+---
+title: "Invisible Stalker"
+type: monster
+tags:
+  - monster
+aliases:
+---
+# Invisible Stalker
+
+## Summary
+A magical elemental creature, often air-based, that is naturally invisible and follows commands.
+
+## First Appearance
+[[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+
+## Disposition
+Loyal to its summoner/controller.
+
+## Known Associates
+Unknown controller.
+
+## Notes
+Typically sent to perform specific tasks, such as guarding or retrieving items.
+
+## Sessions
+- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+
+
+---
+title: "Large statue with hammer hands"
+tags:
+  - monster
+  - npc
+aliases:
+---
+---
+title: "Large statue with hammer hands"
+type: monster
+tags:
+  - classification/construct
+  - sentience/mindless
+aliases:
+---
+# Large statue with hammer hands
+
+## Summary
+- TODO: Short description.
+
+## Appears In
+- [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]]
+
+
+---
+title: "Mountain Lion"
+type: monster
+tags:
+  - monster
+  - classification/beast
+  - body_plan/quadruped
+  - sentience/animal
+aliases:
+---
+# Mountain Lion
+
+## Summary
+A large, predatory feline found in the wilderness and ruins of [[Arden Vul]].
+
+## First Appearance
+[[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+
+## Disposition
+Aggressive, territorial.
+
+## Known Associates
+None.
+
+## Notes
+A dangerous natural predator, formidable in combat.
+
+## Sessions
+- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+
+
+---
+title: "Mud People"
+type: monster
+tags:
+  - monster
+  - body_plan/humanoid
+aliases:
+---
+# Mud People
+
+## Summary
+Humanoid creatures made of animated mud or earth, often found in damp, subterranean environments.
+
+## First Appearance
+[[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+
+## Disposition
+Potentially hostile or territorial.
+
+## Known Associates
+None specified.
+
+## Notes
+Their earthy composition suggests resistance to certain attacks and vulnerabilities to others. Three were encountered.
+
+## Sessions
+- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+
+
+---
+title: "Mushroom People"
+type: monster
+tags:
+  - monster
+  - sentience/sapient
+aliases:
+---
+# Mushroom People
+
+## Summary
+Small, sentient creatures resembling mushrooms, with spotted caps. Two were encountered.
+
+## First Appearance
+[[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+## Disposition
+Unknown, possibly wary or territorial.
+
+## Known Associates
+None specified.
+
+## Notes
+Described as small with spotted caps.
+
+## Sessions
+- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+
+---
+title: "Ogre"
+type: monster
+tags:
+  - monster
+  - classification/beast
+  - body_plan/humanoid
+aliases:
+---
+# Ogre
+
+## Summary
+A large, brutish humanoid monster known for its strength and limited intelligence.
+
+## First Appearance
+[[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+## Disposition
+Aggressive, predatory.
+
+## Known Associates
+None specified.
+
+## Notes
+Often found in lairs with treasure, sometimes accompanied by other monstrous humanoids.
+
+## Sessions
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Piercers"
+type: monster
+tags:
+  - monster
+  - classification/beast
+  - body_plan/vermin
+  - sentience/animal
+aliases:
+---
+# Piercers
+
+## Summary
+Stalactite-like creatures that drop from ceilings to impale unsuspecting prey. Two were encountered.
+
+## First Appearance
+[[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
+
+## Disposition
+Ambush predators.
+
+## Known Associates
+None.
+
+## Notes
+A classic dungeon hazard, using camouflage and gravity to their advantage.
+
+## Sessions
+- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
+
+
+---
+title: "Rock Reptiles"
+type: monster
+tags:
+  - monster
+  - classification/beast
+aliases:
+---
+# Rock Reptiles
+
+## Summary
+Small, reptilian creatures with rock-like hides, encountered in groups.
+
+## First Appearance
+[[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+## Disposition
+Aggressive, territorial.
+
+## Known Associates
+None.
+
+## Notes
+Described as having rock-like hides, making them tough.
+
+## Sessions
+- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+
+---
+title: "Scrags"
+type: monster
+tags:
+  - monster
+  - body_plan/humanoid
+aliases:
+---
+# Scrags
+
+## Summary
+Aquatic humanoids, often found in underground lakes or flooded areas.
+
+## First Appearance
+[[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+## Disposition
+Aggressive, territorial.
+
+## Known Associates
+None specified.
+
+## Notes
+Amphibious creatures, capable of fighting both in and out of water.
+
+## Sessions
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Shabti Warrior"
+type: monster
+tags:
+  - monster
+  - classification/construct
+  - body_plan/humanoid
+  - sentience/mindless
+aliases:
+---
+# Shabti Warrior
+
+## Summary
+A more powerful, combat-focused variant of an animated [[Shabti]] statue, designed for direct defense and offense.
+
+## First Appearance
+[[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+
+## Disposition
+Aggressively hostile, guardian.
+
+## Known Associates
+- [[Shabti]] (lesser variants)
+
+## Notes
+Often armed with stone weapons and possessing greater durability and fighting skill than standard [[Shabti]].
+
+## Sessions
+- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+
+
+---
+title: "Shabti"
+type: monster
+tags:
+  - monster
+  - classification/construct
+  - body_plan/humanoid
+  - sentience/mindless
+aliases:
+---
+# Shabti
+
+## Summary
+Animated statues, typically found in ancient tombs or temples, intended to serve the deceased in the afterlife or act as guardians.
+
+## First Appearance
+[[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+
+## Disposition
+Loyal to their purpose, often hostile to intruders.
+
+## Known Associates
+- [[Shabti Warrior]] (a more powerful variant)
+
+## Notes
+Can be armed and dangerous, often appearing as humanoids made of stone or ceramic.
+
+## Sessions
+- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+
+
+---
+title: "Shambling Mound"
+type: monster
+tags:
+  - monster
+  - body_plan/amorphous
+aliases:
+---
+# Shambling Mound
+
+## Summary
+A large, semi-intelligent creature of animated plant matter, often found in swamps or damp underground areas.
+
+## First Appearance
+[[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+
+## Disposition
+Aggressively territorial.
+
+## Known Associates
+None.
+
+## Notes
+Known for its ability to engulf and suffocate its prey.
+
+## Sessions
+- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+
+
+---
+title: "Shrieker Mushroom"
+type: monster
+tags:
+  - monster
+  - body_plan/vermin
+aliases:
+---
+# Shrieker Mushroom
+
+## Summary
+A type of large, fungal growth that emits a loud shriek when disturbed, often found in dark, damp underground environments.
+
+## First Appearance
+[[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+## Disposition
+Passive, defensive reaction.
+
+## Known Associates
+None.
+
+## Notes
+Their shriek can attract other creatures.
+
+## Sessions
+- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+
+---
+title: "Shriekers (mushroom)"
+type: monster
+tags:
+  - monster
+  - body_plan/vermin
+aliases:
+---
+# Shriekers (mushroom)
+
+## Summary
+A type of subterranean fungus known for emitting a loud shriek when approached, often used as natural alarms.
+
+## First Appearance
+[[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+
+## Disposition
+Passive, reactive.
+
+## Known Associates
+None.
+
+## Notes
+Their shriek can attract hostile creatures or alert nearby inhabitants.
+
+## Sessions
+- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+
+
+---
+title: "Slime Kraken"
+tags:
+  - monster
+  - 
+type: monster
+aliases:
+---
+# Slime Kraken
+
+## Summary
+- TODO: Short description.
+
+## Appears In
+- [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
+
+
+---
+title: "Small Spherical Demon"
+type: monster
+tags:
+  - monster
+  - classification/demon
+  - body_plan/amorphous
+  - size/small
+  - sentience/sapient
+aliases:
+---
+# Small Spherical Demon
+
+## Summary
+A minor demon, spherical in shape, capable of rolling.
+
+## First Appearance
+[[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+## Disposition
+Hostile, mischievous.
+
+## Known Associates
+None specified.
+
+## Notes
+Its small size and rolling ability may make it agile or difficult to hit.
+
+## Sessions
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Stirges"
+type: monster
+tags:
+  - monster
+  - classification/beast
+  - body_plan/vermin
+  - sentience/animal
+aliases:
+---
+# Stirges
+
+## Summary
+Bat-like magical beasts that feed on blood, often found in dark and damp places.
+
+## First Appearance
+[[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+## Disposition
+Aggressively predatory.
+
+## Known Associates
+None.
+
+## Notes
+Known for their draining attacks. Infestation can lead to [[Stirge Fever]].
+
+## Sessions
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Stone Golem"
+type: monster
+tags:
+  - monster
+  - classification/construct
+  - body_plan/humanoid
+  - sentience/mindless
+aliases:
+---
+# Stone Golem
+
+## Summary
+A large, construct creature animated from stone, typically serving as a powerful guardian.
+
+## First Appearance
+[[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+
+## Disposition
+Mindless, obedient to its creator's commands, hostile to intruders.
+
+## Known Associates
+Its creator (unknown).
+
+## Notes
+Extremely durable and resistant to many forms of attack.
+
+## Sessions
+- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+
+
+---
+title: "Stone Monkeys"
+type: monster
+tags:
+  - monster
+  - classification/construct
+  - sentience/mindless
+aliases:
+---
+# Stone Monkeys
+
+## Summary
+Statues of monkeys, potentially animated or imbued with magical properties, found within [[Arden Vul]]. Three were encountered.
+
+## First Appearance
+[[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+## Disposition
+Could be guardians, puzzles, or inert objects.
+
+## Known Associates
+None specified.
+
+## Notes
+Often linked to ancient magical defenses or puzzles.
+
+## Sessions
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Teleporting Scorpion"
+type: monster
+tags:
+  - monster
+  - classification/beast
+  - body_plan/vermin
+  - sentience/animal
+aliases:
+---
+# Teleporting Scorpion
+
+## Summary
+A large, magical scorpion capable of teleportation, often found guarding specific locations or treasures.
+
+## First Appearance
+[[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+
+## Disposition
+Aggressively territorial.
+
+## Known Associates
+None specified.
+
+## Notes
+Its teleportation ability makes it a dangerous and elusive foe.
+
+## Sessions
+- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+
+
+---
+title: "The Tower Ghost"
+type: monster
+tags:
+  - monster
+  - classification/undead
+aliases:
+---
+# The Tower Ghost
+
+See: [[Yrtol]]
+
+
+---
+title: "Undead Librarian"
+type: monster
+tags:
+  - monster
+  - classification/undead
+aliases:
+---
+# Undead Librarian
+
+## Summary
+An undead creature, possibly a former librarian, haunting a library or repository of knowledge.
+
+## First Appearance
+[[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+
+## Disposition
+May be hostile, or might retain some of its former intellect and purpose.
+
+## Known Associates
+None specified.
+
+## Notes
+Could be a source of lost lore or a guardian of ancient texts.
+
+## Sessions
+- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+
+
+---
+title: "Unidentified Huge Flying Reptilian Beast"
+type: monster
+tags:
+  - monster
+  - classification/beast
+aliases:
+---
+# Unidentified Huge Flying Reptilian Beast
+
+## Summary
+A very large, unidentified flying reptile encountered near the [[Dam (Arden Vul)]] in [[Arden Vul]]. It observed the party and splashed the lake.
+
+## First Appearance
+[[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
+
+## Disposition
+Cautious, predatory.
+
+## Known Associates
+None.
+
+## Notes
+Thought to be [[Craastonistorex]].
+
+## Sessions
+- [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
+
+
+---
+title: "Wight"
+type: monster
+tags:
+  - monster
+  - classification/undead
+aliases:
+---
+# Wight
+
+## Summary
+- TODO: Short description.
+
+## Appears In
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Wyvern"
+tags:
+  - monster
+  - npc
+appears_in:
+  - "Session 3 - Dragons and Baboons and Beastmen, Oh My!"
+---
+---
+title: "Wyvern"
+type: monster
+tags:
+  - classification/beast
+aliases:
+---
+# Wyvern
+
+## Appears In
+- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+## History
+- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]] — Date: Demmasday, 28th of Toternios, 2993 AEP Weather: Cool, overcast, light rain Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Michael J Dundee, Thorcin barbarian (Adam) Vael Sunshadow, H...
+- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]] — While they were searching, a wyvern flew by to the south, took a good look at them, then flew off to the west.
+- [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Dundee, Thorcin barbarian (Adam) Lacrymosa, Elf [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn, Halfling mob bo...
+  - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Craastonistorex appeared to consider eating her for such a paltry gift, but magnanimously let it slide, as Briar the wyvern picked up the potion in his claws.
+
+## Notes
+
+
+---
+title: "Zombie Captain"
+type: monster
+tags:
+  - monster
+  - classification/undead
+  - sentience/mindless
+aliases:
+---
+# Zombie Captain
+
+## Summary
+An undead leader, a zombie with apparent command over other zombies.
+
+## First Appearance
+[[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+
+## Disposition
+Aggressively hostile, leading other undead.
+
+## Known Associates
+- [[Zombies]] (under his command)
+
+## Notes
+A more dangerous variant of a regular zombie, possibly retaining some combat skill or tactical awareness from its former life.
+
+## Sessions
+- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Zombie Porter"
+type: monster
+tags:
+  - monster
+  - classification/undead
+  - sentience/mindless
+aliases:
+  - Zombie with Dog Collar
+---
+# Zombie Porter
+
+## Summary
+An animated corpse, reanimated as a zombie, tasked with carrying goods or performing menial labor.
+
+## First Appearance
+[[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+## Disposition
+Mindless, obedient to its controller.
+
+## Known Associates
+Its controller (unknown).
+
+## Notes
+A non-combative variant of a zombie, suggesting a master using undead for utility.
+
+## Sessions
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+
+
+---
+title: "Zombie with Dog Collar"
+type: monster
+tags:
+  - monster
+  - classification/undead
+  - sentience/mindless
+aliases:
+---
+# Zombie with Dog Collar
+
+## Summary
+Alias of [[monsters/Zombie porter.md|Zombie Porter]]. See canonical page for full details.
+
+## First Appearance
+[[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+## Disposition
+Hostile, mindless.
+
+## Known Associates
+Unknown.
+
+## Notes
+The dog collar is an unusual detail, hinting at a past life or current control.
+
+## Sessions
+- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+
