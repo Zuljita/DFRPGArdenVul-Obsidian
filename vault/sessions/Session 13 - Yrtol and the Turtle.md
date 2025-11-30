@@ -37,6 +37,7 @@ Summoned bat swarms
 Summoned fish swarm
 Summoned poisonous water snake
 
+## Full Recap
 
 Most of the Left for Loot (alias Right for Riches) company decided to take a shopping trip to Newmarket, but Ioannes didn't want to spend that long away from his newly acquired cats, so he stayed in Gosterwick.  And then he got bored so he went over to the Grudge Brigade Mercenary HQ and hired both the animal summoning goblin druid "Goat" and the mysterious half-elven staff fighter "Chrysalis".  Crysalis had just bought a Staff of Blue Light that Left for Loot had found in the Great Cavern, and wanted to test it out.  Ioannis told them that with a small group he didn't want to go all the way up the Long Stair into the ruins of Arden Vul, just go to the base of the waterfall and check out the old haunted watchtower and the tunnels that Goat had previously found behind the waterfall's plunge pool using a Water Vision spell.  The mercs were fine with that, as long as they got paid.
 

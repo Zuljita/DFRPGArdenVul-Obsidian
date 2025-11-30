@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# LCE pre-commit report (non-blocking). Scans changed sessions and runs
+# scripts/lce_extract.py in dry-run for selected hub locations.
+
+ROOT_DIR="$(git rev-parse --show-toplevel)"
+cd "$ROOT_DIR"
+
+# Only proceed if python and script exist
+if ! command -v python3 >/dev/null 2>&1; then
+  exit 0
+fi
+
+if [ ! -f scripts/lce_extract.py ]; then
+  exit 0
+fi
+
+# Collect staged session files
+mapfile -t SESSIONS < <(git diff --cached --name-only --diff-filter=ACMRT | grep -E '^vault/sessions/.+\.md$' || true)
+if [ ${#SESSIONS[@]} -eq 0 ]; then
+  exit 0
+fi
+
+echo "[pre-commit] LCE report for changed sessions (dry-run)" >&2
+
+HUBS=(
+  "Glory of Thoth"
+  "Well of Light"
+  "Great Hall"
+  "Great Cavern"
+  "Great Chasm"
+  "Howling Caves"
+)
+
+REPORT=".iac_tmp/lce_precommit_report.txt"
+mkdir -p .iac_tmp
+: > "$REPORT"
+
+for sess in "${SESSIONS[@]}"; do
+  for loc in "${HUBS[@]}"; do
+    echo "# Session: $sess | Location: $loc" >> "$REPORT"
+    # Run in dry-run; if LLM endpoint is unavailable, allow failure
+    if ! python3 scripts/lce_extract.py --session "$sess" --location "$loc" --dry-run >> "$REPORT" 2>/dev/null; then
+      echo "(no suggestions or LLM unavailable)" >> "$REPORT"
+    fi
+    echo >> "$REPORT"
+  done
+done
+
+echo "[pre-commit] Wrote LCE suggestions: $REPORT" >&2
+exit 0
+

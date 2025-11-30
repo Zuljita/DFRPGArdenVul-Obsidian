@@ -41,6 +41,7 @@ Large statue with hammer hands
 Vivian, Thorcin chief priest of the Temple of Demma in Gosterwick
 Jador the Just, Wiskin chief priestess of the Temple of Mitra in Gosterwick
 
+## Full Recap
 
 Vallium and Uvash took a week-long trip to Newmarket.  While there, Vallium saw the town and did some carousing for rumors.  Uvash met the Priest of Zodarrim, Gedric Malachite, who warned him to be wary of dopplegangers.  When they returned, Ioannes told them about the trip he had taken with a couple of the Grudge Brigade mercenaries, behind the plunge pool of the waterfall beneath the Cliff Face leading to Arden Vul.  They decided to revisit the area behind the waterfall, to try to kill the giant turtle that had attacked them and rescue the starving crazy woman they had met there.
 

@@ -87,6 +87,20 @@ Thoroughness is more important than speed or brevity.
 - Review-first automation: use dry-run/report modes (e.g., LCE helper) before applying broad changes.
 - Session-grounded edits: only add connections/tags/claims that are explicitly present in session text or established pages. Avoid invention.
 
+## Session Note Structure
+
+To balance readability with completeness, all session notes should follow a standard structure that includes a brief summary at the top and a collapsible section for the full, detailed recap.
+
+The standard order of sections in a session note is as follows:
+
+1.  `## Summary`: A brief, high-level overview of the session's key events.
+2.  `## Full Recap`: A collapsible section containing the full, detailed session recap. This section's content is the main body of the session's events.
+3.  `## NPCs Encountered`: A list of non-player characters encountered during the session.
+4.  `## Locations Visited`: A list of locations visited during the session.
+5.  `## Loot / Discoveries`: A list of any loot, items, or significant discoveries made during the session.
+6.  `## Hooks for Next Session`: Any plot hooks or potential future actions that arose during the session.
+
+This structure ensures that the most important information is immediately accessible, while the full details are available on demand.
 
 ## Ingestion SOP (IAC · ACE · LCE)
 
