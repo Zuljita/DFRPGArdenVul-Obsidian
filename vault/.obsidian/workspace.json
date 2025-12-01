@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,7 +180,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "fe1fc7ba886767f2",
+  "active": "dc5a64bd6a2cb8cd",
   "lastOpenFiles": [
     "locations/Imperial Road.md",
     "locations/Water Gate.md",

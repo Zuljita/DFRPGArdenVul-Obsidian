@@ -29,7 +29,7 @@ def create_notebooklm_files():
         subdir_path = os.path.join(vault_path, subdir)
         if os.path.isdir(subdir_path):
             # Skip the .obsidian directory
-            if subdir == '.obsidian':
+            if subdir == '.obsidian' or subdir == 'templates':
                 continue
                 
             # Concatenate the content of all markdown files in the subdirectory

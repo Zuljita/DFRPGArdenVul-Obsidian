@@ -159,3 +159,11 @@ To provide a centralized view of all rumors, a consolidation process is used:
 1.  **Identify Rumors:** All files in the vault are searched for the term "rumor".
 2.  **Create Central Page:** A single page, `vault/lore/Rumors.md`, is used to collect all rumors.
 3.  **Transclude Rumors:** Rumors from other pages are transcluded into the central `Rumors.md` page using block references. This keeps the original source intact while providing a unified view. Each rumor or section of rumors should have a block ID (e.g., `^rumors`) to allow for transclusion.
+
+### CNF (Create Notebook Files)
+To prepare the vault for use with NotebookLM, a script is used to consolidate the files into a format that is easy to upload.
+
+- **Script:** `create_notebooklm_files.py`
+- **Purpose:** This script iterates through the subdirectories of the `vault` and concatenates the content of all markdown files within each subdirectory into a single file.
+- **Output:** The script generates a set of markdown files in the `notebookLMFiles` directory, with each file corresponding to a subdirectory in the vault (e.g., `npcs.md`, `locations.md`).
+- **Exclusions:** The script excludes the `.obsidian` and `templates` directories from the export.
