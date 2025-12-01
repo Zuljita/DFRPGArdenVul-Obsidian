@@ -46,11 +46,23 @@ def sync_to_drive(service_account_file, folder_id, local_dir):
             
             # Clear existing content
             document = docs_service.documents().get(documentId=file_id).execute()
-            end_index = document.get('body').get('content')[-1].get('endIndex')
-            requests = [
-                {'deleteContentRange': {'range': {'startIndex': 1, 'endIndex': end_index - 1}}}
-            ]
-            docs_service.documents().batchUpdate(documentId=file_id, body={'requests': requests}).execute()
+            body = document.get('body')
+            if body:
+                content_elements = body.get('content')
+                if content_elements:
+                    end_index = content_elements[-1].get('endIndex', 0)
+                    if end_index > 1:
+                        requests = [
+                            {
+                                'deleteContentRange': {
+                                    'range': {
+                                        'startIndex': 1,
+                                        'endIndex': end_index -1,
+                                    }
+                                }
+                            }
+                        ]
+                        docs_service.documents().batchUpdate(documentId=file_id, body={'requests': requests}).execute()
 
             # Insert new content
             requests = [
