@@ -57,5 +57,35 @@ def create_notebooklm_files():
                     
     print("NotebookLM files created successfully.")
 
+    # Merge the two smallest files
+    files = [f for f in os.listdir(output_dir) if os.path.isfile(os.path.join(output_dir, f))]
+    if len(files) > 10:
+        files.sort(key=lambda f: os.path.getsize(os.path.join(output_dir, f)))
+        
+        smallest_file_1 = files[0]
+        smallest_file_2 = files[1]
+        
+        file_1_path = os.path.join(output_dir, smallest_file_1)
+        file_2_path = os.path.join(output_dir, smallest_file_2)
+        
+        with open(file_1_path, 'r', encoding='utf-8') as f1:
+            content1 = f1.read()
+            
+        with open(file_2_path, 'r', encoding='utf-8') as f2:
+            content2 = f2.read()
+            
+        merged_content = content1 + '\n\n' + content2
+        
+        merged_filename = f'{os.path.splitext(smallest_file_1)[0]}-and-{os.path.splitext(smallest_file_2)[0]}.txt'
+        merged_filepath = os.path.join(output_dir, merged_filename)
+        
+        with open(merged_filepath, 'w', encoding='utf-8') as f:
+            f.write(merged_content)
+            
+        os.remove(file_1_path)
+        os.remove(file_2_path)
+        
+        print(f"Merged {smallest_file_1} and {smallest_file_2} into {merged_filename}")
+
 if __name__ == '__main__':
     create_notebooklm_files()
