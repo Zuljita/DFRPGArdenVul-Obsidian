@@ -5,40 +5,40 @@ tags:
 
 # Sessions Index
 
-- [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]] — Demmasday, 14th of Toternios, 2993 AEP
-- [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
-- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
-- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
-- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]
-- [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
-- [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]]
-- [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
-- [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]
-- [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]]
-- [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15 - The Great Cavern Re-Revisited]] — Demmasday, 20th of Jelenius, 2993 AE
-- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Demmasday, 27th of Jelenius, 2993 AE
-- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]] — Demmasday, 4th of Masporios, 2993 AE
-- [[sessions/Session 18 - Back Down the Well of Light.md|Session 18 - Back Down the Well of Light]]
-- [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]
-- [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
-- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
-- [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]] — Basilsday, 9th of Gerakios, 2993 AE
-- [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23A - Gelatinous Cube and Slime Kraken]] — Basilsday, 16th of Gerakios, 2993 AE
-- [[sessions/Session 23b - Disrupting Services in the Temple of Set.md|Session 23B - Disrupting Services in the Temple of Set]] — Basilsday, 16th of Gerakios, 2993 AE
-- [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23C - Set Jailbreak and Down to Goblintown]] — Basilsday, 16th of Gerakios, 2993 AE
-- [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24A - Revenge on the Set Cult]] — Mitrasday, 19th of Gerakios, 2993 AE
-- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24B - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]] — Mitrasday, 19th of Gerakios, 2993 AE
-- [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]] — Tahsday, 27th of Gerakios, 2993 AE
-- [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Lunday, 1st of Besemios, 2993 AE
-- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]] — Mitrasday, 10th of Besemios, 2993 AE
-- [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — Tahsday, 18th of Besemios, 2993 AE
-- [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — Horasday, 26th of Besemios, 2993 AE
-- [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — Lunday, 9th of Basilembrios, 2993 AE
-- [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]] — Lunday, 21st of Basilembrios, 2993 AE
-- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
+- Session 1 - First Visit to the Ruins of Arden Vul — Demmasday, 14th of Toternios, 2993 AEP
+- Session 2 - Halfling Rent-Seekers
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
+- Session 4 - Cheese and Crackers and Thoth and Demons
+- Session 5 - Parleys and The Great Cavern
+- Session 6 - Good Ghost, Bad Ghost
+- Session 7 - Why Did It Have to Be Plants?
+- Session 8A - Never Trust a Scorpion
+- Session 10 - Baboons, Ghouls, and a Mule
+- Session 11 - The Great Cavern Redux
+- Session 12 - First Encounter with the Cult of Set
+- Session 13 - Yrtol and the Turtle
+- Session 14 - Behind the Waterfall Again
+- Session 15 - The Great Cavern Re-Revisited — Demmasday, 20th of Jelenius, 2993 AE
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Demmasday, 27th of Jelenius, 2993 AE
+- Session 17 - Cleaning Out the Vermin — Demmasday, 4th of Masporios, 2993 AE
+- Session 18 - Back Down the Well of Light
+- Session 19 - The Pool of Donkey Ears
+- Session 20 - The Outer Caverns of Set
+- Session 21 - The Library of Thoth
+- Session 22 - The Oracle of Thoth and The Litany of Light — Basilsday, 9th of Gerakios, 2993 AE
+- Session 23A - Gelatinous Cube and Slime Kraken — Basilsday, 16th of Gerakios, 2993 AE
+- Session 23B - Disrupting Services in the Temple of Set — Basilsday, 16th of Gerakios, 2993 AE
+- Session 23C - Set Jailbreak and Down to Goblintown — Basilsday, 16th of Gerakios, 2993 AE
+- Session 24A - Revenge on the Set Cult — Mitrasday, 19th of Gerakios, 2993 AE
+- Session 24B - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines — Mitrasday, 19th of Gerakios, 2993 AE
+- Session 25 - Looking for the Back Door to the Forum of Set — Tahsday, 27th of Gerakios, 2993 AE
+- Session 26 - The Scouring of the Shire — Lunday, 1st of Besemios, 2993 AE
+- Session 27 - The Tomb of Ptoh-Ristus — Mitrasday, 10th of Besemios, 2993 AE
+- Session 28 - Teleport Rugs and Baboons — Tahsday, 18th of Besemios, 2993 AE
+- Session 29 - The Tower of Scrutiny — Horasday, 26th of Besemios, 2993 AE
+- Session 30 - The Tomb of Theskalon — Lunday, 9th of Basilembrios, 2993 AE
+- Session 31 - I Want to Believe — Lunday, 21st of Basilembrios, 2993 AE
+- Session 32 - Fast Exploration
 
 
 ---
@@ -1564,8 +1564,8 @@ Over 200' down, requires magical flight or a lot of rope
 Pyramid of Thoth, statue arms up, stairs to pit to Scorpion teleporter
 Teleported to Great Hall
 Teleported to Gog's Cave
-Teleported to [[items/Ruby Chair.md|Ruby Chair]]
-Beastman secret entrance from Long Stair to [[locations/Great Cavern.md|Great Cavern]]
+Teleported to Ruby Chair
+Beastman secret entrance from Long Stair to Great Cavern
 Cistern leading to tunnels to Howling Caves
 Tunnel plugged using Shape Earth, may no longer be usable
 Underwater tunnels behind waterfall plunge pool
@@ -1574,7 +1574,7 @@ May require super-human swimming or water breathing to survive
 Ruined basement to hidden staircase northwest of Glory of Thoth
 Found by Dalton's Darlings, secret shared by Jost
 Entrances to Halls of Arden Vul rumored but not yet explored: 1
-Basket up the Cliff Face west of the Swift River to the [[locations/Forum of Set.md|Forum of Set]]
+Basket up the Cliff Face west of the Swift River to the Forum of Set
 Arden Vul Iconic Locations found: 8
 The Pyramid of Thoth
 The Glory of Thoth
@@ -2917,7 +2917,7 @@ The Right for Riches company returned to Gosterwick after their successful missi
 (Artistic interpretation of Uvash and Ioannes stealing the ruby eyes of the cult statue in the Temple of Set, over the corpse of the giant crocodile Susarra killed, while Vael, Michael, Vallium, and an unidentified NPC discuss their next move.)
 It appears that the Cult of Set was not happy about any of this.  A few days after the Right for Riches Company returned to Gosterwick, two things happened:
 
-Coinbase, leader of the Grudge Brigade Mercenary Company, received an anonymous offer under his door.  It promised a payment of $2500 each for Vael, Vallium, Ioannes, Uvash, Michael, or Susarra, dead or alive.  They or their remains should be brought to the Duty Deacon in the [[locations/Forum of Set.md|Forum of Set]], who would then contact the Pontifex to verify the identify of the invader and pay the reward.  (Coinbase decided to sell the contract to Vael rather than acting on it.)
+Coinbase, leader of the Grudge Brigade Mercenary Company, received an anonymous offer under his door.  It promised a payment of $2500 each for Vael, Vallium, Ioannes, Uvash, Michael, or Susarra, dead or alive.  They or their remains should be brought to the Duty Deacon in the Forum of Set, who would then contact the Pontifex to verify the identify of the invader and pay the reward.  (Coinbase decided to sell the contract to Vael rather than acting on it.)
 Susarra was decapitated in her bed at the Yellow Cloak Inn.  Her head and the more valuable and portable parts of her gear were missing.  Vallium, who the innkeeper had seen with Susarra, was called in to identify the body, and then Vael showed up and asked for a blood sample from the victim.  His request was initially denied by the guards at the crime scene, while one of them added Vael's name to A List.  Later that denial was overruled by Audun Yellow-Eyes, head of the Drome in Gosterwick, who sent a blood sample to Vael.
 Once he got the blood sample, Vael cast Seeker followed by Trace, revealing that Susarra's head was currently in a backpack tossed in a corner of a comfortable room, about ten miles north of Gosterwick.  Vael could maintain the Trace spell as long as he could stay awake, but could not cast Seeker again for a week, so he advocated cutting short the usual week of downtime between delves and immediately going after whoever murdered Susarra.
 
@@ -2946,22 +2946,13 @@ Hot, dry
 
 Player Characters: 
 
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
-
-
-Significant NPCs:
-
-[[npcs/Lillian.md|Lillian]], captured Canon of Mitra
-[[npcs/Kronos Kettle-Belly.md|Kronos]], Innkeeper at the Sign of the Broken Head
+Lillian, captured Canon of Mitra
+Kronos, Innkeeper at the Sign of the Broken Head
 4 Ghouls
 Gelatinous Cube
-[[npcs/Slime Kraken.md|Slime Kraken]]
-[[npcs/Susarra.md|Susarra]], Archontean fighter
-Several [[npcs/Set.md|Set]] guards
+Slime Kraken
+Susarra, Archontean fighter
+Several Set guards
 
 
 Vallium formulated a plan to rescue Lillian.  They would avoid the halflings, bribe the beastmen (who rumor claimed had taken Lillian) with food for information on Lillian or for her release, bring her back to the Church of Mitra, and profit.
@@ -2972,7 +2963,7 @@ On the way, they searched for secret doors in the Thothian burial niches, and fo
 
 As they approached beastman territory, Vael cast Seeker looking for Lillian.  The spell showed her bound, gagged, and injured, in a prison cell.  It said the cell was somewhere to the northwest, away from the beastmen.  Vael followed up the Seeker with a Trace so he could keep homing in on Lillian.  At that point they decided to turn around and not talk to the beastmen after all, since it appeared they didn't have Lillian.
 
-They went north and west until they reached the room with 3 portcullises and 3 levers.  Vael, who hadn't been there before, wanted to go up the stairs to the south, but Vallium explained that it led to parts of the [[locations/Well of Light.md|Well of Light]] lever that they had not fully explored, and pulled him back on target.  Vael, not wanting to touch anything he didn't have to, used Apportation to move the middle lever and open the middle portcullis.  They then headed west into a maze of catacombs, filled with burial niches whose plugs had been removed.  Knowing it would take forever to search all the niches, everyone kept their eyes open for obvious doors or treasure, but nobody took time to search.
+They went north and west until they reached the room with 3 portcullises and 3 levers.  Vael, who hadn't been there before, wanted to go up the stairs to the south, but Vallium explained that it led to parts of the Well of Light lever that they had not fully explored, and pulled him back on target.  Vael, not wanting to touch anything he didn't have to, used Apportation to move the middle lever and open the middle portcullis.  They then headed west into a maze of catacombs, filled with burial niches whose plugs had been removed.  Knowing it would take forever to search all the niches, everyone kept their eyes open for obvious doors or treasure, but nobody took time to search.
 
 At one point Uvash was in the lead and almost ran right into a nearly invisible form ahead.  He saw some coins just hanging in the air, and stopped before becoming enveloped.  It was a large gelatinous cube.  Uvash backed away and called for help, as the others ran up.  The cube was huge but fairly slow.  Uvash was a bit worried that it might damage his fancy mace, but took a swing at it anyway, and did a bit of damage.  Michael and Vallium ran up and started rapidly hacking at it.  It kept trying to hit them with slimy pseudopods, but didn't aim very well.  Eventually they hit it enough that it slowed down further and stopped dodging effectively, and then they just kept hitting it until it stopped twitching.
 
@@ -2984,7 +2975,7 @@ Giving up on finding another door, they went back to the heavy door, and Vael us
 
 Heading east, they found another room with doors south and east.  The southern door was spiked shut.  Vael confirmed that Lillian was still southwest, so they pulled the spikes and went south.  They saw doors south and west.  The western room was small and completely trashed.
 
-To the south, however, was a very large room, containing a circular pool with a statue of [[npcs/Thoth.md|Thoth]] inside it.  The temple had been thoroughly and deliberately trashed, and both clerics felt like it was a place of negative sanctity.  There was some anti-Thoth graffiti on the walls, and a picture of a crocodile eating an ibis, indicating that the vandalism was probably the work of Settites.  Worse, when Vallium went into the room, a lot of tentacles emerged from the pool to grab him.  Everyone retreated back north out of the room, with Vallium chopping off a couple of the tentacles as he parried their attacks.
+To the south, however, was a very large room, containing a circular pool with a statue of Thoth inside it.  The temple had been thoroughly and deliberately trashed, and both clerics felt like it was a place of negative sanctity.  There was some anti-Thoth graffiti on the walls, and a picture of a crocodile eating an ibis, indicating that the vandalism was probably the work of Settites.  Worse, when Vallium went into the room, a lot of tentacles emerged from the pool to grab him.  Everyone retreated back north out of the room, with Vallium chopping off a couple of the tentacles as he parried their attacks.
 
 After some discussion, the group decided they needed to get past the tentacle beast, but since they now knew it was there, they could buff themselves first.  Vael would cast Great Haste on the fighters, while Ioannes cast Flaming Weapon.  Vael flubbed his first couple of attempts to Great Haste Michael, but the third try worked, and then Michael opened the door and charged south.  He ran right into the pool, not slowed because of his Ring of Free Action, and started cutting off tentacles as the slime kraken tried dragging him under.  At one point it looked like Michael critically failed an attack and crippled his own shield arm, but his Bless spell sacrificed itself and prevented the self-inflicted attack.  A few seconds later, Vallium also came charging into the room at double speed, and now the slime beast was surrounded.  Both Vallium and Michael kept cutting off tentacles, then went after its body.  With all its tentacles gone, the beast started biting with its beak.  Uvash used Divine Grace then followed them into the room, but Michael finished the slime creature off with multiple rapid strikes from behind before Uvash arrived.
 
@@ -3031,7 +3022,7 @@ tags:
 session_id: 23b
 in_world_date: Basilsday, 16th of Gerakios, 2993 AE
 ---
-# DFRPG Arden Vul Session 23B: Disrupting Services in the Temple of [[npcs/Set.md|Set]]
+# DFRPG Arden Vul Session 23B: Disrupting Services in the Temple of Set
 
 Date: 
 Basilsday, 16th of Gerakios, 2993 AE 
@@ -3044,17 +3035,8 @@ Hot, dry
 
 Player Characters: 
 
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
-
-
-Significant NPCs:
-
-[[npcs/Lillian.md|Lillian]], captured Canon of Mitra
-[[npcs/Susarra.md|Susarra]], Archontean fighter
+Lillian, captured Canon of Mitra
+Susarra, Archontean fighter
 Many Set guards
 Many Set cultists
 Several Set acolytes
@@ -3076,7 +3058,7 @@ Uvash and Ioannes, after running out of nearby cultists, decided to try to desec
 
 Vallium chased down and killed two more deacons who were trying to escape down a wide staircase to the west, then dragged them back into the temple and took their portable valuables.  He and Vael shut the huge bronze doors, and Vael Magelocked them.  Vael ran around the room looking for magic items, and Susarra explored the temple looking for other valuables.  Everyone then retreated to the room to the south, outside the temple's Set-aligned sanctity, to rest and heal.  Both Michael and Susarra were fairly wounded, so Ioannes used Stop Bleeding and Major Healing to patch them up.
 
-After the long battle, and with the Set Cult fully alerted to their presence, it was time to decide whether to head back to [[locations/Gosterwick.md|Gosterwick]] or press on looking for Lillian.  The group unanimously decided to keep looking for Lillian rather than retreating, so they ended the session, very close to where they started it, but surrounded by a lot of dead Settites (and one dead crocodile).
+After the long battle, and with the Set Cult fully alerted to their presence, it was time to decide whether to head back to Gosterwick or press on looking for Lillian.  The group unanimously decided to keep looking for Lillian rather than retreating, so they ended the session, very close to where they started it, but surrounded by a lot of dead Settites (and one dead crocodile).
 
 
 GM's Comments:
@@ -3109,7 +3091,7 @@ tags:
 session_id: 23c
 in_world_date: Basilsday, 16th of Gerakios, 2993 AE
 ---
-# DFRPG Arden Vul Session 23C: [[npcs/Set.md|Set]] Jailbreak and Down to Goblintown
+# DFRPG Arden Vul Session 23C: Set Jailbreak and Down to Goblintown
 
 Date: 
 Basilsday, 16th of Gerakios, 2993 AE 
@@ -3122,34 +3104,25 @@ Hot, dry
 
 Player Characters: 
 
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
-
-
-Significant NPCs:
-
-[[npcs/Susarra.md|Susarra]], Archontean fighter
+Susarra, Archontean fighter
 Many Set guards
-[[npcs/Hidlat.md|Hidlat]], Set wizard
-[[npcs/Kathroc.md|Kathroc]], Set torturer
-[[npcs/Lenuel.md|Lenuel]], Set jailer
-[[npcs/Eadgithu.md|Eadgithu]], enslaved Thorcin ranger
+Hidlat, Set wizard
+Kathroc, Set torturer
+Lenuel, Set jailer
+Eadgithu, enslaved Thorcin ranger
 captured fishman
-[[npcs/Geleg.md|Geleg]], captured wizard
-[[npcs/Lillian.md|Lillian]], captured Canon of Mitra
-[[npcs/Azgallatu.md|Azgallatu]], captured cleric of Mitra
-[[npcs/Grist the Hammer.md|Grist the Hammer]], captured dwarf fighter
-[[npcs/Gribble.md|Gribble]], captured goblin noble
-[[npcs/Killick.md|Killik]], goblin boss of the Wet Caves
-[[npcs/Palestrim.md|Pelestrim]], goblin major-domo
-[[npcs/Weskenim.md|Weskenim]], goblin king
+Geleg, captured wizard
+Lillian, captured Canon of Mitra
+Azgallatu, captured cleric of Mitra
+Grist the Hammer, captured dwarf fighter
+Gribble, captured goblin noble
+Killik, goblin boss of the Wet Caves
+Pelestrim, goblin major-domo
+Weskenim, goblin king
 Several ogre guards
 Many, many goblins
-[[npcs/Jador the Just.md|Jador the Just]], chief priestess of Mitra in [[locations/Gosterwick.md|Gosterwick]]
-[[npcs/Anaximander.md|Anaximander]], ancient sage and cleric of Mitra
+Jador the Just, chief priestess of Mitra in Gosterwick
+Anaximander, ancient sage and cleric of Mitra
 
 
 We resumed in the dungeon, after the party killed or chased off everyone in the Temple of Set and spent a few minutes looting.  The group retreated south out of the temple, back into the guard room atop the barricade, where until the sanctity level (for non-Settites) went back to normal, then rested.  They then searched the western wall, where the Set deacon had been running, and found a door concealed behind a screen.  They went west through a torture chamber, then through a black curtain into some kind of waiting room with pews, then south into a robing room.  There were some red Settite robes there, but not enough for everyone, and Uvash refused to wear them anyway.  With some of the group disguised and some not, they searched for secret doors and found one on the south wall, leading to a narrow spy corridor. Heading west, they found some peepholes into a prison, with seven cells, six prisoners (including Lillian), and four guards.  Without a way into the prison from here, they doubled back north, east, and then south down some stairs.
@@ -3170,7 +3143,7 @@ Vael and Michael were exhausted after the battle, so took a few minutes to rest,
 
 There were 6 prisoners visible.  Three of them (Lillian, an overweight man, and a tough-looking man) were manacled to the back of their cells and gagged.  The other three (a goblin, a fishman, and a well-muscled dwarf) were not tied or gagged.  Half of the prisoners showed obvious wounds, while the others appeared to be in better shape.  Vallium used the jailer's keys to free Lillian first, and Ioannes healed her wounds.  She then explained who some of the other prisoners were.  She said the tough-looking man was Azgallatu, a warrior cleric of Mitra who had been captured trying to find her, and he should definitely be freed.  She stated that the goblin (who showed no wounds) was some high-ranking noble captive, at which point Gribble interrupted to introduce himself and said he was the brother of King Wiskenim, who would certainly reward his rescuers.  Lillian and Gribble agreed that the fishman was unfriendly and also didn't seem to speak any languages they knew, so he was left in his cell.  The overweight man was Geleg, a wizard, who when ungagged immediately thanked his rescuers then asked if anyone had seen his spellbook.  Vael admitted to having found a spellbook but asked if he could copy any spells, and Geleg immediately agreed to let Vael copy anything he wanted.  The dwarf seemed a bit unfriendly, so Vallium passed the keys to Uvash to deal with him.  Grist asked Uvash several questions, apparently suspicious that he might be a doppleganger, before agreeing that he was an actual dwarf and warming up slightly.  He was badly wounded, so he appreciated the healing spell Ioannes gave him.  Azgallatu, when freed, thanked the party then immediately took up position at Lillian's side.
 
-With a horde of rescued prisoners in tow, the party went back east to loot the room at the bottom of the stairs.  There were several heads mounted on the walls, of a lion, some kind of reptile man, a member of Gog's species, and a goblin.  The goblin head appeared to be magical.  Gribble wanted to throw it in a nearby disposal hole, but because it was magical Vael argued that it couldn't be left where the Settites could recover it, so Gribble reluctantly put it in a chest (where he didn't have to look at it) and carried it out.  Meanwhile each of the other prisoners was asked to carry a suit of red Set scale armor.  So burdened, the group went back north up the stairs, east over the barricade, north through the gas-trapped room (the trap had not reset), and back into the desecrated temple of [[npcs/Thoth.md|Thoth]] were the slime kraken had been killed.
+With a horde of rescued prisoners in tow, the party went back east to loot the room at the bottom of the stairs.  There were several heads mounted on the walls, of a lion, some kind of reptile man, a member of Gog's species, and a goblin.  The goblin head appeared to be magical.  Gribble wanted to throw it in a nearby disposal hole, but because it was magical Vael argued that it couldn't be left where the Settites could recover it, so Gribble reluctantly put it in a chest (where he didn't have to look at it) and carried it out.  Meanwhile each of the other prisoners was asked to carry a suit of red Set scale armor.  So burdened, the group went back north up the stairs, east over the barricade, north through the gas-trapped room (the trap had not reset), and back into the desecrated temple of Thoth were the slime kraken had been killed.
 
 There was some debate on whether to go north or east.  Vallium argued that east was closer to the halflings so north was safer.  Ioannes countered that with so many of them, the halflings would probably be too scared to fight.  But the decision was made to go north and try to avoid contact.  Vael re-cast Shape Earth to cover the ends of the passage he had made next to the one-way door, and everyone went north through the one-way door then east through the catacombs to the portcullis.  They closed the portcullis behind them, then went south through the burial niches to the secret room where they had stashed a wheelbarrow full of food.
 
@@ -3220,7 +3193,7 @@ tags:
 session_id: 24a
 in_world_date: Mitrasday, 19th of Gerakios, 2993 AE
 ---
-# DFRPG Arden Vul Session 24A: Revenge on the [[npcs/Set.md|Set]] Cult
+# DFRPG Arden Vul Session 24A: Revenge on the Set Cult
 
 Date: 
 Mitrasday, 19th of Gerakios, 2993 AE 
@@ -3233,25 +3206,16 @@ Hot, dry
 
 Player Characters: 
 
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
-
-
-Significant NPCs:
-
-[[npcs/Jador the Just.md|Jador the Just]], chief priestess of Mitra in [[locations/Gosterwick.md|Gosterwick]]
-[[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]], logothete of the House of Sight ("Drome") in Gosterwick
-[[npcs/Freydis the Stern.md|Freydis the Stern]], steward of Lady Alexia Basileon in Gosterwick 
-Four [[factions/Knights of the Azure Shield.md|Knights of the Azure Shield]]
+Jador the Just, chief priestess of Mitra in Gosterwick
+Audun Yellow-Eyes, logothete of the House of Sight ("Drome") in Gosterwick
+Freydis the Stern, steward of Lady Alexia Basileon in Gosterwick 
+Four Knights of the Azure Shield
 Seven beastmen
 Many Set guards
 Several Set acolytes
 Several Set sergeants
-[[npcs/Sparky the goat.md|Sparky the goat]], mascot of Alpha Sept
-[[npcs/Apophis the giant lizard.md|Apophis the giant lizard]]
+Sparky the goat, mascot of Alpha Sept
+Apophis the giant lizard
 Two boars
 
 
@@ -3263,9 +3227,9 @@ They continued to the Azure Keep to try to arrange a meeting with Lady Alexia.  
 
 With no help forthcoming, they headed out for Arden Vul just after sunset.  A few miles from the Cliff Face, they heard riders coming south down the Imperial Road toward their lights.  It was four Knights of the Azure Shield, who asked them to identify themselves, they had questions about Michael's red scale armor.  They were satisfied with the answer that the armor had come off a dead Settite and there hadn't been time to repaint it before the Settites killed their friend and required a late night attack.  The knights continued their patrol.
 
-When they reached the Cliff Face, they saw lights halfway up the cliff, west of the waterfall, at the site of the Set cult's basket.  Vael Levitated up to try improve his triangulation on Susarra's head.  He was surprised to see that she was at the same elevation as the Set basket, and somewhere west, rather than up at the level of the ruins.  Vael flew back down to confer with the group.  They decided to go up to the ruins of Arden Vul, then back down though the basement, around the halflings, and through the desecrated Temple of [[npcs/Thoth.md|Thoth]] to reach the Temple of Set.
+When they reached the Cliff Face, they saw lights halfway up the cliff, west of the waterfall, at the site of the Set cult's basket.  Vael Levitated up to try improve his triangulation on Susarra's head.  He was surprised to see that she was at the same elevation as the Set basket, and somewhere west, rather than up at the level of the ruins.  Vael flew back down to confer with the group.  They decided to go up to the ruins of Arden Vul, then back down though the basement, around the halflings, and through the desecrated Temple of Thoth to reach the Temple of Set.
 
-Everyone (except Vael, who was still Levitating) tied themselves together for the night climb.  About halfway up the [[locations/Long Stair.md|Long Stair]], they encountered a beastman patrol heading down.  The beastmen formed up into a hedgehog formation as their sergeant asked the group to identify themselves.  He then indicated that his group would back up to a wider spot on the trail and allow the party distance to pass, as they were not looking for conflict.  This was agreed, and the Right for Riches company passed by the beastmen as they stood in defensive formation.  They continued to the top of the climb, then north across the ruins.
+Everyone (except Vael, who was still Levitating) tied themselves together for the night climb.  About halfway up the Long Stair, they encountered a beastman patrol heading down.  The beastmen formed up into a hedgehog formation as their sergeant asked the group to identify themselves.  He then indicated that his group would back up to a wider spot on the trail and allow the party distance to pass, as they were not looking for conflict.  This was agreed, and the Right for Riches company passed by the beastmen as they stood in defensive formation.  They continued to the top of the climb, then north across the ruins.
 
 They group passed through the basement without encountering anything, then went down the spiral stair, west through the illusory wall, south through the destroyed remains of a one-way door.  They discussed going through the catacombs to stay farther from the halflings, but decided the secret door behind the Thoth statue was faster.  They were lucky enough not to meet any halflings, and went down the narrow secret passage west into the desecrated Temple of Thoth.  At that point they heard the blaring of a horn from the secret peephole high on the west wall -- their bright lights had been spotted.
 
@@ -3309,7 +3273,7 @@ At some point the remaining Settites started fleeing west down the stairs.  All 
 
 Vael checked his Trace and saw that Susarra's head was still down and west.  The Right for Riches Company started down the wide stairs after the Settites.  There were realistic busts of (mostly) older men flanking both sides of the stairs, probably Settite priests.  Uvash wanted to spend some time smashing them, but the others pressed him to hurry up and pursue.  As they continued down, the stairs bent left, from west to southwest and then south.  And the busts were replaced by some stuffed heads of various creatures: reptilian humanoids, one with horns, a bat, even a frost giant.  The frost giant head was enchanted, and started swearing in several languages (some the PCs knew, and some they didn't) as they approached.  Uvash put some leftover goat meat into its mouth to attempt to shut it up, but it didn't work.
 
-As the stairs debouched into a wide Forum, the party saw a passage running east to a portcullis, with a couple of guys in leather armor behind it.  At the bottom of the stairs were a mass of guards, including the ones that just fled plus some more.  Beyond the guards was a huge statue of Set in Set animal form, with several slaves chained to it.  It appeared they may have finally reached the [[locations/Forum of Set.md|Forum of Set]].
+As the stairs debouched into a wide Forum, the party saw a passage running east to a portcullis, with a couple of guys in leather armor behind it.  At the bottom of the stairs were a mass of guards, including the ones that just fled plus some more.  Beyond the guards was a huge statue of Set in Set animal form, with several slaves chained to it.  It appeared they may have finally reached the Forum of Set.
 
 We paused there due to time.
 
@@ -3343,7 +3307,7 @@ tags:
 session_id: 24b
 in_world_date: Mitrasday, 19th of Gerakios, 2993 AE
 ---
-# DFRPG Arden Vul Session 24B: The [[npcs/Set.md|Set]] Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
+# DFRPG Arden Vul Session 24B: The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
 
 Date: 
 Mitrasday, 19th of Gerakios, 2993 AE 
@@ -3356,26 +3320,13 @@ Hot, dry
 
 Player Characters: 
 
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
-
-
-Significant NPCs:
-
-Many Set guards
-Several Set acolytes
-Several Set sergeants
-Some Set Guild of Service fighters
-[[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]], halfling Toll Collector
+Roskelly Winterleaf, halfling Toll Collector
 Several halfling Assistant Toll Collectors
-2 [[npcs/Ibis-headed guardian of Thoth.md|Ibis-headed guardians of Thoth]]
-Several [[factions/Knights of the Azure Shield.md|Knights of the Azure Shield]]
+2 Ibis-headed guardians of Thoth
+Several Knights of the Azure Shield
 
 
-We resumed the battle with the Right for Riches company having chased the retreating Settites down the Sighing Stair into the [[locations/Forum of Set.md|Forum of Set]].  At that point the party paused, because there was a portcullis on their left side and they were worried about being surrounded if they continued.  The Settites also paused at the bottom of the stairs, to form up and load crossbows.
+We resumed the battle with the Right for Riches company having chased the retreating Settites down the Sighing Stair into the Forum of Set.  At that point the party paused, because there was a portcullis on their left side and they were worried about being surrounded if they continued.  The Settites also paused at the bottom of the stairs, to form up and load crossbows.
 
 
 Start of the battle
@@ -3401,7 +3352,7 @@ While surrounded by several Settites, Michael fell down, and appeared doomed.  H
 
 The Right for Riches Company made it to the top of the Sighing Stair, ran east through the Temple of Set, then south and east past the barricade, then north into the desecrated Temple of Thoth, then down the skinny secret passage to the east.  The faster PCs ran at full speed to buy themselves a few seconds.  Ioannes and Uvash both cast Lend Energy on Vael, who was ready to cast Magelock on the door as soon as Michael came through it.
 
-Unfortunately, right as the lead PCs came out the secret door, Roskelly and several of his halfling toll collector thugs were standing right in that area, looking at the statue.  They immediately started talking about tolls and dungeoneering licenses and asking where the PCs came from, since they hadn't come down the stairs from the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].  Vael pulled out his Dungeoneering License pin and flashed it at Roskelly and said they were a little busy with pursuing Settites right now.  That caused the halflings to take a few steps back toward their territory.  Michael came running through the door, Vallium slammed it closed, and Vael cast Magelock on it.  As they heard the Settites start trying to break the door down, the PCs discussed whether to go north toward the stairs up to the basement, or south to the pyramid teleporter to the [[locations/Well of Light.md|Well of Light]].  They went toward the basement, and the halflings let them go.
+Unfortunately, right as the lead PCs came out the secret door, Roskelly and several of his halfling toll collector thugs were standing right in that area, looking at the statue.  They immediately started talking about tolls and dungeoneering licenses and asking where the PCs came from, since they hadn't come down the stairs from the Pyramid of Thoth.  Vael pulled out his Dungeoneering License pin and flashed it at Roskelly and said they were a little busy with pursuing Settites right now.  That caused the halflings to take a few steps back toward their territory.  Michael came running through the door, Vallium slammed it closed, and Vael cast Magelock on it.  As they heard the Settites start trying to break the door down, the PCs discussed whether to go north toward the stairs up to the basement, or south to the pyramid teleporter to the Well of Light.  They went toward the basement, and the halflings let them go.
 
 Having not found significant loot or explored much new territory, the Right for Riches company decided to keep delving rather than heading back to towh.  Rather than going upstairs to the basement, they headed east to the bridge over the chasm, and back into the room with the baboon-headed Thoth statue.  Vallium dug through his notes looking for the statue arm settings that opened a door last time, while Vael tried Lockmaster on a locked door to the north.  The spell unexpectedly failed, but a second attempt was a critical success and unlocked the door.  After listening at the door, Vallium went north into a room with 3 sarcophagi.  He motioned the others to stay back, indicating that if there were any arrow traps he didn't want anyone getting hit.  He then pulled the lid off the nearest sarcophagus.  He got a glimpse at a (non-moving) mummy, as tons of sand started pouring out of the ceiling.  Vael and Ioannes, who had been just inside the room, hopped out.  Vallium ran for the exit, which took him about three seconds, through rapidly rising sand, but he made it without falling.  As they looked into the room from the corridor outside they saw that it was buried under many tons of sand.  Vael said they could come back another time with digging tools and digging spells, but for now they should try another way.
 
@@ -3413,7 +3364,7 @@ There were doors north and east.  Behind the north door were spiral stairs up.  
 
 At the top of the stairs was a a large and interesting room.  There were two rows of statues of Archontean heroes of the past, with a few of the statues missing.  There were also several old corpses in the room.  Iaonnes inspected the bodies and thought they had been violently killed by something strong.  The bodies contained some weapons and armor, a few coins, a couple of potions, and a scroll.  Vael looked everything over and detected a magic sling and a magic shield.  The group then started looking around the edges of the room.  There were eight shrines, but seven of them were closed off behind some kind of magical force fields.  The one that was open contained a book and a quill and some Mithric writing.  Everyone decided to leave the shrine alone for now and come back later.  There was also a large statue of Thoth in ibis-headed form, with some orange gas descending from its beak, and some Mithric writing about pneuma.  Vael said that he had some theories about the statue and the shrine but they should leave for now and come back later.
 
-They went back down to the Well of Light level, then went west and south to the actual Well of Light without encountering any baboons, and Vael cast Flight on Vallium and Michael and Levitation on himself, and everyone flew up the Well, with Vallium and Michael carrying Ioannes and Uvash.  They walked south across the ruins of Arden Vul, climbed down the Cliff Face (with Ioannes using his Luck to avoid a careless fall) and hiked back to [[locations/Gosterwick.md|Gosterwick]].  They met another patrol of Knights of the Azure Shield on the Imperial Road before reaching town, but the Knights just asked them for news of the Settites and let them pass.
+They went back down to the Well of Light level, then went west and south to the actual Well of Light without encountering any baboons, and Vael cast Flight on Vallium and Michael and Levitation on himself, and everyone flew up the Well, with Vallium and Michael carrying Ioannes and Uvash.  They walked south across the ruins of Arden Vul, climbed down the Cliff Face (with Ioannes using his Luck to avoid a careless fall) and hiked back to Gosterwick.  They met another patrol of Knights of the Azure Shield on the Imperial Road before reaching town, but the Knights just asked them for news of the Settites and let them pass.
 
 For security, Vallium, Uvash, and Michael moved out of the Yellow Cloak Inn and moved into the Arcane Practitioners Club with Vael and Ioannes.  They resolved to treat Gosterwick as a dangerous place after Susarra's murder and try to watch each other's backs.  Vael started analyzing all the items they recovered, casting Analyze Magic multiple times per item in case the magic concealing effect interfered with it.  It appeared that Larel's Cloak, Larel's Sack, and Larel's Pin (the letter opener) were quite powerful items.
 
@@ -4615,65 +4566,65 @@ tags:
 
 ## Summary
 
-The party follows a magic map to find the body of [[Nyema]], the wife of the ghost [[Yrtol]]. After burying her, Yrtol's spirit finds peace. The party also deals with the aftermath of the kidnapping of two baboons by [[The Thane]].
+The party follows a magic map to find the body of Nyema, the wife of the ghost Yrtol. After burying her, Yrtol's spirit finds peace. The party also deals with the aftermath of the kidnapping of two baboons by The Thane.
 
 ## Full Recap
 
-- The party bought 250 lbs. of meat in [[Gosterwick]].
-- [[Vael Sunshadow]] activated the [[Nataraja Watcher]] statue at the [[Beacon]].
-- The party traveled to the [[Well of Light]] and performed the [[Litany of Light]].
-- The party visited the [[Howling Caves]] and learned about the kidnapping of [[Bobo]] and [[Bifki]] by [[The Thane]]. They gave the baboons 200 lbs of meat.
-- The party found a secret door in the [[Halls of Thoth]] leading to a barracks with two zombies.
-- The party visited [[Gog]] in his cave and gave him 50 lbs of meat. They asked him about Varumani passports.
-- The party visited the [[Goblin Great Hall]] and got a magic map from [[Temrin]].
-- The party followed the map to the [[Temple of Set]] and found [[Nyema]]'s body in a crocodile pool.
-- The party defeated the Set guards and explored the [[Temple of Set]].
-- The party buried [[Nyema]]'s body in front of [[Yrtol]]'s tower, and [[Yrtol]]'s ghost disappeared, leaving behind two large sapphires ([[Watcher's eyes]]).
-- The party brought the animated bust of [[Stamelis]] to the [[Beacon]] to keep [[Akla-Chah]] company.
+- The party bought 250 lbs. of meat in Gosterwick.
+- Vael Sunshadow activated the Nataraja Watcher statue at the Beacon.
+- The party traveled to the Well of Light and performed the Litany of Light.
+- The party visited the Howling Caves and learned about the kidnapping of Bobo and Bifki by The Thane. They gave the baboons 200 lbs of meat.
+- The party found a secret door in the Halls of Thoth leading to a barracks with two zombies.
+- The party visited Gog in his cave and gave him 50 lbs of meat. They asked him about Varumani passports.
+- The party visited the Goblin Great Hall and got a magic map from Temrin.
+- The party followed the map to the Temple of Set and found Nyema's body in a crocodile pool.
+- The party defeated the Set guards and explored the Temple of Set.
+- The party buried Nyema's body in front of Yrtol's tower, and Yrtol's ghost disappeared, leaving behind two large sapphires (Watcher's eyes).
+- The party brought the animated bust of Stamelis to the Beacon to keep Akla-Chah company.
 
 ## NPCs Encountered
 
-- [[Yamki]]
-- [[Bumpko]]
-- [[Stamelis]]
-- [[Bottleneck]]
-- [[Gog]]
-- [[Temrin]]
-- [[Claudine of Narsileon]]
-- [[Leifcrim]]
-- [[Yrtol]]
-- [[The Thane]] (mentioned)
-- [[Bobo]] (mentioned)
-- [[Bifki]] (mentioned)
-- [[The Master]] (mentioned)
-- [[Trefko]] (mentioned)
-- [[Mr. Heads]] (mentioned)
-- [[Akla-Chah]]
+- Yamki
+- Bumpko
+- Stamelis
+- Bottleneck
+- Gog
+- Temrin
+- Claudine of Narsileon
+- Leifcrim
+- Yrtol
+- The Thane (mentioned)
+- Bobo (mentioned)
+- Bifki (mentioned)
+- The Master (mentioned)
+- Trefko (mentioned)
+- Mr. Heads (mentioned)
+- Akla-Chah
 
 ## Locations Visited
 
-- [[Gosterwick]]
-- [[Beacon]]
-- [[Well of Light]]
-- [[Howling Caves]]
-- [[Halls of Thoth]]
-- [[Glory of Weskenim]]
-- [[Gog's cave]]
-- [[Wet Caves]]
-- [[Lower Goblintown]]
-- [[Goblin Great Hall]]
-- [[Temple of Set]]
-- [[Catacombs of Thoth]]
-- [[Pyramid of Thoth]]
-- [[Forum of Arden Vul]]
-- [[Long Stair]]
-- [[Haunted Tower]]
+- Gosterwick
+- Beacon
+- Well of Light
+- Howling Caves
+- Halls of Thoth
+- Glory of Weskenim
+- Gog's cave
+- Wet Caves
+- Lower Goblintown
+- Goblin Great Hall
+- Temple of Set
+- Catacombs of Thoth
+- Pyramid of Thoth
+- Forum of Arden Vul
+- Long Stair
+- Haunted Tower
 
 ## Loot / Discoveries
 
-- [[Blue glass square]]
-- [[Platinum Torc]]
-- [[Watcher's eyes]]
+- Blue glass square
+- Platinum Torc
+- Watcher's eyes
 - A magic ring
 - A magic sword
 - A magic torc
@@ -4685,10 +4636,10 @@ The party follows a magic map to find the body of [[Nyema]], the wife of the gho
 
 ## Hooks for Next Session
 
-- Go after [[The Thane]].
-- Get the new magic map from [[Temrin]].
+- Go after The Thane.
+- Get the new magic map from Temrin.
 - Try the teleporters with the complete set of six colored squares.
-- Magically expand the area next to the [[Beacon]].
+- Magically expand the area next to the Beacon.
 
 
 ---
@@ -5156,18 +5107,18 @@ session_id: 7
 Note: Reconstructed stub. TODO: restore full narrative.
 
 ## Highlights
-- Returns near the [[locations/Waterfall.md|Waterfall]]; botanical threats (stirges, plant monsters) encountered.
-- [[npcs/Undead Librarian.md|Undead Librarian]] and librarian lore surfaces.
+- Returns near the Waterfall; botanical threats (stirges, plant monsters) encountered.
+- Undead Librarian and librarian lore surfaces.
 
 ## Player Characters
-- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]]
-- [[pcs/Vallium Halcyon.md|Vallium]]
-- [[pcs/Uvash Edzuson.md|Uvash]]
-- [[pcs/Michael J. Dundee.md|Michael]] returns this session.
+- Ioannes
+- Vallium
+- Uvash
+- Michael returns this session.
 
 ## Notable Mentions
-- [[npcs/Wyvern.md|Wyvern]] sighting to the west.
-- [[locations/Great Cavern.md|Great Cavern]] connections.
+- Wyvern sighting to the west.
+- Great Cavern connections.
 
 
 
@@ -5334,36 +5285,26 @@ Cool, cloudy
 
 Player Characters:
 
-[[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Uvash Edzuson]], Dwarven cleric of Zodarrim (Based Cosmo)
-Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva)
-
-
-Significant NPCs:
-
-[[npcs/Muirasso.md|Muirasso]], wight, former cleric of [[npcs/Thoth.md|Thoth]]
+Muirasso, wight, former cleric of Thoth
 Many zombies
 Piercer
-[[npcs/Gog.md|Gog]], varumani
-[[npcs/Roskelly Winterleaf.md|Roskelly]] and several halfling toll collectors
-[[npcs/Eggbert.md|Eggbert]], Thorcin guard
-[[npcs/Kronos Kettle-Belly.md|Kronos Kettle-Belly]], Thorcin innkeeper, Sign of the Broken Head
-[[npcs/Estelle.md|Estelle]], Archontean innkeeper, Sign of the Broken Head
-[[npcs/Crisarius Three-Legs.md|Crisarius Three-Legs]], Archontean statue broker, Prosperity Factor
-[[npcs/Fenitior Stone-Hands.md|Fenitior Stone-Hands]], Archontean statue broker, Wisdom Factor
-[[npcs/Godric the Wise.md|Godric the Wise]], Thorcin statue broker, Golden Band
+Gog, varumani
+Roskelly and several halfling toll collectors
+Eggbert, Thorcin guard
+Kronos Kettle-Belly, Thorcin innkeeper, Sign of the Broken Head
+Estelle, Archontean innkeeper, Sign of the Broken Head
+Crisarius Three-Legs, Archontean statue broker, Prosperity Factor
+Fenitior Stone-Hands, Archontean statue broker, Wisdom Factor
+Godric the Wise, Thorcin statue broker, Golden Band
 
 
 The session began where the previous one paused, with Vallium pulling the lid off a sarcophagus in Muirasso's tomb.  The wight of Muirasso jumped out of the sarcophagus, holding a glowing broadsword, and attacked Vallium for disturbing his unrest.  Meanwhile, a couple of zombies emerged from the bas reliefs in the walls and charged other members of the party.  A long melee ensued, with additional zombies continually emerging from the walls.  Vael cast Grease on the floor, which caused the wight and several zombies to slip and fall.  Vallium stabbed the wight several times, while Michael and Uvash attacked zombies.  Ioannes cast Flaming Weapon and Shield, and Vael followed up with Blur.  Uvash started aiming at feet to knock down zombies that were still standing.  Eventually the wight was inactive and all the zombies were down, and whatever magic or curse had bound the zombies started failing and they lost their will to fight.
 
 Ioannes cast Stop Bleeding on Michael to fix a minor wound, while the rest of the group looted the room.  They took the wight's glowing broadsword and a bunch of ancient silver and copper coins from his sarcophagus, plus a magic jug and a couple of flasks containing bright blue liquid.  Vallium knocked the lid off a second sarcophagus, and some green gas started pouring out.  Most of the group fled the room, while Vael cast Purify Air, which revealed that the gas was coming out of a canopic jar inside the sarcophagus.  Uvash ran into to put the crocodile-head lid back on the jar, which stopped the release of gas.  The third sarcophagus contained another gas-spewing canopic jar, which they handled the same way.
 
-With all visible treasure taken, they searched for secret doors.  They found one in the southwest corner of the room, but could not open it.  Ioannes thought he found another one in the southeast corner, but everyone else thought it was just a line between bricks.  Stuck, Vael cast Seek Earth for gold, and though there was gold about six yards to the south.  They decided to go back to [[locations/Gosterwick.md|Gosterwick]], then south to the dam.  Their padlock was still there, and when they unlocked it they found their wheelbarrow and tools still inside.  They discussed whether to leave the treasure in the dam house while they explored the ruins, or put it in the wheelbarrow and take it with them.  Ultimately they decided that having it stolen from the dam would be the worst outcome, so they put the treasure in a chest and put the chest in the wheelbarrow.
+With all visible treasure taken, they searched for secret doors.  They found one in the southwest corner of the room, but could not open it.  Ioannes thought he found another one in the southeast corner, but everyone else thought it was just a line between bricks.  Stuck, Vael cast Seek Earth for gold, and though there was gold about six yards to the south.  They decided to go back to Gosterwick, then south to the dam.  Their padlock was still there, and when they unlocked it they found their wheelbarrow and tools still inside.  They discussed whether to leave the treasure in the dam house while they explored the ruins, or put it in the wheelbarrow and take it with them.  Ultimately they decided that having it stolen from the dam would be the worst outcome, so they put the treasure in a chest and put the chest in the wheelbarrow.
 
-Vallium suggested exploring the northern island in the Swift River.  Michael pushed the wheelbarrrow as the group headed for the bridge to that island.  But when they got close to the bridge, they heard yelling from a tower to their north to stop, and someone shot a crossbow bolt over their head into the bridge.  They approached the tower, where a couple of armed men told them that there were deadly stone constructs on that island who would kill anyone who crossed the bridge, but fortunately the constructs did not leave the island.  Some discussion revealed that the leader's name was Eggbert, and that he worked for a man named Kronos who ran the [[locations/Inn of the Broken Head.md|Inn of the Broken Head]], a bit to the northwest.
+Vallium suggested exploring the northern island in the Swift River.  Michael pushed the wheelbarrrow as the group headed for the bridge to that island.  But when they got close to the bridge, they heard yelling from a tower to their north to stop, and someone shot a crossbow bolt over their head into the bridge.  They approached the tower, where a couple of armed men told them that there were deadly stone constructs on that island who would kill anyone who crossed the bridge, but fortunately the constructs did not leave the island.  Some discussion revealed that the leader's name was Eggbert, and that he worked for a man named Kronos who ran the Inn of the Broken Head, a bit to the northwest.
 
 The group decided to visit the Inn, and followed Eggbert's directions to go west to the river.  Soon enough, they saw the Inn.  The Inn was a fortified two-story building, and there were several smaller outbuildings surrounding it.  There was the head of a large statue of Arden hanging above the front door, and both Vael and Ioannes thought the head looked magical.  Ioannes, Michael, and Lacrymosa stayed with the wheelbarrow, while Vael and Vallium went inside.
 
@@ -5371,7 +5312,7 @@ Inside the Inn was brightly lit by a couple of Continual Light rocks.  Kronos, a
 
 Vael went outside and spent the time to cast Analyze Magic on the head of Arden, which revealed that it could speak if addressed respectfully.  He talked to the head and it told him "Restore me!  Courage shall be yours when I am whole and the incantation sung!"
 
-Vael went back in, and he and and Kronos spent some more time asking each other questions.  Kronos revealed that the [[locations/Forum of Set.md|Forum of Set]] had an entrance on the west side of the cliff face, but it was considered dangerous.  Vael told Kronos about the bodies they had found on the roof of the tower by the Forum, and Kronos was pretty sure the two humans were his former employee Roger and "Roger's cousin", but had no idea who the halfling with them was.  He also revealed that they had found the head of Arden in the Forum by the oak tree, and had carried it over to the Inn to serve as their sign.  The group ultimately decided to head back to Gosterwick rather than staying at the Inn.  They made it back with their wheelbarrow full of treasure.
+Vael went back in, and he and and Kronos spent some more time asking each other questions.  Kronos revealed that the Forum of Set had an entrance on the west side of the cliff face, but it was considered dangerous.  Vael told Kronos about the bodies they had found on the roof of the tower by the Forum, and Kronos was pretty sure the two humans were his former employee Roger and "Roger's cousin", but had no idea who the halfling with them was.  He also revealed that they had found the head of Arden in the Forum by the oak tree, and had carried it over to the Inn to serve as their sign.  The group ultimately decided to head back to Gosterwick rather than staying at the Inn.  They made it back with their wheelbarrow full of treasure.
 
 
 GM's Comments:
@@ -5411,30 +5352,30 @@ tags:
 # Streetwise Training with the Benevolent Brotherhood
 
 ## Summary
-[[Vael]] undergoes streetwise training with the [[Benevolent Brotherhood]], leading to the anonymous sale of [[Set Armor]] at [[The Docks]].
+Vael undergoes streetwise training with the Benevolent Brotherhood, leading to the anonymous sale of Set Armor at The Docks.
 
 ## Events
-- [[Vael]] contacts the [[Benevolent Brotherhood]] through the [[Baliff's Truncheon]].
-- Met "[[Shirley]]", the secretary at their public facade, and left contact information.
-- Met "[[Petros]]", who provided a tour of the less savory parts of town and offered pointers on anonymous selling.
-- Successfully sold [[Set Armor]] to a contact at [[The Docks]] for 40% of its value, maintaining anonymity.
+- Vael contacts the Benevolent Brotherhood through the Baliff's Truncheon.
+- Met "Shirley", the secretary at their public facade, and left contact information.
+- Met "Petros", who provided a tour of the less savory parts of town and offered pointers on anonymous selling.
+- Successfully sold Set Armor to a contact at The Docks for 40% of its value, maintaining anonymity.
 
 ## NPCs Encountered
-- [[Shirley]] (secretary, Benevolent Brotherhood)
-- [[Petros]] (trainer, Benevolent Brotherhood)
+- Shirley (secretary, Benevolent Brotherhood)
+- Petros (trainer, Benevolent Brotherhood)
 
 ## Locations Visited
-- [[Baliff's Truncheon]]
-- [[Arcane Practitioners' Club]] (APC, where Vael received the contact for Petros)
-- [[The Docks]]
+- Baliff's Truncheon
+- Arcane Practitioners' Club (APC, where Vael received the contact for Petros)
+- The Docks
 
 ## Loot / Discoveries
-- Sale of [[Set Armor]] (40% value).
+- Sale of Set Armor (40% value).
 - 1 XP for loot.
 - 1 XP for exploration.
 
 ## Hooks for Next Session
-- Further interactions with the [[Benevolent Brotherhood]] for other transactions or information.
-- Potential encounters with the buyer of the [[Set Armor]].
+- Further interactions with the Benevolent Brotherhood for other transactions or information.
+- Potential encounters with the buyer of the Set Armor.
 
 

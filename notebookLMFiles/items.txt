@@ -6,14 +6,14 @@ tags:
 # Alkahest Grenade
 
 ## Description
-A type of grenade that likely contains [[Alkahest]], a universal solvent. It can be brewed by alchemists.
+A type of grenade that likely contains Alkahest, a universal solvent. It can be brewed by alchemists.
 
 ## Properties
 - Brewable by alchemists.
 - Likely has corrosive properties.
 
 ## Known History
-[[Vallium Halcyon]] attempted to brew one.
+Vallium Halcyon attempted to brew one.
 
 ## Notes
 TBD
@@ -32,7 +32,7 @@ tags:
 An amulet that can alter or enhance the wearer's voice, or perhaps provide other vocal-related magical effects.
 
 ## Properties
-- Worn by [[pcs/Vael Sunshadow|Vael]].
+- Worn by Vael.
 
 ## Known History
 TBD
@@ -51,10 +51,10 @@ tags:
 # Arcanum
 
 ## Description
-A mysterious substance or energy source mentioned in relation to the [[Beacon]] vehicle. It is required as fuel for the [[Beacon]].
+A mysterious substance or energy source mentioned in relation to the Beacon vehicle. It is required as fuel for the Beacon.
 
 ## Properties
-- Fuel for the [[Beacon]].
+- Fuel for the Beacon.
 
 ## Known History
 TBD
@@ -90,7 +90,7 @@ A ubiquitous magic item for adventurers. The party possesses one.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+- Session 5 - Parleys and The Great Cavern
 
 
 ---
@@ -101,22 +101,12 @@ tags:
 # Basileon Signet Ring
 
 ## Summary
-A signet ring bearing the crest of the [[Basileon family]], found on a noblewoman's corpse.
-
-## Description
-A ring typically worn to seal official documents or to denote family lineage. This one features the distinctive emblem of the noble [[Basileon family]].
-
-## Properties
-- Bears the [[Basileon family]] crest.
-- Indicates connection to the [[Basileon family]].
-
-## Known History
-Found on the corpse of a noblewoman, possibly Lady [[npcs/Lady Alexia Basileon|Alexia Basileon]] or a relative.
+A signet ring bearing the crest of the Alexia Basileon or a relative.
 
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -140,9 +130,7 @@ A sturdy belt, often crafted with dwarven motifs, that magically imbues the wear
 A classic magic item in fantasy settings, likely present in the world of Arden Vul.
 
 ## Notes
-Owned by [[Ioannes]]
-## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+Owned by Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -169,7 +157,7 @@ Found by the party during an exploration.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -191,7 +179,7 @@ A magical blue glass square, part of a set of six colors of teleportation square
 - The party completed their set of six colors with the discovery of this square.
 
 ## Sessions
-- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- Session 33 - Nyema
 
 
 ---
@@ -205,7 +193,7 @@ tags:
 # Bone Ring of Jagri-Naz
 
 ## History
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — The Regalia named were the [[items/Bone Ring of Jagri-Naz.md|Bone Ring of Jagri-Naz]], the [[items/Tablet of the Beacon.md|Tablet of the Beacon]], the [[items/Ebon Spear of Arden.md|Ebon Spear of Arden]], and the [[items/Iron Circlet of ...
+- Session 5 - Parleys and The Great Cavern — The Regalia named were the Bone Ring of Jagri-Naz, the Tablet of the Beacon, the Ebon Spear of Arden, and the [[items/Iron Circlet of ...
 
 ## Notes
 
@@ -226,10 +214,7 @@ tags:
 
 ## Description
 
-The Book of Priors is a six-volume work written in [[lore/Mithric.md|Mithric]] by a succession of Thothian priors. The work was started by [[Gaius Probus]] in 937 AEP and continued until 1782 AEP. It is a detailed chronicle of the history, architecture, and inhabitants of [[Arden Vul]].
-
-## See Also
-- [[lore/Mithric.md|Mithric]]
+The Book of Priors is a six-volume work written in Mithric by a succession of Thothian priors. The work was started by Mithric
 
 ## Contents
 
@@ -237,42 +222,42 @@ The book contains a wealth of information on various subjects:
 
 ### History
 A timeline of major events, including:
-- **829 AEP:** Discovery of the site by [[Arden]] and [[Vul the Sorcerer]].
-- **893 AEP:** The founding of the city of [[Arden Vul]].
-- The construction of major landmarks like the [[Great Pyramid of Thoth]], the [[Halls of Thoth]], and the [[Well of Light]].
-- The discovery of [[The Great Chasm]] and [[The Obsidian Gates]].
-- **1043 AEP:** The defeat of the [[varumani]] (trolls) by [[Marius Tricotor]].
-- **1051 AEP:** The defeat of the [[heqeti]] (hoppers) by [[Marius Tricotor]].
-- **1588 AEP:** The breaking of the [[Compact of Ennius]] with the dragons.
-- **1698 AEP:** The start of a Civil War stemming from disputes between the old temples and the [[Sortians]].
+- **829 AEP:** Discovery of the site by Arden and Vul the Sorcerer.
+- **893 AEP:** The founding of the city of Arden Vul.
+- The construction of major landmarks like the Great Pyramid of Thoth, the Halls of Thoth, and the Well of Light.
+- The discovery of The Great Chasm and The Obsidian Gates.
+- **1043 AEP:** The defeat of the varumani (trolls) by Marius Tricotor.
+- **1051 AEP:** The defeat of the heqeti (hoppers) by Marius Tricotor.
+- **1588 AEP:** The breaking of the Compact of Ennius with the dragons.
+- **1698 AEP:** The start of a Civil War stemming from disputes between the old temples and the Sortians.
 
 ### Architecture
-The book describes the layout of the [[Halls of Arden Vul]] as being approximately 12 levels deep and mentions numerous locations:
-- [[Pyramid of Thoth]]
-- [[Hall of Heroes]]
-- [[Well of Light]]
-- [[Halls of Thoth]] (also referred to as Upper Great Hall of Thoth)
-- [[Forum of Set]]
-- [[Obsidian Gates]]
-- [[Lower Halls of the Archons]]
-- [[The Canyon]]
-- [[Lower Shrines and Tombs]]
-- [[Troll Thegn]] (a varumani area)
-- [[Lower Temple]]
-- [[Chasm Floor]]
-- [[Heqeti Ziggurat]] (connected to the Chasm Floor)
+The book describes the layout of the Halls of Arden Vul as being approximately 12 levels deep and mentions numerous locations:
+- Pyramid of Thoth
+- Hall of Heroes
+- Well of Light
+- Halls of Thoth (also referred to as Upper Great Hall of Thoth)
+- Forum of Set
+- Obsidian Gates
+- Lower Halls of the Archons
+- The Canyon
+- Lower Shrines and Tombs
+- Troll Thegn (a varumani area)
+- Lower Temple
+- Chasm Floor
+- Heqeti Ziggurat (connected to the Chasm Floor)
 
 ### On the Varumani (Trolls)
 - Described as big, strong, and intelligent.
 - Possess regenerative abilities and can only be permanently killed with fire or acid.
 - Some members of the race are mages.
-- They eventually surrendered to [[Marius Tricotor]] and became loyal Imperial subjects.
+- They eventually surrendered to Marius Tricotor and became loyal Imperial subjects.
 
 ### On the Heqeti (Hoppers)
 - An amphibious race.
 - Most are of low intelligence ("hoppers"), but some are smarter, including mages and demon-anti-priests.
 - They are described as "purely evil."
-- Their [[Heqeti Ziggurat]] was conquered by [[Marius Tricotor]], with the survivors retreating into the [[Underearth]].
+- Their Heqeti Ziggurat was conquered by Marius Tricotor, with the survivors retreating into the Underearth.
 
 ## Known History
 
@@ -308,7 +293,7 @@ A highly desirable weapon for a thrown-weapon specialist.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+- Session 7 - Why Did It Have to Be Plants?
 
 
 ---
@@ -323,7 +308,7 @@ tags:
 Magical container with extradimensional capacity discovered during early delves. Mentioned among notable loot hauls.
 
 ## Appears In
-- [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
+- Session 28 - Teleport Rugs and Baboons
 
 ## Notes
 - Referenced in multiple session loot summaries alongside other magic items.
@@ -347,12 +332,7 @@ A small decorative clasp, often used to fasten cloaks or other garments.
 - Ioannes' personal attire includes a bronze brooch fastening his red woolen cloak.
 
 ## Known History
-- Used by high-ranking priests of [[Demma]] as a ceremonial fastener for their hooded cloaks, often in the shape of a seed.
-
-## Notes
-
-## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+- Used by high-ranking priests of Session 5 - Parleys and The Great Cavern
 
 
 ---
@@ -378,7 +358,7 @@ A common item for those exploring dangerous ruins.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -389,13 +369,13 @@ tags:
 # Dickios and Janius Learn Mithric
 
 ## Description
-A textbook or primer for learning the [[Mithric]] language, possibly aimed at beginners.
+A textbook or primer for learning the Mithric language, possibly aimed at beginners.
 
 ## Properties
 - Language learning material.
 
 ## Known History
-[[Astabelon's Bookstore]] has copies of this book.
+Astabelon's Bookstore has copies of this book.
 
 ## Notes
 TBD
@@ -414,7 +394,7 @@ tags:
 # Ebon Spear of Arden
 
 ## History
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — The Regalia named were the [[items/Bone Ring of Jagri-Naz.md|Bone Ring of Jagri-Naz]], the [[items/Tablet of the Beacon.md|Tablet of the Beacon]], the [[items/Ebon Spear of Arden.md|Ebon Spear of Arden]], and the [[Iron Circlet of Ghanor]].
+- Session 5 - Parleys and The Great Cavern — The Regalia named were the Bone Ring of Jagri-Naz, the Tablet of the Beacon, the Ebon Spear of Arden, and the Iron Circlet of Ghanor.
 
 ## Notes
 
@@ -433,14 +413,14 @@ tags:
 # Fragile Thoth Masks
 
 ## Description
-Masks associated with [[Thoth]], possibly delicate and valuable.
+Masks associated with Thoth, possibly delicate and valuable.
 
 ## Properties
 - Fragile.
-- Associated with [[Thoth]].
+- Associated with Thoth.
 
 ## Known History
-[[Vallium Halcyon]] considered storing them in [[Larel's Sack]].
+Vallium Halcyon considered storing them in Larel's Sack.
 
 ## Notes
 TBD
@@ -459,19 +439,11 @@ tags:
 # Gem of Insight
 
 ## Summary
-A powerful magical gem capable of permanently boosting a person's intelligence. It was identified by [[npcs/Lyssandra Astorion.md|Lyssandra Astorion]] and [[npcs/Palteon.md|Palteon]] at the [[Arcane Practitioners' Club]].  Sold to [[Lady Alexia Basileon]]
-
-## Description
-A rare and valuable gemstone, glowing faintly with an inner light, rumored to enhance the mental faculties of its possessor.
-
-## Properties
-- Magical.
-- Permanently boosts intelligence.
-- Identified by [[npcs/Lyssandra Astorion.md|Lyssandra]] and [[npcs/Palteon.md|Palteon]].
+A powerful magical gem capable of permanently boosting a person's intelligence. It was identified by Lyssandra Astorion and Palteon at the Lyssandra and Palteon.
 
 ## History
-- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]] — And one of the items they found in the pit was truly amazing, a [[items/Gem of Insight.md|Gem of Insight]], which could permanently boost someone's intelligence.
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — # DFRPG Arden Vul Session 5: Parleys and [[locations/Great Cavern.md|The Great Cavern]] Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 4 - Cheese and Crackers and Thoth and Demons — And one of the items they found in the pit was truly amazing, a Gem of Insight, which could permanently boost someone's intelligence.
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 
 ## Notes
 
@@ -481,7 +453,7 @@ A rare and valuable gemstone, glowing faintly with an inner light, rumored to en
 
 ## Sessions
 
-- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+- Session 4 - Cheese and Crackers and Thoth and Demons
 
 
 ---
@@ -507,8 +479,8 @@ Found as loot during an exploration.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
+- Session 6 - Good Ghost, Bad Ghost
 
 
 ---
@@ -535,7 +507,7 @@ Found as loot during an exploration.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -552,8 +524,7 @@ An embroidered patch, likely commemorating a feat of defeating halflings.
 TBD
 
 ## Known History
-[[Vallium Halcyon]] commissioned a similar patch depicting 11 wooden mugs to commemorate a recent accomplishment.
-Owned by [[pcs/Michael J. Dundee.md|Michael J Dundee]], [[pcs/Vael Sunshadow.md|Vael Sunshadow]], [[Merenuithiel Lacrymosa Armaris|Lacrymosa]], [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]], [[pcs/Vallium Halcyon.md|Vallium Halcyon]]
+Michael J Dundee, Vael Sunshadow, Lacrymosa, Ioannes, Vallium Halcyon
 
 ## Notes
 TBD
@@ -570,11 +541,11 @@ tags:
 
 Total: 5
 
-- [[items/Bone Ring of Jagri-Naz.md|Bone Ring of Jagri-Naz]] (1)
-- [[items/Ebon Spear of Arden.md|Ebon Spear of Arden]] (1)
-- [[items/Gem of Insight.md|Gem of Insight]] (2)
-- [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]] (1)
-- [[items/Tablet of the Beacon.md|Tablet of the Beacon]] (1)
+- Bone Ring of Jagri-Naz (1)
+- Ebon Spear of Arden (1)
+- Gem of Insight (2)
+- Iron Circlet of Ghanor (1)
+- Tablet of the Beacon (1)
 
 
 ---
@@ -588,7 +559,7 @@ tags:
 # Iron Circlet of Ghanor
 
 ## History
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — The Regalia named were the [[items/Bone Ring of Jagri-Naz.md|Bone Ring of Jagri-Naz]], the [[items/Tablet of the Beacon.md|Tablet of the Beacon]], the [[items/Ebon Spear of Arden.md|Ebon Spear of Arden]], and the [[Iron Circlet of Ghanor]]
+- Session 5 - Parleys and The Great Cavern — The Regalia named were the Bone Ring of Jagri-Naz, the Tablet of the Beacon, the Ebon Spear of Arden, and the Iron Circlet of Ghanor
 
 ## Notes
 
@@ -607,23 +578,20 @@ tags:
 # Krakteros Family Necklace
 
 ## Summary
-A green necklace bearing the symbol of the [[Krakteros family]]'s tower.
-
-## Description
-A distinctive necklace, likely made of green stone or enamel, with a pendant or carving depicting a tower—the emblem of the prominent [[factions/Krakteros Family|Krakteros family]].
+A green necklace bearing the symbol of the Krakteros family.
 
 ## Properties
 - Green color.
-- Features the [[factions/Krakteros Family|Krakteros family]] tower symbol.
-- Implies connection to the [[factions/Krakteros Family|Krakteros family]].
+- Features the Krakteros family tower symbol.
+- Implies connection to the Krakteros family.
 
 ## Known History
-Found on a skeleton believed to be a former member of the [[factions/Krakteros Family|Krakteros family]].
+Found on a skeleton believed to be a former member of the Krakteros family.
 
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -652,13 +620,13 @@ tags:
 # Larel's Dagger
 
 ## Description
-A dagger owned by [[Larel]], likely an item of some significance.
+A dagger owned by Larel, likely an item of some significance.
 
 ## Properties
 TBD
 
 ## Known History
-The party made a deal with the [[Rarities Factor]] for free storage due to this item.
+The party made a deal with the Rarities Factor for free storage due to this item.
 
 ## Notes
 TBD
@@ -710,26 +678,13 @@ tags:
 ---
 # Living Wheelbarrow
 
-The Living Wheelbarrow is a magical item created by the inventor [[Ashe Maykum]] under the company [[Alcheboretal Animossities]]. It was developed as part of his "Shroom for Improvement" prototype and was eventually ready for mass production.
+The Living Wheelbarrow is a magical item created by the inventor Living Wheelbarrows (one in each color). Free shipping to Gosterwick. Estimated delivery: Gerakios 2993.
+- **Trailblazer Pledge (2,000 silver):** A personalized wheelbarrow with a customized color emblem or design. Free shipping to Gosterwick. Estimated delivery: Basilembrios 2993.
 
-## Properties
-The underside of the wheelbarrow is covered in real, living plants. This unique feature allows the use of the [[Levitation]] spell, which is normally only usable on living things, rather than [[Apportation]]. This makes it significantly easier to transport than a standard wheelbarrow, as it can be floated over difficult terrain or up and down vertical shafts.
-
-- **Capacity:** 360 pounds.
-- **Handling:** It can be pushed or pulled with only a quarter of the strength necessary to move a ground-based wheelbarrow, and ignores difficult terrain. Easily raised or lowered across flights stairs or even vertical shafts through simple caster concentration.
-- **Care:** Requires little more care than a house plant and can survive for days without sunlight.
-- **Colors:** Available in Fungus White, Moss Green, and Yellow Rattle. Customizable colors and emblems are available for higher pledges.
-
-## Known History
-The Living Wheelbarrow was originally offered through a crowdfunding campaign with several pledge levels:
-- **Adventurer Pledge (300 silver):** One [[Living Wheelbarrow]] in a color of choice. Free shipping to [[Gosterwick]]. Estimated delivery: Gerakios 2993.
-- **Party Pledge (800 silver):** Three [[Living Wheelbarrow|Living Wheelbarrows]] (one in each color). Free shipping to [[Gosterwick]]. Estimated delivery: Gerakios 2993.
-- **Trailblazer Pledge (2,000 silver):** A personalized wheelbarrow with a customized color emblem or design. Free shipping to [[Gosterwick]]. Estimated delivery: Basilembrios 2993.
-
-[[Vael]] acquired a customized wheelbarrow, and both [[Ioannes]] and [[Onyx]] were "befuddled" by it initially. Deliveries for Adventurer and Party Pledges began by Gerakios 2993, with Trailblazer pledges focusing on unique designs.
+Vael acquired a customized wheelbarrow, and both Ioannes and Onyx were "befuddled" by it initially. Deliveries for Adventurer and Party Pledges began by Gerakios 2993, with Trailblazer pledges focusing on unique designs.
 
 ## Warnings
-The [[Living Wheelbarrow]] is not self-powered, self-propelled, or self-levitating. A competent caster and [[Levitation]] spell is required to make use of the levitating feature. Scroll use by untrained users may result in injury or equipment loss. Designs, components, and plant details are prototypes and subject to change.
+The Living Wheelbarrow is not self-powered, self-propelled, or self-levitating. A competent caster and Levitation spell is required to make use of the levitating feature. Scroll use by untrained users may result in injury or equipment loss. Designs, components, and plant details are prototypes and subject to change.
 
 
 ---
@@ -757,8 +712,8 @@ Found as loot during an exploration.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
+- Session 6 - Good Ghost, Bad Ghost
 
 
 ---
@@ -786,7 +741,7 @@ Found as loot during an exploration.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -814,8 +769,8 @@ Found as loot during an exploration.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
+- Session 6 - Good Ghost, Bad Ghost
 
 
 ---
@@ -843,7 +798,7 @@ Found as loot during an exploration.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -871,8 +826,8 @@ Found as loot during an exploration.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
+- Session 6 - Good Ghost, Bad Ghost
 
 
 ---
@@ -899,7 +854,7 @@ Found by the party during an exploration.
 The stew is described as "intoxicating" rather than nourishing, suggesting its primary purpose is recreational or ceremonial.
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -925,7 +880,7 @@ Found on the corpse of a noblewoman.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -951,7 +906,7 @@ Found as loot during an exploration.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+- Session 5 - Parleys and The Great Cavern
 
 
 ---
@@ -962,14 +917,11 @@ tags:
 # Map of the Great Cavern
 
 ## Summary
-A map detailing the layout and features of the [[locations/Great Cavern.md|Great Cavern]] within [[Arden Vul]].
-
-## Description
-A parchment or other material depicting the geographical features, paths, and points of interest within the vast underground [[locations/Great Cavern.md|Great Cavern]].
+A map detailing the layout and features of the Great Cavern within Great Cavern.
 
 ## Properties
 - Informational.
-- Depicts the [[locations/Great Cavern.md|Great Cavern]].
+- Depicts the Great Cavern.
 
 ## Known History
 Found by the party during their explorations.
@@ -978,7 +930,7 @@ Found by the party during their explorations.
 Provides valuable intelligence for navigating the cavern.
 
 ## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+- Session 5 - Parleys and The Great Cavern
 
 
 ---
@@ -998,10 +950,7 @@ A dancing statue that can be used as a guard and remote viewing device.
 ## Known History
 
 ## Notes
-- [[Vael Sunshadow]] placed one on the stairs to the [[Beacon]].
-
-## Sessions
-- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- Session 33 - Nyema
 
 
 ---
@@ -1012,23 +961,7 @@ tags:
 # Orange Mineral
 
 ## Summary
-A wondrous orange mineral found in the caverns under [[Arden Vul]], with many arcane uses. Suspected to be [[Arcanum]].
-
-## Description
-A wondrous orange mineral found in the caverns under [[Arden Vul]], with many arcane uses.
-
-## Properties
-- Arcane uses.
-- Signifies a unique source of magical energy if found inside the plateau.
-
-## Known History
-The [[city of Arden Vul]] was abandoned when the mines of this mineral ran dry. It is rumored that this mineral can be manipulated by powerful mages for good or ill.
-
-## Notes
-The orange rocks are a sign of magical energy.
-
-## Sessions
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+A wondrous orange mineral found in the caverns under Session 6 - Good Ghost, Bad Ghost
 
 
 ---
@@ -1040,23 +973,15 @@ tags:
 # Orichalcum Shield
 
 ## Summary
-A shield made of [[Orichalcum]], possibly belonging to [[npcs/Coinbase.md|Coinbase]].
+A shield made of Coinbase.
 
 ## Description
-A sturdy shield crafted from the mythical metal [[Orichalcum]], known for its strength and often magical properties.
-
-## Properties
-- Material: [[Orichalcum]]
-- Likely provides excellent defense.
-- Potentially magical.
-
-## Known History
-Mentioned in connection with [[npcs/Coinbase.md|Coinbase]].
+A sturdy shield crafted from the mythical metal Coinbase.
 
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -1082,7 +1007,7 @@ Found on the corpse of a noblewoman.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -1093,17 +1018,7 @@ tags:
 # Platinum Torc
 
 ## Description
-A platinum torc found on [[Nyema]]'s body.
-
-## Properties
-
-## Known History
-- Used to identify [[Nyema]]'s body.
-
-## Notes
-
-## Sessions
-- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+A platinum torc found on Session 33 - Nyema
 
 
 # Items
@@ -1152,7 +1067,7 @@ A highly sought-after magic item for adventurers. The party possesses one.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+- Session 5 - Parleys and The Great Cavern
 
 ## Properties
 
@@ -1179,7 +1094,7 @@ A ring enchanted with a continuous magical effect that alters the wearer's physi
 
 ## Properties
 - Magical.
-- Grants [[Breathe Water|water breathing]].
+- Grants water breathing.
 
 ## Known History
 A useful magic item for underwater exploration.
@@ -1187,7 +1102,7 @@ A useful magic item for underwater exploration.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+- Session 5 - Parleys and The Great Cavern
 
 
 ---
@@ -1214,7 +1129,7 @@ Found as loot or mentioned in magical contexts.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+- Session 5 - Parleys and The Great Cavern
 
 
 ---
@@ -1241,7 +1156,7 @@ Found as loot or mentioned in magical contexts.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+- Session 5 - Parleys and The Great Cavern
 
 
 ---
@@ -1270,7 +1185,7 @@ tags:
 # Rudishva Devices
 
 ## Description
-"Rudishva Devices" is a book that serves as a reference guide for various artifacts created by the [[Rudishva]].
+"Rudishva Devices" is a book that serves as a reference guide for various artifacts created by the Rudishva.
 
 ## Properties
 - Contains pictures of many Rudishva devices, which can be used to identify unknown artifacts.
@@ -1294,10 +1209,10 @@ aliases:
 - TODO: Short description for item.
 
 ## Appears In
-- [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
-- [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
-- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]
-- [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
+- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 23c - Set Jailbreak and Down to Goblintown
+- Session 27 - The Tomb of Ptoh-Ristus
+- Session 28 - Teleport Rugs and Baboons
 
 
 ---
@@ -1308,14 +1223,14 @@ tags:
 # Set Animals
 
 ## Description
-Vicious dogs with square ears, often used by followers of the [[Cult of Set]]. These are described as "weird mean dogs".
+Vicious dogs with square ears, often used by followers of the Cult of Set. These are described as "weird mean dogs".
 
 ## Properties
 - Vicious
 - Square ears
 
 ## Known History
-An ancient rescript from the high priest of [[Set]] to his counterpart in Archontos claims that the [[Temple of Set]] in [[Arden Vul]] succeeded in breeding a fearsome species of animals that 'shared all the attributes of Lord Set.' This project was based in a secret cavern near the [[Waterfall]].
+An ancient rescript from the high priest of Set to his counterpart in Archontos claims that the Temple of Set in Arden Vul succeeded in breeding a fearsome species of animals that 'shared all the attributes of Lord Set.' This project was based in a secret cavern near the Waterfall.
 
 ## Notes
 These creatures might be a type of golem or a magically augmented beast.
@@ -1334,7 +1249,7 @@ tags:
 
 ## Description
 
-This is the distinctive red scale armor worn by followers of the [[Cult of Set]].
+This is the distinctive red scale armor worn by followers of the Cult of Set.
 
 ## Properties
 
@@ -1342,7 +1257,7 @@ TBD
 
 ## Known History
 
-- A set of this armor was sold anonymously at [[The Docks]] for 40% of its value with the help of the [[Benevolent Brotherhood]].
+- A set of this armor was sold anonymously at The Docks for 40% of its value with the help of the Benevolent Brotherhood.
 
 ## Notes
 
@@ -1375,7 +1290,7 @@ Found by the party during an exploration.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -1401,7 +1316,7 @@ Found as loot during an exploration.
 ## Notes
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -1412,23 +1327,7 @@ tags:
 # Silver Plate Engraved with a Sheep's Head
 
 ## Summary
-A silver plate, engraved with the image of a sheep's head, potentially related to the [[Sheepshead Rangers]] or some other sheep-related entity.
-
-## Description
-A decorative or ceremonial plate made of silver, featuring a distinct engraving of a sheep's head.
-
-## Properties
-- Made of silver.
-- Engraved with a sheep's head.
-
-## Known History
-Found by the party.
-
-## Notes
-Could be related to the [[Sheepshead Rangers]].
-
-## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+A silver plate, engraved with the image of a sheep's head, potentially related to the Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -1439,23 +1338,8 @@ tags:
 # Silver Tokens with Arden on one side
 
 ## Summary
-Small silver tokens, each engraved with the image of [[Arden]] on one side. Their purpose is unknown, but they could be currency, religious tokens, or markers.
-
-## Description
-Circular or otherwise shaped tokens made of silver, featuring a recognizable depiction of [[Arden]] on one face. The other side is unengraved or bears an unknown mark.
-
-## Properties
-- Made of silver.
-- Features an image of [[Arden]].
-
-## Known History
-Found as loot during an exploration.
-
-## Notes
-
-## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+Small silver tokens, each engraved with the image of Session 3 - Dragons and Baboons and Beastmen, Oh My!
+- Session 6 - Good Ghost, Bad Ghost
 
 
 ---
@@ -1476,12 +1360,7 @@ A staff, likely made of wood or metal, which continuously glows with a soft blue
 - Emits blue light.
 
 ## Known History
-An empty niche for this staff was found in a room with three stone monkey statues in the [[Great Cavern]].
-
-## Notes
-
-## Sessions
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+An empty niche for this staff was found in a room with three stone monkey statues in the Session 6 - Good Ghost, Bad Ghost
 
 
 ---
@@ -1495,7 +1374,7 @@ tags:
 # Tablet of the Beacon
 
 ## History
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — The Regalia named were the [[items/Bone Ring of Jagri-Naz.md|Bone Ring of Jagri-Naz]], the [[items/Tablet of the Beacon.md|Tablet of the Beacon]], the [[items/Ebon Spear of Arden.md|Ebon Spear of Arden]], and the [[items/Iron Circlet of ...
+- Session 5 - Parleys and The Great Cavern — The Regalia named were the Bone Ring of Jagri-Naz, the Tablet of the Beacon, the Ebon Spear of Arden, and the [[items/Iron Circlet of ...
 
 ## Notes
 
@@ -1521,7 +1400,7 @@ A highly sought-after magical item or device capable of instantaneous travel ove
 - Instantaneous travel.
 
 ## Known History
-[[Wicktrimmer]] is extremely interested in acquiring such a device to improve his business logistics and is willing to offer significant benefits in exchange.
+Wicktrimmer is extremely interested in acquiring such a device to improve his business logistics and is willing to offer significant benefits in exchange.
 
 ## Notes
 A very rare and valuable item.
@@ -1537,13 +1416,13 @@ tags:
 # The Archontean Empire
 
 ## Description
-A book or tome discussing the history and workings of the [[Archontean Empire]].
+A book or tome discussing the history and workings of the Archontean Empire.
 
 ## Properties
 - Reference material.
 
 ## Known History
-[[Astabelon's Bookstore]] has copies of this book.
+Astabelon's Bookstore has copies of this book.
 
 ## Notes
 TBD
@@ -1559,25 +1438,7 @@ tags:
 # The Twelve Labours of Arden
 
 ## Summary
-A historical or mythological text detailing the legendary feats of [[Arden]], a prominent figure in the history of [[Arden Vul]]. It is said to be a guide for a puzzle that starts with purification at the fountain underneath the [[waterfall]].
-
-## Description
-A book or manuscript recounting the "Twelve Labors" performed by the historical figure [[Arden]]. It likely contains significant lore and details about the early history and challenges of the region.
-
-## Properties
-- Historical/mythological text.
-- Details the deeds of [[Arden]].
-
-## Known History
-- Mentioned in connection with [[Arden]] and the lore of [[Arden Vul]].
-- It details 11 of the 12 Labors. The 12th is prophesied to be completed at a future time of need.
-
-## Notes
-- Provides insight into the origins and legends surrounding the setting.
-
-## Sessions
-- [[RawFiles/Discord/Arden.txt]]
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+A historical or mythological text detailing the legendary feats of Session 3 - Dragons and Baboons and Beastmen, Oh My!
 
 
 ---
@@ -1589,7 +1450,7 @@ tags:
 
 ## Description
 
-A type of weapon or item associated with the followers of the [[Cult of Set]].
+A type of weapon or item associated with the followers of the Cult of Set.
 
 ## Properties
 
@@ -1618,12 +1479,7 @@ Two huge eye-shaped sapphires.
 - Deliver a serious but not life-threatening electrical shock when picked up.
 
 ## Known History
-- Found on the ground where [[Yrtol]] disappeared after [[Nyema]] was buried.
-
-## Notes
-
-## Sessions
-- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- Found on the ground where Session 33 - Nyema
 
 
 ---
@@ -1645,10 +1501,10 @@ Typically consists of a single wheel, two handles, and a tray for carrying loads
 - Useful for transporting heavy items over terrain.
 
 ## Known History
-[[pcs/Vael Sunshadow|Vael]] used one to push his pack up the [[Long Stair]] to [[Arden Vul]].
+Vael used one to push his pack up the Long Stair to Arden Vul.
 
 ## Notes
-Can be enchanted to become a [[Living Wheelbarrow]].
+Can be enchanted to become a Living Wheelbarrow.
 
 ## Sessions
 

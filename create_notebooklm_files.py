@@ -1,5 +1,6 @@
 import os
 import shutil
+import re
 
 def create_notebooklm_files():
     """
@@ -38,7 +39,14 @@ def create_notebooklm_files():
                 if filename.endswith('.md'):
                     file_path = os.path.join(subdir_path, filename)
                     with open(file_path, 'r', encoding='utf-8') as f:
-                        concatenated_content += f.read() + '\n\n'
+                        file_content = f.read()
+                        # Remove Obsidian link markers, handling display text
+                        # Pattern to match [[Page Name|Display Text]] or [[Page Name]]
+                        # Replace [[Page Name|Display Text]] with Display Text
+                        file_content = re.sub(r'\[\[[^|]+\|([^\]]+)\]\]', r'\1', file_content)
+                        # Replace [[Page Name]] with Page Name
+                        file_content = re.sub(r'\[\[([^\]]+)\]\]', r'\1', file_content)
+                        concatenated_content += file_content + '\n\n'
                         
             # Save the concatenated content to a new file
             if concatenated_content:
