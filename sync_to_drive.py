@@ -5,6 +5,8 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
+from googleapiclient.errors import HttpError
+
 def sync_to_drive(service_account_file, folder_id, local_dir):
     """
     This script syncs the files from a local directory to a Google Drive folder as Google Docs.
@@ -44,25 +46,22 @@ def sync_to_drive(service_account_file, folder_id, local_dir):
             # Update existing file
             file_id = drive_files[doc_name]
             
-            # Clear existing content
-            document = docs_service.documents().get(documentId=file_id).execute()
-            body = document.get('body')
-            if body:
-                content_elements = body.get('content')
-                if content_elements:
-                    end_index = content_elements[-1].get('endIndex', 0)
-                    if end_index > 1:
-                        requests = [
-                            {
-                                'deleteContentRange': {
-                                    'range': {
-                                        'startIndex': 1,
-                                        'endIndex': end_index -1,
-                                    }
-                                }
-                            }
-                        ]
-                        docs_service.documents().batchUpdate(documentId=file_id, body={'requests': requests}).execute()
+            try:
+                # Clear existing content
+                document = docs_service.documents().get(documentId=file_id).execute()
+                end_index = document.get('body').get('content')[-1].get('endIndex')
+                if end_index > 1:
+                    requests = [
+                        {'deleteContentRange': {'range': {'startIndex': 1, 'endIndex': end_index - 1}}}
+                    ]
+                    docs_service.documents().batchUpdate(documentId=file_id, body={'requests': requests}).execute()
+            except HttpError as e:
+                if "The range should not be empty" in str(e):
+                    # This error occurs when the document is empty, so we can safely ignore it.
+                    pass
+                else:
+                    raise e
+
 
             # Insert new content
             requests = [
