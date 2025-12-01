@@ -82,11 +82,6 @@ def sync_to_drive(service_account_file, folder_id, local_dir):
             docs_service.documents().batchUpdate(documentId=file_id, body={'requests': requests}).execute()
             print(f'Created {doc_name} in Google Drive.')
 
-    # Delete files from Google Drive that are no longer present locally
-    for filename, file_id in drive_files.items():
-        drive_service.files().delete(fileId=file_id).execute()
-        print(f'Deleted {filename} from Google Drive.')
-
 if __name__ == '__main__':
     if len(sys.argv) != 4:
         print('Usage: python3 sync_to_drive.py <service_account_file> <folder_id> <local_dir>')
