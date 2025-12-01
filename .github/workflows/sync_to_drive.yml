@@ -1,0 +1,37 @@
+name: Sync NotebookLM Files to Google Drive
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+    - name: Create NotebookLM files
+      run: |
+        python create_notebooklm_files.py
+
+    - name: Authenticate and Sync to Google Drive
+      env:
+        GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+        FOLDER_ID: "1ibQs8CvI1wjBau25J_uYF5ZfWnlU7mdi"
+      run: |
+        echo "$GCP_SA_KEY" > gcp_sa_key.json
+        python sync_to_drive.py gcp_sa_key.json "$FOLDER_ID" notebookLMFiles
+

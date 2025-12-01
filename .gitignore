@@ -16,3 +16,6 @@ quartz/public/
 
 # Node
 node_modules/
+
+#GCP Service Account
+dfrpgardenvulsync-a76054fc16dd.json

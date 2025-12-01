@@ -1,14 +1,15 @@
+#!/usr/bin/env python3
 import os
 import shutil
 import re
+import sys
 
-def create_notebooklm_files():
+def create_notebooklm_files(output_dir):
     """
     This script consolidates all markdown files in the vault into large notebook files
     for use with NotebookLM.
     """
     vault_path = 'vault'
-    output_dir = 'notebookLMFiles'
     
     # Create the output directory if it doesn't exist
     if not os.path.exists(output_dir):
@@ -88,4 +89,7 @@ def create_notebooklm_files():
         print(f"Merged {smallest_file_1} and {smallest_file_2} into {merged_filename}")
 
 if __name__ == '__main__':
-    create_notebooklm_files()
+    output_directory = 'notebookLMFiles'
+    if len(sys.argv) > 1:
+        output_directory = sys.argv[1]
+    create_notebooklm_files(output_directory)
