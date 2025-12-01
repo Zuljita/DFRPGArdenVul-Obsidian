@@ -11,7 +11,7 @@ def sync_to_drive(service_account_file, folder_id, local_dir):
     """
     # Authenticate with Google Drive
     creds = service_account.Credentials.from_service_account_file(
-        service_account_file, scopes=['https://www.googleapis.com/auth/drive'])
+        service_account_file, scopes=['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/documents'])
     drive_service = build('drive', 'v3', credentials=creds)
     docs_service = build('docs', 'v1', credentials=creds)
 
