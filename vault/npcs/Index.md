@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # NPCs Index
 
 Recent Additions

@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Tower of Scrutiny Message
 
 ## Message from [[Uriel Basileon]] to [[Kel Bormol]]

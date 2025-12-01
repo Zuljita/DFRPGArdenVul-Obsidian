@@ -2,6 +2,7 @@
 title: "Margot the Red"
 tags:
   - npc
+  - npc
 aliases:
   - Margot
 ---

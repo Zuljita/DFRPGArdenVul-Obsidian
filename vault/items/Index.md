@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Items Index
 
 Total: 5

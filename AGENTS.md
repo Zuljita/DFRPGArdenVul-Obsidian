@@ -126,7 +126,8 @@ The SOP emphasizes determinism first (regex/rg passes), then constrained LLM ass
 - Frontmatter conventions:
   - NPCs: `tags: [npc, gender/<value>, race/<value>, profession/<value>]` using `unknown` when not stated.
   - Items: `tags: [item/<weapon|armor|magic|mundane>]` inferred only if stated.
-  - Factions/Locations: `tags: [faction]` or `[location]`; add `entrance` only for proven access points.
+  - Factions: `tags: [faction]`.
+  - Locations: `tags: [location]`; add `entrance` only for proven access points.
 - Aliases: add alternate spellings/epithets on the canonical page; update links to canonical where safe.
 - Stubs: include 1–2 sentence summary + “Sources” sessions; no speculation.
 
@@ -151,3 +152,18 @@ The SOP emphasizes determinism first (regex/rg passes), then constrained LLM ass
 - CI (optional): on PRs, post an LCE report and fail if there are unmapped names, unresolved links, or missed connections.
 
 Helper: `scripts/lce_extract.py` collects windows, queries the local LLM, maps canonical names, and prints patch suggestions (dry‑run by default).
+
+### Rumor Consolidation
+To provide a centralized view of all rumors, a consolidation process is used:
+
+1.  **Identify Rumors:** All files in the vault are searched for the term "rumor".
+2.  **Create Central Page:** A single page, `vault/lore/Rumors.md`, is used to collect all rumors.
+3.  **Transclude Rumors:** Rumors from other pages are transcluded into the central `Rumors.md` page using block references. This keeps the original source intact while providing a unified view. Each rumor or section of rumors should have a block ID (e.g., `^rumors`) to allow for transclusion.
+
+### CNF (Create Notebook Files)
+To prepare the vault for use with NotebookLM, a script is used to consolidate the files into a format that is easy to upload.
+
+- **Script:** `create_notebooklm_files.py`
+- **Purpose:** This script iterates through the subdirectories of the `vault` and concatenates the content of all markdown files within each subdirectory into a single file.
+- **Output:** The script generates a set of plain text files in the `notebookLMFiles` directory, with each file corresponding to a subdirectory in the vault (e.g., `npcs.txt`, `locations.txt`).
+- **Exclusions:** The script excludes the `.obsidian` and `templates` directories from the export.

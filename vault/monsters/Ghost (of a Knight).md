@@ -2,6 +2,7 @@
 title: "Ghost (of a Knight)"
 type: monster
 tags:
+  - monster
   - classification/undead
 aliases:
 ---

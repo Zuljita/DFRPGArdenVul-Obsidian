@@ -2,6 +2,7 @@
 title: "Forum of Set"
 tags:
   - location
+  - location
 aliases:
   - Forum of Set Arden Vul Iconic Locations
   - Forum of Set Date

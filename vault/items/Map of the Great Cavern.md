@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Map of the Great Cavern
 
 ## Summary

@@ -2,6 +2,7 @@
 title: "Stone Golem"
 type: monster
 tags:
+  - monster
   - classification/construct
   - body_plan/humanoid
   - sentience/mindless

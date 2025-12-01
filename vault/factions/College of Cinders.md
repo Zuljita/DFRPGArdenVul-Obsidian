@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # College of Cinders
 
 ## Summary

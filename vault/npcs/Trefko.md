@@ -2,6 +2,7 @@
 title: "Trefko"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 16 - Random Scorpion Teleport to the Hall of Judgment"
   - "Session 28 - Teleport Rugs and Baboons"

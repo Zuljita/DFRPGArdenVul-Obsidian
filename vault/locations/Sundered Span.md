@@ -2,6 +2,7 @@
 title: "Sundered Span"
 tags:
   - location
+  - location
   - iconic
 appears_in:
   - "Session 32 - Fast Exploration"

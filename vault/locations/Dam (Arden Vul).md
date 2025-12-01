@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Dam (Arden Vul)
 
 ## Summary

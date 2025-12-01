@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 13: Yrtol and the Turtle"
 tags:
   - session
+  - session
   - recap
 session_id: 13
 ---

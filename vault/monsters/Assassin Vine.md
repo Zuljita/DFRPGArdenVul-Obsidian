@@ -2,6 +2,7 @@
 title: "Assassin Vine"
 type: monster
 tags:
+  - monster
   - body_plan/amorphous
 aliases:
 ---

@@ -2,6 +2,7 @@
 title: "Lyssandra Astorion"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 5 - Parleys and The Great Cavern"
   - "Session 30 - The Tomb of Theskalon"

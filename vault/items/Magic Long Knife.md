@@ -1,6 +1,7 @@
 ---
 title: "Magic Long Knife"
 tags:
+  - item
   - item/weapon
   - item/magic
 ---

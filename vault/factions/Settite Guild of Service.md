@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # Settite Guild of Service
 
 ## Summary

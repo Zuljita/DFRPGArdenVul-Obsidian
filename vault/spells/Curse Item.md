@@ -2,6 +2,7 @@
 title: "Curse Item"
 tags:
   - spell
+  - spell
 ---
 # Curse Item
 

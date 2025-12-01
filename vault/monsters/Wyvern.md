@@ -1,6 +1,7 @@
 ---
 title: "Wyvern"
 tags:
+  - monster
   - npc
 appears_in:
   - "Session 3 - Dragons and Baboons and Beastmen, Oh My!"

@@ -2,6 +2,7 @@
 title: "Mystic Mist"
 tags:
   - spell
+  - spell
 ---
 # Mystic Mist
 

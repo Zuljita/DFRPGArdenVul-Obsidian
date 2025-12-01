@@ -1,3 +1,8 @@
+---
+tags:
+  - pc
+---
+
 # PCs Index
 
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]]

@@ -2,6 +2,7 @@
 title: "Larel's Sack"
 tags:
   - item
+  - item
 ---
 # Larel's Sack
 

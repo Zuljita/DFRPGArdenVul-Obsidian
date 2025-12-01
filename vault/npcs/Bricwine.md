@@ -2,6 +2,7 @@
 title: "Bricwine"
 tags:
   - npc
+  - npc
 aliases:
   - "Bricwine, bartender at the Yellow Cloak Inn"
   - "Yellow Cloak Inn Bricwine"

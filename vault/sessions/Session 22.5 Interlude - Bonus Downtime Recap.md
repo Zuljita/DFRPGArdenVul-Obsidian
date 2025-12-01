@@ -1,3 +1,8 @@
+---
+tags:
+  - session
+---
+
 DFRPG Bonus Downtime Recap: Strange Happenings in Gosterwick
 There's this idea in DFRPG that Town is a "safe zone".  PCs can shop and train there and don't have to worry about being robbed or murdered.
 

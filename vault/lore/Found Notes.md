@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Found Notes
 
 ## Fragment 1 (Poem)

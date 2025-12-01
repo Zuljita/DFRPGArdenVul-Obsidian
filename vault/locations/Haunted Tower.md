@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Haunted Tower
 
 ## Description

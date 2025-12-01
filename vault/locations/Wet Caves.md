@@ -2,6 +2,7 @@
 title: "Wet Caves"
 tags:
   - location
+  - location
 appears_in:
   - "Session 23c - Set Jailbreak and Down to Goblintown"
   - "Session 26 - The Scouring of the Shire"

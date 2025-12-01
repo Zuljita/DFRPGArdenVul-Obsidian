@@ -2,6 +2,7 @@
 title: "Rizzit"
 tags:
   - npc
+  - npc
 aliases:
   - Rizzit, demon
 ---

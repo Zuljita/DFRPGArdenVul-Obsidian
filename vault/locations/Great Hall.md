@@ -2,6 +2,7 @@
 title: "Great Hall"
 tags:
   - location
+  - location
 appears_in:
   - "Session 4 - Cheese and Crackers and Thoth and Demons"
   - "Session 8a - Never Trust a Scorpion"

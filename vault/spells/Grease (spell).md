@@ -2,6 +2,7 @@
 title: "Grease (spell)"
 tags:
   - spell
+  - spell
 ---
 # Grease (spell)
 

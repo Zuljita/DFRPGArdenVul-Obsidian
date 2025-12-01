@@ -2,6 +2,7 @@
 title: "Grist the Hammer"
 tags:
   - npc
+  - npc
 aliases:
   - Grist
 ---

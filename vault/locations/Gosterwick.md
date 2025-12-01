@@ -2,6 +2,7 @@
 title: "Gosterwick"
 tags:
   - location
+  - location
 ---
 # Gosterwick
 

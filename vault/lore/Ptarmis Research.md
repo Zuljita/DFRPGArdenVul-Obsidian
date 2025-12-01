@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Ptarmis Research
 
 ## Ioannes' Inquiry

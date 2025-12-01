@@ -2,11 +2,17 @@
 title: "Knights of the Azure Shield"
 tags:
   - faction
+  - faction
 aliases:
   - Order of the Azure Shield
   - Azure Shield
 ---
 # Knights of the Azure Shield
+
+## Appears In
+- [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]
+- [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]
+- [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]]
 
 ## History
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]] — # DFRPG Arden Vul Session 1: First Visit to the Ruins of Arden Vul Date: Demmasday, 14th of Toternios, 2993 AEP Weather: Unseasonably warm, sunny Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Aven...

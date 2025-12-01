@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Goblin Great Hall
 
 ## Summary

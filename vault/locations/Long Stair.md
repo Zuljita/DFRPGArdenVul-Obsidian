@@ -2,6 +2,7 @@
 title: "Long Stair"
 tags:
   - location
+  - location
   - entrance
 aliases:
   - Winding Stair

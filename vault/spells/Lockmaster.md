@@ -2,6 +2,7 @@
 title: "Lockmaster"
 tags:
   - spell
+  - spell
 ---
 # Lockmaster
 

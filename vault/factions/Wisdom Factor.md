@@ -2,6 +2,7 @@
 title: "Wisdom Factor"
 tags:
   - faction
+  - faction
 ---
 # Wisdom Factor
 

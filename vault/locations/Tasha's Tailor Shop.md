@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Tasha's Tailor Shop
 
 ## Summary

@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Alkahest Grenade
 
 ## Description

@@ -2,6 +2,7 @@
 title: "Dog-headed beastman sergeant"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 4 - Cheese and Crackers and Thoth and Demons"
 ---

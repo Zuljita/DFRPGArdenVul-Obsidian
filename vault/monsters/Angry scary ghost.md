@@ -2,6 +2,7 @@
 title: "Angry scary ghost"
 type: monster
 tags:
+  - monster
   - classification/undead
 aliases:
 ---

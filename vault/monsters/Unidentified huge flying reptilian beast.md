@@ -2,6 +2,7 @@
 title: "Unidentified Huge Flying Reptilian Beast"
 type: monster
 tags:
+  - monster
   - classification/beast
 aliases:
 ---

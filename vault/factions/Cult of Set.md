@@ -2,6 +2,7 @@
 title: "Cult of Set"
 tags:
   - faction
+  - faction
 aliases:
   - Settites
   - Set cult

@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Teleporter with 400 Mile Range
 
 ## Description

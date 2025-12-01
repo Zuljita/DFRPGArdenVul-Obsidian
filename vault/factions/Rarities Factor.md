@@ -2,6 +2,7 @@
 title: "Rarities Factor"
 tags:
   - faction
+  - faction
 ---
 # Rarities Factor
 

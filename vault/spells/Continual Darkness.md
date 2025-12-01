@@ -2,6 +2,7 @@
 title: "Continual Darkness"
 tags:
   - spell
+  - spell
 ---
 # Continual Darkness
 

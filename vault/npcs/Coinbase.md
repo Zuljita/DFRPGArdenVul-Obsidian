@@ -2,6 +2,7 @@
 title: "Coinbase"
 tags:
   - npc
+  - npc
   - elf
   - illusionist
 aliases:

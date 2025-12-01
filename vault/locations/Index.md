@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Locations Index
 
 Auto-curated key locations (deduplicated):

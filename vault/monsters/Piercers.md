@@ -2,6 +2,7 @@
 title: "Piercers"
 type: monster
 tags:
+  - monster
   - classification/beast
   - body_plan/vermin
   - sentience/animal

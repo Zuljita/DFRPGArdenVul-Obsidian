@@ -2,6 +2,7 @@
 title: "Voice of Thoth"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Voice of Thoth

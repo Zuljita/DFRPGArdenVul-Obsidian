@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Cavern of Blood
 
 ## Summary

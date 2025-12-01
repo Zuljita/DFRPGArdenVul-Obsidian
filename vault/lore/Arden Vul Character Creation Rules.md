@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Arden Vul Character Creation Rules (2025-03-06)
 
 This document outlines the specific rules for character creation in the DFRPG Arden Vul campaign, building upon the Dungeon Fantasy Roleplaying Game (DFRPG) base rules.

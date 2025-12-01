@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Gosterwick Overview
 
 ## General Information

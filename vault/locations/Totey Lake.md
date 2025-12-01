@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Totey Lake
 
 ## Summary

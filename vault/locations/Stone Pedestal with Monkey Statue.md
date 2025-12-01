@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Stone Pedestal with Monkey Statue
 
 ## Summary

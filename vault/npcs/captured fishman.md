@@ -2,6 +2,7 @@
 title: "captured fishman"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 23c - Set Jailbreak and Down to Goblintown"
 ---

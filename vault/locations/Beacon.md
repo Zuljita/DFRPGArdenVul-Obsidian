@@ -2,6 +2,7 @@
 title: "Beacon"
 tags:
   - location
+  - location
 ---
 # Beacon
 

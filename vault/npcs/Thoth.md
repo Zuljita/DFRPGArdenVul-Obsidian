@@ -2,6 +2,7 @@
 title: "Thoth"
 tags:
   - npc
+  - npc
 aliases:
   - Lord Thoth
 appears_in:

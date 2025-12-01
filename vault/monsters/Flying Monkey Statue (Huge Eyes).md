@@ -2,6 +2,7 @@
 title: "Flying Monkey Statue (Huge Eyes)"
 type: monster
 tags:
+  - monster
   - classification/construct
   - sentience/mindless
 aliases:

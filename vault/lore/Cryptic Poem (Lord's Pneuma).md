@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Cryptic Poem (Lord's Pneuma)
 
 This text was found written on a discovered note. It appears to be related to the god [[Thoth]].

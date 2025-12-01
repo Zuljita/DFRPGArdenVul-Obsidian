@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Belt of Dwarvenkind
 
 ## Summary

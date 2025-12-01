@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 5: Parleys and The Great Cavern"
 tags:
   - session
+  - session
   - recap
 session_id: 5
 ---

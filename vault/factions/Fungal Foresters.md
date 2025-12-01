@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # Fungal Foresters
 
 ## Summary

@@ -2,6 +2,7 @@
 title: "Iron Circlet of Ghanor"
 tags:
   - item
+  - item
 
 
 ---

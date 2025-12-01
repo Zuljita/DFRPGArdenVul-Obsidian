@@ -2,6 +2,7 @@
 title: "Arden"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 1 - First Visit to the Ruins of Arden Vul"
   - "Session 5 - Parleys and The Great Cavern"

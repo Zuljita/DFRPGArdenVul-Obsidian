@@ -2,6 +2,7 @@
 title: "Golden Band"
 tags:
   - faction
+  - faction
 ---
 # Golden Band
 

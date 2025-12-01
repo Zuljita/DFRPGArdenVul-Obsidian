@@ -2,6 +2,7 @@
 title: "Iconic Location"
 tags:
   - lore
+  - lore
 ---
 # Iconic Location
 

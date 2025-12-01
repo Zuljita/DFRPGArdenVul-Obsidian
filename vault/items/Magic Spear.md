@@ -1,6 +1,7 @@
 ---
 title: "Magic Spear"
 tags:
+  - item
   - item/weapon
   - item/magic
 ---

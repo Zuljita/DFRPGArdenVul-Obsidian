@@ -2,6 +2,7 @@
 title: "Water Gate"
 tags:
   - location
+  - location
   - entrance
 ---
 # Water Gate

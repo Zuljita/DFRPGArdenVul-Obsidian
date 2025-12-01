@@ -2,6 +2,7 @@
 title: "Thalia"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Thalia

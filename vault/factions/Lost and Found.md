@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # Lost and Found
 
 ## Summary

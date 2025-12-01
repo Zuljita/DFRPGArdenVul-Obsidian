@@ -2,6 +2,7 @@
 title: "Briar"
 tags:
   - npc
+  - npc
 ---
 # Briar
 

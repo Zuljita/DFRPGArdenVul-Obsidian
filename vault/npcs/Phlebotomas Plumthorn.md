@@ -2,6 +2,7 @@
 title: "Phlebotomas Plumthorn"
 tags:
   - npc
+  - npc
   - antagonist
 aliases:
   - Plumthorn

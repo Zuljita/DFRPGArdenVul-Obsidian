@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Black Spheres
 
 ## Summary

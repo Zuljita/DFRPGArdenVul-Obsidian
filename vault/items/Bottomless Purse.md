@@ -2,6 +2,7 @@
 title: "Bottomless Purse"
 tags:
   - item
+  - item
 ---
 # Bottomless Purse
 

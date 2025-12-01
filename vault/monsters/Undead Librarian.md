@@ -2,6 +2,7 @@
 title: "Undead Librarian"
 type: monster
 tags:
+  - monster
   - classification/undead
 aliases:
 ---

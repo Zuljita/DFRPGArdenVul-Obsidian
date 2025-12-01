@@ -1,4 +1,6 @@
 ---
+tags:
+  - npc
 aliases:
   - Tikun Thane
 ---

@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Larel's Dagger
 
 ## Description

@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # The Book of Priors
 
 6 volumes, in Mithric

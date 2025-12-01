@@ -2,6 +2,7 @@
 title: "Grugga"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 28 - Teleport Rugs and Baboons"
 aliases:

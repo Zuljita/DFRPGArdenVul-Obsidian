@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Heqeti Ziggurat
 
 ## Description

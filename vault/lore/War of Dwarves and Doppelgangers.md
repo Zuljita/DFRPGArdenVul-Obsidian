@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # War of Dwarves and Doppelgangers
 
 ## Summary

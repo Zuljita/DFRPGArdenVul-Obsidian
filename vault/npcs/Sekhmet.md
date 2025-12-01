@@ -2,6 +2,7 @@
 title: "Sekhmet"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 19 - The Pool of Donkey Ears"
 ---

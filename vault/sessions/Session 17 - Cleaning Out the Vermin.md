@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 17: Cleaning Out the Vermin"
 tags:
   - session
+  - session
   - recap
 session_id: 17
 ---
@@ -37,6 +38,7 @@ Many Stirges
 2 Baboon skeletons
 Dust monster
 
+## Full Recap
 
 With Vael, Uvash, Michael, and Ioannes all busy, Vallium decided to hire the same pair of Grudge Brigade mercenaries as last time, and explore more of the ruined basement that Jost had showed them.  They brought a wheelbarrow full of food as trade goods.  It was a hot dry day, so footing was good on the Long Stair, and they did not encounter anything of note on the way to the ruins.  They continued north through the ruins of Arden Vul, past the Obilisk of the Sun, through the Forum, past the creepy square tower, to the ruined building west of the Pyramid of Thoth.
 

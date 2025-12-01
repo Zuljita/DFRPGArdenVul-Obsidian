@@ -1,0 +1,279 @@
+Session 1 loot:
+group 1, page 78
+Nice-looking burgandy leather boots you think are magic (untried, presumably dwarf-sized), dwarf mail suit, warhammer
+group 2, page 88
+45 ancient big ancient gold coins the moneychanger tells you are called Solidi and which they buy based on the gold content.  Worth $100 ea., $4500 total.  (You get 100% value not 40% value on these as they are coins.)
+group 3, page 114
+2 suits human-sized scale armor, halfling-sized leather armor you think is magic (does not resize), Mage Spell of Curse Item (new spell, not sure of details beyond that), ancient letter from Uriel Basileon (Archon of Arden Vul) to Kel Bormol (Overseer of Thoth), bandoleer, 2 shortswords, 2 medium shields. 
+dripton (GM) — 3/15/2025 10:34 AM
+The solidi put you at $900 ea.  If you can get to $1560 ea. (after costs to identify items) you get another XP.  The 2 mages at the Arcane Practitioners Guild will identify magic items for you for $100.  (And will also train you in spells at book cost if you want to learn to do it yourself.
+You can use other skills to identify non-magic good stuff.  Any weapon skill (IQ-based) to see if that weapon is good, Armoury (appropriate specialization) Connoisseur (appropriate specialization), Merchant for mundane treasure that doesn't fit one of the others. 
+If you mis-identify something as better than it really is the merchant will probably catch it and be annoyed.  If you mis-identify something as worse than it is the merchant might be nice, might not.
+
+
+dripton (GM) — 3/16/2025 10:49 AM
+Spreadsheet shows you guys have enough loot to get a second loot XP if you sell everything -- but you don't want to sell everything -- so now it's a knapsack problem to find the most you can keep and still get your XP.  https://xkcd.com/287/ 
+xkcd: NP-Complete
+xkcd: NP-Complete
+General solutions get you a 50% tip.
+Also note you haven't IDd two items yet, so you might consider whether to do that first, or whether you want to just take whatever a merchant offers.
+(Or you can just keep those items of course.)
+(Note that you get full XP value for the coins without having to "sell" them.  Just taking coins to town counts as "selling" them for XP.  You don't have to take them to the moneychanger, but you can.)
+(Actually you might want to take some of your Solidi to the moneychanger anyway, as paying with a Solidi is like paying with an old $1000 bill -- technically legal but the clerk is going to need to talk to their manager who will need to talk to the owner...) 
+dripton (GM) — 3/16/2025 11:13 AM
+I marked identify cost as 0 for cases where an NPC helped you identify the item but didn't charge you for it.  Jeremias Smalleaf the money changer identifies well-known coins for free, and only charges a fee if you actually need his moneychanging services.  (He does coins and gems.  He also lends money.)
+The Arcane Practitioners Club let you use their Alchemy lab for free this time.  (They charge a monthly membership fee to use their alchemy lab and small research library, and also do magical training, magic item identification, and spellcasting for hire.  They also have a few  apartments for rent for members.  Their building is within the theoretical boundaries of Gosterwick and will be inside the wall when it's finished, but it's currently pretty far away from all other buildings.)
+Kyle (Vael, Zuljita) — 3/16/2025 11:19 AM
+What is the conversion rate for kept items?
+20% instead of 40?
+dripton (GM) — 3/16/2025 11:19 AM
+Vael got a paid lesson in Weapon and Armor Appreciation from Torunn the Smith, a big Wiskin woman who makes metal weapons and armor.  She has several apprentices who make most items under her supervision, and she does The Good Stuff herself.  She has a reputation as the best smith in Gosterwick.  She showed Vael several dozen examples of weapons and armor, showing the difference between Good and Fine level work, and also Balanced and Dwarven.
+Kept mundane items do not count for XP.  Kept "special" items will give XP using a separate number that I'll put in the spreadsheet.
+None of the items you found this time were special enough to give XP if you keep them.
+Kyle (Vael, Zuljita) — 3/16/2025 11:24 AM
+I'll try to noodle on the math...
+Demented Avenger (Ioannes) — 3/16/2025 11:26 AM
+Well, that's a good chunk of change for us, I see
+Kyle (Vael, Zuljita) — 3/16/2025 11:26 AM
+Given the numbers, I think it mostly makes sense to just sell all mundane gear to get character points.  Especially if it can be bought later
+Demented Avenger (Ioannes) — 3/16/2025 11:27 AM
+I thought shortswords sold for $400, but I might be missing something
+Demented Avenger (Ioannes) — 3/16/2025 11:28 AM
+Yeah, or almost all. Ioannes is looking at one of those shields, but even then he would sell his small shield
+dripton (GM) — 3/16/2025 11:28 AM
+Shortswords sell for $400 at retail.  Used shortswords sell for 40% of that, unless you have Wealth.
+Demented Avenger (Ioannes) — 3/16/2025 11:29 AM
+Right, you have them at $200 retail, selling for 40% of that
+Kyle (Vael, Zuljita) — 3/16/2025 11:29 AM
+At some point we'll need to talk through what buying wealth will provide for the team versus the individual who bought it
+dripton (GM) — 3/16/2025 11:29 AM
+Oh, maybe the number in GCS is wrong.
+Kyle (Vael, Zuljita) — 3/16/2025 11:29 AM
+Nobody did it to start p nobody did it to start
+Demented Avenger (Ioannes) — 3/16/2025 11:29 AM
+Adventurers, p. 101
+Agreed on Wealth. Something I forgot about Elias
+Kyle (Vael, Zuljita) — 3/16/2025 11:30 AM
+Oh no! I know what the advantage does. But the impact on the party take for XP matters
+dripton (GM) — 3/16/2025 11:30 AM
+Sorry, read the GCS loot file wrong, fixing the shortswords.
+There were 2 of them and I was reading the each column not the total column.
+Demented Avenger (Ioannes) — 3/16/2025 11:31 AM
+Can anyone handle the scale armor?
+Kyle (Vael, Zuljita) — 3/16/2025 11:31 AM
+Probably. Michael
+dripton (GM) — 3/16/2025 11:31 AM
+I think Michael expressed interest in a suit.
+Kyle (Vael, Zuljita) — 3/16/2025 11:31 AM
+But character points are even more precious.
+Demented Avenger (Ioannes) — 3/16/2025 11:32 AM
+If we're at a breakpoint, we'll talk. If we're not, Michael should take it
+Kyle (Vael, Zuljita) — 3/16/2025 11:32 AM
+Agreed
+Demented Avenger (Ioannes) — 3/16/2025 11:32 AM
+Without lobbing out anything, we're at $1,858.40 each
+Kyle (Vael, Zuljita) — 3/16/2025 11:32 AM
+@Cosmo (Uvash) do you actually want the dwarf mail?
+dripton (GM) — 3/16/2025 11:33 AM
+I put the XP thresholds for the current adventure (125 point PCs and $6 of rations each) in the recap.  $156 ea. to get 1 XP and $1560 ea. to get 2 XP.
+Numbers will creep up as you earn points.
+Demented Avenger (Ioannes) — 3/16/2025 11:33 AM
+Taking out the two shields, the bandoleer, and one suit of scale armor gets us to $1,492.40 
+dripton (GM) — 3/16/2025 11:33 AM
+Exploration numbers will stay constant as you earn points, it's just it will be more work to find new territory.
+Demented Avenger (Ioannes) — 3/16/2025 11:34 AM
+Yeah, we're at a breakpoint here
+Archon Shiva (Grudge Brigade) — 3/16/2025 11:34 AM
+Can PCs (not mercs) choose to divide loot unevenly so some get the +2?
+Cosmo (Uvash)
+
+ — 3/16/2025 11:34 AM
+Not opposed to it
+dripton (GM) — 3/16/2025 11:35 AM
+PCs (not mercs or other NPC hirelings) can divide loot however they want.
+Demented Avenger (Ioannes) — 3/16/2025 11:35 AM
+Let's rephrase that: do you want the dwarf mail OR an extra character point?
+dripton (GM) — 3/16/2025 11:35 AM
+But it has to be legit division not money manipulation.
+Cosmo (Uvash)
+
+ — 3/16/2025 11:35 AM
+Extra character point
+dripton (GM) — 3/16/2025 11:35 AM
+No "I give you all the loot, now give me the money back from your bank account."
+Archon Shiva (Grudge Brigade) — 3/16/2025 11:36 AM
+So you guys should pick one PC to get however much less lets everyone else get two points.  Or sell the armor.
+Demented Avenger (Ioannes) — 3/16/2025 11:36 AM
+Well, that sounds like we sell the armor, then
+The next order of business is party gear purchases
+Kyle (Vael, Zuljita) — 3/16/2025 11:36 AM
+Actually I think that answers the question pretty well.  If you decide to keep the armor it comes out of your share, as a result, you get the gear, but you don't drag down the whole pool
+So then people can choose to give up a character point for gear on an ad hoc basis
+dripton (GM) — 3/16/2025 11:37 AM
+That is a GM approved legit scheme.
+Demented Avenger (Ioannes) — 3/16/2025 11:37 AM
+We need a wheelbarrow, and probably a shitload of healing potions, just for start. Do we want a beast of burden? Group camping gear? Tents?
+dripton (GM) — 3/16/2025 11:38 AM
+If at some point you have PCs with wildly different point values, this will get interesting.  By then you will probably know the formula.
+Kyle (Vael, Zuljita) — 3/16/2025 11:38 AM
+I don't think we need healing potions with two people who can cast healing spells
+We needed them in the last game because we only had one person who could cast healing spells and he could only do it barely
+dripton (GM) — 3/16/2025 11:38 AM
+If you think you need healing potions you should avoid selling the ones you have, because you have not found a source yet (unless you make them). 
+Demented Avenger (Ioannes) — 3/16/2025 11:39 AM
+Keeping the ones we have aren't going to affect the XP awards
+Kyle (Vael, Zuljita) — 3/16/2025 11:39 AM
+I will get to the point where I can make them before too too long
+Demented Avenger (Ioannes) — 3/16/2025 11:39 AM
+Yeah, same with Ioannes
+Ioannes can now, though his Alchemy is only 9
+Archon Shiva (Grudge Brigade) — 3/16/2025 11:39 AM
+Suggestion (I despise arbitrary cutoffs): Give .1 cp per additional multiple of the loot target, up to +.8 at x9, with a full cp at x10.
+(In practice, that’s just this scheme averaged out over years)
+dripton (GM) — 3/16/2025 11:39 AM
+Anyone who wants to do Alchemy or Herb Lore with a lab should join the APC.  They have a lab and membership is much cheaper than making your own.
+Demented Avenger (Ioannes) — 3/16/2025 11:39 AM
+Is there a bonus for the APC lab?
+Kyle (Vael, Zuljita) — 3/16/2025 11:39 AM
+What's the rate?
+dripton (GM) — 3/16/2025 11:41 AM
+APC membership is $50/month, gets you library/lab/lounge access.  Other stuff costs more.
+Demented Avenger (Ioannes) — 3/16/2025 11:41 AM
+Sounds like a good deal
+Kyle (Vael, Zuljita) — 3/16/2025 11:41 AM
+Interested in the other stuff too
+Demented Avenger (Ioannes) — 3/16/2025 11:41 AM
+Does its lab count as basic equipment or better?
+dripton (GM) — 3/16/2025 11:42 AM
+Yes, lab counts as good equipment, no penalty for "backpack" lab, but it's not like fine quality super lab.
+Demented Avenger (Ioannes) — 3/16/2025 11:43 AM
+Do we want a beast of burden to help us drag stuff back?
+dripton (GM) — 3/16/2025 11:43 AM
+Other stuff at APC: they ID magic stuff (magery, detect magic, analyze magic, alchemy, Mithric).  They teach magic spells and skills (they know most spells, plus skills that wizards use like Thaumatology and Alchemy and Research, and can try to help teach you Wizardry advantages).  They buy some magic items if they want them, refer to smith or pawnshop for stuff they don't want.  They have a few apartments for rent in their building.  (Normal cost of living but you have to be a member, so it's $150 /week + $50 /month.) 
+Also they cast a few spells that can be usefully cast in town, like Continual Light.
+They don't go into the dungeon to cast Blast Monster.
+Kyle (Vael, Zuljita) — 3/16/2025 11:47 AM
+Are you okay with me paying on a weekly basis for easier bookkeeping?
+dripton (GM) — 3/16/2025 11:48 AM
+Oh yes, membership is $13/week.
+Demented Avenger (Ioannes) — 3/16/2025 11:48 AM
+While my base building is going to focus on IQ/HT/FP/Magery/Power Investiture/ER (Holy)/ER (Magic), I'm assuming that I'm going to periodically buying handy skills and spells, and one of those is definitely Research
+dripton (GM) — 3/16/2025 11:48 AM
+The $50/month and $600/year rates are for rich wizards who prefer to pay all at once to avoid interruptions.
+dripton (GM) — 3/16/2025 11:52 AM
+I understand hating sharp cutoffs, but I'm not tracking fractional XP.
+Demented Avenger (Ioannes) — 3/16/2025 11:53 AM
+Let's get the amounts finalized, with people taking stuff then we get XP and a loot amount. Then we can worry about getting party-related gear
+dripton (GM) — 3/16/2025 11:54 AM
+Yeah, when I hear final keep/sell decisions I'll do an XP spreadsheet.  (I suspect you'll sell enough that everyone will get 4, but I'll wait until I see confirmation.)
+Demented Avenger (Ioannes) — 3/16/2025 11:55 AM
+I think that's the plan
+dripton (GM) — 3/16/2025 11:55 AM
+Do you attempt to sell the second set of scale armor (the one Vael isn't sure about)?  Do you attempt to sell the letter?
+Those are the two you don't know the values of, though you can guess the scale armor is worth normal price.
+Demented Avenger (Ioannes) — 3/16/2025 11:56 AM
+Why isn't he sure about it?
+dripton (GM) — 3/16/2025 11:56 AM
+He doesn't have Connoisseur-25 and the No Nuisance Rolls perk. 
+Demented Avenger (Ioannes) — 3/16/2025 11:57 AM
+Unless someone wants to use it, I'm for selling it
+I think we want the letter for now
+I can't imagine it being worth much in a sale anyways
+Cosmo (Uvash)
+
+ — 3/16/2025 11:58 AM
+Not sure someone volunteered yet but i’m willing to get less cash for others to get more CP
+dripton (GM) — 3/16/2025 11:59 AM
+I don't think anyone needs to do that, unless someone wants to keep one of the valuable suits of armor.
+Cosmo (Uvash)
+
+ — 3/16/2025 12:00 PM
+I am not sure if I want to wear the mail, I don’t want to go to medium encumbrance yet
+Demented Avenger (Ioannes) — 3/16/2025 12:02 PM
+Well, you might need to make a decision here for us to handle loot
+Cosmo (Uvash)
+
+ — 3/16/2025 12:03 PM
+Shoot
+i have been doing things so I haven’t had a chance to catch up
+dripton (GM) — 3/16/2025 12:08 PM
+I will have pity and give you guys the math.  Gross was 9952 (not including the lore scroll that you have no idea of its value, assuming the other scale is normal).  You need $7800 for mega XP bonus.  That means you can keep $2152 worth of items unsold.  So you can keep one scale armor and the dwarf mail ($660 + $1080) and still have $412 of items left.
+I'm gonna assume you keep one scale for Michael and the mail for Uvash (whether they choose to wear them immediately or not), and then pick up to $412 of little items to not sell, and sell the rest, and we're done.
+Cosmo (Uvash)
+
+ — 3/16/2025 12:10 PM
+Gotcha! I’ll keep that mail for now then, I just need to save for +ST
+dripton (GM) — 3/16/2025 12:11 PM
+Lifting ST is also available for everyone in this game.
+(Anyone who hauled a bunch of junk around in the previous session qualifies to buy it, no training needed.)
+Cosmo (Uvash)
+
+ — 3/16/2025 12:12 PM
+I also need it to use my mace correctly. It’s ST12 and i’m ST10
+dripton (GM) — 3/16/2025 12:13 PM
+I went into the spreadsheet and marked some items as kept, some as sold, and put a ? by the ones I'm not sure about.  Let me know if I got anything wrong, but I think the ones I marked are "obvious" choices, plus DA saying you guys would keep the lore scroll.
+Current ? items are 2 major healing potions, 2 medium shields, bandoleer, and Curse Item scroll.
+Cosmo (Uvash)
+
+ — 3/16/2025 12:16 PM
+We should keep those HP potions (I can store them in my pack with the other ones) and that bandoleer. Otherwise, no attachment to that other gear.
+dripton (GM) — 3/16/2025 12:16 PM
+You can keep all of it but the Curse Item scoll and hit the bonus.
+Kyle (Vael, Zuljita) — 3/16/2025 12:16 PM
+Not if it costs us CP, I can make HP potions soon.
+Hmm... is the Curse Item scroll learnable by PCs if I wanted to?
+dripton (GM) — 3/16/2025 12:17 PM
+It has Enchant as a prereq which isn't in DFRPG, so not easily. 
+Kyle (Vael, Zuljita) — 3/16/2025 12:18 PM
+Can I make a non-magical copy for later study?  This is really a roleplaying thing, I can't see ever using a cp for it.
+Cosmo (Uvash)
+
+ — 3/16/2025 12:18 PM
+Inverse question. Could a cleric learn something like Remove Curse by inverting it? Or do I need more PI first.
+dripton (GM) — 3/16/2025 12:19 PM
+Clerics can't learn from Mage scrolls and don't really need scrolls to learn anyway; they just need the right PI and then training at the temple.
+dripton (GM) — 3/16/2025 12:20 PM
+Non-magical copies don't work for study; studying enough to learn the spell burns a scroll.  However, if you sell it to the APC they might be willing to teach it to you later, if you quality to learn it.
+Main uses for scrolls are 1. casting the spell in play 2. learning a spell that you can't easily learn from trainers, because it's secret or banned or something
+APC will buy the scroll because they don't know the spell and Lyssandra wants to know every spell.
+Every spell.
+Grown up Hermione Potter over here.
+Kyle (Vael, Zuljita) — 3/16/2025 12:45 PM
+So selling it to them makes it available to all who can pay to keep the knowledge shared?
+dripton (GM) — 3/16/2025 12:47 PM
+Yes, as long as you maintain good relations with the APC, they're still around, etc.
+Archon Shiva (Grudge Brigade) — 3/16/2025 2:47 PM
+I always read Armored Personnel Transport.
+Demented Avenger (Ioannes) — 3/16/2025 2:59 PM
+Ioannes is taking one of the shields. He can sell his small shield for $16 if that means anything to anyone 
+dripton (GM) — 3/16/2025 3:00 PM
+Lyssandra was very clear that it's Club not College, for some reason.
+Demented Avenger (Ioannes) — 3/19/2025 12:58 PM
+Do we have a final verdict on the amount of money we all made and who got what gear?
+From there we need to make Big Purchases
+dripton (GM) — 3/19/2025 1:00 PM
+I got a confirmation that you guys would sell enough to get the bonus loot XP, but not exactly which items you would keep other than one set of scale, the mail, at least one medium shield, and the ancient letter.
+Demented Avenger (Ioannes) — 3/19/2025 1:02 PM
+@everyone Then does anyone want anything other than those things?
+Cosmo (Uvash)
+
+ — 3/19/2025 1:05 PM
+All I want is those shoes.
+Otherwise it is all the same to me
+Kyle (Vael, Zuljita) — 3/19/2025 1:19 PM
+The shoes are an expensive cursed item, almost sure you wouldn't get all your cp if we keep it. You sure?
+Cosmo (Uvash)
+
+ — 3/19/2025 1:20 PM
+They were cursed? When did we figure that
+dripton (GM) — 3/19/2025 1:20 PM
+They're worth less than the mail, so if you took the boots instead of the mail you'd be okay.
+If you took both you'd be down an XP.
+Kyle (Vael, Zuljita) — 3/19/2025 1:30 PM
+⁠20250314 Loot management discus…⁠
+Cosmo (Uvash)
+
+ — 3/19/2025 1:44 PM
+Ah, bummer
+Archon Shiva (Grudge Brigade) — 3/19/2025 1:49 PM
+They’re cursed with Moderate Pain Threshold, though.  Mostly hard to get rid of. 

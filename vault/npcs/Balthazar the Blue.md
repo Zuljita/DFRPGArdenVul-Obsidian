@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # Balthazar the Blue
 
 ## Summary

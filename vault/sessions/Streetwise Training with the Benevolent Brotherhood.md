@@ -1,3 +1,8 @@
+---
+tags:
+  - session
+---
+
 # Streetwise Training with the Benevolent Brotherhood
 
 ## Summary

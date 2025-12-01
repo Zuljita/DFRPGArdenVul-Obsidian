@@ -2,6 +2,7 @@
 title: "Selket"
 tags:
   - npc
+  - npc
 aliases:
   - Serket
   - Selqet

@@ -2,6 +2,7 @@
 title: "Rugs of Instant Access"
 tags:
   - item
+  - item
 aliases:
 ---
 # Rugs of Instant Access

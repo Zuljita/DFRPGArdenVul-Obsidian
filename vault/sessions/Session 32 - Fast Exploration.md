@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 32: Fast Exploration"
 tags:
   - session
+  - session
   - recap
 session_id: 32
 ---

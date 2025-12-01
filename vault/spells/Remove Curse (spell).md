@@ -2,6 +2,7 @@
 title: "Remove Curse (spell)"
 tags:
   - spell
+  - spell
 ---
 # Remove Curse (spell)
 

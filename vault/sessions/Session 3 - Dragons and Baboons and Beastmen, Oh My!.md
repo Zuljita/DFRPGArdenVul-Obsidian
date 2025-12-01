@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 3: Dragons and Baboons and Beastmen, Oh My!"
 tags:
   - session
+  - session
   - recap
 session_id: 3
 ---

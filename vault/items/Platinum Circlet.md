@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Platinum Circlet
 
 ## Summary

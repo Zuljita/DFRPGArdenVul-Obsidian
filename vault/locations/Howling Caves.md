@@ -2,6 +2,7 @@
 title: "Howling Caves"
 tags:
   - location
+  - location
 appears_in:
   - "Session 10 - Baboons, Ghouls, and a Mule"
   - "Session 28 - Teleport Rugs and Baboons"

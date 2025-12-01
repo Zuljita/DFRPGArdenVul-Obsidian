@@ -2,6 +2,7 @@
 title: "Rock Reptiles"
 type: monster
 tags:
+  - monster
   - classification/beast
 aliases:
 ---

@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Watcher's eyes
 
 ## Description

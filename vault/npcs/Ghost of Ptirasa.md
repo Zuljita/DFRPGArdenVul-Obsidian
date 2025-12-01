@@ -2,6 +2,7 @@
 title: "Ghost of Ptirasa"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Ghost of Ptirasa

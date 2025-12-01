@@ -2,6 +2,7 @@
 title: "Pyramid of Thoth"
 tags:
   - location
+  - location
   - entrance
 ---
 # Pyramid of Thoth

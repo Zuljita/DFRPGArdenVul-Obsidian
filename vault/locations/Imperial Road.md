@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Imperial Road
 
 ## Summary

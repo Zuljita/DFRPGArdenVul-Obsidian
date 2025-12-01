@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Shrine of Lucreon
 
 ## Summary

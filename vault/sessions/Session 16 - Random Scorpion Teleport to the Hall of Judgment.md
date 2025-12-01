@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 16: Random Scorpion Teleport to the Hall of Judgment"
 tags:
   - session
+  - session
   - recap
 session_id: 16
 ---

@@ -2,6 +2,7 @@
 title: "Merenuithiel Armaris"
 tags:
   - npc
+  - npc
 aliases:
   - Lacrymosa Merenuithiel Armaris
   - Lacrymosa
@@ -20,6 +21,11 @@ Despite her aggression, she can be a team player, participating in planning and 
 
 Her defining character trait is a deep-seated animosity towards the extortionist halflings of [[npcs/Phlebotomas Plumthorn|Phlebotomas Plumthorn]], a topic she raises almost every time she is hired.
 
+Her nickname "Lacrymosa" is derived from her elven grace and deadly accuracy with a bow, evoking a sense of solemn beauty.
+
+## First Appearance
+[[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+
 ## Notable Actions
 Lacrymosa has been involved in numerous operations with the party, often turning the tide of difficult fights.
 
@@ -32,6 +38,8 @@ Lacrymosa has been involved in numerous operations with the party, often turning
 
 ## Appears In
 - [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
 - [[Session 8b and 9 - Muirasso's Tomb and the Broken Head|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]
 - [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15 - The Great Cavern Re-Revisited]]
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]

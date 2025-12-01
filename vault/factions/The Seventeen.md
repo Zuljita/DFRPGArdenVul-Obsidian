@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # The Seventeen
 
 ## Summary

@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Dripping Hog
 
 ## Summary

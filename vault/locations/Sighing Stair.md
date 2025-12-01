@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Sighing Stair
 
 ## Summary

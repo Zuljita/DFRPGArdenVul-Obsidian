@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Troll Lifts
 
 ## Summary

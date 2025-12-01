@@ -2,6 +2,7 @@
 title: "Right for Riches Company"
 tags:
   - faction
+  - faction
 aliases:
 ---
 # Right for Riches Company

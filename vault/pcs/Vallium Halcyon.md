@@ -2,6 +2,7 @@
 title: "Vallium Halcyon"
 tags:
   - pc
+  - pc
 aliases:
   - Vallium
 ---

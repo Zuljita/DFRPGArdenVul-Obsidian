@@ -2,6 +2,7 @@
 title: "Frigg's Jelly Legs"
 tags:
   - spell
+  - spell
 ---
 # Frigg's Jelly Legs
 

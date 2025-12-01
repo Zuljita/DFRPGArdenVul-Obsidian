@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Gold Egg
 
 ## Summary

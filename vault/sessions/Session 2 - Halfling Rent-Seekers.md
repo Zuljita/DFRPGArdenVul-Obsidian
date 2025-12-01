@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 2: Halfling Rent-Seekers"
 tags:
   - session
+  - session
   - recap
 session_id: 2
 ---

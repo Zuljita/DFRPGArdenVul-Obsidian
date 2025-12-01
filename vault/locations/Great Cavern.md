@@ -2,6 +2,7 @@
 title: "Great Cavern"
 tags:
   - location
+  - location
 
 aliases:
   - The Great Cavern

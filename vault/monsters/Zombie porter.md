@@ -2,6 +2,7 @@
 title: "Zombie Porter"
 type: monster
 tags:
+  - monster
   - classification/undead
   - sentience/mindless
 aliases:

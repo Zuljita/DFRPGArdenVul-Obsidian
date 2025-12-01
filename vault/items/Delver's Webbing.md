@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Delver's Webbing
 
 ## Summary

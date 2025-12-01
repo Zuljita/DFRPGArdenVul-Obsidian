@@ -2,6 +2,7 @@
 title: "Apophis the giant lizard"
 type: monster
 tags:
+  - monster
   - classification/beast
   - body_plan/quadruped
   - sentience/animal

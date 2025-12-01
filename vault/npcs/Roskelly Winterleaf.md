@@ -2,6 +2,7 @@
 title: "Roskelly Winterleaf"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
   - "Session 3 - Dragons and Baboons and Beastmen, Oh My!"

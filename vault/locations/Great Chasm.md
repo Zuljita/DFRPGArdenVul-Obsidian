@@ -2,6 +2,7 @@
 title: "Great Chasm"
 tags:
   - location
+  - location
 appears_in:
   - "Session 8a - Never Trust a Scorpion"
   - "Session 19 - The Pool of Donkey Ears"

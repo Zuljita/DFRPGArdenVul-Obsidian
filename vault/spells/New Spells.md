@@ -1,3 +1,8 @@
+---
+tags:
+  - spell
+---
+
 # New Spells
 
 This document contains descriptions of various new spells, detailing their effects, costs, and prerequisites.

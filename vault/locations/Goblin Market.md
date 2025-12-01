@@ -2,6 +2,7 @@
 title: "Goblin Market"
 tags:
   - location
+  - location
 appears_in:
   - "Session 31 - I Want to Believe"
 ---

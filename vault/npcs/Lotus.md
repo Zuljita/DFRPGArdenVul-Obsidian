@@ -2,6 +2,7 @@
 title: "Lotus"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 6 - Good Ghost, Bad Ghost"
 ---

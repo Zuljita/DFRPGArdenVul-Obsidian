@@ -1,0 +1,1316 @@
+---
+tags:
+  - faction
+---
+
+# Adrienic Expedition
+
+## Summary
+
+A military expedition led by Archon Phocion IV approximately 250 years ago.
+
+## History
+
+The expedition was an attempt to retake Arden Vul. It was composed of six cohorts of legionaries: five from the "Sheepshead Rangers" and one from the emperor's own guards tagmata.
+
+The expedition failed bloodily and all six cohorts were lost in a battle fought at the Cavern of Blood, where their battle standards were also lost. The Haunted Tower at the base of the Waterfall was built during this expedition and abandoned when the survivors fled.
+
+A rumor claims that the leader of the expedition, a certain "Adrienic" (presumably Archon Phocion IV), committed suicide rather than report his failure.
+
+
+---
+tags:
+  - faction
+---
+
+# Alcheboretal Animossities
+
+## Summary
+The company founded by Ashe Maykum to develop and produce innovative alchemical and botanical devices, such as The Living Wheelbarrow.
+
+## Goals
+To create and commercialize practical magical items, raising funds through crowdfunding initiatives.
+
+## Leadership & Members
+- Ashe Maykum (Founder, Inventor)
+
+## Allies & Rivals
+- Customers and backers of their crowdfunding campaigns.
+
+## Notes
+Their initial successful product is The Living Wheelbarrow.
+
+## Members
+
+## Sessions
+
+
+---
+tags:
+  - faction
+---
+
+# Arcane Practitioners' Club
+
+## Summary
+The Arcane Practitioners' Club (APC) is a commercial enterprise in Lyssandra Astorion: An older, practical mage who appears to be the senior partner. She is interested in acquiring new spells.
+- Palteon: A younger, vain mage who was formerly Lyssandra's apprentice and is now a partner.
+
+## Allies & Rivals
+TBD
+
+## Notes
+- Membership costs $50/month.
+- Apartments are available for rent to members for $150/week on top of the membership fee.
+- Ioannes, a PC, once attempted to flirt with Palteon, who appeared not to notice.
+
+## Sessions
+- RawFiles/Discord/ArcanePractitionersClub.txt
+
+
+---
+title: "Archontean Empire"
+tags:
+  - faction
+  - faction
+
+
+---
+# Archontean Empire
+
+## History
+- Session 2 - Halfling Rent-Seekers — (Except plate armor, which is unknown in the Archontean Empire.) No interaction with the GM is required here; if you want a normal knife or wheelbarrow you can just buy one.
+
+## Notes
+
+## Members
+
+
+## Sessions
+
+- Session 2 - Halfling Rent-Seekers
+
+
+---
+tags:
+  - faction
+---
+
+# Benevolent Brotherhood
+
+## Summary
+
+The Benevolent Brotherhood is a clandestine organization that provides training in the "Streetwise" skill, teaching individuals how to operate and sell goods anonymously in less-than-reputable circles.
+
+## Modus Operandi
+To gain their services, one must follow a specific procedure:
+1. Obtain a contact at the Baliff's Truncheon.
+2. Visit the Brotherhood's public facade.
+3. Leave contact information with the secretary, "Shirley", in a designated mailbox.
+4. Await contact from a member, such as "Petros".
+5. The member will provide a practical tour and training in the "less savory parts of the town."
+
+## Services
+- **Streetwise Training:** Practical lessons on how to sell items anonymously without getting robbed or cheated. They helped a client sell Set Armor for 40% of its value to a contact at The Docks.
+
+## Leadership & Members
+- Shirley (likely an alias): Acts as a secretary at their public facade.
+- Petros (possibly an alias): A member who provides hands-on training.
+
+## Allies & Rivals
+TBD
+
+## Notes
+The organization operates with a high degree of secrecy, using aliases for its members and an indirect contact system.
+
+## Sessions
+
+
+---
+title: "Children of Deino"
+tags:
+  - faction
+  - faction
+aliases:
+  - beastmen
+  - pigmen
+---
+# Children of Deino
+
+## Summary
+Referenced in early delves; a named group within the Halls' wider ecosystem.
+
+## History
+- Session 3 - Dragons and Baboons and Beastmen, Oh My! — First mention of the Children of Deino, also referred to as beastmen and pigmen.
+
+
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
+- Session 5 - Parleys and The Great Cavern
+- Session 7 - Why Did It Have to Be Plants?
+- Session 8A - Never Trust a Scorpion
+
+
+---
+tags:
+  - faction
+---
+
+# College of Cinders
+
+## Summary
+A college or organization of mages.
+
+## Members
+- Asrotelion (Assistant Department Head)
+- Cerbactos (former member, now rogue)
+
+## Notes
+- Several priceless and unique tomes were stolen from the college by Cerbactos decades ago.
+
+
+---
+tags:
+  - faction
+---
+
+# Cult of Arden
+
+## Summary
+A cult that formed among military officials in Arden Vul, dedicated to venerating the legendary hero Arden.
+
+## Goals
+To honor Arden by attempting to replicate his famous "Twelve Labors."
+
+## Leadership & Members
+Composed of military officials from the history of Arden Vul.
+
+## Allies & Rivals
+Unknown.
+
+## Notes
+- The cult is said to have built its own headquarters within the Halls of Arden Vul.
+
+## Members
+
+## Sessions
+- RawFiles/Discord/Arden.txt
+
+---
+title: "Cult of Set"
+tags:
+  - faction
+  - faction
+aliases:
+  - Settites
+  - Set cult
+  - Cult of Set Date
+  - Guards from the Cult of Set
+  - Settite Guild of Service slavers
+  - Some Set Guild of Service fighters
+---
+# Cult of Set
+
+The Cult of Set is an ancient and officially banned religious group that worships the god Session 12 - First Encounter with the Cult of Set — # DFRPG Arden Vul Session 12: First Encounter with the Cult of Set Date: Demmasday, 30th of Ligarios, 2993 AE Weather: Cool, rainy Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (...
+  - Session 12 - First Encounter with the Cult of Set — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Significant NPCs: Fael, Half-Elven druid at the Grain House Onyx, disturbingly smart cat 3 feral cats 4 factions/Guards from the Session 23c - Set Jailbreak and Down to Goblintown — The obvious ones are to try to get their reward from King Weskenim, further battle the Cult of Set, or finally deal with Plumthorn's Halflings.
+  - sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown — The Right for Riches company returned to Gosterwick after their successful mission to rescue Canon Lillian of the Church of Mitra from the dungeons of the Cult of Set.
+- Session 24a - Revenge on the Set Cult — The Cult of Set might consider swapping some maces for spears, or some shields for bucklers.
+- Session 25 - Looking for the Back Door to the Forum of Set — He gave them 20000 pieces of silver, free lifetime banking at the Rarities Factor, personal shopping services in Narsileon (for up to five designated items per month, if available and found by his agent there, using their own funds depos...
+- Session 26 - The Scouring of the Shire — Do they explore more of the former halfling territory, explore more of Goblintown proper, go looking for the Troll Lifts, or resume their war against the Cult of Set?
+- Session 28 - Teleport Rugs and Baboons — And if they run out of other things to do, they can always resume their war with the Cult of Set, or explore deeper.
+- Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Shrines.md|Hall of Shrines — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Many Set guards Several Set acolytes Several Set sergeants Some Set Guild of Service fi...
+- Session 30 - Tomb of Theskalon.md|The Tomb of Theskalon — # DFRPG Arden Vul Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+
+## Notes
+
+## Members
+
+
+## Sessions
+
+
+- Session 6 - Good Ghost, Bad Ghost
+
+
+- Session 23c - Set Jailbreak and Down to Goblintown
+- Session 26 - The Scouring of the Shire
+- Session 28 - Teleport Rugs and Baboons
+- Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
+- Session 30 - The Tomb of Theskalon
+
+
+---
+tags:
+  - faction
+---
+
+# Dalton's Darlings
+
+## Summary
+An adventuring party or mercenary company led by Dalton. They are known to explore Dalton (leader)
+- Jost
+- Jason
+- Heliagabulus
+- Yvette
+
+## Allies & Rivals
+- Isidor (halfling adventurer)
+
+## Notes
+They are a recurring presence in the delves into Session 6 - Good Ghost, Bad Ghost
+
+---
+tags:
+  - faction
+---
+
+# Dragons
+
+## Summary
+Ancient and powerful reptilian creatures known for their immense hoards and formidable magical abilities. They were once bound by the ruins of Arden Vul by Lord Burdock's men-at-arms. This encounter resulted in 10 out of 12 men, including three knights, being killed. This event led Lord Burdock to forbid further exploration of the ruins from the Burdock Valley.
+
+
+---
+tags:
+  - faction
+---
+
+# Drome
+
+## Summary
+The Drome is a powerful and officially sanctioned organization within the Archontean Empire, responsible for law enforcement and handling sensitive matters. They are known to operate out of the House of Sight in Gosterwick.
+
+## Activities
+- **Investigation of Susarra's Murder:** The Drome was officially informed of the murder of Susarra in Gosterwick. While they could not officially endorse a retaliatory attack on the Cult of Set, they assisted the party's investigation by providing a blood sample of the victim for magical tracking.
+
+## History
+Following the imperial ban on the worship of Set in 1839 AEP, the Drome claimed to have successfully eliminated the Cult of Set everywhere in the Empire.
+
+## Known Sub-factions
+- **House of Sight**: The operational base of the Drome in Gosterwick.
+
+## Leadership & Members
+- Audun Yellow-Eyes: A logothete of the House of Sight who acted as a liaison with the party.
+
+## Allies & Rivals
+- Cult of Set (historical enemies)
+
+## Notes
+The Drome operates under official sanction, but its members are sometimes willing to provide clandestine assistance to further their goals when they cannot act openly.
+
+
+---
+title: "Five Families"
+tags:
+  - faction
+  - faction
+---
+# Five Families
+
+## Summary
+Prominent Archontean noble lineages referenced in research notes; serve as background power blocs.
+
+## Notes
+TBD
+
+
+
+---
+tags:
+  - faction
+---
+
+# Fungal Foresters
+
+## Summary
+
+A group that Ptarmis claims to be able to control.
+
+## Description
+
+TBD
+
+## Goals
+
+TBD
+
+## Leadership & Members
+
+- Controlled by Ptarmis?
+
+## Allies & Rivals
+
+TBD
+
+## Notes
+
+TBD
+
+
+---
+title: "Goblins"
+tags:
+  - faction
+  - faction
+---
+# Goblins
+
+## Summary
+Widespread presence in and around the Halls; includes the United Goblins polity under King Weskenim and various units (sergeants, cooks, porters).
+
+## Sessions
+
+## Sessions
+
+- Session 18 - Back Down the Well of Light
+- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 23C - Set Jailbreak and Down to Goblintown
+- Session 24B - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
+- Session 26 - The Scouring of the Shire
+- Session 27 - The Tomb of Ptoh-Ristus
+- Session 28 - Teleport Rugs and Baboons
+- Session 29 - The Tower of Scrutiny
+- Session 32 - Fast Exploration
+- Session 5 - Parleys and The Great Cavern
+- Session 7 - Why Did It Have to Be Plants?
+- Session 8A - Never Trust a Scorpion
+
+
+---
+title: "Golden Band"
+tags:
+  - faction
+  - faction
+---
+# Golden Band
+
+## Summary
+The Golden Band is an Empire-wide merchant factor.
+
+They are known to employ statue brokers who work out of the Session 7 - Why Did It Have to Be Plants?
+- Session 8A - Never Trust a Scorpion
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head
+
+
+---
+title: "Green Fang Kobolds"
+tags:
+  - faction
+  - faction
+---
+# Green Fang Kobolds
+
+## Summary
+Distinct kobold tribe active in the ruins. Little is documented; add sightings and diplomacy history here.
+
+## Notes
+TBD
+
+
+
+---
+title: "Grudge Brigade"
+tags:
+  - faction
+  - faction
+  - mercenary
+aliases:
+  - Grudge Brigade Mercenary Company
+
+
+---
+# Grudge Brigade
+
+## Summary
+The Coinbase (leader)
+- Sister Valya "Basilisk" Hushbreaker
+- Thronebreaker
+- Thorne Lasselanta Ashcroft
+- Ashe "GOAT" Maykum
+- Lacrymosa Merenuithiel Armaris
+
+## History
+- Session 8a - Never Trust a Scorpion: Roskelly Winterleaf during an engagement in the Session 1 - First Visit to the Ruins of Arden Vul — The four hired Ashe, a druid from the Grudge Brigade, to come along on this mission, for an equal share of treasure.
+- Session 2 - Halfling Rent-Seekers — They also walked over to the Grudge Brigade Mercenary Company's "Headquarters" (a small building on the outskirts of Gosterwick).
+- Session 4 - Cheese and Crackers and Thoth and Demons — Uvash was still tied up in intense theological debate at the House of Gods, so the group decided to hire the mercenary on call at the Grudge Brigade, a female elven archer named Merenuithiel.
+- Session 5 - Parleys and The Great Cavern — Uvash returned from the House of the Gods to join the others on the trip, but Michael was once again out in the wilderness somewhere, so the group recruited the on-call mercenary at the Grudge Brigade, a ti...
+- Session 6 - Good Ghost, Bad Ghost — They hired Ashe, the goat-summoning druid, from the Grudge Brigade.
+- Session 7 - Why Did It Have to Be Plants? — Short a mage, the group hired the Grudge Brigade leader Coinbase again, since he was available and definitely good at selling treasure, as well as allegedly being able to cast some spells.
+- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
+- Session 13 - Yrtol and the Turtle — And then he got bored so he went over to the Grudge Brigade Mercenary HQ and hired both the animal summoning goblin druid "Goat" and the mysterious half-elven staff fighter "Chrysalis".
+- Session 14 - Behind the Waterfall Again — When they returned, Ioannes told them about the trip he had taken with a couple of the Grudge Brigade mercenaries, behind the plunge pool of the Waterfall beneath the Cliff Face l...
+- Session 15 - The Great Cavern Re-Revisited — So the Left for Loot / Right for Riches company (I'm not sure anymore which is the real name and which is the alias) again recruited two mercenaries from the Grudge Brigade, GOAT and druid and Lacrymosa the...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Number of sessions: 16 Number of players: 8 Number of PCs: 10 Cheese and Crackers / Right for Riches / Left for Loot members: 5 Grudge Brigade mercenaries: 5 Number of PCs killed: 0 (!) Highest PC point tot...
+- Session 17 - Cleaning Out the Vermin — # DFRPG Arden Vul Session 17: Cleaning Out the Vermin Date: Demmasday, 4th of Masporios, 2993 AE Weather: Hot, dry Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fi...
+- Session 19 - The Pool of Donkey Ears — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Vael Sunshadow, Half-Elven mage (Kyle) Vallium Halcyon, Archontean fighter (Greybrown) Ethereum "Coinbase" Thuringwador, Elf Illusionist (Mercenary) (Arch...
+- Session 20 - The Outer Caverns of Set — Michael was off in the woods somewhere, so the Right for Riches company hired the Grudge Brigade mercenary on call, the goblin druid GOAT.
+- Session 23c - Set Jailbreak and Down to Goblintown — A few days after the Right for Riches Company returned to Gosterwick, two things happened: Coinbase, leader of the Grudge Brigade Mercenary Company, received an anonymous offer under his door.
+- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Lacrymosa, Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn, Halfling mob bo...
+  - Session 26 - The Scouring of the Shire — Uvash was unexpectedly ill (some suspected a hangover after the harvest festivals, but that was also unusual for a dwarf), so they hired Lacrymosa the mercenary archer from the Grudge Brigade.
+- Session 29 - The Tower of Scrutiny — What Actually Happened: The Right for Riches company, without Vael or Michael but with Coinbase the head Grudge Brigade Mercenary, left Gosterwick just before dawn on Horasday.
+- Session 31 - I Want to Believe — When they got there Uvash was still busy trying to convert Torunn the Smith to Zodarrim, but they'd just lost most of a week walking to Newmarket and back, so they went to the Grudge Brigade and hired Ashe ...
+
+## Notes
+
+## Sessions
+
+- Session 1 - First Visit to the Ruins of Arden Vul
+- Session 2 - Halfling Rent-Seekers
+- Session 4 - Cheese and Crackers and Thoth and Demons
+- Session 6 - Good Ghost, Bad Ghost
+- Session 7 - Why Did It Have to Be Plants?
+- Session 13 - Yrtol and the Turtle
+- Session 17 - Cleaning Out the Vermin
+- Session 19 - The Pool of Donkey Ears
+- Session 20 - The Outer Caverns of Set
+- Session 23c - Set Jailbreak and Down to Goblintown
+- Session 26 - The Scouring of the Shire
+- Session 31 - I Want to Believe
+
+
+---
+title: "Guild of Service"
+tags:
+  - faction
+  - faction
+aliases:
+---
+# Guild of Service
+
+## Summary
+- TODO: Short description for faction.
+
+## Appears In
+- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 23c - Set Jailbreak and Down to Goblintown
+
+
+
+---
+title: "Halflings"
+tags:
+  - faction
+  - faction
+aliases:
+  - "Plumthorn's halflings"
+---
+# Halflings
+
+## Summary
+Smallfolk with an organized gang presence in the Halls (e.g., Plumthorn's gang) and various toll collectors; active adversaries in early delves.
+
+## Sessions
+
+## Sessions
+
+- Session 11 - The Great Cavern Redux
+- Session 12 - First Encounter with the Cult of Set
+- Session 13 - Yrtol and the Turtle
+- Session 14 - Behind the Waterfall Again
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment
+- Session 17 - Cleaning Out the Vermin
+- Session 18 - Back Down the Well of Light
+- Session 19 - The Pool of Donkey Ears
+- Session 2 - Halfling Rent-Seekers
+- Session 21 - The Library of Thoth
+- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 23A - Gelatinous Cube and Slime Kraken
+- Session 23C - Set Jailbreak and Down to Goblintown
+- Session 24A - Revenge on the Set Cult
+- Session 24B - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
+- Session 26 - The Scouring of the Shire
+- Session 27 - The Tomb of Ptoh-Ristus
+- Session 3 - Dragons and Baboons and Beastmen, Oh My!
+- Session 4 - Cheese and Crackers and Thoth and Demons
+- Session 5 - Parleys and The Great Cavern
+- Session 6 - Good Ghost, Bad Ghost
+- Session 7 - Why Did It Have to Be Plants?
+- Session 8A - Never Trust a Scorpion
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head
+
+
+---
+title: "Hama and Company, adventurers"
+tags:
+  - faction
+  - faction
+aliases:
+  - Hama and Company
+
+
+---
+# Hama and Company, adventurers
+
+## History
+- Session 13 - Yrtol and the Turtle — # DFRPG Arden Vul Session 13: Yrtol and the Turtle Date: Demmasday, 6th of Jelenius, 2993 AE Weather: Cool, overcast Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Ashe "Goat" Maykum, Gobl...
+
+## Notes
+
+## Members
+
+
+## Sessions
+
+- Session 13 - Yrtol and the Turtle
+
+
+---
+tags:
+  - faction
+---
+
+# Harvest Guardians
+
+## Summary
+
+The Harvest Guardians are the dedicated warriors who protect the temples of the goddess Demma.
+
+## Description
+
+They serve as both defenders of the faith and enforcers of Demma's justice. Each major temple has a contingent of six to twelve fighters.
+
+## Equipment
+They are trained in flail combat, which they wield as symbols of the harvest and instruments of divine retribution.
+
+## Allies & Rivals
+- Priesthood of Demma
+
+## Notes
+They will act against those who hoard food, abuse their households, or twist magic for selfish ends.
+
+
+---
+tags:
+  - faction
+---
+
+# Heqeti
+
+## Summary
+
+The Heqeti, also known as "hoppers," are an amphibious race.
+
+## Description
+According to the Session 6 - Good Ghost, Bad Ghost
+
+
+---
+tags:
+  - faction
+---
+
+# Factions Index
+
+The following faction pages are present in this vault:
+
+- Adrienic Expedition
+- Alcheboretal Animossities
+- Arcane Practitioners' Club
+- Archontean Empire
+- Benevolent Brotherhood
+- Children of Deino
+- College of Cinders
+- Cult of Arden
+- Cult of Set
+- Dalton's Darlings
+- Dragons
+- Drome
+- Five Families
+- Fungal Foresters
+- Goblins
+- Golden Band
+- Green Fang Kobolds
+- Grudge Brigade
+- Guild of Service
+- Halflings
+- Hama and Company, adventurers
+- Harvest Guardians
+- Khumus
+- Knights of the Azure Shield
+- Lost and Found
+- Merchants & Factors
+- Order of the Subterranean Knights
+- Prosperity Factor
+- Rarities Factor
+- Right for Riches Company
+- Rudishva
+- Second Chance Company
+- Seedkeepers
+- Settite Guild of Service
+- Sheepshead Rangers
+- Silent Factor
+- Sortians
+- Sun-Scarred Knights
+- Survivors of the Stone
+- The Seventeen
+- The Ten
+- The Twelve
+- Thorcin Pantheon
+- Thorcins
+- United Goblins
+- Varumani
+- Wisdom Factor
+- Wiskin
+- heqeti
+
+
+---
+tags:
+  - faction
+---
+
+# Khumus
+
+## Summary
+One of the four major human cultures in the setting, described as "horse nomads from far to the west."
+
+## Goals
+TBD
+
+## Leadership & Members
+TBD
+
+## Allies & Rivals
+TBD
+
+## Notes
+TBD
+
+## Members
+
+## Sessions
+
+
+---
+title: "Knights of the Azure Shield"
+tags:
+  - faction
+  - faction
+aliases:
+  - Order of the Azure Shield
+  - Azure Shield
+---
+# Knights of the Azure Shield
+
+## Appears In
+- Session 1 - First Visit to the Ruins of Arden Vul
+- Session 13 - Yrtol and the Turtle
+- Session 24a - Revenge on the Set Cult
+
+## History
+- Session 1 - First Visit to the Ruins of Arden Vul — # DFRPG Arden Vul Session 1: First Visit to the Ruins of Arden Vul Date: Demmasday, 14th of Toternios, 2993 AEP Weather: Unseasonably warm, sunny Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Aven...
+  - Session 1 - First Visit to the Ruins of Arden Vul — About halfway into the ten-mile hike, the party was overtaken by a group of six mounted Knights of the Azure Shield, the force aligned with the ruler of Gosterwick, Lady Alexia.
+- Session 2 - Halfling Rent-Seekers — The Azure Keep is home to the local sept of the Knights of the Azure Shield.
+- Session 8a - Never Trust a Scorpion — Early the next morning, when the party arrived at the Water Gate, there were three Knights of the Azure Shield waiting for them, along with three squires, and a teamster driving a horse-drawn w...
+- Session 24a - Revenge on the Set Cult — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Jador the Just, chief priestess of Mitra in Gosterwick Audun Yellow-Eyes, logothete of the House of Sight ("Drome") in Gosterwick Freydi...
+  - Session 24a - Revenge on the Set Cult — It was factions/Four Knights of the Azure Shield.md|Four Knights of the Azure Shield, who asked them to identify themselves, they had questions a...
+- Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Shrines.md|Hall of Shrines]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Many Set guards Several Set acolytes Several Set sergeants Some Set Guild of Service fighters
+  - Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Shrines.md|Hall of Shrines]] — They met another patrol of Knights of the Azure Shield on the Imperial Road before reaching town, but the Knights just asked them for news of the Settites and let them pass.
+- Session 13 - Yrtol and the Turtle — He appeared to be a Knight of the Azure Shield, probably only weeks or months old, and had fatal puncture wounds all around its neck, like he had been repeatedly stabbed in the neck by spears or...
+
+## Notes
+
+## Members
+
+- Sir Lucia — Knight Commander
+- Sir Basil — Knight
+- Sir Irene — Knight
+- Alexios — Squire
+- Demetrios — Squire
+- Zoe — Squire
+
+
+## Sessions
+
+- Session 1 - First Visit to the Ruins of Arden Vul
+- Session 2 - Halfling Rent-Seekers
+- Session 8a - Never Trust a Scorpion
+- Session 24a - Revenge on the Set Cult
+- Session 13 - Yrtol and the Turtle
+
+
+---
+tags:
+  - faction
+---
+
+# Lost and Found
+
+## Summary
+An old adventuring party that used to plunder Arden Vul. Wicktrimmer was a member.
+
+## History
+The party was led by the wizard Balthazar the Blue and the paladin Grimley. They made it as far as the Obsidian Gates but not beyond. The group disbanded when Balthazar got married and his wife would not let him continue adventuring.
+
+
+---
+title: "Merchants & Factors"
+tags:
+  - faction
+  - index
+---
+# Merchants & Factors
+
+The Factors are the major merchant houses and guilds that operate across the Empire and beyond. They provide services such as banking, storage, and trade.
+
+## Overview of Factors
+There are several Factors active in the region, with varying scope and specialties.
+- **Empire-Wide Factors:** The Wicktrimmer — Imperial goblin factor; Rarities Factor.
+
+
+---
+tags:
+  - faction
+---
+
+# Order of the Subterranean Knights
+
+## Summary
+
+A knightly order co-founded by Isocritis Half-Hand and Melacorius.
+
+## Description
+
+TBD
+
+## Goals
+
+TBD
+
+## Leadership & Members
+
+- Isocritis Half-Hand (co-founder)
+- Melacorius (co-founder)
+
+## Allies & Rivals
+
+TBD
+
+## Notes
+
+- Isocritis and Melacorius had a falling out after founding the order.
+
+
+---
+title: "Prosperity Factor"
+tags:
+  - faction
+  - faction
+---
+# Prosperity Factor
+
+## Summary
+The Prosperity Factor is an Empire-wide merchant factor with a branch in Session 2 - Halfling Rent-Seekers
+- Session 5 - Parleys and The Great Cavern
+- Session 7 - Why Did It Have to Be Plants?
+- Session 8A - Never Trust a Scorpion
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head
+
+
+---
+title: "Rarities Factor"
+tags:
+  - faction
+  - faction
+---
+# Rarities Factor
+
+## Summary
+The Rarities Factor is a regional merchant factor with locations in Session 2 - Halfling Rent-Seekers
+- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 23C - Set Jailbreak and Down to Goblintown
+- Session 25 - Looking for the Back Door to the Forum of Set
+- Session 27 - The Tomb of Ptoh-Ristus
+- Session 28 - Teleport Rugs and Baboons
+- Session 31 - I Want to Believe
+- Session 5 - Parleys and The Great Cavern
+- Session 7 - Why Did It Have to Be Plants?
+- Session 8A - Never Trust a Scorpion
+
+
+# Factions
+
+- Create one file per faction.
+- Use the template in `vault/templates/Faction Template.md`.
+- Name files in Title Case (e.g., `Cult of Set.md`).
+
+Suggested front matter:
+---
+title: Cult of Set
+tags:
+  - faction
+  - faction
+aliases: []
+---
+
+
+---
+title: "Right for Riches Company"
+tags:
+  - faction
+  - faction
+aliases:
+---
+# Right for Riches Company
+
+## Summary
+- TODO: Short description for faction.
+
+## Appears In
+- Session 21 - The Library of Thoth
+- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 23c - Set Jailbreak and Down to Goblintown
+- Session 24a - Revenge on the Set Cult
+- Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
+- Session 25 - Looking for the Back Door to the Forum of Set
+- Session 26 - The Scouring of the Shire
+- Session 28 - Teleport Rugs and Baboons
+
+
+---
+title: "Rudishva"
+tags:
+  - faction
+  - faction
+---
+# Rudishva
+
+## Appears In
+- Session 31 - I Want to Believe
+
+## Culture
+
+### Funeral Rites
+According to Session 31 - I Want to Believe — Dundee, Thorcin barbarian Wicktrimmer, Imperial Goblin banker and merchant Barnaby Goodbarrel, Esq., Halfling lawyer Craastonistorex, green dragon Camilla, summoned bat Summoned wild boar Summoned cave bears Summoned bat swarms 2 Imperia...
+  - Session 31 - I Want to Believe — The ghostly creature was named Akla-Chah, and she was a Rudishva.
+- Session 32 - Fast Exploration — # DFRPG Arden Vul Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of Demma ...
+  - Session 32 - Fast Exploration — (They started with Mithric in common.) By the end of the week Vael knew quite a few Rudishva words and phrases but still had a lot of grammar and vocabulary to learn.
+
+## Notes
+
+---
+tags:
+  - faction
+---
+
+# Second Chance Company
+
+## Summary
+A new adventuring party operating in the Arden Vul area.
+
+## First Appearance
+They were encountered at the Muddy Puddle tavern in Gosterwick.
+
+## Members
+- Geleg
+- Tresti
+- Klisko
+- Samantha the Red
+
+## Notes
+- They reported that Plumthorn's Halflings have been defeated by the United Goblins, and that the Halls of Thoth have been renamed to Upper Goblintown.
+
+
+---
+tags:
+  - faction
+---
+
+# Seedkeepers
+
+## Summary
+
+The Seedkeepers are a scholarly, more esoteric branch of the Priesthood of Demma.
+
+## Goals
+
+They are focused on guarding ancient agricultural knowledge, sacred fertility rites, and understanding the interplay between magic and the natural world. They often seek to recover lost wisdom.
+
+## Leadership & Members
+
+Scholarly priests, such as Ioannes, are more aligned with this branch than the more common rural clergy.
+
+## Allies & Rivals
+
+- Priesthood of Demma
+
+## Notes
+TBD
+
+
+---
+tags:
+  - faction
+---
+
+# Settite Guild of Service
+
+## Summary
+
+An organization believed to be a front for the Cult of Set.
+
+## Goals
+
+Rumored to be involved in the buying and selling of slaves.
+
+## Leadership & Members
+
+Members of the Cult of Set.
+
+## Allies & Rivals
+
+- Cult of Set
+
+## Notes
+
+TBD
+
+
+---
+tags:
+  - faction
+---
+
+# Sheepshead Rangers
+
+## Summary
+A military unit of Archontean legionaries, five cohorts of which participated in the Adrienic Expedition to retake Arden Vul about 250 years ago.
+
+## Goals
+Military service for the Archontean Empire.
+
+## Leadership & Members
+TBD
+
+## Allies & Rivals
+- Archontean Empire
+
+## Notes
+All five cohorts were lost in a bloody battle at the Cavern of Blood.
+
+## Members
+
+## Sessions
+
+
+---
+title: "Silent Factor"
+tags:
+  - faction
+  - faction
+---
+# Silent Factor
+
+## Summary
+The Silent Factor is an Empire-wide merchant factor known for its high security, high privacy, and expensive services. They have a branch in Session 2 - Halfling Rent-Seekers
+- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 23C - Set Jailbreak and Down to Goblintown
+- Session 5 - Parleys and The Great Cavern
+- Session 7 - Why Did It Have to Be Plants?
+- Session 8A - Never Trust a Scorpion
+
+
+---
+tags:
+  - faction
+---
+
+# Sortians
+
+## Summary
+The Sortians were a historical faction, now remembered as traitors, who instigated a civil war in 1698 AEP by rebelling against the established magical order.
+
+## Beliefs and Practices
+Led by Priscus Pulcher, the Sortians believed that anyone with magical aptitude should be allowed to cast spells, challenging the control held by approved churches and colleges.
+
+They were considered heretical for many reasons, including:
+- Summoning demons.
+- Allowing women and elves to hold leadership positions.
+- Creating "graven images" in the form of magical statues of their leader for worship. Rituals involving these statues sometimes used magical eyes to achieve effects like passing messages or teleportation.
+
+## History
+The Sortians' rebellion against the established order led to a long and costly Civil War. The conflict is blamed for the abandonment of the Exarchate of Narsileon and setting the Empire back a thousand years.
+
+Though the Empire survived with smaller borders and spell use was eventually opened up, the Sortians and their leader Priscus Pulcher (who was executed by an Exarch) are still considered traitors.
+
+## Notes
+- Information about them is found in the Book of Priors and in old books in the Library of Mitra.
+- Their leader, Priscus Pulcher, is said to have resembled the statues known as "The Philosopher".
+
+
+---
+title: "Sun-Scarred Knights"
+tags:
+  - faction
+  - faction
+---
+# Sun-Scarred Knights
+
+## Summary
+Order associated with figures like Sir Sorrow; referenced in armor and knightly encounters.
+
+## Members
+
+- Sir Sorrow
+- Huguette
+
+## Sessions
+
+## Sessions
+
+- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 23C - Set Jailbreak and Down to Goblintown
+- Session 26 - The Scouring of the Shire
+- Session 30 - The Tomb of Theskalon
+- Session 7 - Why Did It Have to Be Plants?
+- Session 8A - Never Trust a Scorpion
+
+
+---
+title: "Survivors of the Stone"
+tags:
+  - faction
+  - faction
+aliases:
+  - Survivors of the Stone, dwarven adventuring party
+---
+# Survivors of the Stone
+
+## Summary
+A dwarven adventuring party active in Arden Vul.
+
+## Appears In
+- Session 32 - Fast Exploration
+
+
+
+---
+tags:
+  - faction
+---
+
+# The Seventeen
+
+## Summary
+The seventeen minor gods of the Archontean Empire's pantheon, who receive less prominence than The Ten but are still part of the official religion.
+
+## Goals
+To maintain their divine influence within their specific, often narrower, domains.
+
+## Leadership & Members
+The specific members of The Seventeen are not enumerated in the provided text.
+
+## Allies & Rivals
+- The Ten (major gods)
+- Other pantheons and cults.
+
+## Notes
+Temples to several of The Seventeen can be found in the city of Newmarket.
+
+## Members
+
+## Sessions
+- RawFiles/Religion in Arden Vul.txt
+
+
+---
+tags:
+  - faction
+---
+
+# The Ten
+
+## Summary
+The ten major gods of the Archontean Empire's pantheon, forming the core of the state-sponsored religion.
+
+## Goals
+To maintain their divine influence and guide the mortal world according to their respective domains.
+
+## Leadership & Members
+The specific members of The Ten are not fully enumerated in the provided text, but they include prominent deities like Demma, Heschius Ban, Lucreon, and Mitra.
+
+## Allies & Rivals
+- The Seventeen (minor gods)
+- The Twelve (formerly sponsored gods)
+- Various other pantheons and cults.
+
+## Notes
+Temples to all of The Ten can be found in the city of Newmarket.
+
+## Members
+
+## Sessions
+- RawFiles/Religion in Arden Vul.txt
+
+
+---
+tags:
+  - faction
+---
+
+# The Twelve
+
+## Summary
+A group of twelve gods who are no longer sponsored by the Archontean Empire and have few remaining worshippers.
+
+## Goals
+Unknown, likely focused on regaining influence or pursuing their divine interests without mortal support.
+
+## Leadership & Members
+- Set (worship is illegal)
+- Horus (presumed dead, no longer granting spells)
+
+## Allies & Rivals
+- The Ten and The Seventeen (the officially sponsored pantheons)
+
+## Notes
+PC clerics are discouraged from choosing patrons from The Twelve without special GM permission.
+
+## Members
+
+## Sessions
+- RawFiles/Religion in Arden Vul.txt
+
+
+---
+tags:
+  - faction
+---
+
+# Thorcin Pantheon
+
+## Summary
+The pantheon of gods worshipped by the Thorcins.
+
+## Goals
+To guide and protect the Thorcin people.
+
+## Leadership & Members
+The specific members of the Thorcin Pantheon are not fully enumerated in the provided text.
+
+## Allies & Rivals
+- The Ten and The Seventeen (the Archontean Empire's pantheons)
+
+## Notes
+Most of the Thorcin pantheon has temples in the city of Newmarket.
+
+## Members
+
+## Sessions
+- RawFiles/Religion in Arden Vul.txt
+
+
+---
+title: "Thorcins"
+tags:
+  - faction
+  - faction
+aliases:
+  - Thorcin
+---
+# Thorcins
+
+## Summary
+- The Thorcins are a people from the north; several NPCs (e.g., Michael J. Dundee, Burris) are Thorcin.
+
+## Appears In
+- Session 28 - Teleport Rugs and Baboons
+- Session 7 - Why Did It Have to Be Plants?
+- Session 8a - Never Trust a Scorpion
+
+
+
+---
+title: "United Goblins"
+tags:
+  - faction
+  - faction
+---
+# United Goblins
+
+## Summary
+Goblin polity led by King Weskenim; controls parts of the Halls and negotiates with surface adventuring companies.
+
+## Sessions
+
+## Sessions
+
+- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 23C - Set Jailbreak and Down to Goblintown
+- Session 26 - The Scouring of the Shire
+- Session 32 - Fast Exploration
+- Session 7 - Why Did It Have to Be Plants?
+- Session 8A - Never Trust a Scorpion
+
+
+---
+title: "Varumani"
+tags:
+  - faction
+  - faction
+---
+# Varumani
+
+## Summary
+Indigenous subterranean people encountered throughout the Halls and around the Great Cavern; miners, guards, and laborers are mentioned.
+
+## Sessions
+
+## Sessions
+
+- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 23C - Set Jailbreak and Down to Goblintown
+- Session 25 - Looking for the Back Door to the Forum of Set
+- Session 26 - The Scouring of the Shire
+- Session 30 - The Tomb of Theskalon
+- Session 31 - I Want to Believe
+- Session 32 - Fast Exploration
+- Session 7 - Why Did It Have to Be Plants?
+- Session 8A - Never Trust a Scorpion
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head
+
+
+---
+title: "Wisdom Factor"
+tags:
+  - faction
+  - faction
+---
+# Wisdom Factor
+
+## Summary
+The Wisdom Factor is a merchant factor.
+
+They are known to employ statue brokers who work out of the Session 7 - Why Did It Have to Be Plants?
+- Session 8A - Never Trust a Scorpion
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head
+
+
+---
+tags:
+  - faction
+---
+
+# Wiskin
+
+## Summary
+One of the four major human cultures in the setting, described as "vikings from the northern islands." They have their own pantheon, which includes the god Odin.
+
+## Goals
+TBD
+
+## Leadership & Members
+TBD
+
+## Allies & Rivals
+TBD
+
+## Notes
+- Torunn the Smith is a Wiskin woman.
+- Helle is a Wiskin woman.
+- Ketil is a Wiskin ranger.
+
+## Members
+
+## Sessions
+
+

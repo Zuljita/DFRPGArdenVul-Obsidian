@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Silver Tokens with Arden on one side
 
 ## Summary

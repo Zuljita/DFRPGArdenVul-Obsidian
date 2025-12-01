@@ -2,6 +2,7 @@
 title: "Helga"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Helga

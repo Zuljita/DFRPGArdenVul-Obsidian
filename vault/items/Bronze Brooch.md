@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Bronze Brooch
 
 ## Summary

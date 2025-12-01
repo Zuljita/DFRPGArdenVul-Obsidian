@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # Arcane Practitioners' Club
 
 ## Summary

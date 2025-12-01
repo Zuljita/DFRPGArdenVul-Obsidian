@@ -2,6 +2,7 @@
 title: "Glory of Thoth"
 tags:
   - location
+  - location
 aliases:
   - The Glory of Thoth
 ---

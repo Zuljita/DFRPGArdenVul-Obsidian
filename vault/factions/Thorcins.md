@@ -2,6 +2,7 @@
 title: "Thorcins"
 tags:
   - faction
+  - faction
 aliases:
   - Thorcin
 ---

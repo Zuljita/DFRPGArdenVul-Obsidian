@@ -2,6 +2,7 @@
 title: "Temple of Thoth"
 tags:
   - location
+  - location
 ---
 # Temple of Thoth
 

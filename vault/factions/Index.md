@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # Factions Index
 
 The following faction pages are present in this vault:

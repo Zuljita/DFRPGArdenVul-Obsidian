@@ -2,6 +2,7 @@
 title: "Klisko"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 11 - The Great Cavern Redux"
 aliases:

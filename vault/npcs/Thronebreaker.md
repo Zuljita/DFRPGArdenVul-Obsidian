@@ -2,6 +2,7 @@
 title: "Thronebreaker"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 11 - The Great Cavern Redux"
   - "Session 17 - Cleaning Out the Vermin"

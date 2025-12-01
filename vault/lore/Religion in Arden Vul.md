@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Religion in Arden Vul
 
 ## Summary

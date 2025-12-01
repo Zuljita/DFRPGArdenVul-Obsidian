@@ -2,6 +2,7 @@
 title: "Scrags"
 type: monster
 tags:
+  - monster
   - body_plan/humanoid
 aliases:
 ---

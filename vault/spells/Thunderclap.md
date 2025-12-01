@@ -2,6 +2,7 @@
 title: "Thunderclap"
 tags:
   - spell
+  - spell
 ---
 # Thunderclap
 

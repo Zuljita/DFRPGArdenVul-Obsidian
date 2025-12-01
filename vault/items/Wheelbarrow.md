@@ -1,6 +1,7 @@
 ---
 title: "Wheelbarrow"
 tags:
+  - item
   - item/mundane
 ---
 # Wheelbarrow

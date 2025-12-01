@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Inn of the Broken Head
 
 ## Summary

@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Ioannes' Journal - The Tower Ghost
 
 ## Demmasday, 25th of Lucrios, 2993 AEP

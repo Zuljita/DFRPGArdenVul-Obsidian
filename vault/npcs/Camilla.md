@@ -2,6 +2,7 @@
 title: "Camilla"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 6 - Good Ghost, Bad Ghost"
   - "Session 13 - Yrtol and the Turtle"

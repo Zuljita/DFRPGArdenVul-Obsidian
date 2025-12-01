@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Livestock and Horse Market
 
 ## Summary

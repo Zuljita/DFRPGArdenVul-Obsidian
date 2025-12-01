@@ -2,6 +2,7 @@
 title: "Fetch"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 21 - The Library of Thoth"
 aliases:

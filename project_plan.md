@@ -1,18 +1,18 @@
-\# DFRPG Arden Vul — Project Plan
+# DFRPG Arden Vul — Project Plan
 
 
 
-This document explains the \*\*lightweight, non-enterprise\*\* workflow for building a player-facing campaign reference for DFRPG Arden Vul using:
+This document explains the **lightweight, non-enterprise** workflow for building a player-facing campaign reference for DFRPG Arden Vul using:
 
 
 
-\* \*\*Obsidian\*\* (authoring + linking)
+* **Obsidian** (authoring + linking)
 
-\* \*\*LLM assistance\*\* (article creation + auto-linking + structuring)
+* **LLM assistance** (article creation + auto-linking + structuring)
 
-\* \*\*Quartz\*\* (static site generator)
+* **Quartz** (static site generator)
 
-\* \*\*Azure Static Web Apps\*\* (free-tier hosting)
+* **Azure Static Web Apps** (free-tier hosting)
 
 
 
@@ -20,13 +20,13 @@ The goals are:
 
 
 
-\* Keep editing simple for the GM and players.
+* Keep editing simple for the GM and players.
 
-\* Let the LLM do most of the relationship/linking work.
+* Let the LLM do most of the relationship/linking work.
 
-\* Avoid heavy CI/CD or enterprise tooling.
+* Avoid heavy CI/CD or enterprise tooling.
 
-\* Produce a clean, browsable site for the Arden Vul campaign.
+* Produce a clean, browsable site for the Arden Vul campaign.
 
 
 
@@ -34,7 +34,7 @@ The goals are:
 
 
 
-\# 1. Repository Structure
+# 1. Repository Structure
 
 
 
@@ -60,7 +60,7 @@ The goals are:
 
 &nbsp; /quartz/          # Quartz configuration + site generator
 
-&nbsp; project\_plan.md
+&nbsp; project_plan.md
 
 &nbsp; README.md
 
@@ -70,7 +70,7 @@ The goals are:
 
 
 
-\*\*Rule:\*\* Only edit content inside `/vault`.
+**Rule:** Only edit content inside `/vault`.
 
 Only the maintainer (Kyle) touches `/quartz` or Git.
 
@@ -80,7 +80,7 @@ Only the maintainer (Kyle) touches `/quartz` or Git.
 
 
 
-\# 2. Obsidian Vault Setup
+# 2. Obsidian Vault Setup
 
 
 
@@ -88,21 +88,21 @@ Recommended minimal Obsidian configuration:
 
 
 
-\* Enable \*\*Wikilinks\*\*
+* Enable **Wikilinks**
 
-\* Enable \*\*Automatically Update Links\*\*
+* Enable **Automatically Update Links**
 
-\* Use core plugins:
+* Use core plugins:
 
 
 
-&nbsp; \* Backlinks
+&nbsp; * Backlinks
 
-&nbsp; \* Graph View
+&nbsp; * Graph View
 
-&nbsp; \* Outgoing Links
+&nbsp; * Outgoing Links
 
-&nbsp; \* File Explorer
+&nbsp; * File Explorer
 
 
 
@@ -110,25 +110,25 @@ Optional (nice-to-have):
 
 
 
-\* Excalidraw (for relationship maps)
+* Excalidraw (for relationship maps)
 
-\* Tag Wrangler
+* Tag Wrangler
 
-\* Calendar (for session chronology)
-
-
-
-\*\*Non-technical player instructions:\*\*
+* Calendar (for session chronology)
 
 
 
-1\. Install Obsidian.
+**Non-technical player instructions:**
 
-2\. Open the `/vault` folder.
 
-3\. Edit Markdown normally.
 
-4\. Don’t move or rename folders.
+1. Install Obsidian.
+
+2. Open the `/vault` folder.
+
+3. Edit Markdown normally.
+
+4. Don’t move or rename folders.
 
 
 
@@ -136,7 +136,7 @@ Optional (nice-to-have):
 
 
 
-\# 3. Syncing the Vault
+# 3. Syncing the Vault
 
 
 
@@ -144,17 +144,17 @@ Use any simple sync method so the GM + players can edit notes without touching G
 
 
 
-\* OneDrive
+* OneDrive
 
-\* Dropbox
+* Dropbox
 
-\* Syncthing
+* Syncthing
 
-\* Obsidian Sync
+* Obsidian Sync
 
 
 
-Sync \*\*only\*\* the `/vault` folder.
+Sync **only** the `/vault` folder.
 
 
 
@@ -162,11 +162,11 @@ This allows:
 
 
 
-\* GM → write new session logs
+* GM → write new session logs
 
-\* Players → make small edits/notes
+* Players → make small edits/notes
 
-\* Maintainer → receive all changes locally and handle publishing
+* Maintainer → receive all changes locally and handle publishing
 
 
 
@@ -174,7 +174,7 @@ This allows:
 
 
 
-\# 4. File Templates
+# 4. File Templates
 
 
 
@@ -182,69 +182,69 @@ Store templates in `/vault/templates/`:
 
 
 
-\## NPC Template
+## NPC Template
 
 
 
 ```
 
-\# NPC Name
+# NPC Name
 
-\## Summary
+## Summary
 
-\## First Appearance
+## First Appearance
 
-\## Disposition
+## Disposition
 
-\## Known Associates
+## Known Associates
 
-\## Notes
-
-```
-
-
-
-\## Location Template
-
-
-
-```
-
-\# Location Name
-
-\## Description
-
-\## Key Features
-
-\## Connected Areas
-
-\## Inhabitants
-
-\## Notes
+## Notes
 
 ```
 
 
 
-\## Session Template
+## Location Template
 
 
 
 ```
 
-\# Session Title (Number)
+# Location Name
 
-\## Summary
+## Description
 
-\## Full Recap
+## Key Features
 
-\## NPCs Encountered
+## Connected Areas
 
-\## Locations Visited
+## Inhabitants
 
-\## Loot / Discoveries
+## Notes
 
-\## Hooks for Next Session
+```
+
+
+
+## Session Template
+
+
+
+```
+
+# Session Title (Number)
+
+## Summary
+
+## Full Recap
+
+## NPCs Encountered
+
+## Locations Visited
+
+## Loot / Discoveries
+
+## Hooks for Next Session
 
 ```
 
@@ -254,7 +254,7 @@ Store templates in `/vault/templates/`:
 
 
 
-\# 5. LLM Linking Workflow
+# 5. LLM Linking Workflow
 
 
 
@@ -262,39 +262,39 @@ The LLM handles:
 
 
 
-1\. Reading session logs.
+1. Reading session logs.
 
-2\. Identifying entities:
-
-
-
-&nbsp;  \* NPCs
-
-&nbsp;  \* Locations
-
-&nbsp;  \* Factions
-
-&nbsp;  \* Items
-
-3\. Creating wikilinks (`\[\[Page Name]]`).
-
-4\. Creating stub pages for missing entities.
-
-5\. Normalizing session structure.
+2. Identifying entities:
 
 
 
-\*\*Workflow:\*\*
+&nbsp;  * NPCs
+
+&nbsp;  * Locations
+
+&nbsp;  * Factions
+
+&nbsp;  * Items
+
+3. Creating wikilinks (`[[Page Name]]`).
+
+4. Creating stub pages for missing entities.
+
+5. Normalizing session structure.
 
 
 
-1\. GM writes raw session log.
+**Workflow:**
 
-2\. Maintainer passes log + file list to LLM.
 
-3\. LLM inserts links + generates stubs.
 
-4\. Maintainer reviews \& replaces session file.
+1. GM writes raw session log.
+
+2. Maintainer passes log + file list to LLM.
+
+3. LLM inserts links + generates stubs.
+
+4. Maintainer reviews & replaces session file.
 
 
 
@@ -302,7 +302,7 @@ The LLM handles:
 
 
 
-\# 6. Quartz Publishing Pipeline
+# 6. Quartz Publishing Pipeline
 
 
 
@@ -310,15 +310,15 @@ Quartz lives in `/quartz`. It converts the Obsidian vault into a static website.
 
 
 
-\*\*Maintainer-only tasks:\*\*
+**Maintainer-only tasks:**
 
 
 
-\* Install Node.
+* Install Node.
 
-\* Install Quartz dependencies.
+* Install Quartz dependencies.
 
-\* Build site:
+* Build site:
 
 
 
@@ -332,9 +332,9 @@ npx quartz build
 
 
 
-\* Output appears in `/quartz/public/`.
+* Output appears in `/quartz/public/`.
 
-\* Publish manually or deploy to Azure Static Web Apps.
+* Publish manually or deploy to Azure Static Web Apps.
 
 
 
@@ -346,7 +346,7 @@ No CI/CD needed unless desired.
 
 
 
-\# 7. Azure Static Web App Hosting
+# 7. Azure Static Web App Hosting
 
 
 
@@ -358,13 +358,13 @@ Steps:
 
 
 
-1\. Create a Static Web App in Azure Portal.
+1. Create a Static Web App in Azure Portal.
 
-2\. Connect GitHub repo.
+2. Connect GitHub repo.
 
-3\. Set build output path to `/quartz/public/`.
+3. Set build output path to `/quartz/public/`.
 
-4\. Deploy manually or via optional GitHub Actions.
+4. Deploy manually or via optional GitHub Actions.
 
 
 
@@ -376,75 +376,41 @@ Free-tier limits easily cover our tiny audience.
 
 
 
-\# 8. Maintenance Workflow
+# 8. Maintenance Workflow
 
 
 
-\## GM
+## GM
 
 
 
-\* Writes new session log in `/vault/sessions/`.
+* Writes new session log in `/vault/sessions/`.
 
-\* Doesn’t worry about linking.
-
-
-
-\## Players
+* Doesn’t worry about linking.
 
 
 
-\* Use Obsidian to browse or edit small notes.
+## Players
 
 
 
-\## Maintainer
+* Use Obsidian to browse or edit small notes.
 
 
 
-1\. Pull synced vault updates.
-
-2\. Run LLM to perform linking + stubs + formatting.
-
-3\. Commit changes.
-
-4\. Build Quartz.
-
-5\. Publish to Azure.
+## Maintainer
 
 
 
----
+1. Pull synced vault updates.
 
+2. Run LLM to perform linking + stubs + formatting.
 
+3. Commit changes.
 
-\# 9. Scope
+4. Build Quartz.
 
-
-
-We are \*\*not\*\* building:
-
-
-
-\* A CMS
-
-\* A WYSIWYG web editor
-
-\* A CI-heavy enterprise pipeline
-
-\* A canonical data authority system
-
-
-
-We \*\*are\*\* building:
-
-
-
-\* A clean Obsidian vault
-
-\* A simple static site
-
-\* A workflow where the LLM handles the tedious linking
+5. Publish to Azure.
 
 
 
@@ -452,7 +418,41 @@ We \*\*are\*\* building:
 
 
 
-\# 10. Future Optional Enhancements
+# 9. Scope
+
+
+
+We are **not** building:
+
+
+
+* A CMS
+
+* A WYSIWYG web editor
+
+* A CI-heavy enterprise pipeline
+
+* A canonical data authority system
+
+
+
+We **are** building:
+
+
+
+* A clean Obsidian vault
+
+* A simple static site
+
+* A workflow where the LLM handles the tedious linking
+
+
+
+---
+
+
+
+# 10. Future Optional Enhancements
 
 
 
@@ -460,25 +460,34 @@ Optional (only if wanted):
 
 
 
-\* Mermaid diagrams for faction and NPC relationships
+* Mermaid diagrams for faction and NPC relationships
 
-\* Excalidraw for dungeon area maps
+* Excalidraw for dungeon area maps
 
-\* Custom Quartz themes
+* Custom Quartz themes
 
-\* Automated LLM scripts
+* Automated LLM scripts
 
 
 
 These are not required for the core workflow.
 
+---
 
+# 11. CNF (Create Notebook Files)
+
+To prepare the vault for use with NotebookLM, a script is used to consolidate the files into a format that is easy to upload.
+
+- **Script:** `create_notebooklm_files.py`
+- **Purpose:** This script iterates through the subdirectories of the `vault` and concatenates the content of all markdown files within each subdirectory into a single file.
+- **Output:** The script generates a set of plain text files in the `notebookLMFiles` directory, with each file corresponding to a subdirectory in the vault (e.g., `npcs.txt`, `locations.txt`).
+- **Exclusions:** The script excludes the `.obsidian` and `templates` directories from the export.
 
 ---
 
 
 
-\# Conclusion
+# Conclusion
 
 
 
@@ -487,6 +496,3 @@ This project keeps everything simple while still enabling powerful linking and b
 Obsidian is the editing surface, the LLM provides structure, Quartz publishes the site, and Azure hosts it.
 
 This setup is lightweight, maintainable, and easy for the entire group to use.
-
-
-

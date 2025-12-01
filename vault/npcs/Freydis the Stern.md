@@ -2,6 +2,7 @@
 title: "Freydis"
 tags:
   - npc
+  - npc
 aliases:
   - Freydis the Stern
 ---

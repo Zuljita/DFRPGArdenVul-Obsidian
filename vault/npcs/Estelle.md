@@ -2,6 +2,7 @@
 title: "Estelle"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Estelle

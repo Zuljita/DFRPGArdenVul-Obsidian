@@ -2,6 +2,7 @@
 title: "Sir Basil"
 tags:
   - npc
+  - npc
   - gender/unknown
   - race/unknown
   - profession/knight

@@ -2,6 +2,7 @@
 title: "Isocritis Half-Hand"
 tags:
   - npc
+  - npc
 aliases:
   - Isocritis
   - Isocrates

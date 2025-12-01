@@ -2,6 +2,7 @@
 title: "Invisible Stalker"
 type: monster
 tags:
+  - monster
 aliases:
 ---
 # Invisible Stalker

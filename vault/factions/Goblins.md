@@ -2,6 +2,7 @@
 title: "Goblins"
 tags:
   - faction
+  - faction
 ---
 # Goblins
 

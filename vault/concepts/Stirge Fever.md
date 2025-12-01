@@ -1,6 +1,7 @@
 ---
 title: "Stirge Fever"
 tags:
+  - concept
   - disease
   - hazard
 ---

@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Blue glass square
 
 ## Description

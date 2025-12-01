@@ -2,6 +2,7 @@
 title: "Uvash Edzuson"
 tags:
   - pc
+  - pc
 aliases:
   - Uvash
 ---

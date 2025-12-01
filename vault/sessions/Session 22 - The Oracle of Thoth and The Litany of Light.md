@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 22: The Oracle of Thoth and The Litany of Light"
 tags:
   - session
+  - session
   - recap
 session_id: 22
 ---

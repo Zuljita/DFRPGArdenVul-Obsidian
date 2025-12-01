@@ -2,6 +2,7 @@
 title: "Perpetual Light"
 tags:
   - spell
+  - spell
 ---
 # Perpetual Light
 

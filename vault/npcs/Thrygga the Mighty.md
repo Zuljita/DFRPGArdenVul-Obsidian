@@ -2,6 +2,7 @@
 title: "Thrygga the Mighty"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Thrygga the Mighty

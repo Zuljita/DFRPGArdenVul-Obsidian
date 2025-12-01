@@ -2,6 +2,7 @@
 title: "Temple of Mitra Knockback"
 tags:
   - location
+  - location
 ---
 # Temple of Mitra Knockback
 

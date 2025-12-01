@@ -2,6 +2,7 @@
 title: "Zombie with Dog Collar"
 type: monster
 tags:
+  - monster
   - classification/undead
   - sentience/mindless
 aliases:

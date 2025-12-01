@@ -2,6 +2,7 @@
 title: "Archontean Empire"
 tags:
   - faction
+  - faction
 
 
 ---

@@ -2,6 +2,7 @@
 title: "The Tomb of Ptoh-Ristus"
 tags:
   - location
+  - location
 ---
 # The Tomb of Ptoh-Ristus
 

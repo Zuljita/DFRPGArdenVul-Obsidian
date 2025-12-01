@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Square Tower (East of Forum)
 
 ## Summary

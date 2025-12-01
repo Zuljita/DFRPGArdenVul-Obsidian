@@ -2,6 +2,7 @@
 title: "Shriekers (mushroom)"
 type: monster
 tags:
+  - monster
   - body_plan/vermin
 aliases:
 ---

@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Factors Overview
 
 ## Summary of Merchant Factors in Gosterwick

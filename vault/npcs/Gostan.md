@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # Gostan
 
 ## Summary

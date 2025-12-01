@@ -2,6 +2,7 @@
 title: "Forum of Arden Vul"
 tags:
   - location
+  - location
 ---
 # Forum of Arden Vul
 

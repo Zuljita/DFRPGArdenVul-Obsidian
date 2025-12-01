@@ -2,6 +2,7 @@
 title: "The Oracle of Thoth and The Litany of Light"
 tags:
   - location
+  - location
 ---
 # The Oracle of Thoth and The Litany of Light
 

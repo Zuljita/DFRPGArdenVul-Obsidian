@@ -1,3 +1,8 @@
+---
+tags:
+  - session
+---
+
 # Sessions Index
 
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]] — Demmasday, 14th of Toternios, 2993 AEP

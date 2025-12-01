@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Krakteros Family Necklace
 
 ## Summary

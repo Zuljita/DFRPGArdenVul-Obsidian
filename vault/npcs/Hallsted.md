@@ -2,6 +2,7 @@
 title: "Hallsted"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 32 - Fast Exploration"
 ---

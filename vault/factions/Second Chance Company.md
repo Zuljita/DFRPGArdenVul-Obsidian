@@ -1,3 +1,8 @@
+---
+tags:
+  - faction
+---
+
 # Second Chance Company
 
 ## Summary

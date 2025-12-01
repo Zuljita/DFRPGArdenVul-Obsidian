@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Catacombs of Thoth's Beloved
 
 ## Summary

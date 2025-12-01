@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Cave with Spider Webs
 
 ## Summary

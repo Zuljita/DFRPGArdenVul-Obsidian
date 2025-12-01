@@ -1,0 +1,781 @@
+---
+title: "Affect Spirits"
+tags:
+  - spell
+  - spell
+---
+# Affect Spirits
+
+- **College:** Spirit/Mind (likely)
+- **Type:** Enchantment
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Allows the caster to influence or interact with incorporeal spirits or affect the morale/emotions of living beings.
+
+
+---
+title: "Analyze Magic"
+tags:
+  - spell
+  - spell
+---
+# Analyze Magic
+
+- **College:** Knowledge (likely)
+- **Type:** Information
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Allows the caster to determine the nature and properties of magical items or effects. 
+
+
+
+
+---
+tags:
+  - spell
+---
+
+# Apportation
+
+## Description
+A magical spell used to instantaneously transport an object from one place to another.
+
+## Properties
+- Instantaneous transport of objects.
+
+## Notes
+Can be used to move objects without physically hauling them.
+
+## Sessions
+
+
+---
+title: "Basil's Torch Treatment"
+tags:
+  - spell
+  - spell
+---
+# Basil's Torch Treatment
+
+- **College:** Fire
+- **Cost:** 1
+- **Prerequisite:** Create Fire
+
+Triples the lifespan of a torch (normally from 1 hour to 3 hours).
+
+
+---
+title: "Bless (spell)"
+tags:
+  - spell
+  - spell
+---
+# Bless (spell)
+
+
+
+---
+title: "Brain Full of Small Spiders"
+tags:
+  - spell
+  - spell
+---
+# Brain Full of Small Spiders
+
+- **College:** Illusion
+- **Type:** Resisted by Will
+- **Duration:** 1 minute (Cannot be maintained)
+- **Cost:** 3
+- **Prerequisites:** Perfect Illusion, Itch
+
+Creates a sensation that spiders are crawling on the subject's head. Causes a -1 penalty to all rolls and halves movement.
+
+
+---
+title: "Bravery"
+tags:
+  - spell
+  - spell
+---
+# Bravery
+
+- **College:** Mind/Emotion
+- **Type:** Enhancement
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Instills courage and removes fear in the target, making them resistant to morale penalties or fear effects.
+
+
+---
+title: "Breathe Water"
+tags:
+  - spell
+  - spell
+---
+# Breathe Water
+
+- **College:** Elemental (Water), Life
+- **Type:** Transmutation
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Grants the target the ability to breathe comfortably and naturally underwater for the duration of the spell.
+
+
+---
+title: "Concussion"
+tags:
+  - spell
+  - spell
+---
+# Concussion
+
+- **College:** Sound/Force
+- **Type:** Attack
+- **Duration:** Instantaneous
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Generates a powerful concussive force or sound wave that can disorient, knock back, or damage targets.
+
+
+---
+title: "Continual Darkness"
+tags:
+  - spell
+  - spell
+---
+# Continual Darkness
+
+- **College:** Light and Darkness
+- **Type:**
+- **Duration:** Permanent
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Creates an area of permanent darkness. Ioannes accidentally cast this on bedding in his room at the Yellow Cloak Inn.
+
+
+---
+title: "Create Fire"
+tags:
+  - spell
+  - spell
+---
+# Create Fire
+
+- **College:** Elemental (Fire)
+- **Type:** Conjuration
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Allows the caster to conjure or ignite a small flame or fire. Used by Vael to clear spiderwebs.
+
+
+---
+title: "Cure Insanity"
+tags:
+  - spell
+  - spell
+---
+# Cure Insanity
+
+- **College:** Healing/Mind
+- **Type:** Restoration
+- **Duration:** Instantaneous
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** A powerful spell designed to remove the effects of magical or mundane insanity, restoring the target's mind to a sane state.
+
+
+---
+title: "Curse Item"
+tags:
+  - spell
+  - spell
+---
+# Curse Item
+
+- **College:** Enchantment
+- **Duration:** Permanent
+- **Cost:** 10
+- **Casting time:** 1 hour
+- **Prerequisite:** Enchant
+
+Gives an item a minor malevolent effect. The caster and others they specify at the time of casting are unaffected. Magic items resist.
+
+
+---
+title: "Detect Magic"
+tags:
+  - spell
+  - spell
+---
+# Detect Magic
+
+- **College:** Knowledge
+- **Type:**
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Detects the presence of magic. Uvash Edzuson used this to detect magical darkness in the Square Tower (East of Forum).
+
+
+---
+title: "Flaming Weapon"
+tags:
+  - spell
+  - spell
+---
+# Flaming Weapon
+
+- **College:** Elemental (Fire), Combat
+- **Type:** Enhancement
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Imbues a weapon with fiery energy, causing it to deal additional fire damage or shed light.
+
+
+---
+title: "Frigg's Elephant Ears"
+tags:
+  - spell
+  - spell
+---
+# Frigg's Elephant Ears
+
+- **College:** Mind Control
+- **Type:** Regular; Resisted by Will
+- **Cost:** 2
+- **Duration:** 10 minutes
+- **Prerequisite:** Sense Emotion
+
+Causes the subject's ears to grow to elephant size if they lie. They will droop and flap if they tell additional lies.
+
+
+---
+title: "Frigg's Fraud"
+tags:
+  - spell
+  - spell
+---
+# Frigg's Fraud
+
+- **College:** Illusion
+- **Duration:** Permanent
+- **Cost:** 2
+- **Prerequisite:** Simple Illusion
+
+Causes a magic item to be undetectable by Magery at range. Detecting it with Magery by touch or with spells like Detect Magic requires a Quick Contest with the spell.
+
+
+---
+title: "Frigg's Jelly Legs"
+tags:
+  - spell
+  - spell
+---
+# Frigg's Jelly Legs
+
+- **College:** Body Control
+- **Type:** Regular; Resisted by HT
+- **Cost:** 2
+- **Duration:** 1 minute
+- **Prerequisite:** Clumsiness
+
+The target's legs become rubbery and unstable. They suffer Bad Footing (-2 to hit, -1 to defend, +1 movement point per hex) for the duration of the spell. If they're already suffering from Bad Footing, the effects are cumulative.
+
+
+---
+title: "Grease (spell)"
+tags:
+  - spell
+  - spell
+---
+# Grease (spell)
+
+- **College:** Elemental (Oil/Slime)
+- **Type:** Area effect, Debuff
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Covers a designated area with a slick layer of grease, making it difficult for creatures to move or stand upright. Used by Vael during the giant rat encounter.
+
+
+---
+title: "Hallow"
+tags:
+  - spell
+  - spell
+---
+# Hallow
+
+- **College:** Meta
+- **Type:** Area
+- **Base Cost:** 5
+- **Casting Time:** 1 hour
+- **Duration:** Permanent
+- **Prerequisite:** PI 5
+
+Increases the Sanctity (for clerics) or Nature's Strength (for druids) of an area by one level, to a maximum of High Sanctity or +3 Nature's Strength.
+
+This may only be cast in an appropriate area, such as a temple of the appropriate god for a cleric, or a particularly nice natural area for a druid. It can be used in an opposing temple to reduce its sanctity for the opposing religion, but only to Normal sanctity; getting to High would require extensive changes to the temple.
+
+
+---
+title: "Invisibility"
+tags:
+  - spell
+  - spell
+---
+# Invisibility
+
+- **College:** Illusion (likely)
+- **Type:** Enhancement
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Renders a target unseen, making them difficult or impossible to detect by normal vision.
+
+
+---
+title: "Keen Hearing"
+tags:
+  - spell
+  - spell
+---
+# Keen Hearing
+
+- **College:** Sensory
+- **Type:** Enhancement
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Enhances the target's sense of hearing, allowing them to detect faint sounds or pinpoint their origin with greater accuracy.
+
+
+---
+title: "Lend Energy"
+tags:
+  - spell
+  - spell
+---
+# Lend Energy
+
+- **College:** Energy (likely)
+- **Type:** Transference
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Allows a caster to transfer some of their magical energy (or a similar resource) to another individual or object.
+
+
+---
+tags:
+  - spell
+---
+
+# Levitation
+
+## Description
+A magical spell that allows an object or creature to float in the air. It is notably used to move The Living Wheelbarrow.
+
+## Properties
+- Allows floating.
+- Requires caster concentration for movement.
+
+## Notes
+Untrained users attempting to use scrolls of this spell may risk injury or equipment loss.
+
+---
+title: "Lockmaster"
+tags:
+  - spell
+  - spell
+---
+# Lockmaster
+
+- **College:** Communication and Empathy (likely) or Protection and Warning (likely)
+- **Type:**
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** A spell capable of opening locks. Vael learned this spell.
+
+
+---
+title: "Major Healing"
+tags:
+  - spell
+  - spell
+---
+# Major Healing
+
+- **College:** Healing
+- **Type:** Restoration
+- **Duration:** Instantaneous
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** A powerful healing spell capable of restoring significant health or curing serious afflictions.
+
+
+---
+title: "Mystic Mist"
+tags:
+  - spell
+  - spell
+---
+# Mystic Mist
+
+- **College:** Air/Illusion (likely)
+- **Type:** Area effect
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Creates a localized area of swirling, obscuring mist with magical properties, potentially disorienting or concealing those within it.
+
+
+---
+tags:
+  - spell
+---
+
+# New Spells
+
+This document contains descriptions of various new spells, detailing their effects, costs, and prerequisites.
+
+## Curse Item
+- **College:** Enchantment
+- **Duration:** permanent
+- **Cost:** 10
+- **Casting time:** 1 hour
+- **Prerequisite:** Enchant
+- **Effect:** Gives an item a minor malevolent effect. The caster and others they specify at the time of casting are unaffected. Magic items resist.
+
+## Basil's Torch Treatment
+- **College:** Fire
+- **Cost:** 1
+- **Prerequisite:** Create Fire
+- **Effect:** Triples the lifespan of a torch (normally from 1 hour to 3 hours).
+
+## The Bracteros Effect
+- **College:** Light and Darkness
+- **Duration:** 1 hour
+- **Cost:** 4 to cast, 2 to maintain
+- **Prerequisite:** Invisibility
+- **Effect:** Renders a light source invisible to those more than 7 hexes away from it.
+
+## Frigg's Elephant Ears
+- **College:** Mind Control
+- **Type:** Regular; R-Will
+- **Cost:** 2
+- **Duration:** 10 minutes
+- **Prerequisite:** Sense Emotion
+- **Effect:** Causes the subject's ears to grow to elephant size if they lie. They will droop and flap if they tell additional lies.
+
+## Perpetual Light
+- **College:** Light and Darkness
+- **Type:** Regular
+- **Duration:** Permanent
+- **Cost:** 6 for moonlight, 12 for torchlight, 18 for daylight.
+- **Prerequisite:** Continual Light
+- **Effect:** Makes a small object (or a small part of a large object) glow permanently. The light will be orange. A small amount of Arcanum is required to cast this spell, and is consumed. This is not an enchantment so it can be dispelled, is destroyed by no mana zones, etc.
+
+## The Hekate's Bonds
+- **College:** Body Control
+- **Type:** Regular; R-HT
+- **Duration:** 5s (Cannot be maintained)
+- **Cost:** 8
+- **Prerequisite:** Total Paralysis
+- **Effect:** Causes paralysis.
+
+## Brain Full of Small Spiders
+- **College:** Illusion; R-Will
+- **Duration:** 1 minute. Can't be maintained.
+- **Cost:** 3
+- **Prerequisite:** Perfect Illusion, Itch
+- **Effect:** Creates a sensation that spiders are crawling on the subject's head. Causes -1 to all rolls and half movement.
+
+## Frigg's Jelly Legs
+- **College:** Body Control
+- **Type:** Regular; R-HT
+- **Cost:** 2
+- **Duration:** 1 minute
+- **Prerequisite:** Clumsiness
+- **Effect:** The target's legs become rubbery and unstable. They suffer Bad Footing (-2 to hit, -1 to defend, +1 movement point per hex) for the duration of the spell. If they're already suffering from Bad Footing, the effects are cumulative.
+
+## Hallow
+- **College:** Meta
+- **Type:** Area
+- **Base Cost:** 5
+- **Casting Time:** 1 hour
+- **Duration:** Permanent
+- **Prerequisite:** PI 5
+- **Effect:** Increases the Sanctity (cleric) or Nature's Strength (druid) of the area by one level, to a maximum of High Sanctity or +3 Nature's Strength. This may only be cast in an appropriate area, such as a temple of the appropriate god for a cleric, or a particularly nice natural area for a druid. It can be used in an opposing temple to reduce its sanctity for the opposing religion, but only to Normal sanctity; getting to High would require extensive changes to the temple.
+
+## Frigg's Fraud
+- **College:** Illusion
+- **Duration:** Permanent
+- **Cost:** 2
+- **Prerequisite:** Simple Illusion
+- **Effect:** Causes a magic item to be undetectable by Magery at range. Detecting it with Magery by touch or with spells like Detect Magic requires a Quick Contest with the spell.
+
+
+---
+title: "Perpetual Light"
+tags:
+  - spell
+  - spell
+---
+# Perpetual Light
+
+- **College:** Light and Darkness
+- **Type:** Regular
+- **Duration:** Permanent
+- **Cost:** 6 for moonlight, 12 for torchlight, 18 for daylight.
+- **Prerequisite:** Continual Light
+
+Makes a small object (or a small part of a large object) glow permanently with an orange light. A small amount of arcanum is required to cast this spell and is consumed.
+
+This does not count as a spell "on" the object, so it can be dispelled and is destroyed by no-mana zones.
+
+
+---
+title: "Purify Air"
+tags:
+  - spell
+  - spell
+---
+# Purify Air
+
+- **College:** Elemental (Air), Cleansing
+- **Type:** Abjuration/Utility
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Cleanses a localized area of noxious gases, dust, or other atmospheric impurities. Used by Vael to clear spiderwebs.
+
+
+---
+title: "Remove Curse (spell)"
+tags:
+  - spell
+  - spell
+---
+# Remove Curse (spell)
+
+- **College:** Abjuration (Cleansing)
+- **Type:** Remedial
+- **Duration:** Instantaneous
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Breaks a magical curse afflicting an object or individual, restoring them to their uncursed state.
+
+
+---
+title: "Shape Earth"
+tags:
+  - spell
+  - spell
+---
+# Shape Earth
+
+- **College:** Elemental (Earth), Transmutation
+- **Type:** Utility/Creation
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Allows the caster to manipulate and reshape small quantities of earth, stone, or similar materials.
+
+
+---
+title: "Shape Water"
+tags:
+  - spell
+  - spell
+---
+# Shape Water
+
+- **College:** Water
+- **Type:**
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Manipulates water. Ashe Maykum considered using it to create an elevator at the Waterfall.
+
+
+---
+title: "Shield (spell)"
+tags:
+  - spell
+  - spell
+---
+# Shield (spell)
+
+- **College:** Protection
+- **Type:** Abjuration
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Creates an invisible, magical barrier that deflects attacks or enhances the caster's defense.
+
+
+---
+title: "Smoke (spell)"
+tags:
+  - spell
+  - spell
+---
+# Smoke (spell)
+
+- **College:** Elemental (Air/Fire)
+- **Type:** Area effect, Obscuration
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Generates a cloud of thick smoke, obscuring vision and potentially causing coughing or choking.
+
+
+---
+title: "Swim (spell)"
+tags:
+  - spell
+  - spell
+---
+# Swim (spell)
+
+- **College:** Elemental (Water), Movement
+- **Type:** Enhancement
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Enhances the target's ability to swim, granting increased speed or grace in aquatic environments.
+
+
+---
+title: "The Bracteros Effect"
+tags:
+  - spell
+  - spell
+---
+# The Bracteros Effect
+
+- **College:** Light and Darkness
+- **Duration:** 1 hour
+- **Cost:** 4 to cast, 2 to maintain
+- **Prerequisite:** Invisibility
+
+Renders a light source invisible to those more than 7 hexes away from it.
+
+
+---
+title: "The Hekate's Bonds"
+tags:
+  - spell
+  - spell
+---
+# The Hekate's Bonds
+
+- **College:** Body Control
+- **Type:** Regular; Resisted by HT
+- **Duration:** 5 seconds
+- **Cost:** 8 (Cannot be maintained)
+- **Prerequisite:** Total Paralysis
+
+Causes paralysis. (See DFE p. 66).
+
+
+---
+title: "Thunderclap"
+tags:
+  - spell
+  - spell
+---
+# Thunderclap
+
+- **College:** Sound/Elemental (Air)
+- **Type:** Attack, Area effect
+- **Duration:** Instantaneous
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Emits a deafening burst of sound, dealing damage, stunning, or disorienting targets in an area.
+
+
+---
+title: "Walk on Air"
+tags:
+  - spell
+  - spell
+---
+# Walk on Air
+
+- **College:** Elemental (Air), Movement
+- **Type:** Transmutation
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Allows the target to move across the surface of the air as if it were solid ground.
+
+
+---
+title: "Water Vision"
+tags:
+  - spell
+  - spell
+---
+# Water Vision
+
+- **College:** Elemental (Water), Divination
+- **Type:** Sensory enhancement
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Grants the caster the ability to see clearly through water, ignoring distortion, murkiness, or magical effects that impede vision underwater.
+
+
+---
+title: "Wizard Eye"
+tags:
+  - spell
+  - spell
+---
+# Wizard Eye
+
+- **College:** Divination (likely)
+- **Type:** Sensor
+- **Duration:**
+- **Cost:**
+- **Casting time:**
+- **Prerequisite:**
+- **Effect:** Creates an invisible, floating magical sensor that the caster can perceive through, allowing remote observation.
+
+

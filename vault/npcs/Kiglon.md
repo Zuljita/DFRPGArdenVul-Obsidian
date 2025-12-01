@@ -2,6 +2,7 @@
 title: "Kiglon"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Kiglon

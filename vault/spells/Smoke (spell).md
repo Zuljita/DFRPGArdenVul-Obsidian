@@ -2,6 +2,7 @@
 title: "Smoke (spell)"
 tags:
   - spell
+  - spell
 ---
 # Smoke (spell)
 

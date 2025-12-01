@@ -2,6 +2,7 @@
 title: "Nyema"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Nyema

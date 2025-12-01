@@ -2,6 +2,7 @@
 title: "Waterfall"
 tags:
   - location
+  - location
 ---
 # Waterfall
 

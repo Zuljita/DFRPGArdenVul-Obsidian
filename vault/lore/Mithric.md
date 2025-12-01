@@ -2,6 +2,7 @@
 title: "Mithric"
 tags:
   - lore
+  - lore
   - language
 ---
 # Mithric

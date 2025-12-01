@@ -2,6 +2,7 @@
 title: "Tomb of Jacobus"
 tags:
   - location
+  - location
 ---
 # Tomb of Jacobus
 

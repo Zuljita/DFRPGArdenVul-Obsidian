@@ -2,6 +2,7 @@
 title: "Silent Factor"
 tags:
   - faction
+  - faction
 ---
 # Silent Factor
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Magical Rod of Office
 
 ## Summary

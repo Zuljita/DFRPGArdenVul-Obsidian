@@ -2,6 +2,7 @@
 title: "DFRPG Arden Vul Session 27: The Tomb of Ptoh-Ristus"
 tags:
   - session
+  - session
   - recap
 session_id: 27
 ---

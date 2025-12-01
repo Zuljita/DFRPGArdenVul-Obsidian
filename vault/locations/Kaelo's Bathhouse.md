@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # Kaelo's Bathhouse
 
 ## Summary

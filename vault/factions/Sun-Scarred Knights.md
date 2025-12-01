@@ -2,6 +2,7 @@
 title: "Sun-Scarred Knights"
 tags:
   - faction
+  - faction
 ---
 # Sun-Scarred Knights
 

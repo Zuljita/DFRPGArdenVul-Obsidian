@@ -1,3 +1,8 @@
+---
+tags:
+  - lore
+---
+
 # Rudishva Artifact Research
 
 [[Uvash]] undertook research on [[Rudishva]] artifacts.

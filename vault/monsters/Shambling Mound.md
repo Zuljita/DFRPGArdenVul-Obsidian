@@ -2,6 +2,7 @@
 title: "Shambling Mound"
 type: monster
 tags:
+  - monster
   - body_plan/amorphous
 aliases:
 ---

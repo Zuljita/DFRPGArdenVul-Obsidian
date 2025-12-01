@@ -2,6 +2,7 @@
 title: "Blandveg"
 tags:
   - npc
+  - npc
 aliases:
   - Unknown human alchemist
   - Unknown human alchemist, working with the halfling thugs

@@ -2,6 +2,7 @@
 title: "Cliff Face"
 tags:
   - location
+  - location
   - entrance
 ---
 # Cliff Face

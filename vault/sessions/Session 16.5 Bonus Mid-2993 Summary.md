@@ -1,3 +1,8 @@
+---
+tags:
+  - session
+---
+
 DFRPG Arden Vul: Mid-2993 Summary
 It's the end of Jelenios, halfway through the year 2993 AEP, so it's time for a quick summary of the state of the DFRPG Arden Vul campaign.
 

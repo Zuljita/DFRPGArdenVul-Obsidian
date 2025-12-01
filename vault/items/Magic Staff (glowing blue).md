@@ -1,6 +1,7 @@
 ---
 title: "Magic Staff (glowing blue)"
 tags:
+  - item
   - item/weapon
   - item/magic
 ---

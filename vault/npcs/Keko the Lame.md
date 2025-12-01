@@ -1,3 +1,8 @@
+---
+tags:
+  - npc
+---
+
 # Keko the Lame
 
 ## Summary

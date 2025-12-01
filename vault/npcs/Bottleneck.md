@@ -2,6 +2,7 @@
 title: "Bottleneck"
 tags:
   - npc
+  - npc
 aliases:
   - Bottleneck, goblin master sergeant
   - Bottleneck, goblin sergeant

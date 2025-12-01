@@ -2,6 +2,7 @@
 title: "Giant Centipedes"
 type: monster
 tags:
+  - monster
   - classification/beast
   - body_plan/vermin
   - sentience/animal

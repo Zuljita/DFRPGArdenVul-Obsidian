@@ -2,6 +2,7 @@
 title: "Invisibility"
 tags:
   - spell
+  - spell
 ---
 # Invisibility
 

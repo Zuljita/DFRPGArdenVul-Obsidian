@@ -2,6 +2,7 @@
 title: "Water Vision"
 tags:
   - spell
+  - spell
 ---
 # Water Vision
 

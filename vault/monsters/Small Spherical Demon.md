@@ -2,6 +2,7 @@
 title: "Small Spherical Demon"
 type: monster
 tags:
+  - monster
   - classification/demon
   - body_plan/amorphous
   - size/small

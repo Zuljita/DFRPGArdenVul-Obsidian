@@ -2,6 +2,7 @@
 title: "Sanguinette"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 27 - The Tomb of Ptoh-Ristus"
 aliases:

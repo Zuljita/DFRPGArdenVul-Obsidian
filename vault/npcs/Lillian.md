@@ -2,6 +2,7 @@
 title: "Lillian"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 3 - Dragons and Baboons and Beastmen, Oh My!"
   - "Session 22 - The Oracle of Thoth and The Litany of Light"

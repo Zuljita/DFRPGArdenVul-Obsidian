@@ -2,6 +2,7 @@
 title: "Mud People"
 type: monster
 tags:
+  - monster
   - body_plan/humanoid
 aliases:
 ---

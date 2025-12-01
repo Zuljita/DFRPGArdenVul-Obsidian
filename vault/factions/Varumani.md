@@ -2,6 +2,7 @@
 title: "Varumani"
 tags:
   - faction
+  - faction
 ---
 # Varumani
 

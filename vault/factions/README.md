@@ -9,5 +9,6 @@ Suggested front matter:
 title: Cult of Set
 tags:
   - faction
+  - faction
 aliases: []
 ---

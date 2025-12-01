@@ -1,3 +1,8 @@
+---
+tags:
+  - location
+---
+
 # The Stunned Acolyte
 
 ## Summary

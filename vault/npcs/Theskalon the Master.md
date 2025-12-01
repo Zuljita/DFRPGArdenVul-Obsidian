@@ -2,6 +2,7 @@
 title: "Theskalon the Master"
 tags:
   - npc
+  - npc
 aliases:
   - Theskelon the Master
 ---

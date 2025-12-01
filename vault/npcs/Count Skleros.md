@@ -2,6 +2,7 @@
 title: "Count Skleros"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Count Skleros

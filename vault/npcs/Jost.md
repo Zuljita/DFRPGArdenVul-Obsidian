@@ -2,6 +2,7 @@
 title: "Jost"
 tags:
   - npc
+  - npc
 aliases:
 ---
 # Jost

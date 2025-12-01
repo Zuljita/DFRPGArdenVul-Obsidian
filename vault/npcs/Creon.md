@@ -2,6 +2,7 @@
 title: "Creon"
 tags:
   - npc
+  - npc
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
   - "Session 20 - The Outer Caverns of Set"

@@ -2,6 +2,7 @@
 title: "Hall of Judgment"
 tags:
   - location
+  - location
 aliases:
   - Hall of Judgment Date
 ---

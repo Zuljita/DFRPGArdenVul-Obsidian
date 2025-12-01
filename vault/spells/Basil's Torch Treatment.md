@@ -2,6 +2,7 @@
 title: "Basil's Torch Treatment"
 tags:
   - spell
+  - spell
 ---
 # Basil's Torch Treatment
 

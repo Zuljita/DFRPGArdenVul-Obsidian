@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Platinum Torc
 
 ## Description

@@ -1,3 +1,8 @@
+---
+tags:
+  - item
+---
+
 # Gold Signet Ring with "Gregor" inscribed
 
 ## Summary
