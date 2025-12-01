@@ -7,18 +7,19 @@ from googleapiclient.http import MediaFileUpload
 
 def sync_to_drive(service_account_file, folder_id, local_dir):
     """
-    This script syncs the files from a local directory to a Google Drive folder.
+    This script syncs the files from a local directory to a Google Drive folder as Google Docs.
     """
     # Authenticate with Google Drive
     creds = service_account.Credentials.from_service_account_file(
-        service_account_file, scopes=['https://www.googleapis.com/auth/drive'])
-    service = build('drive', 'v3', credentials=creds)
+        service_account_file, scopes=['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/documents'])
+    drive_service = build('drive', 'v3', credentials=creds)
+    docs_service = build('docs', 'v1', credentials=creds)
 
     # Get the list of files in the Google Drive folder
     drive_files = {}
     page_token = None
     while True:
-        response = service.files().list(q=f"'{folder_id}' in parents",
+        response = drive_service.files().list(q=f"'{folder_id}' in parents",
                                       spaces='drive',
                                       fields='nextPageToken, files(id, name)',
                                       pageToken=page_token).execute()
@@ -34,23 +35,45 @@ def sync_to_drive(service_account_file, folder_id, local_dir):
     # Sync local files to Google Drive
     for filename in local_files:
         file_path = os.path.join(local_dir, filename)
-        media = MediaFileUpload(file_path, mimetype='text/plain')
+        doc_name = os.path.splitext(filename)[0]
         
-        if filename in drive_files:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        if doc_name in drive_files:
             # Update existing file
-            file_id = drive_files[filename]
-            service.files().update(fileId=file_id, media_body=media).execute()
-            print(f'Updated {filename} in Google Drive.')
-            del drive_files[filename]
+            file_id = drive_files[doc_name]
+            
+            # Clear existing content
+            document = docs_service.documents().get(documentId=file_id).execute()
+            end_index = document.get('body').get('content')[-1].get('endIndex')
+            requests = [
+                {'deleteContentRange': {'range': {'startIndex': 1, 'endIndex': end_index - 1}}}
+            ]
+            docs_service.documents().batchUpdate(documentId=file_id, body={'requests': requests}).execute()
+
+            # Insert new content
+            requests = [
+                {'insertText': {'location': {'index': 1}, 'text': content}}
+            ]
+            docs_service.documents().batchUpdate(documentId=file_id, body={'requests': requests}).execute()
+            print(f'Updated {doc_name} in Google Drive.')
+            del drive_files[doc_name]
         else:
             # Create new file
-            file_metadata = {'name': filename, 'parents': [folder_id]}
-            service.files().create(body=file_metadata, media_body=media, fields='id').execute()
-            print(f'Created {filename} in Google Drive.')
+            file_metadata = {'name': doc_name, 'parents': [folder_id], 'mimeType': 'application/vnd.google-apps.document'}
+            file = drive_service.files().create(body=file_metadata, fields='id').execute()
+            file_id = file.get('id')
+            
+            requests = [
+                {'insertText': {'location': {'index': 1}, 'text': content}}
+            ]
+            docs_service.documents().batchUpdate(documentId=file_id, body={'requests': requests}).execute()
+            print(f'Created {doc_name} in Google Drive.')
 
     # Delete files from Google Drive that are no longer present locally
     for filename, file_id in drive_files.items():
-        service.files().delete(fileId=file_id).execute()
+        drive_service.files().delete(fileId=file_id).execute()
         print(f'Deleted {filename} from Google Drive.')
 
 if __name__ == '__main__':
