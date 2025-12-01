@@ -480,7 +480,7 @@ To prepare the vault for use with NotebookLM, a script is used to consolidate th
 
 - **Script:** `create_notebooklm_files.py`
 - **Purpose:** This script iterates through the subdirectories of the `vault` and concatenates the content of all markdown files within each subdirectory into a single file.
-- **Output:** The script generates a set of markdown files in the `notebookLMFiles` directory, with each file corresponding to a subdirectory in the vault (e.g., `npcs.md`, `locations.md`).
+- **Output:** The script generates a set of plain text files in the `notebookLMFiles` directory, with each file corresponding to a subdirectory in the vault (e.g., `npcs.txt`, `locations.txt`).
 - **Exclusions:** The script excludes the `.obsidian` and `templates` directories from the export.
 
 ---

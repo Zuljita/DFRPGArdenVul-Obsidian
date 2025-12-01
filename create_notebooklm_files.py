@@ -42,7 +42,7 @@ def create_notebooklm_files():
                         
             # Save the concatenated content to a new file
             if concatenated_content:
-                output_filename = f'{subdir}.md'
+                output_filename = f'{subdir}.txt'
                 output_path = os.path.join(output_dir, output_filename)
                 with open(output_path, 'w', encoding='utf-8') as f:
                     f.write(concatenated_content)
