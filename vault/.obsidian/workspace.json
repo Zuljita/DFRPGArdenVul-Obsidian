@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "locations/Gosterwick.md",
+                "file": "npcs/The Thane.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gosterwick"
+              "title": "The Thane"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "thane",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,8 +181,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "dc5a64bd6a2cb8cd",
+  "active": "fe1fc7ba886767f2",
   "lastOpenFiles": [
+    "locations/Gosterwick.md",
     "locations/Imperial Road.md",
     "locations/Water Gate.md",
     "sessions/Session 33 - Nyema.md",
@@ -202,7 +204,6 @@
     "npcs/Bumpko.md",
     "locations/Great Chasm.md",
     "locations/Great Cavern.md",
-    "locations/Gosterwick.md",
     "locations/Goblin Market.md",
     "locations/Glory of Thoth.md",
     "locations/Forum of Arden Vul.md",

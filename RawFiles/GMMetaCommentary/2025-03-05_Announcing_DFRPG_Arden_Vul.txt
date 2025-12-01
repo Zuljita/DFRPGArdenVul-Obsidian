@@ -1,0 +1,45 @@
+2025-03-05
+Announcing DFRPG Arden Vul
+I've been going back and forth on which game to run next, and a couple of months ago I decided to try another fantasy megadungeon.  So I bought and read most of the available ones, and the one I liked the most was The Halls of Arden Vul, by Richard Barton, written for OSRIC (which is basically Advanced D&D First Edition with the beholders removed and carrion crawlers renamed).
+
+I don't want to write a long review of Arden Vul here, because I don't want to spoil prospective players, but I will say that it's huge (1100+ pages), and has both a very well-done world with all kinds of interesting lore to discover and a huge dungeon full of interesting NPCs and monsters and traps and secrets, and it looks hard.
+
+Anyway, I've got enough of the adventure converted to start recruiting players, so here's the general summary of the game that I'll share with prospective players.
+
+I want to use Dungeon Fantasy Roleplaying Game (DFRPG) as the base rules set.  Assume anything in DFRPG is allowed and nothing else in GURPS is allowed, unless noted otherwise.
+Despite being hard, Arden Vul is designed to start with first level D&D characters, so we need to reduce the starting power level.  I find that about half of the DFRPG default works well:
+125 points
+-25 point disadvantage limit
+Sense of Duty (Adventuring Companions) [-5] doesn't count against the limit
+-5 point quirk limit
+I'd like to use templates to simplify character generation.  The standard DFRPG templates are 250 points, so those won't work.  So I'd like to try Five Easy Pieces from Pyramid 3/113.  (They're also in the GCS master library.)  The idea is there are a bunch of 50-point mini-templates.  With 125 + 25 + 5 + 5 = 160 points, starting PCs will only be able to afford three Pieces (or two and an expensive racial template) rather than five.
+The only playable PC races in this setting are dwarves, elves, half-elves, halflings, humans, and Imperial Goblins (new template, in GCS).  No cat-folk, no half-orcs or half-ogres, no gnomes.
+Languages matter in this setting, and some PCs will need to take a second language, so I'll allowing languages at Accented and Broken levels to save points.
+I will award XP for loot, exploration, and achievements.  A threshold level of loot (which will increase with character points) recovered and brought back to town will achieve 1 point, a great haul 2 points.  A significant amount of new territory explored will achieve 1 point, a great amount of exploration 2 points.  And then any major achievements will grant bonus points.  The idea is to encourage players to be bold and achieve things, rather than grinding slowly.
+Beyond game rules, here are some high level ideas to see if this is the right game for you.
+No spoilers.  If you've read Arden Vul or watched an Actual Play of it, you can't play.  Don't read reviews of it either as those tend to leak spoilers.  You can safely read this blog though; anything I post here is fair game.
+This adventure is hard enough that you need a certain amount of caution to survive, so some experience with fantasy RPGs is good to have.  GURPS expertise is not as important, though any players new to the system should probably avoid spellcasters to start, and get advice from other players.
+A brief introduction to the setting:
+The world is called Magae, and the major power is the Archontean Empire.  
+The old Archontean Empire was vaguely like ancient Rome, except centered on an island in the ocean instead of a peninsula in a sea.  The empire expanded to occupy all the nearby islands and also colonize parts of the large continent of Irthuin.  
+1200 years ago, the empire suffered a magical civil war, and the survivors withdrew from their colonies to fight over the home island of Mithruin.
+Now the empire is again growing and re-occupying its old territories.  (Imagine Byzantium, if it didn't fall in 1453 and instead grew.  It claims to be the old empire, but everything is a bit different.)  Arden Vul was a city at the extreme frontier of the old empire, destroyed in the civil war.  Now the new empire's borders have extended to near the ruins of Arden Vul, and the small town of Gosterwick has been founded just a few miles from the ruined city, close enough to support adventurers trying to explore and loot the ruins and the dungeons underneath.
+There are four major human cultures: the Archonteans (rulers of the empire, with a Byzantine feel), the Thorcin (the local population in this part of Irthiun, conquered then independent and now conquered again), the Wiskin (vikings from the northern islands), and the Khumus (horse nomads from far to the west).
+There are also halfling and Imperial Goblin populations within the Archontean Empire.  They are fully assimilated into the empire, though the goblins are second-class citizens.
+The are elven and dwarven kingdoms, outside the Empire.  They are fiercely independent and secretive, speak their own languages, and have their own religions (or lack thereof).  There are also half-elves, who might live in elven culture or in any of the human cultures, or straddle both.
+The Archonteans offically worship ten major gods and seventeen minor gods.  The Thorcinga, Wiskinga, Imperial Goblins, and Halflings have their own pantheons (though some Imperial Goblins and Halflings worship Archontean gods).  Dwarves are monotheists and Elves are "spiritual but not religious" and lack clerics.  To simplify life for those who want to play clerics or other religious characters without reading too much backstory, only four of the major Archontean gods have temples in Gosterwick.
+There is no plate armor.  This doesn't matter much.
+It's a normal mana area.  Magic is well known, and studied and regulated by colleges.
+The play area is called Burdock's Valley.  It's about 90 by 80 miles and contains the ruins of Arden Vul, the small town of Gosterwick (a half-day's march south of Arden Vul), the larger town of Newmarket (about 3 days further south), six small villages, and a couple of castles.  It's a frontier part of the Archontean Empire, but most of the inhabitants are Thorcin.
+Logistics:
+I'd like to run a weekly game.  Tentatively Friday nights from 8 pm - midnight North American Eastern Time.
+I'd like 4-5 players.  More than 5 gets hard to run.  I'd like to play any week that the GM and a majority of players are available.  I'll poll players for availability each week on Discord, then announce whether we have enough for a game.
+To avoid having to drag along inactive characters, I'd prefer that PCs return to a safe place each week, so it's easy to leave characters behind there.  To encourage that, I'll only award and allow spending points in safe places.
+Software
+Foundry VTT (GM already has a license; players just need a computer with a web browser) as a virtual tabletop (maps, character sheets, dice)
+GCS (free, runs on Linux/macOS/Windows) for editing character sheets, 
+Discord (free, runs on Android/iOS/Linux/macOS/Windows) for text and voice chat.
+I'd like to run a voice game, so players need a microphone.
+I'll do recaps of each session on this blog.  
+
+
