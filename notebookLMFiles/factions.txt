@@ -127,7 +127,7 @@ The organization operates with a high degree of secrecy, using aliases for its m
 
 
 ---
-title: "Children of Deino"
+title: Children of Deino
 tags:
   - faction
   - faction
@@ -251,8 +251,6 @@ An adventuring party or mercenary company led by Dalton. They are known to explo
 - Jason
 - Heliagabulus
 - Yvette
-
-## Allies & Rivals
 - Isidor (halfling adventurer)
 
 ## Notes
