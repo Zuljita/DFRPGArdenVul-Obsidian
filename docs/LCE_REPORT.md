@@ -1,95 +1,66 @@
-## Well of Light
-- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Great Hall]]
-- [[Pyramid of Thoth]] -> [[Gog's cave]]
-- [[Pyramid of Thoth]] -> [[Glory of Thoth]] [via Statue Arms Forward If Stated] [method: Stairs]
-- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation If Stated]
-- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation If Stated]
-- [[Forum of Set]] -> [[Great Hall]]
-- [[Pyramid of Thoth]] -> [[Glory of Thoth]]
-- [[Pyramid of Thoth]] -> [[Glory of Thoth]]
-- [[Pyramid of Thoth]] -> [[Glory of Thoth]]
-- [[Newmarket]] -> [[Arden Vul]]
-- [[Forum of Arden Vul]] -> [[Well of Light]]
-- [[Gosterwick]] -> [[Well of Light]]
-- [[Arden Vul]] -> [[Cliff Face]]
-- [[Sighing Stair]] -> [[Temple of Set]] [via Top if stated] [method: Running at full speed]
-- [[Sighing Stair]] -> [[Temple of Set]]
-- [[Cliff Face]] -> [[Gosterwick]] [via Hiking if stated]
-- [[Arden Vul]] -> [[Well of Light]]
-- [[Howling Caves]] -> [[Hall of Judgment]] [via West if stated] [feature: Renegade Baboons, Trefko the Old Four-Armed Baboon, Female Baboons Formerly Sisko's Harem]
-- [[Gosterwick]] -> [[Well of Light]] [via Howling Caves if stated] [method: traveled]
-- [[Well of Light]] -> [[Temple of Set]] [via Goblin Great Hall, map from Temrin if stated] [method: followed the map]
-- [[Temple of Set]] -> [[Beacon]] [via Halls of Thoth, Gog's cave, Stamelis' bust if stated] [method: brought]
-- [[Gosterwick]] -> [[Well of Light]]
-- [[Pyramid of Thoth]] -> [[Well of Light]] [via None] [method: Exploration]
+## Archontos
 
-## Pyramid of Thoth
-- [[Cliff Face]] -> [[Arden Vul]] [via Long Stair method: Walk]
-- [[Arden Vul]] -> [[Pyramid of Thoth]] [method: Walk]
-- [[Cliff Face]] -> [[Arden Vul]]
-- [[Cliff Face]] -> [[Arden Vul]] [via Long Stair] [method: Walk]
-- [[Arden Vul]] -> [[Pyramid of Thoth]] [via steps down into pyramid] [method: Walk]
-- [[Cliff Face]] -> [[Arden Vul]]
-- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Great Hall]]
-- [[Pyramid of Thoth]] -> [[Gog's cave]]
-- [[Gosterwick]] -> [[Arden Vul]]
-- [[Arden Vul]] -> [[Swift River]]
-- [[Sighing Stair]] -> [[Temple of Set]] [via Top if stated] [method: Running at full speed]
-- [[Sighing Stair]] -> [[Temple of Set]]
-- [[Sighing Stair]] -> [[Temple of Set]] [via Top if stated] [method: Running]
-- [[Sighing Stair]] -> [[Temple of Set]]
-- [[Swift River]] -> [[Arden Vul]]
-- [[Tower of Scrutiny]] -> [[Pyramid of Thoth]]
-- [[Gosterwick]] -> [[Cliff Face]]
-- [[Pyramid of Thoth]] -> [[Well of Light]] [via None] [method: Exploration]
-- [[Great Chasm]] -> [[Pyramid of Thoth]] [via Lever on Top of Triangular Pyramid, Teleporter to Well of Light]
+## Arden Vul
+
+## Arena
+
+## Astabelon's Bookstore
+
+## Azure Keep
+
+## Baliff's Truncheon
+
+## Barracks of the Old Ones
+
+## Beacon
+
+## Cliff Face
+
+## Dam (Arden Vul)
+
+## Dripping Hog
+
+## Eighth Level Grotto of Singing Heads
+
+## Exarchate of Narsileon
+
+## Forum of Arden Vul
 
 ## Forum of Set
-- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Great Hall]]
-- [[Pyramid of Thoth]] -> [[Gog's cave]]
-- [[Gosterwick]] -> [[Yellow Cloak Inn]] [feature: Susarra's murder if stated]
-- [[Gosterwick]] -> [[Yellow Cloak Inn]]
+
+## Fungal Forest
+
+## Glory of Thoth
+
+## Glory of Weskenim
+
+## Goblin Great Hall
+
+## Goblin Market
+
+## Goblintown
+
+## Gog's cave
+
+## Gosterwick
+
 ## Great Cavern
-- [[Gosterwick]] -> [[Cliff Face]] [via Long Stair if stated] [method: Hiked]
-- [[Gosterwick]] -> [[Cliff Face]]
-- [[Gosterwick]] -> [[Cliff Face]] [via Long Stair if stated] [method: Hiking]
-- [[Gosterwick]] -> [[Cliff Face]]
-- [[Cliff Face]] -> [[Great Cavern]] [via Long Stair if stated] [method: climbing]
-- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation]
-- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation]
-- [[Great Hall]] -> [[Great Cavern]] [via Beastman Secret Entrance]
-- [[Forum of Set]] -> [[Swift River]] [via Basket]
-- [[Pyramid of Thoth]] -> [[Great Hall]]
-- [[Pyramid of Thoth]] -> [[Gog's cave]]
-- [[Great Hall]] -> [[Great Cavern]]
-- [[Gosterwick]] -> [[Arden Vul]] [method: Step Through Rug]
-- [[Arden Vul]] -> [[Great Cavern]] [via Long Stair if stated] [feature: Secret Entrance]
-- [[Great Cavern]] -> [[Inn of the Broken Head]] [via Long Stair if stated] [method: Step Through Rug]
-- [[Arden Vul]] -> [[Great Cavern]]
-- [[Arden Vul]] -> [[Gosterwick]] [method: Step Through]
-- [[Arden Vul]] -> [[Gosterwick]]
-- [[Gosterwick]] -> [[Cliff Face]] [via Secret Door if stated] [method: Levitation]
-- [[Cliff Face]] -> [[Great Cavern]] [via Secret Door if stated] [method: Rug of Instant Access]
-- [[Gosterwick]] -> [[Great Cavern]] [via Rug of Instant Access if stated] [method: Teleportation]
-- [[Gosterwick]] -> [[Cliff Face]] [via Secret Door if stated] [method: Rug of Instant Access]
-- [[Great Cavern]] -> [[Cliff Face]] [via Secret Door if stated] [method: Rug of Instant Access]
-- [[Cliff Face]] -> [[Great Cavern]]
-- [[Gosterwick]] -> [[Great Cavern]]
-- [[Gosterwick]] -> [[Cliff Face]]
-- [[Great Cavern]] -> [[Cliff Face]]
-- [[Long Stair]] -> [[Gosterwick]] [via Two-Thirds Up if stated]
-- [[Arden Vul]] -> [[Halls of Thoth]] [method: stairs] method: stairs
-- [[Arden Vul]] -> [[Great Pyramid]]
+
+## Cliff Face
+
+## Dam (Arden Vul)
+
+## Dripping Hog
+
+## Eighth Level Grotto of Singing Heads
+
+## Exarchate of Narsileon
+
+## Forum of Arden Vul
+
+## Forum of Set
+
+## Fungal Forest
+
+## Burdock Valley
 
