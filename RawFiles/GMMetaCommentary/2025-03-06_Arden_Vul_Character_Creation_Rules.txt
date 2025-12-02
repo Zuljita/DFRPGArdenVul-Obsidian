@@ -1,0 +1,48 @@
+2025-03-06
+Arden Vul Character Creation Rules
+We're using Dungeon Fantasy Roleplaying Game as the base rules set.  Anything from the rest of GURPS will only be brought in with GM approval.  (I'm trying to keep this simple so that a new player with only the DFRPG has a chance to keep up.)
+
+PCs at the start of the campaign get:
+125 points
+-25 point disadvantage limit
+Sense of Duty (Adventuring Companions) [-5] does not count against the limit
+-5 point quirk limit
+We are using the Five Easy Pieces character generation option from Pyramid 3/113 (also in GCS).  There are a bunch of 50-point templates and you get to pick as many of them as you can afford.  With 125 + 25 + 5 + 5, you can afford 3, unless you bought an expensive racial template and can only afford 2.  Disad points embedded in a Piece *do* count against the limit.  Any leftover points can go to anything on any of your Pieces, or any abilities that are not reserved to a particular template in DFRPG.  (Anyone can buy up their attributes, buy most skills, and buy most advantages.  But a some things are reserved for a particular template, like Halfling Marksmanship is only for Halflings and Turning is only for Clerics.  If you're not sure, ask.) 
+
+The only available racial templates are dwarf, elf, half-elf, halfling, human, and Imperial Goblin.  (Links to someone else's worldanvil page.)
+
+Human  (Pick Archontean, Thorcin, Wiskin, or Khumus as your native language)
+
+Elf (Native language: Elvish)
+
+Half-Elf (See both Human and Elf, and pick Archontean, Thorcin, Wiskin, Khumus, or Elvish as your native language.  If you were raised equally in both cultures, feel free to buy a second native language.)
+
+Dwarf (Native language: Dwarvish)
+
+Halfling (Native language: Archontean)
+
+Imperial Goblin (New racial template below, and in GCS.  Native language Archontean.)
+
+Imperial Goblin [0]
+SM -1 [0]
+Per +1 [5]
+Basic Move -1 [-5]
+HP +1 [2]
+Night Vision 5 [5]
+Resistant to Poison +5 [5]
+Sharp Teeth [1]
+Ugly [-8]
+Social Stigma (Second-Class Citizen) [-5]
+
+Everyone gets one native language for free as usual; which one depends on your racial template as listed above.  (If you don't pick a native language the default is Archontean, unless you're an elf or dwarf.)  The most commonly spoken languages in the area near Arden Vul are Archontean (more urban and ruling class) and Thorcin (more rural and working class).  It might be useful to speak both.  Mithric, the language of the ancient Archontean Empire, is currently dead as a native language but still exists as the language of magic, some religions, and some sages and scholars.  Spellbooks and scrolls are written in Mithric so all mages and clerics who want to be able to use them should know some Mithric.  It's allowed to take languages at Accented or Broken, for fewer points.  (In GCS, use the GURPS Basic Set version of languages instead of the DFRPG version to get these options.)
+
+Starting money is per the DFRPG rules.  You can buy Wealth to get more.  You can also trade points for cash (only at the start not later).  You can start with any equipment from DFRPG: Adventurers (only) *except* plate armor, which doesn't exist in the setting.  (If there's some obviously common non-magical item you want that isn't on the list, like twine or a chicken, ask the GM.)  After the game starts, some equipment (special orders, magic items) may not be easy to find; you may need to make availability die rolls, or travel to a big city, or hire an enchanter...
+
+Coins are different from those in DFRPG; we're using AD&D coin value ratios and the silver piece standard.  So a copper is $0.1, a silver is $1, an electrum piece is $5 (but that doesn't matter because nobody uses them), a gold piece is $10, and a platinum piece is $50.  You can mostly just use GURPS dollars and ignore the exact coins, unless you enjoy that kind of thing or find a hoard so big that the weight actually matters.  These coins are in GCS under Home Brew / Arden Vul Equipment.
+
+There is one new perk for this campaign, Burdock's Valley Local [1].  (Also in GCS.)  If you take it, you've lived in the Burdock's Valley area long enough to know stuff; you get extra rumors and an area map and default Area Knowledge for the local area.  If you don't take it, you just arrived from somewhere else and have to ask NPCs for directions.
+
+2025-03-08
+Arden Vul: The Archontean Calendar
+One of my players actually asked about the Archontean Calendar, and once again someone else already made a great web page about it which I will just link rather than recreating.  (Thanks!)
+

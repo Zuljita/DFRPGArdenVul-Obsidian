@@ -26,6 +26,9 @@ from typing import Dict, List, Tuple
 DEFAULT_ENDPOINT = os.environ.get("LLM_ENDPOINT", "http://192.168.21.76:1234/v1/chat/completions")
 DEFAULT_MODEL = os.environ.get("LLM_MODEL", "qwen2.5-7b-instruct")
 
+# Resolve repository root relative to this script so it works from any CWD
+ROOT = Path(__file__).resolve().parents[1]
+
 def read_text(p: Path) -> str:
     try:
         return p.read_text(encoding="utf-8")
@@ -159,7 +162,8 @@ def main():
     ap.add_argument("--dry-run", action="store_true", default=True)
     args = ap.parse_args()
 
-    root = Path.cwd()
+    # Use repo root resolved from this script
+    root = ROOT
     if not args.location:
         print("--location is required", file=sys.stderr)
         sys.exit(2)
@@ -219,4 +223,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

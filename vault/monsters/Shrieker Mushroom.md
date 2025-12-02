@@ -5,6 +5,7 @@ tags:
   - monster
   - body_plan/vermin
 aliases:
+  - Shriekers (mushroom)
 ---
 # Shrieker Mushroom
 
@@ -25,3 +26,4 @@ Their shriek can attract other creatures.
 
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]

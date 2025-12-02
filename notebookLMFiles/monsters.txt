@@ -711,6 +711,7 @@ tags:
   - monster
   - body_plan/vermin
 aliases:
+  - Shriekers (mushroom)
 ---
 # Shrieker Mushroom
 
@@ -731,34 +732,6 @@ Their shriek can attract other creatures.
 
 ## Sessions
 - Session 3 - Dragons and Baboons and Beastmen, Oh My!
-
-
----
-title: "Shriekers (mushroom)"
-type: monster
-tags:
-  - monster
-  - body_plan/vermin
-aliases:
----
-# Shriekers (mushroom)
-
-## Summary
-A type of subterranean fungus known for emitting a loud shriek when approached, often used as natural alarms.
-
-## First Appearance
-Session 4 - Cheese and Crackers and Thoth and Demons
-
-## Disposition
-Passive, reactive.
-
-## Known Associates
-None.
-
-## Notes
-Their shriek can attract hostile creatures or alert nearby inhabitants.
-
-## Sessions
 - Session 4 - Cheese and Crackers and Thoth and Demons
 
 

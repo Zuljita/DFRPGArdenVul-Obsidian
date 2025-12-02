@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "[pre-commit] Creating NotebookLM flattened files..." >&2
+python3 create_notebooklm_files.py notebookLMFiles
+
+# Stage the updated flattened files so they are included in this commit
+git add notebookLMFiles || true
+
+echo "[pre-commit] NotebookLM files updated and staged." >&2
+exit 0
+

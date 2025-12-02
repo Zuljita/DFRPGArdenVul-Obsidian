@@ -10,6 +10,8 @@ __pycache__/
 .iac_tmp/
 scripts/__pycache__/
 scripts/output/
+notebookLMFiles/.tmp.driveupload/
+notebookLMFiles/.tmp.driveupload/**
 
 # Quartz build output (if present)
 quartz/public/
