@@ -1,0 +1,133 @@
+# Location Connections
+
+Auto-generated from LCE edges. Update by running the LCE scripts and rebuilding.
+
+```mermaid
+graph TD
+  Arden_Vul["Arden Vul"]
+  Azure_Keep["Azure Keep"]
+  Beacon["Beacon"]
+  Cliff_Face["Cliff Face"]
+  Forum_of_Arden_Vul["Forum of Arden Vul"]
+  Forum_of_Set["Forum of Set"]
+  Glory_of_Thoth["Glory of Thoth"]
+  Glory_of_Weskenim["Glory of Weskenim"]
+  Goblin_Great_Hall["Goblin Great Hall"]
+  Goblintown["Goblintown"]
+  Gog_s_cave["Gog's cave"]
+  Gosterwick["Gosterwick"]
+  Great_Cavern["Great Cavern"]
+  Great_Chasm["Great Chasm"]
+  Great_Hall["Great Hall"]
+  Great_Pyramid["Great Pyramid"]
+  Hall_of_Judgment["Hall of Judgment"]
+  Halls_of_Thoth["Halls of Thoth"]
+  Howling_Caves["Howling Caves"]
+  Imperial_Road["Imperial Road"]
+  Inn_of_the_Broken_Head["Inn of the Broken Head"]
+  Livestock_and_Horse_Market["Livestock and Horse Market"]
+  Long_Stair["Long Stair"]
+  Narsileon["Narsileon"]
+  Newmarket["Newmarket"]
+  Obelisk["Obelisk"]
+  Pyramid_of_Thoth["Pyramid of Thoth"]
+  Sighing_Stair["Sighing Stair"]
+  Swift_River["Swift River"]
+  Tasha_s_Tailor_Shop["Tasha's Tailor Shop"]
+  Temple_of_Demma["Temple of Demma"]
+  Temple_of_Mitra["Temple of Mitra"]
+  Temple_of_Set["Temple of Set"]
+  Totey_Lake["Totey Lake"]
+  Upper_Goblintown["Upper Goblintown"]
+  Water_Gate["Water Gate"]
+  Waterfall["Waterfall"]
+  Well_of_Light["Well of Light"]
+  Wet_Caves["Wet Caves"]
+  Yellow_Cloak_Inn["Yellow Cloak Inn"]
+  Arden_Vul -->|via Imperial Road; Travel; via Imperial Road; Travel by foot| Cliff_Face
+  Arden_Vul --> Forum_of_Arden_Vul
+  Arden_Vul -->|Step Through| Gosterwick
+  Arden_Vul -->|via Long Stair; via discussion| Great_Cavern
+  Arden_Vul -->|stairs| Halls_of_Thoth
+  Arden_Vul -->|Instructed; via Stairs| Newmarket
+  Arden_Vul -->|Walk; via Ruins of Arden Vul; Headed| Pyramid_of_Thoth
+  Arden_Vul --> Swift_River
+  Arden_Vul -->|via Long Stair to the Beastman Secret Door into the Great Cavern; North; via North; Travel| Waterfall
+  Arden_Vul -->|via Long Stair; Flight; via Top Of Well; Teleportation| Well_of_Light
+  Azure_Keep -->|via Cliff Face; Travel by foot; via Imperial Road; Travel by horseback| Arden_Vul
+  Azure_Keep --> Cliff_Face
+  Cliff_Face -->|Hiked; via Imperial Road; Travel by foot| Arden_Vul
+  Cliff_Face -->|via Hiking; via Rug of Instant Access| Gosterwick
+  Cliff_Face -->|via Long Stair; via Long Stair; climbing| Great_Cavern
+  Cliff_Face -->|via Levitate; via Levitation for Vael; Climb| Long_Stair
+  Cliff_Face -->|via ruins and basement then through desecrated Temple of Thoth; Travel by foot| Temple_of_Set
+  Cliff_Face -->|via plunge pool| Waterfall
+  Forum_of_Arden_Vul -->|via Long Stair; Walk| Cliff_Face
+  Forum_of_Arden_Vul --> Well_of_Light
+  Forum_of_Set --> Great_Hall
+  Forum_of_Set -->|via Ruined Basement, Hidden Staircase Northwest Of Glory Of Thoth; Shape Earth; via Well Of Light; Magical Flight Or Rope| Pyramid_of_Thoth
+  Glory_of_Thoth -->|via Goblin Guide; via Goblintown; Following Goblin Guide| Wet_Caves
+  Gog_s_cave --> Goblin_Great_Hall
+  Gog_s_cave -->|via Secret Door| Upper_Goblintown
+  Gosterwick -->|Step Through; Step Through Rug| Arden_Vul
+  Gosterwick -->|Hiking; via Hike; Hike| Cliff_Face
+  Gosterwick -->|Duty Deacon; via Gosterwick; Travel| Forum_of_Set
+  Gosterwick -->|via Stairs; Walking if implied| Glory_of_Thoth
+  Gosterwick --> Great_Cavern
+  Gosterwick -->|via outskirts; via outskirts of town| Livestock_and_Horse_Market
+  Gosterwick -->|via Hike| Long_Stair
+  Gosterwick -->|Teleportation Rug| Narsileon
+  Gosterwick -->|hiking| Newmarket
+  Gosterwick -->|via Old Imperial Road; Hiking| Swift_River
+  Gosterwick -->|via Upper Market; via Upper Market stalls| Tasha_s_Tailor_Shop
+  Gosterwick -->|Remove Curse Spell; via Hill of the Gods| Temple_of_Demma
+  Gosterwick -->|Vigil Spell; via Temple of Mitra; meeting with priests| Temple_of_Mitra
+  Gosterwick --> Totey_Lake
+  Gosterwick --> Water_Gate
+  Gosterwick -->|via Howling Caves; via Howling Caves; traveled| Well_of_Light
+  Gosterwick -->|Susarra's murder; via Gosterwick; Travel| Yellow_Cloak_Inn
+  Great_Cavern -->|via Rug; via Rug; Step Through| Gosterwick
+  Great_Cavern -->|via Beastman Secret Entrance From Long Stair| Great_Hall
+  Great_Cavern -->|via Long Stair; Step Through Rug| Inn_of_the_Broken_Head
+  Great_Chasm --> Glory_of_Thoth
+  Great_Chasm --> Great_Cavern
+  Great_Chasm -->|via Lever on Top of Triangular Pyramid, Teleporter to Well of Light| Pyramid_of_Thoth
+  Great_Hall -->|via Teleportation; via Teleportation; Teleportation| Gog_s_cave
+  Great_Hall -->|via Teleportation| Great_Cavern
+  Great_Pyramid -->|via Bust of Selket with a Scorpion on Her Head; Teleportation| Great_Hall
+  Halls_of_Thoth --> Great_Cavern
+  Halls_of_Thoth -->|via Halls of Thoth| Great_Chasm
+  Howling_Caves --> Goblin_Great_Hall
+  Howling_Caves -->|via West; Talk to Baboons| Hall_of_Judgment
+  Imperial_Road --> Arden_Vul
+  Long_Stair -->|via Levitate; Levitation; via South; Down| Cliff_Face
+  Long_Stair -->|via Up| Gosterwick
+  Long_Stair -->|via Beastman Secret Entrance; Secret Shared by Jost; via Beastman Secret Entrance; Shape Earth| Great_Cavern
+  Long_Stair -->|via Hike; Hiking; via Hiking| Pyramid_of_Thoth
+  Newmarket -->|Ascending Long Stair via roped descent method; via Long Stair; Levitating| Arden_Vul
+  Newmarket --> Cliff_Face
+  Newmarket -->|via 60 Miles; Hiking| Gosterwick
+  Newmarket -->|via 60 Miles; Hiking; via Sea Route; Ship| Narsileon
+  Obelisk -->|via South; via South; Walking| Long_Stair
+  Pyramid_of_Thoth -->|via Head Toward; Walking; via Manipulating Statue's Arms, Reading Graffiti, Walking Down Several Hundred Stairs| Glory_of_Thoth
+  Pyramid_of_Thoth -->|via Teleportation| Gog_s_cave
+  Pyramid_of_Thoth -->|via Statue Arms Forward And Stairs To Glory Of Thoth; Teleportation; via Statue Arms Forward, Stairs To Glory Of Thoth; Teleportation| Great_Hall
+  Pyramid_of_Thoth -->|via Bottom| Sighing_Stair
+  Pyramid_of_Thoth -->|via None; Exploration| Well_of_Light
+  Sighing_Stair -->|via East; Full Speed; via Top| Temple_of_Set
+  Swift_River -->|via Long Stair; Climbed| Arden_Vul
+  Temple_of_Set -->|via Halls Of Thoth; via Halls Of Thoth; brought| Beacon
+  Totey_Lake -->|via Bricwine's actions; Throwing| Gosterwick
+  Upper_Goblintown -->|via Halls Of Thoth| Glory_of_Weskenim
+  Upper_Goblintown -->|via Stairs| Pyramid_of_Thoth
+  Water_Gate -->|via Long Stair| Arden_Vul
+  Waterfall -->|via Long Stair to the Beastman Secret Door; North| Great_Cavern
+  Well_of_Light -->|via Teleportation| Gog_s_cave
+  Well_of_Light -->|via Flying up the Well then Hiking back; Flight/Levitation/Flying; via Flying up the Well with Vallium and Michael carrying Ioannes and Uvash; Flying| Gosterwick
+  Well_of_Light -->|via Lever on Top of Triangular Pyramid| Great_Chasm
+  Well_of_Light -->|via Teleportation| Great_Hall
+  Well_of_Light -->|via Goblin Great Hall; via Goblin Great Hall and map; followed the map| Temple_of_Set
+  Wet_Caves -->|via Frail Bridge; Following Guide; via Staircase; Walk if implied| Goblintown
+  Wet_Caves -->|via Ferry Across Underground Stream; via Killik; Walk| Gog_s_cave
+  Yellow_Cloak_Inn -->|via Gosterwick; Travel| Gosterwick
+```

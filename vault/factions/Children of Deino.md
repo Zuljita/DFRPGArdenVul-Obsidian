@@ -1,5 +1,5 @@
 ---
-title: "Children of Deino"
+title: Children of Deino
 tags:
   - faction
   - faction

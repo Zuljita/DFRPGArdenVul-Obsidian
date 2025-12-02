@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "npcs/The Thane.md",
+                "file": "locations/Catacombs of Thoth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Thane"
+              "title": "Catacombs of Thoth"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "thane",
+                "query": "tag:faction",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -183,6 +182,21 @@
   },
   "active": "fe1fc7ba886767f2",
   "lastOpenFiles": [
+    "locations/Burdock Valley.md",
+    "locations/Beacon.md",
+    "locations/Barracks of the Old Ones.md",
+    "locations/Baliff's Truncheon.md",
+    "locations/Azure Keep.md",
+    "sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md",
+    "npcs/Dalton.md",
+    "factions/Dalton's Darlings.md",
+    "npcs/Isidor.md",
+    "factions/Children of Deino.md",
+    "factions/Benevolent Brotherhood.md",
+    "concepts/Stirge Fever.md",
+    "npcs/The Thane.md",
+    "graphs/Location Connections.md",
+    "graphs",
     "locations/Gosterwick.md",
     "locations/Imperial Road.md",
     "locations/Water Gate.md",
@@ -195,20 +209,6 @@
     "items/Platinum Torc.md",
     "items/Blue glass square.md",
     "items/Nataraja Watcher.md",
-    "locations/Glory of Weskenim.md",
-    "npcs/Mr. Heads.md",
-    "npcs/The Master.md",
-    "npcs/Bifki.md",
-    "npcs/Bobo.md",
-    "npcs/The Thane.md",
-    "npcs/Bumpko.md",
-    "locations/Great Chasm.md",
-    "locations/Great Cavern.md",
-    "locations/Goblin Market.md",
-    "locations/Glory of Thoth.md",
-    "locations/Forum of Arden Vul.md",
-    "locations/Exarchate of Narsileon.md",
-    "locations/Eighth Level Grotto of Singing Heads.md",
     "Untitled.canvas",
     "sessions/XXXJiRei",
     "notes",

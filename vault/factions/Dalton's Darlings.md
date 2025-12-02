@@ -17,8 +17,6 @@ Exploration, treasure acquisition, survival.
 - [[npcs/Jason.md|Jason]]
 - [[npcs/Heliagabulus.md|Heliagabulus]]
 - [[npcs/Yvette.md|Yvette]]
-
-## Allies & Rivals
 - [[npcs/Isidor.md|Isidor]] (halfling adventurer)
 
 ## Notes
