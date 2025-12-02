@@ -5,7 +5,7 @@ import re
 import subprocess
 from pathlib import Path
 
-ROOT = Path.cwd()
+ROOT = Path(__file__).resolve().parents[1]
 LOC_DIR = ROOT / 'vault' / 'locations'
 REPORT = ROOT / 'docs' / 'LCE_REPORT.md'
 
@@ -52,4 +52,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

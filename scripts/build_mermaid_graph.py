@@ -2,8 +2,9 @@
 import re
 from pathlib import Path
 
-REPORT = Path('docs/LCE_REPORT.md')
-OUT = Path('docs/locations_graph.mmd')
+ROOT = Path(__file__).resolve().parents[1]
+REPORT = ROOT / 'docs' / 'LCE_REPORT.md'
+OUT = ROOT / 'docs' / 'locations_graph.mmd'
 
 EDGE_RE = re.compile(r"^- \[\[([^\]]+)\]\] -> \[\[([^\]]+)\]\](.*)$")
 
