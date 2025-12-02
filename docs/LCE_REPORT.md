@@ -1,66 +1,87 @@
-## Archontos
+## Well of Light
+- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation]
+- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation]
+- [[Pyramid of Thoth]] -> [[Glory of Thoth]] [via Stairs if stated] [method: Magical Flight or Rope if stated]
+- [[Well of Light]] -> [[Great Hall]] [via Teleportation if stated]
+- [[Well of Light]] -> [[Gog's cave]] [via Teleportation if stated]
+- [[Long Stair]] -> [[Great Cavern]] [via Beastman Secret Entrance if stated] [method: Shape Earth if stated]
+- [[Pyramid of Thoth]] -> [[Glory of Thoth]]
+- [[Well of Light]] -> [[Great Hall]]
+- [[Well of Light]] -> [[Gog's cave]]
+- [[Long Stair]] -> [[Great Cavern]]
+- [[Newmarket]] -> [[Arden Vul]]
+- [[Forum of Arden Vul]] -> [[Well of Light]]
+- [[Gosterwick]] -> [[Temple of Mitra]] [method: Vallium Ferried via Flight if stated]
+- [[Sighing Stair]] -> [[Temple of Set]] [via Top if stated] [method: Running at full speed]
+- [[Sighing Stair]] -> [[Temple of Set]]
+- [[Arden Vul]] -> [[Well of Light]]
+- [[Howling Caves]] -> [[Hall of Judgment]] [via West if stated] [feature: Renegade Baboons, Trefko the Old Four-Armed Baboon, Female Baboons Formerly Sisko's Harem]
+- [[Gosterwick]] -> [[Well of Light]]
+- [[Pyramid of Thoth]] -> [[Well of Light]] [via None] [method: Exploration]
 
-## Arden Vul
-
-## Arena
-
-## Astabelon's Bookstore
-
-## Azure Keep
-
-## Baliff's Truncheon
-
-## Barracks of the Old Ones
-
-## Beacon
-
-## Cliff Face
-
-## Dam (Arden Vul)
-
-## Dripping Hog
-
-## Eighth Level Grotto of Singing Heads
-
-## Exarchate of Narsileon
-
-## Forum of Arden Vul
+## Pyramid of Thoth
+- [[Cliff Face]] -> [[Arden Vul]] [via Long Stair method: Walk]
+- [[Arden Vul]] -> [[Pyramid of Thoth]] [via dusty stairs if stated]
+- [[Cliff Face]] -> [[Long Stair]]
+- [[Cliff Face]] -> [[Arden Vul]] [via Long Stair] [method: Walk]
+- [[Arden Vul]] -> [[Pyramid of Thoth]] [via less-used entrance] [method: Push statue's arms up]
+- [[Cliff Face]] -> [[Arden Vul]]
+- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation]
+- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation]
+- [[Pyramid of Thoth]] -> [[Great Hall]]
+- [[Pyramid of Thoth]] -> [[Gog's cave]]
+- [[Pyramid of Thoth]] -> [[Glory of Thoth]] [via Statue Arms Forward If Stated] [method: Stairs]
+- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation If Stated]
+- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation If Stated]
+- [[Pyramid of Thoth]] -> [[Glory of Thoth]]
+- [[Pyramid of Thoth]] -> [[Great Hall]]
+- [[Pyramid of Thoth]] -> [[Gog's cave]]
+- [[Gosterwick]] -> [[Arden Vul]]
+- [[Arden Vul]] -> [[Swift River]]
+- [[Sighing Stair]] -> [[Temple of Set]] [via Top if stated] [method: Running at full speed]
+- [[Sighing Stair]] -> [[Temple of Set]]
+- [[Swift River]] -> [[Arden Vul]]
+- [[Gosterwick]] -> [[Cliff Face]]
+- [[Pyramid of Thoth]] -> [[Well of Light]] [via None] [method: Exploration]
+- [[Long Stair]] -> [[Pyramid of Thoth]] [via Hiking]
+- [[Pyramid of Thoth]] -> [[Glory of Thoth]] [via Manipulating Statue's Arms, Reading Graffiti, Walking Down Several Hundred Stairs]
 
 ## Forum of Set
-
-## Fungal Forest
-
-## Glory of Thoth
-
-## Glory of Weskenim
-
-## Goblin Great Hall
-
-## Goblin Market
-
-## Goblintown
-
-## Gog's cave
-
-## Gosterwick
+- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation]
+- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation]
+- [[Pyramid of Thoth]] -> [[Great Hall]] [via Statue Arms Forward And Stairs To Glory Of Thoth If Stated] [method: Teleportation]
+- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Statue Arms Up And Stairs To Pit To Scorpion Teleporter If Stated] [method: Teleportation]
+- [[Pyramid of Thoth]] -> [[Great Cavern]] [via Statue Arms Up And Stairs To Pit To Scorpion Teleporter If Stated] [method: Teleportation]
+- [[Great Hall]] -> [[Gog's cave]] [via Teleportation]
+- [[Great Hall]] -> [[Great Cavern]] [via Teleportation]
+- [[Forum of Set]] -> [[Pyramid of Thoth]]
+- [[Forum of Set]] -> [[Pyramid of Thoth]]
+- [[Forum of Set]] -> [[Pyramid of Thoth]]
+- [[Forum of Set]] -> [[Pyramid of Thoth]]
+- [[Gosterwick]] -> [[Yellow Cloak Inn]] [feature: Susarra's murder if stated]
+- [[Gosterwick]] -> [[Yellow Cloak Inn]]
 
 ## Great Cavern
-
-## Cliff Face
-
-## Dam (Arden Vul)
-
-## Dripping Hog
-
-## Eighth Level Grotto of Singing Heads
-
-## Exarchate of Narsileon
-
-## Forum of Arden Vul
-
-## Forum of Set
-
-## Fungal Forest
-
-## Burdock Valley
+- [[Gosterwick]] -> [[Cliff Face]] [via Long Stair if stated] [method: Hiked]
+- [[Gosterwick]] -> [[Cliff Face]]
+- [[Gosterwick]] -> [[Cliff Face]] [via Long Stair if stated] [method: Hiking]
+- [[Gosterwick]] -> [[Cliff Face]]
+- [[Cliff Face]] -> [[Great Cavern]] [via Long Stair if stated] [method: climbing]
+- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation]
+- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation]
+- [[Pyramid of Thoth]] -> [[Glory of Thoth]] [via Statue Arms Forward If Stated] [method: Stairs]
+- [[Pyramid of Thoth]] -> [[Great Hall]] [via Teleportation If Stated]
+- [[Pyramid of Thoth]] -> [[Gog's cave]] [via Teleportation If Stated]
+- [[Great Cavern]] -> [[Great Hall]] [via Beastman Secret Entrance From Long Stair If Stated]
+- [[Forum of Set]] -> [[Great Hall]]
+- [[Pyramid of Thoth]] -> [[Great Hall]]
+- [[Pyramid of Thoth]] -> [[Gog's cave]]
+- [[Great Cavern]] -> [[Great Hall]]
+- [[Waterfall]] -> [[Great Cavern]] [method: Vallium led them north to the statue of The Philosopher]
+- [[Arden Vul]] -> [[Great Cavern]] [via Long Stair if stated] [feature: Secret Entrance to the Great Cavern]
+- [[Great Cavern]] -> [[Inn of the Broken Head]] [via Long Stair if stated] [method: Step Through Rug]
+- [[Arden Vul]] -> [[Great Cavern]]
+- [[Gosterwick]] -> [[Long Stair]] [via Hike if stated] [feature: Southeast through the gates of the ruins]
+- [[Long Stair]] -> [[Cliff Face]] [via Levitate if stated] [method: Levitation]
+- [[Great Cavern]] -> [[Great Cavern]] [via Double Back if stated]
 
