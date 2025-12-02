@@ -35,7 +35,8 @@ def main():
         raise SystemExit(f"Report not found: {REPORT}")
     lines = REPORT.read_text(encoding='utf-8', errors='ignore').splitlines()
     nodes = {}
-    edges = []
+    # map (a_id, b_id) -> set of labels
+    edge_map = {}
     for line in lines:
         m = EDGE_RE.match(line.strip())
         if not m:
@@ -43,23 +44,34 @@ def main():
         a, b, suffix = m.groups()
         a_id = slug(a)
         b_id = slug(b)
+        if a_id == b_id:
+            # drop self-loops in the graph for clarity
+            continue
         nodes[a_id] = a
         nodes[b_id] = b
         label = parse_label(suffix or '')
-        edges.append((a_id, b_id, label))
+        edge_map.setdefault((a_id, b_id), set())
+        if label:
+            edge_map[(a_id, b_id)].add(label)
 
     out = ["graph TD"]
     # declare nodes with labels
     for nid, label in sorted(nodes.items()):
         out.append(f"  {nid}[\"{label}\"]")
-    # edges
-    for a, b, lbl in edges:
+    # edges (deduped, up to 2 labels per pair for readability)
+    total = 0
+    for (a,b), labels in sorted(edge_map.items()):
+        lbl = ''
+        if labels:
+            keep = sorted(labels)[:2]
+            lbl = '; '.join(keep)
         if lbl:
             out.append(f"  {a} -->|{lbl}| {b}")
         else:
             out.append(f"  {a} --> {b}")
+        total += 1
     OUT.write_text("\n".join(out) + "\n", encoding='utf-8')
-    print(f"Wrote {OUT} with {len(edges)} edges and {len(nodes)} nodes")
+    print(f"Wrote {OUT} with {total} edges and {len(nodes)} nodes")
 
 if __name__ == '__main__':
     main()
