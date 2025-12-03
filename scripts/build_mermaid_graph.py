@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 import re
+import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT = ROOT / 'docs' / 'LCE_REPORT.md'
 OUT = ROOT / 'docs' / 'locations_graph.mmd'
+FILTERS = ROOT / 'docs' / 'LCE_FILTERS.json'
 
 EDGE_RE = re.compile(r"^- \[\[([^\]]+)\]\] -> \[\[([^\]]+)\]\](.*)$")
 
@@ -30,6 +32,46 @@ def parse_label(suffix: str) -> str:
         bits.append(clean(feature.group(1)))
     return "; ".join(bits)
 
+def load_filters():
+    if not FILTERS.exists():
+        return {"reject_methods": set(), "reject_via": set()}
+    try:
+        data = json.loads(FILTERS.read_text(encoding='utf-8', errors='ignore'))
+    except Exception:
+        return {"reject_methods": set(), "reject_via": set()}
+    return {
+        "reject_methods": set(map(str.lower, data.get("reject_methods", []))),
+        "reject_via": set(map(str.lower, data.get("reject_via", []))),
+    }
+
+ALLOWED_METHOD_KEYWORDS = {
+    'teleport', 'teleportation', 'stairs', 'stair', 'ladder', 'rope', 'rope ladder',
+    'bridge', 'tunnel', 'secret door', 'door', 'gate', 'portcullis', 'basket',
+    'levitation', 'levitate', 'flight', 'fly', 'walk', 'walking', 'hike', 'climb', 'climbing',
+    'swim', 'swimming', 'boat', 'ferry', 'crawl', 'descending', 'ascending', 'rappel'
+}
+
+def sanitize_label(lbl: str, filters) -> str:
+    if not lbl:
+        return ''
+    # Split on separators and keep plausible bits
+    parts = [p.strip() for p in re.split(r"[;|]", lbl) if p.strip()]
+    kept = []
+    for p in parts:
+        low = p.lower()
+        # drop known rejects
+        if low in filters["reject_methods"] or low in filters["reject_via"]:
+            continue
+        # drop phrases containing possessives or obvious names/events
+        if re.search(r"[\w]('[sS])\b", p):
+            continue
+        if any(w in low for w in ['murder', 'market', 'brought', 'map from', 'led them', 'talk', 'traveled', 'traced back']):
+            continue
+        # keep if it contains any allowed method keyword
+        if any(k in low for k in ALLOWED_METHOD_KEYWORDS):
+            kept.append(p)
+    return '; '.join(kept)
+
 def main():
     if not REPORT.exists():
         raise SystemExit(f"Report not found: {REPORT}")
@@ -37,6 +79,7 @@ def main():
     nodes = {}
     # map (a_id, b_id) -> set of labels
     edge_map = {}
+    filters = load_filters()
     for line in lines:
         m = EDGE_RE.match(line.strip())
         if not m:
@@ -50,6 +93,7 @@ def main():
         nodes[a_id] = a
         nodes[b_id] = b
         label = parse_label(suffix or '')
+        label = sanitize_label(label, filters)
         edge_map.setdefault((a_id, b_id), set())
         if label:
             edge_map[(a_id, b_id)].add(label)

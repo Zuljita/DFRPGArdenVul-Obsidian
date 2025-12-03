@@ -1,0 +1,114 @@
+# LCE Sanity Check
+
+- Unique via phrases: 87
+- Unique methods: 61
+- Rejected via: 74
+- Rejected methods: 30
+
+## Rejected via
+- 60 Miles if stated
+- Beastman Secret Entrance From Long Stair If Stated
+- Beastman Secret Entrance if stated
+- Bottom
+- Bricwine's actions if stated
+- Bust of Selket with a Scorpion on Her Head if stated
+- Cliff Face if stated
+- East if stated
+- Ferry Across Underground Stream If Stated
+- Flying up the Well then Hiking back if stated
+- Flying up the Well with Vallium and Michael carrying Ioannes and Uvash
+- Frail Bridge if stated
+- Goblin Great Hall and map if stated
+- Goblin Great Hall if stated
+- Goblin Great Hall, map from Temrin if stated
+- Goblin Guide
+- Goblintown if stated
+- Gosterwick if stated
+- Halls Of Thoth if stated
+- Halls of Thoth
+- Halls of Thoth, Gog's cave, Stamelis' bust if stated
+- Halls of Thoth, barracks, Gog's cave, and Stamelis' bust if stated
+- Head Toward if stated
+- Hike if stated
+- Hiking
+- Hiking if stated
+- Hill of the Gods
+- Howling Caves if stated
+- Killik if stated
+- Lever on Top of Triangular Pyramid
+- Lever on Top of Triangular Pyramid, Teleporter to Well of Light
+- Levitate if stated
+- Levitation for Vael if stated
+- Levitation if stated
+- Levitation with Rug by Coinbase if stated
+- Long Stair if stated
+- Long Stair method: Walk
+- Manipulating Statue's Arms, Reading Graffiti, Walking Down Several Hundred Stairs
+- None
+- North if stated
+- Rug if stated
+- Rug of Instant Access
+- Ruins of Arden Vul if stated
+- Sea
+- Sea if stated
+- Sea method: Travel
+- Secret Door if stated
+- South if stated
+- South/Climb Down
+- Staircase if stated
+- Stairs if stated
+- Statue Arms Forward And Stairs To Glory Of Thoth If Stated
+- Statue Arms Forward If Stated
+- Statue Arms Forward, Stairs To Glory Of Thoth
+- Teleportation
+- Teleportation If Stated
+- Teleportation if stated
+- Teleportation via Rug
+- Temple of Mitra
+- Top
+- Top If Stated
+- Top Of Well If Stated
+- Top if stated
+- Two-thirds of the way up
+- Up if stated
+- Vael if stated
+- Well Of Light If Stated
+- West if stated
+- Wheelbarrow if stated
+- discussion if stated
+- dusty stairs if stated
+- plunge pool if stated
+- ruins and basement then through desecrated Temple of Thoth if stated
+- steps down into pyramid
+
+## Rejected methods
+- Ascending Long Stair via roped descent method
+- Down
+- Exploration
+- Following Goblin Guide
+- Following Guide
+- Full Speed
+- Headed
+- Headed for
+- Hike if stated
+- Hiked if stated
+- Instructed
+- North
+- Running at full speed
+- Secret Shared by Jost if stated
+- Shape Earth
+- Shape Earth if stated
+- Ship if stated
+- Step Through
+- Talk to Baboons
+- Throwing
+- Traced Back
+- Travel
+- Travel if stated
+- Walk if implied
+- Walk if stated
+- brought
+- followed map
+- followed the map
+- meeting with priests
+- traveled
