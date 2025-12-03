@@ -45,10 +45,25 @@ def load_filters():
     }
 
 ALLOWED_METHOD_KEYWORDS = {
-    'teleport', 'teleportation', 'stairs', 'stair', 'ladder', 'rope', 'rope ladder',
-    'bridge', 'tunnel', 'secret door', 'door', 'gate', 'portcullis', 'basket',
-    'levitation', 'levitate', 'flight', 'fly', 'walk', 'walking', 'hike', 'climb', 'climbing',
-    'swim', 'swimming', 'boat', 'ferry', 'crawl', 'descending', 'ascending', 'rappel'
+    'teleport', 'teleportation', 'teleporter',
+    'stairs', 'stair', 'staircase',
+    'ladder', 'rope ladder', 'rope',
+    'bridge', 'tunnel', 'secret door', 'door', 'gate', 'portcullis', 'basket', 'ferry',
+    'levitation', 'levitate', 'flight', 'fly', 'flying', 'walk', 'walking', 'hike', 'hiking', 'climb', 'climbing',
+    'swim', 'swimming', 'boat', 'crawl', 'descend', 'descending', 'ascending', 'rappel'
+}
+
+# Canonical mapping to compress variants to a short set
+CANON = {
+    'levitation': 'Levitation', 'levitate': 'Levitation',
+    'flight': 'Flight', 'fly': 'Flight', 'flying': 'Flight',
+    'walk': 'Walk', 'walking': 'Walk', 'hike': 'Walk', 'hiking': 'Walk',
+    'climb': 'Climb', 'climbing': 'Climb', 'descend': 'Climb', 'descending': 'Climb', 'ascending': 'Climb', 'rappel': 'Climb',
+    'swim': 'Swim', 'swimming': 'Swim', 'boat': 'Boat', 'ferry': 'Ferry',
+    'teleport': 'Teleportation', 'teleportation': 'Teleportation', 'teleporter': 'Teleportation', 'rug': 'Teleportation',
+    'stairs': 'Stairs', 'stair': 'Stairs', 'staircase': 'Stairs',
+    'ladder': 'Ladder', 'rope ladder': 'Ladder', 'rope': 'Rope',
+    'bridge': 'Bridge', 'tunnel': 'Tunnel', 'secret door': 'Secret Door', 'door': 'Door', 'gate': 'Gate', 'portcullis': 'Gate', 'basket': 'Basket'
 }
 
 def sanitize_label(lbl: str, filters) -> str:
@@ -65,12 +80,47 @@ def sanitize_label(lbl: str, filters) -> str:
         # drop phrases containing possessives or obvious names/events
         if re.search(r"[\w]('[sS])\b", p):
             continue
-        if any(w in low for w in ['murder', 'market', 'brought', 'map from', 'led them', 'talk', 'traveled', 'traced back']):
+        if any(w in low for w in ['murder', 'market', 'brought', 'map from', 'led them', 'talk', 'traveled', 'traced back', 'guide', 'discussion']):
             continue
-        # keep if it contains any allowed method keyword
-        if any(k in low for k in ALLOWED_METHOD_KEYWORDS):
-            kept.append(p)
-    return '; '.join(kept)
+        # Strip directional fluff and prepositions
+        low2 = re.sub(r"\b(north|south|east|west|up|down|top|bottom|base)\b", "", low)
+        # Break composite phrases into candidates
+        cands = re.split(r"\b(?:then|and|,| to | into | from | past | through | over | across )\b", low2)
+        canon_labels = []
+        for c in cands:
+            c = c.strip()
+            if not c:
+                continue
+            # allow only short chunks
+            if len(c.split()) > 4:
+                continue
+            # Special-case multi-word
+            if 'rope ladder' in c:
+                canon_labels.append('Ladder')
+                continue
+            # map tokens
+            tokens = c.split()
+            mapped = []
+            for t in tokens:
+                if t in CANON:
+                    mapped.append(CANON[t])
+                elif t in ALLOWED_METHOD_KEYWORDS:
+                    mapped.append(t.title())
+            # Deduplicate within this chunk
+            uniq = []
+            for m in mapped:
+                if m and m not in uniq:
+                    uniq.append(m)
+            if uniq:
+                canon_labels.extend(uniq[:2])
+        # Deduplicate across chunks and keep small
+        final = []
+        for m in canon_labels:
+            if m not in final:
+                final.append(m)
+        if final:
+            kept.append(' / '.join(final[:2]))
+    return '; '.join([k for k in kept if k])
 
 def main():
     if not REPORT.exists():
