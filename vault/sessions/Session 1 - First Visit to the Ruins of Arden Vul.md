@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 1: First Visit to the Ruins of Arden Vul"
+title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 1: First Visit to the Ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]"
 tags:
   - session
   - session
@@ -7,7 +7,7 @@ tags:
 session_id: 1
 ---
 
-# DFRPG Arden Vul Session 1: First Visit to the Ruins of Arden Vul
+# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 1: First Visit to the Ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]
 
 Date:
 Demmasday, 14th of Toternios, 2993 AEP
@@ -19,11 +19,11 @@ Unseasonably warm, sunny
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 Michael J Dundee, Thorcin barbarian (Adam)
 Vael Sunshadow, Half-Elven mage (Kyle)
-Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo)
-Ashe Maykum, Imperial Goblin druid (mercenary) (Archon Shiva)
+Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
+[[npcs/[[npcs/Ashe Maykum.md|Ashe Maykum]] Maykum.md|[[npcs/Ashe Maykum.md|Ashe Maykum]] Maykum]], [[npcs/Imperial Goblin.md|Imperial Goblin]] druid (mercenary) (Archon Shiva)
 
 Significant NPCs:
 
@@ -33,7 +33,7 @@ Significant NPCs:
 
 6 Huge Spiders
 
-Ashe's summoned goats, bat swarms, and rat swarms
+[[npcs/Ashe Maykum.md|Ashe Maykum]]'s summoned goats, bat swarms, and rat swarms
 
 
 
@@ -41,27 +41,27 @@ Ashe's summoned goats, bat swarms, and rat swarms
 
 
 
-The PCs all came to Gosterwick from various places around the world of Magae, to explore the ruined city of Arden Vul.  Each had decided to look for comrades rather than entering the ruins alone.  Each failed to sign on with an experienced adventuring company, and they decided to form their own informal band, agreeing to watch each other's backs, make decisions together, and split treasure evenly.  The four hired Ashe, a druid from the Grudge Brigade, to come along on this mission, for an equal share of treasure.
+The PCs all came to [[locations/Gosterwick.md|Gosterwick]] from various places around the world of [[npcs/Magae.md|Magae]], to explore the ruined city of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]].  Each had decided to look for comrades rather than entering the ruins alone.  Each failed to sign on with an experienced adventuring company, and they decided to form their own informal band, agreeing to watch each other's backs, make decisions together, and split treasure evenly.  The four hired [[npcs/Ashe Maykum.md|Ashe Maykum]], a druid from the [[factions/Grudge Brigade.md|Grudge Brigade]], to come along on this mission, for an equal share of treasure.
 
 
 
-They decided to leave Gosterwick at dawn on Demmasday the 14th of Torernios.  Late winter in the northern hemisphere, but it was an unseasonably nice day.  The night before, Vael and Ioannes had cast several bright Continual Light spells, so light would not be an issue if they entered dark places.  (Ioannes critically failed once and accidentally cast Continual Darkness on the bedding in his room at the Yellow Creek Inn instead, oops, hopefully it'll wash out.)  The group walked east out the Water Gate, the only one of Gosterwick's three gates that actually had completed walls around it.  Following directions from several locals, they took a dirty preference path east from the city to the old Imperial Road, once cobblestone now dirt with stone bumps.  The road turned north, crossed the Swift River at a bridge, and continued north.  About halfway into the ten-mile hike, the party was overtaken by a group of six mounted Knights of the Azure Shield, the force aligned with the ruler of Gosterwick, Lady Alexia.  The group made way for the knights, who proceeded down the road without stopping for discussion.  The group continued hiking until they could see the cliff face, featuring a huge waterfall, the twin colossal statues of the ancient heroes Arden and Vul, and the Long Stair.  The ruined city of Arden Vul was known to be at the top of that cliff.  The group reached the base of the cliff around noon.  The sound of the waterfall was deafening as they approached.  Ashe wanted to use Shape Water to concoct some kind of elevator, but to enter that waterfall or its plunge pool without much stronger magic would be certain death.  Vael thought the statue of Arden (which was remarkably intact for something that had been in the path of a waterfall for a millennium) was magical, while the statue of Vul (that was missing an arm and most of a leg despite being much farther from the water) was not.
+They decided to leave [[locations/Gosterwick.md|Gosterwick]] at dawn on Demmasday the 14th of Torernios.  Late winter in the northern hemisphere, but it was an unseasonably nice day.  The night before, Vael and Ioannes had cast several bright Continual Light spells, so light would not be an issue if they entered dark places.  (Ioannes critically failed once and accidentally cast Continual Darkness on the bedding in his room at the Yellow Creek Inn instead, oops, hopefully it'll wash out.)  The group walked east out the [[locations/Water Gate.md|Water Gate]], the only one of [[locations/Gosterwick.md|Gosterwick]]'s three gates that actually had completed walls around it.  Following directions from several locals, they took a dirty preference path east from the city to the old [[locations/Imperial Road.md|Imperial Road]], once cobblestone now dirt with stone bumps.  The road turned north, crossed the [[locations/Swift River.md|Swift River]] at a bridge, and continued north.  About halfway into the ten-mile hike, the party was overtaken by a group of six mounted Knights of the Azure Shield, the force aligned with the ruler of [[locations/Gosterwick.md|Gosterwick]], [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]].  The group made way for the knights, who proceeded down the road without stopping for discussion.  The group continued hiking until they could see the cliff face, featuring a huge waterfall, the twin colossal statues of the ancient heroes [[npcs/Arden.md|Arden]] and Vul, and the [[locations/Long Stair.md|Long Stair]].  The ruined city of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] was known to be at the top of that cliff.  The group reached the base of the cliff around noon.  The sound of the waterfall was deafening as they approached.  [[npcs/Ashe Maykum.md|Ashe Maykum]] wanted to use Shape Water to concoct some kind of elevator, but to enter that waterfall or its plunge pool without much stronger magic would be certain death.  Vael thought the statue of [[npcs/Arden.md|Arden]] (which was remarkably intact for something that had been in the path of a waterfall for a millennium) was magical, while the statue of Vul (that was missing an arm and most of a leg despite being much farther from the water) was not.
 
 
 
-After a bit of discussion that nobody could hear because of the crashing water, Ashe and his summoned goats started walking up the Long Stair, and the others followed.  The path was treacherous in places, but nobody slipped.  About halfway up, they found a room tunneled into the rock next to the Stair, its door ripped away.  It was a small bare room, empty except for a fire pit and some firewood.  Ioannes suggested a search and the others joined in, but found nothing of interest.
+After a bit of discussion that nobody could hear because of the crashing water, [[npcs/Ashe Maykum.md|Ashe Maykum]] and his summoned goats started walking up the [[locations/Long Stair.md|Long Stair]], and the others followed.  The path was treacherous in places, but nobody slipped.  About halfway up, they found a room tunneled into the rock next to the Stair, its door ripped away.  It was a small bare room, empty except for a fire pit and some firewood.  Ioannes suggested a search and the others joined in, but found nothing of interest.
 
 
 
-The party continued up the Long Stair to the next switchback, and found another room in the rock, this one larger and containing a lot of debris and some large spiderwebs.  Ioannes and Vael suggested burning them, and Vael used Create Fire to burn the webs away.  This was quite effective but filled the room with noxious smoke.  Rather than waiting for it to clear, Vael cast Purify Air, and rolled a critical success.  The smoke instantly cleared.  Beyond the burned webs was the skeleton of a long-dead dwarven warrior, wearing mail armor and red leather boots, and carrying a potion bottle filled with sparkling blue powder.  Vael thought the boots and powder looked magical and grabbed them.  Uvash decided not to take the dwarf-sized mail, so the group left the heavy mail and the dwarf's warhammer to possibly take on the trip back down.
+The party continued up the [[locations/Long Stair.md|Long Stair]] to the next switchback, and found another room in the rock, this one larger and containing a lot of debris and some large spiderwebs.  Ioannes and Vael suggested burning them, and Vael used Create Fire to burn the webs away.  This was quite effective but filled the room with noxious smoke.  Rather than waiting for it to clear, Vael cast Purify Air, and rolled a critical success.  The smoke instantly cleared.  Beyond the burned webs was the skeleton of a long-dead dwarven warrior, wearing mail armor and red leather boots, and carrying a potion bottle filled with sparkling blue powder.  Vael thought the boots and powder looked magical and grabbed them.  Uvash decided not to take the dwarf-sized mail, so the group left the heavy mail and the dwarf's warhammer to possibly take on the trip back down.
 
 
 
-After spending a bit of time searching the room, the group resumed their hike, and eventually reached the top.  Ahead of them was the front gatehouse of Arden Vul, consisting of two round towers, with the gate that formerly sat between them completely gone.  The left tower was fairly intact, while the right tower was half collapsed.  Ruined walls continued from the gatehouse in both directions.  The group decided to search the towers.  Considering which to check first, one said "left for loot!" but rather than trusting that maxim, Vael cast Seek Earth, looking for gold.  Amazingly, he detected some gold just a few yards to the northwest, meaning it was in the west tower.  Left for loot confirmed.  The tower, while mostly intact, had some gaps in the walls through which entry was possible.  Michael stuck his head in and started to enter, but then saw several dozen eyes looking at him.  There were six huge spiders in the tower waiting to ambush him, and if they had achieved surprise he would have been in very big trouble, but they did not and he popped back out.
+After spending a bit of time searching the room, the group resumed their hike, and eventually reached the top.  Ahead of them was the front gatehouse of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], consisting of two round towers, with the gate that formerly sat between them completely gone.  The left tower was fairly intact, while the right tower was half collapsed.  Ruined walls continued from the gatehouse in both directions.  The group decided to search the towers.  Considering which to check first, one said "left for loot!" but rather than trusting that maxim, Vael cast Seek Earth, looking for gold.  Amazingly, he detected some gold just a few yards to the northwest, meaning it was in the west tower.  Left for loot confirmed.  The tower, while mostly intact, had some gaps in the walls through which entry was possible.  Michael stuck his head in and started to enter, but then saw several dozen eyes looking at him.  There were six huge spiders in the tower waiting to ambush him, and if they had achieved surprise he would have been in very big trouble, but they did not and he popped back out.
 
 
 
-With full knowledge of the spiders inside, the group formed up outside the hole, while Ashe sent some disposable summoned rat and bat swarms into the tower to engage the spiders.  While the swarms were engaging some spiders, and Ioannes was casting Flaming Weapon on Michael's longsword, Vael bravely approached the hole and entended his staff inside to cast Create Fire inside the tower.  That was a tactical mistake, as it put the vulnerable wizard in the front as two spiders emerged from the hole, deciding that their tower full of swarms and fire was no longer so cozy.  One spider attempted a Move and Attack on Vael and rolled a hit.  Vael dropped his backpack to reduce his encumbrance level (generously allowed by the GM this time, but maybe not in the future), used a Retreating Dodge, and evaded the spider.  Another spider missed.
+With full knowledge of the spiders inside, the group formed up outside the hole, while [[npcs/Ashe Maykum.md|Ashe Maykum]] sent some disposable summoned rat and bat swarms into the tower to engage the spiders.  While the swarms were engaging some spiders, and Ioannes was casting Flaming Weapon on Michael's longsword, Vael bravely approached the hole and entended his staff inside to cast Create Fire inside the tower.  That was a tactical mistake, as it put the vulnerable wizard in the front as two spiders emerged from the hole, deciding that their tower full of swarms and fire was no longer so cozy.  One spider attempted a Move and Attack on Vael and rolled a hit.  Vael dropped his backpack to reduce his encumbrance level (generously allowed by the GM this time, but maybe not in the future), used a Retreating Dodge, and evaded the spider.  Another spider missed.
 
 
 
@@ -73,11 +73,11 @@ Remembering there was gold in the tower, Uvash entered and found a sack containi
 
 
 
-The most promising direction was north into the ruined city, since there was a road that way, leading to an obelisk, then a large forum featuring an intact tower, a huge oak tree, and a ruined building.  Further north was a pyramid.  The group first checked out the obelisk, which had a bunch of writing in Mithric (the language of the old empire) listing the gods of the old pantheon and a list of old emperors.  There was also an ankh-shaped recess and some writing about a Beacon.  The top section of the obelisk was full of iconography related to the sun.  They noted the writing and continued north to the forum.
+The most promising direction was north into the ruined city, since there was a road that way, leading to an obelisk, then a large forum featuring an intact tower, a huge oak tree, and a ruined building.  Further north was a pyramid.  The group first checked out the obelisk, which had a bunch of writing in Mithric (the language of the old empire) listing the gods of the old pantheon and a list of old emperors.  There was also an ankh-shaped recess and some writing about a [[locations/Beacon.md|Beacon]].  The top section of the obelisk was full of iconography related to the sun.  They noted the writing and continued north to the forum.
 
 
 
-There was a huge oak tree, which Ashe estimated was hundreds of years old, oddly placed in the middle of the forum.  The group was more interested in a mostly intact 40' square and 45' tall tower on the east side of the forum.  The tower's huge bronze double doors appeared magical and had keyholes, and the group decided not to play with them in case of traps.  There were no other visible entrances at low level, but there were some large windows on the top level of the tower, with no glass preventing entry.
+There was a huge oak tree, which [[npcs/Ashe Maykum.md|Ashe Maykum]] estimated was hundreds of years old, oddly placed in the middle of the forum.  The group was more interested in a mostly intact 40' square and 45' tall tower on the east side of the forum.  The tower's huge bronze double doors appeared magical and had keyholes, and the group decided not to play with them in case of traps.  There were no other visible entrances at low level, but there were some large windows on the top level of the tower, with no glass preventing entry.
 
 
 
@@ -85,7 +85,7 @@ Vael dropped his backpack, cast Levitation, and flew up to look in the windows. 
 
 
 
-In addition to the ibis head statue and the corpses, the top floor also featured a couple of wooden stairways down, but only the first few feet of each stairway was visible before things got dark with a suspiciously sharp cutoff.  Also, the wood looked quite rotten, so the stairs might not be safe to descend.  The group ignored the stairs for a bit and searched the room.  They found the magical halfling-sized leather armor, two sets of scale armor, two shortswords, a bandoleer of seven throwing daggers, two scroll cases, and a small golden ornament of a man's head.  They threw all the armor off the tower so they wouldn't have to deal with its weight while Levitating down, took the swords and the bandoleer (but not the daggers), then read the scrolls.  One was a wizard scroll that Vael discerned allowed cursing an item.  The other was a letter from the Archon of Arden Vul to a Thothian high priest, apparently written during the fall of Arden Vul during the civil war 1200 years ago.  They weren't sure about all the details but took the scroll.
+In addition to the ibis head statue and the corpses, the top floor also featured a couple of wooden stairways down, but only the first few feet of each stairway was visible before things got dark with a suspiciously sharp cutoff.  Also, the wood looked quite rotten, so the stairs might not be safe to descend.  The group ignored the stairs for a bit and searched the room.  They found the magical halfling-sized leather armor, two sets of scale armor, two shortswords, a bandoleer of seven throwing daggers, two scroll cases, and a small golden ornament of a man's head.  They threw all the armor off the tower so they wouldn't have to deal with its weight while Levitating down, took the swords and the bandoleer (but not the daggers), then read the scrolls.  One was a wizard scroll that Vael discerned allowed cursing an item.  The other was a letter from the Archon of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] to a Thothian high priest, apparently written during the fall of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] during the civil war 1200 years ago.  They weren't sure about all the details but took the scroll.
 
 
 
@@ -93,11 +93,11 @@ Next they closely examined the statue.  It was amazingly constructed of precious
 
 
 
-Finally they investigated the suspiciously dark staircase.  Uvash cast Detect Magic and found that the darkness was magical.  Ashe suspected the darkness probably hid a no mana zone so that anyone Levitating down through it would fall to their death.  The stairs also looked dangerously flimsy.  The combination of the eroded stairs and the magical darkness led the group to decide that exploring the rest of the tower could wait for another day.  For now they would gather their loot and Levitate back down.
+Finally they investigated the suspiciously dark staircase.  Uvash cast Detect Magic and found that the darkness was magical.  [[npcs/Ashe Maykum.md|Ashe Maykum]] suspected the darkness probably hid a no mana zone so that anyone Levitating down through it would fall to their death.  The stairs also looked dangerously flimsy.  The combination of the eroded stairs and the magical darkness led the group to decide that exploring the rest of the tower could wait for another day.  For now they would gather their loot and Levitate back down.
 
 
 
-Everyone rested at the base of the tower to recover from all the spellcasting, then the group continued north.  They briefly looked at a couple of ruined buildings but didn't investigate in detail.  Due north was a step pyramid, about 90' square and 45' high, the largest intact structure they had seen in the city.  Vael decided to do a lap around the base of the pyramid seeing what was around, while Ioannes looked closely at some artwork on the pyramid's steps.  The first four steps had four different pictures, which then started repeating on the next few steps.  The first was an ibis-headed Thoth pointing both arms at a human descending stairs.  The second was ibis-headed Thoth pointing his left arm at a human, who was bowing while presenting a plate of coins and scrolls.  The third was ibis-headed Thoth puking out a long scroll with abstract writing (no actual words) into the hands of some humans.  The fourth was a baboon seated with a book on its thighs, holding a pen, and gazing at some humans while a feather appeared in the air.  Identifying the baboon as another symbol of Thoth was easy, but naming the feather as the symbol of Thoth's wife Maat required a really good Theology roll by Uvash.  The group decided not to actually ascend the pyramid on this first trip into the ruins.
+Everyone rested at the base of the tower to recover from all the spellcasting, then the group continued north.  They briefly looked at a couple of ruined buildings but didn't investigate in detail.  Due north was a step pyramid, about 90' square and 45' high, the largest intact structure they had seen in the city.  Vael decided to do a lap around the base of the pyramid seeing what was around, while Ioannes looked closely at some artwork on the pyramid's steps.  The first four steps had four different pictures, which then started repeating on the next few steps.  The first was an ibis-headed [[npcs/Thoth.md|Thoth]] pointing both arms at a human descending stairs.  The second was ibis-headed [[npcs/Thoth.md|Thoth]] pointing his left arm at a human, who was bowing while presenting a plate of coins and scrolls.  The third was ibis-headed [[npcs/Thoth.md|Thoth]] puking out a long scroll with abstract writing (no actual words) into the hands of some humans.  The fourth was a baboon seated with a book on its thighs, holding a pen, and gazing at some humans while a feather appeared in the air.  Identifying the baboon as another symbol of [[npcs/Thoth.md|Thoth]] was easy, but naming the feather as the symbol of [[npcs/Thoth.md|Thoth]]'s wife [[npcs/Maat.md|Maat]] required a really good Theology roll by Uvash.  The group decided not to actually ascend the pyramid on this first trip into the ruins.
 
 
 
@@ -105,7 +105,7 @@ Meanwhile, Vael had discovered an interesting well to the east of the pyramid.  
 
 
 
-The group decided they had enough loot for their first trip into the ruined city, and headed back for home.  They stopped at the room halfway down the Long Stair and recovered the dwarf-sized mail armor and warhammer they had left there before.  They made it to the bottom with nobody slipping, and then they made it back to Gosterwick without any dangerous encounters.
+The group decided they had enough loot for their first trip into the ruined city, and headed back for home.  They stopped at the room halfway down the [[locations/Long Stair.md|Long Stair]] and recovered the dwarf-sized mail armor and warhammer they had left there before.  They made it to the bottom with nobody slipping, and then they made it back to [[locations/Gosterwick.md|Gosterwick]] without any dangerous encounters.
 
 
 
@@ -115,11 +115,11 @@ GM's Comments:
 
 
 
-Overall, the group's first trip was a success.  Nobody died or even got hurt.  They made it to the ruins of Arden Vul and back.  They explored a couple of rooms off the Long Stair, a couple of gatehouse towers, and the top floor of the large square tower.  They found the Pyramid of Thoth and the well full of mirrors.  They also found some interesting lore, like the pictures on the pyramid steps, the scroll in the square tower, and the writing on the obelisk.  They found a few things other than portable loot that seemed magic: the colossal statue of Arden, the double doors of the square tower, and the darkness in the stairs of the square tower.  Finally, they scored quite a bit of loot: some big ancient gold coins from the spider tower, some magic boots and weird magic powder and dwarf-sized mail and warhammer from the room off the Long Stair where they burned the webs, and some scale armor and shortswords and halfling-sized magic armor and a spell scroll from the corpses on the top floor of the square tower.
+Overall, the group's first trip was a success.  Nobody died or even got hurt.  They made it to the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] and back.  They explored a couple of rooms off the [[locations/Long Stair.md|Long Stair]], a couple of gatehouse towers, and the top floor of the large square tower.  They found the Pyramid of [[npcs/Thoth.md|Thoth]] and the well full of mirrors.  They also found some interesting lore, like the pictures on the pyramid steps, the scroll in the square tower, and the writing on the obelisk.  They found a few things other than portable loot that seemed magic: the colossal statue of [[npcs/Arden.md|Arden]], the double doors of the square tower, and the darkness in the stairs of the square tower.  Finally, they scored quite a bit of loot: some big ancient gold coins from the spider tower, some magic boots and weird magic powder and dwarf-sized mail and warhammer from the room off the [[locations/Long Stair.md|Long Stair]] where they burned the webs, and some scale armor and shortswords and halfling-sized magic armor and a spell scroll from the corpses on the top floor of the square tower.
 
 
 
-The combat appeared to go smoothly: Michael stuck his head in and found the spiders, then Ashe sent his bat and rat swarms into the tower to kill and distract spiders, and Michael killed the only two spiders that came out of the tower to engage the PCs.  It was actually a closer fight than it looked though.  If Michael had been surprised and attacked by all six spiders, he likely would have died.  With less warning, Ashe's swarms might not have had time to engage the spiders before the spiders bit more PCs.  And of course Michael was the PC who killed two spiders, so if he'd gone down fast that damage would not have happened.  And the spiders were faster than most of the PCs, so running away would not necessarily have been easy.  Sometimes the line between winning without a scratch and a total party kill isn't that big.  Michael's Vision beating the spiders' Stealth was really critical.
+The combat appeared to go smoothly: Michael stuck his head in and found the spiders, then [[npcs/Ashe Maykum.md|Ashe Maykum]] sent his bat and rat swarms into the tower to kill and distract spiders, and Michael killed the only two spiders that came out of the tower to engage the PCs.  It was actually a closer fight than it looked though.  If Michael had been surprised and attacked by all six spiders, he likely would have died.  With less warning, [[npcs/Ashe Maykum.md|Ashe Maykum]]'s swarms might not have had time to engage the spiders before the spiders bit more PCs.  And of course Michael was the PC who killed two spiders, so if he'd gone down fast that damage would not have happened.  And the spiders were faster than most of the PCs, so running away would not necessarily have been easy.  Sometimes the line between winning without a scratch and a total party kill isn't that big.  Michael's Vision beating the spiders' Stealth was really critical.
 
 
 
@@ -131,17 +131,17 @@ The worst part of the session for me was tech issues.  I've used Foundry before 
 
 
 
-What was different in this session because we used DFRPG rather than a version of D&D like Arden Vul was written for?  I'd say the biggest difference was our new PCs had some spells that starting D&D characters would not, and the ability to cast them often rather than once per day if you happened to memorize that spell.  Light was just not an issue with ample Continual Light available, though most of the session was in lit areas so it wasn't a huge deal this time.  (And in D&D Continual Light is only a second level spell and is permanent so any character with a bit of cash should be able to get an NPC to cast it for them.)  Vael's ability to spam Levitation (he has it at 15 so he can levitate people under 160 lbs. pretty cheaply, and even heavier people aren't super expensive if he only needs them to fly for a minute) made getting everyone up to the top of the square tower easy, though this particular use case could be duplicated by one climbing thief in D&D and some rope to help the rest of the party up, or even (with a suitably generous rule set or GM) a rope and grappling hook and the whole party climbing the tower Batman-style.  Another biggie was Ashe's ability to spam Create Animal at the start of the adventure and bring along a bunch of goats and rat and bat swarms; the goats didn't do much except help carry loot home but the swarms took out most of the huge spiders.  Differences in the other direction is that armor is a lot more expensive in DFRPG than in D&D, so these starting characters didn't have much of it.  Though of course they just found some armor and some money, so some of them might be a bit harder to damage next time.  Finally, GURPS has skills for a lot of stuff that old versions of D&D didn't, so things like making Theology rolls for all the ancient religious lore was straightforward.  (D&D added a bunch of skills in 3E so modern D&D is a bit like GURPS there, but AD&D didn't have them yet.)  Since this setting says Mithric is the language of magic, I just told my players that everyone uses Mithric for spellbooks and scrolls and told the spellcasters that if they wanted to be able to read scrolls they should learn Mithric, so they took Mithric, so basically the language that substituted for Read Magic also made reading the Mithric lore easy.
+What was different in this session because we used DFRPG rather than a version of D&D like [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] was written for?  I'd say the biggest difference was our new PCs had some spells that starting D&D characters would not, and the ability to cast them often rather than once per day if you happened to memorize that spell.  Light was just not an issue with ample Continual Light available, though most of the session was in lit areas so it wasn't a huge deal this time.  (And in D&D Continual Light is only a second level spell and is permanent so any character with a bit of cash should be able to get an NPC to cast it for them.)  Vael's ability to spam Levitation (he has it at 15 so he can levitate people under 160 lbs. pretty cheaply, and even heavier people aren't super expensive if he only needs them to fly for a minute) made getting everyone up to the top of the square tower easy, though this particular use case could be duplicated by one climbing thief in D&D and some rope to help the rest of the party up, or even (with a suitably generous rule set or GM) a rope and grappling hook and the whole party climbing the tower Batman-style.  Another biggie was [[npcs/Ashe Maykum.md|Ashe Maykum]]'s ability to spam Create Animal at the start of the adventure and bring along a bunch of goats and rat and bat swarms; the goats didn't do much except help carry loot home but the swarms took out most of the huge spiders.  Differences in the other direction is that armor is a lot more expensive in DFRPG than in D&D, so these starting characters didn't have much of it.  Though of course they just found some armor and some money, so some of them might be a bit harder to damage next time.  Finally, GURPS has skills for a lot of stuff that old versions of D&D didn't, so things like making Theology rolls for all the ancient religious lore was straightforward.  (D&D added a bunch of skills in 3E so modern D&D is a bit like GURPS there, but AD&D didn't have them yet.)  Since this setting says Mithric is the language of magic, I just told my players that everyone uses Mithric for spellbooks and scrolls and told the spellcasters that if they wanted to be able to read scrolls they should learn Mithric, so they took Mithric, so basically the language that substituted for Read Magic also made reading the Mithric lore easy.
 
 
 
 Achievements:
 
-Second Class Citizen: Ashe was the first to play an Imperial Goblin.
+Second Class Citizen: [[npcs/Ashe Maykum.md|Ashe Maykum]] was the first to play an [[npcs/Imperial Goblin.md|Imperial Goblin]].
 
 
 
-Iconic Location: Pyramid of Thoth: The whole party got this achievement for being the first to find the Pyramid of Thoth.
+Iconic Location: Pyramid of [[npcs/Thoth.md|Thoth]]: The whole party got this achievement for being the first to find the Pyramid of [[npcs/Thoth.md|Thoth]].
 
 
 
@@ -158,11 +158,11 @@ They haven't identified everything yet, or decided what to keep and what to sell
 
 
 
-For exploration, the first XP is achievable by visiting at least 5 new areas, and at first glance I think they visted 11.  They didn't visit enough new areas to get the second exploration XP, but they did find the Pyramid of Thoth, which is an Iconic Location, which generated an Achievement for everyone, worth a bonus XP.  So this session was worth at least 3 total XP per player, maybe 4 depending on loot.
+For exploration, the first XP is achievable by visiting at least 5 new areas, and at first glance I think they visted 11.  They didn't visit enough new areas to get the second exploration XP, but they did find the Pyramid of [[npcs/Thoth.md|Thoth]], which is an Iconic Location, which generated an Achievement for everyone, worth a bonus XP.  So this session was worth at least 3 total XP per player, maybe 4 depending on loot.
 
 
 
-Finally, Ashe got the "Second Class Citizen" achievement for being the first to play an Imperial Goblin.  (It's not a bad template, but it's not an obvious choice either.)
+Finally, [[npcs/Ashe Maykum.md|Ashe Maykum]] got the "Second Class Citizen" achievement for being the first to play an [[npcs/Imperial Goblin.md|Imperial Goblin]].  (It's not a bad template, but it's not an obvious choice either.)
 
 
 
@@ -170,7 +170,7 @@ Finally, Ashe got the "Second Class Citizen" achievement for being the first to 
 
 Next week:
 
-Presumably the four non-mercenary PCs stick together after their first successful visit to the ruins.  Will they name their party or continue being an anonymous gaggle?  They are expected to bring another permanent PC into the group next week.  Will they go back to the square tower and brave the big bronze doors or the dangerous staircase into magical darkness, climb to the top of the Pyramid of Thoth, go down that mirrored well, or explore more of the surface ruins?  Read next week's recap to find out.
+Presumably the four non-mercenary PCs stick together after their first successful visit to the ruins.  Will they name their party or continue being an anonymous gaggle?  They are expected to bring another permanent PC into the group next week.  Will they go back to the square tower and brave the big bronze doors or the dangerous staircase into magical darkness, climb to the top of the Pyramid of [[npcs/Thoth.md|Thoth]], go down that mirrored well, or explore more of the surface ruins?  Read next week's recap to find out.
 
 
 

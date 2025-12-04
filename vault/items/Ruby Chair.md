@@ -1,10 +1,10 @@
 ---
-title: "Ruby Chair"
+title: "[[items/Ruby Chair.md|Ruby Chair]]"
 tags:
   - item
   - item
 ---
-# Ruby Chair
+# [[items/Ruby Chair.md|Ruby Chair]]
 
 ## Properties
 

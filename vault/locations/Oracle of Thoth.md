@@ -1,10 +1,10 @@
 ---
-title: "Oracle of Thoth"
+title: "Oracle of [[npcs/Thoth.md|Thoth]]"
 tags:
   - location
   - location
 ---
-# Oracle of Thoth
+# Oracle of [[npcs/Thoth.md|Thoth]]
 
 ## Summary
 A sacred location within [[Arden Vul]], dedicated to [[Thoth]], where individuals might seek guidance, prophecies, or hidden knowledge. It is believed to house ancient wisdom and serve as a spiritual center.
@@ -48,4 +48,4 @@ A sacred location within [[Arden Vul]], dedicated to [[Thoth]], where individual
 ## Notes
 
 ## Sessions
-- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 22 - The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light

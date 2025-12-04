@@ -1,5 +1,5 @@
 ---
-title: "Demetrios"
+title: "[[npcs/Demetrios.md|Demetrios]]"
 tags:
   - npc
   - npc
@@ -7,7 +7,7 @@ tags:
   - race/unknown
   - profession/squire
 ---
-# Demetrios
+# [[npcs/Demetrios.md|Demetrios]]
 
 ## Summary
-Demetrios is a squire of the [[Order of the Azure Shield]], serving alongside [[Alexios]] and [[Zoe]].
+[[npcs/Demetrios.md|Demetrios]] is a squire of the [[Order of the Azure Shield]], serving alongside [[Alexios]] and [[Zoe]].

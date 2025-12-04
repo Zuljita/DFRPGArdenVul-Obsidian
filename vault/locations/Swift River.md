@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Swift River
+# [[locations/Swift River.md|Swift River]]
 
 ## Summary
 A river crossed by the [[Imperial Road]] north of [[Gosterwick]].

@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Lycandus
+# [[npcs/Lycandus.md|Lycandus]]
 
 ## Summary
 

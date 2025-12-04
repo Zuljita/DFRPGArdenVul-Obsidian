@@ -3,7 +3,7 @@ tags:
   - item
 ---
 
-# Map of the Great Cavern
+# Map of the [[locations/Great Cavern.md|Great Cavern]]
 
 ## Summary
 A map detailing the layout and features of the [[locations/Great Cavern.md|Great Cavern]] within [[Arden Vul]].

@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Glory of Weskenim
+# Glory of [[npcs/Weskenim.md|Weskenim]]
 
 ## Level
 

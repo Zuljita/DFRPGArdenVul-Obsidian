@@ -1,16 +1,16 @@
 ---
-title: "Claudine of Narsileon"
+title: "Claudine of [[locations/Narsileon.md|Narsileon]]"
 tags:
   - npc
   - npc
 aliases:
-  - Claudine of Narsileon, human arms dealer
+  - Claudine of [[locations/Narsileon.md|Narsileon]], human arms dealer
   - Claudine
 ---
-# Claudine of Narsileon
+# Claudine of [[locations/Narsileon.md|Narsileon]]
 
 ## Summary
-Claudine of Narsileon is a human (Archontean) arms dealer and merchant.
+Claudine of [[locations/Narsileon.md|Narsileon]] is a human (Archontean) arms dealer and merchant.
 
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]

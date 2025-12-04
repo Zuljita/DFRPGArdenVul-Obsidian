@@ -4,7 +4,7 @@ tags:
 aliases:
   - Tikun Thane
 ---
-# The Thane
+# [[npcs/The Thane.md|The Thane]]
 
 ## Summary
 A wizard from [[Newmarket]] who kidnaps baboons from the [[Howling Caves]].
@@ -18,6 +18,6 @@ Hostile towards the baboons.
 ## Known Associates
 
 ## Notes
-- The Thane and his followers kidnapped [[Bobo]] and [[Bifki]] from the [[Howling Caves]].
+- [[npcs/The Thane.md|The Thane]] and his followers kidnapped [[Bobo]] and [[Bifki]] from the [[Howling Caves]].
 - He used "bad juju" to stun [[Bumpko]] and other baboons.
-- He used to enter the Howling Caves in the past, but stopped when "[[The Master]]" was there.
+- He used to enter the [[locations/Howling Caves.md|Howling Caves]] in the past, but stopped when "[[The Master]]" was there.

@@ -3,10 +3,10 @@ tags:
   - location
 ---
 
-# Troll Lifts
+# [[locations/Troll Lifts.md|Troll Lifts]]
 
 ## Summary
-Ancient hoist system in the Wet Caves operated by trolls, providing vertical transit between districts.
+Ancient hoist system in the [[locations/Wet Caves.md|Wet Caves]] operated by trolls, providing vertical transit between districts.
 
 ## Appears In
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]

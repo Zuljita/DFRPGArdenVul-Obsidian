@@ -1,10 +1,10 @@
 ---
-title: "Shrines"
+title: "[[locations/Shrines.md|Shrines]]"
 tags:
   - location
   - location
 ---
-# Shrines
+# [[locations/Shrines.md|Shrines]]
 
 ## Level
 
@@ -19,15 +19,15 @@ tags:
 - [[Arden Vul|Arden Vul]]
 - [[locations/Great Chasm.md|Great Chasm]]
 - [[npcs/Demma.md|Demma]]
-- Goblins
-- Halflings
+- [[factions/Goblins.md|Goblins]]
+- [[factions/Halflings.md|Halflings]]
 - Hall
 - Halls
  - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]]
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]]
  - [[pcs/Michael J. Dundee.md|Michael]]
 - Stuff
-- The Set Cult Strikes Back
+- The [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]] Strikes Back
 - There
 - [[npcs/Thoth.md|Thoth]]
  - [[pcs/Vael Sunshadow.md|Vael]]
@@ -40,4 +40,4 @@ tags:
 ## Notes
 
 ## Sessions
-- Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
+- Session 24b - The [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]] Strikes Back, Larel's Stuff, and the Hall of [[locations/Shrines.md|Shrines]]

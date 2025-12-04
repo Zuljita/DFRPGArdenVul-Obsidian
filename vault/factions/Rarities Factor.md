@@ -1,15 +1,15 @@
 ---
-title: "Rarities Factor"
+title: "[[factions/Rarities Factor.md|Rarities Factor]]"
 tags:
   - faction
   - faction
 ---
-# Rarities Factor
+# [[factions/Rarities Factor.md|Rarities Factor]]
 
 ## Summary
-The Rarities Factor is a regional merchant factor with locations in [[Gosterwick]], [[Narsileon]], and [[Newmarket]]. The Gosterwick branch is led by the goblin [[Wicktrimmer]].
+The [[factions/Rarities Factor.md|Rarities Factor]] is a regional merchant factor with locations in [[Gosterwick]], [[Narsileon]], and [[Newmarket]]. The [[locations/Gosterwick.md|Gosterwick]] branch is led by the goblin [[Wicktrimmer]].
 
-It is known for being the cheapest of the factors in Gosterwick. Due to a deal made regarding [[Larel's Dagger]], storage is now free for the party. They are also willing to house non-cash goods.
+It is known for being the cheapest of the factors in [[locations/Gosterwick.md|Gosterwick]]. Due to a deal made regarding [[Larel's Dagger]], storage is now free for the party. They are also willing to house non-cash goods.
 ## Sessions
 
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]

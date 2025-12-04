@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Bifki
+# [[npcs/Bifki.md|Bifki]]
 
 ## Summary
 A young baboon from the [[Howling Caves]] who was kidnapped by [[The Thane]].

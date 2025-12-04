@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Totey Lake
+# [[locations/Totey Lake.md|Totey Lake]]
 
 ## Summary
 A lake near [[Gosterwick]], mentioned in connection with discarded items and as a location for fishermen.

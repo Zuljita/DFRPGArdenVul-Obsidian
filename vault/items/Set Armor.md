@@ -1,11 +1,11 @@
 ---
-title: "Set Armor"
+title: "[[npcs/Set.md|Set]] Armor"
 tags:
   - item
   - item/armor
   - item/mundane
 ---
-# Set Armor
+# [[npcs/Set.md|Set]] Armor
 
 ## Description
 

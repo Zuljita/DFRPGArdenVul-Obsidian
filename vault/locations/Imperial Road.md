@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Imperial Road
+# [[locations/Imperial Road.md|Imperial Road]]
 
 ## Summary
 An old road, once cobblestone but now mostly dirt with stone bumps, leading north from [[Gosterwick]] towards [[Arden Vul]].
@@ -12,7 +12,7 @@ An old road, once cobblestone but now mostly dirt with stone bumps, leading nort
 Surface.
 
 ## Aliases
-- Old Imperial Road
+- Old [[locations/Imperial Road.md|Imperial Road]]
 
 ## Connections
 - Connects [[Gosterwick]] to [[Arden Vul]].

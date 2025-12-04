@@ -3,7 +3,7 @@ tags:
   - item
 ---
 
-# Set Animals
+# [[npcs/Set.md|Set]] Animals
 
 ## Description
 Vicious dogs with square ears, often used by followers of the [[Cult of Set]]. These are described as "weird mean dogs".
@@ -13,7 +13,7 @@ Vicious dogs with square ears, often used by followers of the [[Cult of Set]]. T
 - Square ears
 
 ## Known History
-An ancient rescript from the high priest of [[Set]] to his counterpart in Archontos claims that the [[Temple of Set]] in [[Arden Vul]] succeeded in breeding a fearsome species of animals that 'shared all the attributes of Lord Set.' This project was based in a secret cavern near the [[Waterfall]].
+An ancient rescript from the high priest of [[Set]] to his counterpart in [[locations/Archontos.md|Archontos]] claims that the [[Temple of Set]] in [[Arden Vul]] succeeded in breeding a fearsome species of animals that 'shared all the attributes of Lord [[npcs/Set.md|Set]].' This project was based in a secret cavern near the [[Waterfall]].
 
 ## Notes
 These creatures might be a type of golem or a magically augmented beast.

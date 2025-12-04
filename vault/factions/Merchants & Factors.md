@@ -21,7 +21,7 @@ There are several Factors active in the region, with varying scope and specialti
 
 ### [[Rarities Factor]]
 - A regional factor led by the goblin [[Wicktrimmer]] in [[Gosterwick]].
-- Known for having the cheapest storage fees in Gosterwick, and has been known to house non-cash goods.
+- Known for having the cheapest storage fees in [[locations/Gosterwick.md|Gosterwick]], and has been known to house non-cash goods.
 
 ### [[Prosperity Factor]]
 - An Empire-wide factor.

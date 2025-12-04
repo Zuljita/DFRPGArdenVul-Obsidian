@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Kaelo's Bathhouse
+# [[npcs/Kaelo.md|Kaelo]]'s Bathhouse
 
 ## Summary
 A bathhouse owned by [[npcs/Kaelo.md|Kaelo]] in [[Gosterwick]], offering cleaning and relaxation services.

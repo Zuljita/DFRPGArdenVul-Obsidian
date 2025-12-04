@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Yvette
+# [[npcs/Yvette.md|Yvette]]
 
 ## Summary
 A member of [[factions/Dalton's Darlings|Dalton's Darlings]].

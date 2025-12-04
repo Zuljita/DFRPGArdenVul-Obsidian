@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 11: The Great Cavern Redux"
+title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 11: The [[locations/Great Cavern.md|Great Cavern]] Redux"
 tags:
   - session
   - session
@@ -7,7 +7,7 @@ tags:
 session_id: 11
 ---
 
-# DFRPG Arden Vul Session 11: The Great Cavern Redux
+# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 11: The [[locations/Great Cavern.md|Great Cavern]] Redux
 
 Date:
 
@@ -21,10 +21,10 @@ Cool, windy
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 Vallium Halcyon, Archontean fighter (Greybrown)
 Vael Sunshadow, Half-Elven mage (Kyle)
-Thrainor "Thronebreaker" Ironvein, Dwarven martial artist (Archon Shiva)
+Thrainor "[[npcs/Thronebreaker.md|Thronebreaker]]" Ironvein, Dwarven martial artist (Archon Shiva)
 
 
 Significant NPCs:
@@ -33,7 +33,7 @@ Significant NPCs:
 
 
 
-Klisko, badly injured mage
+[[npcs/Klisko.md|Klisko]], badly injured mage
 
 
 One skeleton
@@ -63,61 +63,61 @@ Several giant lizards
 
 
 
-Uvash had church and Michael was gone on another hunting trip, so the group felt a bit shorthanded this week, and hired a dwarven mercenary named Thronebreaker from the Grudge Brigade.  Ioannes spent several days taking equine handling lessons from Sakeon the Horse Whisperer, then the group decided to visit the Great Cavern and didn't bring their mule along.  They did grab the leftover food out of the mule's saddlebag and put it in their wheelbarrow, in case they ran into any hungry monsters.  Ioannes rudely dropped the Bless spells he was maintaining on Uvash and Michael, and cast one on Thronebreaker, who had apparently heard from some other mercenary that he could cast it.
+Uvash had church and Michael was gone on another hunting trip, so the group felt a bit shorthanded this week, and hired a dwarven mercenary named [[npcs/Thronebreaker.md|Thronebreaker]] from the [[factions/Grudge Brigade.md|Grudge Brigade]].  Ioannes spent several days taking equine handling lessons from [[npcs/Sakeon.md|Sakeon]] the Horse Whisperer, then the group decided to visit the [[locations/Great Cavern.md|Great Cavern]] and didn't bring their mule along.  They did grab the leftover food out of the mule's saddlebag and put it in their wheelbarrow, in case they ran into any hungry monsters.  Ioannes rudely dropped the Bless spells he was maintaining on Uvash and Michael, and cast one on [[npcs/Thronebreaker.md|Thronebreaker]], who had apparently heard from some other mercenary that he could cast it.
 
 
 
 
 
-The four got up early and hiked from Gosterwick to the Cliff Face, then about two-thirds of the way up the Long Stair to the secret entrance to the Great Cavern.  They found the secret door without problems, and left their wheelbarrow full of food right inside.  They turned left (for loot) and found a cavern containing a padlocked stone chest with the icon of a mailed fist on top.  Vael cast Lockmaster and the lock sprung open, but remained hanging from the chest.  Vael reached out to grab it and the contact poison on the lock seeped right through his gloves and knocked him down.  Fortunately it was not fatal, and Ioannes cast Stop Bleeding while Thronebreaker expressed surprise that a wizard who knew Apportation would ever touch a small object with his bare hands.
+The four got up early and hiked from [[locations/Gosterwick.md|Gosterwick]] to the [[locations/Cliff Face.md|Cliff Face]], then about two-thirds of the way up the [[locations/Long Stair.md|Long Stair]] to the secret entrance to the [[locations/Great Cavern.md|Great Cavern]].  They found the secret door without problems, and left their wheelbarrow full of food right inside.  They turned left (for loot) and found a cavern containing a padlocked stone chest with the icon of a mailed fist on top.  Vael cast Lockmaster and the lock sprung open, but remained hanging from the chest.  Vael reached out to grab it and the contact poison on the lock seeped right through his gloves and knocked him down.  Fortunately it was not fatal, and Ioannes cast Stop Bleeding while [[npcs/Thronebreaker.md|Thronebreaker]] expressed surprise that a wizard who knew Apportation would ever touch a small object with his bare hands.
 
 
 
 
 
-Vael stood back up and Apportated the lock off the chest.  Thronebreaker ripped the lid open.  Inside the chest were some rations, torches, javelins, gourd canteens, and flasks of oil.  There was also a leather pouch.  Vael cautiously Apportated the pouch out and flipped it over, and some red mushrooms fell out.  They took the mushrooms and left the rest, figuring they could come back and get it on the way out if they were desperate enough for loot that torches and javelins were worth carrying.
+Vael stood back up and Apportated the lock off the chest.  [[npcs/Thronebreaker.md|Thronebreaker]] ripped the lid open.  Inside the chest were some rations, torches, javelins, gourd canteens, and flasks of oil.  There was also a leather pouch.  Vael cautiously Apportated the pouch out and flipped it over, and some red mushrooms fell out.  They took the mushrooms and left the rest, figuring they could come back and get it on the way out if they were desperate enough for loot that torches and javelins were worth carrying.
 
 
 
 
 
-They went back northeast, with Vallium in the lead, until they again saw a statue of a middle-aged man with missing eyes.  They compared the size of the eye holes to the magical silver eye they had found deeper in the dungeon, and concluded that it might fit, but they only had one eye for two eye-holes so they decided to wait until they found another before doing anything.  They continued north to an empty cave, which Thronebreaker investigated with his dwarven Prospecting skill.  He felt some suspicious wind moving through the west wall, and when he tried feeling the wall his hand went right through an illusion.  He stepped through and found a badly burned man sleeping on a bedroll.  The rest of the group crowded in as the man woke up and groaned.  Ioannes cast a Stop Bleeding followed by a Major Healing, which was enough to get the burned man back on his feet.  His name was Klisko, and he said he was a wizard and the sole survivor of a battle to the west.  Some gang of thuggish adventurers had tried to shake down his party in a cavern to the west, and while the heated discussion was ongoing, the thugs' idiot halfling thief had climbed up a statue and attempted to pry out its gem eyes, which caused Massive Fireballs that killed almost everyone in the room.  Klisko had been all the way in the back of the room and so survived the blast, then drank his healing potions and staggered into this cave, where he cast an illusion then went to sleep.
+They went back northeast, with Vallium in the lead, until they again saw a statue of a middle-aged man with missing eyes.  They compared the size of the eye holes to the magical silver eye they had found deeper in the dungeon, and concluded that it might fit, but they only had one eye for two eye-holes so they decided to wait until they found another before doing anything.  They continued north to an empty cave, which [[npcs/Thronebreaker.md|Thronebreaker]] investigated with his dwarven Prospecting skill.  He felt some suspicious wind moving through the west wall, and when he tried feeling the wall his hand went right through an illusion.  He stepped through and found a badly burned man sleeping on a bedroll.  The rest of the group crowded in as the man woke up and groaned.  Ioannes cast a Stop Bleeding followed by a Major Healing, which was enough to get the burned man back on his feet.  His name was [[npcs/Klisko.md|Klisko]], and he said he was a wizard and the sole survivor of a battle to the west.  Some gang of thuggish adventurers had tried to shake down his party in a cavern to the west, and while the heated discussion was ongoing, the thugs' idiot halfling thief had climbed up a statue and attempted to pry out its gem eyes, which caused Massive Fireballs that killed almost everyone in the room.  [[npcs/Klisko.md|Klisko]] had been all the way in the back of the room and so survived the blast, then drank his healing potions and staggered into this cave, where he cast an illusion then went to sleep.
 
 
 
 
 
-The group had a bunch of questions for Klisko.  The gem-stealing halfling did not appear to match the description of any of the halflings they knew.  His adventuring party did not have a formal name; they had discussed it but not come to a decision.  The leader of his group had been a big fighter named Balthar, with a mustache and a beard.  Yes, he would show them that room, if they could show him a way out.  He said they had been looking for the Tomb of some Sortian named Lycandus, up a wall in the southwest of the Great Cavern, but they had run into a statue door with empty eyes that they could not open, so they had continued south into some room with statues to look for another entrance.
+The group had a bunch of questions for [[npcs/Klisko.md|Klisko]].  The gem-stealing halfling did not appear to match the description of any of the halflings they knew.  His adventuring party did not have a formal name; they had discussed it but not come to a decision.  The leader of his group had been a big fighter named Balthar, with a mustache and a beard.  Yes, he would show them that room, if they could show him a way out.  He said they had been looking for the Tomb of some Sortian named [[npcs/Lycandus.md|Lycandus]], up a wall in the southwest of the [[locations/Great Cavern.md|Great Cavern]], but they had run into a statue door with empty eyes that they could not open, so they had continued south into some room with statues to look for another entrance.
 
 
 
 
 
-Vael and Ioannes rested for a few minutes while Klisko packed up his bedroll, then Klisko led them west and down a stone staircase into a large room with some decapitated statues lining the north and south walls, a few sarcophagi, a bunch of burned corpses, and a worn statue of some vaguely reptilian creature with multi-faceted amber eyes against the west wall.  Klisko indicated that the reptilian statue was the one the halfling messed with, and the bodies all over the floor were his friends and the thugs that were trying to rob them.  He also pointed to a pile of rocks to the north and said that was the way they came in, but the fireball had triggered a cave-in.  Ioannes felt a sense of unease in the room, like it was dedicated to an evil god.
+Vael and Ioannes rested for a few minutes while [[npcs/Klisko.md|Klisko]] packed up his bedroll, then [[npcs/Klisko.md|Klisko]] led them west and down a stone staircase into a large room with some decapitated statues lining the north and south walls, a few sarcophagi, a bunch of burned corpses, and a worn statue of some vaguely reptilian creature with multi-faceted amber eyes against the west wall.  [[npcs/Klisko.md|Klisko]] indicated that the reptilian statue was the one the halfling messed with, and the bodies all over the floor were his friends and the thugs that were trying to rob them.  He also pointed to a pile of rocks to the north and said that was the way they came in, but the fireball had triggered a cave-in.  Ioannes felt a sense of unease in the room, like it was dedicated to an evil god.
 
 
 
 
 
-Thronebreaker walked over to the cave-in and started digging out rocks, then said that it would take days if not weeks of digging to clear the passage.  Vael started looking at the bodies for magic items, and found a couple of potions and a nice long knife, in addition to a non-magical mace and several swords and knives, and a big melted lump of silver.  Ioannes asked if they had opened the sarcophagi, and Klisko said they hadn't started investigating yet when the others came in.  Vael asked if Klisko knew what the silver was, and Klisko thought he remembered one of the bad guys was an evil cleric wearing a silver holy symbol of some kind of dog, so that might be the melted holy symbol.  Klisko asked if they could show him the exit, so they packed up the valuables and walked over to their wheelbarrow near the exit.  Before opening the secret door, Vael asked Klisko not to tell anyone about it.  Klisko agreed, and then walked out the door.  He said he was heading back to Gosterwick to rest.
+[[npcs/Thronebreaker.md|Thronebreaker]] walked over to the cave-in and started digging out rocks, then said that it would take days if not weeks of digging to clear the passage.  Vael started looking at the bodies for magic items, and found a couple of potions and a nice long knife, in addition to a non-magical mace and several swords and knives, and a big melted lump of silver.  Ioannes asked if they had opened the sarcophagi, and [[npcs/Klisko.md|Klisko]] said they hadn't started investigating yet when the others came in.  Vael asked if [[npcs/Klisko.md|Klisko]] knew what the silver was, and [[npcs/Klisko.md|Klisko]] thought he remembered one of the bad guys was an evil cleric wearing a silver holy symbol of some kind of dog, so that might be the melted holy symbol.  [[npcs/Klisko.md|Klisko]] asked if they could show him the exit, so they packed up the valuables and walked over to their wheelbarrow near the exit.  Before opening the secret door, Vael asked [[npcs/Klisko.md|Klisko]] not to tell anyone about it.  [[npcs/Klisko.md|Klisko]] agreed, and then walked out the door.  He said he was heading back to [[locations/Gosterwick.md|Gosterwick]] to rest.
 
 
 
 
 
-With Klisko gone, the group left the heavy pile of weapons in the wheelbarrow, and went back to the room with the statues.  Three of the four sarcophagi in the room had already been opened and appeared empty, but the fourth still looked intact.  Thronebreaker used Power Blow for a surge of strength and ripped the lid off.  A skeleton inside the sarcophagus had apparently been waiting a long time for this to happen, and jumped out to attack.  It achieved surprise and managed to lightly wound Thronebreaker with its axe.  A long combat ensued, where the highly skilled skeleton kept parrying and blocking every blow Thronebreaker and Vallium rained upon it, while they parried its axe attacks.  Eventually Thronebreaker got bored with fighting fair and circled behind the skeleton, who did not have  eyes (or even empty eye sockets) on the back of its head.  It could not effectively block attacks it could not see, and they bashed it down until it finally collapsed into a pile of inanimate bones.  The sarcophagus contained a huge ancient octagonal platinum coin, a jade necklace, and a bone scroll case with a magic scroll inside.
+With [[npcs/Klisko.md|Klisko]] gone, the group left the heavy pile of weapons in the wheelbarrow, and went back to the room with the statues.  Three of the four sarcophagi in the room had already been opened and appeared empty, but the fourth still looked intact.  [[npcs/Thronebreaker.md|Thronebreaker]] used Power Blow for a surge of strength and ripped the lid off.  A skeleton inside the sarcophagus had apparently been waiting a long time for this to happen, and jumped out to attack.  It achieved surprise and managed to lightly wound [[npcs/Thronebreaker.md|Thronebreaker]] with its axe.  A long combat ensued, where the highly skilled skeleton kept parrying and blocking every blow [[npcs/Thronebreaker.md|Thronebreaker]] and Vallium rained upon it, while they parried its axe attacks.  Eventually [[npcs/Thronebreaker.md|Thronebreaker]] got bored with fighting fair and circled behind the skeleton, who did not have  eyes (or even empty eye sockets) on the back of its head.  It could not effectively block attacks it could not see, and they bashed it down until it finally collapsed into a pile of inanimate bones.  The sarcophagus contained a huge ancient octagonal platinum coin, a jade necklace, and a bone scroll case with a magic scroll inside.
 
 
 
 
 
-Thronebreaker then turned his attention to the statue.  The other three ran to the far side of the room.  Thronebreaker got behind the statue, put his back to the statue and his legs against the wall behind it, used Power Blow, and knocked the statue over.  No fireballs erupted.  The statue was too heavy to bring home, so Thronebreaker decided to decapitate it.  He got Vallium to reluctantly agree to help him roll it so the eyes were facing south away from everyone, then let Vallium run away to safety before he used Power Blow again to decapitate the statue.  Once again no fireballs erupted.  Carefully avoiding contact with the eyes, Thronebreaker picked up the statue's head and carried it to the exit.  When he got near Vael he pretended to throw the head at the wizard, which got the expected reaction.  Instead of throwing it, he carried the head all the way to the wheelbarrow, and set it under the wheelbarrow, hoping that would help shelter the other loot if someone set the trap off.
+[[npcs/Thronebreaker.md|Thronebreaker]] then turned his attention to the statue.  The other three ran to the far side of the room.  [[npcs/Thronebreaker.md|Thronebreaker]] got behind the statue, put his back to the statue and his legs against the wall behind it, used Power Blow, and knocked the statue over.  No fireballs erupted.  The statue was too heavy to bring home, so [[npcs/Thronebreaker.md|Thronebreaker]] decided to decapitate it.  He got Vallium to reluctantly agree to help him roll it so the eyes were facing south away from everyone, then let Vallium run away to safety before he used Power Blow again to decapitate the statue.  Once again no fireballs erupted.  Carefully avoiding contact with the eyes, [[npcs/Thronebreaker.md|Thronebreaker]] picked up the statue's head and carried it to the exit.  When he got near Vael he pretended to throw the head at the wizard, which got the expected reaction.  Instead of throwing it, he carried the head all the way to the wheelbarrow, and set it under the wheelbarrow, hoping that would help shelter the other loot if someone set the trap off.
 
 
 
 
 
-With the evil temple explored, the party headed back east through various passages they knew led back to the Great Cavern.  They briefly discussed flying up a rock formation that had a hole into the depths they had not yet explored, but eventually decided to leave that for another day.  Instead they went into a cave entrance to the northeast.  They found a baboon head impaled on a spear.  Undeterred, they continued and saw a magical pillar of fire to the east.  To the north, they saw three small fire elementals of some sort, wearing outlandish costumes with purple jackets and orange top hats, and smoking some kind of mushroom cigars.  The fire creatures babbled at them in some language they did not know.  Eventually, one of them threw the almost-spent butt of its mushroom cigar at Vallium.  Vallium picked it up and tried it, which caused him to get a lot dumber and a bit more perceptive.  
+With the evil temple explored, the party headed back east through various passages they knew led back to the [[locations/Great Cavern.md|Great Cavern]].  They briefly discussed flying up a rock formation that had a hole into the depths they had not yet explored, but eventually decided to leave that for another day.  Instead they went into a cave entrance to the northeast.  They found a baboon head impaled on a spear.  Undeterred, they continued and saw a magical pillar of fire to the east.  To the north, they saw three small fire elementals of some sort, wearing outlandish costumes with purple jackets and orange top hats, and smoking some kind of mushroom cigars.  The fire creatures babbled at them in some language they did not know.  Eventually, one of them threw the almost-spent butt of its mushroom cigar at Vallium.  Vallium picked it up and tried it, which caused him to get a lot dumber and a bit more perceptive.  
 
 
 
@@ -135,13 +135,13 @@ As Vallium slowly recovered his wits, the group walked north to the shore of the
 
 
 
-Entering the cavern, Thronebreaker identified the crystals as selenite.  Two man-sized creatures made of selenite crystals emerged from the other crystals and started speaking an unknown rock-clickly language, then gesturing at the party.  Apparently meat-people and crystal-people do not use a common form of gestures, as the party had no idea what their gestures meant.  The main gesture was pointing both elbows downward rapidly, which escalated into smashing both into the floor, but the party failed to understand.  Thronebreaker got bored with the communication failures and advanced into the room, trying to intimidate the crystal creatures out of his way.  This worked for a while, but eventually one attacked him.  It missed, but he kept pressing, and eventually a full fight broke out.  The crystal guardians were quite tough, and appeared to regenerate when damaged, but there were only two of them, and Vael cast Great Haste on Vallium, and eventually they were worn down and smashed.  Thronebreaker thought the crystals might have some value, so Vael took some crystals, from the creatures' bodies and from the walls of the cavern.
+Entering the cavern, [[npcs/Thronebreaker.md|Thronebreaker]] identified the crystals as selenite.  Two man-sized creatures made of selenite crystals emerged from the other crystals and started speaking an unknown rock-clickly language, then gesturing at the party.  Apparently meat-people and crystal-people do not use a common form of gestures, as the party had no idea what their gestures meant.  The main gesture was pointing both elbows downward rapidly, which escalated into smashing both into the floor, but the party failed to understand.  [[npcs/Thronebreaker.md|Thronebreaker]] got bored with the communication failures and advanced into the room, trying to intimidate the crystal creatures out of his way.  This worked for a while, but eventually one attacked him.  It missed, but he kept pressing, and eventually a full fight broke out.  The crystal guardians were quite tough, and appeared to regenerate when damaged, but there were only two of them, and Vael cast Great Haste on Vallium, and eventually they were worn down and smashed.  [[npcs/Thronebreaker.md|Thronebreaker]] thought the crystals might have some value, so Vael took some crystals, from the creatures' bodies and from the walls of the cavern.
 
 
 
 
 
-Continuing to the northwest, they found a humid cave full of giant mushrooms.  These ones were brown, so did not sound like the Cloud Caps the beastmen were seeking.  There was an exit to the southwest, and when Thronebreaker approached it he heard yelling in another unknown language, from what looked like a walking giant mushroom.  There were several more in the cavern to the southwest, in various sizes and colors, and they were approaching with apparent hostility.  Thronebreaker tried his Intimidation skill to scare them off, and was intimidating enough that the mushrooms stopped in their cave and yelled, rather than continuing to advance.  After eyeballing the mushrooms for a while, the group left to the northwest, toward the sound of moving water.
+Continuing to the northwest, they found a humid cave full of giant mushrooms.  These ones were brown, so did not sound like the Cloud Caps the beastmen were seeking.  There was an exit to the southwest, and when [[npcs/Thronebreaker.md|Thronebreaker]] approached it he heard yelling in another unknown language, from what looked like a walking giant mushroom.  There were several more in the cavern to the southwest, in various sizes and colors, and they were approaching with apparent hostility.  [[npcs/Thronebreaker.md|Thronebreaker]] tried his Intimidation skill to scare them off, and was intimidating enough that the mushrooms stopped in their cave and yelled, rather than continuing to advance.  After eyeballing the mushrooms for a while, the group left to the northwest, toward the sound of moving water.
 
 
 
@@ -159,25 +159,25 @@ The group continued north then southeast then southwest, and heard the sound of 
 
 
 
-To the east was a cave with 3 stalagmites, and no stalactites above them.  Thronebreaker suggested that Vael fly up and check the ceiling.  Vael did so and found nothing suspicious.  He used Shape Earth to break one stalagmite and found nothing interesting.  Stumped, he sat down and cast Seek Magic, then Seek Earth for gold.  There was some magic to the southwest, and some gold in this room, under one of the other stalagmites.  Using another Shape Earth he broke it open and recovered a gold ring.  Another casting of Seek Earth found some more gold only a few yards north, so they went that way.
+To the east was a cave with 3 stalagmites, and no stalactites above them.  [[npcs/Thronebreaker.md|Thronebreaker]] suggested that Vael fly up and check the ceiling.  Vael did so and found nothing suspicious.  He used Shape Earth to break one stalagmite and found nothing interesting.  Stumped, he sat down and cast Seek Magic, then Seek Earth for gold.  There was some magic to the southwest, and some gold in this room, under one of the other stalagmites.  Using another Shape Earth he broke it open and recovered a gold ring.  Another casting of Seek Earth found some more gold only a few yards north, so they went that way.
 
 
 
 
 
-North then northeast through a very narrow corridor was a cave with a giant lizard, guarding a nest.  The lizard was too big to fit through the narrow corridor, which gave the party time to cast Great Haste and Shield spells on Vallium.  Fully buffed, he ran into the room at high speed and started rapidly stabbing the lizard.  Meanwhile, Thronebreaker squeezed through the passage and began attacking at a more normal pace.  Vallium grievously wounded it several times, knocking it down and stunning it, and then Thronebreaker decided to finish it with an all-out attack to the skull with Power Blow.  He split its skull open and destroyed its brain.  The nest contained a couple of giant lizard eggs and one egg made of gold; the group grabbed all three.  There was a suspicious dead end passage to the northeast, so Thronebreaker searched for a secret door in the obvious place and found one.  It opened into the northern end of the Great Cavern, near a beastman observation cage  Vael then suggested that Ioannes try skinning the lizard in case some part of it was valuable.  While Ioannes did that, another giant lizard approached from the northwest, but Thronebreaker intimidated it away.
+North then northeast through a very narrow corridor was a cave with a giant lizard, guarding a nest.  The lizard was too big to fit through the narrow corridor, which gave the party time to cast Great Haste and Shield spells on Vallium.  Fully buffed, he ran into the room at high speed and started rapidly stabbing the lizard.  Meanwhile, [[npcs/Thronebreaker.md|Thronebreaker]] squeezed through the passage and began attacking at a more normal pace.  Vallium grievously wounded it several times, knocking it down and stunning it, and then [[npcs/Thronebreaker.md|Thronebreaker]] decided to finish it with an all-out attack to the skull with Power Blow.  He split its skull open and destroyed its brain.  The nest contained a couple of giant lizard eggs and one egg made of gold; the group grabbed all three.  There was a suspicious dead end passage to the northeast, so [[npcs/Thronebreaker.md|Thronebreaker]] searched for a secret door in the obvious place and found one.  It opened into the northern end of the [[locations/Great Cavern.md|Great Cavern]], near a beastman observation cage  Vael then suggested that Ioannes try skinning the lizard in case some part of it was valuable.  While Ioannes did that, another giant lizard approached from the northwest, but [[npcs/Thronebreaker.md|Thronebreaker]] intimidated it away.
 
 
 
 
 
-At this point they were back in the Great Cavern and had some loot, so they decided to go back home.  Vael cast Levitation or Flight on everyone to get them back over the lake.  Ioannes went back to the cave to retrieve the four cats, lured out with lizard meat.  The black cat that seemed to be the leader decided they should all follow the human as long as he kept feeding them, and the other three scared cats followed.
+At this point they were back in the [[locations/Great Cavern.md|Great Cavern]] and had some loot, so they decided to go back home.  Vael cast Levitation or Flight on everyone to get them back over the lake.  Ioannes went back to the cave to retrieve the four cats, lured out with lizard meat.  The black cat that seemed to be the leader decided they should all follow the human as long as he kept feeding them, and the other three scared cats followed.
 
 
 
 
 
-They walked back to the secret door and found their wheelbarrow full of loot and trapped statue head still there.  They put the trapped statue head in a sack to make sure nobody touched the eyes, put the sack in the wheelbarrow, and went back to Gosterwick.
+They walked back to the secret door and found their wheelbarrow full of loot and trapped statue head still there.  They put the trapped statue head in a sack to make sure nobody touched the eyes, put the sack in the wheelbarrow, and went back to [[locations/Gosterwick.md|Gosterwick]].
 
 
 
@@ -192,13 +192,13 @@ GM's Comments:
 
 
 
-Running the Great Cavern is exhausting.  So many locations, so many weird monsters.  Also lots of twisty little passages that sometimes get the player tokens stuck.  I imagine it would be very difficult to map, if not using a VTT.  (My players aren't actually mapping in real life.  I just let them use Foundry's map memory if any of the PCs is mapping in-game, so they do that.)
+Running the [[locations/Great Cavern.md|Great Cavern]] is exhausting.  So many locations, so many weird monsters.  Also lots of twisty little passages that sometimes get the player tokens stuck.  I imagine it would be very difficult to map, if not using a VTT.  (My players aren't actually mapping in real life.  I just let them use Foundry's map memory if any of the PCs is mapping in-game, so they do that.)
 
 
 
 
 
-I was impressed that the PCs avoided robbing Klisko.  They looted all the corpses of his friends and enemies, but showed him the way out as agreed, and didn't even rob him on the way out.
+I was impressed that the PCs avoided robbing [[npcs/Klisko.md|Klisko]].  They looted all the corpses of his friends and enemies, but showed him the way out as agreed, and didn't even rob him on the way out.
 
 
 
@@ -210,7 +210,7 @@ Hilariously, the adventure did not list a value for the statue's amber eyes.  I 
 
 
 
-One of the players noted that the trapped statue head would make an excellent gift for their favorite halflings under the pyramid.  If the eyes had been very valuable and easy to safely remove then I think greed would have prevailed, but it turns out they're not super valuable and not at all easy to safely remove, so we will probably see this play out in a future session, whenever they decide they're ready to fight Plumthorn's halfling gang.
+One of the players noted that the trapped statue head would make an excellent gift for their favorite halflings under the pyramid.  If the eyes had been very valuable and easy to safely remove then I think greed would have prevailed, but it turns out they're not super valuable and not at all easy to safely remove, so we will probably see this play out in a future session, whenever they decide they're ready to fight [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halfling gang.
 
 
 
@@ -267,7 +267,7 @@ Next Week:
 
 
 
-I think they might actually take a shot at Plumthorn's halflings, if they get a full party.  The lure of Chekhov's Statue Head might be too much to resist.
+I think they might actually take a shot at [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halflings, if they get a full party.  The lure of Chekhov's Statue Head might be too much to resist.
 
 
 

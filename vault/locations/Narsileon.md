@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Narsileon
+# [[locations/Narsileon.md|Narsileon]]
 
 ## Description
 

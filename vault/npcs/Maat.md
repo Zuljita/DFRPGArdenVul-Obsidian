@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Maat
+# [[npcs/Maat.md|Maat]]
 
 ## Summary
 The wife of [[Thoth]], often symbolized by a feather.

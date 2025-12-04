@@ -1,17 +1,17 @@
 ---
-title: "Temple of Demma"
+title: "Temple of [[npcs/Demma.md|Demma]]"
 tags:
   - location
   - location
 ---
-# Temple of Demma
+# Temple of [[npcs/Demma.md|Demma]]
 
 While there are many temples to [[Demma]], this page primarily describes the temple located in [[Gosterwick]].
 
-## The Temple in Gosterwick
+## The Temple in [[locations/Gosterwick.md|Gosterwick]]
 
 ### Overview
-The Temple of Demma in [[Gosterwick]] is a modest but well-maintained structure that serves as a center for healing, wisdom, and rural devotion. It prioritizes practical, service-oriented aid to the local farmers and rural poor over the town's more mercenary-driven economy. Its faithful are primarily farmers, midwives, and homemakers.
+The Temple of [[npcs/Demma.md|Demma]] in [[Gosterwick]] is a modest but well-maintained structure that serves as a center for healing, wisdom, and rural devotion. It prioritizes practical, service-oriented aid to the local farmers and rural poor over the town's more mercenary-driven economy. Its faithful are primarily farmers, midwives, and homemakers.
 
 ### Staff
 - **Chief Priest:** [[Vivian]], a stern but fair Thorcin cleric.
@@ -21,12 +21,12 @@ The Temple of Demma in [[Gosterwick]] is a modest but well-maintained structure 
 ### Services
 The temple provides blessings for fields and expectant mothers, as well as limited magical services like healing, which are offered first to true believers and those in genuine need.
 
-## The Priesthood of Demma
+## The Priesthood of [[npcs/Demma.md|Demma]]
 
 ### Structure
 The priesthood is hierarchical yet practical. Local temples are led by a Chief Priest who manages the temple and its obligations.
 - **[[Seedkeepers]]:** A more esoteric branch of the priesthood, dedicated to guarding ancient agricultural knowledge and sacred rites.
-- **[[Harvest Guardians]]:** The warrior arm of the faith, tasked with defending temples and enforcing Demma's will. They are trained in the use of the flail.
+- **[[Harvest Guardians]]:** The warrior arm of the faith, tasked with defending temples and enforcing [[npcs/Demma.md|Demma]]'s will. They are trained in the use of the flail.
 
 ### Vestments
 Clergy wear practical vestments in earthy tones (greens, yellows, browns) with a sleeveless outer robe of deep red or russet. The flail is a prominent symbol, used both as a weapon and as a ceremonial object.

@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Crisarius Three-Legs
+# [[npcs/Crisarius Three-Legs.md|Crisarius Three-Legs]]
 
 ## Summary
 A statue broker, part of a group of three who appraise and trade in statues and other large art objects.

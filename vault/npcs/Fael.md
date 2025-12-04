@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Fael
+# [[npcs/Fael.md|Fael]]
 
 ## Summary
 A half-elven food merchant, known for selling food supplies.

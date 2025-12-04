@@ -16,4 +16,4 @@ Mentioned in [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 ## Known Associates
 
 ## Notes
-- Goblins were seen carrying a large quantity of meat for "Mr. Heads".
+- [[factions/Goblins.md|Goblins]] were seen carrying a large quantity of meat for "Mr. Heads".

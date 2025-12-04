@@ -9,7 +9,7 @@ aliases:
 # Torunn the Smith
 
 ## Summary
-Torunn is a large Wiskin woman who is regarded as the best smith in [[Gosterwick]].
+Torunn is a large [[factions/Wiskin.md|Wiskin]] woman who is regarded as the best smith in [[Gosterwick]].
 
 ## Services
 She makes metal weapons and armor, with several apprentices working under her supervision. She handles the high-quality work ("The Good Stuff") herself and is familiar with Good, Fine, Balanced, and Dwarven quality work.

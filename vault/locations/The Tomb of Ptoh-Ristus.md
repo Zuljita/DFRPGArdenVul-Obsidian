@@ -1,10 +1,10 @@
 ---
-title: "The Tomb of Ptoh-Ristus"
+title: "The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]"
 tags:
   - location
   - location
 ---
-# The Tomb of Ptoh-Ristus
+# The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]
 
 ## Summary
 Thothian tomb containing the sarcophagus of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]], accessed via secret doors from areas west of the [[Great Chasm]]. The party encountered animated spearmen and mummies here.

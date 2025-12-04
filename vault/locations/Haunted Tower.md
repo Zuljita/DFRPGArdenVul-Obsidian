@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Haunted Tower
+# [[locations/Haunted Tower.md|Haunted Tower]]
 
 ## Description
 A tower located at the base of the [[Waterfall]] near [[Arden Vul]].
@@ -17,7 +17,7 @@ The tower was built during the [[Adrienic Expedition]], an attempt by [[Archon P
 ## Notes
 
 ### From the Journal of Ioannes
-> I found the record. The tower at the base of the waterfall—built during the Adrienic Expedition, two and a half centuries past. An attempt by Archon Phocion IV to retake Arden Vul. It failed. Bloodily. The tower was left behind when the survivors fled.
+> I found the record. The tower at the base of the waterfall—built during the Adrienic Expedition, two and a half centuries past. An attempt by Archon Phocion IV to retake [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]. It failed. Bloodily. The tower was left behind when the survivors fled.
 > And now it is haunted. Or rather, “folklore,” according to one too-convenient source.
 >
 > I do not trust him. He either never saw the ghost himself, or pretended not to.
@@ -26,6 +26,6 @@ The tower was built during the [[Adrienic Expedition]], an attempt by [[Archon P
 >
 > This is not folklore. This is unfinished business.
 >
-> Demma teaches that proper rest follows proper ritual. Perhaps there is something to uncover: a hidden corpse, a desecrated relic, an oath unfulfilled. I will return. Not yet. But soon. And I will put it to rest.
+> [[npcs/Demma.md|Demma]] teaches that proper rest follows proper ritual. Perhaps there is something to uncover: a hidden corpse, a desecrated relic, an oath unfulfilled. I will return. Not yet. But soon. And I will put it to rest.
 >
 > Gods grant that it is no demon. If it is, I will not face it alone.

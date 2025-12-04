@@ -3,7 +3,7 @@ tags:
   - item
 ---
 
-# Silver Tokens with Arden on one side
+# Silver Tokens with [[npcs/Arden.md|Arden]] on one side
 
 ## Summary
 Small silver tokens, each engraved with the image of [[Arden]] on one side. Their purpose is unknown, but they could be currency, religious tokens, or markers.

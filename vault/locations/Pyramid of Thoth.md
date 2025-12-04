@@ -1,11 +1,11 @@
 ---
-title: "Pyramid of Thoth"
+title: "Pyramid of [[npcs/Thoth.md|Thoth]]"
 tags:
   - location
   - location
   - entrance
 ---
-# Pyramid of Thoth
+# Pyramid of [[npcs/Thoth.md|Thoth]]
 
 ## Summary
 The [[Pyramid of Thoth]] is a major landmark in the surface ruins of [[Arden Vul]] and serves as a primary entrance to the dungeons beneath. It is a step pyramid, about 90' square and 45' high, and the largest intact structure in the city.
@@ -53,17 +53,17 @@ Surface, [[Arden Vul]].
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
 - [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
-- Session 5 - Parleys and The Great Cavern
+- Session 5 - Parleys and The [[locations/Great Cavern.md|Great Cavern]]
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
-- Sessions 8b and 9 - Muirasso's Tomb and the Broken Head
+- Sessions 8b and 9 - [[npcs/Muirasso.md|Muirasso]]'s Tomb and the Broken Head
 - Session 16 - Random Scorpion Teleport to the Hall of Judgment
 - [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]
 - [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]
-- Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
+- Session 24b - The [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]] Strikes Back, Larel's Stuff, and the Hall of [[locations/Shrines.md|Shrines]]
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
-- Session 27 - The Tomb of Ptoh-Ristus
+- Session 27 - The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]
 - Session 29 - The Tower of Scrutiny
 - Session 30 - The Tomb of Theskalon
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]

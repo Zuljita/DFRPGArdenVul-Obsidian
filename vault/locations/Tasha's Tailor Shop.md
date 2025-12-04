@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Tasha's Tailor Shop
+# [[npcs/Tasha.md|Tasha]]'s Tailor Shop
 
 ## Summary
 A tailor shop in [[Gosterwick]] run by [[Tasha]].

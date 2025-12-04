@@ -3,7 +3,7 @@ tags:
   - lore
 ---
 
-# Cult of Set Research
+# Cult of [[npcs/Set.md|Set]] Research
 
 ## Ioannes' Research Project
 [[Ioannes]] undertook a hurried research project on the [[Cult of Set]].
@@ -18,6 +18,6 @@ tags:
 - Rumors persist that the [[Settite Guild of Service]] is still buying and selling slaves.
 
 ### Ioannes' Earlier Finding (Breeding Project):
-- An ancient rescript from the high priest of [[Set]] to his counterpart in Archontos claims that the [[Temple of Set]] in [[Arden Vul]] succeeded in breeding a fearsome species of animals that 'shared all the attributes of Lord Set.'
+- An ancient rescript from the high priest of [[Set]] to his counterpart in [[locations/Archontos.md|Archontos]] claims that the [[Temple of Set]] in [[Arden Vul]] succeeded in breeding a fearsome species of animals that 'shared all the attributes of Lord [[npcs/Set.md|Set]].'
 - This project was based in a secret cavern located near the [[Waterfall]].
 - The creature in question was presumably a kind of [[golem]].

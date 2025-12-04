@@ -3,11 +3,11 @@ tags:
   - lore
 ---
 
-# Announcing DFRPG Arden Vul (2025-03-05)
+# Announcing DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] (2025-03-05)
 
 ## Campaign Overview
 
-The GM decided to run a fantasy megadungeon campaign using "The Halls of Arden Vul" by Richard Barton, written for OSRIC (a variant of Advanced D&D First Edition). The adventure is noted for its huge size (1100+ pages), a well-developed world, and a challenging dungeon.
+The GM decided to run a fantasy megadungeon campaign using "The Halls of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]" by Richard Barton, written for OSRIC (a variant of Advanced D&D First Edition). The adventure is noted for its huge size (1100+ pages), a well-developed world, and a challenging dungeon.
 
 The campaign uses the Dungeon Fantasy Roleplaying Game (DFRPG) as its base rule set, with specific modifications to character generation and experience point (XP) awards.
 
@@ -18,7 +18,7 @@ The campaign uses the Dungeon Fantasy Roleplaying Game (DFRPG) as its base rule 
 - **Sense of Duty (Adventuring Companions):** [-5] does not count against the disadvantage limit.
 - **Quirk Limit:** -5 points.
 - **Templates:** Uses "Five Easy Pieces" from Pyramid 3/113, which are 50-point mini-templates. PCs can afford three Pieces (or two with an expensive racial template). Disadvantage points embedded in a Piece count against the limit.
-- **Playable Races:** Dwarves, Elves, Half-elves, Halflings, Humans, and [[Imperial Goblin]]s. Cat-folk, half-orcs, half-ogres, and gnomes are not allowed.
+- **Playable Races:** Dwarves, Elves, Half-elves, [[factions/Halflings.md|Halflings]], Humans, and [[Imperial Goblin]]s. Cat-folk, half-orcs, half-ogres, and gnomes are not allowed.
 - **Languages:** Languages can be taken at Accented and Broken levels to save points.
 - **Starting Money:** Per DFRPG rules, with options to buy [[Wealth]] or trade points for cash.
 - **Equipment:** Standard DFRPG: Adventurers equipment is available at list price, except for plate armor (which does not exist in the setting). Some non-magical items can be requested from the GM. Special orders or magical equipment may require availability rolls or travel to larger cities.
@@ -50,7 +50,7 @@ The campaign uses the Dungeon Fantasy Roleplaying Game (DFRPG) as its base rule 
 ## Religion
 
 - **[[Archontean Pantheon]]**: Ten major gods and seventeen minor gods.
-- **Gosterwick Temples (Full Clerics):**
+- **[[locations/Gosterwick.md|Gosterwick]] Temples (Full Clerics):**
     - [[Demma]] (goddess of fertility and crops)
     - [[Heschius Ban]] (god of power)
     - [[Lucreon]] (god of wealth and merchants)
@@ -66,5 +66,5 @@ The campaign uses the Dungeon Fantasy Roleplaying Game (DFRPG) as its base rule 
 - **Magic:** Well known, studied, and regulated by colleges.
 - **Logistics:** Weekly game (Friday nights, 8 PM-midnight NA Eastern Time). 4-5 players. PCs encouraged to return to safe places weekly; points awarded/spent only in safe places.
 - **Software:** Foundry VTT, GCS, Discord. Voice game requires a microphone.
-- **Spoilers:** Strict "no spoilers" policy for players who have read "The Halls of Arden Vul" or watched actual plays.
+- **Spoilers:** Strict "no spoilers" policy for players who have read "The Halls of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]" or watched actual plays.
 - **Difficulty:** Hard adventure, caution needed. Experience with fantasy RPGs recommended; new GURPS players advised to avoid spellcasters initially.

@@ -1,11 +1,11 @@
 ---
-title: "Thalia"
+title: "[[npcs/Thalia.md|Thalia]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Thalia
+# [[npcs/Thalia.md|Thalia]]
 
 ## Summary
 - TODO: Short description.

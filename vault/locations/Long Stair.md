@@ -1,5 +1,5 @@
 ---
-title: "Long Stair"
+title: "[[locations/Long Stair.md|Long Stair]]"
 tags:
   - location
   - location
@@ -7,10 +7,10 @@ tags:
 aliases:
   - Winding Stair
 ---
-# Long Stair
+# [[locations/Long Stair.md|Long Stair]]
 
 ## Summary
-The Long Stair is a major thoroughfare on the 1500-foot-high cliff face leading up to the ruins of [[Arden Vul]].
+The [[locations/Long Stair.md|Long Stair]] is a major thoroughfare on the 1500-foot-high cliff face leading up to the ruins of [[Arden Vul]].
 
 ## Travel Time
 - **Walking:** ~90 minutes, depending on caution and encumbrance.
@@ -23,4 +23,4 @@ There are at least two caves accessible from the stair:
 - Another cave with spider webs located over a switchback.
 
 ## Notes
-- **Rumor:** Priests of the [[Cult of Set]] are known to enslave people they encounter on the Long Stair.
+- **Rumor:** Priests of the [[Cult of Set]] are known to enslave people they encounter on the [[locations/Long Stair.md|Long Stair]].

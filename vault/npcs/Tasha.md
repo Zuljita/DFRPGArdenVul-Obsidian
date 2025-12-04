@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Tasha
+# [[npcs/Tasha.md|Tasha]]
 
 ## Summary
-Tasha is the owner of [[Tasha's Tailor Shop]] in [[Gosterwick]].
+[[npcs/Tasha.md|Tasha]] is the owner of [[Tasha's Tailor Shop]] in [[Gosterwick]].

@@ -1,11 +1,11 @@
 ---
-title: "Njal"
+title: "[[npcs/Njal.md|Njal]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Njal
+# [[npcs/Njal.md|Njal]]
 
 ## Summary
 A [[Wiskin]] jailer, responsible for guarding prisoners.

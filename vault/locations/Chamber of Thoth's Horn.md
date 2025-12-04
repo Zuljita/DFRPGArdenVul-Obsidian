@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Chamber of Thoth's Horn
+# Chamber of [[npcs/Thoth.md|Thoth]]'s Horn
 
 ## Summary
 A rumored chamber in the Upper Halls where one can hear the voice of [[Thoth]].

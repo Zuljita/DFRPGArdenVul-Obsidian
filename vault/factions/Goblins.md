@@ -1,13 +1,13 @@
 ---
-title: "Goblins"
+title: "[[factions/Goblins.md|Goblins]]"
 tags:
   - faction
   - faction
 ---
-# Goblins
+# [[factions/Goblins.md|Goblins]]
 
 ## Summary
-Widespread presence in and around the Halls; includes the United Goblins polity under King Weskenim and various units (sergeants, cooks, porters).
+Widespread presence in and around the Halls; includes the United [[factions/Goblins.md|Goblins]] polity under [[npcs/[[npcs/Weskenim.md|Weskenim]].md|[[npcs/Weskenim.md|Weskenim]]]] and various units (sergeants, cooks, porters).
 
 ## Sessions
 

@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Dam (Arden Vul)
+# Dam ([[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]])
 
 ## Summary
 A dam separating a large pond or small lake (part of the [[Swift River]]) from the main flow of the river, located above the [[Waterfall]] in [[Arden Vul]].

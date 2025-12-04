@@ -10,14 +10,14 @@ The capital city of the Session 4 - Cheese and Crackers and Thoth and Demons
 
 
 ---
-title: "Arden Vul"
+title: "Arden Vul.md|Arden Vul]]"
 tags:
   - location
   - location
 aliases:
-  - Ruins of Arden Vul
+  - Ruins of Arden Vul.md|Arden Vul]]
 ---
-# Arden Vul
+# Arden Vul.md|Arden Vul]]
 
 ## Summary
 The ruined city and mega-dungeon complex atop the Cliff Face, home to the Great Cavern, Glory of Thoth, and countless other sites. This is the overarching location the party explores.
@@ -42,7 +42,7 @@ appears_in:
 ---
 # Arena
 
-Iconic location within the ruins of Arden Vul, associated with goblin activity and arena bouts.
+Iconic location within the ruins of Arden Vul.md|Arden Vul]], associated with goblin activity and arena bouts.
 
 ## Appears In
 - Session 32 - Fast Exploration
@@ -69,15 +69,7 @@ tags:
 # Astabelon's Bookstore
 
 ## Summary
-A bookstore in Gosterwick owned by Astabelon.
-
-## Wares
-It is not a huge bookstore, but carries a variety of simple references, such as:
-- Encyclopedias
-- Dictionaries (Archontean, Mithric)
-- Grammar references
-- Basic bestiaries and herbals
-- *The Archontean Empire*
+A bookstore in Archontean Empire*
 - *Dickios and Janius Learn Mithric*
 
 
@@ -90,10 +82,7 @@ tags:
 # Azure Keep
 
 ## Summary
-The keep built by Lady Alexia Basileon and the Knights of the Azure Shield in Gosterwick.
-
-## Description
-The walled keep is located in the northeast of the town, by a lake. It was established approximately 20 years ago and served as the anchor for Gosterwick's expansion from a small village into a town.
+The keep built by Gosterwick's expansion from a small village into a town.
 
 
 ---
@@ -154,7 +143,24 @@ tags:
 # Beacon
 
 ## Summary
-The Beacon is a two-level base of operations that has been taken over by the party. Found notes strongly suggest that the Beacon is actually a "Vehicle," but its propulsion mechanism is currently unknown. It appears to require fuel, potentially a substance called Session 33 - Nyema
+The Beacon is a two-level base of operations that has been taken over by the party. Found notes strongly suggest that the Beacon is actually a "Vehicle," but its propulsion mechanism is currently unknown. It appears to require fuel, potentially a substance called Beacon hint at its true nature and operation:
+- **Vehicle Potential:** "Beacon = Vehicle - but how does it move?"
+- **Fuel Requirement:** "Fuel is needed. Rudishva Rites Capability:** The Beacon currently lacks the ability to perform advanced Beacon and locations in town, such as the Beacon consists of two main areas across two levels:
+- **Northern Area:** Features white marble floors and maintains a constant, comfortable temperature.
+- **Southern Area:** Features gray granite floors and its temperature fluctuates with the outdoors. This area contains a lounge with comfortable furniture but can get very cold.
+
+A stone door with a lock separates the two areas. The party does not possess the key and has relied on magic (`Lockmaster` spell) to open it.
+
+### Keycard System
+A system of oval keycards is used to operate doors:
+- **Secret Closet:** A low-tech physical lock on a closet off the reading room can be opened by jamming any oval keycard into it.
+- **Iris Doors:** The colored oval keycards (rust, brown, sky blue, pale green, orange) open the iris doors throughout the Beacon. The metallic keycards (copper, bronze, platinum) do not work for this.
+
+## Amenities & Downtime
+- **Downtime:** The Beacon can be used for various downtime activities, including:
+    - Research using books found within the Beacon.
+    - Language training with Arden Vul.md|Arden Vul]] Cakes" and "Rudishva booze." It is unknown how long this will function.
+- **Facilities:** There is no privy; party members must travel elsewhere (e.g., the Session 33 - Nyema
 
 
 ---
@@ -193,10 +199,7 @@ tags:
 # Catacombs of Thoth's Beloved
 
 ## Summary
-A set of catacombs located just under the Pyramid of Thoth.
-
-## Description
-According to a rumor, this is the burial place for the most ardent devotees of Thoth, known as "Thoth's Beloved." The catacombs are said to be guarded by the power of Thoth himself, which has prevented all intruders from entering.
+A set of catacombs located just under the Thoth's Beloved." The catacombs are said to be guarded by the power of Thoth himself, which has prevented all intruders from entering.
 
 
 
@@ -212,6 +215,9 @@ tags:
 ## Aliases
 
 ## Connections
+- Thoth.
+
+## Sessions
 - Session 33 - Nyema
 
 
@@ -320,7 +326,10 @@ tags:
 # Cliff Face
 
 ## Summary
-The imposing natural cliff that forms a significant boundary and defensive feature of ruins of Arden Vul above.
+The imposing natural cliff that forms a significant boundary and defensive feature of Arden Vul.md|Arden Vul]]
+
+## Connections
+- ruins of Arden Vul above.
 - A passage connects the Cliff Face to the Craastonistorex.
 
 ## Tags
@@ -338,7 +347,7 @@ tags:
   - location
 ---
 
-# Dam (Arden Vul)
+# Dam (Arden Vul.md|Arden Vul]])
 
 ## Summary
 A dam separating a large pond or small lake (part of the Swift River) from the main flow of the river, located above the Waterfall in Arden Vul.
@@ -416,12 +425,12 @@ A territory of the Empire that was abandoned as a result of the civil war caused
 
 
 ---
-title: "Forum of Arden Vul"
+title: "Forum of Arden Vul.md|Arden Vul]]"
 tags:
   - location
   - location
 ---
-# Forum of Arden Vul
+# Forum of Arden Vul.md|Arden Vul]]
 
 ## Level
 
@@ -440,7 +449,8 @@ tags:
 
 ## Notes
 
-- **Rumor:** A rumor describes a method for reaching "The Forum" that may apply to this location. It involves shining two lanterns from the left side of the river at night, then looking for a basket on the cliff face. A person named Session 26 - The Scouring of the Shire
+- **Rumor:** A rumor describes a method for reaching "The Forum" that may apply to this location. It involves shining two lanterns from the left side of the river at night, then looking for a basket on the cliff face. A person named Thoth
+- Session 26 - The Scouring of the Shire
 
 
 ---
@@ -449,23 +459,24 @@ tags:
   - location
   - location
 aliases:
-  - Forum of Set Arden Vul Iconic Locations
+  - Forum of Set Arden Vul.md|Arden Vul]] Iconic Locations
   - Forum of Set Date
   - Forum of Set Gog
 ---
 # Forum of Set
 
 ## Summary
-A major area within the Halls of Arden Vul, dedicated to the Forum of Set → Great Cavern via stairs up to the former Set outpost and rope ladder down the western wall of the Cavern (≈25′ up).
+A major area within the Halls of Arden Vul.md|Arden Vul]], dedicated to the Forum of Set → Great Cavern via stairs up to the former Set outpost and rope ladder down the western wall of the Cavern (≈25′ up).
   - method: stairs + rope ladder / Walk on Air; features: outpost platform, wall ledge
-- Session 25 - Looking for the Back Door to the Forum of Set
+- Set:** A rumor describes a "First Mystery" which is considered "lame," and a "Second Mystery" which is impressive. A "Third Mystery" is alluded to, but asking the Deacons about it is met with threats of being sold into slavery.
+- **Rumor:** Red guardsmen in the Forum have been overheard whispering about escaped slaves causing problems to the north.
+- **Rumor:** A rumor describes a method for reaching "The Forum" that may apply to this location. It involves shining two lanterns from the left side of the river at night, then looking for a basket on the cliff face. A person named Session 25 - Looking for the Back Door to the Forum of Set
 - Session 30 - The Tomb of Theskalon
 - Session 33 - Nyema
 
 ## Notes
-- Temrin's map to Nyema's body showed a path through the Forum of Set.
-- **Rumor:** While the Cult of Set is known to enslave people on the Long Stair, a rumor suggests that one is safe from enslavement if they make it to the Forum.
-- **The Mysteries of Set:** A rumor describes a "First Mystery" which is considered "lame," and a "Second Mystery" which is impressive. A "Third Mystery" is alluded to, but asking the Deacons about it is met with threats of being sold into slavery.
+- Set.
+- **Rumor:** While the Set:** A rumor describes a "First Mystery" which is considered "lame," and a "Second Mystery" which is impressive. A "Third Mystery" is alluded to, but asking the Deacons about it is met with threats of being sold into slavery.
 - **Rumor:** Red guardsmen in the Forum have been overheard whispering about escaped slaves causing problems to the north.
 - **Rumor:** A rumor describes a method for reaching "The Forum" that may apply to this location. It involves shining two lanterns from the left side of the river at night, then looking for a basket on the cliff face. A person named Stephania apparently pays well for basic supplies delivered this way.
 
@@ -601,7 +612,7 @@ tags:
   - location
 ---
 
-# Goblin Great Hall
+# Great Hall.md|Goblin Great Hall]]
 
 ## Summary
 Vast central chamber in Session 32 - Fast Exploration
@@ -657,13 +668,13 @@ appears_in:
 # Goblintown
 ## Notes
 
-- **Rumor:** The main entrance to the goblin city is a huge iron gate built into the wall of the Session 23c - Set Jailbreak and Down to Goblintown — # DFRPG Arden Vul Session 23c: Set Jailbreak and Down to Goblintown Date: Basilsday, 16th of Gerakios, 2993 AE Weather: Hot, dry Player Characters: Vael Sunshadow, Half-Elven mage (Kyle) Vallium Halcyon, Archontean fighter (Greybrown) Io...
-  - Session 23c - Set Jailbreak and Down to Goblintown — Killik then appointed one of the other goblin captains Temporary Boss and went with Gribble down a long staircase to Goblintown.
+- **Rumor:** The main entrance to the goblin city is a huge iron gate built into the wall of the Session 23c - Set Jailbreak and Down to Goblintown — # DFRPG Arden Vul.md|Arden Vul]] Session 23c: Set Jailbreak and Down to Goblintown Date: Basilsday, 16th of Gerakios, 2993 AE Weather: Hot, dry Player Characters: Vael Sunshadow, Half-Elven mage (Kyle) Vallium Halcyon, Archontean fighter (Greybrown) Io...
+  - Session 23c - Set Jailbreak and Down to Goblintown — Killick then appointed one of the other goblin captains Temporary Boss and went with Gribble down a long staircase to Goblintown.
 - Session 26 - The Scouring of the Shire — The group then followed a goblin guide down to the Wet Caves, then down to Goblintown.
   - Session 26 - The Scouring of the Shire — Do they explore more of the former halfling territory, explore more of Goblintown proper, go looking for the Troll Lifts, or resume their war against the Cult of Set?
-- Session 27 - The Tomb of Ptoh-Ristus — He seemed happy to see them, and gave Vael, Vallium, and Ioannes similar embroidered patches featuring a goblin impaling a halfling, commemorating the liberation of Upper Goblintown from the evil halflings.
-- Session 28 - Teleport Rugs and Baboons — So the group went back to the small pyramid, flipped the lever, and ended up in Upper Goblintown (formerly the Halls of Thoth).
-  - Session 28 - Teleport Rugs and Baboons — By the time they reached Bottleneck Halfling-Slayer, Master Sergeant of Upper Goblintown, they had a fan club of a few dozen already drunk goblins following them, while a few Designated Sober Guards had to stay behind.
+- Session 27 - The Tomb of Ptoh-Ristus — He seemed happy to see them, and gave Vael, Vallium, and Ioannes similar embroidered patches featuring a goblin impaling a halfling, commemorating the liberation of Goblintown.md|Upper Goblintown]] from the evil halflings.
+- Session 28 - Teleport Rugs and Baboons — So the group went back to the small pyramid, flipped the lever, and ended up in Goblintown.md|Upper Goblintown]] (formerly the Halls of Thoth).
+  - Session 28 - Teleport Rugs and Baboons — By the time they reached Bottleneck Halfling-Slayer, Master Sergeant of Goblintown.md|Upper Goblintown]], they had a fan club of a few dozen already drunk goblins following them, while a few Designated Sober Guards had to stay behind.
 - Session 29 - The Tower of Scrutiny
 
 
@@ -679,7 +690,7 @@ tags:
 ## Aliases
 
 ## Connections
-- Session 33 - Nyema and gave him 50 lbs of meat.
+- Gog here in Session 33 - Nyema and gave him 50 lbs of meat.
 
 ## Sessions
 - Session 33 - Nyema
@@ -693,58 +704,13 @@ tags:
 ---
 # Gosterwick
 
-Gosterwick is a rapidly growing "boom town" located about 10 miles south of the ruins of Arden Vul.
-
-## History & Layout
-Originally a tiny Thorcin farming village, Gosterwick's expansion began approximately 20 years ago when the Archontean noblewoman Lady Alexia Basileon arrived along with a contingent of Knights of the Azure Shield and built the Azure Keep. The settlement then began to grow into a town of a couple thousand people. The Azure Keep is located in the northeast corner of the town by a lake.
-
-The town's walls are not yet complete, consisting mostly of a marked-out dirt berm with two finished gatehouses. Most of the buildings are clustered in the northeast corner near the keep. To compensate for the lack of walls, large wooden guard houses have been erected in the emptier parts of town.
-
-## Services & Points of Interest
-
-Gosterwick offers a surprising number of services for its size, attracting adventurers and others seeking to make their fortune from the nearby ruins.
+Gosterwick is a rapidly growing "boom town" located about 10 miles south of the ruins of Gosterwick offers a surprising number of services for its size, attracting adventurers and others seeking to make their fortune from the nearby ruins.
 
 ### Inns & Taverns
 - **Inns:**
-    - Yellow Cloak Inn: Good quality at a reasonable price. Frequented by adventurers.
-    - The Stunned Acolyte: A much more expensive establishment for wealthy patrons.
-- **Taverns:** The town has nine taverns, listed in roughly ascending order of quality:
-    - Baliff's Truncheon
-    - Dripping Hog
-    - Rusty Gauntlet
-    - Old Well
-    - Pyrite
-    - Grinning Skull
-    - Muddy Puddle
-    - Three Hanged Men
-    - Pig and Whistle
-
-### Shops & Artisans
-- **Smith:** Torunn the Smith, a Wiskin woman, is regarded as the best smith in town.
-- **Tailor:** Tasha's Tailor Shop, where custom embroidered patches can be commissioned.
-- **Bookseller:** Astabelon's Bookstore, which carries a variety of reference books.
-- **Other:** A pawn shop and a money changer are also present.
-
-### Factions & Factors
-- Arcane Practitioners' Club: A magical society with a clubhouse deliberately isolated from other buildings.
-- **Merchant Factors:** The Rarities Factor, Prosperity Factor, and Silent Factor all have a presence.
-
-### Temples & Shrines
-- Temple of Demma: A modest, well-maintained temple led by Chief Priest Vivian.
-- Temple of Mitra: A circular stone temple.
-- Shrine of Lucreon: Features a magical offering box with a "mystery" involving a statue and falling coins.
-- (A fourth, unnamed full temple also exists).
-
-### Other
-- **Government:** Various government buildings.
-- **Bathhouse:** A full Archontean-style bathhouse.
-
-## Notable Residents
-- Lady Alexia Basileon: The ruling Archontean noblewoman.
-- Torunn the Smith: The town's master smith.
-- Margot the Red: Thorcin innkeeper of the Yellow Cloak Inn.
-- Bricwine: Husband of Margot and bartender at the Yellow Cloak Inn.
-- Helle: Wiskin bartender at the Yellow Cloak Inn.
+    - Wiskin woman, is regarded as the best smith in town.
+- **Tailor:** Shrines
+- Wiskin bartender at the Yellow Cloak Inn.
 - Astabelon: A bookseller.
 
 
@@ -795,7 +761,7 @@ A vast and ancient underground cavern system beneath Long Stair → Great Cavern
 <!-- merged from NPC stub: Archontos -->
 - Session 2 - Halfling Rent-Seekers — The biggest city in the Empire and the known world is the capital, Archontos, on the island of Mithruin.
 - Session 4 - Cheese and Crackers and Thoth and Demons — Ioannes researched the Krakteros clan, whose sigil they saw on a tomb, but didn't find anything beyond them being one of the Empire's Five Families, with much wealth and power, mostly back at the capital Archontos.
-- Session 5 - Parleys and The Great Cavern — Lady Alexia said that she had some healing potions available for sale and would continue trying to improve the supply of other gear, but that Gosterwick was not exactly Archontos.
+- Session 5 - Parleys and The Great Cavern — Lady Alexia Basileon said that she had some healing potions available for sale and would continue trying to improve the supply of other gear, but that Gosterwick was not exactly Archontos.
 - Session 28 - Teleport Rugs and Baboons — Wicktrimmer asked for a description of the rugs, and said they sounded like Rugs of Instant Access, which Sligo the Devious famously used to assassinate Leonidas of Archontos.
 
 
@@ -804,57 +770,57 @@ A vast and ancient underground cavern system beneath Long Stair → Great Cavern
 
 
 <!-- merged from NPC stub: Basileon -->
-- Session 2 - Halfling Rent-Seekers — Lady Alexia Basileon, the Green Lady, lives in the Residence connected to the Keep.
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
-- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon, ruler of Gosterwick Freydis, steward to Lady Alexia factio...
-- Session 24a - Revenge on the Set Cult — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Jador the Just, chief priestess of Mitra in Gosterwick Audun Yellow-Eyes, logothete of the House of Sight ("Drome") in Gosterwick Freydi...
+- Session 2 - Halfling Rent-Seekers — Lady Alexia Basileon Basileon.md|Lady Alexia Basileon Basileon]], the Lady Alexia Basileon, lives in the Residence connected to the Keep.
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon Basileon.md|Lady Alexia Basileon Basileon]], ruler of Gosterwick Freydis the Stern, steward to Lady Alexia Basileon factio...
+- Session 24a - Revenge on the Set.md|Cult of Set]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Jador the Just, chief priestess of Mitra in Gosterwick Audun Yellow-Eyes, logothete of the House of Sight ("Drome") in Gosterwick Freydi...
 
 
 <!-- merged from NPC stub: beastman troopers and a beastman sergeant -->
-- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
+- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe Maykum "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
 
 
 <!-- merged from NPC stub: Bellringer -->
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 
 
 <!-- merged from NPC stub: clockwork dragonfly -->
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 
 
-<!-- merged from NPC stub: Club Freydis -->
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+<!-- merged from NPC stub: Club Freydis the Stern -->
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 
 
 <!-- merged from NPC stub: Count Skleros -->
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 
 
 <!-- merged from NPC stub: Deino -->
-- Session 3 - Dragons and Baboons and Beastmen, Oh My! — Date: Demmasday, 28th of Toternios, 2993 AEP Weather: Cool, overcast, light rain Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Michael J Dundee, Thorcin barbarian (Adam) Vael Sunshadow, H...
+- Session 3 - Dragons and Baboons and Children of Deino, Oh My! — Date: Demmasday, 28th of Toternios, 2993 AEP Weather: Cool, overcast, light rain Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Michael J Dundee, Thorcin barbarian (Adam) Vael Sunshadow, H...
 - Session 5 - Parleys and The Great Cavern — Vael said they wanted safe passage through Children of Deino territory and access to any other dungeon entrances that faction might control.
 - Session 8a - Never Trust a Scorpion — That seemed dangerous, so someone suggested going back to the Great Pyramid, down the other staircase, and using the bust of Selket with a scorpion on her head there to teleport to the Great Hall, near the (mostly friendly, or at least m...
 
 
 <!-- merged from NPC stub: emaciated ogres -->
-- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
+- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe Maykum "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
 
 
 <!-- merged from NPC stub: feral cats -->
-- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
+- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul.md|Arden Vul]] Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
 - Session 12 - First Encounter with the Cult of Set — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Significant NPCs: Fael, Half-Elven druid at the Grain House Onyx, disturbingly smart cat 3 feral cats 4 factions/Guards from the Session 5 - Parleys and The Great Cavern — Loot: Magic shield, Flight potion, silver ingots, minus dragon tribute.
 - Session 13 - Yrtol and the Turtle — Ioannes took a close look at the potion and thought it looked like a Flight potion, worth serious money.
 - Session 26 - The Scouring of the Shire — Vallium would drink a Flight Potion, Vael would cast Flight on Michael and maintain Levitation on himself, Vael would cast Invisibility on all the others and use Larel's Cloak to make himself invisible, and Vallium and Michael would carr...
 
 
 <!-- merged from NPC stub: Four feral cats -->
-- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
+- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul.md|Arden Vul]] Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
 
 
-<!-- merged from NPC stub: Freydis -->
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
-- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon, ruler of Gosterwick Freydis, steward to Lady Alexia factio...
-- Session 24a - Revenge on the Set Cult — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Jador the Just, chief priestess of Mitra in Gosterwick Audun Yellow-Eyes, logothete of the House of Sight ("Drome") in Gosterwick Freydi...
+<!-- merged from NPC stub: Freydis the Stern -->
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon Basileon.md|Lady Alexia Basileon Basileon]], ruler of Gosterwick Freydis the Stern, steward to Lady Alexia Basileon factio...
+- Session 24a - Revenge on the Set.md|Cult of Set]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Jador the Just, chief priestess of Mitra in Gosterwick Audun Yellow-Eyes, logothete of the House of Sight ("Drome") in Gosterwick Freydi...
 
 
 <!-- merged from NPC stub: Gem -->
@@ -863,36 +829,36 @@ A vast and ancient underground cavern system beneath Long Stair → Great Cavern
 
 <!-- merged from NPC stub: giant centipede -->
 - Session 5 - Parleys and The Great Cavern — Between them, they had more than 50' of rope, so Uvash tied everyone's ropes together and then tied one end to a spike the beastmen had placed at the top of the cliff, then everyone put on the giant centipede repellent and started climbi...
-- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
+- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe Maykum "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
 
 
 <!-- merged from NPC stub: giant crab -->
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 - Session 15 - The Great Cavern Re-Revisited — The other giant crab stayed underwater.
 
 
 <!-- merged from NPC stub: giant crabs -->
-- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
+- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe Maykum "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
 
 
 <!-- merged from NPC stub: giant lizards -->
-- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
-- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
+- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul.md|Arden Vul]] Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
+- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe Maykum "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
 
 
 <!-- merged from NPC stub: giant salamander -->
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 
 
 <!-- merged from NPC stub: Gosterwick Roskelly Winterleaf -->
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 
 
 <!-- merged from NPC stub: Gribble -->
-- Session 5 - Parleys and The Great Cavern — He said that his name was Bellringer, he was a goblin sub-chief, and his group was returning from the Arena 3 levels down when they decided to look for King Weskenim's missing brother Gribble, when they got ambushed by beastmen and most ...
+- Session 5 - Parleys and The Great Cavern — He said that his name was Bellringer, he was a goblin sub-chief, and his group was returning from the Arena 3 levels down when they decided to look for Weskenim.md|Weskenim]]'s missing brother Gribble, when they got ambushed by beastmen and most ...
 - Session 23c - Set Jailbreak and Down to Goblintown — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Susarra, Archontean fighter Many Set guards Hidlat, Set wizard Kathroc, Set torturer Lenuel, Set jailer Eadgithu, enslaved Thorcin range...
-- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Lacrymosa, Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn, Halfling mob bo...
-- Session 32 - Fast Exploration — # DFRPG Arden Vul Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of Demma ...
+- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]], Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn.md|Phlebotomas Phlebotomas Plumthorn]], Halfling mob bo...
+- Session 32 - Fast Exploration — # DFRPG Arden Vul.md|Arden Vul]] Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of Demma ...
 
 
 <!-- merged from NPC stub: Hilariously -->
@@ -906,26 +872,26 @@ A vast and ancient underground cavern system beneath Long Stair → Great Cavern
 
 <!-- merged from NPC stub: Insight -->
 - Session 4 - Cheese and Crackers and Thoth and Demons — And one of the items they found in the pit was truly amazing, a Gem of Insight, which could permanently boost someone's intelligence.
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 
 
 <!-- merged from NPC stub: Jagri-Naz -->
 - Session 5 - Parleys and The Great Cavern — The Regalia named were the Bone Ring of Jagri-Naz, the Tablet of the Beacon, the Ebon Spear of Arden, and the items/Iron Circlet of ...
 
 
-<!-- merged from NPC stub: Lady Alexia Basileon -->
-- Session 2 - Halfling Rent-Seekers — Lady Alexia Basileon, the Green Lady, lives in the Residence connected to the Keep.
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
-- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon, ruler of Gosterwick Freydis, steward to Lady Alexia factio...
-- Session 24a - Revenge on the Set Cult — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Jador the Just, chief priestess of Mitra in Gosterwick Audun Yellow-Eyes, logothete of the House of Sight ("Drome") in Gosterwick Freydi...
+<!-- merged from NPC stub: Lady Alexia Basileon Basileon.md|Lady Alexia Basileon Basileon]] -->
+- Session 2 - Halfling Rent-Seekers — Lady Alexia Basileon Basileon.md|Lady Alexia Basileon Basileon]], the Lady Alexia Basileon, lives in the Residence connected to the Keep.
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon Basileon.md|Lady Alexia Basileon Basileon]], ruler of Gosterwick Freydis the Stern, steward to Lady Alexia Basileon factio...
+- Session 24a - Revenge on the Set.md|Cult of Set]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Jador the Just, chief priestess of Mitra in Gosterwick Audun Yellow-Eyes, logothete of the House of Sight ("Drome") in Gosterwick Freydi...
 
 
-<!-- merged from NPC stub: Lady Alexia Basilion Lady Alexia Basileon -->
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+<!-- merged from NPC stub: Lady Alexia Basileon Basilion Lady Alexia Basileon Basileon.md|Lady Alexia Basileon Basileon]] -->
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 
 
 <!-- merged from NPC stub: large blue mushroom creature -->
-- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
+- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe Maykum "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
 
 
 <!-- merged from NPC stub: Lycandus -->
@@ -933,28 +899,28 @@ A vast and ancient underground cavern system beneath Long Stair → Great Cavern
 
 
 <!-- merged from NPC stub: Many beastmen -->
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 
 
 <!-- merged from NPC stub: other goblins -->
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 
 
 <!-- merged from NPC stub: Pig-Headed Beastman -->
-- Session 3 - Dragons and Baboons and Beastmen, Oh My! — Date: Demmasday, 28th of Toternios, 2993 AEP Weather: Cool, overcast, light rain Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Michael J Dundee, Thorcin barbarian (Adam) Vael Sunshadow, H...
+- Session 3 - Dragons and Baboons and Children of Deino, Oh My! — Date: Demmasday, 28th of Toternios, 2993 AEP Weather: Cool, overcast, light rain Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Michael J Dundee, Thorcin barbarian (Adam) Vael Sunshadow, H...
 - Session 7 - Why Did It Have to Be Plants? — Dundee, Thorcin barbarian (Adam) Ethereum "Coinbase" Thuringwador, Elf Illusionist (Mercenary) (Archon Shiva) Significant NPCs: Mountain Lion 6 Stirges Pig-Headed Beastman Several Large Albino Baboons Assassin Vine Shambling Mound Ioanne...
 - Session 15 - The Great Cavern Re-Revisited — Vallium told him something that he didn't quite get, so the beastman said to wait and came back with a pig-headed beastman with better language skills.
 
 
 <!-- merged from NPC stub: Regalia -->
-- Session 5 - Parleys and The Great Cavern — Lady Alexia purchased the Gem, and also told the group about her Regalia, four items within Arden Vul that were extremely important to her, and for which she would richly reward the finders.
-- Session 6 - Good Ghost, Bad Ghost — # DFRPG Arden Vul Session 6: Good Ghost, Bad Ghost Date: Demmasday, 18th of Lucrios, 2993 AEP Weather: Warm, sunny Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Vallium Halcyon, Archontea...
-- Session 26 - The Scouring of the Shire — They also asked about the Regalia that the Green Lady was looking for, but the goblin king didn't know anything about that.
+- Session 5 - Parleys and The Great Cavern — Lady Alexia Basileon purchased the Gem, and also told the group about her Regalia, four items within Arden Vul.md|Arden Vul]] that were extremely important to her, and for which she would richly reward the finders.
+- Session 6 - Good Ghost, Bad Ghost — # DFRPG Arden Vul.md|Arden Vul]] Session 6: Good Ghost, Bad Ghost Date: Demmasday, 18th of Lucrios, 2993 AEP Weather: Warm, sunny Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Vallium Halcyon, Archontea...
+- Session 26 - The Scouring of the Shire — They also asked about the Regalia that the Lady Alexia Basileon was looking for, but the goblin king didn't know anything about that.
 
 
 <!-- merged from NPC stub: rock reptiles -->
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
-- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe Maykum "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
 
 
 <!-- merged from NPC stub: Sakeon -->
@@ -968,19 +934,19 @@ A vast and ancient underground cavern system beneath Long Stair → Great Cavern
 
 
 <!-- merged from NPC stub: scrags -->
-- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
+- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe Maykum "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
 
 
 <!-- merged from NPC stub: Several giant lizards -->
-- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
+- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul.md|Arden Vul]] Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
 
 
 <!-- merged from NPC stub: Several walking mushrooms -->
-- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
+- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul.md|Arden Vul]] Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
 
 
 <!-- merged from NPC stub: small spotted mushroom creatures -->
-- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
+- Session 15 - The Great Cavern Re-Revisited — Dundee, Thorcin barbarian (Adam) Ashe Maykum "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Camilla, primary summoned goat Various summoned goats, bl...
 
 
 <!-- merged from NPC stub: Stumped -->
@@ -989,27 +955,27 @@ A vast and ancient underground cavern system beneath Long Stair → Great Cavern
 
 
 <!-- merged from NPC stub: Thrainor "Thronebreaker" Ironvein -->
-- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
+- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul.md|Arden Vul]] Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
 
 
 <!-- merged from NPC stub: Three mushroom-smoking fire mephits -->
-- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
+- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul.md|Arden Vul]] Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
 
 
 <!-- merged from NPC stub: Two selenite guardians -->
-- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
+- Session 11 - The Great Cavern Redux — # DFRPG Arden Vul.md|Arden Vul]] Session 11: The Great Cavern Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
 
 
 <!-- merged from NPC stub: Undeterred -->
-- Session 3 - Dragons and Baboons and Beastmen, Oh My! — Undeterred, the group decided to smash the plug open, but nobody had a crowbar and Michael didn't have any weapons he wanted to risk breaking.
+- Session 3 - Dragons and Baboons and Children of Deino, Oh My! — Undeterred, the group decided to smash the plug open, but nobody had a crowbar and Michael didn't have any weapons he wanted to risk breaking.
 - Session 11 - The Great Cavern Redux — Undeterred, they continued and saw a magical pillar of fire to the east.
 
 
 <!-- merged from NPC stub: XP -->
-- Session 1 - First Visit to the Ruins of Arden Vul
+- Session 1 - First Visit to the Ruins of Arden Vul.md|Arden Vul]]
 - Session 2 - Halfling Rent-Seekers
 - Session 15 - The Great Cavern Re-Revisited
-- Session 24a - Revenge on the Set Cult
+- Session 24a - Revenge on the Set.md|Cult of Set]]
 
 
 <!-- merged from NPC stub: Yes -->
@@ -1101,11 +1067,11 @@ appears_in:
 - Session 7 - Why Did It Have to Be Plants? — Here's a shortened version: 2 caves behind the Waterfall (beneath 35-40' of rough water) Ruined tower near the base of the Waterfall (ghost) Secret entrance 2/3 of the way up the lo...
 - Session 8a - Never Trust a Scorpion — That seemed dangerous, so someone suggested going back to the Great Pyramid, down the other staircase, and using the bust of Selket with a scorpion on her head there to teleport to the Great Hall, near the (mostly friendly, or at least m...
   - Session 8a - Never Trust a Scorpion — Instead, they formed up by the bust of Selket, and all pulled the scorpion's tail at the same time, expecting to teleport to the Great Hall.
-- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment — Number of sessions: 16 Number of players: 8 Number of PCs: 10 Cheese and Crackers / Right for Riches / Left for Loot members: 5 Grudge Brigade mercenaries: 5 Number of PCs killed: 0 (!) Highest PC point tot...
-- Session 26 - The Scouring of the Shire — In the meantime they would be welcome to visit the Goblin Great Hall for shopping and dining.
+- sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment — Number of sessions: 16 Number of players: 8 Number of PCs: 10 Cheese and Crackers / Right for Riches / Left for Loot members: 5 Grudge Brigade mercenaries: 5 Number of PCs killed: 0 (!) Highest PC point tot...
+- Session 26 - The Scouring of the Shire — In the meantime they would be welcome to visit the Great Hall.md|Goblin Great Hall for shopping and dining.
   - Session 26 - The Scouring of the Shire — At the conclusion of the conversation, the company said farewell to Sir Sorrow, and were led by a random goblin guide east then north past Rizzit the imprisoned creepy purple wax demon (who asked to be freed) then down a spiral staircase...
-- Session 32 - Fast Exploration — One looked at him and said "Halfling Slayer, you may pass." Vael went back for the others, and they used a rope to climb up to the hole, then emerged into the Goblin Great Hall.
-  - Session 32 - Fast Exploration — With their audience finished, the group went back down the stairs to the Goblin Great Hall, then back down the hole to the southern corridor, then down the secret stairs to the Varumani level.
+- Session 32 - Fast Exploration — One looked at him and said "Halfling Slayer, you may pass." Vael went back for the others, and they used a rope to climb up to the hole, then emerged into the Great Hall.md|Goblin Great Hall]].
+  - Session 32 - Fast Exploration — With their audience finished, the group went back down the stairs to the Great Hall.md|Goblin Great Hall]], then back down the hole to the southern corridor, then down the secret stairs to the Varumani level.
 
 ## Notes
 
@@ -1158,13 +1124,7 @@ tags:
 # Grudge Brigade Headquarters
 
 ## Summary
-A small building on the outskirts of Gosterwick, serving as the headquarters for the Grudge Brigade mercenary company.
-
-## Level
-Surface.
-
-## Aliases
-- Grudge Brigade HQ
+A small building on the outskirts of Grudge Brigade HQ
 
 ## Connections
 
@@ -1282,58 +1242,58 @@ A significant location within Well of Light
 - Session 3 - Dragons and Baboons and Beastmen, Oh My! — Date: Demmasday, 28th of Toternios, 2993 AEP Weather: Cool, overcast, light rain Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Michael J Dundee, Thorcin barbarian (Adam) Vael Sunshadow, H...
 - Session 4 - Cheese and Crackers and Thoth and Demons — Vael bought a lock to help keep the dam secure for the green dragon Craastonistorex, and commissioned some high quality robes at Tasha's Tailor Shop.
 - Session 16 - Random Scorpion Teleport to the Hall of Judgment — Number of sessions: 16 Number of players: 8 Number of PCs: 10 Cheese and Crackers / Right for Riches / Left for Loot members: 5 Grudge Brigade mercenaries: 5 Number of PCs killed: 0 (!) Highest PC point tot...
-- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Lacrymosa, Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn, Halfling mob bo...
+- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]], Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn.md|Phlebotomas Phlebotomas Plumthorn]], Halfling mob bo...
 - Session 31 - I Want to Believe — Dundee, Thorcin barbarian Wicktrimmer, Imperial Goblin banker and merchant Barnaby Goodbarrel, Esq., Halfling lawyer Craastonistorex, green dragon Camilla, summoned bat Summoned wild boar Summoned cave bears Summoned bat swarms 2 Imperia...
 
 
 <!-- merged from NPC stub: Dalton -->
-- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon, ruler of Gosterwick Freydis, steward to Lady Alexia Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
-- Session 32 - Fast Exploration — # DFRPG Arden Vul Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of Demma ...
+- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon Basileon.md|Lady Alexia Basileon Basileon]], ruler of Gosterwick Freydis the Stern, steward to Lady Alexia Basileon Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 32 - Fast Exploration — # DFRPG Arden Vul.md|Arden Vul]] Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of Demma ...
 
 
 <!-- merged from NPC stub: Darlings Jason -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
 
 
 <!-- merged from NPC stub: Darlings -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
-- Session 32 - Fast Exploration — # DFRPG Arden Vul Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of Demma ...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 32 - Fast Exploration — # DFRPG Arden Vul.md|Arden Vul]] Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of Demma ...
 
 
 <!-- merged from NPC stub: Helga -->
-- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon, ruler of Gosterwick Freydis, steward to Lady Alexia Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon Basileon.md|Lady Alexia Basileon Basileon]], ruler of Gosterwick Freydis the Stern, steward to Lady Alexia Basileon Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
 
 
 <!-- merged from NPC stub: Heliagabulus -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
 
 
 <!-- merged from NPC stub: Jason, Helga, Heliagabulus, Isisor, and Yvette: Dalton's Darlings -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
 
 
 <!-- merged from NPC stub: Jelenios -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — 2025-06-30 DFRPG Arden Vul: Mid-2993 Summary It's the end of Jelenios, halfway through the year 2993 AEP, so it's time for a quick summary of the state of the DFRPG Arden Vul campaign.
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — 2025-06-30 DFRPG Arden Vul.md|Arden Vul]]: Mid-2993 Summary It's the end of Jelenios, halfway through the year 2993 AEP, so it's time for a quick summary of the state of the DFRPG Arden Vul.md|Arden Vul]] campaign.
 
 
 <!-- merged from NPC stub: Jost -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
-- Session 17 - Cleaning Out the Vermin — # DFRPG Arden Vul Session 17: Cleaning Out the Vermin Date: Demmasday, 4th of Masporios, 2993 AE Weather: Hot, dry Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fi...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 17 - Cleaning Out the Vermin — # DFRPG Arden Vul.md|Arden Vul]] Session 17: Cleaning Out the Vermin Date: Demmasday, 4th of Masporios, 2993 AE Weather: Hot, dry Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fi...
 - Session 32 - Fast Exploration — It was Dalton's Darlings, the entire group, including their friend Jost who they had rescued from Gerrilad's jail.
 
 
 <!-- merged from NPC stub: large crocodiles -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
 
 
 <!-- merged from NPC stub: Many Stirges -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
-- Session 17 - Cleaning Out the Vermin — # DFRPG Arden Vul Session 17: Cleaning Out the Vermin Date: Demmasday, 4th of Masporios, 2993 AE Weather: Hot, dry Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fi...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 17 - Cleaning Out the Vermin — # DFRPG Arden Vul.md|Arden Vul]] Session 17: Cleaning Out the Vermin Date: Demmasday, 4th of Masporios, 2993 AE Weather: Hot, dry Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fi...
 - Session 19 - The Pool of Donkey Ears — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Vael Sunshadow, Half-Elven mage (Kyle) Vallium Halcyon, Archontean fighter (Greybrown) Ethereum "Coinbase" Thuringwador, Elf Illusionist (Mercenary) (Arch...
 
 
 <!-- merged from NPC stub: Njal -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
 
 
 <!-- merged from NPC stub: One -->
@@ -1346,19 +1306,19 @@ A significant location within Well of Light
 
 
 <!-- merged from NPC stub: Samantha the Red, Archontean fighter prisoner -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
 
 
 <!-- merged from NPC stub: Samantha -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
 
 
 <!-- merged from NPC stub: Small ball-shaped rolling demon -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
 
 
 <!-- merged from NPC stub: Some kind of goo creature -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
 
 
 <!-- merged from NPC stub: Thronebreaker (Thrainor Ironvein) -->
@@ -1372,7 +1332,7 @@ A significant location within Well of Light
 
 
 <!-- merged from NPC stub: undead rats -->
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment — Dundee, Thorcin barbarian (Adam) Thronebreaker (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis (Thorne Lasselanta Ashcroft), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
 
 ## Sessions
 - Session 16 - Random Scorpion Teleport to the Hall of Judgment
@@ -1395,7 +1355,7 @@ aliases:
 ## Notes
 
 ## Sessions
-- Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
+- Session 24b - The Set.md|Cult of Set]] Strikes Back, Larel's Stuff, and the Hall of Shrines
 
 
 ---
@@ -1403,11 +1363,11 @@ tags:
   - location
 ---
 
-# Halls of Arden Vul
+# Halls of Arden Vul.md|Arden Vul]]
 
 ## Description
 
-The Halls of Arden Vul are a massive system of cliffs and caverns. They were discovered by the heroes Arden and Vul the Sorcerer. The city of Arden Vul was later founded above this cavern system.
+The Halls of Arden Vul.md|Arden Vul]] are a massive system of cliffs and caverns. They were discovered by the heroes Arden and Vul the Sorcerer. The city of Arden Vul was later founded above this cavern system.
 
 ## Key Features
 
@@ -1435,7 +1395,15 @@ tags:
 
 ## Description
 
-A location within the Session 33 - Nyema, the party went through the Halls of Thoth to get to the Session 33 - Nyema
+A location within the Great Hall of Thoth.
+
+## Key Features
+
+TBD
+
+## Connected Areas
+
+- Session 33 - Nyema, the party went through the Halls of Thoth to get to the Session 33 - Nyema
 TBD
 
 
@@ -1447,18 +1415,7 @@ tags:
 # Haunted Tower
 
 ## Description
-A tower located at the base of the Waterfall near Arden Vul.
-
-## History
-The tower was built during the Adrienic Expedition, an attempt by Archon Phocion IV to retake Arden Vul about 250 years ago. The expedition failed bloodily, and the tower was abandoned.
-
-## Inhabitants
-- The Tower Ghost: The tower is haunted by an angry, wronged soul that screams of "Settite murderers."
-
-## Notes
-
-### From the Journal of Ioannes
-> I found the record. The tower at the base of the waterfall—built during the Adrienic Expedition, two and a half centuries past. An attempt by Archon Phocion IV to retake Arden Vul. It failed. Bloodily. The tower was left behind when the survivors fled.
+A tower located at the base of the Arden Vul.md|Arden Vul]]. It failed. Bloodily. The tower was left behind when the survivors fled.
 > And now it is haunted. Or rather, “folklore,” according to one too-convenient source.
 >
 > I do not trust him. He either never saw the ghost himself, or pretended not to.
@@ -1545,15 +1502,15 @@ appears_in:
 - Session 33 - Nyema
 
 ## History
-- Session 10 - Baboons, Ghouls, and a Mule — (They were lucky the huge one didn't really connect though, as he was very strong.) Achievements: Found the Howling Caves, an Arden Vul Iconic Location XP: Exploration: 5 new locations, good for 1 XP Loot: They didn't find a lot, but the...
+- Session 10 - Baboons, Ghouls, and a Mule — (They were lucky the huge one didn't really connect though, as he was very strong.) Achievements: Found the Howling Caves, an Arden Vul.md|Arden Vul]] Iconic Location XP: Exploration: 5 new locations, good for 1 XP Loot: They didn't find a lot, but the...
 - Session 16 - Random Scorpion Teleport to the Hall of Judgment — Number of sessions: 16 Number of players: 8 Number of PCs: 10 Cheese and Crackers / Right for Riches / Left for Loot members: 5 Grudge Brigade mercenaries: 5 Number of PCs killed: 0 (!) Highest PC point tot...
 - Session 17 - Cleaning Out the Vermin — Farther north, they found another room containing a dead halfling, with leather armor, a shortsword, a sling, a pouch with some spikes and a flask of oil, and a note about using a little pyramid to access the Howling Caves.
-- Session 20 - The Outer Caverns of Set — At this point they've found the following areas: Surface Ruins of Arden Vul Basement (they think they have probably fully explored this) Well of Light Howling Caves Halls of Thoth Session 22 - The Oracle of Thoth and The Litany of Light — All the previous visits to the Well of Light level had been interrupted by periodic baboon attacks, but with the baboons apparently herded into the Howling Caves to the southeast, there were fewer interruptions.
+- Session 20 - The Outer Caverns of Set — At this point they've found the following areas: Surface Ruins of Arden Vul.md|Arden Vul]] Basement (they think they have probably fully explored this) Well of Light Howling Caves Halls of Thoth Session 22 - The Oracle of Thoth and The Litany of Light — All the previous visits to the Well of Light level had been interrupted by periodic baboon attacks, but with the baboons apparently herded into the Howling Caves to the southeast, there were fewer interruptions.
 - Session 28 - Teleport Rugs and Baboons — The group headed east toward the Howling Caves, and found Yamki the Three-Armed in a room just north of the portcullis leading to the Caves.
   - Session 28 - Teleport Rugs and Baboons — Trefko said that he hadn't been the one pooping on the mirror, but he didn't want to live in the Howling Caves because there were too many young baboons there and they were too loud.
 - Session 29 - The Tower of Scrutiny — Explore the Howling Caves beyond the portcullis.
   - Session 29 - The Tower of Scrutiny — Yamki gave some of the meat to each of the nearby female baboons, then headed south to the Howling Caves to feed the others.
-- Session 33 - Nyema — The Thane and his followers kidnapped Bobo and Bifki from the Howling Caves. A passage connects the Howling Caves to the Cliff Face.
+- Session 33 - Nyema — Howling Caves. A passage connects the Howling Caves to the Cliff Face.
 
 ## Connections
 - Howling Caves -> Cliff Face
@@ -1584,7 +1541,10 @@ tags:
 # Imperial Road
 
 ## Summary
-An old road, once cobblestone but now mostly dirt with stone bumps, leading north from ruins.
+An old road, once cobblestone but now mostly dirt with stone bumps, leading north from Imperial Road
+
+## Connections
+- Connects ruins.
 
 ## Sessions
 
@@ -1702,16 +1662,16 @@ A significant library located in Stamelis
 - Session 32 - Fast Exploration — There Vael asked everyone to step through the Rug, then experimented with Blinking through the cover over their stairs, to the Beacon, rather than using Shape Earth to dig a hole.
 
 
+<!-- merged from NPC stub: Isocritis Half-Hand Half-Hand.md|Isocritis Half-Hand Half-Hand]] -->
+- Session 21 - The Library of Thoth — # DFRPG Arden Vul.md|Arden Vul]] Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+
+
 <!-- merged from NPC stub: Isocritis Half-Hand -->
-- Session 21 - The Library of Thoth — # DFRPG Arden Vul Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
-
-
-<!-- merged from NPC stub: Isocritis -->
-- Session 21 - The Library of Thoth — # DFRPG Arden Vul Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- Session 21 - The Library of Thoth — # DFRPG Arden Vul.md|Arden Vul]] Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 
 <!-- merged from NPC stub: logovores -->
-- Session 21 - The Library of Thoth — # DFRPG Arden Vul Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- Session 21 - The Library of Thoth — # DFRPG Arden Vul.md|Arden Vul]] Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 
 <!-- merged from NPC stub: Loot Company -->
@@ -1719,15 +1679,15 @@ A significant library located in Stamelis
 
 
 <!-- merged from NPC stub: Magically animated head of Stamelis, Librarian of Thoth -->
-- Session 21 - The Library of Thoth — # DFRPG Arden Vul Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- Session 21 - The Library of Thoth — # DFRPG Arden Vul.md|Arden Vul]] Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 
 <!-- merged from NPC stub: Thalia -->
-- Session 21 - The Library of Thoth — # DFRPG Arden Vul Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- Session 21 - The Library of Thoth — # DFRPG Arden Vul.md|Arden Vul]] Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 
 <!-- merged from NPC stub: Thoth Umsko -->
-- Session 21 - The Library of Thoth — # DFRPG Arden Vul Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- Session 21 - The Library of Thoth — # DFRPG Arden Vul.md|Arden Vul]] Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 
 <!-- merged from NPC stub: Tresti Iredell -->
@@ -1735,7 +1695,7 @@ A significant library located in Stamelis
 
 
 <!-- merged from NPC stub: Umsko -->
-- Session 21 - The Library of Thoth — # DFRPG Arden Vul Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- Session 21 - The Library of Thoth — # DFRPG Arden Vul.md|Arden Vul]] Session 21: The Library of Thoth Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 ## Sessions
 - Session 19 - The Pool of Donkey Ears
@@ -1767,20 +1727,7 @@ aliases:
 # Long Stair
 
 ## Summary
-The Long Stair is a major thoroughfare on the 1500-foot-high cliff face leading up to the ruins of Arden Vul.
-
-## Travel Time
-- **Walking:** ~90 minutes, depending on caution and encumbrance.
-- **Levitating:** ~10 minutes.
-- **Flying:** ~3 minutes.
-
-## Features
-There are at least two caves accessible from the stair:
-- A cave with a fire pit about halfway up.
-- Another cave with spider webs located over a switchback.
-
-## Notes
-- **Rumor:** Priests of the Cult of Set are known to enslave people they encounter on the Long Stair.
+The Long Stair is a major thoroughfare on the 1500-foot-high cliff face leading up to the ruins of Long Stair.
 
 
 ---
@@ -1958,36 +1905,36 @@ tags:
 
 
 <!-- merged from NPC stub: Broken Head Crisarius Three-Legs -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 
 
 <!-- merged from NPC stub: Broken Head Estelle -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 
 
 <!-- merged from NPC stub: Crisarius Three-Legs, Archontean statue broker, Prosperity Factor -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 
 
 <!-- merged from NPC stub: Estelle -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 - Session 10 - Baboons, Ghouls, and a Mule — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Significant NPCs: Sakeon, horse whisperer Fael, half-elven food merchant Unnamed large mule Kronos Kettle-Bel...
 
 
 <!-- merged from NPC stub: Fenitior Stone-Hands, Archontean statue broker, Wisdom Factor -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 
 
 <!-- merged from NPC stub: Giant rats -->
-- Session 2 - Halfling Rent-Seekers — # DFRPG Arden Vul Session 2: Halfling Rent-Seekers Date: Demmasday, 21st of Toternios, 2993 AEP Weather: Cool, cloudy Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Vael Sunshadow, Half-El...
+- Session 2 - Halfling Rent-Seekers — # DFRPG Arden Vul.md|Arden Vul]] Session 2: Halfling Rent-Seekers Date: Demmasday, 21st of Toternios, 2993 AEP Weather: Cool, cloudy Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Vael Sunshadow, Half-El...
 - Session 3 - Dragons and Baboons and Beastmen, Oh My! — This time they went back to the nest of the giant rats they defeated last week, hoping to find more treasure they had missed.
-- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon, ruler of Gosterwick Freydis, steward to Lady Alexia Session 8b and 9 - Muirasso's Tomb and the Broken Head — There were a few giant rats waiting in the landing room at the top of the first flight of stairs, but they fled.
+- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon Basileon.md|Lady Alexia Basileon Basileon]], ruler of Gosterwick Freydis the Stern, steward to Lady Alexia Basileon Session 8b and 9 - Muirasso's Tomb and the Broken Head — There were a few giant rats waiting in the landing room at the top of the first flight of stairs, but they fled.
 - Session 10 - Baboons, Ghouls, and a Mule — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Significant NPCs: Sakeon, horse whisperer Fael, half-elven food merchant Unnamed large mule Kronos Kettle-Bel...
 - Session 20 - The Outer Caverns of Set — They then went south and heard some giant rats scampering ahead.
 
 
 <!-- merged from NPC stub: Godric the Wise, Thorcin statue broker, Golden Band -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 
 
 <!-- merged from NPC stub: Inn -->
@@ -1995,21 +1942,21 @@ tags:
 
 
 <!-- merged from NPC stub: Kronos Kettle-Belly -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 - Session 10 - Baboons, Ghouls, and a Mule — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Significant NPCs: Sakeon, horse whisperer Fael, half-elven food merchant Unnamed large mule Kronos Kettle-Bel...
 
 
 <!-- merged from NPC stub: Muirasso -->
 - Session 8a - Never Trust a Scorpion — The west wall had a mural of seven Thothian priests with the biggest labeled "Muirasso." After a brief discussion, Vallium lifted the lid of the western sarcophagus, and undead started coming out of the walls...
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — # DFRPG Arden Vul Sessions 8b and 9: Muirasso's Tomb and the Broken Head Date: Demmasday, 2nd of Ligarios and Demmasday, 9th of Legarios, 2993 AEP Weather: Cool, cloudy Player Characters: Ioannes Grammati...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — # DFRPG Arden Vul.md|Arden Vul]] Sessions 8b and 9: Muirasso's Tomb and the Broken Head Date: Demmasday, 2nd of Ligarios and Demmasday, 9th of Legarios, 2993 AEP Weather: Cool, cloudy Player Characters: Ioannes Grammati...
 
 
 <!-- merged from NPC stub: Piercer Gog -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 
 
 <!-- merged from NPC stub: Prosperity Factor Fenitior Stone-Hands -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 
 
 <!-- merged from NPC stub: Purify Air -->
@@ -2022,24 +1969,24 @@ tags:
 
 
 <!-- merged from NPC stub: Roskelly and several halfling toll collectors -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 
 
 <!-- merged from NPC stub: Stone-Hands -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 
 
 <!-- merged from NPC stub: Wight -->
-- Session 6 - Good Ghost, Bad Ghost — # DFRPG Arden Vul Session 6: Good Ghost, Bad Ghost Date: Demmasday, 18th of Lucrios, 2993 AEP Weather: Warm, sunny Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Vallium Halcyon, Archontea...
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 6 - Good Ghost, Bad Ghost — # DFRPG Arden Vul.md|Arden Vul]] Session 6: Good Ghost, Bad Ghost Date: Demmasday, 18th of Lucrios, 2993 AEP Weather: Warm, sunny Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Vallium Halcyon, Archontea...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 
 
 <!-- merged from NPC stub: Wisdom Factor -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 
 
 <!-- merged from NPC stub: Wise -->
-- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Lacrymosa" Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
+- Session 8b and 9 - Muirasso's Tomb and the Broken Head — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo) Merenuithiel "Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" Merenuithiel Lacrymosa Armaris, Elven mercenary archer (Archon Shiva) Significant NPCs: Muirasso, wight, fo...
 
 ## Sessions
 - Sessions 8b and 9 - Muirasso's Tomb and the Broken Head
@@ -2092,11 +2039,9 @@ A city with a significant merchant factor presence. It is home to the Session 2 
 
 ## Timeline
 - Session 2 — The only bigger town in Burdock's Valley is Newmarket, about 60 miles (three days' walk) to the south.
-- Session 8a — Plumthorn corresponded about a merchant in Newmarket being late on protection payments.
-- Session 22 — The canon of the Temple of Mitra in Newmarket is discussed in plans to rescue Lillian.
-- Session 23c — Freed prisoners planned to stay at the Temple of Mitra before heading to Newmarket.
-- Session 26 — A stolen wheelbarrow tracked by Seeker was located in Newmarket; Plumthorn was ordered to lead survivors there and never return to Arden Vul.
-- Session 31 — Proposed overland route: Imperial Road → Newmarket → Narsileon → ship to Sweetwater Hold.
+- Session 8a — Phlebotomas Plumthorn corresponded about a merchant in Newmarket being late on protection payments.
+- Session 22 — The canon of the Newmarket is discussed in plans to rescue Newmarket.
+- Session 26 — A stolen wheelbarrow tracked by Seeker was located in Newmarket; Phlebotomas Plumthorn was ordered to lead survivors there and never return to Imperial Road → Newmarket → Narsileon → ship to Sweetwater Hold.
 
 ## Key Features
 
@@ -2123,13 +2068,7 @@ tags:
 # Obelisk
 
 ## Summary
-An obelisk located north of the Forum in Arden Vul, featuring writings in Mithric and iconography related to the sun.
-
-## Level
-Surface ruins of Arden Vul.
-
-## Aliases
-- Obelisk of the Sun
+An obelisk located north of the Obelisk of the Sun
 
 ## Connections
 - North of the Forum.
@@ -2243,7 +2182,7 @@ The Thoth's wife Maat required a good Theology roll.
 - Session 16 - Random Scorpion Teleport to the Hall of Judgment
 - Session 17 - Cleaning Out the Vermin
 - Session 19 - The Pool of Donkey Ears
-- Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
+- Session 24b - The Set.md|Cult of Set]] Strikes Back, Larel's Stuff, and the Hall of Shrines
 - Session 26 - The Scouring of the Shire
 - Session 27 - The Tomb of Ptoh-Ristus
 - Session 29 - The Tower of Scrutiny
@@ -2343,12 +2282,7 @@ tags:
 # Shrine of Lucreon
 
 ## Summary
-A shrine to the god Lucreon in Gosterwick.
-
-## Description
-The shrine is a classic, three-chamber structure: an ante-cella for congregation, a cella for main rituals, and an unconnected postern with administrative offices and clergy apartments.
-
-The main cultic object is a colossal granite statue of Lucreon, dressed as an Archontean factor associate, holding a massive bag of coins. An offering chest sits below the bag.
+A shrine to the god Lucreon, dressed as an Archontean factor associate, holding a massive bag of coins. An offering chest sits below the bag.
 
 ## The Mystery of Lucreon
 The shrine is home to an impressive mystery: when a coin is dropped into the offering box, it magically appears in the air above the statue and falls into the god's money bag. The bag is emptied by the clerics each night.
@@ -2383,7 +2317,7 @@ tags:
 - Ioannes Grammatikos Byzantios
  - Michael
 - Stuff
-- The Set Cult Strikes Back
+- The Set.md|Cult of Set]] Strikes Back
 - There
 - Thoth
  - Vael
@@ -2396,7 +2330,7 @@ tags:
 ## Notes
 
 ## Sessions
-- Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
+- Session 24b - The Set.md|Cult of Set]] Strikes Back, Larel's Stuff, and the Hall of Shrines
 
 
 ---
@@ -2484,16 +2418,7 @@ tags:
 # Statue of Arden
 
 ## Summary
-One of two colossal statues of the ancient heroes Arden and Vul located at the base of the Long Stair, near the Waterfall.
-
-## Description
-This statue is remarkably intact, despite being in the path of the Waterfall for a millennium.
-
-## Level
-Surface, at the base of the Cliff Face.
-
-## Aliases
-- Colossal Statue of Arden
+One of two colossal statues of the ancient heroes Arden
 
 ## Connections
 - Paired with the Statue of Vul.
@@ -2571,7 +2496,7 @@ appears_in:
 - Session 32 - Fast Exploration
 
 ## History
-- Session 32 - Fast Exploration — XP: Exploration: 35 new locations (a new record), good for 2 XP Loot: not much, but the magic spear is worth enough to generate 1 XP if sold Achievements: Two Arden Vul Iconic Locations, the Arena and the Sundered Span, for 2 XP Total: 5...
+- Session 32 - Fast Exploration — XP: Exploration: 35 new locations (a new record), good for 2 XP Loot: not much, but the magic spear is worth enough to generate 1 XP if sold Achievements: Two Arden Vul.md|Arden Vul]] Iconic Locations, the Arena and the Sundered Span, for 2 XP Total: 5...
 
 ## Notes
 
@@ -2633,7 +2558,20 @@ tags:
 ---
 # Temple of Demma
 
-While there are many temples to Session 2 - Halfling Rent-Seekers
+While there are many temples to Gosterwick
+
+### Overview
+The Temple of Demma in Demma
+
+### Structure
+The priesthood is hierarchical yet practical. Local temples are led by a Chief Priest who manages the temple and its obligations.
+- **Demma's will. They are trained in the use of the flail.
+
+### Vestments
+Clergy wear practical vestments in earthy tones (greens, yellows, browns) with a sleeveless outer robe of deep red or russet. The flail is a prominent symbol, used both as a weapon and as a ceremonial object.
+
+## Sessions
+- Session 2 - Halfling Rent-Seekers
 - Session 7 - Why Did It Have to Be Plants?
 - Session 14 - Behind the Waterfall Again
 - Session 27 - The Tomb of Ptoh-Ristus
@@ -2690,7 +2628,10 @@ tags:
 # Temple of Set
 
 ## Summary
-A major place of worship and operation for the Session 5 - Parleys and The Great Cavern
+A major place of worship and operation for the Set." This project was apparently based in a nearby cavern.
+
+## Sessions
+- Session 5 - Parleys and The Great Cavern
 - Session 23b - Disrupting Services in the Temple of Set
 - Session 33 - Nyema
 
@@ -2733,12 +2674,12 @@ tags:
 
 
 <!-- merged from NPC stub: Slime Kraken -->
-- Session 23a - Gelatinous Cube and Slime Kraken — # DFRPG Arden Vul Session 23a: Gelatinous Cube and Slime Kraken Date: Basilsday, 16th of Gerakios, 2993 AE Weather: Hot, dry Player Characters: Vael Sunshadow, Half-Elven mage (Kyle) Vallium Halcyon, Archontean fighter (Greybrown) Ioanne...
+- Session 23a - Gelatinous Cube and Slime Kraken — # DFRPG Arden Vul.md|Arden Vul]] Session 23a: Gelatinous Cube and Slime Kraken Date: Basilsday, 16th of Gerakios, 2993 AE Weather: Hot, dry Player Characters: Vael Sunshadow, Half-Elven mage (Kyle) Vallium Halcyon, Archontean fighter (Greybrown) Ioanne...
 - Session 23c - Set Jailbreak and Down to Goblintown — So burdened, the group went back north up the stairs, east over the barricade, north through the gas-trapped room (the trap had not reset), and back into the desecrated Temple of Thoth were the slime krak...
 
 ## Sessions
 - Session 24a - Revenge on the Set Cult
-- Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
+- Session 24b - The Set.md|Cult of Set]] Strikes Back, Larel's Stuff, and the Hall of Shrines
 
 
 ---
@@ -2976,7 +2917,10 @@ tags:
 # Tomb of Muirasso
 
 ## Summary
-The resting place of Muirasso, a former cleric of Muirasso (wight)
+The resting place of Muirasso, a former cleric of Muirasso's Tomb
+
+## Connections
+- Possibly connected to other Muirasso (wight)
 - Undead (zombies, ghouls)
 
 ## Tags
@@ -3075,7 +3019,7 @@ aliases:
 
 
 <!-- merged from NPC stub: Club Creon -->
-- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul.md|Arden Vul]] Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 
 
 <!-- merged from NPC stub: Dikaios -->
@@ -3083,7 +3027,7 @@ aliases:
 
 
 <!-- merged from NPC stub: Flavius Aurelius -->
-- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul.md|Arden Vul]] Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 
 
 <!-- merged from NPC stub: Gillen -->
@@ -3091,11 +3035,11 @@ aliases:
 
 
 <!-- merged from NPC stub: Harold -->
-- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul.md|Arden Vul]] Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 
 
 <!-- merged from NPC stub: Hjalti -->
-- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul.md|Arden Vul]] Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 
 
 <!-- merged from NPC stub: Horatius Interfector -->
@@ -3103,23 +3047,23 @@ aliases:
 
 
 <!-- merged from NPC stub: Kiglon -->
-- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul.md|Arden Vul]] Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 
 
 <!-- merged from NPC stub: Knight -->
-- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon, ruler of Gosterwick Freydis, steward to Lady Alexia factio...
+- Session 8a - Never Trust a Scorpion — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and Palteon, wizards of the Arcane Practitioners' Club Lady Alexia Basileon Basileon.md|Lady Alexia Basileon Basileon]], ruler of Gosterwick Freydis the Stern, steward to Lady Alexia Basileon factio...
 - Session 13 - Yrtol and the Turtle — There was a sunken circular area in the center of the long room, containing a relatively recent corpse of a knight in magical scale armor, with a magic greatsword next to him.
-- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Lacrymosa, Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn, Halfling mob bo...
+- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]], Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn.md|Phlebotomas Phlebotomas Plumthorn]], Halfling mob bo...
 - Session 30 - The Tomb of Theskalon — The intact statues were "Licinia the Seer", "Plotinus Quartus Claudino, Archon", "Yeth, Who Sought to Bring Law to Chaos", and "Horatius Interfector, Sorcerer." The headless statue with the spark show was "Thrygga the Mighty", and he was...
 
 
 <!-- merged from NPC stub: Mariposa -->
-- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul.md|Arden Vul]] Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 
 
 <!-- merged from NPC stub: On Lunday -->
-- Session 30 - The Tomb of Theskalon — The Right for Riches company left for Arden Vul just after dawn on Lunday.
-- Session 32 - Fast Exploration — On Lunday, they all teleported back to the Beacon using the Rugs of Instant Access, along with the mercenary archer Lacrymosa.
+- Session 30 - The Tomb of Theskalon — The Right for Riches company left for Arden Vul.md|Arden Vul]] just after dawn on Lunday.
+- Session 32 - Fast Exploration — On Lunday, they all teleported back to the Beacon using the Rugs of Instant Access, along with the mercenary archer Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]].
 
 
 <!-- merged from NPC stub: Plotinus Quartus Claudino -->
@@ -3131,15 +3075,15 @@ aliases:
 
 
 <!-- merged from NPC stub: Several merchant teamster/guards -->
-- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul.md|Arden Vul]] Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 
 
 <!-- merged from NPC stub: Several mules -->
-- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul.md|Arden Vul]] Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 
 
 <!-- merged from NPC stub: Sir Sorrow -->
-- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Lacrymosa, Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn, Halfling mob bo...
+- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]], Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn.md|Phlebotomas Phlebotomas Plumthorn]], Halfling mob bo...
 - Session 30 - The Tomb of Theskalon — The intact statues were "Licinia the Seer", "Plotinus Quartus Claudino, Archon", "Yeth, Who Sought to Bring Law to Chaos", and "Horatius Interfector, Sorcerer." The headless statue with the spark show was "Thrygga the Mighty", and he was...
 
 
@@ -3150,7 +3094,7 @@ aliases:
 
 
 <!-- merged from NPC stub: Sun-Scarred Knight -->
-- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Lacrymosa, Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn, Halfling mob bo...
+- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]], Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn.md|Phlebotomas Phlebotomas Plumthorn]], Halfling mob bo...
 - Session 30 - The Tomb of Theskalon — The intact statues were "Licinia the Seer", "Plotinus Quartus Claudino, Archon", "Yeth, Who Sought to Bring Law to Chaos", and "Horatius Interfector, Sorcerer." The headless statue with the spark show was "Thrygga the Mighty", and he was...
 
 
@@ -3161,7 +3105,7 @@ aliases:
 
 
 <!-- merged from NPC stub: Suspicious bat that transformed into a suspicious worm -->
-- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul.md|Arden Vul]] Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 
 
 <!-- merged from NPC stub: Theskelon -->
@@ -3170,12 +3114,12 @@ aliases:
 
 
 <!-- merged from NPC stub: Varumani guards -->
-- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
-- Session 32 - Fast Exploration — # DFRPG Arden Vul Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of Demma ...
+- Session 30 - The Tomb of Theskalon — # DFRPG Arden Vul.md|Arden Vul]] Session 30: The Tomb of Theskalon Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- Session 32 - Fast Exploration — # DFRPG Arden Vul.md|Arden Vul]] Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of Demma ...
 
 
 <!-- merged from NPC stub: Wordlessly -->
-- Session 30 - The Tomb of Theskalon — Wordlessly, they ambushed the Settites.
+- Session 30 - The Tomb of Theskalon — Wordlessly, they ambushed the Set.md|Cult of Set]].
 
 
 <!-- merged from NPC stub: Yeth -->
@@ -3226,7 +3170,7 @@ aliases:
 # Tower of Scrutiny
 
 ## Summary
-A tower in Sortian onslaught" that included "Sortian dragons," the Second Overseer of Thoth cowardly retreated and barricaded himself inside the Tower of Scrutiny, refusing entry to all.
+A tower in Thoth, reveals a past incident involving the tower. During a "Sortian onslaught" that included "Sortian dragons," the Second Overseer of Thoth cowardly retreated and barricaded himself inside the Tower of Scrutiny, refusing entry to all.
 
 Archon Basileon noted his intent to "smoke him out" and deliver him for punishment once the Sortian threat had passed. He also warned that his agents had seen a messenger from Session 29 - The Tower of Scrutiny
 - Session 30 - The Tomb of Theskalon
@@ -3325,7 +3269,7 @@ tags:
   - location
 ---
 
-# Upper Goblintown
+# Goblintown.md|Upper Goblintown]]
 
 ## Summary
 Upper district of Session 28 - Teleport Rugs and Baboons
@@ -3335,7 +3279,7 @@ Upper district of Session 28 - Teleport Rugs and Baboons
 ## Timeline
 - Session 28 — Reached via teleport lever; heavily populated by goblins after reconquest from halflings.
 - Session 29 — Crowded with goblins; frequent drinking noted.
-- Session 32 — Audience with King Weskenim; halfling-slayer patches awarded.
+- Session 32 — Audience with Weskenim.md|Weskenim]]; halfling-slayer patches awarded.
 
 ## Notes
 TBD
@@ -3427,7 +3371,7 @@ tags:
 # Waterfall
 
 ## Summary
-A prominent landmark of dam. A secret cavern behind the waterfall is rumored to be a former breeding ground for Craastonistorex (occasionally)
+A prominent landmark of Waterfall is a powerful cascade of water, and its flow can be controlled from the nearby dam. A secret cavern behind the waterfall is rumored to be a former breeding ground for Set.' These creatures are thought to be a type of golem or magically augmented beast, referred to as Craastonistorex (occasionally)
 
 ## Tags
 
@@ -3497,10 +3441,10 @@ appears_in:
 
 ## Connections
 - Session 23c - Set Jailbreak and Down to Goblintown — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Susarra, Archontean fighter Many Set guards Hidlat, Set wizard Kathroc, Set torturer Lenuel, Set jailer Eadgithu, enslaved Thorcin range...
-  - Session 23c - Set Jailbreak and Down to Goblintown — Their leader led Gribble and his huge entourage east to Killik, the Boss of the Wet Caves.
-- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Lacrymosa, Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn, Halfling mob bo...
+  - Session 23c - Set Jailbreak and Down to Goblintown — Their leader led Gribble and his huge entourage east to Killick, the Boss of the Wet Caves.
+- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]], Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn.md|Phlebotomas Phlebotomas Plumthorn]], Halfling mob bo...
   - Session 26 - The Scouring of the Shire — The goblin sergeant, Bottleneck, was very excited by this news, and sent one of his warriors running down the tunnel to the Wet Caves.
-- Session 32 - Fast Exploration — # DFRPG Arden Vul Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of Demma ...
+- Session 32 - Fast Exploration — # DFRPG Arden Vul.md|Arden Vul]] Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of Demma ...
 
 ## Notes
 - In Session 33 - Nyema, the party passed through the Wet Caves to get to Lower Goblintown.

@@ -1,12 +1,12 @@
 ---
-title: "Glory of Thoth"
+title: "Glory of [[npcs/Thoth.md|Thoth]]"
 tags:
   - location
   - location
 aliases:
-  - The Glory of Thoth
+  - The Glory of [[npcs/Thoth.md|Thoth]]
 ---
-# Glory of Thoth
+# Glory of [[npcs/Thoth.md|Thoth]]
 
 ## Summary
 A grand and significant chamber or area within [[Arden Vul]], almost certainly dedicated to the deity [[Thoth]]. It is known for its imposing architecture and served as a strategic point for the halfling toll collectors.
@@ -32,7 +32,7 @@ A grand and significant chamber or area within [[Arden Vul]], almost certainly d
 - Cave
 - Cavern
 - [[locations/Great Chasm.md|Great Chasm]]
-- Cliff Face
+- [[locations/Cliff Face.md|Cliff Face]]
 - Company
 - [[npcs/Craastonistorex.md|Craastonistorex]]
 - Crackers
@@ -42,13 +42,13 @@ A grand and significant chamber or area within [[Arden Vul]], almost certainly d
 - Flight
 - Forum
 - [[factions/Goblins.md|Goblin]]
-- Goblins
+- [[factions/Goblins.md|Goblins]]
 - [[Gosterwick|Gosterwick]]
 - [[Great Chasm|Great Chasm]]
 - [[Great Hall|Great Hall]]
 - [[factions/Grudge Brigade.md|Grudge Brigade]]
 - [[npcs/Gwelf.md|Gwelf]]
-- Halflings
+- [[factions/Halflings.md|Halflings]]
 - Hall
 - Halls
 - [[npcs/Hama.md|Hama]]
@@ -94,10 +94,10 @@ A grand and significant chamber or area within [[Arden Vul]], almost certainly d
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
-- Sessions 8b and 9 - Muirasso's Tomb and the Broken Head
+- Sessions 8b and 9 - [[npcs/Muirasso.md|Muirasso]]'s Tomb and the Broken Head
 - [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]
 - Session 16 - Random Scorpion Teleport to the Hall of Judgment
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
-- Session 27 - The Tomb of Ptoh-Ristus
+- Session 27 - The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 - Session 29 - The Tower of Scrutiny

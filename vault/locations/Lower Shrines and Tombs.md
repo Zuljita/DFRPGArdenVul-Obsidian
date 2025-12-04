@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Lower Shrines and Tombs
+# Lower [[locations/Shrines.md|Shrines]] and Tombs
 
 ## Description
 

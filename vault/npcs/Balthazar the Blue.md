@@ -13,4 +13,4 @@ He was apparently big on self-promotion, and some of his party's exploits were l
 
 ## Notes
 - He is a long-time friend of [[Wicktrimmer]], his former party member.
-- Wicktrimmer believes that Balthazar does not think [[Larel]] was a real person, and is eager to prove him wrong.
+- [[npcs/Wicktrimmer.md|Wicktrimmer]] believes that Balthazar does not think [[Larel]] was a real person, and is eager to prove him wrong.

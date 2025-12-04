@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Bumpko
+# [[npcs/Bumpko.md|Bumpko]]
 
 ## Summary
 A 4-armed intelligent giant baboon from the [[Howling Caves]].
@@ -19,5 +19,5 @@ A 4-armed intelligent giant baboon from the [[Howling Caves]].
 - [[Bifki]]
 
 ## Notes
-- Bumpko, along with many other baboons, attacked [[The Thane]] and his minions to protect [[Bobo]] and [[Bifki]].
-- The Thane used "bad juju" to stun Bumpko and several other baboons.
+- [[npcs/Bumpko.md|Bumpko]], along with many other baboons, attacked [[The Thane]] and his minions to protect [[Bobo]] and [[Bifki]].
+- [[npcs/The Thane.md|The Thane]] used "bad juju" to stun [[npcs/Bumpko.md|Bumpko]] and several other baboons.

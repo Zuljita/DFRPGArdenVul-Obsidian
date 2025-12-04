@@ -3,7 +3,7 @@ tags:
   - faction
 ---
 
-# Wiskin
+# [[factions/Wiskin.md|Wiskin]]
 
 ## Summary
 One of the four major human cultures in the setting, described as "vikings from the northern islands." They have their own pantheon, which includes the god [[Odin]].

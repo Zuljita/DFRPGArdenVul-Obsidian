@@ -1,13 +1,13 @@
 ---
-title: "Wisdom Factor"
+title: "[[factions/Wisdom Factor.md|Wisdom Factor]]"
 tags:
   - faction
   - faction
 ---
-# Wisdom Factor
+# [[factions/Wisdom Factor.md|Wisdom Factor]]
 
 ## Summary
-The Wisdom Factor is a merchant factor.
+The [[factions/Wisdom Factor.md|Wisdom Factor]] is a merchant factor.
 
 They are known to employ statue brokers who work out of the [[Inn of the Broken Head]].
 

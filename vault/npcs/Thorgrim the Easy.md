@@ -8,7 +8,7 @@ aliases:
 # Thorgrim the Easy
 
 ## Summary
-Thorgrim the Easy is a Wiskin food and drinks merchant.
+Thorgrim the Easy is a [[factions/Wiskin.md|Wiskin]] food and drinks merchant.
 
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]

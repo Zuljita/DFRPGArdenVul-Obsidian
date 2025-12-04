@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# The Master
+# [[npcs/The Master.md|The Master]]
 
 ## Summary
 A figure who used to protect the [[Howling Caves]].
@@ -16,4 +16,4 @@ Mentioned in [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 ## Known Associates
 
 ## Notes
-- [[The Thane]] did not dare to enter the [[Howling Caves]] while The Master was there.
+- [[The Thane]] did not dare to enter the [[Howling Caves]] while [[npcs/The Master.md|The Master]] was there.

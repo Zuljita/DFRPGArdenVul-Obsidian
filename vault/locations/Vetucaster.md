@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Vetucaster
+# [[locations/Vetucaster.md|Vetucaster]]
 
 ## Description
 

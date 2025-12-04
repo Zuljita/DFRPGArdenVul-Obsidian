@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Gog's cave
+# [[npcs/Gog.md|Gog]]'s cave
 
 ## Level
 
@@ -18,7 +18,7 @@ tags:
 ## Tags
 
 ## Notes
-- The party visited Gog here in [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]] and gave him 50 lbs of meat.
+- The party visited [[npcs/Gog.md|Gog]] here in [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]] and gave him 50 lbs of meat.
 
 ## Sessions
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]

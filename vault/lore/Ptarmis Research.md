@@ -3,13 +3,13 @@ tags:
   - lore
 ---
 
-# Ptarmis Research
+# [[npcs/Ptarmis.md|Ptarmis]] Research
 
 ## Ioannes' Inquiry
 
 [[Ioannes]] inquired about available [[minor healing potions]] in [[Gosterwick]], prompting a suspicious look from [[Freydis the Stern]], who noted the frequency of such requests.
 
-## Research on Ptarmis
+## Research on [[npcs/Ptarmis.md|Ptarmis]]
 
 [[Ioannes]] then conducted research on [[Ptarmis]], learning the following:
 

@@ -7,7 +7,7 @@ tags:
 
 [[Ioannes]] researches the eyes that activate statues.
 
-## Findings from the [[Library of Thoth]] (Back stacks of the Library of Mitra)
+## Findings from the [[Library of Thoth]] (Back stacks of the Library of [[npcs/Mitra.md|Mitra]])
 
 Ioannes finds a very old book about the ancient [[Sortians]], who were traitors under [[Priscus Pulcher]]. They rebelled against the natural order of having magic controlled by approved churches and colleges, advocating for allowing anyone with magical aptitude to cast spells. This rebellion caused the [[Civil War]] and the abandonment of the [[Exarchate of Narsileon]], setting the [[Archontean Empire|Empire]] back a thousand years.
 

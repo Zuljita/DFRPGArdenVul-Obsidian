@@ -6,7 +6,7 @@ tags:
 # The Archontean Calendar
 
 ## Summary
-The **Archontean Imperial Calendar**, also called the **Ennian Calendar**, is the primary timekeeping system in the eastern region of Magae. Its epoch is the signing of the [[Compact of Ennius]].
+The **Archontean Imperial Calendar**, also called the **Ennian Calendar**, is the primary timekeeping system in the eastern region of [[npcs/Magae.md|Magae]]. Its epoch is the signing of the [[Compact of Ennius]].
 
 ## Key Concepts
 - **Epoch**: The calendar dates from the **Compact of Ennius**. Years are denoted as *sine pacti* (SP, before the compact) or *ab Ennii pacto* (AEP, after the compact).

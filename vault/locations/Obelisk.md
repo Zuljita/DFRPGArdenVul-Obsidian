@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Obelisk
+# [[locations/Obelisk.md|Obelisk]]
 
 ## Summary
 An obelisk located north of the [[Forum]] in [[Arden Vul]], featuring writings in [[Mithric]] and iconography related to the sun.
@@ -12,7 +12,7 @@ An obelisk located north of the [[Forum]] in [[Arden Vul]], featuring writings i
 Surface ruins of [[Arden Vul]].
 
 ## Aliases
-- Obelisk of the Sun
+- [[locations/Obelisk.md|Obelisk]] of the Sun
 
 ## Connections
 - North of the [[Forum]].

@@ -1,11 +1,11 @@
 ---
-title: "Water Gate"
+title: "[[locations/Water Gate.md|Water Gate]]"
 tags:
   - location
   - location
   - entrance
 ---
-# Water Gate
+# [[locations/Water Gate.md|Water Gate]]
 
 ## Summary
 One of the three gates of [[Gosterwick]], and the only one that actually has completed walls around it.

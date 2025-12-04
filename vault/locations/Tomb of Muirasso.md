@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Tomb of Muirasso
+# Tomb of [[npcs/Muirasso.md|Muirasso]]
 
 ## Summary
 The resting place of [[npcs/Muirasso.md|Muirasso]], a former cleric of [[Thoth]] who became a wight. It is likely protected by powerful curses and undead guardians.
@@ -12,7 +12,7 @@ The resting place of [[npcs/Muirasso.md|Muirasso]], a former cleric of [[Thoth]]
 Underground in [[Arden Vul]].
 
 ## Aliases
-- Muirasso's Tomb
+- [[npcs/Muirasso.md|Muirasso]]'s Tomb
 
 ## Connections
 - Possibly connected to other [[Thothian]] sacred sites.

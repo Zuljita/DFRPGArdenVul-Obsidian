@@ -1,11 +1,11 @@
 ---
-title: "Ghost of Ptirasa"
+title: "Ghost of [[npcs/Ptirasa.md|Ptirasa]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Ghost of Ptirasa
+# Ghost of [[npcs/Ptirasa.md|Ptirasa]]
 
 ## Summary
 The ghost of [[Ptirasa]], a priestess of [[Thoth]].

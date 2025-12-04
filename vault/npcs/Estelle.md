@@ -1,11 +1,11 @@
 ---
-title: "Estelle"
+title: "[[npcs/Estelle.md|Estelle]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Estelle
+# [[npcs/Estelle.md|Estelle]]
 
 ## Summary
 - TODO: Short description.

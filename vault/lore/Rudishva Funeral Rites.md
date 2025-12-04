@@ -3,7 +3,7 @@ tags:
   - lore
 ---
 
-# Rudishva Funeral Rites
+# [[factions/Rudishva.md|Rudishva]] Funeral Rites
 
 [[Vallium Halcyon]] and the party inquired with [[Akla-Chah]] about [[Rudishva]] burial/funeral rites, prompted by a [[glyph]] found on a stone seat and the presence of a [[corpse]].
 

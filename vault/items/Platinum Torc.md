@@ -3,7 +3,7 @@ tags:
   - item
 ---
 
-# Platinum Torc
+# [[items/Platinum Torc.md|Platinum Torc]]
 
 ## Description
 A platinum torc found on [[Nyema]]'s body.

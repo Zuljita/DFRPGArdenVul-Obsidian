@@ -1,5 +1,5 @@
 ---
-title: "Selket"
+title: "[[npcs/Selket.md|Selket]]"
 tags:
   - npc
   - npc
@@ -8,10 +8,10 @@ aliases:
   - Selqet
   - Selkis
 ---
-# Selket
+# [[npcs/Selket.md|Selket]]
 
 ## Summary
-Goddess associated with scorpions and protection. Her image appears in Thothian contexts throughout Arden Vul.
+Goddess associated with scorpions and protection. Her image appears in Thothian contexts throughout [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]].
 
 ## Appears In
 - [[locations/Waterfall.md|Waterfall]]

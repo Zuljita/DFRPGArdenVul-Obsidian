@@ -1,11 +1,11 @@
 ---
-title: "Voice of Thoth"
+title: "Voice of [[npcs/Thoth.md|Thoth]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Voice of Thoth
+# Voice of [[npcs/Thoth.md|Thoth]]
 
 ## Summary
 - TODO: Short description.

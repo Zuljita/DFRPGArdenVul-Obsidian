@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Newmarket
+# [[locations/Newmarket.md|Newmarket]]
 
 ## Description
 
@@ -19,12 +19,12 @@ A city with a significant merchant factor presence. It is home to the [[Rarities
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 
 ## Timeline
-- Session 2 — The only bigger town in Burdock's Valley is Newmarket, about 60 miles (three days' walk) to the south.
-- Session 8a — Plumthorn corresponded about a merchant in Newmarket being late on protection payments.
-- Session 22 — The canon of the [[Temple of Mitra]] in Newmarket is discussed in plans to rescue [[Lillian]].
-- Session 23c — Freed prisoners planned to stay at the [[Temple of Mitra]] before heading to Newmarket.
-- Session 26 — A stolen wheelbarrow tracked by Seeker was located in Newmarket; Plumthorn was ordered to lead survivors there and never return to [[Arden Vul]].
-- Session 31 — Proposed overland route: Imperial Road → Newmarket → Narsileon → ship to Sweetwater Hold.
+- Session 2 — The only bigger town in Burdock's Valley is [[locations/Newmarket.md|Newmarket]], about 60 miles (three days' walk) to the south.
+- Session 8a — [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]] corresponded about a merchant in [[locations/Newmarket.md|Newmarket]] being late on protection payments.
+- Session 22 — The canon of the [[Temple of Mitra]] in [[locations/Newmarket.md|Newmarket]] is discussed in plans to rescue [[Lillian]].
+- Session 23c — Freed prisoners planned to stay at the [[Temple of Mitra]] before heading to [[locations/Newmarket.md|Newmarket]].
+- Session 26 — A stolen wheelbarrow tracked by Seeker was located in [[locations/Newmarket.md|Newmarket]]; [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]] was ordered to lead survivors there and never return to [[Arden Vul]].
+- Session 31 — Proposed overland route: [[locations/Imperial Road.md|Imperial Road]] → [[locations/Newmarket.md|Newmarket]] → [[locations/Narsileon.md|Narsileon]] → ship to Sweetwater Hold.
 
 ## Key Features
 

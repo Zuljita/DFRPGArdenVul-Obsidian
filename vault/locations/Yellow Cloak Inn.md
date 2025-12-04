@@ -1,12 +1,12 @@
 ---
-title: "Yellow Cloak Inn"
+title: "[[locations/Yellow Cloak Inn.md|Yellow Cloak Inn]]"
 tags:
   - location
   - location
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
 ---
-# Yellow Cloak Inn
+# [[locations/Yellow Cloak Inn.md|Yellow Cloak Inn]]
 
 ## Summary
 The [[Yellow Cloak Inn]] is a good quality inn in [[Gosterwick]] with reasonable prices, frequently patronized by adventurers.

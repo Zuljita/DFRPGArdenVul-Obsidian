@@ -1,19 +1,19 @@
 ---
-title: "Stamelis"
+title: "[[npcs/Stamelis.md|Stamelis]]"
 tags:
   - npc
   - npc
 aliases:
-  - Stamelis, animated head, formerly Librarian of Thoth
-  - Stamelis, enchanted head of a Thothian librarian
-  - Stemelis
-  - Animated bust of Stamelis, Librarian of Thoth
-  - Magically animated head of Stamelis
+  - [[npcs/Stamelis.md|Stamelis]], animated head, formerly Librarian of [[npcs/Thoth.md|Thoth]]
+  - [[npcs/Stamelis.md|Stamelis]], enchanted head of a Thothian librarian
+  - [[npcs/Stamelis.md|Stamelis]]
+  - Animated bust of [[npcs/Stamelis.md|Stamelis]], Librarian of [[npcs/Thoth.md|Thoth]]
+  - Magically animated head of [[npcs/Stamelis.md|Stamelis]]
 ---
-# Stamelis
+# [[npcs/Stamelis.md|Stamelis]]
 
 ## Summary
-Stamelis is the animated, enchanted head of a former Librarian of [[Thoth]]. He resides in the [[Library of Thoth]] and serves as a source of information for the party, including lore about the undead librarians.
+[[npcs/Stamelis.md|Stamelis]] is the animated, enchanted head of a former Librarian of [[Thoth]]. He resides in the [[Library of Thoth]] and serves as a source of information for the party, including lore about the undead librarians.
 
 ## Appears In
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
@@ -31,4 +31,4 @@ Stamelis is the animated, enchanted head of a former Librarian of [[Thoth]]. He 
 - [[Library of Thoth]]: bound locale and knowledge source.
 - PCs: recurring consultations and errands.
 - [[Undead Librarian]]s: He provides information about these creatures that inhabit the library.
-- [[Akla-Chah]]: The party brought Stamelis to the [[Beacon]] to keep the Rudishva AI company.
+- [[Akla-Chah]]: The party brought [[npcs/Stamelis.md|Stamelis]] to the [[Beacon]] to keep the [[factions/Rudishva.md|Rudishva]] AI company.

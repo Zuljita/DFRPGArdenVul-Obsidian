@@ -1,13 +1,13 @@
 ---
-title: "Prosperity Factor"
+title: "[[factions/Prosperity Factor.md|Prosperity Factor]]"
 tags:
   - faction
   - faction
 ---
-# Prosperity Factor
+# [[factions/Prosperity Factor.md|Prosperity Factor]]
 
 ## Summary
-The Prosperity Factor is an Empire-wide merchant factor with a branch in [[Gosterwick]]. They are considered to have medium-priced storage fees.
+The [[factions/Prosperity Factor.md|Prosperity Factor]] is an Empire-wide merchant factor with a branch in [[Gosterwick]]. They are considered to have medium-priced storage fees.
 
 They are known to employ statue brokers who work out of the [[Inn of the Broken Head]].
 

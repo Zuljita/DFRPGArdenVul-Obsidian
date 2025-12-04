@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Matrona
+# [[npcs/Matrona.md|Matrona]]
 
 ## Summary
 The baker in [[Gosterwick]], known for her sweetrolls.

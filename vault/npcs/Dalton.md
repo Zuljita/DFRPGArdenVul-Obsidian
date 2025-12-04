@@ -1,11 +1,11 @@
 ---
-title: "Dalton"
+title: "[[npcs/Dalton.md|Dalton]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Dalton
+# [[npcs/Dalton.md|Dalton]]
 
 ## Summary
 Leader of [[factions/Dalton's Darlings.md|Dalton's Darlings]], a delving company active around the [[Hall of Judgment]] and adjacent levels.

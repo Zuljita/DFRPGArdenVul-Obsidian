@@ -3,11 +3,11 @@ tags:
   - lore
 ---
 
-# Announcing DFRPG Arden Vul (2025-03-05)
+# Announcing DFRPG Arden Vul.md|Arden Vul]] (2025-03-05)
 
 ## Campaign Overview
 
-The GM decided to run a fantasy megadungeon campaign using "The Halls of Arden Vul" by Richard Barton, written for OSRIC (a variant of Advanced D&D First Edition). The adventure is noted for its huge size (1100+ pages), a well-developed world, and a challenging dungeon.
+The GM decided to run a fantasy megadungeon campaign using "The Halls of Arden Vul.md|Arden Vul]]" by Richard Barton, written for OSRIC (a variant of Advanced D&D First Edition). The adventure is noted for its huge size (1100+ pages), a well-developed world, and a challenging dungeon.
 
 The campaign uses the Dungeon Fantasy Roleplaying Game (DFRPG) as its base rule set, with specific modifications to character generation and experience point (XP) awards.
 
@@ -18,55 +18,8 @@ The campaign uses the Dungeon Fantasy Roleplaying Game (DFRPG) as its base rule 
 - **Sense of Duty (Adventuring Companions):** [-5] does not count against the disadvantage limit.
 - **Quirk Limit:** -5 points.
 - **Templates:** Uses "Five Easy Pieces" from Pyramid 3/113, which are 50-point mini-templates. PCs can afford three Pieces (or two with an expensive racial template). Disadvantage points embedded in a Piece count against the limit.
-- **Playable Races:** Dwarves, Elves, Half-elves, Halflings, Humans, and Imperial Goblins. Cat-folk, half-orcs, half-ogres, and gnomes are not allowed.
-- **Languages:** Languages can be taken at Accented and Broken levels to save points.
-- **Starting Money:** Per DFRPG rules, with options to buy Wealth or trade points for cash.
-- **Equipment:** Standard DFRPG: Adventurers equipment is available at list price, except for plate armor (which does not exist in the setting). Some non-magical items can be requested from the GM. Special orders or magical equipment may require availability rolls or travel to larger cities.
-- **Coinage:** Uses AD&D coin value ratios with a silver piece standard ($1 = 1 silver piece). A copper is $0.1, a gold is $10, and a platinum is $50.
-- **Perks:** "Burdock's Valley Local" [1] grants extra rumors, an area map, and default Area Knowledge for the local area.
-
-## Setting Introduction
-
--   **World Name:** Magae.
--   **Major Power:** The Archontean Empire.
--   **Historical Context:** The old Archontean Empire (analogous to ancient Rome) expanded across nearby islands and parts of Irthuin. 1200 years ago, a magical civil war led survivors to retreat to the home island of Mithruin. The current empire (analogous to Byzantium) is re-occupying old territories. Arden Vul was a frontier city destroyed in this civil war.
--   **Local Geography:** The play area is Burdock's Valley (90x80 miles), containing Arden Vul, Gosterwick (half-day's march south of Arden Vul), Newmarket (3 days further south), six small villages, and a couple of castles. Most inhabitants are Thorcin.
-
-## Cultures
-
--   **Archonteans**: Rulers of the empire, Byzantine feel.
--   **Thorcin**: Local population in Irthuin, conquered then independent, now conquered again.
--   **Wiskin**: Vikings from northern islands.
--   **Khumus**: Horse nomads from far to the west.
--   **Halflings & Imperial Goblins**: Assimilated into the Archontean Empire, though goblins are second-class citizens.
--   **Elves & Dwarves**: Independent, secretive kingdoms outside the Empire.
-
-## Languages
-
-- **Commonly Spoken Near Arden Vul**: Archontean (urban/ruling class) and Thorcin (rural/working class).
-- **Ancient Archontean:** Mithric (dead as a native language, but used for magic, religion, and scholarship). Spellbooks and scrolls are written in Mithric.
-- **Racial Languages:** Elvish, Dwarvish.
-
-## Religion
-
-- **Archontean Pantheon**: Ten major gods and seventeen minor gods.
-- **Gosterwick Temples (Full Clerics):**
-    - Demma (goddess of fertility and crops)
-    - Heschius Ban (god of power)
-    - Lucreon (god of wealth and merchants)
-    - Mitra (god of justice and contracts)
-- **Other Deities:** Small shrines to other Archontean major/minor gods and Thorcin gods in Gosterwick. Newmarket has temples to all ten major Archontean gods, several minor ones, most of the Thorcin pantheon, and the Wiskin god Odin.
-- **Proscribed Gods:** Set (illegal worship), Horus (presumed dead, no spells for clerics).
-- **Dwarves**: Monotheists.
-- **Elves**: "Spiritual but not religious," lack clerics.
-
-## Game Mechanics & GM Notes
-
-- **Mana:** Normal mana area.
-- **Magic:** Well known, studied, and regulated by colleges.
-- **Logistics:** Weekly game (Friday nights, 8 PM-midnight NA Eastern Time). 4-5 players. PCs encouraged to return to safe places weekly; points awarded/spent only in safe places.
-- **Software:** Foundry VTT, GCS, Discord. Voice game requires a microphone.
-- **Spoilers:** Strict "no spoilers" policy for players who have read "The Halls of Arden Vul" or watched actual plays.
+- **Playable Races:** Dwarves, Elves, Half-elves, Halflings, Humans, and Gosterwick Temples (Full Clerics):**
+    - Arden Vul.md|Arden Vul]]" or watched actual plays.
 - **Difficulty:** Hard adventure, caution needed. Experience with fantasy RPGs recommended; new GURPS players advised to avoid spellcasters initially.
 
 
@@ -75,9 +28,9 @@ tags:
   - lore
 ---
 
-# Arden Vul Character Creation Rules (2025-03-06)
+# Arden Vul.md|Arden Vul]] Character Creation Rules (2025-03-06)
 
-This document outlines the specific rules for character creation in the DFRPG Arden Vul campaign, building upon the Dungeon Fantasy Roleplaying Game (DFRPG) base rules.
+This document outlines the specific rules for character creation in the DFRPG Arden Vul.md|Arden Vul]] campaign, building upon the Dungeon Fantasy Roleplaying Game (DFRPG) base rules.
 
 ## Core Character Generation
 - **Base System:** Dungeon Fantasy Roleplaying Game (DFRPG) is the base rules set. Anything from the rest of GURPS requires GM approval.
@@ -93,38 +46,11 @@ This document outlines the specific rules for character creation in the DFRPG Ar
 - **Disadvantage Points:** Disadvantage points embedded within a Piece *do* count against the overall disadvantage limit.
 - **Leftover Points:** Any remaining points can be spent on abilities within the chosen Pieces, or on general abilities not restricted to specific templates in DFRPG.
     - Most attributes, skills, and advantages are generally purchasable by any character.
-    - Some abilities are reserved for specific templates (e.g., Halfling Marksmanship for Halflings, Turning for Clerics). Players are advised to ask the GM if unsure.
-
-## Playable Races and Languages
-
-- **Available Racial Templates:** Dwarf, Elf, Half-Elf, Halfling, Human, and Imperial Goblin.
-- **Unavailable Races:** Cat-folk, half-orcs, half-ogres, gnomes.
-- **Native Languages (per race):**
-    - **Human:** Choose from Archontean, Thorcin, Wiskin, or Khumus. Default is Archontean if none chosen.
-    - **Elf:** Elvish.
-    - **Half-Elf:** Choose from Archontean, Thorcin, Wiskin, Khumus, or Elvish. Can take a second native language if raised in both cultures.
-    - **Dwarf:** Dwarvish.
-    - **Halfling**: Archontean.
-    - **Imperial Goblin**: Archontean.
-
-- **Important Languages in the Area:**
-    - **Archontean**: More urban and ruling class.
-    - **Thorcin**: More rural and working class.
-    - **Mithric**: The language of the ancient Archontean Empire, currently a "dead" native language but essential for magic, some religions, and scholars. Spellbooks and scrolls are written in Mithric, so mages and clerics should know it.
-- **Language Levels:** Allowed to take languages at Accented or Broken levels for fewer points (using GURPS Basic Set rules in GCS).
+    - Some abilities are reserved for specific templates (e.g., Halfling Marksmanship for Set rules in GCS).
 
 ## Equipment and Economy
 
-- **Starting Equipment:** Per DFRPG rules. Can buy Wealth or trade points for cash at the start.
-- **Available Equipment:** Any non-magical equipment from DFRPG: Adventurers (excluding plate armor, which does not exist in the setting). GM approval needed for common non-magical items not listed.
-- **Post-Start Equipment:** Special orders and magical equipment may not be reliably available, possibly requiring availability rolls, travel to major cities, or hiring an enchanter.
-- **Coinage:** Uses AD&D coin value ratios with a silver piece standard.
-    - **Copper:** $0.1
-    - **Silver:** $1
-    - **Electrum:** $5 (rarely used)
-    - **Gold:** $10
-    - **Platinum:** $50
-    - PCs can largely use GURPS dollars and ignore exact coins unless weight is a factor. Coins are available in GCS under Home Brew / Arden Vul Equipment.
+- **Starting Equipment:** Per DFRPG rules. Can buy Arden Vul.md|Arden Vul]] Equipment.
 
 ## Perks
 
@@ -136,7 +62,7 @@ tags:
   - lore
 ---
 
-# Arden Vul: The Archontean Calendar (2025-03-08)
+# Arden Vul.md|Arden Vul]]: The Archontean Calendar (2025-03-08)
 
 This document describes the structure and unique characteristics of the Archontean Calendar, as it functions within the Magae world setting of Arden Vul.
 
@@ -197,14 +123,7 @@ tags:
 
 ## Ioannes' Research Project
 red scale armor.
-- A Temple of Set was known to exist in Arden Vul.
-- Worship of Set was banned by imperial decree in 1839 AEP, over a thousand years ago.
-- The Drome claimed to have successfully eliminated the cult everywhere in the Empire shortly after the ban.
-- A Forum of Set allegedly exists in the ruins of Arden Vul to this day.
-- Rumors persist that the Settite Guild of Service is still buying and selling slaves.
-
-### Ioannes' Earlier Finding (Breeding Project):
-- An ancient rescript from the high priest of Set to his counterpart in Archontos claims that the Temple of Set in Arden Vul succeeded in breeding a fearsome species of animals that 'shared all the attributes of Lord Set.'
+- A Archontos claims that the Set.'
 - This project was based in a secret cavern located near the Waterfall.
 - The creature in question was presumably a kind of golem.
 
@@ -218,9 +137,13 @@ tags:
 
 ## Overview
 
-The temple in flails in homage to the goddess. Scholars and traveling priests seeking lost magical knowledge remind that flail strikes with famine, blight, and barrenness. Worshipers believe that to understand flail-shaped talismans.
+The temple in flails in homage to the goddess. Scholars and traveling priests seeking lost magical knowledge remind that flail strikes with famine, blight, and barrenness. Worshipers believe that to understand Demma
 
-For ceremonial occasions, high-ranking priests don a hooded cloak fastened with a bronze or gold brooch in the shape of a seed. Their sacred weapon, the flail, is often incorporated into their attire. temple is led by a Chief Priest, like temple has a contingent of six to twelve fighters, trained in flail combat.
+The vestments of flail-shaped talismans.
+
+For ceremonial occasions, high-ranking priests don a hooded cloak fastened with a bronze or gold brooch in the shape of a seed. Their sacred weapon, the flail, is often incorporated into their attire. Demma
+
+The priesthood of temple is led by a Chief Priest, like temple has a contingent of six to twelve fighters, trained in flail combat.
 
 
 ---
@@ -320,7 +243,16 @@ tags:
 
 ## General Information
 
-This document compiles various pieces of information regarding the town of Settites in the Great Cavern, who was part of Bjorn's party searching for Kerbog Khan. He led a failed escape attempt.
+This document compiles various pieces of information regarding the town of Gosterwick's taverns.
+- **Gosterwick's taverns.
+- **Gosterwick's taverns.
+- **Gosterwick's taverns.
+- **Gosterwick's taverns.
+- **Gosterwick's taverns.
+- **Gosterwick's taverns.
+- **Gosterwick's taverns.
+- **Gosterwick's taverns.
+- **Settites in the Great Cavern, who was part of Bjorn's party searching for Kerbog Khan. He led a failed escape attempt.
 - **Harold**: A rescued captive who left the temple after being cared for.
 - **Second Chance Company**: A new adventuring party composed of Geleg, Tresti, Klisko, and Samantha the Red. They were encountered at the Muddy Puddle. They reported that Plumthorn's Halflings were defeated by the United Goblins, and the Halls of Thoth are now Upper Goblintown. They request donations for passage through their territory.
 
@@ -346,14 +278,14 @@ tags:
 ## History
 - Session 1 - First Visit to the Ruins of Arden Vul — Iconic Location: Pyramid of Thoth: The whole party got this achievement for being the first to find the Pyramid of Thoth.
   - Session 1 - First Visit to the Ruins of Arden Vul — They didn't visit enough new areas to get the second exploration XP, but they did find the Pyramid of Thoth, which is an Iconic Location, which generated an Achievement for everyone, worth a bonus XP.
-- Session 2 - Halfling Rent-Seekers — Achievements: The statue of Thoth right under the pyramid (the one with the stone collection box, not the one with the book that opens pits when you play with the arms) is the Glory of Thoth, an Arden Vul Iconic Location.
+- Session 2 - Halfling Rent-Seekers — Achievements: The statue of Thoth right under the pyramid (the one with the stone collection box, not the one with the book that opens pits when you play with the arms) is the Glory of Thoth, an Arden Vul.md|Arden Vul]] Iconic Location.
 - Session 3 - Dragons and Baboons and Beastmen, Oh My! — Achievements: Iconic Location: Well of Light: The whole party got this achievement for being the first to find the Well of Light.
 - Session 4 - Cheese and Crackers and Thoth and Demons — Achievements: Iconic Location: The Great Hall; Iconic Location: The Great Chasm; Thus Spake Thoth: All clerics talk to gods.
 - Session 5 - Parleys and the Great Cavern — Achievements: Iconic Location: Great Cavern; XP: Exploration: 25 new locations explored, for 2 XP.
-- Session 7 - Why Did It Have to Be Plants? — Achievements: The Archon's Palace was an Arden Vul Iconic Location; XP: Exploration: 6 new locations explored, good for 1 XP; Loot: The rubies and platinum circlet they found will be enough for 1 XP each.
-- Session 10 - Baboons, Ghouls, and a Mule — Achievements: Found the Howling Caves, an Arden Vul Iconic Location; XP: Exploration: 5 new locations, good for 1 XP.
-- Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines — Achievements: 1 XP for reaching the Forum of Set, an Arden Vul Iconic Location; XP: 1 XP for exploration, for finding 10 new locations; 1–2 XP for loot, depending on how much they sell; 1 XP for an achievement.
-- Session 26 - The Scouring of the Shire — Achievements: Quest bonus: 1 XP for eliminating Plumthorn's Halflings; Iconic location bonus: 1 XP for reaching the Court of the Goblin King and the Great Hall of the Goblins; XP: Exploration: 6 new locations, good for 1 XP; Loot: 2 XP (diamonds, etc.).
+- Session 7 - Why Did It Have to Be Plants? — Achievements: The Archon's Palace was an Arden Vul.md|Arden Vul]] Iconic Location; XP: Exploration: 6 new locations explored, good for 1 XP; Loot: The rubies and platinum circlet they found will be enough for 1 XP each.
+- Session 10 - Baboons, Ghouls, and a Mule — Achievements: Found the Howling Caves, an Arden Vul.md|Arden Vul]] Iconic Location; XP: Exploration: 5 new locations, good for 1 XP.
+- Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines — Achievements: 1 XP for reaching the Forum of Set, an Arden Vul.md|Arden Vul]] Iconic Location; XP: 1 XP for exploration, for finding 10 new locations; 1–2 XP for loot, depending on how much they sell; 1 XP for an achievement.
+- Session 26 - The Scouring of the Shire — Achievements: Quest bonus: 1 XP for eliminating Phlebotomas Plumthorn's Halflings; Iconic location bonus: 1 XP for reaching the Court of the Goblin King and the Great Hall of the Goblins; XP: Exploration: 6 new locations, good for 1 XP; Loot: 2 XP (diamonds, etc.).
 
 
 
@@ -390,11 +322,8 @@ tags:
 # Irthuin
 
 ## Summary
-A large continent where the Archontean Empire colonized parts.
-
-## Notes
-- The Thorcin culture is the local population in this part of Irthuin.
-- Narsileon is the capital of the Exarchate in this part of Irthuin.
+A large continent where the Irthuin.
+- Irthuin.
 
 
 ---
@@ -405,7 +334,7 @@ tags:
 # Magae
 
 ## Summary
-The name of the world where the DFRPG Arden Vul campaign takes place.
+The name of the world where the DFRPG Arden Vul.md|Arden Vul]] campaign takes place.
 
 ## Notes
 - The year on Magae is 372 days.
@@ -422,7 +351,7 @@ tags:
 # Mithric
 
 ## Summary
-Language of magic used for spellbooks and scrolls in Arden Vul.
+Language of magic used for spellbooks and scrolls in Arden Vul.md|Arden Vul]].
 
 ## Appears In
 - Session 31 - I Want to Believe
@@ -457,9 +386,7 @@ tags:
 
 ## Ioannes' Inquiry
 
-Ioannes inquired about available minor healing potions in Gosterwick, prompting a suspicious look from Freydis the Stern, who noted the frequency of such requests.
-
-## Research on Ptarmis
+Ptarmis
 
 Ioannes then conducted research on Ptarmis, learning the following:
 
@@ -474,22 +401,10 @@ tags:
   - lore
 ---
 
-# Religion in Arden Vul
+# Religion in Arden Vul.md|Arden Vul]]
 
 ## Summary
-The religious landscape of the Archontean Empire is diverse, with a state-sponsored pantheon, various other cultural pantheons, and fringe or illegal cults. The prominence of a deity's cult can vary significantly by location.
-
-## Key Concepts
-- **The Ten**: The ten major gods of the Archontean Empire.
-- **The Seventeen**: The seventeen minor gods of the Archontean Empire.
-- **The Twelve**: A group of twelve gods no longer sponsored by the Archontean Empire.
-- **Thorcin Pantheon**: The pantheon of the Thorcins.
-- **Wiskin Pantheon**: The pantheon of the Wiskin, including Odin.
-- **Illegal Cults**: Worship of some deities, like Set, is illegal.
-
-## Religious Centers
-- **Gosterwick**: Has full temples for Demma, Heschius Ban, Lucreon, and Mitra, with smaller shrines for other gods.
-- **Newmarket**: A larger town with temples for all of The Ten, several of The Seventeen, most of the Thorcin Pantheon, and the Wiskin god Odin.
+The religious landscape of the Wiskin Pantheon**: The pantheon of the Gosterwick**: Has full temples for Newmarket**: A larger town with temples for all of The Ten, several of The Seventeen, most of the Thorcin Pantheon, and the Wiskin god Odin.
 
 ## Related Entities
 - Demma
@@ -636,7 +551,9 @@ tags:
 
 # Sortians Research
 
-Empire back a thousand years.
+Mitra)
+
+Ioannes finds a very old book about the ancient Empire back a thousand years.
 
 Among their "sins" were:
 - Summoning Empire survived, albeit with smaller borders.
@@ -705,30 +622,8 @@ tags:
 6 volumes, in Mithric
 
 Written by a succession of city of Arden Vul (893 AEP),
-- Building the Great Pyramid of Thoth, the Halls of Thoth, the Well of Light, etc.,
-- Discovery of The Great Chasm and The Obsidian Gates,
-- Wars against the Varumani (trolls), defeated by Marius Tricotor (1043 AEP),
-- Wars against the the heqeti (hoppers), defeated by Marius Tricotor (1051 AEP),
-- Breaking of the Compact of Ennius with the Dragons (1588 AEP),
-- Disputes between the old temples and the Sortians, leading to the Civil War (1698 AEP),
-
-## Architecture:
-The Halls of Arden Vul are about 12 levels deep,
-- Pyramid of Thoth (tall, but not many rooms inside)
-- Hall of Heroes (small)
-- Well of Light
-- Halls of Thoth (Upper Great Hall of Thoth is within this)
-- Forum of Set
-- Obsidian Gates
-- Lower Halls of the Archons
-- The Canyon
-- Lower Shrines and Tombs
-- Troll Thegn (mostly Varumani rather than the Halls proper)
-- Lower Temple
-- Chasm Floor (mostly wild rather than constructed)
-- Heqeti Ziggurat (connected to the Chasm Floor)
-
-## Varumani:
+- Building the Great Hall of Thoth is within this)
+- Varumani:
 - Big, strong, smart,
 - Regenerate; can only be killed with fire or acid,
 - Some mages,
@@ -778,7 +673,7 @@ tags:
 A conflict between dwarves and doppelgangers.
 
 ## Notes
-- A rumor from Gedrick Malachite, a Priest of Zodarrim, warns that doppelgangers have been appearing and that one should be wary of dwarves who may not be what they seem.
+- A rumor from Zodarrim, warns that doppelgangers have been appearing and that one should be wary of dwarves who may not be what they seem.
 
 
 ---

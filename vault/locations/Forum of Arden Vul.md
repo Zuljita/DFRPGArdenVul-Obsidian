@@ -1,10 +1,10 @@
 ---
-title: "Forum of Arden Vul"
+title: "Forum of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]"
 tags:
   - location
   - location
 ---
-# Forum of Arden Vul
+# Forum of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]
 
 ## Level
 
@@ -25,5 +25,5 @@ tags:
 
 - **Rumor:** A rumor describes a method for reaching "The Forum" that may apply to this location. It involves shining two lanterns from the left side of the river at night, then looking for a basket on the cliff face. A person named [[Stephania]] apparently pays well for basic supplies delivered this way.
 ## Sessions
-- Session 21 - The Library of Thoth
+- Session 21 - The Library of [[npcs/Thoth.md|Thoth]]
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]

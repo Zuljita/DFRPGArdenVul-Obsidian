@@ -1,11 +1,11 @@
 ---
-title: "Helga"
+title: "[[npcs/Helga.md|Helga]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Helga
+# [[npcs/Helga.md|Helga]]
 
 ## Summary
 - TODO: Short description.

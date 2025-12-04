@@ -1,18 +1,18 @@
 ---
-title: "Killick"
+title: "[[npcs/Killick.md|Killick]]"
 tags:
   - npc
   - npc
 aliases:
-  - Killik
-  - Killick, goblin Big Boss of the Wet Caves
-  - Killik, big boss of the Wet Caves
-  - Killik, goblin boss of the Wet Caves
+  - [[npcs/Killick.md|Killick]]
+  - [[npcs/Killick.md|Killick]], goblin Big Boss of the [[locations/Wet Caves.md|Wet Caves]]
+  - [[npcs/Killick.md|Killick]], big boss of the [[locations/Wet Caves.md|Wet Caves]]
+  - [[npcs/Killick.md|Killick]], goblin boss of the [[locations/Wet Caves.md|Wet Caves]]
 ---
-# Killick
+# [[npcs/Killick.md|Killick]]
 
 ## Summary
-Killick is a goblin leader, known as the "Big Boss of the Wet Caves."
+[[npcs/Killick.md|Killick]] is a goblin leader, known as the "Big Boss of the [[locations/Wet Caves.md|Wet Caves]]."
 
 ## Appears In
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]

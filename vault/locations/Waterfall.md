@@ -1,16 +1,16 @@
 ---
-title: "Waterfall"
+title: "[[locations/Waterfall.md|Waterfall]]"
 tags:
   - location
   - location
 ---
-# Waterfall
+# [[locations/Waterfall.md|Waterfall]]
 
 ## Summary
-A prominent landmark of [[Arden Vul]], the Waterfall is a powerful cascade of water, and its flow can be controlled from the nearby [[Dam (Arden Vul)|dam]]. A secret cavern behind the waterfall is rumored to be a former breeding ground for [[Set Animals]].
+A prominent landmark of [[Arden Vul]], the [[locations/Waterfall.md|Waterfall]] is a powerful cascade of water, and its flow can be controlled from the nearby [[Dam (Arden Vul)|dam]]. A secret cavern behind the waterfall is rumored to be a former breeding ground for [[Set Animals]].
 
 ## Lore
-- **Secret Cavern and Breeding Project**: An ancient rescript from the high priest of [[Set]] mentions a secret cavern near the waterfall. Here, the [[Temple of Set]] in [[Arden Vul]] reportedly succeeded in breeding a fearsome species of animals that 'shared all the attributes of Lord Set.' These creatures are thought to be a type of golem or magically augmented beast, referred to as [[Set Animals]].
+- **Secret Cavern and Breeding Project**: An ancient rescript from the high priest of [[Set]] mentions a secret cavern near the waterfall. Here, the [[Temple of Set]] in [[Arden Vul]] reportedly succeeded in breeding a fearsome species of animals that 'shared all the attributes of Lord [[npcs/Set.md|Set]].' These creatures are thought to be a type of golem or magically augmented beast, referred to as [[Set Animals]].
 
 ## Level
 Surface/Exterior.

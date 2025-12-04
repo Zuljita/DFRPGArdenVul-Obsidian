@@ -1,14 +1,14 @@
 ---
-title: "Yrtol"
+title: "[[npcs/Yrtol.md|Yrtol]]"
 tags:
   - npc
   - npc
 aliases:
   - The Tower Ghost
-  - Yrtol the Angry Ghost
+  - [[npcs/Yrtol.md|Yrtol]] the Angry Ghost
   - Angry scary ghost
 ---
-# Yrtol
+# [[npcs/Yrtol.md|Yrtol]]
 
 ## Summary
 A restless ghost haunting the [[Haunted Tower]] at the base of the [[Waterfall]]. Encountered by the party during early delves, it is known for its angry, territorial behavior and screams accusations of "Settite murderers." [[Ioannes]] interprets it as a "wronged soul" with "unfinished business," bound to the tower.
@@ -18,4 +18,4 @@ A restless ghost haunting the [[Haunted Tower]] at the base of the [[Waterfall]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 
 ## Notes
-- In [[Session 33 - Nyema]], the party brought [[Nyema]]'s skeleton to Yrtol. He asked them to bury her. After they did, he disappeared, leaving behind two huge eye-shaped sapphires ([[Watcher's eyes]]).
+- In [[Session 33 - Nyema]], the party brought [[Nyema]]'s skeleton to [[npcs/Yrtol.md|Yrtol]]. He asked them to bury her. After they did, he disappeared, leaving behind two huge eye-shaped sapphires ([[Watcher's eyes]]).

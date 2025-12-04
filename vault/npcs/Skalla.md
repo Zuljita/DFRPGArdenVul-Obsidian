@@ -5,7 +5,7 @@ tags:
   - npc
 aliases:
   - Skalla, skeleton warrior
-  - Thoth Skalla
+  - [[npcs/Thoth.md|Thoth]] Skalla
 ---
 # Skalla
 

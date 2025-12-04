@@ -51,16 +51,7 @@ tags:
 # Arcanum
 
 ## Description
-A mysterious substance or energy source mentioned in relation to the Beacon vehicle. It is required as fuel for the Beacon.
-
-## Properties
-- Fuel for the Beacon.
-
-## Known History
-TBD
-
-## Notes
-The exact nature and source of Arcanum are unknown.
+A mysterious substance or energy source mentioned in relation to the Arcanum are unknown.
 
 ## Sessions
 
@@ -127,7 +118,7 @@ A sturdy belt, often crafted with dwarven motifs, that magically imbues the wear
 - Grants dwarven traits or abilities.
 
 ## Known History
-A classic magic item in fantasy settings, likely present in the world of Arden Vul.
+A classic magic item in fantasy settings, likely present in the world of Arden Vul.md|Arden Vul]].
 
 ## Notes
 Owned by Session 3 - Dragons and Baboons and Beastmen, Oh My!
@@ -222,32 +213,8 @@ The book contains a wealth of information on various subjects:
 
 ### History
 A timeline of major events, including:
-- **829 AEP:** Discovery of the site by Arden and Vul the Sorcerer.
-- **893 AEP:** The founding of the city of Arden Vul.
-- The construction of major landmarks like the Great Pyramid of Thoth, the Halls of Thoth, and the Well of Light.
-- The discovery of The Great Chasm and The Obsidian Gates.
-- **1043 AEP:** The defeat of the varumani (trolls) by Marius Tricotor.
-- **1051 AEP:** The defeat of the heqeti (hoppers) by Marius Tricotor.
-- **1588 AEP:** The breaking of the Compact of Ennius with the dragons.
-- **1698 AEP:** The start of a Civil War stemming from disputes between the old temples and the Sortians.
-
-### Architecture
-The book describes the layout of the Halls of Arden Vul as being approximately 12 levels deep and mentions numerous locations:
-- Pyramid of Thoth
-- Hall of Heroes
-- Well of Light
-- Halls of Thoth (also referred to as Upper Great Hall of Thoth)
-- Forum of Set
-- Obsidian Gates
-- Lower Halls of the Archons
-- The Canyon
-- Lower Shrines and Tombs
-- Troll Thegn (a varumani area)
-- Lower Temple
-- Chasm Floor
-- Heqeti Ziggurat (connected to the Chasm Floor)
-
-### On the Varumani (Trolls)
+- **829 AEP:** Discovery of the site by Great Hall of Thoth)
+- Varumani (Trolls)
 - Described as big, strong, and intelligent.
 - Possess regenerative abilities and can only be permanently killed with fire or acid.
 - Some members of the race are mages.
@@ -443,7 +410,7 @@ A powerful magical gem capable of permanently boosting a person's intelligence. 
 
 ## History
 - Session 4 - Cheese and Crackers and Thoth and Demons — And one of the items they found in the pit was truly amazing, a Gem of Insight, which could permanently boost someone's intelligence.
-- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- Session 5 - Parleys and The Great Cavern — # DFRPG Arden Vul.md|Arden Vul]] Session 5: Parleys and The Great Cavern Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 
 ## Notes
 
@@ -678,7 +645,8 @@ tags:
 ---
 # Living Wheelbarrow
 
-The Living Wheelbarrow is a magical item created by the inventor Living Wheelbarrows (one in each color). Free shipping to Gosterwick. Estimated delivery: Gerakios 2993.
+The Living Wheelbarrow is a magical item created by the inventor Living Wheelbarrow was originally offered through a crowdfunding campaign with several pledge levels:
+- **Adventurer Pledge (300 silver):** One Living Wheelbarrows (one in each color). Free shipping to Gosterwick. Estimated delivery: Gerakios 2993.
 - **Trailblazer Pledge (2,000 silver):** A personalized wheelbarrow with a customized color emblem or design. Free shipping to Gosterwick. Estimated delivery: Basilembrios 2993.
 
 Vael acquired a customized wheelbarrow, and both Ioannes and Onyx were "befuddled" by it initially. Deliveries for Adventurer and Party Pledges began by Gerakios 2993, with Trailblazer pledges focusing on unique designs.
@@ -1182,13 +1150,10 @@ tags:
   - item
 ---
 
-# Rudishva Devices
+# Rudishva Devices.md|Rudishva Devices]]
 
 ## Description
-"Rudishva Devices" is a book that serves as a reference guide for various artifacts created by the Rudishva.
-
-## Properties
-- Contains pictures of many Rudishva devices, which can be used to identify unknown artifacts.
+"Rudishva Devices.md|Rudishva Devices]]" is a book that serves as a reference guide for various artifacts created by the Rudishva devices, which can be used to identify unknown artifacts.
 - The book contains warnings related to the devices. Reading the correct page before experimenting with an artifact may make the process safer.
 
 ## Notes
@@ -1223,14 +1188,7 @@ tags:
 # Set Animals
 
 ## Description
-Vicious dogs with square ears, often used by followers of the Cult of Set. These are described as "weird mean dogs".
-
-## Properties
-- Vicious
-- Square ears
-
-## Known History
-An ancient rescript from the high priest of Set to his counterpart in Archontos claims that the Temple of Set in Arden Vul succeeded in breeding a fearsome species of animals that 'shared all the attributes of Lord Set.' This project was based in a secret cavern near the Waterfall.
+Vicious dogs with square ears, often used by followers of the Archontos claims that the Set.' This project was based in a secret cavern near the Waterfall.
 
 ## Notes
 These creatures might be a type of golem or a magically augmented beast.

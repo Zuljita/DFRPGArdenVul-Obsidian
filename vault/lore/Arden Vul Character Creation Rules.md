@@ -3,9 +3,9 @@ tags:
   - lore
 ---
 
-# Arden Vul Character Creation Rules (2025-03-06)
+# [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Character Creation Rules (2025-03-06)
 
-This document outlines the specific rules for character creation in the DFRPG Arden Vul campaign, building upon the Dungeon Fantasy Roleplaying Game (DFRPG) base rules.
+This document outlines the specific rules for character creation in the DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] campaign, building upon the Dungeon Fantasy Roleplaying Game (DFRPG) base rules.
 
 ## Core Character Generation
 - **Base System:** Dungeon Fantasy Roleplaying Game (DFRPG) is the base rules set. Anything from the rest of GURPS requires GM approval.
@@ -39,7 +39,7 @@ This document outlines the specific rules for character creation in the DFRPG Ar
     - **[[Archontean]]**: More urban and ruling class.
     - **[[Thorcin]]**: More rural and working class.
     - **[[Mithric]]**: The language of the ancient [[Archontean Empire]], currently a "dead" native language but essential for magic, some religions, and scholars. Spellbooks and scrolls are written in [[Mithric]], so mages and clerics should know it.
-- **Language Levels:** Allowed to take languages at Accented or Broken levels for fewer points (using GURPS Basic Set rules in GCS).
+- **Language Levels:** Allowed to take languages at Accented or Broken levels for fewer points (using GURPS Basic [[npcs/Set.md|Set]] rules in GCS).
 
 ## Equipment and Economy
 
@@ -52,7 +52,7 @@ This document outlines the specific rules for character creation in the DFRPG Ar
     - **Electrum:** $5 (rarely used)
     - **Gold:** $10
     - **Platinum:** $50
-    - PCs can largely use GURPS dollars and ignore exact coins unless weight is a factor. Coins are available in GCS under Home Brew / Arden Vul Equipment.
+    - PCs can largely use GURPS dollars and ignore exact coins unless weight is a factor. Coins are available in GCS under Home Brew / [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Equipment.
 
 ## Perks
 

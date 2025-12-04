@@ -3,11 +3,11 @@ tags:
   - location
 ---
 
-# Halls of Arden Vul
+# Halls of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]
 
 ## Description
 
-The Halls of Arden Vul are a massive system of cliffs and caverns. They were discovered by the heroes [[Arden]] and [[Vul the Sorcerer]]. The city of [[Arden Vul]] was later founded above this cavern system.
+The Halls of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] are a massive system of cliffs and caverns. They were discovered by the heroes [[Arden]] and [[Vul the Sorcerer]]. The city of [[Arden Vul]] was later founded above this cavern system.
 
 ## Key Features
 

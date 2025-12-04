@@ -3,7 +3,7 @@ tags:
   - lore
 ---
 
-# Arden Vul: The Archontean Calendar (2025-03-08)
+# [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]: The Archontean Calendar (2025-03-08)
 
 This document describes the structure and unique characteristics of the [[Archontean Calendar]], as it functions within the [[Magae]] world setting of [[Arden Vul]].
 

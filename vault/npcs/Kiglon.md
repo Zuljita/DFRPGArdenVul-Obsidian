@@ -1,11 +1,11 @@
 ---
-title: "Kiglon"
+title: "[[npcs/Kiglon.md|Kiglon]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Kiglon
+# [[npcs/Kiglon.md|Kiglon]]
 
 ## Summary
 A captive rescued by the party, who unfortunately succumbed to his injuries and died in the care of the priests. His hands were cut off.

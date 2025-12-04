@@ -1,12 +1,12 @@
 ---
-title: "Living Wheelbarrow"
+title: "[[items/Living Wheelbarrow.md|Living Wheelbarrow]]"
 tags:
   - item
   - item
 ---
-# Living Wheelbarrow
+# [[items/Living Wheelbarrow.md|Living Wheelbarrow]]
 
-The Living Wheelbarrow is a magical item created by the inventor [[Ashe Maykum]] under the company [[Alcheboretal Animossities]]. It was developed as part of his "Shroom for Improvement" prototype and was eventually ready for mass production.
+The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] is a magical item created by the inventor [[Ashe Maykum]] under the company [[Alcheboretal Animossities]]. It was developed as part of his "Shroom for Improvement" prototype and was eventually ready for mass production.
 
 ## Properties
 The underside of the wheelbarrow is covered in real, living plants. This unique feature allows the use of the [[Levitation]] spell, which is normally only usable on living things, rather than [[Apportation]]. This makes it significantly easier to transport than a standard wheelbarrow, as it can be floated over difficult terrain or up and down vertical shafts.
@@ -17,7 +17,7 @@ The underside of the wheelbarrow is covered in real, living plants. This unique 
 - **Colors:** Available in Fungus White, Moss Green, and Yellow Rattle. Customizable colors and emblems are available for higher pledges.
 
 ## Known History
-The Living Wheelbarrow was originally offered through a crowdfunding campaign with several pledge levels:
+The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] was originally offered through a crowdfunding campaign with several pledge levels:
 - **Adventurer Pledge (300 silver):** One [[Living Wheelbarrow]] in a color of choice. Free shipping to [[Gosterwick]]. Estimated delivery: Gerakios 2993.
 - **Party Pledge (800 silver):** Three [[Living Wheelbarrow|Living Wheelbarrows]] (one in each color). Free shipping to [[Gosterwick]]. Estimated delivery: Gerakios 2993.
 - **Trailblazer Pledge (2,000 silver):** A personalized wheelbarrow with a customized color emblem or design. Free shipping to [[Gosterwick]]. Estimated delivery: Basilembrios 2993.

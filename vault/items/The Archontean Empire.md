@@ -3,7 +3,7 @@ tags:
   - item
 ---
 
-# The Archontean Empire
+# The [[factions/Archontean Empire.md|Archontean Empire]]
 
 ## Description
 A book or tome discussing the history and workings of the [[Archontean Empire]].

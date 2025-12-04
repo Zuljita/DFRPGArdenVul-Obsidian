@@ -16,7 +16,7 @@ A sturdy belt, often crafted with dwarven motifs, that magically imbues the wear
 - Grants dwarven traits or abilities.
 
 ## Known History
-A classic magic item in fantasy settings, likely present in the world of Arden Vul.
+A classic magic item in fantasy settings, likely present in the world of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]].
 
 ## Notes
 Owned by [[Ioannes]]

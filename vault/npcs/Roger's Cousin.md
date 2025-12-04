@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Roger's Cousin
+# [[npcs/Roger.md|Roger]]'s Cousin
 
 ## Summary
 A former employee of [[Kronos Kettle-Belly]] and cousin to [[npcs/Roger.md|Roger]].

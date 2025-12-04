@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Yrsko
+# [[npcs/Yrsko.md|Yrsko]]
 
 ## Summary
 A giant 4-armed intelligent baboon, serving as a cook for his troop.

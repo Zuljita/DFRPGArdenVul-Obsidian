@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 12: First Encounter with the Cult of Set"
+title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 12: First Encounter with the Cult of [[npcs/Set.md|Set]]"
 tags:
   - session
   - session
@@ -7,7 +7,7 @@ tags:
 session_id: 12
 ---
 
-# DFRPG Arden Vul Session 12: First Encounter with the Cult of Set
+# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 12: First Encounter with the Cult of [[npcs/Set.md|Set]]
 
 Date:
 
@@ -21,11 +21,11 @@ Cool, rainy
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 Vallium Halcyon, Archontean fighter (Greybrown)
 Vael Sunshadow, Half-Elven mage (Kyle)
 Michael J. Dundee, Thorcin barbarian (Adam)
-Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo)
+Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
 
 
 Significant NPCs:
@@ -34,22 +34,22 @@ Significant NPCs:
 
 
 
-Fael, Half-Elven druid at the Grain House
+[[npcs/Fael.md|Fael]], Half-Elven druid at the Grain House
 
 
-Onyx, disturbingly smart cat
+[[npcs/Onyx.md|Onyx]], disturbingly smart cat
 
 
 3 feral cats
 
 
-4 Guards from the Cult of Set
+4 Guards from the Cult of [[npcs/Set.md|Set]]
 
 
 1 Invisible Stalker
 
 
-Skizz and Burzip, lost Lizardmen
+[[npcs/Skizz and Burzip.md|Skizz and Burzip]] and Burzip, lost Lizardmen
 
 
 3 Shriekers shrieking
@@ -67,13 +67,13 @@ Skizz and Burzip, lost Lizardmen
 
 
 
-Ioannes and Thronebreaker adopted the four cats found in the Great Cavern the previous week.  Ioannes paid Fael the druid to cast Beast Speech and speak to the black cat who appeared to be the leader.  He explained that his name was Onyx, that he used to be the familiar of an Elven mage named Lyra, and that Lyra had been killed by a giant lizard while foolishly adventuring without sufficient bodyguards.  He had met the other cats while looking for a way out the Great Cavern, and had survived by adopting their primitive lifestyle of eating mice and small lizards and sleeping in a damp cave, but he didn't like it at all.  He had been trying to find a way out, so they could find a nice wizard to adopt them and provide a civilized existence, but had not yet succeeded until Ioannes and his bodyguards had found them.  He asked Fael if he could be placed with a female elven wizard who was smart enough not to go adventuring, as having his previous wizard killed had been stressful.  Fael smiled and relayed Onyx's message and returned him to Ioannes, who then took the cats back to his apartment at the Arcane Practitioners' Club.
+Ioannes and [[npcs/Thronebreaker.md|Thronebreaker]] adopted the four cats found in the [[locations/Great Cavern.md|Great Cavern]] the previous week.  Ioannes paid [[npcs/Fael.md|Fael]] the druid to cast Beast Speech and speak to the black cat who appeared to be the leader.  He explained that his name was [[npcs/Onyx.md|Onyx]], that he used to be the familiar of an Elven mage named [[npcs/Lyra.md|Lyra]], and that [[npcs/Lyra.md|Lyra]] had been killed by a giant lizard while foolishly adventuring without sufficient bodyguards.  He had met the other cats while looking for a way out the [[locations/Great Cavern.md|Great Cavern]], and had survived by adopting their primitive lifestyle of eating mice and small lizards and sleeping in a damp cave, but he didn't like it at all.  He had been trying to find a way out, so they could find a nice wizard to adopt them and provide a civilized existence, but had not yet succeeded until Ioannes and his bodyguards had found them.  He asked [[npcs/Fael.md|Fael]] if he could be placed with a female elven wizard who was smart enough not to go adventuring, as having his previous wizard killed had been stressful.  [[npcs/Fael.md|Fael]] smiled and relayed [[npcs/Onyx.md|Onyx]]'s message and returned him to Ioannes, who then took the cats back to his apartment at the Arcane Practitioners' Club.
 
 
 
 
 
-After a brief discussion about whether it was time to kill Plumthorn's halflings the Left for Loot club decided to instead continue exploring the Great Cavern.  They threw away their two-week-old supply of trade food and bought a wheelbarrow full of new food, then pushed it back to the secret entrance two-thirds of the way up the Long Stair.  Leaving the wheelbarrow inside the entrance, they first checked the stone supply chest nearby, but it appeared nobody else had disturbed it in the past week.  Vallium then led them through a series of small cave passages until they emerged into the Great Cavern, full of giant mushrooms.  They walked north to the shore of the lake and then west to the dock, and discussed whether they should take a boat north or fly.  Ioannes mentioned that they hadn't fully explored the southwest corner of the cavern yet, so they followed a path southwest from the dock.
+After a brief discussion about whether it was time to kill [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halflings the Left for Loot club decided to instead continue exploring the [[locations/Great Cavern.md|Great Cavern]].  They threw away their two-week-old supply of trade food and bought a wheelbarrow full of new food, then pushed it back to the secret entrance two-thirds of the way up the [[locations/Long Stair.md|Long Stair]].  Leaving the wheelbarrow inside the entrance, they first checked the stone supply chest nearby, but it appeared nobody else had disturbed it in the past week.  Vallium then led them through a series of small cave passages until they emerged into the [[locations/Great Cavern.md|Great Cavern]], full of giant mushrooms.  They walked north to the shore of the lake and then west to the dock, and discussed whether they should take a boat north or fly.  Ioannes mentioned that they hadn't fully explored the southwest corner of the cavern yet, so they followed a path southwest from the dock.
 
 
 
@@ -91,13 +91,13 @@ Vael actually cast Flight on Vallium, while the other three crossbowmen took aim
 
 
 
-Around the time the guards loosed their second bolts, Vael had cast Flight on Michael, who started flying up to join the melee.  Vallium tried kicking the rope ladder down to Uvash while fighting, but failed to do both at once, so Uvash was still standing below in frustration.  The guards dropped their crossbows after their second shots and pulled out maces, but did not have time to ready their nearby shields, so they did not fight very effectively.  Vallium and Michael eventually wounded a couple of them.  By then Vael had noticed Uvash's frustration and cast an Apportation spell to lower the rope ladder.  Uvash climbed up it, with Ioannes behind him.  By the time they reached the top, Michael and Vallium had knocked out three of the guards, with the fourth running down a finished stone passage to the west, carved into the side of the Great Cavern.  With Flight spells still going, Vallium and Michael were both much faster than the wounded fleeing guard.  Vallium cut him badly, and then Michael landed a critical hit and finished him off.
+Around the time the guards loosed their second bolts, Vael had cast Flight on Michael, who started flying up to join the melee.  Vallium tried kicking the rope ladder down to Uvash while fighting, but failed to do both at once, so Uvash was still standing below in frustration.  The guards dropped their crossbows after their second shots and pulled out maces, but did not have time to ready their nearby shields, so they did not fight very effectively.  Vallium and Michael eventually wounded a couple of them.  By then Vael had noticed Uvash's frustration and cast an Apportation spell to lower the rope ladder.  Uvash climbed up it, with Ioannes behind him.  By the time they reached the top, Michael and Vallium had knocked out three of the guards, with the fourth running down a finished stone passage to the west, carved into the side of the [[locations/Great Cavern.md|Great Cavern]].  With Flight spells still going, Vallium and Michael were both much faster than the wounded fleeing guard.  Vallium cut him badly, and then Michael landed a critical hit and finished him off.
 
 
 
 
 
-Uvash and Ioannes noticed that, in addition to the red scale armor, one of the guards was wearing a holy symbol of a dog with square ears, a distinct symbol of the proscribed Cult of Set.  After a quick discussion of whether they wanted to take prisoners, the party decided they couldn't afford to leave any Set guards alive, and threw all four off the platform back into the Great Cavern to finish them off and to make it easier to collect their armor.  Michael flew down to strip off their armor, while Vallium stood guard and Vael and Ioannes rested.
+Uvash and Ioannes noticed that, in addition to the red scale armor, one of the guards was wearing a holy symbol of a dog with square ears, a distinct symbol of the proscribed Cult of [[npcs/Set.md|Set]].  After a quick discussion of whether they wanted to take prisoners, the party decided they couldn't afford to leave any [[npcs/Set.md|Set]] guards alive, and threw all four off the platform back into the [[locations/Great Cavern.md|Great Cavern]] to finish them off and to make it easier to collect their armor.  Michael flew down to strip off their armor, while Vallium stood guard and Vael and Ioannes rested.
 
 
 
@@ -121,7 +121,7 @@ Continuing to follow the right wall in the twisty maze of cavern tunnels, Valliu
 
 
 
-They left the room to the northeast, into a room where two lizardmen were standing with their hands up in a sign of peace.  The lizardmen said something in a hissing language that was presumably Lizardman, and the party responded in various human and elf and dwarf languages, but there was no common language.  Fortunately Ioannes knew Gift of Tongues, and he cast it go gain temporary mastery of Lizardman.  It turned out the lizardmen were lost; they had come up from two levels below, were lost, and could not find their way back to the way they came up, or to the Great Cavern.  Asked why they were here, they first asked if the party were friends with the Settites.  When Ioannes said they didn't like the Settites, the lizardmen revealed that they were here to kill some Settites who had killed some lizardmen.  Their names were Skizz and Burzip.  Ioannes said he could give them directions to the Great Cavern if they didn't mess with their loot and put in a good word with the other lizardmen.  Skizz readily agreed, and the two lizardmen departed, trying to follow Ioannes' directions.
+They left the room to the northeast, into a room where two lizardmen were standing with their hands up in a sign of peace.  The lizardmen said something in a hissing language that was presumably Lizardman, and the party responded in various human and elf and dwarf languages, but there was no common language.  Fortunately Ioannes knew Gift of Tongues, and he cast it go gain temporary mastery of Lizardman.  It turned out the lizardmen were lost; they had come up from two levels below, were lost, and could not find their way back to the way they came up, or to the [[locations/Great Cavern.md|Great Cavern]].  Asked why they were here, they first asked if the party were friends with the [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]].  When Ioannes said they didn't like the [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]], the lizardmen revealed that they were here to kill some [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]] who had killed some lizardmen.  Their names were [[npcs/Skizz and Burzip.md|Skizz and Burzip]] and Burzip.  Ioannes said he could give them directions to the [[locations/Great Cavern.md|Great Cavern]] if they didn't mess with their loot and put in a good word with the other lizardmen.  [[npcs/Skizz and Burzip.md|Skizz and Burzip]] readily agreed, and the two lizardmen departed, trying to follow Ioannes' directions.
 
 
 
@@ -145,7 +145,7 @@ Another exit led to a hot room with a bunch of hot mud on the floor.  Someone wa
 
 
 
-Left for Loot decided that was enough adventuring for the day, and retraced their steps back to the Great Cavern.  The corpses of Set guards were still there, along with their armor and weapons.  They took all the armor and weapons back to their wheelbarrow inside the secret door, then brought it all back to Gosterwick, where they would attempt to sell it without revealing themselves to the Set cult.
+Left for Loot decided that was enough adventuring for the day, and retraced their steps back to the [[locations/Great Cavern.md|Great Cavern]].  The corpses of [[npcs/Set.md|Set]] guards were still there, along with their armor and weapons.  They took all the armor and weapons back to their wheelbarrow inside the secret door, then brought it all back to [[locations/Gosterwick.md|Gosterwick]], where they would attempt to sell it without revealing themselves to the [[npcs/Set.md|Set]] cult.
 
 
 
@@ -166,7 +166,7 @@ Running this part of the adventure is still hard, as it's a bunch of little cave
 
 
 
-This was the first contact with the Cult of Set, which they'd heard a bit about.  It was also their first contact with lizardmen, who they hadn't heard anything about yet.  So they are continuing to expand their knowledge of the Halls and their map, even in sessions where they don't make much obvious progress.
+This was the first contact with the Cult of [[npcs/Set.md|Set]], which they'd heard a bit about.  It was also their first contact with lizardmen, who they hadn't heard anything about yet.  So they are continuing to expand their knowledge of the Halls and their map, even in sessions where they don't make much obvious progress.
 
 
 
@@ -202,7 +202,7 @@ XP:
 Exploration: 10 new locations, good for 1 XP
 
 
-Loot: Just the Set guards' armor and weapons and that one silver plaque, but good for 1 XP
+Loot: Just the [[npcs/Set.md|Set]] guards' armor and weapons and that one silver plaque, but good for 1 XP
 
 
 Achievements: None
@@ -223,7 +223,7 @@ Next Week:
 
 
 
-A couple of players will be unavailable, so the others are unlikely to feel strong enough to take a run at the halflings.  I suspect they'll continue exploring the Great Cavern area, or the surface ruins.
+A couple of players will be unavailable, so the others are unlikely to feel strong enough to take a run at the halflings.  I suspect they'll continue exploring the [[locations/Great Cavern.md|Great Cavern]] area, or the surface ruins.
 
 
 

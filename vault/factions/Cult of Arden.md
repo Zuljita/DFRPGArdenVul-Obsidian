@@ -3,7 +3,7 @@ tags:
   - faction
 ---
 
-# Cult of Arden
+# Cult of [[npcs/Arden.md|Arden]]
 
 ## Summary
 A cult that formed among military officials in [[Arden Vul]], dedicated to venerating the legendary hero [[Arden]].

@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Southern Necropolis of Set
+# Southern Necropolis of [[npcs/Set.md|Set]]
 
 ## Description
 

@@ -3,10 +3,10 @@ tags:
   - location
 ---
 
-# Sighing Stair
+# [[locations/Sighing Stair.md|Sighing Stair]]
 
 ## Summary
-Steep stairway connecting Set and Thoth districts near the [[Forum of Set]], frequently used in retreats and pursuits.
+Steep stairway connecting [[npcs/Set.md|Set]] and [[npcs/Thoth.md|Thoth]] districts near the [[Forum of Set]], frequently used in retreats and pursuits.
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]

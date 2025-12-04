@@ -1,10 +1,10 @@
 ---
-title: "The Oracle of Thoth and The Litany of Light"
+title: "The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light"
 tags:
   - location
   - location
 ---
-# The Oracle of Thoth and The Litany of Light
+# The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light
 
 ## Level
 
@@ -17,4 +17,4 @@ tags:
 ## Notes
 
 ## Sessions
-- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 22 - The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light

@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Winedark Sea
+# [[locations/Winedark Sea.md|Winedark Sea]]
 
 ## Summary
 A large body of water, often described with poetic connotations, implying its deep, rich color.

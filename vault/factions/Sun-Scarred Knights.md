@@ -1,13 +1,13 @@
 ---
-title: "Sun-Scarred Knights"
+title: "[[factions/Sun-Scarred Knights.md|Sun-Scarred Knights]]"
 tags:
   - faction
   - faction
 ---
-# Sun-Scarred Knights
+# [[factions/Sun-Scarred Knights.md|Sun-Scarred Knights]]
 
 ## Summary
-Order associated with figures like Sir Sorrow; referenced in armor and knightly encounters.
+Order associated with figures like [[npcs/Sir Sorrow.md|Sir Sorrow]]; referenced in armor and knightly encounters.
 
 ## Members
 

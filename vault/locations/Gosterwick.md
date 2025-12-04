@@ -1,12 +1,12 @@
 ---
-title: "Gosterwick"
+title: "[[locations/Gosterwick.md|Gosterwick]]"
 tags:
   - location
   - location
 ---
-# Gosterwick
+# [[locations/Gosterwick.md|Gosterwick]]
 
-Gosterwick is a rapidly growing "boom town" located about 10 miles south of the ruins of [[Arden Vul]].
+[[locations/Gosterwick.md|Gosterwick]] is a rapidly growing "boom town" located about 10 miles south of the ruins of [[Arden Vul]].
 
 ## History & Layout
 Originally a tiny [[Thorcin]] farming village, [[Gosterwick]]'s expansion began approximately 20 years ago when the [[Archontean]] noblewoman [[Lady Alexia Basileon]] arrived along with a contingent of [[Knights of the Azure Shield]] and built the [[Azure Keep]]. The settlement then began to grow into a town of a couple thousand people. The [[Azure Keep]] is located in the northeast corner of the town by a lake.
@@ -15,7 +15,7 @@ The town's walls are not yet complete, consisting mostly of a marked-out dirt be
 
 ## Services & Points of Interest
 
-Gosterwick offers a surprising number of services for its size, attracting adventurers and others seeking to make their fortune from the nearby ruins.
+[[locations/Gosterwick.md|Gosterwick]] offers a surprising number of services for its size, attracting adventurers and others seeking to make their fortune from the nearby ruins.
 
 ### Inns & Taverns
 - **Inns:**
@@ -33,7 +33,7 @@ Gosterwick offers a surprising number of services for its size, attracting adven
     - [[Pig and Whistle]]
 
 ### Shops & Artisans
-- **Smith:** [[Torunn the Smith]], a Wiskin woman, is regarded as the best smith in town.
+- **Smith:** [[Torunn the Smith]], a [[factions/Wiskin.md|Wiskin]] woman, is regarded as the best smith in town.
 - **Tailor:** [[Tasha's Tailor Shop]], where custom embroidered patches can be commissioned.
 - **Bookseller:** [[Astabelon's Bookstore]], which carries a variety of reference books.
 - **Other:** A pawn shop and a money changer are also present.
@@ -42,7 +42,7 @@ Gosterwick offers a surprising number of services for its size, attracting adven
 - [[Arcane Practitioners' Club]]: A magical society with a clubhouse deliberately isolated from other buildings.
 - **Merchant Factors:** The [[Rarities Factor]], [[Prosperity Factor]], and [[Silent Factor]] all have a presence.
 
-### Temples & Shrines
+### Temples & [[locations/Shrines.md|Shrines]]
 - [[Temple of Demma]]: A modest, well-maintained temple led by Chief Priest [[Vivian]].
 - [[Temple of Mitra]]: A circular stone temple.
 - [[Shrine of Lucreon]]: Features a magical offering box with a "mystery" involving a statue and falling coins.
@@ -57,5 +57,5 @@ Gosterwick offers a surprising number of services for its size, attracting adven
 - [[Torunn the Smith]]: The town's master smith.
 - [[Margot the Red]]: Thorcin innkeeper of the [[Yellow Cloak Inn]].
 - [[Bricwine]]: Husband of Margot and bartender at the [[Yellow Cloak Inn]].
-- [[Helle]]: Wiskin bartender at the [[Yellow Cloak Inn]].
+- [[Helle]]: [[factions/Wiskin.md|Wiskin]] bartender at the [[Yellow Cloak Inn]].
 - [[Astabelon]]: A bookseller.

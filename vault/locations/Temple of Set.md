@@ -1,10 +1,10 @@
 ---
-title: "Temple of Set"
+title: "Temple of [[npcs/Set.md|Set]]"
 tags:
   - location
   - location
 ---
-# Temple of Set
+# Temple of [[npcs/Set.md|Set]]
 
 ## Summary
 A major place of worship and operation for the [[Cult of Set]] within [[Arden Vul]]. It is likely a site of dark rituals and strategic importance for the cult's activities, housing their followers and possibly hidden facilities.
@@ -25,7 +25,7 @@ TBD
 - Members of the [[Cult of Set]]
 
 ## Notes
-- According to an ancient rescript, the temple was the base for a secret project to breed a fearsome species of animal that "shared all the attributes of Lord Set." This project was apparently based in a nearby cavern.
+- According to an ancient rescript, the temple was the base for a secret project to breed a fearsome species of animal that "shared all the attributes of Lord [[npcs/Set.md|Set]]." This project was apparently based in a nearby cavern.
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
@@ -33,5 +33,5 @@ TBD
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 
 ## Notes
-- According to an ancient rescript, the temple was the base for a secret project to breed a fearsome species of animal that "shared all the attributes of Lord Set." This project was apparently based in a nearby cavern.
+- According to an ancient rescript, the temple was the base for a secret project to breed a fearsome species of animal that "shared all the attributes of Lord [[npcs/Set.md|Set]]." This project was apparently based in a nearby cavern.
 - In [[Session 33 - Nyema]], the party found [[Nyema]]'s body in one of the crocodile pools in the temple.

@@ -1,15 +1,15 @@
 ---
-title: "Halflings"
+title: "[[factions/Halflings.md|Halflings]]"
 tags:
   - faction
   - faction
 aliases:
-  - "Plumthorn's halflings"
+  - "[[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halflings"
 ---
-# Halflings
+# [[factions/Halflings.md|Halflings]]
 
 ## Summary
-Smallfolk with an organized gang presence in the Halls (e.g., Plumthorn's gang) and various toll collectors; active adversaries in early delves.
+Smallfolk with an organized gang presence in the Halls (e.g., [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s gang) and various toll collectors; active adversaries in early delves.
 
 ## Sessions
 

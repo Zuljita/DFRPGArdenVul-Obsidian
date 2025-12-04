@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Archontos
+# [[locations/Archontos.md|Archontos]]
 
 ## Summary
 The capital city of the [[Archontean Empire]].

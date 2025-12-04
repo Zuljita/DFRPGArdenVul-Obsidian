@@ -33,7 +33,7 @@ The book describes the layout of the [[Halls of Arden Vul]] as being approximate
 - [[Pyramid of Thoth]]
 - [[Hall of Heroes]]
 - [[Well of Light]]
-- [[Halls of Thoth]] (also referred to as Upper Great Hall of Thoth)
+- [[Halls of Thoth]] (also referred to as Upper [[locations/Great Hall.md|Great Hall]] of [[npcs/Thoth.md|Thoth]])
 - [[Forum of Set]]
 - [[Obsidian Gates]]
 - [[Lower Halls of the Archons]]
@@ -44,7 +44,7 @@ The book describes the layout of the [[Halls of Arden Vul]] as being approximate
 - [[Chasm Floor]]
 - [[Heqeti Ziggurat]] (connected to the Chasm Floor)
 
-### On the Varumani (Trolls)
+### On the [[factions/Varumani.md|Varumani]] (Trolls)
 - Described as big, strong, and intelligent.
 - Possess regenerative abilities and can only be permanently killed with fire or acid.
 - Some members of the race are mages.

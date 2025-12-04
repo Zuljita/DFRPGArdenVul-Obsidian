@@ -1,12 +1,12 @@
 ---
-title: "Muirasso"
+title: "[[npcs/Muirasso.md|Muirasso]]"
 tags:
   - npc
   - npc
 aliases:
-  - Muirasso (Wight)
+  - [[npcs/Muirasso.md|Muirasso]] (Wight)
 ---
-# Muirasso
+# [[npcs/Muirasso.md|Muirasso]]
 
 ## Summary
 Powerful undead wight, formerly a cleric of [[Thoth]], now guarding his tomb. Hostile and territorial; drains life force.

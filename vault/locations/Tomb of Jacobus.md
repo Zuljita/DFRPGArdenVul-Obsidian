@@ -1,10 +1,10 @@
 ---
-title: "Tomb of Jacobus"
+title: "Tomb of [[npcs/Jacobus.md|Jacobus]]"
 tags:
   - location
   - location
 ---
-# Tomb of Jacobus
+# Tomb of [[npcs/Jacobus.md|Jacobus]]
 
 ## Level
 

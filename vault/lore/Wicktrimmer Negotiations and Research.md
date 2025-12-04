@@ -3,7 +3,7 @@ tags:
   - lore
 ---
 
-# Wicktrimmer Negotiations and Research
+# [[npcs/Wicktrimmer.md|Wicktrimmer]] Negotiations and Research
 
 This document details the interactions and research conducted by [[pcs/Vael Sunshadow|Vael]] and [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] concerning [[Wicktrimmer]] and the [[Rarities Factor]], particularly regarding the sale of [[Larel's Pin]] and other artifacts, as well as general intelligence gathering.
 

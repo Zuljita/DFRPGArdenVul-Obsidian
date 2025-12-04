@@ -1,11 +1,11 @@
 ---
-title: "Mariposa"
+title: "[[npcs/Mariposa.md|Mariposa]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Mariposa
+# [[npcs/Mariposa.md|Mariposa]]
 
 ## Summary
 - TODO: Short description.

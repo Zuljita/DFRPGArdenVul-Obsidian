@@ -3,7 +3,7 @@ tags:
   - lore
 ---
 
-# Rudishva Artifact Research
+# [[factions/Rudishva.md|Rudishva]] Artifact Research
 
 [[Uvash]] undertook research on [[Rudishva]] artifacts.
 

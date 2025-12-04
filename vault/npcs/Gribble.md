@@ -1,12 +1,12 @@
 ---
-title: "Gribble"
+title: "[[npcs/Gribble.md|Gribble]]"
 tags:
   - npc
   - npc
 aliases:
-  - United Goblins Gribble
+  - United [[factions/Goblins.md|Goblins]] [[npcs/Gribble.md|Gribble]]
 ---
-# Gribble
+# [[npcs/Gribble.md|Gribble]]
 
 ## Summary
 Goblin (brother of [[Weskenim]]) whose rescue and movements triggered several audiences and shifts in goblin politics. Serves as a touchpoint between delvers and goblin leadership.

@@ -55,12 +55,12 @@ tags:
   - body_plan/quadruped
   - sentience/animal
 appears_in:
-  - "Session 24a - Revenge on the Set Cult"
+  - "Session 24a - Revenge on the Set.md|Cult of Set]]"
 ---
 # Apophis the giant lizard
 
 ## Appears In
-- Session 24a - Revenge on the Set Cult
+- Session 24a - Revenge on the Set.md|Cult of Set]]
 
 ## History
 - Session 24a - Revenge on the Set Cult — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo) Significant NPCs: Jador the Just, chief priestess of Mitra in Gosterwick Audun Yellow-Eyes, logothete of the House of Sight ("Drome") in Gosterwick Freydi...
@@ -989,7 +989,7 @@ tags:
   - monster
   - npc
 appears_in:
-  - "Session 3 - Dragons and Baboons and Beastmen, Oh My!"
+  - "Session 3 - Dragons and Baboons and Children of Deino, Oh My!"
 ---
 ---
 title: "Wyvern"
@@ -1006,7 +1006,7 @@ aliases:
 ## History
 - Session 3 - Dragons and Baboons and Beastmen, Oh My! — Date: Demmasday, 28th of Toternios, 2993 AEP Weather: Cool, overcast, light rain Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Michael J Dundee, Thorcin barbarian (Adam) Vael Sunshadow, H...
 - Session 7 - Why Did It Have to Be Plants? — While they were searching, a wyvern flew by to the south, took a good look at them, then flew off to the west.
-- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Lacrymosa, Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn, Halfling mob bo...
+- Session 26 - The Scouring of the Shire — Dundee, Thorcin barbarian (Adam) Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]], Elf Grudge Brigade mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn.md|Phlebotomas Phlebotomas Plumthorn]], Halfling mob bo...
   - Session 26 - The Scouring of the Shire — Craastonistorex appeared to consider eating her for such a paltry gift, but magnanimously let it slide, as Briar the wyvern picked up the potion in his claws.
 
 ## Notes

@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 10: Baboons, Ghouls, and a Mule"
+title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 10: Baboons, Ghouls, and a Mule"
 tags:
   - session
   - session
@@ -7,7 +7,7 @@ tags:
 session_id: 10
 ---
 
-# DFRPG Arden Vul Session 10: Baboons, Ghouls, and a Mule
+# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 10: Baboons, Ghouls, and a Mule
 
 Date:
 
@@ -21,11 +21,11 @@ Warm, overcast
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 Vallium Halcyon, Archontean fighter (Greybrown)
 Michael J. Dundee, Thorcin barbarian (Adam)
 Vael Sunshadow, Half-Elven mage (Kyle)
-Uvash Edzuson, Dwarven cleric of Zodarrim (Based Cosmo)
+Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
 
 
 Significant NPCs:
@@ -34,19 +34,19 @@ Significant NPCs:
 
 
 
-Sakeon, horse whisperer
+[[npcs/Sakeon.md|Sakeon]], horse whisperer
 
 
-Fael, half-elven food merchant
+[[npcs/Fael.md|Fael]], half-elven food merchant
 
 
 Unnamed large mule
 
 
-Kronos Kettle-Belly, innkeeper
+[[npcs/Kronos Kettle-Belly.md|Kronos Kettle-Belly]], innkeeper
 
 
-Estelle, innkeeper
+[[npcs/Estelle.md|Estelle]], innkeeper
 
 
 Many large albino baboons
@@ -76,7 +76,7 @@ A swarm of bees
 
 
 
-The Left for Loot or Rich for Riches company decided they needed a mule, so they could haul more stuff up and down the Long Stair.  They went to the Livestock and Horse Merchant in Gosterwick and bought a large mule from Sakeon.  He also sold them a bit and bridle and six saddlebags, but Vale declined the saddle.  They then visited the Grain Hall and bought enough various food to fill the saddlebags.  With their heavily laden mule grudgingly following, they hiked from Gosterwick to the Cliff Face, then up the Long Stair to the ruins of Arden Vul.  From there they continued north and west to the Sign of the Broken Head.  There, they offered Kronos and Estelle a deal: most of the contents of the saddlebags at a reasonable cost.  Kronos out-dealt them and they ended up giving him an even better deal than they intended, but he threw in mule stabling for up to two weeks.
+The Left for Loot or Rich for Riches company decided they needed a mule, so they could haul more stuff up and down the [[locations/Long Stair.md|Long Stair]].  They went to the Livestock and Horse Merchant in [[locations/Gosterwick.md|Gosterwick]] and bought a large mule from [[npcs/Sakeon.md|Sakeon]].  He also sold them a bit and bridle and six saddlebags, but Vale declined the saddle.  They then visited the Grain Hall and bought enough various food to fill the saddlebags.  With their heavily laden mule grudgingly following, they hiked from [[locations/Gosterwick.md|Gosterwick]] to the [[locations/Cliff Face.md|Cliff Face]], then up the [[locations/Long Stair.md|Long Stair]] to the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]].  From there they continued north and west to the Sign of the Broken Head.  There, they offered Kronos and [[npcs/Estelle.md|Estelle]] a deal: most of the contents of the saddlebags at a reasonable cost.  Kronos out-dealt them and they ended up giving him an even better deal than they intended, but he threw in mule stabling for up to two weeks.
 
 
 
@@ -112,7 +112,7 @@ Eventually, as the battle turned against his side, the huge baboon changed tacti
 
 
 
-The group rested in the tower for a while, then searched it.  The only interesting thing they found were three huge rolled-up tapestries, each about 8'x16' and 100 lbs.  One depicted a battle between wizards and dragon riders.  The second was a multi-panel story about the Fourth Labor of Arden, when she defeated the Berserkers of Westholm.  The final tapestry showed the Seventh Labor of Arden, with Arden and Vul fighting a huge water elemental in a river above a waterfall.  They rolled the tapestries back up, then Vael cast Flight on Vallium again, so he could fly the tapestries back to the Sign of the Broken Head where their mule was.  This was a big production involving three round-trip flights and some Lend Energy spells from Ioannes to help Vael maintain the Flight for several minutes, but it avoided walking.
+The group rested in the tower for a while, then searched it.  The only interesting thing they found were three huge rolled-up tapestries, each about 8'x16' and 100 lbs.  One depicted a battle between wizards and dragon riders.  The second was a multi-panel story about the Fourth Labor of [[npcs/Arden.md|Arden]], when she defeated the Berserkers of Westholm.  The final tapestry showed the Seventh Labor of [[npcs/Arden.md|Arden]], with [[npcs/Arden.md|Arden]] and Vul fighting a huge water elemental in a river above a waterfall.  They rolled the tapestries back up, then Vael cast Flight on Vallium again, so he could fly the tapestries back to the Sign of the Broken Head where their mule was.  This was a big production involving three round-trip flights and some Lend Energy spells from Ioannes to help Vael maintain the Flight for several minutes, but it avoided walking.
 
 
 
@@ -154,7 +154,7 @@ Vael said he would cast Great Haste on Vallium, and asked both clerics if they w
 
 
 
-With the ghouls vanquished, the group searched the cellar and found a copper candelabra and bowls, a heavy round electrum mirror, a couple of potions that looked magical, and a metal shield with the sigil of the Azure Knights that also appeared to be magic.  They took their treasure back to the Broken Head, loaded most of it on their mule, and headed back to Gosterwick.
+With the ghouls vanquished, the group searched the cellar and found a copper candelabra and bowls, a heavy round electrum mirror, a couple of potions that looked magical, and a metal shield with the sigil of the Azure Knights that also appeared to be magic.  They took their treasure back to the Broken Head, loaded most of it on their mule, and headed back to [[locations/Gosterwick.md|Gosterwick]].
 
 
 
@@ -184,7 +184,7 @@ Achievements:
 
 
 
-Found the Howling Caves, an Arden Vul Iconic Location
+Found the [[locations/Howling Caves.md|Howling Caves]], an [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Iconic Location
 
 
 
@@ -214,7 +214,7 @@ Next Week:
 
 
 
-I haven't heard any concrete plans yet.  There was a bit of the usual discussion about taking down Plumthorn's gang.  They might also try one of the other dungeon entrances they know about, or spend another week exploring the surface ruins.
+I haven't heard any concrete plans yet.  There was a bit of the usual discussion about taking down [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s gang.  They might also try one of the other dungeon entrances they know about, or spend another week exploring the surface ruins.
 
 
 

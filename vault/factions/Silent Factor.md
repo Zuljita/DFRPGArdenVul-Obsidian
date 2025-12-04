@@ -1,18 +1,18 @@
 ---
-title: "Silent Factor"
+title: "[[factions/Silent Factor.md|Silent Factor]]"
 tags:
   - faction
   - faction
 ---
-# Silent Factor
+# [[factions/Silent Factor.md|Silent Factor]]
 
 ## Summary
-The Silent Factor is an Empire-wide merchant factor known for its high security, high privacy, and expensive services. They have a branch in [[Gosterwick]].
+The [[factions/Silent Factor.md|Silent Factor]] is an Empire-wide merchant factor known for its high security, high privacy, and expensive services. They have a branch in [[Gosterwick]].
 
 ## Characteristics
-- **Secrecy:** They offer the highest level of privacy and security among the factors in Gosterwick.
-- **Cost:** They are the most expensive factor in Gosterwick.
-- **Members:** Members of the Silent Factor dress in black with veils and communicate using a unique form of sign language, often requiring the use of an interpreter.
+- **Secrecy:** They offer the highest level of privacy and security among the factors in [[locations/Gosterwick.md|Gosterwick]].
+- **Cost:** They are the most expensive factor in [[locations/Gosterwick.md|Gosterwick]].
+- **Members:** Members of the [[factions/Silent Factor.md|Silent Factor]] dress in black with veils and communicate using a unique form of sign language, often requiring the use of an interpreter.
 
 ## Services
 Provides banking, letters of credit, and brokerage.

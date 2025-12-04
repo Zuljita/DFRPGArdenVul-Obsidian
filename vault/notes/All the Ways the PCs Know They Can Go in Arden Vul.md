@@ -10,8 +10,8 @@ One of the players posted a list of all the ways they could explore next on the 
 
 - 2 caves behind the waterfall (beneath 35-40' of rough water)
 - Ruined tower near the base of the waterfall (ghost)
-- Secret entrance 2/3 of the way up the Long Stair, leading to the Great Cavern
-- Ruins of the city of Arden Vul
+- Secret entrance 2/3 of the way up the [[locations/Long Stair.md|Long Stair]], leading to the [[locations/Great Cavern.md|Great Cavern]]
+- Ruins of the city of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]
 
 - Northern island
 - Multiple watch towers
@@ -20,24 +20,24 @@ One of the players posted a list of all the ways they could explore next on the 
 - Square tower and cistern (baboons)
 
 - Down the Well of Light (baboons and giant 4-armed baboons)
-- Pyramid of Thoth, move statue west 
+- Pyramid of [[npcs/Thoth.md|Thoth]], move statue west 
 
-- Halls of Thoth (halflings)
+- Halls of [[npcs/Thoth.md|Thoth]] (halflings)
 
-- Great Chasm
+- [[locations/Great Chasm.md|Great Chasm]]
 - Lever on top of triangular pyramid, teleporter to Well of Light
 - Beastman territory
 - Stairs down, behind secret door in baboon mosaic
 - Chute down, opened by manipulating a statue
 
-- Pyramid of Thoth, move statue east
+- Pyramid of [[npcs/Thoth.md|Thoth]], move statue east
 
 - Black portal (demons)
-- Selket statue, teleporter to Great Hall (beastmen)
+- [[npcs/Selket.md|Selket]] statue, teleporter to [[locations/Great Hall.md|Great Hall]] (beastmen)
 
   
 
-At least so far, Arden Vul has a large branching factor.  The PCs choose where to explore, and then instead of having one less choice (as they would if they exhausted a dead end), they usually find a couple more choices.
+At least so far, [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] has a large branching factor.  The PCs choose where to explore, and then instead of having one less choice (as they would if they exhausted a dead end), they usually find a couple more choices.
 
   
 

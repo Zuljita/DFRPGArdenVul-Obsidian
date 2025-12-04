@@ -3,13 +3,13 @@ tags:
   - npc
 ---
 
-# Lucreon
+# [[npcs/Lucreon.md|Lucreon]]
 
 ## Summary
 [[Lucreon]] is an [[Archontean]] god of wealth and merchants.
 
 ## First Appearance
-Mentioned in the "Announcing DFRPG Arden Vul" document as one of the four major Archontean gods with a temple in [[Gosterwick]].
+Mentioned in the "Announcing DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]" document as one of the four major Archontean gods with a temple in [[Gosterwick]].
 
 ## Disposition
 TBD

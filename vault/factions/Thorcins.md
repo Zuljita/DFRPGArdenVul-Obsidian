@@ -9,7 +9,7 @@ aliases:
 # Thorcins
 
 ## Summary
-- The Thorcins are a people from the north; several NPCs (e.g., Michael J. Dundee, Burris) are Thorcin.
+- The Thorcins are a people from the north; several NPCs (e.g., Michael J. Dundee, [[npcs/Burris.md|Burris]]) are Thorcin.
 
 ## Appears In
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]

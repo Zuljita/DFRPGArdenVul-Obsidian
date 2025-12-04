@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Onyx
+# [[npcs/Onyx.md|Onyx]]
 
 ## Summary
 A cat familiar, formerly associated with the elven mage [[npcs/Lyra.md|Lyra]].

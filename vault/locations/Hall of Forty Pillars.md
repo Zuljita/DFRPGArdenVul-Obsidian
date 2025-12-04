@@ -13,7 +13,7 @@ tags:
 ## Connections
 ## Residents
 
-- Goblins
+- [[factions/Goblins.md|Goblins]]
 - Hall
 - Quickly
 

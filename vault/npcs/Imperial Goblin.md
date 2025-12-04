@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Imperial Goblin
+# [[npcs/Imperial Goblin.md|Imperial Goblin]]
 
 ## Summary
 A playable PC race in the setting, fully assimilated into the [[Archontean Empire]], though considered second-class citizens.
@@ -21,7 +21,7 @@ A playable PC race in the setting, fully assimilated into the [[Archontean Empir
 - **Native Language:** [[Archontean]] (default)
 
 ## First Appearance
-Mentioned in the "Announcing DFRPG Arden Vul" and "Arden Vul Character Creation Rules" documents.
+Mentioned in the "Announcing DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]" and "[[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Character Creation Rules" documents.
 
 ## Disposition
 TBD
@@ -30,6 +30,6 @@ TBD
 - [[Archontean Empire]]
 
 ## Notes
-- [[Ashe Maykum]] is an Imperial Goblin.
+- [[Ashe Maykum]] is an [[npcs/Imperial Goblin.md|Imperial Goblin]].
 
 ## Sessions

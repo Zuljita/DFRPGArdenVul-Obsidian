@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Uriel Basileon
+# [[npcs/Uriel Basileon.md|Uriel Basileon]]
 
 ## Summary
 A historical archon of [[Arden Vul]]. He sent a message to [[Kel Bormol]], Overseer of [[Thoth]], regarding the cowardly [[Second Overseer]] and the suspicious activities of [[Hithra Paleologos]].

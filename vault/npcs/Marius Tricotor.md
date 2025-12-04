@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Marius Tricotor
+# [[npcs/Marius Tricotor.md|Marius Tricotor]]
 
 ## Summary
 

@@ -1,18 +1,18 @@
 ---
-title: "Craastonistorex"
+title: "[[npcs/Craastonistorex.md|Craastonistorex]]"
 tags:
   - npc
   - npc
 aliases:
   - Huge Green Dragon
-  - Craastonistorax
+  - [[npcs/Craastonistorex.md|Craastonistorex]]
   - Craas
 ---
-# Craastonistorex
+# [[npcs/Craastonistorex.md|Craastonistorex]]
 
 ## Summary
 
-Craastonistorex is a huge green dragon who lairs in the ruins of [[Arden Vul]] and considers himself the apex predator of the area. He has at least one pet wyvern named [[Briar]].
+[[npcs/Craastonistorex.md|Craastonistorex]] is a huge green dragon who lairs in the ruins of [[Arden Vul]] and considers himself the apex predator of the area. He has at least one pet wyvern named [[Briar]].
 
 He has made a deal with the party to act as "Wardens of the Dam" in exchange for tribute.
 

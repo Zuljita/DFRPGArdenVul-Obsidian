@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Upper Goblintown
+# [[locations/Upper [[locations/Goblintown.md|Goblintown]].md|Upper [[locations/Goblintown.md|Goblintown]]]]
 
 ## Summary
 Upper district of [[Goblintown]] (largely the former [[Halls of Thoth]]), including royal court areas and access routes.
@@ -16,7 +16,7 @@ Upper district of [[Goblintown]] (largely the former [[Halls of Thoth]]), includ
 ## Timeline
 - Session 28 — Reached via teleport lever; heavily populated by goblins after reconquest from halflings.
 - Session 29 — Crowded with goblins; frequent drinking noted.
-- Session 32 — Audience with King Weskenim; halfling-slayer patches awarded.
+- Session 32 — Audience with [[npcs/[[npcs/Weskenim.md|Weskenim]].md|[[npcs/Weskenim.md|Weskenim]]]]; halfling-slayer patches awarded.
 
 ## Notes
 TBD

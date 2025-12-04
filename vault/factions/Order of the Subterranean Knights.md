@@ -28,4 +28,4 @@ TBD
 
 ## Notes
 
-- Isocritis and Melacorius had a falling out after founding the order.
+- [[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]] and Melacorius had a falling out after founding the order.

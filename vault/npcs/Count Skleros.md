@@ -1,11 +1,11 @@
 ---
-title: "Count Skleros"
+title: "[[npcs/Count Skleros.md|Count Skleros]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Count Skleros
+# [[npcs/Count Skleros.md|Count Skleros]]
 
 ## Summary
 - TODO: Short description.

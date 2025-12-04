@@ -3,7 +3,7 @@ tags:
   - lore
 ---
 
-# Gosterwick Overview
+# [[locations/Gosterwick.md|Gosterwick]] Overview
 
 ## General Information
 
@@ -17,15 +17,15 @@ This document compiles various pieces of information regarding the town of [[Gos
 - **[[Lady Alexia Basileon]]**: An [[Archontean]] noblewoman who, about 20 years ago, moved into [[Gosterwick]] with [[Knights of the Azure Shield]] and built a keep, leading to the town's expansion.
 - **[[Yellow Cloak Inn]]**: A good quality inn at a reasonable price, near the [[Central Market]]. It's a 5-story building with a 3-story addition, offering reception, lounge, common rooms (upper-class and main), guest rooms, dormitories, and stables. Cost of living is $150/week for a room and 3 meals. Staff include [[Margot the Red]] (innkeeper), [[Bricwine]] (upper-class bartender), and [[Helle]] (main common room bartender).
 - **[[The Stunned Acolyte]]**: A much more expensive inn, catering to rich patrons where dinner is paid in gold.
-- **[[Baliff's Truncheon]]**: One of Gosterwick's taverns.
-- **[[Dripping Hog]]**: One of Gosterwick's taverns.
-- **[[Rusty Gauntlet]]**: One of Gosterwick's taverns.
-- **[[Old Well]]**: One of Gosterwick's taverns.
-- **[[Pyrite]]**: One of Gosterwick's taverns.
-- **[[Grinning Skull]]**: One of Gosterwick's taverns.
-- **[[Muddy Puddle]]**: One of Gosterwick's taverns.
-- **[[Three Hanged Men]]**: One of Gosterwick's taverns.
-- **[[Pig and Whistle]]**: One of Gosterwick's taverns.
+- **[[Baliff's Truncheon]]**: One of [[locations/Gosterwick.md|Gosterwick]]'s taverns.
+- **[[Dripping Hog]]**: One of [[locations/Gosterwick.md|Gosterwick]]'s taverns.
+- **[[Rusty Gauntlet]]**: One of [[locations/Gosterwick.md|Gosterwick]]'s taverns.
+- **[[Old Well]]**: One of [[locations/Gosterwick.md|Gosterwick]]'s taverns.
+- **[[Pyrite]]**: One of [[locations/Gosterwick.md|Gosterwick]]'s taverns.
+- **[[Grinning Skull]]**: One of [[locations/Gosterwick.md|Gosterwick]]'s taverns.
+- **[[Muddy Puddle]]**: One of [[locations/Gosterwick.md|Gosterwick]]'s taverns.
+- **[[Three Hanged Men]]**: One of [[locations/Gosterwick.md|Gosterwick]]'s taverns.
+- **[[Pig and Whistle]]**: One of [[locations/Gosterwick.md|Gosterwick]]'s taverns.
 - **[[Tasha's Tailor Shop]]**: Where custom embroidered patches can be commissioned for $25.
 - **[[Asrotelion]]**: A posh wizard from the [[College of Cinders]], an Assistant Department Head who tracked [[Cerbactos]] to [[Arden Vul]]. He seeks promotion for returning stolen tomes.
 - **[[Cerbactos]]**: A "crazy rogue wizard" and archmage who disappeared from the [[College of Cinders]] decades ago with priceless tomes.

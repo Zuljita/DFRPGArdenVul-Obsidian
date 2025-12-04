@@ -11,7 +11,7 @@ The Harvest Guardians are the dedicated warriors who protect the temples of the 
 
 ## Description
 
-They serve as both defenders of the faith and enforcers of Demma's justice. Each major temple has a contingent of six to twelve fighters.
+They serve as both defenders of the faith and enforcers of [[npcs/Demma.md|Demma]]'s justice. Each major temple has a contingent of six to twelve fighters.
 
 ## Equipment
 They are trained in flail combat, which they wield as symbols of the harvest and instruments of divine retribution.

@@ -3,7 +3,7 @@ tags:
   - faction
 ---
 
-# Dalton's Darlings
+# [[npcs/Dalton.md|Dalton]]'s Darlings
 
 ## Summary
 An adventuring party or mercenary company led by [[npcs/Dalton.md|Dalton]]. They are known to explore [[Arden Vul]] and have had encounters with various dangers and other groups.

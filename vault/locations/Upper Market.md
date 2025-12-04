@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Upper Market
+# [[locations/Upper Market.md|Upper Market]]
 
 ## Summary
 Walled market district of [[Gosterwick]] where established merchants maintain shops and stalls.
@@ -12,7 +12,7 @@ Walled market district of [[Gosterwick]] where established merchants maintain sh
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 
 ## Timeline
-- Session 2 — Jeremias Smallleaf keeps his main shop here; additional stalls run by Marla and Cassie.
+- Session 2 — [[npcs/Jeremias Smallleaf.md|Jeremias Smallleaf]] keeps his main shop here; additional stalls run by Marla and Cassie.
 
 ## Notes
 TBD

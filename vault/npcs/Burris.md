@@ -1,20 +1,20 @@
 ---
-title: "Burris"
+title: "[[npcs/Burris.md|Burris]]"
 tags:
   - npc
   - npc
 appears_in:
   - "Session 28 - Teleport Rugs and Baboons"
 aliases:
-  - Burris, Thorcin warrior
+  - [[npcs/Burris.md|Burris]], Thorcin warrior
 ---
-# Burris
+# [[npcs/Burris.md|Burris]]
 
 ## Appears In
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 
 ## History
-- [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — # DFRPG Arden Vul Session 28: Teleport Rugs and Baboons Date: Tahsday, 18th of Besemios, 2993 AE Weather: Cool, rainy Player Characters: Vael Sunshadow, Half-Elven mage (Kyle) Vallium Halcyon, Archontean fighter (Greybrown) Uvash Edzuson...
-  - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — Once they left, Uvash healed the prisoner, a Thorcin warrior named Burris.
+- [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 28: Teleport Rugs and Baboons Date: Tahsday, 18th of Besemios, 2993 AE Weather: Cool, rainy Player Characters: Vael Sunshadow, Half-Elven mage (Kyle) Vallium Halcyon, Archontean fighter (Greybrown) Uvash Edzuson...
+  - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — Once they left, Uvash healed the prisoner, a Thorcin warrior named [[npcs/Burris.md|Burris]].
 
 ## Notes

@@ -3,7 +3,7 @@ tags:
   - item
 ---
 
-# Nataraja Watcher
+# [[items/Nataraja Watcher.md|Nataraja Watcher]]
 
 ## Description
 A dancing statue that can be used as a guard and remote viewing device.

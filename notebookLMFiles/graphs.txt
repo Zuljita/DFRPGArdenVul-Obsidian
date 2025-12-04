@@ -4,15 +4,15 @@ Auto-generated from LCE edges. Update by running the LCE scripts and rebuilding.
 
 ```mermaid
 graph TD
-  Arden_Vul["Arden Vul"]
+  Arden_Vul["Arden Vul.md|Arden Vul]]"]
   Azure_Keep["Azure Keep"]
   Beacon["Beacon"]
   Cliff_Face["Cliff Face"]
-  Forum_of_Arden_Vul["Forum of Arden Vul"]
+  Forum_of_Arden_Vul["Forum of Arden Vul.md|Arden Vul]]"]
   Forum_of_Set["Forum of Set"]
   Glory_of_Thoth["Glory of Thoth"]
   Glory_of_Weskenim["Glory of Weskenim"]
-  Goblin_Great_Hall["Goblin Great Hall"]
+  Goblin_Great_Hall["Great Hall.md|Goblin Great Hall]]"]
   Goblintown["Goblintown"]
   Gog_s_cave["Gog's cave"]
   Gosterwick["Gosterwick"]
@@ -38,7 +38,7 @@ graph TD
   Temple_of_Mitra["Temple of Mitra"]
   Temple_of_Set["Temple of Set"]
   Totey_Lake["Totey Lake"]
-  Upper_Goblintown["Upper Goblintown"]
+  Upper_Goblintown["Goblintown.md|Upper Goblintown]]"]
   Water_Gate["Water Gate"]
   Waterfall["Waterfall"]
   Well_of_Light["Well of Light"]

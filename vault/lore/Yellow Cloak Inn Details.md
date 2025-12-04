@@ -3,7 +3,7 @@ tags:
   - lore
 ---
 
-# Yellow Cloak Inn Details
+# [[locations/Yellow Cloak Inn.md|Yellow Cloak Inn]] Details
 
 This document provides a detailed overview of the [[Yellow Cloak Inn]] in [[Gosterwick]].
 

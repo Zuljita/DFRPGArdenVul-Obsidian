@@ -3,7 +3,7 @@ tags:
   - faction
 ---
 
-# Dragons
+# [[factions/Dragons.md|Dragons]]
 
 ## Summary
 Ancient and powerful reptilian creatures known for their immense hoards and formidable magical abilities. They were once bound by the [[Compact of Ennius]].
@@ -15,7 +15,7 @@ Accumulation of wealth and power; often territorial.
 Individual dragons; occasionally form temporary alliances.
 
 ## Allies & Rivals
-- Historically had a compact with the Archontean Empire ([[Compact of Ennius]]).
+- Historically had a compact with the [[factions/Archontean Empire.md|Archontean Empire]] ([[Compact of Ennius]]).
 
 ## Notes
 The [[Compact of Ennius]] was broken in 1588 AEP, leading to potential conflict or changed relations with human empires.

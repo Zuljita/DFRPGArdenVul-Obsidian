@@ -3,7 +3,7 @@ tags:
   - lore
 ---
 
-# Demma Lore
+# [[npcs/Demma.md|Demma]] Lore
 
 ## Overview
 
@@ -19,7 +19,7 @@ The [[Temple of Demma]] in [[Gosterwick]] is a modest but well-maintained struct
 
 The theology of [[Demma]] centers on balance, stewardship, and the sacred duty of cultivation—whether of land, family, or knowledge. She teaches that fertility and abundance are gifts, but only to those who nurture them with wisdom and toil. To plant without care, hoard without sharing, or wield magic recklessly is to invite ruin. Her faithful are called to protect the cycles of nature, strengthen households, and guide new life. Magic is seen as a seed of creation, meant to be cultivated responsibly. True wisdom comes not just from study, but from action.
 
-## Vestments of the Clergy of Demma
+## Vestments of the Clergy of [[npcs/Demma.md|Demma]]
 
 The vestments of [[Demma]]’s clergy reflect her domains. Standard attire consists of a long tunic in earthy tones (deep greens, golden yellows, or rich browns) embroidered with intricate seed-like patterns. Over this, they wear a sleeveless outer robe or mantle, often dyed in deep red or russet. A broad, gold-threaded sash or belt is worn around the waist, adorned with woven charms, seed pouches, or small [[Flail|flail-shaped talismans]].
 
@@ -27,7 +27,7 @@ For ceremonial occasions, high-ranking priests don a hooded cloak fastened with 
 
 [[Ioannes]]’ personal attire, with deep blue tunic, golden embroidery, and a red woolen cloak fastened with a [[Bronze Brooch]], is slightly more ornate, reflecting his scholarly leanings. However, his disheveled state, ink-stained fingers, and perpetually askew sash betray his absentminded nature.
 
-## Structure of the Priesthood of Demma
+## Structure of the Priesthood of [[npcs/Demma.md|Demma]]
 
 The priesthood of [[Demma]] is hierarchical yet practical, structured to reflect emphasis on stewardship, growth, and responsibility.
 

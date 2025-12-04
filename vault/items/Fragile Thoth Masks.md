@@ -3,7 +3,7 @@ tags:
   - item
 ---
 
-# Fragile Thoth Masks
+# Fragile [[npcs/Thoth.md|Thoth]] Masks
 
 ## Description
 Masks associated with [[Thoth]], possibly delicate and valuable.

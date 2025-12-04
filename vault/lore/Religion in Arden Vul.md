@@ -3,7 +3,7 @@ tags:
   - lore
 ---
 
-# Religion in Arden Vul
+# Religion in [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]
 
 ## Summary
 The religious landscape of the [[Archontean Empire]] is diverse, with a state-sponsored pantheon, various other cultural pantheons, and fringe or illegal cults. The prominence of a deity's cult can vary significantly by location.
@@ -13,12 +13,12 @@ The religious landscape of the [[Archontean Empire]] is diverse, with a state-sp
 - **The Seventeen**: The seventeen minor gods of the [[Archontean Empire]].
 - **The Twelve**: A group of twelve gods no longer sponsored by the [[Archontean Empire]].
 - **Thorcin Pantheon**: The pantheon of the [[Thorcins]].
-- **Wiskin Pantheon**: The pantheon of the [[Wiskin]], including [[Odin]].
+- **[[factions/Wiskin.md|Wiskin]] Pantheon**: The pantheon of the [[Wiskin]], including [[Odin]].
 - **Illegal Cults**: Worship of some deities, like [[Set]], is illegal.
 
 ## Religious Centers
-- **Gosterwick**: Has full temples for [[Demma]], [[Heschius Ban]], [[Lucreon]], and [[Mitra]], with smaller shrines for other gods.
-- **Newmarket**: A larger town with temples for all of [[The Ten]], several of [[The Seventeen]], most of the [[Thorcin Pantheon]], and the [[Wiskin]] god [[Odin]].
+- **[[locations/Gosterwick.md|Gosterwick]]**: Has full temples for [[Demma]], [[Heschius Ban]], [[Lucreon]], and [[Mitra]], with smaller shrines for other gods.
+- **[[locations/Newmarket.md|Newmarket]]**: A larger town with temples for all of [[The Ten]], several of [[The Seventeen]], most of the [[Thorcin Pantheon]], and the [[Wiskin]] god [[Odin]].
 
 ## Related Entities
 - [[Demma]]

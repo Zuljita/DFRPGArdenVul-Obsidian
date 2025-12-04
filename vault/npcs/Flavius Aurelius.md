@@ -1,11 +1,11 @@
 ---
-title: "Flavius Aurelius"
+title: "[[npcs/Flavius Aurelius.md|Flavius Aurelius]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Flavius Aurelius
+# [[npcs/Flavius Aurelius.md|Flavius Aurelius]]
 
 ## Summary
 - TODO: Short description.

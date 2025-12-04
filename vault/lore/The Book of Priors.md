@@ -25,7 +25,7 @@ The [[Halls of Arden Vul]] are about 12 levels deep,
 - [[Pyramid of Thoth]] (tall, but not many rooms inside)
 - [[Hall of Heroes]] (small)
 - [[Well of Light]]
-- [[Halls of Thoth]] (Upper Great Hall of Thoth is within this)
+- [[Halls of Thoth]] (Upper [[locations/Great Hall.md|Great Hall]] of [[npcs/Thoth.md|Thoth]] is within this)
 - [[Forum of Set]]
 - [[Obsidian Gates]]
 - [[Lower Halls of the Archons]]
@@ -36,7 +36,7 @@ The [[Halls of Arden Vul]] are about 12 levels deep,
 - [[Chasm Floor]] (mostly wild rather than constructed)
 - [[Heqeti Ziggurat]] (connected to the [[Chasm Floor]])
 
-## Varumani:
+## [[factions/Varumani.md|Varumani]]:
 - Big, strong, smart,
 - Regenerate; can only be killed with fire or acid,
 - Some mages,

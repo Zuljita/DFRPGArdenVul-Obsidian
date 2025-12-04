@@ -1,17 +1,17 @@
 ---
-title: "Bottleneck"
+title: "[[npcs/Bottleneck.md|Bottleneck]]"
 tags:
   - npc
   - npc
 aliases:
-  - Bottleneck, goblin master sergeant
-  - Bottleneck, goblin sergeant
-  - Bottleneck Halfling-Slayer
+  - [[npcs/Bottleneck.md|Bottleneck]], goblin master sergeant
+  - [[npcs/Bottleneck.md|Bottleneck]], goblin sergeant
+  - [[npcs/Bottleneck.md|Bottleneck]] Halfling-Slayer
 ---
-# Bottleneck
+# [[npcs/Bottleneck.md|Bottleneck]]
 
 ## Summary
-Bottleneck, also known as "Bottleneck Halfling-Slayer," is the goblin Master Sergeant of [[Upper Goblintown]].
+[[npcs/Bottleneck.md|Bottleneck]], also known as "[[npcs/Bottleneck.md|Bottleneck]] Halfling-Slayer," is the goblin Master Sergeant of [[Upper Goblintown]].
 
 ## Appears In
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
@@ -28,4 +28,4 @@ Bottleneck, also known as "Bottleneck Halfling-Slayer," is the goblin Master Ser
 ## Relationships
 - [[Weskenim]]: serves as master sergeant under the goblin king’s authority.
 - [[Gribble]] and other goblin leaders: coordinates patrols and messages.
-- [[Right for Riches Company]]: occasional parley and coordination at the “Glory of Weskenim”.
+- [[Right for Riches Company]]: occasional parley and coordination at the “Glory of [[npcs/Weskenim.md|Weskenim]]”.

@@ -3,7 +3,7 @@ tags:
   - item
 ---
 
-# The Twelve Labours of Arden
+# The Twelve Labours of [[npcs/Arden.md|Arden]]
 
 ## Summary
 A historical or mythological text detailing the legendary feats of [[Arden]], a prominent figure in the history of [[Arden Vul]]. It is said to be a guide for a puzzle that starts with purification at the fountain underneath the [[waterfall]].

@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Bobo
+# [[npcs/Bobo.md|Bobo]]
 
 ## Summary
 A young baboon from the [[Howling Caves]] who was kidnapped by [[The Thane]].

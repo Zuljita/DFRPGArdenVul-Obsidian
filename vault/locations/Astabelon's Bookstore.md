@@ -14,6 +14,6 @@ It is not a huge bookstore, but carries a variety of simple references, such as:
 - Dictionaries (Archontean, Mithric)
 - Grammar references
 - Basic bestiaries and herbals
-- *The Archontean Empire*
+- *The [[factions/Archontean Empire.md|Archontean Empire]]*
 - *Dickios and Janius Learn Mithric*
 

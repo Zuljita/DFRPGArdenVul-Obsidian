@@ -1,13 +1,13 @@
 ---
-title: "Golden Band"
+title: "[[factions/Golden Band.md|Golden Band]]"
 tags:
   - faction
   - faction
 ---
-# Golden Band
+# [[factions/Golden Band.md|Golden Band]]
 
 ## Summary
-The Golden Band is an Empire-wide merchant factor.
+The [[factions/Golden Band.md|Golden Band]] is an Empire-wide merchant factor.
 
 They are known to employ statue brokers who work out of the [[Inn of the Broken Head]].
 

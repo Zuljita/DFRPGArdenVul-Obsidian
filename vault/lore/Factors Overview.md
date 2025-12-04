@@ -5,7 +5,7 @@ tags:
 
 # Factors Overview
 
-## Summary of Merchant Factors in Gosterwick
+## Summary of Merchant Factors in [[locations/Gosterwick.md|Gosterwick]]
 
 This document compiles information about the various merchant "Factors" operating in and around [[Gosterwick]], including their characteristics and services.
 

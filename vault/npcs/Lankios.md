@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Lankios
+# [[npcs/Lankios.md|Lankios]]
 
 ## Summary
 A very old hermit, possessing knowledge of the ruins and their inhabitants.

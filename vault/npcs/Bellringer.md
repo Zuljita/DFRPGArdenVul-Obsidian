@@ -1,11 +1,11 @@
 ---
-title: "Bellringer"
+title: "[[npcs/Bellringer.md|Bellringer]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Bellringer
+# [[npcs/Bellringer.md|Bellringer]]
 
 ## Summary
 - TODO: Short description.

@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Goblin Great Hall
+# [[locations/Goblin [[locations/Great Hall.md|Great Hall]].md|Goblin [[locations/Great Hall.md|Great Hall]]]]
 
 ## Summary
 Vast central chamber in [[Goblintown]] used for gatherings, dining, and traffic between districts.
@@ -17,7 +17,7 @@ Vast central chamber in [[Goblintown]] used for gatherings, dining, and traffic 
 
 - [[locations/Great Cavern.md|Great Cavern]] → [[locations/Goblin Great Hall.md|Goblin Great Hall]] via ceiling hole from the southern corridor below (rope climb / Levitation).
   - method: rope / Levitation; feature: ceiling hole
-- [[locations/Goblin Great Hall.md|Goblin Great Hall]] → [[locations/Arena.md|Arena]] via nearby stairs leading to the Arena level.
+- [[locations/Goblin Great Hall.md|Goblin Great Hall]] → [[locations/Arena.md|Arena]] via nearby stairs leading to the [[locations/Arena.md|Arena]] level.
   - method: stairs
 - [[Goblin Great Hall]] -> [[Forum of Set]]
 

@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Scorpion Teleporter
+# [[locations/Scorpion Teleporter.md|Scorpion Teleporter]]
 
 ## Summary
 Teleportation device/room encountered near the [[Pyramid of Thoth]]/[[Well of Light]] routes, used repeatedly as a traversal point.

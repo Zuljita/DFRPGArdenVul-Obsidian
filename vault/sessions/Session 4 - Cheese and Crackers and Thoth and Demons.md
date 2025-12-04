@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 4: Cheese and Crackers and Thoth and Demons"
+title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 4: Cheese and Crackers and [[npcs/Thoth.md|Thoth]] and Demons"
 tags:
   - session
   - session
@@ -7,7 +7,7 @@ tags:
 session_id: 4
 ---
 
-# DFRPG Arden Vul Session 4: Cheese and Crackers and Thoth and Demons
+# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 4: Cheese and Crackers and [[npcs/Thoth.md|Thoth]] and Demons
 
 Date:
 
@@ -21,34 +21,34 @@ Cool, overcast, rainy
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 Michael J Dundee, Thorcin barbarian (Adam)
 Vael Sunshadow, Half-Elven mage (Kyle)
 Vallium Halcyon, Archontean fighter (Greybrown)
-Lacrymosa Merenuithiel Armaris, Elven archer (mercenary) (Archon Shiva)
+[[npcs/Merenuithiel [[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]] [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel [[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]] [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]], Elven archer (mercenary) (Archon Shiva)
 
 
 Significant NPCs:
 
 
 3 small ball-shaped demons
-2 Ibis-headed gargoyles
+2 [[npcs/Ibis.md|Ibis]]-headed gargoyles
 About 6 small flying jellyfish
 3 groups of beastmen
 Dog-headed beastman sergeant
-Voice of Thoth, one of the Twelve ancient greater gods
+Voice of [[npcs/Thoth.md|Thoth]], one of the Twelve ancient greater gods
 Alleged huge ball-shaped demon
-Roskelly Winterleaf, halfling underground toll collector lieutenant
+[[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]], halfling underground toll collector lieutenant
 Several halfling toll collectors
 
 
-While in Gosterwick, Vallium visited the Baliff's Truncheon tavern and bought a lot of shady-looking people drinks attempting to find information about the halfling Phlebotomas Plumthorn, but didn't hear anything he thought was truthful and useful.  Ioannes researched the Krakteros clan, whose sigil they saw on a tomb, but didn't find anything beyond them being one of the Empire's Five Families, with much wealth and power, mostly back at the capital Archontos.  Vael bought a lock to help keep the dam secure for the green dragon Craastonistorex, and commissioned some high quality robes at Tasha's Tailor Shop.  Uvash was still tied up in intense theological debate at the House of Gods, so the group decided to hire the mercenary on call at the Grudge Brigade, a female elven archer named Merenuithiel.
+While in [[locations/Gosterwick.md|Gosterwick]], Vallium visited the Baliff's Truncheon tavern and bought a lot of shady-looking people drinks attempting to find information about the halfling [[npcs/Phlebotomas [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]].md|Phlebotomas [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]]], but didn't hear anything he thought was truthful and useful.  Ioannes researched the Krakteros clan, whose sigil they saw on a tomb, but didn't find anything beyond them being one of the Empire's [[factions/Five Families.md|Five Families]], with much wealth and power, mostly back at the capital [[locations/Archontos.md|Archontos]].  Vael bought a lock to help keep the dam secure for the green dragon [[npcs/Craastonistorex.md|Craastonistorex]], and commissioned some high quality robes at [[npcs/Tasha.md|Tasha]]'s Tailor Shop.  Uvash was still tied up in intense theological debate at the House of Gods, so the group decided to hire the mercenary on call at the [[factions/Grudge Brigade.md|Grudge Brigade]], a female elven archer named Merenuithiel.
 
-Very early Demmasday morning, Vallium bought three sweetrolls wrapped for travel from Matrona the baker.  The group hiked to the cliff face without significant incident.  Vael Levitated himself up the Long Stair (and rolled a critical success, for faster than normal movement), while the others hiked up the slippery wet trail.  At one narrow treacherous bit about two-thirds of the way up, Ioannes slipped and almost went over the edge, but Vallium caught him and pulled him up.
+Very early Demmasday morning, Vallium bought three sweetrolls wrapped for travel from [[npcs/Matrona.md|Matrona]] the baker.  The group hiked to the cliff face without significant incident.  Vael Levitated himself up the [[locations/Long Stair.md|Long Stair]] (and rolled a critical success, for faster than normal movement), while the others hiked up the slippery wet trail.  At one narrow treacherous bit about two-thirds of the way up, Ioannes slipped and almost went over the edge, but Vallium caught him and pulled him up.
 
-Arriving at the ruins of Arden Vul, the group debated about where to go, then decided to first visit the dam and install the new lock, to keep the dragon happy.  They made it there without any problem and the lock seemed to hold the door reasonably well.  Vael kept one key and gave the other to Michael.
+Arriving at the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], the group debated about where to go, then decided to first visit the dam and install the new lock, to keep the dragon happy.  They made it there without any problem and the lock seemed to hold the door reasonably well.  Vael kept one key and gave the other to Michael.
 
-Next they discussed exploring the ruins, but decided to go back to the Pyramid of Thoth.  But then they took a small detour to look down the Well of Light and see if anyone had undone their cleaning of the mirror at the bottom.  It was a rainy day, but less light than before seemed to be reflecting.  They dropped a Continual Light rock down into the Well and confirmed that the large mirror at the bottom wasn't reflecting the light, so it was again covered with some kind of dirt or debris.
+Next they discussed exploring the ruins, but decided to go back to the Pyramid of [[npcs/Thoth.md|Thoth]].  But then they took a small detour to look down the Well of Light and see if anyone had undone their cleaning of the mirror at the bottom.  It was a rainy day, but less light than before seemed to be reflecting.  They dropped a Continual Light rock down into the Well and confirmed that the large mirror at the bottom wasn't reflecting the light, so it was again covered with some kind of dirt or debris.
 
 The group climbed the pyramid and discussed which door to take.  Merenuithiel had brought some spikes, so they decided to manipulate the pyramid's arms into the straight-up position to open the second, scarier entrance, with corpses and no handle to open the door from inside, then try to spike the door open.  The spikes seemed to hold, so they went down.  There was much less graffiti in this passage than the first one, but someone had drawn a scorpion in chalk and written "Where is it?" in Archontean underneath.
 
@@ -58,15 +58,15 @@ Vallium went around the pit and tried to open the door, but it would not budge. 
 
 With no other exit available, Vael levitated down into the pit, and found many bones and the glint of a few coins.  He came back up and cast Levitate on Ioannes as well, to have help searching.  While they were digging around in the bones looking for treasure, a small ball-shaped demon that was mostly teeth popped into the pit through a previously unseen entrance in the east wall, and tried to bite Vael.  Vael used his Luck to successfully dodge, and then Levitated himself and Ioannes straight up.  The small demon snapped at their heels, but wasn't tall enough to reach.  Once she had a clear line of sight, Merenuithiel filled it with arrows from the top edge of the pit above.
 
-After resting for a few minutes at the top, Vael Levitated everyone but Merenuithiel down into the pit, two at a time, while Merenuithiel kept watch at the top.  They saw the small secret door the demon had came through led into a small room with a 5' high ceiling.  The room contained a small scary void of magical blackness, a magical bust of a woman Ioannes thought was the goddess Selket with a scorpion on her head, and a few scattered items on the floor. The items included what looked like a couple of magic rings, a couple of magic gems, and a magic wand, which were enough to make everyone overcome their caution and enter the room.  While they were picking up loot, two more of the small spherical biting demons came through the black gate.  Vallium and Michael, who were waiting for something like that to happen, surrounded and killed one.  The last surviving demon, heavily wounded, jumped back into the black gate and disappeared.  Nobody followed it into the gate.
+After resting for a few minutes at the top, Vael Levitated everyone but Merenuithiel down into the pit, two at a time, while Merenuithiel kept watch at the top.  They saw the small secret door the demon had came through led into a small room with a 5' high ceiling.  The room contained a small scary void of magical blackness, a magical bust of a woman Ioannes thought was the goddess [[npcs/Selket.md|Selket]] with a scorpion on her head, and a few scattered items on the floor. The items included what looked like a couple of magic rings, a couple of magic gems, and a magic wand, which were enough to make everyone overcome their caution and enter the room.  While they were picking up loot, two more of the small spherical biting demons came through the black gate.  Vallium and Michael, who were waiting for something like that to happen, surrounded and killed one.  The last surviving demon, heavily wounded, jumped back into the black gate and disappeared.  Nobody followed it into the gate.
 
-After all the obvious portable loot had been picked up, the group discussed the bust with the scorpion on its head.  Eventually Michael touched the scorpion and disappeared.  The rest of the group talked about what to do for a minute, then Vael Levitated Merenuithiel down, and they all grabbed the scorpion together.  They all teleported to the same place as Michael, a huge room they had briefly stuck their heads into previously, the Great Hall, in beastman territory.  The room was big enough that they couldn't see the ceiling or the south or east walls with their Continual Light, but they saw several knocked-down columns, and scorch marks on the floor indicating some kind of magical battle.  Vael and Merenuithiel were both exhausted (from spellcasting and firing a bow way too big for her, respectively) and sat down to rest.  After a few minutes of rest, a flying stone gargoyle with the head of an ibis swooped down to attack.  Michael heard it coming and yelled a warning.  Merenuithiel failed to dodge the attack clumsily enough that she fell down as the gargoyle slightly wounded her, but fatally shot the gargoyle while lying on her back. A second ibis-headed gargoyle swooped down, and Merenuithiel shot that one too, without having time to stand up first.  She was very tired, on the verge of passing out, so Ioannes cast Lend Energy.  Everyone then left the room through an open pair of doors to the west, looking for a more secure resting place.
+After all the obvious portable loot had been picked up, the group discussed the bust with the scorpion on its head.  Eventually Michael touched the scorpion and disappeared.  The rest of the group talked about what to do for a minute, then Vael Levitated Merenuithiel down, and they all grabbed the scorpion together.  They all teleported to the same place as Michael, a huge room they had briefly stuck their heads into previously, the [[locations/Great Hall.md|Great Hall]], in beastman territory.  The room was big enough that they couldn't see the ceiling or the south or east walls with their Continual Light, but they saw several knocked-down columns, and scorch marks on the floor indicating some kind of magical battle.  Vael and Merenuithiel were both exhausted (from spellcasting and firing a bow way too big for her, respectively) and sat down to rest.  After a few minutes of rest, a flying stone gargoyle with the head of an ibis swooped down to attack.  Michael heard it coming and yelled a warning.  Merenuithiel failed to dodge the attack clumsily enough that she fell down as the gargoyle slightly wounded her, but fatally shot the gargoyle while lying on her back. A second ibis-headed gargoyle swooped down, and Merenuithiel shot that one too, without having time to stand up first.  She was very tired, on the verge of passing out, so Ioannes cast Lend Energy.  Everyone then left the room through an open pair of doors to the west, looking for a more secure resting place.
 
 They passed the same beastman guard post they saw last week, and made some excuses through an arrow slit about having hit a teleport trap.  They went north (but not all the way out of beastman territory) and were resting in the hallway when a patrol of beastmen came to check on them, said they were trespassing, listened to the story about the teleport trap again, and decided not to attack them.  Vael again tried to parley with the beastmen about other matters, and the beastman sergeant said he did not have authority to conduct negotiations but would ask his Count.  The sergeant asked for the group's name, and they didn't have one and Vael made some comment about cheese and crackers, so the sergeant said "okay, Cheese and Crackers, I will tell my Count that you would like to parley.  Announce yourself loudly next time before entering our territory."  Vallium gave the sergeant a sweetroll.
 
 They went north to the room with the makeshift wooden barricade that used to have a spear with a halfling head on it, then tried a previously unexplored door to the east.  It led to a room with another group of beastmen.  They party apologized for making a wrong turn and went north over the barricade into known non-beastman territory.
 
-They went north into the gray-green mist, past the two competing Magic Mouths, then east to a room with a gross sludgy pool that might be the source of the mist.  Ioannes threw a rock in, but nobody wanted to enter the pool or drink the black water.  They proceeded east to a room that looked like a chapel to Thoth, with some benches and a magical onyx pillar and some Mithric writing high up on the wall, obscured by grime.  Vael Levitated up, cleaned it, and saw that it said "Thou May Ask of Thoth What Thou Will, Provided Thou Accept His Judgment."  Ioannes grabbed the onyx pillar and asked Thoth the correct method of making an offering to His statue.  Thoth actually answered, both with a strong electric shock through the pillar that burned but did not quite stun Ioannes, and also by saying in a booming voice that one must loudly invoke Thoth's name while putting the gift of knowledge into the offering chest.
+They went north into the gray-green mist, past the two competing Magic Mouths, then east to a room with a gross sludgy pool that might be the source of the mist.  Ioannes threw a rock in, but nobody wanted to enter the pool or drink the black water.  They proceeded east to a room that looked like a chapel to [[npcs/Thoth.md|Thoth]], with some benches and a magical onyx pillar and some Mithric writing high up on the wall, obscured by grime.  Vael Levitated up, cleaned it, and saw that it said "Thou May Ask of [[npcs/Thoth.md|Thoth]] What Thou Will, Provided Thou Accept His Judgment."  Ioannes grabbed the onyx pillar and asked [[npcs/Thoth.md|Thoth]] the correct method of making an offering to His statue.  [[npcs/Thoth.md|Thoth]] actually answered, both with a strong electric shock through the pillar that burned but did not quite stun Ioannes, and also by saying in a booming voice that one must loudly invoke [[npcs/Thoth.md|Thoth]]'s name while putting the gift of knowledge into the offering chest.
 
 Ioannes tried casting Minor Healing on himself, failed, and didn't try again with the penalty.  Vael gave him some best effort First Aid, which didn't do much but made him feel a bit less singed.  The group continued down the passage to the east and found another room, with no other exits but a lot of trash on the floor.  Sifting through the trash for valuables, Vael found a magical 8" x 8" x 1/2" square of white glass on the floor.  Vallium wrapped it up in a blanket for protection and put it in his pack.
 
@@ -74,7 +74,7 @@ Vael suggested searching for secret doors, and eventually found one in the south
 
 The group looted the bodies, then saw that there were two exits east and a door west.  The door was back toward what Ioannes thought was beastman territory, so they chose east, and took the left passage because "left for loot."  They saw two heavy-looking stone doors to the north, but continued east past them.  The passage turned north and then reached a room with a big stone chair, facing a chasm wider, higher, and deeper than their Continual Light reached.  The chair had a glyph on the seat, which nobody recognized.
 
-Ioannes eventually sat in the chair, and saw a demon.  It was the same ball shape as the small demons they had fought in the Pit of Bones inside the Pyramid of Thoth, but much, much bigger.  Terrified, he started running.  Luckily, he ran away from the chasm rather than into it.  He wasn't very fast, so Vael chased him down and held onto him.  Ioannes didn't calm down, but he wasn't quite freaked out enough to attack his friends, so the group detailed one of the large fighters to keep hold of him for the rest of the mission.  Ioannes agreed that was a good idea to give him a bodyguard, as long as everyone else also watched for the demon.
+Ioannes eventually sat in the chair, and saw a demon.  It was the same ball shape as the small demons they had fought in the Pit of Bones inside the Pyramid of [[npcs/Thoth.md|Thoth]], but much, much bigger.  Terrified, he started running.  Luckily, he ran away from the chasm rather than into it.  He wasn't very fast, so Vael chased him down and held onto him.  Ioannes didn't calm down, but he wasn't quite freaked out enough to attack his friends, so the group detailed one of the large fighters to keep hold of him for the rest of the mission.  Ioannes agreed that was a good idea to give him a bodyguard, as long as everyone else also watched for the demon.
 
 Vael decided to explore the chasm a bit.  He Levitated far enough across to see there was another room on the far side of the chasm, but didn't enter it.  He saw that it went up and down past the range of his light, and didn't see any sunlight above.  He flew up about 30 yards and still didn't see an exit, then flew back down to the group.  The chasm was definitely big, but they weren't sure exactly how big yet.  They decided to defer further exploration of the chasm until Ioannes was in better shape.
 
@@ -82,7 +82,7 @@ They doubled back to the west, to the two stone doors, and decided to open the w
 
 They thought they had enough loot for one day, so they started discussing whether to fight the halflings or sneak loot past the halflings.  (The idea of actually paying 10% of the loot to the halflings didn't come up.)  Merenuithiel was in favor of fighting them, but the group eventually decided to try stealth this time.  The plan was to circle around known dungeon passages to the west of the entrance room to get as close to the stairs as possible before the halflings saw them, and to have Vael cast Invisibility on both Michael (who could carry a lot of loot) and Merenuithiel (who had not purchased an Adventuring License and would prefer not to).  Then Vael and Vallium would lead Ioannes, still raving about the demon, past the halflings and grudgingly pay 10% of a small decoy haul of non-magical weapons and coins, while the good stuff went by invisibly.  The combination of Invisibility and Ioannes's ranting were enough to cover the two people sneaking, and the group paid a total of 3 spears (which would have been annoying to carry anyway) as their tithe for the week.
 
-Ioannes wasn't in great shape for climbing down the Long Stair, so Vael Levitated the two of them down while the other three walked.  They all eventually made it back to Gosterwick, and took Ioannes straight to the temple of Demma for a Remove Curse spell.  Vael then set to learning Analyze Magic so he could avoid paying the Arcane Practitioners' Club to identify every magical item they found.  And one of the items they found in the pit was truly amazing, a Gem of Insight, which could permanently boost someone's intelligence.
+Ioannes wasn't in great shape for climbing down the [[locations/Long Stair.md|Long Stair]], so Vael Levitated the two of them down while the other three walked.  They all eventually made it back to [[locations/Gosterwick.md|Gosterwick]], and took Ioannes straight to the temple of [[npcs/Demma.md|Demma]] for a Remove Curse spell.  Vael then set to learning Analyze Magic so he could avoid paying the Arcane Practitioners' Club to identify every magical item they found.  And one of the items they found in the pit was truly amazing, a Gem of Insight, which could permanently boost someone's intelligence.
 
 
 
@@ -90,20 +90,20 @@ GM's Comments:
 
 This was the second week in a row the group hit a teleporter.  This time it at least took them somewhere they recognized.  They had three fights this week, all of them pretty easy with the archer along.  They looted the victims of two different one-way door traps (one with a hidden escape teleporter, one possibly with no way out at all) that had each bagged many victims over the years.
 
-Ioannes rolled a natural 3 when trying to figure out the pillar, which gave him the insight that he needed to grab the pillar while asking Thoth a question.  In addition to getting what sounded like an actual answer from Thoth, he also got an electric shock serious enough to result in a Major Wound, because that's how Arden Vul works.
+Ioannes rolled a natural 3 when trying to figure out the pillar, which gave him the insight that he needed to grab the pillar while asking [[npcs/Thoth.md|Thoth]] a question.  In addition to getting what sounded like an actual answer from [[npcs/Thoth.md|Thoth]], he also got an electric shock serious enough to result in a Major Wound, because that's how [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] works.
 
 
 Achievements:
 
-Iconic Location: The Great Hall
-Iconic Location: The Great Chasm
-Thus Spake Thoth: All clerics talk to gods.  But Ioannes was the first PC to get a direct answer from one in this campaign.
+Iconic Location: The [[locations/Great Hall.md|Great Hall]]
+Iconic Location: The [[locations/Great Chasm.md|Great Chasm]]
+Thus Spake [[npcs/Thoth.md|Thoth]]: All clerics talk to gods.  But Ioannes was the first PC to get a direct answer from one in this campaign.
 
 XP:
 
 Exploration: about 15 new locations, good for 1 XP
 Loot: They found a lot of good stuff.  If they sell enough of it it should definitely qualify for 2 XP each.  If they insist on keeping the most valuable items then they will earn 1 XP instead.
-Achievements: 2 XP for everyone for 2 Iconic Locations.  Ioannes got another 1 XP for getting a response from Thoth.
+Achievements: 2 XP for everyone for 2 Iconic Locations.  Ioannes got another 1 XP for getting a response from [[npcs/Thoth.md|Thoth]].
 
 
 Next week:

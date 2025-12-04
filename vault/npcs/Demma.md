@@ -1,41 +1,41 @@
 ---
-title: "Demma"
+title: "[[npcs/Demma.md|Demma]]"
 tags:
   - npc
   - npc
   - deity
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
-  - "Session 27 - The Tomb of Ptoh-Ristus"
+  - "Session 27 - The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]"
 ---
-# Demma
+# [[npcs/Demma.md|Demma]]
 
-Demma, the "Great Nurturer," is a goddess of fertility, crops, households, childbirth, and magic. She is part of the new pantheon of gods, and the fifth day of the week, [[The Archontean Calendar#Demmasday|Demmasday]], is named in her honor.
+[[npcs/Demma.md|Demma]], the "Great Nurturer," is a goddess of fertility, crops, households, childbirth, and magic. She is part of the new pantheon of gods, and the fifth day of the week, [[The Archontean Calendar#Demmasday|Demmasday]], is named in her honor.
 
 ## Mythology
-Ancient myths portray Demma as the one who sowed the first seeds of life and ensures the continuation of the cycles of growth, harvest, and renewal. It is said that she stole the secret of magic from the void and planted it within the soil and stars, granting mortals the ability to shape the world through wisdom and will.
+Ancient myths portray [[npcs/Demma.md|Demma]] as the one who sowed the first seeds of life and ensures the continuation of the cycles of growth, harvest, and renewal. It is said that she stole the secret of magic from the void and planted it within the soil and stars, granting mortals the ability to shape the world through wisdom and will.
 
 Though her blessings are gentle, her wrath is unyielding. When her gifts are hoarded, abused, or defiled, she strikes with famine, blight, and barrenness. Her sacred weapon is the flail, symbolizing both the harvest and divine retribution. To understand her will is to understand the balance of nature, hearth, and spirit.
 
 ## Theology & Worship
-The theology of Demma centers on balance, stewardship, and the sacred duty of cultivation—whether of land, family, or knowledge. Abundance is a gift given only to those who nurture it with wisdom and hard work. To act recklessly is to invite ruin, for Demma can withdraw her gifts as easily as she grants them.
+The theology of [[npcs/Demma.md|Demma]] centers on balance, stewardship, and the sacred duty of cultivation—whether of land, family, or knowledge. Abundance is a gift given only to those who nurture it with wisdom and hard work. To act recklessly is to invite ruin, for [[npcs/Demma.md|Demma]] can withdraw her gifts as easily as she grants them.
 
 Her followers are called to protect the cycles of nature, strengthen households, and guide new life. Magic is viewed as a seed of creation, a natural force to be cultivated responsibly. True wisdom is believed to come from action, not just study. Worshipers often bring offerings of seeds, bread, and woven charms to honor her blessings.
 
-## The Priesthood of Demma
+## The Priesthood of [[npcs/Demma.md|Demma]]
 The priesthood is hierarchical yet practical, structured to emphasize stewardship and active service.
 
 ### Clergy and Vestments
-The standard attire for Demma's clergy consists of a long tunic in earthy tones (deep greens, golden yellows, or rich browns) with seed-like embroidery. Over this, they wear a sleeveless outer robe in deep red or russet. A broad, gold-threaded sash is worn at the waist, often adorned with woven charms, seed pouches, or small flail-shaped talismans. For ceremonial occasions, priests may don a hooded cloak fastened with a brooch shaped like a seed.
+The standard attire for [[npcs/Demma.md|Demma]]'s clergy consists of a long tunic in earthy tones (deep greens, golden yellows, or rich browns) with seed-like embroidery. Over this, they wear a sleeveless outer robe in deep red or russet. A broad, gold-threaded sash is worn at the waist, often adorned with woven charms, seed pouches, or small flail-shaped talismans. For ceremonial occasions, priests may don a hooded cloak fastened with a brooch shaped like a seed.
 
 The vestments are designed to be practical for work, reinforcing the belief that faith is meant to be lived, not just displayed.
 
 ### Branches of the Faith
 - **[[factions/Seedkeepers|Seedkeepers]]:** A scholarly, more esoteric branch of the priesthood. They guard ancient agricultural knowledge, sacred fertility rites, and study the interplay between magic and the natural world.
-- **[[factions/Harvest Guardians|Harvest Guardians]]:** The dedicated warrior arm of the faith. They defend temples and enforce Demma's will, wielding the flail. Each major temple typically has a contingent of six to twelve fighters.
+- **[[factions/Harvest Guardians|Harvest Guardians]]:** The dedicated warrior arm of the faith. They defend temples and enforce [[npcs/Demma.md|Demma]]'s will, wielding the flail. Each major temple typically has a contingent of six to twelve fighters.
 
 ## Notable Followers
-- **[[pcs/Ioannes Grammatikos Byzantios|Ioannes Grammatikos Byzantios]]:** A player character and a scholarly, Archontean cleric of Demma. His personal attire is slightly more ornate than that of the rural clergy, reflecting his broader understanding of Demma's role in magic and wisdom.
+- **[[pcs/Ioannes Grammatikos Byzantios|Ioannes Grammatikos Byzantios]]:** A player character and a scholarly, Archontean cleric of [[npcs/Demma.md|Demma]]. His personal attire is slightly more ornate than that of the rural clergy, reflecting his broader understanding of [[npcs/Demma.md|Demma]]'s role in magic and wisdom.
 - **[[npcs/Vivian|Vivian]]:** The stern but fair Thorcin chief priest of the [[locations/Temple of Demma|Temple of Demma]] in [[locations/Gosterwick|Gosterwick]]. He is capable of casting powerful spells, such as Remove Curse.
 
 ## Associated Locations
@@ -43,9 +43,9 @@ The vestments are designed to be practical for work, reinforcing the belief that
 - **Demmasday Market:** The central market in [[locations/Gosterwick|Gosterwick]] is held on Totsday and all of Demmasday, with the latter being the biggest market of the week.
 
 ## History & Key Events
-Demma's influence is felt frequently in the party's adventures, primarily through her cleric, [[pcs/Ioannes Grammatikos Byzantios|Ioannes]]. The [[locations/Temple of Demma|Temple in Gosterwick]] has proven to be a crucial resource, providing vital services like curse removal on multiple occasions.
+[[npcs/Demma.md|Demma]]'s influence is felt frequently in the party's adventures, primarily through her cleric, [[pcs/Ioannes Grammatikos Byzantios|Ioannes]]. The [[locations/Temple of Demma|Temple in Gosterwick]] has proven to be a crucial resource, providing vital services like curse removal on multiple occasions.
 
-An early incident at the [[locations/Yellow Cloak Inn|Yellow Cloak Inn]], where an accidental Continual Darkness spell was cast on some bedsheets, resulted in clerics of Demma being forbidden from casting spells on the premises. The party also regularly visits the Demmasday market in town to procure supplies.
+An early incident at the [[locations/Yellow Cloak Inn|Yellow Cloak Inn]], where an accidental Continual Darkness spell was cast on some bedsheets, resulted in clerics of [[npcs/Demma.md|Demma]] being forbidden from casting spells on the premises. The party also regularly visits the Demmasday market in town to procure supplies.
 
 ## Appears In
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]

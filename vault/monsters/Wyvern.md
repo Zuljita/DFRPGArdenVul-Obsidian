@@ -4,7 +4,7 @@ tags:
   - monster
   - npc
 appears_in:
-  - "Session 3 - Dragons and Baboons and Beastmen, Oh My!"
+  - "Session 3 - [[factions/Dragons.md|Dragons]] and Baboons and [[factions/Children of Deino.md|Children of Deino]], Oh My!"
 ---
 ---
 title: "Wyvern"
@@ -19,9 +19,9 @@ aliases:
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
 
 ## History
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]] — Date: Demmasday, 28th of Toternios, 2993 AEP Weather: Cool, overcast, light rain Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger) Michael J Dundee, Thorcin barbarian (Adam) Vael Sunshadow, H...
+- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]] — Date: Demmasday, 28th of Toternios, 2993 AEP Weather: Cool, overcast, light rain Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger) Michael J Dundee, Thorcin barbarian (Adam) Vael Sunshadow, H...
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]] — While they were searching, a wyvern flew by to the south, took a good look at them, then flew off to the west.
-- [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Dundee, Thorcin barbarian (Adam) Lacrymosa, Elf [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary archer (Archon Shiva) Significant NPCs: Craastonistorex, green dragon Briar, Wyvern Giant Tick Phlebotomas Plumthorn, Halfling mob bo...
-  - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Craastonistorex appeared to consider eating her for such a paltry gift, but magnanimously let it slide, as Briar the wyvern picked up the potion in his claws.
+- [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Dundee, Thorcin barbarian (Adam) [[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]], Elf [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary archer (Archon Shiva) Significant NPCs: [[npcs/Craastonistorex.md|Craastonistorex]], green dragon [[npcs/Briar.md|Briar]], Wyvern Giant Tick [[npcs/Phlebotomas [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]].md|Phlebotomas [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]]], Halfling mob bo...
+  - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — [[npcs/Craastonistorex.md|Craastonistorex]] appeared to consider eating her for such a paltry gift, but magnanimously let it slide, as [[npcs/Briar.md|Briar]] the wyvern picked up the potion in his claws.
 
 ## Notes

@@ -1,11 +1,11 @@
 ---
-title: "Jost"
+title: "[[npcs/Jost.md|Jost]]"
 tags:
   - npc
   - npc
 aliases:
 ---
-# Jost
+# [[npcs/Jost.md|Jost]]
 
 ## Summary
 A [[Thorcin]] barbarian, member of [[factions/Dalton's Darlings|Dalton's Darlings]], freed from [[Gerrilad]]’s jail during the [[Hall of Judgment]] run. He later appears alongside other delvers.

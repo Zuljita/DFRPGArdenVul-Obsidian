@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# Fenitior Stone-Hands
+# [[npcs/Fenitior Stone-Hands.md|Fenitior Stone-Hands]]
 
 ## Summary
 A statue broker, part of a group of three who appraise and trade in statues and other large art objects.

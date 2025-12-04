@@ -1,10 +1,10 @@
 ---
-title: "Horus"
+title: "[[npcs/Horus.md|Horus]]"
 tags:
   - npc
   - npc
 ---
-# Horus
+# [[npcs/Horus.md|Horus]]
 
 ## Summary
 Deity of the Archontean pantheon; presumed dead in current era per GM notes.

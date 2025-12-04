@@ -1,13 +1,13 @@
 ---
-title: "Skizz and Burzip"
+title: "[[npcs/Skizz and Burzip.md|Skizz and Burzip]] and Burzip"
 tags:
   - npc
   - npc
 aliases:
-  - Skizz
+  - [[npcs/Skizz and Burzip.md|Skizz and Burzip]]
   - Burzip
 ---
-# Skizz and Burzip
+# [[npcs/Skizz and Burzip.md|Skizz and Burzip]] and Burzip
 
 ## Summary
 Two lizardmen who were lost in the [[Great Cavern]]. The party gave them directions in exchange for goodwill with other lizardmen.
