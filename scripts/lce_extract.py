@@ -72,7 +72,7 @@ def split_paragraphs(text: str) -> List[str]:
 
 CONNECT_RE = re.compile(r"\b(connect|lead|via|through|across|toward|into|onto|to|from|down|up|entrance|exit|gate|basket|rappel|levitat|teleport|stair|hole)\b", re.I)
 
-def collect_windows_for_location(root: Path, location: str, session_path: Path = None) -> List[Tuple[Path, str]]:
+def collect_windows_for_location(root: Path, location: str, session_path: Path = None, para_window: int = 1, full_context: bool = False) -> List[Tuple[Path, str]]:
     windows: List[Tuple[Path, str]] = []
     sessions_dir = root / "vault" / "sessions"
     loc_pat = re.compile(re.escape(location), re.I)
@@ -83,12 +83,19 @@ def collect_windows_for_location(root: Path, location: str, session_path: Path =
             continue
         txt = read_text(p)
         paras = split_paragraphs(txt)
-        for i, para in enumerate(paras):
-            if loc_pat.search(para) or any(location.lower() in m.group(1).lower() for m in link_pat.finditer(para)):
-                # Grab context window of +- 1 paragraph
-                chunk = "\n\n".join(paras[max(0, i-1):min(len(paras), i+2)])
-                if CONNECT_RE.search(chunk):
-                    windows.append((p, chunk))
+        if full_context:
+            chunk = "\n\n".join(paras)
+            if CONNECT_RE.search(chunk):
+                windows.append((p, chunk))
+        else:
+            for i, para in enumerate(paras):
+                if loc_pat.search(para) or any(location.lower() in m.group(1).lower() for m in link_pat.finditer(para)):
+                    # Grab context window of +- N paragraphs
+                    lo = max(0, i-para_window)
+                    hi = min(len(paras), i+para_window+1)
+                    chunk = "\n\n".join(paras[lo:hi])
+                    if CONNECT_RE.search(chunk):
+                        windows.append((p, chunk))
     return windows
 
 def call_llm(endpoint: str, model: str, system: str, user: str, temperature: float, max_tokens: int) -> str:
@@ -160,6 +167,8 @@ def main():
     ap.add_argument("--endpoint", default=DEFAULT_ENDPOINT)
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--dry-run", action="store_true", default=True)
+    ap.add_argument("--para-window", type=int, default=1, help="Context paragraphs on each side (default: 1)")
+    ap.add_argument("--full-context", action="store_true", help="Use entire session text for extraction")
     args = ap.parse_args()
 
     # Use repo root resolved from this script
@@ -169,7 +178,7 @@ def main():
         sys.exit(2)
 
     session_path = Path(args.session) if args.session else None
-    windows = collect_windows_for_location(root, args.location, session_path)
+    windows = collect_windows_for_location(root, args.location, session_path, para_window=args.para_window, full_context=args.full_context)
     if not windows:
         print("No candidate windows found with connectors.")
         sys.exit(0)

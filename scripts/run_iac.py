@@ -153,15 +153,18 @@ def similarity(a: str, b: str) -> float:
     return SequenceMatcher(None, a, b).ratio()
 
 
-def call_llm(files: List[Path]) -> str:
+def call_llm(files: List[Path], endpoint: str = None, model: str = None, temperature: float = 0.1, max_tokens: int = 400, timeout: int = 180) -> str:
+    model = model or 'qwen2.5-7b-instruct'
+    endpoint = endpoint or 'http://192.168.21.76:1234'
     cmd = [
         'python3', 'scripts/local_llm_client.py',
+        '--endpoint', endpoint,
         '--prompt', LLM_PROMPT,
         '--files', *[str(f) for f in files],
-        '--model', 'qwen2.5-7b-instruct',
-        '--temperature', '0.1',
-        '--max-tokens', '400',
-        '--timeout', '180',
+        '--model', model,
+        '--temperature', str(temperature),
+        '--max-tokens', str(max_tokens),
+        '--timeout', str(timeout),
     ]
     res = subprocess.run(cmd, capture_output=True, text=True)
     if res.returncode != 0:
@@ -265,12 +268,12 @@ def chunk_text(text: str, max_chars: int = 2400) -> List[str]:
     return parts
 
 
-def run_iac_on_file(session_file: Path, dry_run: bool=False, kinds: Optional[List[str]] = None) -> Dict[str, List[Tuple[str, str]]]:
+def run_iac_on_file(session_file: Path, dry_run: bool=False, kinds: Optional[List[str]] = None, chunk_size: int = 2400, endpoint: str = None, model: str = None) -> Dict[str, List[Tuple[str, str]]]:
     canon = load_canonicals()
     filters = load_filters()
     # Chunk session content to improve extraction
     text = session_file.read_text(encoding='utf-8', errors='ignore')
-    chunks = chunk_text(text, max_chars=2400)
+    chunks = chunk_text(text, max_chars=chunk_size)
     tmpdir = Path('.iac_tmp')
     tmpdir.mkdir(exist_ok=True)
     merged: Dict[str, List[str]] = defaultdict(list)
@@ -278,7 +281,7 @@ def run_iac_on_file(session_file: Path, dry_run: bool=False, kinds: Optional[Lis
         fp = tmpdir / f"{session_file.stem}.part{i+1}.md"
         fp.write_text(chunk, encoding='utf-8')
         try:
-            out = call_llm([fp])
+            out = call_llm([fp], endpoint=endpoint, model=model)
         finally:
             try:
                 fp.unlink()
@@ -348,6 +351,9 @@ def main():
     ap.add_argument('--all', action='store_true', help='Process all sessions (descending by session id)')
     ap.add_argument('--kinds', default='NPC,Location,Faction', help='Comma-separated kinds to process (default: NPC,Location,Faction)')
     ap.add_argument('--items-mode', choices=['all','unique'], default='all', help='Item selection: all (default) or unique')
+    ap.add_argument('--chunk-size', type=int, default=2400, help='Chunk size for IAC model calls (chars)')
+    ap.add_argument('--endpoint', default=None, help='LLM endpoint (OpenAI-compatible)')
+    ap.add_argument('--model', default=None, help='LLM model name')
     ap.add_argument('--dry-run', action='store_true', help='Do not create files, just print actions')
     args = ap.parse_args()
 
@@ -365,7 +371,7 @@ def main():
     # set global for unique filtering
     globals()['_IAC_ITEMS_MODE'] = args.items_mode
     for sf in targets:
-        acts = run_iac_on_file(sf, dry_run=args.dry_run, kinds=kinds)
+        acts = run_iac_on_file(sf, dry_run=args.dry_run, kinds=kinds, chunk_size=args.chunk_size, endpoint=args.endpoint, model=args.model)
         summary.append({'file': str(sf), **{k: v for k, v in acts.items()}})
 
     print(json.dumps(summary, indent=2))
