@@ -90,11 +90,11 @@ importers:
         specifier: ^8.14.1
         version: 8.14.3
       preact:
-        specifier: ^10.27.2
-        version: 10.27.2
+        specifier: ^10.28.2
+        version: 10.28.2
       preact-render-to-string:
         specifier: ^6.6.3
-        version: 6.6.3(preact@10.27.2)
+        version: 6.6.3(preact@10.28.2)
       pretty-bytes:
         specifier: ^7.1.0
         version: 7.1.0
@@ -231,8 +231,8 @@ importers:
 
 packages:
 
-  '@bufbuild/protobuf@2.10.1':
-    resolution: {integrity: sha512-ckS3+vyJb5qGpEYv/s1OebUHDi/xSNtfgw1wqKZo7MR9F2z+qXr0q5XagafAG/9O0QPVIUfST0smluYSTpYFkg==}
+  '@bufbuild/protobuf@2.10.2':
+    resolution: {integrity: sha512-uFsRXwIGyu+r6AMdz+XijIIZJYpoWeYzILt5yZ2d3mCjQrWUTVpVD9WL/jZAbvp+Ed04rOhrsk7FiTcEDseB5A==}
 
   '@citation-js/core@0.7.21':
     resolution: {integrity: sha512-Vobv2/Yfnn6C6BVO/pvj7madQ7Mfzl83/jAWwixbemGF6ZThhGMz8++FD9hWHyHXDMYuLGa6fK68c2VsolZmTA==}
@@ -2129,8 +2129,8 @@ packages:
     peerDependencies:
       preact: '>=10 || >= 11.0.0-0'
 
-  preact@10.27.2:
-    resolution: {integrity: sha512-5SYSgFKSyhCbk6SrXyMpqjb5+MQBgfvEKE/OC+PujcY34sOpqtr+0AZQtPYx5IA6VxynQ7rUPCtKzyovpj9Bpg==}
+  preact@10.28.2:
+    resolution: {integrity: sha512-lbteaWGzGHdlIuiJ0l2Jq454m6kcpI1zNje6d8MlGAFlYvP2GO4ibnat7P74Esfz4sPTdM6UxtTwh/d3pwM9JA==}
 
   prettier@3.7.1:
     resolution: {integrity: sha512-RWKXE4qB3u5Z6yz7omJkjWwmTfLdcbv44jUVHC5NpfXwFGzvpQM798FGv/6WNK879tc+Cn0AAyherCl1KjbyZQ==}
@@ -2630,7 +2630,7 @@ packages:
 
 snapshots:
 
-  '@bufbuild/protobuf@2.10.1': {}
+  '@bufbuild/protobuf@2.10.2': {}
 
   '@citation-js/core@0.7.21':
     dependencies:
@@ -4607,11 +4607,11 @@ snapshots:
 
   postcss-value-parser@4.2.0: {}
 
-  preact-render-to-string@6.6.3(preact@10.27.2):
+  preact-render-to-string@6.6.3(preact@10.28.2):
     dependencies:
-      preact: 10.27.2
+      preact: 10.28.2
 
-  preact@10.27.2: {}
+  preact@10.28.2: {}
 
   prettier@3.7.1: {}
 
@@ -4908,7 +4908,7 @@ snapshots:
 
   sass-embedded@1.93.3:
     dependencies:
-      '@bufbuild/protobuf': 2.10.1
+      '@bufbuild/protobuf': 2.10.2
       buffer-builder: 0.2.0
       colorjs.io: 0.5.2
       immutable: 5.1.4
