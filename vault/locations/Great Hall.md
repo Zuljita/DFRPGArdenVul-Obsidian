@@ -12,6 +12,8 @@ appears_in:
 ## Appears In
 - [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
+- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
+- [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42b - Neferet and the Wraiths]]
 
 ## History
 - [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]] — They all teleported to the same place as Michael, a huge room they had briefly stuck their heads into previously, the [[locations/Great Hall.md|Great Hall]], in beastman territory.

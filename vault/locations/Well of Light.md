@@ -47,3 +47,4 @@ Extends from the surface into the underground levels of [[Arden Vul]].
 - [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]

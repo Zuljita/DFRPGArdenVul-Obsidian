@@ -68,3 +68,7 @@ Surface, [[Arden Vul]].
 - Session 30 - The Tomb of Theskalon
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]

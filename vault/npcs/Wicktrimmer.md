@@ -36,3 +36,6 @@ As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offe
 - [[Right for Riches Company]]: frequent counterparties for artifact brokerage and financing.
 - [[Balthazar the Blue]] and [[Lost and Found]]: former adventuring ties; continuing personal motivations.
 - [[Drome]] of [[Narsileon]] and the [[Rarities Factor]] network: competitive intelligence and logistics sphere.
+
+## Sessions
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
