@@ -1,3 +1,9 @@
+---
+title: README
+tags:
+  - location
+---
+
 # Locations
 
 - Create one file per location in this folder.

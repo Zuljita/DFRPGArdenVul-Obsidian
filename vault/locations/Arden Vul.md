@@ -2,6 +2,12 @@
 title: Arden Vul
 tags:
   - location
+---
+
+---
+title: Arden Vul
+tags:
+  - location
 aliases:
   - Ruins of [[npcs/Thoth.md|Thoth]]
 
