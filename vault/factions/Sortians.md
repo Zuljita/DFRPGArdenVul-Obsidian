@@ -1,6 +1,8 @@
 ---
 tags:
-  - faction
+- faction
+aliases:
+- factions/Sortian
 ---
 
 # Sortians

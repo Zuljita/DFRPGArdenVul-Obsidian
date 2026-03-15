@@ -1,7 +1,9 @@
 ---
 tags:
-  - lore
-  - culture/archontean
+- lore
+- culture/archontean
+aliases:
+- lore/Arden Vul The Archontean Calendar
 ---
 
 # The Archontean Calendar

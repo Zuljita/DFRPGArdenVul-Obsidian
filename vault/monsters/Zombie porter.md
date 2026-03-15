@@ -1,12 +1,13 @@
 ---
-title: "Zombie Porter"
+title: Zombie Porter
 type: monster
 tags:
-  - monster
-  - classification/undead
-  - sentience/mindless
+- monster
+- classification/undead
+- sentience/mindless
 aliases:
-  - Zombie with Dog Collar
+- Zombie with Dog Collar
+- monsters/Zombie with Dog Collar
 ---
 # Zombie Porter
 
