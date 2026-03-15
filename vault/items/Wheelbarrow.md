@@ -20,6 +20,6 @@ Typically consists of a single wheel, two handles, and a tray for carrying loads
 [[pcs/Vael Sunshadow|Vael]] used one to push his pack up the [[Long Stair]] to [[Arden Vul]].
 
 ## Notes
-Can be enchanted to become a [[Living Wheelbarrow]].
+Can be enchanted to become a [[items/Living Wheelbarrow.md|Living Wheelbarrow]].
 
 ## Sessions

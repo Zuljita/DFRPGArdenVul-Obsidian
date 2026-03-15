@@ -1,7 +1,6 @@
 ---
-title: "[[factions/Silent Factor.md|Silent Factor]]"
+title: Silent Factor
 tags:
-  - faction
   - faction
 ---
 # [[factions/Silent Factor.md|Silent Factor]]

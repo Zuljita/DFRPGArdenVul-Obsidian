@@ -1,10 +1,9 @@
 ---
-title: "Forum of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]"
+title: Forum of Arden Vul
 tags:
   - location
-  - location
 ---
-# Forum of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]
+# Forum of [[locations/Arden Vul.md|Arden Vul]]
 
 ## Level
 

@@ -1,7 +1,6 @@
 ---
-title: "[[locations/Sundered Span.md|Sundered Span]]"
+title: Sundered Span
 tags:
-  - location
   - location
   - iconic
 appears_in:
@@ -13,7 +12,7 @@ appears_in:
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 
 ## History
-- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — XP: Exploration: 35 new locations (a new record), good for 2 XP Loot: not much, but the magic spear is worth enough to generate 1 XP if sold Achievements: Two [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Iconic Locations, the [[locations/Arena.md|Arena]] and the [[locations/Sundered Span.md|Sundered Span]], for 2 XP Total: 5...
+- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — XP: Exploration: 35 new locations (a new record), good for 2 XP Loot: not much, but the magic spear is worth enough to generate 1 XP if sold Achievements: Two [[locations/Arden Vul.md|Arden Vul]] Iconic Locations, the [[locations/Arena.md|Arena]] and the [[locations/Sundered Span.md|Sundered Span]], for 2 XP Total: 5...
 
 ## Notes
 

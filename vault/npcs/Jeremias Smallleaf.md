@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Jeremias Smallleaf.md|Jeremias Smallleaf]]"
+title: Jeremias Smallleaf
 tags:
-  - npc
   - npc
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"

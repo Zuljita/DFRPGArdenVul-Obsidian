@@ -2,7 +2,6 @@
 title: "Hall of Forty Pillars"
 tags:
   - location
-  - location
 ---
 # Hall of Forty Pillars
 

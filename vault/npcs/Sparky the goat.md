@@ -2,7 +2,6 @@
 title: "Sparky the goat"
 tags:
   - npc
-  - npc
 aliases:
   - Sparky
 ---

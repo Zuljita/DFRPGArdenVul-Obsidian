@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Gribble.md|Gribble]]"
+title: Gribble
 tags:
-  - npc
   - npc
 aliases:
   - United [[factions/Goblins.md|Goblins]] [[npcs/Gribble.md|Gribble]]

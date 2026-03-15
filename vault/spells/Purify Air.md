@@ -2,7 +2,6 @@
 title: "Purify Air"
 tags:
   - spell
-  - spell
 ---
 # Purify Air
 

@@ -1,13 +1,13 @@
 ---
-title: "[[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]]"
+title: Audun Yellow-Eyes
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]"
+- npc
 aliases:
-  - [[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]], logothete of the House of Sight ("[[factions/Drome.md|Drome]]") in [[locations/Gosterwick.md|Gosterwick]]
-  - [[locations/Gosterwick.md|Gosterwick]] [[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]]
+- '[[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]], logothete of the House of Sight
+  ("[[factions/Drome.md|Drome]]") in [[locations/Gosterwick.md|Gosterwick]]'
+- '[[locations/Gosterwick.md|Gosterwick]] [[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]]'
+appears_in:
+- Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
 ---
 # [[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]]
 

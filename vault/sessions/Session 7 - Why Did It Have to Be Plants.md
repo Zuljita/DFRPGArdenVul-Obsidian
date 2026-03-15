@@ -1,7 +1,6 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 7: Why Did It Have to Be Plants?"
+title: "DFRPG Arden Vul Session 7: Why Did It Have to Be Plants?"
 tags:
-  - session
   - session
   - recap
 session_id: 7

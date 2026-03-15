@@ -19,7 +19,8 @@ Loyal, magical.
 
 ## Notes
 Familiars are often imbued with magical qualities and share a bond with their masters.
-In Session 42a, Onyx advised the party on improving apartment security while Vallium was away.
+- In Session 34c, Onyx aggressively alerted Uvash to the apartment fire/burglary scene and effectively triggered the first response.
+- In Session 42a, Onyx advised the party on improving apartment security while Vallium was away.
 
 ## Sessions
 - [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]

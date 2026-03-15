@@ -16,3 +16,10 @@ A powerful greater mummy spellcaster encountered in a hidden tomb complex off th
 ## Sessions
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42b - Neferet and the Wraiths]]
+
+## Recording Sources
+
+- [[lore/recording-notes/Recording 2026-02-06.md|Recording 2026-02-06]]
+
+
+- [[lore/recording-notes/Recording 2026-02-13.md|Recording 2026-02-13]]

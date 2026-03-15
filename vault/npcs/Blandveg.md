@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Blandveg.md|Blandveg]]"
+title: Blandveg
 tags:
-  - npc
   - npc
 aliases:
   - Unknown human alchemist

@@ -1,11 +1,13 @@
 ---
 tags:
   - lore
+  - culture/archontean
+  - culture/thorcin
 ---
 
-# [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Character Creation Rules (2025-03-06)
+# [[locations/Arden Vul.md|Arden Vul]] Character Creation Rules (2025-03-06)
 
-This document outlines the specific rules for character creation in the DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] campaign, building upon the Dungeon Fantasy Roleplaying Game (DFRPG) base rules.
+This document outlines the specific rules for character creation in the DFRPG [[locations/Arden Vul.md|Arden Vul]] campaign, building upon the Dungeon Fantasy Roleplaying Game (DFRPG) base rules.
 
 ## Core Character Generation
 - **Base System:** Dungeon Fantasy Roleplaying Game (DFRPG) is the base rules set. Anything from the rest of GURPS requires GM approval.
@@ -28,17 +30,17 @@ This document outlines the specific rules for character creation in the DFRPG [[
 - **Available Racial Templates:** Dwarf, Elf, Half-Elf, [[Halfling]], Human, and [[Imperial Goblin]].
 - **Unavailable Races:** Cat-folk, half-orcs, half-ogres, gnomes.
 - **Native Languages (per race):**
-    - **Human:** Choose from [[Archontean]], [[Thorcin]], [[Wiskin]], or [[Khumus]]. Default is [[Archontean]] if none chosen.
+    - **Human:** Choose from [[lore/Archontean.md|Archontean]], [[lore/Thorcin.md|Thorcin]], [[Wiskin]], or [[Khumus]]. Default is [[lore/Archontean.md|Archontean]] if none chosen.
     - **Elf:** [[Elvish]].
-    - **Half-Elf:** Choose from [[Archontean]], [[Thorcin]], [[Wiskin]], [[Khumus]], or [[Elvish]]. Can take a second native language if raised in both cultures.
+    - **Half-Elf:** Choose from [[lore/Archontean.md|Archontean]], [[lore/Thorcin.md|Thorcin]], [[Wiskin]], [[Khumus]], or [[Elvish]]. Can take a second native language if raised in both cultures.
     - **Dwarf:** [[Dwarvish]].
-    - **[[Halfling]]**: [[Archontean]].
-    - **[[Imperial Goblin]]**: [[Archontean]].
+    - **[[Halfling]]**: [[lore/Archontean.md|Archontean]].
+    - **[[Imperial Goblin]]**: [[lore/Archontean.md|Archontean]].
 
 - **Important Languages in the Area:**
-    - **[[Archontean]]**: More urban and ruling class.
-    - **[[Thorcin]]**: More rural and working class.
-    - **[[Mithric]]**: The language of the ancient [[Archontean Empire]], currently a "dead" native language but essential for magic, some religions, and scholars. Spellbooks and scrolls are written in [[Mithric]], so mages and clerics should know it.
+    - **[[lore/Archontean.md|Archontean]]**: More urban and ruling class.
+    - **[[lore/Thorcin.md|Thorcin]]**: More rural and working class.
+    - **[[Mithric]]**: The language of the ancient [[lore/Archontean Empire.md|Archontean Empire]], currently a "dead" native language but essential for magic, some religions, and scholars. Spellbooks and scrolls are written in [[Mithric]], so mages and clerics should know it.
 - **Language Levels:** Allowed to take languages at Accented or Broken levels for fewer points (using GURPS Basic [[npcs/Set.md|Set]] rules in GCS).
 
 ## Equipment and Economy
@@ -52,7 +54,7 @@ This document outlines the specific rules for character creation in the DFRPG [[
     - **Electrum:** $5 (rarely used)
     - **Gold:** $10
     - **Platinum:** $50
-    - PCs can largely use GURPS dollars and ignore exact coins unless weight is a factor. Coins are available in GCS under Home Brew / [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Equipment.
+    - PCs can largely use GURPS dollars and ignore exact coins unless weight is a factor. Coins are available in GCS under Home Brew / [[locations/Arden Vul.md|Arden Vul]] Equipment.
 
 ## Perks
 

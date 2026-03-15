@@ -2,7 +2,6 @@
 title: "Analyze Magic"
 tags:
   - spell
-  - spell
 ---
 # Analyze Magic
 

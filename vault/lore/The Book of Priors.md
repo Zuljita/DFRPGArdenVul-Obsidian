@@ -1,13 +1,14 @@
 ---
 tags:
   - lore
+  - tradition/thothian
 ---
 
 # The Book of Priors
 
 6 volumes, in Mithric
 
-Written by a succession of [[Thothian]] priors, started by [[Gaius Probus]] in 937 AEP,
+Written by a succession of [[lore/Thothian.md|Thothian]] priors, started by [[Gaius Probus]] in 937 AEP,
 continuing until 1782 AEP.
 
 ## History:

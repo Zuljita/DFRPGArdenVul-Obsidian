@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 19: The Pool of Donkey Ears"
+title: "DFRPG Arden Vul Session 19: The Pool of Donkey Ears"
 tags:
-  - session
   - session
   - recap
 session_id: 19
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 19: The Pool of Donkey Ears
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 19: The Pool of Donkey Ears
 
 Date: 
 
@@ -47,7 +46,7 @@ Lion construct
 
 Ioannes was not available, so the group visited the [[factions/Grudge Brigade.md|Grudge Brigade]] to hire a mercenary.  The mercenary on call was the annoying elf [[npcs/Coinbase.md|Coinbase]], who immediately started trying to sell everyone on his new illusion-based tactical assistance system and also on the GOAT's new living (and thus able to be Levitated) wheelbarrow, available for sale soon.  As part of his continuing attempt to make friends and influence people, Vallium bought another (regular) wheelbarrow load of food.
 
-When they reached the [[locations/Long Stair.md|Long Stair]] up to the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], Vael and [[npcs/Coinbase.md|Coinbase]] decided to Levitate themselves up, while the others roped themselves together and started hiking.  The ropes were a good idea, as Uvash slipped and went right over the edge, but Vallium and Michael yanked him back up.
+When they reached the [[locations/Long Stair.md|Long Stair]] up to the ruins of [[locations/Arden Vul.md|Arden Vul]], Vael and [[npcs/Coinbase.md|Coinbase]] decided to Levitate themselves up, while the others roped themselves together and started hiking.  The ropes were a good idea, as Uvash slipped and went right over the edge, but Vallium and Michael yanked him back up.
 
 They pushed the wheelbarrow all the way to the north end of the ruins, where Kronos's guards occupying the northern gate towers hailed them and engaged them in a brief conversation.  Nobody had any significant news to share, so they headed west to the Broken Head.  Kronos himself was outside supervising his staff, and Vallium sold him half of his wheelbarrow of provisions at cost.  Kronos was happy to make the deal and asked if anyone wanted to come into the inn for a drink, but Vael said that they didn't want to drink and delve but might come back later.
 
@@ -77,11 +76,11 @@ The group continued east, and saw some orange Continual Light coming from a room
 
 Everyone went west from the fountain, then south into a room with 3 more sarcophagi and a bunch of small holes in the floor.  Everyone except Vallium and Uvash stepped out of the room.  Uvash tried to detect undead, and didn't find any.  Vallium opened a sarcophagus lid.  A bunch of spears came out of the floor, stabbing the armored legs and feet of both of them.  Fortunately, none of the spears managed to penetrate their armor.  Uvash left the room, and Vallium climbed up on top of the sarcophagus, out of spear reach, to continue his looting.  The first sarcophagus contained another mummy, along with some rusty mail and a shield.  Vallium unwrapped the mummy to find more jade jewelry.  He repeated the process with the other two sarcophagi, avoiding the spear holes, and got some more jewelry as well as a couple of maces, a scroll, and a small pouch of silver coins.
 
-Judging that they had enough treasure for the day, the group carefully traced their steps back over the chasm bridge, through the illusory wall, up the spiral stairs, and retrieved their wheelbarrow.  They then headed up to the surface ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], south to the [[locations/Long Stair.md|Long Stair]], down the cliff face, and back to [[locations/Gosterwick.md|Gosterwick]].  Their luck held on the hot summer day, and nothing attacked them on the way home.
+Judging that they had enough treasure for the day, the group carefully traced their steps back over the chasm bridge, through the illusory wall, up the spiral stairs, and retrieved their wheelbarrow.  They then headed up to the surface ruins of [[locations/Arden Vul.md|Arden Vul]], south to the [[locations/Long Stair.md|Long Stair]], down the cliff face, and back to [[locations/Gosterwick.md|Gosterwick]].  Their luck held on the hot summer day, and nothing attacked them on the way home.
 
 GM's Notes:
 
-[[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]'s got 1100 pages of intricate level design with complicated factions and deep history, but it's also got magic pools that can give you donkey ears, like some TSR adventure from 1978 written under the influence of [[npcs/Thoth.md|Thoth]]-knows-what.  Fantastic.
+[[locations/Arden Vul.md|Arden Vul]]'s got 1100 pages of intricate level design with complicated factions and deep history, but it's also got magic pools that can give you donkey ears, like some TSR adventure from 1978 written under the influence of [[npcs/Thoth.md|Thoth]]-knows-what.  Fantastic.
 
 I thought Vael was the PC least suited to the solo combat scenario against [[npcs/Thoth.md|Thoth]]'s pet lion statue, but he demonstrated that if you can fly, your opponent can't reach you or run away, and you have any ranged attacks with lots of ammo, you will eventually win.  No style points, but he won.  Also, "up" is a valid direction for Blink if the ceiling is high enough, and this is particularly useful if you have Levitation on.
 

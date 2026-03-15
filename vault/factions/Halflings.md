@@ -1,7 +1,6 @@
 ---
-title: "[[factions/Halflings.md|Halflings]]"
+title: Halflings
 tags:
-  - faction
   - faction
 aliases:
   - "[[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halflings"
@@ -38,4 +37,4 @@ Smallfolk with an organized gang presence in the Halls (e.g., [[npcs/Phlebotomas
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]
-- [[Session 8b and 9 - Muirasso's Tomb and the Broken Head|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]
+- [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]

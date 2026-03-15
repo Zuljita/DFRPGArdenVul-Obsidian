@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]"
+title: Ptoh-Ristus
 tags:
-  - npc
   - npc
 appears_in:
   - "Session 27 - The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]"

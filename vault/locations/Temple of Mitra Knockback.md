@@ -1,7 +1,6 @@
 ---
-title: "Temple of [[npcs/Mitra.md|Mitra]] Knockback"
+title: Temple of Mitra Knockback
 tags:
-  - location
   - location
 ---
 # Temple of [[npcs/Mitra.md|Mitra]] Knockback

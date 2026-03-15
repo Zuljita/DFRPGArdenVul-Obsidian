@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Briar.md|Briar]]"
+title: Briar
 tags:
-  - npc
   - npc
 ---
 # [[npcs/Briar.md|Briar]]

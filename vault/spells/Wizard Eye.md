@@ -2,7 +2,6 @@
 title: "Wizard Eye"
 tags:
   - spell
-  - spell
 ---
 # Wizard Eye
 

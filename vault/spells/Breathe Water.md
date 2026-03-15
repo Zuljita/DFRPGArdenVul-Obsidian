@@ -2,7 +2,6 @@
 title: "Breathe Water"
 tags:
   - spell
-  - spell
 ---
 # Breathe Water
 

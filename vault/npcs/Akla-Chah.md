@@ -1,23 +1,24 @@
 ---
-title: "[[npcs/Akla-Chah.md|Akla-Chah]]"
+title: Akla-Chah
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 31 - I Want to Believe"
-  - "Session 32 - Fast Exploration"
-  - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
-  - Akla-Chan, hologram of a [[factions/Rudishva.md|Rudishva]] artificial intelligence psychologist
+- npc
 aliases:
-  - [[npcs/Akla-Chah.md|Akla-Chah]], [[factions/Rudishva.md|Rudishva]] hologram therapist
-  - [[npcs/[[npcs/Akla-Chah.md|Akla-Chah]].md|[[npcs/Akla-Chah.md|Akla-Chah]]]]
-  - Akla-Chan
-  - Akla-Chan, hologram of a [[factions/Rudishva.md|Rudishva]] artificial intelligence psychologist
+- '[[npcs/Akla-Chah.md|Akla-Chah]], [[factions/Rudishva.md|Rudishva]] hologram therapist'
+- '[[npcs/[[npcs/Akla-Chah.md|Akla-Chah]].md|[[npcs/Akla-Chah.md|Akla-Chah]]]]'
+- Akla-Chan
+- Akla-Chan, hologram of a [[factions/Rudishva.md|Rudishva]] artificial intelligence
+  psychologist
+appears_in:
+- Session 31 - I Want to Believe
+- Session 32 - Fast Exploration
+- '[[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]'
+- Akla-Chan, hologram of a [[factions/Rudishva.md|Rudishva]] artificial intelligence
+  psychologist
 ---
 # [[npcs/Akla-Chah.md|Akla-Chah]]
 
 ## Summary
-[[Akla-Chah]] is a [[Rudishva]] hologram/AI therapist residing in the [[Beacon]]. She provides questioning, training, and occasional language practice; speaks [[Archontean]] with a curious inflection. She is knowledgeable about [[Rudishva]] customs, including their funeral rites.
+[[Akla-Chah]] is a [[Rudishva]] hologram/AI therapist residing in the [[Beacon]]. She provides questioning, training, and occasional language practice; speaks [[lore/Archontean.md|Archontean]] with a curious inflection. She is knowledgeable about [[Rudishva]] customs, including their funeral rites.
 
 ## Knowledge & Abilities
 - **[[factions/Rudishva.md|Rudishva]] Funeral Rites:** [[npcs/Akla-Chah.md|Akla-Chah]] can describe various [[Rudishva]] funeral traditions:
@@ -28,7 +29,8 @@ aliases:
 - **Therapeutic Abilities:** Good at asking questions and functions as a therapist or psychologist.
 
 ## Notes
-- In [[Session 33 - Nyema]], [[Stamelis]] was brought to the [[Beacon]] to keep her company.
+- In [[sessions/Session 33 - Nyema.md]], [[Stamelis]] was brought to the [[Beacon]] to keep her company.
+- In [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]], the party successfully contacted [[Akla-Chah]] from [[locations/Gosterwick.md|Gosterwick]] via communication bracelet, confirming practical remote contact range.
 
 ## Sessions
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]

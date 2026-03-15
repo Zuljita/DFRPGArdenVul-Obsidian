@@ -1,12 +1,13 @@
 ---
 tags:
   - faction
+  - culture/archontean
 ---
 
 # The Ten
 
 ## Summary
-The ten major gods of the [[Archontean Empire]]'s pantheon, forming the core of the state-sponsored religion.
+The ten major gods of the [[lore/Archontean Empire.md|Archontean Empire]]'s pantheon, forming the core of the state-sponsored religion.
 
 ## Goals
 To maintain their divine influence and guide the mortal world according to their respective domains.

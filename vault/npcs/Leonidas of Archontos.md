@@ -1,7 +1,6 @@
 ---
-title: "Leonidas of [[locations/Archontos.md|Archontos]]"
+title: Leonidas of Archontos
 tags:
-  - npc
   - npc
 aliases:
 ---

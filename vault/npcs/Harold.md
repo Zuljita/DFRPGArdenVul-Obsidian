@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Harold.md|Harold]]"
+title: Harold
 tags:
-  - npc
   - npc
 aliases:
 ---

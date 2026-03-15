@@ -2,7 +2,6 @@
 title: "Affect Spirits"
 tags:
   - spell
-  - spell
 ---
 # Affect Spirits
 

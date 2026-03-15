@@ -2,7 +2,6 @@
 title: "Ring of Free Action"
 tags:
   - item
-  - item
 ---
 ---
 title: "Ring of Free Action"

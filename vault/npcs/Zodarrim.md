@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Zodarrim.md|Zodarrim]]"
+title: Zodarrim
 tags:
-  - npc
   - npc
   - deity
 appears_in:

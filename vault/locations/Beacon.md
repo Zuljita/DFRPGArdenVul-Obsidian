@@ -1,7 +1,6 @@
 ---
-title: "[[locations/Beacon.md|Beacon]]"
+title: Beacon
 tags:
-  - location
   - location
 ---
 # [[locations/Beacon.md|Beacon]]
@@ -39,7 +38,7 @@ A system of oval keycards is used to operate doors:
     - Research using books found within the [[locations/Beacon.md|Beacon]].
     - Language training with [[Akla-Chah]].
     - General base improvements.
-- **Food & Drink:** A machine in [[Akla-Chah]]'s room dispenses "[[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Cakes" and "[[factions/Rudishva.md|Rudishva]] booze." It is unknown how long this will function.
+- **Food & Drink:** A machine in [[Akla-Chah]]'s room dispenses "[[locations/Arden Vul.md|Arden Vul]] Cakes" and "[[factions/Rudishva.md|Rudishva]] booze." It is unknown how long this will function.
 - **Facilities:** There is no privy; party members must travel elsewhere (e.g., the [[Arcane Practitioners' Club]]) for facilities.
 
 ## Residents
@@ -61,3 +60,10 @@ A system of oval keycards is used to operate doors:
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
+
+## Recording Sources
+
+- [[lore/recording-notes/Recording 2025-05-16.md|Recording 2025-05-16]]
+- [[lore/recording-notes/Recording 2026-01-30.md|Recording 2026-01-30]]
+- [[lore/recording-notes/Recording 2026-02-06.md|Recording 2026-02-06]]
+- [[lore/recording-notes/Recording 2026-02-13.md|Recording 2026-02-13]]

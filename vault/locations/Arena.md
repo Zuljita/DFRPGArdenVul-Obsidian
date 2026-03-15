@@ -1,7 +1,6 @@
 ---
-title: "[[locations/Arena.md|Arena]]"
+title: Arena
 tags:
-  - location
   - location
   - iconic
 appears_in:
@@ -9,7 +8,7 @@ appears_in:
 ---
 # [[locations/Arena.md|Arena]]
 
-Iconic location within the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], associated with goblin activity and arena bouts.
+Iconic location within the ruins of [[locations/Arden Vul.md|Arden Vul]], associated with goblin activity and arena bouts.
 
 ## Appears In
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]

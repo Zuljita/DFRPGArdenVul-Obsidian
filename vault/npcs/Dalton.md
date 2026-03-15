@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Dalton.md|Dalton]]"
+title: Dalton
 tags:
-  - npc
   - npc
 aliases:
 ---

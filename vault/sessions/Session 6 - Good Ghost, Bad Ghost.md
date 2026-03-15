@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 6: Good Ghost, Bad Ghost"
+title: "DFRPG Arden Vul Session 6: Good Ghost, Bad Ghost"
 tags:
-  - session
   - session
   - recap
 session_id: 6
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 6: Good Ghost, Bad Ghost
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 6: Good Ghost, Bad Ghost
 
 Date:
 
@@ -46,7 +45,7 @@ In [[locations/Gosterwick.md|Gosterwick]], Ioannes did some additional research 
 
 Michael was still out wandering in the wilderness, and Vael was busy studying (or possibly customizing his new wizard robes), so the group was an adventurer short this week.  They hired [[npcs/Ashe Maykum.md|Ashe Maykum]], the goat-summoning druid, from the [[factions/Grudge Brigade.md|Grudge Brigade]].  There was some discussion on whether to visit the [[locations/Great Cavern.md|Great Cavern]] again or bring food to the beastmen, but Vallium suggested avoiding the Cavern since they didn't have a wizard with Levitation to deal with cliffs and water.  Instead they would just go down the [[locations/Great Pyramid.md|Great Pyramid]] stairs and investigate unexplored parts of the Halls of [[npcs/Thoth.md|Thoth]]. 
 
-They woke before dawn, and walked uneventfully toward [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] on a warm spring day.  At the base of the waterfall, [[npcs/Ashe Maykum.md|Ashe Maykum]] used a Water Vision spell to see through all the spray, and made out a couple of cave entrances, behind the waterfall and 30 to 40 feet underwater.  While [[npcs/Ashe Maykum.md|Ashe Maykum]] was staring into the water, Ioannes noticed a crumbling tower near the side of the road, and suggested (via gestures because the waterfall was too loud for speech) that they check it out.
+They woke before dawn, and walked uneventfully toward [[locations/Arden Vul.md|Arden Vul]] on a warm spring day.  At the base of the waterfall, [[npcs/Ashe Maykum.md|Ashe Maykum]] used a Water Vision spell to see through all the spray, and made out a couple of cave entrances, behind the waterfall and 30 to 40 feet underwater.  While [[npcs/Ashe Maykum.md|Ashe Maykum]] was staring into the water, Ioannes noticed a crumbling tower near the side of the road, and suggested (via gestures because the waterfall was too loud for speech) that they check it out.
 
 The group entered the remains of the tower.  The top levels had fallen, but the ground level was fairly intact.  Vallium poked around in the rubble and found what he thought was a trap door to a cellar.  [[npcs/Ashe Maykum.md|Ashe Maykum]] cast Shape Earth to help move rubble out of the way.  Vallium opened the trap door, and a terrifying ghost emerged, yelling something about Settite murderers.
 
@@ -177,7 +176,7 @@ Amusingly, none of the monsters they found this session had any treasure (unless
 
 Achievements:
 
-The Archon's Palace was an [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Iconic Location
+The Archon's Palace was an [[locations/Arden Vul.md|Arden Vul]] Iconic Location
 
 XP: 
 Exploration: 6 new locations explored, good for 1 XP
@@ -189,7 +188,7 @@ Next week:
 There was more smack talk about the halflings.  We'll see if they actually decide to fight them, or if they keep exploring other areas.
 
 2025-04-28
-All the Ways the PCs Know They Can Go in [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]
+All the Ways the PCs Know They Can Go in [[locations/Arden Vul.md|Arden Vul]]
 One of the players posted a list of all the ways they could explore next on the campaign Discord.  Here's a shortened version:
 
 
@@ -197,7 +196,7 @@ One of the players posted a list of all the ways they could explore next on the 
 2 caves behind the waterfall (beneath 35-40' of rough water)
 Ruined tower near the base of the waterfall (ghost)
 Secret entrance 2/3 of the way up the [[locations/Long Stair.md|Long Stair]], leading to the [[locations/Great Cavern.md|Great Cavern]]
-Ruins of the city of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]
+Ruins of the city of [[locations/Arden Vul.md|Arden Vul]]
 Northern island
 Multiple watch towers
 Square tower near Forum with bronze double doors
@@ -215,7 +214,7 @@ Pyramid of [[npcs/Thoth.md|Thoth]], move statue east
 Black portal (demons)
 [[npcs/Selket.md|Selket]] statue, teleporter to [[locations/Great Hall.md|Great Hall]] (beastmen)
 
-At least so far, [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] has a large branching factor.  The PCs choose where to explore, and then instead of having one less choice (as they would if they exhausted a dead end), they usually find a couple more choices.
+At least so far, [[locations/Arden Vul.md|Arden Vul]] has a large branching factor.  The PCs choose where to explore, and then instead of having one less choice (as they would if they exhausted a dead end), they usually find a couple more choices.
 
 This makes prepping the dungeon more difficult for the GM, because I can't always guess where players will go next, so I have to have a lot of areas prepared.  This is probably good though, because it gives me incentive to prep more each week, so I'll finish prepping the whole adventure sooner.
 

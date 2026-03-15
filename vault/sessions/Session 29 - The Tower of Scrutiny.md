@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 29: The Tower of Scrutiny"
+title: "DFRPG Arden Vul Session 29: The Tower of Scrutiny"
 tags:
-  - session
   - session
   - recap
 session_id: 29
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 29: The Tower of Scrutiny
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 29: The Tower of Scrutiny
 
 Date: 
 Horasday, 26th of Besemios, 2993 AE 
@@ -47,9 +46,9 @@ The Plan:
 
 
 Vallium's plan for the week was:
-Leave one Rug of Instant Access at an apartment in the Arcane Practitioners' Club in [[locations/Gosterwick.md|Gosterwick]] and then teleport to it from the other Rug every mile or so on the way to [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], to find the Rugs' maximum range.
+Leave one Rug of Instant Access at an apartment in the Arcane Practitioners' Club in [[locations/Gosterwick.md|Gosterwick]] and then teleport to it from the other Rug every mile or so on the way to [[locations/Arden Vul.md|Arden Vul]], to find the Rugs' maximum range.
 Leave the set of silver chess pieces they found last week on the dam as tribute for [[npcs/Craastonistorex.md|Craastonistorex]].
-Try exploring the square tower next to the Forum in the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]].  First try to get in the front door, then search for secret doors, then see if the Eyes of [[npcs/Set.md|Set]] allowed seeing through the darkness on the stairs down from the roof, then try using ropes or magical flight to send someone down the stairs.
+Try exploring the square tower next to the Forum in the ruins of [[locations/Arden Vul.md|Arden Vul]].  First try to get in the front door, then search for secret doors, then see if the Eyes of [[npcs/Set.md|Set]] allowed seeing through the darkness on the stairs down from the roof, then try using ropes or magical flight to send someone down the stairs.
 Go through the Pyramid of [[npcs/Thoth.md|Thoth]] to the Well of Light, check on [[npcs/Yamki.md|Yamki]] and the baboons, give the baboons some food if they're behaving, and trade [[npcs/Trefko.md|Trefko]] a live goat (teleported in from [[locations/Gosterwick.md|Gosterwick]] using the Rugs) for his Dwarven Life-Stone.  Give [[npcs/Trefko.md|Trefko]] a sheet to cover the mirror at the bottom of the Well when the party isn't using it, rather than having baboons poop on it.
 Explore the exit up from the Well of Light, northwest of the [[items/Ruby Chair.md|Ruby Chair]].
 Explore the [[locations/Howling Caves.md|Howling Caves]] beyond the portcullis.
@@ -59,7 +58,7 @@ Go shopping at the [[locations/Goblin Market.md|Goblin Market]].
 What Actually Happened:
 
 
-The Right for Riches company, without Vael or Michael but with [[npcs/Coinbase.md|Coinbase]] the head [[factions/Grudge Brigade.md|Grudge Brigade]] Mercenary, left [[locations/Gosterwick.md|Gosterwick]] just before dawn on Horasday.  They had a Rug of Instant Access spread out in one apartment, and a live goat left in another apartment (not the same one with the Rug).  On the ten-mile walk to the [[locations/Cliff Face.md|Cliff Face]] below [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], they stopped every mile or so, spread out the Rug, and used it to teleport someone to [[locations/Gosterwick.md|Gosterwick]] and back.  When they reached the [[locations/Cliff Face.md|Cliff Face]], everyone except [[npcs/Coinbase.md|Coinbase]] stepped through the Rug, [[npcs/Coinbase.md|Coinbase]] Levitated up the [[locations/Cliff Face.md|Cliff Face]] with the Rug, and then everyone stepped back through the Rug to join [[npcs/Coinbase.md|Coinbase]] at the top of the cliff.  Overall, playing with the Rugs took a couple of minutes, but not having to walk all the way up the [[locations/Long Stair.md|Long Stair]] saved over an hour, so this shortened the trip by about an hour while proving that the Rugs' range was at least ten miles.
+The Right for Riches company, without Vael or Michael but with [[npcs/Coinbase.md|Coinbase]] the head [[factions/Grudge Brigade.md|Grudge Brigade]] Mercenary, left [[locations/Gosterwick.md|Gosterwick]] just before dawn on Horasday.  They had a Rug of Instant Access spread out in one apartment, and a live goat left in another apartment (not the same one with the Rug).  On the ten-mile walk to the [[locations/Cliff Face.md|Cliff Face]] below [[locations/Arden Vul.md|Arden Vul]], they stopped every mile or so, spread out the Rug, and used it to teleport someone to [[locations/Gosterwick.md|Gosterwick]] and back.  When they reached the [[locations/Cliff Face.md|Cliff Face]], everyone except [[npcs/Coinbase.md|Coinbase]] stepped through the Rug, [[npcs/Coinbase.md|Coinbase]] Levitated up the [[locations/Cliff Face.md|Cliff Face]] with the Rug, and then everyone stepped back through the Rug to join [[npcs/Coinbase.md|Coinbase]] at the top of the cliff.  Overall, playing with the Rugs took a couple of minutes, but not having to walk all the way up the [[locations/Long Stair.md|Long Stair]] saved over an hour, so this shortened the trip by about an hour while proving that the Rugs' range was at least ten miles.
 
 After reaching the ruins, they walked over to the dam and left a silver Archontean chess set as tribute for the dragon.  They then walked over to the squat square tower by the Forum, where they had long ago found locked doors, bodies on the roof, and stairs down into impenetrable magical darkness.  This time the doors were still locked, and none of the many keys on Vallium's keyring fit.  The whole group circled the base of the tower looking for secret doors, and Uvash found one on the back side of the tower.  Everyone took a close look and nobody saw an obvious way to open it, until Ioannes found a small keyhole.  None of Vallium's keys fit, and nobody had lockpicks or a Lockmaster spell, and the door looked like very sturdy stone that they would not be able to break through, so they gave up on opening the secret door.
 

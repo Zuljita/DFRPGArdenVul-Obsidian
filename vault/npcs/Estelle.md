@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Estelle.md|Estelle]]"
+title: Estelle
 tags:
-  - npc
   - npc
 aliases:
 ---

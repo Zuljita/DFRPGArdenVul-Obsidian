@@ -1,12 +1,12 @@
 ---
-title: "[[npcs/Sanguinette.md|Sanguinette]]"
+title: Sanguinette
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 27 - The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]"
+- npc
 aliases:
-  - [[npcs/Sanguinette.md|Sanguinette]], [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]'s bat familiar
+- '[[npcs/Sanguinette.md|Sanguinette]], [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister
+  Valya -Basilisk- Hushbreaker]]''s bat familiar'
+appears_in:
+- Session 27 - The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]
 ---
 # [[npcs/Sanguinette.md|Sanguinette]]
 

@@ -2,7 +2,7 @@
 title: "Slime Kraken"
 tags:
   - monster
-  - 
+  - None
 type: monster
 aliases:
 ---

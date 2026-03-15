@@ -2,7 +2,6 @@
 title: "Michael J. Dundee"
 tags:
   - pc
-  - pc
 aliases:
   - Michael J Dundee
   - Michael
@@ -12,7 +11,7 @@ aliases:
 ## Appears In
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
-- [[Session 8b and 9 - Muirasso's Tomb and the Broken Head|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]
+- [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]
 - [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
 - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
 - [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15 - The Great Cavern Re-Revisited]]

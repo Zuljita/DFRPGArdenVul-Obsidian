@@ -1,7 +1,6 @@
 ---
-title: "Voice of [[npcs/Thoth.md|Thoth]]"
+title: Voice of Thoth
 tags:
-  - npc
   - npc
 aliases:
 ---

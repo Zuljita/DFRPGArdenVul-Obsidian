@@ -1,14 +1,13 @@
 ---
-title: "[[npcs/Anaximander.md|Anaximander]]"
+title: Anaximander
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 22 - The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light"
-  - "Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]"
+- npc
 aliases:
-  - [[npcs/Anaximander.md|Anaximander]], ancient insane cleric of [[npcs/Mitra.md|Mitra]]
-  - [[npcs/Anaximander.md|Anaximander]], ancient sage and cleric of [[npcs/Mitra.md|Mitra]]
+- '[[npcs/Anaximander.md|Anaximander]], ancient insane cleric of [[npcs/Mitra.md|Mitra]]'
+- '[[npcs/Anaximander.md|Anaximander]], ancient sage and cleric of [[npcs/Mitra.md|Mitra]]'
+appears_in:
+- Session 22 - The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light
+- Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
 ---
 # [[npcs/Anaximander.md|Anaximander]]
 

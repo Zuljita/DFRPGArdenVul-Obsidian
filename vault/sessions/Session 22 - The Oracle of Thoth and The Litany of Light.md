@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 22: The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light"
+title: "DFRPG Arden Vul Session 22: The Oracle of Thoth and The Litany of Light"
 tags:
-  - session
   - session
   - recap
 session_id: 22
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 22: The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 22: The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light
 
 Date: 
 Basilsday, 9nd of Gerakios, 2993 AE 
@@ -43,7 +42,7 @@ Ioannes did some research on the copy of the Litany of Light they had found in t
 
 Vallium decided the company should try to finish exploring the Well of Light level (except the caves full of baboons), try installing the mirror below the Well of Light, and have Ioannes conduct the Litany of Light if willing and able.  Michael was still off in the mountains somewhere and Uvash had a church emergency, so the shorthanded party hired [[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]] the bloodthirsty elf archer.  She asked if it was time to kill the halflings yet, then came along to kill whatever else they needed her to kill.
 
-They got up early on a sunny Basilsday, made good time to the cliff face beneath [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], then tied themselves together and climbed up the [[locations/Long Stair.md|Long Stair]] (except Vael, who didn't believe in climbing when you could Levitate).  They made it to the top without any problems and hiked to the top of the Well of Light.  Vael cast Flight on Vallium, who carried Ioannes down the Well, while Vael Levitated down and [[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]] used Walk on Air to walk down the well as if there were an invisible spiral staircase.  This time, there were no baboon hordes waiting for them at the bottom, so they were able to rest safely.
+They got up early on a sunny Basilsday, made good time to the cliff face beneath [[locations/Arden Vul.md|Arden Vul]], then tied themselves together and climbed up the [[locations/Long Stair.md|Long Stair]] (except Vael, who didn't believe in climbing when you could Levitate).  They made it to the top without any problems and hiked to the top of the Well of Light.  Vael cast Flight on Vallium, who carried Ioannes down the Well, while Vael Levitated down and [[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]] used Walk on Air to walk down the well as if there were an invisible spiral staircase.  This time, there were no baboon hordes waiting for them at the bottom, so they were able to rest safely.
 
 They went west, then north, and found a door that was spiked shut.  They prepared for battle and Vallium ripped the spikes out.  Opening the door revealed 6 angry ghouls.  A quick fight ensued, where Vallium stabbed the ghouls, [[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]] show the ghouls, Ioannes finished off one ghoul with his axe, and Vael supervised while preparing a Great Haste spell just in case they needed it.  They did not.  Digging through the trash in the room found a few platinum coins, a tall bronze magic helmet shaped like an inverted flowerpot, and a wand.  They grabbed the treasure, unspiked a second door into the room for good measure, then continued exploring north and west.
 

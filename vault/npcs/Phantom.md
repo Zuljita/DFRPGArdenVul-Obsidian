@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Phantom.md|Phantom]]"
+title: Phantom
 tags:
-  - npc
   - npc
 appears_in:
   - "Session 7 - Why Did It Have to Be Plants?"

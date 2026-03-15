@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Count Skleros.md|Count Skleros]]"
+title: Count Skleros
 tags:
-  - npc
   - npc
 aliases:
 ---

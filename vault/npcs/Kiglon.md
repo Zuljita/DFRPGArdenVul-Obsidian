@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Kiglon.md|Kiglon]]"
+title: Kiglon
 tags:
-  - npc
   - npc
 aliases:
 ---

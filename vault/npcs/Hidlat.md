@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Hidlat.md|Hidlat]]"
+title: Hidlat
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]"
+- npc
 aliases:
-  - [[npcs/Hidlat.md|Hidlat]], [[npcs/Set.md|Set]] wizard
+- '[[npcs/Hidlat.md|Hidlat]], [[npcs/Set.md|Set]] wizard'
+appears_in:
+- Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
 ---
 # [[npcs/Hidlat.md|Hidlat]]
 

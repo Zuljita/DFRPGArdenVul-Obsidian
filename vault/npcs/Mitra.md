@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Mitra.md|Mitra]]"
+title: Mitra
 tags:
-  - npc
   - npc
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
@@ -20,7 +19,7 @@ appears_in:
 ## History
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]] — And here are some other locations they've heard about but not actually visited: Temples of [[npcs/Mitra.md|Mitra]], [[npcs/Lucreon.md|Lucreon]], and [[npcs/Heschius Ban.md|Heschius Ban]].
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]] — Remembering a rumor about pig-headed creatures kidnapping a cleric and a reward offered for her recovery, Vael asked if the unseen speaker knew anything about a priestess of [[npcs/Mitra.md|Mitra]] named [[npcs/Lillian.md|Lillian]] and offered to pay for her safe return.
-- [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 14: Behind the [[locations/Waterfall.md|Waterfall]] Again Date: Demmasday, 13th of Jelenius, 2993 AE Weather: Cool, overcast Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented...
+- [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 14: Behind the [[locations/Waterfall.md|Waterfall]] Again Date: Demmasday, 13th of Jelenius, 2993 AE Weather: Cool, overcast Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented...
   - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — Father [[npcs/Vivian.md|Vivian]] said the woman needed stronger healing magic than he knew, and recommended Mother Jador at the [[locations/Temple of Mitra.md|Temple of Mitra]].
 - [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — When they got back to [[locations/Gosterwick.md|Gosterwick]], Vallium took the old man to the [[locations/Temple of Mitra.md|Temple of Mitra]], who told him that the man's name was [[npcs/Fetch.md|Fetch]] and he had apparently been a slave to the baboons for most of his life, and di...
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]] — Vael learned location spells (Seeker, Pathfinder, Trace) and searched for the [[locations/Troll Lifts.md|Troll Lifts]] and [[npcs/Lillian.md|Lillian]], the missing cleric of [[npcs/Mitra.md|Mitra]].

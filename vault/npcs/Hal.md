@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Hal.md|Hal]]"
+title: Hal
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 32 - Fast Exploration"
+- npc
 aliases:
-  - [[npcs/Hal.md|Hal]], varumani barkeeper
+- '[[npcs/Hal.md|Hal]], varumani barkeeper'
+appears_in:
+- Session 32 - Fast Exploration
 ---
 # [[npcs/Hal.md|Hal]]
 

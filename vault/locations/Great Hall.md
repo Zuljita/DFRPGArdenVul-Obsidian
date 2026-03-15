@@ -1,7 +1,6 @@
 ---
-title: "[[locations/Great Hall.md|Great Hall]]"
+title: Great Hall
 tags:
-  - location
   - location
 appears_in:
   - "Session 4 - Cheese and Crackers and [[npcs/Thoth.md|Thoth]] and Demons"

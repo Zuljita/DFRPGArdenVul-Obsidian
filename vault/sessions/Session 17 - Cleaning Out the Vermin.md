@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 17: Cleaning Out the Vermin"
+title: "DFRPG Arden Vul Session 17: Cleaning Out the Vermin"
 tags:
-  - session
   - session
   - recap
 session_id: 17
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 17: Cleaning Out the Vermin
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 17: Cleaning Out the Vermin
 
 Date: 
 Demmasday, 4th of Masporios, 2993 AE 
@@ -40,7 +39,7 @@ Dust monster
 
 ## Full Recap
 
-With Vael, Uvash, Michael, and Ioannes all busy, Vallium decided to hire the same pair of [[factions/Grudge Brigade.md|Grudge Brigade]] mercenaries as last time, and explore more of the ruined basement that [[npcs/Jost.md|Jost]] had showed them.  They brought a wheelbarrow full of food as trade goods.  It was a hot dry day, so footing was good on the [[locations/Long Stair.md|Long Stair]], and they did not encounter anything of note on the way to the ruins.  They continued north through the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], past the Obilisk of the Sun, through the Forum, past the creepy square tower, to the ruined building west of the Pyramid of [[npcs/Thoth.md|Thoth]].
+With Vael, Uvash, Michael, and Ioannes all busy, Vallium decided to hire the same pair of [[factions/Grudge Brigade.md|Grudge Brigade]] mercenaries as last time, and explore more of the ruined basement that [[npcs/Jost.md|Jost]] had showed them.  They brought a wheelbarrow full of food as trade goods.  It was a hot dry day, so footing was good on the [[locations/Long Stair.md|Long Stair]], and they did not encounter anything of note on the way to the ruins.  They continued north through the ruins of [[locations/Arden Vul.md|Arden Vul]], past the Obilisk of the Sun, through the Forum, past the creepy square tower, to the ruined building west of the Pyramid of [[npcs/Thoth.md|Thoth]].
 
 They headed down the stairs into the ruined basement, initially leaving the wheelbarrow behind.  The stairs entered a large rectangular room with the roof supported by columns, with debris and trash all over the floor, along with a couple of relatively fresh bodies.  Vallium first circled the room to find the exits, then came back to search the corpses.  Both had necrotic skin and some bite marks.  One wore scale armor and the other had mail, and one was clutching a potion that looked magic.  They stripped off the armor and took the potion, then went back up the stairs to get the wheelbarrow, and left it just behind the stairs, with the armor inside.
 

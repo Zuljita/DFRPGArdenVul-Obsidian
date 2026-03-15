@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]]"
+title: Barnaby Goodbarrel
 tags:
-  - npc
   - npc
 appears_in:
   - "Session 25 - Looking for the Back Door to the Forum of [[npcs/Set.md|Set]]"

@@ -1,14 +1,13 @@
 ---
-title: "[[npcs/Ptarmis.md|Ptarmis]]"
+title: Ptarmis
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 5 - Parleys and The [[locations/Great Cavern.md|Great Cavern]]"
-  - "Session 6 - Good Ghost, Bad Ghost"
-  - "Session 30 - The Tomb of Theskalon"
+- npc
 aliases:
-  - [[npcs/Ptarmis.md|Ptarmis]], strange robed human
+- '[[npcs/Ptarmis.md|Ptarmis]], strange robed human'
+appears_in:
+- Session 5 - Parleys and The [[locations/Great Cavern.md|Great Cavern]]
+- Session 6 - Good Ghost, Bad Ghost
+- Session 30 - The Tomb of Theskalon
 ---
 # [[npcs/Ptarmis.md|Ptarmis]]
 
@@ -29,7 +28,7 @@ Mysterious [[npcs/Thoth.md|Thoth]]‑aligned wizard tied to the fungal caverns n
 - Thothian orders: strong association in inscriptions and lore; ambiguous across eras.
 
 ## History
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 5: Parleys and [[locations/Great Cavern.md|The Great Cavern]] Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 5: Parleys and [[locations/Great Cavern.md|The Great Cavern]] Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
   - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — The man identified himself as [[npcs/Ptarmis.md|Ptarmis]], the master of the cavern.
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]] — Vallium again tried finding rumors about [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halfling gang in various drinking establishments, and instead heard something about [[npcs/Ptarmis.md|Ptarmis]], a wizard who lived in the fungal caverns.
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]] — The lead forester talked about how cool [[npcs/Ptarmis.md|Ptarmis]] was and how much he liked the living wheelbarrow and asked if they were friends of [[npcs/Ptarmis.md|Ptarmis]].

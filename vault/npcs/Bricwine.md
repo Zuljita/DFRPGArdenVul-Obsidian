@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Bricwine.md|Bricwine]]"
+title: Bricwine
 tags:
-  - npc
   - npc
 aliases:
   - "[[npcs/Bricwine.md|Bricwine]], bartender at the [[locations/Yellow Cloak Inn.md|Yellow Cloak Inn]]"

@@ -2,7 +2,6 @@
 title: "Well of Light"
 tags:
   - location
-  - location
   - entrance
 aliases:
   - The Well of Light
@@ -39,12 +38,17 @@ Extends from the surface into the underground levels of [[Arden Vul]].
 ## Tags
 
 ## Notes
+- In [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]], the party uncovered the debris-choked mirror at the bottom of the well, redirected light through nearby mirrors, then used levitation to evacuate before nearby baboons pressed into the area.
 - The party performed the [[Litany of Light]] here in [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]].
 
 ## Sessions
+- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
 - [[sessions/Session 18 - Back Down the Well of Light.md|Session 18 - Back Down the Well of Light]]
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]
 - [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
+
+## Recording Sources
+- [[lore/recording-notes/Recording 2025-03-28.md|Recording 2025-03-28]]

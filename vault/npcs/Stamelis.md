@@ -1,14 +1,13 @@
 ---
-title: "[[npcs/Stamelis.md|Stamelis]]"
+title: Stamelis
 tags:
-  - npc
-  - npc
+- npc
 aliases:
-  - [[npcs/Stamelis.md|Stamelis]], animated head, formerly Librarian of [[npcs/Thoth.md|Thoth]]
-  - [[npcs/Stamelis.md|Stamelis]], enchanted head of a Thothian librarian
-  - [[npcs/Stamelis.md|Stamelis]]
-  - Animated bust of [[npcs/Stamelis.md|Stamelis]], Librarian of [[npcs/Thoth.md|Thoth]]
-  - Magically animated head of [[npcs/Stamelis.md|Stamelis]]
+- '[[npcs/Stamelis.md|Stamelis]], animated head, formerly Librarian of [[npcs/Thoth.md|Thoth]]'
+- '[[npcs/Stamelis.md|Stamelis]], enchanted head of a Thothian librarian'
+- '[[npcs/Stamelis.md|Stamelis]]'
+- Animated bust of [[npcs/Stamelis.md|Stamelis]], Librarian of [[npcs/Thoth.md|Thoth]]
+- Magically animated head of [[npcs/Stamelis.md|Stamelis]]
 ---
 # [[npcs/Stamelis.md|Stamelis]]
 

@@ -2,7 +2,6 @@
 title: "Licinia the Seer"
 tags:
   - npc
-  - npc
 aliases:
 ---
 # Licinia the Seer

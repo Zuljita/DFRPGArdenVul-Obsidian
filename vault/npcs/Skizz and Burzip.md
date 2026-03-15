@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Skizz and Burzip.md|Skizz and Burzip]] and Burzip"
+title: Skizz and Burzip and Burzip
 tags:
-  - npc
   - npc
 aliases:
   - [[npcs/Skizz and Burzip.md|Skizz and Burzip]]

@@ -2,7 +2,6 @@
 title: "The Hekate's Bonds"
 tags:
   - spell
-  - spell
 ---
 # The Hekate's Bonds
 

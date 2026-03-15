@@ -1,15 +1,15 @@
 ---
-title: "Angry scary ghost"
 type: monster
 tags:
   - monster
-  - classification/undead
+  - alias
 aliases:
+  - Angry Ghost
+  - Tower Ghost
 ---
+
 # Angry scary ghost
 
-## Summary
-- TODO: Short description.
+Alias/encounter label for [[npcs/Yrtol.md|Yrtol]].
 
-## Appears In
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+See canonical page: [[npcs/Yrtol.md|Yrtol]].

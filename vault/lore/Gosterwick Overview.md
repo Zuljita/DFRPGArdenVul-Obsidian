@@ -1,6 +1,8 @@
 ---
 tags:
   - lore
+  - culture/archontean
+  - culture/thorcin
 ---
 
 # [[locations/Gosterwick.md|Gosterwick]] Overview
@@ -14,7 +16,7 @@ This document compiles various pieces of information regarding the town of [[Gos
 - **[[Torunn the Smith]]**: A big [[Wiskin]] woman, renowned as the best smith in [[Gosterwick]]. She makes metal weapons and armor, distinguishing between Good, Fine, Balanced, and Dwarven quality. She has several apprentices, handling "The Good Stuff" herself.
 - **[[Shrine of Lucreon]]**: A classic, three-chamber structure. The ante-cella (front) for congregation, the cella (middle) for main rituals, and the postern (back, unconnected) for administrative offices and clergy apartments. The main cultic object is a colossal granite statue of [[Lucreon]], holding a money bag. A magical mystery causes coins dropped into an offering chest to appear in the air and fall into the statue's bag. Clerics empty the bag nightly.
 - **[[Temple of Mitra]]**: A circular stone structure with a portico and an impressive pediment depicting [[Mitra]] dispensing justice. Inside, a statue of [[Mitra]] holds the scales of justice, where worshippers place offerings. Apartments and bureaucratic offices are built into the wall circling the main shrine.
-- **[[Lady Alexia Basileon]]**: An [[Archontean]] noblewoman who, about 20 years ago, moved into [[Gosterwick]] with [[Knights of the Azure Shield]] and built a keep, leading to the town's expansion.
+- **[[Lady Alexia Basileon]]**: An [[lore/Archontean.md|Archontean]] noblewoman who, about 20 years ago, moved into [[Gosterwick]] with [[Knights of the Azure Shield]] and built a keep, leading to the town's expansion.
 - **[[Yellow Cloak Inn]]**: A good quality inn at a reasonable price, near the [[Central Market]]. It's a 5-story building with a 3-story addition, offering reception, lounge, common rooms (upper-class and main), guest rooms, dormitories, and stables. Cost of living is $150/week for a room and 3 meals. Staff include [[Margot the Red]] (innkeeper), [[Bricwine]] (upper-class bartender), and [[Helle]] (main common room bartender).
 - **[[The Stunned Acolyte]]**: A much more expensive inn, catering to rich patrons where dinner is paid in gold.
 - **[[Baliff's Truncheon]]**: One of [[locations/Gosterwick.md|Gosterwick]]'s taverns.
@@ -37,7 +39,7 @@ This document compiles various pieces of information regarding the town of [[Gos
 
 ## Town Overview
 
-- **History**: Originally a tiny [[Thorcin]] farming village, it grew into a town of a couple thousand people after [[Lady Alexia Basileon]] established the [[Azure Keep]] 20 years ago.
+- **History**: Originally a tiny [[lore/Thorcin.md|Thorcin]] farming village, it grew into a town of a couple thousand people after [[Lady Alexia Basileon]] established the [[Azure Keep]] 20 years ago.
 - **Layout**: Walled keep in the northeast by a lake. Walls are mostly a dirt berm with two gatehouses. Most buildings are near the keep, with isolated buildings like stables and [[Arcane Practitioners' Club]]. Large wooden guard houses are in empty areas.
-- **Services**: Many for a small town: several inns, 4 full temples, small shrines, an [[Archontean]]-style bathhouse, bars, government buildings, pawn shop, money changer, banking factors, and a bookseller.
+- **Services**: Many for a small town: several inns, 4 full temples, small shrines, an [[lore/Archontean.md|Archontean]]-style bathhouse, bars, government buildings, pawn shop, money changer, banking factors, and a bookseller.
 - **Economy**: Has the feel of a boom town, with significant money flowing into the area, drawing people to [[Gosterwick]].

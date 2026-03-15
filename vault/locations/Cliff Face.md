@@ -1,7 +1,6 @@
 ---
-title: "[[locations/Cliff Face.md|Cliff Face]]"
+title: Cliff Face
 tags:
-  - location
   - location
   - entrance
 ---
@@ -14,7 +13,7 @@ The imposing natural cliff that forms a significant boundary and defensive featu
 Surface/Exterior.
 
 ## Aliases
-- The Cliffs of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]
+- The Cliffs of [[locations/Arden Vul.md|Arden Vul]]
 
 ## Connections
 - [[Long Stair]] (main access point)

@@ -1,0 +1,33 @@
+---
+title: "Basil of Narsileon"
+aliases:
+  - Basil
+tags:
+  - npc
+  - gender/unknown
+  - race/human
+  - profession/hireling
+---
+
+# Basil of Narsileon
+
+## Summary
+Basil is a young Archontean man from [[locations/Narsileon.md|Narsileon]], rescued from Tikun Thane's slave-training operation and hired by the party for non-combat Beacon support work.
+
+## Notes
+- Distinct person from [[npcs/Sir Basil.md|Sir Basil]] (Azure Shield knight) and unrelated to imperial Basileon/Basil naming in calendar lore.
+- Basil reported he was captured by Settite slavers, held in a slave pit, then sold to Tikun Thane at the Forum of Set and taken through a portal to the Tower of the Ape.
+- In the tower he and two other slaves were trained as Disciplined under coercion; the loser of bouts was whipped.
+- In [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]], he was freed and hired to assist Akla-Chah and Stamelis (page-turning/assistant duties with literacy training intent).
+- Working terms (GM blurb): $100/week + room/board, one day off per week in Gosterwick (using Rugs when practical), and confidentiality pledge.
+- In [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]], Basil provided labor support while Vael expanded the Annex library/storage at the Beacon.
+- In [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]], Basil handled practical setup at the [[locations/Beacon.md|Beacon]] while the party prepared exploration plans.
+- In [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]], Basil processed and sorted battlefield loot/logistics at the Beacon.
+- In [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]], Basil was tasked not to disturb a trapped stone chest moved to the Beacon.
+
+## Appears In
+- [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
+- [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
+- [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
+- [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
+- [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]]

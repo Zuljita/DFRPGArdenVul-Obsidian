@@ -6,10 +6,10 @@ tags:
 # [[npcs/Heschius Ban.md|Heschius Ban]]
 
 ## Summary
-[[npcs/Heschius Ban.md|Heschius Ban]] is an [[Archontean]] god of power.
+[[npcs/Heschius Ban.md|Heschius Ban]] is an [[lore/Archontean.md|Archontean]] god of power.
 
 ## First Appearance
-Mentioned in the "Announcing DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]" document as one of the four major Archontean gods with a temple in [[Gosterwick]].
+Mentioned in the "Announcing DFRPG [[locations/Arden Vul.md|Arden Vul]]" document as one of the four major Archontean gods with a temple in [[Gosterwick]].
 
 ## Disposition
 Described as having "disturbing things" associated with him.

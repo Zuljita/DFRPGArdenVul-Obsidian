@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 23A: Gelatinous Cube and Slime Kraken"
+title: "DFRPG Arden Vul Session 23A: Gelatinous Cube and Slime Kraken"
 tags:
-  - session
   - session
   - recap
 session_id: 23a
 in_world_date: Basilsday, 16th of Gerakios, 2993 AE
 ---
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 23A: Gelatinous Cube and Slime Kraken
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 23A: Gelatinous Cube and Slime Kraken
 
 Date: 
 Basilsday, 16th of Gerakios, 2993 AE 
@@ -40,7 +39,7 @@ Several [[npcs/Set.md|Set]] guards
 
 Vallium formulated a plan to rescue [[npcs/Lillian.md|Lillian]].  They would avoid the halflings, bribe the beastmen (who rumor claimed had taken [[npcs/Lillian.md|Lillian]]) with food for information on [[npcs/Lillian.md|Lillian]] or for her release, bring her back to the Church of [[npcs/Mitra.md|Mitra]], and profit.
 
-The first part of the plan went pretty well.  They loaded up their mule with food and took it up to the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]].  Not wanting to take the mule into the Halls, they instead took it to the Sign of the Broken Head and paid Kronos for boarding.  They then loaded the food into a wheelbarrow, went down through the basement entrance to avoid the halflings, and headed south toward the beastmen.
+The first part of the plan went pretty well.  They loaded up their mule with food and took it up to the ruins of [[locations/Arden Vul.md|Arden Vul]].  Not wanting to take the mule into the Halls, they instead took it to the Sign of the Broken Head and paid Kronos for boarding.  They then loaded the food into a wheelbarrow, went down through the basement entrance to avoid the halflings, and headed south toward the beastmen.
 
 On the way, they searched for secret doors in the Thothian burial niches, and found one.  Opening it up found a crypt containing some elaborate sarcophagi and 4 angry ghouls.  The ghouls surprised Michael, but failed to hurt him.  A quick battle ensued, with Michael and Vallium smacking down the ghouls.  The grave goods included a couple of magical white gold rings, a high quality spear, and some silver torcs and alabaster urns.  The party took the light loot and left the heavy stuff in the secret tomb to grab on the way out.
 
@@ -58,7 +57,7 @@ Giving up on finding another door, they went back to the heavy door, and Vael us
 
 Heading east, they found another room with doors south and east.  The southern door was spiked shut.  Vael confirmed that [[npcs/Lillian.md|Lillian]] was still southwest, so they pulled the spikes and went south.  They saw doors south and west.  The western room was small and completely trashed.
 
-To the south, however, was a very large room, containing a circular pool with a statue of [[npcs/Thoth.md|Thoth]] inside it.  The temple had been thoroughly and deliberately trashed, and both clerics felt like it was a place of negative sanctity.  There was some anti-[[npcs/Thoth.md|Thoth]] graffiti on the walls, and a picture of a crocodile eating an ibis, indicating that the vandalism was probably the work of [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]].  Worse, when Vallium went into the room, a lot of tentacles emerged from the pool to grab him.  Everyone retreated back north out of the room, with Vallium chopping off a couple of the tentacles as he parried their attacks.
+To the south, however, was a very large room, containing a circular pool with a statue of [[npcs/Thoth.md|Thoth]] inside it.  The temple had been thoroughly and deliberately trashed, and both clerics felt like it was a place of negative sanctity.  There was some anti-[[npcs/Thoth.md|Thoth]] graffiti on the walls, and a picture of a crocodile eating an ibis, indicating that the vandalism was probably the work of [[factions/Cult of Set.md|Cult of Set]].  Worse, when Vallium went into the room, a lot of tentacles emerged from the pool to grab him.  Everyone retreated back north out of the room, with Vallium chopping off a couple of the tentacles as he parried their attacks.
 
 After some discussion, the group decided they needed to get past the tentacle beast, but since they now knew it was there, they could buff themselves first.  Vael would cast Great Haste on the fighters, while Ioannes cast Flaming Weapon.  Vael flubbed his first couple of attempts to Great Haste Michael, but the third try worked, and then Michael opened the door and charged south.  He ran right into the pool, not slowed because of his Ring of Free Action, and started cutting off tentacles as the slime kraken tried dragging him under.  At one point it looked like Michael critically failed an attack and crippled his own shield arm, but his Bless spell sacrificed itself and prevented the self-inflicted attack.  A few seconds later, Vallium also came charging into the room at double speed, and now the slime beast was surrounded.  Both Vallium and Michael kept cutting off tentacles, then went after its body.  With all its tentacles gone, the beast started biting with its beak.  Uvash used Divine Grace then followed them into the room, but Michael finished the slime creature off with multiple rapid strikes from behind before Uvash arrived.
 

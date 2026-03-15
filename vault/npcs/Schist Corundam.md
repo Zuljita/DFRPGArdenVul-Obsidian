@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Schist Corundam.md|Schist Corundam]]"
+title: Schist Corundam
 tags:
-  - npc
   - npc
 aliases:
   - Schist of Clan Corundam

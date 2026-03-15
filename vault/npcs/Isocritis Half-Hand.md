@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/[[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]] Half-Hand.md|[[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]] Half-Hand]]"
+title: "Isocritis Half-Hand Half-Hand.md|Isocritis Half-Hand Half-Hand]]"
 tags:
-  - npc
   - npc
 aliases:
   - [[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]]

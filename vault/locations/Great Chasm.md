@@ -1,7 +1,6 @@
 ---
-title: "[[locations/Great Chasm.md|Great Chasm]]"
+title: Great Chasm
 tags:
-  - location
   - location
 appears_in:
   - "Session 8a - Never Trust a Scorpion"

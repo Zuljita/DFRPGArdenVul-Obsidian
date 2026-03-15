@@ -2,7 +2,6 @@
 title: "Shape Water"
 tags:
   - spell
-  - spell
 ---
 # Shape Water
 

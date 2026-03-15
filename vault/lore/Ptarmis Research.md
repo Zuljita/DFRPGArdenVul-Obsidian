@@ -1,6 +1,8 @@
 ---
 tags:
   - lore
+  - culture/archontean
+  - tradition/thothian
 ---
 
 # [[npcs/Ptarmis.md|Ptarmis]] Research
@@ -13,7 +15,7 @@ tags:
 
 [[Ioannes]] then conducted research on [[Ptarmis]], learning the following:
 
-- [[Ptarmis]] was a famous [[Thothian]] priest from long ago, active in the early days of [[Arden Vul]].
-- He is credited with discovering the [[Great Cavern]] and bringing it under [[Archontean]] control.
+- [[Ptarmis]] was a famous [[lore/Thothian.md|Thothian]] priest from long ago, active in the early days of [[Arden Vul]].
+- He is credited with discovering the [[Great Cavern]] and bringing it under [[lore/Archontean.md|Archontean]] control.
 - He apparently also bred [[giant mushrooms]].
 - One source claims he left his family and church behind to live with his mushrooms, "like some kind of weird Druid."

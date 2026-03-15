@@ -1,7 +1,6 @@
 ---
-title: "Tomb of [[npcs/Jacobus.md|Jacobus]]"
+title: Tomb of Jacobus
 tags:
-  - location
   - location
 ---
 # Tomb of [[npcs/Jacobus.md|Jacobus]]

@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Palteon.md|Palteon]]"
+title: Palteon
 tags:
-  - npc
   - npc
 appears_in:
   - "Session 8a - Never Trust a Scorpion"

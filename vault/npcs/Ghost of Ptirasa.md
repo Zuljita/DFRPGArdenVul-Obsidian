@@ -1,7 +1,6 @@
 ---
-title: "Ghost of [[npcs/Ptirasa.md|Ptirasa]]"
+title: Ghost of Ptirasa
 tags:
-  - npc
   - npc
 aliases:
 ---

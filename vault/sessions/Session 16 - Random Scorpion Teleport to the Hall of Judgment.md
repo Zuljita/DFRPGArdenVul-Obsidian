@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 16: Random Scorpion Teleport to the Hall of Judgment"
+title: "DFRPG Arden Vul Session 16: Random Scorpion Teleport to the Hall of Judgment"
 tags:
-  - session
   - session
   - recap
 session_id: 16
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 16: Random Scorpion Teleport to the Hall of Judgment
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 16: Random Scorpion Teleport to the Hall of Judgment
 
 Date: 
 Demmasday, 27th of Jelenius, 2993 AE 
@@ -51,7 +50,7 @@ Jason, [[npcs/Helga.md|Helga]], [[npcs/Heliagabulus.md|Heliagabulus]], Isisor, a
 
 With Vael still not back from [[locations/Newmarket.md|Newmarket]] and Uvash still busy trying to set up a new church, the Right for Riches company hired two mercenaries, [[npcs/Thronebreaker.md|Thronebreaker]] and Chrysalis.  After some brief ritualistic discussion about killing [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halflings, they decided to go down the less traveled steps into the Pyramid of [[npcs/Thoth.md|Thoth]] and use the Scorpion teleporter, even though they were not sure where it would take them.
 
-They bought a wheelbarrow full of food as trade goods, and walked all the way to the [[locations/Cliff Face.md|Cliff Face]], then climbed all the way up the [[locations/Long Stair.md|Long Stair]] to the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], and reached the Pyramid of [[npcs/Thoth.md|Thoth]] with no significant encounters.  They pushed both of the statue's arms straight up to open the less-used entrance, and didn't even bother spiking it open.  They proceded down the dusty stairs, past corpses they had already looted, until they reached the area where Vallium thought the slide trap was.  At that point Ioannes suggested tying a rope around Vallium, so that if he triggered the trap he would not fall very far.  However, Vallium managed to jump over the trap without triggering it, and the others followed.  They proceded down the stairs, over the closed lid over the Pit of Bones, and over to the probably-false door that they knew would open the pit.
+They bought a wheelbarrow full of food as trade goods, and walked all the way to the [[locations/Cliff Face.md|Cliff Face]], then climbed all the way up the [[locations/Long Stair.md|Long Stair]] to the ruins of [[locations/Arden Vul.md|Arden Vul]], and reached the Pyramid of [[npcs/Thoth.md|Thoth]] with no significant encounters.  They pushed both of the statue's arms straight up to open the less-used entrance, and didn't even bother spiking it open.  They proceded down the dusty stairs, past corpses they had already looted, until they reached the area where Vallium thought the slide trap was.  At that point Ioannes suggested tying a rope around Vallium, so that if he triggered the trap he would not fall very far.  However, Vallium managed to jump over the trap without triggering it, and the others followed.  They proceded down the stairs, over the closed lid over the Pit of Bones, and over to the probably-false door that they knew would open the pit.
 
 While listening to the door Just In Case, Chrysalis heard what sounded like the skittering of rats above.  Everyone got into ambush position, and put away their light sources since the room was adequately lit by orange Continual Light.  Three undead rats and two ghouls ran into the room, and were not surprised.  They were no match for Vallium Michael, and Chrysalis, though, and the fight was over pretty quickly.
 

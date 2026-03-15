@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Phlebotomas [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]].md|Phlebotomas [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]]]"
+title: "Phlebotomas Plumthorn.md|Phlebotomas Phlebotomas Plumthorn]]"
 tags:
-  - npc
   - npc
   - antagonist
 aliases:

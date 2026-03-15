@@ -1,13 +1,15 @@
 ---
-title: "[[npcs/Wicktrimmer.md|Wicktrimmer]]"
+title: Wicktrimmer
 tags:
-  - npc
-  - npc
+- npc
 aliases:
-  - [[npcs/Wicktrimmer.md|Wicktrimmer]], [[npcs/Imperial Goblin.md|Imperial Goblin]] Leader of the [[factions/Rarities Factor.md|Rarities Factor]]
-  - [[npcs/Wicktrimmer.md|Wicktrimmer]], [[npcs/Imperial Goblin.md|Imperial Goblin]] banker and merchant
-  - [[npcs/Wicktrimmer.md|Wicktrimmer]], [[npcs/Imperial Goblin.md|Imperial Goblin]] banker and trader
-  - [[npcs/Wicktrimmer.md|Wicktrimmer]], Imperial goblin merchant factor
+- '[[npcs/Wicktrimmer.md|Wicktrimmer]], [[npcs/Imperial Goblin.md|Imperial Goblin]]
+  Leader of the [[factions/Rarities Factor.md|Rarities Factor]]'
+- '[[npcs/Wicktrimmer.md|Wicktrimmer]], [[npcs/Imperial Goblin.md|Imperial Goblin]]
+  banker and merchant'
+- '[[npcs/Wicktrimmer.md|Wicktrimmer]], [[npcs/Imperial Goblin.md|Imperial Goblin]]
+  banker and trader'
+- '[[npcs/Wicktrimmer.md|Wicktrimmer]], Imperial goblin merchant factor'
 ---
 # [[npcs/Wicktrimmer.md|Wicktrimmer]]
 

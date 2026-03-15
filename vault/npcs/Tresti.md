@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Tresti.md|Tresti]]"
+title: Tresti
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 16 - Random Scorpion Teleport to the Hall of Judgment"
+- npc
 aliases:
-  - [[npcs/Tresti.md|Tresti]], Half-Elven wizard prisoner
+- '[[npcs/Tresti.md|Tresti]], Half-Elven wizard prisoner'
+appears_in:
+- Session 16 - Random Scorpion Teleport to the Hall of Judgment
 ---
 # [[npcs/Tresti.md|Tresti]]
 

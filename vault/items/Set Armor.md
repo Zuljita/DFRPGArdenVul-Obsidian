@@ -1,5 +1,5 @@
 ---
-title: "[[npcs/Set.md|Set]] Armor"
+title: Set Armor
 tags:
   - item
   - item/armor

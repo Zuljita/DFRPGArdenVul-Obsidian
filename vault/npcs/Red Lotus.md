@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Red [[npcs/Lotus.md|Lotus]].md|Red [[npcs/Lotus.md|Lotus]]]]"
+title: "Lotus.md|Red Lotus]]"
 tags:
-  - npc
   - npc
 appears_in:
   - "Session 32 - Fast Exploration"

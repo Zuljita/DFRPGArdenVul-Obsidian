@@ -2,7 +2,6 @@
 title: "The Bracteros Effect"
 tags:
   - spell
-  - spell
 ---
 # The Bracteros Effect
 

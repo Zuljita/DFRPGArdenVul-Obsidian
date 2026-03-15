@@ -1,6 +1,7 @@
 ---
 tags:
   - lore
+  - culture/thorcin
 ---
 
 # [[locations/Yellow Cloak Inn.md|Yellow Cloak Inn]] Details
@@ -26,7 +27,7 @@ A standard $150/week cost of living covers a room and three meals per day.
 ## Staff
 
 The inn is run by:
-- **[[Margot the Red]]**: The innkeeper, a [[Thorcin]] woman.
+- **[[Margot the Red]]**: The innkeeper, a [[lore/Thorcin.md|Thorcin]] woman.
 - **[[Bricwine]]**: [[Margot the Red|Margot's]] husband, who serves as the upper-class bartender.
 - **[[Helle]]**: A [[Wiskin]] woman, who tends bar in the main common room.
 

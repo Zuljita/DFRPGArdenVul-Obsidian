@@ -1,10 +1,8 @@
 ---
-title: "[[factions/Archontean Empire.md|Archontean Empire]]"
+title: Archontean Empire
 tags:
   - faction
-  - faction
-
-
+  - culture/archontean
 ---
 # [[factions/Archontean Empire.md|Archontean Empire]]
 

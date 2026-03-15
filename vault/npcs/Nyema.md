@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Nyema.md|Nyema]]"
+title: Nyema
 tags:
-  - npc
   - npc
 aliases:
 ---
@@ -16,5 +15,5 @@ The deceased wife of the ghost [[Yrtol]]. The party recovered her body from the 
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 
 ## Notes
-- In [[Session 33 - Nyema]], the party followed a map created by [[Temrin]] to find [[npcs/Nyema.md|Nyema]]'s body in a crocodile pool in the [[Temple of Set]].
+- In [[sessions/Session 33 - Nyema.md]], the party followed a map created by [[Temrin]] to find [[npcs/Nyema.md|Nyema]]'s body in a crocodile pool in the [[Temple of Set]].
 - They recovered her body and her platinum torc, and buried her in front of [[Yrtol]]'s tower.

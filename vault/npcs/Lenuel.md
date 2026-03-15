@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Lenuel.md|Lenuel]]"
+title: Lenuel
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]"
+- npc
 aliases:
-  - [[npcs/Lenuel.md|Lenuel]], [[npcs/Set.md|Set]] jailer
+- '[[npcs/Lenuel.md|Lenuel]], [[npcs/Set.md|Set]] jailer'
+appears_in:
+- Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
 ---
 # [[npcs/Lenuel.md|Lenuel]]
 

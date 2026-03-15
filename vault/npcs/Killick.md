@@ -1,13 +1,13 @@
 ---
-title: "[[npcs/Killick.md|Killick]]"
+title: Killick
 tags:
-  - npc
-  - npc
+- npc
 aliases:
-  - [[npcs/Killick.md|Killick]]
-  - [[npcs/Killick.md|Killick]], goblin Big Boss of the [[locations/Wet Caves.md|Wet Caves]]
-  - [[npcs/Killick.md|Killick]], big boss of the [[locations/Wet Caves.md|Wet Caves]]
-  - [[npcs/Killick.md|Killick]], goblin boss of the [[locations/Wet Caves.md|Wet Caves]]
+- '[[npcs/Killick.md|Killick]]'
+- '[[npcs/Killick.md|Killick]], goblin Big Boss of the [[locations/Wet Caves.md|Wet
+  Caves]]'
+- '[[npcs/Killick.md|Killick]], big boss of the [[locations/Wet Caves.md|Wet Caves]]'
+- '[[npcs/Killick.md|Killick]], goblin boss of the [[locations/Wet Caves.md|Wet Caves]]'
 ---
 # [[npcs/Killick.md|Killick]]
 

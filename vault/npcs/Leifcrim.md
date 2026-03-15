@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Leifcrim.md|Leifcrim]]"
+title: Leifcrim
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 26 - The Scouring of the Shire"
+- npc
 aliases:
-  - [[npcs/Leifcrim.md|Leifcrim]], halfling curios and magic items merchant
+- '[[npcs/Leifcrim.md|Leifcrim]], halfling curios and magic items merchant'
+appears_in:
+- Session 26 - The Scouring of the Shire
 ---
 # [[npcs/Leifcrim.md|Leifcrim]]
 

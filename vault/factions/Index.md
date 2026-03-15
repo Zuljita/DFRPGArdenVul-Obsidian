@@ -1,6 +1,8 @@
 ---
 tags:
   - faction
+  - culture/archontean
+  - culture/thorcin
 ---
 
 # Factions Index

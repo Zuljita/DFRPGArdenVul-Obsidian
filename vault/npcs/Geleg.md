@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Geleg.md|Geleg]]"
+title: Geleg
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]"
+- npc
 aliases:
-  - [[npcs/Geleg.md|Geleg]], captured wizard
+- '[[npcs/Geleg.md|Geleg]], captured wizard'
+appears_in:
+- Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
 ---
 # [[npcs/Geleg.md|Geleg]]
 

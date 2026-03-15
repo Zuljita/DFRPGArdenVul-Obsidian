@@ -2,7 +2,6 @@
 title: "Larel's Pin"
 tags:
   - item
-  - item
 ---
 # Larel's Pin
 

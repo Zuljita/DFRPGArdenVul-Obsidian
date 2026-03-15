@@ -1,10 +1,9 @@
 ---
-title: "[[npcs/Muirasso.md|Muirasso]]"
+title: Muirasso
 tags:
-  - npc
-  - npc
+- npc
 aliases:
-  - [[npcs/Muirasso.md|Muirasso]] (Wight)
+- '[[npcs/Muirasso.md|Muirasso]] (Wight)'
 ---
 # [[npcs/Muirasso.md|Muirasso]]
 

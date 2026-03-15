@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Azgallatu.md|Azgallatu]]"
+title: Azgallatu
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]"
+- npc
 aliases:
-  - [[npcs/Azgallatu.md|Azgallatu]], captured cleric of [[npcs/Mitra.md|Mitra]]
+- '[[npcs/Azgallatu.md|Azgallatu]], captured cleric of [[npcs/Mitra.md|Mitra]]'
+appears_in:
+- Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
 ---
 # [[npcs/Azgallatu.md|Azgallatu]]
 

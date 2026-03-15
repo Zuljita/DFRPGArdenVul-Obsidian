@@ -2,7 +2,6 @@
 title: "The Canyon"
 tags:
   - location
-  - location
   - entrance
 ---
 # The Canyon

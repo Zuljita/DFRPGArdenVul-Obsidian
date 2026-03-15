@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Umsko.md|Umsko]]"
+title: Umsko
 tags:
-  - npc
   - npc
 aliases:
 ---

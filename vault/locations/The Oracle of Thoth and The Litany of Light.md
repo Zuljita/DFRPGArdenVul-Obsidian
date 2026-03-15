@@ -1,7 +1,6 @@
 ---
-title: "The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light"
+title: The Oracle of Thoth and The Litany of Light
 tags:
-  - location
   - location
 ---
 # The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light

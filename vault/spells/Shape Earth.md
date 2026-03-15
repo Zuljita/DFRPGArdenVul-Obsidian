@@ -2,7 +2,6 @@
 title: "Shape Earth"
 tags:
   - spell
-  - spell
 ---
 # Shape Earth
 

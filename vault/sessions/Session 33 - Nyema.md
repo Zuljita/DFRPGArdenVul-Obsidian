@@ -81,3 +81,7 @@ The party follows a magic map to find the body of [[Nyema]], the wife of the gho
 - Get the new magic map from [[Temrin]].
 - Try the teleporters with the complete set of six colored squares.
 - Magically expand the area next to the [[Beacon]].
+
+## Sources
+
+- [[lore/recording-notes/Recording 2025-11-28.md|Recording Notes (2025-11-28)]]

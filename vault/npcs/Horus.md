@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Horus.md|Horus]]"
+title: Horus
 tags:
-  - npc
   - npc
 ---
 # [[npcs/Horus.md|Horus]]

@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Isidor.md|Isidor]]"
+title: Isidor
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 8a - Never Trust a Scorpion"
+- npc
 aliases:
-  - [[npcs/Isidor.md|Isidor]], halfling adventurer (with [[npcs/Dalton.md|Dalton]])
+- '[[npcs/Isidor.md|Isidor]], halfling adventurer (with [[npcs/Dalton.md|Dalton]])'
+appears_in:
+- Session 8a - Never Trust a Scorpion
 ---
 # [[npcs/Isidor.md|Isidor]]
 

@@ -1,15 +1,21 @@
 ---
-title: "[[locations/Gosterwick.md|Gosterwick]]"
+title: Gosterwick
 tags:
-  - location
   - location
 ---
 # [[locations/Gosterwick.md|Gosterwick]]
 
 [[locations/Gosterwick.md|Gosterwick]] is a rapidly growing "boom town" located about 10 miles south of the ruins of [[Arden Vul]].
 
+## Regional Context
+- A pre-campaign briefing described [[locations/Newmarket.md|Newmarket]] as a larger town about three days south of Gosterwick.
+- The same discussion referenced [[locations/Narsileon.md|Narsileon]] as a major city roughly 400 miles away.
+
+## Sessions
+- [[sessions/Session 0 - Campaign Setup and Character Q&A.md|Session 0 - Campaign Setup and Character Q&A]]
+
 ## History & Layout
-Originally a tiny [[Thorcin]] farming village, [[Gosterwick]]'s expansion began approximately 20 years ago when the [[Archontean]] noblewoman [[Lady Alexia Basileon]] arrived along with a contingent of [[Knights of the Azure Shield]] and built the [[Azure Keep]]. The settlement then began to grow into a town of a couple thousand people. The [[Azure Keep]] is located in the northeast corner of the town by a lake.
+Originally a tiny [[lore/Thorcin.md|Thorcin]] farming village, [[Gosterwick]]'s expansion began approximately 20 years ago when the [[lore/Archontean.md|Archontean]] noblewoman [[Lady Alexia Basileon]] arrived along with a contingent of [[Knights of the Azure Shield]] and built the [[Azure Keep]]. The settlement then began to grow into a town of a couple thousand people. The [[Azure Keep]] is located in the northeast corner of the town by a lake.
 
 The town's walls are not yet complete, consisting mostly of a marked-out dirt berm with two finished gatehouses. Most of the buildings are clustered in the northeast corner near the keep. To compensate for the lack of walls, large wooden guard houses have been erected in the emptier parts of town.
 

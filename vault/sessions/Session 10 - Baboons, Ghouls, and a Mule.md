@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 10: Baboons, Ghouls, and a Mule"
+title: "DFRPG Arden Vul Session 10: Baboons, Ghouls, and a Mule"
 tags:
-  - session
   - session
   - recap
 session_id: 10
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 10: Baboons, Ghouls, and a Mule
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 10: Baboons, Ghouls, and a Mule
 
 Date:
 
@@ -76,7 +75,7 @@ A swarm of bees
 
 
 
-The Left for Loot or Rich for Riches company decided they needed a mule, so they could haul more stuff up and down the [[locations/Long Stair.md|Long Stair]].  They went to the Livestock and Horse Merchant in [[locations/Gosterwick.md|Gosterwick]] and bought a large mule from [[npcs/Sakeon.md|Sakeon]].  He also sold them a bit and bridle and six saddlebags, but Vale declined the saddle.  They then visited the Grain Hall and bought enough various food to fill the saddlebags.  With their heavily laden mule grudgingly following, they hiked from [[locations/Gosterwick.md|Gosterwick]] to the [[locations/Cliff Face.md|Cliff Face]], then up the [[locations/Long Stair.md|Long Stair]] to the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]].  From there they continued north and west to the Sign of the Broken Head.  There, they offered Kronos and [[npcs/Estelle.md|Estelle]] a deal: most of the contents of the saddlebags at a reasonable cost.  Kronos out-dealt them and they ended up giving him an even better deal than they intended, but he threw in mule stabling for up to two weeks.
+The Left for Loot or Rich for Riches company decided they needed a mule, so they could haul more stuff up and down the [[locations/Long Stair.md|Long Stair]].  They went to the Livestock and Horse Merchant in [[locations/Gosterwick.md|Gosterwick]] and bought a large mule from [[npcs/Sakeon.md|Sakeon]].  He also sold them a bit and bridle and six saddlebags, but Vale declined the saddle.  They then visited the Grain Hall and bought enough various food to fill the saddlebags.  With their heavily laden mule grudgingly following, they hiked from [[locations/Gosterwick.md|Gosterwick]] to the [[locations/Cliff Face.md|Cliff Face]], then up the [[locations/Long Stair.md|Long Stair]] to the ruins of [[locations/Arden Vul.md|Arden Vul]].  From there they continued north and west to the Sign of the Broken Head.  There, they offered Kronos and [[npcs/Estelle.md|Estelle]] a deal: most of the contents of the saddlebags at a reasonable cost.  Kronos out-dealt them and they ended up giving him an even better deal than they intended, but he threw in mule stabling for up to two weeks.
 
 
 
@@ -184,7 +183,7 @@ Achievements:
 
 
 
-Found the [[locations/Howling Caves.md|Howling Caves]], an [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Iconic Location
+Found the [[locations/Howling Caves.md|Howling Caves]], an [[locations/Arden Vul.md|Arden Vul]] Iconic Location
 
 
 
@@ -222,3 +221,6 @@ I haven't heard any concrete plans yet.  There was a bit of the usual discussion
 
 2025-05-24
 
+## Sources
+
+- [[lore/recording-notes/Recording 2025-05-16.md|Recording Notes (2025-05-16)]]

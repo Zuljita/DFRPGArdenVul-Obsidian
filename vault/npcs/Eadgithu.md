@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Eadgithu.md|Eadgithu]]"
+title: Eadgithu
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]"
+- npc
 aliases:
-  - [[npcs/Eadgithu.md|Eadgithu]], enslaved Thorcin ranger
+- '[[npcs/Eadgithu.md|Eadgithu]], enslaved Thorcin ranger'
+appears_in:
+- Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
 ---
 # [[npcs/Eadgithu.md|Eadgithu]]
 

@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Anubis.md|Anubis]]"
+title: Anubis
 tags:
-  - npc
   - npc
 ---
 # [[npcs/Anubis.md|Anubis]]

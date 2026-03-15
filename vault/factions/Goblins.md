@@ -1,7 +1,6 @@
 ---
-title: "[[factions/Goblins.md|Goblins]]"
+title: Goblins
 tags:
-  - faction
   - faction
 ---
 # [[factions/Goblins.md|Goblins]]
