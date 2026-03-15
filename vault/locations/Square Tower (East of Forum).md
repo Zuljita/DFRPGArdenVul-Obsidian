@@ -6,12 +6,7 @@ tags:
 # Square Tower (East of Forum)
 
 ## Summary
-A mostly intact, large square tower (40' square and 45' tall) located on the east side of the [[Forum]] in [[Arden Vul]].
-
-## Level
-Surface ruins of [[Arden Vul]].
-
-## Aliases
+A mostly intact, large square tower (40' square and 45' tall) located on the east side of the [[Arden Vul]].
 
 ## Connections
 - Located on the east side of the [[Forum]].
@@ -21,11 +16,7 @@ Surface ruins of [[Arden Vul]].
 ## Residents
 - At least three recent corpses (two humans in scale armor, one halfling in leather armor).
 
-## Tags
-
 ## Notes
 - Has huge bronze double doors that appear magical and have keyholes, but the party decided not to interact with them due to potential traps.
 - Large windows on the top level, without glass, allow entry.
 - The stairs leading down are suspiciously dark, suggesting a possible no mana zone or other hazard.
-
-## Sessions

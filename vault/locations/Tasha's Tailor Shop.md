@@ -3,11 +3,7 @@ tags:
   - location
 ---
 
-# [[npcs/Tasha.md|Tasha]]'s Tailor Shop
-
-## Summary
-A tailor shop in [[Gosterwick]] run by [[Tasha]].
+# [[Gosterwick]].
 
 ## Services
 - Custom embroidered patches, available for $25.
-

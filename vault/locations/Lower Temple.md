@@ -7,15 +7,7 @@ tags:
 
 ## Description
 
-One of the levels or sections within the [[Halls of Arden Vul]], as described in the [[Book of Priors]].
-
-## Key Features
-
-TBD
-
-## Connected Areas
-
-- [[Halls of Arden Vul]]
+One of the levels or sections within the [[Book of Priors]]
 
 ## Inhabitants
 

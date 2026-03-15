@@ -3,11 +3,7 @@ tags:
   - location
 ---
 
-# Southern Necropolis of [[npcs/Set.md|Set]]
-
-## Description
-
-A necropolis dedicated to the [[Cult of Set]]. The tomb of [[Theskalon the Master]] lies to the east of this location.
+# Southern Necropolis of [[Cult of Set]] lies to the east of this location.
 
 ## Key Features
 

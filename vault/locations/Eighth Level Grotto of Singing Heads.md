@@ -14,15 +14,5 @@ The giant carved heads can sing different tunes. If they sing the right tune, th
 ## Level
 Eighth level underground in [[Arden Vul]].
 
-## Aliases
-
-## Connections
-
 ## Residents
 - Giant carved heads (animate)
-
-## Tags
-
-## Notes
-
-## Sessions

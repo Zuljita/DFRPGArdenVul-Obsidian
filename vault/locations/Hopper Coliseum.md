@@ -7,15 +7,7 @@ tags:
 
 ## Description
 
-An old coliseum used by the [[heqeti]] (hoppers). It is located near the tomb of [[Marius Tricotor]].
-
-## Key Features
-
-TBD
-
-## Connected Areas
-
-- Tomb of [[Marius Tricotor]]
+An old coliseum used by the [[Marius Tricotor]]
 
 ## Inhabitants
 

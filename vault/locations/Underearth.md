@@ -7,15 +7,7 @@ tags:
 
 ## Description
 
-A subterranean region where the surviving [[heqeti]] retreated after their defeat by [[Marius Tricotor]].
-
-## Key Features
-
-TBD
-
-## Connected Areas
-
-- [[Heqeti Ziggurat]] (presumably)
+A subterranean region where the surviving [[Marius Tricotor]] (presumably)
 
 ## Inhabitants
 

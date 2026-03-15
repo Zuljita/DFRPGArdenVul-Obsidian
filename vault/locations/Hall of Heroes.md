@@ -7,15 +7,7 @@ tags:
 
 ## Description
 
-A location within the [[Halls of Arden Vul]], described as small in the [[Book of Priors]].
-
-## Key Features
-
-TBD
-
-## Connected Areas
-
-- [[Halls of Arden Vul]]
+A location within the [[Book of Priors]]
 
 ## Inhabitants
 

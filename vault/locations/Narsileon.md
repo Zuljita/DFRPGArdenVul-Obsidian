@@ -3,11 +3,7 @@ tags:
   - location
 ---
 
-# [[locations/Narsileon.md|Narsileon]]
-
-## Description
-
-A city with a large presence of merchant factors. It is home to the [[Rarities Factor]], [[Prosperity Factor]], [[Silent Factor]], [[Golden Band]], [[Wisdom Factor]], and others.
+# [[Rarities Factor]], [[Golden Band]], and others.
 
 ## Key Features
 

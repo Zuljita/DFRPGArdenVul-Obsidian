@@ -3,10 +3,7 @@ title: Temple of Mitra
 tags:
   - location
 ---
-# Temple of [[npcs/Mitra.md|Mitra]]
-
-## Summary
-The Temple of [[npcs/Mitra.md|Mitra]] in [[Gosterwick]] is a circular stone structure fronted by a portico with an impressive pediment.
+# Temple of [[npcs/Mitra.md|Mitra]] is a circular stone structure fronted by a portico with an impressive pediment.
 
 ## Description
 The pediment shows [[Mitra]], dressed in shining mail, striding among worshippers, dispensing justice, and punishing the guilty.
