@@ -12,15 +12,11 @@ aliases:
 ## Connections
 
 - [[npcs/Harold.md|Harold]]
-- [[locations/Arden Vul.md|Arden Vul]] — # DFRPG [[npcs/Craastonistorex.md|Craastonistorex]].
 
-<!-- merged from NPC stub: Plotinus Quartus Claudino -->
 - [[factions/Grudge Brigade.md|Grudge Brigade]], summoned bat Summoned wild boar Summoned cave bears Summoned bat swarms 2 Imperia...
 
-<!-- merged from NPC stub: Sun-Scarred Knight -->
 - [[locations/Tomb of Theskalon.md|The Tomb of Theskalon]].
 
-<!-- merged from NPC stub: Yeth -->
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — The intact statues were "Licinia the Seer", "Plotinus Quartus Claudino, Archon", "Yeth, Who Sought to Bring Law to Chaos", and "Horatius Interfector, Sorcerer." The headless statue with the spark show was "Thrygga the Mighty", and he was...
 
 ## Sessions
