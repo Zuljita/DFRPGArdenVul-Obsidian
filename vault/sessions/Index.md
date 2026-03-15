@@ -39,3 +39,18 @@ tags:
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — Lunday, 9th of Basilembrios, 2993 AE
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]] — Lunday, 21st of Basilembrios, 2993 AE
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
+- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- [[sessions/Session 34a - Hunting the Thane.md|Session 34A - Hunting the Thane]]
+- [[sessions/Session 34b - Tower of the Ape.md|Session 34B - Tower of the Ape]]
+- [[sessions/Session 34c - Burglary and Death.md|Session 34C - Burglary and Death]]
+- [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]]
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
+- [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
+- [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
+- [[sessions/Session 42a - Neferet.md|Session 42A - Neferet]] — Tothsday, 4th Mercedonian Day, 2994 AE
+- [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42B - Neferet and the Wraiths]] — Tothsday, 4th Mercedonian Day, 2994 AE
+- [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43A - Alpha Strike on the Cult of Set]] — Tothsday, 5th of Molivios, 2994 AE
+- [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43B - Alpha Strike on the Cult of Set]] — Tothsday, 5th of Molivios, 2994 AE
