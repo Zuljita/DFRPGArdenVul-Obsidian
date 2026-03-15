@@ -1,10 +1,12 @@
 ---
 tags:
-  - npc
+- npc
 aliases:
-  - The Tower Ghost
-  - Yrtol the Angry Ghost
-  - Angry scary ghost
+- The Tower Ghost
+- Yrtol the Angry Ghost
+- Angry scary ghost
+- npcs/Angry scary ghost
+- monsters/Angry scary ghost
 ---
 
 # Yrtol

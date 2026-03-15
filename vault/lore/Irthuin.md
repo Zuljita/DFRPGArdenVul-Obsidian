@@ -1,8 +1,10 @@
 ---
 tags:
-  - lore
-  - culture/archontean
-  - culture/thorcin
+- lore
+- culture/archontean
+- culture/thorcin
+aliases:
+- npcs/Irthuin
 ---
 
 # Irthuin
