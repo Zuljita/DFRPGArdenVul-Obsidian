@@ -18,7 +18,7 @@ TBD
 - A secret cavern near the [[waterfall]], used for a breeding project.
 - [[Forum of Set]]
 - [[Catacombs of Thoth]]
-- [[Glory of Weskenim]]
+- [[locations/Glory of Thoth.md|Glory of Weskenim]]
 
 ## Inhabitants
 - Members of the [[Cult of Set]]

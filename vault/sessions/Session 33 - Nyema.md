@@ -49,7 +49,7 @@ The party follows a magic map to find the body of [[Nyema]], the wife of the gho
 - [[Well of Light]]
 - [[Howling Caves]]
 - [[Halls of Thoth]]
-- [[Glory of Weskenim]]
+- [[locations/Glory of Thoth.md|Glory of Weskenim]]
 - [[Gog's cave]]
 - [[Wet Caves]]
 - [[Lower Goblintown]]
