@@ -15,7 +15,6 @@ tags:
 - [[lore/recording-notes/Recording 2025-04-11.md|2025-04-11]] -> [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[lore/recording-notes/Recording 2025-05-02.md|2025-05-02]] -> [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
 - [[lore/recording-notes/Recording 2025-05-16.md|2025-05-16]] -> [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
-- [[lore/recording-notes/Recording 2025-11-28.md|2025-11-28]] -> [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 - [[lore/recording-notes/Recording 2026-01-02.md|2026-01-02]] -> [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
 - [[lore/recording-notes/Recording 2026-01-09.md|2026-01-09]] -> [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 - [[lore/recording-notes/Recording 2026-01-16.md|2026-01-16]] -> [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
