@@ -11,14 +11,6 @@ A stone pedestal featuring a monkey statue with an oversized mouth, possibly a t
 ## Level
 Underground in [[Arden Vul]].
 
-## Aliases
-
-## Connections
-
-## Residents
-
-## Tags
-
 ## Notes
 Could be a puzzle or trap.
 

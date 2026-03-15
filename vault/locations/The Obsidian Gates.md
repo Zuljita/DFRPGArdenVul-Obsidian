@@ -9,15 +9,7 @@ aliases:
 
 ## Description
 
-A significant location within the [[Halls of Arden Vul]]. Its discovery is chronicled in the [[Book of Priors]].
-
-## Key Features
-
-TBD
-
-## Connected Areas
-
-- [[Halls of Arden Vul]]
+A significant location within the [[Book of Priors]]
 
 ## Inhabitants
 

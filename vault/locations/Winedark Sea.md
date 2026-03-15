@@ -3,24 +3,10 @@ tags:
   - location
 ---
 
-# [[locations/Winedark Sea.md|Winedark Sea]]
-
-## Summary
-A large body of water, often described with poetic connotations, implying its deep, rich color.
-
-## Level
-Surface.
-
-## Aliases
-- The Great Sea
-
-## Connections
-Connects various lands and cities, including [[Archontos]] and [[Mithruin]].
+# [[Archontos]].
 
 ## Residents
 Various marine life, potentially mythical creatures.
-
-## Tags
 
 ## Notes
 A significant geographical feature impacting trade, travel, and warfare.

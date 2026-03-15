@@ -15,12 +15,4 @@ TBD
 
 ## Connected Areas
 
-Likely located in or near [[Gosterwick]].
-
-## Inhabitants
-
-TBD
-
-## Notes
-
-- A contact from the [[Benevolent Brotherhood]] facilitated the anonymous sale of [[Set Armor]] here.
+Likely located in or near [[Benevolent Brotherhood]] here.
