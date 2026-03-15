@@ -30,15 +30,13 @@ aliases:
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — Vael asked [[npcs/Hal.md|Hal]] if that chasm was The [[locations/Great Chasm.md|Great Chasm]], and [[npcs/Hal.md|Hal]] said he didn't go into the chasm because it wasn't safe, but he'd heard they were connected.
   - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — They continued west down a wide passage, past a statue of a four-armed monster and a statue of a [[factions/Rudishva.md|Rudishva]] (who welcomed visitors to the [[locations/Arena.md|Arena]] in Archontean, [[factions/Varumani.md|Varumani]], and [[factions/Rudishva.md|Rudishva]]), past some magical darkness, and finally west to the Gre...
 
-## Notes
- 
 ## Connections
 
 - [[locations/Arena.md|Arena]] ↔ [[locations/Great Chasm.md|Great Chasm]] via [[locations/Troll Lifts.md|Troll Lifts]]; also a partial bridge across with planks.
   - method: lift (varumani winch), bridge with gap and planks
 - [[locations/Sundered Span.md|Sundered Span]] → [[locations/Goblintown.md|Goblintown]] (rumor) by rappelling down the Chasm to the goblin gate.
   - method: rappel; feature: great stone seat landmark
-- [[Great Chasm]] -> [[Glory of Weskenim]]
+- [[Great Chasm]] -> [[locations/Glory of Thoth.md|Glory of Weskenim]]
 
 ## Sources
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
