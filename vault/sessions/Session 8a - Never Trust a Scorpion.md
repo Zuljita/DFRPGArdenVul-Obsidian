@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 8a: Never Trust a Scorpion"
+title: "8a: Never Trust a Scorpion"
 tags:
   - session
   - recap

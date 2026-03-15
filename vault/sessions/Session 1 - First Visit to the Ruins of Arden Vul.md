@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 1: First Visit to the Ruins of Arden Vul"
+title: "1: First Visit to the Ruins of Arden Vul"
 tags:
   - session
   - recap

@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 27: The Tomb of Ptoh-Ristus"
+title: "27: The Tomb of Ptoh-Ristus"
 tags:
   - session
   - recap

@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 14: Behind the Waterfall Again"
+title: "14: Behind the Waterfall Again"
 tags:
   - session
   - recap

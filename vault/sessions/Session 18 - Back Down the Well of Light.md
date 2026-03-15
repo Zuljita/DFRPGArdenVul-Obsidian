@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 18: Back Down the Well of Light"
+title: "18: Back Down the Well of Light"
 tags:
   - session
   - recap

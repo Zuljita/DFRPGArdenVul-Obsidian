@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 24A: Revenge on the Cult of Set"
+title: "24A: Revenge on the Cult of Set"
 tags:
   - session
   - recap

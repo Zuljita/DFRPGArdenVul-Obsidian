@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 31: I Want to Believe"
+title: "31: I Want to Believe"
 tags:
   - session
   - recap

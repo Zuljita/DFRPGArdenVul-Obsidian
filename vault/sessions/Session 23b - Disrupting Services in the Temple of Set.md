@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 23B: Disrupting Services in the Temple of Set"
+title: "23B: Disrupting Services in the Temple of Set"
 tags:
   - session
   - recap

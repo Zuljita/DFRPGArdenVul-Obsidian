@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 7: Why Did It Have to Be Plants?"
+title: "7: Why Did It Have to Be Plants?"
 tags:
   - session
   - recap

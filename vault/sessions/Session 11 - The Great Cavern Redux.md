@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 11: The Great Cavern Redux"
+title: "11: The Great Cavern Redux"
 tags:
   - session
   - recap

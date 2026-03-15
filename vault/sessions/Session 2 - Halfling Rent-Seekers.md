@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 2: Halfling Rent-Seekers"
+title: "2: Halfling Rent-Seekers"
 tags:
   - session
   - recap
