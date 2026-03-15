@@ -8,6 +8,8 @@ jobs:
   lce-report:
     name: Generate LCE suggestions (dry-run)
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
     steps:
       - name: Checkout
         uses: actions/checkout@v5
