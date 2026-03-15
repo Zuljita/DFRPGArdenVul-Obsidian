@@ -1,17 +1,16 @@
 ---
-title: "Forum of [[npcs/Set.md|Set]]"
+title: Forum of Set
 tags:
   - location
-  - location
 aliases:
-  - Forum of [[npcs/Set.md|Set]] [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Iconic Locations
+  - Forum of [[npcs/Set.md|Set]] [[locations/Arden Vul.md|Arden Vul]] Iconic Locations
   - Forum of [[npcs/Set.md|Set]] Date
   - Forum of [[npcs/Set.md|Set]] [[npcs/Gog.md|Gog]]
 ---
 # Forum of [[npcs/Set.md|Set]]
 
 ## Summary
-A major area within the Halls of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], dedicated to the [[Cult of Set]]. It includes a large statue of [[Set]], a marketplace, and is the site of the cult's "Mysteries."
+A major area within the Halls of [[locations/Arden Vul.md|Arden Vul]], dedicated to the [[Cult of Set]]. It includes a large statue of [[Set]], a marketplace, and is the site of the cult's "Mysteries."
 
 ## Connections
 - [[locations/Forum of Set.md|Forum of Set]] → [[locations/Great Cavern.md|Great Cavern]] via stairs up to the former [[npcs/Set.md|Set]] outpost and rope ladder down the western wall of the Cavern (≈25′ up).

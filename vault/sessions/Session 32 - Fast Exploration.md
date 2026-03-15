@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 32: Fast Exploration"
+title: "DFRPG Arden Vul Session 32: Fast Exploration"
 tags:
-  - session
   - session
   - recap
 session_id: 32
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 32: Fast Exploration
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 32: Fast Exploration
 
 Date: 
 
@@ -74,7 +73,7 @@ On Lunday, they all teleported back to the [[locations/Beacon.md|Beacon]] using 
 
 There was a short passage back into the cave wall, terminating in a 4' high bas-relief of a mostly realistic face of a middle aged man, except with half-spherical empty holes where his eyes should be.  A careful inspection of the face showed that it was magical, and that there were lines around the edges as if it were a door, but it would not open.  Vallium compared the eye holes to various small objects he was carrying, then stepped back through the Rug to the [[factions/Arcane Practitioners' Club.md|Arcane Practitioners' Club]] in [[locations/Gosterwick.md|Gosterwick]] and came back with a pouch full of additional coins and gems, and compared each of them to the eye holes without actually inserting them.  The eyes were too spherical and deep for coins, and too perfectly round to be a good match for most gems, but the silver and blue magical eyes they had were a perfect match.  Vallium said those eyes were valuable and he didn't want to risk losing them without knowing more, so he recommended not actually inserting them yet.  They resolved to come back later when they learned more.
 
-Everyone stepped back through the Rug, and Vael flew it over to the [[npcs/Set.md|Set]] landing, then everyone came back out to investigate.  The [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]] were still gone.  The group went west, then north, then down a stairway to the west.  Vallium carefully crept ahead in case there were more guards in the octagonal room, but it was empty.  He led them west to the blue pillar, then north from there to a very long staircase down.
+Everyone stepped back through the Rug, and Vael flew it over to the [[npcs/Set.md|Set]] landing, then everyone came back out to investigate.  The [[factions/Cult of Set.md|Cult of Set]] were still gone.  The group went west, then north, then down a stairway to the west.  Vallium carefully crept ahead in case there were more guards in the octagonal room, but it was empty.  He led them west to the blue pillar, then north from there to a very long staircase down.
 
 The stairs debouched into a room on the [[npcs/Arden.md|Arden]] level, containing a large construct with the face of [[npcs/Arden.md|Arden]] and two large hammers, and a large number of corpses of various ages and types but with similar large hammer dents.  Vallium held up his platinum token of [[npcs/Arden.md|Arden]].  The construct watched him but did not attack or say anything.  Vallium went to the door in the south of the room, which had previously been deformed with a Shape Earth spell to the point where it was now a crawlway.  He inserted the token into the slot in the door, then crawled through the hole.  The construct appeared satisfied by the ritutal of inserting the token and let him and his companions pass.
 
@@ -122,19 +121,19 @@ They passed some kind of tunnel bored into the east wall, then reached a fancy t
 
 They continued west down a wide passage, past a statue of a four-armed monster and a statue of a [[factions/Rudishva.md|Rudishva]] (who welcomed visitors to the [[locations/Arena.md|Arena]] in Archontean, [[factions/Varumani.md|Varumani]], and [[factions/Rudishva.md|Rudishva]]), past some magical darkness, and finally west to the [[locations/Great Chasm.md|Great Chasm]], where they saw a huge contraption operated by one varumani in charge and two varumani laborers turning the winch, the [[locations/Troll Lifts.md|Troll Lifts]].  The lead varumani said it cost one silver per leg, since there were five of them and they each had two legs, that would be ten silver.  From here they could go up, or across the Chasm, where there was another lift that went down.  They paid the ten silver to go up.  They got in the cage, and the two varumani turned the winch and hoisted them up a long way, until they arrived a level up.  There they met another crew of a varumani overseer and two winch pullers, who let them out of the cage.  Nearby they saw a bridge across the Chasm, with a gap in the middle, and some wooden planks across the gap.
 
-Recognizing about where they were, Vael cast Seek Earth looking for platinum and sensed some nearby, in the varumani lift operators' camp.  Not wanting conflict with them, he tried again, and found more platinum further north somewhere out of sight.  They crossed the bridge and Vael cast Seek Earth for both gold and platinum, and sensed platinum north and gold south.  Giving up for now, they went southwest and found [[npcs/Killick.md|Killick]] and his large group of goblins.  [[npcs/Killick.md|Killick]] greeted them and allowed safe passage through his territory to [[npcs/Gog.md|Gog]]'s cave.  [[npcs/Gog.md|Gog]] greeted them, hoping they'd brought him food, and was disappointed they had not.  He still allowed them through his cave to the secret door leading to stairs up to [[locations/Upper [[locations/Goblintown.md|Goblintown]].md|Upper [[locations/Goblintown.md|Goblintown]]]].  The party went up the stairs, through [[locations/Upper [[locations/Goblintown.md|Goblintown]].md|Upper [[locations/Goblintown.md|Goblintown]]]], up the stairs through the Pyramid of [[npcs/Thoth.md|Thoth]], and then back across the surface ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] to the [[locations/Beacon.md|Beacon]].  There Vael asked everyone to step through the Rug, then experimented with Blinking through the cover over their stairs, to the [[locations/Beacon.md|Beacon]], rather than using Shape Earth to dig a hole.  He succeeded, and was through with less work.  He laid the Rug down in the [[locations/Beacon.md|Beacon]] so the others could come through.
+Recognizing about where they were, Vael cast Seek Earth looking for platinum and sensed some nearby, in the varumani lift operators' camp.  Not wanting conflict with them, he tried again, and found more platinum further north somewhere out of sight.  They crossed the bridge and Vael cast Seek Earth for both gold and platinum, and sensed platinum north and gold south.  Giving up for now, they went southwest and found [[npcs/Killick.md|Killick]] and his large group of goblins.  [[npcs/Killick.md|Killick]] greeted them and allowed safe passage through his territory to [[npcs/Gog.md|Gog]]'s cave.  [[npcs/Gog.md|Gog]] greeted them, hoping they'd brought him food, and was disappointed they had not.  He still allowed them through his cave to the secret door leading to stairs up to [[locations/Upper [[locations/Goblintown.md|Goblintown]].md|Upper [[locations/Goblintown.md|Goblintown]]]].  The party went up the stairs, through [[locations/Upper [[locations/Goblintown.md|Goblintown]].md|Upper [[locations/Goblintown.md|Goblintown]]]], up the stairs through the Pyramid of [[npcs/Thoth.md|Thoth]], and then back across the surface ruins of [[locations/Arden Vul.md|Arden Vul]] to the [[locations/Beacon.md|Beacon]].  There Vael asked everyone to step through the Rug, then experimented with Blinking through the cover over their stairs, to the [[locations/Beacon.md|Beacon]], rather than using Shape Earth to dig a hole.  He succeeded, and was through with less work.  He laid the Rug down in the [[locations/Beacon.md|Beacon]] so the others could come through.
 
 
 GM's Comments:
 
 
-They failed to open either of the doors they wanted to open, got ambushed twice, and only found a few items of loot.  Yet this was a very successful session in terms of exploration.  They survived both ambushes, explored a whole lot of rooms, found two [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Iconic Locatons, and visited two previously unvisited levels.
+They failed to open either of the doors they wanted to open, got ambushed twice, and only found a few items of loot.  Yet this was a very successful session in terms of exploration.  They survived both ambushes, explored a whole lot of rooms, found two [[locations/Arden Vul.md|Arden Vul]] Iconic Locatons, and visited two previously unvisited levels.
 
 
 XP:
 Exploration: 35 new locations (a new record), good for 2 XP
 Loot: not much, but the magic spear is worth enough to generate 1 XP if sold
-Achievements: Two [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Iconic Locations, the [[locations/Arena.md|Arena]] and the [[locations/Sundered Span.md|Sundered Span]], for 2 XP
+Achievements: Two [[locations/Arden Vul.md|Arden Vul]] Iconic Locations, the [[locations/Arena.md|Arena]] and the [[locations/Sundered Span.md|Sundered Span]], for 2 XP
 Total: 5 XP
 
 Next Week:

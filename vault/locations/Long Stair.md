@@ -1,7 +1,6 @@
 ---
-title: "[[locations/Long Stair.md|Long Stair]]"
+title: Long Stair
 tags:
-  - location
   - location
   - entrance
 aliases:

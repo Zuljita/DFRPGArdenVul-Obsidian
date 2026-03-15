@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Njal.md|Njal]]"
+title: Njal
 tags:
-  - npc
   - npc
 aliases:
 ---

@@ -4,11 +4,11 @@ Auto-generated from LCE edges. Update by running the LCE scripts and rebuilding.
 
 ```mermaid
 graph TD
-  Arden_Vul["[[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]"]
+  Arden_Vul["[[locations/Arden Vul.md|Arden Vul]]"]
   Azure_Keep["[[locations/Azure Keep.md|Azure Keep]]"]
   [[locations/Beacon.md|Beacon]]["[[locations/Beacon.md|Beacon]]"]
   Cliff_Face["[[locations/Cliff Face.md|Cliff Face]]"]
-  Forum_of_Arden_Vul["Forum of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]"]
+  Forum_of_Arden_Vul["Forum of [[locations/Arden Vul.md|Arden Vul]]"]
   Forum_of_Set["Forum of [[npcs/Set.md|Set]]"]
   Glory_of_Thoth["Glory of [[npcs/Thoth.md|Thoth]]"]
   Glory_of_Weskenim["Glory of [[npcs/Weskenim.md|Weskenim]]"]

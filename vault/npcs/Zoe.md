@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Zoe.md|Zoe]]"
+title: Zoe
 tags:
-  - npc
   - npc
   - gender/unknown
   - race/unknown

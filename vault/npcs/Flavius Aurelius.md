@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Flavius Aurelius.md|Flavius Aurelius]]"
+title: Flavius Aurelius
 tags:
-  - npc
   - npc
 aliases:
 ---

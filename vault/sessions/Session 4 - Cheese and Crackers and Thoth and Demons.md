@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 4: Cheese and Crackers and [[npcs/Thoth.md|Thoth]] and Demons"
+title: "DFRPG Arden Vul Session 4: Cheese and Crackers and Thoth and Demons"
 tags:
-  - session
   - session
   - recap
 session_id: 4
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 4: Cheese and Crackers and [[npcs/Thoth.md|Thoth]] and Demons
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 4: Cheese and Crackers and [[npcs/Thoth.md|Thoth]] and Demons
 
 Date:
 
@@ -46,7 +45,7 @@ While in [[locations/Gosterwick.md|Gosterwick]], Vallium visited the Baliff's Tr
 
 Very early Demmasday morning, Vallium bought three sweetrolls wrapped for travel from [[npcs/Matrona.md|Matrona]] the baker.  The group hiked to the cliff face without significant incident.  Vael Levitated himself up the [[locations/Long Stair.md|Long Stair]] (and rolled a critical success, for faster than normal movement), while the others hiked up the slippery wet trail.  At one narrow treacherous bit about two-thirds of the way up, Ioannes slipped and almost went over the edge, but Vallium caught him and pulled him up.
 
-Arriving at the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], the group debated about where to go, then decided to first visit the dam and install the new lock, to keep the dragon happy.  They made it there without any problem and the lock seemed to hold the door reasonably well.  Vael kept one key and gave the other to Michael.
+Arriving at the ruins of [[locations/Arden Vul.md|Arden Vul]], the group debated about where to go, then decided to first visit the dam and install the new lock, to keep the dragon happy.  They made it there without any problem and the lock seemed to hold the door reasonably well.  Vael kept one key and gave the other to Michael.
 
 Next they discussed exploring the ruins, but decided to go back to the Pyramid of [[npcs/Thoth.md|Thoth]].  But then they took a small detour to look down the Well of Light and see if anyone had undone their cleaning of the mirror at the bottom.  It was a rainy day, but less light than before seemed to be reflecting.  They dropped a Continual Light rock down into the Well and confirmed that the large mirror at the bottom wasn't reflecting the light, so it was again covered with some kind of dirt or debris.
 
@@ -90,7 +89,7 @@ GM's Comments:
 
 This was the second week in a row the group hit a teleporter.  This time it at least took them somewhere they recognized.  They had three fights this week, all of them pretty easy with the archer along.  They looted the victims of two different one-way door traps (one with a hidden escape teleporter, one possibly with no way out at all) that had each bagged many victims over the years.
 
-Ioannes rolled a natural 3 when trying to figure out the pillar, which gave him the insight that he needed to grab the pillar while asking [[npcs/Thoth.md|Thoth]] a question.  In addition to getting what sounded like an actual answer from [[npcs/Thoth.md|Thoth]], he also got an electric shock serious enough to result in a Major Wound, because that's how [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] works.
+Ioannes rolled a natural 3 when trying to figure out the pillar, which gave him the insight that he needed to grab the pillar while asking [[npcs/Thoth.md|Thoth]] a question.  In addition to getting what sounded like an actual answer from [[npcs/Thoth.md|Thoth]], he also got an electric shock serious enough to result in a Major Wound, because that's how [[locations/Arden Vul.md|Arden Vul]] works.
 
 
 Achievements:
@@ -111,3 +110,7 @@ Next week:
 Sounds like they definitely want to talk to the beastmen.  Maybe they'll fight the halflings, but Merenuithiel mentioned several times that they should do that when she's around, so maybe they'll wait until they have her available again.
 
 2025-04-12
+
+## Sources
+
+- [[lore/recording-notes/Recording 2025-04-04.md|Recording Notes (2025-04-04)]]

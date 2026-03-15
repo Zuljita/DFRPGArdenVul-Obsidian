@@ -17,7 +17,7 @@ The tower was built during the [[Adrienic Expedition]], an attempt by [[Archon P
 ## Notes
 
 ### From the Journal of Ioannes
-> I found the record. The tower at the base of the waterfall—built during the Adrienic Expedition, two and a half centuries past. An attempt by Archon Phocion IV to retake [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]. It failed. Bloodily. The tower was left behind when the survivors fled.
+> I found the record. The tower at the base of the waterfall—built during the Adrienic Expedition, two and a half centuries past. An attempt by Archon Phocion IV to retake [[locations/Arden Vul.md|Arden Vul]]. It failed. Bloodily. The tower was left behind when the survivors fled.
 > And now it is haunted. Or rather, “folklore,” according to one too-convenient source.
 >
 > I do not trust him. He either never saw the ghost himself, or pretended not to.

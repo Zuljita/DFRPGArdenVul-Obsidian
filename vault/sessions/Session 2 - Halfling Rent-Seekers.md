@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 2: Halfling Rent-Seekers"
+title: "DFRPG Arden Vul Session 2: Halfling Rent-Seekers"
 tags:
-  - session
   - session
   - recap
 session_id: 2
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 2: Halfling Rent-Seekers
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 2: Halfling Rent-Seekers
 
 Date:
 
@@ -43,7 +42,7 @@ When the PCs returned to [[locations/Gosterwick.md|Gosterwick]] after their prev
 
 Most of the PCs spent a week in [[locations/Gosterwick.md|Gosterwick]], training and identifying and selling loot from their previous adventure and shopping. Michael, however, got bored in town and went on a hunting trip, and was not back in time for this delve. The party managed to recruit another tough-looking fighter, Vallium, to help protect the mages and clerics. They also walked over to the [[factions/[[factions/Grudge Brigade.md|Grudge Brigade]].md|[[factions/Grudge Brigade.md|Grudge Brigade]]]]'s "Headquarters" (a small building on the outskirts of [[locations/Gosterwick.md|Gosterwick]]). [[npcs/Ashe Maykum.md|Ashe Maykum]] the druid was also not around this time, but a half-elven monk carrying a pike and a couple of long staves named [[npcs/Thorne [[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]].md|Thorne [[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]]] was willing to accompany the group for a share of treasure.
 
-This time they left a couple hours before dawn, to give themselves more time in the ruins before sunset. Vael had dragged along a wheelbarrow this time, saying it would be easier to push his pack than carry it. Once again the group made the treacherous climb up the [[locations/Long Stair.md|Long Stair]] without anyone slipping and falling to their death. The only encounter on the way up was with some mountain goats, who just watched them curiously and did not cause trouble. When they reached the top of the climb and entered the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] between the ruined gate towers, the group had a debate about which way to explore. Suggestions included descending into the darkness of the squat tower, climbing the Pyramid of [[npcs/Thoth.md|Thoth]], and going west to see what was near the top of the waterfall. The waterfall seemed closest, so the group went west.
+This time they left a couple hours before dawn, to give themselves more time in the ruins before sunset. Vael had dragged along a wheelbarrow this time, saying it would be easier to push his pack than carry it. Once again the group made the treacherous climb up the [[locations/Long Stair.md|Long Stair]] without anyone slipping and falling to their death. The only encounter on the way up was with some mountain goats, who just watched them curiously and did not cause trouble. When they reached the top of the climb and entered the ruins of [[locations/Arden Vul.md|Arden Vul]] between the ruined gate towers, the group had a debate about which way to explore. Suggestions included descending into the darkness of the squat tower, climbing the Pyramid of [[npcs/Thoth.md|Thoth]], and going west to see what was near the top of the waterfall. The waterfall seemed closest, so the group went west.
 
 One of the ruined buildings on the way looked a bit better preserved than the rest, so the party decided to search it. About an hour of digging around in the rubble without tools generated nothing of interest, and a couple of comments that someone should bring some picks and shovels next time, or, better yet, learn some labor-saving earth magic. Continuing west, they reached the [[locations/Swift River.md|Swift River]] above the cliff, with a large pond or small lake to their north, a swampy area west of the river, a couple of rotting old bridges spanning the river, a dam separating the lake from the river, and the waterfall going over the cliff to the south, between two towers. They took a look at both bridges and confirmed they looked flimsy and that levitating over the river would be a much safer way to cross. Heading north to the dam, they saw a locked door on the side of it.
 
@@ -97,7 +96,7 @@ As with the spiders last week, the rats failing to surprise the party despite pr
 
 Achievements:
 
-The statue of [[npcs/Thoth.md|Thoth]] right under the pyramid (the one with the stone collection box, not the one with the book that opens pits when you play with the arms) is the Glory of [[npcs/Thoth.md|Thoth]], an [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Iconic Location. This group all got 1 XP for finding it, even though they hadn't heard of it before.
+The statue of [[npcs/Thoth.md|Thoth]] right under the pyramid (the one with the stone collection box, not the one with the book that opens pits when you play with the arms) is the Glory of [[npcs/Thoth.md|Thoth]], an [[locations/Arden Vul.md|Arden Vul]] Iconic Location. This group all got 1 XP for finding it, even though they hadn't heard of it before.
 
 
 XP:
@@ -110,7 +109,7 @@ Next week:
 Presumably Vael needs a Remove Curse for that torch. The group has some gems and a ring to identify, and then they'll probably head back to the ruins. Possible points of interest include that giant rude flying reptile with the scary tail and possible loot to the southwest, the dam above the waterfall, the square tower they haven't entered yet, the unexplored majority of the ruins, or going back under the Pyramid of [[npcs/Thoth.md|Thoth]]. Under the Pyramid they've got the triangular mini-pyramid to explore, some halflings they've vaguely discussed fighting to take their money back, and a whole bunch of unexplored ways to go.
 
 2025-03-25
-Shopping in [[locations/Gosterwick.md|Gosterwick]] and the DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Campaign
+Shopping in [[locations/Gosterwick.md|Gosterwick]] and the DFRPG [[locations/Arden Vul.md|Arden Vul]] Campaign
 Some of my players seem to enjoy shopping for equipment a bit too much.  "What can we buy here?" is a common question.  Here's what they've visited so far in the town of [[locations/Gosterwick.md|Gosterwick]]:
 
 Torunn the Smith.  Torunn, a large [[factions/Wiskin.md|Wiskin]] woman, seems to be the best smith in town, or at least the best smith they've met.  She showed samples of good, fine, balanced, and dwarven weapons, and both good and fine armor, so it appears that she can produce high-quality items and has apprentices to do the more mundane work.  She only works with metal though; she doesn't do leather or wooden items.  In addition to selling weapons and armor, she was also willing to provide training in Armory and Connoisseur (Weapons).
@@ -143,7 +142,11 @@ The pawnshop buys used items, so disposing of unwanted goods (at the usual fract
 Special Orders or magical equipment might be available, but not reliably.  You're either waiting for something to show up for sale somewhere, or finding someone who can make it for you.  Again, the GM will make an availability roll, and if it fails you can try again next week, or see if someone can make your item.
 What about other towns or cities?
 The only bigger town in Burdock's Valley is [[locations/Newmarket.md|Newmarket]], about 60 miles (three days' walk) to the south.  It's about twice as big as [[locations/Gosterwick.md|Gosterwick]], so a bit more robust of a market, but still not exactly huge.
-The only real city in this part of [[npcs/Irthuin.md|Irthuin]] is [[locations/Narsileon.md|Narsileon]], the capital of the Exarchate.  [[locations/Narsileon.md|Narsileon]] is about twenty times as big as [[locations/Gosterwick.md|Gosterwick]] and ten times as big as [[locations/Newmarket.md|Newmarket]], and is also a seaport with access to wider trade routes, so has much more available.  Unfortunately it's about 400 miles away, which is two to three weeks each way on foot, or a bit faster if you have horses.
+The only real city in this part of [[lore/Irthuin.md|Irthuin]] is [[locations/Narsileon.md|Narsileon]], the capital of the Exarchate.  [[locations/Narsileon.md|Narsileon]] is about twenty times as big as [[locations/Gosterwick.md|Gosterwick]] and ten times as big as [[locations/Newmarket.md|Newmarket]], and is also a seaport with access to wider trade routes, so has much more available.  Unfortunately it's about 400 miles away, which is two to three weeks each way on foot, or a bit faster if you have horses.
 The biggest city in the Empire and the known world is the capital, [[locations/Archontos.md|Archontos]], on the island of Mithruin.  It's about three times the size of [[locations/Narsileon.md|Narsileon]].  If you can buy something at all, you can probably buy it in [[locations/Archontos.md|Archontos]].  Getting there means first travelling to [[locations/Narsileon.md|Narsileon]], then catching a ship and sailing 1100 miles across the [[locations/Winedark Sea.md|Winedark Sea]].  The ocean voyage should take about a week if the winds are cooperative, or potentially longer if they're not.
 
 2025-03-29
+
+## Sources
+
+- [[lore/recording-notes/Recording 2025-03-21.md|Recording Notes (2025-03-21)]]

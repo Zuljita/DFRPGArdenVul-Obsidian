@@ -1,7 +1,6 @@
 ---
-title: "Library of [[npcs/Thoth.md|Thoth]]"
+title: Library of Thoth
 tags:
-  - location
   - location
 
 aliases:
@@ -43,15 +42,15 @@ A significant library located in [[Arden Vul]], dedicated to [[Thoth]], the god 
 
 
 <!-- merged from NPC stub: [[npcs/[[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]] Half-Hand.md|[[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]] Half-Hand]] -->
-- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 
 <!-- merged from NPC stub: [[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]] -->
-- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 
 <!-- merged from NPC stub: logovores -->
-- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 
 <!-- merged from NPC stub: Loot Company -->
@@ -59,15 +58,15 @@ A significant library located in [[Arden Vul]], dedicated to [[Thoth]], the god 
 
 
 <!-- merged from NPC stub: Magically animated head of [[npcs/Stamelis.md|Stamelis]], Librarian of [[npcs/Thoth.md|Thoth]] -->
-- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 
 <!-- merged from NPC stub: [[npcs/Thalia.md|Thalia]] -->
-- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 
 <!-- merged from NPC stub: [[npcs/Thoth.md|Thoth]] [[npcs/Umsko.md|Umsko]] -->
-- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 
 <!-- merged from NPC stub: [[npcs/Tresti.md|Tresti]] Iredell -->
@@ -75,7 +74,7 @@ A significant library located in [[Arden Vul]], dedicated to [[Thoth]], the god 
 
 
 <!-- merged from NPC stub: [[npcs/Umsko.md|Umsko]] -->
-- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
+- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...
 
 ## Sessions
 - [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]

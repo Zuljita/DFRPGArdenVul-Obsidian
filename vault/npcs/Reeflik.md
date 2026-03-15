@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Reeflik.md|Reeflik]]"
+title: Reeflik
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 26 - The Scouring of the Shire"
+- npc
 aliases:
-  - [[npcs/Reeflik.md|Reeflik]], goblin advisor
+- '[[npcs/Reeflik.md|Reeflik]], goblin advisor'
+appears_in:
+- Session 26 - The Scouring of the Shire
 ---
 # [[npcs/Reeflik.md|Reeflik]]
 

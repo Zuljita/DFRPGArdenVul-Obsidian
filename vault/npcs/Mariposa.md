@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Mariposa.md|Mariposa]]"
+title: Mariposa
 tags:
-  - npc
   - npc
 aliases:
 ---

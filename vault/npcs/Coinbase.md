@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Coinbase.md|Coinbase]]"
+title: Coinbase
 tags:
-  - npc
   - npc
   - elf
   - illusionist
@@ -16,9 +15,9 @@ Ethereum “[[npcs/Coinbase.md|Coinbase]]” Thuringwador is an elven illusionis
 ## History & Interactions
 [[npcs/Coinbase.md|Coinbase]] has been a recurring hired spellcaster for the [[factions/Right for Riches Company|Right for Riches Company]], stepping in when the party's own mages are unavailable. His services, however, always come with a sales pitch.
 
-His most significant non-combat interaction involved the [[factions/Cult of Set|Cult of Set]]. He received an anonymous contract offering a substantial reward for the death of the party members and [[npcs/Susarra|Susarra]]. Rather than acting on it, [[npcs/Coinbase.md|Coinbase]] saw a better business opportunity and sold the information to [[pcs/Vael Sunshadow|Vael]], providing the party with crucial intelligence about the threat against them ([[sessions/Session 23c - Set Jailbreak and Down to Goblintown]]).
+His most significant non-combat interaction involved the [[factions/Cult of Set|Cult of Set]]. He received an anonymous contract offering a substantial reward for the death of the party members and [[npcs/Susarra|Susarra]]. Rather than acting on it, [[npcs/Coinbase.md|Coinbase]] saw a better business opportunity and sold the information to [[pcs/Vael Sunshadow|Vael]], providing the party with crucial intelligence about the threat against them ([[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md]]).
 
-During the harrowing delve into the [[locations/Tower of Scrutiny|Tower of Scrutiny]], it was [[npcs/Coinbase.md|Coinbase]] who wisely called for a tactical retreat when the party was overwhelmed by wraiths, a decision that likely saved them from a total party kill ([[sessions/Session 29 - The Tower of Scrutiny]]). He has also proven adept at creative problem-solving, such as using his "probably unbreakable" orichalcum shield as a crowbar to break open a tomb plug ([[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!]]).
+During the harrowing delve into the [[locations/Tower of Scrutiny|Tower of Scrutiny]], it was [[npcs/Coinbase.md|Coinbase]] who wisely called for a tactical retreat when the party was overwhelmed by wraiths, a decision that likely saved them from a total party kill ([[sessions/Session 29 - The Tower of Scrutiny.md]]). He has also proven adept at creative problem-solving, such as using his "probably unbreakable" orichalcum shield as a crowbar to break open a tomb plug ([[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md]]).
 
 ## Roles & Influence
 - **Leader of the [[factions/Grudge Brigade|Grudge Brigade]]:** As the head of the mercenary company, he manages contracts and deploys his subordinates.

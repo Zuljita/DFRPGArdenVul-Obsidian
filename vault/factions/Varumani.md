@@ -1,7 +1,6 @@
 ---
-title: "[[factions/Varumani.md|Varumani]]"
+title: Varumani
 tags:
-  - faction
   - faction
 ---
 # [[factions/Varumani.md|Varumani]]
@@ -22,4 +21,4 @@ Indigenous subterranean people encountered throughout the Halls and around the [
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]
-- [[Session 8b and 9 - Muirasso's Tomb and the Broken Head|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]
+- [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]

@@ -2,7 +2,6 @@
 title: "Keen Hearing"
 tags:
   - spell
-  - spell
 ---
 # Keen Hearing
 

@@ -15,7 +15,7 @@ Underground in [[Arden Vul]].
 - [[npcs/Muirasso.md|Muirasso]]'s Tomb
 
 ## Connections
-- Possibly connected to other [[Thothian]] sacred sites.
+- Possibly connected to other [[lore/Thothian.md|Thothian]] sacred sites.
 
 ## Residents
 - [[npcs/Muirasso.md|Muirasso]] (wight)

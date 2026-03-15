@@ -2,14 +2,13 @@
 title: "Samantha the Red"
 tags:
   - npc
-  - npc
 aliases:
   - Samantha
 ---
 # Samantha the Red
 
 ## Summary
-An [[Archontean]] fighter held prisoner.
+An [[lore/Archontean.md|Archontean]] fighter held prisoner.
 
 ## Appears In
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

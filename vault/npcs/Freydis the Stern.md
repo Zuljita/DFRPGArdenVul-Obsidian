@@ -1,10 +1,9 @@
 ---
-title: "[[npcs/Freydis the Stern.md|Freydis the Stern]]"
+title: Freydis the Stern
 tags:
-  - npc
-  - npc
+- npc
 aliases:
-  - [[npcs/Freydis the Stern.md|Freydis the Stern]] the Stern
+- '[[npcs/Freydis the Stern.md|Freydis the Stern]] the Stern'
 ---
 # [[npcs/Freydis the Stern.md|Freydis the Stern]]
 

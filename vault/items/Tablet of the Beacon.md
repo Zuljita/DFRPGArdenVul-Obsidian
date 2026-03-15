@@ -1,10 +1,7 @@
 ---
-title: "Tablet of the [[locations/Beacon.md|Beacon]]"
+title: Tablet of the Beacon
 tags:
   - item
-  - item
-
-
 ---
 # Tablet of the [[locations/Beacon.md|Beacon]]
 
@@ -15,6 +12,7 @@ tags:
 - Retrieved from a Rudishva room in the Bastion area.
 - Inserted into the bridge chair slot in the [[locations/Beacon.md|Beacon]], where the bridge system recognized the bearer as "Captain."
 - Used by Vael to assert command authority and designate additional officers/crew.
+- In [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]], the party discussed keeping the tablet in a secret room within the [[locations/Beacon.md|Beacon]].
 
 ## Properties
 
@@ -22,3 +20,7 @@ tags:
 
 ## Sessions
 - [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
+- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
+
+## Recording Sources
+- [[lore/recording-notes/Recording 2026-02-13.md|Recording 2026-02-13]]

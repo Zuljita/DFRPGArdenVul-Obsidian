@@ -2,7 +2,6 @@
 title: "Tomb of Ptoh"
 tags:
   - location
-  - location
 ---
 # Tomb of Ptoh
 

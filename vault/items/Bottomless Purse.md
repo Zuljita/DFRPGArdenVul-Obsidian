@@ -1,7 +1,6 @@
 ---
-title: "[[items/Bottomless Purse.md|Bottomless Purse]]"
+title: Bottomless Purse
 tags:
-  - item
   - item
 ---
 # [[items/Bottomless Purse.md|Bottomless Purse]]

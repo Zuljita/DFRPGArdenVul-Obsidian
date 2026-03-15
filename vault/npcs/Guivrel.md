@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Guivrel.md|Guivrel]]"
+title: Guivrel
 tags:
-  - npc
   - npc
 appears_in:
   - "Session 17 - Cleaning Out the Vermin"

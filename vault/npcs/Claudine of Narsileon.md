@@ -1,7 +1,6 @@
 ---
-title: "Claudine of [[locations/Narsileon.md|Narsileon]]"
+title: Claudine of Narsileon
 tags:
-  - npc
   - npc
 aliases:
   - Claudine of [[locations/Narsileon.md|Narsileon]], human arms dealer
@@ -20,4 +19,4 @@ Claudine of [[locations/Narsileon.md|Narsileon]] is a human (Archontean) arms de
 
 ## Notes
 - She was seen watching the party's interactions with other merchants.
-- In [[Session 33 - Nyema]], she was seen in the [[Goblin Great Hall]] trying to buy spears from a merchant.
+- In [[sessions/Session 33 - Nyema.md]], she was seen in the [[Goblin Great Hall]] trying to buy spears from a merchant.

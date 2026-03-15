@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 28: Teleport Rugs and Baboons"
+title: "DFRPG Arden Vul Session 28: Teleport Rugs and Baboons"
 tags:
-  - session
   - session
   - recap
 session_id: 28
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 28: Teleport Rugs and Baboons
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 28: Teleport Rugs and Baboons
 
 Date: 
 Tahsday, 18th of Besemios, 2993 AE 
@@ -51,11 +50,11 @@ Many goblins
 
 The Plan:
 
-Vallium's plan for the week was to trade with the cave people to the west of the waterfall below [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], see if the Rugs of Instant Access had enough range to bypass climbing the [[locations/Long Stair.md|Long Stair]], clear out the pits near the [[items/Ruby Chair.md|Ruby Chair]] and find the control rod for the indoor pyramid teleporter, test the indoor pyramid teleporter, perform the Litany of Light again, talk to [[npcs/Yamki.md|Yamki]] and [[npcs/Stamelis.md|Stamelis]], donate a lot of alcohol to the goblins, and explore more of the Well of Light or Halls of [[npcs/Thoth.md|Thoth]] levels.
+Vallium's plan for the week was to trade with the cave people to the west of the waterfall below [[locations/Arden Vul.md|Arden Vul]], see if the Rugs of Instant Access had enough range to bypass climbing the [[locations/Long Stair.md|Long Stair]], clear out the pits near the [[items/Ruby Chair.md|Ruby Chair]] and find the control rod for the indoor pyramid teleporter, test the indoor pyramid teleporter, perform the Litany of Light again, talk to [[npcs/Yamki.md|Yamki]] and [[npcs/Stamelis.md|Stamelis]], donate a lot of alcohol to the goblins, and explore more of the Well of Light or Halls of [[npcs/Thoth.md|Thoth]] levels.
 
 What Actually Happened:
 
-Vael got a tip from [[npcs/Creon.md|Creon]] the pawnbroker than an interesting item was available, and it turned out to be the Eyes of [[npcs/Set.md|Set]], some goggles that allegedly allowed seeing through magical darkness cast by [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]].  Vael purchased them.
+Vael got a tip from [[npcs/Creon.md|Creon]] the pawnbroker than an interesting item was available, and it turned out to be the Eyes of [[npcs/Set.md|Set]], some goggles that allegedly allowed seeing through magical darkness cast by [[factions/Cult of Set.md|Cult of Set]].  Vael purchased them.
 
 Vallium went to [[npcs/Theopilos.md|Theopilos]] to have copies of [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s keys made for the goblins.  He also went to Egill at the Baliff's Truncheon tavern and purchased several barrels of moonshine for the goblins.  He also bought several axes for trade with the cave people.
 
@@ -67,7 +66,7 @@ Trying to avoid being predictable, someone rolled a 7-sided die to figure out th
 
 They walked a bit into the woods and spread out one Rug of Instant Access across the ground, then Vael cast Levitation and flew to the top of the cliff, holding the other Rug.  Vael spread out his Rug across the ground at the top, then stepped on it and said the command word "viator", and appeared on the other Rug near the others.  The others then used the lower Rug to teleport to the upper Rug, one at a time.  Finally Vael grabbed the lower Rug and flew up to the top of the cliff with the others.  The total time for two flights up the cliff was about six minutes, compared to well over an hour to climb the [[locations/Long Stair.md|Long Stair]] (depending on climbing skill, load carried, and risks taken), so everyone agreed this was a success.
 
-The group walked north through the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] to the top of the Well of Light.  Vael dropped a Continual Light rock down the Well and didn't see a bright reflection at the bottom, which indicated that the bottom mirror had probably been covered.  He Levitated down the shaft carrying one Rug, saw that the fixed mirror was indeed covered in muck and the portable mirror and stand were gone, but didn't see anything dangerous in the area.  He landed, spread out the Rug, teleported through it, sent the other 3 through the top Rug, then grabbed the top Rug and flew down the Well again to rejoin the others.  They spent several minutes cleaning baboon feces off the fixed mirror, then went south to visit the head of [[npcs/Stamelis.md|Stamelis]] in the Library of [[npcs/Thoth.md|Thoth]].
+The group walked north through the ruins of [[locations/Arden Vul.md|Arden Vul]] to the top of the Well of Light.  Vael dropped a Continual Light rock down the Well and didn't see a bright reflection at the bottom, which indicated that the bottom mirror had probably been covered.  He Levitated down the shaft carrying one Rug, saw that the fixed mirror was indeed covered in muck and the portable mirror and stand were gone, but didn't see anything dangerous in the area.  He landed, spread out the Rug, teleported through it, sent the other 3 through the top Rug, then grabbed the top Rug and flew down the Well again to rejoin the others.  They spent several minutes cleaning baboon feces off the fixed mirror, then went south to visit the head of [[npcs/Stamelis.md|Stamelis]] in the Library of [[npcs/Thoth.md|Thoth]].
 
 [[npcs/Stamelis.md|Stamelis]] seemed happy to see them, but didn't have a lot of news.  Nothing had come into the locked Library, though he had heard some baboons hooting.  He was annoyed that he had a whole library of books to read but no ability to fetch books or turn pages, and requested that the group find a nice priest of [[npcs/Thoth.md|Thoth]] to assist him.
 

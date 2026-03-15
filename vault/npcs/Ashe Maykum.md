@@ -1,13 +1,12 @@
 ---
-title: "[[npcs/[[npcs/Ashe Maykum.md|Ashe Maykum]] Maykum.md|[[npcs/Ashe Maykum.md|Ashe Maykum]] Maykum]]"
+title: Ashe Maykum Maykum.md|Ashe Maykum Maykum]]
 tags:
-  - npc
-  - npc
+- npc
 aliases:
-  - [[npcs/Ashe Maykum.md|Ashe Maykum]]
-  - [[npcs/Ashe Maykum.md|Ashe Maykum]] "GOAT" Maykum
-  - [[npcs/Ashe Maykum.md|Ashe Maykum]] -GOAT- Maykum
-  - Maykum
+- '[[npcs/Ashe Maykum.md|Ashe Maykum]]'
+- '[[npcs/Ashe Maykum.md|Ashe Maykum]] "GOAT" Maykum'
+- '[[npcs/Ashe Maykum.md|Ashe Maykum]] -GOAT- Maykum'
+- Maykum
 ---
 # [[npcs/[[npcs/Ashe Maykum.md|Ashe Maykum]] Maykum.md|[[npcs/Ashe Maykum.md|Ashe Maykum]] Maykum]]
 
@@ -19,7 +18,7 @@ aliases:
 
 ## Skills & Inventions
 - **Druid Magic:** [[npcs/Ashe Maykum.md|Ashe Maykum]] is a versatile druid. While he is most famous for summoning goats, he has also been observed summoning bears and bat swarms to aid in combat and exploration.
-- **Inventor:** [[npcs/Ashe Maykum.md|Ashe Maykum]] is the founder of [[Alcheboretal Animossities]], under which he develops and commercializes innovative alchemical and botanical devices. His most notable invention is [[The Living Wheelbarrow]], which he developed as part of his "Shroom for Improvement" prototype project.
+- **Inventor:** [[npcs/Ashe Maykum.md|Ashe Maykum]] is the founder of [[Alcheboretal Animossities]], under which he develops and commercializes innovative alchemical and botanical devices. His most notable invention is [[items/Living Wheelbarrow.md|Living Wheelbarrow]], which he developed as part of his "Shroom for Improvement" prototype project.
 
 ## Relationships
 - **[[factions/Grudge Brigade|Grudge Brigade]]:** His mercenary company, which serves as the contracting source for his services.

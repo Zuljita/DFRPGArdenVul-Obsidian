@@ -1,7 +1,6 @@
 ---
-title: "[[items/Ruby Chair.md|Ruby Chair]]"
+title: Ruby Chair
 tags:
-  - item
   - item
 ---
 # [[items/Ruby Chair.md|Ruby Chair]]

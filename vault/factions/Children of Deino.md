@@ -2,7 +2,6 @@
 title: Children of Deino
 tags:
   - faction
-  - faction
 aliases:
   - beastmen
   - pigmen

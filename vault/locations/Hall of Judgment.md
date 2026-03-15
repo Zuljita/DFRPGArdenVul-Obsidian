@@ -2,7 +2,6 @@
 title: "Hall of Judgment"
 tags:
   - location
-  - location
 aliases:
   - Hall of Judgment Date
 ---
@@ -58,7 +57,7 @@ A significant location within [[Arden Vul]], possibly an ancient court, a place 
 <!-- merged from NPC stub: [[npcs/Dalton.md|Dalton]] -->
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]] — Dundee, Thorcin barbarian (Adam) Vael Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and [[npcs/Palteon.md|Palteon]], wizards of the Arcane Practitioners' Club [[npcs/[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] Basileon.md|[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] Basileon]], ruler of [[locations/Gosterwick.md|Gosterwick]] [[npcs/Freydis the Stern.md|Freydis the Stern]], steward to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] [[factio...
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Dundee, Thorcin barbarian (Adam) [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis ([[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
-- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] ...
+- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] ...
 
 
 <!-- merged from NPC stub: Darlings Jason -->
@@ -67,7 +66,7 @@ A significant location within [[Arden Vul]], possibly an ancient court, a place 
 
 <!-- merged from NPC stub: Darlings -->
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Dundee, Thorcin barbarian (Adam) [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis ([[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
-- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] ...
+- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] ...
 
 
 <!-- merged from NPC stub: [[npcs/Helga.md|Helga]] -->
@@ -84,12 +83,12 @@ A significant location within [[Arden Vul]], possibly an ancient court, a place 
 
 
 <!-- merged from NPC stub: Jelenios -->
-- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — 2025-06-30 DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]: Mid-2993 Summary It's the end of Jelenios, halfway through the year 2993 AEP, so it's time for a quick summary of the state of the DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] campaign.
+- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — 2025-06-30 DFRPG [[locations/Arden Vul.md|Arden Vul]]: Mid-2993 Summary It's the end of Jelenios, halfway through the year 2993 AEP, so it's time for a quick summary of the state of the DFRPG [[locations/Arden Vul.md|Arden Vul]] campaign.
 
 
 <!-- merged from NPC stub: [[npcs/Jost.md|Jost]] -->
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Dundee, Thorcin barbarian (Adam) [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis ([[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
-- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 17: Cleaning Out the Vermin Date: Demmasday, 4th of Masporios, 2993 AE Weather: Hot, dry Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fi...
+- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 17: Cleaning Out the Vermin Date: Demmasday, 4th of Masporios, 2993 AE Weather: Hot, dry Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fi...
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — It was [[npcs/Dalton.md|Dalton]]'s Darlings, the entire group, including their friend [[npcs/Jost.md|Jost]] who they had rescued from [[npcs/Gerrilad.md|Gerrilad]]'s jail.
 
 
@@ -99,7 +98,7 @@ A significant location within [[Arden Vul]], possibly an ancient court, a place 
 
 <!-- merged from NPC stub: Many Stirges -->
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Dundee, Thorcin barbarian (Adam) [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis ([[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
-- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 17: Cleaning Out the Vermin Date: Demmasday, 4th of Masporios, 2993 AE Weather: Hot, dry Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fi...
+- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 17: Cleaning Out the Vermin Date: Demmasday, 4th of Masporios, 2993 AE Weather: Hot, dry Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fi...
 - [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo) Vael Sunshadow, Half-Elven mage (Kyle) Vallium Halcyon, Archontean fighter (Greybrown) Ethereum "[[npcs/Coinbase.md|Coinbase]]" Thuringwador, Elf Illusionist (Mercenary) (Arch...
 
 

@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 15: The [[locations/Great Cavern.md|Great Cavern]] Re-Revisited"
+title: "DFRPG Arden Vul Session 15: The Great Cavern Re-Revisited"
 tags:
-  - session
   - session
   - recap
 session_id: 15
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 15: The [[locations/Great Cavern.md|Great Cavern]] Re-Revisited
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 15: The [[locations/Great Cavern.md|Great Cavern]] Re-Revisited
 
 Date: 
 Demmasday, 20th of Jelenius, 2993 AE 

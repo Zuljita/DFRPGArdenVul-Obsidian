@@ -1,7 +1,6 @@
 ---
-title: "[[factions/Sun-Scarred Knights.md|Sun-Scarred Knights]]"
+title: Sun-Scarred Knights
 tags:
-  - faction
   - faction
 ---
 # [[factions/Sun-Scarred Knights.md|Sun-Scarred Knights]]

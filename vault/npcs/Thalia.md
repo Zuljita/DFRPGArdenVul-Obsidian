@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Thalia.md|Thalia]]"
+title: Thalia
 tags:
-  - npc
   - npc
 aliases:
 ---

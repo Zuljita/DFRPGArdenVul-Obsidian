@@ -1,10 +1,9 @@
 ---
-title: "[[npcs/Rizzit.md|Rizzit]]"
+title: Rizzit
 tags:
-  - npc
-  - npc
+- npc
 aliases:
-  - [[npcs/Rizzit.md|Rizzit]], demon
+- '[[npcs/Rizzit.md|Rizzit]], demon'
 ---
 # [[npcs/Rizzit.md|Rizzit]]
 

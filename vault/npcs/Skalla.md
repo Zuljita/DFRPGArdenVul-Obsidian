@@ -1,11 +1,10 @@
 ---
-title: "Skalla"
+title: Skalla
 tags:
-  - npc
-  - npc
+- npc
 aliases:
-  - Skalla, skeleton warrior
-  - [[npcs/Thoth.md|Thoth]] Skalla
+- Skalla, skeleton warrior
+- '[[npcs/Thoth.md|Thoth]] Skalla'
 ---
 # Skalla
 

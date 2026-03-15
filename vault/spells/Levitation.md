@@ -6,7 +6,7 @@ tags:
 # Levitation
 
 ## Description
-A magical spell that allows an object or creature to float in the air. It is notably used to move [[The Living Wheelbarrow]].
+A magical spell that allows an object or creature to float in the air. It is notably used to move [[items/Living Wheelbarrow.md|Living Wheelbarrow]].
 
 ## Properties
 - Allows floating.

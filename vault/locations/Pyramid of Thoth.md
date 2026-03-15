@@ -1,7 +1,6 @@
 ---
-title: "Pyramid of [[npcs/Thoth.md|Thoth]]"
+title: Pyramid of Thoth
 tags:
-  - location
   - location
   - entrance
 ---
@@ -61,14 +60,16 @@ Surface, [[Arden Vul]].
 - Session 16 - Random Scorpion Teleport to the Hall of Judgment
 - [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]
 - [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]
-- Session 24b - The [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]] Strikes Back, Larel's Stuff, and the Hall of [[locations/Shrines.md|Shrines]]
+- Session 24b - The [[factions/Cult of Set.md|Cult of Set]] Strikes Back, Larel's Stuff, and the Hall of [[locations/Shrines.md|Shrines]]
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
 - Session 27 - The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]
 - Session 29 - The Tower of Scrutiny
 - Session 30 - The Tomb of Theskalon
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
 
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
+- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]

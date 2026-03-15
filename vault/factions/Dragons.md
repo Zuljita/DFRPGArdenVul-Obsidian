@@ -1,6 +1,7 @@
 ---
 tags:
   - faction
+  - culture/archontean
 ---
 
 # [[factions/Dragons.md|Dragons]]

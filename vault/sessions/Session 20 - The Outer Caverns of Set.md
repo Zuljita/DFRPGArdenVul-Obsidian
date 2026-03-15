@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 20: The Outer Caverns of [[npcs/Set.md|Set]]"
+title: "DFRPG Arden Vul Session 20: The Outer Caverns of Set"
 tags:
-  - session
   - session
   - recap
 session_id: 20
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 20: The Outer Caverns of [[npcs/Set.md|Set]]
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 20: The Outer Caverns of [[npcs/Set.md|Set]]
 
 Date: 
 
@@ -41,7 +40,7 @@ Several unseen humans, including a female human fighter
 Summoned manta rays, bat swarms, goats, boars, and warhorses
 
 
-Vael suggested pushing the group's weekly delves into [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] back a day, from Demmasday to Basilsday, to give an opportunity to shop at [[locations/Gosterwick.md|Gosterwick]]'s Demmasday market, the biggest of the week.  Everyone agreed, but none of the peddlers at the market this week had anything very exciting for sale.  Vael did find some Delver's Webbing at [[npcs/Creon.md|Creon]]'s Curios, and paid [[npcs/Creon.md|Creon]] to be notified of any new interesting items that came in before they went on the shop floor.
+Vael suggested pushing the group's weekly delves into [[locations/Arden Vul.md|Arden Vul]] back a day, from Demmasday to Basilsday, to give an opportunity to shop at [[locations/Gosterwick.md|Gosterwick]]'s Demmasday market, the biggest of the week.  Everyone agreed, but none of the peddlers at the market this week had anything very exciting for sale.  Vael did find some Delver's Webbing at [[npcs/Creon.md|Creon]]'s Curios, and paid [[npcs/Creon.md|Creon]] to be notified of any new interesting items that came in before they went on the shop floor.
 
 Michael was off in the woods somewhere, so the Right for Riches company hired the [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary on call, the goblin druid GOAT.  GOAT brought along his recent invention, the [[items/Living Wheelbarrow.md|Living Wheelbarrow]], a wooden wheelbarrow containing enough living plant material that it could be affected by the Levitation spell.  He showed his creation to Vael, who immediately bought one.
 
@@ -104,7 +103,7 @@ Next week:
 I have no idea where they are going, and neither do they.   They discuss it a bit during the week, make no clear plan, and then wing it at the last minute.
 
 At this point they've found the following areas:
-Surface Ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]
+Surface Ruins of [[locations/Arden Vul.md|Arden Vul]]
 Basement (they think they have probably fully explored this)
 Well of Light
 [[locations/Howling Caves.md|Howling Caves]]

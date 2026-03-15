@@ -1,6 +1,7 @@
 ---
 tags:
   - lore
+  - tradition/thothian
 ---
 
 # [[npcs/Wicktrimmer.md|Wicktrimmer]] Negotiations and Research
@@ -75,8 +76,8 @@ This document details the interactions and research conducted by [[pcs/Vael Suns
 
 An Account of the Discovery within the [[Thothian Necropolis]], by [[pcs/Vael Sunshadow|Vael Sunshadow]]
 
-"It is a rare privilege to uncover a secret that history has forgotten, and a rarer one still to prove a legend true. Such was our fortune in the deep and silent precincts of the [[Thothian]] halls.
+"It is a rare privilege to uncover a secret that history has forgotten, and a rarer one still to prove a legend true. Such was our fortune in the deep and silent precincts of the [[lore/Thothian.md|Thothian]] halls.
 
-Our explorations led us to a series of forgotten ceremonial chambers, far from the notice of other delvers. We found ourselves in what appeared to be a minor funereal complex. The antechambers were as expected for a minor [[Thothian]] complex, but one sealed door led not to a simple crypt, but to the true prize: the final resting place of a figure many believed to be a myth. There could be no doubt; the walls were dominated by frescos of [[Larel]] himself, depicted in his iconic green cap and with his famous [[Larel's Dagger|dagger]]. The surrounding walls brought his tales to life in painted scenes: [[Larel]] distracting wolves with a chicken, concealing himself from an angry husband, and cleverly spiking apples on his dagger while performing a card trick.
+Our explorations led us to a series of forgotten ceremonial chambers, far from the notice of other delvers. We found ourselves in what appeared to be a minor funereal complex. The antechambers were as expected for a minor [[lore/Thothian.md|Thothian]] complex, but one sealed door led not to a simple crypt, but to the true prize: the final resting place of a figure many believed to be a myth. There could be no doubt; the walls were dominated by frescos of [[Larel]] himself, depicted in his iconic green cap and with his famous [[Larel's Dagger|dagger]]. The surrounding walls brought his tales to life in painted scenes: [[Larel]] distracting wolves with a chicken, concealing himself from an angry husband, and cleverly spiking apples on his dagger while performing a card trick.
 
-Rather than being interred in a sarcophagus as is common among [[Thothian]]s, the hero's effects were laid out on racks in the chamber, as if waiting for his return. A small rack held a collection of fine, wicked-looking daggers, many with magical auras. Upon a writing desk lay a golden apple next to a simple silver '[[Larel's Pin|letter opener]]'—which we immediately recognized as [[Larel's Pin|Larel's legendary pin]]—alongside three identical love notes to differently named women. In the center of the room, a capped urn rested upon a stone pedestal, containing what can only be the hero's ashes."
+Rather than being interred in a sarcophagus as is common among [[lore/Thothian.md|Thothian]]s, the hero's effects were laid out on racks in the chamber, as if waiting for his return. A small rack held a collection of fine, wicked-looking daggers, many with magical auras. Upon a writing desk lay a golden apple next to a simple silver '[[Larel's Pin|letter opener]]'—which we immediately recognized as [[Larel's Pin|Larel's legendary pin]]—alongside three identical love notes to differently named women. In the center of the room, a capped urn rested upon a stone pedestal, containing what can only be the hero's ashes."

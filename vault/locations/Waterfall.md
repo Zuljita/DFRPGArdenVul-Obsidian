@@ -1,7 +1,6 @@
 ---
-title: "[[locations/Waterfall.md|Waterfall]]"
+title: Waterfall
 tags:
-  - location
   - location
 ---
 # [[locations/Waterfall.md|Waterfall]]

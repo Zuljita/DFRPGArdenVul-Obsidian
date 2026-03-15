@@ -2,7 +2,6 @@
 title: "Jador the Just"
 tags:
   - npc
-  - npc
 aliases:
 ---
 # Jador the Just

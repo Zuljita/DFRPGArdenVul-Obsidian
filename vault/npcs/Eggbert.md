@@ -15,7 +15,7 @@ A Thorcin guard.
 Loyal, dutiful.
 
 ## Known Associates
-- Other [[Thorcin]] guards.
+- Other [[lore/Thorcin.md|Thorcin]] guards.
 
 ## Notes
 Part of the local security forces.

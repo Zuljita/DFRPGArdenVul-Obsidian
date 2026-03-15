@@ -1,14 +1,13 @@
 ---
-title: "[[npcs/Susarra.md|Susarra]]"
+title: Susarra
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 23a - Gelatinous Cube and Slime Kraken"
-  - "Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]"
-  - "Session 24a - Revenge on the [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]]"
+- npc
 aliases:
-  - [[npcs/Susarra.md|Susarra]], Archontean fighter
+- '[[npcs/Susarra.md|Susarra]], Archontean fighter'
+appears_in:
+- Session 23a - Gelatinous Cube and Slime Kraken
+- Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
+- Session 24a - Revenge on the [[factions/Cult of Set.md|Cult of Set]]
 ---
 # [[npcs/Susarra.md|Susarra]]
 

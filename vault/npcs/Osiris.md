@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Osiris.md|Osiris]]"
+title: Osiris
 tags:
-  - npc
   - npc
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"

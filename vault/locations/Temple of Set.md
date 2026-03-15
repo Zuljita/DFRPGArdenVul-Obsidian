@@ -1,7 +1,6 @@
 ---
-title: "Temple of [[npcs/Set.md|Set]]"
+title: Temple of Set
 tags:
-  - location
   - location
 ---
 # Temple of [[npcs/Set.md|Set]]
@@ -31,10 +30,15 @@ TBD
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 23b - Disrupting Services in the Temple of Set.md|Session 23b - Disrupting Services in the Temple of Set]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
-
-
+- [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 
 ## Notes
 - According to an ancient rescript, the temple was the base for a secret project to breed a fearsome species of animal that "shared all the attributes of Lord [[npcs/Set.md|Set]]." This project was apparently based in a nearby cavern.
-- In [[Session 33 - Nyema]], the party found [[Nyema]]'s body in one of the crocodile pools in the temple.
+- In [[sessions/Session 33 - Nyema.md]], the party found [[Nyema]]'s body in one of the crocodile pools in the temple.
+
+## Recording Sources
+
+- [[lore/recording-notes/Recording 2026-01-16.md|Recording 2026-01-16]]
+- [[lore/recording-notes/Recording 2026-02-06.md|Recording 2026-02-06]]
+- [[lore/recording-notes/Recording 2026-02-13.md|Recording 2026-02-13]]

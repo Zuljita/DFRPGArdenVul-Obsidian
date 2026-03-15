@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Demma.md|Demma]]"
+title: Demma
 tags:
-  - npc
   - npc
   - deity
 appears_in:
@@ -56,7 +55,7 @@ An early incident at the [[locations/Yellow Cloak Inn|Yellow Cloak Inn]], where 
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
-- [[Session 8b and 9 - Muirasso's Tomb and the Broken Head|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]
+- [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]
 - [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
 - [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]]
 - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]

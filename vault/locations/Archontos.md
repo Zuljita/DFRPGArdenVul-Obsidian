@@ -6,7 +6,7 @@ tags:
 # [[locations/Archontos.md|Archontos]]
 
 ## Summary
-The capital city of the [[Archontean Empire]].
+The capital city of the [[lore/Archontean Empire.md|Archontean Empire]].
 
 ## Level
 Surface.

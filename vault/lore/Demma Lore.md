@@ -1,13 +1,14 @@
 ---
 tags:
   - lore
+  - culture/thorcin
 ---
 
 # [[npcs/Demma.md|Demma]] Lore
 
 ## Overview
 
-The [[Temple of Demma]] in [[Gosterwick]] is a modest but well-maintained structure, standing as a place of healing, wisdom, and rural devotion. It is led by Chief Priest [[Vivian]], a stern but fair [[Thorcin]] cleric. He trains new clerics in the mysteries of [[Demma]], believing faith must be practical and service-oriented. The temple prioritizes aid to the rural poor and farmers. Assisting clerics manage daily rituals, bless fields and expectant mothers, and provide limited magical services.
+The [[Temple of Demma]] in [[Gosterwick]] is a modest but well-maintained structure, standing as a place of healing, wisdom, and rural devotion. It is led by Chief Priest [[Vivian]], a stern but fair [[lore/Thorcin.md|Thorcin]] cleric. He trains new clerics in the mysteries of [[Demma]], believing faith must be practical and service-oriented. The temple prioritizes aid to the rural poor and farmers. Assisting clerics manage daily rituals, bless fields and expectant mothers, and provide limited magical services.
 
 [[Demma]]'s influence spans magic and mystery, but the [[Temple of Demma|temple]] in [[Gosterwick]] is deeply tied to fertility, crops, and households. Its faithful include farmers, midwives, and homemakers, who bring offerings of seeds, bread, and woven charms. The temple is guarded by six dedicated warriors, wielding [[Flail|flails]] in homage to the goddess. Scholars and traveling priests seeking lost magical knowledge remind that [[Demma]]'s influence extends far beyond fields and homes.
 

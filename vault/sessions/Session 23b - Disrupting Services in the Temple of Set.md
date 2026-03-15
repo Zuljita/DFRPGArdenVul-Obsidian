@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 23B: Disrupting Services in the Temple of [[npcs/Set.md|Set]]"
+title: "DFRPG Arden Vul Session 23B: Disrupting Services in the Temple of Set"
 tags:
-  - session
   - session
   - recap
 session_id: 23b
 in_world_date: Basilsday, 16th of Gerakios, 2993 AE
 ---
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 23B: Disrupting Services in the Temple of [[npcs/Set.md|Set]]
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 23B: Disrupting Services in the Temple of [[npcs/Set.md|Set]]
 
 Date: 
 Basilsday, 16th of Gerakios, 2993 AE 
@@ -48,16 +47,16 @@ Vallium used his Ring of Illusion Disguise to look like the cleric they had just
 
 Michael was beset by a lot of guards, but he had Great Haste, and Vael cast two Grease spells and a Smoke spell among the guards to help him.  Michael eventually downed all of them.  Meanwhile [[npcs/Susarra.md|Susarra]] ran between two long rectangular pools to come help Michael, when a huge crocodile unexpectedly emerged from one of the pools and tried to eat her.  She avoided being surprised and eventually killed it with a couple of solid axe blows.  A second crocodile came out later, and she wounded it badly enough that it went back under the water to hide and wait for easier prey.
 
-Uvash and Ioannes, after running out of nearby cultists, decided to try to desecrate the evil temple.  Ioannes first tried to knock over the huge statue, but it was just too heavy.  They then decided to take its ruby eyes.  The statue was 25' tall, so its eyes were well out of reach.  Uvash climbed up the statue with his Ring of Climbing, then dropped a rope to help Ioannes up, since Ioannes had the Apportation spell and could take the rubies without actually touching them.  This plan worked, and Ioannes magically grabbed two huge rubies and dropped them in Uvash's pouch, before climbing back down.  Ioannes then stole everything he could find on the [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]]' evil sacrificial altar.  He and Uvash then knocked it over.
+Uvash and Ioannes, after running out of nearby cultists, decided to try to desecrate the evil temple.  Ioannes first tried to knock over the huge statue, but it was just too heavy.  They then decided to take its ruby eyes.  The statue was 25' tall, so its eyes were well out of reach.  Uvash climbed up the statue with his Ring of Climbing, then dropped a rope to help Ioannes up, since Ioannes had the Apportation spell and could take the rubies without actually touching them.  This plan worked, and Ioannes magically grabbed two huge rubies and dropped them in Uvash's pouch, before climbing back down.  Ioannes then stole everything he could find on the [[factions/Cult of Set.md|Cult of Set]]' evil sacrificial altar.  He and Uvash then knocked it over.
 
 Vallium chased down and killed two more deacons who were trying to escape down a wide staircase to the west, then dragged them back into the temple and took their portable valuables.  He and Vael shut the huge bronze doors, and Vael Magelocked them.  Vael ran around the room looking for magic items, and [[npcs/Susarra.md|Susarra]] explored the temple looking for other valuables.  Everyone then retreated to the room to the south, outside the temple's [[npcs/Set.md|Set]]-aligned sanctity, to rest and heal.  Both Michael and [[npcs/Susarra.md|Susarra]] were fairly wounded, so Ioannes used Stop Bleeding and Major Healing to patch them up.
 
-After the long battle, and with the [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]] fully alerted to their presence, it was time to decide whether to head back to [[locations/Gosterwick.md|Gosterwick]] or press on looking for [[npcs/Lillian.md|Lillian]].  The group unanimously decided to keep looking for [[npcs/Lillian.md|Lillian]] rather than retreating, so they ended the session, very close to where they started it, but surrounded by a lot of dead [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]] (and one dead crocodile).
+After the long battle, and with the [[factions/Cult of Set.md|Cult of Set]] fully alerted to their presence, it was time to decide whether to head back to [[locations/Gosterwick.md|Gosterwick]] or press on looking for [[npcs/Lillian.md|Lillian]].  The group unanimously decided to keep looking for [[npcs/Lillian.md|Lillian]] rather than retreating, so they ended the session, very close to where they started it, but surrounded by a lot of dead [[factions/Cult of Set.md|Cult of Set]] (and one dead crocodile).
 
 
 GM's Comments:
 
-This was by far the biggest battle we've fought in this campaign, 5 PCs and an NPC against over 20 [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]] and a couple of crocodiles.  It took almost the whole session.  I should have taken some screenshots.
+This was by far the biggest battle we've fought in this campaign, 5 PCs and an NPC against over 20 [[factions/Cult of Set.md|Cult of Set]] and a couple of crocodiles.  It took almost the whole session.  I should have taken some screenshots.
 
 
 

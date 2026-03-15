@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 18: Back Down the Well of Light"
+title: "DFRPG Arden Vul Session 18: Back Down the Well of Light"
 tags:
-  - session
   - session
   - recap
 session_id: 18
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 18: Back Down the Well of Light
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 18: Back Down the Well of Light
 
 Date:
  
@@ -42,7 +41,7 @@ Shrieker mushroom
 Undead librarian
 
 
-Vael returned from [[locations/Newmarket.md|Newmarket]], after doing some shopping and failing to meet the wizard in the Tower of the Ape.  He rounded up Michael, Uvash, and Ioannes for a trip back to the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]].  After ascending the [[locations/Long Stair.md|Long Stair]] (with 3 of them roped together and Vael Levitating) they decided to go down the Well of Light.  Vael first cast Darkness above the Well to make the mirrored shaft less blindingly bright inside, then cast Flight on Michael, who carried each of the others down the Well in turn.
+Vael returned from [[locations/Newmarket.md|Newmarket]], after doing some shopping and failing to meet the wizard in the Tower of the Ape.  He rounded up Michael, Uvash, and Ioannes for a trip back to the ruins of [[locations/Arden Vul.md|Arden Vul]].  After ascending the [[locations/Long Stair.md|Long Stair]] (with 3 of them roped together and Vael Levitating) they decided to go down the Well of Light.  Vael first cast Darkness above the Well to make the mirrored shaft less blindingly bright inside, then cast Flight on Michael, who carried each of the others down the Well in turn.
 
 The mirror at the bottom of the well was once again covered in debris and baboon feces.  The group spent a few minutes cleaning it off, then went east then southwest and explored a small room with some benches and and inscription on the wall that said "Let the Faithful Render Honor and Glory to the Light Which Reveals All” in Mithric.  Ioannes poked at a magical-looking marble circle on the floor with his axe, then stood on it, but nothing interesting happened.
 

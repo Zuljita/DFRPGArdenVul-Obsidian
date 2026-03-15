@@ -1,14 +1,14 @@
 ---
-title: "[[npcs/Ibis.md|Ibis]]-headed guardian of [[npcs/Thoth.md|Thoth]]"
+title: Ibis-headed guardian of Thoth
 type: monster
 tags:
-  - monster
-  - classification/construct
-  - body_plan/humanoid
-  - sentience/mindless
+- monster
+- classification/construct
+- body_plan/humanoid
+- sentience/mindless
 aliases:
-  - [[npcs/Ibis.md|Ibis]]-headed guardians of [[npcs/Thoth.md|Thoth]]
-  - [[npcs/Ibis.md|Ibis]] Constructs
+- '[[npcs/Ibis.md|Ibis]]-headed guardians of [[npcs/Thoth.md|Thoth]]'
+- '[[npcs/Ibis.md|Ibis]] Constructs'
 ---
 # [[npcs/Ibis.md|Ibis]]-headed guardian of [[npcs/Thoth.md|Thoth]]
 

@@ -1,7 +1,6 @@
 ---
-title: "[[factions/Prosperity Factor.md|Prosperity Factor]]"
+title: Prosperity Factor
 tags:
-  - faction
   - faction
 ---
 # [[factions/Prosperity Factor.md|Prosperity Factor]]
@@ -19,4 +18,4 @@ They are known to employ statue brokers who work out of the [[Inn of the Broken 
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]
-- [[Session 8b and 9 - Muirasso's Tomb and the Broken Head|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]
+- [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]

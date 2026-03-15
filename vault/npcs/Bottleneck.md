@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Bottleneck.md|Bottleneck]]"
+title: Bottleneck
 tags:
-  - npc
-  - npc
+- npc
 aliases:
-  - [[npcs/Bottleneck.md|Bottleneck]], goblin master sergeant
-  - [[npcs/Bottleneck.md|Bottleneck]], goblin sergeant
-  - [[npcs/Bottleneck.md|Bottleneck]] Halfling-Slayer
+- '[[npcs/Bottleneck.md|Bottleneck]], goblin master sergeant'
+- '[[npcs/Bottleneck.md|Bottleneck]], goblin sergeant'
+- '[[npcs/Bottleneck.md|Bottleneck]] Halfling-Slayer'
 ---
 # [[npcs/Bottleneck.md|Bottleneck]]
 
@@ -27,7 +26,7 @@ aliases:
 ## Notes
 - He was very excited to hear about the defeat of [[Phlebotomas Plumthorn]]'s halflings.
 - He appears to be a key figure in the goblin military command in [[Upper Goblintown]].
-- In [[Session 33 - Nyema]], he was surprised that [[Vallium Halcyon]] had a key to a door in the [[Glory of Weskenim]].
+- In [[sessions/Session 33 - Nyema.md]], he was surprised that [[Vallium Halcyon]] had a key to a door in the [[Glory of Weskenim]].
 
 ## Relationships
 - [[Weskenim]]: serves as master sergeant under the goblin king’s authority.

@@ -1,7 +1,6 @@
 ---
-title: "[[locations/Water Gate.md|Water Gate]]"
+title: Water Gate
 tags:
-  - location
   - location
   - entrance
 ---

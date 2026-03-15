@@ -1,7 +1,6 @@
 ---
-title: "United [[factions/Goblins.md|Goblins]]"
+title: United Goblins
 tags:
-  - faction
   - faction
 ---
 # United [[factions/Goblins.md|Goblins]]

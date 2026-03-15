@@ -2,7 +2,6 @@
 title: "Tower of Scrutiny"
 tags:
   - location
-  - location
 aliases:
   - The Tower of Scrutiny
 ---

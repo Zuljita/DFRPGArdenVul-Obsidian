@@ -1,14 +1,15 @@
 ---
-title: "[[npcs/Lyssandra Astorion.md|Lyssandra Astorion]]"
+title: Lyssandra Astorion
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 5 - Parleys and The [[locations/Great Cavern.md|Great Cavern]]"
-  - "Session 30 - The Tomb of Theskalon"
+- npc
 aliases:
-  - [[npcs/Lyssandra Astorion.md|Lyssandra Astorion]], Archontean wizard, co-owner of the Arcane Practitioners' Club
-  - [[npcs/Lyssandra Astorion.md|Lyssandra Astorion]], principal of the Arcane Practitioners' Club
+- '[[npcs/Lyssandra Astorion.md|Lyssandra Astorion]], Archontean wizard, co-owner
+  of the Arcane Practitioners'' Club'
+- '[[npcs/Lyssandra Astorion.md|Lyssandra Astorion]], principal of the Arcane Practitioners''
+  Club'
+appears_in:
+- Session 5 - Parleys and The [[locations/Great Cavern.md|Great Cavern]]
+- Session 30 - The Tomb of Theskalon
 ---
 # [[npcs/Lyssandra Astorion.md|Lyssandra Astorion]]
 
@@ -20,8 +21,8 @@ Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
 
 ## History
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 5: Parleys and [[locations/Great Cavern.md|The Great Cavern]] Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
-- [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 30: [[locations/Tomb of Theskalon.md|The Tomb of Theskalon]] Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 5: Parleys and [[locations/Great Cavern.md|The Great Cavern]] Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
+- [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 30: [[locations/Tomb of Theskalon.md|The Tomb of Theskalon]] Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 
 ## Notes
 

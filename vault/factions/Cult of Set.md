@@ -1,15 +1,16 @@
 ---
-title: "Cult of [[npcs/Set.md|Set]]"
+title: Cult of Set
 tags:
-  - faction
-  - faction
+- faction
+- culture/archontean
+- culture/thorcin
 aliases:
-  - [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]]
-  - [[npcs/Set.md|Set]] cult
-  - Cult of [[npcs/Set.md|Set]] Date
-  - Guards from the Cult of [[npcs/Set.md|Set]]
-  - Settite Guild of Service slavers
-  - Some [[npcs/Set.md|Set]] Guild of Service fighters
+- '[[factions/Cult of Set.md|Cult of Set]]'
+- '[[npcs/Set.md|Set]] cult'
+- Cult of [[npcs/Set.md|Set]] Date
+- Guards from the Cult of [[npcs/Set.md|Set]]
+- Settite Guild of Service slavers
+- Some [[npcs/Set.md|Set]] Guild of Service fighters
 ---
 # Cult of [[npcs/Set.md|Set]]
 
@@ -19,7 +20,7 @@ The Cult of [[npcs/Set.md|Set]] is an ancient and officially banned religious gr
 [[npcs/Set.md|Set]] was a Greater God of the old pantheon (the Ten). He was the god of power, knowledge, domination, slavery, vengeance, and serpents.
 
 ## Follower Characteristics
-The followers of [[npcs/Set.md|Set]], sometimes called [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]], are known for a few distinct characteristics:
+The followers of [[npcs/Set.md|Set]], sometimes called [[factions/Cult of Set.md|Cult of Set]], are known for a few distinct characteristics:
 - **Armor:** Red scale armor.
 - **Weapons:** [[Was sticks]].
 - **Creatures:** They use "[[Set animals]]", which are described as vicious dogs with square ears.
@@ -38,7 +39,7 @@ Worship of [[npcs/Set.md|Set]] was banned by imperial decree in 1839 AEP, over a
 - [[Forum of Set]]
 
 ## History
-- [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 12: First Encounter with the [[factions/Cult of Set.md|Cult of Set]] Date: Demmasday, 30th of Ligarios, 2993 AE Weather: Cool, rainy Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (...
+- [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 12: First Encounter with the [[factions/Cult of Set.md|Cult of Set]] Date: Demmasday, 30th of Ligarios, 2993 AE Weather: Cool, rainy Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (...
   - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo) Significant NPCs: [[npcs/Fael.md|Fael]], Half-Elven druid at the Grain House [[npcs/Onyx.md|Onyx]], disturbingly smart cat 3 feral cats 4 factions/Guards from the Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]] — The obvious ones are to try to get their reward from [[npcs/[[npcs/Weskenim.md|Weskenim]].md|[[npcs/Weskenim.md|Weskenim]]]], further battle the [[factions/Cult of Set.md|Cult of Set, or finally deal with Plumthorn's Halflings.
   - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]] — The Right for Riches company returned to [[locations/Gosterwick.md|Gosterwick]] after their successful mission to rescue Canon [[npcs/Lillian.md|Lillian]] of the Church of [[npcs/Mitra.md|Mitra]] from the dungeons of the [[factions/Cult of Set.md|Cult of Set]].
 - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — The [[factions/Cult of Set.md|Cult of Set]] might consider swapping some maces for spears, or some shields for bucklers.
@@ -46,7 +47,7 @@ Worship of [[npcs/Set.md|Set]] was banned by imperial decree in 1839 AEP, over a
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Do they explore more of the former halfling territory, explore more of [[locations/Goblintown.md|Goblintown]] proper, go looking for the [[locations/Troll Lifts.md|Troll Lifts]], or resume their war against the [[factions/Cult of Set.md|Cult of Set]]?
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — And if they run out of other things to do, they can always resume their war with the [[factions/Cult of Set.md|Cult of Set]], or explore deeper.
 - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Shrines.md|Hall of Shrines]]]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo) Significant NPCs: Many [[npcs/Set.md|Set]] guards Several [[npcs/Set.md|Set]] acolytes Several [[npcs/Set.md|Set]] sergeants [[factions/Some Set Guild of Service fighters.md|Some Set Guild of Service fi...
-- Session 30 - Tomb of Theskalon.md|The Tomb of Theskalon]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 30: [[locations/Tomb of Theskalon.md|The Tomb of Theskalon]] Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- Session 30 - Tomb of Theskalon.md|The Tomb of Theskalon]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 30: [[locations/Tomb of Theskalon.md|The Tomb of Theskalon]] Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 
 ## Notes
 

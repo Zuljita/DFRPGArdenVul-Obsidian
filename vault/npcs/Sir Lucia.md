@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Sir Lucia.md|Sir Lucia]]"
+title: Sir Lucia
 tags:
-  - npc
   - npc
   - gender/female
   - race/unknown

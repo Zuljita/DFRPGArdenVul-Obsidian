@@ -11,7 +11,7 @@ One of the players posted a list of all the ways they could explore next on the 
 - 2 caves behind the waterfall (beneath 35-40' of rough water)
 - Ruined tower near the base of the waterfall (ghost)
 - Secret entrance 2/3 of the way up the [[locations/Long Stair.md|Long Stair]], leading to the [[locations/Great Cavern.md|Great Cavern]]
-- Ruins of the city of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]]
+- Ruins of the city of [[locations/Arden Vul.md|Arden Vul]]
 
 - Northern island
 - Multiple watch towers
@@ -37,7 +37,7 @@ One of the players posted a list of all the ways they could explore next on the 
 
   
 
-At least so far, [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] has a large branching factor.  The PCs choose where to explore, and then instead of having one less choice (as they would if they exhausted a dead end), they usually find a couple more choices.
+At least so far, [[locations/Arden Vul.md|Arden Vul]] has a large branching factor.  The PCs choose where to explore, and then instead of having one less choice (as they would if they exhausted a dead end), they usually find a couple more choices.
 
   
 

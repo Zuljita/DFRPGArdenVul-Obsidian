@@ -1,7 +1,6 @@
 ---
-title: "Oracle of [[npcs/Thoth.md|Thoth]]"
+title: Oracle of Thoth
 tags:
-  - location
   - location
 ---
 # Oracle of [[npcs/Thoth.md|Thoth]]

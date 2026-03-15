@@ -1,7 +1,6 @@
 ---
-title: "[[locations/Yellow Cloak Inn.md|Yellow Cloak Inn]]"
+title: Yellow Cloak Inn
 tags:
-  - location
   - location
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
@@ -23,7 +22,7 @@ The main structure is a 5-story building located near the [[Central Market]], wi
 A standard $150/week cost of living covers a room and three meals daily (mostly in the main common room, with a couple per week available in the upper-class room).
 
 ## Staff
-- **Innkeeper:** [[Margot the Red]], a [[Thorcin]] woman.
+- **Innkeeper:** [[Margot the Red]], a [[lore/Thorcin.md|Thorcin]] woman.
 - **Upper-Class Bartender:** [[Bricwine]], [[Margot the Red|Margot's]] husband.
 - **Main Common Room Bartender:** [[Helle]], a [[Wiskin]] woman.
 

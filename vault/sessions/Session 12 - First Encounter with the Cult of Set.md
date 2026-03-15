@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 12: First Encounter with the Cult of [[npcs/Set.md|Set]]"
+title: "DFRPG Arden Vul Session 12: First Encounter with the Cult of Set"
 tags:
-  - session
   - session
   - recap
 session_id: 12
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 12: First Encounter with the Cult of [[npcs/Set.md|Set]]
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 12: First Encounter with the Cult of [[npcs/Set.md|Set]]
 
 Date:
 
@@ -121,7 +120,7 @@ Continuing to follow the right wall in the twisty maze of cavern tunnels, Valliu
 
 
 
-They left the room to the northeast, into a room where two lizardmen were standing with their hands up in a sign of peace.  The lizardmen said something in a hissing language that was presumably Lizardman, and the party responded in various human and elf and dwarf languages, but there was no common language.  Fortunately Ioannes knew Gift of Tongues, and he cast it go gain temporary mastery of Lizardman.  It turned out the lizardmen were lost; they had come up from two levels below, were lost, and could not find their way back to the way they came up, or to the [[locations/Great Cavern.md|Great Cavern]].  Asked why they were here, they first asked if the party were friends with the [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]].  When Ioannes said they didn't like the [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]], the lizardmen revealed that they were here to kill some [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]] who had killed some lizardmen.  Their names were [[npcs/Skizz and Burzip.md|Skizz and Burzip]] and Burzip.  Ioannes said he could give them directions to the [[locations/Great Cavern.md|Great Cavern]] if they didn't mess with their loot and put in a good word with the other lizardmen.  [[npcs/Skizz and Burzip.md|Skizz and Burzip]] readily agreed, and the two lizardmen departed, trying to follow Ioannes' directions.
+They left the room to the northeast, into a room where two lizardmen were standing with their hands up in a sign of peace.  The lizardmen said something in a hissing language that was presumably Lizardman, and the party responded in various human and elf and dwarf languages, but there was no common language.  Fortunately Ioannes knew Gift of Tongues, and he cast it go gain temporary mastery of Lizardman.  It turned out the lizardmen were lost; they had come up from two levels below, were lost, and could not find their way back to the way they came up, or to the [[locations/Great Cavern.md|Great Cavern]].  Asked why they were here, they first asked if the party were friends with the [[factions/Cult of Set.md|Cult of Set]].  When Ioannes said they didn't like the [[factions/Cult of Set.md|Cult of Set]], the lizardmen revealed that they were here to kill some [[factions/Cult of Set.md|Cult of Set]] who had killed some lizardmen.  Their names were [[npcs/Skizz and Burzip.md|Skizz and Burzip]] and Burzip.  Ioannes said he could give them directions to the [[locations/Great Cavern.md|Great Cavern]] if they didn't mess with their loot and put in a good word with the other lizardmen.  [[npcs/Skizz and Burzip.md|Skizz and Burzip]] readily agreed, and the two lizardmen departed, trying to follow Ioannes' directions.
 
 
 

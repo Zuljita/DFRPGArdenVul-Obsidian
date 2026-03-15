@@ -1,8 +1,8 @@
 ---
-title: "[[factions/Five Families.md|Five Families]]"
+title: Five Families
 tags:
   - faction
-  - faction
+  - culture/archontean
 ---
 # [[factions/Five Families.md|Five Families]]
 

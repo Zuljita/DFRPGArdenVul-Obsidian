@@ -1,7 +1,6 @@
 ---
-title: "[[factions/Green Fang Kobolds.md|Green Fang Kobolds]]"
+title: Green Fang Kobolds
 tags:
-  - faction
   - faction
 ---
 # [[factions/Green Fang Kobolds.md|Green Fang Kobolds]]

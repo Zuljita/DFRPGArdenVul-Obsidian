@@ -14,3 +14,7 @@ A cat-associated divine figure invoked by the party during an offering in Goster
 
 ## Sessions
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
+
+## Recording Sources
+
+- [[lore/recording-notes/Recording 2026-02-13.md|Recording 2026-02-13]]

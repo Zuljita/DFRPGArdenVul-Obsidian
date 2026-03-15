@@ -1,12 +1,11 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Sessions 8b and 9: [[npcs/Muirasso.md|Muirasso]]'s Tomb and the Broken Head"
+title: "DFRPG Arden Vul Sessions 8b and 9: Muirasso's Tomb and the Broken Head"
 tags:
-  - session
   - session
   - recap
 session_id: 8b and 9
 ---
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Sessions 8b and 9: [[npcs/Muirasso.md|Muirasso]]'s Tomb and the Broken Head
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Sessions 8b and 9: [[npcs/Muirasso.md|Muirasso]]'s Tomb and the Broken Head
 
 Date:
 

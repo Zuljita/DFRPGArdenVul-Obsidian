@@ -1,7 +1,6 @@
 ---
-title: "Temple of [[npcs/Demma.md|Demma]]"
+title: Temple of Demma
 tags:
-  - location
   - location
 ---
 # Temple of [[npcs/Demma.md|Demma]]

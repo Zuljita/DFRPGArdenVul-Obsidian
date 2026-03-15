@@ -1,13 +1,13 @@
 ---
-title: "[[factions/Grudge Brigade.md|Grudge Brigade]]"
+title: Grudge Brigade
 tags:
-  - faction
-  - faction
-  - mercenary
+- faction
+- mercenary
+- culture/archontean
+- culture/thorcin
 aliases:
-  - [[factions/[[factions/Grudge Brigade.md|Grudge Brigade]].md|[[factions/Grudge Brigade.md|Grudge Brigade]]]]
-
-
+- '[[factions/[[factions/Grudge Brigade.md|Grudge Brigade]].md|[[factions/Grudge Brigade.md|Grudge
+  Brigade]]]]'
 ---
 # [[factions/Grudge Brigade.md|Grudge Brigade]]
 
@@ -31,12 +31,12 @@ The [[Grudge Brigade]] is a mercenary company operating out of [[Gosterwick]], o
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — Uvash returned from the House of the Gods to join the others on the trip, but Michael was once again out in the wilderness somewhere, so the group recruited the on-call mercenary at the [[factions/Grudge Brigade.md|Grudge Brigade]], a ti...
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]] — They hired [[npcs/Ashe Maykum.md|Ashe Maykum]], the goat-summoning druid, from the [[factions/Grudge Brigade.md|Grudge Brigade]].
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]] — Short a mage, the group hired the [[factions/Grudge Brigade.md|Grudge Brigade]] leader [[npcs/Coinbase.md|Coinbase]] again, since he was available and definitely good at selling treasure, as well as allegedly being able to cast some spells.
-- [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 11: [[locations/Great Cavern.md|The Great Cavern]] Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
+- [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 11: [[locations/Great Cavern.md|The Great Cavern]] Redux Date: Demmasday, 23rd of Ligarios, 2993 AE Weather: Cool, windy Player Characters: Ioannes...
 - [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]] — And then he got bored so he went over to the [[factions/Grudge Brigade.md|Grudge Brigade]] Mercenary HQ and hired both the animal summoning goblin druid "Goat" and the mysterious half-elven staff fighter "Chrysalis".
 - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — When they returned, Ioannes told them about the trip he had taken with a couple of the [[factions/Grudge Brigade.md|Grudge Brigade]] mercenaries, behind the plunge pool of the [[locations/Waterfall.md|Waterfall]] beneath the [[locations/Cliff Face.md|Cliff Face]] l...
 - [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15 - The Great Cavern Re-Revisited]] — So the Left for Loot / Right for Riches company (I'm not sure anymore which is the real name and which is the alias) again recruited two mercenaries from the [[factions/Grudge Brigade.md|Grudge Brigade]], GOAT and druid and [[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]] the...
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Number of sessions: 16 Number of players: 8 Number of PCs: 10 Cheese and Crackers / Right for Riches / Left for Loot members: 5 [[factions/Grudge Brigade.md|Grudge Brigade]] mercenaries: 5 Number of PCs killed: 0 (!) Highest PC point tot...
-- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]] — # DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 17: Cleaning Out the Vermin Date: Demmasday, 4th of Masporios, 2993 AE Weather: Hot, dry Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fi...
+- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 17: Cleaning Out the Vermin Date: Demmasday, 4th of Masporios, 2993 AE Weather: Hot, dry Player Characters: Vallium Halcyon, Archontean fighter (Greybrown) [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fi...
 - [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo) Vael Sunshadow, Half-Elven mage (Kyle) Vallium Halcyon, Archontean fighter (Greybrown) Ethereum "[[npcs/Coinbase.md|Coinbase]]" Thuringwador, Elf Illusionist (Mercenary) (Arch...
 - [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]] — Michael was off in the woods somewhere, so the Right for Riches company hired the [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary on call, the goblin druid GOAT.
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]] — A few days after the Right for Riches Company returned to [[locations/Gosterwick.md|Gosterwick]], two things happened: [[npcs/Coinbase.md|Coinbase]], leader of the [[factions/Grudge Brigade.md|Grudge Brigade]] Mercenary Company, received an anonymous offer under his door.

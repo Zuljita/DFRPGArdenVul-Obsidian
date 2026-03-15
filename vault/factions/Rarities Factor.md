@@ -1,7 +1,6 @@
 ---
-title: "[[factions/Rarities Factor.md|Rarities Factor]]"
+title: Rarities Factor
 tags:
-  - faction
   - faction
 ---
 # [[factions/Rarities Factor.md|Rarities Factor]]
@@ -10,6 +9,9 @@ tags:
 The [[factions/Rarities Factor.md|Rarities Factor]] is a regional merchant factor with locations in [[Gosterwick]], [[Narsileon]], and [[Newmarket]]. The [[locations/Gosterwick.md|Gosterwick]] branch is led by the goblin [[Wicktrimmer]].
 
 It is known for being the cheapest of the factors in [[locations/Gosterwick.md|Gosterwick]]. Due to a deal made regarding [[Larel's Dagger]], storage is now free for the party. They are also willing to house non-cash goods.
+
+Recording-backed logistics notes indicate the party also used the factor as a temporary endpoint for a teleport-rug connection to move bulk coin from the [[locations/Beacon.md|Beacon]].
+
 ## Sessions
 
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
@@ -19,6 +21,7 @@ It is known for being the cheapest of the factors in [[locations/Gosterwick.md|G
 - [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]

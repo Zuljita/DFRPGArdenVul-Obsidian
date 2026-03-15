@@ -1,7 +1,6 @@
 ---
-title: "The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]"
+title: The Tomb of Ptoh-Ristus
 tags:
-  - location
   - location
 ---
 # The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]

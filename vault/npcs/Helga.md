@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Helga.md|Helga]]"
+title: Helga
 tags:
-  - npc
   - npc
 aliases:
 ---

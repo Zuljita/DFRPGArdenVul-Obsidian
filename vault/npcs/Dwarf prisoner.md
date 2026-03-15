@@ -2,7 +2,6 @@
 title: "Dwarf prisoner"
 tags:
   - npc
-  - npc
 appears_in:
   - "Session 3 - [[factions/Dragons.md|Dragons]] and Baboons and [[factions/Children of Deino.md|Children of Deino]], Oh My!"
 ---

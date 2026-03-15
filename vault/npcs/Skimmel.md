@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Skimmel.md|Skimmel]]"
+title: Skimmel
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 26 - The Scouring of the Shire"
+- npc
 aliases:
-  - [[npcs/Skimmel.md|Skimmel]], goblin advisor
+- '[[npcs/Skimmel.md|Skimmel]], goblin advisor'
+appears_in:
+- Session 26 - The Scouring of the Shire
 ---
 # [[npcs/Skimmel.md|Skimmel]]
 

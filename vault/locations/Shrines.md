@@ -1,7 +1,6 @@
 ---
-title: "[[locations/Shrines.md|Shrines]]"
+title: Shrines
 tags:
-  - location
   - location
 ---
 # [[locations/Shrines.md|Shrines]]
@@ -27,7 +26,7 @@ tags:
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]]
  - [[pcs/Michael J. Dundee.md|Michael]]
 - Stuff
-- The [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]] Strikes Back
+- The [[factions/Cult of Set.md|Cult of Set]] Strikes Back
 - There
 - [[npcs/Thoth.md|Thoth]]
  - [[pcs/Vael Sunshadow.md|Vael]]
@@ -40,4 +39,4 @@ tags:
 ## Notes
 
 ## Sessions
-- Session 24b - The [[factions/Cult of [[npcs/Set.md|Set]].md|Cult of [[npcs/Set.md|Set]]]] Strikes Back, Larel's Stuff, and the Hall of [[locations/Shrines.md|Shrines]]
+- Session 24b - The [[factions/Cult of Set.md|Cult of Set]] Strikes Back, Larel's Stuff, and the Hall of [[locations/Shrines.md|Shrines]]

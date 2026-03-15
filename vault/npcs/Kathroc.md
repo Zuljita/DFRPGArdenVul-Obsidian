@@ -1,12 +1,11 @@
 ---
-title: "[[npcs/Kathroc.md|Kathroc]]"
+title: Kathroc
 tags:
-  - npc
-  - npc
-appears_in:
-  - "Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]"
+- npc
 aliases:
-  - [[npcs/Kathroc.md|Kathroc]], [[npcs/Set.md|Set]] torturer
+- '[[npcs/Kathroc.md|Kathroc]], [[npcs/Set.md|Set]] torturer'
+appears_in:
+- Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
 ---
 # [[npcs/Kathroc.md|Kathroc]]
 

@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 3: [[factions/Dragons.md|Dragons]] and Baboons and [[factions/Children of Deino.md|Children of Deino]], Oh My!"
+title: "DFRPG Arden Vul Session 3: Dragons and Baboons and Children of Deino, Oh My!"
 tags:
-  - session
   - session
   - recap
 session_id: 3
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 3: [[factions/Dragons.md|Dragons]] and Baboons and [[factions/Children of Deino.md|Children of Deino]], Oh My!
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 3: [[factions/Dragons.md|Dragons]] and Baboons and [[factions/Children of Deino.md|Children of Deino]], Oh My!
 
 Date:
 
@@ -43,11 +42,11 @@ Pig-headed beastman
 Many Children of Deino (heard but not seen)
 
 
-Before setting off for [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]], Vallium bought a fresh high-quality sweetroll from one of [[locations/Gosterwick.md|Gosterwick]]'s bakers.  The group hiked uneventfully through the cool and somewhat rainy morning to the [[locations/Cliff Face.md|Cliff Face]].  The waterfall looked a bit less violent than usual, but nobody was certain what effect their meddling with the dam control had.  Vael asked Vallium to push his wheelbarrow up the [[locations/Long Stair.md|Long Stair]] and decided to Levitate instead of walk.  He stayed with the group, however, rather than just zooming straight up and splitting the party.  Nobody slipped on the way up, despite the somewhat treacherous conditions.  The group stopped at the gateway to [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] to discuss a plan, and decided to proceed north to revisit the Pyramid of [[npcs/Thoth.md|Thoth]].
+Before setting off for [[locations/Arden Vul.md|Arden Vul]], Vallium bought a fresh high-quality sweetroll from one of [[locations/Gosterwick.md|Gosterwick]]'s bakers.  The group hiked uneventfully through the cool and somewhat rainy morning to the [[locations/Cliff Face.md|Cliff Face]].  The waterfall looked a bit less violent than usual, but nobody was certain what effect their meddling with the dam control had.  Vael asked Vallium to push his wheelbarrow up the [[locations/Long Stair.md|Long Stair]] and decided to Levitate instead of walk.  He stayed with the group, however, rather than just zooming straight up and splitting the party.  Nobody slipped on the way up, despite the somewhat treacherous conditions.  The group stopped at the gateway to [[locations/Arden Vul.md|Arden Vul]] to discuss a plan, and decided to proceed north to revisit the Pyramid of [[npcs/Thoth.md|Thoth]].
 
 But as they walked, they spotted a large flying reptilian beast off to the west, coming toward them.  It flew overhead, took a good look, then flew back to the west.  It had the distinctive tail barb like the one they saw before, but this time didn't attempt to drop anything on them.
 
-They continued toward the Pyramid, and then saw an even larger flying reptilian beast approaching, without the barbed tail.  This one actually landed on the Forum nearby.  It was clearly a green dragon, and it was huge, and it was terrifying.  Most of the group was strongly afffected by dragon fear, but chose to freeze rather than flee.  The others also stayed with them.  The dragon introduced himself as [[npcs/Craastonistorex.md|Craastonistorex]], the apex predator of the ruins of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]].  He spoke a bit about how he found some adventurers useful, as they went into places too small for him to go, extracted treasure, and gave some of it to him as tribute.  He then mentioned that one of his pet wyverns had spotted some humans and elves and dwarves breaking into the dam the week before, and that soon afterward the water level of the swamp had started to rise.  He asked whether any of those here were among those who broke into the dam, and emphasized that lying might have fatal consequences.
+They continued toward the Pyramid, and then saw an even larger flying reptilian beast approaching, without the barbed tail.  This one actually landed on the Forum nearby.  It was clearly a green dragon, and it was huge, and it was terrifying.  Most of the group was strongly afffected by dragon fear, but chose to freeze rather than flee.  The others also stayed with them.  The dragon introduced himself as [[npcs/Craastonistorex.md|Craastonistorex]], the apex predator of the ruins of [[locations/Arden Vul.md|Arden Vul]].  He spoke a bit about how he found some adventurers useful, as they went into places too small for him to go, extracted treasure, and gave some of it to him as tribute.  He then mentioned that one of his pet wyverns had spotted some humans and elves and dwarves breaking into the dam the week before, and that soon afterward the water level of the swamp had started to rise.  He asked whether any of those here were among those who broke into the dam, and emphasized that lying might have fatal consequences.
 
 The two PCs who hadn't been there the week before immediately proclaimed their innocence, while those who had apologetically revealed that they had been at the dam.  [[npcs/Craastonistorex.md|Craastonistorex]] asked whether they had been sent to deliberately mess with his swamp, or if they had just been idiots messing with things they did not understand.  Multiple simultaneous confessions of idiocy ensued.  The dragon instructed them to return to the dam, reset the water level to where it had been before, leave notes both inside and outside the dam warning against disturbing the dam again on pain of breath weapon, and to leave some good tribute by the dam.  The group agreed, and the dragon warned them to stay away from his tower to the southwest because his pet wyverns were territorial and sometimes ate anyone who came too close.  He then flew away.
 
@@ -119,3 +118,7 @@ Next week:
 It sounds like they're going to keep exploring the halfling level.  They don't like paying off the halflings, and there's been some vague discussion of fighting the halflings, but they don't seem ready yet.  It seems they're more likely to try to sneak treasure around the halflings than fight them, at least in the near term.
 
 2025-04-05
+
+## Sources
+
+- [[lore/recording-notes/Recording 2025-03-28.md|Recording Notes (2025-03-28)]]

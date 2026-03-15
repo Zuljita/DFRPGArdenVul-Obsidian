@@ -1,13 +1,12 @@
 ---
-title: "DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 11: The [[locations/Great Cavern.md|Great Cavern]] Redux"
+title: "DFRPG Arden Vul Session 11: The Great Cavern Redux"
 tags:
-  - session
   - session
   - recap
 session_id: 11
 ---
 
-# DFRPG [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[npcs/Arden.md|Arden]] Vul]] Session 11: The [[locations/Great Cavern.md|Great Cavern]] Redux
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 11: The [[locations/Great Cavern.md|Great Cavern]] Redux
 
 Date:
 

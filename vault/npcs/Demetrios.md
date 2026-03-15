@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Demetrios.md|Demetrios]]"
+title: Demetrios
 tags:
-  - npc
   - npc
   - gender/unknown
   - race/unknown

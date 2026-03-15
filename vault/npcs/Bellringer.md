@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Bellringer.md|Bellringer]]"
+title: Bellringer
 tags:
-  - npc
   - npc
 aliases:
 ---

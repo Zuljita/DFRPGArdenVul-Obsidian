@@ -1,7 +1,6 @@
 ---
-title: "Temple of [[npcs/Mitra.md|Mitra]]"
+title: Temple of Mitra
 tags:
-  - location
   - location
 ---
 # Temple of [[npcs/Mitra.md|Mitra]]

@@ -1,10 +1,7 @@
 ---
-title: "Ebon Spear of [[npcs/Arden.md|Arden]]"
+title: Ebon Spear of Arden
 tags:
   - item
-  - item
-
-
 ---
 # Ebon Spear of [[npcs/Arden.md|Arden]]
 

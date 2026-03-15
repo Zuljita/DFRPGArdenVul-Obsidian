@@ -1,7 +1,6 @@
 ---
-title: "Glory of [[npcs/Thoth.md|Thoth]]"
+title: Glory of Thoth
 tags:
-  - location
   - location
 aliases:
   - The Glory of [[npcs/Thoth.md|Thoth]]
@@ -101,3 +100,5 @@ A grand and significant chamber or area within [[Arden Vul]], almost certainly d
 - Session 27 - The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 - Session 29 - The Tower of Scrutiny
+- [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
+- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]

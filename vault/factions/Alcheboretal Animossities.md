@@ -6,7 +6,7 @@ tags:
 # Alcheboretal Animossities
 
 ## Summary
-The company founded by [[Ashe Maykum]] to develop and produce innovative alchemical and botanical devices, such as [[The Living Wheelbarrow]].
+The company founded by [[Ashe Maykum]] to develop and produce innovative alchemical and botanical devices, such as [[items/Living Wheelbarrow.md|Living Wheelbarrow]].
 
 ## Goals
 To create and commercialize practical magical items, raising funds through crowdfunding initiatives.
@@ -18,7 +18,7 @@ To create and commercialize practical magical items, raising funds through crowd
 - Customers and backers of their crowdfunding campaigns.
 
 ## Notes
-Their initial successful product is [[The Living Wheelbarrow]].
+Their initial successful product is [[items/Living Wheelbarrow.md|Living Wheelbarrow]].
 
 ## Members
 

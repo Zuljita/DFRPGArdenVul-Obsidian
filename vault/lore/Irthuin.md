@@ -1,13 +1,20 @@
 ---
 tags:
   - lore
+  - culture/archontean
+  - culture/thorcin
 ---
 
-# [[npcs/Irthuin.md|Irthuin]]
+# Irthuin
 
 ## Summary
-A large continent where the [[Archontean Empire]] colonized parts.
+Irthuin is the continent where the Arden Vul campaign takes place.
 
 ## Notes
-- The [[Thorcin]] culture is the local population in this part of [[npcs/Irthuin.md|Irthuin]].
-- [[Narsileon]] is the capital of the Exarchate in this part of [[npcs/Irthuin.md|Irthuin]].
+- The Archontean Empire controls/colonized parts of Irthuin.
+- Thorcin cultures are native to this region.
+- [[locations/Narsileon.md|Narsileon]] is the Exarchate capital in this part of Irthuin.
+
+## Related
+- [[lore/Magae.md|Magae]]
+- [[locations/Arden Vul.md|Arden Vul]]

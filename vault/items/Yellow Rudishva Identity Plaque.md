@@ -5,13 +5,11 @@ tags:
 
 # Yellow Rudishva Identity Plaque
 
-## Summary
-A high-priority Rudishva identity card (often called the "yellow card") used to authenticate command-level access in Rudishva facilities.
+Canonical family page: [[items/Rudishva Identity Cards.md|Rudishva Identity Cards]]
 
-## Notes
-- Opens multiple iris doors in the [[Rudishva Bastion]] and related secure areas.
-- Can suppress or pacify some Rudishva security constructs when presented as valid credentials.
-- Used to activate specific teleporter panels and bypass force-field controls.
+## Variant Notes
+- This is the high-priority yellow credential variant.
+- See the canonical page for cross-variant behavior and session history.
 
 ## Sessions
 - [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]

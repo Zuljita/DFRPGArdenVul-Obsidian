@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Craastonistorex.md|Craastonistorex]]"
+title: Craastonistorex
 tags:
-  - npc
   - npc
 aliases:
   - Huge Green Dragon

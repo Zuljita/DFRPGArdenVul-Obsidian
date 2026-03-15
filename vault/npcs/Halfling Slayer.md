@@ -1,7 +1,6 @@
 ---
-title: "[[npcs/Halfling Slayer.md|Halfling Slayer]]"
+title: Halfling Slayer
 tags:
-  - npc
   - npc
 appears_in:
   - "Session 32 - Fast Exploration"
