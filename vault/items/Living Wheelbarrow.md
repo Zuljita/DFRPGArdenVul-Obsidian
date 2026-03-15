@@ -8,7 +8,7 @@ tags:
 The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] is a magical item created by the inventor [[Ashe Maykum]] under the company [[Alcheboretal Animossities]]. It was developed as part of his "Shroom for Improvement" prototype and was eventually ready for mass production.
 
 ## Properties
-The underside of the wheelbarrow is covered in real, living plants. This unique feature allows the use of the [[Levitation]] spell, which is normally only usable on living things, rather than [[Apportation]]. This makes it significantly easier to transport than a standard wheelbarrow, as it can be floated over difficult terrain or up and down vertical shafts.
+The underside of the wheelbarrow is covered in real, living plants. This unique feature allows the use of the *Levitation* spell, which is normally only usable on living things, rather than *Apportation*. This makes it significantly easier to transport than a standard wheelbarrow, as it can be floated over difficult terrain or up and down vertical shafts.
 
 - **Capacity:** 360 pounds.
 - **Handling:** It can be pushed or pulled with only a quarter of the strength necessary to move a ground-based wheelbarrow, and ignores difficult terrain. Easily raised or lowered across flights stairs or even vertical shafts through simple caster concentration.
@@ -24,4 +24,4 @@ The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] was originally offered th
 [[Vael]] acquired a customized wheelbarrow, and both [[Ioannes]] and [[Onyx]] were "befuddled" by it initially. Deliveries for Adventurer and Party Pledges began by Gerakios 2993, with Trailblazer pledges focusing on unique designs.
 
 ## Warnings
-The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] is not self-powered, self-propelled, or self-levitating. A competent caster and [[Levitation]] spell is required to make use of the levitating feature. Scroll use by untrained users may result in injury or equipment loss. Designs, components, and plant details are prototypes and subject to change.
+The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] is not self-powered, self-propelled, or self-levitating. A competent caster and *Levitation* spell is required to make use of the levitating feature. Scroll use by untrained users may result in injury or equipment loss. Designs, components, and plant details are prototypes and subject to change.

@@ -10,7 +10,7 @@ This document outlines details regarding the physical characteristics and travel
 ## Travel Times & Features
 
 -   Walking up the [[Long Stair|cliff face]] takes about 90 minutes, depending on caution and encumbrance.
--   [[Levitation|Levitating]] takes about 10 minutes.
+-   *Levitating* takes about 10 minutes.
 -   Flight should get there in 3 minutes.
 
 ## Notable Features on the Ascent
