@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 6: Good Ghost, Bad Ghost"
+title: "6: Good Ghost, Bad Ghost"
 tags:
   - session
   - recap

@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 23A: Gelatinous Cube and Slime Kraken"
+title: "23A: Gelatinous Cube and Slime Kraken"
 tags:
   - session
   - recap

@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Sessions 8b and 9: Muirasso's Tomb and the Broken Head"
+title: "8b and 9: Muirasso's Tomb and the Broken Head"
 tags:
   - session
   - recap

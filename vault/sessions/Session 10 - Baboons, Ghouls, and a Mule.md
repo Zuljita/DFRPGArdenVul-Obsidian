@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 10: Baboons, Ghouls, and a Mule"
+title: "10: Baboons, Ghouls, and a Mule"
 tags:
   - session
   - recap

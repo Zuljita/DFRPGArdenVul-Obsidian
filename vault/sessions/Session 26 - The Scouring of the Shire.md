@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 26: The Scouring of the Shire"
+title: "26: The Scouring of the Shire"
 tags:
   - session
   - recap

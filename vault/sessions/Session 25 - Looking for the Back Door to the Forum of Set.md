@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 25: Looking for the Back Door to the Forum of Set"
+title: "25: Looking for the Back Door to the Forum of Set"
 tags:
   - session
   - recap

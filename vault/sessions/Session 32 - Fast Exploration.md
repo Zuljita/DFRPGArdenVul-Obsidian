@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 32: Fast Exploration"
+title: "32: Fast Exploration"
 tags:
   - session
   - recap
