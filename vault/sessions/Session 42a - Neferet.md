@@ -1,33 +1,62 @@
 ---
 tags:
   - session
+  - recap
 ---
 
 # Session 42a - Neferet
 
 ## Summary
-A planning-and-movement session focused on preparing anti-Set actions, coordinating use of the [[locations/Beacon.md|Beacon]], and moving back toward the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] / [[locations/Glory of Thoth.md|Glory of Thoth]] route.
 
-## Full Recap (evidence-backed)
+The Right for Riches Company hires mercenaries, handles diplomacy and logistics in Gosterwick/Goblintown, then discovers [[Neferet]]'s tomb and begins a brutal multi-phase boss fight involving darkness, invisibility, force beads, shadows, and a dispel corridor.
 
-- The party asked for guidance related to Set/Setites, including discussion of removing Set's power from a Set-linked item.
-- The group explicitly raised questions about [[npcs/Neferet.md|Neferet]] and the "circlet of Ganor" (likely the [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]]).
-- The party planned travel using a paired-rug setup to and from the [[locations/Beacon.md|Beacon]].
-- They discussed the "tablet of the Beacon" being kept in a secret room within the [[locations/Beacon.md|Beacon]].
-- The party transported an Archontean chess set and dropped it off at the [[locations/Dam (Arden Vul).md|Dam (Arden Vul)]].
-- Afterward, they moved toward the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], intending to proceed into the [[locations/Glory of Thoth.md|Glory of Thoth]].
+## Full Recap
+
+- Vallium is away on business in Newmarket, so the party hires [[Thrainor "Thronebreaker" Ironvein]] and [[Lasselanta "Chrysalis" Ashcroft]] from the Grudge Brigade.
+- The group hires [[Fael]] to help with cat translation and makes an offering to [[Bastet]]; [[Bastet]] answers questions but does not know Neferet.
+- Onyx suggests better apartment security while "the big guy" is away.
+- Vael delivers the fancy chessboard + note for [[Craastonistorex]] at the dam.
+- The party does the [[Litany of Light]] at the [[Well of Light]]; Ioannes and Vael gain multiple temporary ritual benefits.
+- In Goblintown, they commission [[Temrin]] (via King Weskenim) to map another command bracelet location.
+- They meet Lukor and companions ("Eighth Collegium"), who request help getting a direct audience with King Weskenim.
+- In the [[Great Hall]], they locate secret doors and enter a tomb complex tied to [[Neferet]].
+- First contact battle: one mummy and two shadows are defeated.
+- A hidden section reveals Neferet (greater mummy caster) using Blink, darkness, invisibility beads, and force beads.
+- The session ends mid-fight with party members split by force domes and Neferet still active but burning resources.
 
 ## NPCs Encountered
 
-- None confirmed from current recording notes beyond discussion references.
+- [[Fael]]
+- [[Onyx]]
+- [[Bottleneck]]
+- [[Yamki]]
+- [[Temrin]]
+- [[Weskenim]]
+- [[Palestrim]]
+- [[Lukor]]
+- [[Neferet]]
+- [[Thrainor "Thronebreaker" Ironvein]]
+- [[Lasselanta "Chrysalis" Ashcroft]]
 
 ## Locations Visited
 
-- [[locations/Beacon.md|Beacon]]
-- [[locations/Dam (Arden Vul).md|Dam (Arden Vul)]]
-- [[locations/Pyramid of Thoth.md|Pyramid of Thoth]]
-- [[locations/Glory of Thoth.md|Glory of Thoth]]
+- [[Gosterwick]]
+- [[Beacon]]
+- [[Well of Light]]
+- [[Upper Goblintown]]
+- [[Goblin Market]]
+- [[Great Hall]]
+- [[Neferet]]'s tomb area (secret complex)
 
-## Sources
+## Loot / Discoveries
 
-- [[lore/recording-notes/Recording 2026-02-13.md|Recording Notes (2026-02-13)]]
+- Platinum bars from trapped hanging chest
+- Magic helmet
+- Stone wrapped in chamois (unidentified in recap)
+- Discovery of Neferet's active lair and spell/consumable loadout (Force + Invisibility beads)
+
+## Hooks for Next Session
+
+- Finish the Neferet fight and secure the [[Iron Circlet of Ghanor]].
+- Determine whether Neferet is killed, escapes, or regroups.
+- Follow up on Eighth Collegium request for access to the goblin king.

@@ -8,9 +8,9 @@ tags:
 
 ## Summary
 
-_Date: Lunday, 12th of Dikaios through Lunday 19th of Dikaios, 2993 AE_
+Auto-imported from the GM blog (2025-12-20). Needs light cleanup for style, but captures current facts.
 
-While the rest of the Right for Riches company was invading the Tower of the Ape, Uvash was in the House of the Gods in Gosterwick, discussing Zodarrim with his small group of mostly dwarven faithful. He was surprisingly interrupted by Onyx the cat, who ran into the House at full speed, meowing at Uvash like someone was standing on his tail. He grabbed the hem of Uvash's mail vestments and started tugging, until Uvash excused himself and followed the cat to the south. Onyx led Uvash to the Arcane Practitioner's Club, where many people were standing outside, watching a fire on the top floor. They saw Lyssandra through the top floor windows, using spells to put out the fire. With the fire...
+While the rest of the Right for Riches company was invading the Tower of the Ape, Uvash was in the House of the Gods in Gosterwick, discussing Zodarrim with his small group of mostly dwarven faithful. He was surprisingly interrupted by Onyx the cat, who ran into the House at full speed, meowing at Uvash like someone was standing on his tail. He grabbed the hem of Uvash's mail vestments and started tugging, until Uvash excused himself and followed the cat to the south. Onyx led Uvash to the Arcane Practitioner's Club, where many people were standing outside, watching a fire on the top floor. They saw Lyssandra through the top floor windows, using spells to put out the fire. With the fire out,...
 
 ## Full Recap (Imported)
 
@@ -29,6 +29,20 @@ The basement looked like a wizard's lab, but it had clearly been mostly emptied.
 Vallium found a key and unlocked both cells.  Vael searched both cells and surprisingly found a no-mana zone in one corner of the baboons' cell, but nothing else interesting.
 Asking the prisoners to wait, the group went up a floor and Vael used Shape Earth to punch a hole in the wall next to the door he could not open.  Beyond was a large storeroom full of shelves.  It had been mostly emptied of valuables, but Ioannes grabbed a bunch of mushrooms, and Vael took some empty chests.  Before leaving, Vael cast Seeker on Tikun Thane, and got a vision of him in a windowless room, surrounded by piles of wizardly stuff.  He followed up with Trace and found that Tikun Thane was in Narsileon, meaning he'd made a three-week trip in three days.  They assumed he'd used some kind of teleportation.
 Vael talked to the three men, saying they were free and could stay here in Newmarket, or come back in the carriage to Gosterwick, or that they'd be interested in hiring one of them if any of them could read.  None claimed to be able to read, but Basil said he'd be willing to learn, so Vael hired him to turn pages for Akla-Chah and Stamelis in the Beacon.  Ioannes used his Animal Handling skill to convince the baboons to let Vallium lift them through the Rug back to the Beacon, where Vael used Blink Other to pop them through the roof to the surface ruins of Arden Vul.  From there, both ran over the bridge and back toward the cliff face.  Seeing that the baboons knew the way back to the Howling Caves, Vael and Vallium went back to the Tower, took Basil through the Rug to introduce him to Akla-Chah and Stamelis, then went back through the Rug one more time to the Tower.  They detached the non-functioning teleportation portal from the wall, trying not to destroy it, and Vallium carried the heavy thing back to their carriage.  They then took the three-day carriage ride back to Gosterwick, along with the other two prisoners.  When they reached Gosterwick, Vallium gave both men some money for supplies, and they thanked their rescuers and left for their respective farms.
+
+GM's Comments:
+
+Uvash was the first PC to die in Arden Vul.  Fortunately for him, his body was recovered and there was enough money and goodwill for a Resurrection.
+The PCs were unlucky to have their apartment burgled.  The thief was unlucky to touch the wrong statue's eyes and experience a 9d Explosive Fireball at point-blank range.  The PCs were lucky to have their Rug of Instant Access survive the fireball, though they lost a lot of other stuff.  (Never in my life have I rolled so many item survival rolls.)
+Basil is the Right for Riches Company's first employee.
+
+XP:- Exploration: 63 new locations across 3 sessions: 2 XP for most of the party, 1 XP for Uvash
+- Loot: They found quite a bit.  Not sure what they'll sell or how they'll split it, but probably 2 XP.
+- Achievements: The Rescuers, 1 XP for rescuing 3 human and 2 baboon prisoners
+
+Next Week:
+
+They plan to go back to Goblintown to get their map from Temrin and have Vael invisibly explore the secret door they found high on the wall of the Goblin Market.  Then they plan to go to Upper Goblintown and ask Thoth for one of his secret names, then investigate the bronze floating head, then explore the glowing room in the northwestern part of the Halls of Thoth, then check out the unexplored parts of the northeastern parts of the Halls of Thoth mentioned on a map they found.
 
 ## Source
 

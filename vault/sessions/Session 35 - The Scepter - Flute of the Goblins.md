@@ -8,9 +8,9 @@ tags:
 
 ## Summary
 
-_Date: Demmasday, 26th of Dikaios, 2993 AE_
+Auto-imported from the GM blog (2025-12-27). Needs light cleanup for style, but captures current facts.
 
-A note appeared in on the bulletin board in the lounge of the Arcane Practitioners' Club, instructing that members renting apartments may not keep explosive or flammable items powerful enough to damage the structure of the building in their rooms. A letter arrived from Wicktrimmer, indicating that he was in Narsileon, found some of the items on the group's shopping list, and should be back to Gosterwick in a few weeks. He expressed condolences on Uvash's temporary death and concern at the burglary (and explosion and fire) in their apartment. Vael (providing management and Shape Earth spells) and Basil (providing the muscle) expanded the library in the Annex of the Beacon and dumped all the...
+A note appeared in on the bulletin board in the lounge of the Arcane Practitioners' Club, instructing that members renting apartments may not keep explosive or flammable items powerful enough to damage the structure of the building in their rooms. A letter arrived from Wicktrimmer, indicating that he was in Narsileon, found some of the items on the group's shopping list, and should be back to Gosterwick in a few weeks. He expressed condolences on Uvash's temporary death and concern at the burglary (and explosion and fire) in their apartment. Vael (providing management and Shape Earth spells) and Basil (providing the muscle) expanded the library in the Annex of the Beacon and dumped all the e...
 
 ## Full Recap (Imported)
 
@@ -35,6 +35,21 @@ When they were reached the Great Cavern, most of the group stepped through the R
 Exploring more cautiously, the group went north, up a slippery slope, and then found a room with six urns.  Vael's Trace spell told him that one urn contained the Scepter, surrounded by a lot of wooden sticks.  It was a three-foot-long legbone, possibly from an ogre or troll.  It was hollowed out, with holes drilled along one side, like a gigantic flute.  It was magical.  They took the scepter, then searched all the urns.  One was full of black sand.  One was full of small white rocks that they thought were non-valuable calcite.  One was full of some kind of disgusting rotten plant material.  One had a few inches of oil on top of a lot of water.  And the last had a few inches of water on top of a big block of what looked like gold.  The urn was heavy enough to be full of gold; Vallium could barely move it.  Coinbase cast Lighten Burden on him to make it easier, and he carried it through the Rug back to the Beacon.
 There were some wooden scraps on the east wall that looked like the remains of a ladder, and a couple of holes in the floor where it may have been based.  Vael flew up and searched for a secret door up on the wall, and found one.  Vallium pulled an intact ladder out of Larel's Sack and set it up against the wall, then climbed up and bashed the secret door open.  On the other side were some zombies and construct spearmen.  Vallium initially fought them from the top of the ladder.  He then stepped into the room to make space for Uvash and Coinbase to join him.  The zombies went down pretty quickly.  The constructs were much tougher, but one went down after three good hits, and then they surrounded the other.  One hard blow stunned it and caused it to drop its spear, and once it was on the ground the three of them smashed it from all sides until it stopped moving.
 On the far wall of the room was a sarcophagus.  Coinsbase and Vallium pulled the lid off.  Inside were some decayed remains, buried with a lot of ancient silver pennies, and a few other valuable objects like a magical torc, a golden ceremonial helmet, an ebony magic wand, and a few potions.  They scooped up everything in the sarcophagus except the remains, and headed back out to the Great Cavern.  They again had most of the group go through the Rug while Vael and Coinbase Levitated south over the lake, and then landed to reform the party.  Vallium led them through the eastern side passages then south to the secret exit.  At that point most of the party went into the Rug again, and Vael and Coinbase Levitated all the way to Gosterwick through the freezing rain.  It was a cold flight, but they made it back to town intact.
+
+GM's Comments:
+
+The Right for Riches Company learned that other adventuring parties can find treasure too.  They did not like this.
+They got their map to the Gold Rudishva ID from Temrin, and spent some time figuring it out.  The map seemed to lead them deeper than they have gone so far under Arden Vul.  We'll see if they follow it soon, or prioritize goals that seem easier to reach.
+They found a giant bone flute that Seeker said was the Scepter of the Goblins.  They plan to bring it to King Weskenim.
+They also found a second set of the Rugs of Instant Access.  The first set has been very useful.  Do they keep the second set for themselves, or sell it to Wicktrimmer?
+
+XP: - Exploration: 6 new locations, 1 XP
+- Loot: They will sell enough of the loot they found to get 2 XP
+- Achievements: None
+- Total: 3 XP
+
+Next Week:
+They plan to being the Scepter / Flute to King Weskenim.  After that, they're considering two options.  One would be resuming the plan from this delve that they aborted to find the Scepter: use the Obelisk of Thoth to get a secret name of Thoth, identify the floating head, and explore some unexplored areas near Upper Goblintown.  The other is to go after Ambrosia in the Great Cavern and bring the charmed beastmen back to Count Skleros, to try to gain an alliance with the beastmen and free passage through their territory.  We'll see which one they pick.
 
 ## Source
 

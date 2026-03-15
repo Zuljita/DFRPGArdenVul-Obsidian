@@ -1,32 +1,51 @@
 ---
 tags:
   - session
+  - recap
 ---
 
 # Session 38 - Another Attack on the Temple of Set
 
 ## Summary
-A planning-and-movement session focused on launching another anti-Set operation, staging from the [[locations/Beacon.md|Beacon]], and re-entering dungeon routes via [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] toward [[locations/Upper Goblintown.md|Upper Goblintown]].
 
-## Full Recap (evidence-backed)
+Auto-imported from the GM blog (2026-01-17). Needs light cleanup for style, but captures current facts.
 
-- The party aligned on another strike against Set/Setite forces and chose a nighttime delve.
-- Their planned route was through the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] into the [[locations/Glory of Thoth.md|Glory of Thoth]], then west toward a triple-portcullis approach.
-- The group coordinated Beacon staging/logistics (including comfort/temperature conditions) before departure.
-- After movement, they arrived in [[locations/Upper Goblintown.md|Upper Goblintown]].
-- Discussion in Upper Goblintown referenced troop rotation and veteran "halfling slayer" badges among goblin forces.
+Renovation of the apartments on the top floor of the Arcane Practitioners' Club was finished. The Right for Riches company had secured two-year leases on four new luxury apartments, which doubled their previous cost of living. Wicktrimmer asked for a meeting. He once again tried to buy a pair of their Teleport Rugs. After that failed, he asked their opinion of Tresti Iredell, a mage the Rarities Factor was considering hiring. He then shared information about the thief who had blown himself up in their apartment: the Drome had found that his name was Jarnno the False, and he was apparently a freelance non-guild-affiliated thief from Newmarket. Everyone wanted to try talking to the magic bones...
 
-## NPCs Encountered
+## Full Recap (Imported)
 
-- None confirmed by name from current recording notes beyond planning references.
+Renovation of the apartments on the top floor of the Arcane Practitioners' Club was finished.  The Right for Riches company had secured two-year leases on four new luxury apartments, which doubled their previous cost of living.
+Wicktrimmer asked for a meeting.  He once again tried to buy a pair of their Teleport Rugs.  After that failed, he asked their opinion of Tresti Iredell, a mage the Rarities Factor was considering hiring.  He then shared information about the thief who had blown himself up in their apartment: the Drome had found that his name was Jarnno the False, and he was apparently a freelance non-guild-affiliated thief from Newmarket.  
+Everyone wanted to try talking to the magic bones.  Thinking it might be a good idea to do so in a sanctified place, Ioannes first suggested the Temple of Demma, but didn't want to get in trouble in case talking to dead people was bad, so they decided to use the public House of the Gods instead.  The bones answered, in audible Mithric.  The bones belonged to an ancient warrior named Jaken, who was a companion of Arden and Vul, about 2000 years ago.  He had questions about the future, like whether spears were still the best weapons and whether everyone moved around on flying carpets.  The Right for Riches Company had a few questions about Jaken and the past, then Jaken's spirit said he needed to rest and stopped responding.
+They went through a Teleport Rug to the Beacon, then Vael used Blink Other to move Vallium to the surface, then everyone else came through a Rug to join Vallium.  There were no enemies in sight, but it was snowing and nobody wanted to leave an obvious trail from the Beacon, so Vael Levitated and followed behind the group using a Whirlwind spell to disrupt their tracks.
+When they reached the Forum, Ioannes used the clerical scroll of Beast Speech (an unusual item, as it's usually a Druidic spell) on Vael, to let him talk to the big oak tree.  The tree actually responded.  It said its name was Tuftwillig.  They discovered a common dislike for Craastonistorex the green dragon and for the undead in the Tower of Scrutiny.  Tuftwillig said, being a tree, he wasn't personally so good at moving or fighting, but might be able to summon some animals to help fight the dragon.  Vael asked if Tuftwillig knew any rocs, and Tuftwillig said that rocks were minerals, not animals, but he might be able to call some bears and crocodiles, though he didn't really trust crocodiles.  Tuftwillig also complained that the Tower of Scrutiny was ugly and blocked his view of the sunrise and should be knocked down, after all the undead inside were destroyed.
+After the spell expired, they went north to the Pyramid of Thoth, manipulated the statue arms to open the stairs down, and reached Upper Goblintown.  After being allowed in, they spoke briefly to Bottleneck, who said the Settites hadn't been back for a week.  Vallium led the group northwest to Maat's room, where everyone grabbed another magic feather.  They then went west to the portcullis room, where Vael pulled a lever to open the northern portcullis.  Not wanting to let anything out, Vallium used an Elven Rope to pull the lever from the far side of the portcullis, shutting it behind them.  They went west until they found the trap door in the ceiling, pulled the rope ladder down, and climbed up into the cave with the "Stilicho was here" graffitti.
+They headed west across the cave, until they saw a line of Settite guards with bows to their south, below a 20' high cliff.  An archery duel began, mostly featuring Lacrymosa shooting Settite archers in the arms and Settite archers saying "ow!" and dropping their bows.  Meanwhile Vallium lowered himself as far as he could down the cliff, then let go and let his armor absorb the fall, then charged the Settites with his sword.  Uvash followed Vallium down the cliff, climbing more carefully.  Vael cast Missle Shield on Lacrymosa just in case one of the Settites got a lucky hit before losing an arm, but it turned out not to be necessary.  One Settite guard fled east, and the rest died.
+The others scrambled down the cliff, and then everyone ran south, where there was a 10' cliff leading to the Signing Stair between the Temple of Set above and the Forum of Set below.  Vallium and Lacrymosa just jumped down the cliff, relying on armor and acrobatics respectively.  They saw the double doors to the the Temple were closed, and lined up ready to attack anyone who opened them.  One of the doors eventually opened, and guards and cultists started pouring out.  Vallium and later Uvash got in a melee with many cultists and guards, while Lacrymosa stood back, peppering them with arrows and occasionally throwing a flash nageteppo to blind them.  Behind the wall of guards and cultists, some other Settites fled.
+By the time the fight was over, there were a couple dozen dead Settites scattered about.  Entering the temple, they spotted a sacrificial victim chained to the altar, bleeding but still alive.  All the Settites were gone.  After some conversation revealed that the victim was indeed a victim not a Settite, they freed him and eventually Ioannes took him via Rug teleport to the Temple of Demma in Gosterwick.  Meanwhile Vallium and Lacrymosa attempted to track the fled Settites.  They found a trail leading south through a secret door, then two groups went south and west, and eventually they lost the trail.  They rejoined the others, who were busy looting guards of their armor and weapons and breaking things.  Vael used Shape Earth to topple the giant cult statue (which Ioannes and Uvash had previously looted of its gem eyes) forward onto the altar, causing major damage to both.
+Vallium tried to grab the jeweled serpent construct in one of the alcoves, but it animated and tried to bite him.  Deciding his armor was probably thick enough to stop snakebites, he wrestled the snake until he had its head grappled so it could no longer bite him, then took it through a Teleport Rug to the Beacon, and left it in an empty side room behind an iris door where it couldn't bite anybody.
+Once the group was done looting weapons and armor and trashing Settite religious objects, they decided to start stealing furniture.  They took two tables and four chairs from a couple of guard rooms, and later took some beds from a room to the south.  They took the furniture through the Rug to the entrance room of the Beacon, where Basil could figure out where to put it all.  On the way out, Vael also used a Lightning spell to kill a wild boar that the Settites had chained up for some unknown reason.
+Vallium led the group south to a hole in the floor that they had never explored.  He threw a Continual Light rock in, which revealed a pile of bones.  He jumped in, again trusting his armor to prevent falling damage.  An otyugh that was hiding behind the bones tried to ambush him, but flubbed its stealth attempt and failed to achieve any surprise.  The fight was over very quickly: Vallium stabbed the otyugh several times and it died before Lacrymosa standing in the room above found a clear shot.  Vallium started sifting through the bones, and found a couple of diamonds.  Vael flew down to help search, but didn't find anything else.
+The group again tried to find where the Settites had fled.  They found an additional secret door further west, leading to the stairs down to the Forum, and concluded that the remaining Settites had probably run around them while they were fighting or exploring or looting or breaking stuff.  They went to the Settite jail in the southwest, then through the secret door behind a cell, and again visited the area with Rudishva architecture and the Rudishva-style mural with all the faces burned out.  They searched for secret doors again, and Lacrymosa noted a small door on the wall that was different from everything else.  They pushed on it, which popped a secret door open to the west.
+Going through the secret door, they spotted a charred corpse in orange robes, a metal chest, and some kind of magical floating disk with a stone slab on it.  Ioannes walked over to check out the corpse, and got shocked by some kind of invisible trap.  Badly wounded, he avoided passing out, and jumped back.  Uvash healed him immediately.  Vael started looking for the trap, and could not find exactly where it was.  He used the Rug to go back to the Beacon and talked to Akla-Chah, who said she wasn't an engineer but explained the basics of electricity and lightning rods, then said she was available if Ioannes needed any therapy after his traumatic injury.  Vael gathered a bunch of Settite maces and tried to build a lightning rod, but didn't figure out how to make it work.  Then Uvash announced the he could cast Resist Lightning, grabbed the Rug, and carried it across the trap.  The shock didn't hurt him, and the others teleported across through the Rugs.
+The charred corpse had orange Thothian robes, a few silver coins, and a magical eye.  The chest was empty, but surprisingly light.  The floating disk was about 6 feet in diameter, and the slab of stone on the disk weighed a couple of tons.  There was a picture on the slab of some kind of flying machine, with a ramp coming down to the ground, and Rudishva and Varumani and a bird-creature and a snake-creature on the ramp.  There were also some Rudishva glyphs.
+Vael sat down to cast Analyze Magic on the disk, and found that it was a ground-level Levitation device that could be guided with a few Mithric command words.  Some experimentation showed that he could make it stop or go or turn, but not follow him, and not move vertically.  They explored down the dead end tunnel to the east then south, and found a secret door, which led to the passage leading back to the Settite outpost in the Great Cavern.  They then drove the Disk with the stone slab on top through the Great Cavern, down the Long Stair, and back to Gosterwick.  (Ioannes, still not feeling great after his electrical shock, opted out of this trip and instead teleported back to the Beacon.)
 
-## Locations Visited
+GM's Comments:
 
-- [[locations/Beacon.md|Beacon]]
-- [[locations/Pyramid of Thoth.md|Pyramid of Thoth]]
-- [[locations/Glory of Thoth.md|Glory of Thoth]]
-- [[locations/Upper Goblintown.md|Upper Goblintown]]
+That was a big fight.  Battles where I'm running dozens of enemies are hard.
 
-## Sources
+Achievements:
+1 XP for saving Rolf from being sacrificed and getting him to a safe place.
 
-- [[lore/recording-notes/Recording 2026-01-16.md|Recording Notes (2026-01-16)]]
+XP:- Exploration: 2 new locations, 0 XP
+- Loot: weapons and armor, gems, the magic Disk and the stone slab.  Looks like 1-2 XP, depending on what they decide to sell.
+- Achievements: 1 XP
+- Total: looks like 2-3 XP
+
+Next Week:
+I haven't seen a formal plan yet, but there was some discussion of following Temrin's map to the gold Rudishva identity plaque.  There was also talk of continuing to hammer the Settites, or maybe even going after Craas.  We'll see.
+
+## Source
+
+- https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-38-another.html

@@ -8,7 +8,9 @@ tags:
 
 ## Summary
 
-Uvash had church business and no Grudge Brigade mercenaries were available, so only three members of the Right for Riches company were on hand to try to find The Thane (who Vallium presumes is the same person as the wizard Tikun Thane in Newmarket) and rescue Bobo and Bifki. They used the Rugs of Instant Access to teleport from Gosterwick back to the Beacon, under the ruins of Arden Vul. Vael used Blink to pop through the stone cover over the stairs to the surface, then set down a Rug so the others could join him. They walked over a bridge then across the Forum to the Well of Light, where Vael Levitated down, then again used the Rug to bring the others. It was a mostly cloudy day, so they...
+Auto-imported from the GM blog (2025-12-06). Needs light cleanup for style, but captures current facts.
+
+Uvash had church business and no Grudge Brigade mercenaries were available, so only three members of the Right for Riches company were on hand to try to find The Thane (who Vallium presumes is the same person as the wizard Tikun Thane in Newmarket) and rescue Bobo and Bifki. They used the Rugs of Instant Access to teleport from Gosterwick back to the Beacon, under the ruins of Arden Vul. Vael used Blink to pop through the stone cover over the stairs to the surface, then set down a Rug so the others could join him. They walked over a bridge then across the Forum to the Well of Light, where Vael Levitated down, then again used the Rug to bring the others. It was a mostly cloudy day, so they de...
 
 ## Full Recap (Imported)
 
@@ -41,6 +43,18 @@ Vael started casting Great Haste on Vallium, but when the guards made no move to
 Once the Great Haste took effect, Vallium threw the door open and started stabbing guards.  There were three human guards in the room, unarmored and wielding scimitars.  There were also three of the trained baboons, with spears.  Vallium managed to kill one of the guards.  Another dropped his weapon.  The third parried all of Vallium's blows.  Vallium managed to dodge, block, or parry several scimitar cuts from the guards, as well as several spear thrusts from the baboons.  Vael cast Blur on Vallium to make him harder to hit, as Ioannes stood defensively with his shield up, ready to heal anyone who needed it.
 We ran out of time at that point, pausing in mid-battle.
 Battle in the Tower of the Ape
+
+GM's Comments:
+
+It's sometimes hard for me to predict when the players will be cautious and when they will be brave.  I was a bit surprised they went after the Thane with only 3 PCs.  I was also surprised they went through the teleporter with only a few minutes left in the session.  (They knew Uvash would not be available next week either, which factored into that decision.)
+This was a very good session for exploration, with a whole lot of a new level explored, a new exit to the Cliff Face found, and a couple of new stairways discovered.  They also found some treasure, though haven't identified much of it so they don't really know how good it is.  Except that after spending months collecting a full set of 6 teleportation tiles, they just found a full second set all together in one place.
+
+XP: 
+They stopped in mid-delve, so no XP was awarded.  Anything they did this session will be added to next session.
+
+Next Week:
+Since we stopped in mid-battle, I know exactly what they'll be doing at the start of next week's session: continuing to fight trained baboons and Disciplined guards with scimitars.  After that it depends on how that fight goes.  Guessing they press on as long as things go well, and try to dive back through that teleporter if they go poorly.
+Solving the mystery of why the Rugs of Instant Access stopped working will certainly be a high priority next session, if the PCs make it back to Gosterwick.
 
 ## Source
 
