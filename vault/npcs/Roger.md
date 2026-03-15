@@ -23,3 +23,6 @@ Mentioned in connection with [[npcs/Kronos Kettle-Belly.md|Kronos]]'s past busin
 
 ## Sessions
 - [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]

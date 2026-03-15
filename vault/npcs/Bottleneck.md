@@ -20,6 +20,10 @@ aliases:
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 
+
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
+
 ## Notes
 - He was very excited to hear about the defeat of [[Phlebotomas Plumthorn]]'s halflings.
 - He appears to be a key figure in the goblin military command in [[Upper Goblintown]].

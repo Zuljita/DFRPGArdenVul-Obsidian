@@ -20,3 +20,7 @@ appears_in:
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — So the group went back to the small pyramid, flipped the lever, and ended up in [[locations/Upper [[locations/Goblintown.md|Goblintown]].md|Upper [[locations/Goblintown.md|Goblintown]]]] (formerly the Halls of [[npcs/Thoth.md|Thoth]]).
   - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — By the time they reached [[npcs/Bottleneck.md|Bottleneck]] Halfling-Slayer, Master Sergeant of [[locations/Upper [[locations/Goblintown.md|Goblintown]].md|Upper [[locations/Goblintown.md|Goblintown]]]], they had a fan club of a few dozen already drunk goblins following them, while a few Designated Sober Guards had to stay behind.
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]
+
+## Sessions
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]

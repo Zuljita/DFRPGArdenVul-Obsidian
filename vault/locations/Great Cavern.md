@@ -290,3 +290,6 @@ A vast and ancient underground cavern system beneath [[Arden Vul]], characterize
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 - The [[locations/Great Cavern.md|Great Cavern]]
+
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]

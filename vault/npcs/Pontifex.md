@@ -18,5 +18,8 @@ Hostile.
 - [[Duty Deacon]]
 - [[Cult of Set]]
 
+## Sessions
+- [[sessions/Session 22.5 Interlude - Bonus Downtime Recap.md|Session 22.5 Interlude - Bonus Downtime Recap]]
+
 ## Notes
 The [[npcs/Pontifex.md|Pontifex]] issued a bounty for $2,500 each for the capture or kill of [[Vael]], [[Ioannes]], [[Michael]], [[Uvash]], [[Vallium Halcyon]], and [[Susarra]].

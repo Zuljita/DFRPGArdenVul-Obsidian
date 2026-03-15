@@ -18,5 +18,8 @@ Hostile.
 - [[Pontifex]]
 - [[Cult of Set]]
 
+## Sessions
+- [[sessions/Session 22.5 Interlude - Bonus Downtime Recap.md|Session 22.5 Interlude - Bonus Downtime Recap]]
+
 ## Notes
 The [[npcs/Duty Deacon.md|Duty Deacon]] is the one to whom bounty hunters are instructed to show the bounty letter to get in contact with the [[Pontifex]].

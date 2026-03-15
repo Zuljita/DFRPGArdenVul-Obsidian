@@ -19,6 +19,10 @@ None specified.
 
 ## Notes
 Provides essential supplies for adventurers and residents.
+In Session 42a, Fael was hired to assist with cat translation during a Bastet offering.
 
 ## Sessions
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
+
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]

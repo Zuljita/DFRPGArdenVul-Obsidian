@@ -29,3 +29,6 @@ aliases:
 
 ## Notes
 - In [[Session 33 - Nyema]], [[Stamelis]] was brought to the [[Beacon]] to keep her company.
+
+## Sessions
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]

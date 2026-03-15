@@ -82,3 +82,5 @@ A significant library located in [[Arden Vul]], dedicated to [[Thoth]], the god 
 - [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
+
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]

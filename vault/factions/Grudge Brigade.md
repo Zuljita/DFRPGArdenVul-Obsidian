@@ -61,3 +61,4 @@ The [[Grudge Brigade]] is a mercenary company operating out of [[Gosterwick]], o
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
+- [[sessions/Session 16.5 Bonus Mid-2993 Summary.md|Session 16.5 Bonus Mid-2993 Summary]]

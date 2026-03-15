@@ -25,3 +25,6 @@ tags:
 
 ## Sessions
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]

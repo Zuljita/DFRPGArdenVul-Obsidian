@@ -44,3 +44,7 @@ He maintains a court with a major-domo named [[npcs/Palestrim|Palestrim]] and ad
 - Some goblins, particularly a splinter group living with baboons, hold a negative view of his rule, stating "[[npcs/[[npcs/Weskenim.md|Weskenim]].md|[[npcs/Weskenim.md|Weskenim]]]] sucked."
 - He has a harem, from which he was emerging when the party arrived to report on their victory over the halflings.
 - The goblin artist [[Temrin]] has painted portraits of both [[npcs/Weskenim.md|Weskenim]] and [[Gribble]].
+
+## Sessions
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]

@@ -19,6 +19,7 @@ Archontean fighter who briefly adventured with the party in the lower caverns be
 - [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23a - Gelatinous Cube and Slime Kraken]]
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
 - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]]
+- [[sessions/Session 22.5 Interlude - Bonus Downtime Recap.md|Session 22.5 Interlude - Bonus Downtime Recap]]
 
 ## History
 - [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23a - Gelatinous Cube and Slime Kraken]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo) Significant NPCs: [[npcs/Lillian.md|Lillian]], captured Canon of [[npcs/Mitra.md|Mitra]] Kronos, Innkeeper at the Sign of the Broken Head 4 Ghouls Gelatinous Cube Slime Kraken [[npcs/Susarra.md|Susarra]], Archont...

@@ -49,3 +49,15 @@ A system of oval keycards is used to operate doors:
 
 ## Sessions
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
+- [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
+- [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
+- [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
+- [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
+- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
+- [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42b - Neferet and the Wraiths]]
+- [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
+
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]

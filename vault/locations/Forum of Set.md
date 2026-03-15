@@ -28,6 +28,8 @@ A major area within the Halls of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[np
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]]
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
+- [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
 
 ## Notes
 - [[Temrin]]'s map to [[Nyema]]'s body showed a path through the Forum of [[npcs/Set.md|Set]].
@@ -35,3 +37,6 @@ A major area within the Halls of [[locations/[[npcs/Arden.md|Arden]] Vul.md|[[np
 - **The Mysteries of [[npcs/Set.md|Set]]:** A rumor describes a "First Mystery" which is considered "lame," and a "Second Mystery" which is impressive. A "Third Mystery" is alluded to, but asking the Deacons about it is met with threats of being sold into slavery.
 - **Rumor:** Red guardsmen in the Forum have been overheard whispering about escaped slaves causing problems to the north.
 - **Rumor:** A rumor describes a method for reaching "The Forum" that may apply to this location. It involves shining two lanterns from the left side of the river at night, then looking for a basket on the cliff face. A person named [[Stephania]] apparently pays well for basic supplies delivered this way.
+
+## Sessions
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
