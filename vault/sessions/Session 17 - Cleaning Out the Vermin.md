@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 17: Cleaning Out the Vermin"
+title: "17: Cleaning Out the Vermin"
 tags:
   - session
   - recap

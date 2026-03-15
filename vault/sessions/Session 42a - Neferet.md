@@ -1,62 +1,68 @@
 ---
+title: "42a: Neferet"
 tags:
   - session
   - recap
 ---
 
-# Session 42a - Neferet
+# 42a: Neferet
 
-## Summary
+Date: Tothsday, 4th Mercedonian Day, 2994 AE
 
-The Right for Riches Company hires mercenaries, handles diplomacy and logistics in Gosterwick/Goblintown, then discovers [[Neferet]]'s tomb and begins a brutal multi-phase boss fight involving darkness, invisibility, force beads, shadows, and a dispel corridor.
+Weather: 
+Cold, mostly sunny, snowy
 
-## Full Recap
+Player Characters: 
 
-- Vallium is away on business in Newmarket, so the party hires [[Thrainor "Thronebreaker" Ironvein]] and [[Lasselanta "Chrysalis" Ashcroft]] from the Grudge Brigade.
-- The group hires [[Fael]] to help with cat translation and makes an offering to [[Bastet]]; [[Bastet]] answers questions but does not know Neferet.
-- Onyx suggests better apartment security while "the big guy" is away.
-- Vael delivers the fancy chessboard + note for [[Craastonistorex]] at the dam.
-- The party does the [[Litany of Light]] at the [[Well of Light]]; Ioannes and Vael gain multiple temporary ritual benefits.
-- In Goblintown, they commission [[Temrin]] (via King Weskenim) to map another command bracelet location.
-- They meet Lukor and companions ("Eighth Collegium"), who request help getting a direct audience with King Weskenim.
-- In the [[Great Hall]], they locate secret doors and enter a tomb complex tied to [[Neferet]].
-- First contact battle: one mummy and two shadows are defeated.
-- A hidden section reveals Neferet (greater mummy caster) using Blink, darkness, invisibility beads, and force beads.
-- The session ends mid-fight with party members split by force domes and Neferet still active but burning resources.
+[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vael.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)Thrainor "Thronebreaker" Ironvein, Dwarven mercenary fighter (Frank)Lasselanta "Chrysalis" Ashcroft, Half-Elven mercenary martial artist (ArchonShiva)
 
-## NPCs Encountered
+Significant NPCs:
+Mariposa, Chyrsalis's monkey familiarOnyx, cat geniusSecondary catsFael, Half-Elven DruidStatuette of Bastet, Goddess of CatsBottleneck, Goblin sergeantMany goblinsYamki, 3-armed giant intelligence baboonMany baboonsTemrin, Goblin Royal ArtistAkla-Chah, Rudishva AI psychologistKillik, Goblin Boss of the Wet CavesSeveral ogre royal guardsSeveral goblin royal guardsPalestrim, Goblin MajordomoKing [[npcs/Weskenim.md|Weskenim]], King of the United Goblin TribesGribble, Goblin chiefConstruct of Kerbog KhanLukor, Thorcin mage of the Eighth CollegiumOther mages and fighters of the Eighth CollegiumSeveral beastmenMummy2 ShadowsNeferet, Greater Mummy
 
-- [[Fael]]
-- [[Onyx]]
-- [[Bottleneck]]
-- [[Yamki]]
-- [[Temrin]]
-- [[Weskenim]]
-- [[Palestrim]]
-- [[Lukor]]
-- [[Neferet]]
-- [[Thrainor "Thronebreaker" Ironvein]]
-- [[Lasselanta "Chrysalis" Ashcroft]]
+The Plan:
+- Hire Fael to translate, make an offering to Bastet, and ask the statuette of Bastet questions
+- Drop off the fancy chess board as tribute to Craastonistorex
+- Travel to the Well of Light, deliver food to the baboons, and perform the Litany of Light
+- Travel to the Goblin Market, and commission a map to another Command Bracelet from [[npcs/Temrin.md|Temrin]]
+- Talk to the mysterious wizards near the Goblin Market
+- Travel to the [[locations/Great Hall.md|Great Hall]] and look for secret doors leading to [[npcs/Neferet.md|Neferet]]
+- Explore west of the Well of Light
 
-## Locations Visited
+What Happened:
+[[pcs/Vallium Halcyon.md|Vallium]] announced he needed to take a trip to Newmarket on personal business.  Not wanting to venture into [[locations/Arden Vul.md|Arden Vul]] without sufficient bodyguards, the Right for Riches company went to the Grudge Brigade and managed to hire both Thronebreaker and Chysalis.  (Hiring two mercenaries for the same mission was a violation of Grudge Brigade policy, but business was slow during the winter, and Coinbase was out of town.)  [[pcs/Ioannes.md|Ioannes]] Blessed both mercenaries.
+[[pcs/Vael.md|Vael]], [[pcs/Uvash Edzuson.md|Uvash]], and [[pcs/Ioannes.md|Ioannes]] hired Fael the druid to translate Cat for them.  Fael asked that they go outside the oppressive (even though only 5% finished) town walls where it was easier to commune with nature.  Onyx and a couple of other cats followed.  When they got to an area she thought was sufficiently pristine, Fael cast Beast Speech on [[pcs/Vael.md|Vael]].  He made an offering of fish then asked the Statuette of Bastet three questions.  A shimmering avatar of Bastet the cat goddess appeared.  Bastet didn't know how Horus died and resented the insinuation that every dead bird was a cat's fault.  She also indicated that her way of dealing with [[npcs/Set.md|Set]] was to get away from him and hide.  She had no idea who [[npcs/Neferet.md|Neferet]] was.  The avatar of the cat goddess, and the fish, disappeared.  [[pcs/Vael.md|Vael]] then turned to Onyx and asked if he had any input.  Onyx said that their apartment needed better security when the big guy wasn't there, to protect the cats.
+Back in [[locations/Gosterwick.md|Gosterwick]], [[pcs/Vael.md|Vael]] picked up the fancy silver and ivory chess board he had commissioned from Chairduster the jeweler.  They gathered both mercenaries and a monkey, then went through the green Teleport Rug to the [[locations/Beacon.md|Beacon]].  Chyrsalis grabbed a purple Teleport Rug and [[pcs/Vael.md|Vael]] Blinked her through the roof over the stairs, up to the surface ruins.  Not seeing any trouble, she put the Rug down, and the others came through to join her.  They all hiked south to the dam, where [[pcs/Vael.md|Vael]] left the chessboard and a note.  They then turned around and hiked northeast to the Pyramid of [[npcs/Thoth.md|Thoth]], then went down many stairs to Upper [[locations/Goblintown.md|Goblintown]].
+Bottleneck welcomed them and said it had been a pretty quiet week, only one zombie attack, with only a couple of goblins lost.  They went southwest to the indoor pyramid, then pulled the lever on top to teleport to the other indoor pyramid near the Well of Light.  Everyone walked east through the Well of Light, whose main mirror was covered by a blanket.  When they reached the rooms north of the Howling Caves, they saw Yamki, who greeted them in booming baboon-accented Archontean.  [[pcs/Vael.md|Vael]] said he'd have their food in a minute, then set down the purple Rug and teleported back to the [[locations/Beacon.md|Beacon]].  He came back in a minute with a levitating Living Wheelbarrow full of food.  Yamki had a few baboons unload it.  [[pcs/Vael.md|Vael]] said they would be doing the Litany of Light so all the mirrors would be lit up for a little while.  Yamki yelled out a warning to the other baboons.
+[[pcs/Vael.md|Vael]] stowed the wheelbarrow back in the [[locations/Beacon.md|Beacon]], then they all went west to the Well of Light and removed the blanket, lighting everything up brightly.  The group then visited all four stations of the Litany of Light.  [[pcs/Ioannes.md|Ioannes]] performed the Thothian rituals correctly, temporarily gaining an intelligence bonus, infravision, the ability to see secrets, and invisibility.  [[pcs/Vael.md|Vael]] copied everything [[pcs/Ioannes.md|Ioannes]] did, and also gained all four bonuses.  [[pcs/Uvash Edzuson.md|Uvash]] tried copying the heretical rituals, but failed to finish because he knew Zodarrim would not approve.  He did not gain any bonuses.
+They went back through the pyramid teleporter to Upper [[locations/Goblintown.md|Goblintown]], then down the ramp to the Wet Caves.  Killik asked [[pcs/Uvash Edzuson.md|Uvash]] where the rest of his company was, and when invisible [[pcs/Vael.md|Vael]] said something, Killik told him to be careful with that, as not everyone appreciated unseen visitors.  They continued down to the Goblin Market, where some human merchants were trying to hire goblin guides.  [[pcs/Vael.md|Vael]] spoke to [[npcs/Temrin.md|Temrin]] to try to commission a map, but [[npcs/Temrin.md|Temrin]] indicated that as Royal Artist he was only allowed to take commissions approved by the King.  Everyone went upstairs to try to meet the King.  When they reached the Royal Court outside the King's room, one of the ogre guards smelled one of the invisible visitors, and yelled for the other goblin and ogre royal guards.  One ogre almost managed to grab [[pcs/Vael.md|Vael]], but he blinked away.  Another did manage to grab [[pcs/Ioannes.md|Ioannes]].  Palestrim came out to see what was happening, and told the ogres to treat [[pcs/Vael.md|Vael]] and [[pcs/Ioannes.md|Ioannes]] gently, but that they could not visit the King while invisible without an ogre holding onto them.  Eventually everyone was admitted to the King's chamber, where he sat on his bed petting a cat.  He said he had news for them: Sir Sorrow had departed, freeing up his Royal Guest Room, and they were invited to stay there.  He would have his brother Gribble show them their room.  [[pcs/Vael.md|Vael]] asked the king if he could have [[npcs/Temrin.md|Temrin]] draw a map.  The King said it might be possible to hire the Royal Artist, but his services were highly in demand and thus expensive: $5000, payable only in silver or gold, no copper.  (The room was still full of stacks of copper coins from the Treasury of [[npcs/Thoth.md|Thoth]].)  [[pcs/Vael.md|Vael]] agreed, and said they'd have the payment soon.
+Gribble grumbled about making the king's own brother do work, but led them to their guest room, and gave them a key.  Once in the room, [[pcs/Vael.md|Vael]] put the purple Rug on the floor, and [[pcs/Uvash Edzuson.md|Uvash]] stepped through to the [[locations/Beacon.md|Beacon]], went through the green Rug to [[locations/Gosterwick.md|Gosterwick]], walked over to Rarities Factor, withdrew a bunch of gold coins, then returned.  They went back to King [[npcs/Weskenim.md|Weskenim]]'s room and, after being made to wait for a bit, the King took their coins and gave them a note for [[npcs/Temrin.md|Temrin]].
+They went back down to the Goblin Market, where a small bipedal construct of some sort was talking to the Thorcin merchants.  The construct claimed to be Kerbog Khan, and claimed to know more about the Halls than anyone else living, but said that All Deals Must Be Sealed in Blood.  The merchant didn't want to give the construct a blood sample and asked one of his guards to deal with the construct for him.  The construct said "no, principals only, your bodyguard's blood is not enough."  [[pcs/Vael.md|Vael]] was curious but focused on the business at hand, and dropped both the Royal Commission and the Command Bracelet on [[npcs/Temrin.md|Temrin]]'s table, where they became visible.  [[npcs/Temrin.md|Temrin]] said he was happy to make a map at his King's command, and asked if he could keep the bracelet.  [[pcs/Vael.md|Vael]] said no, he needed it back, but [[npcs/Temrin.md|Temrin]] could make a sketch of it.  [[npcs/Temrin.md|Temrin]] asked if the other bracelet was also red, and [[pcs/Vael.md|Vael]] wasn't sure, so he put the bracelet back on and remotely asked Akla-Chah.  Akla-Chah said that both the Captain's and First Officer's Command Bracelets were red, but she wasn't sure about any others as she'd only seen those two.  That was good enough for [[pcs/Vael.md|Vael]], and he told [[npcs/Temrin.md|Temrin]] to find another red bracelet just like this one.  [[npcs/Temrin.md|Temrin]] traced the bracelet, and drew a quick sketch of it, and copied the glyphs on the back, then set it back down and said "All right, I'll try to have your map ready in a few days."
+The group went west then south past a couple of ogre guards into an empty passage, then up through a hole.  Beyond was a door to a secluded room.  They knocked on the door.  When asked who was there, they identified themselves, and [[pcs/Vael.md|Vael]] said that two of them were invisible.  The person on the other side said to wait a minute.  A minute later, the door opened.  Inside was Lukor, the mage they had met earlier, along with five companions, who appeared to be two more mages and three warriors.  Lukor looked right at [[pcs/Vael.md|Vael]] as though he wasn't invisible, and asked them to come in.  They closed the door, and Lukor said that he had been waiting for their visit, as he needed their help.  [[pcs/Vael.md|Vael]] had a lot of questions.  Lukor said he couldn't answer too many questions yet, but he could refer to them as the Eighth Collegium.  They wanted a direct meeting with King [[npcs/Weskenim.md|Weskenim]]: they had been sitting here for weeks, occasionally meeting with Palestrim but never the King.  He would pay a thousand silver if they could arrange the meeting.  They could also provide invisibility, silence, or a distraction if the King wanted to meet secretly.  [[pcs/Vael.md|Vael]] asked questions about alliances with Settites and Varumani.  Lukor said they mostly avoided the Settites and would like to be friends with the Varumani.  And they would also like to be friends with the goblins, if they king would meet with them.
+Leaving, the group went back up to Upper [[locations/Goblintown.md|Goblintown]], then south to the Beastman barricade.  [[pcs/Vael.md|Vael]] cast Thunderclap to get the guards' attention.  When a guard came out to investigate, [[pcs/Vael.md|Vael]] said they wanted passage to the [[locations/Great Hall.md|Great Hall]].  The guard got his sergeant, who agreed that their group could traverse their territory to the [[locations/Great Hall.md|Great Hall]], and warned them about gargoyles.  Once they reached the [[locations/Great Hall.md|Great Hall]], the whole group slowly circled the huge room, examining the walls.  Looking up, [[pcs/Ioannes.md|Ioannes]] noticed a gargoyle swooping toward Mariposa the monkey, and yelled a warning.  Mariposa dodged the attack, and Chyrsalis and Thronebreaker smashed the gargoyle.  With the threat dealt with, they continued circling the room, triggering a magic mouth, which said something about Priscus Pulcher and some eyes.  Near the magic mouth, [[pcs/Vael.md|Vael]] and [[pcs/Ioannes.md|Ioannes]] spotted two secret doors.  [[pcs/Vael.md|Vael]] managed to open the southern one.
+Thronebreaker went into the narrow hallway first, and a few feet in, something dispelled his Continual Light and Bless spells.  He came back out and they had a discussion, then Chysalis and Mariposa went in.  The permanent light on her Staff of Blue Light did not go out, but her Bless went away.  She made it down the hallway, past a few charred corpses, into a room containing a large sarcophagus.  There were alcoves north and south, with three more smaller sarcophagi.  Nothing jumped out, so she returned to the others.  [[pcs/Vael.md|Vael]] put the purple Rug on the floor, and he and [[pcs/Uvash Edzuson.md|Uvash]] and [[pcs/Ioannes.md|Ioannes]] stepped through to the [[locations/Beacon.md|Beacon]].  Chrysalis and Thronebreaker went back to the tomb and dropped the Rug, where the others joined them.  [[pcs/Ioannes.md|Ioannes]] re-Blessed both mercenaries, then everyone sat down to rest for a while.
+When everyone felt rested, they started examining the room.  The central sarcophagus had some Mithric inscriptions on the sides indicating that it belonged to [[npcs/Neferet.md|Neferet]], Beloved of [[npcs/Thoth.md|Thoth]], and a picture of a woman on top.  The others were blank.  They went to the northern alcove, where Thronebreaker used Power Blow and knocked the lid off the sarcophagus.  A mummy jumped out at him.  Everyone expected something like that, and nobody was surprised.
+A battle ensued with the mummy.  During the battle, a couple of spells came from an unknown direction, blinding Chrysalis and failing to blind Thronebreaker.  Chrysalis was a good enough blind fighter that this was a minor inconvenience, and they continued smashing the mummy.  Eventually it went down.  [[pcs/Vael.md|Vael]] cast Mage Sight and saw that the western wall of the room was magical.  Chrysalis eventually investigated and went right through it, not that she could see.  Meanwhile a couple of shadows appeared from the south end of the room and went after Mariposa.
+Another mummy, this one a female one wearing Thothian robes and a magic circlet, was in the western part of the room behind the illusory wall, throwing spells.  This was clearly [[npcs/Neferet.md|Neferet]].  Once she realized she had been found, she pulled out a magic bead, and threw it in the middle of the four visible opponents (and her two shadows).  This exploded into a dome of force, killing one of the shadows.  Thronebreaker, [[pcs/Uvash Edzuson.md|Uvash]], and Mariposa, trapped in the force dome with the other shadow, eventually defeated it, with a critical hit by Thronebreaker stunning the shadow and hastening its demise.  [[npcs/Neferet.md|Neferet]] cast Darkness over the southern half of the room, effectively blinding everyone there.  Chrysalis, with Blind Fighting, kept going after [[npcs/Neferet.md|Neferet]], who kept Blinking away from her attacks.  Thronebreaker tried breaking the dome, and he couldn't get through it, but he could move it around the room.  Thronebreaker and [[pcs/Uvash Edzuson.md|Uvash]] then started shoving the dome toward where they thought [[npcs/Neferet.md|Neferet]] was, trying to pin her in a corner and crush her.
+[[npcs/Neferet.md|Neferet]] pulled a bead off her necklace and swallowed it, turning invisible.  She then blinked out of danger while Chrysalis, still blind, went around the room trying to detect her with her other senses.  [[pcs/Uvash Edzuson.md|Uvash]] cast Sense Spirit, which gave him a fix on [[npcs/Neferet.md|Neferet]]'s location regardless of her invisibility.  [[pcs/Vael.md|Vael]] cast Create Fire where [[pcs/Uvash Edzuson.md|Uvash]] said [[npcs/Neferet.md|Neferet]] was, losing his invisibility.  [[npcs/Neferet.md|Neferet]] screamed something about burning in Mithric, then blinked away again.  She threw another bead, making a second dome of force, this one damaging Chrysalis.  [[pcs/Vael.md|Vael]] cast Shape Fire and started moving the fire around the room to try to trap [[npcs/Neferet.md|Neferet]], while [[pcs/Ioannes.md|Ioannes]] cast Stop Bleeding on Chrysalis.  [[npcs/Neferet.md|Neferet]] had to Blink again to avoid the fire, and ended up in the passage to the east.
+We paused there, with everyone except [[pcs/Ioannes.md|Ioannes]] and [[pcs/Vael.md|Vael]] trapped in the two Beads of Force, and [[npcs/Neferet.md|Neferet]] still fighting having used two Beads of Force, two Beads of Invisibility, and presumably a ton of mana.  A lesser mummy and two shadows were also down.
 
-- [[Gosterwick]]
-- [[Beacon]]
-- [[Well of Light]]
-- [[Upper Goblintown]]
-- [[Goblin Market]]
-- [[Great Hall]]
-- [[Neferet]]'s tomb area (secret complex)
+Battle in [[npcs/Neferet.md|Neferet]]'s Tomb
 
-## Loot / Discoveries
+GM's Comments:
+Invisibility is definitely double-edged, if you use it in civilized areas.  It makes everyone suspicious.
+Using the Teleport Rugs to let three PCs bypass the Dispel effect was clever.
+It was funny watching Thronebreaker use Power Blow to try to do massive damage to shadows, which were diffuse.  (Of course he didn't have their stats, so he couldn't be sure it wouldn't help.)
+Sense Spirits and Blind Fighting were both really useful partial counters to [[npcs/Neferet.md|Neferet]]'s Darkness and Invisibility.
+Beads of Force are super fun if you have them.  Maybe less fun if your opponent has them.
 
-- Platinum bars from trapped hanging chest
-- Magic helmet
-- Stone wrapped in chamois (unidentified in recap)
-- Discovery of Neferet's active lair and spell/consumable loadout (Force + Invisibility beads)
+Achievements:
+None yet, stopped in mid-session
+XP:
+None yet, stopped in mid-session
 
-## Hooks for Next Session
+Next Week:
+The thrilling conclusion of the epic battle.  Do the PCs defeat [[npcs/Neferet.md|Neferet]] and gain the Iron Circlet of Ghanor?  Does [[npcs/Neferet.md|Neferet]] defeat the PCs and line her tomb with all their stuff and make [[pcs/Vallium Halcyon.md|Vallium]] recruit a new group of allies?  Or does [[npcs/Neferet.md|Neferet]] escape?  I have no idea.
 
-- Finish the Neferet fight and secure the [[Iron Circlet of Ghanor]].
-- Determine whether Neferet is killed, escapes, or regroups.
-- Follow up on Eighth Collegium request for access to the goblin king.
+## Source
+
+- https://dfwhiterock.blogspot.com/2026/02/dfrpg-arden-vul-session-42a-neferet.html

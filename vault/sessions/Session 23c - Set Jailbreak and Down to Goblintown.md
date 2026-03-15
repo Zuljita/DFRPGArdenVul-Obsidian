@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 23C: Set Jailbreak and Down to Goblintown"
+title: "23C: Set Jailbreak and Down to Goblintown"
 tags:
   - session
   - recap

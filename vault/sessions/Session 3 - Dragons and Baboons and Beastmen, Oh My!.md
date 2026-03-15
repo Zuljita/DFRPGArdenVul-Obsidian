@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 3: Dragons and Baboons and Children of Deino, Oh My!"
+title: "3: Dragons and Baboons and Children of Deino, Oh My!"
 tags:
   - session
   - recap

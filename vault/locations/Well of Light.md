@@ -14,7 +14,7 @@ The [[Well of Light]] is a significant location in [[Arden Vul]], acting as both
 ## Description
 - **General:** It is an uncovered well, about 5' wide, and its insides are covered with mirrors, such that the sun overhead produces blinding reflections.
 - **Vael's Interaction:** [[pcs/Vael Sunshadow|Vael]] discovered an interesting well to the east of the [[Pyramid of Thoth]]. He dropped a [[Continual Light]] rock into the well during his first visit. It fell for several seconds, then stopped at the bottom, still making light, but reflections made details hard to see.
-- **Access:** There are no rungs in the well, so the only way down is via [[Levitation]] or a long rope.
+- **Access:** There are no rungs in the well, so the only way down is via *Levitation* or a long rope.
 - **Condition:** The mirror at the bottom of the well was found covered in debris and baboon feces during a later visit, requiring cleaning.
 
 ## Level

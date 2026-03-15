@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 15: The Great Cavern Re-Revisited"
+title: "15: The Great Cavern Re-Revisited"
 tags:
   - session
   - recap

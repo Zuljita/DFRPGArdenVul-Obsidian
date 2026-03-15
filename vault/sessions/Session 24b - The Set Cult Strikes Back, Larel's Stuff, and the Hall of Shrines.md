@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 24B: The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines"
+title: "24B: The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines"
 tags:
   - session
   - recap

@@ -14,7 +14,7 @@ A ring enchanted with a continuous magical effect that alters the wearer's physi
 
 ## Properties
 - Magical.
-- Grants [[Breathe Water|water breathing]].
+- Grants *water breathing*.
 
 ## Known History
 A useful magic item for underwater exploration.

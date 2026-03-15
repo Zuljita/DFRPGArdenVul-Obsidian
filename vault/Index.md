@@ -5,7 +5,6 @@ permalink: /
 
 # Vault Index
 
-- [[Welcome|Welcome]]
 - [[sessions/Index|Sessions]]
 - [[npcs/Index|NPCs]]
 - [[locations/Index|Locations]]

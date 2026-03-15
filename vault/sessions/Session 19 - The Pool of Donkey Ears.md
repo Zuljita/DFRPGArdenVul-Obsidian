@@ -1,5 +1,5 @@
 ---
-title: "DFRPG Arden Vul Session 19: The Pool of Donkey Ears"
+title: "19: The Pool of Donkey Ears"
 tags:
   - session
   - recap

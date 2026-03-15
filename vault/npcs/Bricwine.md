@@ -11,7 +11,7 @@ appears_in:
 # [[npcs/Bricwine.md|Bricwine]]
 
 ## Summary
-The husband of [[Margot the Red]] and upper-class bartender at the [[Yellow Cloak Inn]] in [[Gosterwick]]. He was responsible for disposing of [[pcs/Ioannes Grammatikos Byzantios|Ioannes']] [[Continual Darkness]]-cursed bedsheets by throwing them into [[Totey Lake]].
+The husband of [[Margot the Red]] and upper-class bartender at the [[Yellow Cloak Inn]] in [[Gosterwick]]. He was responsible for disposing of [[pcs/Ioannes Grammatikos Byzantios|Ioannes']] *Continual Darkness*-cursed bedsheets by throwing them into [[Totey Lake]].
 
 ## Appears In
 - Session 2 - Halfling Rent-Seekers
