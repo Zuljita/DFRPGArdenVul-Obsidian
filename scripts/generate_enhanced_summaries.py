@@ -161,6 +161,9 @@ def generate_enhanced_summary(week_key, messages):
     
     for msg in messages:
         text = msg.get('text', '')
+        # Strip emojis
+        text = re.sub(r'[^\x00-\x7F]+', '', text)
+        msg['text'] = text
         author = msg.get('author_alias') or msg.get('author_name', 'Unknown')
         category = classify_content(text, author)
         
