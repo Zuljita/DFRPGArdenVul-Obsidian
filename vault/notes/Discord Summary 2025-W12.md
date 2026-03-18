@@ -7,7 +7,7 @@
 
 ### #Rumors
 
-- **Grudge Brigade** (2025-03-27): 🪙 1️⃣ On the eighth level underground you can find a grotto filled with giant carved heads. The heads sing in recognizable tunes!  If you can get them to sing the right tune, they reveal a treasure vault. If they sing the wrong song, however, everyone dies. 🪙 2️⃣ The ancient cult of Set was known...
+- **Grudge Brigade** (2025-03-27): 🪙 (1) On the eighth level underground you can find a grotto filled with giant carved heads. The heads sing in recognizable tunes!  If you can get them to sing the right tune, they reveal a treasure vault. If they sing the wrong song, however, everyone dies. 🪙 (2) The ancient cult of Set was known...
 
 ### #WeeklyLootThread
 

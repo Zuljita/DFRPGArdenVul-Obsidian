@@ -7,7 +7,7 @@
 
 ### #Rumors
 
-- **Grudge Brigade** (2025-05-22): 👑 1️⃣ Everyone talks about the Drowned Canyon and all its wealth, but I don’t know an adventurer who admits to actually having found the damned canyon!.  The entire thing is a myth. 👑 2️⃣ The Thoth priests built numerous statues of their god. These appear in various  forms, including ibis-headed ...
+- **Grudge Brigade** (2025-05-22): 👑 (1) Everyone talks about the Drowned Canyon and all its wealth, but I don’t know an adventurer who admits to actually having found the damned canyon!.  The entire thing is a myth. 👑 (2) The Thoth priests built numerous statues of their god. These appear in various  forms, including ibis-headed ...
 
 ### #archive
 
