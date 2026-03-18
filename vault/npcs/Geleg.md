@@ -17,3 +17,7 @@ appears_in:
   - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]] — The overweight man was [[npcs/Geleg.md|Geleg]], a wizard, who when ungagged immediately thanked his rescuers then asked if anyone had seen his spellbook.
 
 ## Notes
+
+## Discord Insights
+
+- A wizard and member of the Second Chance Company, he is sympathetic and had a run-in with something. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])

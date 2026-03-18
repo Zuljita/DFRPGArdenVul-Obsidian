@@ -16,7 +16,6 @@ A Half-Elven wizard held prisoner.
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]
 
-
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 
 ## History
@@ -25,3 +24,7 @@ A Half-Elven wizard held prisoner.
 - [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — He tried Seek Magic again and found another spellbook, this one belonging to [[npcs/Tresti.md|Tresti]] Iredell, the half-elven mage they had rescued from [[npcs/Gerrilad.md|Gerrilad]]'s prison.
 
 ## Notes
+
+## Discord Insights
+
+- A member of the Second Chance Company. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])

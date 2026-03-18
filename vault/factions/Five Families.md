@@ -12,3 +12,6 @@ Prominent Archontean noble lineages referenced in research notes; serve as backg
 ## Notes
 TBD
 
+## Discord Insights
+
+- The Ligareons are identified as one of these important families. ([[notes/Discord Summary 2026-W02.md|Discord Summary 2026-W02]])

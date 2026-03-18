@@ -36,3 +36,7 @@ Eccentric half‑elven druid and torturer associated with cages, keys, and contr
 - Nearby spellcasters: claims around the [[Library of Thoth]] handed off to a resident wizard.
 
 ## Notes
+
+## Discord Insights
+
+- had 3 keys ([[notes/Discord Summary 2025-W43.md|Discord Summary 2025-W43]])

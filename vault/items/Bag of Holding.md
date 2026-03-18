@@ -23,3 +23,7 @@ A ubiquitous magic item for adventurers. The party possesses one.
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+
+## Discord Insights
+
+- Another magical item (besides Larel's Sack) capable of holding 1000 lbs or 150 cubic feet. A 10' ladder takes up 10 cubic feet inside it. ([[notes/Discord Summary 2025-W41.md|Discord Summary 2025-W41]])

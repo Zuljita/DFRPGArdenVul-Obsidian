@@ -12,3 +12,4 @@ The Archon who led the [[Adrienic Expedition]] in a failed attempt to retake [[A
 ## First Appearance
 
 Mentioned in a journal entry by [[Ioannes]].
+

@@ -24,3 +24,7 @@ She is a key figure in the administration of [[Gosterwick]].
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+
+## Discord Insights
+
+- Gives suspicious looks, implying frequent interactions. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])

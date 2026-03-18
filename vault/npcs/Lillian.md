@@ -42,3 +42,9 @@ Canon of [[Mitra]] abducted near the ruins and later recovered from [[npcs/Set.m
 ## Relationships
 - [[Temple of Mitra]] ([[locations/Newmarket.md|Newmarket]]/[[locations/Gosterwick.md|Gosterwick]]): home church; issued reward and provided support.
 - PCs: repeated attempts and eventual jailbreak involvement.
+
+## Discord Insights
+
+- A magical trace is on her; she is located to the north and not moving much. ([[notes/Discord Summary 2025-W31.md|Discord Summary 2025-W31]])
+- Will deliver a letter of introduction to the temple of Thoth in Newmarket; has a meeting at the House of Sight to share her experience with the Cult of Set. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])
+- Was in Newmarket with Azgallatu. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])

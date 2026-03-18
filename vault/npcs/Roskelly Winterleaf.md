@@ -66,3 +66,7 @@ appears_in:
 
 ## Death
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 — The Scouring of the Shire]]: During the confrontation near the [[locations/Glory of Thoth.md|Glory of Thoth]], Roskelly attempted to flee as [[Phlebotomas Plumthorn]] negotiated surrender. [[npcs/Lacrymosa.md|Lacrymosa]] shot him repeatedly with arrows, killing him.
+
+## Discord Insights
+
+- GM was told the name Roskelly Winterleaf, implying it is an entity recognized in the game. ([[notes/Discord Summary 2025-W12.md|Discord Summary 2025-W12]])

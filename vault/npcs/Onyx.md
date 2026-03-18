@@ -27,3 +27,7 @@ Familiars are often imbued with magical qualities and share a bond with their ma
 - [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+
+## Discord Insights
+
+- A being with whom a weekly chat can be arranged for $100. ([[notes/Discord Summary 2026-W01.md|Discord Summary 2026-W01]])

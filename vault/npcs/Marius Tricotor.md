@@ -27,3 +27,4 @@ TBD
 - He defeated the [[heqeti]] (hoppers) in 1051 AEP.
 - The [[varumani]] surrendered to him and became loyal Imperial subjects.
 - He conquered the [[Heqeti Ziggurat]].
+

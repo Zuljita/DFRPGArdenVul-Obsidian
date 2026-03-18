@@ -46,3 +46,8 @@ The [[Drome]] was officially informed of the murder, and [[Audun Yellow-Eyes]], 
 - **[[Margot the Red]]**: The innkeeper who discovered her body and alerted the party.
 - **[[Audun Yellow-Eyes]]**: A logothete of the [[Drome]] who assisted the party in their investigation.
 - **[[Coinbase]]**: A member of the [[Grudge Brigade]] who provided crucial intelligence regarding the bounty.
+
+## Discord Insights
+
+- The murder victim found at the Yellow Cloak Inn, whose head was later located 10 miles north. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])
+- Killed, and was a friend of Wicktrimmer. ([[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]])

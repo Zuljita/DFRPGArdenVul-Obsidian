@@ -15,3 +15,7 @@ He was seen at [[The Stunned Acolyte]] in [[Gosterwick]].
 - He tracked the rogue archmage [[Cerbactos]] to [[Arden Vul]].
 - He believes that when he returns the priceless tomes [[Cerbactos]] stole, he will be promoted to Associate Department Head.
 - He found Cerbactos by casting a `Seeker` spell.
+
+## Discord Insights
+
+- Revealed Cerbactos was an archmage who had been a member of the Collegium of Cinders. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])

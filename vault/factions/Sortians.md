@@ -26,3 +26,8 @@ Though the Empire survived with smaller borders and spell use was eventually ope
 ## Notes
 - Information about them is found in the [[Book of Priors]] and in old books in the [[Library of Mitra]].
 - Their leader, [[Priscus Pulcher]], is said to have resembled the statues known as "The Philosopher".
+
+## Discord Insights
+
+- An ancient faction of traitors led by Priscus Pulcher who rebelled against magic control by churches and colleges, leading to a civil war. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])
+- A group led by Pricsus Pulcher who fought a civil war against the Empire; known for magical eyes. ([[notes/Discord Summary 2025-W52.md|Discord Summary 2025-W52]])

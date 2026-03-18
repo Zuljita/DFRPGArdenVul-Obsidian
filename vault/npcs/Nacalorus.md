@@ -25,3 +25,7 @@ Servant of Melacorius.
 ## Notes
 
 TBD
+
+## Discord Insights
+
+- A Rudishva legionary. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])

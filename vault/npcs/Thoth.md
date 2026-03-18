@@ -112,3 +112,7 @@ Deity associated with knowledge, libraries, and inscriptions throughout [[Arden 
 
 - A rumor suggests that while [[Thoth represented the light of knowledge that erased the darkness of ignorance, he was also the guardian of secrets, revealing his most potent wisdom only to the devout.
 - Another rumor claims that the numerous statues of [[npcs/Thoth.md|Thoth]] have eyes made of huge gemstones. Removing these gems is said to allow the bearer to contact [[npcs/Thoth.md|Thoth]] directly, but doing so causes the statues to animate and attack. This is corroborated by a piece of graffiti found in the [[Pyramid of [[npcs/Thoth.md|Thoth]].
+
+## Discord Insights
+
+- god of the Thoth priests ([[notes/Discord Summary 2025-W20.md|Discord Summary 2025-W20]])

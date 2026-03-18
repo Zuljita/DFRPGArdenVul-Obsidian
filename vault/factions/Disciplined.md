@@ -6,11 +6,14 @@ tags:
 # Disciplined
 
 ## Summary
-Armed human fighters serving [[Tikun Thane]] at the [[Tower of the Ape]].
+Armed human fighters serving [[npcs/Tikun Thane.md|Tikun Thane]] at the [[locations/Tower of the Ape.md|Tower of the Ape]].
 
 ## Notes
 - Commonly fought in formation with scimitars.
+- Fielded grenadier support from upper levels (Alchemist's Fire through murder holes) during tower defense.
 - Operated alongside trained spear-wielding baboons.
+- In Session 34b, committed repeated stair reinforcements and nearly a dozen fighters for a planned final stand below the teleporter level.
+- In Session 34c, rescued prisoners reported Disciplined-supervised coercive training of captives in tower cells (combat drills with whipping punishment).
 
 ## Sessions
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]

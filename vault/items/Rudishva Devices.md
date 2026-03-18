@@ -15,3 +15,4 @@ tags:
 ## Notes
 - The writing in the book is described as confusing, and some of the devices pictured look very similar, making identification uncertain.
 - It is suggested that multiple people should cross-reference their research in the book to prioritize safety over speed when dealing with these artifacts.
+

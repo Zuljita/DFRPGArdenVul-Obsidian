@@ -12,3 +12,7 @@ aliases:
 
 ## Appears In
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
+
+## Discord Insights
+
+- Came into the common room of the Yellow Cloak Inn after a scream and connected Vallium with Susarra. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])

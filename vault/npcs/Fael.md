@@ -26,3 +26,9 @@ In Session 42a, Fael was hired to assist with cat translation during a Bastet of
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+
+## Discord Insights
+
+- works at the Grain Hall and can help choose milk for cats ([[notes/Discord Summary 2025-W43.md|Discord Summary 2025-W43]])
+- Wrote 'Large Mushrooms of Northern Inthuin', is associated with the Gosterwick Nature Foundation, and is knowledgeable about flora. ([[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]])
+- Provides 'Beast Speech' service for $100/week. ([[notes/Discord Summary 2026-W01.md|Discord Summary 2026-W01]])

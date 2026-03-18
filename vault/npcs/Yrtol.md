@@ -22,4 +22,5 @@ A restless ghost haunting the ruined tower near the waterfall. Initially encount
 
 ## Notes
 - Early sessions refer to Yrtol as an "angry scary ghost" / "tower ghost."
-- In Session 33, the party recovered [[npcs/Nyema.md|Nyema]] and buried her remains, after which Yrtol found peace and disappeared.
+- In Session 33, the party recovered [[npcs/Nyema.md|Nyema]] and buried her remains in front of Yrtol's tower, after which Yrtol found peace and disappeared.
+- Upon disappearing, Yrtol left behind two large sapphires known as the [[items/Watcher's eyes|Watcher's eyes]].

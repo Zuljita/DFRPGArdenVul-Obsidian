@@ -18,3 +18,7 @@ appears_in:
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Number of sessions: 16 Number of players: 8 Number of PCs: 10 Cheese and Crackers / Right for Riches / Left for Loot members: 5 [[factions/Grudge Brigade.md|Grudge Brigade]] mercenaries: 5 Number of PCs killed: 0 (!) Highest PC point tot...
 
 ## Notes
+
+## Discord Insights
+
+- A member of the Second Chance Company. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])

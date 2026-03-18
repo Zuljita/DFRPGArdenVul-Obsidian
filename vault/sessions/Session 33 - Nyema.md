@@ -18,8 +18,8 @@ The party follows a magic map to find the body of [[Nyema]], the wife of the gho
 - The party found a secret door in the [[Halls of Thoth]] leading to a barracks with two zombies.
 - The party visited [[Gog]] in his cave and gave him 50 lbs of meat. They asked him about [[factions/Varumani.md|Varumani]] passports.
 - The party visited the [[Goblin Great Hall]] and got a magic map from [[Temrin]].
-- The party followed the map to the [[Temple of Set]] and found [[Nyema]]'s body in a crocodile pool.
-- The party defeated the [[npcs/Set.md|Set]] guards and explored the [[Temple of Set]].
+- The party followed the map to the [[locations/Temple of Set.md|Temple of Set]] and found [[npcs/Nyema.md|Nyema]]'s body in a crocodile pool.
+- The party defeated Set-aligned guards and explored the [[locations/Temple of Set.md|Temple of Set]].
 - The party buried [[Nyema]]'s body in front of [[Yrtol]]'s tower, and [[Yrtol]]'s ghost disappeared, leaving behind two large sapphires ([[Watcher's eyes]]).
 - The party brought the animated bust of [[Stamelis]] to the [[Beacon]] to keep [[Akla-Chah]] company.
 

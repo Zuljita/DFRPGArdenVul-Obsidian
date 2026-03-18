@@ -9,6 +9,8 @@ appears_in:
 ---
 # [[npcs/Temrin.md|Temrin]]
 
+- Promoted to Royal Artist by King Weskenim and commissioned to create a map to the [[items/Scepter of the Goblins.md|Scepter of the Goblins]]. ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])
+
 ## Appears In
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]

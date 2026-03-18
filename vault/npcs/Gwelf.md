@@ -29,3 +29,7 @@ A crazy Dwarven thief held prisoner, later found dead.
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 30: [[locations/Tomb of Theskalon.md|The Tomb of Theskalon]] Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 
 ## Notes
+
+## Discord Insights
+
+- Dead body with a huge cutting wound across his torso, found underground in a dark cave. ([[notes/Discord Summary 2025-W30.md|Discord Summary 2025-W30]])

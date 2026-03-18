@@ -25,3 +25,9 @@ Recording-backed logistics notes indicate the party also used the factor as a te
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]
+
+## Discord Insights
+
+- A business founded by Wicktrimmer in Gosterwick, specializing in magical items, and possessing a secure vault. ([[notes/Discord Summary 2025-W36.md|Discord Summary 2025-W36]])
+- A banking factor operating in Gosterwick and Newmarket. ([[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]])
+- Charged retail price for Vallium's Broadsword. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])

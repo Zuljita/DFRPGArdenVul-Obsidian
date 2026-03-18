@@ -35,4 +35,6 @@ A highly sought-after magic item for adventurers. The party possesses one.
 
 ## Notes
 
-## Sessions
+## Discord Insights
+
+- Allows full movement despite most effects that would slow or stop movement. ([[notes/Discord Summary 2026-W04.md|Discord Summary 2026-W04]])

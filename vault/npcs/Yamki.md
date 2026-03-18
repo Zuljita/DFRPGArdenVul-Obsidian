@@ -16,6 +16,7 @@ Massive four‑armed baboon chieftain encountered near the [[locations/Howling C
 - [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
+- [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
 
 ## History
 - [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 21: [[locations/Library of Thoth.md|The Library of Thoth]] Date: Basilsday, 2nd of Gerakios, 2993 AE Weather: Cool, dry Player Characters: ...

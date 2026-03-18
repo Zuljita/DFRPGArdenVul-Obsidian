@@ -17,3 +17,7 @@ appears_in:
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
+
+## Discord Insights
+
+- Sleeping the first two times, awake the third. States the ram could be the Sheep's Head Legion but not the official Sheep's Head Rangers insignia. Not an expert on military history. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])

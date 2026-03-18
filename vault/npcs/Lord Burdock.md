@@ -26,3 +26,7 @@ TBD
 - After a disastrous encounter where 10 of his men were killed by the [[Huge Green Dragon]], Lord Burdock forbade his subjects from going up the [[Long Stair]] to the ruins.
 - He also actively discouraged outsiders from using his valley to explore the ruins.
 - Because of his actions, there was very little exploration of the ruins for about 25 years.
+
+## Discord Insights
+
+- A late lord whose men-at-arms explored the ruins of Arden Vul 50 years ago and encountered a huge green dragon. ([[notes/Discord Summary 2025-W41.md|Discord Summary 2025-W41]])

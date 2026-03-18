@@ -31,3 +31,8 @@ appears_in:
 - In [[sessions/Session 33 - Nyema.md]], the party gave [[npcs/Gog.md|Gog]] 50 lbs of meat.
 - The party asked [[npcs/Gog.md|Gog]] about [[factions/Varumani.md|Varumani]] passports and tested his linguistic skills. He seems to understand Elvish, Dwarvish, and [[factions/Rudishva.md|Rudishva]].
 - He was exiled from [[factions/Varumani.md|Varumani]] territory but did not provide details.
+
+## Discord Insights
+
+- An old goblin living in an underground grotto near the arena; barters information for meat; exiled from the goblin court due to Mook's treachery. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])
+- A strange half-troll who can provide useful information. ([[notes/Discord Summary 2025-W21.md|Discord Summary 2025-W21]])

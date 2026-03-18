@@ -14,3 +14,7 @@ Leader of [[factions/Dalton's Darlings.md|Dalton's Darlings]], a delving company
 
 ## Affiliations
 - Member of [[factions/Dalton's Darlings.md|Dalton's Darlings]]
+
+## Discord Insights
+
+- Met at the Stunned Acolyte, currently trying to find a way past something. ([[notes/Discord Summary 2025-W31.md|Discord Summary 2025-W31]])
