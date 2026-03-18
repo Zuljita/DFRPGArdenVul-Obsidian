@@ -25,3 +25,7 @@ According to [[Akla-Chah]], the [[factions/Rudishva.md|Rudishva]] have several f
   - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — (They started with Mithric in common.) By the end of the week Vael knew quite a few [[factions/Rudishva.md|Rudishva]] words and phrases but still had a lot of grammar and vocabulary to learn.
 
 ## Notes
+
+## Discord Insights
+
+- A people with distinct funeral traditions including Full Recycling, Spacing, and Cremation. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])

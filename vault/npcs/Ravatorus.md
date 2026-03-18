@@ -16,3 +16,7 @@ Mentioned on a blackboard note.
 ## Notes
 
 - He has offered to assist in identifying rare creatures and determining their abilities.
+
+## Discord Insights
+
+- An Archontean sage of subterranean life. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])

@@ -48,3 +48,9 @@ Mysterious [[npcs/Thoth.md|Thoth]]‑aligned wizard tied to the fungal caverns n
 
 ## Hook
 A name shared across centuries: hermit wizard or the echo of a Thothian master?
+
+## Discord Insights
+
+- A great Thothian wizard who built a secret tomb amid a huge forest of colossal mushrooms. ([[notes/Discord Summary 2025-W15.md|Discord Summary 2025-W15]])
+- Claims he can control the Fungal Foresters. ([[notes/Discord Summary 2025-W42.md|Discord Summary 2025-W42]])
+- A famous Thothian priest who discovered the Great Cavern, brought it under Archontean control, and bred giant mushrooms. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])

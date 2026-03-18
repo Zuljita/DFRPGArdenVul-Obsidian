@@ -19,3 +19,8 @@ Referenced in early delves; a named group within the Halls' wider ecosystem.
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]
+
+
+## Notes
+
+- Some members adopted the mailed fist insignia of the [[factions/Imperial Tagmata.md|Imperial Tagmata]] (the Emperor's own third cohort guard unit, wiped out 200 years ago). ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])

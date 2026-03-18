@@ -21,3 +21,7 @@ TBD
 Uvash made a Theology roll to identify the feather as her symbol.
 
 ## Sessions
+
+## Discord Insights
+
+- An entity whose feathers Uvash plans to research. ([[notes/Discord Summary 2025-W52.md|Discord Summary 2025-W52]])

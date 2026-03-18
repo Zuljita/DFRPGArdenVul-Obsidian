@@ -1,0 +1,33 @@
+# Discord Summary: 2025-W35
+
+**Date Range:** 2025-09-01 to 2025-09-07
+**Messages:** 18
+
+## In-World Highlights
+
+### #archive
+
+- **Vael, Zuljita** (2025-09-01): I would argue that the timing of the note is sufficient given ancient standards of evidence for us to attribute the murder to the cult of set. Since the drome has taken interest in it and has acknowledged my request for blood, they trust us and they should want Justice done. We're the best option...
+- **Ioannes** (2025-09-01): Plus the Settites suck anyways. Fuck ’em. Even Plumthorn doesn’t do his shit in town. 1 Kyle (Vael, Zuljita) I would argue that the timing of the note is sufficient given ancient standards of evidence for us to attribute the murder to the cult of set. Since the drome has taken interest in it and ...
+- **GM** (2025-09-02): We'll see on Friday.
+- **GM** (2025-09-04): Foundry does not work very well on mobile.  If it comes up I'll make a channel. @Kyle (Vael, Zuljita) (as in discord from your phone) Cosmo (Uvash) gur㎰ — 9/4/2025 6:24 PMThursday, September 4, 2025 6:24 PM Maybe? I would depend where I am. If i’m on the bus, probably not. If I am at a stop, sure...
+- **GM** (2025-09-05): @Cosmo (Uvash) Training is not available if you are rushing back to the dungeon. Cosmo (Uvash) gur㎰ — 9/5/2025 6:47 PMFriday, September 5, 2025 6:47 PM So no Stop Bleeding then? (edited)Friday, September 5, 2025 6:48 PM
+- **GM** (2025-09-05): Right, not unless you guys change plans and stay in town longer.
+- **GM** (2025-09-05): Yes Cosmo (Uvash) gur㎰ — 9/5/2025 6:48 PMFriday, September 5, 2025 6:48 PM I will keep it on the sheet and just not use it this week 1 Because I am going to forget to add it next week Cosmo (Uvash) gur㎰ — 9/5/2025 8:59 PMFriday, September 5, 2025 8:59 PM Part of the reason why I have been having ...
+- **GM** (2025-09-05): Time to fall back to the not nice $5 headphones that work. Cosmo (Uvash) gur㎰ — 9/5/2025 11:01 PMFriday, September 5, 2025 11:01 PM I have to go buy a new pair soon
+- **Grudge Brigade** (2025-09-06): That T-45 pic with all the cultists suggests you might not have made it back to town…
+
+### #general
+
+- **Vael, Zuljita** (2025-09-01): I would argue that the timing of the note is sufficient given ancient standards of evidence for us to attribute the murder to the cult of set. Since the drome has taken interest in it and has acknowledged my request for blood, they trust us and they should want Justice done. We're the best option...
+- **Ioannes** (2025-09-01): Plus the Settites suck anyways. Fuck ’em. Even Plumthorn doesn’t do his shit in town. 1 Kyle (Vael, Zuljita) I would argue that the timing of the note is sufficient given ancient standards of evidence for us to attribute the murder to the cult of set. Since the drome has taken interest in it and ...
+- **GM** (2025-09-02): We'll see on Friday.
+- **GM** (2025-09-04): Foundry does not work very well on mobile.  If it comes up I'll make a channel. @Kyle (Vael, Zuljita) (as in discord from your phone) Cosmo (Uvash) gur㎰ — 9/4/2025 6:24 PMThursday, September 4, 2025 6:24 PM Maybe? I would depend where I am. If i’m on the bus, probably not. If I am at a stop, sure...
+- **GM** (2025-09-05): @Cosmo (Uvash) Training is not available if you are rushing back to the dungeon. Cosmo (Uvash) gur㎰ — 9/5/2025 6:47 PMFriday, September 5, 2025 6:47 PM So no Stop Bleeding then? (edited)Friday, September 5, 2025 6:48 PM
+- **GM** (2025-09-05): Right, not unless you guys change plans and stay in town longer.
+- **GM** (2025-09-05): Yes Cosmo (Uvash) gur㎰ — 9/5/2025 6:48 PMFriday, September 5, 2025 6:48 PM I will keep it on the sheet and just not use it this week 1 Because I am going to forget to add it next week Cosmo (Uvash) gur㎰ — 9/5/2025 8:59 PMFriday, September 5, 2025 8:59 PM Part of the reason why I have been having ...
+- **GM** (2025-09-05): Time to fall back to the not nice $5 headphones that work. Cosmo (Uvash) gur㎰ — 9/5/2025 11:01 PMFriday, September 5, 2025 11:01 PM I have to go buy a new pair soon
+- **Grudge Brigade** (2025-09-06): That T-45 pic with all the cultists suggests you might not have made it back to town…
+
+---
+*Generated: 2026-03-16 21:30*

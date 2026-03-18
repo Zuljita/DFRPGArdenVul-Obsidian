@@ -30,3 +30,7 @@ A rare and valuable gemstone, glowing faintly with an inner light, rumored to en
 ## Sessions
 
 - [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+
+## Discord Insights
+
+- A valuable item Pelteon cannot afford, worth enough to guarantee 2 XP loot, and capable of granting +1 IQ, Will, and Per if kept. ([[notes/Discord Summary 2025-W13.md|Discord Summary 2025-W13]])

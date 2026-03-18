@@ -11,3 +11,7 @@ A captive rescued by the party, who unfortunately succumbed to his injuries and 
 
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
+
+## Discord Insights
+
+- Died after having his hands cut off, despite priestly efforts. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])

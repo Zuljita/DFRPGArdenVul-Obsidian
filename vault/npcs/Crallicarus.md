@@ -16,3 +16,7 @@ Mentioned on a blackboard note.
 ## Notes
 
 - He organizes dramatic readings in the old [[Hopper Coliseum]] near the tomb of [[Marius Tricotor]].
+
+## Discord Insights
+
+- An Archontean actor type, organizing dramatic readings. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])

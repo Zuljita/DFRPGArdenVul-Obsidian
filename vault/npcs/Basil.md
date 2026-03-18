@@ -31,3 +31,13 @@ Basil is a young Archontean man from [[locations/Narsileon.md|Narsileon]], rescu
 - [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
 - [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]]
+
+## Session Notes
+
+- Hired as the Right for Riches Company's first employee to assist at the Beacon.
+- A human captive rescued from the [[locations/Tower of the Ape.md|Tower of the Ape]], previously sold at the [[locations/Forum of Set.md|Forum of Set]] slave market.
+
+## Discord Insights
+
+- Impressed by Vael's Shape Earth, asks Vael to dig a vertical hole for a privy, appears to be a city kid, gets extra buckets, and leaves bricks that disappear. ([[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]])
+- A character the PCs are wary might grab a sensitive letter to show to Stamelis. ([[notes/Discord Summary 2025-W52.md|Discord Summary 2025-W52]])

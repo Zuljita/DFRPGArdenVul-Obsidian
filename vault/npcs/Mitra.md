@@ -32,3 +32,7 @@ appears_in:
   - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — Knowing that he couldn't sleep without losing the Trace, Vael first went to the [[locations/Temple of Mitra.md|Temple of Mitra]] to see if any of the priests there could cast Vigil to let him go a night without sleep without ill effects.
 
 ## Notes
+
+## Discord Insights
+
+- Associated with the prominent 'Library of Mitra'. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])

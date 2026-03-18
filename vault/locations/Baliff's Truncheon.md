@@ -24,3 +24,8 @@ TBD
 ## Notes
 
 TBD
+
+## Discord Insights
+
+- A location where a PC got a contact for the Benevolent Brotherhood. ([[notes/Discord Summary 2025-W21.md|Discord Summary 2025-W21]])
+- One of Gosterwick's taverns. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])

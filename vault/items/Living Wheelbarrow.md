@@ -25,3 +25,9 @@ The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] was originally offered th
 
 ## Warnings
 The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] is not self-powered, self-propelled, or self-levitating. A competent caster and *Levitation* spell is required to make use of the levitating feature. Scroll use by untrained users may result in injury or equipment loss. Designs, components, and plant details are prototypes and subject to change.
+
+## Discord Insights
+
+- A conceptual project being worked on by a PC ('the Goat') that is not yet available. ([[notes/Discord Summary 2025-W28.md|Discord Summary 2025-W28]])
+- A unique item capable of carrying 360 pounds, packed with plant life, and is currently the subject of a fundraising effort. ([[notes/Discord Summary 2025-W29.md|Discord Summary 2025-W29]])
+- inquired about; located down in the dungeon ([[notes/Discord Summary 2025-W38.md|Discord Summary 2025-W38]])

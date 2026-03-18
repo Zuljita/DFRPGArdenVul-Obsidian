@@ -14,3 +14,7 @@ He is remembered as a traitor by the Empire. The Sortian rebellion led to a long
 ## Notes
 - He was known to have a resemblance to the statues known as "The Philosopher".
 - The Sortians created magical statues of him for worship.
+
+## Discord Insights
+
+- Leader of the ancient Sortians who rebelled against magic control, an actual historical figure executed for his actions, and resembled 'The Philosopher'. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])

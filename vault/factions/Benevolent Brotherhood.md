@@ -31,3 +31,7 @@ TBD
 The organization operates with a high degree of secrecy, using aliases for its members and an indirect contact system.
 
 ## Sessions
+
+## Discord Insights
+
+- Has a public facade. ([[notes/Discord Summary 2025-W21.md|Discord Summary 2025-W21]])

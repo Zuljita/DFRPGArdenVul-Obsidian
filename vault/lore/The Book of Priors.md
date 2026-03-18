@@ -2,6 +2,8 @@
 tags:
   - lore
   - tradition/thothian
+aliases:
+  - Book of Priors
 ---
 
 # The Book of Priors
@@ -49,3 +51,10 @@ The [[Halls of Arden Vul]] are about 12 levels deep,
 - Some mages and demon-anti-priests,
 - Purely evil,
 - Their [[Heqeti Ziggurat]] was conquered by [[Marius Tricotor]], but survivors retreated into the [[Underearth]]
+
+## Value
+- In addition to all the information, it's probably worth a lot of money.
+
+## Sessions
+- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+- [[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]]

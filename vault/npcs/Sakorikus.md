@@ -17,3 +17,7 @@ Mentioned on a blackboard note.
 
 - He is suggested to be a potential surgical assistant.
 - He has "bizarre theories about the compatibility of human and rudishva fluids."
+
+## Discord Insights
+
+- An Archontean surgical assistant. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])

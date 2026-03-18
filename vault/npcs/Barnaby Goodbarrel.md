@@ -30,3 +30,7 @@ Barnaby has a reputation for keeping his word. He is also known for being except
 ## Relationships
 - [[Wicktrimmer]] and the [[Rarities Factor]]: frequent counterparty in artifact contracts.
 - PCs: formed companies, reviewed contracts, and provided ongoing legal guidance.
+
+## Discord Insights
+
+- A halfling and the second best lawyer in Gosterwick, known for keeping his word and knowing everything happening in town. ([[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]])

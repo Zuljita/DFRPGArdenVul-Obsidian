@@ -21,5 +21,8 @@ A powerful greater mummy spellcaster encountered in a hidden tomb complex off th
 
 - [[lore/recording-notes/Recording 2026-02-06.md|Recording 2026-02-06]]
 
-
 - [[lore/recording-notes/Recording 2026-02-13.md|Recording 2026-02-13]]
+
+## Discord Insights
+
+- High priestess who demanded relocation of special library contents to her new residence. ([[notes/Discord Summary 2026-W01.md|Discord Summary 2026-W01]])

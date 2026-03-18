@@ -23,3 +23,7 @@ Provides banking, letters of credit, and brokerage.
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]
+
+## Discord Insights
+
+- charge 1.25% per month for financial services, met in Session 5. ([[notes/Discord Summary 2025-W20.md|Discord Summary 2025-W20]])

@@ -36,3 +36,9 @@ A book titled `[[items/The Twelve Labours of Arden.md|The Twelve Labours of Arde
 - [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
 - [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
+
+## Discord Insights
+
+- Discovered the site of Arden Vul in 829 AEP. ([[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]])
+- One of the 20 Worthies of the Empire, lived around 2100 years ago, with some claiming she ascended to demi-godhood. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])
+- allegedly said things in Mithric and was in favor of hard work, loyalty, obedience, and respect for authority. ([[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]])

@@ -44,6 +44,10 @@ He maintains a court with a major-domo named [[npcs/Palestrim|Palestrim]] and ad
 - He has a harem, from which he was emerging when the party arrived to report on their victory over the halflings.
 - The goblin artist [[Temrin]] has painted portraits of both [[npcs/Weskenim.md|Weskenim]] and [[Gribble]].
 
+- Received a portion of an ancient goblin treasury from the [[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]] and initiated a city-wide celebration; promoted [[npcs/Temrin.md|Temrin]] to Royal Artist and commissioned him to locate the [[items/Scepter of the Goblins.md|Scepter of the Goblins]]. ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])
+- In Session 43c, agreed to take over the conquered Forum of Set and appointed his brother [[npcs/Gribble.md|Gribble]] as its new Lord.
+
 ## Sessions
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]

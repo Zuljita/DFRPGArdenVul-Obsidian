@@ -19,3 +19,7 @@ An ancient rescript from the high priest of [[Set]] to his counterpart in [[loca
 These creatures might be a type of golem or a magically augmented beast.
 
 ## Sessions
+
+## Discord Insights
+
+- Fearsome species of animals described as weird mean dogs with square ears, bred by a Set temple. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])

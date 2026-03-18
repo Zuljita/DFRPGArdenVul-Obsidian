@@ -18,3 +18,8 @@ A major transit and control area in the upper Arden Vul complex near the Great C
 
 ## Connections
 - [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]
+
+## Discord Insights
+
+- An iconic location associated with a group achievement; light is very important to Thoth. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])
+- An area that could potentially be cleared in 13 minutes. ([[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]])

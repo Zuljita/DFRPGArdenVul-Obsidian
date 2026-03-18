@@ -27,3 +27,8 @@ Temples to all of The Ten can be found in the city of [[Newmarket]].
 
 ## Sessions
 - [[RawFiles/Religion in Arden Vul.txt]]
+
+## Discord Insights
+
+- A pantheon of gods; four of them (Demma, Mitra, Lucreon, Heschius Ban) have individual temples. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])
+- The old pantheon of gods, which includes Set as a Greater God. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])

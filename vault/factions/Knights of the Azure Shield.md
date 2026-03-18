@@ -37,7 +37,6 @@ aliases:
 - [[npcs/Demetrios.md|Demetrios]] — Squire
 - [[npcs/Zoe.md|Zoe]] — Squire
 
-
 ## Sessions
 
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]

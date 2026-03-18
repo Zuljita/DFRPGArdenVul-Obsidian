@@ -26,3 +26,7 @@ Following the imperial ban on the worship of [[Set]] in 1839 AEP, the [[factions
 
 ## Notes
 The [[factions/Drome.md|Drome]] operates under official sanction, but its members are sometimes willing to provide clandestine assistance to further their goals when they cannot act openly.
+
+## Discord Insights
+
+- Has taken interest in the murder, trusts the players, and wants justice. ([[notes/Discord Summary 2025-W35.md|Discord Summary 2025-W35]])

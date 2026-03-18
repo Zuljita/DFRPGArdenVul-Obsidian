@@ -20,3 +20,7 @@ TBD
 ## Notes
 
 TBD
+
+## Discord Insights
+
+- The tomb of great Theskelon lies to its east. ([[notes/Discord Summary 2025-W42.md|Discord Summary 2025-W42]])

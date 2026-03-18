@@ -14,3 +14,7 @@ He was apparently big on self-promotion, and some of his party's exploits were l
 ## Notes
 - He is a long-time friend of [[Wicktrimmer]], his former party member.
 - [[npcs/Wicktrimmer.md|Wicktrimmer]] believes that Balthazar does not think [[Larel]] was a real person, and is eager to prove him wrong.
+
+## Discord Insights
+
+- A wizard who led the adventurer group Lost and Found and is Wicktrimmer's best friend. ([[notes/Discord Summary 2025-W36.md|Discord Summary 2025-W36]])

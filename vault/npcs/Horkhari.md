@@ -22,3 +22,7 @@ TBD
 The tomb of great [[Theskalon]] lies to the east of the [[Southern Necropolis of Set]].
 
 ## Sessions
+
+## Discord Insights
+
+- Was shown the tomb of great Theskelon. ([[notes/Discord Summary 2025-W42.md|Discord Summary 2025-W42]])

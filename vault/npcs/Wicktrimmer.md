@@ -41,3 +41,8 @@ As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offe
 
 ## Sessions
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+
+## Discord Insights
+
+- A retired adventurer who used to plunder Arden Vul with a group called Lost and Found. He founded the Rarities Factor in Gosterwick 12 years ago, is interested in buying magical artifacts, and has a 20-year argument with Balthazar the Blue about the reality of Larel. ([[notes/Discord Summary 2025-W36.md|Discord Summary 2025-W36]])
+- A prominent figure who recommends Barnaby Goodbarrel, asks for Larel's Pin, and is competing against Imperial Factors. ([[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]])
