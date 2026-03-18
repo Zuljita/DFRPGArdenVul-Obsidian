@@ -1,7 +1,5 @@
 ---
 title: Home
-aliases:
-  - /
 ---
 
 # Vault Index
