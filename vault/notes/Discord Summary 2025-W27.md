@@ -16,7 +16,7 @@
 
 - **GM** (2025-07-11): Alchemy: fail, pay extra Research: success, see PM
 - **GM** (2025-07-11): Alchemy: fail, pay extra Research: success, see PM
-- **Grudge Brigade** (2025-07-12): Does the Find Familiar spell have to be paid for, or is it just a feature and the price is the Familiar advantage? 2️⃣ Are both Lens available (Familiar and Telepathic Familiar)? 3️⃣ Are Fantastic Creatures (DF5p25) allowed?
+- **Grudge Brigade** (2025-07-12): Does the Find Familiar spell have to be paid for, or is it just a feature and the price is the Familiar advantage? (2) Are both Lens available (Familiar and Telepathic Familiar)? (3) Are Fantastic Creatures (DF5p25) allowed?
 - **GM** (2025-07-12): The latter.  It's treated as a spell in-universe but is actually an advantage in GURPS. Note the loot sheet says this is "Find Common Familiar" Maybe there are other versions that allow finding weird familiars, but this isn't that.
 - **Vael, Zuljita** (2025-07-12): If I were going to try and find a familiar, how many points am I looking at?
 - **GM** (2025-07-12): The Common Familiars in DF5 vary from 31 to 38 points.  They are not cheap.  (They all grant advantages though.)
@@ -51,7 +51,7 @@
 
 ### #questions-for-gm
 
-- **Grudge Brigade** (2025-07-12): Does the Find Familiar spell have to be paid for, or is it just a feature and the price is the Familiar advantage? 2️⃣ Are both Lens available (Familiar and Telepathic Familiar)? 3️⃣ Are Fantastic Creatures (DF5p25) allowed?
+- **Grudge Brigade** (2025-07-12): Does the Find Familiar spell have to be paid for, or is it just a feature and the price is the Familiar advantage? (2) Are both Lens available (Familiar and Telepathic Familiar)? (3) Are Fantastic Creatures (DF5p25) allowed?
 - **GM** (2025-07-12): The latter.  It's treated as a spell in-universe but is actually an advantage in GURPS. Note the loot sheet says this is "Find Common Familiar" Maybe there are other versions that allow finding weird familiars, but this isn't that.
 - **Vael, Zuljita** (2025-07-12): If I were going to try and find a familiar, how many points am I looking at?
 - **GM** (2025-07-12): The Common Familiars in DF5 vary from 31 to 38 points.  They are not cheap.  (They all grant advantages though.)

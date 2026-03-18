@@ -7,6 +7,7 @@ Processes classified IC/lore messages and creates weekly summary files.
 import json
 import os
 import sys
+import re
 from datetime import datetime, timedelta
 from collections import defaultdict
 from pathlib import Path
@@ -89,6 +90,8 @@ def generate_weekly_summary(week_key, messages):
             author = msg.get('author_alias') or msg.get('author_name', 'Unknown')
             ts = msg.get('timestamp_iso', '')[:10]  # Just the date
             text = msg.get('text', '').replace('\n', ' ')
+            # Strip emojis
+            text = re.sub(r'[^\x00-\x7F]+', '', text)
             # Truncate very long messages
             if len(text) > 300:
                 text = text[:297] + "..."

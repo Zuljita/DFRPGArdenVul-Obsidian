@@ -20,7 +20,7 @@
 - **GM** (2025-11-11): Not an actual teleport, but I'll do a a one-time fast-forward to each, the first time they're at the top of the Cruise Director Plan. (Probably 2 separate weeks.)
 - **GM** (2025-11-12): Alchemy: success, discount Locksmith: Theopilos explains that this is a very large and very complicated key, so a copy will cost $25. Carousing: Vallium hears from Azgallatu the cleric (who was in Newmarket with Lillian but is back in Gosterwick) that Lord Iskander Burdock (Lady Alexia's half bro...
 - **GM** (2025-11-12): Alchemy: success, discount Locksmith: Theopilos explains that this is a very large and very complicated key, so a copy will cost $25. Carousing: Vallium hears from Azgallatu the cleric (who was in Newmarket with Lillian but is back in Gosterwick) that Lord Iskander Burdock (Lady Alexia's half bro...
-- **Grudge Brigade** (2025-11-14): Answer after game: 1️⃣ Lake Crododile mundane animal? 2️⃣ Lake Turtle mundane animal? 3️⃣ Lake Frog mundane animal?
+- **Grudge Brigade** (2025-11-14): Answer after game: (1) Lake Crododile mundane animal? (2) Lake Turtle mundane animal? (3) Lake Frog mundane animal?
 - **Grudge Brigade** (2025-11-14): (Address after session; I don't think Nature is quite that harsh.  DFS p.6) Nature envelops druid or remains visible, but isn’t pristine. ‑1. Examples: Dungeons and mines, with immeasurable tons of soil and burrowing things above, below, and to all sides. Druid wholly surrounded by artificial str...
 - **Ioannes** (2025-11-14): Things were deliberately eased from GURPS DF to DFRPG because if you're spending your time in dungeons, druid was a really bad pick
 - **Grudge Brigade** (2025-11-14): So you're saying Drip might be using the DF table?
@@ -59,7 +59,7 @@
 
 - **Grudge Brigade** (2025-11-11): In the interest of session time, can the party get a one-time instant teleport each to the broken level and the not ready level, as both were reached in actual play but exploration was prevented for technical reasons?
 - **GM** (2025-11-11): Not an actual teleport, but I'll do a a one-time fast-forward to each, the first time they're at the top of the Cruise Director Plan. (Probably 2 separate weeks.)
-- **Grudge Brigade** (2025-11-14): Answer after game: 1️⃣ Lake Crododile mundane animal? 2️⃣ Lake Turtle mundane animal? 3️⃣ Lake Frog mundane animal?
+- **Grudge Brigade** (2025-11-14): Answer after game: (1) Lake Crododile mundane animal? (2) Lake Turtle mundane animal? (3) Lake Frog mundane animal?
 - **Grudge Brigade** (2025-11-14): (Address after session; I don't think Nature is quite that harsh.  DFS p.6) Nature envelops druid or remains visible, but isn’t pristine. ‑1. Examples: Dungeons and mines, with immeasurable tons of soil and burrowing things above, below, and to all sides. Druid wholly surrounded by artificial str...
 - **Ioannes** (2025-11-14): Things were deliberately eased from GURPS DF to DFRPG because if you're spending your time in dungeons, druid was a really bad pick
 - **Grudge Brigade** (2025-11-14): So you're saying Drip might be using the DF table?

@@ -12,7 +12,7 @@
 
 ### #Rumors
 
-- **Grudge Brigade** (2025-04-10): 🩸 1️⃣ The Set priests are slavers. Anyone they encounter on the Long Stairs leading to their Forum is liable to be enslaved. If you make it to the Forum, though, you're safe. 🩸 2️⃣ The Pyramid of Thoth in the ruined city leads directly to the topmost of the many underground levels; beneath it are...
+- **Grudge Brigade** (2025-04-10): 🩸 (1) The Set priests are slavers. Anyone they encounter on the Long Stairs leading to their Forum is liable to be enslaved. If you make it to the Forum, though, you're safe. 🩸 (2) The Pyramid of Thoth in the ruined city leads directly to the topmost of the many underground levels; beneath it are...
 - **Vallium Halcyon** (2025-04-10): Rumor 4: The Hall of Forty Pillars is right next to the Obsidian Gates. The hall is filled with these creepy albino toads. If the wrong person touches the Gates, the toads turn into demons and attack. .
 
 ### #archive
