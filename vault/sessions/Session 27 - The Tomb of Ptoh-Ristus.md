@@ -19,7 +19,7 @@ Cool, dry
 
 Player Characters: 
 
-Vael Sunshadow, Half-Elven mage (Kyle)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 Vallium Halcyon, Archontean fighter (Greybrown)
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo)

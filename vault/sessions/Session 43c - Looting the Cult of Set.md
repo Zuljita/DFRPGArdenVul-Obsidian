@@ -44,7 +44,7 @@ GM's Comments:
 Writing up the loot sheet was exhausting.  This is why I'm not an accountant.
 
 Achievements:
-- Iconic Location: The Red Bridge of [[npcs/Set.md|Set]] (1 XP)
+- Iconic Location: [[locations/Red Bridge of Set.md|The Red Bridge of Set]] (1 XP)
 - The Rescuers: Rescued Many Slaves (1 XP)
 
 XP:- Achievements: 2 XP

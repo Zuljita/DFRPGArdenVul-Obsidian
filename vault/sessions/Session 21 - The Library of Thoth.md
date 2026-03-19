@@ -21,7 +21,7 @@ Cool, dry
 Player Characters: 
 
 Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo)
-Vael Sunshadow, Half-Elven mage (Kyle)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 Vallium Halcyon, Archontean fighter (Greybrown)
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 Sister Valya "[[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]" [[npcs/Sister Valya -[[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]- Hushbreaker.md|Sister Valya -[[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]- Hushbreaker]], Halfling mercenary monk (ArchonShiva)

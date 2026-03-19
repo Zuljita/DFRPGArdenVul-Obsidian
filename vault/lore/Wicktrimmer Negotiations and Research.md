@@ -6,11 +6,11 @@ tags:
 
 # [[npcs/Wicktrimmer.md|Wicktrimmer]] Negotiations and Research
 
-This document details the interactions and research conducted by [[pcs/Vael Sunshadow|Vael]] and [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] concerning [[Wicktrimmer]] and the [[Rarities Factor]], particularly regarding the sale of [[Larel's Pin]] and other artifacts, as well as general intelligence gathering.
+This document details the interactions and research conducted by [[pcs/Vaelethron 'Vael' Sunshadow|Vael]] and [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] concerning [[Wicktrimmer]] and the [[Rarities Factor]], particularly regarding the sale of [[Larel's Pin]] and other artifacts, as well as general intelligence gathering.
 
 ## Initial Inquiry Regarding [[Arcanum]]
 
-- [[Lyssandra Astorion|Lyssandra]] informs [[pcs/Vael Sunshadow|Vael]] and [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] of a note from [[Wicktrimmer]] inquiring about a large quantity of [[Arcanum]] that reportedly showed up in their corner of town. He is interested in buying it.
+- [[Lyssandra Astorion|Lyssandra]] informs [[pcs/Vaelethron 'Vael' Sunshadow|Vael]] and [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] of a note from [[Wicktrimmer]] inquiring about a large quantity of [[Arcanum]] that reportedly showed up in their corner of town. He is interested in buying it.
 - [[Lyssandra Astorion|Lyssandra]] expresses surprise, noting [[Wicktrimmer]] is not a wizard and wonders who he's trying to sell it to.
 - [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] asks about [[Wicktrimmer]]'s identity, learning he runs the [[Rarities Factor]] and is likely the second richest person in [[Gosterwick]], and definitely the richest [[goblin]].
 - [[Lyssandra Astorion|Lyssandra]] advises being polite to [[Wicktrimmer]], as he is not someone to anger.
@@ -21,9 +21,9 @@ This document details the interactions and research conducted by [[pcs/Vael Suns
 - [[Wicktrimmer]] sends a note to the [[Right for Riches Company]] stating he has reliable information they found magical artifacts of deep historical significance.
 - He offers lifetime free banking at the [[Rarities Factor]] if his wizard identifies them as genuine and the company sells any to him.
 
-## [[pcs/Vael Sunshadow|Vael]]'s Due Diligence and Negotiations
+## [[pcs/Vaelethron 'Vael' Sunshadow|Vael]]'s Due Diligence and Negotiations
 
-[[pcs/Vael Sunshadow|Vael]] initiates research into [[Wicktrimmer]], [[Lost and Found]], and the [[Rarities Factor]], wearing his [[Larel's Cloak]] and [[Amulet of Voice]]. [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] and [[pcs/Vallium Halcyon|Vallium]] also contribute to intelligence gathering.
+[[pcs/Vaelethron 'Vael' Sunshadow|Vael]] initiates research into [[Wicktrimmer]], [[Lost and Found]], and the [[Rarities Factor]], wearing his [[Larel's Cloak]] and [[Amulet of Voice]]. [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] and [[pcs/Vallium Halcyon|Vallium]] also contribute to intelligence gathering.
 
 ### Initial Research Findings (from GM)
 - [[Wicktrimmer]] is a retired adventurer who used to plunder [[Arden Vul]] with a group called [[Lost and Found]].
@@ -36,8 +36,8 @@ This document details the interactions and research conducted by [[pcs/Vael Suns
 - His reputation is solid; he seems to know everything in town, with various theories as to how.
 
 ### Visit to the [[Rarities Factor]]
-- [[pcs/Vael Sunshadow|Vael]] and friends visit the [[Rarities Factor]]. [[Wicktrimmer]] asks his wizard, [[Ingimund of Arcturus]], to inspect a [[Larel's Pin|letter opener]].
-- [[pcs/Vael Sunshadow|Vael]] warns of obfuscation on the item.
+- [[pcs/Vaelethron 'Vael' Sunshadow|Vael]] and friends visit the [[Rarities Factor]]. [[Wicktrimmer]] asks his wizard, [[Ingimund of Arcturus]], to inspect a [[Larel's Pin|letter opener]].
+- [[pcs/Vaelethron 'Vael' Sunshadow|Vael]] warns of obfuscation on the item.
 - [[Wicktrimmer]] asserts his job is to know of all magic items in [[Gosterwick]], implying magical means of detection. He notes the item was unusually confusing due to its concealing effect.
 - The wizard casts Analyze Magic and destroys the [[Larel's Pin|letter opener]] (which was a disguised [[Larel's Pin]]).
 - [[Wicktrimmer]] offers $20,000 plus free banking for life for the entire company, for [[Larel's Pin]].
@@ -45,8 +45,8 @@ This document details the interactions and research conducted by [[pcs/Vael Suns
 - He notes his dislike for baboons, and is impressed by the party's handling of them.
 - He offers payment in gold, silver, platinum, gems, or a letter of deposit.
 
-### [[pcs/Vael Sunshadow|Vael]]'s Counter-Proposal
-[[pcs/Vael Sunshadow|Vael]] proposes:
+### [[pcs/Vaelethron 'Vael' Sunshadow|Vael]]'s Counter-Proposal
+[[pcs/Vaelethron 'Vael' Sunshadow|Vael]] proposes:
 - Sale of [[Larel's Pin]].
 - Right of first refusal for their magic items (with exceptions for personal requests, bartering for unique goods/services, or paying adventuring companions).
 - Willingness to inform [[Wicktrimmer]] of any items given or traded away.
@@ -63,7 +63,7 @@ This document details the interactions and research conducted by [[pcs/Vael Suns
 - He confirms that concierge shopping services are possible for specific items, with messages reaching [[Narsileon]] in less than a day, but item delivery at mule train speed (around a month). Analyze Magic costs would be on the party.
 
 ### Further Research and Political Intel
-- [[pcs/Vael Sunshadow|Vael]] and [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] research [[Lost and Found]] and the [[Rarities Factor]].
+- [[pcs/Vaelethron 'Vael' Sunshadow|Vael]] and [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] research [[Lost and Found]] and the [[Rarities Factor]].
 - **[[Lost and Found]]**: Had unbelievable, possibly made-up exploits. [[Balthazar the Blue]] was big on self-promotion.
 - **[[Rarities Factor]]**: Story of [[Wicktrimmer]] owning it seems doubtful; likely a rich noble behind the scenes.
 - [[Wicktrimmer]] provides intel on [[Susarra]]'s murder, suggesting an out-of-town [[Cult of Set|Settite]] or hired assassin.
@@ -72,9 +72,9 @@ This document details the interactions and research conducted by [[pcs/Vael Suns
 - He advises caution against assassins and recommends not sleeping in [[Arden Vul]] and not splitting up. If necessary, use 2 guards and Mystic Mist.
 - He confirms [[Balthazar the Blue]] now lives in [[Narsileon]], raising kids and making potions, rarely visiting [[Gosterwick]]. [[Wicktrimmer]] visits [[Narsileon]] occasionally but manages the branch remotely.
 
-### Larel Artifacts Provenance Statement (Drafted by [[pcs/Vael Sunshadow|Vael]])
+### Larel Artifacts Provenance Statement (Drafted by [[pcs/Vaelethron 'Vael' Sunshadow|Vael]])
 
-An Account of the Discovery within the [[Thothian Necropolis]], by [[pcs/Vael Sunshadow|Vael Sunshadow]]
+An Account of the Discovery within the [[Thothian Necropolis]], by [[pcs/Vaelethron 'Vael' Sunshadow|Vaelethron 'Vael' Sunshadow]]
 
 "It is a rare privilege to uncover a secret that history has forgotten, and a rarer one still to prove a legend true. Such was our fortune in the deep and silent precincts of the [[lore/Thothian.md|Thothian]] halls.
 

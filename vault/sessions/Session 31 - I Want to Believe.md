@@ -22,7 +22,7 @@ Player Characters:
 
 Vallium Halcyon, Archontean fighter (Greybrown)
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vael Sunshadow, Half-Elven mage (Kyle)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 [[npcs/Ashe Maykum.md|Ashe Maykum]] "GOAT" Maykum, Goblin mercenary druid (ArchonShiva)
 
 

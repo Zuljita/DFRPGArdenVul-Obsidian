@@ -19,7 +19,7 @@ Hot, dry
 
 Player Characters: 
 
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
+[[pcs/Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
 [[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
 [[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 [[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)

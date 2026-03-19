@@ -12,7 +12,7 @@ The party follows a magic map to find the body of [[Nyema]], the wife of the gho
 ## Full Recap
 
 - The party bought 250 lbs. of meat in [[Gosterwick]].
-- [[Vael Sunshadow]] activated the [[Nataraja Watcher]] statue at the [[Beacon]].
+- [[Vaelethron 'Vael' Sunshadow]] activated the [[Nataraja Watcher]] statue at the [[Beacon]].
 - The party traveled to the [[Well of Light]] and performed the [[Litany of Light]].
 - The party visited the [[Howling Caves]] and learned about the kidnapping of [[Bobo]] and [[Bifki]] by [[The Thane]]. They gave the baboons 200 lbs of meat.
 - The party found a secret door in the [[Halls of Thoth]] leading to a barracks with two zombies.

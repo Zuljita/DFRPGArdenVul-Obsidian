@@ -22,7 +22,7 @@ Player Characters:
 
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 Michael J Dundee, Thorcin barbarian (Adam)
-Vael Sunshadow, Half-Elven mage (Kyle)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 Vallium Halcyon, Archontean fighter (Greybrown)
 [[npcs/Coinbase.md|Coinbase]] Ethereum Thuringwador, Elven Shield Bro (mercenary) (Archon Shiva)
 

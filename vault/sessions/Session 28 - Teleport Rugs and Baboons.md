@@ -19,7 +19,7 @@ Cool, rainy
 
 Player Characters: 
 
-Vael Sunshadow, Half-Elven mage (Kyle)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 Vallium Halcyon, Archontean fighter (Greybrown)
 Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo)
 [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fighter (Archon Shiva)

@@ -4,4 +4,4 @@ tags:
   - location
 ---
 # [[npcs/Demma.md|Demma]]
- - [[pcs/Vael Sunshadow.md|Vael Sunshadow]]
+ - [[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]]
