@@ -9,7 +9,7 @@ appears_in:
   of Deino.md|Children of Deino]], Oh My!
 - Session 22 - The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light
 - Session 23a - Gelatinous Cube and Slime Kraken
-- Session 23b - Disrupting Services in the Temple of [[npcs/Set.md|Set]]
+- Session 23b - Disrupting Services in the [[locations/Temple of Set.md|Temple of Set]]
 - Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
 ---
 # [[npcs/Lillian.md|Lillian]]

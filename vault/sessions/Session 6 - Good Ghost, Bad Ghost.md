@@ -43,7 +43,7 @@ Wight
 
 In [[locations/Gosterwick.md|Gosterwick]], Ioannes did some additional research into [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]'s Regalia and found that the Ebon Spear was the actual spear wielded by [[npcs/Arden.md|Arden]] when she was a mortal warrior hero, thousands of years ago.  Vallium again tried finding rumors about [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halfling gang in various drinking establishments, and instead heard something about [[npcs/Ptarmis.md|Ptarmis]], a wizard who lived in the fungal caverns.
 
-Michael was still out wandering in the wilderness, and Vael was busy studying (or possibly customizing his new wizard robes), so the group was an adventurer short this week.  They hired [[npcs/Ashe Maykum.md|Ashe Maykum]], the goat-summoning druid, from the [[factions/Grudge Brigade.md|Grudge Brigade]].  There was some discussion on whether to visit the [[locations/Great Cavern.md|Great Cavern]] again or bring food to the beastmen, but Vallium suggested avoiding the Cavern since they didn't have a wizard with Levitation to deal with cliffs and water.  Instead they would just go down the [[locations/Great Pyramid.md|Great Pyramid]] stairs and investigate unexplored parts of the Halls of [[npcs/Thoth.md|Thoth]]. 
+Michael was still out wandering in the wilderness, and Vael was busy studying (or possibly customizing his new wizard robes), so the group was an adventurer short this week.  They hired [[npcs/Ashe Maykum.md|Ashe Maykum]], the goat-summoning druid, from the [[factions/Grudge Brigade.md|Grudge Brigade]].  There was some discussion on whether to visit the [[locations/Great Cavern.md|Great Cavern]] again or bring food to the beastmen, but Vallium suggested avoiding the Cavern since they didn't have a wizard with Levitation to deal with cliffs and water.  Instead they would just go down the [[locations/Great Pyramid.md|Great Pyramid]] stairs and investigate unexplored parts of the [[locations/Halls of Thoth.md|Halls of Thoth]]. 
 
 They woke before dawn, and walked uneventfully toward [[locations/Arden Vul.md|Arden Vul]] on a warm spring day.  At the base of the waterfall, [[npcs/Ashe Maykum.md|Ashe Maykum]] used a Water Vision spell to see through all the spray, and made out a couple of cave entrances, behind the waterfall and 30 to 40 feet underwater.  While [[npcs/Ashe Maykum.md|Ashe Maykum]] was staring into the water, Ioannes noticed a crumbling tower near the side of the road, and suggested (via gestures because the waterfall was too loud for speech) that they check it out.
 
@@ -51,7 +51,7 @@ The group entered the remains of the tower.  The top levels had fallen, but the 
 
 Both Ioannes and Uvash fled in terror.  Vallium was a bit less scared but decided that following them made more sense than dealing with any angry ghost.  [[npcs/Ashe Maykum.md|Ashe Maykum]], however, stuck around to have a conversation.  The ghost attempted to possess [[npcs/Ashe Maykum.md|Ashe Maykum]], but failed.  It then shot some kind of magical bolt out of a finger and missed.  [[npcs/Ashe Maykum.md|Ashe Maykum]] eventually gave up on discussion and followed the others out of the tower, surrounded by goats and rats and bats.  The ghost did not pursue outside the tower.
 
-After recovering from their fright, everyone hiked up the [[locations/Long Stair.md|Long Stair]], with Vallium pushing a new wheelbarrow containing everyone's backpacks.  Nobody slipped.  When they reached the top, the group headed toward the Pyramid of [[npcs/Thoth.md|Thoth]] and managed to avoid any encounters.  They manipulated the statue's arms, read some graffiti, and walked down several hundred stairs to the Glory of [[npcs/Thoth.md|Thoth]].  There they were greeted by their favorite halfling extortion gang, who collected 25 pieces of silver from Vallium for an Adventuring License for [[npcs/Ashe Maykum.md|Ashe Maykum]].  (Roskelly generously allowed the goats and swarms to adventure for free.)
+After recovering from their fright, everyone hiked up the [[locations/Long Stair.md|Long Stair]], with Vallium pushing a new wheelbarrow containing everyone's backpacks.  Nobody slipped.  When they reached the top, the group headed toward the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] and managed to avoid any encounters.  They manipulated the statue's arms, read some graffiti, and walked down several hundred stairs to the [[locations/Glory of Thoth.md|Glory of Thoth]].  There they were greeted by their favorite halfling extortion gang, who collected 25 pieces of silver from Vallium for an Adventuring License for [[npcs/Ashe Maykum.md|Ashe Maykum]].  (Roskelly generously allowed the goats and swarms to adventure for free.)
 
 Since [[npcs/Ashe Maykum.md|Ashe Maykum]] had Water Vision, the group headed south through the gray-green mist to the smelly murky pool, hoping the spell would reveal some treasure.  Sadly, it did not.  [[npcs/Ashe Maykum.md|Ashe Maykum]] complained about the people who failed to throw coins into fountains, and then threw a single coin in.  Vallium suggested going east to avoid beastman territory.  The group went through a previously discovered secret passage, into a room full of columns that had previously contained some flying jellyfish-like creatures.  There were 3 more of the cephalopods there this time, and they appeared hungry.
 
@@ -71,7 +71,7 @@ With the undead gone, the party investigated the room.  There were open double d
 
 The party picked up all the portable treasure from the tomb.  This included a locked chest.  [[npcs/Ashe Maykum.md|Ashe Maykum]] suggested smashing it with goats, but Uvash said that if there was anything fragile inside that might smash it, so they decided to just take the chest and pay someone in [[locations/Gosterwick.md|Gosterwick]] to open it.
 
-Discussion of the chest made everyone remember the halflings.  Vallium mentioned maybe just giving them their 10% for once, but [[npcs/Ashe Maykum.md|Ashe Maykum]] scoffed and suggested using Mystic Mist instead.  The plan was to approch the Glory of [[npcs/Thoth.md|Thoth]] from the northwest entrance, only 10 yards from the stairs up to the pyramid, then cast a big Mystic Mist over the whole northeast corner of the room, and march the treasure out while the halflings were confused by the mist.  One of Roskelly's fighters saw the mist appear, and Roskelly sent a couple of halflings in to investigate, but both ran back out screaming, and then the PCs were up the stairs,  Roskelly was yelling after them, though; this time the halflings knew they'd been cheated of their share of the loot.
+Discussion of the chest made everyone remember the halflings.  Vallium mentioned maybe just giving them their 10% for once, but [[npcs/Ashe Maykum.md|Ashe Maykum]] scoffed and suggested using Mystic Mist instead.  The plan was to approch the [[locations/Glory of Thoth.md|Glory of Thoth]] from the northwest entrance, only 10 yards from the stairs up to the pyramid, then cast a big Mystic Mist over the whole northeast corner of the room, and march the treasure out while the halflings were confused by the mist.  One of Roskelly's fighters saw the mist appear, and Roskelly sent a couple of halflings in to investigate, but both ran back out screaming, and then the PCs were up the stairs,  Roskelly was yelling after them, though; this time the halflings knew they'd been cheated of their share of the loot.
 
 
 GM's Comments:
@@ -203,14 +203,14 @@ Square tower near Forum with bronze double doors
 Square tower (bees)
 Square tower and cistern (baboons)
 Down the Well of Light (baboons and giant 4-armed baboons)
-Pyramid of [[npcs/Thoth.md|Thoth]], move statue west 
-Halls of [[npcs/Thoth.md|Thoth]] (halflings)
+[[locations/Pyramid of Thoth.md|Pyramid of Thoth]], move statue west 
+[[locations/Halls of Thoth.md|Halls of Thoth]] (halflings)
 [[locations/Great Chasm.md|Great Chasm]]
 Lever on top of triangular pyramid, teleporter to Well of Light
 Beastman territory
 Stairs down, behind secret door in baboon mosaic
 Chute down, opened by manipulating a statue
-Pyramid of [[npcs/Thoth.md|Thoth]], move statue east
+[[locations/Pyramid of Thoth.md|Pyramid of Thoth]], move statue east
 Black portal (demons)
 [[npcs/Selket.md|Selket]] statue, teleporter to [[locations/Great Hall.md|Great Hall]] (beastmen)
 

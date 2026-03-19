@@ -1,28 +1,15 @@
-# Discord Summary: 2025-W25
+# Discord Summary: 2025-W25 (Distilled)
 
 **Date Range:** 2025-06-23 to 2025-06-29
-**Messages:** 10
+**Source Messages:** 10
 
-## In-World Highlights
+## In-World Knowledge
 
-### #Rumors
+- The old pyramid of Thoth is the commonly used entrance to the halls beneath. Because everyone uses this entrance, the areas beneath the pyramid have been picked clean by prior explorers. The statue at this pyramid has gems set into its eyes. A rumor suggests finding another route - there was reportedly a Shining Well that leads straight to the sweet loot. [rumors | 2025-06-26]
 
-- **Vallium Halcyon** (2025-06-26): Rumor 14: Everyone uses the old pyramid of Thoth to enter the halls (by the way, check out the gems used for that statue's eyes!  My party leader wouldn't let me grab 'em. Superstitious fool). But because everyone uses that entrance, the areas beneath the pyramid have already been picked clean. I...
+- The Tower of the Ape in Newmarket is now a directed target for Carousing rumor-gathering efforts. [archive | 2025-06-26; town-rolls | 2025-06-26]
 
-### #archive
-
-- **Vallium Halcyon** (2025-06-26): Vallium will brew an Invisibility potion.  Vallium will spend $125 to have a Carousing+2 roll.  Moving forward, any critical successes for Carousing rumors should be directed toward the Tower of the Ape in Newmarket.
-- **Vallium Halcyon** (2025-06-26): Vallium will brew an Invisibility potion.  Vallium will spend $125 to have a Carousing+2 roll.  Moving forward, any critical successes for Carousing rumors should be directed toward the Tower of the Ape in Newmarket.
-- **GM** (2025-06-26): Alchemy: fail, pay extra, you needed to call in Ioannes for help when you measured your ingredients wrong. Carousing: rumor generated, see PM
-- **GM** (2025-06-26): Alchemy: fail, pay extra, you needed to call in Ioannes for help when you measured your ingredients wrong. Carousing: rumor generated, see PM
-- **GM** (2025-06-26): Alchemy: success, you get the discount. Research: You find nothing on the teleporting scorpion statue in particular.  You do find something related; see PM.
-- **GM** (2025-06-26): Alchemy: success, you get the discount. Research: You find nothing on the teleporting scorpion statue in particular.  You do find something related; see PM.
-
-### #town-rolls
-
-- **Vallium Halcyon** (2025-06-26): Vallium will brew an Invisibility potion.  Vallium will spend $125 to have a Carousing+2 roll.  Moving forward, any critical successes for Carousing rumors should be directed toward the Tower of the Ape in Newmarket.
-- **GM** (2025-06-26): Alchemy: fail, pay extra, you needed to call in Ioannes for help when you measured your ingredients wrong. Carousing: rumor generated, see PM
-- **GM** (2025-06-26): Alchemy: success, you get the discount. Research: You find nothing on the teleporting scorpion statue in particular.  You do find something related; see PM.
+- Research found no specific information on the teleporting scorpion statue, but did uncover something tangentially related. [archive | 2025-06-26; town-rolls | 2025-06-26]
 
 ---
-*Generated: 2026-03-16 20:00*
+*Original: Discord Summary 2025-W25 | Distilled: 2026-03-18*

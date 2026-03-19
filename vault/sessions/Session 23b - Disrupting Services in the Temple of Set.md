@@ -6,7 +6,7 @@ tags:
 session_id: 23b
 in_world_date: Basilsday, 16th of Gerakios, 2993 AE
 ---
-# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 23B: Disrupting Services in the Temple of [[npcs/Set.md|Set]]
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 23B: Disrupting Services in the [[locations/Temple of Set.md|Temple of Set]]
 
 Date: 
 Basilsday, 16th of Gerakios, 2993 AE 

@@ -49,11 +49,11 @@ They continued to the [[locations/Azure Keep.md|Azure Keep]] to try to arrange a
 
 With no help forthcoming, they headed out for [[locations/Arden Vul.md|Arden Vul]] just after sunset.  A few miles from the [[locations/Cliff Face.md|Cliff Face]], they heard riders coming south down the [[locations/Imperial Road.md|Imperial Road]] toward their lights.  It was four Knights of the Azure Shield, who asked them to identify themselves, they had questions about Michael's red scale armor.  They were satisfied with the answer that the armor had come off a dead Settite and there hadn't been time to repaint it before the [[factions/Cult of Set.md|Cult of Set]] killed their friend and required a late night attack.  The knights continued their patrol.
 
-When they reached the [[locations/Cliff Face.md|Cliff Face]], they saw lights halfway up the cliff, west of the waterfall, at the site of the [[npcs/Set.md|Set]] cult's basket.  Vael Levitated up to try improve his triangulation on [[npcs/Susarra.md|Susarra]]'s head.  He was surprised to see that she was at the same elevation as the [[npcs/Set.md|Set]] basket, and somewhere west, rather than up at the level of the ruins.  Vael flew back down to confer with the group.  They decided to go up to the ruins of [[locations/Arden Vul.md|Arden Vul]], then back down though the basement, around the halflings, and through the desecrated Temple of [[npcs/Thoth.md|Thoth]] to reach the Temple of [[npcs/Set.md|Set]].
+When they reached the [[locations/Cliff Face.md|Cliff Face]], they saw lights halfway up the cliff, west of the waterfall, at the site of the [[npcs/Set.md|Set]] cult's basket.  Vael Levitated up to try improve his triangulation on [[npcs/Susarra.md|Susarra]]'s head.  He was surprised to see that she was at the same elevation as the [[npcs/Set.md|Set]] basket, and somewhere west, rather than up at the level of the ruins.  Vael flew back down to confer with the group.  They decided to go up to the ruins of [[locations/Arden Vul.md|Arden Vul]], then back down though the basement, around the halflings, and through the desecrated [[locations/Temple of Thoth.md|Temple of Thoth]] to reach the [[locations/Temple of Set.md|Temple of Set]].
 
 Everyone (except Vael, who was still Levitating) tied themselves together for the night climb.  About halfway up the [[locations/Long Stair.md|Long Stair]], they encountered a beastman patrol heading down.  The beastmen formed up into a hedgehog formation as their sergeant asked the group to identify themselves.  He then indicated that his group would back up to a wider spot on the trail and allow the party distance to pass, as they were not looking for conflict.  This was agreed, and the Right for Riches company passed by the beastmen as they stood in defensive formation.  They continued to the top of the climb, then north across the ruins.
 
-They group passed through the basement without encountering anything, then went down the spiral stair, west through the illusory wall, south through the destroyed remains of a one-way door.  They discussed going through the catacombs to stay farther from the halflings, but decided the secret door behind the [[npcs/Thoth.md|Thoth]] statue was faster.  They were lucky enough not to meet any halflings, and went down the narrow secret passage west into the desecrated Temple of [[npcs/Thoth.md|Thoth]].  At that point they heard the blaring of a horn from the secret peephole high on the west wall -- their bright lights had been spotted.
+They group passed through the basement without encountering anything, then went down the spiral stair, west through the illusory wall, south through the destroyed remains of a one-way door.  They discussed going through the catacombs to stay farther from the halflings, but decided the secret door behind the [[npcs/Thoth.md|Thoth]] statue was faster.  They were lucky enough not to meet any halflings, and went down the narrow secret passage west into the desecrated [[locations/Temple of Thoth.md|Temple of Thoth]].  At that point they heard the blaring of a horn from the secret peephole high on the west wall -- their bright lights had been spotted.
 
 The party quickly went south through a secret door, carefully picked their way through a formerly trapped room, and set off the gas trap again, which had been reset.  Nobody breathed any of the gas, though, and they continued south to the corner, then looked up west to see the barricade had been rebuilt and there were a mass of guards in red [[npcs/Set.md|Set]] scale armor behind it, commanded by a sergeant, and accompanied by a goat.
 
@@ -110,12 +110,12 @@ Sparky tasted better than he fought.
 
 Achievements:
 
-The PCs caught just a glimpse of the Forum of [[npcs/Set.md|Set]] at the end of the session.  They haven't actually entered it or seen most of it yet though.
+The PCs caught just a glimpse of the [[locations/Forum of Set.md|Forum of Set]] at the end of the session.  They haven't actually entered it or seen most of it yet though.
 
 XP:
 
-None until they go back to town.  So far they have only visited a couple of new locations, grabbed a small amount of loot, and glimpsed the edge of the Forum of [[npcs/Set.md|Set]].
+None until they go back to town.  So far they have only visited a couple of new locations, grabbed a small amount of loot, and glimpsed the edge of the [[locations/Forum of Set.md|Forum of Set]].
 
 Next Week:
 
-The Right for Riches Company appears to be invading the Forum of [[npcs/Set.md|Set]].  Do they smash a major faction of [[locations/Arden Vul.md|Arden Vul]], or get swarmed and make new PCs?  I have no idea.
+The Right for Riches Company appears to be invading the [[locations/Forum of Set.md|Forum of Set]].  Do they smash a major faction of [[locations/Arden Vul.md|Arden Vul]], or get swarmed and make new PCs?  I have no idea.

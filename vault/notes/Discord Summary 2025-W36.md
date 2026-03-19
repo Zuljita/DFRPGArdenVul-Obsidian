@@ -3,54 +3,44 @@
 **Date Range:** 2025-09-08 to 2025-09-14
 **Messages:** 26
 
-## In-World Highlights
+## Distilled Knowledge Entries
 
-### #August_SeptemberTownRolls
+- Wicktrimmer is a retired adventurer who used to plunder Arden Vul with a group called Lost and Found, led by the wizard Balthazar the Blue and the paladin Grimley. He founded the Rarities Factor in Gosterwick 12 years ago, then expanded to another location in Newmarket, then a third location in Narsileon. They provide the same services (banking, letters, mule caravans) as the other Factors, but at a slightly cheaper price, and a smaller geographical range. He is possibly the second richest person in Gosterwick, and definitely the richest goblin. He is a collector of both historical treasures and magic items. He is apparently friends with all the other important people in Gosterwick, such as the Green Lady. His reputation is very solid. He seems to know everything that happens in town, and everyone has a different theory why. [August_SeptemberTownRolls | 2025-09-14; Wicktrimmer | 2025-09-14; archive | 2025-09-14; town-rolls | 2025-09-14]
 
-- **GM** (2025-09-14): You learn the following: Wicktrimmer is a retired adventurer, who used to plunder Arden Vul with a group called Lost and Found.  Lost and Found was led by the wizard Balthazar the Blue and the paladin Grimley.  Wicktrimmer founded the Rarities Factor in Gosterwick 12 years ago, then expanded to a...
+- A note arrived at the Arcane Practitioners Club addressed to "Right for Riches Company" from Wicktrimmer, stating he had reliable information they found magical artifacts of deep historical significance and offering to buy them if his wizard could verify their authenticity. [Wicktrimmer | 2025-09-13]
 
-### #FoundNotes
+- The party visited the Rarities Factor to meet with Wicktrimmer. His wizard, Ingimund of Arcturus, was present to inspect their items (though he claimed to actually be in Newmarket at that moment). [Wicktrimmer | 2025-09-14]
 
-- **GM** (2025-09-12): Soft exhalations Drift from the beak, As the Lord’s Pneuma Molds the champion The Champion’s virtue Is revealed in humility and wisdom, While the lies of the proud Find reward in self-knowing Friday, October 24, 2025 10:36 PM Lycandus - illusions conceal his remains. Ptarmis claims he can control...
+- Wicktrimmer expressed that he "hates baboons" and was impressed by the party's ability to deal with them, speculating they used a fear spell or had a druid. [Wicktrimmer | 2025-09-14]
 
-### #NewSpells
+- Wicktrimmer offered payment for items in gold, silver, platinum, gems, or letter of deposit. He claimed the Rarities Factor has the most secure vault in Gosterwick with zero thefts in 12 years, and cited the Green Lady as a reference. [Wicktrimmer | 2025-09-14]
 
-- **GM** (2025-09-12): Brain Full of Small Spiders Illusion; R-Will Duration: 1 minute.  Can't be maintained. Cost: 3 Prereq: Perfect Illusion, Itch Creates a sensation that spiders are crawling on the subject's head. Causes -1 to all rolls and half movement.
+- Wicktrimmer holds the right of first refusal on party items via Lady Alexia. A certain noble in Narsileon holds the right of second refusal. To earn right of third refusal, the party must provide Wicktrimmer with a reliable source of teleportation with a 400-mile range. [Wicktrimmer | 2025-09-14]
 
-### #Wicktrimmer
+- Wicktrimmer can get messages to and from Narsileon in less than a day, but items currently travel at mule train speed. He offered to broker shipping to Narsileon at standard mule shipping rates if provided exact specifications. [Wicktrimmer | 2025-09-14]
 
-- **GM** (2025-09-13): While you are all in the Arcane Practitioners Club, a note arrives.  It is addressed to "Right for Riches Company".  It says "I have reliable information that you found some magical artifacts of deep historical significance.  If my wizard identifies them as genuine, and you sell any of them to me...
-- **GM** (2025-09-14): Okay, Vael and some friends visit the Rarities Factor.  Wicktrimmer accepts your visit.  He thanks you for your visit and asks if his wizard (who you have not previously met) can thoroughly inspect this letter opener in your presence.  Are you okay with that?
-- **GM** (2025-09-14): He and the wizard both nod. The wizard starts casting what looks like Analyze Magic while you continue your discussion. Wicktrimmer is not willing to discuss the exact source of his information but says it's his job to know of every magic item that shows up in Gosterwick, so he has some magical m...
-- **GM** (2025-09-14): He nods and asks if you're willing to discuss how deep you were when you found such amazing items.  He says "I used to be an adventurer, but then my party leader got married and had a kid and his wife wouldn't let him." "So now I'm a merchant." He says his company, Lost and Found, made it all the...
-- **GM** (2025-09-14): Wicktrimmer nods.  "I hate baboons."
-- **GM** (2025-09-14): He looks impressed. "Some kind of fear spell?  Or do you have a druid?" "We never brought a druid."
-- **GM** (2025-09-14): He asks if you want payment in gold, silver, platinum, gems, or a letter of deposit.  Or if you want your letter opener back to think about it.
-- **GM** (2025-09-14): He laughs.  He says "we have the most secure vault in Gosterwick.  Zero thefts so far, in 12 years.  Ask the Green Lady if you don't believe me." He says "Lady Alexia already has that right of first refusal so I can't sell it again, sorry."
-- **GM** (2025-09-14): "A certain noble in Narsileon has that." "I'll tell you how to earn right of third refusal.  Get me a reliable source of teleportation with a 400 mile range." "Mule trains suck."
-- **GM** (2025-09-14): He laughs.  "Yes, if you had that ability you would have the start of a business.  But it's a grind.  You need secure buildings at both ends, guards you can trust, wizards you can trust..." He says that he can get messages to and from Narsileon in less than a day, but items travel at mule train s...
-- **GM** (2025-09-14): He says he can do that, if yon can provide exact specifications.  He says you get the standard rate for mule shipping.  He says that not everything is available in Narsileon, but it's a whole lot better than Gosterwick or Newmarket. He says that you have to pay the cost of the Analyze Magic to ma...
-- **GM** (2025-09-14): The wizard looks up and says "ingimund of Arcturus, pleased to meet you." "Also I wasn't here.  I'm in Newmarket right now." Wicktrimmer starts writing up a contract.  It says "Right for Riches sells Larel's Pin to Rarities Factor for $20000, free banking/vault services for life of the current 5 ...
-- **Vael, Zuljita** (2025-09-14): (I'm still actively writing my proposal bear with me) Here's what I'm thinking all told: we sell you the letter opener, right of first refusal to buy our magic items with the exception of a short list of items that the lady has asked for personally.  We also reserve the right to give items that s...
-- **GM** (2025-09-14): He says "This is acceptable as a first draft.  Talk to your companions.  Also don't sell anything else you found with this to anyone else.  If there's something you insist on keeping, for now, fine.  But don't sell it.  And if there's something else you don't want and it's not worth much, throw i...
-- **GM** (2025-09-14): "Right, I meant non-magical stuff too.  If you found Larel's Mom's Rabbit Soup Recipe, I want it." "This is not business.  It's personal.  I've had a 20-year argument with my best friend Balthazar that Larel is real.  He is going to utterly die when I show him this Pin." "Oh, if you don't sell it...
-- **GM** (2025-09-14): He nods.  "Talk to your companions and your lawyer and come back at your first convenience.  Also do not lose that thing." He thanks you and his guards escort you out.
-- **GM** (2025-09-14): You learn the following: Wicktrimmer is a retired adventurer, who used to plunder Arden Vul with a group called Lost and Found.  Lost and Found was led by the wizard Balthazar the Blue and the paladin Grimley.  Wicktrimmer founded the Rarities Factor in Gosterwick 12 years ago, then expanded to a...
-- **GM** (2025-09-14): You learn the following: Wicktrimmer is a retired adventurer, who used to plunder Arden Vul with a group called Lost and Found.  Lost and Found was led by the wizard Balthazar the Blue and the paladin Grimley.  Wicktrimmer founded the Rarities Factor in Gosterwick 12 years ago, then expanded to a...
+- The party negotiated to sell Larel's Pin to the Rarities Factor for 20,000 with free banking/vault services for life of the current 5 party members, in exchange for right of first refusal on future magic items (with exceptions for items Lady Alexia has personally requested and items reserved for gifting). [Wicktrimmer | 2025-09-14]
 
-### #archive
+- Wicktrimmer's interest in Larel's Pin is personal, not just business—he has had a 20-year argument with his best friend Balthazar about whether Larel is real, and plans to use the pin to win the argument. [Wicktrimmer | 2025-09-14]
 
-- **GM** (2025-09-12): Soft exhalations Drift from the beak, As the Lord’s Pneuma Molds the champion The Champion’s virtue Is revealed in humility and wisdom, While the lies of the proud Find reward in self-knowing
-- **GM** (2025-09-14): You learn the following: Wicktrimmer is a retired adventurer, who used to plunder Arden Vul with a group called Lost and Found.  Lost and Found was led by the wizard Balthazar the Blue and the paladin Grimley.  Wicktrimmer founded the Rarities Factor in Gosterwick 12 years ago, then expanded to a...
-- **GM** (2025-09-14): You learn the following: Wicktrimmer is a retired adventurer, who used to plunder Arden Vul with a group called Lost and Found.  Lost and Found was led by the wizard Balthazar the Blue and the paladin Grimley.  Wicktrimmer founded the Rarities Factor in Gosterwick 12 years ago, then expanded to a...
+- Wicktrimmer also wants first refusal on any non-magical historical items found with the artifacts, including things as mundane as "Larel's Mom's Rabbit Soup Recipe." [Wicktrimmer | 2025-09-14]
 
-### #pc-notes
+- **Spell Learned:** Brain Full of Small Spiders (Illusion; Resisted by Will; Duration 1 minute, not maintainable; Cost 3; Prerequisites: Perfect Illusion, Itch). Creates a sensation that spiders are crawling on the subject's head, causing -1 to all rolls and half movement. [NewSpells | 2025-09-12]
 
-- **GM** (2025-09-12): Soft exhalations Drift from the beak, As the Lord’s Pneuma Molds the champion The Champion’s virtue Is revealed in humility and wisdom, While the lies of the proud Find reward in self-knowing
+- **Note/Clue:** Soft exhalations drift from the beak, as the Lord's Pneuma molds the champion. The champion's virtue is revealed in humility and wisdom, while the lies of the proud find reward in self-knowing. [FoundNotes | 2025-09-12; archive | 2025-09-12; pc-notes | 2025-09-12]
 
-### #town-rolls
-
-- **GM** (2025-09-14): You learn the following: Wicktrimmer is a retired adventurer, who used to plunder Arden Vul with a group called Lost and Found.  Lost and Found was led by the wizard Balthazar the Blue and the paladin Grimley.  Wicktrimmer founded the Rarities Factor in Gosterwick 12 years ago, then expanded to a...
+- Lycandus's remains are concealed by illusions. Ptarmis claims he can control the Fungal Foresters. [FoundNotes | 2025-09-12]
 
 ---
-*Generated: 2026-03-16 21:30*
+
+## ✅ Truncated Entries Resolved
+
+| Entry | Source | Date | Status |
+|-------|--------|------|--------|
+| ~~Wicktrimmer's expansion details~~ | ~~Multiple~~ | ~~2025-09-14~~ | ~~*Fixed from raw source*~~ |
+| ~~Ptarmis control claims~~ | ~~FoundNotes~~ | ~~2025-09-12~~ | ~~*Fixed from raw source*~~ |
+
+---
+
+*Generated: 2026-03-16 21:30*  
+*Distilled: 2026-03-18*

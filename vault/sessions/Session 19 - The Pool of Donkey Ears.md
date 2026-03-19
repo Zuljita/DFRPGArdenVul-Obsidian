@@ -50,7 +50,7 @@ When they reached the [[locations/Long Stair.md|Long Stair]] up to the ruins of 
 
 They pushed the wheelbarrow all the way to the north end of the ruins, where Kronos's guards occupying the northern gate towers hailed them and engaged them in a brief conversation.  Nobody had any significant news to share, so they headed west to the Broken Head.  Kronos himself was outside supervising his staff, and Vallium sold him half of his wheelbarrow of provisions at cost.  Kronos was happy to make the deal and asked if anyone wanted to come into the inn for a drink, but Vael said that they didn't want to drink and delve but might come back later.
 
-The group doubled back east and south near the Pyramid of [[npcs/Thoth.md|Thoth]], and Vallium showed them the stairs leading down into a nearby ruin.  They left their wheelbarrow by the stairs, and Vallium took everyone north to the room with the altar that had a secret compartment that he had not figured out how to open.  Vallium showed them where the panel was, and how to trigger a poison needle trap.  He expected Vael to magic it open, but instead Vael just figured out the trick and hit the panel in the right spot.  Inside was a bag containing a bunch of small red gems and a small magical silver feather token.
+The group doubled back east and south near the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], and Vallium showed them the stairs leading down into a nearby ruin.  They left their wheelbarrow by the stairs, and Vallium took everyone north to the room with the altar that had a secret compartment that he had not figured out how to open.  Vallium showed them where the panel was, and how to trigger a poison needle trap.  He expected Vael to magic it open, but instead Vael just figured out the trick and hit the panel in the right spot.  Inside was a bag containing a bunch of small red gems and a small magical silver feather token.
 
 Vallium then took the group east to [[npcs/Lankios.md|Lankios]]'s room, but the hermit was not home.  Vallium left a bunch of food by the old man's pungent stew pot, and Vael wrote [[npcs/Lankios.md|Lankios]] a note.  Next Vallium took them west to the room with the zombie porter, warned everyone that there was a friendly zombie inside and not to kill it, and then opened the door.  The zombie once again slowly walked right up to Vallium, and Vallium demonstrated putting a backpack on the porter and then having the porter slowly follow him around wearing it.  They didn't really need the porter, though, so Vallium took his backpack back and closed the porter in the room again.
 
@@ -98,6 +98,6 @@ Total: 3 XP each.  Vael also got 1 extra HP for the statue fight.
 
 
 Next Week:
-Maybe they'll keep exploring this level and see if anyone else can get donkey ears.  Maybe they'll go back up to the baboon level and look for the Library of [[npcs/Thoth.md|Thoth]].  Maybe they'll go back down the privy.  I have no real idea at this point, and I suspect the players don't either.
+Maybe they'll keep exploring this level and see if anyone else can get donkey ears.  Maybe they'll go back up to the baboon level and look for the [[locations/Library of Thoth.md|Library of Thoth]].  Maybe they'll go back down the privy.  I have no real idea at this point, and I suspect the players don't either.
 
 2025-07-27

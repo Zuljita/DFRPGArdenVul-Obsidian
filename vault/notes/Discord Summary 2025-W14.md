@@ -3,7 +3,31 @@
 **Date Range:** 2025-04-07 to 2025-04-13
 **Messages:** 83
 
-## In-World Highlights
+## Distilled In-World Knowledge
+
+### Factions & Organizations
+- The Set priests are slavers; anyone encountered on the Long Stairs leading to their Forum is liable to be enslaved, but those who reach the Forum are safe. [#rumors | 2025-04-10]
+- Three merchant factors operate in Gosterwick: the Rarities Factor, the Prosperity Factor, and the Silent Factor. [#worldbuilding | 2025-04-12]
+
+### Locations & Geography
+- The Hall of Forty Pillars lies right next to the Obsidian Gates, filled with creepy albino toads that transform into demons and attack if the wrong person touches the Gates. [#rumors | 2025-04-10]
+- The cliff face ascent takes approximately 90 minutes on foot, varying with speed, encumbrance, and caution; a cave with a fire pit exists about halfway up, and another cave with spider webs lies over the next switchback. [#worldbuilding | 2025-04-09]
+- Magical travel times for the cliff ascent: Levitation takes ~10 minutes, Walk on Air ~1 hour, and Flight ~3 minutes (encumbrance affects all). [#worldbuilding | 2025-04-09]
+- The Arcane Practitioners Club possesses a standard alchemy lab available for use. [#worldbuilding | 2025-04-12; #arcane-practitioners-club | 2025-04-12]
+
+### Items & Equipment
+- Minor and major healing potions are now available for purchase in town without requiring availability rolls. [#questions-for-gm | 2025-04-12; #archive | 2025-04-12]
+- The group recovered enchanted shields from recent delves: one Large Shield (Fine, Balanced, Deflect 1, Lighten -25%) and one Medium Shield (Fine, Balanced, Deflect 1, Lighten -25%), neither yet claimed by party members. [#archive | 2025-04-12]
+
+### ✅ Truncated Entry Resolved
+- ~~**[SOURCE NEEDED]**~~ The Pyramid of Thoth in the ruined city leads directly to the topmost of the many underground levels; beneath it are at least a dozen other levels, culminating in a huge cavern and lake at the bottom. [#rumors | 2025-04-10]
+
+---
+
+## Raw Source Log
+
+<details>
+<summary>Original Discord Summary (click to expand)</summary>
 
 ### #ArcanePractitionersClub
 
@@ -28,7 +52,7 @@
 - **Grudge Brigade** (2025-04-09): How long does it look to be with Levitation, Walk on Air or Flight?
 - **GM** (2025-04-09): Levitation: about 10 minutes.  Walk on Air: about an hour.  Flight: about 3 minutes.  Encumbrance matters.
 - **started a thread: Going up the cliff face. See all threads.** (2025-04-09): Going up the cliff face 3 Messages › There are no recent messages in this thread. Demented Avenger (Ioannes)
-- **Grudge Brigade** (2025-04-10): Fast-Draw "Potion: Grenades carried in delver’s webbing or a potion belt." DFA114 implies it includes drinkable, utility and bundle as well.  I assume it also works on Nageteppos and Caltrops.  Correct? Are you treating the specialties list on DFA76 as exhaustive?  I'm especially thinking of rang...
+- **Grudge Brigade** (2025-04-10): Fast-Draw "Potion: Grenades carried in delver's webbing or a potion belt." DFA114 implies it includes drinkable, utility and bundle as well.  I assume it also works on Nageteppos and Caltrops.  Correct? Are you treating the specialties list on DFA76 as exhaustive?  I'm especially thinking of rang...
 - **GM** (2025-04-10): Fast-draw (two-handed sword) is unrealistic but RAW.  So I allow most things that are kinda stupid but less stupid than fast-drawing a greatsword.  Examples: 1H axe, 1H mace, small buckler, javelin.  However, I'm strict on specialties.  Every separate weapon skill needs its own fast-draw skill, e...
 - **Grudge Brigade** (2025-04-10): So... generally most items up to 5 lbs., plus Small Buckler (8 lbs.) and stuff allowed by RAW?
 - **GM** (2025-04-10): Small Buckler not all shields.  Most one-handed weapons, no more two-handed weapons.
@@ -36,9 +60,9 @@
 - **GM** (2025-04-11): Yes, assuming the skill is being used in a Per-based way.  (Example: If you're looking for a secret door with Traps, Alertness and Keen Vision help.  If you're trying to figure out how to open a secret door, they do not.)
 - **Grudge Brigade** (2025-04-11): Hand on shield arm can "hold" but not "wield" a weapon.  Can it be used to for weapons that require only one hand to attack but two to load/ready/etc.?  (Readying a Large Net, or loading a Blowpipe, Pistol Crossbow, Sling, or Spear Thrower)
 - **GM** (2025-04-11): No
-- **Ioannes** (2025-04-12): Am I able to add the new armor to Ioannes’s sheet now?
+- **Ioannes** (2025-04-12): Am I able to add the new armor to Ioannes's sheet now?
 - **GM** (2025-04-12): Yes, if you paid for it, it will be ready for next week.
-- **Ioannes** (2025-04-12): Cool. I’ll do that tonight, and, unless someone wants them, sell his old armor, shield, and axe.
+- **Ioannes** (2025-04-12): Cool. I'll do that tonight, and, unless someone wants them, sell his old armor, shield, and axe.
 - **Vallium Halcyon** (2025-04-12): What are you using for your new shield?
 - **Ioannes** (2025-04-12): I bought a fine medium shield in-game last night. The old one is an ordinary medium shield
 - **Vallium Halcyon** (2025-04-12): Over the past two session we retrieved: 1 Large Shield (Fine, Balanced, Deflect 1, Lighten -25%) & 1 Medium Shield (Fine, Balanced, Deflect 1, Lighten -25%)
@@ -46,7 +70,7 @@
 - **Vallium Halcyon** (2025-04-12): I don't think anybody has claimed the 1 Medium Shield (Fine, Balanced, Deflect 1, Lighten -25%).
 - **Ioannes** (2025-04-12): I assume one of the better fighters should grab it. Ioannes is the fourth-best fighter in the group
 - **Grudge Brigade** (2025-04-12): He can wait to sell his old armor when they have a wealthy merc, right?
-- **Ioannes** (2025-04-12): I’m not going to get much for it anyways
+- **Ioannes** (2025-04-12): I'm not going to get much for it anyways
 - **Ioannes** (2025-04-12): Are we able to buy healing potions without availability rolls now?
 - **GM** (2025-04-12): Yes, minor and major healing potions are now available.
 - **GM** (2025-04-12): Bot isn't up yet.  I'll do it in Foundry.  Success!
@@ -66,7 +90,7 @@
 - **GM** (2025-04-09): 1.5 hours.  This varies with speed, encumbrance, and caution.
 - **Grudge Brigade** (2025-04-09): How long does it look to be with Levitation, Walk on Air or Flight?
 - **GM** (2025-04-09): Levitation: about 10 minutes.  Walk on Air: about an hour.  Flight: about 3 minutes.  Encumbrance matters.
-- **Grudge Brigade** (2025-04-10): Fast-Draw "Potion: Grenades carried in delver’s webbing or a potion belt." DFA114 implies it includes drinkable, utility and bundle as well.  I assume it also works on Nageteppos and Caltrops.  Correct? Are you treating the specialties list on DFA76 as exhaustive?  I'm especially thinking of rang...
+- **Grudge Brigade** (2025-04-10): Fast-Draw "Potion: Grenades carried in delver's webbing or a potion belt." DFA114 implies it includes drinkable, utility and bundle as well.  I assume it also works on Nageteppos and Caltrops.  Correct? Are you treating the specialties list on DFA76 as exhaustive?  I'm especially thinking of rang...
 - **GM** (2025-04-10): Fast-draw (two-handed sword) is unrealistic but RAW.  So I allow most things that are kinda stupid but less stupid than fast-drawing a greatsword.  Examples: 1H axe, 1H mace, small buckler, javelin.  However, I'm strict on specialties.  Every separate weapon skill needs its own fast-draw skill, e...
 - **Grudge Brigade** (2025-04-10): So... generally most items up to 5 lbs., plus Small Buckler (8 lbs.) and stuff allowed by RAW?
 - **GM** (2025-04-10): Small Buckler not all shields.  Most one-handed weapons, no more two-handed weapons.
@@ -74,9 +98,9 @@
 - **GM** (2025-04-11): Yes, assuming the skill is being used in a Per-based way.  (Example: If you're looking for a secret door with Traps, Alertness and Keen Vision help.  If you're trying to figure out how to open a secret door, they do not.)
 - **Grudge Brigade** (2025-04-11): Hand on shield arm can "hold" but not "wield" a weapon.  Can it be used to for weapons that require only one hand to attack but two to load/ready/etc.?  (Readying a Large Net, or loading a Blowpipe, Pistol Crossbow, Sling, or Spear Thrower)
 - **GM** (2025-04-11): No
-- **Ioannes** (2025-04-12): Am I able to add the new armor to Ioannes’s sheet now?
+- **Ioannes** (2025-04-12): Am I able to add the new armor to Ioannes's sheet now?
 - **GM** (2025-04-12): Yes, if you paid for it, it will be ready for next week.
-- **Ioannes** (2025-04-12): Cool. I’ll do that tonight, and, unless someone wants them, sell his old armor, shield, and axe.
+- **Ioannes** (2025-04-12): Cool. I'll do that tonight, and, unless someone wants them, sell his old armor, shield, and axe.
 - **Vallium Halcyon** (2025-04-12): What are you using for your new shield?
 - **Ioannes** (2025-04-12): I bought a fine medium shield in-game last night. The old one is an ordinary medium shield
 - **Vallium Halcyon** (2025-04-12): Over the past two session we retrieved: 1 Large Shield (Fine, Balanced, Deflect 1, Lighten -25%) & 1 Medium Shield (Fine, Balanced, Deflect 1, Lighten -25%)
@@ -84,7 +108,7 @@
 - **Vallium Halcyon** (2025-04-12): I don't think anybody has claimed the 1 Medium Shield (Fine, Balanced, Deflect 1, Lighten -25%).
 - **Ioannes** (2025-04-12): I assume one of the better fighters should grab it. Ioannes is the fourth-best fighter in the group
 - **Grudge Brigade** (2025-04-12): He can wait to sell his old armor when they have a wealthy merc, right?
-- **Ioannes** (2025-04-12): I’m not going to get much for it anyways
+- **Ioannes** (2025-04-12): I'm not going to get much for it anyways
 - **Ioannes** (2025-04-12): Are we able to buy healing potions without availability rolls now?
 - **GM** (2025-04-12): Yes, minor and major healing potions are now available.
 - **Grudge Brigade** (2025-04-13): Would you mind moving the total cp earned and current point totals to lines ~3-4 instead of the bottom, so we don't have to scroll down to find them?
@@ -106,5 +130,8 @@
 - **started a thread: Merchant Factors. See all threads.** (2025-04-12): Merchant Factors 8 Messages › There are no recent messages in this thread. Demented Avenger (Ioannes)
 - **Ioannes** (2025-04-12): Can someone post the summaries of each one?
 
+</details>
+
 ---
 *Generated: 2026-03-16 15:38*
+*Distilled: 2026-03-18*

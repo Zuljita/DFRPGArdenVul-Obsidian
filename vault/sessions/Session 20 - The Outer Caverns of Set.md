@@ -107,9 +107,9 @@ Surface Ruins of [[locations/Arden Vul.md|Arden Vul]]
 Basement (they think they have probably fully explored this)
 Well of Light
 [[locations/Howling Caves.md|Howling Caves]]
-Halls of [[npcs/Thoth.md|Thoth]]
+[[locations/Halls of Thoth.md|Halls of Thoth]]
 [[locations/Great Cavern.md|Great Cavern]]
-Caves presumably leading to the Forum of [[npcs/Set.md|Set]]
+Caves presumably leading to the [[locations/Forum of Set.md|Forum of Set]]
 [[npcs/Gog.md|Gog]]'s Cave
 Bottom of Privy Shaft
 Caves behind the waterfall

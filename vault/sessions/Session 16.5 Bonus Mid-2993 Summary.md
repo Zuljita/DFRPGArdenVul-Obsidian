@@ -19,11 +19,11 @@ Number of PCs killed: 0 (!)
 Highest PC point total: 179 (Ioannes)
 
 Entrances to the Halls of [[locations/Arden Vul.md|Arden Vul]] found and used: 7
-Pyramid of [[npcs/Thoth.md|Thoth]], statue arms forward, stairs to Glory of [[npcs/Thoth.md|Thoth]]
+[[locations/Pyramid of Thoth.md|Pyramid of Thoth]], statue arms forward, stairs to [[locations/Glory of Thoth.md|Glory of Thoth]]
 [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halflings may no longer allow entry
 Well of Light
 Over 200' down, requires magical flight or a lot of rope
-Pyramid of [[npcs/Thoth.md|Thoth]], statue arms up, stairs to pit to Scorpion teleporter
+[[locations/Pyramid of Thoth.md|Pyramid of Thoth]], statue arms up, stairs to pit to Scorpion teleporter
 Teleported to [[locations/Great Hall.md|Great Hall]]
 Teleported to [[npcs/Gog.md|Gog]]'s Cave
 Teleported to [[items/Ruby Chair.md|Ruby Chair]]
@@ -33,13 +33,13 @@ Tunnel plugged using Shape Earth, may no longer be usable
 Underwater tunnels behind waterfall plunge pool
 Found using Water Vision spell
 May require super-human swimming or water breathing to survive
-Ruined basement to hidden staircase northwest of Glory of [[npcs/Thoth.md|Thoth]]
+Ruined basement to hidden staircase northwest of [[locations/Glory of Thoth.md|Glory of Thoth]]
 Found by [[npcs/Dalton.md|Dalton]]'s Darlings, secret shared by [[npcs/Jost.md|Jost]]
 Entrances to Halls of [[locations/Arden Vul.md|Arden Vul]] rumored but not yet explored: 1
 Basket up the [[locations/Cliff Face.md|Cliff Face]] west of the [[locations/Swift River.md|Swift River]] to the [[locations/Forum of Set.md|Forum of Set]]
 [[locations/Arden Vul.md|Arden Vul]] Iconic Locations found: 8
-The Pyramid of [[npcs/Thoth.md|Thoth]]
-The Glory of [[npcs/Thoth.md|Thoth]]
+The [[locations/Pyramid of Thoth.md|Pyramid of Thoth]]
+The [[locations/Glory of Thoth.md|Glory of Thoth]]
 The Well of Light
 The [[locations/Great Hall.md|Great Hall]]
 The [[locations/Great Cavern.md|Great Cavern]]

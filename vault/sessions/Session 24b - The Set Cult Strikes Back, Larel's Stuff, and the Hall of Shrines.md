@@ -62,7 +62,7 @@ The Smoke slows further reinforcements, but there are enough to surround Michael
 
 While surrounded by several [[factions/Cult of Set.md|Cult of Set]], Michael fell down, and appeared doomed.  He managed to regain his feet, but was reeling from his wounds, so his Move and Dodge were reduced.  He was a bit far for Uvash or Ioannes to heal him.  As he tried running up the stairs toward his comrades, one of the Settite guards appeared to hit him cleanly in the back for serious damage -- but Michael's Bless spell averted the attack.  Vael dropped a Grease on the stairs, while caused many of the [[factions/Cult of Set.md|Cult of Set]] to fall and others to move more slowly, while Michael's Ring of Free Action let him keep going.  Eventually Michael got close enough to Uvash and Ioannes that they were able to drop a Stop Bleeding and a Major Healing on him, healing him enough to get his full Move back.  At that point Michael was as fast as the [[factions/Cult of Set.md|Cult of Set]], and the other PCs were faster, so they were able to escape up the stairs, with a swarm of [[factions/Cult of Set.md|Cult of Set]] in tow.
 
-The Right for Riches Company made it to the top of the [[locations/Sighing Stair.md|Sighing Stair]], ran east through the Temple of [[npcs/Set.md|Set]], then south and east past the barricade, then north into the desecrated Temple of [[npcs/Thoth.md|Thoth]], then down the skinny secret passage to the east.  The faster PCs ran at full speed to buy themselves a few seconds.  Ioannes and Uvash both cast Lend Energy on Vael, who was ready to cast Magelock on the door as soon as Michael came through it.
+The Right for Riches Company made it to the top of the [[locations/Sighing Stair.md|Sighing Stair]], ran east through the [[locations/Temple of Set.md|Temple of Set]], then south and east past the barricade, then north into the desecrated [[locations/Temple of Thoth.md|Temple of Thoth]], then down the skinny secret passage to the east.  The faster PCs ran at full speed to buy themselves a few seconds.  Ioannes and Uvash both cast Lend Energy on Vael, who was ready to cast Magelock on the door as soon as Michael came through it.
 
 Unfortunately, right as the lead PCs came out the secret door, Roskelly and several of his halfling toll collector thugs were standing right in that area, looking at the statue.  They immediately started talking about tolls and dungeoneering licenses and asking where the PCs came from, since they hadn't come down the stairs from the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].  Vael pulled out his Dungeoneering License pin and flashed it at Roskelly and said they were a little busy with pursuing [[factions/Cult of Set.md|Cult of Set]] right now.  That caused the halflings to take a few steps back toward their territory.  Michael came running through the door, Vallium slammed it closed, and Vael cast Magelock on it.  As they heard the [[factions/Cult of Set.md|Cult of Set]] start trying to break the door down, the PCs discussed whether to go north toward the stairs up to the basement, or south to the pyramid teleporter to the [[locations/Well of Light.md|Well of Light]].  They went toward the basement, and the halflings let them go.
 
@@ -91,7 +91,7 @@ I thought it would be hilarious if the PCs took all of Larel's decoy items and m
 I think the players were more excited to find a new stairway up than they were to find unguarded magic items.
 
 Achievements:
-1 XP for reaching the Forum of [[npcs/Set.md|Set]], an [[locations/Arden Vul.md|Arden Vul]] Iconic Location
+1 XP for reaching the [[locations/Forum of Set.md|Forum of Set]], an [[locations/Arden Vul.md|Arden Vul]] Iconic Location
 
 XP:
 1 XP for exploration, for finding 10 new locations
@@ -101,4 +101,4 @@ XP:
 
 Next Week:
 
-They have a lot of options.  They can go after the [[factions/Cult of Set.md|Cult of Set]] again, or deal with the halflings, or try to revisit the goblins, or explore more of the Halls of [[npcs/Thoth.md|Thoth]] east of the chasm, or go back to the Hall of [[locations/Shrines.md|Shrines]].  Or a half-dozen other places.  [[locations/Arden Vul.md|Arden Vul]] is big.
+They have a lot of options.  They can go after the [[factions/Cult of Set.md|Cult of Set]] again, or deal with the halflings, or try to revisit the goblins, or explore more of the [[locations/Halls of Thoth.md|Halls of Thoth]] east of the chasm, or go back to the Hall of [[locations/Shrines.md|Shrines]].  Or a half-dozen other places.  [[locations/Arden Vul.md|Arden Vul]] is big.

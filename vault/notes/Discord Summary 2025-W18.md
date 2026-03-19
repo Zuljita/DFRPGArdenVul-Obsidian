@@ -1,18 +1,17 @@
-# Discord Summary: 2025-W18
+# Discord Summary: 2025-W18 (Distilled)
 
 **Date Range:** 2025-05-05 to 2025-05-11
 **Messages:** 3
 
-## In-World Highlights
+## In-World Knowledge Extracted
 
-### #archive
+_No distillable in-world entries._
 
-- **GM** (2025-05-11): Potion: success Research: You didn't find anything interesting
-- **GM** (2025-05-11): Potion: success Research: You didn't find anything interesting
-
-### #town-rolls
-
-- **GM** (2025-05-11): Potion: success Research: You didn't find anything interesting
+### Notes
+- All 3 messages were identical research roll results: "Potion: success Research: You didn't find anything interesting"
+- Entries represent failed research attempts with no in-world findings, discoveries, or NPC interactions
+- No truncation detected (no ellipsis)
 
 ---
-*Generated: 2026-03-16 15:41*
+*Distilled: 2026-03-18*
+*Source: Discord Summary 2025-W18.md*

@@ -1,74 +1,87 @@
-# Discord Summary: 2025-W37
+# Discord Summary: 2025-W37 (Distilled)
 
 **Date Range:** 2025-09-15 to 2025-09-21
-**Messages:** 50
-
-## In-World Highlights
-
-### #August_SeptemberTownRolls
-
-- **GM** (2025-09-15): You find that Lost and Found had some unbelievable exploits that were probably made up.  This Balthazar guy seemed to have been big on self-promotion.  The Rarities Factor appears to be a banking factor in Gosterwick and Newmarket, but the story that Wicktrimmer is the owner seems doubtful.  Ther...
-- **GM** (2025-09-16): Vallium added too much nightshade and the attempted magebane really stunk up the alchemy lab and he needed Vael to cast Purify Air.  +10% to cost.
-- **GM** (2025-09-16): Vallium hears "There’s access to a Sunless Sea somewhere underneath the Halls. An ogre boatman will sell passage across it." Ioannes successfully made some paut.
-
-### #BarnabyGoodbarrel
-
-- **GM** (2025-09-15): There is one available, Barnaby Goodbarrel, a halfling.  He charges $100 for an initial consultation, then once you tell him what you need he will tell you more.
-- **GM** (2025-09-15): Goodbarrel tells you that a company charter for Gosterwick is routine but requires approval from Eusebia Phokas, the Thesmothete of Vetucaster.  That would cost $500 and would probably take a few weeks for approval.  That's just for Gosterwick.  If you wanted to do business over a larger geograph...
-- **GM** (2025-09-15): He agrees to make it his top priority and get the matter in front of the Thesmothete quickly, but says he can't control whether it gets approved or how long that takes.  His experience is that most reasonable businesses get approved though.
-- **GM** (2025-09-15): He says he'll have the draft ready when your company is approved; he cautioned that you cannot sign a binding contract as a company until then.
-- **GM** (2025-09-16): Wicktrimmer recommends Barnaby Goodbarrel, the second best lawyer in Gosterwick.  "I already have the best one so you probably shouldn't use her." He says "Lady Alexia is strongly in favor of people forming companies here so I don't think you'll have any trouble." Your application for incorporati...
-- **GM** (2025-09-16): Wicktrimmer recommends Barnaby Goodbarrel, the second best lawyer in Gosterwick.  "I already have the best one so you probably shouldn't use her." He says "Lady Alexia is strongly in favor of people forming companies here so I don't think you'll have any trouble." Your application for incorporati...
-- **GM** (2025-09-16): It looks fine to him except he wants to add a couple of clauses in Mithric.  He says that per the bylaws of your company you need 3 out of 5 members to vote in favor. He says "I don't know the exact details of this artifact and I probably don't need to know, but as long as you own it, it's fine t...
-- **GM** (2025-09-16): It looks fine to him except he wants to add a couple of clauses in Mithric.  He says that per the bylaws of your company you need 3 out of 5 members to vote in favor. He says "I don't know the exact details of this artifact and I probably don't need to know, but as long as you own it, it's fine t...
-- **GM** (2025-09-16): Exact rules vary from place to place but he's supposed to operate in the interest of his client.
-- **GM** (2025-09-16): Exact rules vary from place to place but he's supposed to operate in the interest of his client.
-- **GM** (2025-09-16): He pulls out a standard retainer form that includes a confidentially clause.  It has a starting fee of $500.  He says your first $500 of legal work comes out of that and as long as there's anything left in the retainer he's on-call to do any work you need in Gosterwick and you have priority over ...
-- **GM** (2025-09-16): He pulls out a standard retainer form that includes a confidentially clause.  It has a starting fee of $500.  He says your first $500 of legal work comes out of that and as long as there's anything left in the retainer he's on-call to do any work you need in Gosterwick and you have priority over ...
-- **GM** (2025-09-16): He says "whoa, I always assumed Larel was fictitious.  Well I can see why Wicktrimmer would pay so much for it."
-- **GM** (2025-09-16): He says "whoa, I always assumed Larel was fictitious.  Well I can see why Wicktrimmer would pay so much for it."
-- **GM** (2025-09-16): "He has a reputation for keeping his word.  He also has a reputation for knowing everything that's happening in town, and I have no idea how.  I know he hires wizards though." "He's competing against Imperial Factors with hundreds of years of reputation, so if he messes up once, he's done.  So I ...
-- **GM** (2025-09-16): "He has a reputation for keeping his word.  He also has a reputation for knowing everything that's happening in town, and I have no idea how.  I know he hires wizards though." "He's competing against Imperial Factors with hundreds of years of reputation, so if he messes up once, he's done.  So I ...
-
-### #Wicktrimmer
-
-- **GM** (2025-09-15): You find that Lost and Found had some unbelievable exploits that were probably made up.  This Balthazar guy seemed to have been big on self-promotion.  The Rarities Factor appears to be a banking factor in Gosterwick and Newmarket, but the story that Wicktrimmer is the owner seems doubtful.  Ther...
-- **GM** (2025-09-16): You surrender Larel's Pin to Wicktrimmer.  He asks for any other Larel stuff you're willing to part with. He also asks if you're willing to write something to explain the circumstances where you found Larel's Pin, to help with provenance.  "You don't have to put any secrets in there, just whateve...
-- **GM** (2025-09-16): He's happy to buy the love notes, non-magical cloaks, and the non-magical knife collection.
-- **GM** (2025-09-16): He says "I don't know who killed your friend Susarra.  My usual sources didn't find anything unusual until after I heard she was dead.  So I suspect whoever did it was from out of town and not carrying any really impressive magic." "So either the Settites sent one of their own to do it, or they h...
-- **GM** (2025-09-16): "Yeah, I can see why that would piss them off."
-- **GM** (2025-09-16): "If it does, Keko the Lame might pin a medal on you."
-- **GM** (2025-09-16): No
-- **GM** (2025-09-16): "Yes, he's the head of the Drome in Narsileon.  Do not mess with him." "I imagine eradicating the Set cult in Arden Vul falls under his jurisdiction."
-- **GM** (2025-09-16): He grimaces.  "So, the politics between Lady Alexia and her idi^W half-brother mean the Imperial chain of command gets a bit confused sometimes.  I don't know if the Drome in Gosterwick actually talks to the Drome in Narsileon much.  So I'd keep it quiet."
-- **GM** (2025-09-16): "Look out for assassins.  I'm surprised they sent anyone to Gosterwick; the last thing they should want to do is piss off The Green Lady and the Azure Knights.  But if you're in their turf, and they know who you are, they'll come after you." "Don't sleep in Arden Vul.  Don't split up.  If you mus...
-- **GM** (2025-09-16): "I haven't been in the Ruins in a few years. Other than the Obsidian Gates, and the green dragon's hoard, I don't know where the good stuff is." "We never got past the Obsidian Gates and never thought it was worth messing with the dragon."
-- **GM** (2025-09-16): "And then we found a big enough pile of solidi and magic items that my friend's girlfriend decided they should get married and he should stop risking his life, end of party." "Balthazaar now raises kids and makes potions in Narsileon.  Boring."
-- **GM** (2025-09-16): "Never.  I make it down there once in a while." "It's a long trip so I mostly let Narsileon branch manage itself, but they need to know that the boss might drop in."
-- **GM** (2025-09-16): "That's where he is, yes." "Not that there is any shortage of good mages in Narsileon, but he's the one I trust implicitly."
-- **GM** (2025-09-16): "And he's the one who will crap himself when I present proof that Larel was real." "Find me a reliable teleporter with a 400 mile range and you can visit him whenever you want!"
-- **GM** (2025-09-16): He seems to really like the Larel stuff. You think maybe you're talking to the magic item collector not the banker. Wicktrimmer has his guards escort you out, and says "send over the list of what you're looking for and your max prices when convenient.  Here's a receipt showing $20k in your Right ...
-- **GM** (2025-09-16): They are open for bank business (deposits, withdrawals, changing money, putting valuables in a vault) during normal bankers' hours.
-- **GM** (2025-09-16): You can keep whatever you want there, as long as it's not huge. You should track somewhere what's on your PCs, what's in your rooms, what's at the Rarities Factor, and what's in the dam.  (I think that's all the places.)
-- **GM** (2025-09-16): It's fine to say something like "I keep $500 of my money on me and the rest in the vault" rather than constantly tracking all the categories. Oh I think some of you might have accounts at one of the other factors, but Rarities is free now, if you prefer. OTOH if you'd rather pay to split up where...
-- **GM** (2025-09-16): With Larel's Pin sold for $20k I assume everyone gets 2 XP for loot this week, so I updated the XP sheet. dripton (GM)
-- **Vael, Zuljita** (2025-09-16): I'd like to edit into that the other bit I incorporated from AS/Grudge Brigade but with it pinned I want your approval
-- **GM** (2025-09-16): Post what you think it says
-
-### #archive
-
-- **GM** (2025-09-15): You find that Lost and Found had some unbelievable exploits that were probably made up.  This Balthazar guy seemed to have been big on self-promotion.  The Rarities Factor appears to be a banking factor in Gosterwick and Newmarket, but the story that Wicktrimmer is the owner seems doubtful.  Ther...
-- **GM** (2025-09-15): You find that Lost and Found had some unbelievable exploits that were probably made up.  This Balthazar guy seemed to have been big on self-promotion.  The Rarities Factor appears to be a banking factor in Gosterwick and Newmarket, but the story that Wicktrimmer is the owner seems doubtful.  Ther...
-- **GM** (2025-09-16): Vallium added too much nightshade and the attempted magebane really stunk up the alchemy lab and he needed Vael to cast Purify Air.  +10% to cost.
-- **GM** (2025-09-16): Vallium added too much nightshade and the attempted magebane really stunk up the alchemy lab and he needed Vael to cast Purify Air.  +10% to cost.
-- **GM** (2025-09-16): Vallium hears "There’s access to a Sunless Sea somewhere underneath the Halls. An ogre boatman will sell passage across it." Ioannes successfully made some paut.
-- **GM** (2025-09-16): Vallium hears "There’s access to a Sunless Sea somewhere underneath the Halls. An ogre boatman will sell passage across it." Ioannes successfully made some paut.
-
-### #town-rolls
-
-- **GM** (2025-09-15): You find that Lost and Found had some unbelievable exploits that were probably made up.  This Balthazar guy seemed to have been big on self-promotion.  The Rarities Factor appears to be a banking factor in Gosterwick and Newmarket, but the story that Wicktrimmer is the owner seems doubtful.  Ther...
-- **GM** (2025-09-16): Vallium added too much nightshade and the attempted magebane really stunk up the alchemy lab and he needed Vael to cast Purify Air.  +10% to cost.
-- **GM** (2025-09-16): Vallium hears "There’s access to a Sunless Sea somewhere underneath the Halls. An ogre boatman will sell passage across it." Ioannes successfully made some paut.
+**Source Messages:** 50
 
 ---
-*Generated: 2026-03-16 21:30*
+
+## In-World Knowledge Extracted
+
+### People & NPCs
+
+- **Barnaby Goodbarrel**, a halfling lawyer in Gosterwick, charges $100 for initial consultation. He can obtain company charters for Gosterwick with approval from **Eusebia Phokas**, the Thesmothete of Vetucaster, costing $500 and taking a few weeks. That's just for Gosterwick. If you wanted to do business over a larger geographic area it would get more complicated. [BarnabyGoodbarrel | 2025-09-15]
+
+- **Balthazar** of the adventuring company **Lost and Found** was known for self-promotion and possibly fictional exploits; he now raises children and makes potions in **Narsileon**, having retired after his companion found enough wealth to settle down. Lost and Found had some unbelievable exploits that were probably made up. [August_SeptemberTownRolls | 2025-09-15; Wicktrimmer | 2025-09-16]
+
+- **Keko the Lame** is the head of the **Drome** (Imperial investigative/justice organization) in **Narsileon**; he might reward those who eradicate Settite cult activity. [Wicktrimmer | 2025-09-16]
+
+- **Wicktrimmer** claims to have the best lawyer in Gosterwick (unnamed), considers Barnaby Goodbarrel the second best, and states **Lady Alexia** is strongly in favor of new companies forming in Gosterwick. [BarnabyGoodbarrel | 2025-09-16]
+
+- Wicktrimmer has a reputation for keeping his word, knowing everything happening in town (possibly through hired wizards), and competes with Imperial Factors with hundreds of years of reputation, so if he messes up once, he's done. So he has plenty of motivation to do the right thing. [BarnabyGoodbarrel | 2025-09-16]
+
+### Factions & Organizations
+
+- The **Rarities Factor** operates as a banking factor in **Gosterwick** and **Newmarket**; ownership claims are doubted. There's probably a rich noble behind the scenes, but you don't find who. [August_SeptemberTownRolls | 2025-09-15]
+
+- The **Imperial chain of command** is sometimes confused due to political tensions between **Lady Alexia** and her half-brother; the Drome in Gosterwick may not communicate frequently with the Drome in Narsileon. [Wicktrimmer | 2025-09-16]
+
+- The **Settites** (worshippers of Set) maintain a cult presence in **Arden Vul**; eradicating them falls under Keko the Lame's jurisdiction. They are believed responsible for **Susarra's murder**, likely using an out-of-town assassin without impressive magic to avoid detection. [Wicktrimmer | 2025-09-16]
+
+### Places & Geography
+
+- Access to the **Sunless Sea** exists somewhere underneath the **Halls**; an **ogre boatman** sells passage across it. [August_SeptemberTownRolls | 2025-09-16]
+
+- The **Obsidian Gates** and a **green dragon's hoard** are known locations in the Ruins that **Lost and Found** never bypassed. [Wicktrimmer | 2025-09-16]
+
+- **Narsileon** is approximately 400 miles from Gosterwick; Wicktrimmer rarely visits but maintains a branch operation there. [Wicktrimmer | 2025-09-16]
+
+### Items & Artifacts
+
+- **Larel's Pin** was sold to Wicktrimmer for **$20,000**; he also purchased love notes, non-magical cloaks, and a non-magical knife collection from the party. Wicktrimmer requested a written statement about the discovery circumstances for provenance. He asked if the party is willing to write something explaining the circumstances where they found Larel's Pin, to help with provenance. "You don't have to put any secrets in there, just whatever you feel is relevant but won't hurt your interests." [Wicktrimmer | 2025-09-16]
+
+- Barnaby Goodbarrel assumed **Larel** was fictitious until presented with proof; he expressed understanding of why Wicktrimmer would pay so much for Larel-related artifacts. [BarnabyGoodbarrel | 2025-09-16]
+
+### Company Business
+
+- Company formation requires a **3 out of 5 member vote** per the party's bylaws. Goodbarrel wants to add clauses in **Mithric** to any contracts and cautioned that binding contracts cannot be signed until company approval is granted. It looks fine to him except he wants to add a couple of clauses in Mithric. He says that per the bylaws of your company you need 3 out of 5 members to vote in favor. [BarnabyGoodbarrel | 2025-09-16]
+
+- Goodbarrel offers a **standard retainer** with a confidentiality clause starting at **$500**; this covers the first $500 of legal work and as long as there's anything left in the retainer he's on-call to do any work you need in Gosterwick and you have priority over any other client who tries to retain him later. The $750 already paid covered the work already done, so this retainer is only for future work. [BarnabyGoodbarrel | 2025-09-16]
+
+- **Business over a larger geographic area** than Gosterwick requires additional approvals. If you wanted to do business over a larger geographic area it would get more complicated. [BarnabyGoodbarrel | 2025-09-15]
+
+- Goodbarrel says "I don't know the exact details of this artifact and I probably don't need to know, but as long as you own it, it's fine to sell it to the Rarities Factor. But this is a lot of money so make sure to get the signatures." [BarnabyGoodbarrel | 2025-09-16]
+
+- Your application for incorporation is approved late on Tahsday. [BarnabyGoodbarrel | 2025-09-16]
+
+### Services & Banking
+
+- The **Rarities Factor** vault is accessible during normal banking hours for deposits, withdrawals, currency exchange, and storage of valuables (provided they are not huge). Accounts at Rarities are currently free for the party. You can keep whatever you want there, as long as it's not huge. [Wicktrimmer | 2025-09-16]
+
+### Warnings & Advice
+
+- Wicktrimmer advised: don't sleep in Arden Vul, don't split up the party, and if entering Settite territory where they know your identity, they will come after you. He was surprised assassins were sent to Gosterwick given the risk of angering **The Green Lady** and the **Azure Knights**. [Wicktrimmer | 2025-09-16]
+
+### Alchemical & Crafting
+
+- **Vallium** attempted to create **magebane** but added too much nightshade, causing a foul odor in the alchemy lab that required **Vael** to cast **Purify Air**; this increased costs by 10%. [August_SeptemberTownRolls | 2025-09-16]
+
+- **Ioannes** successfully brewed **paut** (a magical energy substance). [August_SeptemberTownRolls | 2025-09-16]
+
+---
+
+## ✅ Truncated Entries Resolved
+
+| Entry | Source | Date | Status |
+|-------|--------|------|--------|
+| ~~Research on Lost and Found / Balthazar / Rarities Factor~~ | ~~Multiple~~ | ~~2025-09-15~~ | ~~*Fixed from raw source*~~ |
+| ~~Company charter geographic expansion~~ | ~~BarnabyGoodbarrel~~ | ~~2025-09-15~~ | ~~*Fixed from raw source*~~ |
+| ~~Legal retainer priority terms~~ | ~~BarnabyGoodbarrel~~ | ~~2025-09-16~~ | ~~*Fixed from raw source*~~ |
+| ~~Wicktrimmer's reputation details~~ | ~~BarnabyGoodbarrel~~ | ~~2025-09-16~~ | ~~*Fixed from raw source*~~ |
+| ~~Larel's Pin surrender terms~~ | ~~Wicktrimmer~~ | ~~2025-09-16~~ | ~~*Fixed from raw source*~~ |
+| ~~Application for incorporation status~~ | ~~BarnabyGoodbarrel~~ | ~~2025-09-16~~ | ~~*Fixed from raw source*~~ |
+| ~~Contract clauses detail~~ | ~~BarnabyGoodbarrel~~ | ~~2025-09-16~~ | ~~*Fixed from raw source*~~ |
+
+---
+
+*Distilled: 2026-03-18*
+*Original generated: 2026-03-16*

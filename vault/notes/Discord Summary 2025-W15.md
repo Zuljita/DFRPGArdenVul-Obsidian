@@ -3,7 +3,23 @@
 **Date Range:** 2025-04-14 to 2025-04-20
 **Messages:** 31
 
-## In-World Highlights
+---
+
+## Distilled In-World Knowledge
+
+- Vallium Halcyon shared a rumor that the great Thothian wizard Ptarmis built a secret tomb amid a huge forest of colossal mushrooms. The fungus cavern exists on the second level from the surface, but adventurers were driven back by sheep-headed creatures wielding swords and spears before locating the tomb. [#rumors | 2025-04-18]
+
+- A record was found regarding the guard tower's creation: it is approximately 250 years old, built by Archon Adrienic who was sent by Emperor Phocion IV to retake Archon Vul. The expedition was massacred and the tower abandoned after survivors fled. Some locals claim the tower is haunted, but the author says that's just folklore. [#archive | 2025-04-20; #town-rolls | 2025-04-20]
+
+---
+
+## ✅ Truncation Resolved
+
+~~The guard tower record entry was truncated (ends with "autho...") - *Fixed from source data*~~
+
+---
+
+## Original Summary (Preserved)
 
 ### #Rumors
 
@@ -49,4 +65,4 @@
 - **GM** (2025-04-20): You find a record of that guard tower's creation.  It's about 250 years old, and was built by Archon Adrienic, sent by Emperor Phocion IV to retake Archon Vul.  This expedition was massacred.  The tower was abandoned after the survivors fled.  Some locals claim the tower is haunted, but the autho...
 
 ---
-*Generated: 2026-03-16 15:38*
+*Generated: 2026-03-16 15:38 | Distilled: 2026-03-18*

@@ -1,30 +1,14 @@
-# Discord Summary: 2025-W32
+# Discord Summary: 2025-W32 (Distilled)
 
 **Date Range:** 2025-08-11 to 2025-08-17
 **Messages:** 12
 
-## In-World Highlights
+## In-World Knowledge Extracted
 
-### #August_SeptemberTownRolls
+- The Book of Priors contains a reference to ancient obelisks that the Thothians discovered while building their temples under Arden Vul. The obelisks appear to be related to the demon-worshipping hoppers, and the Thothians built around them rather than destroying them for some reason. [August_SeptemberTownRolls | 2025-08-12; archive | 2025-08-12; town-rolls | 2025-08-12]
 
-- **GM** (2025-08-12): You find a reference in the Book of Priors to some ancient obelisks that the Thothians discovered while building their temples under Arden Vul.  The obelisks appeared to be related to the demon-worshipping hoppers.  It appears they were built around rather than destroyed, for some reason.
-- **GM** (2025-08-12): You do not sense a path.
-- **GM** (2025-08-13): Alchemy: fail, pay extra Carousing: Watch out for lingering magical effects! They're all over the place. For example, the Thoth priests loved teleportation. Watch out for doors marked with an ibis, since they'll teleport you to a new location.
-
-### #archive
-
-- **GM** (2025-08-12): You find a reference in the Book of Priors to some ancient obelisks that the Thothians discovered while building their temples under Arden Vul.  The obelisks appeared to be related to the demon-worshipping hoppers.  It appears they were built around rather than destroyed, for some reason.
-- **GM** (2025-08-12): You find a reference in the Book of Priors to some ancient obelisks that the Thothians discovered while building their temples under Arden Vul.  The obelisks appeared to be related to the demon-worshipping hoppers.  It appears they were built around rather than destroyed, for some reason.
-- **GM** (2025-08-12): You do not sense a path.
-- **GM** (2025-08-12): You do not sense a path.
-- **GM** (2025-08-13): Alchemy: fail, pay extra Carousing: Watch out for lingering magical effects! They're all over the place. For example, the Thoth priests loved teleportation. Watch out for doors marked with an ibis, since they'll teleport you to a new location.
-- **GM** (2025-08-13): Alchemy: fail, pay extra Carousing: Watch out for lingering magical effects! They're all over the place. For example, the Thoth priests loved teleportation. Watch out for doors marked with an ibis, since they'll teleport you to a new location.
-
-### #town-rolls
-
-- **GM** (2025-08-12): You find a reference in the Book of Priors to some ancient obelisks that the Thothians discovered while building their temples under Arden Vul.  The obelisks appeared to be related to the demon-worshipping hoppers.  It appears they were built around rather than destroyed, for some reason.
-- **GM** (2025-08-12): You do not sense a path.
-- **GM** (2025-08-13): Alchemy: fail, pay extra Carousing: Watch out for lingering magical effects! They're all over the place. For example, the Thoth priests loved teleportation. Watch out for doors marked with an ibis, since they'll teleport you to a new location.
+- The Thoth priests made extensive use of teleportation magic throughout their temples. Doors marked with an ibis symbol serve as teleportation portals to other locations. [August_SeptemberTownRolls | 2025-08-13; archive | 2025-08-13; town-rolls | 2025-08-13]
 
 ---
-*Generated: 2026-03-16 21:00*
+*Distilled: 2026-03-18*
+*Original generated: 2026-03-16 21:00*

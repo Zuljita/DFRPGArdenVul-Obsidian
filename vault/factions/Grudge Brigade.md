@@ -16,12 +16,12 @@ The [[Grudge Brigade]] is a mercenary company operating out of [[Gosterwick]], o
 
 ## Members
 
-- [[npcs/Coinbase.md|Coinbase]] (leader)
-- [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya "Basilisk" Hushbreaker]]
-- [[npcs/Thronebreaker.md|Thronebreaker]]
-- [[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]
-- [[npcs/Ashe Maykum.md|Ashe "GOAT" Maykum]]
-- [[npcs/Lacrymosa Merenuithiel Armaris.md|Lacrymosa Merenuithiel Armaris]]
+- [[pcs/grudge-brigade/Coinbase.md|Coinbase]] (leader)
+- [[pcs/grudge-brigade/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya "Basilisk" Hushbreaker]]
+- [[pcs/grudge-brigade/Thronebreaker.md|Thronebreaker]]
+- [[pcs/grudge-brigade/Chrysalis.md|Chrysalis (Thorne Lasselanta Ashcroft)]]
+- [[pcs/grudge-brigade/Ashe Maykum.md|Ashe "GOAT" Maykum]]
+- [[pcs/grudge-brigade/Lacrymosa.md|Lacrymosa]]
 
 ## History
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]: [[Lacrymosa Merenuithiel Armaris]], a mercenary from the [[factions/Grudge Brigade.md|Grudge Brigade]], killed [[npcs/Roskelly Winterleaf|Roskelly Winterleaf]] during an engagement in the [[Glory of Thoth]].

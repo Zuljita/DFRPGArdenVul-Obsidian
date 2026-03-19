@@ -85,4 +85,4 @@ So those who were there for everything got 5 XP total.  Uvash was only there for
 
 Next Week:
 
-There was the usual smack talk about the halflings, but I'll believe it when I see it.  Kronos told them about another possible dungeon entrance to the Forum of [[npcs/Set.md|Set]], or maybe they'll try to explore more of [[npcs/Gog.md|Gog]]'s level, or maybe they'll confuse me and try something completely different.
+There was the usual smack talk about the halflings, but I'll believe it when I see it.  Kronos told them about another possible dungeon entrance to the [[locations/Forum of Set.md|Forum of Set]], or maybe they'll try to explore more of [[npcs/Gog.md|Gog]]'s level, or maybe they'll confuse me and try something completely different.

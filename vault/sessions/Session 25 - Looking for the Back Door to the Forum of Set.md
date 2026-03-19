@@ -6,7 +6,7 @@ tags:
 session_id: 25
 ---
 
-# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 25: Looking for the Back Door to the Forum of [[npcs/Set.md|Set]]
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 25: Looking for the Back Door to the [[locations/Forum of Set.md|Forum of Set]]
 
 Date: 
 Tahsday, 27th of Gerakios, 2993 AE 
@@ -46,9 +46,9 @@ Several Cave Lizards
 
 After a long negotiation, the Right for Riches Company contacted a local halfling lawyer, [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]], and had him write up papers incorporating them as an officialy chartered company within [[locations/Gosterwick.md|Gosterwick]], then get approval from the Thesmothete of [[locations/Vetucaster.md|Vetucaster]], Eusbia Phokas.  With their Company legally able to own property, they returned to [[npcs/Wicktrimmer.md|Wicktrimmer]] to conclude the deal.
 
-He gave them 20000 pieces of silver, free lifetime banking at the [[factions/Rarities Factor.md|Rarities Factor]], personal shopping services in [[locations/Narsileon.md|Narsileon]] (for up to five designated items per month, if available and found by his agent there, using their own funds deposited at the [[factions/Rarities Factor.md|Rarities Factor]]), and any information on their enemies (particularly the Cult of [[npcs/Set.md|Set]]) that he learned.  In exchange they would give him the powerful magic stiletto Larel's Pin and right of first refusal on any magical or historical items the company or its members wanted to sell in the future (except for a few items which [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] specifically claimed).
+He gave them 20000 pieces of silver, free lifetime banking at the [[factions/Rarities Factor.md|Rarities Factor]], personal shopping services in [[locations/Narsileon.md|Narsileon]] (for up to five designated items per month, if available and found by his agent there, using their own funds deposited at the [[factions/Rarities Factor.md|Rarities Factor]]), and any information on their enemies (particularly the [[factions/Cult of Set.md|Cult of Set]]) that he learned.  In exchange they would give him the powerful magic stiletto Larel's Pin and right of first refusal on any magical or historical items the company or its members wanted to sell in the future (except for a few items which [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] specifically claimed).
 
-[[npcs/Wicktrimmer.md|Wicktrimmer]] did not have any new information on the [[npcs/Set.md|Set]] cult, beyond the contract on their heads that [[npcs/Coinbase.md|Coinbase]] had already told them about.  Vallium decided they should revisit the [[locations/Great Cavern.md|Great Cavern]] and see if the Settite guard post they had found there connected with the Forum of [[npcs/Set.md|Set]].  Vael's [[items/Living Wheelbarrow.md|Living Wheelbarrow]] (invented by [[npcs/Ashe Maykum.md|Ashe Maykum]] the goblin druid) was ready, so cast Levitation on it and used it to carry Larel's Sack.
+[[npcs/Wicktrimmer.md|Wicktrimmer]] did not have any new information on the [[npcs/Set.md|Set]] cult, beyond the contract on their heads that [[npcs/Coinbase.md|Coinbase]] had already told them about.  Vallium decided they should revisit the [[locations/Great Cavern.md|Great Cavern]] and see if the Settite guard post they had found there connected with the [[locations/Forum of Set.md|Forum of Set]].  Vael's [[items/Living Wheelbarrow.md|Living Wheelbarrow]] (invented by [[npcs/Ashe Maykum.md|Ashe Maykum]] the goblin druid) was ready, so cast Levitation on it and used it to carry Larel's Sack.
 
 Ioannes spent some of his wealth on an even more expensive power item, which enabled him to cast Bless +2 on Vael, Vallium, and Michael, as long as they paid for the power item recharges.  Uvash declined and kept his Bless +1.
 
@@ -84,7 +84,7 @@ GM's Comments:
 
 [[npcs/Wicktrimmer.md|Wicktrimmer]] really wanted Larel's items.  There was a pretty serious debate among the players as to whether to sell or trade any of them, but "We want [[npcs/Wicktrimmer.md|Wicktrimmer]] as a friend and knives aren't great weapons and none of us really uses one" won out over "this is a rare and cool magic item so we should keep it just in case", so they sold Larel's Pin.  Larel's Sack and Larel's Cloak were more immediately and obviously useful, so none of the players considered selling them.  Amusingly, after 23 delves without a magic bag, they found magic bags on consecutive delves.  (Vael identified the new one as a regular Bag of Holding, but actually heavier and with a larger capacity than Larel's Sack.  We'll see if they keep both or sell one.)
 
-The group didn't want to try another frontal assault on the Forum of [[npcs/Set.md|Set]] in the direction the cult would expect, so they went looking for a back door instead, and found exactly what they were looking for.  However, they also found four varumani on the other side.  We'll see whether they go that way again, or try something else.
+The group didn't want to try another frontal assault on the [[locations/Forum of Set.md|Forum of Set]] in the direction the cult would expect, so they went looking for a back door instead, and found exactly what they were looking for.  However, they also found four varumani on the other side.  We'll see whether they go that way again, or try something else.
 
 The black pudding got Ioannes to -5 HP, 6 away from a death check.  He still had a Bless spell, so he was guaranteed to make his first death check at -11 HP, but the one at -22 HP was no guarantee, and the pudding could have gotten him there quickly.  Fortunately for the PCs, a five on one numerical advantage is really good.  The pudding was pretty tough, and probably could have killed any one of them with surprise, but four of them combined to kill it pretty quickly.  (Michael didn't help kill it, as he was trying to pull it off Ioannes instead.  Which he managed to do, right as it died.)
 
