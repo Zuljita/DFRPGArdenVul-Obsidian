@@ -22,7 +22,7 @@ Player Characters:
 
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 Vallium Halcyon, Archontean fighter (Greybrown)
-Vael Sunshadow, Half-Elven mage (Kyle)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 Thrainor "[[npcs/Thronebreaker.md|Thronebreaker]]" Ironvein, Dwarven martial artist (Archon Shiva)
 
 

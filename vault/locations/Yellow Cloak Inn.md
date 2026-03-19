@@ -5,7 +5,7 @@ tags:
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
 ---
-# [[pcs/Vael Sunshadow|Vael]].
+# [[pcs/Vaelethron 'Vael' Sunshadow|Vael]].
 
 ## Discord Insights
 

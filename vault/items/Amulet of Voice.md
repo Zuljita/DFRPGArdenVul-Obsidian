@@ -9,7 +9,7 @@ tags:
 An amulet that can alter or enhance the wearer's voice, or perhaps provide other vocal-related magical effects.
 
 ## Properties
-- Worn by [[pcs/Vael Sunshadow|Vael]].
+- Worn by [[pcs/Vaelethron 'Vael' Sunshadow|Vael]].
 
 ## Known History
 TBD

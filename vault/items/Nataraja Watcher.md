@@ -15,7 +15,7 @@ A dancing statue that can be used as a guard and remote viewing device.
 ## Known History
 
 ## Notes
-- [[Vael Sunshadow]] placed one on the stairs to the [[Beacon]].
+- [[Vaelethron 'Vael' Sunshadow]] placed one on the stairs to the [[Beacon]].
 
 ## Sessions
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]

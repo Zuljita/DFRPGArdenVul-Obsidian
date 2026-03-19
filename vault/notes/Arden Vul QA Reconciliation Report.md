@@ -64,13 +64,13 @@ Scope: top unresolved clean-name targets (`Vael`, `Ioannes`, `Larel`, `Sortian`)
 ### Decisions
 
 #### A) `Vael`
-- Candidate canonical match: `pcs/Vael Sunshadow.md`
+- Candidate canonical match: `pcs/Vaelethron 'Vael' Sunshadow.md`
 - Decision: **rename-to-canonical** (implemented via alias stub)
 - Rationale:
   - Existing canonical PC page already present
   - All unresolved instances were bare-name links
 - Action taken:
-  - Added `pcs/Vael.md` stub/alias page pointing to `pcs/Vael Sunshadow.md`
+  - Added `pcs/Vael.md` stub/alias page pointing to `pcs/Vaelethron 'Vael' Sunshadow.md`
 
 #### B) `Ioannes`
 - Candidate canonical match: `pcs/Ioannes Grammatikos Byzantios.md`

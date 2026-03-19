@@ -34,4 +34,4 @@ The inn is run by:
 ## Rules and Observations
 
 - The inn staff dislikes people casting spells on the premises, especially if critical failures occur.
-- While once a frequent residence for party members, [[pcs/Vael Sunshadow|Vael]] and [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] now stay in the [[Arcane Practitioners' Club]].
+- While once a frequent residence for party members, [[pcs/Vaelethron 'Vael' Sunshadow|Vael]] and [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] now stay in the [[Arcane Practitioners' Club]].

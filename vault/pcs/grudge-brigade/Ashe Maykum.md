@@ -32,4 +32,4 @@ Ashe has a well-earned reputation as the "goat-summoning druid." He is a reliabl
 ## Notable Actions
 - **First Expedition (Session 1):** Hired for the party's very first mission into the ruins
 - **Great Cavern Exploration (Session 15):** His summoned bears and bat swarms were instrumental in fighting off local fauna
-- **Construction at the Beacon (Session 32):** Helped construct a stone cover over a stairway alongside Vael Sunshadow
+- **Construction at the Beacon (Session 32):** Helped construct a stone cover over a stairway alongside Vaelethron 'Vael' Sunshadow

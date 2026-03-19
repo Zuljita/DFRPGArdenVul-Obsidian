@@ -21,7 +21,7 @@ Cool, overcast, rainy
 Player Characters:
 
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vael Sunshadow, Half-Elven mage (Kyle)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 Vallium Halcyon, Archontean fighter (Greybrown)
 Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
 Sister Valya "[[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]" [[npcs/Sister Valya -[[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]- Hushbreaker.md|Sister Valya -[[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]- Hushbreaker]], halfling monk (Mercenary) (Archon Shiva)

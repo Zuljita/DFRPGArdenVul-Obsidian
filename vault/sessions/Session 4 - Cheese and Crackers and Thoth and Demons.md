@@ -22,7 +22,7 @@ Player Characters:
 
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 Michael J Dundee, Thorcin barbarian (Adam)
-Vael Sunshadow, Half-Elven mage (Kyle)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 Vallium Halcyon, Archontean fighter (Greybrown)
 [[npcs/Merenuithiel [[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]] [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel [[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]] [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]], Elven archer (mercenary) (Archon Shiva)
 

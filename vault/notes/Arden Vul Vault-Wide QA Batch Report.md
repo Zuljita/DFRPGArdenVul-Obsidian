@@ -458,7 +458,7 @@
   - `sessions/Session 32 - Fast Exploration.md` (27)
   - `sessions/Session 26 - The Scouring of the Shire.md` (26)
   - `sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md` (25)
-  - `pcs/Vael Sunshadow.md` (22)
+  - `pcs/Vaelethron 'Vael' Sunshadow.md` (22)
 
 ### suggested changes
 1. Keep semantic reconciliation constrained to the 3 stable duplicate clusters until malformed-link counts decline materially.
@@ -555,7 +555,7 @@
   - `sessions/Session 32 - Fast Exploration.md` (27)
   - `sessions/Session 26 - The Scouring of the Shire.md` (26)
   - `sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md` (25)
-  - `pcs/Vael Sunshadow.md` (22)
+  - `pcs/Vaelethron 'Vael' Sunshadow.md` (22)
 
 ### suggested changes
 1. Keep semantic reconciliation queue constrained to the 3 stable duplicate clusters until malformed-link counts materially decline.

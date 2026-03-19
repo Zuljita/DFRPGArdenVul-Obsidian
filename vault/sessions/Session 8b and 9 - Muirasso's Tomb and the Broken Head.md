@@ -22,7 +22,7 @@ Player Characters:
 [[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 [[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
 [[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Vael Sunshadow]], Half-Elven mage (Kyle)
+[[pcs/Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
 [[pcs/Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
 Merenuithiel "[[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]]" [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]], Elven mercenary archer (Archon Shiva)
 

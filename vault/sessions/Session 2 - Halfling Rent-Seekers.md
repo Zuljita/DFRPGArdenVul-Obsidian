@@ -21,7 +21,7 @@ Cool, cloudy
 Player Characters:
 
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vael Sunshadow, Half-Elven mage (Kyle)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
 Vallium Halcyon, Archontean fighter (Greybrown)
 [[npcs/Thorne [[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]].md|Thorne [[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]]], Half-Elven monk (mercenary) (Archon Shiva)

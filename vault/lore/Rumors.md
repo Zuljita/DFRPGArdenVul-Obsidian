@@ -4,7 +4,7 @@ This page consolidates all the rumors found throughout the vault.
 
 ## PC Rumors
 
-### From [[Vael Sunshadow]]
+### From [[Vaelethron 'Vael' Sunshadow]]
 - [[lore/Rumors#Vael Rumor 1]]
 - [[lore/Rumors#Vael Rumor 2]]
 

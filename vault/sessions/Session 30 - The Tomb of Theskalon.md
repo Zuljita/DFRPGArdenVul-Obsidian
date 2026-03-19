@@ -22,7 +22,7 @@ Player Characters:
 Vallium Halcyon, Archontean fighter (Greybrown)
 Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo)
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vael Sunshadow, Half-Elven mage (Kyle)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 Chrysalis ([[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva)
 
 
