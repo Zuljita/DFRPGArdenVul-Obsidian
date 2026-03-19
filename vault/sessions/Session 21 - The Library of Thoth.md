@@ -6,7 +6,7 @@ tags:
 session_id: 21
 ---
 
-# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 21: The Library of [[npcs/Thoth.md|Thoth]]
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 21: The [[locations/Library of Thoth.md|Library of Thoth]]
 
 Date: 
 
@@ -43,7 +43,7 @@ Magically animated head of [[npcs/Stamelis.md|Stamelis]], Librarian of [[npcs/Th
 
 In [[locations/Gosterwick.md|Gosterwick]], Vael paid [[npcs/Creon.md|Creon]] the pawnbroker to let him know about any particularly interesting items before putting them up for general sale.  [[npcs/Creon.md|Creon]] let Vael know about a Wand of Air Jet that came in, but Vael declined to buy it.  More graffiti appeared on the town walls, in a slightly different style than the previous graffiti, this time depicting some chickens killing a huge red dragon, then running from tiny halflings.  Vael and Uvash went to the Demmasday market looking for Elven and Dwarven rations.  Neither found what they were looking for, but Octavian's Cucina had some [[locations/Arden Vul.md|Arden Vul]] Cakes available, which Vael purchased.  Nobody was quite sure of the origin of the cakes, except that they were occasionally found in the ruins of [[locations/Arden Vul.md|Arden Vul]], were highly nutritious if not very tasty, and lasted forever if kept dry.
 
-Vallium, newly nominated as the Right for Riches Company's official destination planner, decided that they would go down the Well of Light and look for the Library of [[npcs/Thoth.md|Thoth]].  With Michael still off in the mountains somewhere, they hired [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]], the tiny halfling monk with the piercing high-pitched kiai shout.  As usual, [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]] asked to ride on someone's shoulder rather than walking all the way to [[locations/Arden Vul.md|Arden Vul]] on her very short legs.  When they reached the [[locations/Long Stair.md|Long Stair]], however, she somehow walked right up the side of the cliff.  Vael Levitated, and everyone else climbed up the steep and treacherous path the regular way, without incident.
+Vallium, newly nominated as the Right for Riches Company's official destination planner, decided that they would go down the Well of Light and look for the [[locations/Library of Thoth.md|Library of Thoth]].  With Michael still off in the mountains somewhere, they hired [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]], the tiny halfling monk with the piercing high-pitched kiai shout.  As usual, [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]] asked to ride on someone's shoulder rather than walking all the way to [[locations/Arden Vul.md|Arden Vul]] on her very short legs.  When they reached the [[locations/Long Stair.md|Long Stair]], however, she somehow walked right up the side of the cliff.  Vael Levitated, and everyone else climbed up the steep and treacherous path the regular way, without incident.
 
 As they walked north through the ruins of [[locations/Arden Vul.md|Arden Vul]], a giant lizard attempted to ambush them from behind a tree.  Its attempt at surprise failed, and Vallium stabbed it.  Noting the lizard's thick hide might be useful, Vallium skinned it, and Vael used his Levitation to carry the hide up and stow it in the top of a tree.
 

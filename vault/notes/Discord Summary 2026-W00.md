@@ -3,7 +3,17 @@
 **Date Range:** 2025-12-29 to 2026-01-04
 **Messages:** 17
 
-## In-World Highlights
+## Distilled Knowledge
+
+_No in-world knowledge entries. This summary contains only rules/mechanics discussion (cleric spell training costs, Vampiric Bite targeting restrictions, Divine Grace upgrade costs) which falls outside the scope of in-universe knowledge extraction._
+
+## Truncation Notes
+
+- **#questions-for-gm | 2026-01-02**: Entry for Uvash's Divine Grace question appears truncated ("Yester..."). However, the complete text is duplicated earlier in the same section and in #archive. No additional source data needed.
+
+---
+
+## Original Summary (Preserved)
 
 ### #archive
 
@@ -29,4 +39,5 @@
 - **Uvash** (2026-01-03): Alright.
 
 ---
-*Generated: 2026-03-17 05:03*
+*Generated: 2026-03-17 05:03*  
+*Distilled: 2026-03-18*

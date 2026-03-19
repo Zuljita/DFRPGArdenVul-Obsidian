@@ -34,7 +34,7 @@ aliases:
 
 ## Discord Insights
 
-- Only speaks Mithric. Recalls Thothian Teleportation Rings but never had permission or knowledge of their sequences. Revealed more details about them when questioned by Ioannes. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])
+- Only speaks Mithric. Recalls [[items/Thothian Teleportation Ring.md|Thothian Teleportation Rings]] but never had permission or knowledge of their sequences. Revealed more details about them when questioned by Ioannes. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])
 - Teaches Research using Mithric sources, and the party considers showing him a letter about a secret library. ([[notes/Discord Summary 2025-W52.md|Discord Summary 2025-W52]])
 - Former human librarian of Thoth, Chief Librarian of the Arden Vul Chapter, and later a Head of Thoth and Librarian Emeritus. ([[notes/Discord Summary 2026-W01.md|Discord Summary 2026-W01]])
 - He is greatly pained by Uvash sorting books differently than he had asked Basil to, believing Thothian Mithric alphabetical order is a holy sacrament. ([[notes/Discord Summary 2026-W04.md|Discord Summary 2026-W04]])

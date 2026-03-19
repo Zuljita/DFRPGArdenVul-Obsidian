@@ -3,7 +3,7 @@ tags:
   - lore
 ---
 
-# Cult of [[npcs/Set.md|Set]] Research
+# [[factions/Cult of Set.md|Cult of Set]] Research
 
 ## Ioannes' Research Project
 [[Ioannes]] undertook a hurried research project on the [[Cult of Set]].

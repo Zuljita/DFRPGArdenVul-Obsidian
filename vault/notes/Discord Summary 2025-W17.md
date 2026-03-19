@@ -3,6 +3,12 @@
 **Date Range:** 2025-04-28 to 2025-05-04
 **Messages:** 20
 
+## Distilled In-World Knowledge
+
+*No in-world content found in this summary. All entries were rules mechanics, meta-game logistics, or out-of-character discussion.*
+
+---
+
 ## In-World Highlights
 
 ### #archive
@@ -15,7 +21,7 @@
 - **GM** (2025-05-03): No multiplication; there's no reward for taking longer in real life to accomplish the same. However all the stuff found during a multi-session delve adds up.
 - **Grudge Brigade** (2025-05-04): If, after ending a session outside of town, the party returns to town early in the next session and ventures back out (coming back by session's end), can they score loot and exploration cp for both delves?  (Not suggesting straight up multiple delves per week)
 - **GM** (2025-05-04): Yes, but not until the end of the session.
-- **Grudge Brigade** (2025-05-04): So they’d get two sessions worth of cp, but all at the end of the second session.
+- **Grudge Brigade** (2025-05-04): So they'd get two sessions worth of cp, but all at the end of the second session.
 - **GM** (2025-05-04): Yes.  And if any PCs or players didn't participate in both delves my head might explode.
 
 ### #questions-for-gm
@@ -28,7 +34,7 @@
 - **GM** (2025-05-03): No multiplication; there's no reward for taking longer in real life to accomplish the same. However all the stuff found during a multi-session delve adds up.
 - **Grudge Brigade** (2025-05-04): If, after ending a session outside of town, the party returns to town early in the next session and ventures back out (coming back by session's end), can they score loot and exploration cp for both delves?  (Not suggesting straight up multiple delves per week)
 - **GM** (2025-05-04): Yes, but not until the end of the session.
-- **Grudge Brigade** (2025-05-04): So they’d get two sessions worth of cp, but all at the end of the second session.
+- **Grudge Brigade** (2025-05-04): So they'd get two sessions worth of cp, but all at the end of the second session.
 - **GM** (2025-05-04): Yes.  And if any PCs or players didn't participate in both delves my head might explode.
 
 ---

@@ -3,7 +3,7 @@ title: Barnaby Goodbarrel
 tags:
   - npc
 appears_in:
-  - "Session 25 - Looking for the Back Door to the Forum of [[npcs/Set.md|Set]]"
+  - "Session 25 - Looking for the Back Door to the [[locations/Forum of Set.md|Forum of Set]]"
   - "Session 31 - I Want to Believe"
 ---
 # [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]]

@@ -1,115 +1,103 @@
-# Discord Summary: 2026-W04
+# Discord Summary: 2026-W04 (Distilled)
 
 **Date Range:** 2026-01-26 to 2026-02-01
-**Messages:** 91
-
-## In-World Highlights
-
-### #2026205QuestionsForGM
-
-- **GM** (2026-01-27): It allows full movement despite most effects that would slow or stop movement. Cosmo (Uvash) gur㎰ — 1/27/2026 9:59 PMTuesday, January 27, 2026 9:59 PM Gotcha. Thank you!
-- **GM** (2026-01-31): Updated all the names on 20251114 GM loot sheet to the names you got from Akla-Chah and the Computer. 1
-- **GM** (2026-01-31): You can't learn written Rudishvan yet.  Needs more time.  You can do any of the others.
-
-### #archive
-
-- **Uvash** (2026-01-26): I might be voice-only, as I would be in the car for the first part of next week. Is that okay? Someone would need to pilot my character and such. I won’t need it all session
-- **Uvash** (2026-01-27): What are all the effects of the Ring of Free Action?
-- **GM** (2026-01-27): It allows full movement despite most effects that would slow or stop movement.
-- **Uvash** (2026-01-27): Gotcha. Thank you!
-- **GM** (2026-01-30): No time for either.
-- **GM** (2026-01-31): Bridge computer: I have technical specifications for some of these devices.  (The specs are very hard to understand and the computer is not a good teacher.) There were two yellow captain's identity plaques registered in the system. Identity plaques and colors: Rust: crew, opens non-secure areas a...
-- **GM** (2026-01-31): The computer indicates that interstellar comms are still offline. The computer brings up some technical specifications in Rudishva for the energy weapons, which are identified as "laser pistol" and "laser rifle".  These are not easy to understand, but it appears you need to put one of the Lesser ...
-- **GM** (2026-01-31): Uvash starts sorting books, in a different order than Stamelis had asked Basil to sort them.  This causes great pain to Stamelis.  He believes that Thothian Mithric alphabetical order is actually a holy sacrament, and sorting books any other way is a sin.
-- **GM** (2026-01-31): "I'm sorry Captain Vael.  I am a psychologist not a military officer.  I am not qualified with some of this technology, especially the weapons, and do not want to claim more expertise than I have and contribute to injury.  I can help you with the GnuCoder 1000 Data Reader, the Command Bracelet, t...
-- **GM** (2026-01-31): She instructs you to put one of the small power supply discs inside the GnuCoder 1000 tablet.  This causes the screen to light up with a Rudishva glyph.  She translates it as "insert data crystal."  She indicates that each data crystal has the title on one end, and that you insert the data crysta...
-- **GM** (2026-01-31): loot sheet
-- **GM** (2026-01-31): It is a six hours long.  It consists of interviews, in Rudishva, with several crew members.  (Mostly Rudishva, one Kaliyani, one Varuda, one Varumani.)  They all speak in Rudishva about various aspects of the Beacon such as life support, weapons, communication, medical, astrogation, and shuttles....
-- **GM** (2026-01-31): She shows you the features "play", "rewind", "select chapter", "repeat last 12.8 seconds", etc. You can now play videos. You have 2 GnuCoder 1000 players so you can actually play 2 videos at once.
-- **GM** (2026-01-31): Unfortunately the bridge computer does not have a data crystal port, for security reasons.  However, video playback on these small screens uses very little power: one lesser power supply should be good for thousands of hours of operation.
-- **GM** (2026-01-31): Do you ask Akla-Chah or the computer?
-- **GM** (2026-01-31): The computer indicates that, yes, the Kaliyani are the loyal species with reptilian features and 6 limbs.  They are intelligent, dextrous, and make excellent science officers.  Akla-Chah indicates that those are the betrayers and talking about them causes her great pain, as their treason caused t...
-- **GM** (2026-01-31): Akla-Chah smiles when you say that. Alka-Chah indicates that one of the data crystals is the Crew Roster, and if you want to identify any of the corpses you found, you can compare against it.
-- **GM** (2026-01-31): The Beacon had a crew of about 200 Rudishva, 75 kaliyani, 100 varuda, 75 varumani, and 2 AIs.
-- **GM** (2026-01-31): The crew roster is a 5-hour video, with about 40 seconds per subject.  Each one shows 3D images of the subject, as well as giving their name, rank, job, and highlights of their work history.  All the corpses you've seen are really old and all Rudishva kind of look the same to you (thought the jum...
-- **GM** (2026-01-31): It's a 15-minute video of a Rudishva in a blue one-piece shift (not a jumpsuit like other Rudishva have been wearing) doing what look like some kind of regimented exercise or dance poses.  At the end of the routine, the Rudishva says "Your honor is my honor. Return safely so that we shall both be...
-- **GM** (2026-01-31): Akla-Chah says it is very sad that this partner of a crew person probably never got to see their partner again after the Beacon crashed and most of the crew died due to the treason.  She hoped they were able to move on with their life.
-- **Vael, Zuljita** (2026-01-31): Is there any relevant cultural lesson I should learn or just feel bad for snooping?
-- **GM** (2026-01-31): Akla-Chah doesn't seem to have a problem with you watching any data crystal. Akla-Chah says that as Captain you have full access to everything.  She mentions that if any private personnel matters come up, she would advise you to have others leave the room to protect privacy. Of course as Captain ...
-- **GM** (2026-01-31): The diary is 4 hours long.  It starts after the Beacon crashed.  Pliv-Mol, the Rudishva Chief of Security, talks about how the harmonious work ethic of the star-born hegemony will lead to repairing the Beacon.  Later it appears that won't happen but he's optimistic the engineers can fix the inter...
-- **GM** (2026-01-31): Akla-Chah used to talk like that too, but now she has a much more pleasant Archontean voice.  She sounds kind of like Lady Alexia despite never meeting her.
-- **GM** (2026-01-31): The Rudishva and Kaliyani built a forge inside Arden Vul, that uses a combination of tech and magic.  There are molds for making various items.  You need to use the right mold, the right settings of 3 controls (temperature, chthonic energy, phase), and then the right raw materals (which include s...
-- **GM** (2026-01-31): You've noticed the metal ones don't actually open any doors.
-- **GM** (2026-01-31): Those are silver colored plastic. (Archontean doesn't have the word "plastic" but Akla-Chah taught you the Rudishva word.)
-- **GM** (2026-01-31): Yes.  Akla-Chah says that Crallicarus is probably Crellik-Var, a ship morale officer who Akla-Chah used to work with.  Salorikus is not in the crew roster but is probably Psalor-Ki, who was the first Rudishva born on this planet.  (That was a very big deal at the time.)  Ravatorus is probably Rei...
-- **GM** (2026-01-31): The point defense array is one of those turrets like the ones in the cave outside the bastion.  The manual indicates that it fires tiny pieces of metal at very fast speeds and this kills things.  This one is turned off.  The point defense controller is a 4' x 3' x 2' box with a screen, 4 switches...
-- **GM** (2026-01-31): You put on the bracelet.  It shows a list of devices in range, which include "Beacon Bridge", "AKL-600", "Nutri-Vore 2500", and "point defense array". There is no power supply plugged into the array.
-- **GM** (2026-01-31): Research: Green dragons are one of the more commonly seen types of dragons, as they tend to live in ruins or forests.  They are said to breathe clouds of deadly poison gas.  Like other dragons, they tend to be very intelligent and to use magic.  They radiate terror.  They sometimes ally with liza...
-- **Vael, Zuljita** (2026-01-31): No rush but when time permits could we get new names for the rudishva items found on 20251114
-- **GM** (2026-01-31): Updated all the names on 20251114 GM loot sheet to the names you got from Akla-Chah and the Computer.
-- **GM** (2026-01-31): She says any magic was done by the traitors.  She says that sounds like the transit shaft they built for moving cargo between some levels. Akha-Chah said the Rudishva mostly used their teleportation network, but some items didn't fit.
-- **GM** (2026-01-31): She does not have documentation on that.
-- **GM** (2026-01-31): The computer indicates that the Transit Shaft was used to move equipment and supplies, and required magical grouting plus a special liquid.
-- **GM** (2026-01-31): The computer indicates that the transit shaft is considered safe as long as all protocols are followed, including periodically inspecting the grout and making sure the liquid is applied to at least 90% of each object that needs levitation.  Failure of the grout or incomplete application of liquid...
-- **Vael, Zuljita** (2026-01-31): I've got 5 points to spend.  I've already committed a bunch of time so wondering what I can do from the following: Learn  languages, making and breaking spells or if neither of those, either upgrade acute hearing, or convert acute vision to perception. priority list: 1) learn written rudishvan at...
-- **GM** (2026-01-31): You can't learn written Rudishvan yet.  Needs more time.  You can do any of the others.
-- **GM** (2026-02-01): Basil comes back with a receipt from Chairduster the jeweler, who is now working on a fancy chess board.
-- **GM** (2026-02-01): First map you found pinned to the corkboard in the room with the bird flags and the zombies. Image
-- **GM** (2026-02-01): Your understanding of spoken Rudishva has improved dramatically.  Before you got most of the words but now you're getting every single word.  After a while, you figure out it's the red bracelet. The computer and Akla-Chah have a bit on the war with the heqeti.  Basically, the Beacon crashed, the ...
-- **GM** (2026-02-01): Second map you found on the corkboard in the same room. Image
-
-### #pc-notes
-
-- **GM** (2026-02-01): First map you found pinned to the corkboard in the room with the bird flags and the zombies. Image
-- **GM** (2026-02-01): Second map you found on the corkboard in the same room. Image
-
-### #questions-for-gm
-
-- **Uvash** (2026-01-26): I might be voice-only, as I would be in the car for the first part of next week. Is that okay? Someone would need to pilot my character and such. I won’t need it all session
-- **Uvash** (2026-01-27): What are all the effects of the Ring of Free Action?
-- **GM** (2026-01-27): It allows full movement despite most effects that would slow or stop movement.
-- **Uvash** (2026-01-27): Gotcha. Thank you!
-- **Vael, Zuljita** (2026-01-31): No rush but when time permits could we get new names for the rudishva items found on 20251114
-- **GM** (2026-01-31): Updated all the names on 20251114 GM loot sheet to the names you got from Akla-Chah and the Computer.
-- **Vael, Zuljita** (2026-01-31): I've got 5 points to spend.  I've already committed a bunch of time so wondering what I can do from the following: Learn  languages, making and breaking spells or if neither of those, either upgrade acute hearing, or convert acute vision to perception. priority list: 1) learn written rudishvan at...
-- **GM** (2026-01-31): You can't learn written Rudishvan yet.  Needs more time.  You can do any of the others.
-
-### #town-rolls
-
-- **GM** (2026-01-30): No time for either.
-- **GM** (2026-01-31): Bridge computer: I have technical specifications for some of these devices.  (The specs are very hard to understand and the computer is not a good teacher.) There were two yellow captain's identity plaques registered in the system. Identity plaques and colors: Rust: crew, opens non-secure areas a...
-- **GM** (2026-01-31): The computer indicates that interstellar comms are still offline. The computer brings up some technical specifications in Rudishva for the energy weapons, which are identified as "laser pistol" and "laser rifle".  These are not easy to understand, but it appears you need to put one of the Lesser ...
-- **GM** (2026-01-31): Uvash starts sorting books, in a different order than Stamelis had asked Basil to sort them.  This causes great pain to Stamelis.  He believes that Thothian Mithric alphabetical order is actually a holy sacrament, and sorting books any other way is a sin.
-- **GM** (2026-01-31): "I'm sorry Captain Vael.  I am a psychologist not a military officer.  I am not qualified with some of this technology, especially the weapons, and do not want to claim more expertise than I have and contribute to injury.  I can help you with the GnuCoder 1000 Data Reader, the Command Bracelet, t...
-- **GM** (2026-01-31): She instructs you to put one of the small power supply discs inside the GnuCoder 1000 tablet.  This causes the screen to light up with a Rudishva glyph.  She translates it as "insert data crystal."  She indicates that each data crystal has the title on one end, and that you insert the data crysta...
-- **GM** (2026-01-31): loot sheet
-- **GM** (2026-01-31): It is a six hours long.  It consists of interviews, in Rudishva, with several crew members.  (Mostly Rudishva, one Kaliyani, one Varuda, one Varumani.)  They all speak in Rudishva about various aspects of the Beacon such as life support, weapons, communication, medical, astrogation, and shuttles....
-- **GM** (2026-01-31): She shows you the features "play", "rewind", "select chapter", "repeat last 12.8 seconds", etc. You can now play videos. You have 2 GnuCoder 1000 players so you can actually play 2 videos at once.
-- **GM** (2026-01-31): Unfortunately the bridge computer does not have a data crystal port, for security reasons.  However, video playback on these small screens uses very little power: one lesser power supply should be good for thousands of hours of operation.
-- **GM** (2026-01-31): Do you ask Akla-Chah or the computer?
-- **GM** (2026-01-31): The computer indicates that, yes, the Kaliyani are the loyal species with reptilian features and 6 limbs.  They are intelligent, dextrous, and make excellent science officers.  Akla-Chah indicates that those are the betrayers and talking about them causes her great pain, as their treason caused t...
-- **GM** (2026-01-31): Akla-Chah smiles when you say that. Alka-Chah indicates that one of the data crystals is the Crew Roster, and if you want to identify any of the corpses you found, you can compare against it.
-- **GM** (2026-01-31): The Beacon had a crew of about 200 Rudishva, 75 kaliyani, 100 varuda, 75 varumani, and 2 AIs.
-- **GM** (2026-01-31): The crew roster is a 5-hour video, with about 40 seconds per subject.  Each one shows 3D images of the subject, as well as giving their name, rank, job, and highlights of their work history.  All the corpses you've seen are really old and all Rudishva kind of look the same to you (thought the jum...
-- **GM** (2026-01-31): It's a 15-minute video of a Rudishva in a blue one-piece shift (not a jumpsuit like other Rudishva have been wearing) doing what look like some kind of regimented exercise or dance poses.  At the end of the routine, the Rudishva says "Your honor is my honor. Return safely so that we shall both be...
-- **GM** (2026-01-31): Akla-Chah says it is very sad that this partner of a crew person probably never got to see their partner again after the Beacon crashed and most of the crew died due to the treason.  She hoped they were able to move on with their life.
-- **Vael, Zuljita** (2026-01-31): Is there any relevant cultural lesson I should learn or just feel bad for snooping?
-- **GM** (2026-01-31): Akla-Chah doesn't seem to have a problem with you watching any data crystal. Akla-Chah says that as Captain you have full access to everything.  She mentions that if any private personnel matters come up, she would advise you to have others leave the room to protect privacy. Of course as Captain ...
-- **GM** (2026-01-31): The diary is 4 hours long.  It starts after the Beacon crashed.  Pliv-Mol, the Rudishva Chief of Security, talks about how the harmonious work ethic of the star-born hegemony will lead to repairing the Beacon.  Later it appears that won't happen but he's optimistic the engineers can fix the inter...
-- **GM** (2026-01-31): Akla-Chah used to talk like that too, but now she has a much more pleasant Archontean voice.  She sounds kind of like Lady Alexia despite never meeting her.
-- **GM** (2026-01-31): The Rudishva and Kaliyani built a forge inside Arden Vul, that uses a combination of tech and magic.  There are molds for making various items.  You need to use the right mold, the right settings of 3 controls (temperature, chthonic energy, phase), and then the right raw materals (which include s...
-- **GM** (2026-01-31): You've noticed the metal ones don't actually open any doors.
-- **GM** (2026-01-31): Those are silver colored plastic. (Archontean doesn't have the word "plastic" but Akla-Chah taught you the Rudishva word.)
-- **GM** (2026-01-31): Yes.  Akla-Chah says that Crallicarus is probably Crellik-Var, a ship morale officer who Akla-Chah used to work with.  Salorikus is not in the crew roster but is probably Psalor-Ki, who was the first Rudishva born on this planet.  (That was a very big deal at the time.)  Ravatorus is probably Rei...
-- **GM** (2026-01-31): The point defense array is one of those turrets like the ones in the cave outside the bastion.  The manual indicates that it fires tiny pieces of metal at very fast speeds and this kills things.  This one is turned off.  The point defense controller is a 4' x 3' x 2' box with a screen, 4 switches...
-- **GM** (2026-01-31): You put on the bracelet.  It shows a list of devices in range, which include "Beacon Bridge", "AKL-600", "Nutri-Vore 2500", and "point defense array". There is no power supply plugged into the array.
-- **GM** (2026-01-31): Research: Green dragons are one of the more commonly seen types of dragons, as they tend to live in ruins or forests.  They are said to breathe clouds of deadly poison gas.  Like other dragons, they tend to be very intelligent and to use magic.  They radiate terror.  They sometimes ally with liza...
-- **GM** (2026-01-31): She says any magic was done by the traitors.  She says that sounds like the transit shaft they built for moving cargo between some levels. Akha-Chah said the Rudishva mostly used their teleportation network, but some items didn't fit.
-- **GM** (2026-01-31): She does not have documentation on that.
-- **GM** (2026-01-31): The computer indicates that the Transit Shaft was used to move equipment and supplies, and required magical grouting plus a special liquid.
-- **GM** (2026-01-31): The computer indicates that the transit shaft is considered safe as long as all protocols are followed, including periodically inspecting the grout and making sure the liquid is applied to at least 90% of each object that needs levitation.  Failure of the grout or incomplete application of liquid...
-- **GM** (2026-02-01): Basil comes back with a receipt from Chairduster the jeweler, who is now working on a fancy chess board.
-- **GM** (2026-02-01): Your understanding of spoken Rudishva has improved dramatically.  Before you got most of the words but now you're getting every single word.  After a while, you figure out it's the red bracelet. The computer and Akla-Chah have a bit on the war with the heqeti.  Basically, the Beacon crashed, the ...
+**Source Messages:** 91
 
 ---
-*Generated: 2026-03-17 05:33*
+
+## In-World Knowledge
+
+### Items & Technology
+
+- The Ring of Free Action allows full movement despite most effects that would slow or stop movement. [#archive | 2026-01-27]
+
+- The GnuCoder 1000 Data Reader activates when a Lesser Power Supply disc is inserted, displaying a Rudishva glyph that translates to "insert data crystal." Data crystals have titles on one end for proper orientation. The device supports play, rewind, select chapter, and repeat-last-12.8-seconds functions. Video playback consumes minimal power—one Lesser Power Supply provides thousands of hours of operation. The party now has two GnuCoder 1000 units. [#archive | 2026-01-31]
+
+- The Command Bracelet displays a list of devices in range, including "Beacon Bridge", "AKL-600", "Nutri-Vore 2500", and "point defense array". [#archive | 2026-01-31]
+
+- The Point Defense Array is a turret system (similar to those in the cave outside the bastion) that fires tiny metal fragments at high speeds. It is currently turned off and lacks a power supply. The controller is a 4'×3'×2' box with a screen and four switches. [#archive | 2026-01-31]
+
+- The red bracelet dramatically improves comprehension of spoken Rudishva, allowing the wearer to understand every word. [#town-rolls | 2026-02-01]
+
+- Energy weapons are identified as "laser pistol" and "laser rifle." Technical specifications in Rudishva indicate you need to put one of the Lesser Power Supplies inside, then point one end at the target, and push a button on the top to activate the weapon, then push another button on the front to make energy come out. (Note: actually testing dangerous devices is not a downtime activity.) [#archive | 2026-01-31]
+
+- Silver-colored cards are actually made of plastic—a material for which Archontean has no word, requiring Akla-Chah to teach the Rudishva term. These plastic cards do not open doors, and neither do the metal ones. [#archive | 2026-01-31]
+
+- The Transit Shaft was constructed by the traitors to move cargo between levels when items were too large for the teleportation network. It requires magical grouting and a special liquid applied to at least 90% of each object's surface for levitation. Safety requires periodic grout inspection; failure of the grout or incomplete application of liquid, or attempting to levitate for too long after liquid was applied, could result in gravity damage. [#archive | 2026-01-31]
+
+### The Beacon & Crew
+
+- The Beacon's original crew comprised approximately 200 Rudishva, 75 Kaliyani, 100 Varuda, 75 Varumani, and 2 AIs. [#archive | 2026-01-31]
+
+- The Crew Roster data crystal contains a 5-hour video with approximately 40 seconds per subject, showing 3D images, name, rank, job, and work history highlights. This can be used to identify corpses found. All observed corpses are very old Rudishva. [#archive | 2026-01-31]
+
+- [[items/Rudishva Identity Plaque.md|Identity plaques]] use a color system: Rust = crew (opens non-secure areas and their own quarters); Brown = NCO (also opens doors to additional quarters, storage lockers); Sky blue = junior officers (some secure areas); Pale green = senior Varuda officers (some high security areas); Pink = senior Varumani officers (some high security areas); Orange = senior Kaliyani officers (some high security areas); Silver = senior Rudishva officers (some high security areas); Yellow = captain (opens everything). [#archive | 2026-01-31]
+
+- Two yellow captain's identity plaques were registered in the system. [#archive | 2026-01-31]
+
+- Interstellar communications remain offline. [#archive | 2026-01-31]
+
+- The Bridge Computer has technical specifications for devices but they are very hard to understand and the computer is not an effective teacher. The bridge computer has no data crystal port for security reasons. [#archive | 2026-01-31]
+
+### People & Personalities
+
+- Akla-Chah is a psychologist, not a military officer. She is not qualified with weapons technology and refuses to claim expertise she lacks, but she can assist with the GnuCoder 1000 Data Reader, the Command Bracelet, the GnuCoder 3000 Data Recorder, and the associated data crystals and power supplies. [#archive | 2026-01-31]
+
+- Akla-Chah and the Bridge Computer have conflicting perspectives on the Kaliyani: the computer describes them as loyal, intelligent, dextrous science officers with reptilian features and six limbs, while Akla-Chah identifies them as the betrayers whose treason caused the death of most of her friends. Discussing them causes her great pain. [#archive | 2026-01-31]
+
+- As Captain, Vael has full access to all data crystals per Akla-Chah. She advises having others leave the room if private personnel matters arise, though as Captain, Vael may share information as he sees fit. [#archive | 2026-01-31]
+
+- Akla-Chah formerly spoke with the same propagandistic rhetoric as Pliv-Mol but now has a more pleasant Archontean voice resembling Lady Alexia, despite never having met her. [#archive | 2026-01-31]
+
+- Pliv-Mol, the Rudishva Chief of Security, kept a 4-hour video diary beginning after the Beacon crashed. Initially he expressed faith that the harmonious work ethic of the star-born hegemony would repair the Beacon; later he remained optimistic the engineers could fix the interstellar comms and call for help. Later that appeared not to be working but they settled in to take over the Halls of Arden Vul and continue their society while attempting to re-invent space flight. They also bred additional varuda and varumani, and used arcanum as fuel. Over time the entries became shorter and less optimistic. Toward the end, he suspects Liss-Tak, the kaliyani leader, of plotting treason. He says it might be necessary to quarantine the kaliyani and he has begun planting mines through the kaliyani area east of the midnight road on a dead-man's switch that will go off if he doesn't say the password daily. That is the last entry. [#archive | 2026-01-31]
+
+### Historical & Cultural Discoveries
+
+- The Rudishva and Kaliyani built a hybrid tech-magic forge inside Arden Vul with molds for making various items. Operation requires the correct mold, three control settings (temperature, chthonic energy, phase), and proper raw materials which include steel ingots, arcanum, and lava. Items mentioned in the video include struts and plates and fuel cells (replacement parts for the Beacon), teleportation plates, melee weapons (knife, sword, spear), jewelry (shaped like identity plaques but without the tech inside, and made of metal), and something called a control rod and collar which looks like a rather evil device for controlling somebody. [#archive | 2026-01-31]
+
+- A 15-minute data crystal shows a Rudishva in a blue one-piece shift (not a jumpsuit) performing regimented exercises or dance poses, concluding with the phrase: "Your honor is my honor. Return safely so that we shall both be enhanced in honor and joy." Akla-Chah identifies this as a partner message from a crew member who likely never saw their partner again after the crash. [#archive | 2026-01-31]
+
+- The historical figures Crallicarus, Salorikus, and Ravatorus are likely corrupted names of Beacon crew: Crallicarus = Crellik-Var (ship morale officer, former colleague of Akla-Chah); Salorikus = Psalor-Ki (first Rudishva born on this planet, a major historical figure); Ravatorus is probably Reiv-Tor, a science officer. Isocrates sounds like Isok-Crix, a jemadar or line officer. Melacorius is Melok-Ri, another line officer. Finally Nacalorus sounds like Naik-Lir, a steward. [#archive | 2026-01-31]
+
+- Following the Beacon's crash, the crew made it to the ground in shuttles and started exploring the Halls looking for parts to rebuild. They ran into heqeti who kept attacking them. The Rudishva Hegemony fought back with superior weapons and tactics, but the heqeti kept coming. Eventually the Captain sent a large force to Heqeti territory deep under Arden Vul where they had a pyramid in a big cave. The Rudishva killed most of the heqeti there, chased survivors into the deep underworld, and trashed their pyramid, taking their demon horn. After that, the heqeti mostly stayed away. But then the kaliyani allied with the heqeti and launched a successful sneak attack that killed most of the Rudishva. [#town-rolls | 2026-02-01]
+
+### Creature Research
+
+- Green dragons are one of the more commonly seen types, as they tend to live in ruins or forests. They breathe clouds of deadly poison gas. Like other dragons, they tend to be very intelligent and use magic. They radiate terror. They sometimes ally with lizardmen or kobolds. The authors recommend staying far away. [#archive | 2026-01-31]
+
+### Faction Notes
+
+- Stamelis believes Thothian Mithric alphabetical order is a holy sacrament, and sorting books any other way is a sin. Uvash sorting books differently caused him great pain. [#archive | 2026-01-31]
+
+### External World Events
+
+- Basil commissioned Chairduster the jeweler to create a fancy chess board. [#archive | 2026-02-01]
+
+### Cartography
+
+- Two maps were found pinned to a corkboard in the room with bird flags and zombies. [#archive | 2026-02-01; #pc-notes | 2026-02-01]
+
+---
+
+## ✅ Truncated Entries Resolved
+
+All previously truncated entries have been filled in from raw Discord source:
+
+1. ~~**Identity plaque color system** - *Fixed from raw source*~~
+2. ~~**Laser weapon power requirements** - *Fixed from raw source*~~
+3. ~~**Akla-Chah's qualified equipment** - *Fixed from raw source*~~
+4. ~~**Data crystal insertion** - *Fixed from raw source*~~
+5. ~~**Crew interviews content** - *Fixed from raw source*~~
+6. ~~**Kaliyani betrayal details** - *Fixed from raw source*~~
+7. ~~**Partner message conclusion** - *Fixed from raw source*~~
+8. ~~**Pliv-Mol diary conclusion** - *Fixed from raw source*~~
+9. ~~**Forge material requirements** - *Fixed from raw source*~~
+10. ~~**Ravatorus identification** - *Fixed from raw source*~~
+11. ~~**Transit shaft failure consequences** - *Fixed from raw source*~~
+12. ~~**Green dragon/lizardfolk alliance details** - *Fixed from raw source*~~
+13. ~~**War with the heqeti details** - *Fixed from raw source*~~
+
+---
+
+*Distilled: 2026-03-18*
+*Original generated: 2026-03-17 05:33*

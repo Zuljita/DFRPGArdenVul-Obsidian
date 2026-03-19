@@ -7,7 +7,7 @@ aliases:
 # [[npcs/Count Skleros.md|Count Skleros]]
 
 ## Summary
-Beastman commander in the Halls of [[Thoth]] who negotiated safe conduct with the party in exchange for practical support.
+Beastman commander in the [[locations/Halls of Thoth.md|Halls of Thoth]] who negotiated safe conduct with the party in exchange for practical support.
 
 - Negotiated passage with the party in exchange for lumber; identified a mailed fist symbol on a corpse as belonging to the [[factions/Imperial Tagmata.md|Imperial Tagmata]]. Skleros was alarmed to learn of [[npcs/Ambrosia.md|Ambrosia]]'s charmed followers in the Great Cavern. ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])
 

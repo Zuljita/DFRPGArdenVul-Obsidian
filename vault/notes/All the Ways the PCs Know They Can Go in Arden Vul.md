@@ -20,9 +20,9 @@ One of the players posted a list of all the ways they could explore next on the 
 - Square tower and cistern (baboons)
 
 - Down the Well of Light (baboons and giant 4-armed baboons)
-- Pyramid of [[npcs/Thoth.md|Thoth]], move statue west 
+- [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], move statue west 
 
-- Halls of [[npcs/Thoth.md|Thoth]] (halflings)
+- [[locations/Halls of Thoth.md|Halls of Thoth]] (halflings)
 
 - [[locations/Great Chasm.md|Great Chasm]]
 - Lever on top of triangular pyramid, teleporter to Well of Light
@@ -30,7 +30,7 @@ One of the players posted a list of all the ways they could explore next on the 
 - Stairs down, behind secret door in baboon mosaic
 - Chute down, opened by manipulating a statue
 
-- Pyramid of [[npcs/Thoth.md|Thoth]], move statue east
+- [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], move statue east
 
 - Black portal (demons)
 - [[npcs/Selket.md|Selket]] statue, teleporter to [[locations/Great Hall.md|Great Hall]] (beastmen)

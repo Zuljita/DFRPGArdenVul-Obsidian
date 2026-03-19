@@ -3,7 +3,7 @@ title: Yamki
 tags:
   - npc
 appears_in:
-  - "Session 21 - The Library of [[npcs/Thoth.md|Thoth]]"
+  - "Session 21 - The [[locations/Library of Thoth.md|Library of Thoth]]"
   - "Session 22 - The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light"
   - "Session 28 - Teleport Rugs and Baboons"
 ---

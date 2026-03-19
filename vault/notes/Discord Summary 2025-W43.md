@@ -1,64 +1,44 @@
-# Discord Summary: 2025-W43
+# Discord Summary: 2025-W43 (Distilled)
 
 **Date Range:** 2025-10-27 to 2025-11-02
-**Messages:** 43
-
-## In-World Highlights
-
-### #archive
-
-- **GM** (2025-10-27): Pelteon tells Ioannes that she reacts poorly to milk and does not drink it, but that he should talk to Fael at the Grain Hall if he needs help choosing the best milk for his cats.
-- **Uvash** (2025-10-29): $200 in coins would be ~4 lbs, right? Not at my PC so I can’t do math
-- **Vallium Halcyon** (2025-10-29): Copper, silver and gold Archontean pieces (modern day) are all 0.02 lbs each.  So $200 in silver pieces are 4 lbs, yes.
-- **GM** (2025-10-29): Research: Ioannes finds a reference to the story of Sligo the Devious gifting a Rug of Instant Access as a peace offering to Leonidas of Archontos, then having a team of assassins come through the Rug in the middle of the night and kill Leonidas.  Sligo was convicted of murder and sentenced to de...
-- **GM** (2025-10-29): Research: Ioannes finds a reference to the story of Sligo the Devious gifting a Rug of Instant Access as a peace offering to Leonidas of Archontos, then having a team of assassins come through the Rug in the middle of the night and kill Leonidas.  Sligo was convicted of murder and sentenced to de...
-- **GM** (2025-10-29): Ancient silver is slightly lighter.  Ancient gold solidi are 10 times as heavy and 10 times as valuable.
-- **Uvash** (2025-10-29): What skills would I use to a) convert people to my religion or b) attract dwarves to the town to grow my church? (also to make more friends, I am assuming that Uvash and Thronebreaker hang out after delves, but a dwarf needs more than one drinking buddy!)
-- **GM** (2025-10-29): Propaganda, Diplomacy, Public Speaking, Performance, Religious Ritual, Theology, Writing.  Maybe some others. Anyone who wants to carry a lot of money without a lot of weight should use gems, which are essentially weightless.  The only problem is you need someone who will change them back into co...
-- **GM** (2025-10-29): Uvash did not find a convert this week.  Most of the small dwarven population of Gosterwick are already members of Uvash's flock, though only about half of them come regularly.  He also has a couple of humans.
-- **GM** (2025-10-29): Uvash did not find a convert this week.  Most of the small dwarven population of Gosterwick are already members of Uvash's flock, though only about half of them come regularly.  He also has a couple of humans.
-- **GM** (2025-10-30): Gerrilad had 3 keys, total 25 keys, $250 for copies
-- **GM** (2025-10-30): Gerrilad had 3 keys, total 25 keys, $250 for copies
-- **GM** (2025-10-30): Carousing: Vallium meets a Thorcin adventurer named Iris who is part of a group called Second Chance.  She says that one of the knights in the amazing armor - you know, the ones with the pale, scarred faces -stopped us and demanded to know if we had seen one of her companions, a knight named Sixt...
-- **GM** (2025-10-30): Carousing: Vallium meets a Thorcin adventurer named Iris who is part of a group called Second Chance.  She says that one of the knights in the amazing armor - you know, the ones with the pale, scarred faces -stopped us and demanded to know if we had seen one of her companions, a knight named Sixt...
-- **GM** (2025-10-31): Alchemy: Critical Failure!  Money gone, no potion, and Lyssandra isn't happy about the mess and tells you to supervise Vallium more closely.
-- **GM** (2025-10-31): Alchemy: Critical Failure!  Money gone, no potion, and Lyssandra isn't happy about the mess and tells you to supervise Vallium more closely.
-- **Uvash** (2025-10-31): If I wanted to build a church with a small dormitory for my friends to sleep in, how expensive would you estimate that is? I think at this point I want to spend cash on building something to attract more dwarves and make sure my friends/partymembers can sleep at safely without pay. Also, if I wer...
-- **GM** (2025-10-31): You can spend almost any amount of money on buildings.  The low end would be something like $2000 for a small used house in Gosterwick.  The high end would be something like $100000 (plus time!) for a really nice custom building, but if you're thinking cathedral rather than church you can keep go...
-- **Uvash** (2025-10-31): Interesting. Is there an area where Dwarves have settled in particular? (e.g. a Dwarvish Quarter)
-- **GM** (2025-10-31): There are not enough dwarves to have a whole neighborhood.  But there is a street with like 6 dwarven buildings near each other.  That, or the Hill of the Gods, would be the obvious places to build a church.
-- **Uvash** (2025-10-31): Also, if I drafted blueprints, would you be able to give a cost estimate? I would probably purchase an area near the six dwarven houses to turn into my church.
-- **GM** (2025-10-31): Yes, I can give you cost and time estimates if you give details.
-- **Uvash** (2025-10-31): Sweet.
-- **Uvash** (2025-10-31): This is what I whipped up. (This was rendering mid game) 1) Entry way. An offering table for people who want to donate, a bookshelf for Dwarven Literature and the Holy Book of Zorradrim 2) Chapel. Where Uvash preaches to his flock. Each pew is 10ft long and fits four dwarves each. Stained glass h...
-
-### #pc-notes
-
-- **GM** (2025-10-27): Pelteon tells Ioannes that she reacts poorly to milk and does not drink it, but that he should talk to Fael at the Grain Hall if he needs help choosing the best milk for his cats.
-
-### #questions-for-gm
-
-- **Uvash** (2025-10-29): $200 in coins would be ~4 lbs, right? Not at my PC so I can’t do math
-- **Vallium Halcyon** (2025-10-29): Copper, silver and gold Archontean pieces (modern day) are all 0.02 lbs each.  So $200 in silver pieces are 4 lbs, yes.
-- **GM** (2025-10-29): Ancient silver is slightly lighter.  Ancient gold solidi are 10 times as heavy and 10 times as valuable.
-- **Uvash** (2025-10-29): What skills would I use to a) convert people to my religion or b) attract dwarves to the town to grow my church? (also to make more friends, I am assuming that Uvash and Thronebreaker hang out after delves, but a dwarf needs more than one drinking buddy!)
-- **GM** (2025-10-29): Propaganda, Diplomacy, Public Speaking, Performance, Religious Ritual, Theology, Writing.  Maybe some others. Anyone who wants to carry a lot of money without a lot of weight should use gems, which are essentially weightless.  The only problem is you need someone who will change them back into co...
-- **Uvash** (2025-10-31): If I wanted to build a church with a small dormitory for my friends to sleep in, how expensive would you estimate that is? I think at this point I want to spend cash on building something to attract more dwarves and make sure my friends/partymembers can sleep at safely without pay. Also, if I wer...
-- **GM** (2025-10-31): You can spend almost any amount of money on buildings.  The low end would be something like $2000 for a small used house in Gosterwick.  The high end would be something like $100000 (plus time!) for a really nice custom building, but if you're thinking cathedral rather than church you can keep go...
-- **Uvash** (2025-10-31): Interesting. Is there an area where Dwarves have settled in particular? (e.g. a Dwarvish Quarter)
-- **GM** (2025-10-31): There are not enough dwarves to have a whole neighborhood.  But there is a street with like 6 dwarven buildings near each other.  That, or the Hill of the Gods, would be the obvious places to build a church.
-- **Uvash** (2025-10-31): Also, if I drafted blueprints, would you be able to give a cost estimate? I would probably purchase an area near the six dwarven houses to turn into my church.
-- **GM** (2025-10-31): Yes, I can give you cost and time estimates if you give details.
-- **Uvash** (2025-10-31): Sweet.
-- **Uvash** (2025-10-31): This is what I whipped up. (This was rendering mid game) 1) Entry way. An offering table for people who want to donate, a bookshelf for Dwarven Literature and the Holy Book of Zorradrim 2) Chapel. Where Uvash preaches to his flock. Each pew is 10ft long and fits four dwarves each. Stained glass h...
-
-### #town-rolls
-
-- **GM** (2025-10-29): Research: Ioannes finds a reference to the story of Sligo the Devious gifting a Rug of Instant Access as a peace offering to Leonidas of Archontos, then having a team of assassins come through the Rug in the middle of the night and kill Leonidas.  Sligo was convicted of murder and sentenced to de...
-- **GM** (2025-10-29): Uvash did not find a convert this week.  Most of the small dwarven population of Gosterwick are already members of Uvash's flock, though only about half of them come regularly.  He also has a couple of humans.
-- **GM** (2025-10-30): Gerrilad had 3 keys, total 25 keys, $250 for copies
-- **GM** (2025-10-30): Carousing: Vallium meets a Thorcin adventurer named Iris who is part of a group called Second Chance.  She says that one of the knights in the amazing armor - you know, the ones with the pale, scarred faces -stopped us and demanded to know if we had seen one of her companions, a knight named Sixt...
-- **GM** (2025-10-31): Alchemy: Critical Failure!  Money gone, no potion, and Lyssandra isn't happy about the mess and tells you to supervise Vallium more closely.
 
 ---
-*Generated: 2026-03-16 23:30*
+
+## Distilled In-World Knowledge
+
+### NPCs & Dialogue
+- **Pelteon** told Ioannes that she reacts poorly to milk and does not drink it, directing him to speak with **Fael at the Grain Hall** for help choosing milk for his cats. [#pc-notes/#archive | 2025-10-27]
+
+### Discoveries & Research
+- Ioannes uncovered a story about **Sligo the Devious**, who gifted **Leonidas of Archontos** a Rug of Instant Access as a peace offering, then had assassins come through it at night to kill him; Sligo was convicted of murder and sentenced to death by Emperor Basil, who also confiscated the Rugs and banned enchanting more. This all happened in Archontos about 1400 years ago. Carpets are still not given as gifts in the Empire, and rug-weavers have the slogan "A Carpet Is Forever" to encourage the wealthy to only use custom-made carpets and never buy used carpets. [#town-rolls | 2025-10-29]
+
+### Factions & Groups
+- **Iris**, a Thorcin adventurer belonging to a group called **Second Chance**, told Vallium that one of the knights in amazing armor (the ones with pale, scarred faces) stopped them and demanded to know if they had seen her companion, a knight named **[[npcs/Knight Sixth.md|Sixth]]**. Said their Order would pay good money for knowledge of his whereabouts. [#town-rolls | 2025-10-30]
+
+### Economics & Logistics
+- Archontean coinage (copper, silver, gold) weighs 0.02 lbs each; $200 in silver = 4 lbs. Ancient silver is slightly lighter; ancient gold solidi are 10× as heavy and 10× as valuable. Gems are essentially weightless for carrying large sums. [#questions-for-gm | 2025-10-29]
+- Key copies for Gerrilad: 3 new keys acquired, party now holds 25 keys total, $250 spent on copies. [#town-rolls | 2025-10-30]
+- Building costs in Gosterwick range from ~$2,000 (small used house) to $100,000+ (custom high-end structures). Time investment scales with complexity. [#questions-for-gm | 2025-10-31]
+
+### Religious Affairs (Uvash's Church)
+- Skills useful for religious conversion or attracting dwarves: Propaganda, Diplomacy, Public Speaking, Performance, Religious Ritual, Theology, Writing. [#questions-for-gm | 2025-10-29]
+- Weekly result: No new converts. Most of Gosterwick's small dwarven population already belongs to Uvash's flock (~50% attendance rate), plus a couple of humans. [#town-rolls | 2025-10-29]
+- There is no full Dwarven Quarter, but there is a street with ~6 dwarven buildings clustered together; the **Hill of the Gods** is another viable church location. [#questions-for-gm | 2025-10-31]
+- Uvash drafted church blueprints: (1) Entryway with offering table, bookshelf for Dwarven Literature and Holy Book of Zorradrim; (2) Chapel with 10ft pews seating four dwarves each, stained glass for aesthetics; (3) Dining area for private gatherings; (4a) Uvash's bedroom for him and his wife; (4b) Barracks housing four with personal locked chests, small table and curtains. Purple carpets and bedding because purple is the color of Prince Zorradrim. Approximately 810 sq ft of ground space. [#questions-for-gm | 2025-10-31]
+
+### Events & Outcomes
+- **Alchemy (Critical Failure):** Money lost, no potion produced. **Lyssandra** is unhappy with the mess and tells the party to supervise Vallium more closely. [#town-rolls | 2025-10-31]
+
+---
+
+## Truncated Entries Requiring Source Data
+
+| Topic | Channel | Date | Note |
+|-------|---------|------|------|
+| ~~Sligo/Leonidas story conclusion~~ | ~~#town-rolls~~ | ~~2025-10-29~~ | ~~*Fixed from raw source*~~ |
+| ~~Sixth (knight) description~~ | ~~#town-rolls~~ | ~~2025-10-30~~ | ~~*Fixed from raw source*~~ |
+| ~~Uvash church blueprints~~ | ~~#questions-for-gm~~ | ~~2025-10-31~~ | ~~*Fixed from raw source*~~ |
+
+---
+*Original: 43 messages | Distilled: 9 knowledge entries | Truncated: 0 entries (all resolved)*
+*Generated: 2026-03-16 23:30 | Distilled: 2026-03-18*

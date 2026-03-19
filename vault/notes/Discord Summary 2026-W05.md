@@ -1,24 +1,20 @@
-# Discord Summary: 2026-W05
+# Discord Summary: 2026-W05 (Distilled)
 
 **Date Range:** 2026-02-02 to 2026-02-08
-**Messages:** 9
 
-## In-World Highlights
+## In-World Knowledge Extracted
 
-### #archive
+- A bridge security system includes a red screen displaying moving pictures of monitored areas, including an octagonal room containing several vertical coffin-sized containers—some empty, others with glass fronts appearing to contain people inside, but lacking detail. The label reads "containment units, 150' deep." [archive | 2026-02-03; town-rolls | 2026-02-03]
 
-- **GM** (2026-02-03): The red screen on the right side of the bridge lights up and starts cycling through moving pictures of several areas. * You see an octagonal room containing several coffin-sized containers, standing vertically.  Some are empty, others have glass fronts and seem to contain people inside, but you c...
-- **GM** (2026-02-03): The computer adds some text to each screen, in both Rudishva and Archontean.
-- **GM** (2026-02-03): Akla-Chah isn't sure.  The computer indicates that this is not possible as the door security systems are local.
-- **GM** (2026-02-05): Alchemy: fail, pay extra Arden Speaks is a collection of things Arden allegedly said, in Mithric.  Arden was clearly in favor of hard work, loyalty, obedience, and respect for authority. Vallium hears a surefire way to open the Obsidian Gates: Lockmaster, Shape Earth, Blink.  In that order. Valli...
+- The computer interface displays text in both Rudishva and Archontean languages. [archive | 2026-02-03; town-rolls | 2026-02-03]
 
-### #town-rolls
+- Door security systems are locally controlled; the computer indicates network override is not possible. [archive | 2026-02-03; town-rolls | 2026-02-03]
 
-- **GM** (2026-02-03): The red screen on the right side of the bridge lights up and starts cycling through moving pictures of several areas. * You see an octagonal room containing several coffin-sized containers, standing vertically.  Some are empty, others have glass fronts and seem to contain people inside, but you c...
-- **GM** (2026-02-03): The computer adds some text to each screen, in both Rudishva and Archontean.
-- **GM** (2026-02-03): Akla-Chah isn't sure.  The computer indicates that this is not possible as the door security systems are local.
-- **GM** (2026-02-04): Alchemy: fail, pay extra Arden Speaks is a collection of things Arden allegedly said, in Mithric.  Arden was clearly in favor of hard work, loyalty, obedience, and respect for authority. Vallium hears a surefire way to open the Obsidian Gates: Lockmaster, Shape Earth, Blink.  In that order. Valli...
-- **GM** (2026-02-05): Alchemy: fail, pay extra Arden Speaks is a collection of things Arden allegedly said, in Mithric.  Arden was clearly in favor of hard work, loyalty, obedience, and respect for authority. Vallium hears a surefire way to open the Obsidian Gates: Lockmaster, Shape Earth, Blink.  In that order. Valli...
+- *Arden Speaks* is a collection of Arden's alleged sayings recorded in Mithric, emphasizing values of hard work, loyalty, obedience, and respect for authority. [archive | 2026-02-05; town-rolls | 2026-02-04; town-rolls | 2026-02-05]
+
+- Vallium heard a surefire way to open the Obsidian Gates: Lockmaster, Shape Earth, Blink. In that order. [archive | 2026-02-05; town-rolls | 2026-02-04; town-rolls | 2026-02-05]
 
 ---
-*Generated: 2026-03-17 05:33*
+
+*Truncated entries requiring source data fetch noted above.*
+*Generated: 2026-03-18*

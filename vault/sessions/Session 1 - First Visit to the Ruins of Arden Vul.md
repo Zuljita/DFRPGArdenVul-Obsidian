@@ -114,7 +114,7 @@ GM's Comments:
 
 
 
-Overall, the group's first trip was a success.  Nobody died or even got hurt.  They made it to the ruins of [[locations/Arden Vul.md|Arden Vul]] and back.  They explored a couple of rooms off the [[locations/Long Stair.md|Long Stair]], a couple of gatehouse towers, and the top floor of the large square tower.  They found the Pyramid of [[npcs/Thoth.md|Thoth]] and the well full of mirrors.  They also found some interesting lore, like the pictures on the pyramid steps, the scroll in the square tower, and the writing on the obelisk.  They found a few things other than portable loot that seemed magic: the colossal statue of [[npcs/Arden.md|Arden]], the double doors of the square tower, and the darkness in the stairs of the square tower.  Finally, they scored quite a bit of loot: some big ancient gold coins from the spider tower, some magic boots and weird magic powder and dwarf-sized mail and warhammer from the room off the [[locations/Long Stair.md|Long Stair]] where they burned the webs, and some scale armor and shortswords and halfling-sized magic armor and a spell scroll from the corpses on the top floor of the square tower.
+Overall, the group's first trip was a success.  Nobody died or even got hurt.  They made it to the ruins of [[locations/Arden Vul.md|Arden Vul]] and back.  They explored a couple of rooms off the [[locations/Long Stair.md|Long Stair]], a couple of gatehouse towers, and the top floor of the large square tower.  They found the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] and the well full of mirrors.  They also found some interesting lore, like the pictures on the pyramid steps, the scroll in the square tower, and the writing on the obelisk.  They found a few things other than portable loot that seemed magic: the colossal statue of [[npcs/Arden.md|Arden]], the double doors of the square tower, and the darkness in the stairs of the square tower.  Finally, they scored quite a bit of loot: some big ancient gold coins from the spider tower, some magic boots and weird magic powder and dwarf-sized mail and warhammer from the room off the [[locations/Long Stair.md|Long Stair]] where they burned the webs, and some scale armor and shortswords and halfling-sized magic armor and a spell scroll from the corpses on the top floor of the square tower.
 
 
 
@@ -140,7 +140,7 @@ Second Class Citizen: [[npcs/Ashe Maykum.md|Ashe Maykum]] was the first to play 
 
 
 
-Iconic Location: Pyramid of [[npcs/Thoth.md|Thoth]]: The whole party got this achievement for being the first to find the Pyramid of [[npcs/Thoth.md|Thoth]].
+Iconic Location: [[locations/Pyramid of Thoth.md|Pyramid of Thoth]]: The whole party got this achievement for being the first to find the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].
 
 
 
@@ -157,7 +157,7 @@ They haven't identified everything yet, or decided what to keep and what to sell
 
 
 
-For exploration, the first XP is achievable by visiting at least 5 new areas, and at first glance I think they visted 11.  They didn't visit enough new areas to get the second exploration XP, but they did find the Pyramid of [[npcs/Thoth.md|Thoth]], which is an Iconic Location, which generated an Achievement for everyone, worth a bonus XP.  So this session was worth at least 3 total XP per player, maybe 4 depending on loot.
+For exploration, the first XP is achievable by visiting at least 5 new areas, and at first glance I think they visted 11.  They didn't visit enough new areas to get the second exploration XP, but they did find the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], which is an Iconic Location, which generated an Achievement for everyone, worth a bonus XP.  So this session was worth at least 3 total XP per player, maybe 4 depending on loot.
 
 
 
@@ -169,7 +169,7 @@ Finally, [[npcs/Ashe Maykum.md|Ashe Maykum]] got the "Second Class Citizen" achi
 
 Next week:
 
-Presumably the four non-mercenary PCs stick together after their first successful visit to the ruins.  Will they name their party or continue being an anonymous gaggle?  They are expected to bring another permanent PC into the group next week.  Will they go back to the square tower and brave the big bronze doors or the dangerous staircase into magical darkness, climb to the top of the Pyramid of [[npcs/Thoth.md|Thoth]], go down that mirrored well, or explore more of the surface ruins?  Read next week's recap to find out.
+Presumably the four non-mercenary PCs stick together after their first successful visit to the ruins.  Will they name their party or continue being an anonymous gaggle?  They are expected to bring another permanent PC into the group next week.  Will they go back to the square tower and brave the big bronze doors or the dangerous staircase into magical darkness, climb to the top of the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], go down that mirrored well, or explore more of the surface ruins?  Read next week's recap to find out.
 
 
 

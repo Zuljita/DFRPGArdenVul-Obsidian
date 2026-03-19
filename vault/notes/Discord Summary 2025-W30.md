@@ -1,36 +1,27 @@
-# Discord Summary: 2025-W30
+# Discord Summary: 2025-W30 (Distilled)
 
 **Date Range:** 2025-07-28 to 2025-08-03
 **Messages:** 15
 
-## In-World Highlights
+## In-World Knowledge
 
-### #August_SeptemberTownRolls
+### Locations & Discoveries
+- The Library of Thoth is located near the Well of Light and contains much lost and valuable knowledge, but nobody has actually reached it in recent years due to undead guards. [#archive, #town-rolls | 2025-07-30]
 
-- **GM** (2025-08-01): I don't see Seeker on your sheet, updated July 25.
-- **GM** (2025-08-01): You see the vision of Gwelf's dead body.  He's got a huge cutting wound across his torso.  He's underground, in a dark cave you don't recognize.  You're too far away to get a direction reading.
+### Items & Lore
+- The book *Divine Breath of Thoth* (found on Page 118) has a Mystic Mist scroll on the back; the book itself is Thothian, but the scroll is wizardly and uncharged (Mithric origin). [#archive, #questions-for-gm | 2025-07-31]
 
-### #archive
+### Character Status & Events
+- Gwelf's dead body has a huge cutting wound across his torso; he is underground in a dark cave that is not recognized, and the viewer was too far away to get a direction reading. [#August_SeptemberTownRolls, #archive, #town-rolls | 2025-08-01]
 
-- **GM** (2025-07-30): You find a claim that the Library of Thoth is located near the Well of Light, and that it contains much lost and valuable knowledge, but that nobody has actually reached it in recent years due to undead guards.
-- **GM** (2025-07-30): You find a claim that the Library of Thoth is located near the Well of Light, and that it contains much lost and valuable knowledge, but that nobody has actually reached it in recent years due to undead guards.
-- **GM** (2025-07-31): Alchemy: success! Carousing: You did not hear anything interesting this week.  People kept telling you things you already knew, or things you knew to be false.
-- **Vallium Halcyon** (2025-07-31): Reference Page 118, the book Divine Breath of Thoth has a Mystic Mist scroll on the back.  Is the scroll Clerical, Charged or Clerical, Uncharged?
-- **GM** (2025-07-31): It's wizardly, uncharged.  (The book is Thothian but the scroll is Mithric.)
-- **GM** (2025-08-01): I don't see Seeker on your sheet, updated July 25.
-- **GM** (2025-08-01): You see the vision of Gwelf's dead body.  He's got a huge cutting wound across his torso.  He's underground, in a dark cave you don't recognize.  You're too far away to get a direction reading.
-
-### #questions-for-gm
-
-- **Vallium Halcyon** (2025-07-31): Reference Page 118, the book Divine Breath of Thoth has a Mystic Mist scroll on the back.  Is the scroll Clerical, Charged or Clerical, Uncharged?
-- **GM** (2025-07-31): It's wizardly, uncharged.  (The book is Thothian but the scroll is Mithric.)
-
-### #town-rolls
-
-- **GM** (2025-07-30): You find a claim that the Library of Thoth is located near the Well of Light, and that it contains much lost and valuable knowledge, but that nobody has actually reached it in recent years due to undead guards.
-- **GM** (2025-07-31): Alchemy: success! Carousing: You did not hear anything interesting this week.  People kept telling you things you already knew, or things you knew to be false.
-- **GM** (2025-08-01): I don't see Seeker on your sheet, updated July 25.
-- **GM** (2025-08-01): You see the vision of Gwelf's dead body.  He's got a huge cutting wound across his torso.  He's underground, in a dark cave you don't recognize.  You're too far away to get a direction reading.
+### Town Activities
+- Alchemy attempt was successful. [#archive, #town-rolls | 2025-07-31]
+- Carousing yielded no new information; people only shared things already known or known to be false. [#archive, #town-rolls | 2025-07-31]
 
 ---
-*Generated: 2026-03-16 20:30*
+
+## Excluded (Out-of-Character)
+- "I don't see Seeker on your sheet, updated July 25." — Character sheet clarification, not in-world. [#archive, #town-rolls | 2025-08-01]
+
+---
+*Distilled: 2026-03-18 | Source: Discord Summary 2025-W30.md*

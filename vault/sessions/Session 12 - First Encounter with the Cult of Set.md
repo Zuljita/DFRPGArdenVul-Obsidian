@@ -6,7 +6,7 @@ tags:
 session_id: 12
 ---
 
-# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 12: First Encounter with the Cult of [[npcs/Set.md|Set]]
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 12: First Encounter with the [[factions/Cult of Set.md|Cult of Set]]
 
 Date:
 
@@ -42,7 +42,7 @@ Significant NPCs:
 3 feral cats
 
 
-4 Guards from the Cult of [[npcs/Set.md|Set]]
+4 Guards from the [[factions/Cult of Set.md|Cult of Set]]
 
 
 1 Invisible Stalker
@@ -96,7 +96,7 @@ Around the time the guards loosed their second bolts, Vael had cast Flight on Mi
 
 
 
-Uvash and Ioannes noticed that, in addition to the red scale armor, one of the guards was wearing a holy symbol of a dog with square ears, a distinct symbol of the proscribed Cult of [[npcs/Set.md|Set]].  After a quick discussion of whether they wanted to take prisoners, the party decided they couldn't afford to leave any [[npcs/Set.md|Set]] guards alive, and threw all four off the platform back into the [[locations/Great Cavern.md|Great Cavern]] to finish them off and to make it easier to collect their armor.  Michael flew down to strip off their armor, while Vallium stood guard and Vael and Ioannes rested.
+Uvash and Ioannes noticed that, in addition to the red scale armor, one of the guards was wearing a holy symbol of a dog with square ears, a distinct symbol of the proscribed [[factions/Cult of Set.md|Cult of Set]].  After a quick discussion of whether they wanted to take prisoners, the party decided they couldn't afford to leave any [[npcs/Set.md|Set]] guards alive, and threw all four off the platform back into the [[locations/Great Cavern.md|Great Cavern]] to finish them off and to make it easier to collect their armor.  Michael flew down to strip off their armor, while Vallium stood guard and Vael and Ioannes rested.
 
 
 
@@ -165,7 +165,7 @@ Running this part of the adventure is still hard, as it's a bunch of little cave
 
 
 
-This was the first contact with the Cult of [[npcs/Set.md|Set]], which they'd heard a bit about.  It was also their first contact with lizardmen, who they hadn't heard anything about yet.  So they are continuing to expand their knowledge of the Halls and their map, even in sessions where they don't make much obvious progress.
+This was the first contact with the [[factions/Cult of Set.md|Cult of Set]], which they'd heard a bit about.  It was also their first contact with lizardmen, who they hadn't heard anything about yet.  So they are continuing to expand their knowledge of the Halls and their map, even in sessions where they don't make much obvious progress.
 
 
 

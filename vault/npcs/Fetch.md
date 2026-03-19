@@ -5,7 +5,7 @@ tags:
 aliases:
 - '[[npcs/Fetch.md|Fetch]], elderly Archontean slave prisoner'
 appears_in:
-- Session 21 - The Library of [[npcs/Thoth.md|Thoth]]
+- Session 21 - The [[locations/Library of Thoth.md|Library of Thoth]]
 ---
 # [[npcs/Fetch.md|Fetch]]
 
