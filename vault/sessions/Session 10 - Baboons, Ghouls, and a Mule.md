@@ -20,54 +20,25 @@ Warm, overcast
 
 Player Characters:
 
-[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-[[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Michael J. Dundee.md|Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
-
+- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+- [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
+- [[pcs/Michael J. Dundee.md|Michael J. Dundee]], Thorcin barbarian (Adam)
+- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
+- [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
 
 Significant NPCs:
 
-
-
-
-
-[[npcs/Sakeon.md|Sakeon]], horse whisperer
-
-
-[[npcs/Fael.md|Fael]], half-elven food merchant
-
-
-Unnamed large mule
-
-
-[[npcs/Kronos Kettle-Belly.md|Kronos Kettle-Belly]], innkeeper
-
-
-[[npcs/Estelle.md|Estelle]], innkeeper
-
-
-Many large albino baboons
-
-
-Four-armed intelligent giant baboon
-
-
-Giant rats
-
-
-A swarm of bees
-
-
-8 ghouls
-
-
-3 ghasts
-
-
-
-
+- [[npcs/Sakeon.md|Sakeon]], horse whisperer
+- [[npcs/Fael.md|Fael]], half-elven food merchant
+- Unnamed large mule
+- [[npcs/Kronos Kettle-Belly.md|Kronos Kettle-Belly]], innkeeper
+- [[npcs/Estelle.md|Estelle]], innkeeper
+- Many large albino baboons
+- Four-armed intelligent giant baboon
+- Giant rats
+- A swarm of bees
+- 8 ghouls
+- 3 ghasts
 
 ## Full Recap
 
@@ -224,3 +195,4 @@ I haven't heard any concrete plans yet.  There was a bit of the usual discussion
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-05-16.md|Recording Notes (2025-05-16)]]
+- Original Source: [DFRPG Arden Vul Session 10: Baboons, Ghouls, and a Mule](https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-10-baboons.html)
