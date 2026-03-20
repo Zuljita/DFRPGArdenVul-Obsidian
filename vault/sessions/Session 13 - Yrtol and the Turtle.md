@@ -20,26 +20,26 @@ Cool, overcast
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-[[npcs/Ashe Maykum.md|Ashe Maykum]] "Goat" Maykum, Goblin mercenary druid (Sharp Frank)
-Lasselanta "Chrysalis" Ashcroft, Half-Elven mercenary martial artist (ArchonShiva)
+- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+- [[pcs/grudge-brigade/Ashe Maykum.md|Ashe "Goat" Maykum]], Goblin mercenary druid (Sharp Frank)
+- [[pcs/grudge-brigade/Chrysalis.md|Lasselanta "Chrysalis" Ashcroft]], Half-Elven mercenary martial artist (ArchonShiva)
 
 
 Significant NPCs:
 
-[[npcs/Hama.md|Hama]] and Company, adventurers
-[[npcs/Yrtol.md|Yrtol]], unfriendly ghost
-Dire snapping turtle
-Dirty starving crazy woman with a giant magic belt
-[[npcs/Camilla.md|Camilla]], summoned goat
-Additional summoned goats
-Summoned bat swarms
-Summoned fish swarm
-Summoned poisonous water snake
+- [[npcs/Hama.md|Hama]] and Company, adventurers
+- [[npcs/Yrtol.md|Yrtol]], unfriendly ghost
+- Dire snapping turtle
+- Dirty starving crazy woman with a giant magic belt
+- [[npcs/Camilla.md|Camilla]], summoned goat
+- Additional summoned goats
+- Summoned bat swarms
+- Summoned fish swarm
+- Summoned poisonous water snake
 
 ## Full Recap
 
-Most of the Left for Loot (alias Right for Riches) company decided to take a shopping trip to [[locations/Newmarket.md|Newmarket]], but Ioannes didn't want to spend that long away from his newly acquired cats, so he stayed in [[locations/Gosterwick.md|Gosterwick]].  And then he got bored so he went over to the [[factions/Grudge Brigade.md|Grudge Brigade]] Mercenary HQ and hired both the animal summoning goblin druid "Goat" and the mysterious half-elven staff fighter "Chrysalis".  Crysalis had just bought a Staff of Blue Light that Left for Loot had found in the [[locations/Great Cavern.md|Great Cavern]], and wanted to test it out.  Ioannis told them that with a small group he didn't want to go all the way up the [[locations/Long Stair.md|Long Stair]] into the ruins of [[locations/Arden Vul.md|Arden Vul]], just go to the base of the waterfall and check out the old haunted watchtower and the tunnels that Goat had previously found behind the waterfall's plunge pool using a Water Vision spell.  The mercs were fine with that, as long as they got paid.
+Most of the Left for Loot (alias Right for Riches) company decided to take a shopping trip to [[locations/Newmarket.md|Newmarket]], but Ioannes didn't want to spend that long away from his newly acquired cats, so he stayed in [[locations/Gosterwick.md|Gosterwick]].  And then he got bored so he went over to the [[factions/Grudge Brigade.md|Grudge Brigade]] Mercenary HQ and hired both the animal summoning goblin druid "Goat" and the mysterious half-elven staff fighter "Chrysalis".  Chrysalis had just bought a Staff of Blue Light that Left for Loot had found in the [[locations/Great Cavern.md|Great Cavern]], and wanted to test it out.  Ioannes told them that with a small group he didn't want to go all the way up the [[locations/Long Stair.md|Long Stair]] into the ruins of [[locations/Arden Vul.md|Arden Vul]], just go to the base of the waterfall and check out the old haunted watchtower and the tunnels that Goat had previously found behind the waterfall's plunge pool using a Water Vision spell.  The mercs were fine with that, as long as they got paid.
 
 Ioannes dropped the Bless spells on his usual companions, figuring they couldn't get in too much trouble shopping, and Blessed both Goat and Chrysalis.  He also made a couple of new Continual Light rocks.  Chrysalis cast Keen Hearing on all three of them, saying she could maintain it all day.  Goat summoned two more goats (in addition to [[npcs/Camilla.md|Camilla]]) and offered to let the goats carry everyone's backpacks.  He also summoned some bat swarms, but those didn't carry anything.
 
@@ -53,7 +53,7 @@ With the ghost apparently fled, Goat finished casting Mystic Mist to protect the
 
 Next they headed to the waterfall's plunge pool.  Goat cast Water Vision and again noted the location of two tunnels, about 35' and 40' underwater, behind the waterfall.  After some discussion he cast Water Vision, Breathe Water, and Swim on Chrysalis.  Chrysalis swam through the eastern tunnel, with a strong current at her back, and eventually popped up into a large cave, with huge statue of [[npcs/Arden.md|Arden]]'s head on the north wall, and a huge snapping turtle swimming toward her.  She backed into the tunnel that she thought was too narrow for it to follow, then parried its bite and smacked it in the flipper.  She followed up with a hard blow to the head, momentarily stunning the huge turtle.  It regained its wits and came at her again, then reconsidered and swam away.
 
-Meanwhile, Goat got a bit worried and summoned a swarm of fish and a poisonous water snake, sending them down the tunnel after Chyrsalis and ordering them to protect her.  However they arrived right as she drove the turtle away, so merely served as an honor guard.  She swam around the cave a bit, seeing a small dry platform to the south and a larger one to the west, then swam back out to update her friends.
+Meanwhile, Goat got a bit worried and summoned a swarm of fish and a poisonous water snake, sending them down the tunnel after Chrysalis and ordering them to protect her.  However they arrived right as she drove the turtle away, so merely served as an honor guard.  She swam around the cave a bit, seeing a small dry platform to the south and a larger one to the west, then swam back out to update her friends.
 
 Goat was tired from casting and maintaining so many spells, and Ioannes was casting Lend Energy to help, when Chrysalis popped out of the water.  She let them know about the cave and the turtle, and said she would wait for them inside.  She then swam back into the cave and climbed up onto the southern dry platform, where she could probably be safe from drowning, current, and giant turtles until the others arrived.  There was an old campfire and a skeleton there, but no loot.  She searched the platform while waiting for the others, but didn't find anything.
 
@@ -61,7 +61,7 @@ After some rest, Goat cast Breathe Water on both himself and Ioannes, and Swim a
 
 Ioannes and Chrysalis searched the west platform.  There was an inscription on the wall in Mithric, which he could read (but not fluently).  It said something like "Let all persons honor the sacrifice of [[npcs/Arden.md|Arden]], founder of this site and defender of her people" in huge letters, and "Lucullus Axia made this as thanks to Lady [[npcs/Arden.md|Arden]] for rescuing him" in merely big letters.  There were also a couple of old clay lamps and a couple of old silver coins.
 
-With Water Vision still running, Chyrsalis scanned the bottom of the pool and spotted what looked like a magic shield on the bottom.  She got Goat to cast another Swim spell on her, but thought she could do the dive without Water Breathing.  She used Breath Control, then dove toward the shield.  On the way, she spotted another glint of magic, so moved that way and grabbed a magical red square of glass.  She then swam over and grabbed the shield, then surfaced.  The turtle had not reappeared.
+With Water Vision still running, Chrysalis scanned the bottom of the pool and spotted what looked like a magic shield on the bottom.  She got Goat to cast another Swim spell on her, but thought she could do the dive without Water Breathing.  She used Breath Control, then dove toward the shield.  On the way, she spotted another glint of magic, so moved that way and grabbed a magical red square of glass.  She then swam over and grabbed the shield, then surfaced.  The turtle had not reappeared.
 
 While the Swim spell was still active, she jumped back in the water and looked around.  She saw two staircases on the north wall, flanking the statue of [[npcs/Arden.md|Arden]], starting about 20' underwater.  She surfaced, told the others that she was going to explore the stairs, then took a big breath and dove.  With the Swim spell she quickly emerged from the top of the stairs into a dry passage with breathable air, with passages leading north and west.  She looked around quickly, then swam back south before the Swim spell ran out to tell the others, then swam back north again to wait for them at the top of the stairs.
 
@@ -97,14 +97,16 @@ These players are definitely motivated by XP.  At some point they decided they h
 
 XP:
 
-Exploration: 9 new locations, good for 1 XP
-Loot: A very good haul, and only split 3 ways (summoned animals don't get paid), for 2 XP
-Achievements: None
-Total: 3 XP
+- Exploration: 9 new locations, good for 1 XP
+- Loot: A very good haul, and only split 3 ways (summoned animals don't get paid), for 2 XP
+- Achievements: None
+- Total: 3 XP
 
 
 Next Week:
 
 Most of Left for Loot should be back from [[locations/Newmarket.md|Newmarket]] and will probably be jealous of all the stuff Ioannes and the mercenaries found.  I suspect that they'll want to revisit the area behind the falls, since they left some unopened doors and a mysterious woman behind.  Of course that will only happen if Goat is available again, as he's currently their only source of Breathe Water and Swim.
 
-2025-06-14
+---
+
+**Original Source:** [DFRPG Arden Vul Session 13: Yrtol and the Turtle](https://dfwhiterock.blogspot.com/2025/06/dfrpg-arden-vul-session-13-yrtol-and.html)
