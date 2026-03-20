@@ -29,7 +29,7 @@ Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 
 Significant NPCs:
 
-Lyssandra and [[npcs/Palteon.md|Palteon]], wizards of the Arcane Practitioners' Club
+Lyssandra and [[npcs/Pelteon.md|Pelteon]], wizards of the Arcane Practitioners' Club
 [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]], ruler of [[locations/Gosterwick.md|Gosterwick]]
 [[npcs/Freydis the Stern.md|Freydis the Stern]], steward to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]
 [[npcs/Sir Lucia.md|Sir Lucia]], [[npcs/Knight Commander.md|Knight Commander]] of the Order of the Azure Shield
