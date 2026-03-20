@@ -20,9 +20,9 @@ Cool, overcast
 
 Player Characters:
 
-- Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-- [[npcs/Ashe Maykum.md|Ashe Maykum]] "Goat" Maykum, Goblin mercenary druid (Sharp Frank)
-- Lasselanta "Chrysalis" Ashcroft, Half-Elven mercenary martial artist (ArchonShiva)
+- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+- [[pcs/grudge-brigade/Ashe Maykum.md|Ashe "Goat" Maykum]], Goblin mercenary druid (Sharp Frank)
+- [[pcs/grudge-brigade/Chrysalis.md|Lasselanta "Chrysalis" Ashcroft]], Half-Elven mercenary martial artist (ArchonShiva)
 
 
 Significant NPCs:
