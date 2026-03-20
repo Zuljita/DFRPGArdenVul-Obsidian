@@ -211,10 +211,6 @@ XP:
 
 Next Week:
 
-
-
-
-
 A couple of players will be unavailable, so the others are unlikely to feel strong enough to take a run at the halflings.  I suspect they'll continue exploring the [[locations/Great Cavern.md|Great Cavern]] area, or the surface ruins.
 
 Original Source: <https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-12-first.html>
