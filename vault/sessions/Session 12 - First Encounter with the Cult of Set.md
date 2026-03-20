@@ -20,41 +20,23 @@ Cool, rainy
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vallium Halcyon, Archontean fighter (Greybrown)
-Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
-Michael J. Dundee, Thorcin barbarian (Adam)
-Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
+- Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+- Vallium Halcyon, Archontean fighter (Greybrown)
+- Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
+- Michael J. Dundee, Thorcin barbarian (Adam)
+- Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
 
 
 Significant NPCs:
 
-
-
-
-
-[[npcs/Fael.md|Fael]], Half-Elven druid at the Grain House
-
-
-[[npcs/Onyx.md|Onyx]], disturbingly smart cat
-
-
-3 feral cats
-
-
-4 Guards from the [[factions/Cult of Set.md|Cult of Set]]
-
-
-1 Invisible Stalker
-
-
-[[npcs/Skizz and Burzip.md|Skizz and Burzip]] and Burzip, lost Lizardmen
-
-
-3 Shriekers shrieking
-
-
-3 Mud People
+- [[npcs/Fael.md|Fael]], Half-Elven druid at the Grain House
+- [[npcs/Onyx.md|Onyx]], disturbingly smart cat
+- 3 feral cats
+- 4 Guards from the [[factions/Cult of Set.md|Cult of Set]]
+- 1 Invisible Stalker
+- [[npcs/Skizz and Burzip.md|Skizz and Burzip]], lost Lizardmen
+- 3 Shriekers shrieking
+- 3 Mud People
 
 
 
@@ -197,36 +179,16 @@ None
 
 XP:
 
-
-Exploration: 10 new locations, good for 1 XP
-
-
-Loot: Just the [[npcs/Set.md|Set]] guards' armor and weapons and that one silver plaque, but good for 1 XP
-
-
-Achievements: None
-
-
-Total: 2 XP
-
-
-
-
-
-
-
+- Exploration: 10 new locations, good for 1 XP
+- Loot: Just the [[npcs/Set.md|Set]] guards' armor and weapons and that one silver plaque, but good for 1 XP
+- Achievements: None
+- Total: 2 XP
 
 Next Week:
 
-
-
-
-
 A couple of players will be unavailable, so the others are unlikely to feel strong enough to take a run at the halflings.  I suspect they'll continue exploring the [[locations/Great Cavern.md|Great Cavern]] area, or the surface ruins.
 
+---
 
-
-
-
-2025-06-07
+**Original Source:** [DFRPG Arden Vul Session 12: First Encounter with the Cult of Set](https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-12-first.html)
 
