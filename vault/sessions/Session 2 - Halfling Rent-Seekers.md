@@ -20,11 +20,11 @@ Cool, cloudy
 
 Player Characters:
 
-[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vaelethron '[[pcs/Vael.md|Vael]]' Sunshadow, Half-Elven mage (Kyle)
-[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
-[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)
-[[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]], Half-Elven monk (mercenary) (Archon Shiva)
+[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
+[[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
+[[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
+[[pcs/grudge-brigade/Chrysalis.md|Lasselanta "Chrysalis" Ashcroft]], Half-Elven monk (mercenary) (Archon Shiva)
 
 
 Significant NPCs:

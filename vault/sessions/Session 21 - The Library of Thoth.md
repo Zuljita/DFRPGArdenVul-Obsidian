@@ -24,14 +24,14 @@ Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo)
 Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 Vallium Halcyon, Archontean fighter (Greybrown)
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Sister Valya "[[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]" [[npcs/Sister Valya -[[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]- Hushbreaker.md|Sister Valya -[[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]- Hushbreaker]], Halfling mercenary monk (ArchonShiva)
+Sister Valya "[[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]" [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]], Halfling mercenary monk (ArchonShiva)
 
 
 Significant NPCs:
 
 Giant lizard
 Many large albino baboons
-[[npcs/[[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]] Half-Hand.md|[[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]] Half-Hand]], Archontean wizard
+[[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]], Archontean wizard
 6 baboon zombies
 8 logovores
 Magically animated head of [[npcs/Stamelis.md|Stamelis]], Librarian of [[npcs/Thoth.md|Thoth]]
