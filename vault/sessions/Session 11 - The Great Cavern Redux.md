@@ -20,10 +20,10 @@ Cool, windy
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vallium Halcyon, Archontean fighter (Greybrown)
-Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
-Thrainor "[[npcs/Thronebreaker.md|Thronebreaker]]" Ironvein, Dwarven martial artist (Archon Shiva)
+- Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+- Vallium Halcyon, Archontean fighter (Greybrown)
+- Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
+- Thrainor "[[npcs/Thronebreaker.md|Thronebreaker]]" Ironvein, Dwarven martial artist (Archon Shiva)
 
 
 Significant NPCs:
@@ -164,7 +164,7 @@ To the east was a cave with 3 stalagmites, and no stalactites above them.  [[npc
 
 
 
-North then northeast through a very narrow corridor was a cave with a giant lizard, guarding a nest.  The lizard was too big to fit through the narrow corridor, which gave the party time to cast Great Haste and Shield spells on Vallium.  Fully buffed, he ran into the room at high speed and started rapidly stabbing the lizard.  Meanwhile, [[npcs/Thronebreaker.md|Thronebreaker]] squeezed through the passage and began attacking at a more normal pace.  Vallium grievously wounded it several times, knocking it down and stunning it, and then [[npcs/Thronebreaker.md|Thronebreaker]] decided to finish it with an all-out attack to the skull with Power Blow.  He split its skull open and destroyed its brain.  The nest contained a couple of giant lizard eggs and one egg made of gold; the group grabbed all three.  There was a suspicious dead end passage to the northeast, so [[npcs/Thronebreaker.md|Thronebreaker]] searched for a secret door in the obvious place and found one.  It opened into the northern end of the [[locations/Great Cavern.md|Great Cavern]], near a beastman observation cage  Vael then suggested that Ioannes try skinning the lizard in case some part of it was valuable.  While Ioannes did that, another giant lizard approached from the northwest, but [[npcs/Thronebreaker.md|Thronebreaker]] intimidated it away.
+North then northeast through a very narrow corridor was a cave with a giant lizard, guarding a nest.  The lizard was too big to fit through the narrow corridor, which gave the party time to cast Great Haste and Shield spells on Vallium.  Fully buffed, he ran into the room at high speed and started rapidly stabbing the lizard.  Meanwhile, [[npcs/Thronebreaker.md|Thronebreaker]] squeezed through the passage and began attacking at a more normal pace.  Vallium grievously wounded it several times, knocking it down and stunning it, and then [[npcs/Thronebreaker.md|Thronebreaker]] decided to finish it with an all-out attack to the skull with Power Blow.  He split its skull open and destroyed its brain.  The nest contained a couple of giant lizard eggs and one egg made of gold; the group grabbed all three.  There was a suspicious dead end passage to the northeast, so [[npcs/Thronebreaker.md|Thronebreaker]] searched for a secret door in the obvious place and found one.  It opened into the northern end of the [[locations/Great Cavern.md|Great Cavern]], near a beastman observation cage.  Vael then suggested that Ioannes try skinning the lizard in case some part of it was valuable.  While Ioannes did that, another giant lizard approached from the northwest, but [[npcs/Thronebreaker.md|Thronebreaker]] intimidated it away.
 
 
 
@@ -209,7 +209,7 @@ Hilariously, the adventure did not list a value for the statue's amber eyes.  I 
 
 
 
-One of the players noted that the trapped statue head would make an excellent gift for their favorite halflings under the pyramid.  If the eyes had been very valuable and easy to safely remove then I think greed would have prevailed, but it turns out they're not super valuable and not at all easy to safely remove, so we will probably see this play out in a future session, whenever they decide they're ready to fight [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halfling gang.
+One of the players noted that the trapped statue head would make an excellent gift for their favorite halflings under the pyramid.  If the eyes had been very valuable and easy to safely remove then I think greed would have prevailed, but it turns out they're not super valuable and not at all easy to safely remove, so we will probably see this play out in a future session, whenever they decide they're ready to fight [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn's]] halfling gang.
 
 
 
@@ -241,17 +241,10 @@ None
 
 XP:
 
-
-Exploration: 13 new locations, good for 1 XP
-
-
-Loot: Lots, with the most valuable item being a magic long knife.  Enough for 2 XP if enough is sold.
-
-
-Achievements: None
-
-
-Total: 3 XP
+- Exploration: 13 new locations, good for 1 XP
+- Loot: Lots, with the most valuable item being a magic long knife.  Enough for 2 XP if enough is sold.
+- Achievements: None
+- Total: 3 XP
 
 
 
@@ -262,15 +255,8 @@ Total: 3 XP
 
 Next Week:
 
+I think they might actually take a shot at [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn's]] halflings, if they get a full party.  The lure of Chekhov's Statue Head might be too much to resist.
 
+---
 
-
-
-I think they might actually take a shot at [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halflings, if they get a full party.  The lure of Chekhov's Statue Head might be too much to resist.
-
-
-
-
-
-2025-05-31
-
+**Original Source:** [DFRPG Arden Vul Session 11: The Great Cavern Redux](https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-11-great-cavern.html)
