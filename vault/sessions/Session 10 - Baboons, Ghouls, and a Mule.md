@@ -20,11 +20,11 @@ Warm, overcast
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vallium Halcyon, Archontean fighter (Greybrown)
-Michael J. Dundee, Thorcin barbarian (Adam)
-Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
-Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
+[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+[[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
+[[pcs/Michael J. Dundee.md|Michael J. Dundee]], Thorcin barbarian (Adam)
+[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
+[[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
 
 
 Significant NPCs:
