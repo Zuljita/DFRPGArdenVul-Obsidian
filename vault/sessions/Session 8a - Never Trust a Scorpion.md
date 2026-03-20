@@ -30,13 +30,13 @@ Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
 Significant NPCs:
 
 Lyssandra and [[npcs/Palteon.md|Palteon]], wizards of the Arcane Practitioners' Club
-[[npcs/[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] Basileon.md|[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] Basileon]], ruler of [[locations/Gosterwick.md|Gosterwick]]
+[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]], ruler of [[locations/Gosterwick.md|Gosterwick]]
 [[npcs/Freydis the Stern.md|Freydis the Stern]], steward to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]
 [[npcs/Sir Lucia.md|Sir Lucia]], [[npcs/Knight Commander.md|Knight Commander]] of the Order of the Azure Shield
 Sir Basil and [[npcs/Sir Irene.md|Sir Irene]], knights of the Order of the Azure Shield
 Alexios, [[npcs/Demetrios.md|Demetrios]], and [[npcs/Zoe.md|Zoe]], squires of the Order of the Azure Shield
 4 giant rats
-[[npcs/Phlebotomas [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]].md|Phlebotomas [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]]], halfling thug boss
+[[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]], halfling thug boss
 [[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]], halfling thug lieutenant
 Unknown human alchemist, working with the halfling thugs
 Many halfling thugs
@@ -52,7 +52,7 @@ Some unknown undead
 
 Last delve, the party found a very heavy and regal-looking magical rod on the richly dressed female corpse in the solarium of the Archon's Palace of [[locations/Arden Vul.md|Arden Vul]].  They brought it to Vael to analyze, but he gave up after finding a couple of enchantments.  They then took it to Lyssandra and Pelteon at the Arcane Practitioners' Club, who identified a bunch more enchantments but said it only had a few charges left, and said [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] might want it.  The group decided to sell the rod to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]], and also sold her the noblewoman's magic shortsword since none of them used a shortsword.
 
-[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]'s steward [[npcs/Freydis the Stern.md|Freydis the Stern]] asked for a meeting to discuss where the items were found and any other details the finders could share.  Vallium showed up for the meeting and explained that they'd found the rod and shortsword on a desiccated corpse of a nobly dressed woman in the solarium, and that the body had also had a signet ring.  [[npcs/Freydis the Stern.md|Freydis the Stern]] looked at the signet ring and then asked Vallium to return later, after she had a chance to converse with [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]].  When Vallium came back, [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] herself was waiting along with [[npcs/Freydis the Stern.md|Freydis the Stern]].  [[npcs/[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] Basileon.md|[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] Basileon]] said that the signet ring was definitely from her family, Basileon, and that she would like to buy it if possible.  She also said she thought the body they had found was probably her ancestor [[npcs/Uriel Basileon.md|Uriel Basileon]], the last Archon of the city of [[locations/Arden Vul.md|Arden Vul]] before it was destroyed, and that she would appreciate the group showing some of her knights where the body was, so they could give it a proper burial.  Vallium agreed.
+[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]'s steward [[npcs/Freydis the Stern.md|Freydis the Stern]] asked for a meeting to discuss where the items were found and any other details the finders could share.  Vallium showed up for the meeting and explained that they'd found the rod and shortsword on a desiccated corpse of a nobly dressed woman in the solarium, and that the body had also had a signet ring.  [[npcs/Freydis the Stern.md|Freydis the Stern]] looked at the signet ring and then asked Vallium to return later, after she had a chance to converse with [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]].  When Vallium came back, [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] herself was waiting along with [[npcs/Freydis the Stern.md|Freydis the Stern]].  [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] said that the signet ring was definitely from her family, Basileon, and that she would like to buy it if possible.  She also said she thought the body they had found was probably her ancestor [[npcs/Uriel Basileon.md|Uriel Basileon]], the last Archon of the city of [[locations/Arden Vul.md|Arden Vul]] before it was destroyed, and that she would appreciate the group showing some of her knights where the body was, so they could give it a proper burial.  Vallium agreed.
 
 The night before before leaving, Uvash cast Bless on Ioannes from the scroll they had found, and then Ioannes cast Bless on the other four PCs using the spell.  Vael made a pile of Continual Light rocks.
 
