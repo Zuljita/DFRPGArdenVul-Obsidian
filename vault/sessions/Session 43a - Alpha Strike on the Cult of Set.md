@@ -48,7 +48,7 @@ It wasn't a very complicated plan, but [[npcs/Merenuithiel Lacrymosa Armaris.md|
 Battle of the Darkness of [[npcs/Set.md|Set]]
 
 GM's Comments:
-This was not a good week for the [[factions/[[factions/Cult of Set.md|Cult of Set]].md|[[factions/Cult of Set.md|Cult of Set]]]].  They're down a dozen or so guards, a couple of acolytes, a whole bunch of cultists, a hired mage, the contents of the chest that was inexplicably floating in that chasm, and some food and furniture.  On the bright side, they have more guards and acolytes remaining.
+This was not a good week for the [[factions/Cult of Set.md|Cult of Set]].  They're down a dozen or so guards, a couple of acolytes, a whole bunch of cultists, a hired mage, the contents of the chest that was inexplicably floating in that chasm, and some food and furniture.  On the bright side, they have more guards and acolytes remaining.
 Achievements:
 Iconic Location: [[locations/Red Bridge of Set.md|The Red Bridge of Set]]
 XP:

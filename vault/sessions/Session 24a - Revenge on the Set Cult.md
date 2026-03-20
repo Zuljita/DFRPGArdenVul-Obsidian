@@ -30,7 +30,7 @@ Significant NPCs:
 
 [[npcs/Jador the Just.md|Jador the Just]], chief priestess of [[npcs/Mitra.md|Mitra]] in [[locations/Gosterwick.md|Gosterwick]]
 [[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]], logothete of the House of Sight ("[[factions/Drome.md|Drome]]") in [[locations/Gosterwick.md|Gosterwick]]
-[[npcs/Freydis the Stern.md|Freydis the Stern]], steward of [[npcs/[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] Basileon.md|[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] Basileon]] in [[locations/Gosterwick.md|Gosterwick]] 
+[[npcs/Freydis the Stern.md|Freydis the Stern]], steward of [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] in [[locations/Gosterwick.md|Gosterwick]] 
 Four [[factions/Knights of the Azure Shield.md|Knights of the Azure Shield]]
 Seven beastmen
 Many [[npcs/Set.md|Set]] guards
