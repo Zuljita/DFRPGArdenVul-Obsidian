@@ -140,7 +140,7 @@ Entering the cavern, [[npcs/Thronebreaker.md|Thronebreaker]] identified the crys
 
 
 
-Continuing to the northwest, they found a humid cave full of giant mushrooms.  These ones were brown, so did not sound like the Cloud Caps the beastmen were seeking.  There was an exit to the southwest, and when [[npcs/Thronebreaker.md|Thronebreaker]] approached it he heard yelling in another unknown language, from what looked like a walking giant mushroom.  There were several more in the cavern to the southwest, in various sizes and colors, and they were approaching with apparent hostility.  [[npcs/Thronebreaker.md|Thronebreaker]] tried his Intimidation skill to scare them off, and was intimidating enough that the mushrooms stopped in their cave and yelled, rather than continuing to advance.  After eyeballing the mushrooms for a while, the group left to the northwest, toward the sound of moving water.
+Continuing to the northwest, they found a humid cave full of giant mushrooms.  These ones were brown, so did not sound like the Cloud Caps the beastmen were seeking.  There was an exit to the southwest, and when [[pcs/Thrainor "Thronebreaker" Ironvein.md|Thronebreaker]] approached it he heard yelling in another unknown language, from what looked like a walking giant mushroom.  There were several more in the cavern to the southwest, in various sizes and colors, and they were approaching with apparent hostility.  [[pcs/Thrainor "Thronebreaker" Ironvein.md|Thronebreaker]] tried his Intimidation skill to scare them off, and was intimidating enough that the mushrooms stopped in their cave and yelled, rather than continuing to advance.  After eyeballing the mushrooms for a while, the group left to the northwest, toward the sound of moving water.
 
 
 
