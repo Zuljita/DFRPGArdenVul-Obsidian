@@ -14,7 +14,7 @@ appears_in:
 # [[npcs/Lyssandra Astorion.md|Lyssandra Astorion]]
 
 ## Summary
-Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A pragmatic buyer of rare spells and occasional adviser to delvers. Along with [[Palteon]], she identified the [[items/Gem of Insight.md|Gem of Insight]] for the party.
+Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A pragmatic buyer of rare spells and occasional adviser to delvers. Along with [[Pelteon]], she identified the [[items/Gem of Insight.md|Gem of Insight]] for the party.
 
 ## Appears In
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
@@ -27,7 +27,7 @@ Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A
 ## Notes
 
 - An older, practical mage who is a co-owner of the [[Arcane Practitioners' Club]].
-- She was the mentor to her partner, [[Palteon]].
+- She was the mentor to her partner, [[Pelteon]].
 - She is interested in buying scrolls or spellbooks containing rare or unusual spells that she does not already know.
 
 ## Sessions
