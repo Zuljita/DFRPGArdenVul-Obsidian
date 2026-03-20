@@ -20,11 +20,11 @@ Cool, rainy
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vallium Halcyon, Archontean fighter (Greybrown)
-Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
-Michael J. Dundee, Thorcin barbarian (Adam)
-Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
+[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+[[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
+[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
+[[pcs/Michael J. Dundee.md|Michael J. Dundee]], Thorcin barbarian (Adam)
+[[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
 
 
 Significant NPCs:
@@ -48,7 +48,7 @@ Significant NPCs:
 1 Invisible Stalker
 
 
-[[npcs/Skizz and Burzip.md|Skizz and Burzip]] and Burzip, lost Lizardmen
+[[npcs/Skizz and Burzip.md|Skizz and Burzip]], lost Lizardmen
 
 
 3 Shriekers shrieking
@@ -120,7 +120,7 @@ Continuing to follow the right wall in the twisty maze of cavern tunnels, Valliu
 
 
 
-They left the room to the northeast, into a room where two lizardmen were standing with their hands up in a sign of peace.  The lizardmen said something in a hissing language that was presumably Lizardman, and the party responded in various human and elf and dwarf languages, but there was no common language.  Fortunately Ioannes knew Gift of Tongues, and he cast it go gain temporary mastery of Lizardman.  It turned out the lizardmen were lost; they had come up from two levels below, were lost, and could not find their way back to the way they came up, or to the [[locations/Great Cavern.md|Great Cavern]].  Asked why they were here, they first asked if the party were friends with the [[factions/Cult of Set.md|Cult of Set]].  When Ioannes said they didn't like the [[factions/Cult of Set.md|Cult of Set]], the lizardmen revealed that they were here to kill some [[factions/Cult of Set.md|Cult of Set]] who had killed some lizardmen.  Their names were [[npcs/Skizz and Burzip.md|Skizz and Burzip]] and Burzip.  Ioannes said he could give them directions to the [[locations/Great Cavern.md|Great Cavern]] if they didn't mess with their loot and put in a good word with the other lizardmen.  [[npcs/Skizz and Burzip.md|Skizz and Burzip]] readily agreed, and the two lizardmen departed, trying to follow Ioannes' directions.
+They left the room to the northeast, into a room where two lizardmen were standing with their hands up in a sign of peace.  The lizardmen said something in a hissing language that was presumably Lizardman, and the party responded in various human and elf and dwarf languages, but there was no common language.  Fortunately Ioannes knew Gift of Tongues, and he cast it go gain temporary mastery of Lizardman.  It turned out the lizardmen were lost; they had come up from two levels below, were lost, and could not find their way back to the way they came up, or to the [[locations/Great Cavern.md|Great Cavern]].  Asked why they were here, they first asked if the party were friends with the [[factions/Cult of Set.md|Cult of Set]].  When Ioannes said they didn't like the [[factions/Cult of Set.md|Cult of Set]], the lizardmen revealed that they were here to kill some [[factions/Cult of Set.md|Cult of Set]] who had killed some lizardmen.  Their names were [[npcs/Skizz and Burzip.md|Skizz and Burzip]].  Ioannes said he could give them directions to the [[locations/Great Cavern.md|Great Cavern]] if they didn't mess with their loot and put in a good word with the other lizardmen.  [[npcs/Skizz and Burzip.md|Skizz and Burzip]] readily agreed, and the two lizardmen departed, trying to follow Ioannes' directions.
 
 
 
@@ -197,17 +197,10 @@ None
 
 XP:
 
-
-Exploration: 10 new locations, good for 1 XP
-
-
-Loot: Just the [[npcs/Set.md|Set]] guards' armor and weapons and that one silver plaque, but good for 1 XP
-
-
-Achievements: None
-
-
-Total: 2 XP
+- Exploration: 10 new locations, good for 1 XP
+- Loot: Just the [[npcs/Set.md|Set]] guards' armor and weapons and that one silver plaque, but good for 1 XP
+- Achievements: None
+- Total: 2 XP
 
 
 
@@ -224,9 +217,4 @@ Next Week:
 
 A couple of players will be unavailable, so the others are unlikely to feel strong enough to take a run at the halflings.  I suspect they'll continue exploring the [[locations/Great Cavern.md|Great Cavern]] area, or the surface ruins.
 
-
-
-
-
-2025-06-07
-
+Original Source: <https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-12-first.html>
