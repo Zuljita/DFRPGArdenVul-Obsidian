@@ -13,17 +13,28 @@ Tothsday, 20th of Fidios, 2993 AE
 Weather: 
 Frigid, party cloudy, snowy
 
-Player Characters: 
-[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)
+Player Characters:
+- [[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)
+- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)
+- [[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)
 
 Significant NPCs:
-Rudishva floor cleaning robot2 Rudishva skeletonsAssassin vine10 large zombiesAkla-Chah, Rudishva AI psychologistBasil, Right for Riches employeeComputer of the [[locations/Beacon.md|Beacon]]
+- Rudishva floor cleaning robot
+- 2 Rudishva skeletons
+- Assassin vine
+- 10 large zombies
+- Akla-Chah, Rudishva AI psychologist
+- Basil, Right for Riches employee
+- Computer of the [[locations/Beacon.md|Beacon]]
 
-The Plan:- Explore the rest of the Rudishva Bastion
+The Plan:
+- Explore the rest of the Rudishva Bastion
 - Magically scry the Rudishva teleporters
 - Explore the [[locations/Great Cavern.md|Great Cavern]] at the Bottom of the Great Chasm
 
 What Happened:
+
 Rather than taking their usual week of downtime between delves, the Right for Riches company went back into the Rudishva Bastion the next day.  They had left one of their Teleport Rugs behind in the Bastion, behind the force field, so it was easy to go back.  [[pcs/Vallium Halcyon.md|Vallium]] went back through the Rug wearing [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]]'s Salamander Amulet, used the yellow card to dismiss the force field, and walked through the fire trap to the conference room.  There the others came through the Rug to join him.  They went north and west and saw the floor cleaning robot sitting in its niche, all done cleaning up the mess they made the day before.  They went east and looked at the high-tech console, but decided not to interact with it yet.
 They went back west to an iris door propped open by a burned Rudishva corpse in a blue jumpsuit.  [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] examined the corpse and saw that it had been burned in multiple locations by some kind of narrow energy blasts, not by a single large fire covering the entire body.  Inside the room were a couple of manikins of a large human (with leathers, furs, and a spear) and a heqeti (with primitive jewelry).  At the foot of each manikin was a plaque with Rudishva glyphs.  Beyond the manikins, the room contained a bed, a desk, and a wardrobe, all made of some kind of white metal.  There was also some artwork on the wall, an amazingly detailed picture of some colorful stars.
 [[pcs/Vallium Halcyon.md|Vallium]], [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]], and [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] all ran to investigate the wardrobe, and an explosive trap went off, catching all of them.  [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] and [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] were severely injured, [[pcs/Vallium Halcyon.md|Vallium]] less so because of his armor.  [[pcs/Uvash Edzuson.md|Uvash]], who had been standing back, ran into to heal [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] and [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] before they passed out.  Once he healed [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]], [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] pitched in to heal the others, and then they drank some healing potions.  At that point, [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] decided to search the room for traps before touching anything else.  He  did not find any more traps, but he found a small panel under the bed with many buttons, each with glyphs that he thought were Rudishva numbers.  They searched the rest of the room and found some Rudishva clothing and some confusing high-tech gadgets.  They took everything portable (including the manikins!) through the Rug back to the [[locations/Beacon.md|Beacon]].  The art changed every few minutes to a different picture, and they spent a few minutes looking at the pictures, but didn't figure out how to take the screen off the wall without damaging it, or make it cycle pictures faster, so they left.
@@ -52,9 +63,11 @@ It gets a bit tedious to come up with appropriate descriptions for high-tech obj
 I was impressed that [[pcs/Vallium Halcyon.md|Vallium]] thought to use the yellow Rudishva identity plaque to avoid combat with the skeletons.  It was not obvious that would work, but it did.
 I'm continually amused by how the PCs are so extremely careful sometimes, and just rush into danger at other times.
 
-Achievements:- Regalia: Found the Command Tablet a.k.a. the Tablet of the [[locations/Beacon.md|Beacon]]: 1 XP
+Achievements:
+- Regalia: Found the Command Tablet a.k.a. the Tablet of the [[locations/Beacon.md|Beacon]]: 1 XP
 
-XP:- Exploration: 14 new locations, 1 XP
+XP:
+- Exploration: 14 new locations, 1 XP
 - Loot: Lots of Rudishva tech, some magic items, and some coins.  Probably 2 XP.
 - Achievements: 1 XP
 - Total: 4 XP
