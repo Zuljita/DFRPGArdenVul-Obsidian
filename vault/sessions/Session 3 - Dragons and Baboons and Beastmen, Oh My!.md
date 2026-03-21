@@ -1,12 +1,12 @@
 ---
-title: "3: Dragons and Baboons and Children of Deino, Oh My!"
+title: "3: Dragons and Baboons and Beastmen, Oh My!"
 tags:
   - session
   - recap
 session_id: 3
 ---
 
-# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 3: [[factions/Dragons.md|Dragons]] and Baboons and [[factions/Children of Deino.md|Children of Deino]], Oh My!
+# DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 3: [[factions/Dragons.md|Dragons]] and Baboons and Beastmen, Oh My!
 
 Date:
 
@@ -20,26 +20,26 @@ Cool, overcast, light rain
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Michael J Dundee, Thorcin barbarian (Adam)
-Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
-Vallium Halcyon, Archontean fighter (Greybrown)
-[[npcs/Coinbase.md|Coinbase]] Ethereum Thuringwador, Elven Shield Bro (mercenary) (Archon Shiva)
+- [[vault/pcs/Ioannes Grammatikos Byzantios|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+- [[vault/pcs/Michael J Dundee|Michael J Dundee]], Thorcin barbarian (Adam)
+- [[vault/pcs/Vaelethron 'Vael' Sunshadow|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
+- [[vault/pcs/Vallium Halcyon|Vallium Halcyon]], Archontean fighter (Greybrown)
+- [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase Ethereum Thuringwador]], Elven Shield Bro (mercenary) (Archon Shiva)
 
 
 Significant NPCs:
 
-Wyvern
-[[npcs/Craastonistorex.md|Craastonistorex]], green dragon
-[[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]], halfling underground toll collector lieutenant
-Several halfling toll collectors
-Several large albino baboons
-Two huge four-armed baboons
-Weird guy who hangs out with baboons
-Dwarf prisoner
-Skeleton, possibly of a former member of the Krakteros family
-Pig-headed beastman
-Many Children of Deino (heard but not seen)
+- Wyvern
+- [[npcs/Craastonistorex.md|Craastonistorex]], green dragon
+- [[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]], halfling underground toll collector lieutenant
+- Several halfling toll collectors
+- Several large albino baboons
+- Two huge four-armed baboons
+- Weird guy who hangs out with baboons
+- Dwarf prisoner
+- Skeleton, possibly of a former member of the Krakteros family
+- Pig-headed beastman
+- Many [[factions/Children of Deino.md|Children of Deino]] (heard but not seen)
 
 
 Before setting off for [[locations/Arden Vul.md|Arden Vul]], Vallium bought a fresh high-quality sweetroll from one of [[locations/Gosterwick.md|Gosterwick]]'s bakers.  The group hiked uneventfully through the cool and somewhat rainy morning to the [[locations/Cliff Face.md|Cliff Face]].  The waterfall looked a bit less violent than usual, but nobody was certain what effect their meddling with the dam control had.  Vael asked Vallium to push his wheelbarrow up the [[locations/Long Stair.md|Long Stair]] and decided to Levitate instead of walk.  He stayed with the group, however, rather than just zooming straight up and splitting the party.  Nobody slipped on the way up, despite the somewhat treacherous conditions.  The group stopped at the gateway to [[locations/Arden Vul.md|Arden Vul]] to discuss a plan, and decided to proceed north to revisit the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].
@@ -56,7 +56,7 @@ Looking down into the new stairs, a couple of people noticed a lack of a handle 
 
 The corpses and lack of an obvious exit said stop, but the magic armor said loot, so the group descended on the bodies.  Ioannes tried to diagnose cause of death and saw multiple causes: some gnaw marks, some cut wounds, and some blunt trauma.  They decided not to go down these stairs today, but grabbed all the visible loot and dragged it to the top of the staircase, then left most of it there to grab later.  They instead reset the statue's arms to face forward and reveal the staircase they took last week, which didn't feature corpses.
 
-Plodding down the stairs, they found the room at the bottom of the first staircase still had the orange Continual Light glowing.  Magery didn't pick it up as a permanent enchantment though.   They continued down the second staircase, and eventually emerged in the room with the statue of [[npcs/Thoth.md|Thoth]] with the offering chest.  The halfling toll collectors noticed them, came out to greet them, and saw two new party members who had not yet purchased Adventuring Licenses.  50 silver pieces later, [[npcs/Coinbase.md|Coinbase]] and Michael each had a dull brass token giving them permission to adventure in halfling territory as long as they paid a tithe of 10% of treasure found.  Vallium produced the sweetroll he had purchased early that morning in [[locations/Gosterwick.md|Gosterwick]] and gave it to Roskelly, the halfling lieutenant, as a gift.  Roskelly seemed surprised, but took it.
+Plodding down the stairs, they found the room at the bottom of the first staircase still had the orange Continual Light glowing.  Magery didn't pick it up as a permanent enchantment though.   They continued down the second staircase, and eventually emerged in the room with the statue of [[npcs/Thoth.md|Thoth]] with the offering chest.  The halfling toll collectors noticed them, came out to greet them, and saw two new party members who had not yet purchased Adventuring Licenses.  50 silver pieces later, [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]] and Michael each had a dull brass token giving them permission to adventure in halfling territory as long as they paid a tithe of 10% of treasure found.  Vallium produced the sweetroll he had purchased early that morning in [[locations/Gosterwick.md|Gosterwick]] and gave it to Roskelly, the halfling lieutenant, as a gift.  Roskelly seemed surprised, but took it.
 
 Once the halflings went back to their portcullis, Vallium wanted to play with the statue of [[npcs/Thoth.md|Thoth]] in the entry room.  They had tried coins and a scroll before, but he remembered that [[npcs/Thoth.md|Thoth]] liked light, so he put a Continual Light stone and some coins in the offering chest and then manipulated the statue's arms.  This did not produce any obvious effect, and he took his rock and coins back.
 
@@ -72,11 +72,11 @@ Vael remembered something the dragon had said about baboons to the east, and dec
 
 The group decided to go back down the stairs into the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] again.  First they used the statue to reveal the scary stairs and stashed more loot there, then they went down the safe stairs back to the halfling room.  They weren't eager to reveal to the halflings that they had an alternate exit, but failed to sneak past them, and told Roskelly a story about a trap that ended up depositing them outside in a way they totally couldn't repeat.  They weren't sure if Roskelly bought it, but a quick pat-down revealed no hidden treasure, and the party was coming in not going out, so the halflings let them go to explore.
 
-This time they went back to the nest of the giant rats they defeated last week, hoping to find more treasure they had missed.  The nest was empty, but as they explored north they found one burial niche that was still plugged closed, apparently not looted.  It was about 12' up, so Vael Levitated Michael up.  Michael wiped the soot off the niche plug and found both an image of ibis-headed [[npcs/Thoth.md|Thoth]] with his left arm forward and his right arm down, and a sigil of a tower with light shining out of one window.  Several people recognized this as the symbol of the Krakteros family, one of the five leading families of the empire.  Undeterred, the group decided to smash the plug open, but nobody had a crowbar and Michael didn't have any weapons he wanted to risk breaking.  [[npcs/Coinbase.md|Coinbase]], however, had an orichalcum shield that was probably unbreakable, so Vael Levitated the elf up next to Michael, and [[npcs/Coinbase.md|Coinbase]] started smashing his ridiculously expensive shield into the tomb plug, treating it like a crowbar.  The shield withstood the damage fine, and the plug eventually broke.
+This time they went back to the nest of the giant rats they defeated last week, hoping to find more treasure they had missed.  The nest was empty, but as they explored north they found one burial niche that was still plugged closed, apparently not looted.  It was about 12' up, so Vael Levitated Michael up.  Michael wiped the soot off the niche plug and found both an image of ibis-headed [[npcs/Thoth.md|Thoth]] with his left arm forward and his right arm down, and a sigil of a tower with light shining out of one window.  Several people recognized this as the symbol of the Krakteros family, one of the five leading families of the empire.  Undeterred, the group decided to smash the plug open, but nobody had a crowbar and Michael didn't have any weapons he wanted to risk breaking.  [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]], however, had an orichalcum shield that was probably unbreakable, so Vael Levitated the elf up next to Michael, and [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]] started smashing his ridiculously expensive shield into the tomb plug, treating it like a crowbar.  The shield withstood the damage fine, and the plug eventually broke.
 
-The animated skeleton behind the plug had ample warning and was waiting with its shortsword drawn to ambush the tomb robbers, but [[npcs/Coinbase.md|Coinbase]] critically succeeded on his Perception roll and the skeleton failed its ambush attack.  [[npcs/Coinbase.md|Coinbase]] tried using Rapier Wit to stun the skeleton with some pseudo-financial babble, but the skeleton appeared immune to such nonsense.  The skeleton tried to stab Michael, but [[npcs/Coinbase.md|Coinbase]] sacrificially blocked the blow.  Michael smacked the skeleton hard with his sword, Vael lowered Michael to the ground, and the others waited below, unable to reach the skeleton.  The skeleton next attacked [[npcs/Coinbase.md|Coinbase]], who blocked again with his shield.  Michael fast-drew his boomerang and winged it at the skeleton, breaking some ribs.  Vael lowered [[npcs/Coinbase.md|Coinbase]] to the ground, and now the skeleton had no enemies within shortsword range.  The skeleton bravely jumped to the ground to pursue its enemies, and made its default Acrobatics roll to avoid taking any falling damage.  However, that meant it was outnumbered five to one.  [[npcs/Coinbase.md|Coinbase]] blocked the skeleton's last attack, while Vallium and Michael raced to smash it to bits.  The skeleton parried Vallium's attack, but failed to block Michael's, which knocked it below -HP, which was automatic destruction for the Unnatural skeleton.
+The animated skeleton behind the plug had ample warning and was waiting with its shortsword drawn to ambush the tomb robbers, but [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]] critically succeeded on his Perception roll and the skeleton failed its ambush attack.  [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]] tried using Rapier Wit to stun the skeleton with some pseudo-financial babble, but the skeleton appeared immune to such nonsense.  The skeleton tried to stab Michael, but [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]] sacrificially blocked the blow.  Michael smacked the skeleton hard with his sword, Vael lowered Michael to the ground, and the others waited below, unable to reach the skeleton.  The skeleton next attacked [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]], who blocked again with his shield.  Michael fast-drew his boomerang and winged it at the skeleton, breaking some ribs.  Vael lowered [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]] to the ground, and now the skeleton had no enemies within shortsword range.  The skeleton bravely jumped to the ground to pursue its enemies, and made its default Acrobatics roll to avoid taking any falling damage.  However, that meant it was outnumbered five to one.  [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]] blocked the skeleton's last attack, while Vallium and Michael raced to smash it to bits.  The skeleton parried Vallium's attack, but failed to block Michael's, which knocked it below -HP, which was automatic destruction for the Unnatural skeleton.
 
-With the skeleton in pieces, Vael floated Michael back up to loot its niche.  There Michael found a green necklace (with the same Krakteros tower symbol that had been on the niche plug before [[npcs/Coinbase.md|Coinbase]] smashed it) and three small black spheres.  He brought them back down for inspection, and Vael used his Merchant skill to say the necklace was jade and the spheres were black pearls and that all were valuable.  The skeleton's shortsword also appeared to be high quality.  After grabbing all the loot, the group went back to the south.  This time they headed east, triggering first the Magic Mouth in an unknown language they'd heard twice before, then a second Magic Mouth in Archontean mocking [[npcs/Thoth.md|Thoth]] and his worshippers.
+With the skeleton in pieces, Vael floated Michael back up to loot its niche.  There Michael found a green necklace (with the same Krakteros tower symbol that had been on the niche plug before [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]] smashed it) and three small black spheres.  He brought them back down for inspection, and Vael used his Merchant skill to say the necklace was jade and the spheres were black pearls and that all were valuable.  The skeleton's shortsword also appeared to be high quality.  After grabbing all the loot, the group went back to the south.  This time they headed east, triggering first the Magic Mouth in an unknown language they'd heard twice before, then a second Magic Mouth in Archontean mocking [[npcs/Thoth.md|Thoth]] and his worshippers.
 
 Spotting a wooden door leading south, Ioannes first listened at it.  Hearing nothing, Vallium opened it.  A stone passage led south to another door, where they repeated the process.  The next room contained a makeshift wooden barricade, with doors to the south and east.  There was a halfling head on a spike in front of the south door.  Vallium went that way to check it out, and stepped on a spike trap crossing the barricade.  Fortunately, it was a glancing blow, and his newly-looted scale armor prevented any real damage.
 
@@ -88,32 +88,33 @@ There were more horn noises, and after a few minutes and the sound of a lot of s
 
 They took a new passage to the northeast toward the halflings, and spotted a fresco of a baboon.  Remembering a rumor about a baboon picture, they searched the fresco for secret doors, and found one.  A few minutes later they figured out how to open it, and saw that behind the secret door were some stairs leading down.  They didn't go down the stairs, and closed the secret door.
 
-Returning to the halfling territory, [[npcs/Coinbase.md|Coinbase]] gave the halfling head on the spike to Roskelly and said that should be enough tribute.  Roskelly passed the head to another halfling and said to bring it to [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]], then said no and demanded to see the treasure.  Vael, having hidden the pearls and necklace, said the only treasure they found was the shortsword.  Roskelly said that since you couldn't usefully split up a shortsword, 10% of a shortsword was the whole shortsword and to hand it over, but Vael protested that they should really only have to pay 10% of the price of a shortsword, and offered 40 silver pieces.  [[npcs/Coinbase.md|Coinbase]] couldn't resist negotiating and said it was a used shortsword and so it should be more like 16 silver, but then Roskelly went back to asking for the whole sword, and Vael (who knew it was actually a pretty nice sword worth more than the usual), handed over the 40 silver before the halflings got too suspicious.  The halflings performed a quick pat-down search but didn't find the hidden gems or jewels, and the group returned to the surface, then made it back safely to [[locations/Gosterwick.md|Gosterwick]].
+Returning to the halfling territory, [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]] gave the halfling head on the spike to Roskelly and said that should be enough tribute.  Roskelly passed the head to another halfling and said to bring it to [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]], then said no and demanded to see the treasure.  Vael, having hidden the pearls and necklace, said the only treasure they found was the shortsword.  Roskelly said that since you couldn't usefully split up a shortsword, 10% of a shortsword was the whole shortsword and to hand it over, but Vael protested that they should really only have to pay 10% of the price of a shortsword, and offered 40 silver pieces.  [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]] couldn't resist negotiating and said it was a used shortsword and so it should be more like 16 silver, but then Roskelly went back to asking for the whole sword, and Vael (who knew it was actually a pretty nice sword worth more than the usual), handed over the 40 silver before the halflings got too suspicious.  The halflings performed a quick pat-down search but didn't find the hidden gems or jewels, and the group returned to the surface, then made it back safely to [[locations/Gosterwick.md|Gosterwick]].
 
 GM's Comments:
 
 Well that was a whirlwind session.
-A green dragon
-Another staircase into the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], this one much scarier than the first one
-A teleporter
-The bottom of the Well of Light, and hallways full of lots of mirrors
-Many baboons, a couple of huge four-armed baboons, and a creepy guy torturing a dwarf
-An undead skeleton
-A couple of traps
-At least one pig-headed beastman hiding behind an arrow slit
-Some unseen Children of Deino who trapped the party in a room, then let them go
-Secret stairs down
-They managed to avoid fighting the dragon, the baboons, or the Children of Deino, this time.  They grabbed a bunch of unguarded loot, plus defeated the skeleton and took its stuff.
+- A green dragon
+- Another staircase into the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], this one much scarier than the first one
+- A teleporter
+- The bottom of the Well of Light, and hallways full of lots of mirrors
+- Many baboons, a couple of huge four-armed baboons, and a creepy guy torturing a dwarf
+- An undead skeleton
+- A couple of traps
+- At least one pig-headed beastman hiding behind an arrow slit
+- Some unseen [[factions/Children of Deino.md|Children of Deino]] who trapped the party in a room, then let them go
+- Secret stairs down
+They managed to avoid fighting the dragon, the baboons, or the [[factions/Children of Deino.md|Children of Deino]], this time.  They grabbed a bunch of unguarded loot, plus defeated the skeleton and took its stuff.
 
 Achievements:
 
 Iconic Location: Well of Light: The whole party got this achievement for being the first to find the Well of Light.  (They found just the top of it previously, but this time they fully explored it.)
 
 XP:
-Exploration: about 16 new locations, good for 1 XP
-Loot: some magic leather armor, a potion, some black pearls, a jade necklace, a nice shortsword, a suit of scale armor, and some random equipment and a few coins.  Even after subtracting some bribes to the halflings (two more Adventuring Licenses, $40 for 10% of a shortsword, and a sweetroll for Roskelly), that will end up being profitable enough for 2XP, assuming they have [[npcs/Coinbase.md|Coinbase]] sell most of the equipment they found, using his Wealth to get a better price.
-Bonus: 1 XP for everyone for the Iconic Location.
-Next week:
+- Exploration: about 16 new locations, good for 1 XP
+- Loot: some magic leather armor, a potion, some black pearls, a jade necklace, a nice shortsword, a suit of scale armor, and some random equipment and a few coins.  Even after subtracting some bribes to the halflings (two more Adventuring Licenses, $40 for 10% of a shortsword, and a sweetroll for Roskelly), that will end up being profitable enough for 2XP, assuming they have [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase]] sell most of the equipment they found, using his Wealth to get a better price.
+- Bonus: 1 XP for everyone for the Iconic Location.
+
+## Next week:
 
 It sounds like they're going to keep exploring the halfling level.  They don't like paying off the halflings, and there's been some vague discussion of fighting the halflings, but they don't seem ready yet.  It seems they're more likely to try to sneak treasure around the halflings than fight them, at least in the near term.
 
@@ -122,3 +123,4 @@ It sounds like they're going to keep exploring the halfling level.  They don't l
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-03-28.md|Recording Notes (2025-03-28)]]
+- [Original Source](https://dfwhiterock.blogspot.com/2025/03/dfrpg-arden-vul-session-3-dragons-and.html)
