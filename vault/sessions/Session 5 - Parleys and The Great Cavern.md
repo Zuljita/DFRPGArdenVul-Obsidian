@@ -20,33 +20,33 @@ Cool, overcast, rainy
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
-Vallium Halcyon, Archontean fighter (Greybrown)
-Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
-Sister Valya "[[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]" [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]], halfling monk (Mercenary) (Archon Shiva)
+* [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+* [[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
+* [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
+* [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
+* [[pcs/grudge-brigade/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya "Basilisk" Hushbreaker]], halfling monk (Mercenary) (Archon Shiva)
 
 
 Significant NPCs:
 
-[[npcs/Lyssandra Astorion.md|Lyssandra Astorion]], principal of the Arcane Practitioners' Club
-[[npcs/Freydis the Stern.md|Freydis the Stern]], steward to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] Basilion
-[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]], ruler of the town of [[locations/Gosterwick.md|Gosterwick]]
-[[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]], halfling underground toll collector lieutenant
-Several halfling toll collectors
-Many beastmen
-[[npcs/Count Skleros.md|Count Skleros]], beastman military commander
-2 ghouls
-giant salamander
-giant crab
-clockwork dragonfly
-[[npcs/Ptarmis.md|Ptarmis]], strange robed human
-3 rock reptiles
-[[npcs/Bellringer.md|Bellringer]], goblin sub-chief
-2 other goblins
+* [[npcs/Lyssandra Astorion.md|Lyssandra Astorion]], principal of the Arcane Practitioners' Club
+* [[npcs/Freydis the Stern.md|Freydis the Stern]], steward to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]
+* [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]], ruler of the town of [[locations/Gosterwick.md|Gosterwick]]
+* [[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]], halfling underground toll collector lieutenant
+* Several halfling toll collectors
+* Many beastmen
+* [[npcs/Count Skleros.md|Count Skleros]], beastman military commander
+* 2 ghouls
+* giant salamander
+* giant crab
+* clockwork dragonfly
+* [[npcs/Ptarmis.md|Ptarmis]], strange robed human
+* 3 rock reptiles
+* [[npcs/Bellringer.md|Bellringer]], goblin sub-chief
+* 2 other goblins
 
 
-After identifying the magical gem they found in the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] as a very valuable Gem of Insight, the group decided to sell it rather than keeping it.  Lyssandra mentioned the Gem to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]'s steward, [[npcs/Freydis the Stern.md|Freydis the Stern]], who invited the party for a meeting to discuss the Gem.  After some questions about the group and the Gem, [[npcs/Freydis the Stern.md|Freydis the Stern]] arranged an audience with [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] herself.  [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] purchased the Gem, and also told the group about her Regalia, four items within [[locations/Arden Vul.md|Arden Vul]] that were extremely important to her, and for which she would richly reward the finders.  The Regalia named were the Bone Ring of Jagri-Naz, the Tablet of the [[locations/Beacon.md|Beacon]], the Ebon Spear of [[npcs/Arden.md|Arden]], and the Iron Circlet of Ghanor.  [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] did not go into further detail, saying that various delvers with whom she had shared information had failed to find any of the Regalia for years, so she'd prefer that new groups go in with fresh eyes lest flaws in her intelligence led them astray.  Asked if there was anything [[locations/Gosterwick.md|Gosterwick]] could do to assist the group with finding the Regalia and other important treasure, there was a general grumbling about a lack of magic items and special purpose adventuring gear for sale in town.  [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] said that she had some healing potions available for sale and would continue trying to improve the supply of other gear, but that [[locations/Gosterwick.md|Gosterwick]] was not exactly [[locations/Archontos.md|Archontos]].
+After identifying the magical gem they found in the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] as a very valuable Gem of Insight, the group decided to sell it rather than keeping it.  Lyssandra mentioned the Gem to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]'s steward, [[npcs/Freydis the Stern.md|Freydis the Stern]], who invited the party for a meeting to discuss the Gem.  After some questions about the group and the Gem, [[npcs/Freydis the Stern.md|Freydis the Stern]] arranged an audience with [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] herself.  [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] purchased the Gem, and also told the group about her Regalia, four items within [[locations/Arden Vul.md|Arden Vul]] that were extremely important to her, and for which she would richly reward the finders.  The Regalia named were the [[items/Bone Ring of Jagri-Naz.md|Bone Ring of Jagri-Naz]], the [[items/Tablet of the Beacon.md|Tablet of the Beacon]], the [[items/Ebon Spear of Arden.md|Ebon Spear of Arden]], and the [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]].  [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] did not go into further detail, saying that various delvers with whom she had shared information had failed to find any of the Regalia for years, so she'd prefer that new groups go in with fresh eyes lest flaws in her intelligence led them astray.  Asked if there was anything [[locations/Gosterwick.md|Gosterwick]] could do to assist the group with finding the Regalia and other important treasure, there was a general grumbling about a lack of magic items and special purpose adventuring gear for sale in town.  [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] said that she had some healing potions available for sale and would continue trying to improve the supply of other gear, but that [[locations/Gosterwick.md|Gosterwick]] was not exactly [[locations/Archontos.md|Archontos]].
 
 Ioannes decided to research the Regalia, but didn't find anything interesting in the Arcane Practitioners' Club's small library.  He also ordered some finer quality leather armor and a new axe.  Vallium spread more coin around the local taverns looking for information, visited Astableon the Scribe and Bookseller to buy a history book, and visited Chairduster's Fine Metallurgy to buy some gold and silver jewelry for dragon tribute.  Vael picked up his fancy new robes and also purchased some mundane adventuring equipment to leave in the ruins.  The group visited all three merchant factors in [[locations/Gosterwick.md|Gosterwick]] ([[factions/Rarities Factor.md|Rarities Factor]], [[factions/Prosperity Factor.md|Prosperity Factor]], and [[factions/Silent Factor.md|Silent Factor]]) to look for a place to set up bank accounts, and Vael also got a reference to a lawyer who could set up an adventuring company as a legal entity.  Uvash returned from the House of the Gods to join the others on the trip, but Michael was once again out in the wilderness somewhere, so the group recruited the on-call mercenary at the [[factions/Grudge Brigade.md|Grudge Brigade]], a tiny halfling monk called [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]].
 
@@ -99,9 +99,9 @@ Iconic Location: The [[locations/Great Cavern.md|Great Cavern]]
 
 XP:
 
-Exploration: 25 new locations explored, for 2 XP.
-Loot: Magic shield, Flight potion, silver ingots, minus dragon tribute.  Selling the potion was enough for 1 XP.
-Achievements: 1 XP for finding (with beastman help) and exploring the [[locations/Great Cavern.md|Great Cavern]]. 
+* Exploration: 25 new locations explored, for 2 XP.
+* Loot: Magic shield, Flight potion, silver ingots, minus dragon tribute.  Selling the potion was enough for 1 XP.
+* Achievements: 1 XP for finding (with beastman help) and exploring the [[locations/Great Cavern.md|Great Cavern]]. 
 
 
 Next week:
@@ -113,3 +113,4 @@ They are really sick of paying tribute to both halflings and the dragon, so it s
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-04-11.md|Recording Notes (2025-04-11)]]
+- [Original Source](https://dfwhiterock.blogspot.com/2025/04/dfrpg-arden-vul-session-5-parleys-and.html)
