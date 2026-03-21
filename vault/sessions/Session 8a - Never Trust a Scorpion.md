@@ -20,39 +20,39 @@ Cool, rainy
 
 Player Characters:
 
-Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vallium Halcyon, Archontean fighter (Greybrown)
-Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
-Michael J. Dundee, Thorcin barbarian (Adam)
-Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
+- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+- [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
+- [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
+- [[pcs/Michael J. Dundee.md|Michael J. Dundee]], Thorcin barbarian (Adam)
+- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
 
 
 Significant NPCs:
 
-Lyssandra and [[npcs/Pelteon.md|Pelteon]], wizards of the Arcane Practitioners' Club
-[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]], ruler of [[locations/Gosterwick.md|Gosterwick]]
-[[npcs/Freydis the Stern.md|Freydis the Stern]], steward to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]
-[[npcs/Sir Lucia.md|Sir Lucia]], [[npcs/Knight Commander.md|Knight Commander]] of the Order of the Azure Shield
-Sir Basil and [[npcs/Sir Irene.md|Sir Irene]], knights of the Order of the Azure Shield
-Alexios, [[npcs/Demetrios.md|Demetrios]], and [[npcs/Zoe.md|Zoe]], squires of the Order of the Azure Shield
-4 giant rats
-[[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]], halfling thug boss
-[[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]], halfling thug lieutenant
-Unknown human alchemist, working with the halfling thugs
-Many halfling thugs
-3 small, roughly spherical demons
-[[npcs/Gog.md|Gog]], varumani (troll?)
-[[npcs/Dalton.md|Dalton]], adventurer
-[[npcs/Helga.md|Helga]], adventurer (with [[npcs/Dalton.md|Dalton]])
-[[npcs/Isidor.md|Isidor]], halfling adventurer (with [[npcs/Dalton.md|Dalton]])
-Many bats
-Giant bat
-Some unknown undead
+- Lyssandra and [[npcs/Pelteon.md|Pelteon]], wizards of the Arcane Practitioners' Club
+- [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]], ruler of [[locations/Gosterwick.md|Gosterwick]]
+- [[npcs/Freydis the Stern.md|Freydis the Stern]], steward to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]
+- [[npcs/Sir Lucia.md|Sir Lucia]], [[npcs/Knight Commander.md|Knight Commander]] of the Order of the Azure Shield
+- Sir Basil and [[npcs/Sir Irene.md|Sir Irene]], knights of the Order of the Azure Shield
+- Alexios, [[npcs/Demetrios.md|Demetrios]], and [[npcs/Zoe.md|Zoe]], squires of the Order of the Azure Shield
+- 4 giant rats
+- [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]], halfling thug boss
+- [[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]], halfling thug lieutenant
+- Unknown human alchemist, working with the halfling thugs
+- Many halfling thugs
+- 3 small, roughly spherical demons
+- [[npcs/Gog.md|Gog]], varumani (troll?)
+- [[npcs/Dalton.md|Dalton]], adventurer
+- [[npcs/Helga.md|Helga]], adventurer (with [[npcs/Dalton.md|Dalton]])
+- [[npcs/Isidor.md|Isidor]], halfling adventurer (with [[npcs/Dalton.md|Dalton]])
+- Many bats
+- Giant bat
+- Some unknown undead
 
 
 Last delve, the party found a very heavy and regal-looking magical rod on the richly dressed female corpse in the solarium of the Archon's Palace of [[locations/Arden Vul.md|Arden Vul]].  They brought it to Vael to analyze, but he gave up after finding a couple of enchantments.  They then took it to Lyssandra and Pelteon at the Arcane Practitioners' Club, who identified a bunch more enchantments but said it only had a few charges left, and said [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] might want it.  The group decided to sell the rod to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]], and also sold her the noblewoman's magic shortsword since none of them used a shortsword.
 
-[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]'s steward [[npcs/Freydis the Stern.md|Freydis the Stern]] asked for a meeting to discuss where the items were found and any other details the finders could share.  Vallium showed up for the meeting and explained that they'd found the rod and shortsword on a desiccated corpse of a nobly dressed woman in the solarium, and that the body had also had a signet ring.  [[npcs/Freydis the Stern.md|Freydis the Stern]] looked at the signet ring and then asked Vallium to return later, after she had a chance to converse with [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]].  When Vallium came back, [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] herself was waiting along with [[npcs/Freydis the Stern.md|Freydis the Stern]].  [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] said that the signet ring was definitely from her family, Basileon, and that she would like to buy it if possible.  She also said she thought the body they had found was probably her ancestor [[npcs/Uriel Basileon.md|Uriel Basileon]], the last Archon of the city of [[locations/Arden Vul.md|Arden Vul]] before it was destroyed, and that she would appreciate the group showing some of her knights where the body was, so they could give it a proper burial.  Vallium agreed.
+[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon's]] steward [[npcs/Freydis the Stern.md|Freydis the Stern]] asked for a meeting to discuss where the items were found and any other details the finders could share.  Vallium showed up for the meeting and explained that they'd found the rod and shortsword on a desiccated corpse of a nobly dressed woman in the solarium, and that the body had also had a signet ring.  [[npcs/Freydis the Stern.md|Freydis the Stern]] looked at the signet ring and then asked Vallium to return later, after she had a chance to converse with [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]].  When Vallium came back, [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] herself was waiting along with [[npcs/Freydis the Stern.md|Freydis the Stern]].  [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] said that the signet ring was definitely from her family, Basileon, and that she would like to buy it if possible.  She also said she thought the body they had found was probably her ancestor [[npcs/Uriel Basileon.md|Uriel Basileon]], the last Archon of the city of [[locations/Arden Vul.md|Arden Vul]] before it was destroyed, and that she would appreciate the group showing some of her knights where the body was, so they could give it a proper burial.  Vallium agreed.
 
 The night before before leaving, Uvash cast Bless on Ioannes from the scroll they had found, and then Ioannes cast Bless on the other four PCs using the spell.  Vael made a pile of Continual Light rocks.
 
@@ -92,7 +92,7 @@ There was an 8' tall green creature, like a double-sized goblin, wearing a shiny
 
 Ioannes asked if [[npcs/Gog.md|Gog]] was friends with the halflings and he said that, no, he was friends with the goblins and the halflings were not so he didn't much like the halflings.  But, no, he didn't eat halflings, eating other sentients was uncivilized.  Asked for information, [[npcs/Gog.md|Gog]] indicated that they should bring food in trade, but quickly pointed around and said that the goblins were to the southeast and they were his friends and nobody should hurt them, and that the Hall of Forty Pillars and the Obsidian Gates were up a hill to the north and that going that way would probably be fatal and not to yell to [[npcs/Gog.md|Gog]] for help if they insisted on doing it.  Asked if he knew how to get back up to the surface, [[npcs/Gog.md|Gog]] led them northeast, opened a secret door, and showed them a staircase leading up.  He said it led to a secret door south of the halflings.
 
-The conversation was rudely interrupted by two humans and a halfling falling from the ceiling and hitting the ground a bit to the west.  [[npcs/Gog.md|Gog]], not appearing very surprised, walked over to check on them.  The halfling had a broken leg.  Both humans had the wind knocked out of them, but were mostly okay.  One of the humans, a very good-looking warrior, introduced himself as [[npcs/Dalton.md|Dalton]].  He said that his adventuring party had been just west of the [[locations/Glory of Thoth.md|Glory of Thoth]], messing with the arms of a statue, when a pit opened up under three of them and sent them down a chute.  His companions were named [[npcs/Helga.md|Helga]] and [[npcs/Isidor.md|Isidor]].  [[npcs/Isidor.md|Isidor]] asked if anyone had a healing potion, and [[npcs/Dalton.md|Dalton]] gave him one.  There was a brief discussion about [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halfling thugs, who [[npcs/Dalton.md|Dalton]] admitted paying off to be allowed to pass through their territory.  [[npcs/Isidor.md|Isidor]] made it clear that he was a adventurer, not one of [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s gang.  [[npcs/Dalton.md|Dalton]] asked if anyone knew the way back up, and [[npcs/Gog.md|Gog]] let the PCs show him the secret door.  [[npcs/Dalton.md|Dalton]] said that they needed to get back to the rest of the group before anyone got too worried, but they should meet again sometime at the Inn of the Broken Head and have a longer conversation.  Ioannes asked if that was in [[locations/Gosterwick.md|Gosterwick]], and [[npcs/Dalton.md|Dalton]] laughed and said it was in the northwest of the ruins, and he had no idea how anyone could get this deep in the Halls of [[locations/Arden Vul.md|Arden Vul]] without even finding the Broken Head.  Vael was suspicious.
+The conversation was rudely interrupted by two humans and a halfling falling from the ceiling and hitting the ground a bit to the west.  [[npcs/Gog.md|Gog]], not appearing very surprised, walked over to check on them.  The halfling had a broken leg.  Both humans had the wind knocked out of them, but were mostly okay.  One of the humans, a very good-looking warrior, introduced himself as [[npcs/Dalton.md|Dalton]].  He said that his adventuring party had been just west of the [[locations/Glory of Thoth.md|Glory of Thoth]], messing with the arms of a statue, when a pit opened up under three of them and sent them down a chute.  His companions were named [[npcs/Helga.md|Helga]] and [[npcs/Isidor.md|Isidor]].  [[npcs/Isidor.md|Isidor]] asked if anyone had a healing potion, and [[npcs/Dalton.md|Dalton]] gave him one.  There was a brief discussion about [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn's]] halfling thugs, who [[npcs/Dalton.md|Dalton]] admitted paying off to be allowed to pass through their territory.  [[npcs/Isidor.md|Isidor]] made it clear that he was a adventurer, not one of [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn's]] gang.  [[npcs/Dalton.md|Dalton]] asked if anyone knew the way back up, and [[npcs/Gog.md|Gog]] let the PCs show him the secret door.  [[npcs/Dalton.md|Dalton]] said that they needed to get back to the rest of the group before anyone got too worried, but they should meet again sometime at the Inn of the Broken Head and have a longer conversation.  Ioannes asked if that was in [[locations/Gosterwick.md|Gosterwick]], and [[npcs/Dalton.md|Dalton]] laughed and said it was in the northwest of the ruins, and he had no idea how anyone could get this deep in the Halls of [[locations/Arden Vul.md|Arden Vul]] without even finding the Broken Head.  Vael was suspicious.
 
 With the other adventuring party gone, the PCs asked [[npcs/Gog.md|Gog]] if he was okay with them exploring.  [[npcs/Gog.md|Gog]] pointed to his tent and an island in the stream and said "leave [[npcs/Gog.md|Gog]]'s stuff alone", and then pointed to the southeast and said "don't hurt the goblins", and then pointed at the water and said "do not destroy environment only take a few fish not all the fish" but indicated that otherwise they could go where they wanted.  They decided to go northeast, where there was a steep slope down about 25 feet, with some old human and goblin corpses at the bottom.  Vallium threw a Continual Light rock down the hill to light the way ahead before they went down.
 
@@ -119,7 +119,7 @@ We ran out of time there, and paused just before starting the combat.
 
 GM's Comments:
 
-The PCs helped [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] recover her ancestor's body, scouted out [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s gang with Wizard Eye, fought some more rats and small round demons, found that traps and teleporters don't always work as consistently as you'd like, found a new level, met [[npcs/Gog.md|Gog]], met [[npcs/Dalton.md|Dalton]] and a couple of his friends, and explored a hidden tomb until they opened the wrong sarcophagus and undead came out of the walls.  A pretty normal week.  Very light on treasure so far, but they're not done yet.
+The PCs helped [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] recover her ancestor's body, scouted out [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn's]] gang with Wizard Eye, fought some more rats and small round demons, found that traps and teleporters don't always work as consistently as you'd like, found a new level, met [[npcs/Gog.md|Gog]], met [[npcs/Dalton.md|Dalton]] and a couple of his friends, and explored a hidden tomb until they opened the wrong sarcophagus and undead came out of the walls.  A pretty normal week.  Very light on treasure so far, but they're not done yet.
 
 
 Achievements:
@@ -141,3 +141,4 @@ For once, I can confidently say what they'll be doing at the start of the next s
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-05-02.md|Recording Notes (2025-05-02)]]
+- [Original Source](https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-8a-never-trust.html)
