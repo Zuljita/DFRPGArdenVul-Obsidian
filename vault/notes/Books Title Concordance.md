@@ -1,0 +1,255 @@
+---
+tags: [catalog, books, concordance, session-loot]
+status: active
+last_updated: 2026-03-22
+source_sheet: https://docs.google.com/spreadsheets/d/10hUMbU-N2GNi46IyBluu2W4IFaXWNfd-f0lIdpGnG7A/edit?gid=0#gid=0
+---
+
+# Books Title Concordance (Master List ↔ Session Loot Sheet)
+
+This page ties Zuljita's title list to loot-sheet occurrences. Only book-like matches are included.
+
+## Matched titles
+
+- **The Lives of the Noble Founders, Arden and Vul**
+  - date ?, page 150: `Lives of the Noble Founders Arden and Vul`
+  - date ?, page 151: `The Lives of the Noble Founders, Arden and Vul`
+  - date 2026-03-20, page 276: `The Lives of the Noble Founders, Arden and Vul`
+- **The Deeds of Marius Tricotor**
+  - date ?, page 150: `Deeds of Marius Tricotor`
+  - date ?, page 151: `The Deeds of Marius Tricotor`
+  - date ?, page 276: `The Deeds of Marius Tricotor`
+- **Tales of Larel One-Eye**
+  - date ?, page 151: `Tales of Larel One-Eye`
+  - date ?, page 276: `Tales of Larel One-Eye`
+- **On the Wars of the Old Ones with the Trolls**
+  - date ?, page 874: `On the Wars of the Old Ones with the Trolls`
+  - date ?, page 151: `On the Wars of the Old Ones with the Trolls`
+  - date ?, page 276: `On the Wars of the Old Ones with the Trolls`
+- **On the Location of Priscus Pulcher**
+  - date ?, page 276: `On the Location of Priscus Pulcher`
+- **A True History of Isadora, companion of Priscus Pulcher**
+  - date ?, page 276: `A True History of Isadora, companion of Priscus Pulcher`
+- **The Song of Jacinth the Rose**
+  - date ?, page 151: `Song of Jacinth the Rose`
+  - date ?, page 276: `The Song of Jacinth the Rose`
+- **Sorcerous Properties of Gems**
+  - date ?, page 874: `Sorcerous Properties of Gems`
+  - date ?, page 276: `Sorcerous Properties of Gems`
+- **The Value of Mud**
+  - date ?, page 276: `The Value of Mud`
+- **Canticle of Arcane Knowledge**
+  - date ?, page 151: `A Canticle of Arcane Knowledge`
+  - date ?, page 276: `Canticle of Arcane Knowledge`
+- **Thirty Uses for Arcanum**
+  - date ?, page 874: `Thirty Uses for Arcanum`
+  - date ?, page 151: `Thirty Uses for Arcanum`
+  - date ?, page 276: `Thirty Uses for Arcanum`
+- **Thorcin Poisons and their Cures**
+  - date ?, page 164: `Thorcin Poisons and their Cures (in Thorcin)`
+  - date ?, page 276: `Thorcin Poisons and their Cures`
+- **The Deeds of the Azure Knights**
+  - date ?, page 276: `The Deeds of the Azure Knights`
+- **The Nine Hells: a Catalogue with descriptions and summoning notes**
+  - date ?, page 276: `The Nine Hells: a Catalogue with descriptions and summoning notes`
+- **accounts of Cult of Set**
+  - date ?, page 268: `accounts of Cult of Set`
+- **manuscript: Translattions of 250 Rudishva glyphs to Mithric**
+  - date ?, page 358: `manuscript: Translattions of 250 Rudishva glyphs to Mithric`
+- **book: Time of Darkened Skies (Rudishva)**
+  - date ?, page 358: `book: Time of Darkened Skies (Rudishva)`
+- **book: The Properties of Arcanum (Rudishva)**
+  - date ?, page 150: `On the Properties of Arcanum`
+  - date ?, page 358: `book: The Properties of Arcanum (Rudishva)`
+- **letter from Hellas to Neferet (mostly crossed out)**
+  - date ?, page 151: `letter from Hellas to Neferet (mostly crossed out)`
+- **diary of Hellas (mostly raving)**
+  - date ?, page 151: `diary of Hellas (mostly raving)`
+- **Pol's Treatise on Scrying (cursed, rips eyes out)**
+  - date ?, page 151: `Pol's Treatise on Scrying (cursed, rips eyes out)`
+- **Super Deluxe Litany of Light (note: if language not given, it's Mithric)**
+  - date ?, page 151: `Super Deluxe Litany of Light (note: if language not given, it's Mithric)`
+- **Lamentations of Hesius or the Last Days of Lord Thoth's Dominion (secret language)**
+  - date ?, page 151: `Lamentations of Hesius or the Last Days of Lord Thoth's Dominion (secret language)`
+- **Property of Eustachius the Cantor (secret language)**
+  - date ?, page 151: `Property of Eustachius the Cantor (secret language)`
+- **The Ancient Ones**
+  - date ?, page 151: `The Ancient Ones`
+- **Animating the Inanimate**
+  - date ?, page 151: `Animating the Inanimate`
+- **Arden Speaks**
+  - date ?, page 874: `Arden Speaks`
+  - date ?, page 151: `Arden Speaks`
+- **Book of Night Maneuvers**
+  - date ?, page 151: `Book of Night Maneuvers`
+- **A Canticle of Arcane Knowledge**
+  - date ?, page 151: `A Canticle of Arcane Knowledge`
+  - date ?, page 276: `Canticle of Arcane Knowledge`
+- **Canticle of Revelation**
+  - date ?, page 151: `Canticle of Revelation`
+- **A Complete Decoding of the Old Ones' Glyphs (Mithric and Rudishva Glyphik)**
+  - date ?, page 151: `A Complete Decoding of the Old Ones' Glyphs (Mithric and Rudishva Glyphik)`
+- **Deeds of Phagtro the Westron (Phagtro and the Pirates)**
+  - date ?, page 140: `Deeds of Phagtro the Westron (Phagtro the Scout)`
+  - date ?, page 185: `quire from Deeds of Phagtro the Westron, "Phagtro and the Moving Island" (Mithric)`
+  - date ?, page 151: `Deeds of Phagtro the Westron (Phagtro and the Pirates)`
+- **Deeds of Ptarmis**
+  - date ?, page 151: `Deeds of Ptarmis`
+- **Divine Power is a Manifestation of Divine Will**
+  - date ?, page 151: `Divine Power is a Manifestation of Divine Will`
+- **Elements of Animal Reproduction**
+  - date ?, page 151: `Elements of Animal Reproduction`
+- **Elves Are the Enemy**
+  - date ?, page 151: `Elves Are the Enemy`
+- **Emperors of Archontos, Volume I**
+  - date ?, page 164: `Emperors of Archontos: Volume I (in Mithric)`
+  - date ?, page 151: `Emperors of Archontos, Volume I`
+- **Euphronia's Awakening**
+  - date ?, page 151: `Euphronia's Awakening`
+- **The First History of the Order of Thoth in Arden Vul**
+  - date ?, page 151: `The First History of the Order of Thoth in Arden Vul`
+- **Fraternal Triumph, or Taticus and Thekla Against the Troll**
+  - date ?, page 151: `Fraternal Triumph, or Taticus and Thekla Against the Troll`
+- **On Friends and Enemies**
+  - date ?, page 151: `On Friends and Enemies`
+- **Great Vampire Lords and their Demise**
+  - date ?, page TA-12: `Great Vampire Lords and their Demise`
+  - date ?, page 151: `Great Vampire Lords and their Demise`
+- **The Highly Impressive Story of Frigg the Fabulous**
+  - date ?, page 151: `The Highly Impressive Story of Frigg the Fabulous`
+- **The Honorable Life of Ligareus the Archon**
+  - date ?, page 151: `The Honorable Life of Ligareus the Archon`
+- **The Intelligent User's Guide to the Mystical Properties of Gems**
+  - date ?, page 151: `The Intelligent User's Guide to the Mystical Properties of Gems`
+- **Irene Ballatrix: on the Wars of this Great Archon**
+  - date ?, page 151: `Irene Ballatrix: on the Wars of this Great Archon`
+- **The Lay of Marius Invictus**
+  - date ?, page 151: `The Lay of Marius Invictus`
+- **Locomotion in Animals and Humanoids**
+  - date ?, page 151: `Locomotion in Animals and Humanoids`
+- **Memorial Codex of the Cult of Thoth**
+  - date ?, page 151: `Memorial Codex of the Cult of Thoth`
+- **Moralia in Teracleon**
+  - date ?, page 151: `Moralia in Teracleon`
+- **Notes on the Followers of the Arch-Traitor, Priscus Pulcher**
+  - date ?, page 151: `Notes on the Followers of the Arch-Traitor, Priscus Pulcher`
+- **On the Care and Feeding of Baboons**
+  - date ?, page 151: `On the Care and Feeding of Baboons`
+- **On the Errors of the Sortians**
+  - date ?, page 151: `On the Errors of the Sortians`
+- **On Profit**
+  - date ?, page 151: `On Profit`
+- **On the Terrible Old Gods (old Mithric, hard to read)**
+  - date ?, page 151: `On the Terrible Old Gods (old Mithric, hard to read)`
+- **Practical Animal Magic**
+  - date ?, page 874: `Practical Animal Magic`
+  - date ?, page 151: `Practical Animal Magic`
+- **Practical Liturgies of Lord Thoth (secret language)**
+  - date ?, page 149: `Practical Liturgies of Lord Thoth (secret language)`
+  - date ?, page 151: `Practical Liturgies of Lord Thoth (secret language)`
+- **Secreta Secretorum**
+  - date ?, page 151: `Secreta Secretorum`
+- **Sixteen Steps to Successful Administration**
+  - date ?, page 151: `Sixteen Steps to Successful Administration`
+- **Song of Jacinth the Rose**
+  - date ?, page 151: `Song of Jacinth the Rose`
+  - date ?, page 276: `The Song of Jacinth the Rose`
+- **Thoth in All His Forms (secret language)**
+  - date ?, page 149: `Thoth in All His Forms (secret language)`
+  - date ?, page 151: `Thoth in All His Forms (secret language)`
+- **Twelve Labors of Arden**
+  - date ?, page 865: `Book, "12 Labors of Arden", deluxe edition, Mithric`
+  - date ?, page 150: `12 Labors of Arden (deluxe)`
+  - date ?, page 151: `Twelve Labors of Arden`
+- **Vul Speaks**
+  - date ?, page 151: `Vul Speaks`
+- **Why All So-Called Gods Are Merely Avatars of the One Deity**
+  - date ?, page 151: `Why All So-Called Gods Are Merely Avatars of the One Deity`
+- **Divine Breath of Thoth (secret language)**
+  - date ?, page 118: `Divine Breath of Thoth (written in secret Thothian langage, unpowered wizardly Mystic Mist scroll on back)`
+  - date ?, page 151: `Divine Breath of Thoth (secret language)`
+- **The Founder and His Deeds (secret languages)**
+  - date ?, page 151: `The Founder and His Deeds (secret languages)`
+- **Liturgy of the Strong (secret language)**
+  - date ?, page 151: `Liturgy of the Strong (secret language)`
+- **Archons of Arden Vul**
+  - date ?, page 151: `Archons of Arden Vul`
+- **Plotina's Recipe Book**
+  - date ?, page 151: `Plotina's Recipe Book`
+- **Seventeen Uses of a Dead Troll**
+  - date ?, page 151: `Seventeen Uses of a Dead Troll`
+- **spellbook with 3 Thane spells, other spells**
+  - date ?, page TA-12: `spellbook with 3 Thane spells, other spells`
+- **Courtship of Julius the Exarch**
+  - date ?, page 126: `The Courtship of Julius the Exarch`
+  - date ?, page TA-12: `Courtship of Julius the Exarch`
+- **Divine Power Is a Manifestation of Collective Will**
+  - date ?, page TA-12: `Divine Power Is a Manifestation of Collective Will`
+- **Eighth Collegium - Fact or Fiction**
+  - date ?, page TA-12: `Eighth Collegium - Fact or Fiction`
+- **Great Villains of Archontos Part V: Priscus the Tratior**
+  - date ?, page TA-12: `Great Villains of Archontos Part V: Priscus the Tratior`
+- **History of the Pagan Cults**
+  - date ?, page TA-12: `History of the Pagan Cults`
+- **Legionary Rex and the Hidden Temple**
+  - date ?, page TA-12: `Legionary Rex and the Hidden Temple`
+- **Kel Bormol's chess diary (with some experimental notes in the back)**
+  - date ?, page 679: `Kel Bormol's chess diary (with some experimental notes in the back)`
+- **A Complete Decoding of the Old Ones’ Glyphs**
+  - date ?, page 151: `A Complete Decoding of the Old Ones' Glyphs (Mithric and Rudishva Glyphik)`
+- **Notes on the Rudishva Spirits**
+  - date ?, page 874: `Notes on the Rudishva Spirits`
+- **Rudishva Devices**
+  - date ?, page 874: `Rudishva Devices`
+- **book on bone plates, in unknown language**
+  - date ?, page 301: `book on bone plates, in unknown language`
+- **parchment and hide codex, in unknown language**
+  - date ?, page 301: `parchment and hide codex, in unknown language`
+- **The Courtship of Julius the Exarch**
+  - date ?, page 126: `The Courtship of Julius the Exarch`
+  - date ?, page TA-12: `Courtship of Julius the Exarch`
+- **Deeds of Phagtro the Westron (Phagtro the Scout)**
+  - date ?, page 140: `Deeds of Phagtro the Westron (Phagtro the Scout)`
+  - date ?, page 185: `quire from Deeds of Phagtro the Westron, "Phagtro and the Moving Island" (Mithric)`
+  - date ?, page 151: `Deeds of Phagtro the Westron (Phagtro and the Pirates)`
+- **Book of nonsense scribbles**
+  - date ?, page 140: `Book of nonsense scribbles`
+- **Isocritis' spellbook (includes Perpetual Light)**
+  - date ?, page 150: `Isocritis' spellbook (includes Perpetual Light)`
+- **Tresti's spellbook (includes Basil's Torch Treatment, Bracteros Effect, Frigg's Elephant Ears)**
+  - date ?, page 150: `Tresti's spellbook (includes Basil's Torch Treatment, Bracteros Effect, Frigg's Elephant Ears)`
+- **Litany of Light**
+  - date ?, page 150: `Litany of Light`
+  - date ?, page 137: `Litany of Light (simple version)`
+- **Lives of the Noble Founders Arden and Vul**
+  - date ?, page 150: `Lives of the Noble Founders Arden and Vul`
+  - date ?, page 151: `The Lives of the Noble Founders, Arden and Vul`
+  - date 2026-03-20, page 276: `The Lives of the Noble Founders, Arden and Vul`
+- **Deeds of Marius Tricotor**
+  - date ?, page 150: `Deeds of Marius Tricotor`
+  - date ?, page 151: `The Deeds of Marius Tricotor`
+  - date ?, page 276: `The Deeds of Marius Tricotor`
+- **12 Labors of Arden (deluxe)**
+  - date ?, page 865: `Book, "12 Labors of Arden", deluxe edition, Mithric`
+  - date ?, page 150: `12 Labors of Arden (deluxe)`
+- **Divine Breath of Thoth (written in secret Thothian langage, unpowered wizardly Mystic Mist scroll on back)**
+  - date ?, page 118: `Divine Breath of Thoth (written in secret Thothian langage, unpowered wizardly Mystic Mist scroll on back)`
+  - date ?, page 151: `Divine Breath of Thoth (secret language)`
+- **Book, "12 Labors of Arden", deluxe edition, Mithric**
+  - date ?, page 865: `Book, "12 Labors of Arden", deluxe edition, Mithric`
+  - date ?, page 150: `12 Labors of Arden (deluxe)`
+- **book: 74 Ways of Opening the Lotus (Mithric)**
+  - date ?, page 185: `book: 74 Ways of Opening the Lotus (Mithric)`
+
+## No sheet match yet
+
+- book: The Betrayal (Rudishva)
+- The Kauketiad
+- The Politics
+- Laelius’s Linguistic Primer, or How to Speak the Old Ones’ Tongue
+- Book of Priors (Mithric)
+- Book: Unknown (secret language of Thoth?)
+
+## Next actions
+- Create/normalize note pages for matched titles that do not have canonical pages yet.
+- Add backlinks from title pages to this concordance and to relevant session pages.
