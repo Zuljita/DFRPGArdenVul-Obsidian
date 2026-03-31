@@ -98,3 +98,5 @@ Several players can't make it because of the Easter holiday, so we might take th
 
 - Original Source: <https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-45-purple-mist.html>
 - Previous Session: [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
+- Next Session: [[Session 46]]
+- Discord Summary: [[Discord Summary 2026-W11]]
