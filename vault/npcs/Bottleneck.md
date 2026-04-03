@@ -3,9 +3,9 @@ title: Bottleneck
 tags:
 - npc
 aliases:
-- Bottleneck, goblin master sergeant
-- Bottleneck, goblin sergeant
-- Bottleneck Halfling-Slayer
+  - Bottleneck, goblin master sergeant
+  - Bottleneck, goblin sergeant
+  - Bottleneck Halfling-Slayer
 ---
 # Bottleneck
 

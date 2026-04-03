@@ -3,7 +3,7 @@ title: Ptoh-Ristus
 tags:
   - npc
 appears_in:
-- Session 27 - The Tomb of Ptoh-Ristus
+  - Session 27 - The Tomb of Ptoh-Ristus
 ---
 # Ptoh-Ristus
 

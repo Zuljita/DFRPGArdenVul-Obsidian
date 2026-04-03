@@ -3,7 +3,7 @@ title: Halflings
 tags:
   - faction
 aliases:
-- Phlebotomas Plumthorn's halflings
+  - Phlebotomas Plumthorn's halflings
 ---
 # Halflings
 

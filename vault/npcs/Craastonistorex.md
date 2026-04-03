@@ -4,7 +4,7 @@ tags:
   - npc
 aliases:
   - Huge Green Dragon
-- Craastonistorex
+  - Craastonistorex
   - Craas
 ---
 # Craastonistorex

@@ -3,9 +3,9 @@ title: Larel One-Eye
 tags:
 - npc
 appears_in:
-- Session 24b - The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines
+  - Session 24b - The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines
 aliases:
-- npcs/Larel
+  - npcs/Larel
 ---
 # Larel One-Eye
 

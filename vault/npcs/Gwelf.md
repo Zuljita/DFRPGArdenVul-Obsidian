@@ -3,12 +3,12 @@ title: Gwelf
 tags:
 - npc
 aliases:
-- Gwelf, crazy Dwarven thief prisoner
-- Gwelf, deceased dwarven thief
+  - Gwelf, crazy Dwarven thief prisoner
+  - Gwelf, deceased dwarven thief
 appears_in:
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment
-- Session 29 - The Tower of Scrutiny
-- Session 30 - The Tomb of Theskalon
+  - Session 16 - Random Scorpion Teleport to the Hall of Judgment
+  - Session 29 - The Tower of Scrutiny
+  - Session 30 - The Tomb of Theskalon
 ---
 # Gwelf
 

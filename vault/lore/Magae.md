@@ -3,7 +3,7 @@ tags:
 - lore
 - culture/archontean
 aliases:
-- npcs/Magae
+  - npcs/Magae
 ---
 
 # Magae

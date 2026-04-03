@@ -3,11 +3,11 @@ title: Stamelis
 tags:
 - npc
 aliases:
-- Stamelis, animated head, formerly Librarian of Thoth
-- Stamelis, enchanted head of a Thothian librarian
-- Stamelis
-- Animated bust of Stamelis, Librarian of Thoth
-- Magically animated head of Stamelis
+  - Stamelis, animated head, formerly Librarian of Thoth
+  - Stamelis, enchanted head of a Thothian librarian
+  - Stamelis
+  - Animated bust of Stamelis, Librarian of Thoth
+  - Magically animated head of Stamelis
 ---
 # Stamelis
 

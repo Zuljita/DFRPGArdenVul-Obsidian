@@ -4,7 +4,7 @@ tags:
 - culture/archontean
 - culture/thorcin
 aliases:
-- npcs/Irthuin
+  - npcs/Irthuin
 ---
 
 # Irthuin

@@ -4,26 +4,26 @@ tags:
 - npc
 aliases:
 appears_in:
-- Session 1 - First Visit to the Ruins of Arden Vul
-- Session 2 - Halfling Rent-Seekers
-- Session 3 - Dragons and Baboons and Children of Deino, Oh My!
-- Session 4 - Cheese and Crackers and Thoth and Demons
-- Session 6 - Good Ghost, Bad Ghost
-- Session 7 - Why Did It Have to Be Plants?
-- Session 8a - Never Trust a Scorpion
-- Sessions 8b and 9 - Muirasso's Tomb and the Broken Head
-- Session 16 - Random Scorpion Teleport to the Hall of Judgment
-- Session 18 - Back Down the Well of Light
-- Session 19 - The Pool of Donkey Ears
-- Session 20 - The Outer Caverns of Set
-- Session 22 - The Oracle of Thoth and The Litany of Light
-- Session 24b - The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines
-- Session 26 - The Scouring of the Shire
-- Session 28 - Teleport Rugs and Baboons
-- Session 29 - The Tower of Scrutiny
-- Session 30 - The Tomb of Theskalon
-- Session 31 - I Want to Believe
-- Session 32 - Fast Exploration
+  - Session 1 - First Visit to the Ruins of Arden Vul
+  - Session 2 - Halfling Rent-Seekers
+  - Session 3 - Dragons and Baboons and Children of Deino, Oh My!
+  - Session 4 - Cheese and Crackers and Thoth and Demons
+  - Session 6 - Good Ghost, Bad Ghost
+  - Session 7 - Why Did It Have to Be Plants?
+  - Session 8a - Never Trust a Scorpion
+  - Sessions 8b and 9 - Muirasso's Tomb and the Broken Head
+  - Session 16 - Random Scorpion Teleport to the Hall of Judgment
+  - Session 18 - Back Down the Well of Light
+  - Session 19 - The Pool of Donkey Ears
+  - Session 20 - The Outer Caverns of Set
+  - Session 22 - The Oracle of Thoth and The Litany of Light
+  - Session 24b - The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines
+  - Session 26 - The Scouring of the Shire
+  - Session 28 - Teleport Rugs and Baboons
+  - Session 29 - The Tower of Scrutiny
+  - Session 30 - The Tomb of Theskalon
+  - Session 31 - I Want to Believe
+  - Session 32 - Fast Exploration
 ---
 # Thoth
 

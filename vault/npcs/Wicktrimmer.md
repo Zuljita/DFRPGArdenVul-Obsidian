@@ -3,10 +3,10 @@ title: Wicktrimmer
 tags:
 - npc
 aliases:
-- Wicktrimmer, Imperial Goblin Leader of the Rarities Factor
-- Wicktrimmer, Imperial Goblin banker and merchant
-- Wicktrimmer, Imperial Goblin banker and trader
-- Wicktrimmer, Imperial goblin merchant factor
+  - Wicktrimmer, Imperial Goblin Leader of the Rarities Factor
+  - Wicktrimmer, Imperial Goblin banker and merchant
+  - Wicktrimmer, Imperial Goblin banker and trader
+  - Wicktrimmer, Imperial goblin merchant factor
 ---
 # Wicktrimmer
 

@@ -2,7 +2,7 @@
 tags:
 - faction
 aliases:
-- factions/Sortian
+  - factions/Sortian
 ---
 
 # Sortians

@@ -3,11 +3,11 @@ title: Vivian
 tags:
 - npc
 aliases:
-- Vivian, Thorcin chief priest of the Temple of Demma in Gosterwick
-- Vivian, priest of Demma
+  - Vivian, Thorcin chief priest of the Temple of Demma in Gosterwick
+  - Vivian, priest of Demma
 appears_in:
-- Session 2 - Halfling Rent-Seekers
-- Session 27 - The Tomb of Ptoh-Ristus
+  - Session 2 - Halfling Rent-Seekers
+  - Session 27 - The Tomb of Ptoh-Ristus
 ---
 # Vivian
 

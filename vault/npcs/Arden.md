@@ -3,11 +3,11 @@ title: Arden
 tags:
   - npc
 appears_in:
-- Session 1 - First Visit to the Ruins of Arden Vul
-- Session 5 - Parleys and The Great Cavern
-- Sessions 8b and 9 - Muirasso's Tomb and the Broken Head
+  - Session 1 - First Visit to the Ruins of Arden Vul
+  - Session 5 - Parleys and The Great Cavern
+  - Sessions 8b and 9 - Muirasso's Tomb and the Broken Head
   - "Session 10 - Baboons, Ghouls, and a Mule"
-- Session 13 - Yrtol and the Turtle
+  - Session 13 - Yrtol and the Turtle
   - "Session 32 - Fast Exploration"
 ---
 # Arden

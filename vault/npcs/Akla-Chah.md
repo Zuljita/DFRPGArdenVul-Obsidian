@@ -3,14 +3,14 @@ title: Akla-Chah
 tags:
 - npc
 aliases:
-- Akla-Chah, Rudishva hologram therapist
-- Akla-Chan
-- Akla-Chan, hologram of a Rudishva artificial intelligence psychologist
+  - Akla-Chah, Rudishva hologram therapist
+  - Akla-Chan
+  - Akla-Chan, hologram of a Rudishva artificial intelligence psychologist
 appears_in:
-- Session 31 - I Want to Believe
-- Session 32 - Fast Exploration
-- Session 33 - Nyema
-- Akla-Chan, hologram of a Rudishva artificial intelligence psychologist
+  - Session 31 - I Want to Believe
+  - Session 32 - Fast Exploration
+  - Session 33 - Nyema
+  - Akla-Chan, hologram of a Rudishva artificial intelligence psychologist
 ---
 # Akla-Chah
 

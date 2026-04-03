@@ -3,12 +3,12 @@ title: Palestrim
 tags:
 - npc
 aliases:
-- United Goblins Palestrim
-- Palestrim, Major-Domo
-- Palestrim, goblin major-domo
-- Pelestrim
+  - United Goblins Palestrim
+  - Palestrim, Major-Domo
+  - Palestrim, goblin major-domo
+  - Pelestrim
 appears_in:
-- Session 26 - The Scouring of the Shire
+  - Session 26 - The Scouring of the Shire
 ---
 # Palestrim
 

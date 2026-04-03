@@ -3,10 +3,10 @@ title: Jacobus
 tags:
 - npc
 aliases:
-- Jacobus, former Prior of Thoth, current friendly ghost
-- Prior Jacobus
+  - Jacobus, former Prior of Thoth, current friendly ghost
+  - Prior Jacobus
 appears_in:
-- Session 6 - Good Ghost, Bad Ghost
+  - Session 6 - Good Ghost, Bad Ghost
 ---
 # Jacobus
 

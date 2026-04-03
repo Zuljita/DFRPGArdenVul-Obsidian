@@ -3,9 +3,9 @@ title: Leifcrim
 tags:
 - npc
 aliases:
-- Leifcrim, halfling curios and magic items merchant
+  - Leifcrim, halfling curios and magic items merchant
 appears_in:
-- Session 26 - The Scouring of the Shire
+  - Session 26 - The Scouring of the Shire
 ---
 # Leifcrim
 

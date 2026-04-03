@@ -1,5 +1,5 @@
 ---
-title: 36: Rescuing Deino's Kids
+title: "36: Rescuing Deino's Kids"
 tags:
   - session
   - recap

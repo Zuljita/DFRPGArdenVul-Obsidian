@@ -7,7 +7,7 @@ tags:
   - body_plan/quadruped
   - sentience/animal
 appears_in:
-- Session 24a - Revenge on the Cult of Set
+  - Session 24a - Revenge on the Cult of Set
 ---
 # Apophis the giant lizard
 

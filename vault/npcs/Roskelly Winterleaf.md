@@ -3,19 +3,19 @@ title: Roskelly Winterleaf
 tags:
 - npc
 aliases:
-- Roskelly Winterleaf, Halfling toll collector and mob lieutenant
-- Roskelly Winterleaf, halfling Toll Collector
-- Roskelly Winterleaf, halfling thug lieutenant
-- Roskelly Winterleaf, halfling underground toll collector lieutenant
-- Roskelly
+  - Roskelly Winterleaf, Halfling toll collector and mob lieutenant
+  - Roskelly Winterleaf, halfling Toll Collector
+  - Roskelly Winterleaf, halfling thug lieutenant
+  - Roskelly Winterleaf, halfling underground toll collector lieutenant
+  - Roskelly
 appears_in:
-- Session 2 - Halfling Rent-Seekers
-- Session 3 - Dragons and Baboons and Children of Deino, Oh My!
-- Session 4 - Cheese and Crackers and Thoth and Demons
-- Session 6 - Good Ghost, Bad Ghost
-- Session 8a - Never Trust a Scorpion
-- Session 24b - The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines
-- Session 26 - The Scouring of the Shire
+  - Session 2 - Halfling Rent-Seekers
+  - Session 3 - Dragons and Baboons and Children of Deino, Oh My!
+  - Session 4 - Cheese and Crackers and Thoth and Demons
+  - Session 6 - Good Ghost, Bad Ghost
+  - Session 8a - Never Trust a Scorpion
+  - Session 24b - The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines
+  - Session 26 - The Scouring of the Shire
 ---
 # Roskelly Winterleaf
 

@@ -3,9 +3,9 @@ title: Azgallatu
 tags:
 - npc
 aliases:
-- Azgallatu, captured cleric of Mitra
+  - Azgallatu, captured cleric of Mitra
 appears_in:
-- Session 23c - Set Jailbreak and Down to Goblintown
+  - Session 23c - Set Jailbreak and Down to Goblintown
 ---
 # Azgallatu
 

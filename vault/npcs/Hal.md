@@ -3,9 +3,9 @@ title: Hal
 tags:
 - npc
 aliases:
-- Hal, varumani barkeeper
+  - Hal, varumani barkeeper
 appears_in:
-- Session 32 - Fast Exploration
+  - Session 32 - Fast Exploration
 ---
 # Hal
 

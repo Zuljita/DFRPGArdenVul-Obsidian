@@ -6,7 +6,7 @@ aliases:
   - Weird guy who hangs out with baboons
 appears_in:
   - "Session 16 - Random Scorpion Teleport to the Hall of Judgment"
-- Session 21 - The Library of Thoth
+  - Session 21 - The Library of Thoth
 ---
 # Gerrilad
 

@@ -4,7 +4,7 @@ tags:
 - faction
 - culture/archontean
 aliases:
-- Hama and Company
+  - Hama and Company
 ---
 # [[npcs/Hama.md|Hama]] and Company, adventurers
 

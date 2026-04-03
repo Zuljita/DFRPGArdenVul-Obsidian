@@ -6,8 +6,8 @@ tags:
 - classification/undead
 - sentience/mindless
 aliases:
-- Zombie with Dog Collar
-- monsters/Zombie with Dog Collar
+  - Zombie with Dog Collar
+  - monsters/Zombie with Dog Collar
 ---
 # Zombie Porter
 

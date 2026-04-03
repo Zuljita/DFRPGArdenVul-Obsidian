@@ -3,11 +3,11 @@ title: Ptarmis
 tags:
 - npc
 aliases:
-- Ptarmis, strange robed human
+  - Ptarmis, strange robed human
 appears_in:
-- Session 5 - Parleys and The Great Cavern
-- Session 6 - Good Ghost, Bad Ghost
-- Session 30 - The Tomb of Theskalon
+  - Session 5 - Parleys and The Great Cavern
+  - Session 6 - Good Ghost, Bad Ghost
+  - Session 30 - The Tomb of Theskalon
 ---
 # Ptarmis
 

@@ -3,9 +3,9 @@ title: Reeflik
 tags:
 - npc
 aliases:
-- Reeflik, goblin advisor
+  - Reeflik, goblin advisor
 appears_in:
-- Session 26 - The Scouring of the Shire
+  - Session 26 - The Scouring of the Shire
 ---
 # Reeflik
 

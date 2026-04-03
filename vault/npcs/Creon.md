@@ -3,11 +3,11 @@ title: Creon
 tags:
 - npc
 aliases:
-- Creon, pawnbroker
+  - Creon, pawnbroker
 appears_in:
-- Session 2 - Halfling Rent-Seekers
-- Session 20 - The Outer Caverns of Set
-- Session 28 - Teleport Rugs and Baboons
+  - Session 2 - Halfling Rent-Seekers
+  - Session 20 - The Outer Caverns of Set
+  - Session 28 - Teleport Rugs and Baboons
 ---
 # Creon
 

@@ -4,8 +4,8 @@ tags:
 - monster
 - classification/construct
 aliases:
-- monsters/Flying Monkey Statue (Huge Ears)
-- monsters/Flying Monkey Statue (Huge Eyes)
+  - monsters/Flying Monkey Statue (Huge Ears)
+  - monsters/Flying Monkey Statue (Huge Eyes)
 ---
 
 # Flying Monkey Statues

@@ -3,8 +3,8 @@ title: Yamki
 tags:
   - npc
 appears_in:
-- Session 21 - The Library of Thoth
-- Session 22 - The Oracle of Thoth and The Litany of Light
+  - Session 21 - The Library of Thoth
+  - Session 22 - The Oracle of Thoth and The Litany of Light
   - "Session 28 - Teleport Rugs and Baboons"
 ---
 # Yamki

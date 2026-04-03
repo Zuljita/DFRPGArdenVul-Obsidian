@@ -3,7 +3,7 @@ title: "Isocritis Half-Hand Half-Hand.md|Isocritis Half-Hand Half-Hand]]"
 tags:
   - npc
 aliases:
-- Isocritis Half-Hand
+  - Isocritis Half-Hand
   - Isocrates
 ---
 # Isocritis Half-Hand Half-Hand

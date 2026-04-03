@@ -3,11 +3,11 @@ title: Anaximander
 tags:
 - npc
 aliases:
-- Anaximander, ancient insane cleric of Mitra
-- Anaximander, ancient sage and cleric of Mitra
+  - Anaximander, ancient insane cleric of Mitra
+  - Anaximander, ancient sage and cleric of Mitra
 appears_in:
-- Session 22 - The Oracle of Thoth and The Litany of Light
-- Session 23c - Set Jailbreak and Down to Goblintown
+  - Session 22 - The Oracle of Thoth and The Litany of Light
+  - Session 23c - Set Jailbreak and Down to Goblintown
 ---
 # Anaximander
 

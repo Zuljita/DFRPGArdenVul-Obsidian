@@ -3,7 +3,7 @@ title: Gribble
 tags:
   - npc
 aliases:
-- United Goblins Gribble
+  - United Goblins Gribble
 ---
 # Gribble
 

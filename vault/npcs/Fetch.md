@@ -3,9 +3,9 @@ title: Fetch
 tags:
 - npc
 aliases:
-- Fetch, elderly Archontean slave prisoner
+  - Fetch, elderly Archontean slave prisoner
 appears_in:
-- Session 21 - The Library of Thoth
+  - Session 21 - The Library of Thoth
 ---
 # Fetch
 

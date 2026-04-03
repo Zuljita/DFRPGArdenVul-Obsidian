@@ -3,9 +3,9 @@ title: Temrin
 tags:
 - npc
 aliases:
-- Temrin, goblin artist
+  - Temrin, goblin artist
 appears_in:
-- Session 32 - Fast Exploration
+  - Session 32 - Fast Exploration
 ---
 # Temrin
 

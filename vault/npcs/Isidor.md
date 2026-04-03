@@ -3,9 +3,9 @@ title: Isidor
 tags:
 - npc
 aliases:
-- Isidor, halfling adventurer (with Dalton)
+  - Isidor, halfling adventurer (with Dalton)
 appears_in:
-- Session 8a - Never Trust a Scorpion
+  - Session 8a - Never Trust a Scorpion
 ---
 # Isidor
 

@@ -4,8 +4,8 @@ tags:
   - npc
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
-- Session 21 - The Library of Thoth
-- Session 22 - The Oracle of Thoth and The Litany of Light
+  - Session 21 - The Library of Thoth
+  - Session 22 - The Oracle of Thoth and The Litany of Light
   - "Session 23a - Gelatinous Cube and Slime Kraken"
 ---
 # Mitra

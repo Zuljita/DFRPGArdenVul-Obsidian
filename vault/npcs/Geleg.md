@@ -3,9 +3,9 @@ title: Geleg
 tags:
 - npc
 aliases:
-- Geleg, captured wizard
+  - Geleg, captured wizard
 appears_in:
-- Session 23c - Set Jailbreak and Down to Goblintown
+  - Session 23c - Set Jailbreak and Down to Goblintown
 ---
 # Geleg
 
