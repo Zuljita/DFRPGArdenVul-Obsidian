@@ -3,9 +3,9 @@ title: Keth
 tags:
 - npc
 aliases:
-- Keth, varumani gambler
+  - Keth, varumani gambler
 appears_in:
-- Session 32 - Fast Exploration
+  - Session 32 - Fast Exploration
 ---
 # Keth
 

@@ -3,7 +3,7 @@ title: Rizzit
 tags:
 - npc
 aliases:
-- Rizzit, demon
+  - Rizzit, demon
 ---
 # Rizzit
 

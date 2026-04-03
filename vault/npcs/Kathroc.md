@@ -3,9 +3,9 @@ title: Kathroc
 tags:
 - npc
 aliases:
-- Kathroc, Set torturer
+  - Kathroc, Set torturer
 appears_in:
-- Session 23c - Set Jailbreak and Down to Goblintown
+  - Session 23c - Set Jailbreak and Down to Goblintown
 ---
 # Kathroc
 

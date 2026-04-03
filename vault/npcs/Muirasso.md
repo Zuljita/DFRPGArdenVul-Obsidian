@@ -3,7 +3,7 @@ title: Muirasso
 tags:
 - npc
 aliases:
-- Muirasso (Wight)
+  - Muirasso (Wight)
 ---
 # Muirasso
 

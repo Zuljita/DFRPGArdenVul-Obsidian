@@ -3,9 +3,9 @@ title: Klisko
 tags:
 - npc
 aliases:
-- Klisko, badly injured mage
+  - Klisko, badly injured mage
 appears_in:
-- Session 11 - The Great Cavern Redux
+  - Session 11 - The Great Cavern Redux
 ---
 # Klisko
 

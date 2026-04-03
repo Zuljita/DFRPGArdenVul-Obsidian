@@ -4,9 +4,9 @@ tags:
   - npc
 appears_in:
   - "Session 6 - Good Ghost, Bad Ghost"
-- Session 13 - Yrtol and the Turtle
-- Session 14 - Behind the Waterfall Again
-- Session 15 - The Great Cavern Re-Revisited
+  - Session 13 - Yrtol and the Turtle
+  - Session 14 - Behind the Waterfall Again
+  - Session 15 - The Great Cavern Re-Revisited
   - "Session 31 - I Want to Believe"
 ---
 # Camilla

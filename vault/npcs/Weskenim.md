@@ -4,9 +4,9 @@ tags:
 - npc
 - goblin
 aliases:
-- Weskenim, Grand King of the United Goblins
-- Weskenim, King of the United Goblins
-- King Wiskenim
+  - Weskenim, Grand King of the United Goblins
+  - Weskenim, King of the United Goblins
+  - King Wiskenim
 ---
 # Weskenim
 

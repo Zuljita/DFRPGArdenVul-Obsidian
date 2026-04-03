@@ -3,9 +3,9 @@ title: Skimmel
 tags:
 - npc
 aliases:
-- Skimmel, goblin advisor
+  - Skimmel, goblin advisor
 appears_in:
-- Session 26 - The Scouring of the Shire
+  - Session 26 - The Scouring of the Shire
 ---
 # Skimmel
 

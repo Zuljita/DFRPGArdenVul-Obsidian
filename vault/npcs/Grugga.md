@@ -3,9 +3,9 @@ title: Grugga
 tags:
 - npc
 aliases:
-- Grugga, cavewoman leader
+  - Grugga, cavewoman leader
 appears_in:
-- Session 28 - Teleport Rugs and Baboons
+  - Session 28 - Teleport Rugs and Baboons
 ---
 # Grugga
 

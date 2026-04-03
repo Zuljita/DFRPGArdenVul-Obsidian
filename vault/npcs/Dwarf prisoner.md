@@ -3,7 +3,7 @@ title: "Dwarf prisoner"
 tags:
   - npc
 appears_in:
-- Session 3 - Dragons and Baboons and Children of Deino, Oh My!
+  - Session 3 - Dragons and Baboons and Children of Deino, Oh My!
 ---
 # Dwarf prisoner
 

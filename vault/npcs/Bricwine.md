@@ -3,8 +3,8 @@ title: Bricwine
 tags:
   - npc
 aliases:
-- Bricwine, bartender at the Yellow Cloak Inn
-- Yellow Cloak Inn Bricwine
+  - Bricwine, bartender at the Yellow Cloak Inn
+  - Yellow Cloak Inn Bricwine
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
 ---

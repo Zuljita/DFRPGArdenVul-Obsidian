@@ -3,10 +3,10 @@ title: Versania
 tags:
   - npc
 aliases:
-- Versania
+  - Versania
   - Dirty starving crazy woman with a giant magic belt
 appears_in:
-- Session 14 - Behind the Waterfall Again
+  - Session 14 - Behind the Waterfall Again
 ---
 # Versania
 

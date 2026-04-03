@@ -3,7 +3,7 @@ tags:
 - lore
 - culture/archontean
 aliases:
-- lore/Arden Vul The Archontean Calendar
+  - lore/Arden Vul The Archontean Calendar
 ---
 
 # The Archontean Calendar

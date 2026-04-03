@@ -3,7 +3,7 @@ title: Sir Sorrow
 tags:
 - npc
 aliases:
-- Sir Sorrow Rizzit
+  - Sir Sorrow Rizzit
 ---
 # Sir Sorrow
 

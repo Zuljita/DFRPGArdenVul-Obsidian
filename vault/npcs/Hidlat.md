@@ -3,9 +3,9 @@ title: Hidlat
 tags:
 - npc
 aliases:
-- Hidlat, Set wizard
+  - Hidlat, Set wizard
 appears_in:
-- Session 23c - Set Jailbreak and Down to Goblintown
+  - Session 23c - Set Jailbreak and Down to Goblintown
 ---
 # Hidlat
 

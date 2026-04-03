@@ -4,17 +4,17 @@ tags:
   - npc
   - antagonist
 aliases:
-- Phlebotomas Plumthorn
+  - Phlebotomas Plumthorn
   - Plummie
   - Plumit
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
-- Session 3 - Dragons and Baboons and Children of Deino, Oh My!
-- Session 4 - Cheese and Crackers and Thoth and Demons
+  - Session 3 - Dragons and Baboons and Children of Deino, Oh My!
+  - Session 4 - Cheese and Crackers and Thoth and Demons
   - "Session 6 - Good Ghost, Bad Ghost"
   - "Session 8a - Never Trust a Scorpion"
   - "Session 10 - Baboons, Ghouls, and a Mule"
-- Session 11 - The Great Cavern Redux
+  - Session 11 - The Great Cavern Redux
   - "Session 26 - The Scouring of the Shire"
 ---
 # Phlebotomas Phlebotomas Plumthorn

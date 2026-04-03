@@ -3,11 +3,11 @@ title: Lyssandra Astorion
 tags:
 - npc
 aliases:
-- Lyssandra Astorion, Archontean wizard, co-owner of the Arcane Practitioners'' Club
-- Lyssandra Astorion, principal of the Arcane Practitioners'' Club
+  - Lyssandra Astorion, Archontean wizard, co-owner of the Arcane Practitioners'' Club
+  - Lyssandra Astorion, principal of the Arcane Practitioners'' Club
 appears_in:
-- Session 5 - Parleys and The Great Cavern
-- Session 30 - The Tomb of Theskalon
+  - Session 5 - Parleys and The Great Cavern
+  - Session 30 - The Tomb of Theskalon
 ---
 # Lyssandra Astorion
 

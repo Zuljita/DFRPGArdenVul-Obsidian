@@ -5,7 +5,7 @@ tags:
   - deity
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
-- Session 27 - The Tomb of Ptoh-Ristus
+  - Session 27 - The Tomb of Ptoh-Ristus
 ---
 # Demma
 

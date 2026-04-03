@@ -3,9 +3,9 @@ title: Lenuel
 tags:
 - npc
 aliases:
-- Lenuel, Set jailer
+  - Lenuel, Set jailer
 appears_in:
-- Session 23c - Set Jailbreak and Down to Goblintown
+  - Session 23c - Set Jailbreak and Down to Goblintown
 ---
 # Lenuel
 

@@ -3,11 +3,11 @@ title: Susarra
 tags:
 - npc
 aliases:
-- Susarra, Archontean fighter
+  - Susarra, Archontean fighter
 appears_in:
-- Session 23a - Gelatinous Cube and Slime Kraken
-- Session 23c - Set Jailbreak and Down to Goblintown
-- Session 24a - Revenge on the Cult of Set
+  - Session 23a - Gelatinous Cube and Slime Kraken
+  - Session 23c - Set Jailbreak and Down to Goblintown
+  - Session 24a - Revenge on the Cult of Set
 ---
 # Susarra
 

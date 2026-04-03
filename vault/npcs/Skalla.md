@@ -3,8 +3,8 @@ title: Skalla
 tags:
 - npc
 aliases:
-- Skalla, skeleton warrior
-- Thoth Skalla
+  - Skalla, skeleton warrior
+  - Thoth Skalla
 ---
 # Skalla
 

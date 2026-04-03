@@ -3,9 +3,9 @@ title: Theopilos
 tags:
 - npc
 aliases:
-- Theopilos, locksmith
+  - Theopilos, locksmith
 appears_in:
-- Session 28 - Teleport Rugs and Baboons
+  - Session 28 - Teleport Rugs and Baboons
 ---
 # Theopilos
 

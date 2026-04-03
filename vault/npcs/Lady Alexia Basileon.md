@@ -6,10 +6,10 @@ tags:
 - race/unknown
 - profession/unknown
 aliases:
-- Lady Alexia Basileon
-- Lady Alexia Basileon Basilion
+  - Lady Alexia Basileon
+  - Lady Alexia Basileon Basilion
 appears_in:
-- Session 8a - Never Trust a Scorpion
+  - Session 8a - Never Trust a Scorpion
 ---
 # Lady Alexia Basileon Basileon
 
