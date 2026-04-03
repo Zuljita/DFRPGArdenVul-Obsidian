@@ -3,10 +3,10 @@ title: "Isocritis Half-Hand Half-Hand.md|Isocritis Half-Hand Half-Hand]]"
 tags:
   - npc
 aliases:
-  - [[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]]
+- Isocritis Half-Hand
   - Isocrates
 ---
-# [[npcs/[[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]] Half-Hand.md|[[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]] Half-Hand]]
+# Isocritis Half-Hand Half-Hand
 
 ## Summary
 [[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]], also known as Isocrates, is an able warrior and a loyal servant of the empire. He is the permanent advisor to the [[Under-Archon]] on tactics.

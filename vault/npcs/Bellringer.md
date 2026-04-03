@@ -4,7 +4,7 @@ tags:
   - npc
 aliases:
 ---
-# [[npcs/Bellringer.md|Bellringer]]
+# Bellringer
 
 ## Summary
 Goblin sub-chief encountered in the lower caverns while retreating after a beastman ambush.

@@ -5,7 +5,7 @@ tags:
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
 ---
-# [[npcs/Jeremias Smallleaf.md|Jeremias Smallleaf]]
+# Jeremias Smallleaf
 
 ## Appears In
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]

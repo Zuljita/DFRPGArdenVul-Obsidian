@@ -7,7 +7,7 @@ aliases:
   - Selqet
   - Selkis
 ---
-# [[npcs/Selket.md|Selket]]
+# Selket
 
 ## Summary
 Goddess associated with scorpions and protection. Her image appears in Thothian contexts throughout [[locations/Arden Vul.md|Arden Vul]].

@@ -4,7 +4,7 @@ tags:
   - npc
 aliases:
 ---
-# [[npcs/Nyema.md|Nyema]]
+# Nyema
 
 ## Summary
 The deceased wife of the ghost [[Yrtol]]. The party recovered her body from the [[Temple of Set]] and buried her, which allowed [[npcs/Yrtol.md|Yrtol]]'s spirit to find peace.

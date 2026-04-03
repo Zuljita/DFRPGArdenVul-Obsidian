@@ -6,9 +6,9 @@ aliases:
   - Weird guy who hangs out with baboons
 appears_in:
   - "Session 16 - Random Scorpion Teleport to the Hall of Judgment"
-  - "Session 21 - The [[locations/Library of Thoth.md|Library of Thoth]]"
+- Session 21 - The Library of Thoth
 ---
-# [[npcs/Gerrilad.md|Gerrilad]]
+# Gerrilad
 
 ## Summary
 Eccentric half‑elven druid and torturer associated with cages, keys, and control over a portion of the levels near the [[locations/Library of Thoth.md|Library of Thoth]]. [[npcs/Gerrilad.md|Gerrilad]] kept prisoners and claimed ownership of areas, lending or losing keys that later opened cells and doors the party encountered.

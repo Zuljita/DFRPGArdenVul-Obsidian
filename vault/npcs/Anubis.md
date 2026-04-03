@@ -3,7 +3,7 @@ title: Anubis
 tags:
   - npc
 ---
-# [[npcs/Anubis.md|Anubis]]
+# Anubis
 
 ## Summary
 Deity associated with death and embalming in Archontean/Thothian lore.

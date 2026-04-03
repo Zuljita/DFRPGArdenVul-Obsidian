@@ -100,6 +100,19 @@ Ioannes rolled a natural 3 when trying to figure out the pillar, which gave him 
 ## Next week:
 Sounds like they definitely want to talk to the beastmen.  Maybe they'll fight the halflings, but Merenuithiel mentioned several times that they should do that when she's around, so maybe they'll wait until they have her available again.
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Sources
 - [[lore/recording-notes/Recording 2025-04-04|Recording Notes (2025-04-04)]]
 - **Original Source:** [dfwhiterock.blogspot.com/2025/04/dfrpg-arden-vul-session-4-cheese-and.html](https://dfwhiterock.blogspot.com/2025/04/dfrpg-arden-vul-session-4-cheese-and.html)

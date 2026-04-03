@@ -56,6 +56,19 @@ Next Week:
 Since we stopped in mid-battle, I know exactly what they'll be doing at the start of next week's session: continuing to fight trained baboons and [[factions/Disciplined.md|Disciplined]] guards with scimitars. After that it depends on how that fight goes. Guessing they press on as long as things go well, and try to dive back through that teleporter if they go poorly.
 Solving the mystery of why the [[items/Rugs of Instant Access.md|Rugs of Instant Access]] stopped working will certainly be a high priority next session, if the PCs make it back to [[locations/Gosterwick.md|Gosterwick]].
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Source
 
 - [Blog Link](https://dfwhiterock.blogspot.com/2025/12/dfrpg-session-34a-hunting-thane.html)

@@ -3,12 +3,12 @@ title: Versania
 tags:
   - npc
 aliases:
-  - [[npcs/Versania.md|Versania]]
+- Versania
   - Dirty starving crazy woman with a giant magic belt
 appears_in:
-  - "Session 14 - Behind the [[locations/Waterfall.md|Waterfall]] Again"
+- Session 14 - Behind the Waterfall Again
 ---
-# [[npcs/Versania.md|Versania]]
+# Versania
 
 ## Summary
 A woman found living behind the waterfall, initially appearing as a dirty, starving, and mentally unstable person. After being rescued and cured of her insanity, she revealed her true name is [[npcs/Versania.md|Versania]].

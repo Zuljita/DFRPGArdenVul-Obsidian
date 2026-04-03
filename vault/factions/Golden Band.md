@@ -3,7 +3,7 @@ title: Golden Band
 tags:
   - faction
 ---
-# [[factions/Golden Band.md|Golden Band]]
+# Golden Band
 
 ## Summary
 The [[factions/Golden Band.md|Golden Band]] is an Empire-wide merchant factor.

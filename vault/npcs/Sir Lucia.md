@@ -6,7 +6,7 @@ tags:
   - race/unknown
   - profession/knight
 ---
-# [[npcs/Sir Lucia.md|Sir Lucia]]
+# Sir Lucia
 
 ## Summary
 [[npcs/Sir Lucia.md|Sir Lucia]] is a [[npcs/Knight Commander.md|Knight Commander]] of the [[Order of the Azure Shield]]. She was tasked with recovering the body of a dead Archon.

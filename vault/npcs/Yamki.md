@@ -3,11 +3,11 @@ title: Yamki
 tags:
   - npc
 appears_in:
-  - "Session 21 - The [[locations/Library of Thoth.md|Library of Thoth]]"
-  - "Session 22 - The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light"
+- Session 21 - The Library of Thoth
+- Session 22 - The Oracle of Thoth and The Litany of Light
   - "Session 28 - Teleport Rugs and Baboons"
 ---
-# [[npcs/Yamki.md|Yamki]]
+# Yamki
 
 ## Summary
 Massive four‑armed baboon chieftain encountered near the [[locations/Howling Caves.md|Howling Caves]]; wounded in early conflicts and later seen negotiating and maintaining order among baboons.

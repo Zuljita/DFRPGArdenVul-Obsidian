@@ -3,7 +3,7 @@ title: Bottomless Purse
 tags:
   - item
 ---
-# [[items/Bottomless Purse.md|Bottomless Purse]]
+# Bottomless Purse
 
 ## Summary
 Magical container with extradimensional capacity discovered during early delves. Mentioned among notable loot hauls.

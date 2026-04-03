@@ -74,3 +74,15 @@ The battle against the Settites continues. Is the nth attempt the one the finall
 - Original Source: https://dfwhiterock.blogspot.com/2026/02/dfrpg-arden-vul-session-43a-alpha.html
 - Previous Session: [[Session 42b - Neferet and the Wraiths]]
 - Next Session: [[Session 43b - Alpha Strike on the Cult of Set]]
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

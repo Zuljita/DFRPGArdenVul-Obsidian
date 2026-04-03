@@ -6,7 +6,7 @@ appears_in:
   - "Session 16 - Random Scorpion Teleport to the Hall of Judgment"
   - "Session 28 - Teleport Rugs and Baboons"
 ---
-# [[npcs/Trefko.md|Trefko]]
+# Trefko
 
 ## Summary
 Elder giant 4-armed intelligent baboon who barters with delvers and neighboring troops; pragmatic elder with whom food and small trades can secure cooperation.

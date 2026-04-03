@@ -107,3 +107,15 @@ Total: 7 XP for Uvash, 6 XP for Vael/Vallium/Ioannes, 4 XP for Michael (missed a
 Next Week:
 
 The PCs have a lot of options.  The obvious ones are to try to get their reward from [[npcs/Weskenim.md|Weskenim]], further battle the [[factions/Cult of Set.md|Cult of Set]], or finally deal with [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s [[factions/Halflings.md|Halflings]].  But they also have several parts of the Halls to explore.
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

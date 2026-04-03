@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Kaelo.md|Kaelo]]
+# Kaelo
 
 ## Summary
 The owner of [[Kaelo's Bathhouse]] in [[Gosterwick]].

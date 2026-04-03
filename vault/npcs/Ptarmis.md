@@ -3,13 +3,13 @@ title: Ptarmis
 tags:
 - npc
 aliases:
-- '[[npcs/Ptarmis.md|Ptarmis]], strange robed human'
+- Ptarmis, strange robed human
 appears_in:
-- Session 5 - Parleys and The [[locations/Great Cavern.md|Great Cavern]]
+- Session 5 - Parleys and The Great Cavern
 - Session 6 - Good Ghost, Bad Ghost
 - Session 30 - The Tomb of Theskalon
 ---
-# [[npcs/Ptarmis.md|Ptarmis]]
+# Ptarmis
 
 ## Summary
 Mysterious [[npcs/Thoth.md|Thoth]]‑aligned wizard tied to the fungal caverns near the [[Great Cavern]]. Accounts conflict between a living recluse met by the party and a historical Thothian priest of the same name credited with opening the cavern and cultivating giant mushrooms.

@@ -3,9 +3,9 @@ title: Sir Sorrow
 tags:
 - npc
 aliases:
-- '[[npcs/Sir Sorrow.md|Sir Sorrow]] [[npcs/Rizzit.md|Rizzit]]'
+- Sir Sorrow Rizzit
 ---
-# [[npcs/Sir Sorrow.md|Sir Sorrow]]
+# Sir Sorrow
 
 ## Summary
 [[npcs/Sir Sorrow.md|Sir Sorrow]] is a [[factions/Sun-Scarred Knights.md|Sun-Scarred Knight]] encountered below during the party’s dealings with goblins and [[factions/Cult of Set.md|Cult of Set]]. Session notes mention an imprisoned demon ([[npcs/Rizzit.md|Rizzit]]) on the route the party took shortly after speaking with [[npcs/Sir Sorrow.md|Sir Sorrow]], but do not state a direct connection.

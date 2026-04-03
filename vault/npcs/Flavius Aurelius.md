@@ -4,7 +4,7 @@ tags:
   - npc
 aliases:
 ---
-# [[npcs/Flavius Aurelius.md|Flavius Aurelius]]
+# Flavius Aurelius
 
 ## Summary
 - TODO: Short description.

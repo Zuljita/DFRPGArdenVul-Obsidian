@@ -3,11 +3,11 @@ title: Tresti
 tags:
 - npc
 aliases:
-- '[[npcs/Tresti.md|Tresti]], Half-Elven wizard prisoner'
+- Tresti, Half-Elven wizard prisoner
 appears_in:
 - Session 16 - Random Scorpion Teleport to the Hall of Judgment
 ---
-# [[npcs/Tresti.md|Tresti]]
+# Tresti
 
 ## Summary
 A Half-Elven wizard held prisoner.

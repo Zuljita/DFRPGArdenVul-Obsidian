@@ -110,3 +110,15 @@ Most of Left for Loot should be back from [[locations/Newmarket.md|Newmarket]] a
 ---
 
 **Original Source:** [DFRPG Arden Vul Session 13: Yrtol and the Turtle](https://dfwhiterock.blogspot.com/2025/06/dfrpg-arden-vul-session-13-yrtol-and.html)
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

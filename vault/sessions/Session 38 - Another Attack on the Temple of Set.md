@@ -61,6 +61,19 @@ XP:- Exploration: 2 new locations, 0 XP
 Next Week:
 I haven't seen a formal plan yet, but there was some discussion of following [[npcs/Temrin.md|Temrin]]'s map to the gold Rudishva identity plaque.  There was also talk of continuing to hammer the Settites, or maybe even going after Craas.  We'll see.
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Source
 
 - https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-38-another.html

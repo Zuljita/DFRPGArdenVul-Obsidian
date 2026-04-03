@@ -22,3 +22,15 @@ It appears that the [[factions/Cult of Set.md|Cult of Set]] was not happy about 
 Once he got the blood sample, Vael cast Seeker followed by Trace, revealing that [[npcs/Susarra.md|Susarra]]'s head was currently in a backpack tossed in a corner of a comfortable room, about ten miles north of [[locations/Gosterwick.md|Gosterwick]].  Vael could maintain the Trace spell as long as he could stay awake, but could not cast Seeker again for a week, so he advocated cutting short the usual week of downtime between delves and immediately going after whoever murdered [[npcs/Susarra.md|Susarra]].
 
 To be continued...
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

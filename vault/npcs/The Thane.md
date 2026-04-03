@@ -4,7 +4,7 @@ tags:
 aliases:
   - Tikun Thane
 ---
-# [[npcs/The Thane.md|The Thane]]
+# The Thane
 
 ## Summary
 A wizard from [[Newmarket]] who kidnaps baboons from the [[Howling Caves]].

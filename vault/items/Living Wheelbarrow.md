@@ -3,7 +3,7 @@ title: Living Wheelbarrow
 tags:
   - item
 ---
-# [[items/Living Wheelbarrow.md|Living Wheelbarrow]]
+# Living Wheelbarrow
 
 The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] is a magical item created by the inventor [[Ashe Maykum]] under the company [[Alcheboretal Animossities]]. It was developed as part of his "Shroom for Improvement" prototype and was eventually ready for mass production.
 

@@ -1,3 +1,10 @@
+---
+tags:
+  - lore
+aliases:
+  - Rumor Index
+---
+
 # Rumors
 
 This page consolidates all the rumors found throughout the vault.

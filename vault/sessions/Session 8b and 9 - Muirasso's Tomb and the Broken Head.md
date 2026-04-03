@@ -103,3 +103,15 @@ There was the usual smack talk about the halflings, but I'll believe it when I s
 
 ---
 Original Source: https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-sessions-8b-and-9.html
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

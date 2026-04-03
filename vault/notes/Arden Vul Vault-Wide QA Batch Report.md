@@ -1,3 +1,9 @@
+---
+tags:
+  - note
+  - qa-report
+---
+
 # Arden Vul Vault-Wide QA Batch Report
 
 ---

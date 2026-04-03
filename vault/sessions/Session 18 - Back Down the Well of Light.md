@@ -91,3 +91,15 @@ Next Week:
 [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] expressed interest in finding the [[locations/Library of Thoth.md|Library of Thoth]] and moving [[npcs/Stamelis.md|Stamelis]] there.  So there's a chance they will attempt that.  There was also continued griping about [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s [[factions/Halflings.md|Halflings]] being in the way of wherever they want to go, so maybe they'll try removing them.
 
 2025-07-19
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

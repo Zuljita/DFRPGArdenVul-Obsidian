@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# [[locations/Newmarket.md|Newmarket]] → ship to Sweetwater Hold.
+# Newmarket → ship to Sweetwater Hold.
 
 ## Key Features
 

@@ -3,7 +3,7 @@ title: Rarities Factor
 tags:
   - faction
 ---
-# [[factions/Rarities Factor.md|Rarities Factor]]
+# Rarities Factor
 
 ## Summary
 The [[factions/Rarities Factor.md|Rarities Factor]] is a regional merchant factor with locations in [[Gosterwick]], [[Narsileon]], and [[Newmarket]]. The [[locations/Gosterwick.md|Gosterwick]] branch is led by the goblin [[Wicktrimmer]].

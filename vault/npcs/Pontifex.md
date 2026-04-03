@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Pontifex.md|Pontifex]]
+# Pontifex
 
 ## Summary
 The [[npcs/Pontifex.md|Pontifex]] is the high leader of the [[Cult of Set]] based in the [[Forum of Set]] in [[Arden Vul]]. They are responsible for issuing bounties and directing the cult's activities.

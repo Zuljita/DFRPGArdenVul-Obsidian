@@ -3,12 +3,11 @@ title: Larel One-Eye
 tags:
 - npc
 appears_in:
-- Session 24b - The [[factions/Cult of Set.md|Cult of Set]] Strikes Back, Larel's
-  Stuff, and the Hall of [[locations/Shrines.md|Shrines]]
+- Session 24b - The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines
 aliases:
 - npcs/Larel
 ---
-# [[npcs/Larel One-Eye.md|Larel One-Eye]]
+# Larel One-Eye
 
 ## Appears In
 - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]

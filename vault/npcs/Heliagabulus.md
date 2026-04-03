@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Heliagabulus.md|Heliagabulus]]
+# Heliagabulus
 
 ## Summary
 A member of [[factions/Dalton's Darlings|Dalton's Darlings]].

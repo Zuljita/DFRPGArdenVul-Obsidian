@@ -5,9 +5,9 @@ tags:
   - deity
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
-  - "Session 27 - The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]"
+- Session 27 - The Tomb of Ptoh-Ristus
 ---
-# [[npcs/Demma.md|Demma]]
+# Demma
 
 [[npcs/Demma.md|Demma]], the "Great Nurturer," is a goddess of fertility, crops, households, childbirth, and magic. She is part of the new pantheon of gods, and the fifth day of the week, [[The Archontean Calendar#Demmasday|Demmasday]], is named in her honor.
 
@@ -70,3 +70,7 @@ An early incident at the [[locations/Yellow Cloak Inn|Yellow Cloak Inn]], where 
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 
 ## Notes
+
+## Discord Insights
+
+- A deity, one of 'The Ten', with an individual temple (Temple of Demma) staffed by full-time clerics. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])

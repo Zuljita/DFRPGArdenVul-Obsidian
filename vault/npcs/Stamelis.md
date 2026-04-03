@@ -3,13 +3,13 @@ title: Stamelis
 tags:
 - npc
 aliases:
-- '[[npcs/Stamelis.md|Stamelis]], animated head, formerly Librarian of [[npcs/Thoth.md|Thoth]]'
-- '[[npcs/Stamelis.md|Stamelis]], enchanted head of a Thothian librarian'
-- '[[npcs/Stamelis.md|Stamelis]]'
-- Animated bust of [[npcs/Stamelis.md|Stamelis]], Librarian of [[npcs/Thoth.md|Thoth]]
-- Magically animated head of [[npcs/Stamelis.md|Stamelis]]
+- Stamelis, animated head, formerly Librarian of Thoth
+- Stamelis, enchanted head of a Thothian librarian
+- Stamelis
+- Animated bust of Stamelis, Librarian of Thoth
+- Magically animated head of Stamelis
 ---
-# [[npcs/Stamelis.md|Stamelis]]
+# Stamelis
 
 ## Summary
 [[npcs/Stamelis.md|Stamelis]] is the animated, enchanted head of a former Librarian of [[Thoth]]. He resides in the [[Library of Thoth]] and serves as a source of information for the party, including lore about the undead librarians.

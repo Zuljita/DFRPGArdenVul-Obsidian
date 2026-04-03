@@ -5,7 +5,7 @@ tags:
 aliases:
   - Schist of Clan Corundam
 ---
-# [[npcs/Schist Corundam.md|Schist Corundam]]
+# Schist Corundam
 
 ## Summary
 - Name engraved on a Dwarven life-stone traded from [[npcs/Trefko.md|Trefko]]; likely a dwarven individual (given name Schist, clan Corundam).

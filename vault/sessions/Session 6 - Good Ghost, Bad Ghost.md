@@ -65,6 +65,19 @@ The party picked up all the portable treasure from the tomb.  This included a lo
 
 Discussion of the chest made everyone remember the halflings.  [[pcs/Vallium Halcyon|Vallium]] mentioned maybe just giving them their 10% for once, but [[pcs/grudge-brigade/Ashe Maykum|Ashe Maykum]] scoffed and suggested using Mystic Mist instead.  The plan was to approch the [[locations/Glory of Thoth|Glory of Thoth]] from the northwest entrance, only 10 yards from the stairs up to the pyramid, then cast a big Mystic Mist over the whole northeast corner of the room, and march the treasure out while the halflings were confused by the mist.  One of [[npcs/Roskelly Winterleaf|Roskelly]]'s fighters saw the mist appear, and [[npcs/Roskelly Winterleaf|Roskelly]] sent a couple of halflings in to investigate, but both ran back out screaming, and then the PCs were up the stairs,  [[npcs/Roskelly Winterleaf|Roskelly]] was yelling after them, though; this time the halflings knew they'd been cheated of their share of the loot.
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## GM's Comments:
 Three fights this week: quickly running away from a ghost, quickly dispatching some chasm cephalopods, and then a long grindy fight against some ghouls and a wight.  Only [[pcs/Vallium Halcyon|Vallium]] and [[pcs/grudge-brigade/Ashe Maykum|Ashe Maykum]] got to do much, but the PCs won.  Summoned swarms are pretty powerful, but more combatants mean slower combats.  They found a lot of treasure in Prior [[npcs/Jacobus|Jacobus]]'s tomb, and only had to split it 4 ways, so it was a profitable delve.
 

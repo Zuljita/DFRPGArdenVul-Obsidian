@@ -4,7 +4,7 @@ tags:
   - culture/archontean
 ---
 
-# [[factions/Drome.md|Drome]]
+# Drome
 
 ## Summary
 The [[factions/Drome.md|Drome]] is a powerful and officially sanctioned organization within the [[lore/Archontean Empire.md|Archontean Empire]], responsible for law enforcement and handling sensitive matters. They are known to operate out of the [[House of Sight]] in [[Gosterwick]].
@@ -30,3 +30,5 @@ The [[factions/Drome.md|Drome]] operates under official sanction, but its member
 ## Discord Insights
 
 - Has taken interest in the murder, trusts the players, and wants justice. ([[notes/Discord Summary 2025-W35.md|Discord Summary 2025-W35]])
+
+- An authority that will be informed about the murder in Gosterwick. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])

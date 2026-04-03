@@ -3,7 +3,7 @@ title: Varumani
 tags:
   - faction
 ---
-# [[factions/Varumani.md|Varumani]]
+# Varumani
 
 ## Summary
 Indigenous subterranean people encountered throughout the Halls and around the [[locations/Great Cavern.md|Great Cavern]]; miners, guards, and laborers are mentioned.

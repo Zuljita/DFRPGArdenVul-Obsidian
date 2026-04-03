@@ -192,6 +192,19 @@ I haven't heard any concrete plans yet.  There was a bit of the usual discussion
 
 2025-05-24
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-05-16.md|Recording Notes (2025-05-16)]]
