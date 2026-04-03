@@ -62,3 +62,15 @@ Smallest Enemy Killed:
 Bees (SM -10)
 Smallest Enemy Appeased:
 [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s [[factions/Halflings.md|Halflings]] (SM -2)
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

@@ -4,7 +4,7 @@ tags:
   - tradition/thothian
 ---
 
-# [[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]]
+# Five Fingers of Destiny
 
 ## Summary
 Rival adventuring company active in Arden Vul politics, treasure routes, and key-based expeditions.

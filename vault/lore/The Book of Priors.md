@@ -58,3 +58,7 @@ The [[Halls of Arden Vul]] are about 12 levels deep,
 ## Sessions
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - [[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]]
+
+## Discord Insights
+
+- 6 volumes, written in Mithric by Thothian priors, started by Gaius Probus in 937 AEP, continuing until 1782 AEP. Very valuable. ([[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]])

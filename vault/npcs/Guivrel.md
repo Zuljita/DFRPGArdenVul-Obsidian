@@ -5,7 +5,7 @@ tags:
 appears_in:
   - "Session 17 - Cleaning Out the Vermin"
 ---
-# [[npcs/Guivrel.md|Guivrel]]
+# Guivrel
 
 ## Appears In
 - [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]

@@ -3,11 +3,11 @@ title: Bottleneck
 tags:
 - npc
 aliases:
-- '[[npcs/Bottleneck.md|Bottleneck]], goblin master sergeant'
-- '[[npcs/Bottleneck.md|Bottleneck]], goblin sergeant'
-- '[[npcs/Bottleneck.md|Bottleneck]] Halfling-Slayer'
+- Bottleneck, goblin master sergeant
+- Bottleneck, goblin sergeant
+- Bottleneck Halfling-Slayer
 ---
-# [[npcs/Bottleneck.md|Bottleneck]]
+# Bottleneck
 
 ## Summary
 [[npcs/Bottleneck.md|Bottleneck]], also known as "[[npcs/Bottleneck.md|Bottleneck]] Halfling-Slayer," is the goblin Master Sergeant of [[Upper Goblintown]].

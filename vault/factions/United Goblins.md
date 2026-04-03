@@ -6,7 +6,7 @@ tags:
 # United [[factions/Goblins.md|Goblins]]
 
 ## Summary
-Goblin polity led by [[npcs/[[npcs/Weskenim.md|Weskenim]].md|[[npcs/Weskenim.md|Weskenim]]]]; controls parts of the Halls and negotiates with surface adventuring companies.
+Goblin polity led by [[npcs/Weskenim.md|Weskenim]]; controls parts of the Halls and negotiates with surface adventuring companies.
 
 ## Sessions
 

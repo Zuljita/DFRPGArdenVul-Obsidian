@@ -110,6 +110,19 @@ They are really sick of paying tribute to both halflings and the dragon, so it s
 
 2025-04-19
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-04-11.md|Recording Notes (2025-04-11)]]

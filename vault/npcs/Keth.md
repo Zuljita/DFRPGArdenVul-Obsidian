@@ -3,11 +3,11 @@ title: Keth
 tags:
 - npc
 aliases:
-- '[[npcs/Keth.md|Keth]], varumani gambler'
+- Keth, varumani gambler
 appears_in:
 - Session 32 - Fast Exploration
 ---
-# [[npcs/Keth.md|Keth]]
+# Keth
 
 ## Appears In
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]

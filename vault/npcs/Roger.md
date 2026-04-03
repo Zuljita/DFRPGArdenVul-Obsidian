@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Roger.md|Roger]]
+# Roger
 
 ## Summary
 A former employee of [[Kronos Kettle-Belly]].

@@ -1,3 +1,9 @@
+---
+tags:
+  - note
+  - discord-summary
+---
+
 # Discord Summary: 2025-W14
 
 **Date Range:** 2025-04-07 to 2025-04-13

@@ -4,7 +4,7 @@ tags:
   - npc
 aliases:
 ---
-# [[npcs/Harold.md|Harold]]
+# Harold
 
 ## Summary
 A captive rescued by the party who, after being cared for at the temple, left on his own.

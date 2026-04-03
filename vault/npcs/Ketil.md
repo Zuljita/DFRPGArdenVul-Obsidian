@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Ketil.md|Ketil]]
+# Ketil
 
 ## Summary
 A [[Wiskin]] ranger held prisoner.

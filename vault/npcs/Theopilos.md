@@ -3,11 +3,11 @@ title: Theopilos
 tags:
 - npc
 aliases:
-- '[[npcs/Theopilos.md|Theopilos]], locksmith'
+- Theopilos, locksmith
 appears_in:
 - Session 28 - Teleport Rugs and Baboons
 ---
-# [[npcs/Theopilos.md|Theopilos]]
+# Theopilos
 
 ## Appears In
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]

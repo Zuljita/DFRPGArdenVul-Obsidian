@@ -4,7 +4,7 @@ tags:
   - npc
 aliases:
 ---
-# [[npcs/Mariposa.md|Mariposa]]
+# Mariposa
 
 ## Summary
 - TODO: Short description.

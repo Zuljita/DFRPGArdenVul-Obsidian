@@ -120,6 +120,19 @@ It sounds like they're going to keep exploring the halfling level.  They don't l
 
 2025-04-05
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-03-28.md|Recording Notes (2025-03-28)]]

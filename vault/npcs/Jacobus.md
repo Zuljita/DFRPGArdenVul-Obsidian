@@ -3,13 +3,12 @@ title: Jacobus
 tags:
 - npc
 aliases:
-- '[[npcs/Jacobus.md|Jacobus]], former Prior of [[npcs/Thoth.md|Thoth]], current friendly
-  ghost'
-- Prior [[npcs/Jacobus.md|Jacobus]]
+- Jacobus, former Prior of Thoth, current friendly ghost
+- Prior Jacobus
 appears_in:
 - Session 6 - Good Ghost, Bad Ghost
 ---
-# [[npcs/Jacobus.md|Jacobus]]
+# Jacobus
 
 ## Summary
 Ghost of a former Claustral Prior of [[Thoth]]; left behind a mapped [[locations/Tomb of Jacobus.md|tomb]] and occasional guidance before being laid to rest.

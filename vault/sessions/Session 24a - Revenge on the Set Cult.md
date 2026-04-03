@@ -119,3 +119,15 @@ None until they go back to town.  So far they have only visited a couple of new 
 Next Week:
 
 The Right for Riches Company appears to be invading the [[locations/Forum of Set.md|Forum of Set]].  Do they smash a major faction of [[locations/Arden Vul.md|Arden Vul]], or get swarmed and make new PCs?  I have no idea.
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

@@ -102,3 +102,15 @@ Total: 3-4 XP
 Next Week:
 
 [[npcs/Jost.md|Jost]] showed them a new entrance to the Halls, so maybe they'll try going back that way.  Or maybe they'll play [[locations/Scorpion Teleporter.md|Scorpion Teleporter]] Roulette again, as it's worked three times in a row.
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

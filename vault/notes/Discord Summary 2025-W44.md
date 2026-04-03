@@ -1,3 +1,9 @@
+---
+tags:
+  - note
+  - discord-summary
+---
+
 # Discord Summary: 2025-W44 (Distilled)
 
 **Date Range:** 2025-11-03 to 2025-11-09

@@ -116,3 +116,15 @@ Next Week:
 Of course there has already been talk about going after [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s [[factions/Halflings.md|Halflings]], but that happens every week and so far they have they always backed down.  They still have unexplored territory behind the waterfall, but they probably only feel safe going there if they have the GOAT and his collection of Aquaman spells.  If not, they might explore the [[locations/Great Cavern.md|Great Cavern]] or the surface ruins.
 
 2025-06-21
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

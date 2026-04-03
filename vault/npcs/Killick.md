@@ -3,13 +3,12 @@ title: Killick
 tags:
 - npc
 aliases:
-- '[[npcs/Killick.md|Killick]]'
-- '[[npcs/Killick.md|Killick]], goblin Big Boss of the [[locations/Wet Caves.md|Wet
-  Caves]]'
-- '[[npcs/Killick.md|Killick]], big boss of the [[locations/Wet Caves.md|Wet Caves]]'
-- '[[npcs/Killick.md|Killick]], goblin boss of the [[locations/Wet Caves.md|Wet Caves]]'
+- Killick
+- Killick, goblin Big Boss of the Wet Caves
+- Killick, big boss of the Wet Caves
+- Killick, goblin boss of the Wet Caves
 ---
-# [[npcs/Killick.md|Killick]]
+# Killick
 
 ## Summary
 [[npcs/Killick.md|Killick]] is a goblin leader, known as the "Big Boss of the [[locations/Wet Caves.md|Wet Caves]]."

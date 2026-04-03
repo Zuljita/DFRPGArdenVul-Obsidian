@@ -5,7 +5,7 @@ tags:
 appears_in:
   - "Session 19 - The Pool of Donkey Ears"
 ---
-# [[npcs/Sekhmet.md|Sekhmet]]
+# Sekhmet
 
 ## Appears In
 - [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]

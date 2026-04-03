@@ -6,7 +6,7 @@ tags:
   - race/unknown
   - profession/squire
 ---
-# [[npcs/Zoe.md|Zoe]]
+# Zoe
 
 ## Summary
 [[npcs/Zoe.md|Zoe]] is a squire of the [[Order of the Azure Shield]], serving alongside [[Alexios]] and [[Demetrios]].

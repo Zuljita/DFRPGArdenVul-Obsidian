@@ -1,3 +1,9 @@
+---
+tags:
+  - note
+  - discord-summary
+---
+
 # Discord Summary: 2025-W51
 
 **Date Range:** 2025-12-22 to 2025-12-28

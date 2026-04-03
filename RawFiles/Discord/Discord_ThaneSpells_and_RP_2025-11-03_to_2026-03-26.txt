@@ -1,0 +1,78 @@
+The Thane's Betrayal
+Movement
+Regular; R-ST or Will
+Duration: 6s
+Cost: 5.  Same cost to maintain.
+Prereq: Magery 3, Apportation, 1 spell from each of 10 colleges
+Take control of an enemy's weapon.  If resistance fails, the weapon leaves the enemy's hands and attacks that enemy until the spell duration ends or the enemy is destroyed.  The caster may take a Concentrate maneuver to pick a new target.  See Dancing Weapon for other details.
+The Thane's Collar
+Mind Control
+Regular; R-Will
+Duration: 1 month
+Cost: 20.  Same cost to maintain.
+Casting Time: 10 minutes
+Prereq: Magery 6, Charm 
+This is an enhanced version of the Charm spell, with a much longer duration. It requires that the target wear an iron collar as a focus.
+The Thane's Vengeful Veil
+Body Control
+Regular; R-HT (special)
+Duration: 1 minute
+Cost: 5.  Same cost to maintain.
+Prereq: Deathtouch
+The caster creates a shimmering field of off-white energy around their body.  Any attacker who injures the caster must R-HT.  If they  succeed, they take half the injury they did to the caster.  If they fail, they take the full injury they did to the caster.  Armor does not protect.  (Note that the caster still takes the injury.)
+dripton (GM) — 3/26/26, 11:15 PM
+Nighteyes of Bastet
+Light and Darkness
+Regular
+Duration: Permanent
+Cost: 6
+Prereq: Power Investiture 2
+Makes a small object (or a small part of a large object) glow permanently. Does not count as a spell on.  This is not an enchantment, so it can be dispelled, is destroyed by no mana zones, etc.  The light is faint moonlight; it gives a -5 darkness penalty over a 6-yard radius.
+Pelagion's Bridge of Sighs
+Air
+Area
+Casting Time: 3s
+Duration: 1 minute
+Cost: 1 to cast or maintain
+Prereq: Walk on Air
+The caster exhales a bridge of air, which the caster and others can walk on.  The caster must breathe precisely (Concentrate maneuvers) as long as the bridge exists, but can move at walking speed while doing so.
+Pelagion's Rock Sympathy
+Earth
+Area
+Casting Time: 10s
+Cost: 1 
+Prereq: Seek Earth
+The caster gains full knowledge of all minerals within the area of effect.
+﻿
+Cosmo (Uvash) [gur㎰],  — 2/27/26, 7:50 PM
+
+dripton (GM) — 1/31/26, 11:47 AM
+Akla-Chah smiles when you say that.
+Cosmo (Uvash) [gur㎰],  — 11/3/25, 6:37 PM
+Uvash laughs, listening to each location. At the end, he merely smiles, patting Vallium on the back.
+
+"Well, brother? I will do it with you. God knows I need some entertainment, my wife and kin are hundreds of miles from here!"
+
+He pauses.
+
+"That, and I haven't gone on a proper boozing trip in a while now. So, what do you say, friend?"
+Demented Avenger (Ioannes) — 10/23/25, 8:05 PM
+Ioannes pulls Vael aside at the APC. Ioannes points to his good clothes lying out clean on his bed.
+
+“Vael, I know we’re supposed to be going to Arden Vul again tomorrow, but it’s gonna happen!”
+
+“What?”
+
+“Pelteon!” Ioannes smiles proudly.
+
+“So you have a date, my bearded friend?”
+
+Ioannes blushes a little. “Well, uh, no, not quite yet, but I have a time set tomorrow to ask her to go have some milk with me!”
+
+“So you’re having milk with her tomorrow? I guess that counts as a date.”
+
+Ioannes shakes his head. “No, it’s more like an appointment to ask her to go out for milk with me in a few days!”
+
+Vael shakes his head, dumbfounded.
+Demented Avenger (Ioannes) — 8/1/25, 11:08 PM
+Ioannes gives a shy but hopeful smile

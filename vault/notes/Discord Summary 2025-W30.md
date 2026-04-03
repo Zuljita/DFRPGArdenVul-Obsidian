@@ -1,3 +1,9 @@
+---
+tags:
+  - note
+  - discord-summary
+---
+
 # Discord Summary: 2025-W30 (Distilled)
 
 **Date Range:** 2025-07-28 to 2025-08-03

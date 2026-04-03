@@ -19,6 +19,19 @@ A pre-campaign discussion covering character-building expectations, death/replac
 - Another town, [[locations/Newmarket.md|Newmarket]], was described as about three days south of Gosterwick and roughly twice its size.
 - A major city, [[locations/Narsileon.md|Narsileon]], was referenced as roughly 400 miles away.
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-03-07.md|Recording Notes (2025-03-07)]]

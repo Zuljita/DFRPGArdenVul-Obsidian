@@ -138,6 +138,19 @@ For once, I can confidently say what they'll be doing at the start of the next s
 
 2025-05-10
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-05-02.md|Recording Notes (2025-05-02)]]

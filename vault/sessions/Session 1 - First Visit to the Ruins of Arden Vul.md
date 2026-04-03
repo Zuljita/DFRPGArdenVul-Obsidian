@@ -99,6 +99,19 @@ Presumably the four non-mercenary PCs stick together after their first successfu
 
 2025-03-22
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-03-14.md|Recording Notes (2025-03-14)]]

@@ -139,3 +139,15 @@ Total: 5 XP
 Next Week:
 
 The current plan is to bring food to [[npcs/Gog.md|Gog]] and see if he can tell them how to get [[factions/Varumani.md|Varumani]] Passports.  They would then return to [[locations/Goblintown.md|Goblintown]] and get their map from [[npcs/Temrin.md|Temrin]], and follow it and see if it takes them to [[npcs/Nyema.md|Nyema]]'s necklace.  If so, they would recover it and bring it to [[npcs/Yrtol.md|Yrtol]].  If not, they would improvise.
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

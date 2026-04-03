@@ -4,23 +4,23 @@ tags:
   - npc
   - antagonist
 aliases:
-  - [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]
+- Phlebotomas Plumthorn
   - Plummie
   - Plumit
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
-  - "Session 3 - [[factions/Dragons.md|Dragons]] and Baboons and [[factions/Children of Deino.md|Children of Deino]], Oh My!"
-  - "Session 4 - Cheese and Crackers and [[npcs/Thoth.md|Thoth]] and Demons"
+- Session 3 - Dragons and Baboons and Children of Deino, Oh My!
+- Session 4 - Cheese and Crackers and Thoth and Demons
   - "Session 6 - Good Ghost, Bad Ghost"
   - "Session 8a - Never Trust a Scorpion"
   - "Session 10 - Baboons, Ghouls, and a Mule"
-  - "Session 11 - The [[locations/Great Cavern.md|Great Cavern]] Redux"
+- Session 11 - The Great Cavern Redux
   - "Session 26 - The Scouring of the Shire"
 ---
-# [[npcs/Phlebotomas [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]].md|Phlebotomas [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]]]
+# Phlebotomas Phlebotomas Plumthorn
 
 ## Summary
-[[npcs/Phlebotomas [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]].md|Phlebotomas [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]]] was the halfling mob boss who ran an extortion racket near the pyramid landings under [[locations/Arden Vul|Arden Vul]]. For a long time, he and his gang of thugs controlled access to the [[locations/Halls of Thoth|Halls of Thoth]], demanding payment from all who passed. His operation was ultimately dismantled by the [[factions/Right for Riches Company|Right for Riches Company]] in a decisive assault.
+[[npcs/Phlebotomas Plumthorn.md|Phlebotomas Phlebotomas Plumthorn]] was the halfling mob boss who ran an extortion racket near the pyramid landings under [[locations/Arden Vul|Arden Vul]]. For a long time, he and his gang of thugs controlled access to the [[locations/Halls of Thoth|Halls of Thoth]], demanding payment from all who passed. His operation was ultimately dismantled by the [[factions/Right for Riches Company|Right for Riches Company]] in a decisive assault.
 
 ## Criminal Enterprise
 [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s gang controlled the territory beneath the [[locations/Pyramid of Thoth|Pyramid of Thoth]]. His business model involved:
@@ -38,7 +38,7 @@ appears_in:
 ## The Downfall
 After numerous sessions of debate and planning, the [[factions/Right for Riches Company|Right for Riches Company]] finally moved against [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]] in **Session 26**.
 - **The Plan:** Aided by the mercenary [[npcs/Lacrymosa|Lacrymosa]], the party used a combination of flight and invisibility spells to bypass [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s guards and strike directly at the leadership.
-- **The Assault:** The ambush was a resounding success. [[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]] killed [[npcs/Blandveg|Blandveg]] almost immediately. [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]] was quickly wounded and, after a successful intimidation by [[pcs/Vaelethron 'Vael' Sunshadow|Vael]], was forced to surrender.
+- **The Assault:** The ambush was a resounding success. [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]] killed [[npcs/Blandveg|Blandveg]] almost immediately. [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]] was quickly wounded and, after a successful intimidation by [[pcs/Vaelethron 'Vael' Sunshadow|Vael]], was forced to surrender.
 - **The Aftermath:** [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]] was stripped of his possessions, including his keys, which were later copied and given to the goblins. He and his surviving followers were exiled from [[locations/Arden Vul|Arden Vul]] and instructed to return to [[locations/Newmarket|Newmarket]] under threat of death. His former territory was then ceded to [[npcs/Weskenim|King Weskenim]]'s goblins.
 
 ## Appears In

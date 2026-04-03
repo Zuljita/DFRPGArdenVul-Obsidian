@@ -3,12 +3,11 @@ title: Sanguinette
 tags:
 - npc
 aliases:
-- '[[npcs/Sanguinette.md|Sanguinette]], [[npcs/Sister Valya -Basilisk- Hushbreaker.md|Sister
-  Valya -Basilisk- Hushbreaker]]''s bat familiar'
+- Sanguinette, Sister Valya -Basilisk- Hushbreaker''s bat familiar
 appears_in:
-- Session 27 - The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]
+- Session 27 - The Tomb of Ptoh-Ristus
 ---
-# [[npcs/Sanguinette.md|Sanguinette]]
+# Sanguinette
 
 ## Appears In
 - [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]

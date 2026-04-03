@@ -3,7 +3,7 @@ title: Prosperity Factor
 tags:
   - faction
 ---
-# [[factions/Prosperity Factor.md|Prosperity Factor]]
+# Prosperity Factor
 
 ## Summary
 The [[factions/Prosperity Factor.md|Prosperity Factor]] is an Empire-wide merchant factor with a branch in [[Gosterwick]]. They are considered to have medium-priced storage fees.

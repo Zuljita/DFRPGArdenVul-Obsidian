@@ -6,7 +6,7 @@ tags:
 appears_in:
   - "Session 32 - Fast Exploration"
 ---
-# [[locations/Arena.md|Arena]] and a partial bridge.
+# Arena and a partial bridge.
   - method: lift (varumani winch), bridge with gap and planks
 
 ## Notes

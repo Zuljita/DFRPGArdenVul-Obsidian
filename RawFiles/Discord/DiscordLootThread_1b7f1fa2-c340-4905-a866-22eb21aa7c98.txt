@@ -1,0 +1,197 @@
+Loot 2026-01-09 
+dripton (GM) — 1/9/26, 11:40 PM
+You were awarded some scepter badges.  You found a magic rope, some axes and shields, an ivory coffer with some magic bones, a spear and helmet and red scale armor, a LOT of books and scrolls (some magic most not), some maps, and a magic raven. 
+You decided to put all the books from the Secret Library in one of the side rooms that Stamelis doesn't know about, told Basil to keep out, and started identifying things.  And then, Vael screamed "MY EYES".
+Nobody heard Vael screaming.
+A bit later, Vael woke up, still blind, opened the iris door, and was found by Basil.  Basil went and got Ioannes, who hit Vael with a Stop Bleeding and a Major Healing.  Vael is now at full HP, but still with no eyes.  Vael tells you that the magic book he found had a bunch of pages that showed interesting scenes from within Arden Vul, and he kept flipping pages, until his eyes got ripped out of his head.  He instructs you to close that book and not look it it until his eyes are fixed.
+dripton (GM) — 1/9/26, 11:50 PM
+Ioannes and Uvash split up and visit all the temples.  Turns out that Jador the Just knows Instant Regeneration and can probably give Vael some new eyes pretty quickly, for a lot of money.  A couple of other clerics know Regeneration, and can probably give Vael some new eyes, for much less money but "about a month to heal."  Do you wish to spend a lot of money to get Vael back to seeing quickly, or a little money to get Vael back to seeing slowly, or no money to let Vael remain blind?  @Kyle (Vael, Zuljita)
+Kyle (Vael, Zuljita) — 1/9/26, 11:51 PM
+Sheesh.   How much money is a lot?
+dripton (GM) — 1/9/26, 11:51 PM
+$5000
+Kyle (Vael, Zuljita) — 1/9/26, 11:51 PM
+Done.
+dripton (GM) — 1/9/26, 11:53 PM
+Jador the Just assembles all her clerics to help and even brings in Uvash and Ioannes for help, then casts Instant Regeneration.  Vael has eyes again!  They take a little while to see perfectly, and everything is very bright, but Vael can go back to identifying things, down some money.  Does he go back to the book that ripped his eyes out, or leave it in the chest of Do Not Open?
+Kyle (Vael, Zuljita) — 1/9/26, 11:53 PM
+We'll set it aside for now.  I'll want to come back to it one day with appropriate precautions.
+That's from the secret library?
+Greybrown (Vallium Halcyon) — 1/9/26, 11:55 PM
+We assumed Stamelis was being overly secretive, but perhaps he was really looking out for us the whole time.
+dripton (GM) — 1/9/26, 11:55 PM
+Yes, it was a magic book with thick magic pages, and the first few pages each showed a different room (underground, probably Arden Vul) and then the nth page, your eyes were ripped from your head.  You have identified many magic items and that never happened before.
+Kyle (Vael, Zuljita) — 1/9/26, 11:59 PM
+1) I'll rack my brain about how many pages, 2) I'll attempt to analyze the book while closed.
+Kyle (Vael, Zuljita) — 1/10/26, 12:26 AM
+Going forward, before I spend any time handling magical items like that, I want to make sure I've done all analysis with spells first.
+dripton (GM) — 1/10/26, 12:27 AM
+Vael establishes some new SOP about using the spells first before touching, and making sure a cleric is always within yelling range.
+You think you saw about half a dozen pictures before the page that ripped your eyes out.
+You remember the first page said something about scrying, so you were all hopeful the book would lead you to something cool, but that wasn't cool.  Whoever wrote this book was a jerk.
+Kyle (Vael, Zuljita) — 1/10/26, 12:30 AM
+I'll hit it with analyze magic without opening it as many times as it takes until I get it.
+dripton (GM) — 1/10/26, 12:37 AM
+The cover is blue leather with a gold lidless eye.  The pages are some kind of crystalline material, not paper or parchment, but you're not opening it to look again.  Looking at the side of the book without opening it, you think it has about 10 pages.  You think you saw a title page then about 6 pictures before the page that blinded you.  You remember sarcophagi, a puppet theater (?), piles of treasure, some large human in red robes on a red couch surrounded by sickly-looking guys, and a room with  beds and treasure and demon statue and some humans walking about.  You could look again but that might hurt a lot.  Analyze Magic tells you the book does some kind of scrying.  Another one tells you that the book has a trap, where if you look at a page with a picture on it it's fine, but if you look at a blank page your eyes get ripped out and sent somewhere in Arden Vul to become a scrying device for the formerly blank page in the book, which will then show whichever room your eyes went to.  You think it's probably safe to look at the first few pages of the book again if you want, but you definitely don't want to read too far.
+There are 16 (!) magical scrolls in the pile from the Secret Library.  There are also 5 non-magical scrolls and about 40 non-magical books.
+You Analyze Magic all the magic scrolls before reading them.  They're all spell scrolls, a mix of cleric and mage.  None of them appears cursed or trapped.
+dripton (GM) — 1/10/26, 12:44 AM
+The non-magic scrolls include 3 maps.  2 of them are to places you recognize: the area north of the Ruby Chair (including the secret door you found leading east) and the Glory of Thoth / Temple of Thoth area (including the secret door).  The third map is to a place you don't recognize.
+The non-magic code scroll contains the 4 lines of 6 pairs of 2 letters
+YE-BL-RE-GR-BK-WH
+    BL-GR-BK-WH-RE-YE
+    RE-GR-WH-BK-BL-YE
+    GR-RE-YE-WH-BK-BL
+Kyle (Vael, Zuljita) — 1/10/26, 12:45 AM
+oh man, That might be important.
+dripton (GM) — 1/10/26, 12:47 AM
+In addition to the protection effect you already found, the magic bones appear to have the ability to speak with the spirit of the dead guy once a month!
+The protection seems to only work if the bones are actively held reverently in both hands, not if they're just shoved in a bag.
+The magic rope is another elven rope; its can tie or untie itself on command from the person holding it who knows the command words.  Which are "tie" in Elvish, and "untie, untie, untie, yes, I'm sure, untie" in Elvish.
+dripton (GM) — 1/10/26, 1:08 AM
+You have a huge pile of books to sift through.  You also have a big pile of cleric scrolls, one of which appears to be a POWERED resurrection scroll.
+Kyle (Vael, Zuljita) — 1/10/26, 1:08 AM
+That's a critical artifact.  It gets its own scroll case.
+dripton (GM) — 1/10/26, 1:15 AM
+It's going to take a while to dig through all those books.  I have the start of a loot sheet up but it's not done.
+Uvash identifies "Why All So-Called Gods Are Merely Avatars of the One Deity" as a possibly very important work of theology.
+dripton (GM) — 1/10/26, 1:22 AM
+Vael identifies "Elves Are the Enemy" as some dangerously racist bullshit.
+Kyle (Vael, Zuljita) — 1/10/26, 1:27 AM
+With some potential truth mixed in. He left the elves for a reason. He doesn't fit anywhere
+Cosmo (Uvash) [gur㎰],  — 1/10/26, 8:56 AM
+short hand for colors?
+Cosmo (Uvash) [gur㎰],  — 1/10/26, 8:57 AM
+Keeping that one and the one on elves, they’re very important!! (this is a joke, sell em’)
+ [gur㎰], 
+Demented Avenger (Ioannes) — 1/10/26, 9:31 AM
+Exactly what I thought. And we have some colored glass …
+Cosmo (Uvash) [gur㎰],  — 1/10/26, 9:31 AM
+It’s like cheat codes!
+Demented Avenger (Ioannes) — 1/10/26, 9:35 AM
+How big is the shield we found (page 92)?
+dripton (GM) — 1/10/26, 9:46 AM
+The shields are medium, fixed
+Demented Avenger (Ioannes) — 1/10/26, 9:49 AM
+I got us to 1 CP and kept most of the magic items, even some of the scrolls
+We might want to sell more, but the quartermaster should take a look. Many of those scrolls are going to be as useful as heck (I mean, powered Resurrection?)
+I don't know what value talking to Jaken would be since I know nothing about Jaken
+Cosmo (Uvash) [gur㎰],  — 1/10/26, 9:51 AM
+?!
+
+I haven’t checked the loot sheet yet, but holy crap!
+Demented Avenger (Ioannes) — 1/10/26, 9:52 AM
+I did sell the raven, that looks annoying
+Greybrown (Vallium Halcyon) — 1/10/26, 9:52 AM
+Scroll of Plant Speech. We all know there's something going on with that tree in the Forum.
+dripton (GM) — 1/10/26, 10:37 AM
+Okay, Vael took a quick look at every book and wrote down the titles and languages.  For all the ones he could read (all Mithric), he skimmed enough to try to get an approximate value.  Updated the loot sheet.
+I'm not assuming you're giving any books to others to identify unless you tell me that. 
+You have a LOT of books.  Those with broken written Mithric can read one per week as a downtime activity.  (And this counts as time spent improving Mithric.)  Those with good Mithric can read three per week, or seven per week if that's all they do.
+Kyle (Vael, Zuljita) — 1/10/26, 10:44 AM
+Yeah I'll have a look here in a second
+dripton (GM) — 1/10/26, 10:47 AM
+The ones labeled Secret Language, you can't even read the titles, but Ioannes cast Gift of Letters and spent a minute just reading the titles and writing them down.  Actually keeping Gift of Letters up long enough to read a whole book would be a challenge though.
+Demented Avenger (Ioannes) — 1/10/26, 11:06 AM
+How much time does that consume? This might be a good use of downtime to improve  Ioannes’s Mithric
+dripton (GM) — 1/10/26, 11:09 AM
+Broken: 1/week as a background activity while doing other things, 2/week if that's all you do.
+Accented/Fluent: 3/week background, 7/week full time.
+Demented Avenger (Ioannes) — 1/10/26, 11:09 AM
+No, as time learning
+dripton (GM) — 1/10/26, 11:10 AM
+It counts as Mithric training but doesn't give free points
+dripton (GM) — 1/10/26, 11:32 AM
+I put the interesting map in ⁠pc-notes.  The other 2 maps pretty much match your existing maps, so you can sell them or keep them but I'm not going to bother re-creating them.
+dripton (GM) — 1/10/26, 3:44 PM
+Note on the Plant Speech scroll: This is usable once by clerics, but not learnable by clerics.  It's only learnable by druids. 
+Greybrown (Vallium Halcyon) — 1/10/26, 4:22 PM
+What is in Plotina's Recipe Book?  Food recipes, alchemical recipes or other?
+dripton (GM) — 1/10/26, 4:23 PM
+Alchemy
+Greybrown (Vallium Halcyon) — 1/10/26, 4:23 PM
+What does Fael's Manual of Herb Lore say about Blue Haze, Red Lotus and Green Friend?
+dripton (GM) — 1/10/26, 4:27 PM
+Blue Haze: lichen, curative, but can cause severe hallucinations.  Use with caution.
+Red Lotus: narcotic, initally reduces Will.  With long exposure, can allegedly increase Will.  How long?  Not sure.  Recommend avoiding.
+Green Friend: This is not your friend!  This is an invasive species!  Eradicate it.  It's edible and allegedly curative but irresponsible to let grow.
+dripton (GM) — 1/10/26, 5:16 PM
+So after Vael's little medical incident and medivac to Gosterwick and eye regeneration, he eventually returned to the Bastion to look at the other books.  And sitting in that same room to the west is a copper bowl about 6" in diameter, magical, full of some shiny liquid metal, containing a pair of eyeballs.
+Added to loot sheet
+Demented Avenger (Ioannes) — 1/10/26, 5:27 PM
+What's the hue of the eyes?
+Kyle (Vael, Zuljita) — 1/10/26, 5:28 PM
+Can the bowl be moved? Can the eyes be removed from the bowl? Is the liquid dangerous or otherwise Noteworthy?
+Kyle (Vael, Zuljita) — 1/10/26, 5:36 PM
+There's an argument for keeping the Raven around as a alert like a bell or similar
+dripton (GM) — 1/10/26, 5:37 PM
+The bowl can be moved.  The eyes are magically kept in the bowl.  The eyes are blue.  The liquid is liquid at room temperature, probably mercury.
+Demented Avenger (Ioannes) — 1/10/26, 5:37 PM
+Vael, what color are your eyes?
+Kyle (Vael, Zuljita) — 1/10/26, 5:38 PM
+A very vivid blue, it's one of his unnatural features
+Kind of an electric blue
+Demented Avenger (Ioannes) — 1/10/26, 5:51 PM
+I assume the eyes in the bowl are kind of an electric blue, then?
+dripton (GM) — 1/10/26, 5:51 PM
+Yes but it could be the mercury
+Greybrown (Vallium Halcyon) — 1/10/26, 10:02 PM
+Does Plotina's Recipe Book have any previously unknown alchemical recipes?
+dripton (GM) — 1/10/26, 10:03 PM
+It has Fire Resistance, Frost Cage, Alchemist's Fire, Hostile Levitation, Molasses, and Singing Birds.
+Kyle (Vael, Zuljita) — 1/10/26, 10:03 PM
+Neat!
+Cosmo (Uvash) [gur㎰],  — 1/10/26, 10:04 PM
+Singing Birds?
+Kyle (Vael, Zuljita) — 1/10/26, 10:04 PM
+We'll need a cost for Hostile Levitation, Molasses and Singing birds for the purposes of creating them I think
+Greybrown (Vallium Halcyon) — 1/10/26, 10:04 PM
+$1000 for singing Birds, we've had one before, lost.
+dripton (GM) — 1/10/26, 10:05 PM
+Hostile Levitation: $800
+Molasses: $800
+Singing Birds: $1000
+Kyle (Vael, Zuljita) — 1/10/26, 10:05 PM
+R-HT subject just floats in the air for a bit? 
+Kyle (Vael, Zuljita) — 1/10/26, 10:06 PM
+R/ST glue but worse?
+dripton (GM) — 1/10/26, 10:08 PM
+Not, it's like Slow, not Glue.  R-Will.
+Kyle (Vael, Zuljita) — 1/15/26, 6:15 PM
+So we could sell the golem book if we wanted.  I think I'd be tempted to make golems one day, but we might be better off just focusing our efforts elsewhere.
+related: if we copy all the recipies out of the recipe book, can we sell it and keep the data?
+dripton (GM) — 1/15/26, 6:18 PM
+Yes, if you spend the time.
+Kyle (Vael, Zuljita) — 1/15/26, 6:22 PM
+Okay, so the books I've already read + copy this and sell it is fair game?
+or is it too late for this week?
+dripton (GM) — 1/15/26, 6:22 PM
+That's fine, you can copy it
+Cosmo (Uvash) [gur㎰],  — 1/15/26, 6:22 PM
+If you have Eidetic Memory, I wonder if you could just skim the books and write down what you read
+Kyle (Vael, Zuljita) — 1/15/26, 6:25 PM
+Okay @Greybrown (Vallium Halcyon) @Demented Avenger (Ioannes) if we sell the golem book and the potion book after I make a copy, we get 2 loot points.  Thoughts?
+dripton (GM) — 1/15/26, 6:26 PM
+Note: the potion book is short enough to copy.  The golem book would take a while.
+Kyle (Vael, Zuljita) — 1/15/26, 6:35 PM
+I didn't tag u uvash because he was already paying attention
+Cosmo (Uvash) [gur㎰],  — 1/15/26, 6:36 PM
+no worries
+Greybrown (Vallium Halcyon) — 1/15/26, 6:37 PM
+If we retain the information contained within, I generally don't have a problem selling the originals.
+Cosmo (Uvash) [gur㎰],  — 1/15/26, 6:37 PM
+Copy it down and do it. I want the information but also wouldn't mind getting extra points
+Kyle (Vael, Zuljita) — 1/15/26, 6:59 PM
+Well we would lose the golemancy book
+But I don't think we're likely to use it
+Kyle (Vael, Zuljita) — 1/15/26, 10:27 PM
+Hmm, I stand corrected, we can give 3/4 2 points. which is still probably worth it.
+Demented Avenger (Ioannes) — 1/15/26, 10:45 PM
+I’m all in favor of someone getting more points. Who was the last hoser?
+Kyle (Vael, Zuljita) — 1/15/26, 10:54 PM
+Vallium
+dripton (GM) — 1/16/26, 4:12 PM
+@Kyle (Vael, Zuljita) I need a call on what you guys are selling so I can do the XP sheet before game time.
+Kyle (Vael, Zuljita) — 1/16/26, 6:42 PM
+Sorry work has been crazy.  The official answer is that we will sell the two books.  This will allow us to give two points to everyone except ioannes
+I apologize for how late it took to get that done.

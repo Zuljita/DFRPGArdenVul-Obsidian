@@ -62,8 +62,10 @@ GM's Comments:
 This was not a good week for the [[factions/Cult of Set.md|Cult of Set]].  They're down a dozen or so guards, a couple of acolytes, a whole bunch of cultists, a hired mage, the contents of the chest that was inexplicably floating in that chasm, and some food and furniture.  On the bright side, they have more guards and acolytes remaining.
 Achievements:
 Iconic Location: [[locations/Red Bridge of Set.md|The Red Bridge of Set]]
+
 XP:
 We stopped in mid-session, so XP is postponed until next week.
+
 Next Week:
 The battle against the Settites continues.  Is the nth attempt the one the finally breaks the Settite resistance and gains the Right for Riches company possession of the [[locations/Forum of Set.md|Forum of Set]], or will they be forced to retreat again, or even defeated?  I don't know; that's why we have dice.
 

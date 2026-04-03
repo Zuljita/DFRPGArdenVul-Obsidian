@@ -3,9 +3,9 @@ title: Freydis the Stern
 tags:
 - npc
 aliases:
-- '[[npcs/Freydis the Stern.md|Freydis the Stern]] the Stern'
+- Freydis the Stern the Stern
 ---
-# [[npcs/Freydis the Stern.md|Freydis the Stern]]
+# Freydis the Stern
 
 ## Summary
 The stern and efficient steward to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]], ruler of [[Gosterwick]]. She manages [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]'s affairs and often acts as a gatekeeper for those seeking an audience.

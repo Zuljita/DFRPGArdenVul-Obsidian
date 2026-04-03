@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Set.md|Set]]
+# Set
 
 ## Summary
 
@@ -33,3 +33,5 @@ TBD
 
 - A Greater God of the old pantheon, the Ten, and god of power, knowledge, domination, slavery, vengeance, and serpents. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])
 - Nobody seems to want to talk about him. Glyphs for 'Shining Beacon of Glorious Heaven' are associated with him. ([[notes/Discord Summary 2026-W02.md|Discord Summary 2026-W02]])
+
+- has a big statue in the Forum of Set and is associated with the First Mystery. ([[notes/Discord Summary 2025-W23.md|Discord Summary 2025-W23]])

@@ -4,7 +4,7 @@ tags:
   - npc
 aliases:
 ---
-# [[npcs/Umsko.md|Umsko]]
+# Umsko
 
 ## Summary
 - Giant four-armed intelligent baboon; rival to [[npcs/Yamki.md|Yamki]]; slain during conflicts in the [[locations/Halls of Thoth.md|Halls of Thoth]].

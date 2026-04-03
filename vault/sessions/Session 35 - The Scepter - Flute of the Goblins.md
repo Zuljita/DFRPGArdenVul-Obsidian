@@ -51,6 +51,19 @@ XP: - Exploration: 6 new locations, 1 XP
 Next Week:
 They plan to bring the Scepter / Flute to [[npcs/Weskenim.md|King Weskenim]]. After that, they're considering two options. One would be resuming the plan from this delve that they aborted to find the Scepter: use the Obelisk of Thoth to get a secret name of Thoth, identify the floating head, and explore some unexplored areas near Upper Goblintown. The other is to go after [[npcs/Ambrosia.md|Ambrosia]] in the Great Cavern and bring the charmed beastmen back to [[npcs/Count Skleros.md|Count Skleros]], to try to gain an alliance with the beastmen and free passage through their territory. We'll see which one they pick.
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Source
 
 - [Blog Link](https://dfwhiterock.blogspot.com/2025/12/dfrpg-arden-vul-session-35-scepter.html)

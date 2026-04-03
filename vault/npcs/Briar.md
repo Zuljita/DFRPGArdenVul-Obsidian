@@ -3,7 +3,7 @@ title: Briar
 tags:
   - npc
 ---
-# [[npcs/Briar.md|Briar]]
+# Briar
 
 ## History
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — [[npcs/Craastonistorex.md|Craastonistorex]] appeared to consider eating her for such a paltry gift, but magnanimously let it slide, as [[npcs/Briar.md|Briar]] the wyvern picked up the potion in his claws.

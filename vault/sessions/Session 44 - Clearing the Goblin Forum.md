@@ -98,6 +98,13 @@ None
 
 They have a lot of options. I have no idea where they are going yet.
 
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
 ## Source / Navigation
 
 - Original Source: <https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-44-clearing.html>

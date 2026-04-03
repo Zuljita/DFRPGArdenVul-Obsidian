@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Deino.md|Deino]]
+# Deino
 
 ## Summary
 Powerful beastman matriarch called "Mother," allied with [[npcs/Count Skleros.md|Count Skleros]] and influential in negotiations around threats in beastman territory.

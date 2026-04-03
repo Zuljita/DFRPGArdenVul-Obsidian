@@ -144,3 +144,15 @@ Next Week:
 
 
 Will they go back down to one of the deeper levels that they've been foiled from visiting by technical issues, or will they stick to the surface ruins and try to figure out the Obelisks?  Will they find a new place to live that's more tolerant of live goats and dead giant beetles?  Will the Rugs of Instant Access demand a full share of loot and XP?
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

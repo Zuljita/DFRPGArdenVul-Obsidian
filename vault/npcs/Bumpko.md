@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Bumpko.md|Bumpko]]
+# Bumpko
 
 ## Summary
 A 4-armed intelligent giant baboon from the [[Howling Caves]].

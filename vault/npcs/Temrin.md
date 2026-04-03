@@ -3,11 +3,11 @@ title: Temrin
 tags:
 - npc
 aliases:
-- '[[npcs/Temrin.md|Temrin]], goblin artist'
+- Temrin, goblin artist
 appears_in:
 - Session 32 - Fast Exploration
 ---
-# [[npcs/Temrin.md|Temrin]]
+# Temrin
 
 - Promoted to Royal Artist by King Weskenim and commissioned to create a map to the [[items/Scepter of the Goblins.md|Scepter of the Goblins]]. ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])
 
