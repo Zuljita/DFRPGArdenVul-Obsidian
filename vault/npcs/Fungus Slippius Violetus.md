@@ -3,9 +3,9 @@ title: Fungus Slippius Violetus
 tags:
   - npc
 appears_in:
-  - "Session 20 - The Outer Caverns of [[npcs/Set.md|Set]]"
+- Session 20 - The Outer Caverns of Set
 ---
-# [[npcs/Fungus Slippius Violetus.md|Fungus Slippius Violetus]]
+# Fungus Slippius Violetus
 
 ## Appears In
 - [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]

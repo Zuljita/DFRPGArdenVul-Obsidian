@@ -5,7 +5,7 @@ tags:
   - culture/archontean
   - culture/thorcin
 ---
-# [[factions/Rudishva.md|Rudishva]]
+# Rudishva
 
 ## Appears In
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]

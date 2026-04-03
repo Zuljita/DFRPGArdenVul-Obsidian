@@ -100,3 +100,15 @@ Next Week:
 We should have more PCs next time.  Maybe they'll try to finish off the stirges, or the halflings, or something else.
 
 2025-07-12
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

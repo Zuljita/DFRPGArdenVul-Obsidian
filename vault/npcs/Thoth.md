@@ -3,24 +3,21 @@ title: Thoth
 tags:
 - npc
 aliases:
-- '[[npcs/[[npcs/Thoth.md|Thoth]].md|[[npcs/Thoth.md|Thoth]]]]'
 appears_in:
-- Session 1 - First Visit to the Ruins of [[locations/Arden Vul.md|Arden Vul]]
+- Session 1 - First Visit to the Ruins of Arden Vul
 - Session 2 - Halfling Rent-Seekers
-- Session 3 - [[factions/Dragons.md|Dragons]] and Baboons and [[factions/Children
-  of Deino.md|Children of Deino]], Oh My!
-- Session 4 - Cheese and Crackers and [[npcs/Thoth.md|Thoth]] and Demons
+- Session 3 - Dragons and Baboons and Children of Deino, Oh My!
+- Session 4 - Cheese and Crackers and Thoth and Demons
 - Session 6 - Good Ghost, Bad Ghost
 - Session 7 - Why Did It Have to Be Plants?
 - Session 8a - Never Trust a Scorpion
-- Sessions 8b and 9 - [[npcs/Muirasso.md|Muirasso]]'s Tomb and the Broken Head
+- Sessions 8b and 9 - Muirasso's Tomb and the Broken Head
 - Session 16 - Random Scorpion Teleport to the Hall of Judgment
 - Session 18 - Back Down the Well of Light
 - Session 19 - The Pool of Donkey Ears
-- Session 20 - The Outer Caverns of [[npcs/Set.md|Set]]
-- Session 22 - The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light
-- Session 24b - The [[factions/Cult of Set.md|Cult of Set]] Strikes Back, Larel's
-  Stuff, and the Hall of [[locations/Shrines.md|Shrines]]
+- Session 20 - The Outer Caverns of Set
+- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 24b - The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines
 - Session 26 - The Scouring of the Shire
 - Session 28 - Teleport Rugs and Baboons
 - Session 29 - The Tower of Scrutiny
@@ -28,7 +25,7 @@ appears_in:
 - Session 31 - I Want to Believe
 - Session 32 - Fast Exploration
 ---
-# [[npcs/Thoth.md|Thoth]]
+# Thoth
 
 ## Summary
 Deity associated with knowledge, libraries, and inscriptions throughout [[Arden Vul]]; many structures bear his name (e.g., [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], [[locations/Library of Thoth.md|Library of Thoth]], [[locations/Glory of Thoth.md|Glory of Thoth]]). Mentions in sessions often describe statues, rituals, or sites dedicated to [[npcs/Thoth.md|Thoth]] rather than direct manifestations.
@@ -72,7 +69,7 @@ Deity associated with knowledge, libraries, and inscriptions throughout [[Arden 
   - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]] — Here's a shortened version: 2 caves behind the [[locations/Waterfall.md|Waterfall]] (beneath 35-40' of rough water) Ruined tower near the base of the [[locations/Waterfall.md|Waterfall]] (ghost) Secret entrance 2/3 of the way up the lo...
 - Session 8a - Never Trust a Scorpion — Going back under the [[locations/Pyramid of Thoth.md|Pyramid of Thoth to deal with the halflings was the most popular idea, but Vael suggested scouting with an invisible Wizard Eye rather than just attacking, as they still weren't sure...
   - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]] — Everyone agreed, and then they walked to the top of the pyramid, manipulated the statue's arms to uncover the stairs down toward the [[locations/Glory of Thoth.md|Glory of Thoth]], and went down the stairs to the second landing, about 35...
-- [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]] — Dundee, Thorcin barbarian (Adam) Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo) Merenuithiel "[[npcs/Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].md|Merenuithiel Lacrymosa [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]]]" [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]], Elven mercenary archer (Archon Shiva) Significant NPCs: [[npcs/Muirasso.md|Muirasso]], wight, fo...
+- [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]] — Dundee, Thorcin barbarian (Adam) Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle) Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo) Merenuithiel "[[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]]" [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]], Elven mercenary archer (Archon Shiva) Significant NPCs: [[npcs/Muirasso.md|Muirasso]], wight, fo...
   - [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]] — They circled around to the northwest of the [[locations/Glory of Thoth.md|Glory of Thoth]], Vael cast Invisibility while Ioannes cast Lend Energy, and then the group realized there was a closed door between them and the halflings and ope...
 - [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]] — Ioannes asked [[npcs/Hama.md|Hama]] for news from [[locations/Arden Vul.md|Arden Vul]] and was told the halflings under the pyramid were doing a major construction project, building new doors around the [[locations/Glory of Thoth.md|Glory of Thoth]].
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — After some brief ritualistic discussion about killing [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halflings, they decided to go down the less traveled steps into the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] and use the Scorpion teleporter, even though they we...
@@ -97,22 +94,27 @@ Deity associated with knowledge, libraries, and inscriptions throughout [[Arden 
   - Session 24b - The [[factions/Cult of Set.md|Cult of Set]] Strikes Back, Larel's Stuff, and the [[locations/Shrines.md|Shrines]].md|Hall of [[locations/Shrines.md|Shrines]] — The Right for Riches Company made it to the top of the [[locations/Sighing Stair.md|Sighing Stair]], ran east through the [[locations/Temple of Set.md|Temple of Set, then south and east past the barricade, then north into the desecrated locations/Temple of Thoth.m...
 - Session 26 - The Scouring of the Shire — Vallium led the group to the basement entrance southwest of the [[locations/Pyramid of Thoth.md|Pyramid of Thoth.
   - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Halfway down the spiral stairs to the [[locations/Halls of Thoth.md|Halls of Thoth]], Vallium tripped over a tripwire, connected to some bells.
-- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - Tomb of Ptoh-Ristus.md|The Tomb of Ptoh-Ristus]]]] — They left a Hand of Glory (an evil Settite magic item they didn't think they could safely use) on top of the dam as tribute to Craas the green dragon, then headed for the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].
-  - [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - Tomb of Ptoh-Ristus.md|The Tomb of Ptoh-Ristus]]]] — It had a Mithric inscription saying “[[npcs/Ptoh-Ristus.md|Ptoh-Ristus]], Servant of the [[npcs/[[npcs/Thoth.md|Thoth]].md|[[npcs/Thoth.md|Thoth]]]], Knower of Secrets and Founder of these Halls”.
+- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]] — They left a Hand of Glory (an evil Settite magic item they didn't think they could safely use) on top of the dam as tribute to Craas the green dragon, then headed for the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].
+  - [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]] — It had a Mithric inscription saying “[[npcs/Ptoh-Ristus.md|Ptoh-Ristus]], Servant of the [[npcs/Thoth.md|Thoth]], Knower of Secrets and Founder of these Halls”.
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 28: Teleport Rugs and Baboons Date: Tahsday, 18th of Besemios, 2993 AE Weather: Cool, rainy Player Characters: Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle) Vallium Halcyon, Archontean fighter (Greybrown) Uvash Edzuson...
-  - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — They spent several minutes cleaning baboon feces off the fixed mirror, then went south to visit the head of [[npcs/Stamelis.md|Stamelis]] in locations/The [[locations/Library of Thoth.md|Library of Thoth]].md|The [[locations/[[locations/Library of Thoth.md|Library of Thoth]].md|Library of ...
+  - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — They spent several minutes cleaning baboon feces off the fixed mirror, then went south to visit the head of [[npcs/Stamelis.md|Stamelis]] in the [[locations/Library of Thoth.md|Library of Thoth]].
 - Session 29 - The Tower of Scrutiny — Go through the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] to the Well of Light, check on [[npcs/Yamki.md|Yamki]] and the baboons, give the baboons some food if they're behaving, and trade [[npcs/Trefko.md|Trefko]] a live goat (teleport...
   - Session 29 - The Tower of Scrutiny — That was enough of The Tower of Scrutiny for one day, so the group walked north to the Pyramid o...
 - Session 30 - The Tomb of Theskalon — There was a Mithric inscription on the sarcophagus: Here rests [[npcs/Ptarmis.md|Ptarmis]] loyal servant of [[npcs/Thoth.md|Thoth]] seeker of hidden ways who destroyed the loathsome ones raised his children from spores and opened this cavern Those who disturb his sleep Will ...
   - Session 30 - The Tomb of Theskalon — They walked east across the bridge toward the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], south through the Forum, past the scary Tower of Scrutiny, past the [[locations/Obelisk.md|Obelisk]] of the Sun, and down the Session 31 - I Want to Believe — There were carvings of [[npcs/Thoth.md|Thoth]] and [[npcs/Set.md|Set]] (who everyone recognized) and [[npcs/Anubis.md|Anubis]] and [[npcs/Horus.md|Horus]] (who Ioannes identified), all holding up their right hands in the universal sign for stop.
   - Session 31 - I Want to Believe — The room had a bunch of frescoes on the walls in great condition, legionnaires and archons to the left, priests of [[npcs/Thoth.md|Thoth]] and [[npcs/Set.md|Set]] and [[npcs/Horus.md|Horus]] to the right.
-- Session 32 - Fast Exploration — The party went up the stairs, through [[locations/Upper [[locations/Goblintown.md|Goblintown]].md|Upper [[locations/Goblintown.md|Goblintown]]]], up the stairs through the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], and then back across the surface ruins of [[locations/Arden Vul.md|Arden Vul]] to the [[locations/Beacon.md|Beacon]].
+- Session 32 - Fast Exploration — The party went up the stairs, through [[locations/Goblintown.md|Upper Goblintown]], up the stairs through the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], and then back across the surface ruins of [[locations/Arden Vul.md|Arden Vul]] to the [[locations/Beacon.md|Beacon]].
 
 ## Notes
 
-- A rumor suggests that while [[Thoth represented the light of knowledge that erased the darkness of ignorance, he was also the guardian of secrets, revealing his most potent wisdom only to the devout.
-- Another rumor claims that the numerous statues of [[npcs/Thoth.md|Thoth]] have eyes made of huge gemstones. Removing these gems is said to allow the bearer to contact [[npcs/Thoth.md|Thoth]] directly, but doing so causes the statues to animate and attack. This is corroborated by a piece of graffiti found in the [[[[locations/Pyramid of Thoth.md|Pyramid of Thoth]].
+- A rumor suggests that while Thoth represented the light of knowledge that erased the darkness of ignorance, he was also the guardian of secrets, revealing his most potent wisdom only to the devout.
+- Another rumor claims that the numerous statues of [[npcs/Thoth.md|Thoth]] have eyes made of huge gemstones. Removing these gems is said to allow the bearer to contact [[npcs/Thoth.md|Thoth]] directly, but doing so causes the statues to animate and attack. This is corroborated by a piece of graffiti found in the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].
 
 ## Discord Insights
 
 - god of the Thoth priests ([[notes/Discord Summary 2025-W20.md|Discord Summary 2025-W20]])
+
+- A deity; light is very important to them; associated with the iconic location 'The Glory of Thoth'. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])
+- An ancient place where Kel Bormol was Overseer and Archmage, associated with the collapse of Arden Vul about 1200 years ago. ([[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]])
+- A location with an Overseer (Kel Bormol) and a Chief Librarian (Hellas). ([[notes/Discord Summary 2025-W52.md|Discord Summary 2025-W52]])
+- An organization or deity associated with librarians; Stamelis was a librarian and later a Head of Thoth. ([[notes/Discord Summary 2026-W01.md|Discord Summary 2026-W01]])

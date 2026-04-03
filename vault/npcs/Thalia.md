@@ -4,7 +4,7 @@ tags:
   - npc
 aliases:
 ---
-# [[npcs/Thalia.md|Thalia]]
+# Thalia
 
 ## Summary
 - TODO: Short description.

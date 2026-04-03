@@ -102,3 +102,15 @@ XP:
 Next Week:
 
 They have a lot of options.  They can go after the [[factions/Cult of Set.md|Cult of Set]] again, or deal with the halflings, or try to revisit the goblins, or explore more of the [[locations/Halls of Thoth.md|Halls of Thoth]] east of the chasm, or go back to the Hall of [[locations/Shrines.md|Shrines]].  Or a half-dozen other places.  [[locations/Arden Vul.md|Arden Vul]] is big.
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

@@ -260,3 +260,15 @@ I think they might actually take a shot at [[npcs/Phlebotomas Plumthorn.md|Phleb
 ---
 
 **Original Source:** [DFRPG Arden Vul Session 11: The Great Cavern Redux](https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-11-great-cavern.html)
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

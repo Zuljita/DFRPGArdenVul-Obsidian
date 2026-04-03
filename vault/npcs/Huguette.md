@@ -3,7 +3,7 @@ title: "Huguette"
 tags:
   - npc
 aliases:
-  - Huguette, varlet to [[npcs/Sir Sorrow.md|Sir Sorrow]]
+- Huguette, varlet to Sir Sorrow
 ---
 # Huguette
 

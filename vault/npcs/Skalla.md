@@ -4,7 +4,7 @@ tags:
 - npc
 aliases:
 - Skalla, skeleton warrior
-- '[[npcs/Thoth.md|Thoth]] Skalla'
+- Thoth Skalla
 ---
 # Skalla
 

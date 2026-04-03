@@ -4,7 +4,7 @@ tags:
   - faction
   - culture/archontean
 ---
-# [[factions/Five Families.md|Five Families]]
+# Five Families
 
 ## Summary
 Prominent Archontean noble lineages referenced in research notes; serve as background power blocs.

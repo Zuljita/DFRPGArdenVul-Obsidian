@@ -90,3 +90,15 @@ Achievements: 0 XP
 Total:  Probably 2 XP
 
 2025-10-25
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

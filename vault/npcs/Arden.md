@@ -3,14 +3,14 @@ title: Arden
 tags:
   - npc
 appears_in:
-  - "Session 1 - First Visit to the Ruins of [[locations/Arden Vul.md|Arden Vul]]"
-  - "Session 5 - Parleys and The [[locations/Great Cavern.md|Great Cavern]]"
-  - "Sessions 8b and 9 - [[npcs/Muirasso.md|Muirasso]]'s Tomb and the Broken Head"
+- Session 1 - First Visit to the Ruins of Arden Vul
+- Session 5 - Parleys and The Great Cavern
+- Sessions 8b and 9 - Muirasso's Tomb and the Broken Head
   - "Session 10 - Baboons, Ghouls, and a Mule"
-  - "Session 13 - [[npcs/Yrtol.md|Yrtol]] and the Turtle"
+- Session 13 - Yrtol and the Turtle
   - "Session 32 - Fast Exploration"
 ---
-# [[npcs/Arden.md|Arden]]
+# Arden
 
 ## Summary
 
@@ -42,3 +42,5 @@ A book titled `[[items/The Twelve Labours of Arden.md|The Twelve Labours of Arde
 - Discovered the site of Arden Vul in 829 AEP. ([[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]])
 - One of the 20 Worthies of the Empire, lived around 2100 years ago, with some claiming she ascended to demi-godhood. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])
 - allegedly said things in Mithric and was in favor of hard work, loyalty, obedience, and respect for authority. ([[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]])
+
+- A topic for research. Uvash is the Theological Leader of Zorradrim here. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])

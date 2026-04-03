@@ -3,7 +3,7 @@ title: Wisdom Factor
 tags:
   - faction
 ---
-# [[factions/Wisdom Factor.md|Wisdom Factor]]
+# Wisdom Factor
 
 ## Summary
 The [[factions/Wisdom Factor.md|Wisdom Factor]] is a merchant factor.

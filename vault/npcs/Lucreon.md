@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Lucreon.md|Lucreon]]
+# Lucreon
 
 ## Summary
 [[Lucreon]] is an [[lore/Archontean.md|Archontean]] god of wealth and merchants.
@@ -21,3 +21,7 @@ TBD
 - A [[Shrine of Lucreon]] exists in [[Gosterwick]], known for its magical coin offering mystery.
 
 ## Sessions
+
+## Discord Insights
+
+- A deity, one of 'The Ten', with an individual temple staffed by full-time clerics. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])

@@ -170,3 +170,15 @@ They had the druid along this week so could have gone back behind the waterfall.
 
 
 2025-06-28
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

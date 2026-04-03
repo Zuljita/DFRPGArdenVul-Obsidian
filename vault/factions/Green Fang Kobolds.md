@@ -3,7 +3,7 @@ title: Green Fang Kobolds
 tags:
   - faction
 ---
-# [[factions/Green Fang Kobolds.md|Green Fang Kobolds]]
+# Green Fang Kobolds
 
 ## Summary
 Distinct kobold tribe active in the ruins. Little is documented; add sightings and diplomacy history here.

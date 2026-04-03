@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Priscus Pulcher.md|Priscus Pulcher]]
+# Priscus Pulcher
 
 ## Summary
 The leader of the [[Sortians]] faction, who led a rebellion against the established magical order.

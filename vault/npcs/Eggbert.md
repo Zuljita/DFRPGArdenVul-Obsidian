@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Eggbert.md|Eggbert]]
+# Eggbert
 
 ## Summary
 A Thorcin guard.

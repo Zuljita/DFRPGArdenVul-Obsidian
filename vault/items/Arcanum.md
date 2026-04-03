@@ -4,7 +4,7 @@ tags:
   - magic
 ---
 
-# [[items/Arcanum.md|Arcanum]]
+# Arcanum
 
 ## Description
 A mysterious substance or energy source mentioned in relation to the [[Beacon]] vehicle. It is required as fuel for the [[Beacon]]. Also used to enrich the glass activation squares of [[items/Thothian Teleportation Ring.md|Thothian Teleportation Rings]].

@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Egrk.md|Egrk]]
+# Egrk
 
 ## Summary
 A caveman held prisoner.

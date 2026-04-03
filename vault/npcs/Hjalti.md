@@ -4,7 +4,7 @@ tags:
   - npc
 aliases:
 ---
-# [[npcs/Hjalti.md|Hjalti]]
+# Hjalti
 
 ## Summary
 A captive rescued by the party who was captured by the [[Cult of Set|Settites]] in the [[Great Cavern]]. He was part of a party led by [[Bjorn]] that was searching for the evil sorcerer [[Kerbog Khan]].

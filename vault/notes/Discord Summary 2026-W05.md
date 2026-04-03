@@ -1,3 +1,9 @@
+---
+tags:
+  - note
+  - discord-summary
+---
+
 # Discord Summary: 2026-W05 (Distilled)
 
 **Date Range:** 2026-02-02 to 2026-02-08

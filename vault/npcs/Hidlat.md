@@ -3,11 +3,11 @@ title: Hidlat
 tags:
 - npc
 aliases:
-- '[[npcs/Hidlat.md|Hidlat]], [[npcs/Set.md|Set]] wizard'
+- Hidlat, Set wizard
 appears_in:
-- Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
+- Session 23c - Set Jailbreak and Down to Goblintown
 ---
-# [[npcs/Hidlat.md|Hidlat]]
+# Hidlat
 
 ## Appears In
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]

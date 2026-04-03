@@ -3,14 +3,13 @@ title: Vivian
 tags:
 - npc
 aliases:
-- '[[npcs/Vivian.md|Vivian]], Thorcin chief priest of the Temple of [[npcs/Demma.md|Demma]]
-  in [[locations/Gosterwick.md|Gosterwick]]'
-- '[[npcs/Vivian.md|Vivian]], priest of [[npcs/Demma.md|Demma]]'
+- Vivian, Thorcin chief priest of the Temple of Demma in Gosterwick
+- Vivian, priest of Demma
 appears_in:
 - Session 2 - Halfling Rent-Seekers
-- Session 27 - The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]
+- Session 27 - The Tomb of Ptoh-Ristus
 ---
-# [[npcs/Vivian.md|Vivian]]
+# Vivian
 
 ## Summary
 Thorcin chief priest of [[Demma]] in [[Gosterwick]]. A stern but fair cleric capable of powerful miracles (e.g., Remove Curse) and a reliable counselor for the party.

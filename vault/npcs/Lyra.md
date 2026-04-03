@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Lyra.md|Lyra]]
+# Lyra
 
 ## Summary
 An elven mage, formerly the master of the cat familiar [[npcs/Onyx.md|Onyx]].

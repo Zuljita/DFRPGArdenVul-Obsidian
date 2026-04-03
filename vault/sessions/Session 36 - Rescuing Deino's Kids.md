@@ -1,5 +1,5 @@
 ---
-title: "36: Rescuing [[npcs/Deino.md|Deino]]'s Kids"
+title: 36: Rescuing Deino's Kids
 tags:
   - session
   - recap
@@ -69,6 +69,19 @@ Next Week:- Meet with Count Skleros about the dragon
 - Try their Secret Name of [[npcs/Thoth.md|Thoth]] on the Ruby Chair
 - Look for a Secret Library near the librarian's quarters
 - Explore the western part of the Well of Light level, looking for a teleportation circle
+
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
 
 ## Source
 

@@ -3,15 +3,13 @@ title: Lyssandra Astorion
 tags:
 - npc
 aliases:
-- '[[npcs/Lyssandra Astorion.md|Lyssandra Astorion]], Archontean wizard, co-owner
-  of the Arcane Practitioners'' Club'
-- '[[npcs/Lyssandra Astorion.md|Lyssandra Astorion]], principal of the Arcane Practitioners''
-  Club'
+- Lyssandra Astorion, Archontean wizard, co-owner of the Arcane Practitioners'' Club
+- Lyssandra Astorion, principal of the Arcane Practitioners'' Club
 appears_in:
-- Session 5 - Parleys and The [[locations/Great Cavern.md|Great Cavern]]
+- Session 5 - Parleys and The Great Cavern
 - Session 30 - The Tomb of Theskalon
 ---
-# [[npcs/Lyssandra Astorion.md|Lyssandra Astorion]]
+# Lyssandra Astorion
 
 ## Summary
 Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A pragmatic buyer of rare spells and occasional adviser to delvers. Along with [[Pelteon]], she identified the [[items/Gem of Insight.md|Gem of Insight]] for the party.

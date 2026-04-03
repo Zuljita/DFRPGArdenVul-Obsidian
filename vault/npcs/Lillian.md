@@ -3,16 +3,15 @@ title: Lillian
 tags:
 - npc
 aliases:
-- '[[npcs/Lillian.md|Lillian]], captured Canon of [[npcs/Mitra.md|Mitra]]'
+- Lillian, captured Canon of Mitra
 appears_in:
-- Session 3 - [[factions/Dragons.md|Dragons]] and Baboons and [[factions/Children
-  of Deino.md|Children of Deino]], Oh My!
-- Session 22 - The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light
+- Session 3 - Dragons and Baboons and Children of Deino, Oh My!
+- Session 22 - The Oracle of Thoth and The Litany of Light
 - Session 23a - Gelatinous Cube and Slime Kraken
-- Session 23b - Disrupting Services in the [[locations/Temple of Set.md|Temple of Set]]
-- Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
+- Session 23b - Disrupting Services in the Temple of Set
+- Session 23c - Set Jailbreak and Down to Goblintown
 ---
-# [[npcs/Lillian.md|Lillian]]
+# Lillian
 
 ## Summary
 Canon of [[Mitra]] abducted near the ruins and later recovered from [[npcs/Set.md|Set]]‑controlled prison cells in the lower levels. Her disappearance catalyzed several rescue attempts and guided route planning.

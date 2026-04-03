@@ -4,7 +4,7 @@ tags:
   - npc
 aliases:
 ---
-# [[npcs/Count Skleros.md|Count Skleros]]
+# Count Skleros
 
 ## Summary
 Beastman commander in the [[locations/Halls of Thoth.md|Halls of Thoth]] who negotiated safe conduct with the party in exchange for practical support.

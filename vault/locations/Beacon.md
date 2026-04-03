@@ -3,7 +3,7 @@ title: Beacon
 tags:
   - location
 ---
-# [[locations/Beacon.md|Beacon]]
+# Beacon
 
 ## Sessions
 - [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]

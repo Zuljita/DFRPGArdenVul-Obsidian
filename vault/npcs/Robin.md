@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Robin.md|Robin]]
+# Robin
 
 ## Summary
 An individual, presumably a thief or adventurer, mentioned in a piece of graffiti.

@@ -3,13 +3,13 @@ title: Anaximander
 tags:
 - npc
 aliases:
-- '[[npcs/Anaximander.md|Anaximander]], ancient insane cleric of [[npcs/Mitra.md|Mitra]]'
-- '[[npcs/Anaximander.md|Anaximander]], ancient sage and cleric of [[npcs/Mitra.md|Mitra]]'
+- Anaximander, ancient insane cleric of Mitra
+- Anaximander, ancient sage and cleric of Mitra
 appears_in:
-- Session 22 - The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light
-- Session 23c - [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
+- Session 22 - The Oracle of Thoth and The Litany of Light
+- Session 23c - Set Jailbreak and Down to Goblintown
 ---
-# [[npcs/Anaximander.md|Anaximander]]
+# Anaximander
 
 ## Summary
 [[npcs/Anaximander.md|Anaximander]] is an ancient sage and cleric of [[Mitra]]. He was discovered by the party in a seemingly insane state, having been trapped in a chair for a very long time. After being rescued and brought to [[Gosterwick]], he was healed of his insanity and began dictating historical events from 250 years ago to other clerics.

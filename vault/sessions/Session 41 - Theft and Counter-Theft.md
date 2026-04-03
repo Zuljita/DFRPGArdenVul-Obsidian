@@ -71,6 +71,19 @@ XP:- Exploration: 17 new locations, 1 XP
 Next Week:
 [[pcs/Vallium Halcyon.md|Vallium]] will not be around, so the war against the Settites will await his return.  In the meantime, the others will talk to their cats and the magic cat statue, try to find out who robbed their apartment for the Settites, make their monthly food delivery to the baboons, and explore more of the Halls.
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Source
 
 - https://dfwhiterock.blogspot.com/2026/02/dfrpg-session-41-theft-and-counter-theft.html
