@@ -22,17 +22,17 @@ Player Characters:
 Significant NPCs:
 - [[npcs/Set.md|Set]] cultist
 - Set acolyte
-- Alexandros, [[npcs/Set.md|Set]] librarian
-- Gresta, cook
+- [[npcs/Alexandros.md|Alexandros]], [[npcs/Set.md|Set]] librarian
+- [[npcs/Gresta.md|Gresta]], cook
 - Many formerly enslaved humans, goblins, and beastmen
 - Many goblins
-- Lella and the Rippers, Thorcin mercenaries
-- Galadnor, Half-Elven merchant and spy
-- Dworm, guard
-- Horace Trych, Archontean merchant and spy
+- [[npcs/Lella and the Rippers.md|Lella and the Rippers]], Thorcin mercenaries
+- [[npcs/Galadnor.md|Galadnor]], Half-Elven merchant and spy
+- [[npcs/Dworm.md|Dworm]], guard
+- [[npcs/Horace Trych.md|Horace Trych]], Archontean merchant and spy
 - Varumani ambassadors
 - Frost giant ambassadors
-- Basil, Right for Riches employee
+- [[npcs/Basil.md|Basil of Narsileon]], Right for Riches employee
 - Tresti, Rarities Factor wizard
 - Barnaby Goodbarrel, Halfling lawyer
 - Wicktrimmer, Imperial Goblin merchant
@@ -40,7 +40,7 @@ Significant NPCs:
 - Freydis, Alexia's Steward
 - King [[npcs/Weskenim.md|Weskenim]] of the United Goblin Tribes
 - Gribble, [[npcs/Weskenim.md|Weskenim]]'s brother
-- Helena, [[npcs/Set.md|Set]] accountant
+- [[npcs/Helena.md|Helena]], [[npcs/Set.md|Set]] accountant
 - Two Knights of the Azure Shield
 
 The Plan:
@@ -50,9 +50,9 @@ The Plan:
 - Find someone to run the Forum
 
 What Happened:
-After routing most of the [[npcs/Set.md|Set]] cultists, the Right for Riches company continued exploring their northwestern territory, looking for stragglers.  They found one acolyte and one cultist hiding, and took them prisoner.  They also found a library, with an aged librarian named Alexandros, who seemed to have mostly missed the commotion.  They decided to take him back to the Forum.  They found one door with a note not to open it.  A Glass Wall spell revealed a [[npcs/Set.md|Set]] deacon inside staring at the wall, which was suspicious enough that they obeyed the note and turned around.  On the way, they cut through the kitchen and found Gresta the cook, who they tasked with feeding the former slaves in the Forum.  They also explored many rooms, mostly residential, and took some minor treasure.
+After routing most of the [[npcs/Set.md|Set]] cultists, the Right for Riches company continued exploring their northwestern territory, looking for stragglers.  They found one acolyte and one cultist hiding, and took them prisoner.  They also found a library, with an aged librarian named [[npcs/Alexandros.md|Alexandros]], who seemed to have mostly missed the commotion.  They decided to take him back to the Forum.  They found one door with a note not to open it.  A Glass Wall spell revealed a [[npcs/Set.md|Set]] deacon inside staring at the wall, which was suspicious enough that they obeyed the note and turned around.  On the way, they cut through the kitchen and found Gresta the cook, who they tasked with feeding the former slaves in the Forum.  They also explored many rooms, mostly residential, and took some minor treasure.
 
-They returned to the Forum, where the freed former slaves were eating, the goblins and Lella and the Rippers were supervising, and the surviving merchants were standing near their stalls.  They explored east through the Gulld of Service rooms.  The Guild all appeared to be gone, but there were four pits full of slaves remaining.  Two of the pits were full of higher-value slaves, who had blankets and appeared to have been decently fed.  One group of slaves was actually in the process of trying to escape using blankets tied together as ropes, but hadn't gotten out yet.  One pit was full of low-value slaves, who lacked any equipment and didn't seem to have been fed much.  The final pit was full of mostly dead bodies, along with a few sick and dying slaves.  That one didn't even have a hoist to lift people back out.  The party rescued all the survivors they could find, and directed everyone back to the Forum for food.
+They returned to the Forum, where the freed former slaves were eating, the goblins and [[npcs/Lella and the Rippers.md|Lella and the Rippers]] were supervising, and the surviving merchants were standing near their stalls.  They explored east through the Gulld of Service rooms.  The Guild all appeared to be gone, but there were four pits full of slaves remaining.  Two of the pits were full of higher-value slaves, who had blankets and appeared to have been decently fed.  One group of slaves was actually in the process of trying to escape using blankets tied together as ropes, but hadn't gotten out yet.  One pit was full of low-value slaves, who lacked any equipment and didn't seem to have been fed much.  The final pit was full of mostly dead bodies, along with a few sick and dying slaves.  That one didn't even have a hoist to lift people back out.  The party rescued all the survivors they could find, and directed everyone back to the Forum for food.
 
 They explored a few more rooms south of the Forum and found that two were occupied by ambassadors from the Varumani and the Frost Giants.  The Varumani asked some questions about what had happened, then indicated that they would be returning to the Varumani level to confer with their leaders.  The Frost Giants asked if anyone had seen a human female wizard with long black hair.  They had not.
 
@@ -66,9 +66,9 @@ Next they decided to ask King [[npcs/Weskenim.md|Weskenim]].  They went up the s
 
 Returning to the Forum, the group found that the Rippers were gone, and someone had stabbed the [[npcs/Set.md|Set]] cultist and acolyte.  [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] made a speech about how any former slaves were welcome as free people in [[locations/Gosterwick.md|Gosterwick]], and they would be making a trip there tomorrow, and some wagons should be available to transport the wounded.
 
-Next they decided to try to open the Settites' vault.  There were three locks.  [[pcs/Vallium Halcyon.md|Vallium]] went through his large collection of Settite keys and found that he could open two of them.  [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] tried a Glass Wall spell to look through the vault door, but something prevented scrying.  [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] then tried Lockmaster on the third lock, which failed several times.  Horace and Galadnor each approached to say they had stuff in the vault and they'd appreciate it not being taken; [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] made them write a list of exactly what was theirs.  [[pcs/Vallium Halcyon.md|Vallium]] and [[pcs/Ioannes.md|Ioannes]] each had a lock-melting Alkahest potion; using both potions succeeded in destroying the lock.  [[pcs/Vallium Halcyon.md|Vallium]] opened the heavy vault door.  Inside, a bipedal boar construct charged toward him.  He blocked its punch then stabbed it several times.  [[pcs/Uvash Edzuson.md|Uvash]] ran up and missed it with his pick.  [[npcs/Merenuithiel Lacrymosa Armaris.md|Lacrymosa]] put three arrows into its center of mass, and the construct went down.
+Next they decided to try to open the Settites' vault.  There were three locks.  [[pcs/Vallium Halcyon.md|Vallium]] went through his large collection of Settite keys and found that he could open two of them.  [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] tried a Glass Wall spell to look through the vault door, but something prevented scrying.  [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] then tried Lockmaster on the third lock, which failed several times.  [[npcs/Horace Trych.md|Horace]] and [[npcs/Galadnor.md|Galadnor]] each approached to say they had stuff in the vault and they'd appreciate it not being taken; [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] made them write a list of exactly what was theirs.  [[pcs/Vallium Halcyon.md|Vallium]] and [[pcs/Ioannes.md|Ioannes]] each had a lock-melting Alkahest potion; using both potions succeeded in destroying the lock.  [[pcs/Vallium Halcyon.md|Vallium]] opened the heavy vault door.  Inside, a bipedal boar construct charged toward him.  He blocked its punch then stabbed it several times.  [[pcs/Uvash Edzuson.md|Uvash]] ran up and missed it with his pick.  [[npcs/Merenuithiel Lacrymosa Armaris.md|Lacrymosa]] put three arrows into its center of mass, and the construct went down.
 
-With the guard out of the way, they started investigating the contents.  [[npcs/Merenuithiel Lacrymosa Armaris.md|Lacrymosa]] was assigned to guard the entry hallway and keep everyone else out.  The floor of the vault was full of crates of food and kegs of drink.  The north wall was covered with built-in lockboxes.  There were three huge stone chests along the east wall.  None of [[pcs/Vallium Halcyon.md|Vallium]]'s keys fit the lockboxes, so [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] tediously cast Lockmaster a bunch of times, until he managed a critical success and popped open the last three locks at once.  Inside the boxes were many treasures: coins, gems, small magic items, a few magic weapons.  The chests were locked and trapped.  [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] disarmed the traps.  [[pcs/Vallium Halcyon.md|Vallium]] had keys that fit two chests; [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] used magic on the other one.  The chests contained a lot of coins and gems, along with a few odd treasures like a purple bolt of silk with pictures of elephants, and several large cones of sugar.  The chests were too big to lift, so [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] went back to the [[locations/Beacon.md|Beacon]] through a Teleport Rug and got a shovel, for convenient scooping of coins.  They then took all the treasure back to the [[locations/Beacon.md|Beacon]] through the Rug (except for Galadnor's and Horace's stuff, which they left in the vault), and the food out to the Forum.
+With the guard out of the way, they started investigating the contents.  [[npcs/Merenuithiel Lacrymosa Armaris.md|Lacrymosa]] was assigned to guard the entry hallway and keep everyone else out.  The floor of the vault was full of crates of food and kegs of drink.  The north wall was covered with built-in lockboxes.  There were three huge stone chests along the east wall.  None of [[pcs/Vallium Halcyon.md|Vallium]]'s keys fit the lockboxes, so [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] tediously cast Lockmaster a bunch of times, until he managed a critical success and popped open the last three locks at once.  Inside the boxes were many treasures: coins, gems, small magic items, a few magic weapons.  The chests were locked and trapped.  [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] disarmed the traps.  [[pcs/Vallium Halcyon.md|Vallium]] had keys that fit two chests; [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] used magic on the other one.  The chests contained a lot of coins and gems, along with a few odd treasures like a purple bolt of silk with pictures of elephants, and several large cones of sugar.  The chests were too big to lift, so [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] went back to the [[locations/Beacon.md|Beacon]] through a Teleport Rug and got a shovel, for convenient scooping of coins.  They then took all the treasure back to the [[locations/Beacon.md|Beacon]] through the Rug (except for [[npcs/Galadnor.md|Galadnor]]'s and [[npcs/Horace Trych.md|Horace]]'s stuff, which they left in the vault), and the food out to the Forum.
 
 Next they explored to the southwest.  There were several more apartments there.  One had a slave chained to the wall; she was freed and sent back to the Forum with the others.  Another had Helena, the [[npcs/Set.md|Set]] accountant, working behind her desk.  After some sword-waving, she gave up her keys and her ledger books and joined the others in the Forum.
 
@@ -90,7 +90,7 @@ XP:
 - Total: 6 XP
 
 Next Week:
-The PCs plan to bring a lot of food from [[locations/Gosterwick.md|Gosterwick]] to the Forum, then go to [[locations/Goblintown.md|Goblintown]] and see if [[npcs/Temrin.md|Temrin]]'s map to the second Command Bracelet is ready, then buy any of Horace and Galadnor's items for sale that look interesting, then search the Library of [[npcs/Set.md|Set]], then explore more of the area around the Forum.
+The PCs plan to bring a lot of food from [[locations/Gosterwick.md|Gosterwick]] to the Forum, then go to [[locations/Goblintown.md|Goblintown]] and see if [[npcs/Temrin.md|Temrin]]'s map to the second Command Bracelet is ready, then buy any of [[npcs/Horace Trych.md|Horace]] and [[npcs/Galadnor.md|Galadnor]]'s items for sale that look interesting, then search the Library of [[npcs/Set.md|Set]], then explore more of the area around the Forum.
 
 ## Navigation
 - Original Source: https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-43c-looting.html

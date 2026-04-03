@@ -25,15 +25,15 @@ Significant NPCs:
 - Many [[npcs/Set.md|Set]] guards
 - Several [[npcs/Set.md|Set]] acolytes
 - Several [[npcs/Set.md|Set]] deacons
-- Dobby, Imperial Goblin thief
-- Jadeel the Soulless, Archontean wizard
-- Stephania, High Priestess of [[npcs/Set.md|Set]]
+- [[npcs/Dobby.md|Dobby]], Imperial Goblin thief
+- [[npcs/Jadeel the Soulless.md|Jadeel the Soulless]], Archontean wizard
+- [[npcs/Stephania.md|Stephania]], High Priestess of [[npcs/Set.md|Set]]
 - Several goblins
-- Lella the Ripper, Thorcin mercenary
+- [[npcs/Lella and the Rippers.md|Lella the Ripper]], Thorcin mercenary
 - Several Thorcin mercenaries
-- Galadnor, Half-Elven merchant and spy
-- Dworm, guard
-- Horace Trych, merchant and spy
+- [[npcs/Galadnor.md|Galadnor]], Half-Elven merchant and spy
+- [[npcs/Dworm.md|Dworm]], guard
+- [[npcs/Horace Trych.md|Horace Trych]], merchant and spy
 
 The Plan:
 - Continue invading the [[locations/Forum of Set.md|Forum of Set]]
@@ -46,9 +46,9 @@ As the battle started to turn against the Settites, some goblins and some Thorci
 
 A few Settites ran to the east or northwest.  There were three slaves chained to a statue of a [[npcs/Set.md|Set]] animal in the center of the room, and several more chained to stakes in the northeast corner.  The goblins and mercenaries freed them all, then the goblins started distributing the food from the food stalls in the southeast of the forum.  [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] was mostly interested in loot, and started grabbing anything that looked magical from the bodies.
 
-Two merchant stalls still had their merchants inside.  One was Galador, a half-elf selling magical supplies who said she was no friend of the Settites but was spying on behalf of the elven rulers.  The other was Horace, a human merchant who said he was working for Lady Alexia.  The Thorcin mercenaries were led by Lella the Ripper, who said they had followed a treasure map to the area and had stopped in the Forum to get information and supplies, but were disgusted at the treatment of the slaves and had decided to join in taking down the slavers.  The goblins were members of King [[npcs/Weskenim.md|Weskenim]]'s United Goblin Tribes, and had been in the Forum to buy food, but were happy to see the Settites taken down.
+Two merchant stalls still had their merchants inside.  One was [[npcs/Galadnor.md|Galadnor]], a half-elf selling magical supplies who said she was no friend of the Settites but was spying on behalf of the elven rulers.  The other was [[npcs/Horace Trych.md|Horace]], a human merchant who said he was working for Lady Alexia.  The Thorcin mercenaries were led by [[npcs/Lella and the Rippers.md|Lella the Ripper]], who said they had followed a treasure map to the area and had stopped in the Forum to get information and supplies, but were disgusted at the treatment of the slaves and had decided to join in taking down the slavers.  The goblins were members of King [[npcs/Weskenim.md|Weskenim]]'s United Goblin Tribes, and had been in the Forum to buy food, but were happy to see the Settites taken down.
 
-While [[pcs/Uvash Edzuson.md|Uvash]] and [[npcs/Merenuithiel Lacrymosa Armaris.md|Lacrymosa]] were resting, [[pcs/Vallium Halcyon.md|Vallium]] and [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] looted a moneychanger's stall.  There was a stone chest that [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] thought was trapped, so rather than opening it, [[pcs/Vallium Halcyon.md|Vallium]] just carried it through a Teleport Rug back to the [[locations/Beacon.md|Beacon]], where he told [[npcs/Basil of Narsileon.md|Basil of Narsileon]] not to disturb it since it was trapped.  Galadnor revealed that the Settites' vault was to the southwest, but warned that it was locked and probably trapped.  [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] took a look and saw three keyholes.  The goblins handed over one key from a Forum Inspector, but they weren't sure about the other keys, and decided to deal with the vault later.
+While [[pcs/Uvash Edzuson.md|Uvash]] and [[npcs/Merenuithiel Lacrymosa Armaris.md|Lacrymosa]] were resting, [[pcs/Vallium Halcyon.md|Vallium]] and [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] looted a moneychanger's stall.  There was a stone chest that [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] thought was trapped, so rather than opening it, [[pcs/Vallium Halcyon.md|Vallium]] just carried it through a Teleport Rug back to the [[locations/Beacon.md|Beacon]], where he told [[npcs/Basil of Narsileon.md|Basil of Narsileon]] not to disturb it since it was trapped.  [[npcs/Galadnor.md|Galadnor]] revealed that the Settites' vault was to the southwest, but warned that it was locked and probably trapped.  [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] took a look and saw three keyholes.  The goblins handed over one key from a Forum Inspector, but they weren't sure about the other keys, and decided to deal with the vault later.
 
 [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] cast Seeker on High Priestess Stephania and saw that she rallying a horde of Settites.  He followed it with Trace and saw that she was about 50 yards northwest.  Once [[pcs/Uvash Edzuson.md|Uvash]]'s shoulder was recovered, they left the Forum to the mercenaries and goblins, and headed north then west.  There was a locked grating and they were missing the key, but [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Lockmastered it open.
 
