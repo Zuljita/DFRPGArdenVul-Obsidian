@@ -145,3 +145,15 @@ Next week:
 They're currently planning to explore an unexplored bit of the [[locations/Great Cavern.md|Great Cavern]], then go way down the stairs from the [[npcs/Set.md|Set]] level to the [[npcs/Arden.md|Arden]] level behind the waterfall, and see if the keycards from the [[locations/Beacon.md|Beacon]] also work on the round door they found there.
 
 2025-11-22
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

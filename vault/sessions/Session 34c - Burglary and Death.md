@@ -44,6 +44,19 @@ Next Week:
 
 They plan to go back to Goblintown to get their map from Temrin and have Vael invisibly explore the secret door they found high on the wall of the Goblin Market.  Then they plan to go to Upper Goblintown and ask Thoth for one of his secret names, then investigate the bronze floating head, then explore the glowing room in the northwestern part of the Halls of Thoth, then check out the unexplored parts of the northeastern parts of the Halls of Thoth mentioned on a map they found.
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Source
 
 - https://dfwhiterock.blogspot.com/2025/12/dfrpg-arden-vul-session-34c-burglary.html

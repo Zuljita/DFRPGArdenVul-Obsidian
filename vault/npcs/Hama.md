@@ -3,9 +3,9 @@ title: Hama
 tags:
   - npc
 appears_in:
-  - "Session 13 - [[npcs/Yrtol.md|Yrtol]] and the Turtle"
+- Session 13 - Yrtol and the Turtle
 ---
-# [[npcs/Hama.md|Hama]]
+# Hama
 
 ## Appears In
 - [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]

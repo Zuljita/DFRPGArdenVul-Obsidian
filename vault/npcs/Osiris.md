@@ -6,7 +6,7 @@ appears_in:
   - "Session 2 - Halfling Rent-Seekers"
   - "Session 19 - The Pool of Donkey Ears"
 ---
-# [[npcs/Osiris.md|Osiris]]
+# Osiris
 
 ## Appears In
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]

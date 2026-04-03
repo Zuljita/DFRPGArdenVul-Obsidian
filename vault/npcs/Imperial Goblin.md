@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Imperial Goblin.md|Imperial Goblin]]
+# Imperial Goblin
 
 ## Summary
 A playable PC race in the setting, fully assimilated into the [[lore/Archontean Empire.md|Archontean Empire]], though considered second-class citizens.

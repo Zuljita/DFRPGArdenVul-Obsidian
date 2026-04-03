@@ -23,3 +23,14 @@ Note: Reconstructed stub. TODO: restore full narrative.
 - [[npcs/Wyvern.md|Wyvern]] sighting to the west.
 - [[locations/Great Cavern.md|Great Cavern]] connections.
 
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

@@ -4,7 +4,7 @@ tags:
   - npc
 aliases:
 ---
-# [[npcs/Helga.md|Helga]]
+# Helga
 
 ## Summary
 - TODO: Short description.

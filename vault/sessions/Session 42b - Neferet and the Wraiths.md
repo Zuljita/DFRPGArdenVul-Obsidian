@@ -56,7 +56,20 @@ XP:- Exploration: 6 new locations, 1 XP
 Next Week:
 They want to heal up and go right back after [[npcs/Neferet.md|Neferet]] and the wraiths, but they also want to wait for [[pcs/Vallium Halcyon.md|Vallium]] to return from his trip to Newmarket.
 
-## Source / Navigation
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
+## Source
 
 - Original Source: <https://dfwhiterock.blogspot.com/2026/02/dfrpg-arden-vul-session-42b-neferet-and.html>
 - Previous Discord Summary: [[notes/Discord Summary 2026-W06.md|Discord Summary 2026-W06]]

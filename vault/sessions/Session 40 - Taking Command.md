@@ -78,6 +78,19 @@ Next Week:
 - Explore the other two teleporters in that area.
 - Explore the stream.
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Source
 
 - https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-40-taking.html

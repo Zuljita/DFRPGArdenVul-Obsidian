@@ -93,3 +93,15 @@ None until they get back to down, but they explored some new territory and found
 Next Week:
 
 We know they'll be starting the session fighting those [[npcs/Set.md|Set]] guards, and then, if they win, presumably resuming the search for [[npcs/Lillian.md|Lillian]].
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

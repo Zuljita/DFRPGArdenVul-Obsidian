@@ -3,7 +3,7 @@ title: Ruby Chair
 tags:
   - item
 ---
-# [[items/Ruby Chair.md|Ruby Chair]]
+# Ruby Chair
 
 ## Properties
 

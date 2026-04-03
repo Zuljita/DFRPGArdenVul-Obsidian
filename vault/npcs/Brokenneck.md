@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Brokenneck.md|Brokenneck]]
+# Brokenneck
 
 ## Summary
 A goblin, possibly with a distinctive injury or deformity.

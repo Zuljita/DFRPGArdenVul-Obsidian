@@ -70,6 +70,19 @@ XP:- Exploration: 18 new locations, 1 XP
 Next Week:
 They left a Rug in the Rudishva Bastion, so they're planning on going right back.  In fact, they've decided not to take their usual week of downtime, and will go back the next day, since they have a meeting with Roger the Rapier in a week.  If they finish exploring the Bastion, they next plan to explore the Rudishva teleporters, then open any iris doors they have previously been unable to open.  If they exhaust all of those, they would next explore more of the base of the Great Chasm.
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Source
 
 - https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-39-diving-for.html

@@ -3,13 +3,13 @@ title: Creon
 tags:
 - npc
 aliases:
-- '[[npcs/Creon.md|Creon]], pawnbroker'
+- Creon, pawnbroker
 appears_in:
 - Session 2 - Halfling Rent-Seekers
-- Session 20 - The Outer Caverns of [[npcs/Set.md|Set]]
+- Session 20 - The Outer Caverns of Set
 - Session 28 - Teleport Rugs and Baboons
 ---
-# [[npcs/Creon.md|Creon]]
+# Creon
 
 ## Summary
 [[locations/Gosterwick.md|Gosterwick]] pawnbroker who runs “[[npcs/Creon.md|Creon]]’s Curios,” a reliable source of tips on incoming magic and curiosities. Maintains cordial business ties with delvers, offering early notices and occasional holds on desirable stock.

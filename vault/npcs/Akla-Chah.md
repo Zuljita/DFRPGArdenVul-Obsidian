@@ -3,19 +3,16 @@ title: Akla-Chah
 tags:
 - npc
 aliases:
-- '[[npcs/Akla-Chah.md|Akla-Chah]], [[factions/Rudishva.md|Rudishva]] hologram therapist'
-- '[[npcs/[[npcs/Akla-Chah.md|Akla-Chah]].md|[[npcs/Akla-Chah.md|Akla-Chah]]]]'
+- Akla-Chah, Rudishva hologram therapist
 - Akla-Chan
-- Akla-Chan, hologram of a [[factions/Rudishva.md|Rudishva]] artificial intelligence
-  psychologist
+- Akla-Chan, hologram of a Rudishva artificial intelligence psychologist
 appears_in:
 - Session 31 - I Want to Believe
 - Session 32 - Fast Exploration
-- '[[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]'
-- Akla-Chan, hologram of a [[factions/Rudishva.md|Rudishva]] artificial intelligence
-  psychologist
+- Session 33 - Nyema
+- Akla-Chan, hologram of a Rudishva artificial intelligence psychologist
 ---
-# [[npcs/Akla-Chah.md|Akla-Chah]]
+# Akla-Chah
 
 ## Summary
 [[Akla-Chah]] is a [[Rudishva]] hologram/AI therapist residing in the [[Beacon]]. She provides questioning, training, and occasional language practice; speaks [[lore/Archontean.md|Archontean]] with a curious inflection. She is knowledgeable about [[Rudishva]] customs, including their funeral rites.

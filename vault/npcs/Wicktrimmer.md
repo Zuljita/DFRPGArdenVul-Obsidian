@@ -3,15 +3,12 @@ title: Wicktrimmer
 tags:
 - npc
 aliases:
-- '[[npcs/Wicktrimmer.md|Wicktrimmer]], [[npcs/Imperial Goblin.md|Imperial Goblin]]
-  Leader of the [[factions/Rarities Factor.md|Rarities Factor]]'
-- '[[npcs/Wicktrimmer.md|Wicktrimmer]], [[npcs/Imperial Goblin.md|Imperial Goblin]]
-  banker and merchant'
-- '[[npcs/Wicktrimmer.md|Wicktrimmer]], [[npcs/Imperial Goblin.md|Imperial Goblin]]
-  banker and trader'
-- '[[npcs/Wicktrimmer.md|Wicktrimmer]], Imperial goblin merchant factor'
+- Wicktrimmer, Imperial Goblin Leader of the Rarities Factor
+- Wicktrimmer, Imperial Goblin banker and merchant
+- Wicktrimmer, Imperial Goblin banker and trader
+- Wicktrimmer, Imperial goblin merchant factor
 ---
-# [[npcs/Wicktrimmer.md|Wicktrimmer]]
+# Wicktrimmer
 
 ## Summary
 [[npcs/Wicktrimmer.md|Wicktrimmer]] is a wealthy and influential goblin who runs the [[Rarities Factor]] in [[Gosterwick]]. He is a retired adventurer, a savvy businessman, and an avid collector of magical and historical artifacts. He is considered one of the most powerful people in [[locations/Gosterwick.md|Gosterwick]].

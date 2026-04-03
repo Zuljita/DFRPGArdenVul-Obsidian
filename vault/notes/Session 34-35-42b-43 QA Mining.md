@@ -1,3 +1,9 @@
+---
+tags:
+  - note
+  - qa-report
+---
+
 # Session 34a/34b/34c/35/42b/43a/43b Mining Notes
 
 ## High-value entities to catalog (missing or thin)

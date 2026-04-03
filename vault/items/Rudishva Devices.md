@@ -3,10 +3,10 @@ tags:
   - item
 ---
 
-# [[items/[[factions/Rudishva.md|Rudishva]] Devices.md|[[factions/Rudishva.md|Rudishva]] Devices]]
+# Rudishva Devices
 
 ## Description
-"[[items/[[factions/Rudishva.md|Rudishva]] Devices.md|[[factions/Rudishva.md|Rudishva]] Devices]]" is a book that serves as a reference guide for various artifacts created by the [[Rudishva]].
+"[[items/Rudishva Devices.md|Rudishva Devices]]" is a book that serves as a reference guide for various artifacts created by the [[Rudishva]].
 
 ## Properties
 - Contains pictures of many [[factions/Rudishva.md|Rudishva]] devices, which can be used to identify unknown artifacts.

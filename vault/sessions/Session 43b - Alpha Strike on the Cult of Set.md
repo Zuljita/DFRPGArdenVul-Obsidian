@@ -78,3 +78,15 @@ The goal seems to be eradicating the rest of the defeated Settites, freeing all 
 - Original Source: https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-43b-alpha.html
 - Previous Session: [[Session 43a - Alpha Strike on the Cult of Set]]
 - Next Session: [[Session 43c - Looting the Cult of Set]]
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Sakeon.md|Sakeon]]
+# Sakeon
 
 ## Summary
 A horse whisperer, known for his skill in training and handling horses. He runs the horse section of the [[locations/Livestock and Horse Market.md|Livestock and Horse Market]] with his identical twin brother, Trucleon.

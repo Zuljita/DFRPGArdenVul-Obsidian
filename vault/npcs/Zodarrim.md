@@ -4,9 +4,9 @@ tags:
   - npc
   - deity
 appears_in:
-  - "Session 14 - Behind the [[locations/Waterfall.md|Waterfall]] Again"
+- Session 14 - Behind the Waterfall Again
 ---
-# [[npcs/Zodarrim.md|Zodarrim]]
+# Zodarrim
 
 [[npcs/Zodarrim.md|Zodarrim]] is the sole and central deity in modern Dwarven monotheistic religion.
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - note
+  - discord-summary
+---
+
 # Discord Summary: 2025-W24
 
 **Date Range:** 2025-06-16 to 2025-06-22

@@ -3,11 +3,11 @@ title: Burris
 tags:
 - npc
 aliases:
-- '[[npcs/Burris.md|Burris]], Thorcin warrior'
+- Burris, Thorcin warrior
 appears_in:
 - Session 28 - Teleport Rugs and Baboons
 ---
-# [[npcs/Burris.md|Burris]]
+# Burris
 
 ## Appears In
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]

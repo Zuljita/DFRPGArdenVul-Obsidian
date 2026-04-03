@@ -5,7 +5,7 @@ tags:
 appears_in:
   - "Session 32 - Fast Exploration"
 ---
-# [[npcs/Ummchark.md|Ummchark]]
+# Ummchark
 
 ## Appears In
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]

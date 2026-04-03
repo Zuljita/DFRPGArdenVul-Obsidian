@@ -3,11 +3,11 @@ title: Fetch
 tags:
 - npc
 aliases:
-- '[[npcs/Fetch.md|Fetch]], elderly Archontean slave prisoner'
+- Fetch, elderly Archontean slave prisoner
 appears_in:
-- Session 21 - The [[locations/Library of Thoth.md|Library of Thoth]]
+- Session 21 - The Library of Thoth
 ---
-# [[npcs/Fetch.md|Fetch]]
+# Fetch
 
 ## Summary
 Elderly Archontean, long enslaved by baboons, rescued near the [[Library of Thoth]] and returned to [[Gosterwick]] for care by the [[Temple of Mitra]].

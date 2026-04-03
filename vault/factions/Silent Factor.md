@@ -3,7 +3,7 @@ title: Silent Factor
 tags:
   - faction
 ---
-# [[factions/Silent Factor.md|Silent Factor]]
+# Silent Factor
 
 ## Summary
 The [[factions/Silent Factor.md|Silent Factor]] is an Empire-wide merchant factor known for its high security, high privacy, and expensive services. They have a branch in [[Gosterwick]].

@@ -4,7 +4,7 @@ tags:
   - culture/archontean
 ---
 
-# [[factions/Dragons.md|Dragons]]
+# Dragons
 
 ## Summary
 Ancient and powerful reptilian creatures known for their immense hoards and formidable magical abilities. They were once bound by the [[Compact of Ennius]].

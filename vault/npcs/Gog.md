@@ -5,7 +5,7 @@ tags:
 appears_in:
   - "Session 32 - Fast Exploration"
 ---
-# [[npcs/Gog.md|Gog]]
+# Gog
 
 ## Summary
 [[npcs/Gog.md|Gog]] is described as a [[factions/Varumani.md|Varumani]] who lives in an underground grotto near the [[Arena]].

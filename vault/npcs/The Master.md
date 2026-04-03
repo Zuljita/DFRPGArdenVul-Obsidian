@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/The Master.md|The Master]]
+# The Master
 
 ## Summary
 A figure who used to protect the [[Howling Caves]].

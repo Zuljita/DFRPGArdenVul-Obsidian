@@ -3,10 +3,10 @@ title: Barnaby Goodbarrel
 tags:
   - npc
 appears_in:
-  - "Session 25 - Looking for the Back Door to the [[locations/Forum of Set.md|Forum of Set]]"
+- Session 25 - Looking for the Back Door to the Forum of Set
   - "Session 31 - I Want to Believe"
 ---
-# [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]]
+# Barnaby Goodbarrel
 
 ## Summary
 [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]] is a halfling lawyer practicing in [[Gosterwick]]. He is regarded by some, such as [[Wicktrimmer]], as the "second best lawyer in town." He provides legal services for company formation and contract law.

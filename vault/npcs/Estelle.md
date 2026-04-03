@@ -4,7 +4,7 @@ tags:
   - npc
 aliases:
 ---
-# [[npcs/Estelle.md|Estelle]]
+# Estelle
 
 ## Summary
 - TODO: Short description.

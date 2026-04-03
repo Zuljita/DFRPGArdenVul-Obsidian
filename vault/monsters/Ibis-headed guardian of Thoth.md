@@ -7,8 +7,8 @@ tags:
 - body_plan/humanoid
 - sentience/mindless
 aliases:
-- '[[npcs/Ibis.md|Ibis]]-headed guardians of [[npcs/Thoth.md|Thoth]]'
-- '[[npcs/Ibis.md|Ibis]] Constructs'
+- Ibis-headed guardians of Thoth
+- Ibis Constructs
 ---
 # [[npcs/Ibis.md|Ibis]]-headed guardian of [[npcs/Thoth.md|Thoth]]
 

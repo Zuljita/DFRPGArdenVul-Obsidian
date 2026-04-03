@@ -137,3 +137,15 @@ Total: 4 XP
 Next Week:
 
 My guess is they won't go back to the Tower of Scrutiny.  They might resume exploring the tunnels above the Well of Light, or try to finish the unexplored parts of the Well of Light or [[locations/Halls of Thoth.md|Halls of Thoth]], or go looking for the [[locations/Troll Lifts.md|Troll Lifts]], or something else.  They keep finding new places to explore faster than they finish exploring old places.
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+

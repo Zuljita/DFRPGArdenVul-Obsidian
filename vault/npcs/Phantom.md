@@ -5,7 +5,7 @@ tags:
 appears_in:
   - "Session 7 - Why Did It Have to Be Plants?"
 ---
-# [[npcs/Phantom.md|Phantom]]
+# Phantom
 
 ## Appears In
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]

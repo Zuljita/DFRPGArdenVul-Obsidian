@@ -5,7 +5,7 @@ tags:
 appears_in:
   - "Session 16 - Random Scorpion Teleport to the Hall of Judgment"
 ---
-# [[npcs/Sisko.md|Sisko]]
+# Sisko
 
 ## Summary
 Dominant giant 4-armed intelligent baboon leader encountered near the [[Hall of Judgment]]; maintained a harem and controlled adjacent territory before later shifts among the baboons.

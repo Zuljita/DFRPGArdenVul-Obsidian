@@ -70,6 +70,19 @@ Next Week:
 - Explore the secret door in the back of a cell in the Settite jail, again
 - Explore the western Well of Light level
 
+
+## NPCs Encountered
+
+
+## Locations Visited
+
+
+## Loot / Discoveries
+
+
+## Hooks for Next Session
+
+
 ## Source
 
 - https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-37-deino-and.html

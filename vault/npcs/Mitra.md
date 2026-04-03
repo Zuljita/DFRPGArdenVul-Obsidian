@@ -4,11 +4,11 @@ tags:
   - npc
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
-  - "Session 21 - The [[locations/Library of Thoth.md|Library of Thoth]]"
-  - "Session 22 - The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light"
+- Session 21 - The Library of Thoth
+- Session 22 - The Oracle of Thoth and The Litany of Light
   - "Session 23a - Gelatinous Cube and Slime Kraken"
 ---
-# [[npcs/Mitra.md|Mitra]]
+# Mitra
 
 ## Appears In
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
@@ -36,3 +36,6 @@ appears_in:
 ## Discord Insights
 
 - Associated with the prominent 'Library of Mitra'. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])
+
+- A deity, one of 'The Ten', with an individual temple staffed by full-time clerics. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])
+- A deity associated with a temple where a book about ghosts was found. ([[notes/Discord Summary 2025-W22.md|Discord Summary 2025-W22]])

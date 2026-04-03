@@ -3,7 +3,7 @@ tags:
   - npc
 ---
 
-# [[npcs/Marco.md|Marco]]
+# Marco
 
 ## Summary
 A one-armed beastman held prisoner.
