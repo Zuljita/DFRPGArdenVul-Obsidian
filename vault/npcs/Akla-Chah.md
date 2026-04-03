@@ -30,6 +30,12 @@ appears_in:
 - In [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]], the party successfully contacted [[Akla-Chah]] from [[locations/Gosterwick.md|Gosterwick]] via communication bracelet, confirming practical remote contact range.
 
 ## Sessions
+- [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
+- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
+- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
+- [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
+- [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 
 ## Discord Insights

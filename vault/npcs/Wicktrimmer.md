@@ -38,6 +38,8 @@ As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offe
 
 ## Sessions
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
+- [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
 
 ## Discord Insights
 

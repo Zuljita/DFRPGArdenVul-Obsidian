@@ -17,7 +17,18 @@ Player Characters: 
 [[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)Merenuithiel "[[npcs/Merenuithiel Lacrymosa Armaris.md|Lacrymosa]]" Armaris, Elven mercenary archer (Archon Shiva) 
 
 Significant NPCs:
-Wicktrimmer, Imperial goblin merchantTresti Iredell, half-elven mageJaken, spirit of an ancient warriorTuftwillig, sentient ancient oak treeBottleneck, goblin sergeant running Upper GoblintownMany goblinsMany [[npcs/Set.md|Set]] guardsMany [[npcs/Set.md|Set]] cultistsSeveral [[npcs/Set.md|Set]] acolytes, deacons, and priestsRolf, enslaved [[npcs/Set.md|Set]] prisoner and would-be human sacrificeWild boarOtyugh
+[[npcs/Wicktrimmer.md|Wicktrimmer]], Imperial goblin merchant
+[[npcs/Tresti.md|Tresti Iredell]], half-elven mage
+[[npcs/Jaken.md|Jaken]], spirit of an ancient warrior
+[[npcs/Tuftwillig.md|Tuftwillig]], sentient ancient oak tree
+[[npcs/Bottleneck.md|Bottleneck]], goblin sergeant running Upper Goblintown
+Many goblins
+Many [[npcs/Set.md|Set]] guards
+Many [[npcs/Set.md|Set]] cultists
+Several [[npcs/Set.md|Set]] acolytes, deacons, and priests
+Rolf, enslaved [[npcs/Set.md|Set]] prisoner and would-be human sacrifice
+Wild boar
+Otyugh
 
 The Plan:
 - Try to talk to the spirit in the magical burned bones

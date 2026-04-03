@@ -17,7 +17,24 @@ Player Characters: 
 [[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)
 
 Significant NPCs:
-Arcane Vengeance, elven adventuring partyFive Fingers of Destiny, adventuring partyRoger the Rapier, mage and leader of the Five Fingers of DestinyJenks, halfling member of the Five Fingers of DestinyBottleneck, Goblin sergeantAkla-Chah, Rudishva AI psychologistBasil, Right for Riches employeeComputer of the BeaconMany Varuda ZombiesVaruda Guardian statueTresti, half-elven mage, working for the Rarities FactorOnyx, cat geniusMany [[npcs/Set.md|Set]] guardsMany [[npcs/Set.md|Set]] cultistsStephania, [[npcs/Set.md|Set]] High PriestessUnknown male goblin thiefUnknown female human thiefSeveral Kaliyani
+[[factions/Arcane Vengeance.md|Arcane Vengeance]], elven adventuring party
+[[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]], adventuring party
+[[npcs/Roger.md|Roger the Rapier]], mage and leader of the Five Fingers of Destiny
+Jenks, halfling member of the Five Fingers of Destiny
+[[npcs/Bottleneck.md|Bottleneck]], Goblin sergeant
+[[npcs/Akla-Chah.md|Akla-Chah]], Rudishva AI psychologist
+[[npcs/Basil of Narsileon.md|Basil]], Right for Riches employee
+Computer of the Beacon
+Many Varuda Zombies
+Varuda Guardian statue
+[[npcs/Tresti.md|Tresti]], half-elven mage, working for the Rarities Factor
+[[npcs/Onyx.md|Onyx]], cat genius
+Many [[npcs/Set.md|Set]] guards
+Many [[npcs/Set.md|Set]] cultists
+[[npcs/Stephania, High Priestess of Set.md|Stephania]], [[npcs/Set.md|Set]] High Priestess
+Unknown male goblin thief
+Unknown female human thief
+Several Kaliyani
 
 The Plan:
 - Meet with the Five Fingers of Destiny to exchange an ankh key for the secret of the [[npcs/Thoth.md|Thoth]] treasury

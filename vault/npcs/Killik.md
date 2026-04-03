@@ -12,6 +12,7 @@ tags:
 Killik is the Goblin Boss of the [[locations/Wet Caves.md|Wet Caves]], responsible for overseeing the area and reporting to King [[npcs/Weskenim.md|Weskenim]]. He has interacted with the Right for Riches company on multiple occasions.
 
 ## Appears In
+- [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 
 ## Session Notes

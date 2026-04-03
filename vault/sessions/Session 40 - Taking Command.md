@@ -24,8 +24,8 @@ Significant NPCs:
 - 2 Rudishva skeletons
 - Assassin vine
 - 10 large zombies
-- Akla-Chah, Rudishva AI psychologist
-- Basil, Right for Riches employee
+- [[npcs/Akla-Chah.md|Akla-Chah]], Rudishva AI psychologist
+- [[npcs/Basil of Narsileon.md|Basil]], Right for Riches employee
 - Computer of the [[locations/Beacon.md|Beacon]]
 
 The Plan:
