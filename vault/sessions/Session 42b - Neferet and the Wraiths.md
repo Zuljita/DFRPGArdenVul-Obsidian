@@ -71,4 +71,6 @@ They want to heal up and go right back after [[npcs/Neferet.md|Neferet]] and the
 
 ## Source
 
-- https://dfwhiterock.blogspot.com/2026/02/dfrpg-arden-vul-session-42b-neferet-and.html
+- Original Source: <https://dfwhiterock.blogspot.com/2026/02/dfrpg-arden-vul-session-42b-neferet-and.html>
+- Previous Discord Summary: [[notes/Discord Summary 2026-W06.md|Discord Summary 2026-W06]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W07.md|Discord Summary 2026-W07]]

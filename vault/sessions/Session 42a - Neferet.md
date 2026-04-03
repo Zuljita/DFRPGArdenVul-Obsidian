@@ -78,4 +78,6 @@ The thrilling conclusion of the epic battle.  Do the PCs defeat [[npcs/Neferet.
 
 ## Source
 
-- https://dfwhiterock.blogspot.com/2026/02/dfrpg-arden-vul-session-42a-neferet.html
+- Original Source: <https://dfwhiterock.blogspot.com/2026/02/dfrpg-arden-vul-session-42a-neferet.html>
+- Previous Discord Summary: [[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W06.md|Discord Summary 2026-W06]]

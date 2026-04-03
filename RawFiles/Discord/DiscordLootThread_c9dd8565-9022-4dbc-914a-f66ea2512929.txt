@@ -1,0 +1,36 @@
+I tried to merge and build and got this: Run node ./quartz/bootstrap-cli.mjs build -d ../vault -o public
+
+ Quartz v4.5.2  
+
+(node:2392) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Cleaned output directory `public` in 2ms
+Found 1037 input files from `../vault` in 44ms
+Parsing input files using 4 threads
+(node:2392) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2392) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2392) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2392) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+LaTeX-incompatible input and strict mode is set to 'warn': % comment has no terminating newline; LaTeX would fail because of commenting the end of math mode (e.g. $) [commentAtEnd]
+Parsed 1037 Markdown files in 11s
+Filtered out 0 files in 786μs
+Emitting files
+
+
+ ERROR 
+
+ Failed to emit from plugin `CustomOgImages`: codepoint 31-20e3 not found in map
+     at loadEmoji (../util/emoji.ts:41:20)
+     at Object.loadAdditionalAsset (../plugins/emitters/ogImage.tsx:58:16)
+     at async Promise.all (index 1)
+     at generateSocialImage (../plugins/emitters/ogImage.tsx:52:15)
+     at processOgImage (../plugins/emitters/ogImage.tsx:84:18)
+     at Object.emit (../plugins/emitters/ogImage.tsx:120:9)
+     at ../processors/emit.ts:24:28
+     at async Promise.all (index 10)
+     at emitContent (../processors/emit.ts:18:3)
+Error: Process completed with exit code 1.
