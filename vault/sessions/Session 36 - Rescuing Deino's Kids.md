@@ -17,7 +17,26 @@ Player Characters:
 [[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)[[pcs/Basilisk.md|Basilisk]], Mercenary monk (ArchonShiva)
 
 Significant NPCs:
-[[npcs/Basil of Narsileon.md|Basil of Narsileon]], [[factions/Right for Riches.md|Right for Riches]] employeeMany goblins[[npcs/Gog.md|Gog]], exiled varumaniSeveral ogre guardsA [[npcs/Set.md|Set]] Deacon and several [[npcs/Set.md|Set]] guardsWeskenim, King of the United Goblin Tribes[[npcs/Skimmel.md|Skimmel]], [[npcs/Reeflik.md|Reeflik]], [[npcs/Palestrim.md|Palestrim]], and [[npcs/Gribble.md|Gribble]]: King [[npcs/Weskenim.md|Weskenim]]'s advisors[[npcs/Temrin.md|Temrin]], goblin Royal Artist[[npcs/Hama.md|Hama]] and company, adventurers6 skeletons6 skeletal stirgesMany fungal forestersMany beastmen, loyal to [[npcs/Deino.md|Deino]]6 beastmen, loyal to [[npcs/Ambrosia.md|Ambrosia]]2 phase salamanders[[npcs/Craastonistorex.md|Craastonistorex]], green dragonWyvern, in service to CraastonistorexCount Skleros, beastman commanderGuardian of [[npcs/Thoth.md|Thoth]]6 construct spearmen
+- [[npcs/Basil of Narsileon.md|Basil of Narsileon]], [[factions/Right for Riches.md|Right for Riches]] employee
+- Many goblins
+- [[npcs/Gog.md|Gog]], exiled varumani
+- Several ogre guards
+- A [[npcs/Set.md|Set]] deacon and several [[npcs/Set.md|Set]] guards
+- [[npcs/Weskenim.md|Weskenim]], King of the United Goblin Tribes
+- [[npcs/Skimmel.md|Skimmel]], [[npcs/Reeflik.md|Reeflik]], [[npcs/Palestrim.md|Palestrim]], and [[npcs/Domo Gribble.md|Gribble]] (the King's advisors)
+- [[npcs/Temrin.md|Temrin]], goblin Royal Artist
+- [[npcs/Hama.md|Hama]] and company, adventurers
+- 6 skeletons
+- 6 skeletal stirges
+- Many fungal foresters
+- Many beastmen, loyal to [[npcs/Deino.md|Deino]]
+- 6 beastmen, loyal to [[npcs/Ambrosia.md|Ambrosia]]
+- 2 phase salamanders
+- [[npcs/Craastonistorex.md|Craastonistorex]], green dragon
+- Wyvern, in service to Craastonistorex
+- [[npcs/Count Skleros.md|Count Skleros]], beastman commander
+- Guardian of [[npcs/Thoth.md|Thoth]]
+- 6 construct spearmen
 
 The Plan:- Bring the Scepter / Flute of the Goblins to King [[npcs/Weskenim.md|Weskenim]] for a reward
 - See if the beastmen's stone chest in the [[locations/Great Cavern.md|Great Cavern]] could be taken

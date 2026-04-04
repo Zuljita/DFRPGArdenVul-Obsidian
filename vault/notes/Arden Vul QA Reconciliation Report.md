@@ -115,3 +115,68 @@ Done processing 985 files in 2m
 - All new NPC pages follow the established format with frontmatter, summary, and appears-in sections
 - Source fidelity maintained - no invented facts beyond what's in session recaps
 - Links use largest meaningful noun phrase (e.g., "Jadeel the Soulless" not just "Jadeel")
+
+---
+
+# Arden Vul QA Reconciliation Report
+
+**Date:** 2026-04-04  
+**Scope:** Sessions 37, 36, 35, 34a, 34b, 34c, 33 (focused pass on Significant NPCs + iconic location mentions)  
+**Auditor:** Subagent QA Pass
+
+## Scope Processed
+
+- Session 37 - Deino and the Eyeballs
+- Session 36 - Rescuing Deino's Kids
+- Session 35 - The Scepter / Flute of the Goblins
+- Session 34a - Hunting the Thane
+- Session 34b - Tower of the Ape
+- Session 34c - Burglary and Death
+- Session 33 - Nyema
+
+## Files Changed/Created
+
+### Session Files Modified
+1. `sessions/Session 36 - Rescuing Deino's Kids.md` - Repaired malformed Significant NPCs block; converted to auditable bullet list with canonical links.
+2. `sessions/Session 37 - Deino and the Eyeballs.md` - Repaired malformed Significant NPCs block; converted to auditable bullet list with canonical links.
+
+### NPC Pages Created
+1. `npcs/Basil of Narsileon.md` - Significant recurring support NPC from Session 34c onward.
+2. `npcs/Avatar of Bastet.md` - Distinct manifested entity summoned via statuette in Session 37.
+3. `npcs/Roger the Rapier.md` - Distinct wizard-leader identity in Session 37, separated from existing `npcs/Roger.md`.
+
+## Canonical Decisions
+
+- `Basil of Narsileon` -> `npcs/Basil of Narsileon.md` (`new-entity`) — repeatedly named, employed by party, and operationally significant across sessions.
+- `Avatar of Bastet` -> `npcs/Avatar of Bastet.md` (`new-entity`) — specific summoned persona with concrete interaction and lore revelations.
+- `Roger the Rapier` -> `npcs/Roger the Rapier.md` (`new-entity`) — contextual evidence indicates this is not the same person as legacy `Roger` tied to Kronos.
+- `Gribble` in session lists -> `npcs/Domo Gribble.md` (`rename-to-canonical`) — normalized to existing canonical page name.
+- `Count Skleros` -> `npcs/Count Skleros.md` (`rename-to-canonical`) — normalized explicit title form.
+
+## Holds / Ambiguities
+
+- `Basil` vs `Uriel Basileon` — held separate; lexical overlap only, no role/time context overlap.
+- `Roger the Rapier` vs `Roger` (former Kronos employee) — held as separate identities pending explicit in-text confirmation.
+- Session 34a/34b/34c/35 significant NPC/location sections remain empty by source import structure; no speculative list backfill applied to preserve source fidelity.
+
+## Build Result
+
+**SUCCESS** - Quartz build completed with exit code 0.
+
+Build output:
+```
+Quartz v4.5.2
+Found 991 input files from ../vault
+Parsed 991 Markdown files
+Emitted 2367 files to public
+Done processing in ~2m
+```
+
+Warnings observed (non-fatal):
+- New NPC files not yet tracked by git (date metadata warning)
+- Existing LaTeX strict-mode warnings unrelated to this pass
+
+## Next pass
+
+- Recommended skill: `arden-vul-vault-research-assistant`
+- Why: confirm/deny potential identity collisions around similarly named legacy NPCs (especially “Roger*” variants) before broader merge passes.
