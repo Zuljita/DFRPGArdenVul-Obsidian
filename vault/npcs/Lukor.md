@@ -1,15 +1,25 @@
 ---
+title: Lukor
 tags:
   - npc
+  - profession/mage
+  - faction/eighth-collegium
+aliases:
+  - Eighth Collegium
 ---
 
 # Lukor
 
 ## Summary
-A representative of the [[Eighth Collegium]] encountered in Goblintown.
+A mage of the [[factions/Eighth Collegium|Eighth Collegium]] encountered in Goblintown near the Goblin Market. He and his group (two more mages and three warriors) sought a direct audience with King [[npcs/Weskenim.md|Weskenim]].
 
 ## Notes
-- Requested help securing a direct audience with King [[Weskenim]].
+- Requested help securing a direct audience with King [[npcs/Weskenim.md|Weskenim]]
+- Offered to pay 1000 silver for arranging the meeting
+- Could provide invisibility, silence, or distractions for a secret meeting
+- Claimed the Eighth Collegium mostly avoided the Settites and wanted to be friends with the Varumani and goblins
+- Could see invisible creatures (spotted [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] while invisible)
+- Had been waiting in Goblintown for weeks, occasionally meeting with [[npcs/Palestrim.md|Palestrim]] but never the King directly
 
 ## Sessions
 - [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]

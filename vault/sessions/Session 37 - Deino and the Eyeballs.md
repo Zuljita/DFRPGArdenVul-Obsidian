@@ -17,7 +17,25 @@ Player Characters: 
 [[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)
 
 Significant NPCs:
-Wicktrimmer, Imperial goblin merchantFael, half-elven druidOnyx, cat geniusAvatar of Bastet, ancient goddess of catsBasil, Right for Riches employeeMany goblinsMany beastmenCount Skleros, beastman commanderDeino, wizard, mother of beastmenGog, exiled varumaniSeveral orge guardsRoger the Rapier, wizard and leader of the Five Fingers of DestinyWeskenim, King of the United Goblin TribesSkimmel, Reeflik, Palestrim, and Gribble: King [[npcs/Weskenim.md|Weskenim]]'s advisorsGog, varumani exileFire elemental8 zombiesSeveral wizards of some secret factionBumpko, giant 4-armed intelligent baboonMany baboons
+- [[npcs/Wicktrimmer.md|Wicktrimmer]], Imperial goblin merchant
+- [[npcs/Fael.md|Fael]], half-elven druid
+- [[npcs/Onyx.md|Onyx]], cat genius
+- [[npcs/Avatar of Bastet.md|Avatar of Bastet]], ancient goddess of cats
+- [[npcs/Basil of Narsileon.md|Basil of Narsileon]], [[factions/Right for Riches.md|Right for Riches]] employee
+- Many goblins
+- Many beastmen
+- [[npcs/Count Skleros.md|Count Skleros]], beastman commander
+- [[npcs/Deino.md|Deino]], wizard, mother of beastmen
+- [[npcs/Gog.md|Gog]], exiled varumani
+- Several ogre guards
+- [[npcs/Roger the Rapier.md|Roger the Rapier]], wizard and leader of the [[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]]
+- [[npcs/Weskenim.md|Weskenim]], King of the United Goblin Tribes
+- [[npcs/Skimmel.md|Skimmel]], [[npcs/Reeflik.md|Reeflik]], [[npcs/Palestrim.md|Palestrim]], and [[npcs/Domo Gribble.md|Gribble]] (the King's advisors)
+- Fire elemental
+- 8 zombies
+- Several wizards of some secret faction
+- [[npcs/Bumpko.md|Bumpko]], giant 4-armed intelligent baboon
+- Many baboons
 
 The Plan:- Buy a lot of food
 - Meet with Count Skleros

@@ -16,7 +16,22 @@ Player Characters: 
 [[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)Thrainor "Thronebreaker" Ironvein, Dwarven mercenary fighter (ArchonShiva)
 
 Significant NPCs:
-Roger the Rapier, leader of the Five Fingers of Destiny adventuring companyWicktrimmer, Imperial goblin merchantTresti Iredell, half-elven mageCraastonistex, green dragonTwo wyverns, pets of CraastonistexMany goblinsBottleneck, goblin sergeant running Upper GoblintownKillik, goblin sub-chief of the Wet CavesSeveral slow-moving constructsSeveral varumani lift operatorsSeveral monkey-like animalsLarge mimic, disguised as a statueTwo high-tech automated projectile-firing turretsRudishva floor-cleaning automatonAkla-Chah, Rudishva AI psychologistStamelis, enchanted bust of an ancient Thothian priest
+[[npcs/Roger.md|Roger the Rapier]], leader of the Five Fingers of Destiny adventuring company
+[[npcs/Wicktrimmer.md|Wicktrimmer]], Imperial goblin merchant
+[[npcs/Tresti.md|Tresti Iredell]], half-elven mage
+[[npcs/Craastonistorex.md|Craastonistex]], green dragon
+Two wyverns, pets of Craastonistex
+Many goblins
+[[npcs/Bottleneck.md|Bottleneck]], goblin sergeant running Upper Goblintown
+[[npcs/Killik.md|Killik]], goblin sub-chief of the Wet Caves
+Several slow-moving constructs
+Several varumani lift operators
+Several monkey-like animals
+Large mimic, disguised as a statue
+Two high-tech automated projectile-firing turrets
+Rudishva floor-cleaning automaton
+[[npcs/Akla-Chah.md|Akla-Chah]], Rudishva AI psychologist
+[[npcs/Stamelis.md|Stamelis]], enchanted bust of an ancient Thothian priest
 
 The Plan:- Use a Clairvoyance potion to spy on Craastonistex's tower
 - Follow [[npcs/Temrin.md|Temrin]]'s map 

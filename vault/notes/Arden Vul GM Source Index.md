@@ -68,6 +68,8 @@ _Generated from Blogger feed on 2026-03-22 00:45 UTC; total posts: 74._
 - 2026-03-07 — [DFRPG Arden Vul Session 43b: Alpha Strike on the Cult of Set](https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-43b-alpha.html)
 - 2026-03-14 — [DFRPG Arden Vul Session 43c: Looting the Cult of Set](https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-43c-looting.html)
 - 2026-03-21 — [DFRPG Arden Vul Session 44: Clearing the Goblin Forum](https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-44-clearing.html)
+- 2026-03-28 — [DFRPG Arden Vul Session 45: Purple Mist and the Drowned Canyon](https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-45-purple-mist.html)
+- 2026-04-04 — [DFRPG Arden Vul Session 46: The Arena Lord and the Inn of the Lost](https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-46-arena-lord.html?m=1)
 
 ## Meta / Rules / Setting Posts
 

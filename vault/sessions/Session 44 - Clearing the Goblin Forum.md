@@ -22,16 +22,17 @@ Warm, rainy
 ## Significant NPCs
 
 - [[factions/Arcane Vengeance.md|Arcane Vengeance]], Elven adventurers
-- Alexandros, [[npcs/Set.md|Set]] librarian
+- [[npcs/Alexandros.md|Alexandros]], [[npcs/Set.md|Set]] librarian
 - [[npcs/Weskenim.md|Weskenim]], King of the United Goblin Tribes
 - [[npcs/Palestrim.md|Palestrim]], Weskenim's majordomo
 - [[npcs/Gribble.md|Gribble]], Lord of the Goblin Forum
 - Many goblins
-- Galadnor, Half-Elven merchant and spy
-- Dworm, Galadnor's guard
-- Horace Trych, Archontean merchant and spy
-- Yoburra, Varumani ambassador
-- [[notes/Basil of Narsileon.md|Basil]], Right for Riches employee
+- [[npcs/Galadnor.md|Galadnor]], Half-Elven merchant and spy
+- [[npcs/Dworm.md|Dworm]], Galadnor's guard
+- [[npcs/Horace Trych.md|Horace Trych]], Archontean merchant and spy
+- [[npcs/Yoburra.md|Yoburra]], Varumani ambassador
+- [[npcs/Gribble.md|Gribble]], Lord of the Goblin Forum
+- [[npcs/Basil.md|Basil of Narsileon]], Right for Riches employee
 - King [[npcs/Weskenim.md|Weskenim]] of the United Goblin Tribes
 - [[npcs/Gribble.md|Gribble]], Weskenim's brother
 - 3 Giant Scorpions
@@ -42,7 +43,7 @@ Warm, rainy
 
 - Bring food to the Goblin Forum to try to get commerce restarted
 - Get [[npcs/Temrin.md|Temrin]]'s map to a second [[notes/Command Bracelet.md|Command Bracelet]]
-- Buy whatever interesting items Horace and Galadnor have to sell
+- Buy whatever interesting items [[npcs/Horace Trych.md|Horace]] and [[npcs/Galadnor.md|Galadnor]] have to sell
 - Search the Library of [[npcs/Set.md|Set]]
 - Explore more of the area around the Forum, looking for treasure
 - Figure out where the [[factions/Guild of Service.md|Guild of Service]] went
@@ -55,11 +56,11 @@ They went north through the rain to the [[locations/Pyramid of Thoth.md|Pyramid 
 
 The group headed back upstairs to the Forum. [[npcs/Gribble.md|Gribble]] was supervising a few dozen goblin guards. He said things had been pretty quiet since all the former slaves had left. The goblins were concentrating on making the route from [[locations/Upper Goblintown.md|Upper Goblintown]] to the Forum through the temples of [[npcs/Thoth.md|Thoth]] and [[npcs/Set.md|Set]] safe, rather than exploring or clearing more of the level. Vallium said they would be exploring more of the level, and marking safe areas with a circle and dangerous areas with an X.
 
-They ducked into one of the unoccupied guest quarters for privacy and used a Teleport Rug to bring out the food they'd purchased, then brought it up to the Forum for sale. [[npcs/Gribble.md|Gribble]] asked Dworm, Galadnor's guard, to run the food stall until another merchant moved in. He said that he was a fighter, not a merchant, but he could keep an eye on the stall.
+They ducked into one of the unoccupied guest quarters for privacy and used a Teleport Rug to bring out the food they'd purchased, then brought it up to the Forum for sale. [[npcs/Gribble.md|Gribble]] asked [[npcs/Dworm.md|Dworm]], [[npcs/Galadnor.md|Galadnor]]'s guard, to run the food stall until another merchant moved in. He said that he was a fighter, not a merchant, but he could keep an eye on the stall.
 
-Vael, having seen Horace's and Galadnor's items in the vault, bought most of their interesting stock. This was several Sortian eyes, several Thothian teleportation squares, some magic black sand, and a Rudishva power disc.
+Vael, having seen [[npcs/Horace Trych.md|Horace]]'s and [[npcs/Galadnor.md|Galadnor]]'s items in the vault, bought most of their interesting stock. This was several Sortian eyes, several Thothian teleportation squares, some magic black sand, and a Rudishva power disc.
 
-When they were done in the Forum, Vallium led the group north to an unexplored area, which turned out to be a pantry. They pulled the food out and gave it to the goblins. When done there, they went northwest to the Library of [[npcs/Set.md|Set]]. Alexandros was still there, sorting books. After an extended conversation, he gave them a list of all the books available, and Vael used the Copy spell to make a second copy of Alexandros' own book On the Location of Priscus Pulcher. Vallium went back to the [[locations/Beacon.md|Beacon]] and returned with a couple of books in a language none of them could read, which Alexandros confirmed was the secret language of [[npcs/Set.md|Set]], which he could read. He indicated that both books were very interesting and they should leave them with him for research purposes, but they said maybe later.
+When they were done in the Forum, Vallium led the group north to an unexplored area, which turned out to be a pantry. They pulled the food out and gave it to the goblins. When done there, they went northwest to the Library of [[npcs/Set.md|Set]]. [[npcs/Alexandros.md|Alexandros]] was still there, sorting books. After an extended conversation, he gave them a list of all the books available, and Vael used the Copy spell to make a second copy of Alexandros' own book On the Location of Priscus Pulcher. Vallium went back to the [[locations/Beacon.md|Beacon]] and returned with a couple of books in a language none of them could read, which Alexandros confirmed was the secret language of [[npcs/Set.md|Set]], which he could read. He indicated that both books were very interesting and they should leave them with him for research purposes, but they said maybe later.
 
 They thoroughly searched the Settite bedrooms, and decided to take a bed back to the [[locations/Beacon.md|Beacon]] for [[notes/Basil of Narsileon.md|Basil]]. While searching, Vallium found an invisible book under a bed, which they took back to the [[locations/Beacon.md|Beacon]] and put on the conference table, with a chalk square around it so they didn't lose it.
 
@@ -71,7 +72,7 @@ Returning to the room with the statue of a boar and a couple of caged actual boa
 
 Behind the second door was a corpse, which arose as a wraith and attacked. Vallium tried cutting it with his sword, but it dodged. The wraith blasted Vallium with a ranged attack and wounded him. Vael surrounded the wraith with a Wall of Lightning then tried using Shape Air to blow it into the wall, but the wind passed through the wraith. He then tried Create Fire under the trapped wraith, then they slammed the door. When they opened the door again, the area where the fire had been was burned, but the wraith had somehow escaped. Vallium charged in again, this time brandishing a Feather of [[npcs/Maat.md|Maat]]. The wraith backed away to suck him in, then blasted him with more evil ranged attacks. Vallium poked the wraith with the feather, and it responded by punching him. Badly wounded, Vallium fled the room, Vael slammed the door behind him, and Ioannes healed him. They decided to leave the wraith alone for now.
 
-The third door contained a skeleton holding a platinum goblet. Vallium didn't trust the skeleton and poked it with his sword, causing it to drop and spill the goblet. Vael picked up the goblet, which turned out to be covered in something nasty, but survived. He also got the rest of the matching platinum serving set. The skeleton appeared to have written something in a language they didn't understand, as well as information about many ancient nobles in Mithric. They took everything and went back to the library, where Alexandros was able to read the writing.
+The third door contained a skeleton holding a platinum goblet. Vallium didn't trust the skeleton and poked it with his sword, causing it to drop and spill the goblet. Vael picked up the goblet, which turned out to be covered in something nasty, but survived. He also got the rest of the matching platinum serving set. The skeleton appeared to have written something in a language they didn't understand, as well as information about many ancient nobles in Mithric. They took everything and went back to the library, where [[npcs/Alexandros.md|Alexandros]] was able to read the writing.
 
 With the immediate area searched, they went southeast toward the long stairs down from the [[factions/Guild of Service.md|Guild of Service]] area. There were several locked doors off the stairs. Behind one was a large cave full of bodies, with a ledge containing a creepy amphibian statue of a sort they had seen before. Behind the statue was a secret door leading to a gate. There was a note in a language they didn't read next to the gate; Ioannes used Gift of Letters to read it, and indicated that it was nobody who went through the gate had returned. Vael used Scry Gate to reveal that it led to a place full of demons. They decided not to go through.
 
