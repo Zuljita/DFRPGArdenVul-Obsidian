@@ -146,14 +146,8 @@ They're currently planning to explore an unexplored bit of the [[locations/Great
 
 2025-11-22
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
+- Next Session: [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 

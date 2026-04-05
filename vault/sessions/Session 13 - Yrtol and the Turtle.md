@@ -111,14 +111,8 @@ Most of Left for Loot should be back from [[locations/Newmarket.md|Newmarket]] a
 
 **Original Source:** [DFRPG Arden Vul Session 13: Yrtol and the Turtle](https://dfwhiterock.blogspot.com/2025/06/dfrpg-arden-vul-session-13-yrtol-and.html)
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
+- Next Session: [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]]
 

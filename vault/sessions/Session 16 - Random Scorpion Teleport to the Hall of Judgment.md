@@ -103,14 +103,8 @@ Next Week:
 
 [[npcs/Jost.md|Jost]] showed them a new entrance to the Halls, so maybe they'll try going back that way.  Or maybe they'll play [[locations/Scorpion Teleporter.md|Scorpion Teleporter]] Roulette again, as it's worked three times in a row.
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15 - The Great Cavern Re-Revisited]]
+- Next Session: [[sessions/Session 16.5 Bonus Mid-2993 Summary.md|Session 16.5 - Bonus Mid-2993 Summary]]
 

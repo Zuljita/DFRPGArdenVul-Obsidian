@@ -4,7 +4,7 @@ tags:
   - recap
 ---
 
-# Session 34a - Hunting the Thane
+# 34a - Hunting the Thane
 
 ## Summary
 
@@ -57,18 +57,12 @@ Since we stopped in mid-battle, I know exactly what they'll be doing at the star
 Solving the mystery of why the [[items/Rugs of Instant Access.md|Rugs of Instant Access]] stopped working will certainly be a high priority next session, if the PCs make it back to [[locations/Gosterwick.md|Gosterwick]].
 
 
-## NPCs Encountered
-
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
-
-
 ## Source
 
 - [Blog Link](https://dfwhiterock.blogspot.com/2025/12/dfrpg-session-34a-hunting-thane.html)
+
+## Session Navigation
+
+- Previous Session: [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- Next Session: [[sessions/Session 34b - Tower of the Ape.md|Session 34B - Tower of the Ape]]
+

@@ -74,14 +74,8 @@ Next Week:
 
 They're pretty sure they're close to [[npcs/Lillian.md|Lillian]] now, so they're going to try to rescue her and get out before whatever portion of the [[npcs/Set.md|Set]] cult is left gets their revenge.
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23A - Gelatinous Cube and Slime Kraken]]
+- Next Session: [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23C - Set Jailbreak and Down to Goblintown]]
 

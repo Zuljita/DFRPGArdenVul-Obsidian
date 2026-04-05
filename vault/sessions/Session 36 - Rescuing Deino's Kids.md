@@ -90,18 +90,12 @@ Next Week:- Meet with Count Skleros about the dragon
 - Explore the western part of the Well of Light level, looking for a teleportation circle
 
 
-## NPCs Encountered
-
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
-
-
 ## Source
 
 - https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-36-rescuing.html
+
+## Session Navigation
+
+- Previous Session: [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]]
+- Next Session: [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+

@@ -5,7 +5,7 @@ tags:
   - recap
 session_id: 7
 ---
-# Session 7 - Why Did It Have to Be Plants?
+# 7 - Why Did It Have to Be Plants?
 
 Note: Reconstructed stub. TODO: restore full narrative.
 
@@ -23,14 +23,8 @@ Note: Reconstructed stub. TODO: restore full narrative.
 - [[npcs/Wyvern.md|Wyvern]] sighting to the west.
 - [[locations/Great Cavern.md|Great Cavern]] connections.
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+- Next Session: [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]
 

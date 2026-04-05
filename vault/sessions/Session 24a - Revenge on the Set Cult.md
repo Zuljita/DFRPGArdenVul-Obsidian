@@ -120,14 +120,8 @@ Next Week:
 
 The Right for Riches Company appears to be invading the [[locations/Forum of Set.md|Forum of Set]].  Do they smash a major faction of [[locations/Arden Vul.md|Arden Vul]], or get swarmed and make new PCs?  I have no idea.
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23C - Set Jailbreak and Down to Goblintown]]
+- Next Session: [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24B - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]
 

@@ -73,18 +73,12 @@ Next Week:
 I haven't seen a formal plan yet, but there was some discussion of following [[npcs/Temrin.md|Temrin]]'s map to the gold Rudishva identity plaque.  There was also talk of continuing to hammer the Settites, or maybe even going after Craas.  We'll see.
 
 
-## NPCs Encountered
-
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
-
-
 ## Source
 
 - https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-38-another.html
+
+## Session Navigation
+
+- Previous Session: [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- Next Session: [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
+

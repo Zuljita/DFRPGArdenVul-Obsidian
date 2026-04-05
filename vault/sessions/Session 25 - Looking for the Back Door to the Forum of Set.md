@@ -104,14 +104,8 @@ Next Week:
 No game the next two weeks; GM on vacation.  We'd played every week since March, so this ends a good streak, but we'll start another one when I get back.
 2025-10-11
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24B - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]
+- Next Session: [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
 

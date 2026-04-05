@@ -139,19 +139,13 @@ For once, I can confidently say what they'll be doing at the start of the next s
 2025-05-10
 
 
-## NPCs Encountered
-
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
-
-
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-05-02.md|Recording Notes (2025-05-02)]]
 - [Original Source](https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-8a-never-trust.html)
+
+## Session Navigation
+
+- Previous Session: [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+- Next Session: [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8B/9 - Muirasso's Tomb and the Broken Head]]
+

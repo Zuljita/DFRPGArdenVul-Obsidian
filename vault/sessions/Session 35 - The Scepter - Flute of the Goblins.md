@@ -4,7 +4,7 @@ tags:
   - recap
 ---
 
-# Session 35 - The Scepter / Flute of the Goblins
+# 35 - The Scepter / Flute of the Goblins
 
 ## Summary
 
@@ -52,18 +52,12 @@ Next Week:
 They plan to bring the Scepter / Flute to [[npcs/Weskenim.md|King Weskenim]]. After that, they're considering two options. One would be resuming the plan from this delve that they aborted to find the Scepter: use the Obelisk of Thoth to get a secret name of Thoth, identify the floating head, and explore some unexplored areas near Upper Goblintown. The other is to go after [[npcs/Ambrosia.md|Ambrosia]] in the Great Cavern and bring the charmed beastmen back to [[npcs/Count Skleros.md|Count Skleros]], to try to gain an alliance with the beastmen and free passage through their territory. We'll see which one they pick.
 
 
-## NPCs Encountered
-
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
-
-
 ## Source
 
 - [Blog Link](https://dfwhiterock.blogspot.com/2025/12/dfrpg-arden-vul-session-35-scepter.html)
+
+## Session Navigation
+
+- Previous Session: [[sessions/Session 34c - Burglary and Death.md|Session 34C - Burglary and Death]]
+- Next Session: [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+

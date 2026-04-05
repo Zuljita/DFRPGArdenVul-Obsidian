@@ -63,14 +63,8 @@ Bees (SM -10)
 Smallest Enemy Appeased:
 [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s [[factions/Halflings.md|Halflings]] (SM -2)
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]
+- Next Session: [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]
 

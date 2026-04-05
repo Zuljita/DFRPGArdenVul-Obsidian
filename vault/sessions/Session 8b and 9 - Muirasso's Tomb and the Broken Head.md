@@ -104,14 +104,8 @@ There was the usual smack talk about the halflings, but I'll believe it when I s
 ---
 Original Source: https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-sessions-8b-and-9.html
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]
+- Next Session: [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
 

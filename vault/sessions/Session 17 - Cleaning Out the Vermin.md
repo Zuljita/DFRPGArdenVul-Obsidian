@@ -101,14 +101,8 @@ We should have more PCs next time.  Maybe they'll try to finish off the stirges,
 
 2025-07-12
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 16.5 Bonus Mid-2993 Summary.md|Session 16.5 - Bonus Mid-2993 Summary]]
+- Next Session: [[sessions/Session 18 - Back Down the Well of Light.md|Session 18 - Back Down the Well of Light]]
 

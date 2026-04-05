@@ -215,14 +215,8 @@ A couple of players will be unavailable, so the others are unlikely to feel stro
 
 Original Source: <https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-12-first.html>
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]]
+- Next Session: [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]
 

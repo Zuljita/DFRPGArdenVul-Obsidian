@@ -4,7 +4,7 @@ tags:
   - pre-campaign
 ---
 
-# Session 0 - Campaign Setup and Character Q&A
+# 0 - Campaign Setup and Character Q&A
 
 ## Summary
 A pre-campaign discussion covering character-building expectations, death/replacement policy, resurrection availability, XP structure, and basic regional travel context before the first Arden Vul expedition.

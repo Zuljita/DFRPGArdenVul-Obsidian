@@ -1,11 +1,11 @@
 ---
-title: "Session 45: Purple Mist and the Drowned Canyon"
+title: "45: Purple Mist and the Drowned Canyon"
 tags:
   - session
   - recap
 ---
 
-# Session 45: Purple Mist and the Drowned Canyon
+# 45: Purple Mist and the Drowned Canyon
 
 Date:
 Tahsday, 14th of Molivios, 2994 AE
@@ -94,9 +94,8 @@ This session was mostly exploration, finding some new parts of previously explor
 
 Several players can't make it because of the Easter holiday, so we might take the week off, or we might do a small-party session with just Ioannes and some Grudge Brigade mercenaries.
 
-## Source / Navigation
+## Session Navigation
 
-- Original Source: <https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-45-purple-mist.html>
 - Previous Session: [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
-- Next Session: [[Session 46]]
-- Discord Summary: [[Discord Summary 2026-W11]]
+- Next Session: [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
+

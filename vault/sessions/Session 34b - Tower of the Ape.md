@@ -4,7 +4,7 @@ tags:
   - recap
 ---
 
-# Session 34b - Tower of the Ape
+# 34b - Tower of the Ape
 
 ## Summary
 
@@ -42,18 +42,12 @@ Next Week:
 They're still trying to defeat Tikun Thane and try to rescue Bobo and Bifki.  After that, they can try to reunite with Uvash and figure out why their Rugs of Instant Access stopped working.
 
 
-## NPCs Encountered
-
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
-
-
 ## Source
 
 - https://dfwhiterock.blogspot.com/2025/12/dfrpg-arden-vul-session-34b-tower-of-ape.html
+
+## Session Navigation
+
+- Previous Session: [[sessions/Session 34a - Hunting the Thane.md|Session 34A - Hunting the Thane]]
+- Next Session: [[sessions/Session 34c - Burglary and Death.md|Session 34C - Burglary and Death]]
+

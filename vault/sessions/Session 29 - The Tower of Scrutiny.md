@@ -138,14 +138,8 @@ Next Week:
 
 My guess is they won't go back to the Tower of Scrutiny.  They might resume exploring the tunnels above the Well of Light, or try to finish the unexplored parts of the Well of Light or [[locations/Halls of Thoth.md|Halls of Thoth]], or go looking for the [[locations/Troll Lifts.md|Troll Lifts]], or something else.  They keep finding new places to explore faster than they finish exploring old places.
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
+- Next Session: [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
 

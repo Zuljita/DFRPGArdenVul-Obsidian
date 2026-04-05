@@ -108,14 +108,8 @@ Next Week:
 
 The PCs have a lot of options.  The obvious ones are to try to get their reward from [[npcs/Weskenim.md|Weskenim]], further battle the [[factions/Cult of Set.md|Cult of Set]], or finally deal with [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s [[factions/Halflings.md|Halflings]].  But they also have several parts of the Halls to explore.
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 23b - Disrupting Services in the Temple of Set.md|Session 23B - Disrupting Services in the Temple of Set]]
+- Next Session: [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24A - Revenge on the Set Cult]]
 

@@ -117,14 +117,8 @@ They also have the [[locations/Scorpion Teleporter.md|Scorpion Teleporter]], whi
 
 2025-08-02
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]
+- Next Session: [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
 

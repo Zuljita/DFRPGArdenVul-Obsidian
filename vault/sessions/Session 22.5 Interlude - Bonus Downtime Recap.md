@@ -23,14 +23,8 @@ Once he got the blood sample, Vael cast Seeker followed by Trace, revealing that
 
 To be continued...
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
+- Next Session: [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23A - Gelatinous Cube and Slime Kraken]]
 

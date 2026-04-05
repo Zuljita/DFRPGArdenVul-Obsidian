@@ -13,6 +13,7 @@ tags:
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]
+- [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8B/9 - Muirasso's Tomb and the Broken Head]]
 - [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
 - [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]]
 - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
@@ -20,12 +21,14 @@ tags:
 - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]]
 - [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15 - The Great Cavern Re-Revisited]] — Demmasday, 20th of Jelenius, 2993 AE
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Demmasday, 27th of Jelenius, 2993 AE
+- [[sessions/Session 16.5 Bonus Mid-2993 Summary.md|Session 16.5 - Bonus Mid-2993 Summary]]
 - [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]] — Demmasday, 4th of Masporios, 2993 AE
 - [[sessions/Session 18 - Back Down the Well of Light.md|Session 18 - Back Down the Well of Light]]
 - [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]
 - [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
 - [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]] — Basilsday, 9th of Gerakios, 2993 AE
+- [[sessions/Session 22.5 Interlude - Bonus Downtime Recap.md|Session 22.5 - Interlude Bonus Downtime Recap]]
 - [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23A - Gelatinous Cube and Slime Kraken]] — Basilsday, 16th of Gerakios, 2993 AE
 - [[sessions/Session 23b - Disrupting Services in the Temple of Set.md|Session 23B - Disrupting Services in the Temple of Set]] — Basilsday, 16th of Gerakios, 2993 AE
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23C - Set Jailbreak and Down to Goblintown]] — Basilsday, 16th of Gerakios, 2993 AE
@@ -54,3 +57,7 @@ tags:
 - [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42B - Neferet and the Wraiths]] — Tothsday, 4th Mercedonian Day, 2994 AE
 - [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43A - Alpha Strike on the Cult of Set]] — Tothsday, 5th of Molivios, 2994 AE
 - [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43B - Alpha Strike on the Cult of Set]] — Tothsday, 5th of Molivios, 2994 AE
+- [[sessions/Session 43c - Looting the Cult of Set.md|Session 43C - Looting the Cult of Set]]
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
+- [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
+- [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]

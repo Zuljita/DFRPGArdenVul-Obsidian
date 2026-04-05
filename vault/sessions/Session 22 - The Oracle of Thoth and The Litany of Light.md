@@ -112,14 +112,8 @@ Next week:
 
 They left a couple of secret doors and a staircase unexplored at the end of the session, so they'll probably be back.  Though there was some talk of trying to rescue [[npcs/Lillian.md|Lillian]], the canon of the Temple of [[npcs/Mitra.md|Mitra]] in [[locations/Newmarket.md|Newmarket]], now that [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] has some knowledge magic that might make it easier to find her.  (Of course there was also talk of killing [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halflings, but pretty much only from [[pcs/grudge-brigade/Lacrymosa.md|Merenuithiel Lacrymosa Armaris]], who always wants to kill the halflings.)
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
+- Next Session: [[sessions/Session 22.5 Interlude - Bonus Downtime Recap.md|Session 22.5 - Interlude Bonus Downtime Recap]]
 

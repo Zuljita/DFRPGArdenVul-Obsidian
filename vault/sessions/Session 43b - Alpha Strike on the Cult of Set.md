@@ -79,14 +79,8 @@ The goal seems to be eradicating the rest of the defeated Settites, freeing all 
 - Previous Session: [[Session 43a - Alpha Strike on the Cult of Set]]
 - Next Session: [[Session 43c - Looting the Cult of Set]]
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43A - Alpha Strike on the Cult of Set]]
+- Next Session: [[sessions/Session 43c - Looting the Cult of Set.md|Session 43C - Looting the Cult of Set]]
 

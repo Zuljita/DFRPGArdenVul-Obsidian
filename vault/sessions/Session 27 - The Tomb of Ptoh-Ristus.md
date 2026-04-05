@@ -91,14 +91,8 @@ Total:  Probably 2 XP
 
 2025-10-25
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
+- Next Session: [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 

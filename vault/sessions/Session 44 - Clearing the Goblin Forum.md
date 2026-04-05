@@ -1,11 +1,11 @@
 ---
-title: "Session 44: Clearing the Goblin Forum"
+title: "44: Clearing the Goblin Forum"
 tags:
   - session
   - recap
 ---
 
-# Session 44: Clearing the Goblin Forum
+# 44: Clearing the Goblin Forum
 
 Date:
 Kylosday, 13th of Molivios, 2994 AE
@@ -100,13 +100,8 @@ None
 They have a lot of options. I have no idea where they are going yet.
 
 
-## Locations Visited
+## Session Navigation
 
+- Previous Session: [[sessions/Session 43c - Looting the Cult of Set.md|Session 43C - Looting the Cult of Set]]
+- Next Session: [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
 
-## Loot / Discoveries
-
-
-## Source / Navigation
-
-- Original Source: <https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-44-clearing.html>
-- Previous Session: [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]

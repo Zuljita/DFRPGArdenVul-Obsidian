@@ -261,14 +261,8 @@ I think they might actually take a shot at [[npcs/Phlebotomas Plumthorn.md|Phleb
 
 **Original Source:** [DFRPG Arden Vul Session 11: The Great Cavern Redux](https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-11-great-cavern.html)
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
+- Next Session: [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
 

@@ -126,14 +126,8 @@ Total: 4 XP
 Next Week:
 I expect more testing of the teleport rugs.  Vallium is still looking for a priest of [[npcs/Thoth.md|Thoth]].  There are still unexplored areas on both the Well of Light and [[locations/Goblintown.md|Goblintown]] levels.  Ioannes may be able to help with some of the mysteries of language or religion that stumped the others.  And if they run out of other things to do, they can always resume their war with the [[factions/Cult of Set.md|Cult of Set]], or explore deeper.
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]
+- Next Session: [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]
 

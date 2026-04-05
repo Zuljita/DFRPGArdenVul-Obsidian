@@ -145,14 +145,8 @@ Next Week:
 
 Will they go back down to one of the deeper levels that they've been foiled from visiting by technical issues, or will they stick to the surface ruins and try to figure out the Obelisks?  Will they find a new place to live that's more tolerant of live goats and dead giant beetles?  Will the Rugs of Instant Access demand a full share of loot and XP?
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]
+- Next Session: [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 

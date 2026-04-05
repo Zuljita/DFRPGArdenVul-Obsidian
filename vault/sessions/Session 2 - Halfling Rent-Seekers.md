@@ -149,20 +149,14 @@ The biggest city in the Empire and the known world is the capital, [[locations/A
 2025-03-29
 
 
-## NPCs Encountered
-
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
-
-
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-03-21.md|Recording Notes (2025-03-21)]]
 
 - [https://dfwhiterock.blogspot.com/2025/03/dfrpg-session-2-halfling-rent-seekers.html](https://dfwhiterock.blogspot.com/2025/03/dfrpg-session-2-halfling-rent-seekers.html)
+
+## Session Navigation
+
+- Previous Session: [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]
+- Next Session: [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+

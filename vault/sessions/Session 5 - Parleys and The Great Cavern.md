@@ -111,19 +111,13 @@ They are really sick of paying tribute to both halflings and the dragon, so it s
 2025-04-19
 
 
-## NPCs Encountered
-
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
-
-
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-04-11.md|Recording Notes (2025-04-11)]]
 - [Original Source](https://dfwhiterock.blogspot.com/2025/04/dfrpg-arden-vul-session-5-parleys-and.html)
+
+## Session Navigation
+
+- Previous Session: [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+- Next Session: [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+

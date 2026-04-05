@@ -64,20 +64,14 @@ Next Week:
 The thrilling conclusion of the epic battle.  Do the PCs defeat [[npcs/Neferet.md|Neferet]] and gain the Iron Circlet of Ghanor?  Does [[npcs/Neferet.md|Neferet]] defeat the PCs and line her tomb with all their stuff and make [[pcs/Vallium Halcyon.md|Vallium]] recruit a new group of allies?  Or does [[npcs/Neferet.md|Neferet]] escape?  I have no idea.
 
 
-## NPCs Encountered
-
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
-
-
 ## Source
 
 - Original Source: <https://dfwhiterock.blogspot.com/2026/02/dfrpg-arden-vul-session-42a-neferet.html>
 - Previous Discord Summary: [[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]]
 - Next Discord Summary: [[notes/Discord Summary 2026-W06.md|Discord Summary 2026-W06]]
+
+## Session Navigation
+
+- Previous Session: [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
+- Next Session: [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42B - Neferet and the Wraiths]]
+

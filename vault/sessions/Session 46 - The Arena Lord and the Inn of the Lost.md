@@ -1,12 +1,12 @@
 ---
-title: "Session 46: The Arena Lord and the Inn of the Lost"
+title: "46: The Arena Lord and the Inn of the Lost"
 tags:
   - session
   - recap
 source_url: https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-46-arena-lord.html?m=1
 ---
 
-# Session 46: The Arena Lord and the Inn of the Lost
+# 46: The Arena Lord and the Inn of the Lost
 
 ## Date
 Tahsday, 21st of Molivios, 2994 AE
@@ -15,38 +15,38 @@ Tahsday, 21st of Molivios, 2994 AE
 Warm, rainy
 
 ## Player Characters
-Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
-Vael Sunshadow, Half-Elven mage (Kyle)
-The GOAT, Imperial Goblin Mercenary Druid (Archon Shiva)
+- Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+- Vael Sunshadow, Half-Elven mage (Kyle)
+- The GOAT, Imperial Goblin Mercenary Druid (Archon Shiva)
 
 ## Significant NPCs
-Tresti Iredell, Half-Elven wizard of the Rarities Factor
-Temrin, Goblin Royal Artist
-Gribble, Lord of the Goblin Forum
-Many goblins
-Dworm, human guard/merchant
-Yoburra, Varumani ambassador
-Several ogre guards
-Many arena guards
-Hal, Varumani bartender
-Yerk, human gladiator
-Basil, human gladiator
-Nisdis, elven gladiator
-6 giant beetles
-The Arena Lord, Rudishva
-Ida and Odile, twin gamblers
-Razor Face, gambler
-Varumani Lift operators
-Virgoolian, goblin chemist
-Swiddy, baker
-Aebbe Long-Nose, cleric
-Philippous, weapons dealer
-Thegan White-Mane, Innkeeper, Inn of the Lost
-Boots, Barkeeper, Inn of the Lost
-Aethgrim, Entertainer, Inn of the Lost
-Akla-Chah, hologram psychologist
-Basil of Archontos, Right for Riches company employee
-Various summoned goats, bats, bears, and an elephant
+- Tresti Iredell, Half-Elven wizard of the Rarities Factor
+- Temrin, Goblin Royal Artist
+- Gribble, Lord of the Goblin Forum
+- Many goblins
+- Dworm, human guard/merchant
+- Yoburra, Varumani ambassador
+- Several ogre guards
+- Many arena guards
+- Hal, Varumani bartender
+- Yerk, human gladiator
+- Basil, human gladiator
+- Nisdis, elven gladiator
+- 6 giant beetles
+- The Arena Lord, Rudishva
+- Ida and Odile, twin gamblers
+- Razor Face, gambler
+- Varumani Lift operators
+- Virgoolian, goblin chemist
+- Swiddy, baker
+- Aebbe Long-Nose, cleric
+- Philippous, weapons dealer
+- Thegan White-Mane, Innkeeper, Inn of the Lost
+- Boots, Barkeeper, Inn of the Lost
+- Aethgrim, Entertainer, Inn of the Lost
+- Akla-Chah, hologram psychologist
+- Basil of Archontos, Right for Riches company employee
+- Various summoned goats, bats, bears, and an elephant
 
 ## The Plan
 - Sell food in the Goblin Forum
@@ -104,3 +104,9 @@ We should have closer to a full party next time, so they can explore more boldly
 
 ## Source
 - https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-46-arena-lord.html?m=1
+
+## Session Navigation
+
+- Previous Session: [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
+- Next Session: (none)
+

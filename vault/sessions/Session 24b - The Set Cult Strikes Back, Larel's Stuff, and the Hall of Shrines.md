@@ -103,14 +103,8 @@ Next Week:
 
 They have a lot of options.  They can go after the [[factions/Cult of Set.md|Cult of Set]] again, or deal with the halflings, or try to revisit the goblins, or explore more of the [[locations/Halls of Thoth.md|Halls of Thoth]] east of the chasm, or go back to the Hall of [[locations/Shrines.md|Shrines]].  Or a half-dozen other places.  [[locations/Arden Vul.md|Arden Vul]] is big.
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24A - Revenge on the Set Cult]]
+- Next Session: [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]]
 

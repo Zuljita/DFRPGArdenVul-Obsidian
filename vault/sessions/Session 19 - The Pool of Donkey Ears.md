@@ -102,14 +102,8 @@ Maybe they'll keep exploring this level and see if anyone else can get donkey ea
 
 2025-07-27
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 18 - Back Down the Well of Light.md|Session 18 - Back Down the Well of Light]]
+- Next Session: [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
 

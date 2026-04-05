@@ -193,19 +193,13 @@ I haven't heard any concrete plans yet.  There was a bit of the usual discussion
 2025-05-24
 
 
-## NPCs Encountered
-
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
-
-
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-05-16.md|Recording Notes (2025-05-16)]]
 - Original Source: [DFRPG Arden Vul Session 10: Baboons, Ghouls, and a Mule](https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-10-baboons.html)
+
+## Session Navigation
+
+- Previous Session: [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8B/9 - Muirasso's Tomb and the Broken Head]]
+- Next Session: [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]]
+

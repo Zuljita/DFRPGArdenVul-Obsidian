@@ -94,14 +94,8 @@ Next Week:
 
 We know they'll be starting the session fighting those [[npcs/Set.md|Set]] guards, and then, if they win, presumably resuming the search for [[npcs/Lillian.md|Lillian]].
 
-## NPCs Encountered
+## Session Navigation
 
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
+- Previous Session: [[sessions/Session 22.5 Interlude - Bonus Downtime Recap.md|Session 22.5 - Interlude Bonus Downtime Recap]]
+- Next Session: [[sessions/Session 23b - Disrupting Services in the Temple of Set.md|Session 23B - Disrupting Services in the Temple of Set]]
 

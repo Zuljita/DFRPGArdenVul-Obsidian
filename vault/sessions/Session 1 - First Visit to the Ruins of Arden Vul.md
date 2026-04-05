@@ -100,18 +100,12 @@ Presumably the four non-mercenary PCs stick together after their first successfu
 2025-03-22
 
 
-## NPCs Encountered
+## Source
 
+- https://dfwhiterock.blogspot.com/2025/03/dfrpg-session-1-first-visit-to-ruins-of.html
 
-## Locations Visited
+## Session Navigation
 
+- Previous Session: (none)
+- Next Session: [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 
-## Loot / Discoveries
-
-
-## Hooks for Next Session
-
-
-## Sources
-
-- [[lore/recording-notes/Recording 2025-03-14.md|Recording Notes (2025-03-14)]]

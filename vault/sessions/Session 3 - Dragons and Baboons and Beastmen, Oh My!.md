@@ -121,19 +121,13 @@ It sounds like they're going to keep exploring the halfling level.  They don't l
 2025-04-05
 
 
-## NPCs Encountered
-
-
-## Locations Visited
-
-
-## Loot / Discoveries
-
-
-## Hooks for Next Session
-
-
 ## Sources
 
 - [[lore/recording-notes/Recording 2025-03-28.md|Recording Notes (2025-03-28)]]
 - [Original Source](https://dfwhiterock.blogspot.com/2025/03/dfrpg-arden-vul-session-3-dragons-and.html)
+
+## Session Navigation
+
+- Previous Session: [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
+- Next Session: [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+
