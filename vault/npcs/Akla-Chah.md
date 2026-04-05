@@ -28,6 +28,8 @@ appears_in:
 ## Notes
 - In [[sessions/Session 33 - Nyema.md]], [[Stamelis]] was brought to the [[Beacon]] to keep her company.
 - In [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]], the party successfully contacted [[Akla-Chah]] from [[locations/Gosterwick.md|Gosterwick]] via communication bracelet, confirming practical remote contact range.
+- In [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]], Vael called Akla-Chah on the Command Bracelet to translate the Rudishva glyphs on the pool of green liquid's buttons in the Rudishva command chamber.
+- In [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]], Akla-Chah confirmed that not all Beacon crew members were accounted for and that it was possible some were still alive, though the Beacon crashed a very long time ago. Ioannes went through the crew roster with her and tentatively identified the [[npcs/Arena Lord.md|Arena Lord]] as **Entertainment Officer Crellik-Var**.
 
 ## Sessions
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
@@ -37,6 +39,8 @@ appears_in:
 - [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
 - [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
+- [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
+- [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
 
 ## Discord Insights
 

@@ -2,12 +2,57 @@
 title: Beacon
 tags:
   - location
+aliases:
+  - Shining Beacon
+  - The Shining Beacon
 ---
 # Beacon
 
+## Summary
+The Beacon (official name: **the Shining Beacon**) is a crashed Rudishva starship that serves as a base of operations for the Right for Riches company. It had a diverse crew of Rudishva, Kaliyani, Varuda, and Varumani, as well as two AIs. Most of its crew died due to treason. The ship needs fuel to become operational again.
+
+## Known Crew (Historical)
+- **Captain Leil-Jor** — Issued the quarantine order on the corrupted varuda nests during the crisis.
+- **Entertainment Officer Crellik-Var** — Tentatively identified as the [[npcs/Arena Lord.md|Arena Lord]] currently running the [[locations/Arena.md|Arena]] in the Halls of Arden Vul. If correct, he is a surviving crew member.
+- Not all crew members are accounted for; [[npcs/Akla-Chah.md|Akla-Chah]] confirmed in Session 46 that it is possible some are still alive despite the ship having crashed long ago.
+
+## Recorded Crisis Message (Session 45)
+A hologram recorded for the crew plays on the northern dais in a large Rudishva chamber connected to the Beacon. Translated by Vael in Session 45:
+> *"Fellow crewmembers of the Shining Beacon! The alien slime-mongers have infiltrated our defenses. The varuda nests are corrupted and have been quarantined by order of Captain Leil-Jor. The loyal varumani gather to repel the hopping hordes. Report to your designated crisis station in the weapons pod or crew chamber. Await further orders. Remain calm, for the Beacon shall light the way!"*
+
+## Key Features
+- Contains [[npcs/Akla-Chah.md|Akla-Chah]], a hologram AI psychologist.
+- Has a yellow-ID-only teleporter in the treasury, accessible via a one-way door (bypassable with Blink or Teleport Rug).
+- Contains a **Repli-Cube** — a Rudishva audio-visual recording and playback device.
+- Contains a **Rudishva Point Defense Array** — a stationary ranged weapon (potentially useful against the dragon).
+- Players have taken over its levels. Contains a secret door to a closet off the reading room, opened by oval keycards.
+- Has small crafts; Captain Leil-Jor and her engineers were modifying one for long-distance space flight.
+- Requires fuel to become fully operational.
+
+## Teleporter Route (Discovered Session 45)
+A Rudishva command chamber south-east of the Beacon area contains four teleporters:
+- One leads to the Rudishva cloister nearby.
+- One leads to an unknown Rudishva room south on the same level.
+- Two lead down several hundred feet to other unknown rooms.
+The cloister teleporter, combined with the treasury's yellow-ID teleporter, creates an indoor route from the Beacon to the known Halls without going outside.
+
+## Pool of Green Liquid (Session 45)
+In the Rudishva command chamber, a pool of green liquid with 24 labeled buttons shows camera feeds when buttons are pressed. Ten of the 24 buttons were functional and showed:
+- The Rudishva cloister nearby
+- The [[locations/Arena.md|Arena]]
+- The Sundered Span
+- The floating garden island in the [[locations/Great Chasm.md|Great Chasm]]
+- A Rudishva room with vertical coffins (seen previously on a Beacon camera feed)
+- A pyramid (unknown)
+- An underground cavern (unknown)
+- An underwater area (unknown)
+- Some kind of octagonal shaft (unknown)
+
 ## Sessions
 - [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
-
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
+- [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
+- [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
 - [[lore/recording-notes/Recording 2026-01-30.md|Recording 2026-01-30]]
 
 ## Discord Insights
