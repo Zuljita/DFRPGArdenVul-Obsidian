@@ -20,6 +20,9 @@ The Beacon (official name: **the Shining Beacon**) is a crashed Rudishva starshi
 A hologram recorded for the crew plays on the northern dais in a large Rudishva chamber connected to the Beacon. Translated by Vael in Session 45:
 > *"Fellow crewmembers of the Shining Beacon! The alien slime-mongers have infiltrated our defenses. The varuda nests are corrupted and have been quarantined by order of Captain Leil-Jor. The loyal varumani gather to repel the hopping hordes. Report to your designated crisis station in the weapons pod or crew chamber. Await further orders. Remain calm, for the Beacon shall light the way!"*
 
+## Command (Session 40)
+In [[sessions/Session 40 - Taking Command.md|Session 40]], Vael found the **Command Tablet (Tablet of the Beacon)** in the Rudishva Bastion and plugged it into the central chair on the bridge. The bridge computer recognized it as genuine and addressed Vael as "Captain." [[npcs/Akla-Chah.md|Akla-Chah]] also addressed him as Captain Vael and accepted his officer assignments: Ioannes, Vallium, and Uvash as officers; Basil of Narsileon as crew.
+
 ## Key Features
 - Contains [[npcs/Akla-Chah.md|Akla-Chah]], a hologram AI psychologist.
 - Has a yellow-ID-only teleporter in the treasury, accessible via a one-way door (bypassable with Blink or Teleport Rug).
@@ -28,6 +31,14 @@ A hologram recorded for the crew plays on the northern dais in a large Rudishva 
 - Players have taken over its levels. Contains a secret door to a closet off the reading room, opened by oval keycards.
 - Has small crafts; Captain Leil-Jor and her engineers were modifying one for long-distance space flight.
 - Requires fuel to become fully operational.
+- **Library**: Contains a work-in-progress translation book of ~250 Rudishva glyphs to Mithric.
+- **Garden**: Contains many strange plants including an assassin vine (killed in Session 40). Iris door in the southwest corner of the garden leads to an oval passage.
+- **Oval Passage (southwest garden)**: Leads to a dead end with a yellow-card secret door opening to a room that contained Varuda/Varumani/Heqeti zombie corpses.
+- **Teleporter Rooms**: Multiple teleporter rooms inside the Beacon connect to different areas. One goes to the Bastion (via yellow-card teleporters); another leads to a small room with an iris door; the Secure Treasury teleporter is yellow-card only.
+- **Secure Treasury**: Contains large gold and platinum keys, Rudishva weapon suits and various technological items. A large high-tech chest (too heavy to lift) contains rows of small boxes of seeds with Rudishva glyphs.
+- **Personal Defense Array (broken)**: A belt-style force field device; discovered to be defective — seals the user inside and cuts off air. Labeled as broken and dangerous.
+- **Rudishva Pep Pills**: Tested in Session 41; make the user very fast for a few seconds, then slow and sleepy for hours.
+- **Laser weapons**: Laser rifles and pistols, functional; Vael practiced on a wall in Session 41.
 
 ## Teleporter Route (Discovered Session 45)
 A Rudishva command chamber south-east of the Beacon area contains four teleporters:
@@ -50,6 +61,8 @@ In the Rudishva command chamber, a pool of green liquid with 24 labeled buttons 
 
 ## Sessions
 - [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
+- [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
