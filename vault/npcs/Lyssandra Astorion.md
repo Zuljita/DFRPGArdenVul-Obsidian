@@ -2,33 +2,35 @@
 title: Lyssandra Astorion
 tags:
 - npc
+- profession/mage
 aliases:
-  - Lyssandra Astorion, Archontean wizard, co-owner of the Arcane Practitioners'' Club
-  - Lyssandra Astorion, principal of the Arcane Practitioners'' Club
+  - Lyssandra
+  - Lyssandra Astorion
 appears_in:
   - Session 5 - Parleys and The Great Cavern
   - Session 30 - The Tomb of Theskalon
+  - Session 34c - Burglary and Death
 ---
 # Lyssandra Astorion
 
 ## Summary
-Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A pragmatic buyer of rare spells and occasional adviser to delvers. Along with [[Pelteon]], she identified the [[items/Gem of Insight.md|Gem of Insight]] for the party.
+Lyssandra Astorion is an older, practical Archontean wizard and the senior co-owner of the [[factions/Arcane Practitioners' Club.md|Arcane Practitioners' Club]] in [[locations/Gosterwick.md|Gosterwick]]. She insists the institution is called the "Arcane Practitioners' Club," not the "College." Her former apprentice [[npcs/Pelteon.md|Pelteon]] is her junior partner. She is the party's primary arcane services contact in Gosterwick.
+
+## Known Abilities & Services
+- Recharges Mage Power Items.
+- Identifies magic items ($100).
+- Trains Research and Alchemy skills.
+- Wants to purchase Mage scrolls or spellbooks containing spells she doesn't already know — particularly rare or unusual spells.
+- Knowledgeable about Rudishva culture, including their funeral traditions.
+
+## Notes
+- **Elixir of Health recipe (Session ~W46)**: Accepted an offer of a free Elixir of Health in exchange for providing the recipe. The next day, Vallium received a piece of paper with the recipe in precise handwriting — but the ink is a weird purple color and smells a bit odd.
+- **Rudishvan Funeral Traditions**: Described three methods (in order of preference): Full Recycling (best, but the Beacon currently lacks this capability); Spacing (second-best, also impractical at the Beacon); Cremation (third-best — could be done if you have a suitably hot fire somewhere outside the Beacon).
+- **Session 34c**: After the apartment fire/burglary, Lyssandra came to check on the party. She asked Vael to stay and answer investigators' questions; he declined (party members were in mortal danger). She allowed Vael to leave but asked him to return. She later recharged his power item when he came back.
+- **Unhappy with alchemy mess**: When Vallium critically failed an alchemy attempt, the mess annoyed Lyssandra and she told the party to supervise him more closely.
+- Holds a purple copy of the apartment key (standard for building management).
 
 ## Appears In
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
-
-## History
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 5: Parleys and [[locations/Great Cavern.md|The Great Cavern]] Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
-- [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 30: [[locations/Tomb of Theskalon.md|The Tomb of Theskalon]] Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
-
-## Notes
-
-- An older, practical mage who is a co-owner of the [[Arcane Practitioners' Club]].
-- She was the mentor to her partner, [[Pelteon]].
-- She is interested in buying scrolls or spellbooks containing rare or unusual spells that she does not already know.
-
-## Sessions
-- [[RawFiles/Discord/ArcanePractitionersClub.txt]]
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
-- [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
+- [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]

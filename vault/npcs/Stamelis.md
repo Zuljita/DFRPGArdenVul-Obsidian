@@ -33,6 +33,13 @@ aliases:
 - [[Undead Librarian]]s: He provides information about these creatures that inhabit the library.
 - [[Akla-Chah]]: The party brought [[npcs/Stamelis.md|Stamelis]] to the [[Beacon]] to keep the [[factions/Rudishva.md|Rudishva]] AI company.
 
+## Knowledge About Thothian Teleportation Rings
+Stamelis recalls the [[items/Thothian Teleportation Ring.md|Thothian Teleportation Rings]] but was never given permission to use them or knowledge of the correct activation sequences:
+- As Chief Librarian he had sufficient rank, but mostly stayed near the Library.
+- He was asked to meet important visitors at both the west-end and east-end rings on the Library level and escort them in — so he knows those two locations definitively.
+- He knows there were rings in the city proper, at least one in the Halls of Thoth, and definitely two on the Library of Thoth level, but is uncertain of the exact total.
+- He speaks **only Mithric**; [[npcs/Akla-Chah.md|Akla-Chah]] can translate for him now that she speaks Archontean.
+
 ## Discord Insights
 
 - Only speaks Mithric. Recalls [[items/Thothian Teleportation Ring.md|Thothian Teleportation Rings]] but never had permission or knowledge of their sequences. Revealed more details about them when questioned by Ioannes. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])

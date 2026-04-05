@@ -29,6 +29,8 @@ Kerbog Khan was observed in the Goblin Market attempting to negotiate with Thorc
 ## Notes
 - Potentially a significant source of information about the Halls if the party is willing to deal on his terms.
 - His origins and true nature are unknown.
+- **Settite interest (W44)**: The Settites were searching the [[locations/Great Cavern.md|Great Cavern]] for an "evil sorcerer" named Kerbog Khan who was wanted by one of the Collegium. This was reported by the rescued prisoner Hjalti, whose party leader (wizard Bjorn) died fighting the Settites in the Great Cavern. Whether the Goblin Market construct and the "evil sorcerer" are the same entity is unclear — but they share the name.
+- The Settites were also described as searching for a "lord of the fungi" in the Great Cavern during the same period.
 
 ## Appears In
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]

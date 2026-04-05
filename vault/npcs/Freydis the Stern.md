@@ -20,7 +20,9 @@ Stern, efficient, loyal.
 - [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] (employer)
 
 ## Notes
-She is a key figure in the administration of [[Gosterwick]].
+- Key figure in the administration of [[locations/Gosterwick.md|Gosterwick]]. She manages Lady Alexia's affairs and acts as gatekeeper for those seeking an audience.
+- **Healing Potion Supply (W46)**: Freydis has limited Ioannes to **4 minor healing potions per week** to reserve stock for others. She hinted the cap may be raised if Ioannes demonstrates concrete progress toward recovering any of **Lady Alexia's Regalia**.
+- When the party sent stone (excavated from expanding the Beacon annex) as a gift to the town for its future walls, the stone disappeared but Freydis never answered the letter.
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
