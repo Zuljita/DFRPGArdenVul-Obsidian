@@ -8,6 +8,7 @@ aliases:
   - Craas
   - Huge Green Dragon
 appears_in:
+  - "Session 31 - I Want to Believe"
   - "Session 35 - The Scepter - Flute of the Goblins"
   - "Session 36 - Rescuing Deino's Kids"
 ---
@@ -23,7 +24,14 @@ Hostile and extremely dangerous, but willing to negotiate if it serves his inter
 ## Tribute Arrangement
 The Right for Riches company agreed to serve as **Wardens of the Dam** in exchange for Craas's non-interference. They leave tribute at the top of the dam when passing through.
 
-### Session 35 — First Tribute Attempt
+### Session 31 — Silver Chess Pieces Accepted (Mostly)
+The party found a scroll case on top of the dam containing a note from Craas:
+- He said the **silver chess pieces** were "appropriate tribute"
+- BUT complained about: the **missing chess board**, the pieces being **the wrong colors**, and the **archons being larger than the dragons**
+- The party said rude things quietly, then Vael wrote a polite note back
+- They added a **magic amulet that only works for the Cult of Set** as additional tribute and left it on the dam
+
+### Session 35 — Meager Tribute Attempt
 - The party was coming up short on treasure due to the apartment burglary.
 - They left a **single earring** (Vallium intended to split a pair, giving one to Craas), plus contributions of coins from all party members.
 - Vael included an apology note explaining the meager tribute was due to the robbery.
@@ -51,5 +59,6 @@ After the next delve, the party found a sack waiting for them on top of the dam,
 - **[[npcs/Deino.md|Deino]]**: Deino was paying Craas tribute; he has been eating her beastmen children when she fails to pay.
 
 ## Appears In
+- [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 - [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]

@@ -17,6 +17,29 @@ appears_in:
 ## Summary
 [[Akla-Chah]] is a [[Rudishva]] hologram/AI therapist residing in the [[Beacon]]. She provides questioning, training, and occasional language practice; speaks [[lore/Archontean.md|Archontean]] with a curious inflection. She is knowledgeable about [[Rudishva]] customs, including their funeral rites.
 
+## Description
+Akla-Chah appears as a translucent 7-foot-tall form with brown skin, no hair, two small horns, and one fewer finger on each hand than expected. She wears an unfamiliar outfit. She is a **construct** built by the Rudishva, designed to appear to them as one of their own kind because they were more comfortable talking to someone who looked like them. Her actual physical form is elsewhere in the Beacon; her projection only works in the cafeteria.
+
+## First Contact (Session 31)
+When the Right for Riches company first found the cafeteria in Session 31, Akla-Chah greeted them in Mithric and engaged in a long conversation. She asked many questions: names, species (she recognized Vallium and Ioannes as human, but noted Vael looked different and Ashe Maykum looked very different), why not everyone spoke Mithric, what languages they spoke, who they worked for, why no humans had visited in a long time, how they found the Beacon, and their goals.
+
+**Backstory she shared:**
+- The **Beacon was a Rudishva vehicle** that crashed into Arden Vul long ago and was unable to leave.
+- The surviving Rudishva (and their allies, the **Varumani** and **Varuda**) survived here while trying to find a way home.
+- Then **"horrible treason"** happened and most of them were killed — too painful to discuss details.
+- Later, the **ancient Archonteans** discovered this section of the Beacon and "rudely interrogated" her, but eventually stopped coming.
+
+**Key information she gave:**
+- **Keycards**: The oval discs control access to doors. Different **colors = different ranks and access levels**. Some colors she had not seen before and might be fakes. The **best color = gold** (the captain's card). Captain **Leil-Jor** was killed in the treason; her body's location is unknown.
+- **Other construct**: There was one other construct like her, but "he went crazy and they should avoid him."
+- **Artifacts**: She identified some items as possibly weapons, but was uncertain — she is "a talker not a fighter" and had only seen such weapons in Rudishva entertainment media ("moving books") that might not be accurate.
+- **Food and drink**: The cafeteria bar has machines — a food button produces an "Arden Vul cake" (very filling and nutritious, not that tasty), and a drink button produces very strong alcohol (stronger than anything the party had tasted). The party filled a canteen and wineskins with the drink to take away.
+
+## Language Learning (Session 32)
+During the following week, Vael spent most of his time learning spoken Rudishva from Akla-Chah, while she learned spoken Archontean from Vael (starting with Mithric in common). By the end of the week:
+- Vael knew quite a few Rudishva words and phrases but still had grammar and vocabulary to learn.
+- Akla-Chah spoke Archontean fairly fluently, but **with a disturbingly Vael-like inflection**.
+
 ## Knowledge & Abilities
 - **[[factions/Rudishva.md|Rudishva]] Funeral Rites:** [[npcs/Akla-Chah.md|Akla-Chah]] can describe various [[Rudishva]] funeral traditions:
     - **Full Recycling:** Considered the best method, but the [[Beacon]] currently lacks the ability to perform it.

@@ -28,7 +28,8 @@ appears_in:
 - **Rumor:** He tells a "sob-story" about how he was exiled from the [[factions/Varumani.md|Varumani]] court due to the treachery of another goblin named [[Mook]].
 - **Rumor:** He is considered a reliable source of information and will "steer you right."
 - In [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]], the party encountered [[npcs/Gog.md|Gog]] in his cave after an unexpected teleport and negotiated passage/info rather than fighting.
-- In [[sessions/Session 33 - Nyema.md]], the party gave [[npcs/Gog.md|Gog]] 50 lbs of meat.
+- In [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]], the party came through Gog's cave on their way from the Varumani level back to Goblintown. He greeted them hoping they had brought him food. He was disappointed they had not, but still allowed them through.
+- In [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]], the party gave [[npcs/Gog.md|Gog]] 50 lbs of meat.
 - The party asked [[npcs/Gog.md|Gog]] about [[factions/Varumani.md|Varumani]] passports and tested his linguistic skills. He seems to understand Elvish, Dwarvish, and [[factions/Rudishva.md|Rudishva]].
 - He was exiled from [[factions/Varumani.md|Varumani]] territory but did not provide details.
 

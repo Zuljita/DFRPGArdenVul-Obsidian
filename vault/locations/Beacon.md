@@ -11,6 +11,34 @@ aliases:
 ## Summary
 The Beacon (official name: **the Shining Beacon**) is a crashed Rudishva starship that serves as a base of operations for the Right for Riches company. It had a diverse crew of Rudishva, Kaliyani, Varuda, and Varumani, as well as two AIs. Most of its crew died due to treason. The ship needs fuel to become operational again.
 
+## Surface Entry (Discovered Session 31)
+The Beacon's surface entrance was discovered in Session 31. Inserting silver ankh keys into the three obelisks (Sun, Moon, and Stars) before noon caused a loud crash at noon, opening a hole in the ground on the **southern part of the palace island** in the surface ruins. Stairs descend into the earth, ending at large **bronze doors** carved with Thoth, Set, Anubis, and Horus — all holding up their right hands.
+
+A large Mithric sign reads: *"Chamber of the Beacon. Enter only with Permission of the Archon. Speak the password to open."* No keyhole is visible.
+
+**Password**: **"aperire"** (Mithric for "open") — spoken by Vael. The doors unlocked immediately. (Comment from the GM: "Apparently the ancient Archonteans were terrible at passwords.")
+
+The stairwell has massive steel doors that are not directly magical and appear to weigh tons (impossible to lift without major engineering). The party sealed the entrance by using many Shape Earth castings to build a stone bridge/cover over the stairway, camouflaged with dirt and sticks. They can access the Beacon via Rug of Instant Access (one Rug left inside the secret door) without reopening the surface entrance.
+
+## Level 1 Layout (Session 31)
+- **Entry Room**: Contains two Imperial Stone Guardians (large stone constructs). Defeated by Vallium (two sword cuts each). Frescoes on the walls: left side = legionnaires and archons; right side = priests of Thoth, Set, and Horus. Left and right wooden doors; stone door straight ahead.
+- **Workshop** (left door): Many benches covered with tools and odd unidentified devices. No secret doors found. Contents put in Bag of Holding.
+- **Reading Room** (right door): Luxurious furnishings and bookshelves. Fresco images of Thoth, Set, and Horus on three walls. All books put in Bag. A **pale green oval disc** (keycard) fell out of one book. A suspicious ibis fresco on the north wall has a slot in its beak — inserting the green disc opened a secret room behind it, containing more Rudishva devices (including items resembling a helmet and a shield, others unrecognizable). Everything taken.
+- **Stone Door Room** (ahead): Locked (Lockmastered by Vael). Contains three **round iris doors** and a **portable blackboard** covered in Mithric writing (some sensible, some jumbled letters and numbers). Vael copied all the writing. The iris doors can be opened with the colored oval keycards.
+  - West iris room: Small room with a silver circle on the floor and a gold square on the wall. Nothing happened when manipulating them.
+  - East iris room: Mirror image of west room. Same result.
+  - North passage: East side collapsed; west side leads to another round door. Along the wall: wooden benches and a sign reading **"The Beacon — Source of the Old Ones' Power"** with an arrow pointing west.
+- **Control Room** (through western door in north passage): Brilliantly lit by hidden non-magical Continual Lights. Contains **6 oversized chairs** in various colors fixed to the floor. Black mirrors with switches and dials on the walls beyond some chairs. Podiums with controls. An **oval hole in the floor** (no ladder) leading to the level below. The central chair swivels on a pin; its armrests have cavities with a blinking red light in each (magical but not detectable as magic). Inserting objects in the cavities had no effect.
+
+## Level 2 / Sub-Level Layout (Session 31)
+Reached via the oval hole in the Control Room floor. A **non-magical levitation effect** in the shaft pulls/pushes you down gently, no spell needed.
+- **Passage northwest**: Round door straight ahead (NW), doors left and right.
+- **Cafeteria** (left door, opens automatically without a keycard): Many chairs in different colors around a long oval table. A bar along one wall with drink faucets. [[npcs/Akla-Chah.md|Akla-Chah]]'s cafeteria — her projection only works here. Three large maps on the table:
+  1. Two-level map of the Beacon with room annotations: rooms labeled "power" and "strange ghost"
+  2. A "Barracks of the Old Ones" two-level building
+  3. A map to some tomb somewhere in the Halls
+- **Power Room**: Full of unrecognized machinery. Vael managed to avoid pushing any buttons.
+
 ## Known Crew (Historical)
 - **Captain Leil-Jor** — Issued the quarantine order on the corrupted varuda nests during the crisis.
 - **Entertainment Officer Crellik-Var** — Tentatively identified as the [[npcs/Arena Lord.md|Arena Lord]] currently running the [[locations/Arena.md|Arena]] in the Halls of Arden Vul. If correct, he is a surviving crew member.
@@ -60,6 +88,9 @@ In the Rudishva command chamber, a pool of green liquid with 24 labeled buttons 
 - Some kind of octagonal shaft (unknown)
 
 ## Sessions
+- [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
+- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
+- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 - [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
 - [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
