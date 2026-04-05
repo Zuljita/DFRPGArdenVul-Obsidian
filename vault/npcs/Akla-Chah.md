@@ -27,7 +27,10 @@ appears_in:
 
 ## Notes
 - In [[sessions/Session 33 - Nyema.md]], [[Stamelis]] was brought to the [[Beacon]] to keep her company.
-- In [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]], the party successfully contacted [[Akla-Chah]] from [[locations/Gosterwick.md|Gosterwick]] via communication bracelet, confirming practical remote contact range.
+- In [[sessions/Session 40 - Taking Command.md|Session 40]], Vael plugged in the Command Tablet (Tablet of the Beacon) on the bridge. Akla-Chah immediately addressed him as **"Captain Vael"** and asked for orders. She confirmed the tablet was genuine and that its holder would command the Beacon. Vael set Ioannes, Vallium, and Uvash as officers and Basil of Narsileon as crew. She confirmed she could translate for the bridge computer, and suggested the computer would learn Archontean on its own if spoken to for a while.
+- In [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]], the party successfully contacted [[Akla-Chah]] from [[locations/Gosterwick.md|Gosterwick]] via communication bracelet, confirming practical remote contact range. She also identified the air circulation fans found in the Rudishva section southwest of the Beacon garden as exactly that — fans for air circulation. She confirmed that the table of NutriVore food machines and the heating/incubation unit (containing baby Varuda skeletons) could be controlled remotely via bracelet. She noted both the Captain's and First Officer's Command Bracelets were red, but was unsure about others.
+- In [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]], Vael called Akla-Chah on the Command Bracelet to translate the Rudishva glyphs on the pool of green liquid's buttons in the Rudishva command chamber.
+- In [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]], Akla-Chah confirmed that not all Beacon crew members were accounted for and that it was possible some were still alive, though the Beacon crashed a very long time ago. Ioannes went through the crew roster with her and tentatively identified the [[npcs/Arena Lord.md|Arena Lord]] as **Entertainment Officer Crellik-Var**.
 
 ## Sessions
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
@@ -37,6 +40,9 @@ appears_in:
 - [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
 - [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
+- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
+- [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
+- [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
 
 ## Discord Insights
 

@@ -2,14 +2,25 @@
 title: Gribble
 tags:
   - npc
+  - race/goblin
 aliases:
   - United Goblins Gribble
+  - Lord of the Goblin Forum
 ---
 # Gribble
 
 ## Summary
-Goblin (brother of [[Weskenim]]) whose rescue and movements triggered several audiences and shifts in goblin politics. Serves as a touchpoint between delvers and goblin leadership. In Session 43c, he was appointed Lord of the Goblin Forum by King Weskenim after the defeat of the Cult of Set.
+Gribble is a goblin and the brother of King [[npcs/Weskenim.md|Weskenim]] of the United Goblin Tribes. His rescue and subsequent involvement triggered several political shifts in goblin society. After the Right for Riches company defeated the [[factions/Cult of Set.md|Cult of Set]], King Weskenim appointed Gribble as **Lord of the Goblin Forum**.
+
+## Role: Lord of the Goblin Forum
+- Appointed by King [[npcs/Weskenim.md|Weskenim]] in [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c]] after the Cult of Set was defeated.
+- Tasked with collecting a dozen goblin guards and securing the Forum territory.
+- Concentrating on making the route from [[locations/Upper Goblintown.md|Upper Goblintown]] to the Forum (through the former Temples of [[npcs/Thoth.md|Thoth]] and [[npcs/Set.md|Set]]) safe, rather than exploring further.
+- Agreed to have [[npcs/Dworm.md|Dworm]] run the food stall in the Forum until a proper merchant moved in.
+- Noted that the Set animal statue in the center of the Forum was still emitting a strange gas that caused one of his guards to face-plant; the party helped neutralize it in Session 46.
 
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
 - [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
+- [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
