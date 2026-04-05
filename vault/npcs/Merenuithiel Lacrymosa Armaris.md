@@ -10,6 +10,8 @@ aliases:
   - Lacrymosa
   - Merenuithiel Lacrymosa Armaris, elven mercenary archer
 appears_in:
+  - "Session 38 - Another Attack on the Temple of Set"
+  - "Session 39 - Diving for the Yellow Card"
   - "Session 43a - Alpha Strike on the Cult of Set"
   - "Session 43b - Alpha Strike on the Cult of Set"
   - "Session 43c - Looting the Cult of Set"
@@ -26,6 +28,20 @@ Merenuithiel Lacrymosa Armaris (known as **Lacrymosa**) is an elven mercenary ar
 - Drinks Agility and Strength potions before major engagements.
 - Has **Luck** (used it to survive Dobby's invisible backstab attempt in Session 43b).
 - Can wear magical goggles to see through Settite magical darkness.
+
+## Actions in Sessions 38–39
+
+### Session 38 — Another Attack on the Temple of Set
+- Hired as the party's archer for the attack on the [[locations/Temple of Set.md|Temple of Set]] from the northern cave entrance.
+- Fought an archery duel against a line of Settite guards with bows: shot multiple Settites in the arms before they could effectively return fire.
+- After the party descended the cliff, stood back and peppered cultists and guards with arrows while also throwing flash nagetempos to blind them.
+- Vael cast Missile Shield on her as a precaution.
+- Tracked fleeing Settites east.
+
+### Session 39 — Diving for the Yellow Card
+- Hired for the Yellow Card expedition into the Rudishva Bastion.
+- Helped [[npcs/Thrainor Thronebreaker Ironvein.md|Thronebreaker]] breach the Rudishva security door using a portable battering ram.
+- Fought the mimic and the sentry gun turrets in the Rudishva room.
 
 ## Actions in Sessions 43a–43c
 
@@ -52,6 +68,8 @@ Merenuithiel Lacrymosa Armaris (known as **Lacrymosa**) is an elven mercenary ar
 - Present for the freeing of many slaves.
 
 ## Appears In
+- [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
+- [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
 - [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
 - [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]]
 - [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
