@@ -347,7 +347,7 @@ This document tracks unpulled threads, unresolved mysteries, and outstanding tas
 
 ### Inter-Session Discord (W23, 2025-06-09 to 2025-06-15)
 
-- **Vallium attended the Forum of Set's First Mystery** — He apparently visited the Forum of Set as a tourist/spy in Newmarket area. He found the First Mystery "underwhelming" and would not reveal what it was. What is the Second Mystery? What does the Cult actually practice in their Forum?
+- **The Forum of Set holds public Mysteries** — Vallium shared a rumor that the Forum of Set features a large statue of Set with slaves at his feet, a marketplace, and public "Mysteries." The First Mystery was described as "underwhelming" by the rumor's source, who wouldn't reveal its content ("it's a mystery!"). The Second Mystery was hinted at but cut off. The Forum appears to be more accessible than expected — possibly a front for the cult's deeper activities.
 - **Doppelgangers in Gosterwick** — Gedrick Malachite (Priest of Zodarrim in Newmarket) warned Uvash that doppelgangers have been appearing in town and advised inspecting every dwarf carefully. A war between dwarves and doppelgangers is ongoing. Uvash (a dwarf) is explicitly at risk.
 
 ---
@@ -396,6 +396,131 @@ This document tracks unpulled threads, unresolved mysteries, and outstanding tas
 
 ---
 
+## Session 16 — Random Scorpion Teleport to the Hall of Judgment
+*Real: ~2025-07-05*
+
+### Open Threads
+
+- **Ruby throne: "Speak the Secret Name and Claim Your Reward"** — A massive ruby-encrusted throne in the Hall of Judgment is buried beneath a pile of coins. An inscription reads "Speak the Secret Name and Claim Your Reward." The Secret Name is unknown.
+- **Gwelf the dwarf disappeared during rescue** — Gwelf was being brought out alongside Samantha the Red, Tresti, and Jost, then vanished without explanation before the party got him out. *(Updated W30: a Seeker spell found his body — he is dead, with a massive cutting wound across the torso, lying in a dark underground cave in an unrecognized location. His killer and the exact location of the body remain unknown.)*
+- **Goo creature in the southeast pit** — The Hall of Judgment contains at least two pits; the party encountered crocodiles in one and a goo creature in another. The goo pit was not investigated.
+- **Gerrilad's faction and masters** — The druid and his two giant four-armed baboons controlled the baboon area. His backers are unclear. *(Partially answered Session 18: [[npcs/Stamelis.md|Stamelis]] confirmed Gerrilad followed an "odd nature religion," was obsessed with baboons, and had not been in his room for a couple of weeks.)*
+
+---
+
+## Session 17 — Cleaning Out the Vermin
+*Real: ~2025-07-12*
+
+### Open Threads
+
+- **[[npcs/Lankios.md|Lankios]] the ancient hermit** — A former member of the Adrienic expedition, barely clinging to sanity. Refuses to leave until the killing of "Guivrel" by someone named "K" is resolved. Mental state is deteriorating. *(Session 19: found absent from his room; Vallium left food and Vael wrote him a note.)*
+- **Who is "K," and who was Guivrel?** — Lankios's claim: someone named "K" murdered Guivrel on the Adrienic expedition. No information on either name.
+- **Zombie porter with dog collar** — A docile zombie in work clothes with a dog collar, left in its room. It follows simple porter commands. Still in its room as of Session 19.
+- **Book in unrecognized language** — Found in the spider room. Language unidentified.
+- **Ridiculously heavy magic spear with Mithric writing** — Recovered but the inscription has not been translated and the spear's abilities are unknown.
+- **Map with "secret?" and "short jerks" notations** — Found on a carcass creeper victim's body. The locations depicted have not been matched to any known area.
+- **Note: "use a little pyramid to access the Howling Caves"** — Found on a dead halfling. The party has a small pyramid teleporter. This suggests a direct route to the [[locations/Howling Caves.md|Howling Caves]] may exist if the right teleporter sequence is used.
+- **Bronze double doors with orange Continual Light through peepholes** — Seen during exploration; not opened. The orange light is unusual.
+- **Gregor signet ring** — Found on an Archontean corpse. The name Gregor has not been connected to any known NPC or faction.
+
+### Inter-Session Discord (W27, 2025-07-07 to 2025-07-13)
+
+- **Rarities Factor goblin wants to buy Arcanum** — The goblin running the Rarities Factor (described as "the second richest person in Gosterwick") offered to buy "a very large quantity of Arcanum." Lyssandra advised the party to be polite when declining, and described Arcanum as "a magic orange metal found within Arden Vul that can be used as a spell component." The Arcanum globe retrieved in Session 18 is almost certainly what he has in mind.
+
+---
+
+## Session 18 — Back Down the Well of Light
+*Demmasday, 11th Masporios 2993 AE | Real: 2025-07-19*
+
+### Open Threads
+
+- **[[npcs/Stamelis.md|Stamelis]], enchanted head of a Thothian librarian** — A sentient stone bust (hundreds of pounds) in what was Gerrilad's mushroom room. Knowledgeable about the [[locations/Library of Thoth.md|Library of Thoth]] and willing to talk. The party promised to return and move him to the Library. He is still there.
+- **[[locations/Library of Thoth.md|Library of Thoth]]** — Confirmed by Stamelis to be just west of his room. Contains lost and valuable knowledge but is guarded by undead. *(W30 confirms: nobody has reached it in recent years.)*
+- **Large magical cauldron** — Recovered from the baboon kitchen. One command word heats it; another chills it. Brought back to Gosterwick. Full magical properties beyond temperature control are unknown.
+- **Small silver mirror** — Found in a chest in a bedroom adjacent to Gerrilad's mushroom room. Taken; not yet identified.
+- **Double doors to the south (baboon level)** — While moving west through the baboon level, the party saw double doors to the south and bypassed them. Unexplored.
+- **[[npcs/Brokenneck.md|Brokenneck]] and his two goblin companions** — The three prisoner-cook goblins escaped at the top of the Well of Light during the exit, leaving the cauldron behind. Whereabouts unknown. They know the party.
+- **[[npcs/Ketil.md|Ketil]], Wiskin ranger** — Rescued from baboon slavery; helped push the wheelbarrow to Gosterwick. A notable NPC who owes the party. Potentially a source of information about the Wiskin.
+- **[[npcs/Marco.md|Marco]], Children of Deino beastman** — Rescued (his arm was cooked and eaten by Yrsko). Parted ways at the secret entrance into the Great Cavern. Potential friendly contact within the [[factions/Children of Deino.md|Children of Deino]].
+- **Arcanum globe** — Partially analyzed: can recharge magic items; other powers unknown. Kept by the party (see Rarities Factor buyer thread). Full analysis incomplete.
+- **Purple fear glyph in cobwebby corridor** — Still active. The party passed through, but it will affect future visitors who don't know it's there.
+
+### Inter-Session Discord (W28, 2025-07-14 to 2025-07-20)
+
+- **Rumor: Tomb of Julian Grex** — A Thothian Archon's tomb located within a grove of underground almond trees. Location unknown.
+- **All seven statues confirmed still standing in the Halls of Thoth** — Noted after the baboon-level session. *(The party subsequently saw Sekhmet and Osiris animate and fight in Session 19; the count may have fluctuated.)*
+
+---
+
+## Session 19 — The Pool of Donkey Ears
+*Demmasday, 18th Masporios 2993 AE | Real: 2025-07-27*
+
+### Open Threads
+
+- **Uvash now has donkey ears** — Drinking from the orange-lit fountain in the Halls of Thoth transformed Uvash's ears into donkey ears. No apparent effect on hearing. No known cure.
+- **Magical locked doors in the Thoth baboon-statue room** — The room contains a large rotating-arm statue of Thoth in baboon form and several doors. One door was opened by a specific arm combination; another appeared magical (likely an ibis-symbol teleportation portal per W32 research). Other arm combinations may open other doors or trigger effects elsewhere.
+- **Privy shaft bottom** — The shaft descends about 500 feet to a natural cavern with exits east and west, a paved area, a sarcophagus, and four burned corpses. Magic mail armor retrieved by Michael, but a gray ooze remains in the cavern. Exits unexplored.
+- **Ring on a ladder rung in the privy shaft** — Spotted tied to a rung near the top of the shaft; Coinbase Levitated down to grab it. Not yet identified.
+- **Poison darts from sarcophagi** — Collected by Vael; the black coating on the tips may be a valuable substance.
+- **Pool of sludge sample** — Vael filled a vial for analysis at the APC alchemy lab. Results pending.
+- **Adventurer's diary** — Found in the cleared stirge nest. Contents unknown.
+- **Magic incense and small bronze baton** — Also found in the stirge nest; not yet identified.
+- **Scroll from the sarcophagi room** — Taken from one of the mummies; contents unknown.
+- **Sekhmet and Osiris statues animate and fight** — When the party entered the hall of seven statues, Sekhmet and Osiris animated and began fighting each other. The Thoth statue commanded them to halt. Is this a regular occurrence? A test?
+- **"A smart one must choose" — the Thoth challenge** — The Thoth statue froze the whole party except Vael and presented a choice. Vael picked up Osiris's dropped flail; the lion construct from Sekhmet's head animated and attacked him solo as the rest of the party stood frozen. Vael survived and received a divine blessing (1 extra HP). What is the deeper significance?
+- **Magic flail of Osiris** — Kept by Vael. Full abilities unknown.
+- **Book: *Divine Breath of Thoth*** *(W30)*: Identified between sessions — the book is Thothian; its back cover contains an uncharged *Mystic Mist* scroll of Mithric/wizardly origin.
+
+### Inter-Session Discord (W29, 2025-07-21 to 2025-07-27)
+
+*(No in-world content this week — all out-of-character mechanics discussion.)*
+
+### Inter-Session Discord (W30, 2025-07-28 to 2025-08-03)
+
+- **Gwelf confirmed dead** — A Seeker spell found Gwelf's body. He has a massive cutting wound across the torso and is lying in a dark underground cave in an unrecognized location. The viewer was too far away to get a directional reading. His killer is still unknown.
+- **Library of Thoth** — Independently confirmed via research: valuable lost knowledge, but undead guards have prevented access in recent years.
+
+---
+
+## Session 20 — The Outer Caverns of Set
+*Basilsday, 26th Masporios 2993 AE | Real: 2025-08-02*
+
+### Open Threads
+
+- **[[npcs/Egrk.md|Egrk]]'s cave people — trade offer pending** — Egrk's people want metal weapons, tools, and cooking pots in exchange for information. The party promised to bring metal goods next time.
+- **Three dungeon entrances identified by Egrk**:
+  - Mid-cliff entrance used by both "snake men" and "lizard people" — two factions sharing one entry point
+  - Entrance "far across the waterfall" — used by "barking dogs" (beastmen?)
+  - Entrance to the south — used by "blue knights on big horses," described as jerks
+- **Octagonal pillar with empty face reliefs** — In a large circular blue-tiled room at the top of 700 feet of stairs. Five faces carved with differently-shaped recesses: a sphere, a large disc, an oval, a small disc (priest of Thoth), and a goblin-nose hole. Nothing the party had matched. Needs the correct objects inserted.
+- **Stairs flanked by Set statues heading north** — Found but not explored. Leads to an unknown upper area. What is up there?
+- **Set cultist supply room** — Raided through a bypassed force field: weapons with Imperial seals (taken), basket, ropes. Vael sabotaged the ropes. The Set cultists who return will find apparently-intact ropes that may fail under load.
+- **Survivors of the roper cavern encounter** — The party tunneled through a cave-in and surprised a group on the other side. Most fled after their rear guard was killed. They know someone attacked through the wall.
+- **"Gordy" and "Quade"** — Named as rear guards by the fleeing group. Likely named Set cultists or dungeon inhabitants now aware of the party.
+- **Letter about Theskelon and his tomb** — Found in spider webs with corpses (three human and three lizardfolk). An addendum in different handwriting discusses Theskelon's tomb. Who is Theskelon?
+- **Magical mosaic depicting a bridge** — In the large stalactite/stalagmite cavern where the roper was encountered. Significance unknown.
+- **Settite frieze on the wall** — Immovable but depicts a significant Settite scene in the room entered through the cave-in.
+- **Broken Settite Was stick** — Found on a skeleton with a second unknown wand. Taken for identification.
+- **Unknown second wand** — Found alongside the broken Was stick. Not yet identified.
+- **Magic ring from inside the roper** — Dissected out of the roper's gut. Not yet identified.
+- **Enchanted pelt** — One of several pelts in the loot pile is enchanted. Not yet identified.
+- **Red Set scale armor** — Taken from a lizardfolk corpse in the spider webs. Its properties and usability are unknown.
+- **Tripwire at the exit of the roper-cavern room** — Spotted by Vallium; avoided. Who set it and what does it trigger?
+- **Natural chasm** — Vael flew out and was immediately swarmed by chasm cephalopods. After defeating them, the party abandoned further exploration. What lies below or across it?
+
+### Inter-Session Discord (W31, 2025-08-04 to 2025-08-10)
+
+- **Lillian located via magic** — A Seeker spell showed a woman in a prison cell: beaten, gagged, bound, indoors, lit by Continual Light, with bars on two sides and stone walls on the other two. A Trace on Lillian confirms she is to the north toward the ruins, relatively stationary, with no significant altitude difference from Gosterwick. This very likely identifies Lillian (the missing Mitran priestess sought since before Session 1) as a captive somewhere in or under the ruins of [[locations/Arden Vul.md|Arden Vul]].
+- **Dalton stalled on an obstacle** — Dalton (of Dalton's Darlings) was encountered at the Stunned Acolyte and mentioned he is "trying to find a way past something." (Message truncated.) What has his party stalled on?
+- **Litany of Light book is a fraud** — Research confirms the ritual described will likely fail and may have negative consequences. The book should not be used.
+
+### Inter-Session Discord (W32, 2025-08-11 to 2025-08-17)
+
+- **Ancient obelisks beneath Arden Vul** — The *Book of Priors* references obelisks discovered by the Thothians while building their temples. The obelisks appear related to "demon-worshipping hoppers." The Thothians built around them rather than destroying them. *(Connects to the surface obelisk's ankh recess from Session 1.)*
+- **Ibis-symbol doors are Thothian teleportation portals** — Research confirms that doors marked with an ibis symbol serve as portals to other locations within the Thothian complex. *(The door in the Thoth baboon-statue room that "looked magic" is almost certainly one of these.)*
+
+---
+
 ## Completed Items (continued)
 
 - **[[npcs/Versania.md|Versania]] / crazy woman rescued** *(Sessions 13–14)*: Convinced to leave the waterfall grotto with food and the promise of a birthday cake. Insanity cured by Jador at the Temple of Mitra after a large donation. She traded her Belt of Dwarvenkind for the rescue. Now volunteering at the House of the Gods.
@@ -411,5 +536,13 @@ This document tracks unpulled threads, unresolved mysteries, and outstanding tas
 - **[[npcs/Klisko.md|Klisko]] rescued** *(Session 11)*: Sole survivor of a rival party massacred by the amber-eye fireball trap in the evil temple. Shown the secret door out. Now in Gosterwick and available as a lackey (confirmed W23 Discord).
 
 - **Benevolent Brotherhood fence established** *(W21 Discord)*: Anonymous contact made through the Baliff's Truncheon. Can sell contraband (like Cult of Set armor) for 40% without revealing party identity.
+
+- **Altar with needle trap and hidden compartment resolved** *(Session 17 → Session 19)*: Vael figured out the non-magical trick and opened the compartment in Session 19. Inside: a bag of small red gems and a small magical silver feather token.
+
+- **Stirge infestation cleared** *(Session 17 → Session 19)*: The stirges were driven off with fire; those that fled up the chimney were sealed in by Vael's Shape Earth. Nest torn apart and looted: coins, magic incense, a small bronze baton, and an adventurer's diary.
+
+- **Samantha the Red, Tresti, and Jost rescued** *(Session 16)*: All three were freed from the Hall of Judgment after the scorpion teleporter deposited the party there. Jost revealed the illusory-wall entrance northwest of the Glory of Thoth as part of his gratitude.
+
+- **Gwelf — fate confirmed** *(Session 16 → W30)*: Gwelf disappeared during the Session 16 rescue. A Seeker spell in W30 found his body — massive cutting wound across the torso, lying in an unrecognized dark underground cave. He is dead. His killer and the body's exact location remain unknown.
 
 - **Belt of Dwarvenkind obtained** *(Session 14)*: Acquired from Versania in exchange for her rescue. Grants Night Vision, extra FP, lifting ST, poison resistance, and a beard. The party is deciding whether to keep or sell it.
