@@ -156,3 +156,134 @@ This document tracks unpulled threads, unresolved mysteries, and outstanding tas
 - **Teleporter key (white glass square from Session 4)** *(Session 4 → W13 Discord)*: Pelteon identified it as a key to a teleportation device. It requires the matching teleport object to function.
 
 - **Green glass square (from Great Cavern sandy island)** *(Session 5)*: Also a teleporter key (same type as the white square from Session 4, both identified by context). The matching teleport object has not been found.
+
+---
+
+## Session 6 — Good Ghost, Bad Ghost
+*Demmasday 18th Lucrios 2993 AEP | Real: 2025-04-26*
+
+### Open Threads
+
+- **Angry ghost at the base of the waterfall** — In a ruined tower near the road, a ghost screamed about "Settite murderers" when disturbed. It tried to possess Ashe Maykum (failed), fired a magic bolt, then did not pursue outside. Who was this person, and what did the Cult of Set do to them? Unanswered through Session 10.
+- **Two cave entrances behind the waterfall** — Ashe used Water Vision and spotted two cave openings behind the falls, 30–40 feet underwater. No way to reach them yet without water-breathing or the like.
+- **Pit trap in long north-south corridor** — A 20-foot pit opened immediately past the entrance of a long corridor east of the cephalopod room. Beyond the pit, the corridor continues unexplored. Levitation would make this safe.
+- **Open double doors near Jacobus's tomb facing the Great Chasm** — The room containing Jacobus's sarcophagus has double doors opening onto the Great Chasm. What lies on the other side?
+- **Book in unknown language** — Found in a secret compartment in a stone bench near Jacobus's study. No one has identified the language.
+- **Glass squares accumulating (teleporter keys)** — The party now holds multiple glass squares in different colors (white from Session 4, green from Session 5, two more green and yellow from Session 6). All are teleporter keys. The matching devices have not been located yet (though see Session 8a below).
+- **Halfling relations deteriorating** — Roskelly saw the party use Mystic Mist to smuggle loot past him. He knows they've been deliberately evading the tithe. Potential escalation.
+
+### Inter-Session Discord (W16, 2025-04-21 to 2025-04-27)
+
+*(W16 Discord summary file exists but contains no distilled content — only the header was present in the source.)*
+
+---
+
+## Session 7 — Why Did It Have to Be Plants?
+*Demmasday 25th Lucrios 2993 AEP | Real: 2025-04-28*
+
+*(Note: The vault file for Session 7 is a stub. Full data sourced from RawFiles/GMRecaps.)*
+
+### Open Threads
+
+- **Archon's Palace automated voice** — The main doors of the ruined palace speak a pre-programmed line: "Stand aside, citizen. This is not your home." The interior has not been fully explored; only the solarium was entered in detail.
+- **Key found on Archon Uriel's body** — A key was recovered from the desiccated corpse in the solarium. Its lock is unknown.
+- **Fist-sized orange rock (possible Arcanum)** — Found on the same corpse. Ioannes detected it as magical. The group suspects it may be the fabled orange mineral referenced in early rumors ("large supply of a wondrous orange mineral with many arcane uses; why the city was abandoned when the mines ran dry"). Not identified through Session 10.
+- **Magic ring of paving stones + 8"x8" grid in the Archon's Palace** — A circle of paving stones and a rectangular array of six 8"x8" square frames. The glass squares the party has been collecting are exactly 8"x8". This is almost certainly one of the teleporter devices the glass keys are meant for. Not yet activated.
+- **Plinth with statue feet (heavily booted)** — East of the west bridge on the southern island. The upper statue is gone. The feet appear to be the same scale as the marble arm found near the dry fountain in Session 3. May be parts of the same statue.
+- **Silver ankhs in obelisk recesses** — Three silver ankhs recovered from the Archon's Palace corpse. All three fit the recesses on the obelisk. Inserting one produced no obvious effect; inserting all three, or some specific combination, may be required.
+- **Wyvern to the southwest** — Flew past heading west during the session; one of Craastonistorex's pets.
+
+### Inter-Session Discord (W17, 2025-04-28 to 2025-05-04)
+
+*(W17: No in-world content — all rules mechanics and logistics.)*
+
+### From RawFiles (Session 7 GM notes, 2025-04-28):
+
+- **All the ways into the dungeon** — GM posted a player-compiled list of 19+ known entry points and paths. The key unvisited ones include: caves behind the waterfall (underwater), Pyramid move-statue-east and move-statue-west positions, the chute opened by the book-statue, the Selket bust teleporter, the secret door in the baboon mosaic, and the Forum of Set.
+
+---
+
+## Session 8a — Never Trust a Scorpion
+*Demmasday 2nd Ligarios 2993 AEP | Real: 2025-05-10*
+
+### Open Threads
+
+- **Halflings' south tunnel** — In the room full of sleeping halflings, a barricaded passage slopes downward to the southeast, guarded by two halflings. Where does it lead?
+- **Human alchemist working with Phlebotomas Plumthorn** — A man observed by Wizard Eye in Plumthorn's room, taking notes on alchemical processes. Who is he, and what is he making for the halflings?
+- **Phlebotomas Plumthorn's Newmarket extortion ring** — Plumthorn was writing a letter about a merchant severely late on protection money, ordering "knee-breaking." His criminal reach extends beyond the dungeon.
+- **Tower of Scrutiny doors confirmed Magelocked** — Vael's Analyze Magic confirmed Magelock plus additional enchantments. The doors are effectively impassable without specialized magic to counter Magelock. The magical darkness staircase inside remains unexplored.
+- **Gog's cave teleporter (magic circle + 8"x8" grid)** — Another matching teleporter device, identical to the one in the Archon's Palace (Session 7). Gog's cave has the device. The glass square keys presumably activate these. Not yet tested.
+- **Selket bust destination unreliable** — The scorpion-tail teleporter sent the party to Gog's cave instead of the Great Hall this time. It's unclear whether the destination is random, conditional, or changed.
+- **Scroll of Thothian prayers** — Dropped into the wrong Thoth-statue hole (the wand statue's hole, which required "the gift of magic"). The scroll was not returned. Is it retrievable?
+- **Thothian tomb inscription: "You have found me; let me lie"** — The floating corpse in the first tomb. The party triggered a gas trap and otherwise left it alone. Is there something beneath the surface here?
+- **Muirasso's tomb: possible second secret door** — Ioannes thought he detected a second secret door in the southeast corner of the burial room; others disagreed. Unresolved through Session 8b/9.
+- **Dalton's invitation** — The adventurer Dalton suggested meeting at the Inn of the Broken Head. *(Resolved passively — the party found the Inn in Session 8b/9, though they didn't arrange a formal meeting with Dalton.)*
+
+### Inter-Session Discord (W18, 2025-05-05 to 2025-05-11)
+
+*(W18: No distillable in-world content — all failed research roll results.)*
+
+---
+
+## Sessions 8b and 9 — Muirasso's Tomb and the Broken Head
+*Demmasday 2nd and 9th Ligarios 2993 AEP | Real: 2025-05-17*
+
+### Open Threads
+
+- **Two large keys from canopic jar** — Found in Muirasso's treasure vault. Their locks are unknown.
+- **Symbol of Fear in Muirasso's secret passage** — Still active in the narrow passage behind the SW secret door. A hazard to any future visitor who doesn't know it's there.
+- **More gold south of Muirasso's vault** — Vael's Seek Earth pointed to additional gold south of the emptied vault room. Not found before they left.
+- **[[locations/Inn of the Broken Head.md|Inn of the Broken Head]]** — A fortified inn within the ruins with rooms for hire and three competing merchant factors (Prosperity Factor, Wisdom Factor, Golden Band). A new base of operations. Kronos also mentioned the Forum of Set entrance on the west side of the cliff.
+- **[[npcs/Arden.md|Arden]]'s head above the Inn door** — Magical, can speak. It said: *"Restore me! Courage shall be yours when I am whole and the incantation sung!"* Kronos found it in the Forum near the oak tree. Restoring it presumably means rejoining it with the body (the colossal statue of Arden at the base of the waterfall?). The required incantation is unknown.
+- **Forum of Set entrance on the cliff face west** — Kronos mentioned it as dangerous. Not yet investigated.
+- **Unidentified halfling from Tower of Scrutiny roof** — Kronos confirmed the two humans found in Session 1 were his former employees Roger and Roger's cousin. The halfling with them remains unidentified.
+- **Three merchant factors at the Broken Head** — Crisarius Three-Legs (Prosperity Factor), Fenitior Stone-Hands (Wisdom Factor), Godric the Wise (Golden Band). All compete to buy looted statues. These are different factors from the three in Gosterwick.
+- **Gog still waiting for surface food** — The party forgot to bring any on their return trip in 8b/9, and Gog threw a tantrum. Ongoing obligation.
+
+---
+
+## Session 10 — Baboons, Ghouls, and a Mule
+*Demmasday 16th Ligarios 2993 AEP | Real: ~2025-05-17*
+
+### Open Threads
+
+- **Large baboon cave (Howling Caves)** — The tunnel from the cistern leads to a massive cave with dozens of baboons. The group plugged the cistern entrance with Shape Earth and retreated. The cave likely holds more secrets, including the back door to the area where the creepy man with the glass throne was torturing a dwarf (Sessions 3/4).
+- **Azure Knights' magic shield** — Found in the ghoul-infested cellar, bears the Azure Knights' sigil. Likely of interest to Lady Alexia or Sir Lucia. Magical properties not yet identified.
+- **Three tapestries from baboon tower** — Large (8'x16', ~100 lbs. each). One shows a wizard-vs.-dragon-rider battle; the second the Fourth Labor of Arden (defeating the Berserkers of Westholm); the third the Seventh Labor of Arden (Arden and Vul fighting a water elemental above a waterfall). Significant artistic and possibly lore value. Sold at some point? Not yet confirmed.
+- **Cellar under rubble (north door)** — The cellar found via Seek Magic had an east and north door. The west door led to the ghouls (cleared), but the north door was not opened.
+- **Shape Earth plug in cistern** — Vael spent significant energy to seal the baboon tunnel with shaped stone. This is a temporary-ish fix; something with enough force could break through, or baboons might dig around it.
+
+### Inter-Session Discord (W19, 2025-05-12 to 2025-05-18)
+
+*(W19 Discord summary file exists but contains no distilled content — only the header was present.)*
+
+### Inter-Session Discord (W20, 2025-05-19 to 2025-05-25)
+
+- **Thoth statue gem eyes** — Rumor: the eyes of all Thoth's statues are huge gemstones. If removed, they allow the bearer to contact Thoth directly. Many statues were also enchanted. This is a major revelation given how many Thoth statues the party has interacted with. Could the "gift of knowledge" for the offering chest be the gem eyes themselves?
+- **The Drowned Canyon** — Spoken of widely but no adventurer admits to having found it; some believe it's a myth. Future exploration target.
+- **Banking confirmed: Silent Factor** — The party uses the Silent Factor at 1.25%/month (confirmed first engagement in Session 5).
+- **Statue of "The Philosopher" with empty eyes** — Found in Gosterwick during a town roll. Resembles a classic Archontean archetype but has empty eye sockets. Connection to the Thoth statue gem-eyes rumor?
+
+---
+
+## Completed Items (continued)
+
+- **Prior Jacobus's ghost** *(Session 6)*: Helped him achieve proper burial. Resolved; he rewarded them by pointing to a hidden compartment in his sarcophagus containing a belt and ring.
+
+- **Tower of Scrutiny bronze doors: status** *(Session 8a)*: Vael's Analyze Magic confirmed Magelock plus additional enchantments. The doors are functionally impassable with current means.
+
+- **Phlebotomas Plumthorn identified** *(Session 8a)*: Wizard Eye finally let Vael observe Plumthorn directly — a halfling boss running a protection racket with a human alchemist ally.
+
+- **Archon Uriel Basileon's body recovered** *(Session 7 found → Session 8a retrieved)*: The signet ring matched the Basileon family; Lady Alexia confirmed it was likely her ancestor. Sir Lucia's knights gave it a proper burial.
+
+- **Inn of the Broken Head found** *(Sessions 8b/9)*: Located in the northwest ruins. Has an inn (Kronos and Estelle), stabling for the mule, and three competing statue-buying merchant factors.
+
+- **Muirasso's tomb cleared** *(Sessions 8a, 8b/9)*: The wight Muirasso and his zombies were defeated. The treasure vault behind the SW secret door was looted (major haul including platinum, magic items, and gold shabti statues).
+
+- **Baboon tower cleared** *(Session 10)*: The four-armed giant baboon was killed; the surviving large baboons fled to the cistern.
+
+- **Bee tower nest destroyed** *(Session 10)*: Windstorm chased the bees; tower searched, nothing found.
+
+- **Gog met** *(Session 8a)*: Found in an underground cave (not the grotto near the arena as the rumor suggested, or possibly the same place). He is a varumani, not a troll. He knows paths to the goblins and provided a secret staircase past the halflings. He wants surface food as payment.
+
+- **Teleporter device identified** *(Sessions 7–8a)*: The ring of paving stones + 8"x8" grid found in the Archon's Palace (S7) and in Gog's cave (S8a) are the matching devices for the glass square keys the party has been collecting.
