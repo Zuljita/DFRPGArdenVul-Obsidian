@@ -287,3 +287,129 @@ This document tracks unpulled threads, unresolved mysteries, and outstanding tas
 - **Gog met** *(Session 8a)*: Found in an underground cave (not the grotto near the arena as the rumor suggested, or possibly the same place). He is a varumani, not a troll. He knows paths to the goblins and provided a secret staircase past the halflings. He wants surface food as payment.
 
 - **Teleporter device identified** *(Sessions 7–8a)*: The ring of paving stones + 8"x8" grid found in the Archon's Palace (S7) and in Gog's cave (S8a) are the matching devices for the glass square keys the party has been collecting.
+
+---
+
+## Session 11 — The Great Cavern Redux
+*Demmasday 23rd Ligarios 2993 AEP | Real: ~2025-05-24*
+
+### Open Threads
+
+- **Statue of middle-aged man with missing eyes** — In the Great Cavern's eastern passages, a statue of a middle-aged man has two empty eye sockets. The party has now found both gem eyes needed: one silver (Session 11) and one blue (Session 15). What happens when the eyes are restored?
+- **"Evil temple" room and the toppled reptilian statue** — A large room deep in the western Great Cavern, dedicated to what feels like an evil god, contains decapitated statues, sarcophagi (three already looted), and a toppled reptilian statue with amber eyes that act as a fireball trap. The cave-in to the north is impassable. Notably, the party has the statue's severed head in their wheelbarrow — someone suggested using it as a lethal gift for the halflings. Who does this temple belong to?
+- **Tomb of Lycandus** — A Sortian tomb that Klisko's party was seeking, reportedly accessible via a statue door with empty eyes somewhere in the southwest of the Great Cavern (up a wall). They couldn't open it and never found it. Location unconfirmed.
+- **Fire mephits in orange jackets and top hats** — Encountered near a magical pillar of fire in the Great Cavern. They speak an unknown language and smoke mushroom cigars. One discarded cigar stub temporarily dropped Vallium's IQ and boosted his Perception. What are these things, and what is the pillar of fire?
+- **Magic staff from dead elf (Lyra's staff?)** — Found on the decomposing body of an elven woman in the Great Cavern. Not yet identified through Session 15.
+- **Glowing blue staff found stuck in the sand** — Found in a sand-floored cave near the underground river. Taken by Vael; not yet fully identified through Session 15.
+- **Magic bracer from translucent goo** — Found mixed with goo and rat activity; extracted with Apportation and washed in the stream. Not yet identified.
+
+### Inter-Session Discord (W21, 2025-05-26 to 2025-06-01)
+
+- **[[factions/Benevolent Brotherhood.md|Benevolent Brotherhood]] contact established** — The party went to the Baliff's Truncheon with backup, found a public facade office with a secretary "Shirley," left a note in an unmarked mailbox. A man named "Petros" (likely an alias) then toured them through the seedier parts of town and arranged to sell their stolen Set armor anonymously at the docks for 40%. A criminal fence is now available for selling contraband.
+- **Mushroom field guide** — Astableon the bookseller currently has no books about mushrooms in stock. The party still needs to find Cloud Cap mushrooms for Count Skleros.
+
+---
+
+## Session 12 — First Encounter with the Cult of Set
+*Demmasday 30th Ligarios 2993 AEP | Real: ~2025-05-31*
+
+### Open Threads
+
+- **Combination puzzle pillars** — Two stone pedestals with onyx columns, each divided into five rotating sections carved with five animals: snake, cat, lizard, ram, and winged horse. Confirmed magical. The clerics found no theological connection between the five animals. Left untouched pending more information. Located in the tunnels west of the Cult of Set platform in the Great Cavern.
+- **Green material on cave walls** — A sample was scraped off and put in a flask. Not yet identified through Session 15.
+- **Detection-blocking glyph** — A magical glyph on a cave wall that protects from wetness and from detection/scrying. Whose is it, and are they actively hiding from scrying?
+- **[[npcs/Skizz and Burzip.md|Skizz and Burzip]]** — Two lizardmen given directions to the Great Cavern in exchange for a promise of goodwill with other lizardmen. They were on a revenge mission against the Cult of Set. Their fate is unknown.
+- **Cult of Set western territory** — Only partially explored. A storeroom with dried mushrooms, a furnished room with a burning fireplace, and a passage leading north (then a cave-in to the west) were found. Many more rooms must lie beyond. The Cult knows the party killed four of their guards.
+- **[[npcs/Klisko.md|Klisko]] as potential hireling** — Rescued in Session 11, now confirmed in Gosterwick. He could serve as a lackey if the party can pay his wages.
+
+### Inter-Session Discord (W22, 2025-06-02 to 2025-06-08)
+
+- **Ghost lore: Yrtol still unresolved** — Ioannes found a book at the Temple of Mitra stating that ghosts return to their haunted spot until their unfinished business is resolved (death avenged, task completed, body buried, etc.). Driving Yrtol away temporarily does nothing permanent. To truly lay him to rest, the party probably needs to either avenge his murder by the Cult of Set or convince him they're on the same side.
+- **Returning pebble** — Identified at the APC: it disappears and reappears in the owner's pocket (currently Chrysalis's). Not yet clear what triggered this.
+
+---
+
+## Session 13 — Yrtol and the Turtle
+*Demmasday 6th Jelenius 2993 AEP | Real: ~2025-06-14*
+
+### Open Threads
+
+- **Yrtol still unresolved** — Chrysalis drove the ghost back through the tower wall with Affect Spirits on her staff. He may have heard Ioannes shout that they aren't Set cultists, but it's unconfirmed. His basement was looted (silver circlet, flight potion, returning pebble). According to ghost lore, he will return. His murder needs to be avenged by the party — killing Set cultists may be the key.
+- **Doors north and east in the Arden cave complex** — Beyond the ancient barricade with legionnaire corpses in the behind-the-waterfall area, there are unopened doors both north and east. Not investigated.
+- **Locked door south in the Hall of Arden's Labors** — The big room with twelve magical pillars dedicated to each of Arden's Twelve Labors has a locked door to the south that the party couldn't open (no Lockmaster available that session). The key found on Archon Uriel's body in the Archon's Palace was not tried.
+- **Twelve magical pillars (Arden's Labors)** — Each of the twelve pillars is dedicated to one of the Labors of Arden and is magical. Their function is unknown. The inscription says those taking up Arden's labors must first purify themselves in the pool.
+- **Purification pool and Arden shrine** — "Those who would take up the labors of the Great Defender must purify themselves." The pool water is clean. What happens if a properly purified person attempts one of the Labors?
+- **Feathered creatures that killed the Azure Knight** — The knight's magic greatsword showed Ioannes a vision: he killed one bear-sized feathered creature with many stabs, then another seized him from behind with huge claws and stabbed/strangled him to death. At least two creatures. They are still somewhere in the Arden complex.
+- **Magic greatsword (Azure Knight's)** — Sent a vision to Ioannes when picked up. Probably named or otherwise significant. Not yet identified.
+- **Stairs up at east end of Labors room** — A second level up, with four ancient bodies and a magic shortsword. The upper level is entirely unexplored.
+- **"Now she must be defended" tokens** — Two small silver tokens showing Arden on one side. Used to silence the hammer-statue guardian. Still in party's possession; one used in Session 14 to silence the voice again.
+- **Crazy woman with magic belt** — Left food for her via a summoned turtle but could not convince her to leave. *(Resolved Session 14 — see below.)*
+
+### Inter-Session Discord (W23, 2025-06-09 to 2025-06-15)
+
+- **Vallium attended the Forum of Set's First Mystery** — He apparently visited the Forum of Set as a tourist/spy in Newmarket area. He found the First Mystery "underwhelming" and would not reveal what it was. What is the Second Mystery? What does the Cult actually practice in their Forum?
+- **Doppelgangers in Gosterwick** — Gedrick Malachite (Priest of Zodarrim in Newmarket) warned Uvash that doppelgangers have been appearing in town and advised inspecting every dwarf carefully. A war between dwarves and doppelgangers is ongoing. Uvash (a dwarf) is explicitly at risk.
+
+---
+
+## Session 14 — Behind the Waterfall Again
+*Demmasday 13th Jelenius 2993 AEP | Real: ~2025-06-21*
+
+### Open Threads
+
+- **Stairs up from hammer-statue guardian room** — An unlocked door north of the hammer-armed statue guardian leads to stairs ascending to another level. The party turned back rather than start a new level mid-session.
+- **Round metal door with raised panel (chitin corridor)** — At the end of a chitin-walled passage behind the waterfall area. No handle; the raised panel didn't respond to Vallium's armored touch. One hexagonal explosive trap was detonated by a test goat; more may remain. Too strong to smash. Needs magic or the correct key/action.
+- **Cult of Set passage from behind the waterfall** — At the crossroads in the chitin passage area, a finished stone corridor leads west with stairs up and a silver Set pendant hanging on a sconce. This connects the waterfall complex to the Cult of Set's territory from a new direction.
+- **Six rock elementals** — In an ore-bearing cave behind the waterfall area. The party retreated; GOAT plugged the entrance with Stone Shape. The ore in those caves glitters with precious metals. The elementals are still in there.
+- **Hall of twenty 10-foot statues** — Beautiful teak wainscotting, statues of Arden, Vul, Marius Tricotor, and others. One statue is smashed; an ancient woman with violent multiple fractures lies next to it. The statues are too heavy to easily move. Enormously valuable.
+- **[[npcs/Versania.md|Versania]]** — Rescued, insanity cured by Jador at the Temple of Mitra after a large donation by Vallium. She is now volunteering at the House of the Gods. She was a former woman-at-arms; she may have heard things during her years in the complex. Does she remember anything useful?
+
+### Inter-Session Discord (W24, 2025-06-16 to 2025-06-22)
+
+- **Secret signal to reach the underground Forum** — A rumor: shine two lanterns from the left side of the river at night, then look for a basket on the cliff face. "Stephania" pays well for basic supplies. This is almost certainly the Cult of Set's supply route into their subterranean Forum.
+
+---
+
+## Session 15 — The Great Cavern Re-Revisited
+*Demmasday 20th Jelenius 2993 AEP | Real: ~2025-06-28*
+
+### Open Threads
+
+- **Statue torso still missing** — The party now has the head (recovered from the ogres) and has found the plinth with feet and legs at the Sandy River Beach, but the torso/body is missing. The statue is somewhere in the Great Cavern's underground river area. Who is this statue of?
+- **Teleporter color sequence discovered: red-black-yellow-blue-green-white** — A parchment found in a mining tools room tells the insertion order for the colored teleporter glass squares. The party currently holds: red (Session 13), white (Session 4), green ×2 (Sessions 5 and 6), and yellow (Session 6). Still needed: **black** and **blue**. Inserting all six in order at a teleporter device presumably activates it.
+- **Map with 9 rooms and stairs** — Found with the color sequence parchment. The area depicted has not been identified yet.
+- **Magic necklace with red gem (from the bone cave)** — Hanging conspicuously on the north wall of a bone-filled cave. Very suspicious placement. Not yet identified through end of Session 15.
+- **Foul-smelling cave above the lake's east shore** — Lacrymosa spotted it from Walk on Air at roughly 40 feet elevation. Not investigated.
+- **Long Range Cavern Patrol maps** — A beastman sergeant mentioned the Long Range Cavern Patrol might have maps of the Great Cavern. How to get access?
+- **Second giant crab** — One killed, one stayed deep underwater when its partner surfaced to attack. Still present in the lake.
+- **Dead halfling in the ogre cave** — The ogres were cooking it. Was this one of Plumthorn's halflings? A random delver? No identification attempted.
+- **Parchment and map** — The color sequence parchment also had a map. Not yet located in any known area.
+
+### Inter-Session Discord (W25, 2025-06-23 to 2025-06-29)
+
+- **The Shining Well leads to good loot** — A rumor confirms the Pyramid of Thoth statue has gem eyes (the party already knows this from W20). It also says the "Shining Well" leads "straight to the sweet loot." This almost certainly refers to the Well of Light — which the party found at the bottom of in Session 3. The mirror at the bottom was twice covered over by an unknown agent.
+- **Research on the teleporting Selket scorpion** — No direct results, but something tangentially related was uncovered (details not stated in the Discord summary).
+
+### Inter-Session Discord (W26, 2025-06-30 to 2025-07-06)
+
+- **Goblin city entrance via the Great Chasm** — A rumor gives directions: find the great stone seat near "Sundered Span" and rappel down the Great Chasm from there. The entrance is a huge iron gate built into the Chasm wall. The goblin king requires tribute. "Sundered Span" is an unknown location, presumably near or over the Great Chasm.
+
+---
+
+## Completed Items (continued)
+
+- **[[npcs/Versania.md|Versania]] / crazy woman rescued** *(Sessions 13–14)*: Convinced to leave the waterfall grotto with food and the promise of a birthday cake. Insanity cured by Jador at the Temple of Mitra after a large donation. She traded her Belt of Dwarvenkind for the rescue. Now volunteering at the House of the Gods.
+
+- **Giant dire snapping turtle killed** *(Session 14)*: Vallium landed a fatal eye-stab while the turtle was stunned by Sister Valya's Kiai. GOAT determined it was a magical dire creature, not a natural animal, so could not be resummoned.
+
+- **Grotto floor fully searched** *(Session 14)*: A red glass square (teleporter key), magic shield, silver scroll case, magic shortsword (bear-skin wrapped), discus-thrower statue, two Arden tokens, coins, brooch, and ivory coffer recovered.
+
+- **Four feral cats adopted** *(Sessions 11–12)*: Ioannes brought them home. The leader, Onyx, revealed himself as the familiar of a slain elven mage named Lyra. He wants to be re-homed with a female elven wizard who doesn't go adventuring.
+
+- **Both gem eyes for the Great Cavern statue found** *(Sessions 11 and 15)*: The silver eye (Session 11) and the blue eye (Session 15) are now both held by the party. The statue of the middle-aged man in the Great Cavern can presumably be restored.
+
+- **[[npcs/Klisko.md|Klisko]] rescued** *(Session 11)*: Sole survivor of a rival party massacred by the amber-eye fireball trap in the evil temple. Shown the secret door out. Now in Gosterwick and available as a lackey (confirmed W23 Discord).
+
+- **Benevolent Brotherhood fence established** *(W21 Discord)*: Anonymous contact made through the Baliff's Truncheon. Can sell contraband (like Cult of Set armor) for 40% without revealing party identity.
+
+- **Belt of Dwarvenkind obtained** *(Session 14)*: Acquired from Versania in exchange for her rescue. Grants Night Vision, extra FP, lifting ST, poison resistance, and a beard. The party is deciding whether to keep or sell it.
