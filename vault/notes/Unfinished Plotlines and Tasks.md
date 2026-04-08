@@ -521,6 +521,151 @@ This document tracks unpulled threads, unresolved mysteries, and outstanding tas
 
 ---
 
+## Session 21 — The Library of Thoth
+*Basilsday, 2nd Gerakios 2993 AE | Real: 2025-08-09*
+
+### Open Threads
+
+- **Logovores still in the stacks** — Small creatures ("logovores") that grow when they hear new words. Eight were present when the party fought; some may remain deeper in the stacks. Speaking new languages near them causes rapid growth.
+- **Library books: thorough search not done** — Hundreds to thousands of books fill the stacks. Only Isocritis's and Tresti's spellbooks were found via Seek Magic. What else is in there?
+- **Tresti's spellbook** — Found in the library stacks. Tresti Iredell (the half-elven mage rescued in Session 16) left it here. Does she want it back? Does Vael want to copy spells from it?
+- **Large mirror in the Library** — Found near the southern stacks; moved to the librarian's station. Stamelis confirmed it is related to the Well of Light. Possibly the mirror that goes on the tripod at the bottom of the Well, or a second mirror in the system.
+- **[[npcs/Yamki.md|Yamki]] the wounded giant baboon** — Surviving leader of the four-armed baboons on the level. Was badly wounded and unconscious at session's end; Uvash bandaged him. Negotiation about ceding the level to the party was incomplete. Status unclear.
+- **[[npcs/Thalia.md|Thalia]] the Thorcin ranger** — Rescued from Umsko's captivity. Armed herself and wanted to kill more baboons. She left with the party; what did she do next? Potential ally with knowledge of the area.
+- **[[npcs/Fetch.md|Fetch]] the former baboon slave** — Old man, apparently enslaved by baboons for most of his life; barely speaks any human language. Brought to the Temple of Mitra. Does he know anything useful about the dungeon's interior?
+
+---
+
+## Session 22 — The Oracle of Thoth and the Litany of Light
+*Basilsday, 9th Gerakios 2993 AE | Real: 2025-08-16*
+
+### Open Threads
+
+- **Dispelling chamber with three dark mouths** — A room with a fresco of an ibis with orange eyes and a scroll of Mithric phrases. Periodically fires a burst that dispels all magic and destroys potions in the area. Three mouth-shaped openings: the east and west are teleporters (traced by Vael); the middle leads to a ramp/stairway down to the Oracle. Not fully mapped; more passages may lead from the mouth tunnels.
+- **Oracle of Thoth** — A marble chair in a hemispherical room; a warm presence answers one question when you sit. Ioannes asked about the Litany of Light. Others haven't tried. What are the limits? Anaximander sat for a very long time without getting answers — does it require fresh visitors?
+- **Intelligence-boosting magic pool** — Pool south of the Oracle room; overflow streams southeast. Ioannes drank and felt smarter; Vael got violently poisoned instead. Can other party members safely try it? Why did it hurt Vael?
+- **Soapstone salamander idol over the Great Chasm** — Small idol with empty eye sockets and gaping mouth; avoided by the party. Vael was curious but chose caution.
+- **Obelisk in the natural cave** — A crafted triangular obelisk with a pentagram atop it (possibly silver) and a welded-shut metal coffer inside the pentagram. Extends about 150 feet below. What is inside the coffer? What is the obelisk's purpose?
+- **Glowing orange mail** — Found with two dead red-robed figures near the obelisk. Not yet identified.
+- **Bronze key from under a corpse** — Found in the red-robed corpse room. Lock unknown.
+- **Belt pouch from red-robed corpse** — Taken without opening. Contents unknown.
+- **Secret door NW of Ruby Chair** — Found with See Secrets during the Litany; never opened.
+- **Secret door behind where the ibis construct stood** — Also found with See Secrets; never opened.
+- **Spiral stairs down** — In the dead-end room east of the ibis construct room. Not descended.
+- **Old message in the ivory oliphant: "Me hide pretty rock in water. Nobody find it now!"** — A previous visitor's recorded message. Whose rock? Which water?
+
+### Inter-Session Discord (W33)
+
+*(No W33 Discord summary file exists for this week.)*
+
+---
+
+## Session 23 — The Lillian Rescue (Parts A, B, C)
+*Basilsday, 16th Gerakios 2993 AE | Real: three consecutive sessions*
+
+*Sessions 23a (Gelatinous Cube and Slime Kraken), 23b (Disrupting Services), and 23c (Set Jailbreak and Down to Goblintown) all take place on the same in-game day — one extended rescue mission.*
+
+### Open Threads
+
+- **Fishman prisoner left in Set jail** — Six prisoners total; the fishman was unfriendly and spoke no known language. Left in his cell. Who is he and what does he know?
+- **Yellow glass sheet from the pool** — Magical; found in the desecrated Thoth temple pool where the Slime Kraken was. Not yet identified.
+- **Wand from gelatinous cube** — Taken from within the cube's body. Not yet identified.
+- **Two magic white gold rings from ghoul crypt** — Found in a secret burial niche near the catacombs. Not yet identified.
+- **Iron key from the Thoth-pool fountain** — Apportated out of the pool. What does it open?
+- **Peephole high on west wall of desecrated Thoth temple** — Found by the Wand of See Secrets. What does it overlook?
+- **Cave-in behind SW secret door in Thoth temple** — Too large for Shape Earth to bypass. Connects to unknown territory.
+- **Magical goblin head from Set jail wall** — Mounted alongside lion, reptile-man, and Gog-species heads. Gribble wanted it destroyed; Vael insisted on keeping it because it's magical. What does it do?
+- **Green Fang Kobolds** — Kidnapped Lillian and sold her to the beastmen who sold her to the Cult of Set. An enemy faction.
+- **King [[npcs/Weskenim.md|Weskenim]]'s reward** — Promised to the party for rescuing Gribble; collection deferred until next visit to Goblintown.
+- **Quest: Recover the Scepter of the Goblins** — Weskenim mentioned this as needed; no details given on where it is.
+- **Halfling extermination request from Weskenim** — He wants Plumthorn's halflings removed from his "rightful entrance to the surface." His words: "just the halfling exterminators I needed."
+- **Demon in a summoning circle in Goblintown** — Encountered in a side passage; Killick rushed the party past it without explanation. It was reciting obscure mathematical formulae. What is it, and why is it there?
+- **[[npcs/Geleg.md|Geleg]] the wizard** — Rescued; promised Vael access to copy spells from his spellbook (which Vael found in the jailer's lockbox).
+- **[[npcs/Eadgithu.md|Eadgithu]] the Thorcin ranger** — Rescued from Set's chains; grabbed a sword and is free. Potential ally.
+- **[[npcs/Grist the Hammer.md|Grist the Hammer]]** — Dwarf fighter rescued; deeply suspicious of doppelgangers; healed by Ioannes. Potential ally.
+- **[[npcs/Azgallatu.md|Azgallatu]]** — Warrior-cleric of Mitra rescued; remained at Lillian's side and went with her to Newmarket.
+- **Cult of Set bounty: $2500 per head** — Contract placed on Vael, Vallium, Ioannes, Uvash, Michael, and Susarra. Paid through the Duty Deacon at the Forum of Set.
+
+### Inter-Session Discord (W34, 2025-08-25 to 2025-08-31)
+
+*(W34 Discord file is a stub — no in-world content.)*
+
+---
+
+## Session 22.5 — Gosterwick Aftermath
+*(Chronologically after Session 23c; describes events in Gosterwick following the Lillian rescue.)*
+
+### Open Threads
+
+- **[[npcs/Susarra.md|Susarra]] murdered by Cult of Set** — Decapitated in her bed at the Yellow Cloak Inn; head and valuable gear taken. Vael cast Seeker + Trace: her head was about 10 miles north, at the elevation of the cliff face (west of the waterfall — the Set basket site). The Trace expires when he sleeps.
+- **Vael on a guard's "list" in Gosterwick** — A guard at the crime scene added Vael's name to a list before being overruled by Audun Yellow-Eyes. A minor security risk in town.
+- **[[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]] informally cooperating** — The head of the Drome (Gosterwick's intelligence service) sent Vael a blood sample for the Seeker/Trace, "officially" denied involvement. A useful but deniable contact.
+- **Party moved to the APC** — Treating Gosterwick as dangerous after Susarra's murder; all core members now living at the Arcane Practitioners' Club for security.
+
+### Inter-Session Discord (W35, 2025-09-01 to 2025-09-07)
+
+- **Cult of Set confirmed responsible for Susarra's murder** — Vael argued that the timing and circumstances constitute evidence under ancient standards, and the Drome's interest in the matter indicates trust. The evidence points clearly to the Cult as the killers.
+
+---
+
+## Session 24 — Revenge on the Set Cult and the Hall of Shrines (Parts A, B)
+*Mitrasday, 19th Gerakios 2993 AE | Real: two consecutive sessions*
+
+*Sessions 24a (Revenge on the Set Cult) and 24b (The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines) take place on the same in-game day.*
+
+### Open Threads
+
+- **[[locations/Forum of Set.md|Forum of Set]] briefly reached** — The party chased retreating Set cultists down the [[locations/Sighing Stair.md|Sighing Stair]] and glimpsed the Forum: a large space with a Set animal statue with slaves chained to it, market stalls, food vendors, and a portcullis with guards to the east. They retreated under heavy pressure. The Forum is now a known location — but hostile.
+- **Sighing Stair** — The wide staircase descending from the Set temple area to the Forum of Set; flanked by busts of priests and stuffed trophy heads (including an enchanted frost giant head that shouts curses in multiple languages).
+- **Enchanted frost giant head on the Sighing Stair** — Swears in several languages when people approach. Uvash tried goat meat; didn't work. What is it doing there, and can it be silenced or used?
+- **Susarra's head — location last known** — Vael's Trace showed the head "down and west" from the ruins, likely somewhere in or near the Forum of Set. Trace expired when he slept. Exact location now unknown.
+- **Cult of Set survivors from multiple fights** — Sergeants, acolytes, and guards fled west down the Sighing Stair. The Cult is aware they've been attacked repeatedly; their response is escalating.
+- **Apophis the giant lizard and two boars** — Found loose in the Set temple during the battle. Whose animals are these, and are they still loose in the temple?
+- **Roskelly saw the party emerge from a secret passage** — The halfling toll collector now knows there's a hidden route between the desecrated Thoth temple and the halfling/basement area that bypasses his tolls.
+- **[[npcs/Larel One-Eye.md|Larel One-Eye]]'s room** — A storeroom with frescoes of the Archontean folk hero's exploits; magic items taken (Larel's Cloak, Larel's Sack); Larel's Pin sold to Wicktrimmer. Letters to multiple women using the exact same phrasing with only the name changed. Funerary urn left behind (not magical per Vael).
+- **Hall of Shrines** — Eight shrines; seven blocked by force fields; one open shrine has a book, quill, and Mithric writing. A large ibis-headed Thoth statue in the center exhales orange gas ("pneuma") from its beak; Mithric inscription discusses pneuma. Vael has theories. Several old corpses killed by something strong.
+- **Magic sling and magic shield** — Found on corpses in the Hall of Shrines; not yet fully identified.
+- **Scroll, potions** — Also taken from Hall of Shrines corpses; not yet identified.
+- **Magelock on the Set temple door** — Cast by Vael when the party fled; will slow but not permanently stop the Cult.
+- **Sand trap room off baboon-Thoth statue area** — Triggered by Vallium opening a sarcophagus; room is now buried under tons of sand. Can be excavated with digging tools and/or earth magic.
+- **Two ibis-headed Thoth Guardians** — Both emerged from the baboon-Thoth statue arm positions and were defeated. What other positions remain untried?
+
+### Inter-Session Discord (W36 and W37)
+
+*(Both W36 and W37 Discord files are stubs — no in-world content.)*
+
+---
+
+## Session 25 — Looking for the Back Door to the Forum of Set
+*Tahsday, 27th Gerakios 2993 AE | Real: 2025-10-11*
+
+*(Two-week real-world break before this session.)*
+
+### Open Threads
+
+- **Yrtol's specific conditions** — Ghost Yrtol will not be appeased until: (1) the party has killed 50+ more Cult of Set members, and (2) they recover [[npcs/Nyema.md|Nyema]]'s body. Her body had a wedding necklace with her name in Mithric. Yrtol said: "Don't come back until you've done both."
+- **[[npcs/Nyema.md|Nyema]]'s body** — Somewhere in the dungeon; has a Mithric-inscribed wedding necklace. Location completely unknown.
+- **Set kill count toward Yrtol's 50** — The party has killed many Settites across Sessions 22.5–24. How many more to reach 50?
+- **Stairs down to octagonal room (back door to Forum)** — Found west of the Set guard post in the Great Cavern cliff. Leads down and south to an octagonal room with four exits, four Varumani guards in ambush position. The party identified this as the Forum's back entrance and retreated. This is the route they need.
+- **[[npcs/Varumani.md|Varumani]] in ambush** — Four of them guard the octagonal room at the base of the back-door stairs. Well-positioned and armed with mattocks.
+- **Golden cat statue (Bastet icon)** — Telepathically broadcast: "Avenge this wrong! Return me to my sister-people. Touching is forbidden!" Three dead humans and a dead lizard surround it — apparent victims of touching. No nearby worshippers of Bastet known. Left in place.
+- **Shimmering opalescent fog cave** — Adjacent to the Bastet statue. Nobody went in; purpose completely unknown.
+- **Beastmen of Androsia** — Six skinny troopers "guarding" a room; deceived by Larel's Cloak and some food while Vael invisibly looted their storeroom. They may eventually notice their gold and magic items are gone.
+- **Magic glass eyes from Androsia beastmen room** — Found mounted on a wall; taken. Not yet identified.
+- **New Bag of Holding** — Found in the Androsia beastmen room; heavier and larger capacity than Larel's Sack. Party now has two bags. May sell one.
+- **Fire mephits want Eye Opener mushrooms** — The three mephits near the magical fire column in the Great Cavern are out of their favorite mushrooms. The party needs Cloud Cap mushrooms for Count Skleros anyway — if Eye Openers are similar or nearby, this could be consolidated.
+- **Old Archontean temple atop a stone pillar in the Great Cavern** — Spotted by Vael from Levitation height; not visited or investigated.
+- **Large eastern plateau in Great Cavern** — Seen twice: a strange metal pillar on top and a cave descending inside. Still uninvestigated.
+- **[[npcs/Wicktrimmer.md|Wicktrimmer]] deal and relationship established** — Leader of the Rarities Factor; gave party 20,000 silver + lifetime banking + Narsileon shopping service + enemy intelligence in exchange for Larel's Pin and right of first refusal on future sales. A powerful new ally.
+- **Right for Riches Company officially incorporated** — Legal documents filed by halfling lawyer Barnaby Goodbarrel; approved by Thesmothete Eusbia Phokas of Vetucaster. The company can now legally own property.
+- **Black pudding sample** — Vael extracted a vial of the black pudding from the southwest cave. For the APC lab.
+
+### Inter-Session Discord (W38, 2025-09-22 to 2025-09-28)
+
+- **Someone made an inquiry about the living wheelbarrow in the dungeon** — An unnamed party asked Ioannes about the wheelbarrow left underground. Who is asking, and why?
+
+---
+
 ## Completed Items (continued)
 
 - **[[npcs/Versania.md|Versania]] / crazy woman rescued** *(Sessions 13–14)*: Convinced to leave the waterfall grotto with food and the promise of a birthday cake. Insanity cured by Jador at the Temple of Mitra after a large donation. She traded her Belt of Dwarvenkind for the rescue. Now volunteering at the House of the Gods.
@@ -544,5 +689,29 @@ This document tracks unpulled threads, unresolved mysteries, and outstanding tas
 - **Samantha the Red, Tresti, and Jost rescued** *(Session 16)*: All three were freed from the Hall of Judgment after the scorpion teleporter deposited the party there. Jost revealed the illusory-wall entrance northwest of the Glory of Thoth as part of his gratitude.
 
 - **Gwelf — fate confirmed** *(Session 16 → W30)*: Gwelf disappeared during the Session 16 rescue. A Seeker spell in W30 found his body — massive cutting wound across the torso, lying in an unrecognized dark underground cave. He is dead. His killer and the body's exact location remain unknown.
+
+- **Altar with needle trap opened** *(Session 17 → Session 19)*: Vael figured out the non-magical trick and opened the compartment. Inside: a bag of small red gems and a small magical silver feather token.
+
+- **Stirge infestation cleared** *(Session 17 → Session 19)*: Stirges driven off with fire and chimney fused shut via Shape Earth. Nest looted: coins, magic incense, small bronze baton, and an adventurer's diary.
+
+- **Samantha the Red, Tresti, and Jost rescued** *(Session 16)*: Freed from the Hall of Judgment. Jost revealed the illusory-wall entrance NW of the Glory of Thoth as the party's route in.
+
+- **Stamelis moved to the Library of Thoth** *(Sessions 18 → 21)*: Vallium dragged the heavy enchanted bust back from Gerrilad's mushroom room and installed it at the librarian's station in the Library of Thoth.
+
+- **Isocritis Half-Hand killed and Library cleared** *(Session 21)*: The wizard who had claimed the Library of Thoth was killed by a backstab from Vallium. His baboon zombies and logovore guardians were destroyed. The Library is now under party control.
+
+- **Well of Light mirror replaced and Litany of Light performed** *(Session 22)*: Vallium carried the huge mirror onto the tripod at the Well's bottom; Ioannes performed all four Litany rites. The party gained Infravision, Intelligence bonus, See Secrets, and Invisibility. Achievement: 1 XP for the milestone.
+
+- **Anaximander rescued from the Oracle of Thoth** *(Session 22 → 23c)*: Pulled out of the marble chair; brought to Gosterwick. He was cured of his 250-year-induced insanity at the Temple of Mitra and is now dictating events from that era.
+
+- **Lillian rescued** *(Sessions 23a/b/c)*: The missing canon of Mitra — sought since before Session 1 — was found captive in the Cult of Set's jail and freed. Returned to the Temple of Mitra in Gosterwick. Capture route confirmed: Green Fang Kobolds → beastmen → Cult of Set.
+
+- **Gribble rescued, Goblintown accessed** *(Session 23c)*: Goblin noble Gribble was freed alongside Lillian; led the party to Goblintown and secured an audience with King Weskenim.
+
+- **Susarra rescued, then murdered** *(Sessions 23a → 22.5)*: Found hiding in the desecrated Thoth temple and freed during the Lillian rescue. Days later, she was decapitated in her bed at the Yellow Cloak Inn — a Cult of Set revenge killing.
+
+- **Gem eyes installed in the Philosopher statue** *(Session 25)*: Both silver magic eyes placed into the Great Cavern statue's sockets. The statue activated and cast a Great Healing over the area, but the party was uninjured so the effect was wasted. The eyes disappeared into the statue permanently.
+
+- **Illusory wall entrance NW of Glory of Thoth now fully operational** *(Sessions 16 → 24)*: Confirmed by Jost in Session 16; used as the party's primary route through the basement throughout Sessions 17-24.
 
 - **Belt of Dwarvenkind obtained** *(Session 14)*: Acquired from Versania in exchange for her rescue. Grants Night Vision, extra FP, lifting ST, poison resistance, and a beard. The party is deciding whether to keep or sell it.
