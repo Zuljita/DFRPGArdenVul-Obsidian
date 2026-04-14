@@ -666,7 +666,506 @@ This document tracks unpulled threads, unresolved mysteries, and outstanding tas
 
 ---
 
+## Session 26 — The Scouring of the Shire
+*Lunday, 1st Besemios 2993 AE | Real: 2025-10-18*
+
+### Open Threads
+
+- **Dam sabotage and theft** — Someone removed the party's lock from the dam, changed the water level again, and stole the stored tools and wheelbarrow. Vael's Seeker put the stolen wheelbarrow in [[locations/Newmarket.md|Newmarket]], but the thieves were not pursued.
+- **[[npcs/Craastonistorex.md|Craastonistorex]] tribute/warden obligations continue** — The dragon demanded immediate correction of the dam and another tribute payment, accepting only a potion under threat. The party is still effectively on the hook as wardens of the dam.
+- **Floating Thothian bust in former halfling territory** — In a room off the [[locations/Glory of Thoth.md|Glory of Thoth]], the group found an immovable floating magical bust near a teleportation circle. It did not respond to conversation, and they left it alone.
+- **[[npcs/Rizzit.md|Rizzit]] the imprisoned demon** — On the way to the [[locations/Great Hall.md|Great Hall]], the party again passed the creepy purple wax demon, who asked to be freed. They still do not know what would happen if he were released.
+- **Orange oval object from [[npcs/Leifcrim.md|Leifcrim]]** — A small nonmagical-seeming orange oval made of strange chitin-like material bears unknown glyphs. Its purpose is still unknown.
+
+### Inter-Session Discord (W41, 2025-10-13 to 2025-10-19)
+
+- **Lizardman cave halfway up the cliff** — A rumor from Roscoe says lizardmen use a cave entrance halfway up the cliff, left of the waterfall, and set traps along the [[locations/Swift River.md|Swift River]] for captives. This may be a new access route into the dungeon.
+- **Historical dragon massacre on the cliff** — Roughly 50 years ago, Lord Burdock's men tried exploring the ruins via the Long Stair, met a huge green dragon, and were nearly wiped out. This helps explain why local exploration of Arden Vul stayed limited for decades.
+
+---
+
+## Session 27 — The Tomb of Ptoh-Ristus
+*Mitrasday, 10th Besemios 2993 AE | Real: 2025-10-25*
+
+### Open Threads
+
+- **Jacobus's newly found key and maps** — Searching Prior [[npcs/Jacobus.md|Jacobus]]'s rooms uncovered a key and multiple maps that had been missed before. Their locks/locations have not been matched yet.
+- **Horned-biped stela room across the Great Chasm** — The party spotted a chamber with a large floor stela showing a horned biped surrounded by glyphs in an unknown language. Vael thought the script resembled the glyphs on the orange oval object from the goblin market. The room's exits were not explored.
+- **[[items/Death Mask of Ptoh-Ristus.md|Death Mask of Ptoh-Ristus]] residual magic** — The golden death mask grants several understood powers, but part of its magic remains difficult to identify even after attempts by Vael, Lyssandra, and Pelteon.
+- **Unknown-language book from Ptoh-Ristus's tomb** — One of the recovered books remains unreadable. Its contents could still matter.
+
+### Inter-Session Discord (W42, 2025-10-20 to 2025-10-26)
+
+- **Tomb of Lycandus concealed by illusions** — New research says Lycandus's remains are hidden by illusions. This supports the earlier rumor that the tomb is reachable through a statue-door with empty eyes somewhere in the southwest Great Cavern.
+- **[[npcs/Ptarmis.md|Ptarmis]] may control the [[factions/Fungal Foresters.md|Fungal Foresters]]** — Research linked Ptarmis to control over the fungal faction, adding another layer to his influence in the Great Cavern.
+- **Obsidian Gates still not bypassed** — Amhit reportedly found the [[locations/Obsidian Gates.md|Obsidian Gates]] but still could not teleport behind them. The problem remains unsolved.
+
+---
+
+## Session 28 — Teleport Rugs and Baboons
+*Tahsday, 18th Besemios 2993 AE | Real: ~2025-11-01*
+
+### Open Threads
+
+- **[[npcs/Stamelis.md|Stamelis]] wants a proper Thothian assistant** — Stamelis is secure in the [[locations/Library of Thoth.md|Library of Thoth]], but he cannot fetch books or turn pages. He specifically wants a priest of [[npcs/Thoth.md|Thoth]] or similar help.
+- **[[items/Ruby Chair.md|Ruby Chair]] secret name** — The inscription still reads "Speak the Secret Name and Claim Thy Reward," but neither Stamelis nor the library search yielded the name.
+- **Who is Arpostas?** — The ghost of [[npcs/Ptirasa.md|Ptirasa]] warned that "Arpostas is a traitor," but the party has no idea who Arpostas is or what was betrayed.
+- **[[npcs/Trefko.md|Trefko]]'s Dwarven Life-Stone owner** — The life-stone traded for the live goat bears the name [[npcs/Schist Corundam.md|Schist Corundam]]. Who this dwarf was, and how Trefko got the stone, remains unclear.
+- **Mirror vandalism problem only partially contained** — Yamki blamed mirror-fouling on Trefko and Sisko's former harem; the party negotiated temporary peace and supplied a sheet to cover the mirror. Whether this actually solves the problem is unproven.
+
+### Inter-Session Discord (W43, 2025-10-27 to 2025-11-02)
+
+- **[[npcs/Knight Sixth.md|Knight Sixth]] is missing** — Iris of Second Chance reported that one of the pale armored knights was asking after a missing comrade named Sixth. Their order will pay for information about his whereabouts.
+
+---
+
+## Session 29 — The Tower of Scrutiny
+*Horasday, 26th Besemios 2993 AE | Real: ~2025-11-08*
+
+### Open Threads
+
+- **Rear secret door of the [[locations/Tower of Scrutiny.md|Tower of Scrutiny]]** — The party found a hidden stone door on the tower's exterior with a small keyhole, but none of their keys fit and they had no way to open it.
+- **Tower lower levels remain only partially explored** — The group retreated from the tower after reaching the shaft level. Multiple locked rooms, a trapdoor, and the deeper structure beneath the spiral stairs remain unexplored.
+- **Wraiths in the tower shaft** — At least four wraiths emerged from the central shaft and nearly killed the party. What they are, why they are there, and what killed the many dead explorers in the tower is still unresolved.
+- **Suspicious orange silk robe** — An intact bright orange robe with blue embroidery survived in an otherwise decayed room. It did not register as magical, but its preservation is unexplained.
+- **Caverns above the Well of Light** — Past Gwelf's death site, the party found a very long descending dry tunnel, a giant graveyard with "Brother" sarcophagi and at least one active mummy, more spider-haunted passages, and a red-lettered crossroads beyond two pit traps. Most of this new area remains unexplored.
+
+### Inter-Session Discord (W44, 2025-11-03 to 2025-11-09)
+
+- **Second Chance Company formed** — Geleg, Tresti, Klisko, and Samantha the Red are now operating together as a new adventuring party. They may become allies, rivals, or information sources.
+- **Kerbog Khan** — Hjalti reported that the Settites were hunting an evil sorcerer named Kerbog Khan on behalf of one of the Collegium. Neither the party nor the rescued prisoners know the full story.
+- **Ptarmis historical research** — New lore says Ptarmis was a famous early Thothian priest who opened the Great Cavern to Archontean control and bred giant mushrooms, reinforcing how strange it is that a living "Ptarmis" still rules part of the cavern.
+
+---
+
+## Session 30 — The Tomb of Theskalon
+*Lunday, 9th Basilembrios 2993 AE | Real: ~2025-11-15*
+
+### Open Threads
+
+- **[[npcs/Flavius Aurelius.md|Flavius Aurelius]] mule-train contact** — The party met a merchant who regularly resupplies the [[locations/Inn of the Broken Head.md|Inn of the Broken Head]]. He could become a useful logistics contact.
+- **Dark shaft cave with black flower and orange materials** — Deep under the southeastern Great Cavern rock, the party found a black flowering plant growing in total darkness, plus flasks/discs of strange light and heavy orange substances. Their nature is still unknown.
+- **Still deeper level below the dark shaft caves** — A lower cavern complex with water and a further descending tunnel was found but not explored in depth.
+- **Ptarmis's temple-tomb versus living Ptarmis** — The temple atop the western pillar bears a sarcophagus for [[npcs/Ptarmis.md|Ptarmis]], yet a living Ptarmis still sits on his throne elsewhere in the Great Cavern and claims the whole cavern as his. The contradiction is unresolved.
+- **Abandoned Settite outpost and bat-worm scout** — The southwestern Set outpost was suddenly empty, and the only watcher was a bat that turned into a strange worm when killed. Why the area was abandoned is unknown.
+- **Hall of Worthies / broken Sortian display** — The room of statues includes a missing [[npcs/Priscus Pulcher.md|Priscus Pulcher]] statue, a sparkling headless statue of Thrygga the Mighty in impossible armor, fresh flowers, and an unfinished inscription cut off by a hole in the wall. The significance of the whole display is unclear.
+- **Blue pillar recess puzzle** — The octagonal blue pillar has now been partially activated with coins in the woman's eyes, teleporting the party to the moon obelisk. The handsome man, varumani, and goblin recesses still need the correct items.
+- **Sun/Moon/Star obelisk alignment** — The party has now identified the moon obelisk and located the star obelisk in the swamp; they suspect all three obelisks matter at midday, but have not tested the full puzzle.
+- **Harold's former party and Gillen the bandit** — Harold claimed his leader Gillen abandoned tomb-robbing for kidnapping and slave-selling with the Settite Guild of Service. Gillen's current whereabouts are unknown.
+- **Copper maps and unknown-language texts from Theskalon's tomb** — Theskalon's tomb yielded three copper plaques with maps, notes in Mithric, other glyphs in an unknown language, two unreadable books, and another unmatched key.
+
+---
+
+## Session 31 — I Want to Believe
+*Lunday, 21st Basilembrios 2993 AE | Real: 2025-11-22*
+
+### Open Threads
+
+- **[[locations/Beacon.md|Beacon]] crash and Rudishva treason mystery** — [[npcs/Akla-Chah.md|Akla-Chah]] revealed that the Beacon is part of a crashed Rudishva vehicle, that the Rudishva/Varumani/Varuda once lived here, and that a devastating internal treason destroyed them. The details of that betrayal remain unknown.
+- **Captain Leil-Jor's missing body** — Akla-Chah said the Beacon's captain, Leil-Jor, was killed in the treason, but she does not know where the body is.
+- **Second construct in the Beacon has gone insane** — Akla-Chah warned there is another construct like her somewhere in the Beacon, but it went crazy and should be avoided.
+- **Beacon lower rooms and unidentified devices** — The workshop, hidden storage room, control chairs, wall switches, map room, and "power" room all contain poorly understood Rudishva devices. The party still does not know how most of them work.
+- **Barge wreck in the lake and the huge turtle/crocodiles** — Vallium looted the wreck once, but the hostile aquatic life remains and the site may still hold more.
+
+### Inter-Session Discord (W45, 2025-11-10 to 2025-11-16)
+
+- **Beacon effectively claimed as a base** — The party now treats the Beacon levels as secure downtime space reachable by Rug teleport, but this assumes no hidden hostile presence remains.
+- **Rudishva devices book gives only partial safety** — Research indicates experimentation is safer if done with the right page open, not actually safe. Many devices still remain easy to mis-handle.
+- **Lord Iskander Burdock recruiting delvers** — Lady Alexia's half-brother is hiring adventurers on a 50/50 basis, which may create new competition for major finds in Arden Vul.
+
+### Inter-Session Discord (W46, 2025-11-17 to 2025-11-23)
+
+- **No town records of the Beacon** — Research in Gosterwick turned up nothing on the Beacon, reinforcing how hidden its history is.
+- **Rudishvan funerary practice problem** — Lyssandra explained that proper Rudishvan disposal methods are mostly impossible with current Beacon capabilities, which may matter if the party starts uncovering more Rudishva dead.
+
+---
+
+## Session 32 — Fast Exploration
+*Lunday, 28th Basilembrios 2993 AE | Real: ~2025-11-29*
+
+### Open Threads
+
+- **Statue-door with empty eye sockets on southeastern Great Cavern ledge** — The magical face-door clearly wants the silver and blue gem eyes, but the party still refuses to risk inserting them blindly.
+- **Sealed round Rudishva door on the Arden level** — None of the party's keycards opened the scorched round door in the burned white-marble corridor. Whatever lies beyond remains sealed.
+- **Vanishing earth elementals** — The pair that ambushed the party disappeared again and were never tracked down.
+- **Phase spider above the fungal forest** — The spider that nearly got Vael phased away and remains somewhere in that region.
+- **Varumani passports** — Guards on the varumani level refused entry without passports but gave no useful instructions on obtaining them. The party still lacks legal access.
+- **Mysterious wizard faction waiting on Weskenim** — Multiple human wizards and bodyguards are camped in hidden rooms near Goblintown, apparently seeking an audience with the goblin king while concealing their identity and warning others away.
+- **Danger door in goblin-labeled corridor** — The graffiti-marked eastern door on the hidden level still has not been opened.
+- **Gold/platinum near the troll lifts** — Seek Earth located more treasure near or north of the varumani lift camp, but the party did not pursue it.
+
+### Inter-Session Discord (W47, 2025-11-24 to 2025-11-30)
+
+- **Lord Burdock racing for Regalia** — A rumor says Lord Burdock has a map to the [[items/Bone Ring of Jagri-Naz.md|Bone Ring of Jagri-Naz]] and the [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]] and has already sent mercenaries after them.
+
+---
+
+## Session 33 — Nyema
+*Lunday, 5th Dikaios 2993 AE | Real: ~2025-12-06*
+
+### Open Threads
+
+- **[[npcs/The Thane.md|The Thane]] kidnaps baboons from the [[locations/Howling Caves.md|Howling Caves]]** — Yamki and Bumpko reported that the Thane and bald human followers came from the south-cliff route, used bad juju to stun baboons, and kidnapped Bobo and Bifki. Rescue/retaliation remains pending.
+- **South passage from the Howling Caves to the cliff** — The baboons confirmed a route south from their territory to the cliff face. This becomes a major new access path.
+- **Secret door high on the Goblin Great Hall wall** — Ioannes found a secret door far above the market floor, but the party left it unopened because too many goblins were watching.
+- **Temple of Set side-caves not fully cleared** — After recovering Nyema, the party also found a jeweled snake, a chained wild boar, a mummy tomb, a corrosive basin room, multiple deep shafts and stairways, a hidden Rudishva-style section beyond the prison, and an unopened secret door none of them could figure out.
+- **Corrosive basin liquid** — Vael bottled the burning liquid from the sloped marble room for later analysis.
+- **Deep exits below the Set temple area** — The 200-foot hole, 250-foot trapdoor drop, stairs down, and short rope-ladder drop to the Catacombs of Thoth were all noted but not explored.
+- **Copper slate and three stone hands in the Rudishva ruin** — Recovered from the spider room; their purpose is still unknown.
+- **Yrtol not fully resolved** — Returning Nyema's body made Yrtol disappear and left behind two shocking eye-shaped sapphires, but the GM note explicitly says this did not fully end the quest. Something about Yrtol's arc remains unfinished.
+
+### Inter-Session Discord (W48, 2025-12-01 to 2025-12-07)
+
+- **Teleportation-ring context expanded** — Stamelis remembers the Thothian teleportation rings and confirms the glass squares were standardized but destination order varied. The party now knows more about the system, but still not the missing sequences.
+- **Special padded bag for the teleport squares** — Research confirmed the priests eventually used custom compartmented bags because the squares were fragile. This matters now that the party holds full sets.
+
+---
+
+## Sessions 34a–34c — Hunting the Thane / Tower of the Ape / Burglary and Death
+*Real: ~2025-12-06 to 2025-12-20*
+
+### Open Threads
+
+- **[[npcs/Tikun Thane.md|Tikun Thane]] escaped to [[locations/Narsileon.md|Narsileon]]** — After a prolonged running battle in the Tower of the Ape, Thane fled. Vael's Seeker/Trace later placed him in Narsileon, apparently via teleportation.
+- **Tower of the Ape still partly unexplored** — Even after the return trip, the party left with unresolved upper and lower areas, a disabled teleporter, abandoned labs, and other rooms only partly searched.
+- **Why the Rugs of Instant Access failed** — The rugs stopped working during the Thane hunt, then later worked again. The apartment burglary/fire and whatever interfered with the Tower teleporter suggest a deeper explanation still may exist.
+- **Apartment burglary and dead thief** — Someone burglarized the party's APC apartment, triggered an explosive fire effect, died horribly, and damaged party property. The identity, employer, and exact goal of the thief remain unknown.
+- **Nataraja Watcher / trapped apartment hazards** — The grinning statue head and unknown knife in the apartment strongly suggest someone was tampering with or stealing dangerous artifacts. There may still be security issues around stored loot.
+- **Bobo and Bifki after rescue** — The party freed the two baboons from the Tower basement, but their condition and any longer-term consequences of Thane's abuse are not yet explored in this tracker.
+- **White-fur manacles and ape-training setup** — The Tower of the Ape held cells, training abuse, white-furred restraints, trained baboons, and disciplined guards. The full purpose and extent of Thane's program remain unclear.
+- **Disabled teleporter frame from the Tower of the Ape** — The group hauled the inert portal frame back with them, but it is still broken and unexplained.
+- **No-mana corner in the baboon cell** — Vael found a localized no-mana zone in one corner of the baboon prison cell. Cause unknown.
+- **Basil the page/assistant** — The party hired Basil to turn pages for Akla-Chah and Stamelis in the Beacon. This is the group's first employee and may create new logistical/security considerations.
+
+### Inter-Session Discord (W48, 2025-12-01 to 2025-12-07)
+
+- **Adrienic expedition insignia context** — Research tied the ram symbol to the Sheep's Head Legion and confirmed Adrienic's expedition included that legion plus the third cohort of the Imperial Tagmata, supporting threads around the mailed fist insignia and ruined military remains.
+
+### Inter-Session Discord (W50, 2025-12-15 to 2025-12-21)
+
+- **Land near the APC / empty lots** — Property near the Arcane Practitioners' Club is available but expensive; Lady Alexia may grant land. This is relevant if the party needs safer storage after the burglary/fire.
+
+---
+
+## Session 35 — The Scepter / Flute of the Goblins
+*Real: ~2025-12-27*
+
+### Open Threads
+
+- **Golden Rudishva oval plaque map** — Temrin completed a map to a gold keycard, but the party broke off that objective to chase the Scepter instead. The gold plaque remains unfound.
+- **Unidentified secret storeroom cache above Goblintown** — The room behind the high wall secret door held advanced armor, magical prayer rugs, carpets, a magical runic rod, and other stored goods. The provenance and intended users of the cache are still unknown.
+- **Hidden wizard faction led by "Lukor" still unresolved** — The secretive mages near Goblintown still refuse to identify themselves and are clearly pursuing their own agenda.
+- **Beastman captive in Goblintown** — A beastman sergeant quietly asked whether someone could intervene with the king to free one of their men. The party did not follow up.
+- **[[npcs/Ambrosia.md|Ambrosia]] and charmed beastmen** — Skleros reacted strongly when Vael mentioned beastmen loyal to Ambrosia rather than Deino somewhere in the Great Cavern. This remains a live faction thread.
+- **Second set of [[items/Rugs of Instant Access.md|Rugs of Instant Access]]** — The party found another pair of teleport rugs. Whether to keep or sell them remains unresolved.
+- **Urn of heavy "gold" in the Scepter cave** — One urn seemed to contain a massive block of gold under shallow water. The party removed the whole urn, but its exact nature still needs confirmation.
+- **Scepter of the Goblins may actually be a giant bone flute** — Seeker led them to a magical hollow legbone flute in an urn. The party believes this is the Scepter, but its true function and significance still need confirmation with Weskenim.
+
+### Inter-Session Discord (W51, 2025-12-22 to 2025-12-28)
+
+- **Cloud Cap and Eye-Opener mushroom knowledge** — Fael's guide now confirms Cloud Caps as a healing/food resource and Eye-Openers as a dangerous but useful sensory mushroom, directly advancing older threads involving Count Skleros and the fire mephits.
+
+---
+
+## Session 36 — Rescuing Deino's Kids
+*Basilsday, 4th Fidios 2993 AE | Real: ~2026-01-03*
+
+### Open Threads
+
+- **Goblin Great Gates to the west** — Weskenim told Hama and Company that opening the Great Gates would count as a major service. The gates remain unopened and important.
+- **Northeastern Great Cavern skeletal pool and bronze rod** — Vallium dove a freezing pool and recovered a limed skeleton, loot, and a mysterious bronze rod. Their significance remains unresolved.
+- **Phase salamander island statue** — The island's vaguely reptilian statue still has not been reassembled or properly investigated.
+- **Dragon war with Deino now explicit** — Craastonistorex sent back bones of eaten beastmen and demanded renewed tribute from Deino. The party arranged a meeting with Count Skleros in seven days to address the dragon problem.
+- **Middle-aged-man image beyond the construct hall** — The mural with empty eye sockets behind the Pit of Fire construct hallway clearly connects to the recurring eye-socket/face-door theme, but its exact role is still unknown.
+- **Two unopened doors beyond the construct hallway** — After defeating the six construct spearmen, the party stopped before opening the remaining doors east of the hall.
+
+### Inter-Session Discord (2026-W01, 2026-01-05 to 2026-01-11)
+
+- **Secret-library letter context** — Research on Hellas's letter to [[npcs/Neferet.md|Neferet]] confirms a dispute over moving a hidden library and accuses Neferet of necromancy and seeking eternal life. This strongly deepens the Neferet/secret-library thread.
+- **Stamelis backstory clarified** — Research confirms Stamelis served through the 1700s AEP as Librarian Emeritus and was simply left behind during the civil war evacuation, giving more context to anything he says about the old Thothian complex.
+
+---
+
+## Session 37 — Deino and the Eyeballs
+*Basilsday, 11th Fidios 2993 AE | Real: ~2026-01-10*
+
+### Open Threads
+
+- **Hidden temple of Bastet under Arden Vul** — The Avatar of Bastet confirmed a lost underground temple and said Bastet's people would like their treasures recovered.
+- **Burglary aftermath from Onyx's account** — Onyx witnessed the apartment thief triggering the fireball while trying to steal from the party. The burglar's employer and motive remain unresolved.
+- **Cloud Cap trade / Deino relationship** — Deino explicitly wants Cloud Cap mushrooms and may exchange aid or goodwill for them.
+- **Roger the Rapier wants ankh keys** — Roger privately revealed he needs an ankh key for a puzzle. The party played dumb, but he is clearly on a similar trail.
+- **King Wesky I and II floating heads** — The newly awakened floating head was identified by goblins as "King Wesky II," and they also have a "King Wesky I." Their origin and function remain obscure.
+- **Women-led faction beyond the feather-door stairs** — After 900 feet of descent, the party met an organized faction of mages and fighters who recognized them, claimed the territory, and ordered them to negotiate only through Lukor. Their identity and goals remain unresolved.
+- **Sarcophagus with magical bones and red armor** — The spearman tomb yielded magical protective bones and gear, but the deeper meaning of the occupant and tomb is still unclear.
+- **Secret library materials tied to Neferet** — The hidden south room off the librarian's quarters contained a cache of books/scrolls and the Hellas-to-Neferet accusation letter. What else in those papers matters is still open.
+- **Clockwork raven / shocking automaton** — The strange magical raven in the unexplored room shocked Vallium and was carried out, but remains unidentified.
+- **Cursed magical book that ripped out Vael's eyes** — The trapped book is a major hazard and may still contain valuable information if handled safely.
+
+### Inter-Session Discord (2026-W02, 2026-01-12 to 2026-01-18)
+
+- **Town silence around Set** — Nobody in town wants to talk about Set, which reinforces how dangerous or compromised local knowledge around the cult may be.
+- **Map saying "we can go deeper"** — A newly found map indicates yet another route deeper, supporting the expanding lower-level threads from the secret library / Set side complexes.
+
+---
+
+## Session 38 — Another Attack on the Temple of Set
+*Basilsday, 11th Fidios 2993 AE | Real: ~2026-01-17*
+
+### Open Threads
+
+- **Tuftwillig the oak as a potential ally against the dragon** — The ancient oak hates Craastonistorex and the undead in the Tower of Scrutiny, and may be able to call animal help, but no concrete pact exists yet.
+- **Remaining Settites escaped the temple assault** — The party killed many guards and cultists, but survivors fled through secret routes and remain active.
+- **Jeweled serpent construct stored in the Beacon** — Vallium wrestled the animated serpent into captivity and left it in a side room. It remains dangerous and unresolved.
+- **Rudishva mural chamber with electrical trap** — Behind the jail's secret route, the party found a trapped room containing a charred Thothian corpse, a levitating transport disk with a carved slab, and a chest. The area may hold more untouched technology.
+- **Levitating slab/disk and its glyphs** — Vael learned command words for the ground-level levitation disk, but the stone slab's picture and glyphs still need interpretation.
+- **Further secret routes from the mural complex** — A secret door from the disk chamber links back toward the Great Cavern outpost, implying more strategic movement through this zone than the party has fully mapped.
+
+---
+
+## Session 39 — Diving for the Yellow Card
+*Lunday, 19th Fidios 2993 AE | Real: ~2026-01-24*
+
+### Open Threads
+
+- **Meeting with Roger in one week** — Roger agreed to demonstrate how he found Thoth's treasury in exchange for an ankh key, with a scheduled meeting in the Glory of Weskenim.
+- **Craastonistorex's tower still only partly scouted** — Vael's Clairvoyance saw wyverns, chests, heavy doors, and the head of a sorcerer statue in the cellar, but not the dragon itself.
+- **Garden island in the Great Chasm** — The tropical floating island has strange bright non-magical globes overhead, a hilltop pool of green water, and treasure inside the hill. The party only sampled the water and left.
+- **Possible varumani territory hidden above the chasm stairs** — Vael found handholds and a hidden door above the staircase route, but chose not to penetrate farther.
+- **Monkey-trash plateau and Chibalba statue** — The trash plateau at the floor of the Great Chasm held a summoning statue of Chibalba and a hidden entrance into a Rudishva bastion area.
+- **Rudishva security room and unexplored devices** — The newly reached bastion contains high-tech rooms, a command desk/chair, multiple teleport discs, force fields, burned corpses, melted devices, mystery liquids, and more technology still not understood.
+- **Yellow keycard and black rectangular card** — The party recovered the yellow plaque they were seeking plus a black card of a different form factor. The black card's purpose is unknown.
+- **What the teleport niches do** — The yellow keycard drops force fields and controls at least one teleport niche, but the destinations were still considered too risky to test at the end of the session.
+
+---
+
+## Session 40 — Taking Command
+*Tothsday, 20th Fidios 2993 AE | Real: ~2026-01-25*
+
+### Open Threads
+
+- **Rudishva trapped quarters / numbered control panel** — One bastion room exploded when investigated and also contained a small numbered panel under the bed. The panel's purpose remains unknown.
+- **Variable wall screens and white-metal rooms** — Multiple Rudishva living quarters contain changing star/landscape displays and unfamiliar technology, much of it still unexplained.
+- **Horned skeleton sentries and the vertical shaft** — Waving the yellow card pacified two horned skeletons guarding a magical vertical shaft with smashed human remains. The shaft itself remains unexplored upward.
+- **Opalescent liquid pool** — A sample was taken, but the nature and use of the clinging opalescent liquid remain unknown.
+- **Command Tablet and actual authority over the Beacon** — Akla-Chah and the bridge computer accepted Vael as acting captain once the tablet was inserted. What command over the Beacon can actually accomplish remains largely unexplored.
+- **Teleport network mapped only partially** — The party confirmed several teleporter links between the Beacon, bastion, and other Halls locations, but many endpoints remain unknown or only lightly scouted.
+- **Seed vault / storage chest and agricultural complex** — One teleporter destination held a huge chest full of labeled seed boxes and adjacent empty bins. The purpose and potential use of the recovered seeds remain unresolved.
+- **Assassin-vine garden and connected complex** — The magically lit garden links to more rooms, including a command-type chamber, library, sleeping cells, more teleporters, and secret passages. The full complex remains only partly searched.
+- **Rudishva officer corpse in the swivel chair** — The dead Rudishva in the command-like room carried yet another yellow and silver identity plaque. Their identity and story remain unknown.
+- **Rudishva/Mithric translation book and unread scrolls** — The small library contained a partially completed Rudishva-to-Mithric translation work plus three unread Rudishva scrolls, all likely high-value information sources.
+- **Varuda/Varumani/Heqeti zombie room** — The dead-end oval passage opens into a chamber of multiple species' zombies and wall maps. Why all these groups died together there remains unexplained.
+- **Lower dark teleporter and fire-room teleporter** — One teleporter goes down into darkness; another goes to a bright chamber with nataraja figures and a wall of fire. Both remain unentered.
+
+### Inter-Session Discord (2026-W03 / 2026-W05, 2026-01-19 to 2026-02-08)
+
+- **Captain Leil-Jor's yellow plaque has broad Rudishva access** — Akla-Chah believes the captain's oval plaque should open essentially any Rudishva door and activate any captain-restricted teleporter.
+- **Black card is likely a Rudishva security key** — Akla-Chah identified the black rectangular card as some kind of security credential, but not what systems it governs.
+- **Leil-Jor's unfinished small-craft project** — Beacon records imply Captain Leil-Jor was trying to modify a small craft for long-range flight to call for help, but lacked a sufficient power source.
+- **Bridge cameras show deep containment units** — The bridge security feed includes a room of vertical coffin-like containment pods about 150' deep, tying into still-unreached Rudishva destinations.
+- **Obsidian Gate opening sequence learned but untested** — Vallium heard a three-spell method to open the Obsidian Gates: `Lockmaster`, `Shape Earth`, then `Blink`.
+
+---
+
+## Session 41 — Theft and Counter-Theft
+*Tothsday, 27th Fidios 2993 AE | Real: ~2026-01-31*
+
+### Open Threads
+
+- **Arcane Vengeance probing around the Beacon approaches** — The rival elf party was resting above the lower routes after casting detection spells, suggesting active interest in the same Rudishva zones.
+- **Lizardmen near the secure treasury fanworks** — The party made brief contact with intelligent lizardmen near the air-circulation machinery, but no alliance, trade, or territorial understanding exists yet.
+- **Disabled teleport alcoves in the pillar room** — Multiple Rudishva teleport niches were found deliberately blocked off with marble and transparent covers; their destinations remain only partially scryed and untested.
+- **Bird-statue octagon and dead dwarves** — The giant bird guardian, the slain dwarven explorers, and their rough copper map indicate a larger unfinished dwarf thread in this southwest Rudishva zone.
+- **Varuda caves and dead bird-men** — The colorful bird-zombie cave, upper ledge corpses, laser gear, and evidence of inter-varuda violence still have no clear explanation.
+- **Varuda nursery / food-machine room** — The room with dead infant varuda, NutriVore machines, and the translated loyalty plaque suggests a broken Rudishva/varuda support area that has not been fully interpreted.
+- **Settite room beyond the stolen-rug chamber** — After recovering the green Rug, the party also found poisoned wine, a magical devil head, a trapped box, and a secret south door opening on kaliyani territory; none of that has been followed through.
+- **Personal Defense Array is broken but potentially salvageable** — Vael proved the belt can trap its wearer in a suffocating force field. It is currently a dangerous half-understood item rather than usable gear.
+
+### Inter-Session Discord (2026-W06, 2026-02-09 to 2026-02-15)
+
+- **Magical theft confirmed over mundane burglary** — Discussion around the Onyx/Tresti incident strongly pointed to invisible magical theft and bag transport rather than an ordinary break-in, reinforcing that the Settites used specialized methods.
+- **Neferet planning centered on anti-teleport measures** — Research before the assault clarified mummy traits and focused the party on how to keep Neferet from simply escaping.
+
+---
+
+## Session 42a — Neferet
+*Tahsday, 13th Molivios 2994 AE | Real: ~2026-02-13*
+
+### Open Threads
+
+- **Neferet survives in undeath** — The missing ruler was found as a greater mummy behind illusion defenses rather than as a simple corpse or tomb occupant.
+- **Iron Circlet of Ghanor still not recovered** — The long-sought circlet remains in Neferet's zone or on her person, but the party did not secure it.
+- **Secret meeting with Lukor's Eighth Collegium** — The wizard faction formally identified itself and still wants a private paid conversation with Weskenim.
+- **Kerbog Khan offering blood-sealed contracts** — The strange construct from the market remains an unresolved social and magical wildcard.
+- **Second command bracelet map points to the Arena** — Temrin completed the commissioned map, but the bracelet itself remains unrecovered.
+- **Apartment and APC security still weak** — Onyx explicitly wanted better protections, and the theft arc confirmed the party's urban base remains vulnerable.
+
+---
+
+## Session 42b — Neferet and the Wraiths
+*Tothsday, 20th Molivios 2994 AE | Real: ~2026-02-20*
+
+### Open Threads
+
+- **Neferet escaped into the Tower of Scrutiny** — The party fought into her chambers but failed to finish her, and she withdrew upward to a still-dangerous zone.
+- **Wraith cluster and construct in the tower hall** — The undead concentration in the Tower of Scrutiny remains one of the clearest immediate combat threats left hanging.
+- **Neferet's chambers may still hold unsecured loot and evidence** — The retreat left part of the tomb/tower complex only partially exploited.
+
+### Inter-Session Discord (2026-W07, 2026-02-16 to 2026-02-22)
+
+- **Boots of Levitation changed movement options** — The mummy loot produced a major mobility asset, which affects how aggressively the party can revisit tower, chasm, and cliff-access problems.
+- **No consensus on whether Neferet or Set should be hit first** — Post-session planning showed both threats remained live strategic priorities.
+
+---
+
+## Sessions 43a–43c — Alpha Strike on the Cult of Set / Looting the Cult
+*Tothsday, 5th Molivios 2994 AE | Real: ~2026-02-27 to 2026-03-06*
+
+### Open Threads
+
+- **Residual Settite survivors and splinter resistance** — The Forum was broken, but not every cultist was necessarily accounted for, and some had routes toward kaliyani territory.
+- **North zombie room left sealed** — The warning-note door to a zombie-filled room in the Forum complex was deliberately left unopened during the assault.
+- **Suspicious deacon room marked "do not open"** — One room with a deacon staring at the wall was left closed even during the final loot sweep.
+- **Rough caverns north of the guard rooms remain unexplored** — The party secured the Forum proper but did not fully push into every attached natural passage.
+- **Varumani and frost giant diplomatic follow-up** — The Varumani ambassadors and frost giants both came with questions after the cult collapsed, and neither relationship is fully settled.
+- **Enemy-wall intelligence on Right for Riches** — The cult kept displays naming the party, Grudge Brigade allies, and Susarra as enemies, implying broader surveillance and possibly surviving records elsewhere.
+
+### Inter-Session Discord (2026-W08 / 2026-W09, 2026-02-23 to 2026-03-08)
+
+- **Freed slaves now need long-term placement and protection** — Alexia's writs solved the immediate legal problem, but the human aftermath of the Forum slave pits is larger than one rescue.
+- **Stephania's route to kaliyani territory remains relevant** — Discord discussion reinforced that Set leadership had at least one secret path into kaliyani space.
+
+---
+
+## Session 44 — Clearing the Goblin Forum
+*Tothsday, 12th Molivios 2994 AE | Real: ~2026-03-13*
+
+### Open Threads
+
+- **Arcane Vengeance's platform near the Long Stair** — The rival party has built or occupied a mysterious structure and will only talk for arcanum.
+- **Arena route from the Forum now open** — The stairs down connect cleanly into the Arena level, but much of that level still has to be understood.
+- **Wraith in the spy tunnels** — One trapped or lurking wraith remained alive in the peephole tunnels off the former Set zone.
+- **Demon gate behind the amphibian statue** — Scrying showed an area full of demons beyond the ancient gate, but nobody entered.
+- **Arcanum geode room across the chasm** — The valuable geode room is known and still mostly untouched because of the crossing problem.
+- **Invisible book and the Set-language texts** — Alexandros can help with some of the Set material, but the invisible book and other captured texts still need careful exploitation.
+- **Magical ivory card decks from Stephania's vault** — The trap was disabled, but the actual function of the decks remains unknown.
+
+### Inter-Session Discord (2026-W10, 2026-03-09 to 2026-03-15)
+
+- **Temporary food trade revived, but the Forum economy is still improvised** — Dworm is acting as stopgap merchant, which stabilizes the site without fully normalizing it.
+
+---
+
+## Session 45 — Purple Mist and the Drowned Canyon
+*Tahsday, 14th Molivios 2994 AE | Real: ~2026-03-20*
+
+### Open Threads
+
+- **Five Fingers of Destiny pressure around the Beacon** — Their presence above the Beacon pushed the party into active fortification planning and remains unresolved politically.
+- **More Chaotic Sweat and slime-pit routes below Thoth** — The basin, the deep shaft, and the dissolution-slime area are still only partly exploited.
+- **Broken egg-boat and second fish-shaped rod** — The drowned-canyon boat and matching rod imply more to the water-travel / fish-device thread than a single loot find.
+- **Dangerous waterspout pool** — The violent pool was identified but not investigated.
+- **Large obsidian doors in the crisis-station corridor** — The party reached them but did not open them.
+- **Green-view pool shows multiple still-unreached destinations** — The surveillance / routing basin revealed the Arena, Sundered Span, floating garden, containment pods, pyramid, cavern, underwater site, and octagonal shaft, but most remain only images.
+- **Unknown southern Rudishva room and deeper teleporter endpoints** — Scrying located several destinations, yet only the cloister route was actually turned into a safe path.
+- **Arcanum pocket storeroom guarded by warning voice** — The "leave Thoth's stuff alone" room remains a tempting but unresolved loot / trap problem.
+- **Grinning head statue and dueling wizard platform** — The lower cobbled cavern contains multiple unexplained set pieces that were documented but not solved.
+- **Fishmen around the huge rock column** — Contact was brief and inconclusive after their failed missile ambush.
+- **Point Defense Array deployment plan** — The recovered Rudishva turret system looks useful, especially against the dragon, but it still needs actual emplacement and doctrine.
+
+### Inter-Session Discord (2026-W11 / 2026-W12, 2026-03-16 to 2026-03-29)
+
+- **Beacon anti-scry / anti-teleport fortification plan** — The party began planning lead shielding, teleporter blocking, entrance sealing, and posted warnings rather than leaving Beacon security improvised.
+- **Five Fingers diplomacy still pending** — The current plan is to confront them with proof of Beacon ownership and push them off the area without a straight fight.
+- **Apes' monthly food delivery due again** — The Well of Light apes remain an ongoing obligation rather than a one-off solved relationship.
+
+---
+
+## Session 46 — The Arena Lord and the Inn of the Lost
+*Tahsday, 21st Molivios 2994 AE | Real: ~2026-04-03*
+
+### Open Threads
+
+- **Lead-lined shielding research for the Beacon and APC** — Ioannes found a textual lead solution, but actual acquisition and installation remain to be done.
+- **Second command bracelet still somewhere in the Arena zone** — Temrin's map points there, but the bracelet itself has not been recovered.
+- **Arena Lord may be surviving Rudishva officer Crellik-Var** — Akla-Chah and the crew roster strongly suggest the Arena Lord is Beacon entertainment officer Crellik-Var, raising major questions about loyalty, sanity, and possible negotiation.
+- **Monster cages, fire-wall zone, and deeper Arena hazards** — Bat scouting found additional dangerous areas around the Arena that the small party did not tackle.
+- **Merchant row north passage marked "death"** — The warning corridor beside the Inn of the Lost remains an untouched hazard.
+- **Corpse pile, giant worm, and hidden chasm route** — The northeast body pile and chasm approach produced only remote probing; the actual route remains unexplored.
+- **Cave-in into Rudishva room with kaliyani statue** — Beyond the cleared cave-in are iris doors north and west that the party deliberately left unopened.
+- **Inn of the Lost as a neutral hub** — The inn, merchants, lifts, and gamblers open a new social space that has not yet been leveraged for information or alliances.
+
 ## Completed Items (continued)
+
+- **Deino's charmed beastmen recovered** *(Session 35 thread → Session 36)*: Ambrosia's half-starved beastmen were lured out, dazed, and handed back to Count Skleros's forces for de-charming.
+
+- **King Weskenim accepted the Scepter and paid out** *(Session 36)*: Weskenim formally recognized the giant bone flute as the real Scepter of the Goblins and rewarded the party with a huge payout in coin.
+
+- **Floating head command words found** *(Session 37)*: The party successfully woke and commanded the floating head in Upper Goblintown, confirming it can be activated and moved.
+
+- **Secret Library of Thoth found** *(Session 37)*: The hidden room near the librarian's quarters was finally opened, revealing a major cache of books, scrolls, and the Hellas-to-Neferet letter.
+
+- **Jarnno the False identified as the apartment burglar** *(W46 Discord → Session 38)*: Wicktrimmer relayed Drome findings that the dead intruder was Jarnno the False, a freelance non-guild thief from Newmarket.
+
+- **Rolf rescued from Set sacrifice** *(Session 38)*: The party interrupted the Temple of Set, freed the chained victim from the altar, and got him to safety in Gosterwick.
+
+- **Yellow Rudishva identity plaque recovered** *(Session 39)*: Temrin's map led the party through the bottom of the Great Chasm to the bastion room holding the yellow keycard.
+
+- **Command Tablet of the Beacon recovered** *(Session 40)*: The item identified as the Beacon's Command Tablet was recovered from the bastion and successfully recognized by the Beacon's systems.
+
+- **Green Rug recovered from the Settites** *(Session 41)*: After Tresti's warning and Vael's tracking magic, the party stealth-raided the Set level, recovered the stolen Rug, and looted the room where it had been hidden.
+
+- **Neferet identified alive-as-undead** *(Session 42a)*: The supposed tomb mystery resolved into direct contact with Neferet herself, now a greater mummy concealed behind illusion defenses.
+
+- **Forum of Set broken as a major hostile stronghold** *(Sessions 41–43c)*: The Right for Riches company smashed the Cult of Set's main Forum base, killed or routed its leadership, and ended its open control of the Goblin Forum.
+
+- **Slaves from the Forum of Set liberated** *(Session 43c)*: The party freed the pit slaves, secured Alexia's legal writs, and got the wounded and displaced moved out under escort.
+
+- **Gribble installed as Lord of the Goblin Forum** *(Session 43c / W08–W10)*: Weskenim accepted the Forum, placed Gribble in charge with guards, and started the transition away from Settite control.
+
+- **Second command bracelet map completed** *(Session 42a → Session 44)*: Temrin finished the commissioned map, giving the party a concrete lead to the Arena level.
+
+- **Varumani Passport finally recovered** *(Long-running thread → Session 45)*: The long-sought Rudishva plasteel credential with a varumani image was found in the crisis-station corridor.
+
+- **Secure Beacon-to-Halls teleporter route established** *(Session 45)*: The party confirmed a practical internal route from the Beacon through Rudishva teleporters into the known Halls, reducing dependence on outdoor travel.
+
+- **Arena Lord tentatively identified as Crellik-Var** *(Session 46)*: Akla-Chah's roster review strongly suggests the Arena Lord is the Beacon's former entertainment officer.
+
+- **Inn of the Lost located** *(Session 46)*: The small-party Arena expedition found the inn, merchant row, and lift nexus, opening a major new social/exploration hub.
+
+- **Sun/Moon/Star obelisks opened the Beacon stair** *(Sessions 1/7/30 → Session 31)*: Inserting the three silver ankhs into the three aligned obelisks before midday caused the hidden stair to the Beacon chamber to open on the island south of the Archon's Palace.
+
+- **Beacon contact established with [[npcs/Akla-Chah.md|Akla-Chah]]** *(Session 31)*: The party made first contact with the Rudishva morale-officer construct and learned the Beacon's basic nature, keycards, and crash history.
+
+- **Michael left the Right for Riches Company** *(Session 31)*: Michael formally separated from the company, took an agreed share of gear, and headed south toward home.
+
+- **Nyema's body recovered and buried** *(Session 25 thread → Session 33)*: Temrin's map led the party to Nyema's remains in the Temple of Set crocodile pool. The body was recovered and buried at Yrtol's tower with her named torc.
+
+- **Complete set of six teleportation squares assembled** *(Sessions 4–33)*: The final blue glass square found in the hidden barracks completed the full color set.
+
+- **Bobo and Bifki rescued from Tikun Thane** *(Sessions 33–34c)*: The kidnapped baboons were recovered alive from the Tower of the Ape basement and released back toward the Howling Caves.
+
+- **Uvash resurrected** *(Session 34c)*: Uvash became the first PC death of the campaign, then was raised at great expense by Jador and the clerics of Mitra and Demma in Gosterwick.
+
+- **Tower of the Ape teleporter discovered** *(Sessions 34a–34b)*: The party identified Kel Bormol's hidden teleporter in the ape-hunt caverns and used it to reach the Tower of the Ape.
+
+- **Tikun Thane's captive humans freed** *(Session 34c)*: Three human prisoners bought from Settite slavers were released from the Tower basement and brought back toward safety; Basil was hired by the party afterward.
+
+- **Scepter of the Goblins recovered** *(Session 35)*: The magical giant bone flute identified by Seeker was pulled from its urn in the Great Cavern and brought out by the party.
+
+- **[[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halfling regime broken** *(Sessions 2/8a/26)*: The party ambushed Plumthorn and Blandveg, killed or routed their forces, stripped the survivors, and ordered them out of Arden Vul. The United Goblins took over the territory.
+
+- **Indoor pyramid control rod recovered and teleporter activated** *(Session 27 → Session 28)*: Vael's Seeker located the control rod in the Hall of Judgment pit. The party retrieved it, installed it, and confirmed the indoor pyramids connect the Well of Light level and Goblintown.
+
+- **Rugs of Instant Access proven practical for cliff travel** *(Sessions 27–29)*: The party confirmed the rugs work across at least ten miles and can bypass the Long Stair quickly, fundamentally changing travel logistics between Gosterwick and Arden Vul.
+
+- **[[npcs/Trefko.md|Trefko]]'s Dwarven Life-Stone acquired** *(Session 28 → Session 29)*: Vallium delivered the promised live goat, and Trefko traded over the life-stone named Schist Corundam.
+
+- **[[npcs/Gwelf.md|Gwelf]] recovered and buried** *(Session 29 → Session 30)*: After previously learning Gwelf was dead, the party found his body, brought it out, and Uvash led members of his flock in giving him a proper burial.
+
+- **[[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]'s tomb opened and looted** *(Session 27)*: The party bypassed the trap-heavy front route, defeated the guardian constructs and mummies, and carried off the major treasures from the tomb.
+
+- **[[npcs/Theskelon.md|Theskelon]]'s tomb opened** *(Session 30)*: The party solved the Settite sun-orb mechanism, opened the inner sarcophagus, survived the fire trap, and recovered the key, books, maps, and signet ring from the tomb.
 
 - **[[npcs/Versania.md|Versania]] / crazy woman rescued** *(Sessions 13–14)*: Convinced to leave the waterfall grotto with food and the promise of a birthday cake. Insanity cured by Jador at the Temple of Mitra after a large donation. She traded her Belt of Dwarvenkind for the rescue. Now volunteering at the House of the Gods.
 
