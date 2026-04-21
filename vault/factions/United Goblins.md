@@ -8,6 +8,10 @@ tags:
 ## Summary
 Goblin polity led by [[npcs/Weskenim.md|Weskenim]]; controls parts of the Halls and negotiates with surface adventuring companies.
 
+## Members
+- [[npcs/Larakim.md|Larakim]]
+- [[npcs/Harab.md|Harab]]
+
 ## Sessions
 
 ## Sessions

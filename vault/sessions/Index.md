@@ -61,3 +61,5 @@ tags:
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
+- [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]
+- [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48 - Thothian Teleportation Rings]]
