@@ -5,7 +5,9 @@ tags:
   - thoth
 aliases:
   - Thothian Teleportation Ring
+  - Thothian Teleportation Rings
   - Teleportation Ring
+  - Teleportation Rings
   - Thothian Ring
   - Stamelis Ring
 ---

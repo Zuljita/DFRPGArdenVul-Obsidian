@@ -12,6 +12,7 @@ Order associated with figures like [[npcs/Sir Sorrow.md|Sir Sorrow]]; referenced
 
 - [[npcs/Sir Sorrow.md|Sir Sorrow]]
 - [[npcs/Scarred Knight Huguette.md|Huguette]]
+- [[npcs/Sir Simonet.md|Sir Simonet]]
 
 ## Sessions
 
