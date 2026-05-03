@@ -72,6 +72,8 @@ _Generated from Blogger feed on 2026-03-22 00:45 UTC; total posts: 74._
 - 2026-04-04 — [DFRPG Arden Vul Session 46: The Arena Lord and the Inn of the Lost](https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-46-arena-lord.html?m=1)
 - 2026-04-11 — [DFRPG Arden Vul Session 47: The No Mana Zone](https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-47-no-mana-zone.html)
 - 2026-04-18 — [DFRPG Arden Vul Session 48: Thothian Teleportation Rings](https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-48-thothian.html)
+- 2026-04-25 — [DFRPG Arden Vul Session 49: Demons and Mummies](https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-48-demons-and.html)
+- 2026-05-02 — [DFRPG Arden Vul Session 50: The Iron Circlet of Ghanor](https://dfwhiterock.blogspot.com/2026/05/dfrpg-arden-vul-session-50-iron-circlet.html)
 
 ## Meta / Rules / Setting Posts
 

@@ -63,3 +63,5 @@ tags:
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
 - [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]
 - [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48 - Thothian Teleportation Rings]]
+- [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
+- [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
