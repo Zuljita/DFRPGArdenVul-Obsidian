@@ -9,6 +9,10 @@ aliases:
   - Teleportation Ring
   - Teleportation Rings
   - Thothian Ring
+  - Thothian Teleportation Circle
+  - Thothian Teleportation Circles
+  - Teleportation Circle
+  - Teleportation Circles
   - Stamelis Ring
 ---
 

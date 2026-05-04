@@ -87,7 +87,7 @@ Next Week:- Meet with Count Skleros about the dragon
 - Explore the other unexplored room they know of in the northeastern part of the [[locations/Glory of Thoth.md|Glory of Thoth]] level
 - Try their Secret Name of [[npcs/Thoth.md|Thoth]] on the Ruby Chair
 - Look for a Secret Library near the librarian's quarters
-- Explore the western part of the Well of Light level, looking for a teleportation circle
+- Explore the western part of the Well of Light level, looking for a [[items/Thothian Teleportation Ring.md|teleportation circles]]
 
 
 ## Source
