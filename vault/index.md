@@ -10,3 +10,5 @@ title: Home
 - [[factions/Index|Factions]]
 - [[items/Index|Items]]
 - [[pcs/Index|PCs]]
+- [[notes/Arden Vul GM Source Index.md|Arden Vul GM Source Index]]
+- [[notes/Unfinished Plotlines and Tasks|Unfinished Plotlines and Tasks]]
