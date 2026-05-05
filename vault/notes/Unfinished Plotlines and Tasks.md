@@ -1,8 +1,8 @@
 ### Open Threads
 
 - **Ruby throne: "Speak the Secret Name and Claim Your Reward"** — A massive ruby-encrusted throne in the Hall of Judgment is buried beneath a pile of coins. An inscription reads "Speak the Secret Name and Claim Your Reward." The Secret Name is unknown.
-- **Gwelf the dwarf disappeared during rescue** — Gwelf was being brought out alongside Samantha the Red, Tresti, and Jost, then vanished without explanation before the party got him out. *(Updated W30: a Seeker spell found his body — he is dead, with a massive cutting wound across the torso, lying in a dark underground cave in an unrecognized location. His killer and the exact location of the body remain unknown.)*
-- **Goo creature in the southeast pit** — The Hall of Judgment contains at least two pits; the party encountered crocodiles in one and a goo creature in another. The goo pit was not investigated.
+- **Gwelf the dwarf disappeared during rescue** — Gwelf was being brought out alongside Samantha the Red, Tresti, and Jost, then vanished without explanation before the party got him out. *(Updated W30: a Seeker spell found his body — he is dead, with a massive cutting wound across the torso, lying in a dark underground cave in an unrecognized location. Updated Session 29: body recovered from a cavern northwest of the Well of Light and returned to Gosterwick for burial. Killer still unknown.)*
+- **Goo creature in the southeast pit** — The Hall of Judgment contains at least two pits; the party encountered crocodiles in one and a goo creature in another. The goo pit was not investigated. *(Resolved Session 28 — electrocuted by Wall of Lightning; control rod and wand recovered from pit.)*
 - **Gerrilad's faction and masters** — The druid and his two giant four-armed baboons controlled the baboon area. His backers are unclear. *(Partially answered Session 18: [[npcs/Stamelis.md|Stamelis]] confirmed Gerrilad followed an "odd nature religion," was obsessed with baboons, and had not been in his room for a couple of weeks.)*
 
 ---
@@ -175,9 +175,9 @@
 - **Cave-in behind SW secret door in Thoth temple** — Too large for Shape Earth to bypass. Connects to unknown territory.
 - **Magical goblin head from Set jail wall** — Mounted alongside lion, reptile-man, and Gog-species heads. Gribble wanted it destroyed; Vael insisted on keeping it because it's magical. What does it do?
 - **Green Fang Kobolds** — Kidnapped Lillian and sold her to the beastmen who sold her to the Cult of Set. An enemy faction.
-- **King [[npcs/Weskenim.md|Weskenim]]'s reward** — Promised to the party for rescuing Gribble; collection deferred until next visit to Goblintown.
+- **King [[npcs/Weskenim.md|Weskenim]]'s reward** — Promised to the party for rescuing Gribble; collection deferred until next visit to Goblintown. *(Resolved Session 26 — received a large perfect diamond and ancient goblin king's magical scale armor.)*
 - **Quest: Recover the Scepter of the Goblins** — Weskenim mentioned this as needed; no details given on where it is.
-- **Halfling extermination request from Weskenim** — He wants Plumthorn's halflings removed from his "rightful entrance to the surface." His words: "just the halfling exterminators I needed."
+- **Halfling extermination request from Weskenim** — He wants Plumthorn's halflings removed from his "rightful entrance to the surface." His words: "just the halfling exterminators I needed." *(Resolved Session 26 — Plumthorn's gang eliminated, survivors exiled to Newmarket, territory ceded to goblins.)*
 - **Demon in a summoning circle in Goblintown** — Encountered in a side passage; Killick rushed the party past it without explanation. It was reciting obscure mathematical formulae. What is it, and why is it there?
 - **[[npcs/Geleg.md|Geleg]] the wizard** — Rescued; promised Vael access to copy spells from his spellbook (which Vael found in the jailer's lockbox).
 - **[[npcs/Eadgithu.md|Eadgithu]] the Thorcin ranger** — Rescued from Set's chains; grabbed a sword and is free. Potential ally.
@@ -220,7 +220,7 @@
 - **Susarra's head — location last known** — Vael's Trace showed the head "down and west" from the ruins, likely somewhere in or near the Forum of Set. Trace expired when he slept. Exact location now unknown.
 - **Cult of Set survivors from multiple fights** — Sergeants, acolytes, and guards fled west down the Sighing Stair. The Cult is aware they've been attacked repeatedly; their response is escalating.
 - **Apophis the giant lizard and two boars** — Found loose in the Set temple during the battle. Whose animals are these, and are they still loose in the temple?
-- **Roskelly saw the party emerge from a secret passage** — The halfling toll collector now knows there's a hidden route between the desecrated Thoth temple and the halfling/basement area that bypasses his tolls.
+- **Roskelly saw the party emerge from a secret passage** — The halfling toll collector now knows there's a hidden route between the desecrated Thoth temple and the halfling/basement area that bypasses his tolls. *(Resolved Session 26 — Roskelly killed during the halfling takedown.)*
 - **[[npcs/Larel One-Eye.md|Larel One-Eye]]'s room** — A storeroom with frescoes of the Archontean folk hero's exploits; magic items taken (Larel's Cloak, Larel's Sack); Larel's Pin sold to Wicktrimmer. Letters to multiple women using the exact same phrasing with only the name changed. Funerary urn left behind (not magical per Vael).
 - **Hall of Shrines** — Eight shrines; seven blocked by force fields; one open shrine has a book, quill, and Mithric writing. A large ibis-headed Thoth statue in the center exhales orange gas ("pneuma") from its beak; Mithric inscription discusses pneuma. Vael has theories. Several old corpses killed by something strong.
 - **Magic sling and magic shield** — Found on corpses in the Hall of Shrines; not yet fully identified.
@@ -242,8 +242,344 @@
 
 ### Open Threads
 
-- **Yrtol's specific conditions** — Ghost Yrtol will not be appeased until: (1) the party has killed 50+ more Cult of Set members, and (2) they recover [[npcs/Nyema.md|Nyema]]'s body. Her body had a wedding necklace with her name in Mithric. Yrtol said: "Don't come back until you've done both."
-- **[[npcs/Nyema.md|Nyema]]'s body** — Somewhere in the dungeon; has a Mithric-inscribed wedding necklace. Location completely unknown.
+- **Yrtol's specific conditions** — Ghost Yrtol will not be appeased until: (1) the party has killed 50+ more Cult of Set members, and (2) they recover [[npcs/Nyema.md|Nyema]]'s body. Her body had a wedding necklace with her name in Mithric. Yrtol said: "Don't come back until you've done both." *(Resolved Session 33 — Nyema's body buried at the watchtower; Yrtol vanished, leaving two huge eye-shaped sapphires.)*
+- **[[npcs/Nyema.md|Nyema]]'s body** — Somewhere in the dungeon; has a Mithric-inscribed wedding necklace. Location completely unknown. *(Resolved Session 33 — body recovered from a crocodile pool in the Temple of Set and buried at Yrtol's watchtower. Platinum torc left with the body.)*
 - **Set kill count toward Yrtol's 50** — The party has killed many Settites across Sessions 22.5–24. How many more to reach 50?
 - **Stairs down to octagonal room (back door to Forum)** — Found west of the Set guard post in the Great Cavern cliff. Leads down and south to an octagonal room with four exits, four Varumani guards in ambush position. The party identified this as the Forum's back entrance and retreated. This is the route they need.
 - **[[npcs/Varumani.md|Varumani]] in ambush** — Four of them guard the octagonal room at the base of the back-door stairs. Well-positioned and armed with mattocks.
+
+
+---
+
+## Session 26 — The Scouring of the Shire
+*Lunday, 1st Besemios 2993 AE | Real: 2025-10-18*
+
+### Open Threads
+
+- **[[npcs/Craastonistorex.md|Craastonistorex]] tribute obligation** — The green dragon demanded immediate tribute; the party gave a potion but still owes more. The water level at the dam must be maintained to his preference.
+- **Seek Earth/Seek Magic hit southeast of former halfling territory** — Both spells pointed ~30 yards southeast of the cleared halfling rooms, toward no known room. A hidden treasure or cache may exist there.
+- **Thothian teleportation circle and floating magical bust** — Found in a southeastern room near former halfling territory. The bust could not be moved, taken, or spoken to. Left for now.
+- **Guest room at Goblin Court** — [[npcs/Weskenim.md|Weskenim]] offered the Sun-Scarred Knight's guest room to the party if [[npcs/Sir Sorrow.md|Sir Sorrow]] moves on.
+- **[[locations/Troll Lifts.md|Troll Lifts]] / [[factions/Varumani.md|Varumani]]** — East of goblin territory in the Wet Caves; [[npcs/Killick.md|Killick]] can point the way. Trolls prefer to be called "varumani."
+- **[[npcs/Sir Sorrow.md|Sir Sorrow]] / [[factions/Sun-Scarred Knights.md|Sun-Scarred Knights]]** — Met Sir Sorrow. Learned about their order and the balance between factions in the Halls. Her armor is extraordinarily heavy and plate-like.
+- **[[npcs/Rizzit.md|Rizzit]] the imprisoned demon** — Encountered again in Goblintown, reciting mathematical formulae, and asked to be freed.
+- **[[npcs/Leifcrim.md|Leifcrim]]'s hinted better magical items** — Party bought a strange orange oval object to build goodwill; Leifcrim hinted at "really good magical items for really rich good customers."
+- **Orange oval object (strange chitin-like substance with glyphs)** — Purchased from Leifcrim. Purpose unknown.
+
+### Resolved/Updated
+
+- **[[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halflings** — ELIMINATED. Plumthorn wounded and exiled to Newmarket with survivors; Roskelly killed by Merenuithiel. Halfling territory ceded to goblins. *(Resolved Session 26)*
+- **Roskelly saw secret passage** — No longer relevant; Roskelly is dead. *(Resolved Session 26)*
+- **Plumthorn's extortion/tolls** — Resolved. *(Resolved Session 26)*
+- **Halfling extermination request from Weskenim** — DONE. *(Resolved Session 26)*
+- **King [[npcs/Weskenim.md|Weskenim]]'s reward** — RECEIVED: large perfect diamond and ancient goblin king's magical scale armor. *(Resolved Session 26)*
+
+### Inter-Session Discord (W42, 2025-10-20 to 2025-10-26)
+
+- **Lycandus's remains concealed by illusions** — Per PC notes. [[npcs/Ptarmis.md|Ptarmis]] claims he can control the Fungal Foresters. Horkhari was shown the tomb of great Theskelon of the Set Cult (east of the Southern Necropolis of Set). Amhit found the Obsidian Gates but cannot teleport behind them.
+- **Rugs of Instant Access work with living creatures** — Vallium confirmed transporting Onyx the cat works (Onyx disapproves). Transporting a live goat is viable.
+
+---
+
+## Session 27 — The Tomb of Ptoh-Ristus
+*Mitrasday, 10th Besemios 2993 AE | Real: 2025-10-25*
+
+### Open Threads
+
+- **Mysterious magical curse** — Vael, Uvash, and Ioannes all fell sick with a magical curse. Vivian at the Temple of Demma removed it for a donation, but the source remains unknown.
+- **Wicktrimmer potentially running Forum of Set** — Discussed if Wicktrimmer would take over the Forum of Set if the Cult is destroyed; he was non-committal.
+- **Teleport control lever for indoor pyramid** — Found at the bottom of the pit near the Ruby Chair, next to a slimy monster. Now recovered.
+- **Room with pillars and two adjacent trap doors** — Explored but no treasure found.
+- **Prior Jacobus's room treasure** — Found small orange Thothian robes, a key, a ring, and a couple of maps.
+- **Magic stone chair (porch overlooking chasm)** — Found again; the party did not sit in it.
+- **Stairs down from porch** — Not taken.
+- **Narrow passage heading east (across chasm)** — Spotted but not followed.
+- **Secret treasure room: chest, magic rugs, alabaster vases, silver ibis, golden feather, cleric scroll, unknown book** — All taken.
+- **Tomb of Ptoh-Ristus: golden death mask and tiny magic chair** — The death mask has useful powers (Infravision, See Secrets, Will bonus, detect lies/illusions) plus remaining unidentified magic. The tiny magic chair's purpose is unknown.
+- **Secret door in Ptoh-Ristus tomb** — Led back to a known area, but contained a huge falling stone block trap and poison dart traps along two walls. Vael mapped it without triggering them.
+- **Rugs of Instant Access** — Confirmed as teleportation rugs. Range still unknown. Can transport living creatures.
+
+### Resolved/Updated
+
+- **Book in unrecognized language** — Another found in Ptoh-Ristus's tomb. *(Updated Session 27)*
+
+### Inter-Session Discord (W43, 2025-10-27 to 2025-11-02)
+
+- **Sligo the Devious and the Rugs of Instant Access** — Ioannes researched the story: Sligo gifted Leonidas of Archontos a Rug as a peace offering, then assassins came through it at night. Sligo was executed by Emperor Basil; the Rugs were confiscited and enchanting them was banned. Carpets are still not given as gifts in the Empire.
+- **Iris / Second Chance looking for Knight Sixth** — A Thorcin adventurer named Iris (Second Chance company) told Vallium that a Sun-Scarred Knight stopped them seeking "[[npcs/Knight Sixth.md|Sixth]]". Their Order pays well for information on his whereabouts.
+- **Second Chance Company formed** — Geleg, Tresti, Klisko, and Samantha the Red have formed a new adventuring party.
+
+---
+
+## Session 28 — Teleport Rugs and Baboons
+*Tahsday, 18th Besemios 2993 AE | Real: ~2025-11-01*
+
+### Open Threads
+
+- **Eyes of Set** — Purchased from Creon. Allegedly allow seeing through magical darkness cast by the Cult of Set. Not yet tested in the field.
+- **Magic axe head from cave people trade** — Traded 5 metal axes to the cave people for one magical axe head.
+- **Well of Light bottom mirror** — Was covered in muck/baboon feces; cleaned. Portable mirror and stand were in the crocodile pit, broken but fixable.
+- **[[npcs/Burris.md|Burris]] the Thorcin warrior** — Rescued from the baboon harem. Potential ally.
+- **Trefko's Dwarven Life Stone** — Traded for a live goat. Inscribed "Schist Corundam" in Dwarven Runic.
+- **Secret passage east from Trefko/harem area** — Found a cobwebby corridor leading to a rough cavern, a bridge over the Great Chasm, and the ghost of Ptirasa.
+- **[[npcs/Ptirasa.md|Ptirasa]]'s ghost** — Warned that "Arpostas was a traitor." Unknown who Arpostas is.
+- **Skeleton warrior (Skalla)** — Defeated in a skeleton room. Looted: magic axe, mail, shield, magic pouch, single magic gauntlet, magic arrows, spellbook from elf skeleton.
+- **Stone chest from elf skeleton room** — Empty but taken for further investigation.
+- **[[items/Bottomless Purse.md|Bottomless Purse]]** — Found on the elf skeleton.
+- **Wand of Illumination** — Found.
+- **Gislu the False Prophet** — Last seen in the Forum of Set per goblin intel.
+
+### Resolved/Updated
+
+- **Goo creature in southeast pit** — Electrocuted with Wall of Lightning; control rod and wand recovered. *(Resolved Session 28)*
+- **Crocodiles in pit** — Also electrocuted and killed. Hides destroyed; nothing valuable in stomachs. *(Resolved Session 28)*
+- **Egrk's cave people trade** — Trade completed: 5 axes for a magic axe head. *(Resolved Session 28)*
+- **[[npcs/Stamelis.md|Stamelis]]** — Visited. Still wants a priest of Thoth to assist him. Still in the Library. *(Updated Session 28)*
+- **[[npcs/Yamki.md|Yamki]]** — Meat deal arranged. Trefko still grumpy but not causing trouble. *(Updated Session 28)*
+
+### Inter-Session Discord (W44, 2025-11-03 to 2025-11-09)
+
+- **Kiglon died** — Despite priestly healing, Kiglon (one of the prisoners rescued from the Set slavers in Session 30) died in the night.
+- **Hjalti background** — Captured by Settites in the Great Cavern and thrown in a slave pit.
+- **Kerbog Khan** — Evil sorcerer wanted by one of the Collegium. The Settites were looking for him.
+- **Ptarmis historical info** — Famous Thothian priest from ~2000 years ago. Discovered the Great Cavern and bred giant mushrooms. Some sources say he left his family to live with his mushrooms "like some kind of weird Druid."
+- **Soapstone idol identified as Kauket** — An obscure ancient salamander demon god.
+- **Halls of Thoth renamed Upper Goblintown** — The United Goblins now control the level and allow passage to friendly groups who respect their sovereignty.
+- **Settites looking for "lord of the fungi"** — In the Great Cavern.
+
+---
+
+## Session 29 — The Tower of Scrutiny
+*Horasday, 26th Besemios 2993 AE | Real: ~2025-11-08*
+
+### Open Threads
+
+- **Wraiths in the [[locations/Tower of Scrutiny.md|Tower of Scrutiny]]** — At least 4 wraiths emerged from the central shaft. The party fled after a partial exploration. The tower remains deadly.
+- **10 magical Thothian masks** — Taken from pegs in a tower room. Depict humans, baboons, and ibises. All magical; purposes unknown.
+- **Bright orange silk robe with blue embroidery** — Survived in good shape where other robes were tattered. Suspicious but taken.
+- **Magic rope** — Found in the Tower.
+- **Locked brass double doors at front of tower** — Still not opened.
+- **Central shaft in tower** — Pillar with Thothian images; wraiths emerged from here.
+- **Square tower secret door (back side)** — Found but no key fit.
+- **Magical darkness on tower stairs** — Eyes of Set did NOT work on it.
+- **Goat teleported from Gosterwick** — Successfully delivered to Trefko using the Rugs.
+- **Trefko's sheet for mirror** — Given to cover the Well of Light mirror when not in use.
+- **Marble whippet and bronze Ptah statues** — Taken from the cavern where Gwelf was found.
+- **Gold solidi coin** — Found near the statues.
+- **Passages from Gwelf's cavern** — A passage north at ground level, and a passage west about 25' up. Neither explored.
+- **Huge underground graveyard** — Many sarcophagi labeled "Brother Someone." Low Sanctity. Party opened two: one had a ghoul and silver; another had a mummy that sat up, causing them to flee. Most remain unopened.
+- **Mausoleums in graveyard** — The southwest one had a mummy that animated. Party fled; contents unknown.
+- **Giant boring beetles** — Defeated. No treasure.
+- **Spider web room** — Large spiders; party fled.
+- **Crossroads labeled E/W/N in red letters** — Found near the graveyard exit.
+
+### Resolved/Updated
+
+- **[[npcs/Gwelf.md|Gwelf]]** — Body FOUND in a cavern northwest of the Well of Light, killed by a large cutting weapon. Uvash cast Final Rest. Body returned to Gosterwick for burial. *(Resolved Session 29 — body recovered; killer still unknown)*
+
+### Inter-Session Discord (W45, 2025-11-10 to 2025-11-16)
+
+- **Beacon access confirmed** — The party has taken over the Beacon levels. Downtime activities now split between Gosterwick and Beacon.
+- **Keycard access** — Colored oval keycards (rust, brown, sky blue, pale green, orange) open iris doors. Metallic ones (copper, bronze, platinum) do not. Any oval keycard opens the secret door to the closet off the reading room via a low-tech physical mechanism.
+- **Rudishva artifacts book** — "Rudishva Devices" contains pictures matching items found, with warnings. Experimenting may be safer if the right page is read first.
+- **Available research topics at Beacon library** — Rudishva language, Arden history, Archontean golem-like constructs, "Rudishva spirits," wars between Archonteans and Varumani, Survival/Naturalist/Alchemy, Rudishva artifacts, Arcanum, and gems.
+- **Vael's blackboard notes** — Beacon is a vehicle requiring fuel; Arcanum purpose unknown; star/glyph lists with letter/number codes. Rudishva crew assessments: Crallicarus (actor), Sakorikus (surgical assistant), Ravatorus (sage of subterranean life), Isocrates (warrior, co-founded Order of Subterranean Knights), Melacorius (warrior of suspect loyalty), Nacalorus (Rudishva legionary).
+- **Lord Iskander Burdock recruiting** — Lady Alexia's half-brother is recruiting adventurers to delve the Halls, offering equipment for a 50/50 treasure split.
+- **Freydis limiting healing potions** — Ioannes capped at 4 minor healing potions per week unless he demonstrates progress recovering Lady Alexia's Regalia.
+
+---
+
+## Session 30 — The Tomb of Theskalon
+*Lunday, 9th Basilembrios 2993 AE | Real: ~2025-11-15*
+
+### Open Threads
+
+- **Lyssandra evicting APC tenants** — All apartment tenants must leave by 1st of Dikaios. Lounge, labs, training rooms, and library unaffected.
+- **Livestock/corpses not permitted at APC** — Lyssandra rule after incidents.
+- **[[npcs/Flavius Aurelius.md|Flavius Aurelius]] merchant** — Regularly supplies the Inn of the Broken Head via mule train. Potential contact.
+- **Black flowering plant in dark cave** — Growing impossibly in pitch dark beneath the Great Cavern.
+- **Light orange flasks and heavy orange discs in cave** — Unknown substances, taken.
+- **Ptarmis's temple/tomb on pillar** — Sarcophagus with inscription. Party respected Ptarmis's request and left it alone.
+- **Settite outpost in southwestern Cavern abandoned** — Cult has pulled back from the Great Cavern outpost.
+- **Blue pillar teleportation** — Teleported party to surface near Archon's palace. Woman's eyes = gold solidi, priest's eyes = silver pennies. Other slots (handsome man, varumani mouth, goblin nose) not yet matched.
+- **Moon obelisk** — Found near palace, broken, only ~10 feet remain. Lunar symbols, ankh-shaped hole.
+- **Star obelisk** — Located in swamp to southwest via Seeker. Not yet visited.
+- **Obelisk timing** — Something in the story said "mid-day"; the party decided to return before noon in case exact timing matters.
+- **Statue room with 6 plinths** — "Let the Worthy Illuminate the..." interrupted by hole in wall. Missing statue: [[npcs/Priscus Pulcher.md|Priscus Pulcher]]. Intact: Licinia the Seer, Plotinus Quartus Claudino, Yeth, Horatius Interfector. Headless: Thrygga the Mighty (wearing fantastic armor similar to Sir Sorrow's).
+- **[[npcs/Harold.md|Harold]]** — Rescued from Settite slavers. Respectable tomb robber; former member of Gillen's bandit group. Guided out to Gosterwick.
+- **[[npcs/Hjalti.md|Hjalti]]** — Rescued from punishment frame; was captured in the Great Cavern and thrown in a slave pit.
+- **Kerbog Khan** — Evil sorcerer wanted by the Collegium. Settites were searching for him.
+- **"Lord of the fungi"** — Settites searching for one in the Great Cavern.
+- **Theskalon's tomb** — Gold and lapis sarcophagus shaped like a Settite priest. Bones with signet ring "Theskelon the Master." Three copper plaques with maps (unknown language + Mithric notes). Three books (one Mithric about mummy creation, two unknown languages). Key taken. Gold orb (sun) from wall fit depression to open the tomb.
+
+### Resolved/Updated
+
+- **Letter about Theskelon** — Tomb FOUND and looted in Session 30. *(Resolved Session 30)*
+- **Varumani ambush at octagonal room** — Not present; Set outpost abandoned. *(Updated Session 30)*
+- **Blue pillar** — Partially solved; teleportation to surface confirmed with coins. *(Updated Session 30)*
+
+### Inter-Session Discord (W46, 2025-11-17 to 2025-11-23)
+
+- **Arden and the Worthies** — Arden was one of the 20 Worthies of the Empire, living ~2,100 years ago. Some human traditions claim she ascended to demi-godhood.
+- **Priscus Pulcher and the Sortians** — Pulcher led the Sortians in rebellion against the church/college monopoly on magic. Civil war followed; all sides lost, though the Empire survived. Spell restrictions eventually eased. Pulcher and the Sortians are branded traitors.
+- **Astableon's Bookstore in Gosterwick** — Modest stock; books typically $10–$50. A $100 budget builds a very small library.
+- **No records of the Beacon** — None found in any documents in town.
+- **Rudishvan funeral traditions** — Full Recycling is best (unavailable); Spacing second-best (unavailable); Cremation third-best (might be practical outside the Beacon).
+- **Lyssandra's weird recipe** — She accepted an Elixir of Health in exchange for the recipe. Vallium received a recipe in precise handwriting with weird purple ink that smells off.
+- **Robed figure observing party** — Observed taking notes on the party's conversation during carousing. Other adventurers are gathering intelligence.
+
+---
+
+## Session 31 — I Want to Believe
+*Lunday, 21st Basilembrios 2993 AE | Real: 2025-11-22*
+
+### Open Threads
+
+- **Michael J. Dundee left the party** — Traveled home to Sweetwater Hold to see his sick father. Took a magic shield, healing potions, and the Belt of Strength as his share. Separation agreement signed with Barnaby Goodbarrel.
+- **Rugs of Instant Access range limit** — Confirmed to stop working about 60 miles south of Gosterwick (near Newmarket).
+- **Beacon / Chamber of the Beacon** — Large bronze doors opened by saying "aperire" (open) in Mithric. Contains workshops, reading room, secret closet with Rudishva artifacts, and a holographic AI named [[npcs/Akla-Chah.md|Akla-Chah]].
+- **[[npcs/Akla-Chah.md|Akla-Chah]]** — Rudishva construct/illusion functioning as a psychologist and morale officer. The Beacon is a crashed Rudishva vehicle. Most Rudishva were killed in a "horrible treason." There is one other construct who "went crazy" and should be avoided.
+- **Captain Leil-Jor** — Killed in the treason. Her body location unknown. The captain's keycard was gold.
+- **Rudishva oval keycards** — Different colors correspond to different ranks and access levels. Some colors the party has (copper, bronze, platinum) may be fakes or unrecognized.
+- **Strange ghost room / cafeteria** — Maps found on a table: map of the two-level Beacon area ("power" and "strange ghost" rooms unvisited), map of "Barracks of the Old Ones," and map of an unknown tomb.
+- **Power room** — Full of odd machinery. Not investigated closely.
+- **Lake wreck** — Sunken barge ~50 feet down in the lake near the Beacon entrance. Contained chests with ancient coins, a magic bastard sword, a magic wand, a huge magic gold key, and regular keys. Huge turtle and crocodiles guard it.
+- **Steel doors over Beacon stairs** — Cannot be easily closed. Party sealed the stairwell with a stone log bridge and camouflage.
+- **Craastonistorex's complaints** — Left a note criticizing the silver chess set tribute (missing board, wrong colors, archons larger than dragons).
+
+### Resolved/Updated
+
+- **Obelisks of Sun, Moon, and Stars** — Inserting silver ankhs into all three before noon caused a loud crash; a new stairwell opened into the earth on the palace island, leading to the Beacon. *(Resolved Session 31 — entrance discovered)*
+
+### Inter-Session Discord (W47, 2025-11-24 to 2025-11-30)
+
+- **Storage factors in Gosterwick** — Prosperity Factor, Silent Factor, Golden Band empire-wide. Rarities Factor is smaller (Narsileon, Newmarket, Gosterwick only). Pricing: Rarities (cheapest), Prosperity (medium), Silent (most expensive, highest security).
+- **Lord Burdock's mercenary expedition** — He has acquired a map to the Bone Ring of Jagri-Naz and the Iron Circlet of Ghanor, and sent mercenaries led by his bailiff to recover them.
+- **Temrin possesses a map to Nyema** — Confirmed in Discord.
+- **Arden statue arm** — A dried-out fountain on the surface contains a statue arm believed to belong to the Arden statue.
+
+---
+
+## Session 32 — Fast Exploration
+*Lunday, 28th Basilembrios 2993 AE | Real: ~2025-11-29*
+
+### Open Threads
+
+- **Varumani miners and territory** — Met a Varumani miner fixing automated shovels on a pond island. Varumani territory lies to the north; "teenagers" (young Varumani pranksters) roll boulders at intruders.
+- **Varumani passports** — Required to enter Varumani territory. The party does not have them.
+- **Secretive wizards in out-of-the-way room** — Waiting for an audience with King Weskenim. The king is stalling them. One named Lukor refused to identify his group.
+- **Six-armed creature statue** — 4' tall statue of a strange 6-armed creature found in a niche. Heavy; Vallium carried it back to the apartment.
+- **[[locations/Arena.md|Arena]] level** — Discovered. Contains a huge sandy arena, bleachers, gambling touts, and an Arena Lord. [[npcs/Dalton.md|Dalton]]'s Darlings were caught using a healing potion during a no-magic bout and sentenced to the stocks.
+- **[[npcs/Dalton.md|Dalton]]'s Darlings in stocks** — Entire party, including [[npcs/Jost.md|Jost]], serving time for "cheating" in the arena. They were fighting goblins when Isidor the halfling drank a healing potion.
+- **[[locations/Troll Lifts.md|Troll Lifts]]** — Found! Huge contraption operated by Varumani. Cost: 1 silver per leg. Can go up, across the Great Chasm, or down.
+- **[[locations/Sundered Span.md|Sundered Span]]** — Bridge across the Great Chasm with a gap in the middle, covered by wooden planks.
+- **Secret door high in Goblin Market wall** — Ioannes spotted one inexplicably high up, far out of reach without flight or extreme climbing. Not yet opened.
+- **Magic spear from collapsed tunnel** — Found behind a skeleton in a collapsed passage.
+- **Gog the exiled Varumani** — Still living in his cave. Allowed passage through to Goblintown.
+- **Face relief with spherical eye holes** — 4' bas-relief of a man's face with half-spherical empty eye holes. The silver and blue magical eyes the party has are a perfect fit, but they chose not to insert them yet.
+- **Kel Bormol's Chess Diary** — Found in a room with a magical teleporter frame. Records chess games from ~1100 years ago and experiments in different handwriting.
+
+### Resolved/Updated
+
+- **Egrk's cave people trade** — Trade completed in Session 28; no further contact this session.
+- **[[npcs/Thorne Lasselanta Ashcroft.md|Chrysalis]]** — Not present this session.
+
+### Inter-Session Discord (W48, 2025-12-01 to 2025-12-07)
+
+- **Thothian Teleportation Rings lore from Stamelis** — Recalls the rings but never had permission to use them. Two teleportation rings on the Library level (west and east ends). Activation squares were Arcanum-enriched glass, fragile; specially constructed bags were issued for protection. Only 6 colors of squares existed, all gates activated with the same 6 squares but different orders = different destinations.
+- **Stamelis now speaks via Akla-Chah** — Stamelis speaks only Mithric; Akla-Chah now speaks fluent Mithric and Vael-accented Archontean and can translate.
+- **Hal the bartender** — Sells "Hak's Special Red Ale" at the Varumani bar. Identity of Hak unknown.
+- **Adrienic's Expedition** — Consisted of the Sheep's Head Legion plus the third cohort of the Imperial Tagmata.
+- **Vallium heard about dwarves on troll lifts** — A Thorcin adventurer saw dwarves using the lifts; they refused to talk about their motives and clutched weird stones around their necks.
+
+---
+
+## Session 33 — Nyema
+*Lunday, 5th Dikaios 2993 AE | Real: ~2025-12-06*
+
+### Open Threads
+
+- **The Thane kidnapped baboons** — [[npcs/The Thane.md|The Thane]] (presumed to be [[npcs/Tikun Thane.md|Tikun Thane]]) came to the Howling Caves with bald human followers, stunned [[npcs/Bumpko.md|Bumpko]], and kidnapped [[npcs/Bobo.md|Bobo]] and [[npcs/Bifki.md|Bifki]].
+- **Bobo and Bifki rescue pending** — The party promised Yamki they would go after The Thane soon.
+- **Stamelis moved to the Beacon** — Placed near Akla-Chah so the two can entertain each other.
+- **New secret door in ancient barracks** — Found near the Glory of Weskenim. Contained a chest with a small red jasper gem and a magical blue glass square, completing the set of six teleportation colors.
+- **Secret door high in Goblin Market** — Ioannes spotted it with See Secrets from the Litany of Light. Still unopened.
+- **Pool of burning liquid in Temple of Set** — Ioannes nearly fell in; his Bless absorbed the danger. Vael filled Lacrymosa's potion bottles with the liquid for later analysis. A hole in the room drops ~200 feet.
+- **Fishman prisoner cell** — The fishman from the Set jail apparently starved/dehydrated to death after the guards were killed. Ioannes found a secret door behind the body leading to a white marble Rudishva-looking passage.
+- **Rudishva passage and iris door** — Led to a spider-web room with 8 huge spiders, coins, gems, a copper slate, and three stone hands (one with stone mace, one with metal magical scimitar, one with stone rod with platinum tip).
+- **Mummy in sarcophagus (Temple of Set area)** — Sat up and was shot repeatedly by Lacrymosa until it lay down again. Looted: magic sword, magic torc, key, ancient gold solidi, potions.
+
+### Resolved/Updated
+
+- **Nyema's body** — FOUND in a crocodile pool in the Temple of Set, identified by platinum torc. Buried at Yrtol's watchtower. *(Resolved Session 33)*
+- **Yrtol's conditions** — APPEASED. After Nyema was buried, Yrtol vanished and left two huge eye-shaped sapphires (non-magical but deliver electrical shocks when touched). *(Resolved Session 33)*
+- **Litany of Light** — Ioannes and Uvash successfully performed it and gained See Secrets, Infravision, Invisibility, and an IQ bonus. Others failed to execute properly. *(Updated Session 33)*
+
+### Inter-Session Discord (W49)
+
+*(No W49 Discord summary file exists for this week.)*
+
+---
+
+## Session 34 — Hunting the Thane, Tower of the Ape, Burglary and Death
+*Basilsday, 11th–25th Fidios 2993 AE | Real: three consecutive sessions*
+
+### Open Threads
+
+- **[[npcs/Tikun Thane.md|Tikun Thane]] escaped** — Fought in the Tower of the Ape but Blink-ed away multiple times. Seeker showed him in a windowless room in Narsileon; Trace confirmed he made a 3-week trip in 3 days (teleportation assumed). The Tower teleporter was deactivated from the other side.
+- **Tower of the Ape teleporter deactivated** — Vael detached the non-functioning portal frame and carried it back to Gosterwick.
+- **Rugs of Instant Access stopped working** — A thief broke into the APC apartment, touched a cursed statue head, and triggered a 9d Explosive Fireball. The thief died; many items were destroyed. One Rug survived slightly burned but later worked again. The second Rug's status is unclear.
+- **Basil of Narsileon hired** — First employee of Right for Riches. Hired to turn pages for Akla-Chah and Stamelis. Lives at the Beacon.
+- **Uvash died and was resurrected** — Killed by a Disciplined's scimitar in the Tower of the Ape. Jador the Just performed Resurrection at the Church of Mitra with a very large donation and help from all local clerics.
+- **Silver ring inscribed "To Guivrel, with love from Lankios"** — Found in a pool during the Thane hunt. Connects Lankios to Guivrel.
+- **Sand worms** — Found in a sandy-floored cave while hunting the Thane. Vallium killed several.
+- **Magic silver eyes and green glass square** — Found on a dwarf corpse in a spider cave. Plus a magic metal shield.
+- **Kel Bormol's room / Tower of the Ape** — Contains a chessboard with six black pieces, piles of dust, and one odd living copper-skinned piece. Magical teleporter frame (command word "noobab"). Alchemy lab, potions, scrolls, notebook with spells. Six black opals. Bedroom with clothes and chest.
+- **Murder closet / trained baboons and Disciplined** — Fought multiple battles. Many Disciplined and baboons killed, but Tikun Thane escaped.
+- **Prisoners in Tower basement** — Three men and two baboons (Bobo and Bifki) freed. The men had been captured by Settite slavers and sold to Tikun Thane. Bobo and Bifki rescued and returned to the Howling Caves.
+- **Living chess piece** — A tiny copper-skinned man with robed covered in eyes and a twisted staff, gesturing upward. The party covered the chessboard with a cloth and left it alone.
+
+### Resolved/Updated
+
+- **Bobo and Bifki** — RESCUED from Tikun Thane's tower basement and returned to the Howling Caves. *(Resolved Session 34c)*
+- **[[items/Scepter of the Goblins.md|Scepter of the Goblins]] quest** — Still open, but Temrin was promoted to Royal Artist and commissioned by the King to map to the Scepter. *(Updated Session 34c / W51)*
+
+### Inter-Session Discord (W50–W51, 2025-12-15 to 2025-12-28)
+
+- **Kel Bormol identified** — Overseer of Thoth at the time of Arden Vul's collapse (~1200 years ago). Titles included Archmage of Thoth and Eye of Thoth.
+- **Pieces of broken magic items** — Those from Kel Bormol's room do not fit together with broken items from Tikun Thane's workshop.
+- **Fael's mushroom guide** — Documented Large Mushrooms of Northern Inthuin including Aqua Vitae, Blue Trumpet, Cloud Cap, Eye-Opener, Mind-Eater, Orange Lamps, Red Veil, Slow Stepper, White Bulbs, and White Ribs.
+- **Vael ordered Fine Ornate +3 Spider Silk Robes** — Tasha accepted the commission; robes under construction.
+- **Watcher statue mechanics** — Does not send notifications on movement; Vael must periodically look through its eyes and ensure it has a light source.
+- **Bricks left at the Beacon disappear** — Basil noticed this.
+- **Kettle-Belly's roadhouse** — A fortified roadhouse within the ruins with beds, meals, and a merchant named Kettle-Belly.
+- **Temrin promoted to Royal Artist** — Commissioned by King Weskenim to draw a map to the Scepter of the Goblins; accepting no other jobs until done.
+
+---
+
+## Session 35 — The Scepter / Flute of the Goblins
+*Basilsday, 18th Fidios 2993 AE | Real: 2025-12-27*
+
+### Open Threads
+
+- **Scepter of the Goblins** — FOUND. A three-foot-long hollowed legbone (ogre or troll) with holes drilled along one side, like a gigantic flute. Magical. Located in an urn in a northeastern Great Cavern cave system.
+- **Urn of apparent gold** — Heavy urn in the same room; Vallium barely moved it. Possibly full of gold.
+- **Second set of Rugs of Instant Access** — Found in a hidden storeroom high in the Goblin Market wall. The party now has two sets.
+- **Temrin's map to the golden Rudishva oval** — Completed but the King commissioned Temrin to map the Scepter instead; Temrin is not accepting other jobs.
+- **Five Fingers of Destiny found ancient goblin treasury** — In Upper Goblintown. They shared some with King Weskenim; all goblins now wear new patches.
+- **Beastman held captive by King Weskenim** — A beastman sergeant whispered that one of their men was held captive and asked if anyone could intervene.
+- **Clavinia the mage** — Red-haired woman selling relics to Claudine; Vael purchased items she didn't sell.
+- **Lukor and secretive wizards** — Still waiting for an audience with the King. Vael suggested they get permission to share more information.
+- **Arcane Vengeance elves mapping** — [[npcs/Trillis Galesson.md|Trillis Galesson]] and others were triangulating and asked Vael about large amounts of arcanum.
+- **Lord Iskander Burdock's map** — He seeks the Bone Ring of Jagri-Naz and the Iron Circlet of Ghanor.
+- **Beastman mailed fist insignia** — Count Skleros identified it as the third cohort of the [[factions/Imperial Tagmata.md|Imperial Tagmata]], wiped out in Arden Vul during Adrienic's failed expedition. Some Children of Deino adopted the insignia.
+- **Ambrosia's charmed beastmen** — Vael revealed to Skleros that some beastmen loyal to [[npcs/Ambrosia.md|Ambrosia]] rather than Deino exist in the Great Cavern. Skleros was alarmed. Deino might want to meet the party, but Skleros did not recommend it.
+
+### Resolved/Updated
+
+- **Quest: Recover the Scepter of the Goblins** — COMPLETED. The Scepter is a giant bone flute; the party plans to bring it to King Weskenim. *(Resolved Session 35)*
+- **Wicktrimmer in Narsileon** — Found some items on the shopping list; should return to Gosterwick in a few weeks. *(Updated Session 35)*
+
+### Inter-Session Discord (W52, 2025-12-29 to 2026-01-04)
+
+*(W52 Discord summary file is a stub — no in-world content.)*
