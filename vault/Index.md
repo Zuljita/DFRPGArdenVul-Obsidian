@@ -11,3 +11,4 @@ title: Index
 - [[items/Index|Items]]
 - [[pcs/Index|PCs]]
 - [[notes/Arden Vul GM Source Index.md|Arden Vul GM Source Index]]
+- [[notes/weekly-digests/Index|Weekly Discord Digests]]
