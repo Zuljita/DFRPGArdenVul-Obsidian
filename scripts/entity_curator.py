@@ -9,8 +9,19 @@ from urllib import request
 VAULT = Path('vault')
 SESSIONS_DIR = VAULT / 'sessions'
 
-ENDPOINT = os.environ.get('LM_STUDIO_ENDPOINT', 'http://192.168.21.76:1234/v1/chat/completions')
-MODEL = os.environ.get('LM_MODEL', 'qwen2.5-7b-instruct')
+ENDPOINT = (
+    os.environ.get('LM_STUDIO_ENDPOINT')
+    or os.environ.get('LMSTUDIO_BASE_URL')
+    or os.environ.get('LLM_ENDPOINT')
+    or 'http://100.76.165.94:1234/v1/chat/completions'
+)
+MODEL = (
+    os.environ.get('LM_MODEL')
+    or os.environ.get('LMSTUDIO_IAC_MODEL')
+    or os.environ.get('LMSTUDIO_MODEL')
+    or os.environ.get('LLM_MODEL')
+    or 'google/gemma-4-26b-a4b'
+)
 
 CHUNK_SIZE = 2500  # ~2–3k chars per call
 
@@ -30,24 +41,35 @@ def llm_call(content: str, enabled=True):
     payload = {
         'model': MODEL,
         'temperature': 0.1,
-        'max_tokens': 400,
+        'max_tokens': 1000,
+        'stream': False,
+        'reasoning_effort': 'none',
+        'enable_thinking': False,
         'messages': [
-            {'role': 'system', 'content': 'You are precise and return strictly valid JSON.'},
-            {'role': 'user', 'content': PROMPT + "\n\nTEXT:\n" + content}
+            {'role': 'system', 'content': '/no_think\nYou are precise and return strictly valid JSON.'},
+            {'role': 'user', 'content': '/no_think\n' + PROMPT + "\n\nTEXT:\n" + content}
         ],
     }
+    endpoint = ENDPOINT.rstrip('/')
+    if not endpoint.endswith('/chat/completions'):
+        endpoint = endpoint + ('/chat/completions' if endpoint.endswith('/v1') else '/v1/chat/completions')
     data = json.dumps(payload).encode('utf-8')
-    req = request.Request(ENDPOINT, data=data, headers={'Content-Type': 'application/json'})
+    req = request.Request(endpoint, data=data, headers={'Content-Type': 'application/json'})
     try:
         with request.urlopen(req, timeout=30) as resp:
             out = json.loads(resp.read().decode('utf-8'))
-            text = out['choices'][0]['message']['content']
+            message = out['choices'][0]['message']
+            text = message.get('content') or message.get('reasoning_content') or ''
             return text
     except Exception as e:
         return None
 
 def parse_json_or_list(text: str):
     # Try parse JSON; else fall back to empty
+    text = text.strip()
+    if text.startswith('```'):
+        text = re.sub(r'^```(?:json)?\s*', '', text)
+        text = re.sub(r'\s*```$', '', text)
     try:
         obj = json.loads(text)
         res = {k: set(map(str.strip, v)) for k, v in obj.items() if isinstance(v, list)}

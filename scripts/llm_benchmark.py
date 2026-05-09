@@ -100,7 +100,7 @@ def benchmark_model(endpoint: str, model: str) -> Dict[str, Any]:
 
 def main():
     p = argparse.ArgumentParser(description='Benchmark local LLM models for IAC/LCE/ACE/CAC')
-    p.add_argument('--endpoint', default='http://192.168.21.76:1234')
+    p.add_argument('--endpoint', default=os.environ.get('LMSTUDIO_BASE_URL') or os.environ.get('LLM_ENDPOINT') or 'http://100.76.165.94:1234')
     p.add_argument('--all', action='store_true', help='Benchmark all available models (except embeddings)')
     p.add_argument('--new', action='store_true', help='Benchmark only models not seen in previous results')
     args = p.parse_args()
@@ -118,8 +118,8 @@ def main():
 
     models = query_models(args.endpoint)
     # Prefer a stable shortlist unless --all
-    shortlist = [m for m in models if any(k in m.lower() for k in ['qwen','llama','mistral','gpt','glm','ministral'])]
-    targets = shortlist if args.all else [m for m in shortlist if (args.new and m not in seen) or (not args.new and m in ('qwen2.5-7b-instruct','meta-llama-3.1-8b-instruct','mistralai/ministral-3-14b-reasoning'))]
+    shortlist = [m for m in models if any(k in m.lower() for k in ['gemma','qwen','llama','mistral','gpt','glm','ministral'])]
+    targets = shortlist if args.all else [m for m in shortlist if (args.new and m not in seen) or (not args.new and m in ('google/gemma-4-26b-a4b','qwen2.5-7b-instruct','meta-llama-3.1-8b-instruct','mistralai/ministral-3-14b-reasoning'))]
     if not targets:
         print('No models to benchmark (check --all or --new)')
         return
@@ -132,4 +132,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
