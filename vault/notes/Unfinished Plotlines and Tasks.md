@@ -1061,7 +1061,7 @@ This document tracks unpulled threads, unresolved mysteries, and outstanding tas
 
 ### Open Threads
 
-- **Five Fingers of Destiny pressure around the Beacon** — Their presence above the Beacon pushed the party into active fortification planning and remains unresolved politically.
+- **Five Fingers of Destiny pressure around the Beacon** — Their presence above the Beacon pushed the party into active fortification planning and remains unresolved politically. *(Diplomatically de-escalated in Session 47; see Completed.)*
 - **More Chaotic Sweat and slime-pit routes below Thoth** — The basin, the deep shaft, and the dissolution-slime area are still only partly exploited.
 - **Broken egg-boat and second fish-shaped rod** — The drowned-canyon boat and matching rod imply more to the water-travel / fish-device thread than a single loot find.
 - **Dangerous waterspout pool** — The violent pool was identified but not investigated.
@@ -1094,6 +1094,45 @@ This document tracks unpulled threads, unresolved mysteries, and outstanding tas
 - **Corpse pile, giant worm, and hidden chasm route** — The northeast body pile and chasm approach produced only remote probing; the actual route remains unexplored.
 - **Cave-in into Rudishva room with kaliyani statue** — Beyond the cleared cave-in are iris doors north and west that the party deliberately left unopened.
 - **Inn of the Lost as a neutral hub** — The inn, merchants, lifts, and gamblers open a new social space that has not yet been leveraged for information or alliances.
+
+---
+
+## Session 47 — The No Mana Zone
+*Tahsday, 28th Molivios 2994 AE | Real: ~2026-04-21*
+
+### Open Threads
+
+- **Mithric-speaking raven model** — A fancy model of a raven on a perch said something in Mithric when [[pcs/grudge-brigade/Coinbase.md|Coinbase]] approached. Taken back to the [[locations/Beacon.md|Beacon]] for later study; function unknown.
+- **Wizard's lab west of Yamki** — The lab was looted of "everything that looked valuable and portable," but immobile equipment, formulas, books, and the destroyed construct's huge black iron spear may still repay a return visit.
+- **No Mana Zone (western [[locations/Well of Light.md|Well of Light]] corridor)** — A confirmed magical dead zone where Continual Light, Levitation, Lighten, and Bless all fail. The portcullis was broken open and cannot be closed; the lever is broken; rooms north, west, and south remain only partly explored.
+- **Ivory coffer with engraved tongues** — Magical coffer recovered from the center of the No Mana Zone, sealed in a [[items/Bag of Holding.md|Bag of Holding]] inside a chest at the [[locations/Beacon.md|Beacon]]. Properties and contents unknown; the engraved-tongues motif is suggestive.
+- **Undead reservoir south of the No Mana Zone** — A southern door released a large mixed wave of skeletons, zombies, and ghouls. They were defeated, but the room/pen/origin point that held them is not yet found, and more may remain.
+- **Howling Caves / [[npcs/Yamki.md|Yamki]] food obligation (recurring)** — This month's baboon delivery was made via Teleport Rug, but the monthly supply run is an ongoing commitment.
+- **[[npcs/Remagis.md|Remagis]]'s era and knowledge** — The un-petrified Thothian priest only speaks Mithric and was confused on waking; what he remembers about pre-Fall Arden Vul, who petrified him, and how long he was statue-form are open questions for [[npcs/Stamelis.md|Stamelis]] to extract.
+
+### Inter-Session Discord (2026-W13 / 2026-W14, 2026-03-30 to 2026-04-12)
+
+- **W13 / W14 placeholders** — Both weeks are placeholder files (no distilled in-world content captured). The active planning items from W12 (lead shielding research, Five Fingers diplomacy, Beacon fortification, monthly ape food) carry forward.
+
+---
+
+## Session 48 — Thothian Teleportation Rings
+*Horasday, 29th Molivios 2994 AE | Real: ~2026-04-28*
+
+### Open Threads
+
+- **Baboon-statue potion machine** — Vael's analysis identified the magical baboon statue as a potion-making device: ingredients go into the eye sockets, the potion drips from the nostrils. Recipes, ingredient costs, and what potions it can produce are all unknown.
+- **Pentagram room ivory coffer (second coffer)** — A second magical ivory coffer was lifted via Apportation from a pentagram in the western No Mana Zone. Distinct from the tongue-engraved coffer recovered in Session 47; properties unknown.
+- **Thothian teleportation circle destinations** — The party catalogued destinations for every glass-square combination they tried, but only a handful (the pneuma shrine, the pentagram room, the beastman yellow-painted room) are confirmed safe or mapped. Most destinations remain only Scry Gate images.
+- **Beastman teleport-trap room watched by Deino's troops** — One destination dumps arrivals into a yellow-painted room in [[factions/Children of Deino.md|Children of Deino]] territory. Count Skleros has now stationed guards there. Future use of that combination risks renewed friction with the beastmen even though the current arrival was waved off as an accident.
+- **[[npcs/Neferet.md|Neferet]]'s relocated whereabouts** — Neferet's tomb was found empty, with several sarcophagi smashed open. Vael judged other looters had already been through. Where she has gone is unknown.
+- **Stairway Neferet fled up** — Mapped but not climbed; one of two top-priority leads for the Iron Circlet plan.
+- **Second magic sink (west of [[locations/Glory of Thoth.md|Glory of Thoth]])** — Liquid tested as fresh water this time, but a second magic sink in this complex is not yet understood or exploited.
+- **[[npcs/Sir Simonet.md|Sir Simonet]] reporting back to the [[factions/Sun-Scarred Knights.md|Sun-Scarred Knights]]** — Healed and released, Simonet left to brief his commander. The Order's reaction to the news that the [[locations/Forum of Set.md|Forum of Set]] has been handed to the goblins is a likely future event.
+- **Sun-Scarred Knights' wider presence on this level** — Simonet was a wounded survivor of some unspecified incursion. Other knights (or their fates) remain unaccounted for.
+- **Stone chest fire-trap (Simonet's room)** — A trap Vael missed engulfed three PCs in flame. Some loot was salvaged; "unburned contents" suggests other contents were destroyed. Worth recording as a hazard pattern in this area.
+- **Beacon fortification still on the to-do list** — Lead shielding, sealing the Blink entry, point-defense turret emplacement, and the trespasser sign are all still planned but not yet executed (Sessions 45–48 carryover).
+- **Decision point: [[npcs/Neferet.md|Neferet]] and the [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]] vs. [[npcs/Craastonistorex.md|Craastonistorex]]** — The party explicitly named these as the next two big-ticket targets. Strategic choice still open.
 
 ## Completed Items (continued)
 
@@ -1214,3 +1253,27 @@ This document tracks unpulled threads, unresolved mysteries, and outstanding tas
 - **Illusory wall entrance NW of Glory of Thoth now fully operational** *(Sessions 16 → 24)*: Confirmed by Jost in Session 16; used as the party's primary route through the basement throughout Sessions 17-24.
 
 - **Belt of Dwarvenkind obtained** *(Session 14)*: Acquired from Versania in exchange for her rescue. Grants Night Vision, extra FP, lifting ST, poison resistance, and a beard. The party is deciding whether to keep or sell it.
+
+- **[[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]] warned off the [[locations/Beacon.md|Beacon]]** *(Sessions 45/46 thread → Session 47)*: Vallium and Ioannes met with Roger the Rapier and his company, explained the ankh-key puzzle (in part), and told them their base was very dangerous and the Five Fingers should stay away. The standoff that prompted W12's diplomatic-confrontation plan was resolved verbally rather than violently.
+
+- **Petrified Thothian priest restored** *(Session 47)*: Uvash's Stone to Flesh turned a "very detailed sculpture of a Thothian priest" west of Yamki's room into [[npcs/Remagis.md|Remagis]], an ancient Mithric-speaking priest of Thoth. He was Gift-of-Tongues'd, calmed, taken back to the [[locations/Beacon.md|Beacon]], and handed off to [[npcs/Stamelis.md|Stamelis]] for care under [[npcs/Basil.md|Basil]].
+
+- **Construct spearman in the western wizard's lab destroyed** *(Session 47)*: The lab's construct guardian with a huge black iron spear attacked when the door was rammed; Vallium destroyed it and the party looted the lab.
+
+- **April monthly food delivery to [[npcs/Yamki.md|Yamki]] / Howling Caves apes** *(Session 47)*: Baboon-food shipment teleported through the Rug from the [[locations/Beacon.md|Beacon]] and handed off to Yamki, satisfying the obligation flagged in W12 Discord. (Recurring obligation continues.)
+
+- **Thothian teleportation circles deciphered** *(Sessions 4/5/6/14/19/33 → Session 48)*: After ~50 delves of collecting colored 8″ glass squares (white, green×2, yellow, red, blue) and the matching paving-stone circles, the Right for Riches finally cracked the system in the No Mana Zone pentagram room: line up the glass squares in the configured slot, wait for the shimmering field, pick the squares back up, and step through. Combinations were systematically catalogued via Scry Gate and Returning-Pebble Trace. This resolves one of the longest-standing puzzles in the campaign.
+
+- **Cut-off starving goblins rescued** *(Session 48)*: A pocket of goblins barricaded behind a secret door west of the [[locations/Glory of Thoth.md|Glory of Thoth]] were freed after the party cleared the surrounding undead and Settite holdouts. They were fed (the entire party's rations), then escorted north past Skleros's beastmen back to the main goblin community at the Glory of Thoth. *Achievement: The Rescuers, 1 XP.*
+
+- **Set holdouts behind the western Goblin Forum barricade killed** *(Session 48)*: A barricaded room of red-armored Settites was opened (they were dismantling the barricade themselves to "be rescued"); Vallium and Chrysalis killed them.
+
+- **Wight in the third sarcophagus killed** *(Session 48)*: The closed magical sarcophagus near Neferet's old tomb held a wight that was beaten to death without significant losses.
+
+- **Fear elemental defeated** *(Session 48)*: A spectral fear elemental in the glyph-marked corridor west of the Great Hall was resisted (rings of protection, Uvash's amulet of bravery) and dispatched without effect.
+
+- **Set teleport-trap arrival in [[factions/Children of Deino.md|Deino's]] territory diffused** *(Session 48)*: An accidental teleport into a yellow-painted beastman guardroom triggered an alarm, but Vael's "friends, not invaders" framing and Count Skleros's intervention defused it; he questioned them about the trap, posted guards, and escorted them out without violence.
+
+- **[[npcs/Neferet.md|Neferet]]'s tomb checked and confirmed empty** *(Session 48)*: The tomb was reopened; sarcophagi were empty and a couple smashed. Other looters had clearly been through. (Where Neferet has relocated to remains an open thread, but the *tomb* question is closed.)
+
+- **[[npcs/Sir Simonet.md|Sir Simonet]] healed and released** *(Session 48)*: A wounded [[factions/Sun-Scarred Knights.md|Sun-Scarred Knight]] in a room west of the new Goblin Forum corridor accepted Ioannes's healing after some negotiation, found the Forum-of-Set news hilarious, and left to report to his Order.
