@@ -1,5 +1,5 @@
 ---
-title: "Dwarven life-stone (inscribed "Schist Corundam" in dwarven)"
+title: 'Dwarven life-stone (inscribed "Schist Corundam" in dwarven)'
 type: tablet
 tags:
   - library

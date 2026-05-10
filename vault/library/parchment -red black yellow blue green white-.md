@@ -1,5 +1,5 @@
 ---
-title: "parchment "red black yellow blue green white""
+title: 'parchment "red black yellow blue green white"'
 type: parchment
 tags:
   - library

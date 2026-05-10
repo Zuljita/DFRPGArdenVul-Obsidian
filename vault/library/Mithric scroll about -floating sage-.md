@@ -1,5 +1,5 @@
 ---
-title: "Mithric scroll about "floating sage""
+title: 'Mithric scroll about "floating sage"'
 type: scroll
 tags:
   - library

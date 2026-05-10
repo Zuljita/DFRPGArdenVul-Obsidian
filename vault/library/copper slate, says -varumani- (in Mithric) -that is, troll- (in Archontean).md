@@ -1,5 +1,5 @@
 ---
-title: "copper slate, says "varumani" (in Mithric)  "that is, troll" (in Archontean)"
+title: 'copper slate, says "varumani" (in Mithric)  "that is, troll" (in Archontean)'
 type: tablet
 tags:
   - library
