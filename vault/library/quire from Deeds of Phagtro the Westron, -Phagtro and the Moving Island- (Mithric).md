@@ -1,5 +1,5 @@
 ---
-title: "quire from Deeds of Phagtro the Westron, "Phagtro and the Moving Island" (Mithric)"
+title: 'quire from Deeds of Phagtro the Westron, "Phagtro and the Moving Island" (Mithric)'
 type: document
 tags:
   - library

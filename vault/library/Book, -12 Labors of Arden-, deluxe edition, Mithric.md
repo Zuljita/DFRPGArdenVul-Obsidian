@@ -1,5 +1,5 @@
 ---
-title: "Book, "12 Labors of Arden", deluxe edition, Mithric"
+title: 'Book, "12 Labors of Arden", deluxe edition, Mithric'
 type: book
 tags:
   - library
