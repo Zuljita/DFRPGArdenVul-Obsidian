@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 16
+session_date: 2025-06-28
+source_url: https://dfwhiterock.blogspot.com/2025/06/dfrpg-arden-vul-session-15-random.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 16: Random Scorpion Teleport to the Hall of Judgment
@@ -107,4 +109,4 @@ Next Week:
 
 - Previous Session: [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15 - The Great Cavern Re-Revisited]]
 - Next Session: [[sessions/Session 16.5 Bonus Mid-2993 Summary.md|Session 16.5 - Bonus Mid-2993 Summary]]
-
+- Discord Discussions: [[Discord Summary 2025-W25]], [[Discord Summary 2025-W26]]

@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 4
+session_date: 2025-04-05
+source_url: https://dfwhiterock.blogspot.com/2025/04/dfrpg-arden-vul-session-4-cheese-and.html
 ---
 
 # DFRPG [[locations/Arden Vul|Arden Vul]] Session 4: Cheese and Crackers and [[npcs/Thoth|Thoth]] and Demons
@@ -109,4 +111,4 @@ Sounds like they definitely want to talk to the beastmen.  Maybe they'll fight t
 
 - Previous Session: [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
 - Next Session: [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
-
+- Discord Discussions: [[Discord Summary 2025-W14]], [[Discord Summary 2025-W15]]

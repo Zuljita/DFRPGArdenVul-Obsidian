@@ -31,3 +31,6 @@ tags:
 ## Hooks for Next Session
 - Further interactions with the [[Benevolent Brotherhood]] for other transactions or information.
 - Potential encounters with the buyer of the [[Set Armor]].
+
+## Session Navigation
+- Discord Discussions: [[Discord Summary 2025-W21]], [[Discord Summary 2025-W22]]

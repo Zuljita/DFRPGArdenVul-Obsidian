@@ -2,6 +2,8 @@
 tags:
   - session
   - recap
+session_date: 2025-12-27
+source_url: https://dfwhiterock.blogspot.com/2025/12/dfrpg-arden-vul-session-35-scepter.html
 ---
 
 # 35 - The Scepter / Flute of the Goblins
@@ -60,4 +62,4 @@ They plan to bring the Scepter / Flute to [[npcs/Weskenim.md|King Weskenim]]. Af
 
 - Previous Session: [[sessions/Session 34c - Burglary and Death.md|Session 34C - Burglary and Death]]
 - Next Session: [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
-
+- Discord Discussions: [[Discord Summary 2025-W51]], [[Discord Summary 2025-W52]], [[Discord Summary 2026-W00]]
