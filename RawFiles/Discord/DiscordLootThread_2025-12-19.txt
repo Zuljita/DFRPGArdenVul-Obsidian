@@ -1,0 +1,94 @@
+Loot 2025-12-19
+
+dripton — 12/20/25, 6:11 PM
+I did a first pass at the loot sheet.  Highlights included a magic shield and some weird magic goggles.  You also got another full set of glass squares (more than replacing a couple that got destroyed).  You also have a bunch of scimitars, small mail armor, and archaic scale armor.  (The armor sold at a discount due to supply exceeding demand.  The scimitars all sell at full price.)  You also got a lot of mushrooms.   Vael and Ioannes were able to identify most of the things you found, but Vael wasn't sure about one group of gems, and Ioannes didn't want to mix up some mushrooms and got a second opinion.
+
+dripton — 12/20/25, 6:14 PM
+Still working on the library.
+
+Zuljita — 12/20/25, 6:30 PM
+Very interested in the spell book we stole on the first pass
+
+Zuljita — 12/20/25, 6:30 PM
+With the big warning saying that having it stolen would cause us to be hunted down
+
+Demented Avenger — 12/21/25, 12:39 AM
+You might wanna rename this one, <@396077326129037345>
+
+Demented Avenger — 12/21/25, 12:40 AM
+My first pass at the loot for this week has us all clearing 2 CP with plenty to spare
+
+Demented Avenger — 12/21/25, 12:40 AM
+And I'm marking as many marginal items as *kept* as I can
+
+dripton — 12/21/25, 12:40 AM
+Rename which one?
+
+Demented Avenger — 12/21/25, 12:40 AM
+Check the date on this thread
+
+dripton — 12/21/25, 12:41 AM
+Ah, numbers are hard
+
+dripton — 12/21/25, 12:41 AM
+Loot 2025-12-19
+
+Demented Avenger — 12/21/25, 12:42 AM
+Malibu Stacy says, "Math is hard!"
+
+Demented Avenger — 12/21/25, 12:43 AM
+What are the values and game effects of the potions of Climbing, Diminution, Growth, Purify Water, and the Philter of Persuasiveness? I think we're gonna keep them, but completeness for later
+
+Demented Avenger — 12/21/25, 12:46 AM
+And how many charges are in the wand of See Secrets?
+
+dripton — 12/21/25, 12:55 AM
+Updated stuff.
+
+Demented Avenger — 12/22/25, 12:37 AM
+How much did we spend identifying items? Also, how down is Vael's power item?
+
+dripton — 12/22/25, 1:38 AM
+I have a total of $500 of identification fees -- 1 gem Vael wasn't sure about, 2 mushrooms Ioannes wasn't sure about, and a double attempt to figure out the broken teleporter.
+
+Demented Avenger — 12/22/25, 1:49 AM
+Thanks
+
+Demented Avenger — 12/22/25, 1:49 AM
+Player loot is mostly done, though another set of eyes on it would be welcome
+
+Zuljita — 12/22/25, 2:05 AM
+I'll take some time as soon as my daughter goes to bed
+
+dripton — 12/22/25, 2:26 AM
+I added the 3 new spells you found to <#1401600106406350860> .  (The same spells were in the notebook in Arden Vul, and in the spellbook you found in the library in the Tower of the Ape.)
+
+Demented Avenger — 12/22/25, 2:28 AM
+We’re bringing the books we ransacked to the Beacon for our supernatural AIs to read and recapitulate
+
+Zuljita — 12/22/25, 6:09 AM
+I approve the Loot sheet as currently set, 2 loot xp for all.
+
+dripton — 12/22/25, 6:11 AM
+XP done, 2+2+1 for most, 1+2+1 for Uvash
+
+Zuljita — 12/23/25, 5:33 AM
+Do the APC people have any sense of what it'd take to get that teleporter working again?
+
+dripton — 12/23/25, 5:39 AM
+Both Lyssandra and Pelteon spent some time looking at it.  They both agree that it's missing its power source and probably only worked in its original location.  Lyssandra thinks there are two Banes on the portal, a command word that she gives you, plus a requirement for some kind of physical key that she can't find more about.
+
+Zuljita — 12/23/25, 5:40 AM
+I knew the command word 🙁
+
+Greybrown — 12/23/25, 5:00 PM
+Can we get a description of the effects of the dozen mushroom varieties we collected?  We've heard Red Veil is Beserker (but worse), and Eye Opener should be a hallucinogenic.  If our identification process only provided name and value, Vallium is willing to seek out the druid Fael and pay to help her uncover this information.
+
+dripton — 12/23/25, 5:58 PM
+You just paid Fael to identify 2 mushrooms that Ioannes wasn't sure about, so she gives you the effects of those for free.  For a $1000 donation to the Gosterwick Nature Foundation she will write you a document describing the effects of all the mushrooms you found.
+
+Greybrown — 12/23/25, 6:22 PM
+Vallium will pay that out of his own pocket.
+
+dripton — 12/23/25, 7:20 PM
+I put Fael's brochure in <#1350290741632434236>

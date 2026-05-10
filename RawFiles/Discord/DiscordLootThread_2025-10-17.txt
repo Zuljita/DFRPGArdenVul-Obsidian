@@ -1,0 +1,241 @@
+Loot 2025-10-17
+
+dripton — 10/18/25, 3:00 PM
+Starting on a loot sheet for 2025-10-17
+
+Based Cosmo — 10/18/25, 3:02 PM
+Easiest way to find it is move them slowly away from each other, and teleport with them
+
+Zuljita — 10/18/25, 3:04 PM
+I'd argue the easiest way is to keep analyzing until I know it all.
+
+Based Cosmo — 10/18/25, 3:04 PM
+I... forgot you could do that
+
+Archon Shiva — 10/18/25, 3:19 PM
+Basilisk has an interest in all the furniture, and says Brigade might take the spear and dragon shield.
+
+dripton — 10/18/25, 3:29 PM
+Initial pass at loot sheet done.  Let me know if I missed anything.  The most interesting treasure are the Rugs of Instant Access and the Death Mask of Ptoh-Ristus.  Interestingly, Vael has the feeling there are more spells, so got second, third, and fourth opinions on the mask, and all four wizards are pretty sure there are more powers but not sure what.
+
+dripton — 10/18/25, 3:31 PM
+You have tested the Rugs to the extent you can without going outside.  Someone can stand on either Rug and say the command word "viator" and appear 1s later on the other Rug, as long as it's laying flat and unoccupied.  Works for all of you who tried it, can go either way, and you can teleport while holding a heavy load but not with 2 people standing on the Rug at once.  You have not tested range, as that would require a trip.
+
+dripton — 10/18/25, 3:32 PM
+The Rugs also freak your cats out.
+
+dripton — 10/18/25, 3:32 PM
+Nobody has put the death mask on so far.
+
+dripton — 10/18/25, 3:34 PM
+The chair that grows and shrinks is also interesting to cats.
+
+Zuljita — 10/18/25, 3:43 PM
+I remember there being 2 platinum/ruby rings, am I remembering wrong?
+
+dripton — 10/18/25, 3:44 PM
+Line 667
+
+Zuljita — 10/18/25, 3:46 PM
+Okay, I thought it had no qty before, sorry.
+
+Zuljita — 10/18/25, 3:51 PM
+<@179039634909560832> sale % this week? we're at 60% without you.
+
+Zuljita — 10/18/25, 4:03 PM
+So there doesn't appear to be a cool down on it?
+
+dripton — 10/18/25, 4:06 PM
+You have not yet found a cool down on the rugs.  It does take a second to activate one and the other one has to be clear and flat or it doesn't work.  So realistically putting a party of five through the rugs would probably take at least 10s even if everyone practiced.
+
+Zuljita — 10/18/25, 4:08 PM
+I think we have to spend some time figuring out if there's a distance limit.  I propose a road trip towards narselion where we stop every 4 hours or so pull off the road. Find a nice private place to test and go from there.
+
+Zuljita — 10/18/25, 4:10 PM
+But probably the first step is to rent a room across town as far as we can away with privacy
+
+dripton — 10/18/25, 4:16 PM
+Places you know you can rent a room in Gosterwick: Kaelo's Bathhouse ($1 for general admission to the baths but they also have private rooms starting at $5), Stunned Acolyte Inn (private rooms starting at $10), Yellow Cloak Inn (private rooms starting at $5).  Yellow Cloak is close to the Arcane Practitioners Club, Stunned Acoloyte farther, Kaelo's farthest.
+
+Zuljita — 10/18/25, 4:18 PM
+Let's start with the farthest, especially because it's cheapest. If that works then we don't have to test anything else in town
+
+Archon Shiva — 10/18/25, 4:23 PM
+Who are we kidding, we want to have that carpet shipped to the magic item trading hub of the Empire.
+
+Archon Shiva — 10/18/25, 4:23 PM
+But let’s test from Arden Vul next week.
+
+Zuljita — 10/18/25, 4:24 PM
+Correct, but there is an implication that there might be a distance limit if there is we need to know what it is.
+
+dripton — 10/18/25, 4:24 PM
+A couple of you walk over to Kaelo's with one of the Rugs in your bag.  After paying $10 for admission and a "very private" room, you spread out the Rug in your room, then one of you uses it to teleport back and forth to the APC several times, while the other one guards the Rug.
+
+dripton — 10/18/25, 4:25 PM
+You don't know the range limit, but you know it's good for at least 250 yards.
+
+dripton — 10/18/25, 4:25 PM
+And you don't need line of sight.
+
+Greybrown — 10/18/25, 4:27 PM
+Testing from base of Long Stair to top should cover all of our needs for adventuring uses.
+
+Greybrown — 10/18/25, 4:28 PM
+Then Arden Vul to Gosterwick next.
+
+Zuljita — 10/18/25, 4:44 PM
+The real question is if we get more leverage as an adventuring use or for non-adventuring purposes
+
+Zuljita — 10/18/25, 4:44 PM
+But the first step is to figure out how far it goes or if there's a limit
+
+Zuljita — 10/18/25, 4:59 PM
+For adventuring purposes, it solves a lot of problems around limited mobility. We can let one person fly or levitate across a space and then place the rug on the other side.
+
+Zuljita — 10/18/25, 5:06 PM
+Or stealth getting into an area then teleporting the whole party in
+
+Zuljita — 10/18/25, 6:20 PM
+Weirdly I don't see potions of water breathing anywhere.  Am I blind?
+
+dripton — 10/18/25, 6:21 PM
+line 657
+
+Zuljita — 10/18/25, 6:21 PM
+I mean for value
+
+Zuljita — 10/18/25, 6:21 PM
+I was sure they were in adventurers, don't see them, checked magic items, same.
+
+dripton — 10/18/25, 6:23 PM
+I'll add a value; let me look it up.
+
+dripton — 10/18/25, 6:24 PM
+DFMI has a couple of water breathing items, but no potion.  Weird.
+
+Zuljita — 10/18/25, 6:24 PM
+Right.  I assumed it was an oversight on my part.
+
+Greybrown — 10/18/25, 6:29 PM
+We got one on the April 18th 2025 Session as well, and no price was provided, as per the Communal Party Equipment GCS file I'm maintaining.
+
+dripton — 10/18/25, 6:30 PM
+You can copy the price from the new one
+
+dripton — 10/18/25, 6:31 PM
+I'm used to nobody selling good magic items but you need prices anyway to pay mercenaries
+
+Archon Shiva — 10/19/25, 3:01 AM
+<@253319584268943361> I’m not sure your math tracks.  Are you giving the brigade a share of leftover coin after giving them a share off the top?
+
+Zuljita — 10/19/25, 3:02 AM
+Ooh, that's an interesting question.  I am not done with the sheet yet, but I'll look.
+
+Zuljita — 10/19/25, 3:02 AM
+(sorry, got distracted with a chance to go back into finance)
+
+dripton — 10/22/25, 1:57 PM
+<@253319584268943361> Is the player loot sheet final, at 1 loot XP each?
+
+Zuljita — 10/22/25, 1:57 PM
+Sorry work's been crazy. I'll revisit it this evening
+
+Zuljita — 10/23/25, 5:02 AM
+I just rechecked the math and I think it is right assuming (as I do) that grudge doesn't get a normal share
+
+That said, if we keep all the super rare things that we normally would, ~~nobody gets loot points.  Selling the scroll gets us 1 point~~(turns out we can just barely make 1 cp on a couple, forgot to look at the effetive $ for CP), I don't think the rugs or mask are on the docket period.
+
+Grudge taking a cut of the items we don't sell kills us when the session is heavily weighted towards artifacts.  In hindsight, we'd have been far better off leaving GB in town, but we couldn't have known that.  
+
+I'm also struggling with the fact that our comfortable wealth is working against us.
+
+It's not clear to me which pieces of the GB loot rules are set by agreement with Dripton and which rules are set by AS advocating for his characters.  
+
+I'm not interested in arguing against Drip, but the way the loot is looking this session makes me wonder if GB is worth bringing every time.  I don't think that's an intended outcome and want to talk about it.
+
+Zuljita — 10/23/25, 5:05 AM
+I do want to make sure I understand exactly what's set by Drip and what's up for negotiation with GB though.
+
+Archon Shiva — 10/23/25, 5:19 AM
+Me picking which items I’d like instead of money is advocating.  Getting a full share is set, and I don’t even get the money.
+
+Regarding worth it, check the average cp the party got for weeks with and without GB.  Sure it can suck once in a while, but I think it’s been working out.
+
+dripton — 10/23/25, 1:34 PM
+Mercenaries getting their share of the loot is a rule required for game balance.  Whether that is cash or items is up to the players.
+
+Archon Shiva — 10/23/25, 1:42 PM
+And items are either useful, or converted (by selling) to character points.  You can’t have it both ways.
+
+Zuljita — 10/23/25, 1:50 PM
+I think the sheet is correct now.  We're giving Ioannes more cash to make up for the week where he took a dive for the team, and uvash more cash to fund his next level of wealth.
+
+Archon Shiva — 10/23/25, 2:33 PM
+<@253319584268943361> so can Grudge can get the shield?
+
+Zuljita — 10/23/25, 2:56 PM
+Yeah, that should be fine.
+
+Archon Shiva — 10/23/25, 3:09 PM
+<@396077326129037345> Share is $6,571, shield was going to sell for $7,740.  Party gets $1,169 less last week and Grudge takes from cut on future run?
+
+dripton — 10/23/25, 3:10 PM
+Nah, Grudge just gives party the $1169 now.
+
+Archon Shiva — 10/23/25, 3:31 PM
+Fantastic, simplest solution.
+
+dripton — 10/23/25, 3:32 PM
+To the extent possible we should avoid carried forward debts between party and Grudge that someone might forget.
+
+Archon Shiva — 10/23/25, 3:33 PM
+Forget?  The *Grudge* Brigade?
+
+dripton — 10/23/25, 3:33 PM
+I mean, party could be the ones to forget to pay Grudge.  "Let's run away to Rappan Atthuk and not tell them."
+
+Zuljita — 10/23/25, 3:33 PM
+That'd be hilarious.
+
+Zuljita — 10/23/25, 3:34 PM
+"Sorry GM, the party's decided to go look for another megadungeon"
+
+Archon Shiva — 10/23/25, 3:34 PM
+Do *not* get on Coinbase’s bad side.  He has too much imagination.
+
+Zuljita — 10/23/25, 3:34 PM
+"Loot doesn't have enough cash"
+
+dripton — 10/23/25, 3:34 PM
+You probably don't want Grudge Brigade as a Rival Adventuring Party.
+
+Archon Shiva — 10/23/25, 3:35 PM
+All lot is cash, just sometimes it’s shaped like an easily carried artifact.
+
+dripton — 10/23/25, 3:35 PM
+Occasionally it's shaped like a very difficult to carry artifact.
+
+Zuljita — 10/23/25, 3:45 PM
+Having AS build a whole party would be interesting for sure.
+
+dripton — 10/23/25, 3:46 PM
+I mean, he kinda has; it's just they all refuse to work together.  They are one mass charm away from a party.
+
+Archon Shiva — 10/23/25, 3:47 PM
+I'd break too much stuff.  When you can 100% rely on people providing some things, you can end up with really degenerate combinations.
+
+Zuljita — 10/23/25, 3:47 PM
+I think if he built a party to work together it'd be a monstrous thing.
+
+dripton — 10/23/25, 3:47 PM
+I've never run a game where one player ran a whole party, but I imagine it would be neat.
+
+dripton — 10/23/25, 3:48 PM
+(I think I would model it as one main PC and 2-3 Allies rather than 3-4 main PCs.)
+
+Archon Shiva — 10/23/25, 3:50 PM
+I've been wanting to design a d20-adjacent thing where each player controls three characters that share a sheet.  Like for combat purposes, a "character" in that game is a squad that works together.  They have a common initiative, and one character acts as primary each turn.
+
+Archon Shiva — 10/23/25, 3:50 PM
+Like, that's the way I'd have done what they tried for 4e.

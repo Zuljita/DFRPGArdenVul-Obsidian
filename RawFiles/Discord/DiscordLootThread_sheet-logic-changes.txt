@@ -1,0 +1,85 @@
+Loot sheet logic changes
+
+Zuljita — 7/29/25, 3:08 AM
+Can we think of a world where an item has a wealth ratio override but doesn't count towards cash at full value if unsold?
+
+Zuljita — 7/29/25, 3:09 AM
+Gems and coins are this way, anything else?
+
+Zuljita — 7/29/25, 3:13 AM
+<@439963160502337536> <@179039634909560832> and <@344820413026795534>  seem most likely to maybe weigh in but <@344820413026795534> and <@396077326129037345>  and <@630407861536686109> can certainly weigh in.
+
+Zuljita — 7/29/25, 3:13 AM
+I'm mostly thinking ahead about edge cases before I change calculation rules.
+
+Zuljita — 7/29/25, 3:14 AM
+As far as I know, only gems and coins count as full value regardless of wealth
+
+Demented Avenger — 7/29/25, 3:16 AM
+There are no cases of which I know
+
+dripton — 7/29/25, 3:17 AM
+Coins are already cash, so no need to cash them in to get loot XP.  I consider identified gems to also be cash based on the rules saying you get 100% value for them even if you don't have Wealth.  No other treasure falls into this category.
+
+Zuljita — 7/29/25, 3:18 AM
+So if I put in the WR override 1, it's pretty much a sure thing that it could be calculated as in the raw income pool even if we decide to keep it right?
+
+Zuljita — 7/29/25, 3:18 AM
+I'm just trying to minimize the number of times I change the formulas.
+
+dripton — 7/29/25, 3:18 AM
+Yes, as long as you do so correctly.
+
+Zuljita — 7/29/25, 3:19 AM
+That's always a risk when you automate.
+
+Zuljita — 7/29/25, 3:19 AM
+or when you do anything I suppose.
+
+dripton — 7/29/25, 3:19 AM
+The other note is that you need to get cash back to "town" to get loot XP.  If you find a giant pile of gold but can't transport it, doesn't count.
+
+Zuljita — 7/29/25, 3:19 AM
+Just wanted to bounce it off someone.
+
+Zuljita — 7/29/25, 3:20 AM
+I suppose if we pick up a wheelbarrow full of silver coins every week from the same pile, we'd make money with no xp.
+
+dripton — 7/29/25, 3:20 AM
+Right
+
+Zuljita — 7/29/25, 3:20 AM
+I really hope we never do that.
+
+Zuljita — 7/29/25, 3:21 AM
+Although, there's no xp reward for 100X the min xp threshold is there?
+
+Zuljita — 7/29/25, 3:21 AM
+2 is the cap?
+
+dripton — 7/29/25, 3:21 AM
+Correct
+
+Zuljita — 7/29/25, 3:22 AM
+slaying the dragon is 2 xp worth of treasure so may as well cherry pick the good stuff and shrug.
+
+dripton — 7/29/25, 3:22 AM
+It's possible that a hoard that big might generate an achievement, but it would not generate even more loot XP.
+
+dripton — 7/29/25, 3:24 AM
+What this all means is that the living wheelbarrow is a pretty good invention.
+
+Zuljita — 7/29/25, 3:25 AM
+I wonder if we could arrange a loot train to haul it all back to town if we tried and how much we'd have to pay for all that labor to minimize theft.
+
+Zuljita — 7/29/25, 3:25 AM
+Those are problems to take on another day.
+
+Zuljita — 7/29/25, 3:25 AM
+if ever.
+
+Archon Shiva — 7/29/25, 11:40 AM
+I could see a case where a PC has Wealthy (not Very) and Clerical Investment: items sell at 80%, but 100% to the temple.
+
+Archon Shiva — 7/29/25, 11:42 AM
+I don’t think it requires *code*.  There are things that are just fine fixing manually each week if and when they happen.  You are not putting out an NES game that users can’t update.

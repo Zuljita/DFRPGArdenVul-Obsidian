@@ -1,0 +1,193 @@
+I've had chat GPT work with me to create
+
+Zuljita — 4/19/25, 10:03 PM
+Charter below
+
+Zuljita — 4/19/25, 10:10 PM
+Lex Societatis Aureae
+
+Let it be known throughout the lands of the Archontean world and beyond, that the undersigned, by oath and coin, do constitute the lawful and sovereign adventuring compact known as the Right for Riches Company. Let none mistake the name for charity, nor its bearers for saints.
+
+**Article I – De Societate Constituta
+(On the Formation of the Company)**
+
+The Company is a lawful fellowship of no more than five sworn Members, known henceforth as Socii.
+
+Each Member shall have their name inscribed upon the Charter, signed in ink or blood.
+
+This number is sacred and may not be exceeded. Only upon death, disappearance, or retirement may a new Member be admitted.
+
+Admission of a new Member requires a unanimous vote of all surviving Socii, a formal swearing of the Oath, and acceptance of all debts and legacies attached to the vacated seat.
+
+Zuljita — 4/19/25, 10:10 PM
+**Article II – De Sortitione Thesauri
+(On the Division of Spoils)**
+
+All treasure, relics, maps, documents, and coin recovered during a sanctioned Company expedition shall enter the Company Reckoning.
+
+The Quartermaster, also known as the Loot Czar, shall:
+
+Catalog all assets
+
+Propose their division
+
+Seek majority consent from attending Members
+
+Spoils shall be divided as follows:
+
+One full share to each Member who participated in the expedition
+
+No share for Members who were absent
+
+Negotiated shares for Temporary Members, per prior agreement
+
+Strategic or unclaimed items may be declared Company Property by vote and held in trust.
+
+**Article III – De Bonis Communibus
+(On Company Property)**
+
+The following are deemed Res Societatis (Property of the Company):
+
+Magical implements, maps, documents, or gear used by multiple Members
+
+Items purchased from the Company treasury
+
+Constructs, vehicles, or dwellings tied to the Company name
+
+Such items may be used by Members in good standing but must be returned upon demand.
+
+The Quartermaster shall maintain an inventory of all such items.
+
+Zuljita — 4/19/25, 10:11 PM
+**Article IV – De Recessu et Morte
+(On Retirement and Death)**
+
+A Member may retire with honor by:
+
+Declaring intent at least one expedition in advance
+
+Gaining unanimous approval
+
+Returning Company property
+
+The retiring Member receives:
+
+One equal share of all current liquid assets
+
+Ten percent of future passive income for a period of three years or until death
+
+Should a Member perish or be unrecoverable:
+
+Their assets revert to the Company
+
+A successor may be selected per Article I
+
+Resurrection may be attempted, but is not required. If the Company declines or fails to revive a fallen Member, their seat is considered vacated.
+
+**Article V – De Succursu Necessario
+(On Rescue and Recovery)**
+
+A Member lost, captured, or imperiled shall be considered for rescue by majority vote.
+
+If a rescue is mounted:
+
+No penalty is assessed for loyal Members
+
+Members whose misfortune stems from folly or betrayal may be fined up to half a share as deemed fit
+
+No rescue is to be attempted if the Member has clearly turned traitor or joined the enemy.
+
+Zuljita — 4/19/25, 10:11 PM
+**Article VI – De Sociis Temporariis
+(On Temporary Members)**
+
+Non-Members (mercenaries, guides, summoned entities) may accompany the Company as Temporary Members.
+
+They shall:
+
+Receive a negotiated share based on terms agreed before departure
+
+Obey Company discipline and carry out assigned duties
+
+Have no seat, vote, or claim on the Charter
+
+Temporary Members may be dismissed at any time by majority vote, or by accident, enemy action, or poor luck.
+
+**Article VII – De Officiis Societatis
+(On Company Offices)**
+
+To preserve order and assign blame, the following Offices may be appointed:
+
+Quartermaster / Loot Czar (Mandatory)
+
+Tallies all loot
+
+Proposes divisions of treasure
+
+Maintains the inventory and Company ledger
+
+Archivist (Optional)
+
+Maintains maps, records, expedition logs, and magical research
+
+Custodian of the Charter and copies thereof
+
+Warden of Oaths (Optional)
+
+Oversees swearing-in of new Members
+
+Judges internal disputes, cowardice, or dishonor
+
+Speaker (Optional)
+
+Represents the Company to outsiders
+
+Authorized to negotiate contracts, treaties, and bar tabs
+
+Offices are assigned or revoked by majority vote. One Member may hold multiple Offices. Dereliction of duty may result in fine, ridicule, or reassignment to goat-wrangling.
+
+Zuljita — 4/19/25, 10:11 PM
+**Article VIII – De Iure et Sigillo
+(On Law and the Seal)**
+
+The Charter shall be kept in a protected vault, chest, or extradimensional space. Tampering with the Charter shall result in death or worse.
+
+All lawful documents issued by the Company shall bear its seal: a gauntlet grasping a coin, encircled by chains.
+
+Amendments to this Charter require a two-thirds vote of the current Membership and must be read aloud in a tavern before they are binding.
+
+Thus bound, we pledge sword, spell, and spirit to the Company and each other. Riches await. Fortune favors the clever. Beware those who read the fine print.
+
+Zuljita — 4/19/25, 10:15 PM
+Things I'm inclined to change: the retirement clause to drop the passive income.
+The rescue clause is insufficiently generious IMO
+
+Zuljita — 4/19/25, 10:16 PM
+@everyone thoughts overall?  We may have the lawyer look over this, or this could be the output of the lawyer (at gm discretion)
+
+Zuljita — 4/19/25, 10:20 PM
+Hmm, doesn't seem like it brought people into the thread... doing it manually <@396077326129037345> <@630407861536686109> <@379654942509629440> <@179039634909560832> <@439963160502337536> <@344820413026795534>
+
+dripton — 4/19/25, 10:23 PM
+You should have a lawyer look at it to make sure it's Legal.
+
+Archon Shiva — 4/19/25, 11:30 PM
+I would use the passive income as the way to buy back their share if illiquid.
+
+Zuljita — 4/19/25, 11:31 PM
+Ah fair
+
+Archon Shiva — 4/19/25, 11:32 PM
+But I don’t think you can ever make new member buy-in make sense.
+
+Demented Avenger — 4/19/25, 11:39 PM
+Well, as a RL Latin speaker, I approve the Latin
+
+Demented Avenger — 4/19/25, 11:41 PM
+If Vael is the Loot Czar (Dux Thesauri), then Ioannes would work as the Archivist (Dux Archivi), though that’s more ceremonial and in-game since dripton does the logs
+
+dripton — 4/19/25, 11:49 PM
+You are free to write additional logs.
+
+Zuljita — 4/19/25, 11:56 PM
+I told it to add a Roman flair because it felt archontean
