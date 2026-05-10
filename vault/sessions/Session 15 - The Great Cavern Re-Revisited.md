@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 15
+session_date: 2025-06-21
+source_url: https://dfwhiterock.blogspot.com/2025/06/dfrpg-arden-vul-session-15-great-cavern.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 15: The [[locations/Great Cavern.md|Great Cavern]] Re-Revisited
@@ -175,4 +177,4 @@ They had the druid along this week so could have gone back behind the waterfall.
 
 - Previous Session: [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]]
 - Next Session: [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]
-
+- Discord Discussions: [[Discord Summary 2025-W24]], [[Discord Summary 2025-W25]], [[Discord Summary 2025-W26]]

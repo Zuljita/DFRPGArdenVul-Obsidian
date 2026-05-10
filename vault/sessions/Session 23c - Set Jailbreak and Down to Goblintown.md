@@ -5,6 +5,8 @@ tags:
   - recap
 session_id: 23c
 in_world_date: Basilsday, 16th of Gerakios, 2993 AE
+session_date: 2025-08-30
+source_url: https://dfwhiterock.blogspot.com/2025/08/dfrpg-arden-vul-session-23c-set.html
 ---
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 23C: [[npcs/Set.md|Set]] Jailbreak and Down to [[locations/Goblintown.md|Goblintown]]
 

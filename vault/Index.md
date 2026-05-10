@@ -10,5 +10,6 @@ title: Index
 - [[factions/Index|Factions]]
 - [[items/Index|Items]]
 - [[pcs/Index|PCs]]
+- [[library/Index|Library]] (books, letters, maps, tablets, data crystals)
 - [[notes/Arden Vul GM Source Index.md|Arden Vul GM Source Index]]
 - [[notes/weekly-digests/Index|Weekly Discord Digests]]

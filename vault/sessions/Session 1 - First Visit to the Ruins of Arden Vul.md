@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 1
+session_date: 2025-03-15
+source_url: https://dfwhiterock.blogspot.com/2025/03/dfrpg-session-1-first-visit-to-ruins-of.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 1: First Visit to the Ruins of [[locations/Arden Vul.md|Arden Vul]]
@@ -108,4 +110,4 @@ Presumably the four non-mercenary PCs stick together after their first successfu
 
 - Previous Session: (none)
 - Next Session: [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
-
+- Discord Discussions: [[Discord Summary 2025-W10]], [[Discord Summary 2025-W11]], [[Discord Summary 2025-W12]]

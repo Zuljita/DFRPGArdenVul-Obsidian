@@ -3,6 +3,8 @@ title: "42a: Neferet"
 tags:
   - session
   - recap
+session_date: 2026-02-14
+source_url: https://dfwhiterock.blogspot.com/2026/02/dfrpg-arden-vul-session-42a-neferet.html
 ---
 
 # 42a: Neferet
@@ -74,4 +76,4 @@ The thrilling conclusion of the epic battle.  Do the PCs defeat [[npcs/Neferet.
 
 - Previous Session: [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 - Next Session: [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42B - Neferet and the Wraiths]]
-
+- Discord Discussions: [[Discord Summary 2026-W06]], [[Discord Summary 2026-W07]]

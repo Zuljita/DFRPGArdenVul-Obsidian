@@ -2,6 +2,8 @@
 tags:
   - session
   - recap
+session_date: 2025-12-06
+source_url: https://dfwhiterock.blogspot.com/2025/12/dfrpg-session-34a-hunting-thane.html
 ---
 
 # 34a - Hunting the Thane
@@ -65,4 +67,4 @@ Solving the mystery of why the [[items/Rugs of Instant Access.md|Rugs of Instant
 
 - Previous Session: [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 - Next Session: [[sessions/Session 34b - Tower of the Ape.md|Session 34B - Tower of the Ape]]
-
+- Discord Discussions: [[Discord Summary 2025-W51]], [[Discord Summary 2025-W52]], [[Discord Summary 2026-W00]]

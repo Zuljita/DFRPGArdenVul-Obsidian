@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 28
+session_date: 2025-10-25
+source_url: https://dfwhiterock.blogspot.com/2025/10/dfrpg-session-28-teleport-rugs-and.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 28: Teleport Rugs and Baboons
@@ -130,4 +132,4 @@ I expect more testing of the teleport rugs.  Vallium is still looking for a prie
 
 - Previous Session: [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]
 - Next Session: [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]
-
+- Discord Discussions: [[Discord Summary 2025-W42]], [[Discord Summary 2025-W43]], [[Discord Summary 2025-W44]], [[Discord Summary 2025-W45]]

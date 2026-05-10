@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 6
+session_date: 2025-04-19
+source_url: https://dfwhiterock.blogspot.com/2025/04/dfrpg-arden-vul-session-6-good-ghost.html
 ---
 
 # DFRPG [[locations/Arden Vul|Arden Vul]] Session 6: Good Ghost, Bad Ghost
@@ -87,4 +89,4 @@ The party has progressed from sneaking treasure past the halflings in deniable w
 
 - Previous Session: [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - Next Session: [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
-
+- Discord Discussions: [[Discord Summary 2025-W14]], [[Discord Summary 2025-W15]]

@@ -2,6 +2,8 @@
 tags:
   - session
   - recap
+session_date: 2025-12-13
+source_url: https://dfwhiterock.blogspot.com/2025/12/dfrpg-arden-vul-session-34b-tower-of-ape.html
 ---
 
 # 34b - Tower of the Ape
@@ -50,4 +52,4 @@ They're still trying to defeat Tikun Thane and try to rescue Bobo and Bifki.  A
 
 - Previous Session: [[sessions/Session 34a - Hunting the Thane.md|Session 34A - Hunting the Thane]]
 - Next Session: [[sessions/Session 34c - Burglary and Death.md|Session 34C - Burglary and Death]]
-
+- Discord Discussions: [[Discord Summary 2025-W51]], [[Discord Summary 2025-W52]], [[Discord Summary 2026-W00]]

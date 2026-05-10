@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 8b and 9
+session_date: 2025-05-10
+source_url: https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-sessions-8b-and-9.html
 ---
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Sessions 8b and 9: [[npcs/Muirasso.md|Muirasso]]'s Tomb and the Broken Head
 
@@ -108,4 +110,4 @@ Original Source: https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-sessio
 
 - Previous Session: [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]
 - Next Session: [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
-
+- Discord Discussions: [[Discord Summary 2025-W18]], [[Discord Summary 2025-W19]], [[Discord Summary 2025-W20]], [[Discord Summary 2025-W21]]

@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 21
+session_date: 2025-08-02
+source_url: https://dfwhiterock.blogspot.com/2025/08/dfrpg-arden-vul-session-21-library-of.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 21: The [[locations/Library of Thoth.md|Library of Thoth]]
@@ -115,4 +117,4 @@ I expect they'll come back to the Well of Light and try to finish searching the 
 
 - Previous Session: [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
 - Next Session: [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
-
+- Discord Discussions: [[Discord Summary 2025-W31]], [[Discord Summary 2025-W32]], [[Discord Summary 2025-W34]]

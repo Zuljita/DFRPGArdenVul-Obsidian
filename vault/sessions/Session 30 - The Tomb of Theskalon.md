@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 30
+session_date: 2025-11-08
+source_url: https://dfwhiterock.blogspot.com/2025/11/dfrpg-arden-vul-session-30-tomb-of.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 30: The Tomb of Theskalon
@@ -149,4 +151,4 @@ Will they go back down to one of the deeper levels that they've been foiled from
 
 - Previous Session: [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]
 - Next Session: [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
-
+- Discord Discussions: [[Discord Summary 2025-W44]], [[Discord Summary 2025-W45]], [[Discord Summary 2025-W46]], [[Discord Summary 2025-W47]], [[Discord Summary 2025-W48]]

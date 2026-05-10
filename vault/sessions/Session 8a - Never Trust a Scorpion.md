@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 8a
+session_date: 2025-05-03
+source_url: https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-8a-never-trust.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 8a: Never Trust a Scorpion
@@ -148,4 +150,4 @@ For once, I can confidently say what they'll be doing at the start of the next s
 
 - Previous Session: [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - Next Session: [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8B/9 - Muirasso's Tomb and the Broken Head]]
-
+- Discord Discussions: [[Discord Summary 2025-W18]], [[Discord Summary 2025-W19]], [[Discord Summary 2025-W20]], [[Discord Summary 2025-W21]]

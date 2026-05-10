@@ -171,18 +171,27 @@ It adds frontmatter, writes `Week Ending YYYY-MM-DD.md`, and regenerates `vault/
 
 ## IAC Workflow
 
-Maintained path:
+No chunking — full files are passed to Gemma directly (262k context window).
+
+Run IAC on a session:
 
 ```bash
-python3 scripts/run_iac.py --file "vault/sessions/Session 50 - The Iron Circlet of Ghanor.md" --dry-run --kinds NPC,Location,Faction --chunk-size 6000
+python3 scripts/run_iac.py --file "vault/sessions/Session 50 - The Iron Circlet of Ghanor.md" --dry-run --kinds NPC,Location,Faction
 ```
 
-Current defaults:
+Run IAC on a Discord weekly digest:
 
-- Endpoint: `http://100.76.165.94:1234`
-- Model: `google/gemma-4-26b-a4b`
+```bash
+python3 scripts/run_iac.py --digest "vault/notes/Discord Summary 2026-W11.md" --dry-run --kinds NPC,Location,Faction
+```
 
-Override with:
+Run IAC on all Discord digests:
+
+```bash
+python3 scripts/run_iac.py --all-digests --dry-run --kinds NPC,Location,Faction
+```
+
+Override endpoint/model:
 
 ```bash
 LMSTUDIO_BASE_URL=http://100.76.165.94:1234 LMSTUDIO_IAC_MODEL=google/gemma-4-26b-a4b python3 scripts/run_iac.py ...
@@ -192,6 +201,25 @@ Important behavior:
 
 - `run_iac.py` maps candidates to existing canonical pages using filenames, frontmatter aliases, implicit article stripping, short-name aliases, and fuzzy matching.
 - Treat `would_create` as a triage list, not an instruction to blindly create stubs.
+
+## Discord Digest → Session Linking
+
+Link sessions to Discord weekly summaries (adds a "Discord Discussions" bullet to `## Session Navigation`):
+
+```bash
+# Dry-run a single session
+python3 scripts/link_sessions_to_digests.py --session "vault/sessions/Session 46 - ..." --dry-run
+
+# Dry-run all sessions
+python3 scripts/link_sessions_to_digests.py --all --dry-run
+
+# Write changes
+python3 scripts/link_sessions_to_digests.py --all
+```
+
+- Uses Gemma to determine which Discord summaries belong in the gap between each session and the previous one.
+- Skips sessions whose `source_url` date is after the last available Discord summary.
+- Re-run after importing new Discord summaries to fill coverage gaps for recent sessions.
 - `entity_curator.py` is older and noisier. Use it only for exploratory review unless its mapping logic is upgraded.
 - Candidate quality improves with chunks around 6000 chars for Gemma 4.
 

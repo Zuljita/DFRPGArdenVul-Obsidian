@@ -5,6 +5,8 @@ tags:
   - recap
 session_id: 24a
 in_world_date: Mitrasday, 19th of Gerakios, 2993 AE
+session_date: 2025-09-06
+source_url: https://dfwhiterock.blogspot.com/2025/09/dfrpg-arden-vul-session-24a-revenge-on.html
 ---
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 24A: Revenge on the [[npcs/Set.md|Set]] Cult
 
@@ -124,4 +126,4 @@ The Right for Riches Company appears to be invading the [[locations/Forum of Set
 
 - Previous Session: [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23C - Set Jailbreak and Down to Goblintown]]
 - Next Session: [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24B - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]
-
+- Discord Discussions: [[Discord Summary 2025-W35]], [[Discord Summary 2025-W36]], [[Discord Summary 2025-W37]], [[Discord Summary 2025-W38]]

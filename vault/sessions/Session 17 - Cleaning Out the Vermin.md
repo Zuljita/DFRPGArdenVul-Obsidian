@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 17
+session_date: 2025-07-05
+source_url: https://dfwhiterock.blogspot.com/2025/07/dfrpg-arden-vul-session-17-cleaning-out.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 17: Cleaning Out the Vermin

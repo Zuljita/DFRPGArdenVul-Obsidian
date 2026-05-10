@@ -3,6 +3,8 @@ title: "41: Theft and Counter-Theft"
 tags:
   - session
   - recap
+session_date: 2026-02-07
+source_url: https://dfwhiterock.blogspot.com/2026/02/dfrpg-session-41-theft-and-counter-theft.html
 ---
 
 # 41: Theft and Counter-Theft
@@ -97,4 +99,4 @@ Next Week:
 
 - Previous Session: [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - Next Session: [[sessions/Session 42a - Neferet.md|Session 42A - Neferet]]
-
+- Discord Discussions: [[Discord Summary 2026-W05]], [[Discord Summary 2026-W06]], [[Discord Summary 2026-W07]]
