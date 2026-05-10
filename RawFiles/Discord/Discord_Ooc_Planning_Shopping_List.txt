@@ -1,0 +1,108 @@
+Shopping list!
+
+Zuljita — 9/18/25, 2:38 AM
+Let's see what we can find.  I don't need gear urgently, so I'm happy to take a  backseat to what others need.
+
+Zuljita — 9/18/25, 2:40 AM
+<@344820413026795534> Lightened armor seems like a thing we should try to ask for with you and or <@379654942509629440> in mind.
+If I were going shopping it'd be for weightless fine spider silk robes (with optional ornate) 25k-30k and possibly some defensive enchants.
+
+Zuljita — 9/18/25, 2:43 AM
+Penetrating weapons might be a big deal too.  makes a big difference when DR starts getting up there, but there's no plate, so DR is a little lower except for dragons and rock monsters.
+
+Zuljita — 9/18/25, 3:27 AM
+In fact, on behalf of the heavies in the group, I propose we look for at least one Weightless (Lighten 50%) heavy Scale of warding (+1 DB) and solidarity (+1 DR) (or better) for up to 35000 (What I calculate Michael has lying around) with a willingness to spend more if it happens to come with other features
+
+Archon Shiva — 9/18/25, 11:19 AM
+Do note that Lighten doesn’t stack with Lighten Burden, which is surprisingly accessible: Magery 1, ER 1 and a 30 FP power item (possibly the armor itself) will keep 25% up for five hours without spending a single FP, or 50% for two and a half.
+
+(It’s still a lot of points, but the most fighter-friendly path to Magery 1 is Magery 1 [15], Improved Magic Resistance 4 [20] and spells [15].  Very worth it.  An alternative involves throwing [20] at a single 1FP maintained spell to get skill 15 on IQ 10 — the [20] in IMR can all be moved to spells).
+
+Zuljita — 9/18/25, 12:40 PM
+I don't think we'll reliably get anything we ask for on this list, we just have a chance to get it (albeit small).  That said, for a fighter, $10k spent on lighten is much easier to come by than [20+] that could be DX or ST or Luck.
+
+Archon Shiva — 9/18/25, 2:31 PM
+If dripton’s approach is anything like DFW (and he has indiciaires that it is), every ask you add reduces the odds.
+
+OTOH, his DFW rules made it so anything interesting was always going to be only available in a crit, so maybe you might as well ask for Deflect 5.
+
+Zuljita — 9/18/25, 10:50 PM
+<@396077326129037345> are there hard and fast rules here that we should plan our requests around?  I've been leaning away from trying to get exactly what I want and instead trying to satisfy myself with what's available and letting you drive with whatever's on the shelf but the whole "shop for me" thing in Narselion is a big departure from that.
+
+dripton — 9/18/25, 11:20 PM
+He requested an exact list.  There is communication lag so if communication back and forth is needed, the item might be gone.
+
+Zuljita — 9/19/25, 4:00 AM
+for the month of Gerakios (Septemberish?)
+1) Bracers of Force DR 2 (offering the same 10k we saw as the MSRP for the set we have, let me know if this is way off.  This kind of item is common in D&D and rarer in GURPS so I don't have a sense of the economics). (using Vael money)
+2) up to 10 lbs of Giant-Spider Silk at roughly $500 per lb.  Only if the Bracers of Force don't clear.  This would just use Vael's  balance
+3) on behalf of <@379654942509629440> based on our DM discussion,  Weightless heavy Scale of warding (+1 DB) and solidarity (+1 DR) (or better) for 16300.  If it comes with extra features (or he can aim for the stars due to some kind of crit), he'd like to stack more enchantments with DB first, DR second, other armor features (like ornate) third.  He has $35k he will bank with the Rarities factor to fund this.
+4) whatever <@344820413026795534>  wants, I suspect a sword with an armor divisor (penetrating) might be high on his list.
+5) whatever <@439963160502337536> wants, based on our DMs, just a potion belt this  month would be nice.
+
+Demented Avenger — 9/19/25, 2:43 PM
+At the moment, I think John-boy only has about $10k cask on hand, which is good for mundane items but not magic.
+
+Based Cosmo — 9/19/25, 2:54 PM
+I don't need anything right now
+
+Zuljita — 9/19/25, 3:38 PM
+<@439963160502337536> if I hit a find on something more expensive than I can afford, can you spot me 5k?
+
+Demented Avenger — 9/19/25, 3:38 PM
+Sure
+
+Adam M — 9/19/25, 7:48 PM
+Edit: ~~If I'm not too late for a shopping spree, I want to buy any heavy scale with at least lighten, willing to spend as much as 35k for other enhancements if they come with it.~~
+Thanks, Kyle.
+
+Zuljita — 9/19/25, 7:50 PM
+Haha, I already asked for that on your behalf.
+
+Adam M — 9/19/25, 7:51 PM
+Should I put something new on my character sheet?
+
+dripton — 9/19/25, 7:52 PM
+None of this is available.  This is all stuff you're hoping to find.
+
+Zuljita — 9/19/25, 7:52 PM
+Not yet. If they find it in our celian will still have to wait for a Mule Train.
+
+Adam M — 9/19/25, 7:52 PM
+Ah. Ok
+
+Adam M — 9/19/25, 7:52 PM
+This is the Arden Vul equivalent of Amazon?
+
+dripton — 9/19/25, 7:52 PM
+<@253319584268943361> Retail on Bracers of Force DR3 is $40k.  You got price capped on that one.  If you don't have $40k, DR2 are $10k and DR1 are only $2500.
+
+dripton — 9/19/25, 7:53 PM
+This is asking your new best friend Wicktrimmer to send a shopping list via a Message spell to his associates in Narsileon to see if anything is available, and if so to buy it with your money on deposit then send it back via 3-week mule train.
+
+dripton — 9/19/25, 7:53 PM
+So it's more like Sears Roebuck Catalog to the frontier circa 1900.
+
+dripton — 9/19/25, 7:56 PM
+<@253319584268943361> Creon indicates that he has a potion of Universal Antidote available for $900.
+
+Archon Shiva — 9/19/25, 8:01 PM
+It's the Arden Vul equivalent to a dodgy Kickstarter with a solid refund policy.
+
+Zuljita — 9/19/25, 8:18 PM
+<@396077326129037345> this is final with the exception of anything Valium wants.
+
+dripton — 9/19/25, 8:19 PM
+I assume you'll wait for Valium's input before sending to Wicktrimmer.
+
+Greybrown — 9/19/25, 8:20 PM
+Apologies, I've been busy.  I'll  reply within 30 minutes.
+
+Greybrown — 9/19/25, 8:46 PM
+Vallium will request a: Very Fine, Balanced Broadsword with Accuracy +1, Puissance +1, Penetrating Weapon enchantments ($29400).  He'll move over his account from Silent Factor to Wicktrimmer.
+
+Zuljita — 10/17/25, 2:24 AM
+I know we're still some time away from getting the items even if they find them, but have we heard if Wicktrimmer's people have found anything?
+
+dripton — 10/17/25, 2:24 AM
+You have not heard anything.

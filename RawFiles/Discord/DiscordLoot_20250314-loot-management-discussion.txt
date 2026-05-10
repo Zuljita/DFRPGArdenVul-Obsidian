@@ -1,0 +1,784 @@
+20250314 Loot management discussion
+
+Zuljita — 3/15/25, 3:38 PM
+I'm some weeks away from being able to ID magic items.  I think we should pay for it for now out of our shares.
+
+dripton — 3/15/25, 3:46 PM
+I'm going to assume you guys are a majority rules operation on things like this, so if I see 3 PCs agree to do something like identify items I will assume that's consensus and you can spend party funds for it.  Obviously if there is violent disagreement any PC with enough money can spend their own money on whatever.
+
+dripton — 3/15/25, 3:47 PM
+That avoids you guys having to get every single PC to agree to every little thing.
+
+Zuljita — 3/15/25, 3:51 PM
+Quick Polls for players from last session to save time below.  please 👍  if you approve the motion or 👎  if you have concerns.
+
+Zuljita — 3/15/25, 3:52 PM
+Spend $100 from the party loot to identify the vial?
+
+Zuljita — 3/15/25, 3:53 PM
+Spend $100 from the party loot to identify the boots?
+
+Zuljita — 3/15/25, 3:53 PM
+Spend $100 from the party loot to identify the halfling armor?
+
+Zuljita — 3/15/25, 3:54 PM
+<@179039634909560832> <@630407861536686109> <@379654942509629440> <@439963160502337536>  I need 2 more votes.
+
+Zuljita — 3/15/25, 3:55 PM
+I'm going to commit to 1 point in connoisseur (weapons) if you want to roll against it for IDing gear Drip
+
+Zuljita — 3/15/25, 3:55 PM
+\
+
+dripton — 3/15/25, 3:57 PM
+Are you messing with the magic ones or only the mundane ones?
+
+Zuljita — 3/15/25, 3:57 PM
+I'll try to get a feel for mundane properties on everything
+
+Based Cosmo — 3/15/25, 3:58 PM
+I want to know more about those boots
+
+Based Cosmo — 3/15/25, 3:58 PM
+I just need to forget about the part where they came off a dead dwarf
+
+Zuljita — 3/15/25, 4:02 PM
+Not willing to vote to spend money on id for the other gear?
+
+Based Cosmo — 3/15/25, 4:03 PM
+I think the vial and the armor don’t matter too much for now, we should wait
+
+Based Cosmo — 3/15/25, 4:03 PM
+If we get extra funds next time around we should ID then sell as long as we don’t need them
+
+dripton — 3/15/25, 4:06 PM
+<@253319584268943361> warhammer, 2 shortswords appear normal.  That's all the weapons I think you took.  Michael wore one suit of scale armor home and can confirm it appears normal weight and servicable quality but didn't notice anything special.  You don't have connoisseur (boots) but you tried them on and they magically resized to fit your feet (confirming they are indeed magic) and are the most comfortable boots you have ever worn and are also quite nice looking, so you're sure they're worth something, but you have detected nothing else special about them.
+
+dripton — 3/15/25, 4:07 PM
+I don't think anyone has Armoury (body armor) so you can't really ID armor well, beyond obvious stuff like "it's clearly lighter than it should be", which you think is true of the halfling leather armor but you're not 100% sure because it's halfling size so maybe halfling size armor is always really light because those guys are tiny.
+
+dripton — 3/15/25, 4:10 PM
+I will allow Alchemy rolls to identify well-known potions without a lab.  (You need a lab to figure out weird potions you've never seen before, but healing potions?  Every alchemist has seen healing potions.)
+
+Zuljita — 3/15/25, 4:10 PM
+Per the book connoisseur weapons covers armor as well and I would assume boots are a subtype of armor
+
+dripton — 3/15/25, 4:10 PM
+It does!  Pardon my reading the name instead of the description.
+
+dripton — 3/15/25, 4:11 PM
+_scowls at Kromm for naming it wrong_
+
+dripton — 3/15/25, 4:11 PM
+You think the boots are probably fine in addition to magical.
+
+dripton — 3/15/25, 4:12 PM
+Also maybe Ornate +1 but that isn't a general reaction bonus, just a limited reaction bonus for like shoe collectors.
+
+Zuljita — 3/15/25, 4:12 PM
+No worries, I had to check it myself this morning
+
+Archon Shiva — 3/15/25, 4:13 PM
+I think the vial is most the only likely not to make back its $100 investment.
+
+All my votes are abstains, but clover leans yes and bug leans no.
+
+dripton — 3/15/25, 4:15 PM
+You think all the other armor is normal except for the magic on the halfling sized leather, except one set of scale armor you're not sure about.
+
+dripton — 3/15/25, 4:17 PM
+(The vial with powder inside might count as a potion, might not, you can ask the guy with Alchemy to look at it.)
+
+dripton — 3/15/25, 4:21 PM
+DA is offline so I'm gonna assume Ioannes would at least take a risk-free look through the bottle (not tasting it or anything that might hurt him) and he thinks it might be a dehydrated potion, just add water, but isn't sure what kind.  If he adds water or smells/tastes it or uses a lab (the Arcane Practictioners Club has one) he might figure it out.  <@439963160502337536> let me know if you want to do anything possibly dangerous/destructive/expensive to ID the potion.
+
+Demented Avenger — 3/15/25, 4:26 PM
+He has no reason to do anything unusual to it beyond normal stuff. How much does it cost to use the club lab?
+
+dripton — 3/15/25, 4:31 PM
+Using it yourself is free if you're a paying customer for other stuff (IDing magic items, mage spell training) and sign a waiver that if you blow your eyebrows off it's not their fault and they're allowed to laugh at you.
+
+Demented Avenger — 3/15/25, 4:32 PM
+Got it. Then gonna sign that waiver and use away
+
+dripton — 3/15/25, 4:32 PM
+Okay, that means you guys need to pay to ID at least one magic item or train at least one mage spell this week, but I think you were going to anyway.
+
+dripton — 3/15/25, 4:33 PM
+It's powdered Major Healing potion!  Enough to make 2 potions!  Score!
+
+dripton — 3/15/25, 4:34 PM
+You didn't really need the lab; you recognized the smell as soon as you added some water.
+
+dripton — 3/15/25, 4:34 PM
+You only have one vial though, so you need to buy a vial if you want 2 separate Major Healing potions vs. one double Major Healing potion.
+
+dripton — 3/15/25, 4:35 PM
+(You can drink half, but if you split it in 2 then 2 people can carry one.)
+
+Zuljita — 3/15/25, 4:37 PM
+I have a couple of empty vials
+
+dripton — 3/15/25, 4:38 PM
+Okay, then scratch one vial and you have 2 Major Healing potions.
+
+Zuljita — 3/15/25, 4:38 PM
+I do dig the idea of powdered potion
+
+dripton — 3/15/25, 4:38 PM
+You're not sure if it was a deliberate thing or an accident.
+
+Based Cosmo — 3/15/25, 4:38 PM
+If you keep it and swallow the powder it’s 4d healing 😛
+
+dripton — 3/15/25, 4:39 PM
+Maybe, or maybe it gets caught in your throat until you chase it with some water.
+
+dripton — 3/15/25, 4:40 PM
+_adds Pixy Stix of Major Healing to weird magic items ideas list_
+
+Zuljita — 3/15/25, 4:41 PM
+Hey Charles, do you mind voting above?
+
+Archon Shiva — 3/15/25, 4:50 PM
+I think that generally speaking, in a party with two and a half clerics, major healing potions are probably overpriced and might as well be sold.
+
+Demented Avenger — 3/15/25, 5:24 PM
+There
+
+dripton — 3/15/25, 5:43 PM
+I see enough votes to ID the boots, so you pay $100 and Pelteon (one of the female mages who run the Arcane Practitioners Club, the younger one) takes the boots into a room in the back, and a bit later you see her come out and get Lyssandra (the older one).  And about an hour later they come out together and Lyssandra says "Sorry to tell you this.  But these beautiful and stylish and super comfortable boots that magically resize to fit perfectly have a rather devious curse that we've never seen before.  They deceive the wearer about the extent of their injuries, so they see that they are injured but understate the severity.  For a man- or woman about town who is unlikely to be injured, that may not be so bad, especially if they know about the curse, but for someone in a dangerous job like a warrior or adventurer, it could get them killed.  I would recommend only wearing them in very safe places, not anywhere there's any chance you might get injured.  That is the end of our appraisal, sorry."
+
+dripton — 3/15/25, 5:44 PM
+Palteon speaks up "As a separate transaction, if you want to sell them, I'm interested.  They are gorgeous and I have hard-to-fit feet, and (she looks at Lyssandra) I would not wear them to work where I might have to deal with magical backfires, only at home or to a party or something."
+
+Zuljita — 3/15/25, 5:45 PM
+What's he offering?
+
+dripton — 3/15/25, 5:45 PM
+She offers $500 for the boots.  Lyssandra looks at her like she's a nutcase.
+
+Zuljita — 3/15/25, 5:45 PM
+At least it's not a loss
+
+Archon Shiva — 3/15/25, 5:46 PM
+I'm guessing Resist Pain, that's pretty good for frontline, no shock, no consciousness rolls, no half move and dodge.
+
+dripton — 3/15/25, 5:47 PM
+"Also if you sell them to anyone else I would really appreciate if you told them about the curse.  I'm not your mom but I think it would be unethical not to."
+
+dripton — 3/15/25, 5:48 PM
+Lyssandra says "it's not a full Resist Pain, just a reduction."
+
+dripton — 3/15/25, 5:49 PM
+"If it were a full Resist Pain I'd pay way more than $200 for them and wear them whenever my back hurt from standing at the alchemy table for 6 hours."
+
+dripton — 3/15/25, 5:52 PM
+(If you decide to keep them I'll tell you the full game effects: You think injuries are only 2/3 as bad as they are, so if you take 9 HP damage I lie and tell you 6 HP damage.  So you only take shock penalies as though for 2/3 damage, so if you're hit for 3 you think you took 2 and you take -2 shock.  Now that you know about the curse, I won't actually lie to you about the damage you take, but you keep the 1/3 reduction in shock penalties.)
+
+dripton — 3/15/25, 5:53 PM
+(And they're fine ornate +1 DR2 leather boots that resize.)
+
+dripton — 3/15/25, 5:53 PM
+They are called Boots of Subtlety.
+
+Zuljita — 3/15/25, 5:56 PM
+I'm for selling them
+
+Zuljita — 3/15/25, 5:57 PM
+Can I get another vote for identifying the halfling armor?
+
+Demented Avenger — 3/15/25, 5:58 PM
+“Um, yeah, ah, but I think they would look really nice on you, Pelteon, if you could do something about the curse.”
+
+Archon Shiva — 3/15/25, 5:58 PM
+How much do the boots weight?
+
+dripton — 3/15/25, 5:59 PM
+"Sadly, we think the curse is not removable without destroying the magic.  Whatever jerk made these got some kind of mana cost discount for the curse."
+
+dripton — 3/15/25, 5:59 PM
+They are the stock weight for Fine DR2 leather boots.
+
+dripton — 3/15/25, 6:00 PM
+I think Fine is 3/4 weight.
+
+Archon Shiva — 3/15/25, 6:02 PM
+Yep  3.15 lbs., worth $520 before any magic.  Without plate in play, I feel like leather will be the go to for a lot of PCs.  They look like a keeper to me, but I'm abstaining.
+
+dripton — 3/15/25, 6:03 PM
+I know players don't care about this,but they are also seriously comfortable and anyone who walks all day would want to wear them, if DR2 on the feet was enough.
+
+dripton — 3/15/25, 6:03 PM
+But it also depends on whether you're confident enough to wear red boots.
+
+dripton — 3/15/25, 6:06 PM
+Lyssandra pulls Vael aside and says "I'll give you $800 for them if you don't tell Pelteon, and give them to her for her birthday.  She is so hard to find gifts for and she loves those stupid boots."
+
+Archon Shiva — 3/15/25, 6:06 PM
+You said loot used and loot sold are different.  How about loot never used but sold later?  What if they keep the boots and later give them to a merc as part of their share?
+
+dripton — 3/15/25, 6:08 PM
+Immedidate sale to someone not affiliated with the PCs (not a merc or other hireling) gets full sale value as loot.  Anything else does not.
+
+dripton — 3/15/25, 6:08 PM
+XP or utility is meant to be a meaningful choice.
+
+Archon Shiva — 3/15/25, 6:09 PM
+Verdict: I would sell only if it takes you over the loot threshold.
+
+Demented Avenger — 3/15/25, 6:15 PM
+“Gosh, Pelteon, what makes your feet hard to fit?”
+
+Zuljita — 3/15/25, 6:21 PM
+I don't see any reason to keep them. I doubt we're going to get more for them than we will in the role-playing scenario
+
+Zuljita — 3/15/25, 6:21 PM
+And they're way too weird to make a daily driver
+
+Zuljita — 3/15/25, 6:21 PM
+Somebody who really cares about that benefit is just going to buy high pain threshold
+
+dripton — 3/15/25, 6:22 PM
+"I have a high arch on my left side and my right foot turns in a bit.  This is why I went to school, so I could get a job where I could sit most of the day.  Then I realized how much running from place to place you actually do in a lab, when you're not lucky enough to have apprentices to fetch reagents for you.  Turns out you don't just sit in the chair for 4 hours straight."
+
+dripton — 3/15/25, 6:23 PM
+"Please find a few dozen more magic items for us to identify so maybe I can convince Ly to let me get an apprentice."
+
+Zuljita — 3/15/25, 6:23 PM
+Working on it!
+
+dripton — 3/15/25, 6:24 PM
+Lyssandra said "I heard that Palteon, and it's not so long since you *were* the apprentice and now you want to hire one."
+
+dripton — 3/15/25, 6:27 PM
+"Seriously, those were fun to identify. we get so bored with fine balanced broadswords with low-level Accuracy and Puissance, yawn.  I swear there is, or was, a ring of smiths and enchanters in Archontos or somewhere mass producing those suckers."
+
+Demented Avenger — 3/15/25, 7:26 PM
+Ioannes blushes. “Gosh, I hope your feet get better, Pelteon.”
+
+Demented Avenger — 3/15/25, 7:27 PM
+And I vote sell
+
+dripton — 3/15/25, 7:30 PM
+Do you vote ID on the halfling armor?  If so that's 3 and I can give you the stats on it.
+
+Demented Avenger — 3/15/25, 7:31 PM
+Yes as well
+
+dripton — 3/15/25, 7:33 PM
+You pay them to ID the halfling armor.  Palteon does this one solo, and comes out in a bit and says "Fortify and Lighten, low level on both.  There are enough halflings around that I'm sure you'll be able to find a buyer."
+
+Archon Shiva — 3/15/25, 7:33 PM
+Leather?
+
+dripton — 3/15/25, 7:33 PM
+Yes
+
+Archon Shiva — 3/15/25, 7:34 PM
+Full suit except hands feet head?
+
+dripton — 3/15/25, 7:34 PM
+Full everything, but the helmet is open faced.
+
+dripton — 3/15/25, 7:57 PM
+(Most helmets in this game are open faced; full greathelms that screw up your vision are not very popular in a world without plate armor.)
+
+Zuljita — 3/15/25, 9:11 PM
+That's definitely worth selling
+
+Zuljita — 3/15/25, 10:52 PM
+So it's fortified, lightened Dr2+1 leather?
+
+dripton — 3/15/25, 10:52 PM
+yep, Lighten is -25%
+
+dripton — 3/15/25, 10:53 PM
+halfling size does not affect price
+
+Zuljita — 3/15/25, 10:55 PM
+$450+$1000+$2000 is msrp of $3,450 * .4 (no wealth resale value) = $1.380 /5 per person= $276 per person in loot.
+
+dripton — 3/15/25, 10:55 PM
+looks right to me
+
+Zuljita — 3/15/25, 10:56 PM
+$960 in cash + $276 (Halfling armor) = $1,236  Still need to sell a few grand more in retail to get a second CP.
+
+Zuljita — 3/15/25, 10:57 PM
+Does identification count against the profit margin for the run (I assume yes)?
+
+dripton — 3/15/25, 10:57 PM
+Yes, you get the net after paying to ID.
+
+dripton — 3/15/25, 10:58 PM
+You have 2 shortswords, a warhammer, 2 scale armor (I think at least one will be kept), dwarf-sized mail, bandoleer, lore scroll, magic scroll of spell you probably never use.
+
+dripton — 3/15/25, 10:58 PM
+If you sell a lore scroll you are free to make a copy first so you don't lose the lore only the artifact.
+
+Zuljita — 3/15/25, 10:59 PM
+ID is $20 per person per item (2) this run, so we're looking at $1196 for our actual current total.... with the items above to be managed still
+
+dripton — 3/15/25, 10:59 PM
+Also 2 major healing potions.
+
+Zuljita — 3/15/25, 11:00 PM
+Scale is the 4/3 weight?
+
+dripton — 3/15/25, 11:01 PM
+Scale is 4/3 DR and heavy.
+
+dripton — 3/15/25, 11:01 PM
+It's pretty good but really wants Lighten -50%.
+
+dripton — 3/15/25, 11:01 PM
+Well everything wants Lighten.
+
+dripton — 3/15/25, 11:02 PM
+Oh, I forgot 2 medium shields with the scale armor guys.  Since it's a GM mistake I will assume you guys have those if you want.
+
+dripton — 3/15/25, 11:02 PM
+Will add to list at the top.
+
+Archon Shiva — 3/15/25, 11:20 PM
+The potions and swords seem like the most obvious sells to me.
+
+Demented Avenger — 3/16/25, 1:28 AM
+We might want the shields. Ioannes could use the extra PD
+
+Demented Avenger — 3/16/25, 1:28 AM
+Or DB, I guess in this edition
+
+Demented Avenger — 3/16/25, 1:29 AM
+But the swords should be sold unless someone wants them. Swords are like forged money
+
+Demented Avenger — 3/16/25, 1:30 AM
+That's like $320 right there IIRC
+
+Archon Shiva — 3/16/25, 1:49 AM
+If nothing’s a special order and cp is valued above money, selling a shield — and then paying the difference to buy the same shield with the money — does more towards reaching the loot threshold.
+
+dripton — 3/16/25, 3:07 PM
+I gave you guys too low an offer for the Cursed Boots of Subtlety.  I want to make it clear this was not actually the NPCs who run the Arcane Practitioners Club trying to bargain hard or rip you off in game -- this was the GM forgetting the boots had a value written down, thinking they were "worth" zero because they're cursed, and then making up something on the fly because even cursed boots should have some value.  I have retconned the actual offer from Lyssandra to $800, which is 40% of the $2000 "book value" I put down before.
+
+Demented Avenger — 3/16/25, 3:18 PM
+So that’s another $500
+
+Demented Avenger — 3/16/25, 3:25 PM
+With the swords that is $820
+
+dripton — 3/16/25, 3:25 PM
+I will post a spreadsheet soon with all the values.  (For stuff you've IDd anyway.)
+
+dripton — 3/16/25, 3:26 PM
+It's mostly done; I'm just copying numbers around between like 5 places.
+
+dripton — 3/16/25, 3:41 PM
+Spreadsheet is up, see pinned post in channel.  Note that you guys have 2 things not very IDd yet -- the lore scroll and one of the suits of scale.
+
+dripton — 3/16/25, 3:49 PM
+Spreadsheet shows you guys have enough loot to get a second loot XP if you sell everything -- but you don't want to sell everything -- so now it's a knapsack problem to find the most you can keep and still get your XP.  https://xkcd.com/287/
+
+dripton — 3/16/25, 3:50 PM
+Also note you haven't IDd two items yet, so you might consider whether to do that first, or whether you want to just take whatever a merchant offers.
+
+dripton — 3/16/25, 3:52 PM
+(Or you can just keep those items of course.)
+
+dripton — 3/16/25, 3:53 PM
+(Note that you get full XP value for the coins without having to "sell" them.  Just taking coins to town counts as "selling" them for XP.  You don't have to take them to the moneychanger, but you can.)
+
+dripton — 3/16/25, 3:54 PM
+(Actually you might want to take some of your Solidi to the moneychanger anyway, as paying with a Solidi is like paying with an old $1000 bill -- technically legal but the clerk is going to need to talk to their manager who will need to talk to the owner...)
+
+dripton — 3/16/25, 4:13 PM
+I marked identify cost as 0 for cases where an NPC helped you identify the item but didn't charge you for it.  Jeremias Smalleaf the money changer identifies well-known coins for free, and only charges a fee if you actually need his moneychanging services.  (He does coins and gems.  He also lends money.)
+
+dripton — 3/16/25, 4:15 PM
+The Arcane Practitioners Club let you use their Alchemy lab for free this time.  (They charge a monthly membership fee to use their alchemy lab and small research library, and also do magical training, magic item identification, and spellcasting for hire.  They also have a few  apartments for rent for members.  Their building is within the theoretical boundaries of Gosterwick and will be inside the wall when it's finished, but it's currently pretty far away from all other buildings.)
+
+Zuljita — 3/16/25, 4:19 PM
+What is the conversion rate for kept items?
+
+Zuljita — 3/16/25, 4:19 PM
+20% instead of 40?
+
+dripton — 3/16/25, 4:19 PM
+Vael got a paid lesson in Weapon and Armor Appreciation from Torunn the Smith, a big Wiskin woman who makes metal weapons and armor.  She has several apprentices who make most items under her supervision, and she does The Good Stuff herself.  She has a reputation as the best smith in Gosterwick.  She showed Vael several dozen examples of weapons and armor, showing the difference between Good and Fine level work, and also Balanced and Dwarven.
+
+dripton — 3/16/25, 4:21 PM
+Kept mundane items do not count for XP.  Kept "special" items will give XP using a separate number that I'll put in the spreadsheet.
+
+dripton — 3/16/25, 4:21 PM
+None of the items you found this time were special enough to give XP if you keep them.
+
+Zuljita — 3/16/25, 4:24 PM
+I'll try to noodle on the math...
+
+Demented Avenger — 3/16/25, 4:26 PM
+Well, that's a good chunk of change for us, I see
+
+Zuljita — 3/16/25, 4:26 PM
+Given the numbers, I think it mostly makes sense to just sell all mundane gear to get character points.  Especially if it can be bought later
+
+Demented Avenger — 3/16/25, 4:27 PM
+I thought shortswords sold for $400, but I might be missing something
+
+Demented Avenger — 3/16/25, 4:28 PM
+Yeah, or almost all. Ioannes is looking at one of those shields, but even then he would sell his small shield
+
+dripton — 3/16/25, 4:28 PM
+Shortswords sell for $400 at retail.  *Used* shortswords sell for 40% of that, unless you have Wealth.
+
+Demented Avenger — 3/16/25, 4:29 PM
+Right, you have them at $200 retail, selling for 40% of that
+
+Zuljita — 3/16/25, 4:29 PM
+At some point we'll need to talk through what buying wealth will provide for the team versus the individual who bought it
+
+dripton — 3/16/25, 4:29 PM
+Oh, maybe the number in GCS is wrong.
+
+Zuljita — 3/16/25, 4:29 PM
+Nobody did it to start p nobody did it to start
+
+Demented Avenger — 3/16/25, 4:29 PM
+Adventurers, p. 101
+
+Demented Avenger — 3/16/25, 4:30 PM
+Agreed on Wealth. Something I forgot about Elias
+
+Zuljita — 3/16/25, 4:30 PM
+Oh no! I know what the advantage does. But the impact on the party take for XP matters
+
+dripton — 3/16/25, 4:30 PM
+Sorry, read the GCS loot file wrong, fixing the shortswords.
+
+dripton — 3/16/25, 4:30 PM
+There were 2 of them and I was reading the each column not the total column.
+
+Demented Avenger — 3/16/25, 4:31 PM
+Can anyone handle the scale armor?
+
+Zuljita — 3/16/25, 4:31 PM
+Probably. Michael
+
+dripton — 3/16/25, 4:31 PM
+I think Michael expressed interest in a suit.
+
+Zuljita — 3/16/25, 4:31 PM
+But character points are even more precious.
+
+Demented Avenger — 3/16/25, 4:32 PM
+If we're at a breakpoint, we'll talk. If we're not, Michael should take it
+
+Zuljita — 3/16/25, 4:32 PM
+Agreed
+
+Demented Avenger — 3/16/25, 4:32 PM
+Without lobbing out anything, we're at $1,858.40 each
+
+Zuljita — 3/16/25, 4:32 PM
+<@630407861536686109> do you actually want the dwarf mail?
+
+dripton — 3/16/25, 4:33 PM
+I put the XP thresholds for the current adventure (125 point PCs and $6 of rations each) in the recap.  $156 ea. to get 1 XP and $1560 ea. to get 2 XP.
+
+dripton — 3/16/25, 4:33 PM
+Numbers will creep up as you earn points.
+
+Demented Avenger — 3/16/25, 4:33 PM
+Taking out the two shields, the bandoleer, and one suit of scale armor gets us to $1,492.40
+
+dripton — 3/16/25, 4:33 PM
+Exploration numbers will stay constant as you earn points, it's just it will be more work to find new territory.
+
+Demented Avenger — 3/16/25, 4:34 PM
+Yeah, we're at a breakpoint here
+
+Archon Shiva — 3/16/25, 4:34 PM
+Can PCs (not mercs) choose to divide loot unevenly so some get the +2?
+
+Based Cosmo — 3/16/25, 4:34 PM
+Not opposed to it
+
+dripton — 3/16/25, 4:35 PM
+PCs (not mercs or other NPC hirelings) can divide loot however they want.
+
+Demented Avenger — 3/16/25, 4:35 PM
+Let's rephrase that: do you want the dwarf mail OR an extra character point?
+
+dripton — 3/16/25, 4:35 PM
+But it has to be legit division not money manipulation.
+
+Based Cosmo — 3/16/25, 4:35 PM
+Extra character point
+
+dripton — 3/16/25, 4:35 PM
+No "I give you all the loot, now give me the money back from your bank account."
+
+Archon Shiva — 3/16/25, 4:36 PM
+So you guys should pick one PC to get however much less lets everyone else get two points.  Or sell the armor.
+
+Demented Avenger — 3/16/25, 4:36 PM
+Well, that sounds like we sell the armor, then
+
+Demented Avenger — 3/16/25, 4:36 PM
+The next order of business is party gear purchases
+
+Zuljita — 3/16/25, 4:36 PM
+Actually I think that answers the question pretty well.  If you decide to keep the armor it comes out of your share, as a result, you get the gear, but you don't drag down the whole pool
+
+Zuljita — 3/16/25, 4:37 PM
+So then people can choose to give up a character point for gear on an ad hoc basis
+
+dripton — 3/16/25, 4:37 PM
+That is a GM approved legit scheme.
+
+Demented Avenger — 3/16/25, 4:37 PM
+We need a wheelbarrow, and probably a shitload of healing potions, just for start. Do we want a beast of burden? Group camping gear? Tents?
+
+dripton — 3/16/25, 4:38 PM
+If at some point you have PCs with wildly different point values, this will get interesting.  By then you will probably know the formula.
+
+Zuljita — 3/16/25, 4:38 PM
+I don't think we need healing potions with two people who can cast healing spells
+
+Zuljita — 3/16/25, 4:38 PM
+We needed them in the last game because we only had one person who could cast healing spells and he could only do it barely
+
+dripton — 3/16/25, 4:38 PM
+If you think you need healing potions you should avoid selling the ones you have, because you have not found a source yet (unless you make them).
+
+Demented Avenger — 3/16/25, 4:39 PM
+Keeping the ones we have aren't going to affect the XP awards
+
+Zuljita — 3/16/25, 4:39 PM
+I will get to the point where I can make them before too too long
+
+Demented Avenger — 3/16/25, 4:39 PM
+Yeah, same with Ioannes
+
+Demented Avenger — 3/16/25, 4:39 PM
+Ioannes can now, though his Alchemy is only 9
+
+Archon Shiva — 3/16/25, 4:39 PM
+Suggestion (I despise arbitrary cutoffs): Give .1 cp per additional multiple of the loot target, up to +.8 at x9, with a full cp at x10.
+(In practice, that’s just this scheme averaged out over years)
+
+dripton — 3/16/25, 4:39 PM
+Anyone who wants to do Alchemy or Herb Lore with a lab should join the APC.  They have a lab and membership is much cheaper than making your own.
+
+Demented Avenger — 3/16/25, 4:39 PM
+Is there a bonus for the APC lab?
+
+Zuljita — 3/16/25, 4:39 PM
+What's the rate?
+
+dripton — 3/16/25, 4:41 PM
+APC membership is $50/month, gets you library/lab/lounge access.  Other stuff costs more.
+
+Demented Avenger — 3/16/25, 4:41 PM
+Sounds like a good deal
+
+Zuljita — 3/16/25, 4:41 PM
+Interested in the other stuff too
+
+Demented Avenger — 3/16/25, 4:41 PM
+Does its lab count as basic equipment or better?
+
+dripton — 3/16/25, 4:42 PM
+Yes, lab counts as good equipment, no penalty for "backpack" lab, but it's not like fine quality super lab.
+
+Demented Avenger — 3/16/25, 4:43 PM
+Do we want a beast of burden to help us drag stuff back?
+
+dripton — 3/16/25, 4:43 PM
+Other stuff at APC: they ID magic stuff (magery, detect magic, analyze magic, alchemy, Mithric).  They teach magic spells and skills (they know most spells, plus skills that wizards use like Thaumatology and Alchemy and Research, and can try to help teach you Wizardry advantages).  They buy some magic items if they want them, refer to smith or pawnshop for stuff they don't want.  They have a few apartments for rent in their building.  (Normal cost of living but you have to be a member, so it's $150 /week + $50 /month.)
+
+dripton — 3/16/25, 4:47 PM
+Also they cast a few spells that can be usefully cast in town, like Continual Light.
+
+dripton — 3/16/25, 4:47 PM
+They don't go into the dungeon to cast Blast Monster.
+
+Zuljita — 3/16/25, 4:47 PM
+Are you okay with me paying on a weekly basis for easier bookkeeping?
+
+dripton — 3/16/25, 4:48 PM
+Oh yes, membership is $13/week.
+
+Demented Avenger — 3/16/25, 4:48 PM
+While my base building is going to focus on IQ/HT/FP/Magery/Power Investiture/ER (Holy)/ER (Magic), I'm assuming that I'm going to periodically buying handy skills and spells, and one of those is definitely Research
+
+dripton — 3/16/25, 4:48 PM
+The $50/month and $600/year rates are for rich wizards who prefer to pay all at once to avoid interruptions.
+
+dripton — 3/16/25, 4:52 PM
+I understand hating sharp cutoffs, but I'm not tracking fractional XP.
+
+Demented Avenger — 3/16/25, 4:53 PM
+Let's get the amounts finalized, with people taking stuff then we get XP and a loot amount. Then we can worry about getting party-related gear
+
+dripton — 3/16/25, 4:54 PM
+Yeah, when I hear final keep/sell decisions I'll do an XP spreadsheet.  (I suspect you'll sell enough that everyone will get 4, but I'll wait until I see confirmation.)
+
+Demented Avenger — 3/16/25, 4:55 PM
+I think that's the plan
+
+dripton — 3/16/25, 4:55 PM
+Do you attempt to sell the second set of scale armor (the one Vael isn't sure about)?  Do you attempt to sell the letter?
+
+dripton — 3/16/25, 4:56 PM
+Those are the two you don't know the values of, though you can *guess* the scale armor is worth normal price.
+
+Demented Avenger — 3/16/25, 4:56 PM
+Why isn't he sure about it?
+
+dripton — 3/16/25, 4:56 PM
+He doesn't have Connoisseur-25 and the No Nuisance Rolls perk.
+
+Demented Avenger — 3/16/25, 4:57 PM
+Unless someone wants to use it, I'm for selling it
+
+Demented Avenger — 3/16/25, 4:57 PM
+I think we want the letter for now
+
+Demented Avenger — 3/16/25, 4:57 PM
+I can't imagine it being worth much in a sale anyways
+
+Based Cosmo — 3/16/25, 4:58 PM
+Not sure someone volunteered yet but i’m willing to get less cash for others to get more CP
+
+dripton — 3/16/25, 4:59 PM
+I don't think anyone needs to do that, unless someone wants to keep one of the valuable suits of armor.
+
+Based Cosmo — 3/16/25, 5:00 PM
+I am not sure if I want to wear the mail, I don’t want to go to medium encumbrance yet
+
+Demented Avenger — 3/16/25, 5:02 PM
+Well, you might need to make a decision here for us to handle loot
+
+Based Cosmo — 3/16/25, 5:03 PM
+Shoot
+
+Based Cosmo — 3/16/25, 5:03 PM
+i have been doing things so I haven’t had a chance to catch up
+
+dripton — 3/16/25, 5:08 PM
+I will have pity and give you guys the math.  Gross was 9952 (not including the lore scroll that you have no idea of its value, assuming the other scale is normal).  You need $7800 for mega XP bonus.  That means you can keep $2152 worth of items unsold.  So you can keep one scale armor and the dwarf mail ($660 + $1080) and still have $412 of items left.
+
+dripton — 3/16/25, 5:09 PM
+I'm gonna assume you keep one scale for Michael and the mail for Uvash (whether they choose to wear them immediately or not), and then pick up to $412 of little items to not sell, and sell the rest, and we're done.
+
+Based Cosmo — 3/16/25, 5:10 PM
+Gotcha! I’ll keep that mail for now then, I just need to save for +ST
+
+dripton — 3/16/25, 5:11 PM
+Lifting ST is also available for everyone in this game.
+
+dripton — 3/16/25, 5:12 PM
+(Anyone who hauled a bunch of junk around in the previous session qualifies to buy it, no training needed.)
+
+Based Cosmo — 3/16/25, 5:12 PM
+I also need it to use my mace correctly. It’s ST12 and i’m ST10
+
+dripton — 3/16/25, 5:13 PM
+I went into the spreadsheet and marked some items as kept, some as sold, and put a ? by the ones I'm not sure about.  Let me know if I got anything wrong, but I think the ones I marked are "obvious" choices, plus DA saying you guys would keep the lore scroll.
+
+dripton — 3/16/25, 5:16 PM
+Current ? items are 2 major healing potions, 2 medium shields, bandoleer, and Curse Item scroll.
+
+Based Cosmo — 3/16/25, 5:16 PM
+We should keep those HP potions (I can store them in my pack with the other ones) and that bandoleer. Otherwise, no attachment to that other gear.
+
+dripton — 3/16/25, 5:16 PM
+You can keep all of it but the Curse Item scoll and hit the bonus.
+
+Zuljita — 3/16/25, 5:16 PM
+Not if it costs us CP, I can make HP potions soon.
+
+Zuljita — 3/16/25, 5:17 PM
+Hmm... is the Curse Item scroll learnable by PCs if I wanted to?
+
+dripton — 3/16/25, 5:17 PM
+It has Enchant as a prereq which isn't in DFRPG, so not easily.
+
+Zuljita — 3/16/25, 5:18 PM
+Can I make a non-magical copy for later study?  This is really a roleplaying thing, I can't see ever using a cp for it.
+
+Based Cosmo — 3/16/25, 5:18 PM
+Inverse question. Could a cleric learn something like Remove Curse by inverting it? Or do I need more PI first.
+
+dripton — 3/16/25, 5:19 PM
+Clerics can't learn from Mage scrolls and don't really need scrolls to learn anyway; they just need the right PI and then training at the temple.
+
+dripton — 3/16/25, 5:20 PM
+Non-magical copies don't work for study; studying enough to learn the spell burns a scroll.  However, if you sell it to the APC they might be willing to teach it to you later, if you quality to learn it.
+
+dripton — 3/16/25, 5:20 PM
+Main uses for scrolls are 1. casting the spell in play 2. learning a spell that you can't easily learn from trainers, because it's secret or banned or something
+
+dripton — 3/16/25, 5:22 PM
+APC will buy the scroll because they don't know the spell and Lyssandra wants to know every spell.
+
+dripton — 3/16/25, 5:22 PM
+Every spell.
+
+dripton — 3/16/25, 5:22 PM
+Grown up Hermione Potter over here.
+
+Zuljita — 3/16/25, 5:45 PM
+So selling it to them makes it available to all who can pay to keep the knowledge shared?
+
+dripton — 3/16/25, 5:47 PM
+Yes, as long as you maintain good relations with the APC, they're still around, etc.
+
+Archon Shiva — 3/16/25, 7:47 PM
+I always read Armored Personnel Transport.
+
+Demented Avenger — 3/16/25, 7:59 PM
+Ioannes is taking one of the shields. He can sell his small shield for $16 if that means anything to anyone
+
+dripton — 3/16/25, 8:00 PM
+Lyssandra was *very* clear that it's Club not College, for some reason.
+
+Demented Avenger — 3/19/25, 5:58 PM
+Do we have a final verdict on the amount of money we all made and who got what gear?
+
+Demented Avenger — 3/19/25, 5:58 PM
+From there we need to make Big Purchases
+
+dripton — 3/19/25, 6:00 PM
+I got a confirmation that you guys would sell enough to get the bonus loot XP, but not exactly which items you would keep other than one set of scale, the mail, at least one medium shield, and the ancient letter.
+
+Demented Avenger — 3/19/25, 6:02 PM
+@everyone Then does anyone want anything other than those things?
+
+Based Cosmo — 3/19/25, 6:05 PM
+All I want is those shoes.
+
+Based Cosmo — 3/19/25, 6:05 PM
+Otherwise it is all the same to me
+
+Zuljita — 3/19/25, 6:19 PM
+The shoes are an expensive cursed item, almost sure you wouldn't get all your cp if we keep it. You sure?
+
+Based Cosmo — 3/19/25, 6:20 PM
+They were cursed? When did we figure that
+
+dripton — 3/19/25, 6:20 PM
+They're worth less than the mail, so if you took the boots instead of the mail you'd be okay.
+
+dripton — 3/19/25, 6:20 PM
+If you took both you'd be down an XP.
+
+Zuljita — 3/19/25, 6:30 PM
+https://discord.com/channels/1346534955357835336/1350493300687245352/1350524843396956271
+
+Based Cosmo — 3/19/25, 6:44 PM
+Ah, bummer
+
+Archon Shiva — 3/19/25, 6:49 PM
+They’re cursed with Moderate Pain Threshold, though.  Mostly hard to get rid of.

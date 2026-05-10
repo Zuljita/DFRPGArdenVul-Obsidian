@@ -1,0 +1,377 @@
+Loot 2025-11-14
+
+dripton — 11/15/25, 3:14 PM
+This week's loot sheet will be a bit different because much of it is not easily identified.  (You don't currently have the skills OR an available expert to identify it in downtime; you have to do it during play.)  I will give low values to unidentified stuff as "interesting trinkets"; it's possible some of them would be worth more if they did something useful and you could figure out what.  I will give them placeholder names that might change later if you can identify them.
+
+Zuljita — 11/15/25, 3:17 PM
+If we radically change the value of an item, we collected this session in a future session using playtime does that new discovery count towards the new sessions loot?
+
+Zuljita — 11/15/25, 3:17 PM
+(I'm increasingly convinced the most precious resource we have is game minutes)
+
+dripton — 11/15/25, 3:17 PM
+Yeah, if you don't sell an item because you have no reasonable way to ID it yet, it's okay to carry it over.  GM's judgment in edge cases.
+
+Zuljita — 11/15/25, 3:18 PM
+Absolutely, it's always up to your judgment there but just trying to make sure we're on the same page
+
+dripton — 11/15/25, 3:33 PM
+The first 4 Rudishva devices are the ones you found in the workroom.
+
+dripton — 11/15/25, 3:34 PM
+Some of the books are priced as science fiction or weird history.  If someone actually had some Rudishva artifacts to identify, then the book about Rudishva artifacts would be worth more.  If someone really needed to learn Rudishva, the language books would be worth more.  Basically, the market for these books is very thin because almost nobody knows their value.
+
+dripton — 11/15/25, 3:35 PM
+Similarly the ID cards are priced as "weird item" not as "I need that to open this door"
+
+dripton — 11/15/25, 3:47 PM
+The first 2 books are primers on Rudishva language.  A sufficiently motivated learner could probably learn broken written and spoken Rudishva with these and enough time and points.  Maybe even accented.
+
+dripton — 11/15/25, 3:49 PM
+Notes on the Rudishva Spirits is a bunch of stuff about conversations with two Rudishva Spirits, the illuision in the Beacon and another they spoke to remotely but never saw.  They think these might be the Rudishva gods.
+
+dripton — 11/15/25, 3:49 PM
+On the Wars is about campaigns inside the Halls between humans and varumani.  There are some maps.
+
+dripton — 11/15/25, 3:51 PM
+Practical Animal Magic is full of stuff about harvesting animal organs and using them for stuff.  Survival/Alchemy/Naturalist.
+
+dripton — 11/15/25, 3:51 PM
+The arcanum and gems books might also be useful.
+
+dripton — 11/15/25, 3:53 PM
+The Rudishva Devices book has sketches of a bunch of Rudishva devices (including several you found) with names, functions, properties, and "do not do this" warnings.  If this book is accurate then it might help figure out how to use those items.
+
+dripton — 11/15/25, 3:54 PM
+You think if you sold that book in a bundle with the pile of Rudishva devices, they might be worth a castle.
+
+dripton — 11/15/25, 3:54 PM
+But either without the other, not so much.
+
+dripton — 11/15/25, 4:09 PM
+First pass at loot sheet finished.  I put values on everything but some of them are low preliminary values as "interesting trash" so think hard about what you sell.
+
+Zuljita — 11/15/25, 4:39 PM
+<@179039634909560832> We're without Uvash, does Goat provide wealth benefits?
+
+dripton — 11/15/25, 4:39 PM
+Man Uvash took the wrong week off to try to convert humans.
+
+Zuljita — 11/15/25, 4:40 PM
+Right?
+
+Zuljita — 11/15/25, 4:45 PM
+Wand of Paralyze Limb doesn't have a value in DFMI, wand of Paralysis does: 13.2k for 24 charges.  Any sense of value here?
+
+dripton — 11/15/25, 4:45 PM
+I marked it on the sheet; $10000.
+
+dripton — 11/15/25, 4:45 PM
+It would be $20000 but it has charges rather than infinite uses.
+
+dripton — 11/15/25, 4:45 PM
+But 47 is a lot of charges.
+
+Archon Shiva — 11/15/25, 4:45 PM
+Coinbase and Lacrymosa.
+Next merc Dervish, too, once she joins.
+
+Zuljita — 11/15/25, 4:46 PM
+bah, copy paste error on my part.
+
+dripton — 11/15/25, 4:46 PM
+Note that Wand of Paralyze Limb requires that you hit the target in the limb with it, so it's not quite as awesome as it could be.  (It's still pretty good.)
+
+Archon Shiva — 11/15/25, 4:46 PM
+He did provide quick treasure benefits, though.
+
+Archon Shiva — 11/15/25, 4:47 PM
+So defense roll + resistance roll?
+
+dripton — 11/15/25, 4:48 PM
+Yeah, hit plus defense plus resistance plus burn a charge.  So it doesn't always work.  But when it works, awesome.
+
+Archon Shiva — 11/15/25, 4:48 PM
+It feels like at that point, Vallium has a fantastic sword of Paralyze Limb.
+
+dripton — 11/15/25, 4:49 PM
+Yes but Vallium spent 100+ points on that.  For a wizard it's just another power.
+
+dripton — 11/15/25, 4:49 PM
+It's a cheat code for being slightly effective in melee instead of useless.
+
+dripton — 11/15/25, 4:49 PM
+If you're already useful in melee you probably don't want it.
+
+Zuljita — 11/15/25, 4:50 PM
+I think the obvious play is to not sell a single alien artifact.
+
+dripton — 11/15/25, 4:50 PM
+If you didn't hit the lake you'd have hard choices.
+
+Zuljita — 11/15/25, 4:50 PM
+Which means both magic items are on the chopping block.
+
+Zuljita — 11/15/25, 4:50 PM
+The lake was super critical.
+
+dripton — 11/15/25, 4:50 PM
+Since you hit the lake and got a pile of boring treasure you have easy choices.
+
+Zuljita — 11/15/25, 4:51 PM
+I think we'd be paying the merc out of pocket and keeping everything.
+
+Archon Shiva — 11/15/25, 4:51 PM
+The wand is only good against stuff you have no trouble with.  If it’s alive and susceptible to paralysis, you don’t need the wand.
+
+Zuljita — 11/15/25, 4:51 PM
+Can I get more detail on the golem book?
+
+Zuljita — 11/15/25, 4:51 PM
+Yeah, wand is getting sold for sure.
+
+Zuljita — 11/15/25, 4:52 PM
+probably trollbane too despite seeming neat.
+
+dripton — 11/15/25, 4:53 PM
+You know those big scary constructs that the swarms could not dent but Vallium killed?  The book helps you make more.  But making golems is a full time expensive job probably not something a PC has time for.
+
+dripton — 11/15/25, 4:53 PM
+They are not weekly alchemy rolls
+
+Zuljita — 11/15/25, 4:56 PM
+What about using the concepts in it to build something like a small book moving page turning golem?  I can see a reason to get 2 of them.
+
+dripton — 11/15/25, 4:58 PM
+It's a very specific recipe with exact materials and spells and stuff.  It's possible that with sufficient time and materials someone could generalize the concepts and make other constructs, but you wouldn't know for sure without trying.  For that matter you don't know if this book is correct without trying.  It looks legit but it could be a fake by someone who knows enough to be convincing.
+
+dripton — 11/15/25, 4:59 PM
+It's the kind of book that you could probably sell to a college for a lot, if they didn't already have a copy.
+
+Archon Shiva — 11/15/25, 5:01 PM
+There is a Copy spell, if you want to.
+
+dripton — 11/15/25, 5:01 PM
+The process involves gems, the blood of an Archontean citizen, bones of an Archontean soldier who died defending the empire, months of work, lots of mana, etc.  It's like a patriotic Fourth of July recipe except you get a death machine instead of Red White and Blue Jello at the end.
+
+dripton — 11/15/25, 5:01 PM
+Humans are weird.
+
+Zuljita — 11/15/25, 5:02 PM
+Oh... Yeah that's not in scope for this
+
+Zuljita — 11/15/25, 5:08 PM
+Okay, I'd like to offer it to APC if they're willing to pay book.  I'm also interested in if they think they can build a golem for the purposes I mentioned and what it might cost
+
+dripton — 11/15/25, 5:13 PM
+Lyssandra looks at the book, and offers you retail price for it.  OR she says if you give her the book she'll go back on her plans to remodel the apartments and go upscale, and let you sign a one-year lease IF you promise no more livestock or corpses.
+
+Zuljita — 11/15/25, 5:14 PM
+How many apartments does she have right now?
+
+Zuljita — 11/15/25, 5:15 PM
+Oh and the wand and the sword have to be offered to wick trimmer first.  I'm keeping my agreement
+
+Zuljita — 11/15/25, 5:15 PM
+Also how many hours did I have to use to cash out Michael with the lawyer?
+
+dripton — 11/15/25, 5:16 PM
+There are currently 8 apartments on the top floor.  2 are Lyssandra's and Pelteon's.  The other 6 are for rent.  You guys have 5 of them (though Michael just moved out, so 4).  Currently Tresti is renting the other one.  It appear's Lyssandra's plan is to turn 8 small apartments into 4 luxury apartments and charge higher rent, so same money but fewer tenants less hassle.
+
+dripton — 11/15/25, 5:16 PM
+1 hour; it was easy work.
+
+dripton — 11/15/25, 5:16 PM
+He basically just wrote down what you already agreed to but put in Mithric phrases to make it look formal.
+
+Zuljita — 11/15/25, 5:17 PM
+How many floors to the building? If you have a map I'd love to see it. I'm considering proposing something more interesting
+
+dripton — 11/15/25, 5:19 PM
+I don't have a map.  I might make one at some point.  It's 6 floors if you include underground.  -2: training  -1: training  0: kitchen, dining room, lounge.  1: alchemy labs  2: library, practice chamber  3: apartments
+
+dripton — 11/15/25, 5:22 PM
+Top floor is a wooden addition.  The rest of the walls are stone.
+
+Zuljita — 11/15/25, 5:24 PM
+Okay crazy thought: would she be open to renovating the six empty apartments into one big shared " adventuring company" apartment with an exterior entrance (just a set of stairs to go down)? We would stay in the rooms we're in now until that opens and we would agree to abide by her request.  Once we're in the New apartments, we would pay six apartments worth of rent even if there's only three or four of us living there in return we gain a great deal of autonomy and a longer term lease That's good for both of us. (I also want feedback from the party on this idea) <@344820413026795534> <@439963160502337536> <@630407861536686109>
+
+dripton — 11/15/25, 5:26 PM
+There are not 6 empty apartments.  There are 6 total apartments for rent.  Currently you have 4 (with Michael out), Tresti 1, 1 vacant.  So if you did want to propose renovation and moving back in, you're be out for a while during the construction.
+
+dripton — 11/15/25, 5:26 PM
+Depending on how serious the renovation was that could be a shorter or longer time.
+
+Zuljita — 11/15/25, 6:13 PM
+Were they evicting Tresti too?
+
+dripton — 11/15/25, 6:14 PM
+Everyone's lease runs out in a month, yes.  Tresti seemed a bit annoyed about it too.
+
+Zuljita — 11/15/25, 6:15 PM
+Who is Tresti?
+
+Based Cosmo — 11/15/25, 6:15 PM
+We saved her a week or two back
+
+dripton — 11/15/25, 6:16 PM
+Tresti is a half-elf wizard you saved from monkey jail a while back.
+
+Zuljita — 11/15/25, 6:21 PM
+Ah. We don't owe her anything... Okay here's the proposal: she gets the book, we get 1 apartment during the renovation that we can all use at 4x monthly rate ( no change to col).  We'll keep coming and going with no restrictions on what we bring through the house, but a promise not to store anything inappropriate (like critters) but we might take.** Anything** through the door, we just won't store in on the premises. She renovates all the unused rooms into a party quarters in the meantime with a separate entrance.
+
+Greybrown — 11/15/25, 6:21 PM
+Value of Gold Medallion (Page Reference 101)?
+
+dripton — 11/15/25, 6:22 PM
+Fixed, 45
+
+Zuljita — 11/15/25, 6:23 PM
+I'll update spreadsheet later but are they unique?
+
+dripton — 11/15/25, 6:23 PM
+They all look different.
+
+dripton — 11/15/25, 6:23 PM
+But all the same size and value as jewelry.
+
+Archon Shiva — 11/15/25, 7:24 PM
+Why not have a vault in the apartment complex?  You could keep the right there and store monsters safely.
+
+dripton — 11/15/25, 7:40 PM
+Lyssandra confers with Pelteon, then comes back with a counter offer for Vael.  APC gets the golem book, free, no copies made for anyone else.  APC gets to renovate the 6 top floor rental apartments into 3 luxury apartments (double size, double cost) as planned.  Right for Riches company can see the floorplans and make suggestions, but it's Lyssandra and Pelteon's building and they get final say.  Right for Riches can continue to live in whichever part of the space is still livable during construction, as possible, no guarantees, no whining about construction noise.  A separate entrance with a fire-escape outdoor stairway is acceptable as long as security rules are followed.  Right for Riches gets a 2- year lease on the 3 luxury apartments when they're finished.  Up to 6 people can live there, 4 current Right for Riches members approved, Michael pre-approved if he comes back, future Right for Riches members require Lyssandra and Pelteon to approve them.  Anyone who lives in the apartments needs to be an APC member even if they're not a wizard.  Any non-qualified wizards doing alchemy need to be supervised by a wizard until Lyssandra and Pelteon are convinced they won't cause poison gas clouds or burn the APC down.  Right for Riches gets transit rights: anything they transport into the part of their apartment right next to the fire escape (which will not have carpet) and immediately take outside is okay (unless it's illegal, treasonous, etc. don't get us in trouble).  They will not store anything gross or smelly in their apartments for more than the few seconds it takes to get it out the door : no livestock, no dead bodies.  Lyssandra gets first call on any spell scrolls for sale while Right for Riches are tenants.  Pelteon gets visitation rights to all cats living on the premises.
+
+dripton — 11/15/25, 7:42 PM
+The last part is in different handwriting.
+
+Demented Avenger — 11/15/25, 8:16 PM
+Is it possible to just buy a residence?
+
+dripton — 11/15/25, 8:24 PM
+Yes
+
+Zuljita — 11/15/25, 8:34 PM
+What's a residence cost?  What would the impact on CoL be?
+
+Zuljita — 11/15/25, 8:36 PM
+BTW I think either way we get 2 loot XP, thanks in large part to the smaller group size to make up for the smaller take.
+
+dripton — 11/15/25, 8:39 PM
+Variable with size and quality.  But as a very rough rule of thumb, 180 months rent.  So if a person's cost of living is $150/week or $600/month, figure half of that is rent, or $300/month.  So a one-person house would be in the $50k range.  A house that's comfortable for 4 would be 4 times that.  More if you want a really nice house, a custom house, etc.  If you own your own house, your Cost of Living when in that town is half.
+
+dripton — 11/15/25, 8:39 PM
+Still gotta eat.
+
+dripton — 11/15/25, 8:40 PM
+The vast majority of houses are way cheaper but the vast majority of people are poor.
+
+Zuljita — 11/15/25, 8:40 PM
+I'm not ready to drop 200k on a house any time soon.
+
+Demented Avenger — 11/15/25, 8:40 PM
+I know there are some rules for handling this buried away in a few GURPS Dungeon Fantasy supplements (Swashbucklers and one other), so wanted to check
+
+Zuljita — 11/15/25, 8:40 PM
+And if I were, I'd rather hedge for a 5th player.
+
+Zuljita — 11/15/25, 8:45 PM
+So we could do the status quo and just make no changes, or we could strongly advocate for a swanky space with a fire escape style staircase, or we could mostly live in the beacon with a single base back in town.  Thoughts?
+
+Zuljita — 11/15/25, 8:45 PM
+I'm not super worried about COL either way.
+
+Greybrown — 11/15/25, 8:46 PM
+Another option, since the Rugs work all the way to Newmarket, we could source what housing is available there.
+
+Demented Avenger — 11/15/25, 8:46 PM
+Yeah, COL isn’t exactly a big factor
+
+dripton — 11/15/25, 8:47 PM
+COL is a minor factor if you want to live like a first level apprentice.  If you want to live like an archmage, it's a huge factor.
+
+dripton — 11/15/25, 8:47 PM
+You guys don't have a single servant.
+
+Zuljita — 11/15/25, 8:47 PM
+<@396077326129037345> the pretty clear implication to me is that the module expects us to at most visit newmarket, not live there.  It won't bother me if you say "I'd rather ya'll not try to reside there"
+
+dripton — 11/15/25, 8:48 PM
+You can do whatever there if you want.  I will not promise full maps of any town besides Gosterwick though; it's a lot of work.
+
+dripton — 11/15/25, 8:48 PM
+Richard Barton will release full maps of Newmarket and Narsileon right after this campaign wraps.
+
+dripton — 11/15/25, 9:16 PM
+I forgot the 3 maps you guys found in the conference room.  Just added to loot sheet.
+
+Zuljita — 11/15/25, 9:21 PM
+Is he the guy who makes the AV maps you use?
+
+Demented Avenger — 11/15/25, 9:21 PM
+Found it! Dungeon Fantasy 21, page 6, strongholds
+
+dripton — 11/15/25, 9:23 PM
+He's the author of Arden Vul.  I think he did the original maps, then a second guy did the prettier(but monochrome and with secrets not hidden) maps in the module, and then a team of nerds on the Internet (including me) have done VTT maps.
+
+dripton — 11/15/25, 9:25 PM
+I don't see them in DF21.  Typo?
+
+dripton — 11/15/25, 9:26 PM
+I asked an AI and it said they're in "GURPS Dungeon Fantasy 18: Steading of the Wizard-Slayers" which does not exist.
+
+dripton — 11/15/25, 9:26 PM
+There are regular AI hallucinations and then there are the special AI hallucinations.
+
+Greybrown — 11/15/25, 9:27 PM
+DF23
+
+Zuljita — 11/15/25, 9:28 PM
+bah, I kickstarted those, but I cant seem to find the books.
+
+dripton — 11/15/25, 9:28 PM
+I put all my GURPS PDFs in one directory, so if I have it, and the title of the PDF isn't completely insane, I can find it.
+
+dripton — 11/15/25, 9:29 PM
+But grep doesn't work as well as it should on PDFs because they're a stupid file format.
+
+Zuljita — 11/15/25, 9:29 PM
+I need to sit down and organize (and re-download) all my pdfs
+
+Demented Avenger — 11/15/25, 9:29 PM
+Yeah, 23
+
+dripton — 11/15/25, 9:31 PM
+I think Kromm's stronghold rules are fine for most cases but too generous for town.  Land in an established town where you can walk to 8 different taverns costs more.
+
+dripton — 11/15/25, 9:31 PM
+But if you go far enough into the sticks, land is free (if you can defend it) and you only have to pay for construction.
+
+Zuljita — 11/15/25, 9:32 PM
+It also adds back in wealth and status.  I think it could be fine (like pathfinder kingmaker) but the game probably needs to turn around it.
+
+Demented Avenger — 11/15/25, 9:43 PM
+It’s something of a generic answer for Kromm. They’re basically the same rules for setting up an inn (Swashbucklers, p. 19, has the oldest instance of these rules)
+
+Demented Avenger — 11/15/25, 9:44 PM
+Though personally I don’t mind paying COL
+
+dripton — 11/15/25, 9:44 PM
+consistency is the little hobgob  ... Kromm is a goblin!
+
+dripton — 11/15/25, 9:46 PM
+I think owning your own place in RPGs is not really about reducing COL.  It's about having either a nicer or more secure place than you can easily rent.  Gosterwick has the Stunned Acolyte, which is really nice, so (if they'll have you) you can just voluntarily pay double COL (or more) and live there.  But if you want a place where you can store monster bodies with nobody complaining, you kind of need to own.
+
+Zuljita — 11/16/25, 3:31 AM
+I'm genuinely interested in making AV the main base.
+
+dripton — 11/16/25, 4:45 PM
+I added the 3 maps to the bottom of the player loot sheet.  Looks like you got enough loot for 2 XP by only selling the Trollsbane and the wand, so I marked the maps as kept by the party.
+
+dripton — 11/16/25, 7:43 PM
+I added a weight to the Rudishva large shield.  It's only 10#, in addition to being transparent so it doesn't give a -2 attack penalty.  BUT it's obviously weird looking.
+
+dripton — 11/16/25, 7:43 PM
+This is the one Rudishva item you found that's absolutely obvious how to use; no rolls needed.
+
+dripton — 11/16/25, 7:43 PM
+It's a shield.  Just a better one.

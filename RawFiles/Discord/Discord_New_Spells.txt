@@ -1,0 +1,168 @@
+new-spells
+
+dripton — 8/3/25, 4:20 PM
+```Curse Item
+
+Enchantment
+Duration: permanent
+Cost: 10
+Casting time: 1 hour
+Prerequisite: Enchant
+
+Gives an item a minor malevolent effect.  The caster and others they specify at the time of casting are unaffected.  Magic items resist.```
+
+dripton — 8/3/25, 4:22 PM
+```Basil's Torch Treatment
+Fire
+Cost: 1
+Prereq: Create Fire
+
+Triples the lifespan of a torch (normally from 1 hour to 3 hours)```
+
+dripton — 8/3/25, 4:23 PM
+```The Bracteros Effect
+Light and Darkness
+Duration: 1 hour
+Cost: 4 to cast, 2 to maintain
+Prereq: Invisibility
+Renders a light source invisible to those more than 7 hexes away from it.```
+
+dripton — 8/3/25, 4:23 PM
+```Frigg's Elephant Ears
+Mind Control
+Regular; R-Will
+Cost: 2
+Duration: 10 minutes
+Prereq: Sense Emotion
+
+Causes the subject's  ears to grow to elephant size if they lie.  They will droop and flap if they tell additional lies.```
+
+dripton — 8/3/25, 4:24 PM
+```Perpetual Light
+Light and Darkness
+Regular
+Duration: Permanent
+Cost: 6 for moonlight, 12 for torchlight, 18 for daylight.
+Prereq: Continual Light
+
+Makes a small object (or a small part of a large object) glow permanently.  Does not count as a spell on. This is not an enchantment so it can be dispelled, is destroyed by no mana zones, etc.  The light will be orange.  A small amount of arcanum
+is required to cast this spell, and is consumed.
+```
+
+dripton — 8/11/25, 2:22 PM
+```The Hekate's Bonds
+Body Control
+Regular; R-HT
+Duration: 5s
+Cost: 8  Cannot be maintained
+Prereq: Total Paralysis 
+
+Causes paralysis.  (DFE 66).```
+
+dripton — 9/13/25, 4:48 AM
+```Brain Full of Small Spiders
+Illusion; R-Will
+Duration: 1 minute.  Can't be maintained.
+Cost: 3
+Prereq: Perfect Illusion, Itch
+Creates a sensation that spiders are crawling on the subject's head.
+Causes -1 to all rolls and half movement.
+```
+
+dripton — 10/11/25, 2:20 PM
+```Frigg's Jelly Legs
+Body Control
+Regular; R-HT
+Cost: 2
+Duration: 1 minute
+Prereq: Clumsiness
+The target's legs become rubbery and unstable.  They suffer Bad Footing (-2 to hit, -1 to defend, +1 movement point per hex) for the duration of the spell. If they're already suffering from Bad Footing, the effects are cumulative.```
+
+dripton — 10/19/25, 3:08 PM
+```
+Hallow
+Meta
+Area
+Base Cost: 5
+Casting Time: 1 hour
+Duration: Permanent
+Prereq: PI 5
+Increases the Sanctity (cleric) or Nature's Strength (druid) of the area by one level, to a maximum of High Sanctity or +3 Nature's Strength.  This may only be cast in an appropriate area, such as a temple of the appropriate god for a cleric, or a particularly nice natural area for a druid.  It can be used in an
+opposing temple to reduce its sancity for the opposing religion, but only to Normal sanctity; getting to High would require extensive changes to the temple.
+```
+
+dripton — 10/25/25, 4:20 AM
+```Frigg's Fraud
+Illusion
+Duration: Permanent
+Cost: 2
+Prereq: Simple Illusion
+Causes a magic item to be undetectable by Magery at range.  Detecting it with Magery by touch or with spells like Detect Magic requires a Quick Contest with the spell.
+```
+
+dripton — 12/22/25, 2:24 AM
+```The Thane's Betrayal
+Movement
+Regular; R-ST or Will
+Duration: 6s
+Cost: 5.  Same cost to maintain.
+Prereq: Magery 3, Apportation, 1 spell from each of 10 colleges
+Take control of an enemy's weapon.  If resistance fails, the weapon leaves the enemy's hands and attacks that enemy until the spell duration ends or the enemy is destroyed.  The caster may take a Concentrate maneuver to pick a new target.  See Dancing Weapon for other details.```
+
+dripton — 12/22/25, 2:24 AM
+```The Thane's Collar
+Mind Control
+Regular; R-Will
+Duration: 1 month
+Cost: 20.  Same cost to maintain.
+Casting Time: 10 minutes
+Prereq: Magery 6, Charm 
+This is an enhanced version of the Charm spell, with a much longer duration. It requires that the target wear an iron collar as a focus.```
+
+dripton — 12/22/25, 2:25 AM
+```The Thane's Vengeful Veil
+Body Control
+Regular; R-HT (special)
+Duration: 1 minute
+Cost: 5.  Same cost to maintain.
+Prereq: Deathtouch
+The caster creates a shimmering field of off-white energy around their body.  Any attacker who injures the caster must R-HT.  If they  succeed, they take half the injury they did to the caster.  If they fail, they take the full injury they did to the caster.  Armor does not protect.  (Note that the caster still takes the injury.)```
+
+dripton — 3/27/26, 4:15 AM
+```Nighteyes of Bastet
+Light and Darkness
+Regular
+Duration: Permanent
+Cost: 6
+Prereq: Power Investiture 2
+Makes a small object (or a small part of a large object) glow permanently. Does not count as a spell on.  This is not an enchantment, so it can be dispelled, is destroyed by no mana zones, etc.  The light is faint moonlight; it gives a -5 darkness penalty over a 6-yard radius.```
+
+dripton — 3/27/26, 4:15 AM
+```Pelagion's Bridge of Sighs
+Air
+Area
+Casting Time: 3s
+Duration: 1 minute
+Cost: 1 to cast or maintain
+Prereq: Walk on Air
+The caster exhales a bridge of air, which the caster and others can walk on.  The caster must breathe precisely (Concentrate maneuvers) as long as the bridge exists, but can move at walking speed while doing so.
+```
+
+dripton — 3/27/26, 4:16 AM
+```Pelagion's Rock Sympathy
+Earth
+Area
+Casting Time: 10s
+Cost: 1 
+Prereq: Seek Earth
+The caster gains full knowledge of all minerals within the area of effect.```
+
+dripton — 4/11/26, 11:22 PM
+```Wizard's Cache
+Gate 
+Regular
+Duration: Permanent until dispelled  
+Casting time: 10s        
+Cost: 2 per pound
+Prereq: Blink Other
+Hides an object up to 2' in diameter in an extra-dimensional space.  Cannot be found with Seeker, etc.  Leaves a glowing green glyph of the mage's design.  Object can be recalled (at the location of the glyph) with the password or with Dispel Magic.```
