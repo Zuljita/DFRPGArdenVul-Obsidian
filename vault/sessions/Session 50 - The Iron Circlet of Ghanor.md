@@ -105,5 +105,10 @@ They're going after the second Tablet of the Beacon, following Temrin's map from
 
 ## Session Navigation
 
+<!-- BEGIN AUTO NAV -->
 - Previous Session: [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
-- Next Session: (none)
+- Next Session: [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
+- Previous Discord Summary: [[notes/Discord Summary 2026-W17.md|Discord Summary 2026-W17]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W18.md|Discord Summary 2026-W18]]
+- Original Source: https://dfwhiterock.blogspot.com/2026/05/dfrpg-arden-vul-session-50-iron-circlet.html
+<!-- END AUTO NAV -->
