@@ -2094,6 +2094,10 @@ def llm_chat_json(prompt: str, timeout: int = 90) -> dict:
         raise RuntimeError(f"LLM JSON parse failed; finish_reason={finish_reason}; err={exc}") from exc
 
 
+def _entity_link_proposal_key(source: str, entity_path: str, mention: str) -> str:
+    return f"{source}|{entity_path}|{mention}"
+
+
 def verify_entity_link_proposals(limit: int = 25) -> list[dict]:
     proposals_path = AUTOMATION_DIR / "proposals" / "entity_link_proposals.json"
     if proposals_path.exists():
@@ -2102,35 +2106,66 @@ def verify_entity_link_proposals(limit: int = 25) -> list[dict]:
     else:
         proposals = build_entity_link_proposals(limit_per_source=20)
         write_entity_link_proposal_report(proposals)
-    verified: list[dict] = []
-    for proposal in proposals[:limit]:
+    run_dir = AUTOMATION_DIR / "proposals"
+    verifications_path = run_dir / "entity_link_verifications.json"
+    # Load prior verifications and skip proposals already classified — otherwise
+    # the scheduled runner re-verifies the same first-N proposals every cycle,
+    # hammering the LLM with identical queries while later proposals never get
+    # a turn.
+    prior: list[dict] = []
+    verified_keys: set[str] = set()
+    if verifications_path.exists():
+        try:
+            prior = json.loads(verifications_path.read_text(encoding="utf-8"))
+        except Exception:
+            prior = []
+        for v in prior:
+            status = str(v.get("status", "")).lower()
+            if status in {"supported", "contradicted", "ambiguous", "not_found"}:
+                verified_keys.add(_entity_link_proposal_key(
+                    str(v.get("source", "")),
+                    str(v.get("entity_path", "")),
+                    str(v.get("mention", "")),
+                ))
+    pending = [
+        p for p in proposals
+        if _entity_link_proposal_key(p.source, p.entity_path, p.mention) not in verified_keys
+    ]
+    fresh: list[dict] = []
+    for proposal in pending[:limit]:
         prompt = verification_prompt(proposal)
-        result = llm_chat_json(prompt)
-        status = str(result.get("status", "ambiguous")).lower()
-        if status not in {"supported", "contradicted", "ambiguous", "not_found"}:
-            status = "ambiguous"
-        verified.append(
-            {
+        try:
+            result = llm_chat_json(prompt)
+            status = str(result.get("status", "ambiguous")).lower()
+            if status not in {"supported", "contradicted", "ambiguous", "not_found"}:
+                status = "ambiguous"
+            fresh.append({
                 **asdict(proposal),
                 "status": status,
                 "verifier_rationale": str(result.get("rationale", "")),
                 "verifier_evidence": str(result.get("evidence", "")),
-            }
-        )
-    run_dir = AUTOMATION_DIR / "proposals"
-    write_json(run_dir / "entity_link_verifications.json", verified)
+            })
+        except Exception as exc:
+            fresh.append({
+                **asdict(proposal),
+                "status": "error",
+                "verifier_rationale": f"verifier failed: {str(exc)[:200]}",
+                "verifier_evidence": "",
+            })
+    combined = prior + fresh
+    write_json(verifications_path, combined)
     lines = [
         "# Entity Link Verifications",
         "",
-        "LLM verifier results for review-only entity link proposals.",
+        "LLM verifier results for review-only entity link proposals. Accumulated across runs.",
         "",
         f"Generated: {datetime.now(timezone.utc).isoformat()}",
-        f"Verified count: {len(verified)}",
+        f"Total verified: {len(combined)}  (this run: {len(fresh)} new, pending: {max(0, len(pending) - len(fresh))})",
         "",
         "| Entity | Mention | Status | Evidence | Rationale |",
         "| --- | --- | --- | --- | --- |",
     ]
-    for item in verified:
+    for item in combined:
         entity_link = f"[[{item['entity_path']}|{item['entity']}]]"
         lines.append(
             f"| {entity_link} | {item['mention']} | {item['status']} | "
@@ -2138,7 +2173,7 @@ def verify_entity_link_proposals(limit: int = 25) -> list[dict]:
             f"{normalize_space(item['verifier_rationale']).replace('|', '\\|')} |"
         )
     (run_dir / "entity_link_verifications.md").write_text("\n".join(lines), encoding="utf-8")
-    return verified
+    return fresh
 
 
 def wikilink_target_from_repo_path(path: str) -> str:
@@ -4149,4 +4184,11 @@ def main(argv: list[str] | None = None) -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    # Use os._exit to bypass Python interpreter cleanup, which triggers a
+    # chromadb C-extension segfault on PersistentClient teardown (harmless
+    # but produces rc=139 in cron logs). All meaningful writes are
+    # synchronous, so skipping atexit/gc is safe.
+    rc = main()
+    sys.stdout.flush()
+    sys.stderr.flush()
+    os._exit(rc)
