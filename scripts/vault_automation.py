@@ -208,6 +208,20 @@ class EntityLinkProposal:
 
 
 @dataclass
+class NewEntityCandidate:
+    name: str
+    kind: str
+    canonical_target_dir: str
+    mention_count: int
+    sources: list[dict]
+    rationale: str
+    nearest_existing: str | None
+    nearest_distance: float
+    proposal_id: str = ""
+    status: str = "needs-verification"
+
+
+@dataclass
 class ArticleEditProposal:
     article_path: str
     article_title: str
@@ -2431,6 +2445,500 @@ def vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> lis
     return hits
 
 
+# ---- new-entity proposal lane (item 6: IAC/ACE) ----
+
+IAC_KIND_TO_DIR = {"NPC": "npcs", "Location": "locations", "Faction": "factions", "Item": "items"}
+IAC_CANDIDATE_PROMPT = (
+    "From the text, list entity candidates grouped by type (NPC, Location, Faction, Item). "
+    "Title Case; exclude generics and scaffolding words; do not invent; no mapping. "
+    "Return strict JSON only:\n"
+    "{\n"
+    '  "NPC": ["Name1", "Name2"],\n'
+    '  "Location": ["Place1"],\n'
+    '  "Faction": ["Group1"],\n'
+    '  "Item": ["Thing1"]\n'
+    "}\n"
+    "Return empty arrays for kinds with no candidates."
+)
+NEW_ENTITY_MIN_MENTIONS = 2
+NEW_ENTITY_FUZZY_THRESHOLD = 0.88
+NEW_ENTITY_SCAFFOLDING = {
+    "the", "a", "an", "that", "this", "they", "we", "i", "you", "also", "however",
+    "finally", "first", "second", "third", "next", "previous", "again", "great",
+    "over", "under", "ahead", "before", "after", "date", "session", "summary",
+    "page", "note", "tbd", "todo", "however,", "but", "and", "or",
+}
+NEW_ENTITY_SCAFFOLDING_SUFFIXES = {
+    "date", "over", "we", "that", "this", "again", "finally", "however",
+    "before", "after", "they", "you", "i",
+}
+
+
+def load_entity_filters() -> dict:
+    p = ROOT / "config" / "entity_filters.json"
+    if not p.exists():
+        return {}
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def load_ace_ignore_npcs() -> set[str]:
+    p = ROOT / "config" / "ace_ignore_npcs.txt"
+    if not p.exists():
+        return set()
+    out: set[str] = set()
+    for line in p.read_text(encoding="utf-8").splitlines():
+        line = line.split("#", 1)[0].strip()
+        if line:
+            out.add(line.lower())
+    return out
+
+
+def is_candidate_rejected(name: str, kind: str, filters: dict, ignore_npcs: set[str]) -> tuple[bool, str]:
+    if not name:
+        return True, "empty"
+    n = name.strip()
+    if n.startswith("[[") and n.endswith("]]"):
+        n = n[2:-2].split("|")[-1]
+    if len(n) < 3:
+        return True, "too short"
+    if any(c in n for c in (":", ";", "?", "!", "\n", "\t")):
+        return True, "punctuation suggests fragment"
+    nl = n.lower()
+    if nl in NEW_ENTITY_SCAFFOLDING:
+        return True, "scaffolding word"
+    if " " not in n and n.isupper():
+        return True, "all-caps single token (likely acronym/header)"
+    if " " not in n and len(n) <= 4 and n[0].isupper():
+        return True, "single short title-case word (likely generic)"
+    stop_key = {"NPC": "stop_npcs", "Location": "stop_location", "Faction": "stop_factions", "Item": "stop_items"}.get(kind)
+    if stop_key:
+        for stop in filters.get(stop_key, []):
+            if nl == str(stop).lower():
+                return True, f"in {stop_key}"
+    if kind == "Item":
+        for commodity in filters.get("commodity_items", []):
+            if nl == str(commodity).lower():
+                return True, "commodity item"
+    if kind == "NPC" and nl in ignore_npcs:
+        return True, "in ace_ignore_npcs"
+    last = n.split()[-1].lower()
+    if last in NEW_ENTITY_SCAFFOLDING_SUFFIXES:
+        return True, f"trailing scaffolding word '{last}'"
+    return False, ""
+
+
+_WORD_RE = re.compile(r"\b\w+\b", re.UNICODE)
+
+
+def _entity_name_overlap(a: str, b: str) -> bool:
+    """Word-level subset check: True if names share enough words to be the same entity.
+    Catches cases like 'Vael Sunshadow' vs 'Vaelethron Vael Sunshadow', 'The Beacon' vs 'Beacon',
+    'Lady Alexia' vs 'Lady Alexia Basileon'."""
+    aw = {w for w in _WORD_RE.findall(a.lower()) if len(w) > 1}
+    bw = {w for w in _WORD_RE.findall(b.lower()) if len(w) > 1}
+    if not aw or not bw:
+        return False
+    common = aw & bw
+    if len(common) >= 2:
+        return True
+    if common and (aw.issubset(bw) or bw.issubset(aw)):
+        return True
+    return False
+
+
+def find_nearest_existing_entity(name: str, kind: str, entity_index: dict[str, list[EntityPage]]) -> tuple[str | None, float]:
+    # NPC candidates also need to be checked against pcs/ — player characters are people too
+    # and should never be added as NPC pages.
+    kind_to_dirs = {
+        "NPC": ["npcs", "pcs"],
+        "Location": ["locations"],
+        "Faction": ["factions"],
+        "Item": ["items"],
+    }
+    dirs = kind_to_dirs.get(kind)
+    if not dirs:
+        return None, 0.0
+    best_path: str | None = None
+    best_sim = 0.0
+    nl = name.lower()
+    for dir_name in dirs:
+        for ent in entity_index.get(dir_name, []):
+            names_to_check = [ent.title.lower()] + [a.lower() for a in ent.aliases]
+            for cand_name in names_to_check:
+                if not cand_name:
+                    continue
+                if _entity_name_overlap(nl, cand_name):
+                    return ent.path, 1.0
+                sim = difflib.SequenceMatcher(None, nl, cand_name).ratio()
+                if sim > best_sim:
+                    best_sim = sim
+                    best_path = ent.path
+    return best_path, best_sim
+
+
+def build_entity_index() -> dict[str, list[EntityPage]]:
+    out: dict[str, list[EntityPage]] = {}
+    for p in entity_pages():
+        parts = p.path.split("/")
+        key = None
+        if parts and parts[0] == "vault" and len(parts) >= 2:
+            key = parts[1]
+        elif parts:
+            key = parts[0]
+        if key:
+            out.setdefault(key, []).append(p)
+    return out
+
+
+def iac_extract_candidates_from_chunk(chunk_text: str) -> dict[str, list[str]]:
+    prompt = IAC_CANDIDATE_PROMPT + "\n\nTEXT:\n" + chunk_text[:3000]
+    try:
+        response = llm_chat_json(prompt, timeout=120)
+    except Exception:
+        return {}
+    out: dict[str, list[str]] = {}
+    for kind in ("NPC", "Location", "Faction", "Item"):
+        values = response.get(kind) or []
+        if isinstance(values, list):
+            cleaned = []
+            for v in values:
+                if isinstance(v, (str, int, float)):
+                    s = str(v).strip()
+                    if s:
+                        cleaned.append(s)
+            out[kind] = cleaned
+    return out
+
+
+def extract_candidate_evidence(name: str, source_paths: list[Path]) -> list[dict]:
+    evidence: list[dict] = []
+    pattern = re.compile(re.escape(name), re.IGNORECASE)
+    section_pat = re.compile(r"^## (?!#)([^\n]+)", re.MULTILINE)
+    for sp in source_paths:
+        try:
+            text = read_text(sp)
+        except Exception:
+            continue
+        m = pattern.search(text)
+        if not m:
+            continue
+        section = "(intro)"
+        for sec_m in section_pat.finditer(text[:m.start()]):
+            section = sec_m.group(1).strip()
+        start = max(0, m.start() - 150)
+        end = min(len(text), m.end() + 200)
+        excerpt = normalize_space(text[start:end])
+        try:
+            rel = sp.relative_to(ROOT).as_posix()
+        except ValueError:
+            rel = str(sp)
+        evidence.append({"path": rel, "section": section, "excerpt": excerpt[:400]})
+    return evidence
+
+
+def build_new_entity_proposals(source_limit: int = 10, candidate_limit: int = 50) -> list[NewEntityCandidate]:
+    canonical_sources = latest_canonical_sources(limit=source_limit)
+    if not canonical_sources:
+        return []
+    filters = load_entity_filters()
+    ignore_npcs = load_ace_ignore_npcs()
+    entity_index = build_entity_index()
+    raw_by_kind: dict[str, dict[str, list[Path]]] = {k: {} for k in ("NPC", "Location", "Faction", "Item")}
+    for sp in canonical_sources:
+        try:
+            text = read_text(sp)
+        except Exception:
+            continue
+        for i in range(0, len(text), 3000):
+            chunk = text[i:i + 3000]
+            if len(chunk.strip()) < 80:
+                continue
+            extracted = iac_extract_candidates_from_chunk(chunk)
+            for kind, names in extracted.items():
+                for name in names:
+                    raw_by_kind[kind].setdefault(name, []).append(sp)
+    out: list[NewEntityCandidate] = []
+    for kind, by_name in raw_by_kind.items():
+        for name, sources_seen in by_name.items():
+            rejected, _ = is_candidate_rejected(name, kind, filters, ignore_npcs)
+            if rejected:
+                continue
+            unique_sources = list({str(p): p for p in sources_seen}.values())
+            if len(unique_sources) < NEW_ENTITY_MIN_MENTIONS and len(sources_seen) < NEW_ENTITY_MIN_MENTIONS:
+                continue
+            nearest_path, nearest_sim = find_nearest_existing_entity(name, kind, entity_index)
+            if nearest_sim >= NEW_ENTITY_FUZZY_THRESHOLD:
+                continue
+            ev = extract_candidate_evidence(name, unique_sources[:5])
+            if len(ev) < NEW_ENTITY_MIN_MENTIONS:
+                continue
+            proposal_id = hashlib.sha1(f"{kind}|{name}".encode("utf-8")).hexdigest()[:12]
+            out.append(NewEntityCandidate(
+                name=name,
+                kind=kind,
+                canonical_target_dir=IAC_KIND_TO_DIR[kind],
+                mention_count=len(ev),
+                sources=ev,
+                rationale=(
+                    f"Mentioned across {len(ev)} canonical sources; "
+                    f"not found in existing vault/{IAC_KIND_TO_DIR[kind]}/ pages "
+                    f"(nearest match similarity={nearest_sim:.2f})."
+                ),
+                nearest_existing=nearest_path,
+                nearest_distance=nearest_sim,
+                proposal_id=proposal_id,
+                status="needs-verification",
+            ))
+    out.sort(key=lambda c: (-c.mention_count, c.kind, c.name))
+    return out[:candidate_limit]
+
+
+def write_new_entity_proposal_report(proposals: list[NewEntityCandidate]) -> None:
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    proposals_dir.mkdir(parents=True, exist_ok=True)
+    write_json(proposals_dir / "new_entity_proposals.json", [asdict(p) for p in proposals])
+    lines: list[str] = ["# New Entity Proposals", ""]
+    by_kind: dict[str, list[NewEntityCandidate]] = {}
+    for p in proposals:
+        by_kind.setdefault(p.kind, []).append(p)
+    for kind in ("NPC", "Location", "Faction", "Item"):
+        ps = by_kind.get(kind, [])
+        if not ps:
+            continue
+        lines.append(f"## {kind} ({len(ps)})")
+        lines.append("")
+        for p in ps:
+            lines.append(f"### {p.proposal_id} — {p.name}")
+            lines.append(f"**Mentions**: {p.mention_count}")
+            if p.nearest_existing:
+                lines.append(f"**Nearest existing**: `{p.nearest_existing}` (similarity {p.nearest_distance:.2f})")
+            lines.append(f"**Rationale**: {p.rationale}")
+            lines.append("**Evidence**:")
+            for s in p.sources[:3]:
+                ex = (s.get("excerpt", "") or "").replace("|", "\\|").replace("\n", " ")
+                lines.append(f"- `{s.get('path','')}` §{s.get('section','')}: > {ex}")
+            lines.append("")
+    (proposals_dir / "new_entity_proposals.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
+    sources_text = "\n\n---\n\n".join(
+        f"[{s.get('path','')} §{s.get('section','?')}]\n{s.get('excerpt','')}"
+        for s in candidate.sources[:5]
+    )
+    nearest_line = (
+        f"\nNearest existing entity in vault/{candidate.canonical_target_dir}/: "
+        f"`{candidate.nearest_existing}` (similarity {candidate.nearest_distance:.2f}).\n"
+        if candidate.nearest_existing else ""
+    )
+    return (
+        f"You are auditing a proposed new {candidate.kind} entity for the Arden Vul DFRPG tabletop campaign vault.\n\n"
+        f"Candidate name: \"{candidate.name}\"\n"
+        f"Proposed entity kind: {candidate.kind}\n"
+        f"Target vault folder: vault/{candidate.canonical_target_dir}/\n"
+        f"{nearest_line}\n"
+        "EVIDENCE EXCERPTS FROM CANONICAL VAULT SOURCES (Blogspot recaps, weekly Discord digests, lore docs):\n\n"
+        f"{sources_text}\n\n"
+        "Decide one of:\n"
+        "- \"confirmed\": evidence clearly establishes this as a named campaign entity of the proposed kind, with no obvious duplicate.\n"
+        "- \"wrong_kind\": evidence supports a real entity but the proposed kind is wrong (e.g. it is a Location, not an NPC). Include the corrected kind in suggested_kind.\n"
+        "- \"duplicate\": evidence indicates this is the same entity as the nearest existing page or another already-known entity.\n"
+        "- \"not_an_entity\": this is a generic noun, scaffolding word, sentence fragment, or term that should not become a vault page.\n"
+        "- \"ambiguous\": evidence is too thin or contradictory to decide.\n\n"
+        "Return strict JSON only:\n"
+        "{\n"
+        '  "status": "confirmed|wrong_kind|duplicate|not_an_entity|ambiguous",\n'
+        '  "rationale": "<one sentence grounded in the cited evidence>",\n'
+        '  "suggested_kind": "<NPC|Location|Faction|Item if status=wrong_kind, else empty string>",\n'
+        '  "summary": "<one factual sentence suitable for the stub page if status=confirmed, else empty string>"\n'
+        "}"
+    )
+
+
+def verify_new_entity_proposals(limit: int = 20) -> list[dict]:
+    proposals_path = AUTOMATION_DIR / "proposals" / "new_entity_proposals.json"
+    if not proposals_path.exists():
+        raise RuntimeError("new_entity_proposals.json not found; run propose-new-entities first")
+    raw = json.loads(proposals_path.read_text(encoding="utf-8"))
+    proposals = [NewEntityCandidate(**r) for r in raw]
+    out: list[dict] = []
+    for p in proposals[:limit]:
+        try:
+            response = llm_chat_json(new_entity_verifier_prompt(p), timeout=120)
+            status = str(response.get("status", "unknown"))
+            rationale = str(response.get("rationale", ""))
+            suggested_kind = str(response.get("suggested_kind", ""))
+            summary = str(response.get("summary", ""))
+        except Exception as exc:
+            status = "error"
+            rationale = str(exc)[:200]
+            suggested_kind = ""
+            summary = ""
+        result = asdict(p)
+        result["verifier_status"] = status
+        result["verifier_rationale"] = rationale
+        result["verifier_suggested_kind"] = suggested_kind
+        result["verifier_summary"] = summary
+        out.append(result)
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    write_json(proposals_dir / "new_entity_verifications.json", out)
+    lines: list[str] = ["# New Entity Verifications", ""]
+    by_status: dict[str, list[dict]] = {}
+    for r in out:
+        by_status.setdefault(r["verifier_status"], []).append(r)
+    for status in ["confirmed", "wrong_kind", "duplicate", "ambiguous", "not_an_entity", "error", "unknown"]:
+        items = by_status.get(status, [])
+        if not items:
+            continue
+        lines.append(f"## {status} ({len(items)})")
+        lines.append("")
+        for r in items:
+            lines.append(f"### {r['proposal_id']} — {r['name']} ({r['kind']})")
+            lines.append(f"**Verifier**: {r.get('verifier_rationale','')}")
+            if r.get("verifier_summary"):
+                lines.append(f"**Suggested summary**: {r['verifier_summary']}")
+            if r.get("verifier_suggested_kind"):
+                lines.append(f"**Suggested kind**: {r['verifier_suggested_kind']}")
+            lines.append("")
+    (proposals_dir / "new_entity_verifications.md").write_text("\n".join(lines), encoding="utf-8")
+    return out
+
+
+def slugify_entity_name(name: str) -> str:
+    cleaned = re.sub(r"[\\/:*?\"<>|]", "", name).strip()
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    return cleaned
+
+
+def build_new_entity_stub(name: str, kind: str, summary: str, sources: list[dict]) -> str:
+    tag_map = {"NPC": "npc", "Location": "location", "Faction": "faction", "Item": "item"}
+    tag = tag_map.get(kind, kind.lower())
+    lines = [
+        "---",
+        "tags:",
+        f"  - {tag}",
+        "  - identity/uncertain",
+        "status: stub",
+        "---",
+        "",
+        f"# {name}",
+        "",
+    ]
+    if summary:
+        lines.extend(["## Summary", summary, ""])
+    lines.append("## Sources")
+    seen: set[str] = set()
+    for s in sources:
+        path = s.get("path", "")
+        if not path or path in seen:
+            continue
+        seen.add(path)
+        label = Path(path).stem
+        lines.append(f"- [[{path}|{label}]]")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def apply_verified_new_entities(apply_changes: bool, limit: int | None = None) -> dict:
+    ver_path = AUTOMATION_DIR / "proposals" / "new_entity_verifications.json"
+    if not ver_path.exists():
+        return {"ok": False, "error": "verifications_not_found", "hint": "Run verify-new-entities first"}
+    verifications = json.loads(ver_path.read_text(encoding="utf-8"))
+    confirmed = [v for v in verifications if v.get("verifier_status") == "confirmed"]
+    if limit is not None:
+        confirmed = confirmed[:limit]
+    results: list[dict] = []
+    created: list[str] = []
+    for v in confirmed:
+        name = v.get("name", "")
+        kind = v.get("kind", "")
+        target_dir_name = IAC_KIND_TO_DIR.get(kind, "")
+        if not target_dir_name:
+            results.append({"name": name, "kind": kind, "action": "error", "reason": "unsupported kind"})
+            continue
+        target_dir = VAULT / target_dir_name
+        if not target_dir.exists():
+            results.append({"name": name, "kind": kind, "action": "error", "reason": f"vault/{target_dir_name}/ missing"})
+            continue
+        slug = slugify_entity_name(name)
+        if not slug:
+            results.append({"name": name, "kind": kind, "action": "error", "reason": "name slugified to empty"})
+            continue
+        target_path = target_dir / f"{slug}.md"
+        rel_path = target_path.relative_to(ROOT).as_posix()
+        if target_path.exists():
+            results.append({"name": name, "kind": kind, "action": "skipped", "reason": "page already exists", "path": rel_path})
+            continue
+        content = build_new_entity_stub(name, kind, v.get("verifier_summary", ""), v.get("sources", []))
+        if apply_changes:
+            target_path.write_text(content, encoding="utf-8")
+            created.append(rel_path)
+            results.append({"name": name, "kind": kind, "action": "created", "path": rel_path})
+        else:
+            results.append({
+                "name": name, "kind": kind, "action": "would_create", "path": rel_path,
+                "preview": content[:300],
+            })
+    payload: dict = {
+        "ok": True,
+        "mode": "apply" if apply_changes else "dry-run",
+        "confirmed_count": len(confirmed),
+        "created_count": len(created),
+        "skipped_count": sum(1 for r in results if r["action"] in ("skipped", "error")),
+        "results": results,
+    }
+    if apply_changes and created:
+        payload["vault_rag_refresh"] = refresh_vault_rag_safely()
+    return payload
+
+
+def cmd_propose_new_entities(args: argparse.Namespace) -> int:
+    proposals = build_new_entity_proposals(source_limit=args.source_limit, candidate_limit=args.limit)
+    write_new_entity_proposal_report(proposals)
+    by_kind: dict[str, int] = {}
+    for p in proposals:
+        by_kind[p.kind] = by_kind.get(p.kind, 0) + 1
+    summary = {
+        "ok": True,
+        "proposal_count": len(proposals),
+        "by_kind": by_kind,
+        "markdown": str(AUTOMATION_DIR / "proposals" / "new_entity_proposals.md"),
+        "json": str(AUTOMATION_DIR / "proposals" / "new_entity_proposals.json"),
+    }
+    print(json.dumps(summary, indent=2))
+    return 0
+
+
+def cmd_verify_new_entities(args: argparse.Namespace) -> int:
+    try:
+        verifications = verify_new_entity_proposals(limit=args.limit)
+    except RuntimeError as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    counts: dict[str, int] = {}
+    for v in verifications:
+        st = v.get("verifier_status", "unknown")
+        counts[st] = counts.get(st, 0) + 1
+    summary = {
+        "ok": True,
+        "verified_count": len(verifications),
+        "status_counts": counts,
+        "markdown": str(AUTOMATION_DIR / "proposals" / "new_entity_verifications.md"),
+        "json": str(AUTOMATION_DIR / "proposals" / "new_entity_verifications.json"),
+    }
+    print(json.dumps(summary, indent=2))
+    return 0
+
+
+def cmd_apply_verified_new_entities(args: argparse.Namespace) -> int:
+    result = apply_verified_new_entities(apply_changes=args.apply, limit=args.limit)
+    print(json.dumps(result, indent=2))
+    return 0 if result.get("ok") else 2
+
+
 # ---- article-edit research lane ----
 
 ARTICLE_EDIT_ADDITION_TYPES = {"append_bullet_to_section", "add_alias", "extend_summary"}
@@ -2785,6 +3293,20 @@ def apply_article_edit_to_text(text: str, edit: dict) -> tuple[str, bool, str]:
     return text, False, f"unsupported addition_type: {addition_type}"
 
 
+def refresh_vault_rag_safely() -> dict:
+    """Refresh vault-rag, swallowing setup errors so the caller stays robust.
+    Returns a small status dict suitable for inclusion in run/apply reports."""
+    try:
+        result = vault_rag_ingest_all(reset=False, limit=None)
+    except Exception as exc:
+        return {"ok": False, "skipped": True, "reason": str(exc)[:200]}
+    return {
+        "ok": result.get("ok", False),
+        "actions": result.get("actions", {}),
+        "collection_size": result.get("collection_size"),
+    }
+
+
 def apply_verified_article_edits(apply_changes: bool, limit: int | None = None) -> dict:
     ver_path = AUTOMATION_DIR / "proposals" / "article_edit_verifications.json"
     if not ver_path.exists():
@@ -2825,7 +3347,7 @@ def apply_verified_article_edits(apply_changes: bool, limit: int | None = None) 
             "skipped": len(edits) - applied,
             "edits": per_edit,
         })
-    return {
+    payload: dict = {
         "ok": True,
         "mode": "apply" if apply_changes else "dry-run",
         "supported_count": len(supported),
@@ -2833,6 +3355,9 @@ def apply_verified_article_edits(apply_changes: bool, limit: int | None = None) 
         "total_applied": sum(r["applied"] for r in results),
         "results": results,
     }
+    if apply_changes and payload["total_applied"] > 0:
+        payload["vault_rag_refresh"] = refresh_vault_rag_safely()
+    return payload
 
 
 def cmd_propose_article_edits(args: argparse.Namespace) -> int:
@@ -3173,6 +3698,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                     }
             except Exception as exc:
                 verification_result = {"enabled": True, "ok": False, "error": str(exc)}
+    vault_rag_refresh = refresh_vault_rag_safely() if before["ok"] else {"ok": False, "skipped": True, "reason": "pre_validation_failed"}
     after = validate_state()
     payload = {
         "ok": before["ok"] and import_result["ok"] and after["ok"],
@@ -3206,6 +3732,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
             "discord_disposition_evidence_count": loot_reconciliation["discord_disposition_evidence_count"] if before["ok"] else 0,
             "markdown": str(AUTOMATION_DIR / "proposals" / "loot_reconciliation.md"),
         },
+        "vault_rag_refresh": vault_rag_refresh,
         "after_validation": after,
     }
     write_json(AUTOMATION_DIR / "source_manifest.json", manifest)
@@ -3304,6 +3831,20 @@ def build_parser() -> argparse.ArgumentParser:
     apply_article.add_argument("--apply", action="store_true", help="Write changes to vault files; omit for dry-run")
     apply_article.add_argument("--limit", type=int, default=None, help="Maximum supported edits to consider")
     apply_article.set_defaults(func=cmd_apply_verified_article_edits)
+
+    propose_new = sub.add_parser("propose-new-entities", help="Extract new entity candidates from canonical sources via IAC + filters")
+    propose_new.add_argument("--source-limit", type=int, default=10, help="Latest canonical sources to scan (default 10)")
+    propose_new.add_argument("--limit", type=int, default=50, help="Maximum candidates to keep after filtering (default 50)")
+    propose_new.set_defaults(func=cmd_propose_new_entities)
+
+    verify_new = sub.add_parser("verify-new-entities", help="LLM-verify new entity candidates against canonical source evidence")
+    verify_new.add_argument("--limit", type=int, default=20, help="Maximum candidates to verify per run (default 20)")
+    verify_new.set_defaults(func=cmd_verify_new_entities)
+
+    apply_new = sub.add_parser("apply-verified-new-entities", help="Create stub vault pages for confirmed new entity candidates")
+    apply_new.add_argument("--apply", action="store_true", help="Write stub files; omit for dry-run")
+    apply_new.add_argument("--limit", type=int, default=None, help="Maximum confirmed candidates to apply (default unlimited)")
+    apply_new.set_defaults(func=cmd_apply_verified_new_entities)
 
     status = sub.add_parser("status", help="Summarize repo, Discord, and Blogspot source state")
     status.set_defaults(func=cmd_status)
