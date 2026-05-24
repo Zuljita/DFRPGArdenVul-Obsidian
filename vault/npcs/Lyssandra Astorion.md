@@ -29,6 +29,5 @@ Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A
 - She is interested in buying scrolls or spellbooks containing rare or unusual spells that she does not already know.
 
 ## Sessions
-- [[RawFiles/Discord/ArcanePractitionersClub.txt]]
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]

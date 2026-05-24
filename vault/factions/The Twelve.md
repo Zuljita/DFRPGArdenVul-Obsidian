@@ -25,4 +25,3 @@ PC clerics are discouraged from choosing patrons from The Twelve without special
 ## Members
 
 ## Sessions
-- [[RawFiles/Religion in Arden Vul.txt]]
