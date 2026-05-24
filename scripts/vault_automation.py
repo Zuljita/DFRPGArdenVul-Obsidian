@@ -1169,20 +1169,27 @@ def html_to_markdown(content_html: str) -> str:
 
 
 def parse_session_id(title: str) -> str | None:
-    match = re.search(r"\bSession\s+(\d+[a-z]?)\b", title, re.IGNORECASE)
-    return match.group(1) if match else None
+    # Match singular "Session 52a" or plural "Sessions 52b and 53" / "Sessions 8b and 9"
+    plural = re.search(r"\bSessions\s+(\d+[a-z]?(?:\s+and\s+\d+[a-z]?)+)\b", title, re.IGNORECASE)
+    if plural:
+        return plural.group(1)
+    singular = re.search(r"\bSession\s+(\d+[a-z]?)\b", title, re.IGNORECASE)
+    return singular.group(1) if singular else None
 
 
 def session_sort_key(session_id: str) -> tuple[int, str]:
-    match = re.match(r"(\d+)([a-z]?)$", session_id)
+    # Use the first numeric session in a compound id like "52b and 53" for sorting.
+    match = re.match(r"(\d+)([a-z]?)", session_id)
     if not match:
         return (10_000, session_id)
     return (int(match.group(1)), match.group(2))
 
 
 def session_display_title(title: str, session_id: str) -> str:
-    cleaned = re.sub(r"^DFRPG\s+(?:Arden Vul\s+)?Session\s+\S+\s*:\s*", "", title, flags=re.IGNORECASE).strip()
-    cleaned = re.sub(r"^Session\s+\S+\s*:\s*", "", cleaned, flags=re.IGNORECASE).strip()
+    # Strip the "DFRPG Arden Vul Session(s) <ids>:" prefix from the blog title.
+    prefix_pat = r"^DFRPG\s+(?:Arden Vul\s+)?Sessions?\s+\S+(?:\s+and\s+\S+)*\s*:\s*"
+    cleaned = re.sub(prefix_pat, "", title, flags=re.IGNORECASE).strip()
+    cleaned = re.sub(r"^Sessions?\s+\S+(?:\s+and\s+\S+)*\s*:\s*", "", cleaned, flags=re.IGNORECASE).strip()
     return cleaned or title
 
 
