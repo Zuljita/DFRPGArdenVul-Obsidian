@@ -42,7 +42,7 @@ importers:
         specifier: ^3.3.1
         version: 3.3.1(esbuild@0.27.0)(sass-embedded@1.93.3)
       flexsearch:
-        specifier: ^0.8.212
+        specifier: ^0.8.205
         version: 0.8.212
       github-slugger:
         specifier: ^2.0.0
@@ -87,7 +87,7 @@ importers:
         specifier: ^10.2.4
         version: 10.2.4
       pixi.js:
-        specifier: ^8.14.3
+        specifier: ^8.14.1
         version: 8.14.3
       preact:
         specifier: ^10.28.2
@@ -162,7 +162,7 @@ importers:
         specifier: ^0.34.5
         version: 0.34.5
       shiki:
-        specifier: ^1.29.2
+        specifier: ^1.26.2
         version: 1.29.2
       source-map-support:
         specifier: ^0.5.21
@@ -183,11 +183,11 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3
       workerpool:
-        specifier: ^10.0.1
+        specifier: ^10.0.0
         version: 10.0.1
       ws:
-        specifier: ^8.18.3
-        version: 8.18.3
+        specifier: ^8.20.1
+        version: 8.20.1
       yargs:
         specifier: ^18.0.0
         version: 18.0.0
@@ -220,7 +220,7 @@ importers:
         specifier: ^0.27.0
         version: 0.27.0
       prettier:
-        specifier: ^3.7.1
+        specifier: ^3.6.2
         version: 3.7.1
       tsx:
         specifier: ^4.20.6
@@ -2689,8 +2689,8 @@ packages:
     resolution: {integrity: sha512-42AtmgqjV+X1VpdOfyTGOYRi0/zsoLqtXQckTmqTeybT+BDIbM/Guxo7x3pE2vtpr1ok6xRqM9OpBe+Jyoqyww==}
     engines: {node: '>=18'}
 
-  ws@8.18.3:
-    resolution: {integrity: sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==}
+  ws@8.20.1:
+    resolution: {integrity: sha512-It4dO0K5v//JtTXuPkfEOaI3uUN87iYPnqo/ZzqCoG3g8uhA66QUMs/SrM0YK7/NAu+r4LMh/9dq2A7k+rHs+w==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -5380,7 +5380,7 @@ snapshots:
       string-width: 7.2.0
       strip-ansi: 7.1.2
 
-  ws@8.18.3: {}
+  ws@8.20.1: {}
 
   y18n@5.0.8: {}
 
