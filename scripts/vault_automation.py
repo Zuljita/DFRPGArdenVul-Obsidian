@@ -1712,6 +1712,29 @@ def score_article(path: Path, text: str) -> tuple[int, tuple[str, ...]]:
     return score, tuple(reasons)
 
 
+def build_article_queue_item(path: Path) -> ArticleQueueItem | None:
+    """Build a queue item for one article path, regardless of score. Accepts either
+    a relative repo path or an absolute one. Used for walk-cursor selections that
+    may include strong articles outside the weakest-N queue."""
+    abs_path = path if path.is_absolute() else (ROOT / path)
+    if not abs_path.exists() or abs_path.stem.lower() in {"index", "readme"}:
+        return None
+    text = read_text(abs_path)
+    score, reasons = score_article(abs_path, text)
+    title = article_title(abs_path, text)
+    aliases = article_aliases(text)
+    tags = article_tags(text)
+    return ArticleQueueItem(
+        path=abs_path.relative_to(ROOT).as_posix(),
+        title=title,
+        kind=article_kind(abs_path),
+        tags=tags,
+        score=score,
+        reasons=reasons,
+        queries=article_queue_queries(title, article_kind(abs_path), aliases, tags),
+    )
+
+
 def build_article_queue(limit: int = 30) -> list[ArticleQueueItem]:
     items: list[ArticleQueueItem] = []
     for folder in ENTITY_DIRS:
@@ -1719,26 +1742,10 @@ def build_article_queue(limit: int = 30) -> list[ArticleQueueItem]:
         if not root.exists():
             continue
         for path in sorted(root.glob("*.md")):
-            if path.stem.lower() in {"index", "readme"}:
+            item = build_article_queue_item(path)
+            if item is None or item.score <= 0:
                 continue
-            text = read_text(path)
-            score, reasons = score_article(path, text)
-            if score <= 0:
-                continue
-            title = article_title(path, text)
-            aliases = article_aliases(text)
-            tags = article_tags(text)
-            items.append(
-                ArticleQueueItem(
-                    path=path.relative_to(ROOT).as_posix(),
-                    title=title,
-                    kind=article_kind(path),
-                    tags=tags,
-                    score=score,
-                    reasons=reasons,
-                    queries=article_queue_queries(title, article_kind(path), aliases, tags),
-                )
-            )
+            items.append(item)
     items.sort(key=lambda item: (-item.score, item.kind, item.title.lower(), item.path))
     return items[:limit]
 
@@ -1988,6 +1995,58 @@ def verification_prompt(proposal: EntityLinkProposal) -> str:
     )
 
 
+def _parse_llm_json(content: str) -> dict:
+    """Best-effort JSON parse for LLM output. Tries: raw, stripped of code fences,
+    greedy {...} match, then bracket-counted slice. Raises if all fail."""
+    if not content:
+        raise ValueError("empty content")
+    candidates: list[str] = [content]
+    # Strip ```json ... ``` or ``` ... ``` fences if present.
+    fence = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", content, re.S)
+    if fence:
+        candidates.append(fence.group(1))
+    # Greedy first-{ ... last-} slice.
+    first = content.find("{")
+    last = content.rfind("}")
+    if first != -1 and last > first:
+        candidates.append(content[first:last + 1])
+    # Bracket-counted slice starting at first {, ignoring brackets inside strings.
+    if first != -1:
+        depth = 0
+        in_str = False
+        esc = False
+        end = -1
+        for i, ch in enumerate(content[first:], start=first):
+            if esc:
+                esc = False
+                continue
+            if ch == "\\":
+                esc = True
+                continue
+            if ch == '"':
+                in_str = not in_str
+                continue
+            if in_str:
+                continue
+            if ch == "{":
+                depth += 1
+            elif ch == "}":
+                depth -= 1
+                if depth == 0:
+                    end = i
+                    break
+        if end > first:
+            candidates.append(content[first:end + 1])
+    last_err: Exception | None = None
+    for cand in candidates:
+        try:
+            return json.loads(cand)
+        except json.JSONDecodeError as exc:
+            last_err = exc
+            continue
+    raise RuntimeError(f"could not parse LLM JSON: {last_err}; content head: {content[:200]!r}")
+
+
 def llm_chat_json(prompt: str, timeout: int = 90) -> dict:
     sources = load_local_sources()
     base_url = sources.get("llm_base_url")
@@ -2009,7 +2068,7 @@ def llm_chat_json(prompt: str, timeout: int = 90) -> dict:
             {"role": "user", "content": prompt},
         ],
         "temperature": 0.0,
-        "max_tokens": 4096,
+        "max_tokens": 8192,
     }
     request = urllib.request.Request(
         url,
@@ -2021,11 +2080,11 @@ def llm_chat_json(prompt: str, timeout: int = 90) -> dict:
         body = json.loads(response.read().decode("utf-8"))
     choice = body["choices"][0]
     content = choice["message"].get("content") or ""
-    match = re.search(r"\{.*\}", content, flags=re.S)
-    if not match:
+    try:
+        return _parse_llm_json(content)
+    except Exception as exc:
         finish_reason = choice.get("finish_reason", "unknown")
-        raise RuntimeError(f"LLM verifier did not return JSON; finish_reason={finish_reason}; content={content[:200]}")
-    return json.loads(match.group(0))
+        raise RuntimeError(f"LLM JSON parse failed; finish_reason={finish_reason}; err={exc}") from exc
 
 
 def verify_entity_link_proposals(limit: int = 25) -> list[dict]:
@@ -3077,11 +3136,11 @@ def article_edit_proposer_prompt(
     article_title: str,
     article_kind: str,
 ) -> str:
-    article_excerpt = article_text[:2500]
+    article_excerpt = article_text[:2000]
     blocks = []
     for c in source_chunks:
         blocks.append(
-            f"[{c.get('path','?')} §{c.get('section','?')} kind={c.get('kind','?')}]\n{(c.get('text') or '')[:1500]}"
+            f"[{c.get('path','?')} §{c.get('section','?')} kind={c.get('kind','?')}]\n{(c.get('text') or '')[:900]}"
         )
     sources_text = "\n\n---\n\n".join(blocks)
     return (
@@ -3123,10 +3182,13 @@ def article_edit_proposer_prompt(
     )
 
 
-def gather_article_research_chunks(item: ArticleQueueItem, top_k_per_query: int = 3, max_chunks: int = 10) -> list[dict]:
+def gather_article_research_chunks(item: ArticleQueueItem, top_k_per_query: int = 5, max_chunks: int = 12) -> list[dict]:
+    """Collect candidate research chunks from vault-rag for an article.
+    Reorders results so chunks that literally mention the article title come first,
+    since multi-topic chunks often bury the most relevant evidence below pure name-similarity."""
     seen: set[tuple] = set()
     chunks: list[dict] = []
-    for q in list(item.queries)[:5]:
+    for q in list(item.queries)[:6]:
         try:
             hits = vault_rag_search(q, top_k=top_k_per_query)
         except Exception:
@@ -3140,7 +3202,16 @@ def gather_article_research_chunks(item: ArticleQueueItem, top_k_per_query: int 
             seen.add(key)
             chunks.append(h)
             if len(chunks) >= max_chunks:
-                return chunks
+                break
+        if len(chunks) >= max_chunks:
+            break
+    # Boost chunks that literally contain the article title.
+    title_l = item.title.lower()
+    def _key(h: dict) -> tuple[int, float]:
+        text = (h.get("text") or "").lower()
+        has_title = 0 if title_l in text else 1
+        return (has_title, h.get("distance", 1.0))
+    chunks.sort(key=_key)
     return chunks
 
 
@@ -3148,17 +3219,27 @@ def build_article_edit_proposals(
     article_paths: list[Path] | None = None,
     limit: int = 5,
     max_additions_per_article: int = 3,
-    top_k_per_query: int = 3,
+    top_k_per_query: int = 5,
 ) -> list[ArticleEditProposal]:
     queue = build_article_queue(limit=200)
     if article_paths:
-        wanted = set()
+        wanted_paths: list[str] = []
         for p in article_paths:
             try:
-                wanted.add(p.relative_to(ROOT).as_posix() if p.is_absolute() else p.as_posix())
+                wanted_paths.append(p.relative_to(ROOT).as_posix() if p.is_absolute() else p.as_posix())
             except ValueError:
-                wanted.add(p.as_posix())
-        items = [it for it in queue if it.path in wanted]
+                wanted_paths.append(p.as_posix())
+        # Preserve caller order; fall back to building a queue item for paths
+        # that are outside the weakest-N queue so walk-cursor articles still process.
+        by_path = {it.path: it for it in queue}
+        items = []
+        for rel in wanted_paths:
+            if rel in by_path:
+                items.append(by_path[rel])
+                continue
+            built = build_article_queue_item(ROOT / rel)
+            if built is not None:
+                items.append(built)
     else:
         items = queue[:limit]
     proposals: list[ArticleEditProposal] = []
