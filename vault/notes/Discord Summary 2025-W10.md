@@ -63,3 +63,10 @@ tags:
 ---
 *Distilled: 2026-03-18*
 *Source: Discord Summary 2025-W10.md*
+
+## Session Navigation
+
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W09.md|Discord Summary 2025-W09]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]]
+<!-- END AUTO NAV -->

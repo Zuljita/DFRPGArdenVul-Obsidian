@@ -18,3 +18,10 @@ tags:
 ---
 *Distilled: 2026-03-18*
 *Original generated: 2026-03-16 21:00*
+
+## Session Navigation
+
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W31.md|Discord Summary 2025-W31]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W33.md|Discord Summary 2025-W33]]
+<!-- END AUTO NAV -->
