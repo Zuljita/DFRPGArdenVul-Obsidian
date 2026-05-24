@@ -207,6 +207,21 @@ class EntityLinkProposal:
     status: str
 
 
+@dataclass
+class ArticleEditProposal:
+    article_path: str
+    article_title: str
+    article_kind: str
+    article_score: int
+    addition_type: str
+    target_section: str
+    proposed_text: str
+    rationale: str
+    sources: list[dict]
+    status: str = "needs-verification"
+    proposal_id: str = ""
+
+
 @dataclass(frozen=True)
 class ArticleQueueItem:
     path: str
@@ -2416,6 +2431,457 @@ def vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> lis
     return hits
 
 
+# ---- article-edit research lane ----
+
+ARTICLE_EDIT_ADDITION_TYPES = {"append_bullet_to_section", "add_alias", "extend_summary"}
+
+
+def article_edit_proposer_prompt(
+    article_text: str,
+    source_chunks: list[dict],
+    article_path: str,
+    article_title: str,
+    article_kind: str,
+) -> str:
+    article_excerpt = article_text[:2500]
+    blocks = []
+    for c in source_chunks:
+        blocks.append(
+            f"[{c.get('path','?')} §{c.get('section','?')} kind={c.get('kind','?')}]\n{(c.get('text') or '')[:1500]}"
+        )
+    sources_text = "\n\n---\n\n".join(blocks)
+    return (
+        "You are an Obsidian vault research assistant for the Arden Vul DFRPG tabletop campaign.\n\n"
+        f"CURRENT ARTICLE PAGE: {article_path}\n"
+        f"Title: {article_title}\n"
+        f"Kind: {article_kind}\n"
+        "Content:\n---\n"
+        f"{article_excerpt}\n"
+        "---\n\n"
+        "SOURCE EVIDENCE retrieved from canonical vault sources (Blogspot recaps in vault/sessions/, "
+        "weekly Discord digests in vault/notes/, lore docs in vault/lore/, and ignored spreadsheet snapshots):\n\n"
+        f"{sources_text}\n\n"
+        "YOUR TASK: Propose at most 3 small, sourced additions to the article based ONLY on the source evidence above. "
+        "Be conservative: do not invent facts, do not paraphrase loosely, do not propose changes already present in the article.\n\n"
+        "Allowed addition types:\n"
+        "- \"append_bullet_to_section\": Add ONE wikilinked bullet to an existing H2 section (e.g. \"Sessions\", "
+        "\"Appears In\", \"Notes\", \"Connections\"). target_section must match an existing H2 heading in the article.\n"
+        "- \"add_alias\": Add ONE alternate name to the frontmatter aliases list. target_section must be \"aliases\".\n"
+        "- \"extend_summary\": Add ONE short factual sentence to the Summary section. target_section must be \"Summary\". "
+        "Use only when strongly supported.\n\n"
+        "Every proposal MUST cite a specific source excerpt by path and section. The excerpt should be a short verbatim "
+        "quote from the source content, not a paraphrase.\n\n"
+        "Return strict JSON only. No commentary, no markdown fences, no preamble. Schema:\n"
+        "{\n"
+        '  "proposals": [\n'
+        "    {\n"
+        '      "addition_type": "append_bullet_to_section",\n'
+        '      "target_section": "Sessions",\n'
+        '      "proposed_text": "- [[sessions/Session 27 - Tomb of Ptoh-Ristus.md|Session 27 - Tomb of Ptoh-Ristus]]",\n'
+        '      "rationale": "Article mentions Ptoh-Ristus but lacks the canonical session reference.",\n'
+        '      "sources": [\n'
+        '        {"path": "vault/sessions/Session 27 - Tomb of Ptoh-Ristus.md", "section": "Full Recap", "excerpt": "<short verbatim quote>"}\n'
+        "      ]\n"
+        "    }\n"
+        "  ]\n"
+        "}\n\n"
+        "Return {\"proposals\": []} if the evidence does not support any addition."
+    )
+
+
+def gather_article_research_chunks(item: ArticleQueueItem, top_k_per_query: int = 3, max_chunks: int = 10) -> list[dict]:
+    seen: set[tuple] = set()
+    chunks: list[dict] = []
+    for q in list(item.queries)[:5]:
+        try:
+            hits = vault_rag_search(q, top_k=top_k_per_query)
+        except Exception:
+            continue
+        for h in hits:
+            if h.get("path") == item.path:
+                continue
+            key = (h.get("path"), h.get("section"))
+            if key in seen:
+                continue
+            seen.add(key)
+            chunks.append(h)
+            if len(chunks) >= max_chunks:
+                return chunks
+    return chunks
+
+
+def build_article_edit_proposals(
+    article_paths: list[Path] | None = None,
+    limit: int = 5,
+    max_additions_per_article: int = 3,
+    top_k_per_query: int = 3,
+) -> list[ArticleEditProposal]:
+    queue = build_article_queue(limit=200)
+    if article_paths:
+        wanted = set()
+        for p in article_paths:
+            try:
+                wanted.add(p.relative_to(ROOT).as_posix() if p.is_absolute() else p.as_posix())
+            except ValueError:
+                wanted.add(p.as_posix())
+        items = [it for it in queue if it.path in wanted]
+    else:
+        items = queue[:limit]
+    proposals: list[ArticleEditProposal] = []
+    for item in items:
+        path = ROOT / item.path
+        if not path.exists():
+            continue
+        article_text = read_text(path)
+        chunks = gather_article_research_chunks(item, top_k_per_query=top_k_per_query)
+        if not chunks:
+            continue
+        prompt = article_edit_proposer_prompt(
+            article_text, chunks, item.path, item.title, item.kind
+        )
+        try:
+            response = llm_chat_json(prompt, timeout=120)
+        except Exception:
+            continue
+        raw_proposals = response.get("proposals") or []
+        for raw in raw_proposals[:max_additions_per_article]:
+            if not isinstance(raw, dict):
+                continue
+            addition_type = str(raw.get("addition_type", "")).strip()
+            if addition_type not in ARTICLE_EDIT_ADDITION_TYPES:
+                continue
+            target_section = str(raw.get("target_section", "")).strip()
+            proposed_text = str(raw.get("proposed_text", "")).strip()
+            rationale = str(raw.get("rationale", "")).strip()
+            sources: list[dict] = []
+            for src in (raw.get("sources") or []):
+                if isinstance(src, dict) and src.get("path"):
+                    sources.append({
+                        "path": str(src.get("path", "")),
+                        "section": str(src.get("section", "")),
+                        "excerpt": str(src.get("excerpt", ""))[:400],
+                    })
+            if not sources or not proposed_text or not target_section:
+                continue
+            proposal_id = hashlib.sha1(
+                f"{item.path}|{addition_type}|{target_section}|{proposed_text}".encode("utf-8")
+            ).hexdigest()[:12]
+            proposals.append(ArticleEditProposal(
+                article_path=item.path,
+                article_title=item.title,
+                article_kind=item.kind,
+                article_score=item.score,
+                addition_type=addition_type,
+                target_section=target_section,
+                proposed_text=proposed_text,
+                rationale=rationale,
+                sources=sources,
+                status="needs-verification",
+                proposal_id=proposal_id,
+            ))
+    return proposals
+
+
+def write_article_edit_proposal_report(proposals: list[ArticleEditProposal]) -> None:
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    proposals_dir.mkdir(parents=True, exist_ok=True)
+    write_json(proposals_dir / "article_edit_proposals.json", [asdict(p) for p in proposals])
+    lines: list[str] = ["# Article Edit Proposals", ""]
+    by_article: dict[str, list[ArticleEditProposal]] = {}
+    for p in proposals:
+        by_article.setdefault(p.article_path, []).append(p)
+    for article_path, props in sorted(by_article.items()):
+        lines.append(f"## {article_path}")
+        first = props[0]
+        lines.append(f"score={first.article_score} kind={first.article_kind}")
+        lines.append("")
+        for p in props:
+            lines.append(f"### {p.proposal_id} — `{p.addition_type}` → `{p.target_section}`")
+            lines.append(f"**Proposed**: {p.proposed_text}")
+            lines.append(f"**Rationale**: {p.rationale}")
+            if p.sources:
+                lines.append("**Sources**:")
+                for s in p.sources:
+                    excerpt = (s.get("excerpt", "") or "").replace("|", "\\|").replace("\n", " ")
+                    lines.append(f"- `{s.get('path','')}` §{s.get('section','')}: > {excerpt}")
+            lines.append("")
+    (proposals_dir / "article_edit_proposals.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def article_edit_verifier_prompt(proposal: ArticleEditProposal) -> str:
+    article_full_path = ROOT / proposal.article_path
+    article_text = read_text(article_full_path)[:1800] if article_full_path.exists() else ""
+    source_blocks: list[str] = []
+    for src in proposal.sources:
+        src_path = ROOT / src.get("path", "")
+        if not src_path.exists():
+            source_blocks.append(f"[{src.get('path','')} §{src.get('section','?')}]\nSOURCE FILE NOT FOUND")
+            continue
+        src_text = read_text(src_path)
+        section = src.get("section", "")
+        excerpt = (src.get("excerpt", "") or "").strip()
+        window = ""
+        # Prefer to center the window on the cited excerpt if we can find it verbatim.
+        needle = excerpt[:80].strip() if excerpt else ""
+        excerpt_idx = src_text.find(needle) if needle else -1
+        if excerpt_idx >= 0:
+            start = max(0, excerpt_idx - 1200)
+            end = min(len(src_text), excerpt_idx + 2000)
+            window = src_text[start:end]
+        # Fallback: full section bounded by next H2.
+        if not window and section:
+            sec_pat = re.compile(rf"^## {re.escape(section)}\s*$", re.MULTILINE)
+            m = sec_pat.search(src_text)
+            if m:
+                end_search = re.search(r"^## ", src_text[m.end():], re.MULTILINE)
+                end = m.end() + end_search.start() if end_search else len(src_text)
+                # Allow up to 6000 chars so multi-paragraph sections aren't truncated.
+                window = src_text[m.start():min(end, m.start() + 6000)]
+        # Last resort: the start of the file.
+        if not window:
+            window = src_text[:3000]
+        source_blocks.append(f"[{src.get('path','')} §{section or '?'}]\n{window}")
+    sources_text = "\n\n---\n\n".join(source_blocks)
+    return (
+        "Verify whether the proposed article addition is supported by the cited canonical sources.\n\n"
+        "PROPOSED ADDITION:\n"
+        f"- For article: {proposal.article_path}\n"
+        f"- Article title: {proposal.article_title}\n"
+        f"- Article kind: {proposal.article_kind}\n"
+        f"- Addition type: {proposal.addition_type}\n"
+        f"- Target section: {proposal.target_section}\n"
+        f"- Proposed text: {proposal.proposed_text}\n"
+        f"- Proposer rationale: {proposal.rationale}\n\n"
+        "CURRENT ARTICLE CONTENT (for awareness only — verification is against the cited sources, not the article):\n"
+        "---\n"
+        f"{article_text}\n"
+        "---\n\n"
+        "CITED SOURCES (verbatim from disk):\n\n"
+        f"{sources_text}\n\n"
+        "Classify the proposed addition strictly:\n"
+        "- \"supported\": cited sources clearly support adding this content to the article.\n"
+        "- \"contradicted\": cited sources contain evidence against this content.\n"
+        "- \"ambiguous\": sources mention the topic but do not clearly support the specific claim.\n"
+        "- \"not_found\": cited sources do not contain content relevant to the proposed addition.\n\n"
+        "Return strict JSON only:\n"
+        "{\n"
+        '  "status": "supported|contradicted|ambiguous|not_found",\n'
+        '  "rationale": "<one sentence grounded in the cited source content>",\n'
+        '  "evidence": "<short verbatim quote from one cited source if status=supported, else empty string>"\n'
+        "}"
+    )
+
+
+def verify_article_edit_proposals(limit: int = 10) -> list[dict]:
+    proposals_path = AUTOMATION_DIR / "proposals" / "article_edit_proposals.json"
+    if not proposals_path.exists():
+        raise RuntimeError("article_edit_proposals.json not found; run propose-article-edits first")
+    raw = json.loads(proposals_path.read_text(encoding="utf-8"))
+    proposals = [ArticleEditProposal(**r) for r in raw]
+    out: list[dict] = []
+    for p in proposals[:limit]:
+        try:
+            response = llm_chat_json(article_edit_verifier_prompt(p), timeout=120)
+            status = str(response.get("status", "unknown"))
+            rationale = str(response.get("rationale", ""))
+            evidence = str(response.get("evidence", ""))
+        except Exception as exc:
+            status = "error"
+            rationale = str(exc)[:200]
+            evidence = ""
+        result = asdict(p)
+        result["verifier_status"] = status
+        result["verifier_rationale"] = rationale
+        result["verifier_evidence"] = evidence
+        out.append(result)
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    write_json(proposals_dir / "article_edit_verifications.json", out)
+    lines: list[str] = ["# Article Edit Verifications", ""]
+    by_status: dict[str, list[dict]] = {}
+    for r in out:
+        by_status.setdefault(r["verifier_status"], []).append(r)
+    for status in ["supported", "contradicted", "ambiguous", "not_found", "error", "unknown"]:
+        items = by_status.get(status, [])
+        if not items:
+            continue
+        lines.append(f"## {status} ({len(items)})")
+        lines.append("")
+        for r in items:
+            lines.append(f"### {r['proposal_id']} — {r['article_path']}")
+            lines.append(f"**Type**: `{r['addition_type']}` → `{r['target_section']}`")
+            lines.append(f"**Proposed**: {r['proposed_text']}")
+            lines.append(f"**Verifier**: {r['verifier_rationale']}")
+            ev = (r.get("verifier_evidence") or "").replace("|", "\\|").replace("\n", " ")
+            if ev:
+                lines.append(f"**Evidence**: > {ev}")
+            lines.append("")
+    (proposals_dir / "article_edit_verifications.md").write_text("\n".join(lines), encoding="utf-8")
+    return out
+
+
+def apply_article_edit_to_text(text: str, edit: dict) -> tuple[str, bool, str]:
+    addition_type = edit.get("addition_type", "")
+    target_section = edit.get("target_section", "")
+    proposed_text = (edit.get("proposed_text", "") or "").rstrip()
+    if not proposed_text:
+        return text, False, "empty proposed_text"
+    if proposed_text in text:
+        return text, False, "already present"
+    if addition_type == "append_bullet_to_section":
+        pat = re.compile(rf"^## {re.escape(target_section)}\s*$", re.MULTILINE)
+        m = pat.search(text)
+        if not m:
+            return text, False, f"section '{target_section}' not found"
+        rest_start = m.end()
+        next_h2 = re.search(r"^## ", text[rest_start:], re.MULTILINE)
+        if next_h2:
+            insert_at = rest_start + next_h2.start()
+            before = text[:insert_at].rstrip()
+            after = text[insert_at:]
+            new = before + "\n" + proposed_text + "\n\n" + after
+        else:
+            new = text.rstrip() + "\n" + proposed_text + "\n"
+        return new, True, "appended bullet"
+    if addition_type == "add_alias":
+        fm_match = re.match(r"^---\n(.*?)\n---\n", text, re.DOTALL)
+        if not fm_match:
+            return text, False, "no frontmatter"
+        alias_text = proposed_text.strip()
+        fm = fm_match.group(1)
+        rest = text[fm_match.end():]
+        if re.search(rf"(^|\s){re.escape(alias_text)}(\s|$)", fm):
+            return text, False, "alias already present"
+        am = re.search(r"^aliases:[ \t]*(.*)$", fm, re.MULTILINE)
+        if am:
+            line = am.group(0)
+            value = am.group(1).strip()
+            if value in ("", "[]"):
+                new_line = f"aliases:\n  - {alias_text}"
+                new_fm = fm.replace(line, new_line, 1)
+            elif value.startswith("[") and value.endswith("]"):
+                inner = value[1:-1].strip()
+                items = [s.strip() for s in inner.split(",") if s.strip()] if inner else []
+                items.append(alias_text)
+                new_line = f"aliases: [{', '.join(items)}]"
+                new_fm = fm.replace(line, new_line, 1)
+            else:
+                new_line = line + f"\n  - {alias_text}"
+                new_fm = fm.replace(line, new_line, 1)
+        else:
+            new_fm = fm.rstrip() + f"\naliases:\n  - {alias_text}"
+        return "---\n" + new_fm + "\n---\n" + rest, True, "added alias"
+    if addition_type == "extend_summary":
+        pat = re.compile(r"^## Summary\s*$", re.MULTILINE)
+        m = pat.search(text)
+        if not m:
+            return text, False, "no Summary section"
+        rest_start = m.end()
+        next_h2 = re.search(r"^## ", text[rest_start:], re.MULTILINE)
+        end = rest_start + next_h2.start() if next_h2 else len(text)
+        before = text[:end].rstrip()
+        after = text[end:]
+        new = before + "\n\n" + proposed_text + "\n\n" + after
+        return new, True, "extended summary"
+    return text, False, f"unsupported addition_type: {addition_type}"
+
+
+def apply_verified_article_edits(apply_changes: bool, limit: int | None = None) -> dict:
+    ver_path = AUTOMATION_DIR / "proposals" / "article_edit_verifications.json"
+    if not ver_path.exists():
+        return {"ok": False, "error": "verifications_not_found", "hint": "Run verify-article-edits first"}
+    verifications = json.loads(ver_path.read_text(encoding="utf-8"))
+    supported = [v for v in verifications if v.get("verifier_status") == "supported"]
+    if limit is not None:
+        supported = supported[:limit]
+    by_article: dict[str, list[dict]] = {}
+    for v in supported:
+        by_article.setdefault(v["article_path"], []).append(v)
+    results: list[dict] = []
+    for article_path, edits in by_article.items():
+        full_path = ROOT / article_path
+        if not full_path.exists():
+            results.append({"article_path": article_path, "applied": 0, "skipped": len(edits), "error": "file_not_found"})
+            continue
+        text = read_text(full_path)
+        applied = 0
+        per_edit: list[dict] = []
+        for v in edits:
+            new_text, changed, reason = apply_article_edit_to_text(text, v)
+            per_edit.append({
+                "proposal_id": v.get("proposal_id"),
+                "addition_type": v.get("addition_type"),
+                "target_section": v.get("target_section"),
+                "changed": changed,
+                "reason": reason,
+            })
+            if changed:
+                text = new_text
+                applied += 1
+        if applied and apply_changes:
+            full_path.write_text(text, encoding="utf-8")
+        results.append({
+            "article_path": article_path,
+            "applied": applied,
+            "skipped": len(edits) - applied,
+            "edits": per_edit,
+        })
+    return {
+        "ok": True,
+        "mode": "apply" if apply_changes else "dry-run",
+        "supported_count": len(supported),
+        "articles_touched": len(by_article),
+        "total_applied": sum(r["applied"] for r in results),
+        "results": results,
+    }
+
+
+def cmd_propose_article_edits(args: argparse.Namespace) -> int:
+    article_paths = [Path(args.article)] if args.article else None
+    proposals = build_article_edit_proposals(
+        article_paths=article_paths,
+        limit=args.limit,
+        max_additions_per_article=args.max_additions_per_article,
+        top_k_per_query=args.top_k_per_query,
+    )
+    write_article_edit_proposal_report(proposals)
+    summary = {
+        "ok": True,
+        "proposal_count": len(proposals),
+        "articles_with_proposals": len({p.article_path for p in proposals}),
+        "markdown": str(AUTOMATION_DIR / "proposals" / "article_edit_proposals.md"),
+        "json": str(AUTOMATION_DIR / "proposals" / "article_edit_proposals.json"),
+    }
+    print(json.dumps(summary, indent=2))
+    return 0
+
+
+def cmd_verify_article_edits(args: argparse.Namespace) -> int:
+    try:
+        verifications = verify_article_edit_proposals(limit=args.limit)
+    except RuntimeError as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    counts: dict[str, int] = {}
+    for v in verifications:
+        st = v.get("verifier_status", "unknown")
+        counts[st] = counts.get(st, 0) + 1
+    summary = {
+        "ok": True,
+        "verified_count": len(verifications),
+        "status_counts": counts,
+        "markdown": str(AUTOMATION_DIR / "proposals" / "article_edit_verifications.md"),
+        "json": str(AUTOMATION_DIR / "proposals" / "article_edit_verifications.json"),
+    }
+    print(json.dumps(summary, indent=2))
+    return 0
+
+
+def cmd_apply_verified_article_edits(args: argparse.Namespace) -> int:
+    result = apply_verified_article_edits(apply_changes=args.apply, limit=args.limit)
+    print(json.dumps(result, indent=2))
+    return 0 if result.get("ok") else 2
+
+
 def cmd_discover(args: argparse.Namespace) -> int:
     payload = build_source_manifest(args.blog_feed)
     if args.write:
@@ -2822,6 +3288,22 @@ def build_parser() -> argparse.ArgumentParser:
     search_vault_rag.add_argument("--kind", choices=["session", "summary", "lore", "spreadsheet"], default=None, help="Filter by chunk kind")
     search_vault_rag.add_argument("--full", action="store_true", help="Print full chunk text instead of a 300-char preview")
     search_vault_rag.set_defaults(func=cmd_vault_rag_search)
+
+    propose_article = sub.add_parser("propose-article-edits", help="Generate sourced article edit proposals via vault-rag + LLM")
+    propose_article.add_argument("--limit", type=int, default=5, help="Number of top-scored queue articles to process (ignored when --article is set)")
+    propose_article.add_argument("--article", default=None, help="Process a single article by repo-relative path (e.g. vault/npcs/Pelteon.md)")
+    propose_article.add_argument("--max-additions-per-article", type=int, default=3, help="Maximum proposals to keep per article (default 3)")
+    propose_article.add_argument("--top-k-per-query", type=int, default=3, help="vault-rag top_k per generated research query (default 3)")
+    propose_article.set_defaults(func=cmd_propose_article_edits)
+
+    verify_article = sub.add_parser("verify-article-edits", help="LLM-verify article edit proposals against canonical sources")
+    verify_article.add_argument("--limit", type=int, default=10, help="Maximum proposals to verify (default 10)")
+    verify_article.set_defaults(func=cmd_verify_article_edits)
+
+    apply_article = sub.add_parser("apply-verified-article-edits", help="Apply supported article edits to vault files")
+    apply_article.add_argument("--apply", action="store_true", help="Write changes to vault files; omit for dry-run")
+    apply_article.add_argument("--limit", type=int, default=None, help="Maximum supported edits to consider")
+    apply_article.set_defaults(func=cmd_apply_verified_article_edits)
 
     status = sub.add_parser("status", help="Summarize repo, Discord, and Blogspot source state")
     status.set_defaults(func=cmd_status)
