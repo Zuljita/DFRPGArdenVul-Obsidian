@@ -4184,11 +4184,4 @@ def main(argv: list[str] | None = None) -> int:
 
 
 if __name__ == "__main__":
-    # Use os._exit to bypass Python interpreter cleanup, which triggers a
-    # chromadb C-extension segfault on PersistentClient teardown (harmless
-    # but produces rc=139 in cron logs). All meaningful writes are
-    # synchronous, so skipping atexit/gc is safe.
-    rc = main()
-    sys.stdout.flush()
-    sys.stderr.flush()
-    os._exit(rc)
+    raise SystemExit(main())
