@@ -1,0 +1,15 @@
+---
+tags:
+  - location
+  - identity/uncertain
+status: stub
+---
+
+# Cloister
+
+## Summary
+A location within the campaign world used as part of a traversal route and identified for security prioritization.
+
+## Sources
+- [[vault/sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
+- [[vault/notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]

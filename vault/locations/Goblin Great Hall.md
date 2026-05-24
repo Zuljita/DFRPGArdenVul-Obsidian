@@ -8,3 +8,4 @@ tags:
 
 ## Notes
 TBD
+- [[sessions/Session 33 - Nyema.md|Session 33]] — Temrin was seen sitting in his stall here.
