@@ -30,6 +30,7 @@
 
 ## Security & Configuration Tips
 - Do not include secrets or personal data; redact sensitive details.
+- Do not copy raw Discord transcripts, raw chat exports, local source paths, or bulk private message material into this repository. Discord source material belongs outside the repo; the vault should ingest only finished weekly digests and sourced summaries.
 - `.obsidian/` is editor config; keep minimal and avoid plugin-specific features when possible.
 - Contributors sync/edit only `vault/`. Maintainer handles Quartz builds and hosting.
 
@@ -38,10 +39,17 @@ Thoroughness is more important than speed or brevity.
 
 ## LLM-First Data Processing SOP
 - Curate with LLM: When adding or adapting a note, use an LLM pass to identify canonical entities and map them to existing pages. Favor merges into existing pages over creating new files.
+- Do not rely on regex-style entity extraction, capitalization rules, or basic grammatical extraction as authority. Human game notes contain typos, inconsistent names, interrupted grammar, and table shorthand. Use deterministic text processing for indexing, fuzzy matching, guardrails, and syntax repair only.
+- Verify LLM output against canonical sources. Any candidate, alias, claim, merge, or article edit must be checked against Blogspot session recaps and Discord digest/chat source material before promotion. Higher-risk edits need a second LLM verifier that cites the supporting excerpt or rejects the claim.
+- Expect typos and near-duplicates. Use fuzzy matching, known aliases, chronology, local context, and entity type before creating a new page. Ambiguous matches go to review with competing candidates and evidence.
 - Canonical naming: Use the concise, proper name only (e.g., `Forum of Set`), not contextual fragments like “Date”, “We”, “That”, “Over”, or sentence adverbs (e.g., “Finally”, “However”). Do not create files like `Proper Noun Date.md`.
 - Non-entities to ignore: Common words and scaffolding terms — e.g., that, this, we, I, you, they, also, however, finally, first, second, third, over, under, ahead, before, after, again, great, four — are never entities.
 - Merge variants: Treat “X Date”, “X Over”, “X We”, etc. as content for the canonical `X` page. Fold timelines/notes under sections on the canonical page (e.g., “Timeline”, “Notes”) and remove the fragment pages.
 - Resolve by aliases: Prefer updating frontmatter `aliases` on the canonical page to capture alternate spellings/epithets; update links to point at the canonical file.
+- Use tags as retrieval hints, not proof. Namespaced tags such as `race/undead`, `type/ghost`, `status/deceased`, `faction/<slug>`, `culture/<slug>`, `site/<slug>`, and `session/<id>` help RAG and LLM review find possible identity matches across sessions. Shared tags can raise a same-entity hypothesis, but aliases, merges, and identity claims still require canonical source evidence and verifier approval.
+- Preserve downtime media discoveries. Books, scrolls, maps, inscriptions, data crystals, catalogs, and library collections are source-bearing artifacts. When Discord digests or recaps report that the party read, translated, copied, mapped, or identified one, update the relevant media page/catalog and any derived lore/entity pages only with sourced bullets.
+- Treat the shared group spreadsheet as structured table data when configured locally. It can inform PC sheets, inventories, loot, media catalogs, maps, and downtime state, but narrative identity/lore claims still need Blogspot or weekly digest verification before promotion. Do not hardcode spreadsheet URLs in tracked files.
+- Prefer spreadsheet data for loot/inventory over stale PC article maintenance, but reconcile it against Discord digest evidence for destroyed, consumed, lost, sold, broken, or left-behind items before promoting it as current inventory.
 - Link in context: Insert wikilinks to the canonical page. Use `[[Page Name]]` when unique; use `[[folder/Page Name.md|Page Name]]` only when disambiguation is needed.
 - Validate: Preview or build Quartz and fix any missing links. Create stubs only when a truly new, substantive entity is introduced.
 
@@ -58,7 +66,7 @@ Thoroughness is more important than speed or brevity.
 - Keep prompts lean: Ask for “candidates only” (NPC/Location/Faction/Item), Title Case, no mapping or inventions.
 - Timeouts: Prefer 60–180s for longer chunks; set `max_tokens` to 300–600; `temperature` 0.1–0.2.
 - Validate locally: Do the mapping to canonical files via filename/aliases in the repo. Reject generics/roles unless they have a page.
-- Deterministic before model: Use regex/script passes to fix link syntax (nested `[[…[[…`), close `]]`, and standardize obvious targets. Use the model to assist discovery, not mechanical edits.
+- Deterministic support around model: Use scripts to fix link syntax (nested `[[…[[…`), close `]]`, standardize already-known targets, fuzzy-match aliases, and enforce guardrails. Do not use regex or grammar extraction as the source of truth for entities or facts.
 
 ### Example Prompts
 - Candidate extraction: “From the text, list entity candidates grouped by type (NPC, Location, Faction, Item). Title Case; exclude generics and scaffolding words; do not invent; no mapping.”
@@ -110,15 +118,15 @@ This vault uses a three‑phase, LLM‑assisted intake flow for any new narrativ
 - ACE — Article Candidate Enrichment
 - LCE — Location Connections Extraction
 
-The SOP emphasizes determinism first (regex/rg passes), then constrained LLM assists, and finally conservative edits with sources.
+The SOP emphasizes source preservation, LLM reasoning, independent verification, and conservative edits with sources. Deterministic scripts provide guardrails and syntax repair, but they do not decide campaign facts or entity identity by themselves.
 
 ### IAC: Identify Article Candidates
 - Goal: From the new text, list canonical entity candidates by type (NPC, Location, Faction, Item). Do not map or invent.
-- Deterministic pre‑pass: fix malformed wikilinks, close brackets, normalize obvious targets.
+- Deterministic pre‑pass: fix malformed wikilinks, close brackets, and normalize already-known targets. Do not extract entities from regexes, capitalization, or grammar tags alone.
 - Prompt (candidates only):
   - “From the text, list entity candidates grouped by type (NPC, Location, Faction, Item). Title Case; exclude generics and scaffolding words; do not invent; no mapping.”
 - Settings: temperature 0.1–0.2, max_tokens 300–600, chunk size 2–3k chars.
-- Output: short list per type (no descriptions). Use this to drive ACE.
+- Output: short list per type (no descriptions). Use fuzzy matching, aliases, chronology, and local context before treating a candidate as new. Use this to drive ACE.
 
 ### ACE: Article Candidate Enrichment
 - Goal: Create/update minimal pages for true entities, with safe frontmatter and short summaries (no invention).
@@ -128,8 +136,11 @@ The SOP emphasizes determinism first (regex/rg passes), then constrained LLM ass
   - Items: `tags: [item/<weapon|armor|magic|mundane>]` inferred only if stated.
   - Factions: `tags: [faction]`.
   - Locations: `tags: [location]`; add `entrance` only for proven access points.
+- Identity tags: add `type/<value>`, `status/<value>`, `title/<value>`, `faction/<slug>`, `culture/<slug>`, `site/<slug>`, and `session/<id>` only when the source supports them. Use `identity/uncertain`, `identity/possible-alias`, or `identity/possible-duplicate` to queue review; do not use those tags as final conclusions.
+- Media tags: use `media/book`, `media/map`, `media/data-crystal`, `media/scroll`, `media/library`, `language/<slug>`, `repository/<slug>`, `topic/<slug>`, `reading/<unread|partial|read>`, and `translation/<untranslated|partial|complete>` when supported. These tags should help retrieval find related readings, not replace citations.
 - Aliases: add alternate spellings/epithets on the canonical page; update links to canonical where safe.
 - Stubs: include 1–2 sentence summary + “Sources” sessions; no speculation.
+- Verification: every added claim must be supported by a Blogspot recap or Discord digest/chat excerpt. A second LLM verification pass should classify the claim as supported, contradicted, ambiguous, or not found before automatic promotion.
 
 ### LCE: Location Connections Extraction
 - Goal: Populate `## Connections` (and `## Sources`) on location pages with explicit, sourced routes.

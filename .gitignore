@@ -8,6 +8,8 @@ __pycache__/
 
 # Local tooling
 .iac_tmp/
+config/local_sources.json
+data/automation/
 scripts/__pycache__/
 scripts/output/
 notebookLMFiles/.tmp.driveupload/
