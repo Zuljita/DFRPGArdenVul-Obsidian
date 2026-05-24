@@ -29,7 +29,6 @@ A [[factions/Cult of Arden.md|Cult of Arden]] was known to exist among the milit
 A book titled `[[items/The Twelve Labours of Arden.md|The Twelve Labours of Arden]]` is believed to be a guide for a puzzle that begins with a purification ritual at the fountain beneath the [[locations/Waterfall.md|waterfall]].
 
 ## Appears In
-- [[RawFiles/Discord/Arden.txt]]
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]

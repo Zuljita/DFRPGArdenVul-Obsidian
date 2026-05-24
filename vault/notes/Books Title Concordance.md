@@ -2,7 +2,7 @@
 tags: [catalog, books, concordance, session-loot]
 status: active
 last_updated: 2026-03-22
-source_sheet: https://docs.google.com/spreadsheets/d/10hUMbU-N2GNi46IyBluu2W4IFaXWNfd-f0lIdpGnG7A/edit?gid=0#gid=0
+source_sheet: external shared spreadsheet configured outside git
 ---
 
 # Books Title Concordance (Master List ↔ Session Loot Sheet)

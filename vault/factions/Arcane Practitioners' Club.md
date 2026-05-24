@@ -40,4 +40,3 @@ TBD
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]], a PC, once attempted to flirt with [[npcs/Pelteon.md|Pelteon]], who appeared not to notice.
 
 ## Sessions
-- [[RawFiles/Discord/ArcanePractitionersClub.txt]]

@@ -22,7 +22,6 @@ He was hired by the adventuring party to create their company charter and to rev
 Barnaby has a reputation for keeping his word. He is also known for being exceptionally well-informed about the happenings in [[Gosterwick]], a trait some attribute to his practice of hiring wizards. He is motivated to be reliable as he competes with established Imperial Factors.
 
 ## Sessions
-- [[RawFiles/Discord/BarnabyGoodbarrel.txt]]
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]]
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 - [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]

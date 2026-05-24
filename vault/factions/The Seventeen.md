@@ -25,4 +25,3 @@ Temples to several of The Seventeen can be found in the city of [[Newmarket]].
 ## Members
 
 ## Sessions
-- [[RawFiles/Religion in Arden Vul.txt]]

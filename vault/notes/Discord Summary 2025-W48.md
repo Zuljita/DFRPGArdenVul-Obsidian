@@ -68,3 +68,10 @@ The following entries were cut off with "..." and need full source material:
 
 *Distilled: 2026-03-18*
 *Original generated: 2026-03-17 03:20*
+
+## Session Navigation
+
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W47.md|Discord Summary 2025-W47]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W49.md|Discord Summary 2025-W49]]
+<!-- END AUTO NAV -->

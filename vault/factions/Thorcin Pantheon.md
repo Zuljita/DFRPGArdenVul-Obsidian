@@ -25,4 +25,3 @@ Most of the Thorcin pantheon has temples in the city of [[Newmarket]].
 ## Members
 
 ## Sessions
-- [[RawFiles/Religion in Arden Vul.txt]]

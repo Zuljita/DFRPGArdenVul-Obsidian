@@ -23,5 +23,4 @@ A book or manuscript recounting the "Twelve Labors" performed by the historical 
 - Provides insight into the origins and legends surrounding the setting.
 
 ## Sessions
-- [[RawFiles/Discord/Arden.txt]]
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]

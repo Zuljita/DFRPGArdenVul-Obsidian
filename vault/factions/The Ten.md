@@ -26,7 +26,6 @@ Temples to all of The Ten can be found in the city of [[Newmarket]].
 ## Members
 
 ## Sessions
-- [[RawFiles/Religion in Arden Vul.txt]]
 
 ## Discord Insights
 

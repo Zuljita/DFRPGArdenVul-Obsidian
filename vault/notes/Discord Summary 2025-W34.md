@@ -10,3 +10,10 @@ tags:
 **Messages:** 67
 
 ---
+
+## Session Navigation
+
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W33.md|Discord Summary 2025-W33]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W35.md|Discord Summary 2025-W35]]
+<!-- END AUTO NAV -->

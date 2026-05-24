@@ -25,7 +25,6 @@ A young, vain mage and co-owner of the [[Arcane Practitioners' Club]]. She was f
 - Canonical name: "Pelteon" (the "Palteon" spelling was a typo).
 
 ## Sessions
-- [[RawFiles/Discord/ArcanePractitionersClub.txt]]
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
 

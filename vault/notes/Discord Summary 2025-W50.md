@@ -20,3 +20,10 @@ tags:
 ---
 *Distilled: 2026-03-18*
 *Original generated: 2026-03-17 04:33*
+
+## Session Navigation
+
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W49.md|Discord Summary 2025-W49]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]]
+<!-- END AUTO NAV -->

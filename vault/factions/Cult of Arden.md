@@ -23,4 +23,3 @@ Unknown.
 ## Members
 
 ## Sessions
-- [[RawFiles/Discord/Arden.txt]]

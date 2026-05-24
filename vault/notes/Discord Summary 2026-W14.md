@@ -24,4 +24,7 @@ Date Range: 2026-04-06 to 2026-04-12
 
 ## Navigation
 
-- Previous: [[notes/Discord Summary 2026-W13.md|Discord Summary 2026-W13]]
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2026-W13.md|Discord Summary 2026-W13]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W15.md|Discord Summary 2026-W15]]
+<!-- END AUTO NAV -->
