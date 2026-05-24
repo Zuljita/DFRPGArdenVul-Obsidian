@@ -31,6 +31,13 @@ from pathlib import Path
 from typing import Iterable
 from zoneinfo import ZoneInfo
 
+try:
+    import chromadb  # type: ignore[import-not-found]
+    CHROMA_AVAILABLE = True
+except ImportError:
+    chromadb = None  # type: ignore[assignment]
+    CHROMA_AVAILABLE = False
+
 
 ROOT = Path(__file__).resolve().parents[1]
 VAULT = ROOT / "vault"
@@ -242,6 +249,12 @@ def load_local_sources() -> dict:
         "entity_link_apply_limit": int(config.get("entity_link_apply_limit", 0) or 0),
         "article_queue_limit": int(os.environ.get("ARDEN_ARTICLE_QUEUE_LIMIT") or config.get("article_queue_limit", 30) or 30),
         "media_queue_limit": int(os.environ.get("ARDEN_MEDIA_QUEUE_LIMIT") or config.get("media_queue_limit", 30) or 30),
+        "vault_rag_chroma_path": (lambda v: Path(v).expanduser() if v else None)(
+            os.environ.get("ARDEN_VAULT_RAG_PATH") or config.get("vault_rag_chroma_path")
+        ),
+        "vault_rag_collection": os.environ.get("ARDEN_VAULT_RAG_COLLECTION") or config.get("vault_rag_collection", "arden_vul_vault"),
+        "vault_rag_embed_model": os.environ.get("ARDEN_VAULT_RAG_EMBED_MODEL") or config.get("vault_rag_embed_model", "bge-m3"),
+        "vault_rag_embed_url": os.environ.get("ARDEN_VAULT_RAG_EMBED_URL") or config.get("vault_rag_embed_url", "http://127.0.0.1:11434/api/embeddings"),
     }
 
 
@@ -2171,6 +2184,238 @@ def append_changelog(run_id: str, import_result: dict) -> None:
         f.write("\n".join(lines) + "\n")
 
 
+# ---- vault-rag (local Chroma) ----
+
+VAULT_RAG_H2_SPLIT_RE = re.compile(r"^## (?!#)", re.MULTILINE)
+VAULT_RAG_FRONTMATTER_RE = re.compile(r"^---\n.*?\n---\n+", re.DOTALL)
+VAULT_RAG_MAX_CHUNK_CHARS = 3000
+VAULT_RAG_MIN_CHUNK_CHARS = 60
+
+
+def vault_rag_embed(text: str) -> list[float]:
+    sources = load_local_sources()
+    url = sources["vault_rag_embed_url"]
+    model = sources["vault_rag_embed_model"]
+    payload = json.dumps({"model": model, "prompt": text}).encode("utf-8")
+    request = urllib.request.Request(
+        url,
+        data=payload,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=120) as response:
+        body = json.loads(response.read().decode("utf-8"))
+    emb = body.get("embedding")
+    if not emb:
+        raise RuntimeError(f"vault-rag embedding returned no vector: {str(body)[:200]}")
+    return emb
+
+
+def vault_rag_client():
+    if not CHROMA_AVAILABLE:
+        raise RuntimeError("chromadb is not installed in this Python environment")
+    sources = load_local_sources()
+    path = sources["vault_rag_chroma_path"]
+    if not path:
+        raise RuntimeError(
+            "vault_rag_chroma_path is not configured. Set it in config/local_sources.json or ARDEN_VAULT_RAG_PATH env var."
+        )
+    Path(path).mkdir(parents=True, exist_ok=True)
+    return chromadb.PersistentClient(path=str(path))
+
+
+def vault_rag_collection():
+    sources = load_local_sources()
+    client = vault_rag_client()
+    return client.get_or_create_collection(
+        sources["vault_rag_collection"],
+        metadata={"hnsw:space": "cosine"},
+    )
+
+
+def _split_oversized_chunk(text: str, max_chars: int) -> list[str]:
+    """Split a long chunk at paragraph boundaries, packing up to max_chars per piece.
+    Falls back to hard-splitting if a single paragraph still exceeds max_chars."""
+    pieces: list[str] = []
+    current: list[str] = []
+    current_size = 0
+    for para in text.split("\n\n"):
+        para_size = len(para) + 2
+        if current and current_size + para_size > max_chars:
+            pieces.append("\n\n".join(current))
+            current = [para]
+            current_size = para_size
+        else:
+            current.append(para)
+            current_size += para_size
+    if current:
+        pieces.append("\n\n".join(current))
+    out: list[str] = []
+    for piece in pieces:
+        if len(piece) <= max_chars:
+            out.append(piece)
+        else:
+            for i in range(0, len(piece), max_chars):
+                out.append(piece[i:i + max_chars])
+    return out
+
+
+def chunk_markdown_for_rag(text: str) -> list[tuple[str, str]]:
+    """Split markdown at H2 boundaries; sub-split sections larger than VAULT_RAG_MAX_CHUNK_CHARS at paragraph breaks."""
+    text = VAULT_RAG_FRONTMATTER_RE.sub("", text, count=1).strip()
+    if not text:
+        return []
+    parts = VAULT_RAG_H2_SPLIT_RE.split(text)
+    raw_chunks: list[tuple[str, str]] = []
+    intro = parts[0].strip()
+    if intro:
+        raw_chunks.append(("(intro)", intro))
+    for part in parts[1:]:
+        body = ("## " + part).strip()
+        if not body:
+            continue
+        first_line = body.split("\n", 1)[0]
+        section = first_line[3:].strip() if first_line.startswith("## ") else "(unknown)"
+        raw_chunks.append((section, body))
+    chunks: list[tuple[str, str]] = []
+    for section, body in raw_chunks:
+        if len(body) <= VAULT_RAG_MAX_CHUNK_CHARS:
+            chunks.append((section, body))
+        else:
+            for sub in _split_oversized_chunk(body, VAULT_RAG_MAX_CHUNK_CHARS):
+                chunks.append((section, sub))
+    return [(s, c) for s, c in chunks if len(c.strip()) >= VAULT_RAG_MIN_CHUNK_CHARS]
+
+
+def vault_rag_source_paths() -> list[tuple[Path, str]]:
+    """Return (path, kind) pairs for vault content to ingest into the Chroma collection."""
+    items: list[tuple[Path, str]] = []
+    for p in sorted((VAULT / "sessions").glob("*.md")):
+        items.append((p, "session"))
+    for p in sorted((VAULT / "notes").glob("Discord Summary *.md")):
+        items.append((p, "summary"))
+    lore_dir = VAULT / "lore"
+    if lore_dir.exists():
+        for p in sorted(lore_dir.rglob("*.md")):
+            items.append((p, "lore"))
+    snapshot = AUTOMATION_DIR / "sources" / "group_spreadsheet_snapshot.md"
+    if snapshot.exists():
+        items.append((snapshot, "spreadsheet"))
+    return items
+
+
+def vault_rag_upsert_file(coll, path: Path, kind: str) -> dict:
+    try:
+        rel = path.relative_to(ROOT).as_posix()
+    except ValueError:
+        rel = str(path)
+    text = read_text(path)
+    sha = hashlib.sha256(text.encode("utf-8")).hexdigest()
+    existing = coll.get(where={"path": rel})
+    existing_ids = existing.get("ids") or []
+    existing_metas = existing.get("metadatas") or []
+    if existing_ids and existing_metas:
+        existing_sha = existing_metas[0].get("sha256")
+        if existing_sha == sha:
+            return {"path": rel, "action": "unchanged", "chunk_count": len(existing_ids)}
+        coll.delete(ids=existing_ids)
+    chunks = chunk_markdown_for_rag(text)
+    if not chunks:
+        return {"path": rel, "action": "empty", "chunk_count": 0}
+    ids: list[str] = []
+    docs: list[str] = []
+    metas: list[dict] = []
+    embeddings: list[list[float]] = []
+    skipped: list[dict] = []
+    for i, (section, chunk_text) in enumerate(chunks):
+        try:
+            emb = vault_rag_embed(chunk_text)
+        except Exception as exc:
+            skipped.append({"chunk_index": i, "section": section, "char_count": len(chunk_text), "error": str(exc)[:200]})
+            continue
+        chunk_id = f"{rel}#{i}:{hashlib.sha1(chunk_text.encode('utf-8')).hexdigest()[:8]}"
+        ids.append(chunk_id)
+        docs.append(chunk_text)
+        metas.append({
+            "path": rel,
+            "kind": kind,
+            "section": section,
+            "title": path.stem,
+            "sha256": sha,
+            "chunk_index": i,
+            "char_count": len(chunk_text),
+        })
+        embeddings.append(emb)
+    if not ids:
+        return {"path": rel, "action": "error", "chunk_count": 0, "error": "all chunks failed to embed", "skipped": skipped}
+    coll.add(ids=ids, documents=docs, metadatas=metas, embeddings=embeddings)
+    result: dict = {"path": rel, "action": "upserted", "chunk_count": len(ids)}
+    if skipped:
+        result["skipped_chunks"] = skipped
+    return result
+
+
+def vault_rag_ingest_all(reset: bool = False, limit: int | None = None) -> dict:
+    sources = load_local_sources()
+    collection_name = sources["vault_rag_collection"]
+    if reset:
+        try:
+            vault_rag_client().delete_collection(collection_name)
+        except Exception:
+            pass
+    coll = vault_rag_collection()
+    paths = vault_rag_source_paths()
+    if limit:
+        paths = paths[:limit]
+    results: list[dict] = []
+    for p, kind in paths:
+        try:
+            results.append(vault_rag_upsert_file(coll, p, kind))
+        except Exception as exc:
+            try:
+                rel = p.relative_to(ROOT).as_posix()
+            except ValueError:
+                rel = str(p)
+            results.append({"path": rel, "action": "error", "error": str(exc)})
+    counts: dict[str, int] = {}
+    for r in results:
+        counts[r.get("action", "?")] = counts.get(r.get("action", "?"), 0) + 1
+    return {
+        "ok": counts.get("error", 0) == 0,
+        "collection": collection_name,
+        "total_files": len(paths),
+        "actions": counts,
+        "collection_size": coll.count(),
+        "results": results,
+    }
+
+
+def vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> list[dict]:
+    """Query the local vault-rag Chroma collection. Used by article-edit research lane."""
+    coll = vault_rag_collection()
+    where = {"kind": kind} if kind else None
+    query_emb = vault_rag_embed(query)
+    res = coll.query(
+        query_embeddings=[query_emb],
+        n_results=top_k,
+        where=where,
+    )
+    hits: list[dict] = []
+    docs = (res.get("documents") or [[]])[0]
+    metas = (res.get("metadatas") or [[]])[0]
+    dists = (res.get("distances") or [[]])[0]
+    for doc, meta, dist in zip(docs, metas, dists):
+        hits.append({
+            "path": (meta or {}).get("path"),
+            "section": (meta or {}).get("section"),
+            "kind": (meta or {}).get("kind"),
+            "title": (meta or {}).get("title"),
+            "distance": dist,
+            "text": doc,
+        })
+    return hits
+
+
 def cmd_discover(args: argparse.Namespace) -> int:
     payload = build_source_manifest(args.blog_feed)
     if args.write:
@@ -2359,6 +2604,49 @@ def cmd_reconcile_loot(_: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_ingest_vault_rag(args: argparse.Namespace) -> int:
+    try:
+        result = vault_rag_ingest_all(reset=args.reset, limit=args.limit)
+    except RuntimeError as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    if not args.verbose:
+        result.pop("results", None)
+    print(json.dumps(result, indent=2))
+    return 0 if result["ok"] else 2
+
+
+def cmd_refresh_vault_rag(args: argparse.Namespace) -> int:
+    try:
+        result = vault_rag_ingest_all(reset=False, limit=args.limit)
+    except RuntimeError as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    if not args.verbose:
+        result.pop("results", None)
+    print(json.dumps(result, indent=2))
+    return 0 if result["ok"] else 2
+
+
+def cmd_vault_rag_search(args: argparse.Namespace) -> int:
+    try:
+        hits = vault_rag_search(args.query, top_k=args.top_k, kind=args.kind)
+    except RuntimeError as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    output: list[dict] = []
+    for hit in hits:
+        item = {**hit}
+        if not args.full and item.get("text"):
+            item["text"] = item["text"][:300]
+        output.append(item)
+    print(json.dumps(
+        {"ok": True, "query": args.query, "top_k": args.top_k, "kind": args.kind, "hits": output},
+        indent=2,
+    ))
+    return 0
+
+
 def cmd_import(args: argparse.Namespace) -> int:
     payload = import_low_risk(args.apply, args.blog_feed)
     print(json.dumps(payload, indent=2))
@@ -2516,6 +2804,24 @@ def build_parser() -> argparse.ArgumentParser:
 
     loot_reconcile = sub.add_parser("reconcile-loot", help="Write a review-only loot inventory reconciliation report")
     loot_reconcile.set_defaults(func=cmd_reconcile_loot)
+
+    ingest_vault_rag = sub.add_parser("ingest-vault-rag", help="Ingest vault sessions/summaries/lore into the local Chroma vault-rag collection")
+    ingest_vault_rag.add_argument("--reset", action="store_true", help="Delete the existing collection first and rebuild from scratch")
+    ingest_vault_rag.add_argument("--limit", type=int, default=None, help="Maximum number of files to process (for testing)")
+    ingest_vault_rag.add_argument("--verbose", action="store_true", help="Include per-file results in the JSON output")
+    ingest_vault_rag.set_defaults(func=cmd_ingest_vault_rag)
+
+    refresh_vault_rag = sub.add_parser("refresh-vault-rag", help="Refresh the vault-rag collection (sha256-gated; only changed files get re-embedded)")
+    refresh_vault_rag.add_argument("--limit", type=int, default=None, help="Maximum number of files to process (for testing)")
+    refresh_vault_rag.add_argument("--verbose", action="store_true", help="Include per-file results in the JSON output")
+    refresh_vault_rag.set_defaults(func=cmd_refresh_vault_rag)
+
+    search_vault_rag = sub.add_parser("vault-rag-search", help="Query the vault-rag Chroma collection")
+    search_vault_rag.add_argument("query", help="Natural-language query")
+    search_vault_rag.add_argument("--top-k", type=int, default=5, help="Number of results to return (default 5)")
+    search_vault_rag.add_argument("--kind", choices=["session", "summary", "lore", "spreadsheet"], default=None, help="Filter by chunk kind")
+    search_vault_rag.add_argument("--full", action="store_true", help="Print full chunk text instead of a 300-char preview")
+    search_vault_rag.set_defaults(func=cmd_vault_rag_search)
 
     status = sub.add_parser("status", help="Summarize repo, Discord, and Blogspot source state")
     status.set_defaults(func=cmd_status)
