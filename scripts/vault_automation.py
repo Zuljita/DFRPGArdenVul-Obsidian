@@ -242,8 +242,6 @@ def load_local_sources() -> dict:
         "entity_link_apply_limit": int(config.get("entity_link_apply_limit", 0) or 0),
         "article_queue_limit": int(os.environ.get("ARDEN_ARTICLE_QUEUE_LIMIT") or config.get("article_queue_limit", 30) or 30),
         "media_queue_limit": int(os.environ.get("ARDEN_MEDIA_QUEUE_LIMIT") or config.get("media_queue_limit", 30) or 30),
-        "rag_ingest_url": os.environ.get("ARDEN_RAG_INGEST_URL") or config.get("rag_ingest_url"),
-        "rag_refresh_limit": int(os.environ.get("ARDEN_RAG_REFRESH_LIMIT") or config.get("rag_refresh_limit", 0) or 0),
     }
 
 
@@ -2110,118 +2108,6 @@ def write_json(path: Path, payload: object) -> None:
     tmp.replace(path)
 
 
-def git_changed_vault_markdown_paths() -> list[Path]:
-    commands = [
-        ["git", "-C", str(ROOT), "diff", "--name-only", "--", "vault"],
-        ["git", "-C", str(ROOT), "ls-files", "--others", "--exclude-standard", "--", "vault"],
-    ]
-    paths: set[Path] = set()
-    for command in commands:
-        result = subprocess.run(command, text=True, capture_output=True, check=False)
-        if result.returncode != 0:
-            continue
-        for rel in result.stdout.splitlines():
-            path = ROOT / rel
-            if path.suffix.lower() == ".md" and path.exists() and path.is_relative_to(VAULT):
-                paths.add(path)
-    return sorted(paths, key=lambda p: p.relative_to(ROOT).as_posix())
-
-
-def rag_job_status(ingest_url: str, job_id: str) -> dict:
-    base = re.sub(r"/ingest/(text|file|url)/?$", "", ingest_url.rstrip("/"))
-    request = urllib.request.Request(f"{base}/ingest/status/{job_id}", method="GET")
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.loads(response.read().decode("utf-8"))
-
-
-def wait_for_rag_job(ingest_url: str, job_id: str, timeout: int = 300) -> dict:
-    deadline = time.time() + timeout
-    while time.time() < deadline:
-        status = rag_job_status(ingest_url, job_id)
-        if status.get("status") not in {"queued", "running"}:
-            return status
-        time.sleep(2)
-    return {"status": "timeout", "job_id": job_id}
-
-
-def rag_ingest_text(url: str, path: Path, wait: bool = False) -> dict:
-    rel = path.relative_to(ROOT).as_posix()
-    text = read_text(path)
-    payload = {
-        "source": rel,
-        "source_type": "vault-markdown",
-        "title": path.stem,
-        "text": text,
-        "metadata": {
-            "project": "arden-vul-vault",
-            "path": rel,
-            "sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
-            "updated_at": datetime.now(timezone.utc).isoformat(),
-        },
-    }
-    request = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-    with urllib.request.urlopen(request, timeout=60) as response:
-        body = response.read().decode("utf-8", errors="ignore")
-    try:
-        parsed: object = json.loads(body) if body else {}
-    except json.JSONDecodeError:
-        parsed = {"raw": body[:500]}
-    result = {"path": rel, "ok": True, "response": parsed}
-    if wait and isinstance(parsed, dict) and parsed.get("job_id"):
-        status = wait_for_rag_job(url, str(parsed["job_id"]))
-        result["job_status"] = status
-        result["ok"] = status.get("status") in {"inserted", "completed", "success", "succeeded", "duplicate"}
-    return result
-
-
-def refresh_rag_for_changed_files(limit: int, dry_run: bool = False, wait: bool = False) -> dict:
-    sources = load_local_sources()
-    ingest_url = sources.get("rag_ingest_url")
-    paths = git_changed_vault_markdown_paths()[:limit]
-    if dry_run:
-        return {
-            "ok": True,
-            "mode": "dry-run",
-            "configured": bool(ingest_url),
-            "candidate_count": len(paths),
-            "paths": [p.relative_to(ROOT).as_posix() for p in paths],
-        }
-    if not ingest_url:
-        return {
-            "ok": False,
-            "error": "rag_ingest_url_not_configured",
-            "candidate_count": len(paths),
-            "paths": [p.relative_to(ROOT).as_posix() for p in paths],
-        }
-    results: list[dict] = []
-    failures: list[dict] = []
-    for path in paths:
-        try:
-            result = rag_ingest_text(str(ingest_url), path, wait=wait)
-            if result.get("ok"):
-                results.append(result)
-            else:
-                failures.append(result)
-        except Exception as exc:
-            failures.append({"path": path.relative_to(ROOT).as_posix(), "error": str(exc)})
-    payload = {
-        "ok": not failures,
-        "mode": "apply",
-        "candidate_count": len(paths),
-        "ingested_count": len(results),
-        "failure_count": len(failures),
-        "results": results,
-        "failures": failures,
-    }
-    write_json(AUTOMATION_DIR / "rag_refresh.json", payload)
-    return payload
-
-
 def build_source_manifest(feed_url: str = BLOG_FEED_URL) -> dict:
     records = discover_sources()
     blog_posts = fetch_blog_posts(feed_url)
@@ -2473,12 +2359,6 @@ def cmd_reconcile_loot(_: argparse.Namespace) -> int:
     return 0
 
 
-def cmd_refresh_rag(args: argparse.Namespace) -> int:
-    result = refresh_rag_for_changed_files(args.limit, args.dry_run, args.wait)
-    print(json.dumps(result, indent=2))
-    return 0 if result["ok"] else 2
-
-
 def cmd_import(args: argparse.Namespace) -> int:
     payload = import_low_risk(args.apply, args.blog_feed)
     print(json.dumps(payload, indent=2))
@@ -2499,7 +2379,6 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
     link_apply_result: dict = {"enabled": False}
     article_queue: list[ArticleQueueItem] = []
     media_queue: list[MediaQueueItem] = []
-    rag_refresh_result: dict = {"enabled": False}
     if before["ok"]:
         proposals = build_entity_link_proposals(limit_per_source=20)
         write_entity_link_proposal_report(proposals)
@@ -2520,7 +2399,6 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
         loot_reconciliation = write_loot_reconciliation_report()
         verify_limit = sources.get("entity_link_verify_limit", 0)
         apply_limit = sources.get("entity_link_apply_limit", 0)
-        rag_refresh_limit = int(sources.get("rag_refresh_limit", 0) or 0)
         if verify_limit and sources.get("llm_base_url") and sources.get("llm_model"):
             try:
                 verified = verify_entity_link_proposals(int(verify_limit))
@@ -2541,11 +2419,6 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                     }
             except Exception as exc:
                 verification_result = {"enabled": True, "ok": False, "error": str(exc)}
-        if rag_refresh_limit:
-            rag_refresh_result = {
-                "enabled": True,
-                **refresh_rag_for_changed_files(rag_refresh_limit, dry_run=False, wait=True),
-            }
     after = validate_state()
     payload = {
         "ok": before["ok"] and import_result["ok"] and after["ok"],
@@ -2579,7 +2452,6 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
             "discord_disposition_evidence_count": loot_reconciliation["discord_disposition_evidence_count"] if before["ok"] else 0,
             "markdown": str(AUTOMATION_DIR / "proposals" / "loot_reconciliation.md"),
         },
-        "rag_refresh": rag_refresh_result,
         "after_validation": after,
     }
     write_json(AUTOMATION_DIR / "source_manifest.json", manifest)
@@ -2644,12 +2516,6 @@ def build_parser() -> argparse.ArgumentParser:
 
     loot_reconcile = sub.add_parser("reconcile-loot", help="Write a review-only loot inventory reconciliation report")
     loot_reconcile.set_defaults(func=cmd_reconcile_loot)
-
-    rag_refresh = sub.add_parser("refresh-rag", help="Refresh private RAG ingest for changed vault Markdown files")
-    rag_refresh.add_argument("--limit", type=int, default=25, help="Maximum changed vault files to ingest")
-    rag_refresh.add_argument("--dry-run", action="store_true", help="List files without calling the private ingest endpoint")
-    rag_refresh.add_argument("--wait", action="store_true", help="Wait for ingest jobs and fail if indexing fails")
-    rag_refresh.set_defaults(func=cmd_refresh_rag)
 
     status = sub.add_parser("status", help="Summarize repo, Discord, and Blogspot source state")
     status.set_defaults(func=cmd_status)
