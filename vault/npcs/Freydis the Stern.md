@@ -21,9 +21,12 @@ Stern, efficient, loyal.
 
 ## Notes
 She is a key figure in the administration of [[Gosterwick]].
+- Significant items that Freydis wants Ioannes to find ([[notes/Lady Alexia's Regalia.md|Lady Alexia's Regalia]])
+- Requested a meeting regarding found items and asked for time to consult with Lady Alexia ([[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a]])
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
 
 ## Discord Insights
 

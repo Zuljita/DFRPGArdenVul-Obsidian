@@ -29,6 +29,7 @@ Kerbog Khan was observed in the Goblin Market attempting to negotiate with Thorc
 ## Notes
 - Potentially a significant source of information about the Halls if the party is willing to deal on his terms.
 - His origins and true nature are unknown.
+- Wanted by one of the [[College of Cinders|Collegium]].
 
 ## Appears In
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]

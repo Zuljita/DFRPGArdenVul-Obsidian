@@ -17,3 +17,4 @@ A feline divine manifestation contacted via the [[items/Statuette of Feline Frie
 
 ## Sessions
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 42 - Deliver Food to Apes.md|Session 42 - Deliver Food to Apes]]

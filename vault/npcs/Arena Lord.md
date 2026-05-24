@@ -16,6 +16,8 @@ appears_in:
 ## Summary
 The Arena Lord is the [[Rudishva]] being who presides over the [[locations/Arena.md|Arena]] in the Halls of Arden Vul. He is tentatively identified as **Crellik-Var**, the Entertainment Officer of the crashed starship the [[locations/Beacon.md|Beacon]]. If this identification is correct, he is a surviving member of the Beacon's original crew who has apparently been operating the Arena since the ship crashed long ago.
 
+The [[locations/Arena.md|Arena]] he presides over is located near the Varumani Lifts and the [[locations/Inn of the Lost.md|Inn of the Lost]].
+
 ## Aliases
 - **The Arena Lord** — his title
 - **Rudishva** — referred to by this name in the session (his species)

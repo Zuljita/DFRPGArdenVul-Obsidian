@@ -15,6 +15,8 @@ appears_in:
 ## Summary
 A crazy Dwarven thief held prisoner, later found dead.
 
+A crazy Dwarven thief held prisoner, later found dead; his body was recovered from a cavern northwest of the Well of Light and returned to Gosterwick for burial.
+
 ## Appears In
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]
@@ -27,6 +29,7 @@ A crazy Dwarven thief held prisoner, later found dead.
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 29: [[locations/Tower of Scrutiny.md|The Tower of Scrutiny]] Date: Horasday, 26th of Besemios, 2993 AE Weather: Cool, cloudy, chance of r...
   - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — The cavern contained a half-eaten dwarf corpse, which Ioannes recognized as [[npcs/Gwelf.md|Gwelf]], the dwarf they had freed from [[npcs/Gerrilad.md|Gerrilad]]'s prison, who had then run off.
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 30: [[locations/Tomb of Theskalon.md|The Tomb of Theskalon]] Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
+- A Seeker spell found his body, revealing a massive cutting wound across his torso in an unrecognized underground cave.
 
 ## Notes
 

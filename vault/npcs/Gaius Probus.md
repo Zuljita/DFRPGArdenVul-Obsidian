@@ -24,6 +24,7 @@ Unknown.
 ## Notes
 
 TBD
+- The [[Book of Priors]] consists of 6 volumes written in Mithric and continued until 1782 AEP.
 
 ## Discord Insights
 

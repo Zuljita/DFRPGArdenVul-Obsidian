@@ -135,7 +135,7 @@ They plan to fight the behir, search for treasure, and go back to Gosterwick.  T
 
 <!-- BEGIN AUTO NAV -->
 - Previous Session: [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
-- Next Session: (none)
+- Next Session: [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]
 - Previous Discord Summary: [[notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]]
 - Next Discord Summary: [[notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]
 - Original Source: https://dfwhiterock.blogspot.com/2026/05/dfrpg-session-52a-ichthelon-and-temple.html

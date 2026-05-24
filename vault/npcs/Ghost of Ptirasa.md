@@ -3,6 +3,7 @@ title: Ghost of Ptirasa
 tags:
   - npc
 aliases:
+  - Arpostas
 ---
 # Ghost of [[npcs/Ptirasa.md|Ptirasa]]
 

@@ -19,3 +19,4 @@ appears_in:
   - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — The party then went to the House of Sight in [[locations/Gosterwick.md|Gosterwick]] where they were granted a meeting with the logothete, [[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]].
 
 ## Notes
+- Audun Yellow-Eyes is Lady Alexia's pick for the Drome post but possibly not offically approved by Keko the Lame in Narsileon.

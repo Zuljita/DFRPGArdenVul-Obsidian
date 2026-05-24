@@ -20,6 +20,7 @@ None specified.
 ## Notes
 Provides essential supplies for adventurers and residents.
 In Session 42a, Fael was hired to assist with cat translation during a Bastet offering.
+- Refuses to add information about Green Invasive Algae to her guide.
 
 ## Sessions
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]

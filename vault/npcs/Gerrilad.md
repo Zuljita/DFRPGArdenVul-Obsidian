@@ -26,6 +26,7 @@ Eccentric half‑elven druid and torturer associated with cages, keys, and contr
   - [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — When they got near the door he made it clear that he was an wizard, and that this was his library because [[npcs/Gerrilad.md|Gerrilad]], the owner of this level, gave it to him.
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — The cavern contained a half-eaten dwarf corpse, which Ioannes recognized as [[npcs/Gwelf.md|Gwelf]], the dwarf they had freed from [[npcs/Gerrilad.md|Gerrilad]]'s prison, who had then run off.
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — It was [[npcs/Dalton.md|Dalton]]'s Darlings, the entire group, including their friend [[npcs/Jost.md|Jost]] who they had rescued from [[npcs/Gerrilad.md|Gerrilad]]'s jail.
+- Possessed 3 out of a total of 25 keys ([[notes/Discord Summary 2025-W43.md|Discord Summary 2025-W43]])
 
 ## Roles & Influence
 - Local power on that level; holds keys and asserts authority over cells and passages.

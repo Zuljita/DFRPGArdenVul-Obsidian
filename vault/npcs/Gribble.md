@@ -24,3 +24,5 @@ Gribble is a goblin and the brother of King [[npcs/Weskenim.md|Weskenim]] of the
 - [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
+- [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
+- [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]

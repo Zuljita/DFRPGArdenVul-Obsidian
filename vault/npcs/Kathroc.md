@@ -3,6 +3,7 @@ title: Kathroc
 tags:
 - npc
 aliases:
+  - - Set wizard
   - Kathroc, Set torturer
 appears_in:
   - Session 23c - Set Jailbreak and Down to Goblintown

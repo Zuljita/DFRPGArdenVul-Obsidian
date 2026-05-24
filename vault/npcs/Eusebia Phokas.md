@@ -22,6 +22,7 @@ Unknown.
 ## Notes
 
 - She is responsible for approving company charters in [[Gosterwick]].
+- Handles correspondence regarding donations of building supplies for future town walls.
 
 ## Discord Insights
 

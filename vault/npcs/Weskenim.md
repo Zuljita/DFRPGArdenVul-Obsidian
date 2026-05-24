@@ -21,6 +21,8 @@ A major point of contention for [[npcs/Weskenim.md|Weskenim]] was the occupation
 [[npcs/Weskenim.md|Weskenim]] is keenly interested in recovering the legendary **Scepter of the [[factions/Goblins.md|Goblins]]**, which he believes is key to unifying all goblin clans under his rule. He has promised the adventurers a further reward for its retrieval, though he dismisses the goblin mystic [[npcs/Gislu|Gislu]], who also seeks it, as a "fake."
 
 He maintains a court with a major-domo named [[npcs/Palestrim|Palestrim]] and advisors like [[npcs/Skimmel|Skimmel]] and [[npcs/Reeflik|Reeflik]]. He has shown a degree of political cunning, deliberately delaying an audience with a group of mysterious wizards he suspected were hostile to the [[factions/Varumani|Varumani]], whom he wishes to avoid conflict with.
+- He expressed a need for the [[factions/Goblins.md|Scepter of the Goblins]] to unify his people.
+- The [[factions/Eighth Collegium.md|Eighth Collegium]] sought the party's help to gain a direct audience with him.
 
 ## Roles & Influence
 - **Goblin Unifier:** Aspires to unite all goblin clans under his banner.

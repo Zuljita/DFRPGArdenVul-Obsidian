@@ -28,6 +28,7 @@ Massive four‑armed baboon chieftain encountered near the [[locations/Howling C
   - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — Go through the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] to the [[locations/Well of Light.md|Well of Light]], check on [[npcs/Yamki.md|Yamki]] and the baboons, give the baboons some food if they're behaving, and trade [[npcs/Trefko.md|Trefko]] a live goat (teleport...
 
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]] — [[npcs/Yamki.md|Yamki]] reported that [[The Thane]] had kidnapped two young baboons, [[Bobo]] and [[Bifki]], from the [[Howling Caves]]. He explained that [[Bumpko]] had tried to fight off [[npcs/The Thane.md|The Thane]] but was stunned by "bad juju".
+- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]] — The party promised Yamki they would go after The Thane soon.
 
 ## Roles & Influence
 - Local leader among the baboons; controls access and behavior near key choke points.

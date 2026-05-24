@@ -24,3 +24,5 @@ Yoburra is a Varumani ambassador who has been involved in diplomatic and trade a
 - [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]] (mentioned)
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
+- [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
+- [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]

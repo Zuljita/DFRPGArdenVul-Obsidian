@@ -10,3 +10,4 @@ tags:
 
 ## Notes
 [[npcs/Briar.md|Briar]] is a wyvern, and the pet of [[npcs/Craastonistorex.md|Craastonistorex]].
+- Serves as a scout and enforcer.

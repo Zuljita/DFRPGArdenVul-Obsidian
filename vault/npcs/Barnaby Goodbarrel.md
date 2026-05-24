@@ -33,3 +33,4 @@ Barnaby has a reputation for keeping his word. He is also known for being except
 ## Discord Insights
 
 - A halfling and the second best lawyer in Gosterwick, known for keeping his word and knowing everything happening in town. ([[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]])
+- Middle aged halfling man, pale skin, brown eyes, brown curly hair, formally dressed. Smiles a lot.
