@@ -178,3 +178,61 @@ To prepare the vault for use with NotebookLM, a script is used to consolidate th
 - **Purpose:** This script iterates through the subdirectories of the `vault` and concatenates the content of all markdown files within each subdirectory into a single file.
 - **Output:** The script generates a set of plain text files in the `notebookLMFiles` directory, with each file corresponding to a subdirectory in the vault (e.g., `npcs.txt`, `locations.txt`).
 - **Exclusions:** The script excludes the `.obsidian` and `templates` directories from the export.
+
+## Operational State (as of 2026-05-24)
+
+Live automation runs from `scripts/vault_automation.py` under a Hermes cron job; the brain-rag-* pgvector stack and `refresh-rag` lane were retired in favor of a local Chroma vault-rag. See `docs/VAULT_AUTOMATION_REARCHITECTURE.md` for the design.
+
+### Three review-gated lanes (all propose → verify → apply)
+
+- **Entity links** — adds wikilinks from mentions to already-promoted entity pages.
+  - Subcommands: `propose-entity-links` / `verify-entity-links` / `apply-verified-entity-links`
+- **Article edits** — adds sourced bullets/aliases/summary sentences to existing articles. Research via vault-rag; verifier reads source files directly to ground each proposal.
+  - Subcommands: `propose-article-edits` / `verify-article-edits` / `apply-verified-article-edits`
+  - Addition types: `append_bullet_to_section`, `add_alias`, `extend_summary`
+- **New entities** — creates stub vault pages for genuinely-new NPCs/Locations/Factions/Items extracted from canonical sources. Multi-stage deterministic filter (PC cross-check, word-level subset dedup, scaffolding rejection, entity_filters.json) plus LLM verifier with `confirmed | wrong_kind | duplicate | not_an_entity | ambiguous`.
+  - Subcommands: `propose-new-entities` / `verify-new-entities` / `apply-verified-new-entities`
+
+### Vault-rag (Chroma)
+
+- Path: `/home/kyle/rag_project/vaults/ArdenVault/index/` (sibling of MechanicsVault DFRPG-rules collection)
+- Collection: `arden_vul_vault`
+- Embedding model: Ollama `bge-m3` at `http://127.0.0.1:11434/api/embeddings`
+- Cosine distance, chunked at H2 headings with paragraph sub-splitting at 3000 chars
+- Scope: whole vault (`sessions/`, `notes/Discord Summary *.md`, `notes/`, `lore/`, `npcs/`, `pcs/`, `locations/`, `factions/`, `items/`, `monsters/`, `spells/`, `concepts/`) **plus per-channel rollups** from `discord_rollup_root` tagged `kind=rollup`, plus the spreadsheet snapshot
+- ~17,500 chunks across ~1,770 files at last full ingest (2026-05-24)
+- Subcommands: `ingest-vault-rag [--reset] [--limit N]`, `refresh-vault-rag` (sha256-gated), `vault-rag-search <query> [--top-k N] [--kind ...]`
+- Auto-refreshed after each apply step and at end of `run-low-risk`
+
+### Scheduled cron + vault walk
+
+- Hermes job `fd3dccf7b808`: `~/.hermes/scripts/arden_vault_run.sh` daily at 07:00 CT, delivers a one-line summary to Discord
+- `run-low-risk` orchestrates: discover → validate → import-low-risk → entity-link proposals/verify → article queue → media queue → spreadsheet snapshot → loot reconciliation → article-edit lane (propose/verify/apply on `article_edit_queue_top` weakest + `article_edit_walk_step` cursor-walk articles) → vault-rag refresh
+- Vault walk cursor lives in `data/automation/vault_walk_cursor.json` and rotates through every article in `vault/{npcs,pcs,locations,factions,items,monsters,spells}` (573 paths at last count). Inspect with `vault-walk-status`. Cursor advances per scheduled run.
+- Hermes script timeout overridden globally to 1200s in `~/.hermes/config.yaml` under `cron.script_timeout_seconds`.
+
+### Config (gitignored at `config/local_sources.json`)
+
+Runtime knobs and private paths/credentials stay out of the repo:
+
+```
+discord_digest_root, discord_rollup_root            — external Discord source paths
+group_spreadsheet_url, group_spreadsheet_gid        — shared spreadsheet
+llm_base_url, llm_model                             — LiteLLM/LM-Studio gateway
+vault_rag_chroma_path, vault_rag_collection,
+  vault_rag_embed_model, vault_rag_embed_url        — vault-rag connection
+entity_link_verify_limit, entity_link_apply_limit   — entity-link lane budget
+article_queue_limit                                  — top-N queue size
+article_edit_queue_top, article_edit_walk_step,
+  article_edit_verify_limit, article_edit_apply_limit — article-edit lane budget per cron tick
+```
+
+Safe daily-cron defaults: `article_edit_queue_top: 2`, `article_edit_walk_step: 3`, `article_edit_verify_limit: 15`, `article_edit_apply_limit: 3`. Sprint mode bumps these (typical: 10/8/30 walk-step/apply/verify) and restores afterward.
+
+### Known issues / followups
+
+- **`extend_summary` near-duplicates**: the proposer occasionally restates the existing Summary with a small parenthetical addition (e.g., `vault/npcs/Bifki.md`). Detection in `apply_article_edit_to_text` should reject when proposed text's word-overlap with existing summary exceeds ~80%.
+- **3 tiny stub locations fail to embed in vault-rag**: `vault/locations/Exarchate of Narsileon.md`, `vault/locations/The Canyon.md`, `vault/locations/The Tomb of Ptoh-Ristus.md` — all 60–112 char H1+wikilink-only chunks that trigger Ollama bge-m3 NaN output. Workaround: bump `VAULT_RAG_MIN_CHUNK_CHARS` from 60 or expand chunks with surrounding context.
+- **Blog session-title parser**: handles singular `Session N` and plural `Sessions Xb and Y` titles. Re-check if dripton ever uses other compound forms.
+- **LLM JSON robustness**: `llm_chat_json` parses raw → code-fence-stripped → greedy `{...}` → bracket-counted slice. If a model server starts returning structured-output mode (`response_format: json_object`), we removed that field because LM Studio rejected it; revisit when upstream support is reliable.
+- **`run-low-risk` doesn't yet auto-run the new-entity lane** — propose/verify/apply for new entity stubs is manual-only until verifier confidence is proven across more candidates.
