@@ -284,6 +284,10 @@ def load_local_sources() -> dict:
         "vault_rag_collection": os.environ.get("ARDEN_VAULT_RAG_COLLECTION") or config.get("vault_rag_collection", "arden_vul_vault"),
         "vault_rag_embed_model": os.environ.get("ARDEN_VAULT_RAG_EMBED_MODEL") or config.get("vault_rag_embed_model", "bge-m3"),
         "vault_rag_embed_url": os.environ.get("ARDEN_VAULT_RAG_EMBED_URL") or config.get("vault_rag_embed_url", "http://127.0.0.1:11434/api/embeddings"),
+        "article_edit_queue_top": int(config.get("article_edit_queue_top", 0) or 0),
+        "article_edit_walk_step": int(config.get("article_edit_walk_step", 0) or 0),
+        "article_edit_verify_limit": int(config.get("article_edit_verify_limit", 0) or 0),
+        "article_edit_apply_limit": int(config.get("article_edit_apply_limit", 0) or 0),
     }
 
 
@@ -2316,17 +2320,55 @@ def chunk_markdown_for_rag(text: str) -> list[tuple[str, str]]:
     return [(s, c) for s, c in chunks if len(c.strip()) >= VAULT_RAG_MIN_CHUNK_CHARS]
 
 
+VAULT_RAG_SKIP_DIRS = {"templates", "quartz", "attachments", ".obsidian"}
+VAULT_RAG_FOLDER_TO_KIND = {
+    "sessions": "session",
+    "notes": "note",
+    "lore": "lore",
+    "npcs": "npc",
+    "pcs": "pc",
+    "locations": "location",
+    "factions": "faction",
+    "items": "item",
+    "monsters": "monster",
+    "spells": "spell",
+    "concepts": "concept",
+}
+
+
+def vault_rag_kind_for_path(path: Path) -> str:
+    try:
+        rel = path.relative_to(VAULT)
+    except ValueError:
+        return "external"
+    parts = rel.parts
+    if not parts:
+        return "vault"
+    top = parts[0]
+    if top == "notes" and path.stem.startswith("Discord Summary"):
+        return "summary"
+    return VAULT_RAG_FOLDER_TO_KIND.get(top, "vault")
+
+
 def vault_rag_source_paths() -> list[tuple[Path, str]]:
-    """Return (path, kind) pairs for vault content to ingest into the Chroma collection."""
+    """Return (path, kind) pairs for content to ingest into the vault-rag Chroma collection.
+    Indexes the entire vault (skipping templates/quartz/attachments), plus per-channel rollup
+    files from the configured discord_rollup_root, plus the spreadsheet snapshot if present."""
     items: list[tuple[Path, str]] = []
-    for p in sorted((VAULT / "sessions").glob("*.md")):
-        items.append((p, "session"))
-    for p in sorted((VAULT / "notes").glob("Discord Summary *.md")):
-        items.append((p, "summary"))
-    lore_dir = VAULT / "lore"
-    if lore_dir.exists():
-        for p in sorted(lore_dir.rglob("*.md")):
-            items.append((p, "lore"))
+    if VAULT.exists():
+        for p in sorted(VAULT.rglob("*.md")):
+            rel_parts = p.relative_to(VAULT).parts
+            # Skip files inside any excluded directory at any depth.
+            if any(part in VAULT_RAG_SKIP_DIRS for part in rel_parts[:-1]):
+                continue
+            items.append((p, vault_rag_kind_for_path(p)))
+    sources = load_local_sources()
+    rollup_root = sources.get("discord_rollup_root")
+    if rollup_root:
+        rollup_path = Path(rollup_root).expanduser()
+        if rollup_path.exists():
+            for p in sorted(rollup_path.rglob("channels/*.md")):
+                items.append((p, "rollup"))
     snapshot = AUTOMATION_DIR / "sources" / "group_spreadsheet_snapshot.md"
     if snapshot.exists():
         items.append((snapshot, "spreadsheet"))
@@ -2939,6 +2981,90 @@ def cmd_apply_verified_new_entities(args: argparse.Namespace) -> int:
     return 0 if result.get("ok") else 2
 
 
+# ---- vault walk cursor (rotates through every article over time) ----
+
+VAULT_WALK_CURSOR_PATH = AUTOMATION_DIR / "vault_walk_cursor.json"
+VAULT_WALK_DIRS = ("npcs", "pcs", "locations", "factions", "items", "monsters", "spells")
+
+
+def vault_walk_eligible_articles() -> list[str]:
+    """Sorted repo-relative paths of every walkable article."""
+    paths: list[str] = []
+    for sub in VAULT_WALK_DIRS:
+        root = VAULT / sub
+        if not root.exists():
+            continue
+        for p in sorted(root.glob("*.md")):
+            if p.stem.lower() in {"index", "readme"}:
+                continue
+            paths.append(p.relative_to(ROOT).as_posix())
+    return paths
+
+
+def vault_walk_load_cursor() -> dict:
+    if not VAULT_WALK_CURSOR_PATH.exists():
+        return {"last_path": "", "wraps": 0, "started_at": datetime.now(timezone.utc).isoformat()}
+    try:
+        return json.loads(VAULT_WALK_CURSOR_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {"last_path": "", "wraps": 0, "started_at": datetime.now(timezone.utc).isoformat()}
+
+
+def vault_walk_save_cursor(cursor: dict) -> None:
+    VAULT_WALK_CURSOR_PATH.parent.mkdir(parents=True, exist_ok=True)
+    cursor["updated_at"] = datetime.now(timezone.utc).isoformat()
+    write_json(VAULT_WALK_CURSOR_PATH, cursor)
+
+
+def vault_walk_next(n: int, save: bool = True) -> list[str]:
+    """Return the next n article paths after the cursor and (optionally) advance the cursor."""
+    if n <= 0:
+        return []
+    paths = vault_walk_eligible_articles()
+    if not paths:
+        return []
+    cursor = vault_walk_load_cursor()
+    last = cursor.get("last_path", "")
+    start_idx = 0
+    if last:
+        try:
+            start_idx = paths.index(last) + 1
+        except ValueError:
+            start_idx = 0
+    selected: list[str] = []
+    wraps = int(cursor.get("wraps", 0))
+    idx = start_idx
+    for _ in range(min(n, len(paths))):
+        if idx >= len(paths):
+            idx = 0
+            wraps += 1
+        selected.append(paths[idx])
+        idx += 1
+    if save and selected:
+        cursor["last_path"] = selected[-1]
+        cursor["wraps"] = wraps
+        cursor["total_articles"] = len(paths)
+        vault_walk_save_cursor(cursor)
+    return selected
+
+
+def cmd_vault_walk_status(_: argparse.Namespace) -> int:
+    paths = vault_walk_eligible_articles()
+    cursor = vault_walk_load_cursor()
+    last = cursor.get("last_path", "")
+    pos = (paths.index(last) + 1) if last and last in paths else 0
+    print(json.dumps({
+        "ok": True,
+        "total_articles": len(paths),
+        "cursor_position": pos,
+        "last_path": last,
+        "wraps_completed": cursor.get("wraps", 0),
+        "started_at": cursor.get("started_at"),
+        "updated_at": cursor.get("updated_at"),
+    }, indent=2))
+    return 0
+
+
 # ---- article-edit research lane ----
 
 ARTICLE_EDIT_ADDITION_TYPES = {"append_bullet_to_section", "add_alias", "extend_summary"}
@@ -3121,9 +3247,10 @@ def article_edit_verifier_prompt(proposal: ArticleEditProposal) -> str:
     article_text = read_text(article_full_path)[:1800] if article_full_path.exists() else ""
     source_blocks: list[str] = []
     for src in proposal.sources:
-        src_path = ROOT / src.get("path", "")
+        src_path_str = src.get("path", "")
+        src_path = Path(src_path_str) if src_path_str.startswith("/") else ROOT / src_path_str
         if not src_path.exists():
-            source_blocks.append(f"[{src.get('path','')} §{src.get('section','?')}]\nSOURCE FILE NOT FOUND")
+            source_blocks.append(f"[{src_path_str} §{src.get('section','?')}]\nSOURCE FILE NOT FOUND")
             continue
         src_text = read_text(src_path)
         section = src.get("section", "")
@@ -3698,6 +3825,59 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                     }
             except Exception as exc:
                 verification_result = {"enabled": True, "ok": False, "error": str(exc)}
+    article_edit_result: dict = {"enabled": False}
+    if before["ok"]:
+        try:
+            sources_cfg = load_local_sources()
+            queue_top = int(sources_cfg.get("article_edit_queue_top", 0) or 0)
+            walk_step = int(sources_cfg.get("article_edit_walk_step", 0) or 0)
+            ae_verify_limit = int(sources_cfg.get("article_edit_verify_limit", 0) or 0)
+            ae_apply_limit = int(sources_cfg.get("article_edit_apply_limit", 0) or 0)
+            if (queue_top or walk_step) and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
+                selected_paths: list[Path] = []
+                seen: set[str] = set()
+                if queue_top and article_queue:
+                    for it in article_queue[:queue_top]:
+                        if it.path not in seen:
+                            seen.add(it.path)
+                            selected_paths.append(Path(it.path))
+                walk_selection: list[str] = []
+                if walk_step:
+                    walk_selection = vault_walk_next(walk_step, save=True)
+                    for wp in walk_selection:
+                        if wp not in seen:
+                            seen.add(wp)
+                            selected_paths.append(Path(wp))
+                proposals = build_article_edit_proposals(
+                    article_paths=selected_paths,
+                    max_additions_per_article=3,
+                    top_k_per_query=3,
+                )
+                write_article_edit_proposal_report(proposals)
+                article_edit_result = {
+                    "enabled": True,
+                    "queue_top": queue_top,
+                    "walk_step": walk_step,
+                    "walk_selection": walk_selection,
+                    "articles_processed": len(selected_paths),
+                    "proposal_count": len(proposals),
+                }
+                if ae_verify_limit and proposals:
+                    verified = verify_article_edit_proposals(limit=ae_verify_limit)
+                    vcounts: dict[str, int] = {}
+                    for v in verified:
+                        st = str(v.get("verifier_status", "unknown"))
+                        vcounts[st] = vcounts.get(st, 0) + 1
+                    article_edit_result["verifier_status_counts"] = vcounts
+                    if ae_apply_limit:
+                        apply_result = apply_verified_article_edits(apply_changes=True, limit=ae_apply_limit)
+                        article_edit_result["applied"] = {
+                            "supported_count": apply_result.get("supported_count", 0),
+                            "articles_touched": apply_result.get("articles_touched", 0),
+                            "total_applied": apply_result.get("total_applied", 0),
+                        }
+        except Exception as exc:
+            article_edit_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
     vault_rag_refresh = refresh_vault_rag_safely() if before["ok"] else {"ok": False, "skipped": True, "reason": "pre_validation_failed"}
     after = validate_state()
     payload = {
@@ -3732,6 +3912,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
             "discord_disposition_evidence_count": loot_reconciliation["discord_disposition_evidence_count"] if before["ok"] else 0,
             "markdown": str(AUTOMATION_DIR / "proposals" / "loot_reconciliation.md"),
         },
+        "article_edit": article_edit_result,
         "vault_rag_refresh": vault_rag_refresh,
         "after_validation": after,
     }
@@ -3812,7 +3993,12 @@ def build_parser() -> argparse.ArgumentParser:
     search_vault_rag = sub.add_parser("vault-rag-search", help="Query the vault-rag Chroma collection")
     search_vault_rag.add_argument("query", help="Natural-language query")
     search_vault_rag.add_argument("--top-k", type=int, default=5, help="Number of results to return (default 5)")
-    search_vault_rag.add_argument("--kind", choices=["session", "summary", "lore", "spreadsheet"], default=None, help="Filter by chunk kind")
+    search_vault_rag.add_argument(
+        "--kind",
+        choices=["session", "summary", "note", "lore", "npc", "pc", "location", "faction", "item", "monster", "spell", "concept", "rollup", "spreadsheet"],
+        default=None,
+        help="Filter by chunk kind",
+    )
     search_vault_rag.add_argument("--full", action="store_true", help="Print full chunk text instead of a 300-char preview")
     search_vault_rag.set_defaults(func=cmd_vault_rag_search)
 
@@ -3845,6 +4031,9 @@ def build_parser() -> argparse.ArgumentParser:
     apply_new.add_argument("--apply", action="store_true", help="Write stub files; omit for dry-run")
     apply_new.add_argument("--limit", type=int, default=None, help="Maximum confirmed candidates to apply (default unlimited)")
     apply_new.set_defaults(func=cmd_apply_verified_new_entities)
+
+    walk_status = sub.add_parser("vault-walk-status", help="Show the vault walk cursor's current position")
+    walk_status.set_defaults(func=cmd_vault_walk_status)
 
     status = sub.add_parser("status", help="Summarize repo, Discord, and Blogspot source state")
     status.set_defaults(func=cmd_status)
