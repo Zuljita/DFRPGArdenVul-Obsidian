@@ -5,6 +5,8 @@ tags:
   - recap
 session_id: 24b
 in_world_date: Mitrasday, 19th of Gerakios, 2993 AE
+session_date: 2025-09-13
+source_url: https://dfwhiterock.blogspot.com/2025/09/dfrpg-arden-vul-session-24b-set-cult.html
 ---
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 24B: The [[npcs/Set.md|Set]] Cult Strikes Back, Larel's Stuff, and the Hall of [[locations/Shrines.md|Shrines]]
 
@@ -107,4 +109,4 @@ They have a lot of options.  They can go after the [[factions/Cult of Set.md|Cul
 
 - Previous Session: [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24A - Revenge on the Set Cult]]
 - Next Session: [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]]
-
+- Discord Discussions: [[Discord Summary 2025-W35]], [[Discord Summary 2025-W36]], [[Discord Summary 2025-W37]], [[Discord Summary 2025-W38]]

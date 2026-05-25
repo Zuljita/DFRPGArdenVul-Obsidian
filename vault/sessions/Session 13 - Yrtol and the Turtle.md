@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 13
+session_date: 2025-06-07
+source_url: https://dfwhiterock.blogspot.com/2025/06/dfrpg-arden-vul-session-13-yrtol-and.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 13: [[npcs/Yrtol.md|Yrtol]] and the Turtle
@@ -115,4 +117,4 @@ Most of Left for Loot should be back from [[locations/Newmarket.md|Newmarket]] a
 
 - Previous Session: [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
 - Next Session: [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]]
-
+- Discord Discussions: [[Discord Summary 2025-W22]], [[Discord Summary 2025-W23]], [[Discord Summary 2025-W24]], [[Discord Summary 2025-W25]]

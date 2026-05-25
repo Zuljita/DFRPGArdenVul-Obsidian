@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 20
+session_date: 2025-07-27
+source_url: https://dfwhiterock.blogspot.com/2025/07/df-whiterock-session-20-outer-caverns.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 20: The Outer Caverns of [[npcs/Set.md|Set]]
@@ -121,4 +123,4 @@ They also have the [[locations/Scorpion Teleporter.md|Scorpion Teleporter]], whi
 
 - Previous Session: [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]
 - Next Session: [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
-
+- Discord Discussions: [[Discord Summary 2025-W28]], [[Discord Summary 2025-W29]], [[Discord Summary 2025-W30]], [[Discord Summary 2025-W31]]

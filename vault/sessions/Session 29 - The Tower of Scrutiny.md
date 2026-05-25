@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 29
+session_date: 2025-11-01
+source_url: https://dfwhiterock.blogspot.com/2025/11/dfrpg-session-29-tower-of-scrutiny.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 29: The Tower of Scrutiny
@@ -142,4 +144,4 @@ My guess is they won't go back to the Tower of Scrutiny.  They might resume expl
 
 - Previous Session: [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 - Next Session: [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
-
+- Discord Discussions: [[Discord Summary 2025-W44]], [[Discord Summary 2025-W45]], [[Discord Summary 2025-W46]], [[Discord Summary 2025-W47]], [[Discord Summary 2025-W48]]

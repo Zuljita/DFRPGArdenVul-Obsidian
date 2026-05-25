@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 2
+session_date: 2025-03-22
+source_url: https://dfwhiterock.blogspot.com/2025/03/dfrpg-session-2-halfling-rent-seekers.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 2: Halfling Rent-Seekers
@@ -159,4 +161,4 @@ The biggest city in the Empire and the known world is the capital, [[locations/A
 
 - Previous Session: [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]
 - Next Session: [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
-
+- Discord Discussions: [[Discord Summary 2025-W11]], [[Discord Summary 2025-W12]]

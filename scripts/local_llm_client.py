@@ -2,7 +2,8 @@
 """
 Lightweight client for querying a local OpenAI-compatible LM endpoint (e.g., LM Studio).
 
-Defaults to http://192.168.21.76:1234 and model `meta-llama-3.1-8b-instruct`.
+Defaults to the workstation LM Studio endpoint and the currently preferred
+Gemma 4 model.
 
 Usage examples:
   python3 scripts/local_llm_client.py --prompt "Extract canonical entities" \
@@ -20,11 +21,24 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 from typing import List, Optional
 
 import requests
+
+DEFAULT_ENDPOINT = os.environ.get("LMSTUDIO_BASE_URL") or os.environ.get("LLM_ENDPOINT") or "http://100.76.165.94:1234"
+DEFAULT_MODEL = os.environ.get("LMSTUDIO_MODEL") or os.environ.get("LLM_MODEL") or "google/gemma-4-26b-a4b"
+
+
+def chat_completions_url(endpoint: str) -> str:
+    base = endpoint.rstrip("/")
+    if base.endswith("/chat/completions"):
+        return base
+    if base.endswith("/v1"):
+        return base + "/chat/completions"
+    return base + "/v1/chat/completions"
 
 
 def build_messages(prompt: str, files: List[Path], system: Optional[str]) -> list:
@@ -66,7 +80,7 @@ def chat(
     api_key: Optional[str],
     timeout: int,
 ):
-    url = endpoint.rstrip("/") + "/v1/chat/completions"
+    url = chat_completions_url(endpoint)
     headers = {"Content-Type": "application/json"}
     if api_key:
         headers["Authorization"] = f"Bearer {api_key}"
@@ -75,6 +89,11 @@ def chat(
         "model": model,
         "messages": build_messages(prompt, files, system),
         "temperature": temperature,
+        "stream": False,
+        # LM Studio ignores unsupported options, but Gemma/Qwen reasoning models
+        # honor these often enough to keep extractor output in message.content.
+        "reasoning_effort": "none",
+        "enable_thinking": False,
     }
     if max_tokens is not None:
         payload["max_tokens"] = max_tokens
@@ -84,15 +103,16 @@ def chat(
     data = resp.json()
     # Prefer assistant content; fall back to raw JSON if missing
     try:
-        return data["choices"][0]["message"]["content"], data
+        message = data["choices"][0]["message"]
+        return (message.get("content") or message.get("reasoning_content") or ""), data
     except Exception:
         return json.dumps(data, indent=2), data
 
 
 def main(argv=None):
     p = argparse.ArgumentParser(description="Query local OpenAI-compatible LLM (LM Studio)")
-    p.add_argument("--endpoint", default="http://192.168.21.76:1234", help="Base URL (no trailing slash)")
-    p.add_argument("--model", default="meta-llama-3.1-8b-instruct", help="Model name")
+    p.add_argument("--endpoint", default=DEFAULT_ENDPOINT, help="Base URL (no trailing slash)")
+    p.add_argument("--model", default=DEFAULT_MODEL, help="Model name")
     p.add_argument("--system", default=None, help="Optional system prompt")
     p.add_argument("--prompt", required=True, help="User prompt")
     p.add_argument("--files", nargs="*", default=[], help="Files to include in the prompt")
@@ -125,4 +145,3 @@ def main(argv=None):
 
 if __name__ == "__main__":
     sys.exit(main())
-

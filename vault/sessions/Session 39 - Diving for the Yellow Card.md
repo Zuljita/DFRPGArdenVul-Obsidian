@@ -3,6 +3,8 @@ title: "39: Diving for the Yellow Card"
 tags:
   - session
   - recap
+session_date: 2026-01-24
+source_url: https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-39-diving-for.html
 ---
 
 # 39: Diving for the Yellow Card
@@ -94,4 +96,4 @@ They left a Rug in the Rudishva Bastion, so they're planning on going right back
 
 - Previous Session: [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
 - Next Session: [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
-
+- Discord Discussions: [[Discord Summary 2026-W03]], [[Discord Summary 2026-W04]], [[Discord Summary 2026-W05]]

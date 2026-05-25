@@ -1,0 +1,3126 @@
+off-topic
+
+Archon Shiva — 3/7/25, 5:36 PM
+I don’t think it’d work for my needs, but I’ve been asking ChatGPT for suggestions, and *The Unmourned* is just about the most badass name for a mercenary company I’ve ever seen.
+
+Zuljita — 3/7/25, 5:40 PM
+I dig it
+
+dripton — 3/7/25, 5:55 PM
+_takes notes_
+
+Demented Avenger — 3/7/25, 5:56 PM
+🙂
+
+Demented Avenger — 3/7/25, 5:57 PM
+You want another way to weaken characters? Make them spend resources getting to the dungeon. I tend towards hexcrawls for a reason
+
+dripton — 3/7/25, 5:58 PM
+I think you'll find enough danger for your liking.
+
+Demented Avenger — 3/9/25, 2:38 AM
+A blog post in progress that reponds to drip's:
+
+Thoughts on conworld calendars
+
+Yes, we’re still playing and yes, I have to get a lot of logs up. Those are as much for me to have a reference as anything else, and I feel lazy.
+
+But this isn’t about that.
+
+Dave Ripton posted that one of his players asked about the Archontean Calendar in his game, and it will come as no surprise to any of my players to know that this player was me. (I was looking at the “Birthday” blank in GCS.)
+
+In my nerdy conworld/conlang creation, I have learned a few things about our calendar that are important. When you get down to all of it, we’re talking about four units of time. I’ll go through each one and explain why people have used them and how we derived them:
+
+Day: This is how long it takes the Earth to make a full revolution. Fantasy games leave this at the same as the Earth day, and that’s the best way to do it. (I advocate making mostly Earthlike worlds to let them fade into the background and focus on the game or story at-hand.) Anyways, our sleep patterns are keyed to this, as humans have poor night vision and thus can’t work at night. (We got good color vision to compensate.) Any cat owner will understand that our feline masters do not have their sleep keyed to this, or at least not as closely.
+
+Demented Avenger — 3/9/25, 2:40 AM
+Week: The week has had a lot of variance, but it is more-or-less how long it takes to go through each quarter of the moon cycle. (See the month for more.) What is it for? Well, it comes from ancient Babylon, and we use it now to handle rest days. (I check Wikipedia, and it turns out that this was the case even in Babylon. I did not know that until checking.) This passed to the Jews, a sect of which, the Christians, who became the official religion of the Roman Empire. This replaced the eight-day Roman week, which was important for when markets were open. That last function transferred over to the Babylonian/Jewish week that medieval Europe adopted, and is going to be important for a game inspired by that world.
+Month: This is about how long it takes for the Moon to circle the Earth. Humans have long handled accounting business monthly; it was how often Roman soldiers got paid.
+Year: This is how long it takes the Earth to circle the Sun. Agricultural events happen yearly.
+
+Like I said for the day, I encourage conworlds for fantasy games to be more-or-less Earthlike to keep the weirdness from taking center stage. This means that days are about 24 hours and years are about 365.242 days. You can vary the last one a bit, but it will always be around this. Touch the first one at your peril. If the world has axial tilt—and not having it would be weird and might take center stage in play—the year will be important for weather and crops, and the day is always going to be important for sleep.
+
+Demented Avenger — 3/9/25, 2:41 AM
+keep going
+
+The real ones of variance are going to be the week and the month. The biggest question people making these worlds should ask themselves is why do these worlds have them at all, as they’re not that important biologically, especially the week. In humans, we’re really talking about only the menstrual cycle as having a length about the same as a month, but given the importance of that to reproduction, it seems likely that there will be something that takes around 29.5 days (the synodic month, which is how long it takes from new moon to new moon) to which peoples will key at least that part of their lives, and possibly other parts as a result. A moon is a good thing to pick, since tidal effects are synched to this.
+
+The week is most variable since it doesn’t outright correspond to some natural function. The Babylonians for some reason decided to make every seventh day some bullshit bad thing and not have everyone going all-out on it, and that passed on to the Jews and Christians, who then gave it to the Romans. (I’d apologize to any followers of the Babylonian religion if I felt bad about calling any supernatural occurrence bullshit. It’s bullshit. Get over it.) Markets and churches can reasonably have their more-often-than-monthly occurrences happen at about any length of time up to a half-a-month. (Any longer, and you’re just going to give yourself a headache for something that happens sometimes more than once a month but not always.)
+
+Now for the quirkiness. The key issue is that days and months do not always add up to be a perfect year. A year has 365.242 days and 12.37 synodic months, after all, and even synodic months take up 29.53 days. We compensate for the issue of days and years not synching together with 97 intercalary days every 400 years (as in, every 4 years unless the year is evenly divisible by 100 and not by 400; for your world, 1-in-4 is much better to deal with).
+
+Demented Avenger — 3/9/25, 2:41 AM
+The Romans, at least until Julius Caesar fixed things, had an intercalary month (Mercedarius) to deal with the months not equalling a year. Caesar ended this practice and set every month to have a fixed number of days, with only February varying, and redistributed some missing days to months that didn’t originally have 31 days. To give the rhyme we Latin students learned to deal with the weird Kalends/Nones/Ides system: “In March, July, October, May, the nones fall on the seventh day.” Those four months were the ones that originally were 31 days. And yes, I know about Augustus robbing February of a day when he renamed Sextilis after himself.
+
+For my own fantasy world, I have a year be 360 days, with eleven 32-day months. Markets are keyed to the eight-day period between each quarter of the moon cycle. To deal with the remaining eight days (11 *32=352), I have an intercalary month every four years, implemented by royal decree. Every four years, the first of the year happens on the Vernal Equinox; some festivals are keyed to the equinoxes and solstices.
+
+This was inspired by the pre-Julian Roman calendar, which, being a Latin speaker, I know fairly well, and the Jewish calendar, which is also lunisolar and is more regular than the Roman calendar but has month names that I don’t know. Like the old Roman calendar, the year starts on the first of spring.
+
+dripton — 3/9/25, 2:44 AM
+Wow, you care about calendars even more than I do.  I mostly just complain about them.
+
+Demented Avenger — 3/9/25, 2:45 AM
+I conworld for my own game, so got curious
+
+dripton — 3/9/25, 2:45 AM
+I agree that days and years are fundamental things and months kinda make sense because of the moon, but weeks, not so much.
+
+dripton — 3/9/25, 2:45 AM
+So it's amusing that the week is the one people change the least in fiction.
+
+Demented Avenger — 3/9/25, 2:46 AM
+Oh, I absolutely concur there. Like I point out, there’s no biological need for them or natural phenomenon dictating them
+
+dripton — 3/9/25, 2:47 AM
+But maybe we have determined experimentally that at least 1-day-in-7 off work helps, and 2-in-7 helps more.
+
+Demented Avenger — 3/9/25, 2:47 AM
+Who knows, but that’s what we do
+
+Demented Avenger — 3/9/25, 2:51 AM
+I didn’t point this out but it was on my mind, but the Forgotten Realms does have a ten-day week
+
+dripton — 3/9/25, 2:51 AM
+Ooh, I didn't know that.
+
+dripton — 3/9/25, 2:52 AM
+I'm not really up on FR stuff; I kinda dropped out of D&D lore after Greyhawk.
+
+Demented Avenger — 3/9/25, 2:52 AM
+They even call it the “tenday”
+
+dripton — 3/9/25, 2:53 AM
+Traveller has a 7-day week even in the far future, but the days are renamed.  Wonday, Twoday, Iforgettherestday
+
+dripton — 3/9/25, 2:53 AM
+They dispense with months and just go with days 1-365 in a year
+
+dripton — 3/9/25, 2:53 AM
+And then some planets also care about their local days and years, and starships and some planets don't and use the central ones.  A mess.
+
+Demented Avenger — 3/9/25, 2:55 AM
+Sun-day, Moon-day, Tyr’s-day, Odin’s-day, Thor’s-day, Freya’s-day, Saturn’s-day (the odd Roman import)
+
+Archon Shiva — 3/9/25, 2:55 AM
+And time across vast interstellar distances isn’t simultaneous in the sense we mean.
+
+dripton — 3/9/25, 2:56 AM
+They have jump drive so you can move FTL but there's no FTL radio so yeah, it's complicated.  But there is some sense of "universal time" even if physics disagrees.  But news of something that happens far away can't reach you faster than a starship.
+
+dripton — 3/9/25, 2:56 AM
+Ignoring physics to make gaming fun, as is traditional.
+
+Archon Shiva — 3/9/25, 2:57 AM
+French completed the other planets: Mars’day, Mercury’sday, Ju’sday, Venus’dreday.
+
+dripton — 3/9/25, 2:57 AM
+I wonder if anyone gave Pluto a day
+
+Demented Avenger — 3/9/25, 2:57 AM
+Those English names correspond to the appropriate celestial body in the version of the Babylonian week the Romans adopted
+
+Archon Shiva — 3/9/25, 2:58 AM
+Because celestial objects across the universe are moving and accelerating at different rates, they do not experience time at an identical pace.  But yeah, unless that’s the premise of your story, literally nobody cares to handle it.
+
+Demented Avenger — 3/9/25, 2:59 AM
+Those bodies are named after gods beyond the first two (which had gods named after them): dies Solis, Lunae, Martis, Mercurii, Iouis, Veneris, Saturni
+
+Archon Shiva — 3/9/25, 2:59 AM
+Pluto was first spotted way too late for days to be available.
+
+dripton — 3/9/25, 2:59 AM
+1930, but if you have a new country and want to shake things up...
+
+Archon Shiva — 3/9/25, 2:59 AM
+Remember when a guy discovered a new planet and wanted to call it George?
+
+dripton — 3/9/25, 3:00 AM
+Sucking up to royalty
+
+Demented Avenger — 3/9/25, 3:00 AM
+The old Roman week is just letters of the alphabet: A B C D E F G H (ah, bay, kay, day, ayyy, eff, gay, hah)
+
+dripton — 3/9/25, 3:00 AM
+That's the kind of logical system I can get behind.
+
+Demented Avenger — 3/9/25, 3:01 AM
+The English names were from the pre-Christian or Norman (forget which) names of the planets
+
+Demented Avenger — 3/9/25, 3:01 AM
+The Roman dates in a month, however, are just insane
+
+dripton — 3/9/25, 3:02 AM
+A girl in elementary school told me that boys go to Jupiter to get more stupider and girls go to Venus to get more genius.
+
+Archon Shiva — 3/9/25, 3:02 AM
+That sounds fair.
+
+Demented Avenger — 3/9/25, 3:10 AM
+Ooh, I just realized a logical inference of the old Roman nundinal (every ninth day, and yes, I know there’s eight) week: it means someone in any settlement with a market knows how to read well enough to know the alphabet
+
+Demented Avenger — 3/9/25, 3:13 AM
+And that these days were named after the Senate reformed the alphabet (dropping Z and putting G in its place, deciding that C had the sound that K had and G had C’s old sound and Q was always followed by V for that sound; it has an element of Spinal Tap in it)
+
+Archon Shiva — 3/9/25, 3:33 AM
+Now I’m imagining a Paranoia scenario where you visit a complex using such a system for days, but any evidence of knowing how to read is treason.
+
+Demented Avenger — 3/9/25, 3:36 AM
+Give a date in Roman terms—the fourth day before the Kalends of September (August 29, or ante diem quartum Kalendarum Septembres, aka a.d. IV Kal. Sept.)—but make knowing this calendar treason
+
+dripton — 3/9/25, 3:46 AM
+"Those words are yellow, Trait-R-scum.  You're not cleared to read them."
+
+dripton — 3/9/25, 3:46 AM
+Some day I will run Paranoia in GURPS, not because it makes any sense but just because.
+
+Demented Avenger — 3/9/25, 3:47 AM
+Switching systems is treason, Citizen!
+
+dripton — 3/9/25, 3:47 AM
+I consider Paranoia 1E perfect and every revision a needless cash grab.
+
+dripton — 3/9/25, 3:48 AM
+It's like remaking Psycho.  The original was perfect, don't even try, make something else.
+
+Demented Avenger — 3/9/25, 3:50 AM
+I dunno, I feel that way about Superdimension Fortress Macross, and yet I got the wild idea during a rewatch that, if I actually had the skills and voice talent, to remake it
+
+dripton — 3/9/25, 3:51 AM
+Just like Gus Van Sant actually remade Psycho.
+
+Demented Avenger — 3/9/25, 3:53 AM
+All because I was watching Claudia commiserate with Misa in the bar, using her relationship with Roy to encourage Misa to stick with Hikaru even as he pines for Minmei, and thought, "You know, I keep having the urge to play Tammy Wynette as background music for this scene."
+
+Demented Avenger — 3/9/25, 3:53 AM
+(Or Lisa to stick with Rick even as he pines for Minmei in Robotech, which absolutely was blasphemy to the original)
+
+Zuljita — 3/13/25, 3:02 AM
+I've been reading some literature to get myself in a properly anarcho-punk mindset.  Early punks were... miscreants...
+
+dripton — 3/13/25, 3:03 AM
+Most of them, yes.  There were a few solid citizens mixed in, well-hidden behind the chaos.
+
+Zuljita — 3/13/25, 3:04 AM
+It's interesting to see how punk flowed out of hippie culture.
+
+Archon Shiva — 3/15/25, 4:17 PM
+SJG forums are down?
+
+Zuljita — 3/15/25, 4:23 PM
+Seems like they've been down a lot
+
+Based Cosmo — 3/15/25, 4:24 PM
+From what I remember they are going through DDOS attacks of some sort
+
+dripton — 3/15/25, 4:35 PM
+Someone really didn't like one of Kromm's rulings.
+
+Archon Shiva — 3/15/25, 5:03 PM
+It’s funny how there are like 200 people who think SJGames is the GURPS company and *just so many* who think you burped.
+
+dripton — 3/16/25, 9:22 PM
+Re: Allies and DFRPG, I ran a fun game with only 2 players, and decided to give them each an Ally (at 50% of PC points), then had them run each other's Allies.  (Credit to Ars Magica for the idea.)
+
+Demented Avenger — 3/29/25, 1:42 AM
+https://youtu.be/Zsik3nXc7rU?si=xGeaIGaJqHFGmZ_P
+
+Demented Avenger — 4/5/25, 12:56 AM
+"Henderson here. Figured out what the nasties are weak against."
+"What's that, Mr. Henderson?"
+"Point blank annihilation."
+
+Demented Avenger — 4/19/25, 4:00 AM
+I let the other residents of my home know about the phrase, "Roll for goat." One of the gamers said, "That sounds like it comes out of my game, because my friend is literally playing a goat." The other gamer said, "That just sounds awesome." The non-gamer said, "Huh?"
+
+Archon Shiva — 5/24/25, 1:57 PM
+So, was the coffin lid a movie prop or did the physics engine break?
+
+Archon Shiva — 5/24/25, 8:47 PM
+"Ioannes spent several days taking equine handling lessons from Sakeon the Horse Whisperer, then the group decided to visit the Great Cavern and didn't bring their mule along."  😅
+
+dripton — 5/24/25, 8:48 PM
+There is no Mule Whisperer, at least not in Gosterwick.
+
+Zuljita — 5/29/25, 10:11 PM
+<@344820413026795534> The last character I had who got training in underground survival had to study under an evil cave dryad.  It was a big thing, I had to make bloodlust self control rolls and everything to keep her alive.
+
+Greybrown — 5/29/25, 10:13 PM
+Good to know.
+
+Demented Avenger — 5/30/25, 3:46 AM
+Wait, she was evil?
+
+Demented Avenger — 5/30/25, 3:48 AM
+This is the minyad, right?
+
+Archon Shiva — 5/30/25, 11:27 AM
+Yeah, that was also my reaction.
+
+Zuljita — 5/30/25, 12:34 PM
+Yes.  I went back and read a good chunk of the adventure after.  At least per her stat block she was evil
+
+Demented Avenger — 5/30/25, 1:00 PM
+(Zaber) “G, like, I don’t care if you thought she was bad, but she was hot, and think of all the booze we made from her shrooms, man!”
+
+Archon Shiva — 5/30/25, 1:54 PM
+Seep just didn’t notice anything specifically wrong with her.  So few things were willing to talk to us in that dungeon…
+
+dripton — 5/30/25, 2:41 PM
+"Remember the good old days, when adventures were underground, NPCs were there to be killed, and the finale of every dungeon was the dragon on the 20th level? Those days are back. Dungeon Crawl Classics don't waste your time with long-winded speeches, weird campaign settings, or NPCs who aren't meant to be killed. Each adventure is 100% good, solid dungeon crawl, with the monsters you know, the traps you fear, and the secret doors you know are there somewhere."
+
+dripton — 5/30/25, 2:41 PM
+Probably the best marketing tag line in RPG history.
+
+Based Cosmo — 5/30/25, 2:43 PM
+I’ve tried to start playing DCC, but I cant find any irl playgroups. It looks really fun though
+
+dripton — 5/30/25, 2:43 PM
+I've never actually run their system but I've run a few of their D&D 3.5 adventures in GURPS.
+
+Demented Avenger — 5/30/25, 2:44 PM
+I've played in it a few times. The magic system is interesting, though I don't think I got a chance to cast any spells, at least with memorable effects.
+
+Demented Avenger — 5/30/25, 2:45 PM
+I should break out my Caverns of Thracia conversion sometime. There were NPCs in there who weren't to be killed
+
+Based Cosmo — 5/30/25, 2:45 PM
+The only thing I am not fond of, is off the top of my head, you can’t start your character as a dwarf (i’m not sure on that because I haven’t read the rules in a while)
+
+dripton — 5/30/25, 2:50 PM
+Not a *real* old-school adventure as it was written by a grownup.  *Real* old-school adventurers were written by 12-year-olds.
+
+dripton — 5/30/25, 2:50 PM
+Using the graph paper that their mom bought them for math class.
+
+Based Cosmo — 5/30/25, 2:51 PM
+You guys don’t make your maps on graph paper…?
+
+dripton — 5/30/25, 2:51 PM
+I use DungeonDraft now.
+
+Based Cosmo — 5/30/25, 2:51 PM
+I have a bunch of my old maps scattered through out many of my TTRPG book locations
+
+Based Cosmo — 5/30/25, 2:52 PM
+Generally when I need to use them I remake them in Dungeon Alchemist and import them into Foundry
+
+dripton — 5/30/25, 2:52 PM
+I haven't tried that one.
+
+Based Cosmo — 5/30/25, 2:52 PM
+I was one of the original backers. It’s very nice.
+
+Archon Shiva — 5/30/25, 3:20 PM
+The good part about knowing everything out there is for killing is that you can try to alpha strike everything.
+
+Stealth and negotiation aren’t as easily compatible.
+
+However, that “classic” view is mostly a misinterpretation of the original rules: reaction rolls were there, but most groups either forgot about them, did not understand them, or simply could not see the point.
+
+dripton — 5/30/25, 3:24 PM
+I'm sure there were grownups rolling reaction rolls, but as kids we were just murdering stuff.
+
+Demented Avenger — 5/30/25, 3:25 PM
+I came of age in the 2e era, and we were doing a lot of plot-heavy stuff. I had an instinctual drive towards crawls but didn't understand it yet, so my stuff tended to be caravans
+
+Based Cosmo — 5/30/25, 3:26 PM
+I wish that was still the most popular way of looking at it. I haven't been able to find any more than one person that wants to play GURPS in MN and he is into sci-fi. Everyone else is into 5e and only like to do the annoying "I roll to seduce the dragon and sleep with it" and "No! I want the [totally evil enemy] as a companion!"
+
+Demented Avenger — 5/30/25, 3:27 PM
+There's nothing wrong or annoying with those at all, actually
+
+Based Cosmo — 5/30/25, 3:27 PM
+I have issues with ERP, especially irl.
+
+Based Cosmo — 5/30/25, 3:28 PM
+I hate it at my tables.
+
+dripton — 6/9/25, 8:28 PM
+Here the sheep-headed beastman demands to be drawn by hand rather than by an AI that hallucinates an extra hand coming out of its head?
+
+Archon Shiva — 6/9/25, 8:28 PM
+It's Camilla.
+
+dripton — 6/9/25, 8:33 PM
+I didn't know she spoke Mithric.
+
+Archon Shiva — 6/9/25, 8:38 PM
+ChatGPT suggested it could design a union emblem for the brigade, and I was curious what it would look like, so I let it.
+
+dripton — 6/9/25, 8:38 PM
+I'm sure Coinbase is cool with that
+
+Demented Avenger — 6/9/25, 8:38 PM
+Solidarity, business, one each, those waging war
+
+dripton — 6/9/25, 8:39 PM
+Definitely broken Mithric
+
+Archon Shiva — 6/9/25, 8:39 PM
+Well, I *did* post it in off-topic.
+
+Archon Shiva — 6/9/25, 8:39 PM
+It's meant to be “Collectively Bargained, Individually Belligerent”, written by someone with Mithric at -/B.
+
+Demented Avenger — 6/9/25, 8:40 PM
+Works
+
+dripton — 6/9/25, 8:41 PM
+The staff is Chrysalis, the animal is GOAT and/or his goats, the axe is Thronebreaker, and I'm unsure about the hand.
+
+Archon Shiva — 6/9/25, 8:43 PM
+It's holding a scroll.  I guess both characters with money (Coinbase and Lacrymosa) have scrolls, maybe.  I mean, it's not a bad "I read a blurb about some people and came up with a logo".
+
+Demented Avenger — 6/9/25, 8:43 PM
+I'd call it "una agunt, singillatim gerunt" but that's somewhere between Broken and Accented
+
+Archon Shiva — 6/9/25, 8:44 PM
+I'm assuming Coin wrote it, so it should sound full of itself.
+
+Demented Avenger — 6/9/25, 8:44 PM
+as in, I had to double-check which verb to use for "bargain"
+
+Archon Shiva — 6/9/25, 8:45 PM
+Google translate had "Collective Pacti, Singillatim Belligerantes", it felt like it needed more oomph.
+
+Demented Avenger — 6/9/25, 8:47 PM
+gimme a mace and sickle
+
+dripton — 6/9/25, 8:47 PM
+I think the goat in a hard hat is a statement about goat feminism.  Rams get extra skull DR so she's wearing a hard hat to make her own DR.
+
+Demented Avenger — 6/9/25, 8:50 PM
+I just think of this line that got altered in the movie:
+
+https://youtu.be/AWmjzCZr0Jw?si=8kPzOPt7pd3_itW8&t=59
+
+Archon Shiva — 6/9/25, 8:50 PM
+I have no idea how the hardhat came about, probably because I said they "unionized", and union logos have hardhats on them, but I think it's hilarious.
+
+dripton — 6/9/25, 8:51 PM
+Hardhat = TL6 pot helm with Lighten.  It shows optimization.
+
+Archon Shiva — 6/9/25, 8:52 PM
+I like Letters By Cleo for some reason.
+
+dripton — 6/9/25, 8:52 PM
+TIl if you click a YouTube video inside Discord it plays ads.
+
+Demented Avenger — 6/9/25, 8:53 PM
+Ah, the 1990s, when I still went to the movies even though my musical tastes went backwards fast
+
+dripton — 6/9/25, 8:53 PM
+I never saw that movie.
+
+Archon Shiva — 6/9/25, 8:54 PM
+It's not as good as Josie and the Pussycats or Clueless, but I think it's in the tier under those.
+
+dripton — 6/9/25, 8:54 PM
+I think it's in the bin of "I will watch it if it shows up on Netflix and I'm bored but I won't go out of my way."
+
+Demented Avenger — 6/9/25, 8:54 PM
+Never saw Josie and the Pussycats, but definitely Clueless was just above it, adapting Austen versus Shakespeare
+
+Demented Avenger — 6/9/25, 8:55 PM
+Adapting Austen was kind of a thing in the late 1990s for some reason
+
+Archon Shiva — 6/9/25, 9:00 PM
+Josie and the Pussycats is one of those movies I saw back when it was unpopular, immediately saw a masterpiece, and then it's waiting decades for people to realize it.
+
+Like Starship Troopers.
+
+Demented Avenger — 6/9/25, 9:00 PM
+Starship Troopers was ungodly prescient. Plus I saw it the same week I saw Yes in concert
+
+dripton — 6/9/25, 9:00 PM
+Never saw Josie.  I saw Starship Troopers and thought it was meh but maybe I'll give it another chance some year.
+
+Demented Avenger — 6/9/25, 9:01 PM
+There's a joke with the Yes line
+
+Demented Avenger — 6/9/25, 9:02 PM
+It's a dumb one
+
+dripton — 6/9/25, 9:02 PM
+Yes had a song called Starship Trooper but it predated the movie.
+
+Demented Avenger — 6/9/25, 9:02 PM
+Right, that's the last song played at most concerts
+
+Based Cosmo — 6/9/25, 9:02 PM
+That band rocks. (I haven't been paying attention to the conversation until now)
+
+dripton — 6/9/25, 9:02 PM
+Well, it *started* before the movie.  It's a prog rock song so it might not be done yet.
+
+dripton — 6/9/25, 9:02 PM
+We're coming up on the third keyboard solo.
+
+Demented Avenger — 6/9/25, 9:03 PM
+I remember going away after one of the two events thinking, "Wow, I saw Yes AND Starship Troopers in the same week"
+
+dripton — 6/9/25, 9:03 PM
+I saw Yes right after the 2 split versions of Yes joined back together so there were like 8 guys in the band.  It was confusing.
+
+Demented Avenger — 6/9/25, 9:04 PM
+I once tallied up my iTunes many years ago and calculated that over 80% was British hippies born before the Sex Pistols. Granted, probably a third of the collection was Pink Floyd and maybe 10% was the Beatles, but still
+
+Demented Avenger — 6/9/25, 9:05 PM
+And much of the stuff that wasn't in that 80% was stylistically similar, like Rush, Frank Zappa, and Iron Maiden
+
+dripton — 6/9/25, 9:06 PM
+Mine on the other hand continues past the Sex Pistols and well into the 2010s before I become an old fart and give up.
+
+dripton — 6/9/25, 9:06 PM
+Not much from the 2020s though; I'm dead.
+
+Demented Avenger — 6/9/25, 9:06 PM
+My mean year was something like late 1974, so I decided that the median record was the Lamb Lies Down on Broadway
+
+Demented Avenger — 6/9/25, 9:07 PM
+I used to read rec.music.progressive in the 1990s to pad my music collection
+
+dripton — 6/9/25, 9:07 PM
+I remember back in the 1990s my friend Ed (who is actually slightly younger than me) used to call up the classic rock station to tell them to start playing new crap.
+
+dripton — 6/9/25, 9:07 PM
+He would talk to me to figure out what the new crap was so he could give them more precise instructions.
+
+dripton — 6/9/25, 9:08 PM
+He was like "REM, stop playing it.  Also Soundgarden, stop playing it."
+
+Demented Avenger — 6/9/25, 9:08 PM
+I just want the deep tracks
+
+dripton — 6/9/25, 9:08 PM
+"Queen, you can keep playing that."
+
+dripton — 6/9/25, 9:08 PM
+His line was around 1980.
+
+Demented Avenger — 6/9/25, 9:08 PM
+"'Comfortably Numb'? I've heard that too many times. Gimme 'Atom Heart Mother.'"
+
+Demented Avenger — 6/9/25, 9:09 PM
+"No, I don't care that it's 23 minutes long."
+
+dripton — 6/9/25, 9:09 PM
+I saw Comfortably Numb played live while eating lunch at a Potbellys
+
+dripton — 6/9/25, 9:09 PM
+That's when you know you have achieved cultural dominance, when you get played during lunch hour.
+
+dripton — 6/9/25, 9:10 PM
+The guy who played it was pretty good.
+
+Demented Avenger — 6/9/25, 9:11 PM
+My high school marked the time between classes with music—four minutes of music, then when the music cut you had a minute before the bell. By far the most common record to hear was Led Zeppelin IV, side 2, followed by that REM record with "Stand." (Never cared for REM.)
+
+As a result, I never could like "Misty Mountain Hop." It signalled English class was about to start
+
+dripton — 6/9/25, 9:12 PM
+Heh, my high school was not that cool.  We got either bells or silence, depending on who was principal that year.
+
+dripton — 6/9/25, 9:12 PM
+One principal was like "in real life there will be no bells so I'm taking your bells away.  Wear a watch!"
+
+dripton — 6/9/25, 9:13 PM
+Also, REM isn't my favorite band, but if I had to pick one perfect pop song to send to aliens, It's the End of the World As We Know It might be it.
+
+Demented Avenger — 6/9/25, 9:14 PM
+I feel like I'm going top 40 and really showing my age, but Addicted to Love
+
+Demented Avenger — 6/9/25, 9:14 PM
+The aliens might expect we're all gone with that REM song
+
+dripton — 6/9/25, 9:15 PM
+It's a trap!
+
+Demented Avenger — 6/9/25, 9:15 PM
+or Rickroll them
+
+dripton — 6/9/25, 9:16 PM
+Even the aliens will recognize the URL and refuse to click.
+
+Demented Avenger — 6/9/25, 9:17 PM
+that URL might say something in their native tongue
+
+dripton — 6/9/25, 9:21 PM
+"The voice does not match the looks"
+
+Demented Avenger — 6/9/25, 10:23 PM
+Whoa, it didn't click for me that strength potions are cheap, like two minor healing potions cheap
+
+Archon Shiva — 6/9/25, 10:46 PM
+Seep tried to get you all hooked up on Strength potions for her last two years, but you never bothered to drink them.  Things last AN HOUR!
+
+Demented Avenger — 6/9/25, 10:46 PM
+Well, in Zaber's case, drinking something to become strong was pretty much the opposite of why he drank something
+
+Demented Avenger — 6/9/25, 10:48 PM
+"Become strong? Or go to an altered state? Gosh, a tough pick … not!"
+
+Archon Shiva — 6/12/25, 9:58 AM
+I guess I’m gonna have to back that…
+
+dripton — 6/12/25, 5:42 PM
+Stretch goal: orca-sized turtle
+
+Archon Shiva — 6/12/25, 6:23 PM
+That’s just 71411.  I already have that one.
+
+Archon Shiva — 6/14/25, 1:32 AM
+Barbie is releasing a She-Ra doll, MotU sword and all.
+
+Archon Shiva — 6/15/25, 6:14 PM
+lol @ GM thinking a post entirely about loot and xp is somehow not exciting.
+
+dripton — 6/15/25, 10:17 PM
+I was excited to come up with a simple closed-form equation rather than a stupid table, but I didn't think anyone else would be excited.
+
+Archon Shiva — 6/16/25, 12:53 AM
+On the contrary, I'm super into that stuff.
+
+Based Cosmo — 6/22/25, 4:38 AM
+https://discord.com/channels/1346534955357835336/1346536211480707213/1386203602212884572 Reminds me a lot of Battle Brothers in a sense
+
+Based Cosmo — 6/22/25, 4:39 AM
+However, I am curious on the overarching story you are presenting with it, if there is one
+
+Demented Avenger — 6/22/25, 4:39 AM
+Absolutely no overarching story at all
+
+Based Cosmo — 6/22/25, 4:40 AM
+None whatsoever? Not even a slow piecing together of why everything is ruined outside of the place they venture out from?
+
+Demented Avenger — 6/22/25, 4:41 AM
+There are loads of little subplots that they can pick up or drop as they wish, and hopefully none of them come back to nag them
+
+Based Cosmo — 6/22/25, 4:41 AM
+Ah, interesting. Do you track anything like local politics, disasters or issues in the town, etc?
+
+Based Cosmo — 6/22/25, 4:42 AM
+Something I have been meaning to fully start doing in my games is having the world live and breathe around them, but I haven't had a chance to as I haven't found a good enough group to test it with that is willing to watch me beat my head against the wall
+
+Demented Avenger — 6/22/25, 4:42 AM
+Yes. I have a spreadsheet of upcoming events
+
+Based Cosmo — 6/22/25, 4:42 AM
+Nice
+
+Based Cosmo — 6/22/25, 4:43 AM
+How do you handle tracking resources like food and water among the group when it comes to weight?
+
+Demented Avenger — 6/22/25, 4:43 AM
+I keep them on a spreadsheet. I leave it to them to update the weights in Roll20
+
+Based Cosmo — 6/22/25, 4:43 AM
+I run a AtE Tactical Shooting campaign and I struggle to track it all without having a public spreadsheet
+
+Based Cosmo — 6/22/25, 4:43 AM
+Ah, okay, gotcha
+
+Demented Avenger — 6/22/25, 4:43 AM
+They seldom matter much as they have a mule
+
+Based Cosmo — 6/22/25, 4:44 AM
+Ah, okay
+
+Based Cosmo — 6/22/25, 4:44 AM
+Do you track the group needing to learn new languages and dialects in the new areas that they go in or do you not care about that?
+
+Demented Avenger — 6/22/25, 4:46 AM
+It seldom matters as they're playing in an area about the size of Estonia
+
+Demented Avenger — 6/22/25, 4:46 AM
+Not what I intended, but it turns out these things don't use a huge area
+
+Based Cosmo — 6/22/25, 4:46 AM
+Interesting
+
+Based Cosmo — 6/22/25, 4:47 AM
+Is it coastal? If I were in that game I would plan a huge voyage (then promptly die in a storm)
+
+Demented Avenger — 6/22/25, 4:47 AM
+No, it's inland. Think medieval Bohemia.
+
+Based Cosmo — 6/22/25, 4:48 AM
+That's where I intend to run my upcoming game (that my friend convinced me to do because we've both been playing Kingdom Come: Deliverance 2)
+
+Based Cosmo — 6/22/25, 4:48 AM
+A region like Medieval Bohemia that is
+
+Demented Avenger — 6/22/25, 4:49 AM
+It's not Bohemia, but roughly that area in relation to the seacoast
+
+Based Cosmo — 6/22/25, 4:49 AM
+Ah, okay. Makes sense though
+
+dripton — 6/25/25, 1:30 AM
+Whoa, there's no alcoholism in DFRPG?  But I have 2 NPCs whose last name is "the Souse".  (I assume they are brother and sister.)  Guess it's time to drag it in from the Basic Set.
+
+Demented Avenger — 6/25/25, 1:31 AM
+Compulsive Carousing takes that niche
+
+dripton — 6/25/25, 1:31 AM
+-5 vs. -15 though
+
+Demented Avenger — 6/25/25, 1:32 AM
+Well, be a Zaber and have it at (6) to always fail to bypass a drink
+
+Demented Avenger — 6/25/25, 1:33 AM
+But Alcoholism has a lot of weird rules associated with it that mean yearly rolls and other stuff that’s too icky for DFRPG
+
+dripton — 6/25/25, 1:33 AM
+Yeah, I can see why Kromm left it out.
+
+dripton — 6/25/25, 1:33 AM
+(I wonder how many PCs have survived a year in play to make that roll...)
+
+Demented Avenger — 6/25/25, 1:34 AM
+Hegseth the Half-Orc?
+
+Zuljita — 6/25/25, 9:53 PM
+What I'm up to this week during game... Back soon
+
+dripton — 6/25/25, 10:00 PM
+That water looks so blue through the glass, not so much above it.
+
+Archon Shiva — 6/25/25, 10:08 PM
+It's blue glass.
+
+dripton — 6/25/25, 10:08 PM
+Or possibly it's transparent glass below the railing and gray above.
+
+Zuljita — 6/25/25, 10:09 PM
+It's blue ish glass for sure
+
+Zuljita — 6/25/25, 10:10 PM
+We're on the back of the ship
+
+dripton — 6/25/25, 10:10 PM
+I could tell that from the wake
+
+dripton — 6/25/25, 10:10 PM
+The blue tinted glass is such an obvious marketing stunt but also clever -- people like blue water and it's going to be in so many photos.
+
+Zuljita — 6/25/25, 10:11 PM
+Had a humpback whale do a jumping breech in our wake when we'd all just stepped out to admire the view
+
+dripton — 6/25/25, 10:12 PM
+I wonder if they pay the whales to do that.
+
+dripton — 6/25/25, 10:12 PM
+Dump some free food in the water.
+
+Archon Shiva — 6/25/25, 10:12 PM
+Fully unionized and all.
+
+Zuljita — 6/27/25, 8:54 PM
+What I'm up to instead of gaming this week.  Hope to be fully back and energized for next week
+
+Based Cosmo — 6/27/25, 8:55 PM
+Woah, where is that? That’s stunning!
+
+Zuljita — 6/27/25, 8:55 PM
+Skagway
+
+Based Cosmo — 6/27/25, 8:56 PM
+Nice. I need to go up to Alaska some day.
+
+Zuljita — 6/27/25, 8:56 PM
+Honestly the pics don't do it justice
+
+dripton — 6/27/25, 8:56 PM
+For example, you can't see the polar bear chasing them.
+
+Archon Shiva — 6/27/25, 8:56 PM
+It’s on his chin.
+
+Based Cosmo — 6/27/25, 8:57 PM
+I’d imagine, Alaska looks a lot better in person from what i’ve heard (I heard this from someone born there)
+
+Zuljita — 6/27/25, 8:58 PM
+We named him Hrothgar
+
+Zuljita — 6/27/25, 9:00 PM
+I'd agree
+
+Archon Shiva — 6/28/25, 8:49 PM
+Losing Internet is *susch a reminder* how much of a completely world-changing tech it is.
+
+dripton — 6/28/25, 8:50 PM
+Also how quickly humans forget how to do things.
+
+dripton — 6/28/25, 9:01 PM
+(My wife asked how I found Verizon's tech support number without Internet.)
+
+dripton — 6/28/25, 9:02 PM
+(I used the Internet, just the shitty version through my phone hotspot.  I can think of several other ways but happily didn't have to.)
+
+Demented Avenger — 7/5/25, 12:03 AM
+Waiting on grilled cheese at a con
+
+Archon Shiva — 7/11/25, 12:13 AM
+What I’m up to instead of gaming this week.
+
+Based Cosmo — 7/11/25, 12:20 AM
+Nice. Where's that?
+
+Archon Shiva — 7/11/25, 12:22 AM
+La Tuque.
+
+Archon Shiva — 7/11/25, 12:22 AM
+On the way to Lac-Saint-Jean.
+
+dripton — 7/11/25, 12:25 AM
+It's weird that you can go that far north and there's still so much farther north you can go.  Quebec just keeps going forever.
+
+Archon Shiva — 7/11/25, 12:28 AM
+It does.
+
+Archon Shiva — 7/11/25, 12:30 AM
+This isn’t remotely northern Quebec.  I guess we’re about one Florida away from Montreal.
+
+dripton — 7/11/25, 12:31 AM
+It's not even close to northern by borders, but it's pretty far north by population density.
+
+Based Cosmo — 7/11/25, 12:31 AM
+Thank you for an Americanized measurement
+
+Archon Shiva — 7/11/25, 12:31 AM
+Fair.
+
+dripton — 7/11/25, 12:31 AM
+70000 football fields
+
+Archon Shiva — 7/11/25, 9:25 AM
+This area has a weird obsession with phenomenal plating.  I’m looking at restaurants in the $7-15 (USD) price range, they look like cafeteria or taco shacks, and their plating looks like $300 a head French cuisine.
+
+Archon Shiva — 7/11/25, 9:27 AM
+Like, WTF?
+
+dripton — 7/11/25, 12:57 PM
+Maybe everyone who goes there takes pictures of their food?
+
+dripton — 7/12/25, 9:56 PM
+Unpopular opinion: the owl is the best familiar, because it grants Common Sense, one of the best advantages in GURPS but one that every player thinks they're too smart to buy.
+
+Based Cosmo — 7/12/25, 10:14 PM
+Common Sense is right next to luck for "advantages we all need". (I take neither because watching my PC die to something obvious and not being able to do anything about it is the way of life)
+
+dripton — 7/12/25, 10:15 PM
+Yeah, not everyone has the same goals.  If your goal is to keep your PC alive then these are great advantages.  I think that's most but not all players.
+
+dripton — 7/12/25, 10:17 PM
+I've been watching an Actual Play where one of the players has hit onto the idea "first level PCs are free; I can keep getting them killed and keep making new ones."  And it's pretty amusing.
+
+Archon Shiva — 7/13/25, 12:02 AM
+Common sense, unfortunately, rolls against unmodified IQ — that makes it very low ROI for non-IQ builds.  At IQ 12+ it works — but wizards can’t afford the points!
+
+Based Cosmo — 7/13/25, 12:03 AM
+I mean, they aren’t wrong.
+
+Archon Shiva — 7/13/25, 12:04 AM
+At any rate, Owl doesn’t give Common Sense.  It lets you buy it at a discount if you choose to.
+
+dripton — 7/13/25, 12:04 AM
+Right, players still won't buy it.
+
+dripton — 7/13/25, 12:05 AM
+I agree that ads and disads that depend on IQ are an issue.  GURPS was clearly written by a mage.
+
+Based Cosmo — 7/13/25, 12:05 AM
+Steve Jackson being a mage makes a lot of sense.
+
+dripton — 7/13/25, 12:07 AM
+Why *buy* a 10-foot pole when you can *be* a 10-foot pole?
+
+Based Cosmo — 7/13/25, 12:08 AM
+Exactly!
+
+Archon Shiva — 7/13/25, 12:09 AM
+I have never been less careful with my PCs than the Grudge Brigade.
+
+Not saying they’re not careful, but by my standards they’re basically a bunch of kamikazes.
+
+dripton — 7/13/25, 12:10 AM
+Yes, it was pretty clear when you went after the obviously cursed statue that you had 5 more PCs in reserve.
+
+Archon Shiva — 7/13/25, 12:13 AM
+I’m super tempted to make a goblin with a Macaw familiar using a large shield and a crossbow, pulling the trigger with his tongue.
+
+dripton — 7/14/25, 12:11 AM
+Anyone who missed it, https://bundleofholding.com/presents/Pyramid1 and https://bundleofholding.com/presents/Pyramid2
+
+Archon Shiva — 7/14/25, 12:11 AM
+Yeah I need to grab those when I get back home.  I’ve been asking for exactly this for years.
+
+Demented Avenger — 7/14/25, 12:13 AM
+I’m debating these. I think I have half of the first bundle and two-thirds of the second
+
+dripton — 7/14/25, 12:15 AM
+Yeah, I remember you mentioning it.
+
+dripton — 7/14/25, 12:15 AM
+I'm in the same boat; I have a lot of them but not all of them, so I'll just get the bundles.
+
+dripton — 7/14/25, 12:16 AM
+I find it annoying that they made it 2 bundles rather than a bundle with more levels, but whatever.
+
+Zuljita — 7/14/25, 1:53 AM
+I think I own probably 25% of each. I think I'm unlikely to significantly use the other 75% at this point, but at the same time, I'm a hoarder of these things
+
+Archon Shiva — 7/14/25, 2:00 AM
+It’s $1 per issue.  Even if you own half, it’s still 75% off.  Wouldn’t you pick up a stack of third edition books at 75% off?
+
+Zuljita — 7/14/25, 2:01 AM
+Maybe not now. But I think I'll but em now for my hoard
+
+Demented Avenger — 7/15/25, 3:40 AM
+I have to play this Friday by ear. I hope to play, but my father is in just horrible shape, and my brother is coming in from California to see him
+
+Zuljita — 7/15/25, 3:40 AM
+So sorry to hear that!
+
+dripton — 7/15/25, 3:40 AM
+Hope he improves.
+
+Greybrown — 7/15/25, 3:55 AM
+Family first.
+
+Archon Shiva — 7/15/25, 10:10 AM
+Best wishes.
+
+I hope you join us, as that would mean everyone is doing well enough!
+
+Demented Avenger — 7/15/25, 12:13 PM
+I agree! My brother can spend his Friday night stoned without me
+
+Demented Avenger — 7/17/25, 6:26 PM
+FYI, Shiva, you get to play. Ain’t nobody going to be doing well here tomorrow
+
+Archon Shiva — 7/17/25, 6:33 PM
+I’m sorry.  I hope things turn out for the best and sort themselves out soon.
+
+Take care.
+
+Demented Avenger — 7/19/25, 2:40 AM
+So, TPK yet?
+
+Zuljita — 7/19/25, 2:41 AM
+We yet live, we've made friends with the old man under the ruins.  He feels cursed.
+
+Archon Shiva — 7/19/25, 2:41 AM
+Unfortunately, the party hasn't managed to shed a single HP.
+
+Zuljita — 7/19/25, 2:41 AM
+There's also an obedient zombie porter and some religious gold we're going to sell.
+
+Zuljita — 7/19/25, 2:41 AM
+a magic ring and a wand.
+
+dripton — 7/23/25, 8:18 PM
+My new favorite GCS changelog entry: "The whistle from Action no longer gives a DR bonus to the eyes (#369)"
+
+Archon Shiva — 7/31/25, 7:52 PM
+(Would you tell us things our characters know to be false, sometimes they pay more attention than we do)
+
+dripton — 7/31/25, 7:53 PM
+On a critical failure, I make up lies that I think sound believable.  On a failure, I tell you you failed.  On a success, I share rumors.  On a critical success, I cherry-pick good rumors.
+
+Archon Shiva — 7/31/25, 7:54 PM
+I kinda guessed - which is why I posted to off-topic.  It was a more a "The giants to the west use clubs made out of dragon bones" -- well, we weren't paying much attention, but now we know they don't.
+
+dripton — 7/31/25, 8:03 PM
+I don't think it's worth the effort to make up *obviously* false rumors.  But if you need some, the temple of Set's favorite color is green.  Phleboromas Plumthorn won Newmarket's Most Honest Halfling award last year.  Craastonistorex is just an illusion, not a real dragon, and you can easily take all his loot if you just don't believe in him hard enough.
+
+Archon Shiva — 7/31/25, 8:04 PM
+We should make a write-only submissions thread for players making up rumors!
+
+Archon Shiva — 7/31/25, 8:04 PM
+(No.)
+
+Demented Avenger — 7/31/25, 8:08 PM
+I’ve considered making local color rumors for simple failure on Carousing rolls. As in, yeah, you heard something, but it’s nothing you care about, unless you really want a game about Widow Smith’s cow giving birth to a really red calf
+
+Archon Shiva — 7/31/25, 8:09 PM
+Oh, you *know* someone would.
+
+Demented Avenger — 7/31/25, 8:10 PM
+In my game? Yes. We’d get an hour of arguments about how to use Animal Handling (Bovines) to assess the value of a newborn calf
+
+dripton — 7/31/25, 8:11 PM
+Yeah, which is why I reserve the time-wasting rumors for critical failures.
+
+Archon Shiva — 8/2/25, 12:27 AM
+And there I thought our early session time waster was gonna be the lizard...
+
+Archon Shiva — 8/7/25, 1:20 PM
+As a player I'm not saying we should perform a halfling genocide this week, but with Michael missing, I'll be bringing Lacrymosa in  -- and *she* is absolutely 100% saying that.
+
+Greybrown — 8/7/25, 1:35 PM
+Maybe bureaucracy can solve her frustration.  Lacrymosa should submit a request with the destination czar.  No last minute changes for this week, but perhaps next week that can be the proposed destination, especially if no other requests come in.
+
+Archon Shiva — 8/7/25, 2:34 PM
+It will always be last minute — I don’t know if I’m playing until someone taps out.
+
+Archon Shiva — 8/7/25, 2:35 PM
+Seriously, they’re mercenaries.  They’ll go where you need them.
+
+Archon Shiva — 8/7/25, 2:35 PM
+But I’m just saying, if you need some heavy murdering done, she’s your gal.
+
+Demented Avenger — 8/7/25, 5:29 PM
+Ioannes is squeamish about wholesale murder. He’d probably like some offer of give up all your stuff and move away.
+
+But strategically, Randy Newman has the best solution for the halfings.
+
+dripton — 8/7/25, 6:21 PM
+"In 1978, Maryland State Delegate Isaiah Dixon attempted to introduce legislation making it illegal to play "Short People" on the radio."
+
+dripton — 8/7/25, 6:21 PM
+"In 1979, Dixon turned up dead with a very small knife in his back.  A note next to his body said 'Plumthorn sends his regards.'"
+
+Archon Shiva — 8/7/25, 8:00 PM
+As he should.  Lacrymosa is way too enthusiastic about it.
+
+Demented Avenger — 8/7/25, 8:13 PM
+“They’re gonna getcha every time.”
+
+dripton — 8/7/25, 8:14 PM
+I was looking for "Do.  Or Do Not.  There is no try."
+
+dripton — 8/7/25, 8:15 PM
+(Yes, I just called Yoda a halfling.  I know he looks more like a goblin, but that's because he's like 800.)
+
+Demented Avenger — 8/7/25, 8:31 PM
+I was sticking to the lyrics of the song
+
+dripton — 8/7/25, 8:32 PM
+Sorry I only know the chorus.
+
+dripton — 8/7/25, 8:33 PM
+The only Randy Newman songs I know all the words to are the ones from Pixar movies that I have seen way too many times.
+
+Demented Avenger — 8/7/25, 8:34 PM
+"They got grubby little fingers
+And dirty little minds
+They're gonna get you every time"
+
+Demented Avenger — 8/7/25, 8:34 PM
+Did Randy Newman know Plumthorn? Who can say
+
+dripton — 8/7/25, 8:34 PM
+But I think he also said something about platform shoes and I'm pretty sure halflings mostly go barefoot, so it's a mystery.  Maybe he was talking about dwarves.
+
+Demented Avenger — 8/7/25, 8:36 PM
+He did mention their platform shoes, but remember, it was the 70s. Even Frodo was wearing platform shoes at Studio 54
+
+Archon Shiva — 8/9/25, 12:46 AM
+The cleric should totally pretend to turn/destroy undead, and takes credit for any undead killed within that second.
+
+dripton — 8/10/25, 6:18 PM
+Good 10-minute video about GM styles, on the axis of how much you roll for. <https://www.youtube.com/watch?v=bcUvijpbTFw>  I think I'm mostly a Wide GM: I'll say yes or no for trivial or impossible things but allow rolls with big modifiers for a lot, just in case we get a crit.
+
+Based Cosmo — 8/23/25, 11:04 PM
+Last session, what was the Duergar thing you guys were talking about? Was it something from Whiterock?
+
+Zuljita — 8/23/25, 11:19 PM
+Oh I was thinking there was an opportunity for you to lean into dwergar style invisibility strike with a big nasty pick to the vitals
+
+Based Cosmo — 8/23/25, 11:19 PM
+I meant during the fight someone said "This is giving [something] duergar vibes"
+
+Demented Avenger — 8/23/25, 11:30 PM
+Yeah, there was a spot midway through Whiterock when we fought a *lot* of duergar. Dripton got his best line off of the campaign when a duergar told Zaber he used enlargement below his belt
+
+Based Cosmo — 8/23/25, 11:32 PM
+LOL
+
+Demented Avenger — 8/23/25, 11:32 PM
+We fought them for like two months straight
+
+Zuljita — 8/23/25, 11:35 PM
+Oh, yeah, we hit the front door of the duergar, ripped their fortifications appart and just came for them room by room until we killed their king.
+
+Zuljita — 8/23/25, 11:35 PM
+Probably over a hundred of em dead.
+
+Demented Avenger — 8/23/25, 11:36 PM
+Not much booze, though. The vampire had a great liquor cabinet, best in the dungeon
+
+Based Cosmo — 8/23/25, 11:36 PM
+Sounds like you guys were boozers
+
+Zuljita — 8/23/25, 11:37 PM
+We'd attacked their fortifications before and the next week they'd keep restocking it, we didn't want to play that game, so we just kept coming until we ran out of short dudes.
+
+Zuljita — 8/23/25, 11:38 PM
+Yeah, both DA's character and mine had compulsive carousing and when I took up martial arts, I was gifted drunken master perk so I would get liquored up for a DX buff
+
+Zuljita — 8/23/25, 11:41 PM
+And being a half orc (poison resist +5) Barbarian/Knight/Swashbuckler/Martial Artist with 17 HT and 19 ST... Garreth (my character) was basically incapable of getting drunk without drinking hard stuff like most people drink water.
+
+Demented Avenger — 8/23/25, 11:43 PM
+When we whizzed upstream of town, the place got wasted for a week. We were completely unaffected
+
+Demented Avenger — 8/23/25, 11:47 PM
+There was one point when Kalzazz was running the game when he described the party as having “those two drunks,” Garreth and Zaber looked around for the said drunks, couldn’t find them, then each downed a big tankard of booze. Never could find the drunks
+
+Zuljita — 8/23/25, 11:50 PM
+If taking a dip in bard wasn't such a crappy dip, G might have done it.  He put a point in singing and busked in town every week like clockwork.
+
+Zuljita — 8/23/25, 11:51 PM
+Eventually he achieved some noteriety and was invited to sing for nobility.  It was interesting.
+
+Demented Avenger — 8/23/25, 11:52 PM
+Harmonizing with the wolverine
+
+Archon Shiva — 8/24/25, 12:22 AM
+That was my favourite part of DFW.  Humanoid foes with rank, tactics, language, equipment, *feelings*, etc. is just *so much more fun* than chipping at homogenous stone and ooze.
+
+Zuljita — 8/24/25, 12:23 AM
+Garreth getting to the point of being able to Power Blow for 3x ST and just using it to perform random acts of vandalism was great too...
+
+Zuljita — 8/24/25, 12:24 AM
+"They use this as an arena.  I don't like how they use arenas, I'll just rip the portcullis out of the wall and toss it down the pit.  Good luck getting it back now"
+
+Archon Shiva — 8/24/25, 12:25 AM
+I want to get Tubbs to x3 in combat, but that’s a tough one to crack.
+
+Zuljita — 8/24/25, 12:27 AM
+I couldn't do 3x in combat, but I could out of combat, with really high ST... "I've got effective ST 66 for this... with a +2 for bless" was always fun.
+
+Based Cosmo — 8/26/25, 5:45 AM
+Because you guys have probably logged 10x more hours than I have with old-school dungeon creation and playing, has anyone here put friendly settlements in their large dungeons? Just curious because you guys seem much more knowledgeable than I am… 😅
+
+dripton — 8/26/25, 3:08 PM
+Yes, I've seen that at least once.
+
+Zuljita — 8/26/25, 3:12 PM
+I've seen it more than once.  Given that the surface of Arden Vul is essentially "dungeon" the broken head is one.  I suspect you can make the beastmen a friendly settlement depending on how you treat them and how seriously you take that.
+
+Demented Avenger — 8/26/25, 3:28 PM
+There was a McDonald’s level in the original Greyhawk dungeon. No joking.
+
+Based Cosmo — 8/26/25, 3:59 PM
+Huh.
+
+Based Cosmo — 8/26/25, 4:00 PM
+Well, I intend to have a settlement inside the dungeon that is led by the escaped slaves that the necromancer that owns the dungeon used to build it
+
+Zuljita — 8/26/25, 5:25 PM
+Seems legit.  Although you need to establish how they survive if the dungeon is dangerous
+
+Demented Avenger — 8/26/25, 5:36 PM
+It might be friendly to the PCs, but it wouldn’t be safe
+
+Based Cosmo — 8/26/25, 5:39 PM
+Oh, 100%. They have been fighting SM+3 rats and cave dwarves for a while in "safe" areas
+
+Demented Avenger — 8/26/25, 5:46 PM
+Ok, this is more of a friendly lair than an outright settlement
+
+Demented Avenger — 8/26/25, 5:47 PM
+You’re going to have issues doing a lot of standard settlement things like buying and selling and hiring in this pocket
+
+Archon Shiva — 8/26/25, 6:33 PM
+Mark had a gnome(?) settlement in Castle of Horrors.  It’s a Curse of Strahd adaptation, no idea if it came from something there.
+
+Every intelligent faction is potentially a friendly settlement.
+
+Archon Shiva — 8/30/25, 1:53 AM
+I’m heading to bed.  Have a good fight!
+
+Archon Shiva — 8/30/25, 1:54 AM
+I love how you seem to have fed the missing player to the enemies in the screenshot.
+
+Zuljita — 8/30/25, 1:55 AM
+He was great hasted so things got ... exciting.
+
+Zuljita — 8/30/25, 1:55 AM
+We're in yet another big fight.
+
+Demented Avenger — 8/30/25, 1:56 AM
+But we've seen our quarry at last
+
+Demented Avenger — 8/30/25, 1:58 AM
+This fight has been ideal for the healer for once
+
+Archon Shiva — 9/4/25, 6:19 PM
+Fun fact: Most enemy wizards only cast one spell in their entire screen time anyway.
+
+Zuljita — 9/4/25, 6:19 PM
+Geek the mage is real.
+
+Archon Shiva — 9/4/25, 6:19 PM
+“Why you bother giving him two spells, anyway?”
+
+dripton — 9/4/25, 6:20 PM
+Last wizard you fought used *3* spells.
+
+Zuljita — 9/4/25, 6:21 PM
+only because it wasn't too bad.  If his spell had been more impactful or obvious he'd probably have died much sooner.
+
+Based Cosmo — 9/4/25, 6:21 PM
+While the joke here is supposed to be “they die too fast”, my entire party fled the head pontiff of the cult in the dungeon they’re in because they were going to get hit with 12d (AD inf for metal) damage from a lightning bolt.
+
+Archon Shiva — 9/4/25, 6:22 PM
+See - only needs one spell.
+
+dripton — 9/4/25, 6:22 PM
+It's because he was smart enough to hide out of LOS of most of his enemies.
+
+Zuljita — 9/4/25, 6:23 PM
+That too. although if it'd been great hastes, he might have died after just one regardless
+
+Archon Shiva — 9/4/25, 6:23 PM
+Wizards should be felt, not seen.
+
+Demented Avenger — 9/6/25, 12:24 AM
+Vael right now
+
+Demented Avenger — 9/20/25, 1:04 AM
+Vael and Ioannes right now
+
+Zuljita — 9/20/25, 1:04 AM
+Ha, just chillin
+
+Zuljita — 9/20/25, 1:05 AM
+I'm leaning up against a mushroom tree
+
+Demented Avenger — 9/20/25, 1:11 AM
+And now you're keeping score in graffiti, like the Zodiac Killer in a letter
+
+Demented Avenger — 9/20/25, 1:12 AM
+"R4R=54, Set=1"
+
+dripton — 10/6/25, 8:26 AM
+Thanks to two dancing hurricanes and some drone scares, the airlines are having issues, so I'm still in Norway.  We allegedly have a flight out tomorrow morning, so should be home in plenty of time for Friday's game.
+
+Zuljita — 10/6/25, 11:16 AM
+Safe journey home!
+
+Archon Shiva — 10/6/25, 12:41 PM
+Hope you can make the best of the delay.
+
+Archon Shiva — 10/10/25, 1:16 PM
+<@396077326129037345> I developped a sudden... cyclical speech impediment?  I'll be speaking just fine and suddenly go into a lisp or saying sh for s.  Then it's fine again.
+
+We thought allergy, stroke, but apparently it's probably just *stress* and *tiredness*, which is super weird because I've been off work for seven months.
+
+Demented Avenger — 10/11/25, 1:45 AM
+Tonight's theme song: https://youtu.be/8bfyS-S-IJs?si=HQcoupzNRCvRczmN
+
+Archon Shiva — 10/11/25, 2:12 AM
+<@630407861536686109> How was ARES?
+
+Archon Shiva — 10/11/25, 2:12 AM
+How does it compare to the first two?
+
+Based Cosmo — 10/11/25, 2:13 AM
+Oh man, it was the best movie I have seen in a long while
+
+Based Cosmo — 10/11/25, 2:13 AM
+With NIN doing the soundtrack and great sound and set design, I don't think it could have been any better
+
+Archon Shiva — 10/11/25, 2:35 AM
+The first TRON was the best thing ever when I saw it on VHS in the 1980s.
+
+Archon Shiva — 10/11/25, 2:36 AM
+I holds up surprisingly well as a "computer" film because they were careful to use alternate terminology.
+
+Based Cosmo — 10/11/25, 2:36 AM
+I loved TRON and TRON: Legacy when I was a wee lad. I was so hyped for this movie. It lived up to my expectations.
+
+Based Cosmo — 10/11/25, 2:36 AM
+Critics are being rather harsh on it.
+
+Demented Avenger — 10/11/25, 2:36 AM
+Impressive visuals and soundtrack, but the script was a little lacking. That was my assessment when I was eight, and hasn't changed, though I like it more after connecting it with Caddyshack.
+
+Archon Shiva — 10/11/25, 2:37 AM
+Do explain
+
+Based Cosmo — 10/11/25, 2:37 AM
+You could say this for TRON: Legacy or Ares as well. Doesn't mean it is exactly horrible, just means it is a movie you can enjoy
+
+Demented Avenger — 10/11/25, 2:37 AM
+I hit puberty. Cindy Morgan.
+
+Archon Shiva — 10/11/25, 2:37 AM
+Legacy felt like it had good ideas but was half-assed.
+
+Archon Shiva — 10/11/25, 2:38 AM
+*Knowing* gets **way** better if you see it as a prequel to *Dark City*.
+
+Based Cosmo — 10/11/25, 2:39 AM
+I totally agree. But it blew my mind when I was...
+
+Archon Shiva — 10/11/25, 2:39 AM
+But women that light up will never get old.
+
+Based Cosmo — 10/11/25, 2:39 AM
+holy crap, I must have seen it when I was *really* young
+
+Archon Shiva — 10/11/25, 2:40 AM
+*Rogue One* is a much better movie if you see in as in-universe rebellion propaganda.
+
+Based Cosmo — 10/11/25, 2:40 AM
+Yeah
+
+Archon Shiva — 10/11/25, 2:40 AM
+(As an aside, I got the Lego Death Star)
+
+Demented Avenger — 10/11/25, 2:41 AM
+That was easily the best post-Sith Star Wars movie
+
+Archon Shiva — 10/11/25, 2:41 AM
+Best post-Caravan of Courage, honestly.
+
+Demented Avenger — 10/11/25, 2:41 AM
+Actually, it rivals Sith as the best post-Empire Star Wars movie
+
+Demented Avenger — 10/11/25, 2:42 AM
+After the first two, Star Wars really lost its mojo
+
+Archon Shiva — 10/11/25, 2:42 AM
+Although Force Awakens is both oretty and fun, and The Last Jedi has plenty of great scenes that do not result in a cogent movie, much less a Star wars one.
+
+Based Cosmo — 10/11/25, 2:42 AM
+I honestly feel like A New Hope was *the* best Star Wars movie, and most of the other ones are okay
+
+Archon Shiva — 10/11/25, 2:42 AM
+Empire.
+
+Demented Avenger — 10/11/25, 2:43 AM
+There is no movie by that name
+
+Based Cosmo — 10/11/25, 2:43 AM
+The Prequels are honestly on par with Empire and Return, despite what many people say
+
+Based Cosmo — 10/11/25, 2:43 AM
+I *could* call it *Star Wars*
+
+Archon Shiva — 10/11/25, 2:43 AM
+Yes, it's the 1981 re-release of Star Wars.  Otherwise you're saying Special Edition is the same film as the 1977 version?
+
+Demented Avenger — 10/11/25, 2:43 AM
+You should. That's its name.
+
+Based Cosmo — 10/11/25, 2:44 AM
+You also must realize I was born *after* the Prequels were finished and it is the only name I have ever known it by
+
+Based Cosmo — 10/11/25, 2:44 AM
+Well, except when my dad told me many times that "It is called Star Wars!"
+
+Based Cosmo — 10/11/25, 2:44 AM
+(he owned every single Star Wars book and almost all the figures)
+
+Demented Avenger — 10/11/25, 2:45 AM
+Nobody called it "A New Hope" until the prequels came out.
+
+Zuljita — 10/11/25, 2:45 AM
+I sure did.
+
+Archon Shiva — 10/11/25, 2:45 AM
+There's Star Wars, A New Hope, Special Edition, and the Maclunky cut.
+
+Demented Avenger — 10/11/25, 2:45 AM
+Proof? In the Special Editon commercials in 1997, they had to call it both names
+
+Archon Shiva — 10/11/25, 2:46 AM
+I mean, there is no movie called "Sith" either.
+
+Based Cosmo — 10/11/25, 2:46 AM
+again, the last prequel came out four years before I was born... it is the instinctual name for *me*
+
+Demented Avenger — 10/11/25, 2:46 AM
+Revenge of the Sith
+
+Archon Shiva — 10/11/25, 2:46 AM
+Eaxctly.  Those are all shorthands.
+
+Demented Avenger — 10/11/25, 2:46 AM
+Except "A New Hope" has more syllables so it's not a shorthand
+
+Archon Shiva — 10/11/25, 2:47 AM
+The Star Wars Saga : Star Wars : Episode One : The Phantom Menace : Special Edition : Director's Cut : Extended : Dawn of the Jedi
+
+Archon Shiva — 10/11/25, 2:50 AM
+But yes, if you mean the 1977 version, which I never saw, it was 100% just called "Star Wars".
+
+Based Cosmo — 10/11/25, 2:50 AM
+It was.
+
+Demented Avenger — 10/11/25, 2:51 AM
+Officially, it's "Star Wars: Episode I, The Phantom Menace"
+
+Archon Shiva — 10/11/25, 2:55 AM
+Worst edit is replacing the Endor party that ended of the original trilogy with the implication that at the moment the emperor died, all imperial troops in the galaxy stood down and the populace immediately started celebrating without repercussions.
+
+Demented Avenger — 10/11/25, 3:00 AM
+Cleverest goes to the scene with Red Leader before the battle. I knew the original dialogue for the scene had him telling Luke that he met he father once and that his father was a great pilot. If you watch the scene, someone walks in front of Red Leader, Luke, and Biggs and a wipe happens subtly. Watch R2 in the background. When the wipe happens, R2 jumps up a couple of feet (it's being lifted into the X-wing)
+
+Archon Shiva — 10/11/25, 6:04 PM
+<@396077326129037345> I’ve been experimenting with Zoom AI doing transcripts, which are terrible, but feeding them to Claude gives me surprisingly good results, and can even draft a good timeline-style session report to use as a base.
+
+dripton — 10/11/25, 6:04 PM
+I don't want to spend hours fucking around with LLMs.  I just want to run a game.
+
+Zuljita — 10/11/25, 6:20 PM
+I tried doing video transcripts early, the juice wasn't worth the squeeze because you really want different audio channels to distinguish speakers well and get good quality transcripts
+
+Zuljita — 10/11/25, 6:20 PM
+I've used teams with a little better results.
+
+dripton — 10/11/25, 6:22 PM
+I don't know if anyone has automated the mic levels problem.  A person with a successful Actual Play has said the best thing they did was good mics for every player then someone manually adjusting all the voice levels to match.
+
+dripton — 10/11/25, 6:23 PM
+The other trick is getting actors rather than regular people, because actors are trained to take turns talking rather than talking over each other.
+
+Archon Shiva — 10/11/25, 7:38 PM
+Zoom tags speakers, that does help.
+
+Archon Shiva — 10/11/25, 7:39 PM
+One might say roleplayers end up trained, too.  But it's much harder without video (not that I'd rather have video).
+
+Demented Avenger — 10/11/25, 7:39 PM
+Hey, no misidentifying who peed on the altar
+
+Archon Shiva — 10/11/25, 7:40 PM
+I held that view for roughly two sessions.  Then I stopped caring.   You know you did, and anyone reading it either knows or doesn't care.
+
+Demented Avenger — 10/11/25, 8:12 PM
+Think of a suboptimal build of a character and what that means to you. That’s what suboptimal characterization of a character means to me
+
+Archon Shiva — 10/11/25, 8:13 PM
+Did Drip fix it?
+
+Demented Avenger — 10/11/25, 8:14 PM
+Yeah. It was weird because Ioannes was up on the statue and I thought of dropping trou and giving the altar a golden shower and thought, “Ioannes would *never* do that.” So someone else went ahead and did it!
+
+Archon Shiva — 10/11/25, 8:14 PM
+To be fair, your backup plan is listed as *Urinate*.
+
+Demented Avenger — 10/11/25, 8:15 PM
+Yeah, but that’s *in his pants*.
+
+Archon Shiva — 10/11/25, 8:24 PM
+Conceal don't feel, don't let them see?
+
+Demented Avenger — 10/11/25, 8:25 PM
+“When we’re telling this to our kids, we leave this part out.”
+
+Based Cosmo — 10/11/25, 9:13 PM
+I was going to
+
+Based Cosmo — 10/11/25, 9:13 PM
+If that’s when I think it was
+
+Archon Shiva — 10/12/25, 4:16 AM
+So, if you draw out and sign a contract to sell someone a pebble, but you don’t give them the pebble, does it go to them after thirty minutes?
+
+dripton — 10/12/25, 12:53 PM
+On the next episode of Arden Vul Science Fair
+
+Archon Shiva — 10/14/25, 4:38 AM
+First session very successful, despite a missing player.  Super happy.
+
+Archon Shiva — 10/14/25, 11:32 AM
+We had 14 die rolls total, including one reaction roll!
+
+dripton — 10/14/25, 12:59 PM
+Impressive.  I do more than 14 die rolls in prep most weeks before the session even starts.  (Alchemy, Carousing, Research, shopping availability, pre-rolled random encounters, ...)
+
+Archon Shiva — 10/14/25, 1:25 PM
+It's a low-rules game.
+
+Archon Shiva — 10/14/25, 1:27 PM
+Far past the opposite end of GURPS from DFRPG.
+
+Based Cosmo — 10/14/25, 4:33 PM
+Yeah… I do around seven rolls just generating one item of treasure
+
+dripton — 10/14/25, 4:35 PM
+I hang out with a bunch of OSR fans who are all "rulings not rules" and "we made it through a whole session without rolling dice", but that feels like too much GM fiat for my taste.  I want to roll dice sometimes so I have something else to blame.
+
+Based Cosmo — 10/14/25, 4:35 PM
+That’s an interesting take
+
+Based Cosmo — 10/14/25, 4:35 PM
+No rolls at all seems kind of ridiculous
+
+dripton — 10/14/25, 4:36 PM
+If you're playing a game that pretty much only has rules for combat, and you don't have any fights, you might not have any rolls.
+
+Based Cosmo — 10/14/25, 4:36 PM
+True, yeah
+
+Archon Shiva — 10/14/25, 4:41 PM
+They make for very different games.  I'm using GURPS "mechanics" under the hood (ballparking effective skills levels, reaction modifiers), but I'm using narrative RPG conventions, such as "only roll if both outcomes are interesting".
+
+Also, players start with blank slate characters, so "I used to be a burglar." is a perfectly reasonable thing to say in the middle of trying to swipe something.
+
+Archon Shiva — 10/14/25, 4:41 PM
+It wouldn't work in something like DFRPG, for sure.
+
+dripton — 10/14/25, 4:42 PM
+I'm more like "only roll if at least one outcome is interesting."  If the roll doesn't matter, don't call for it, unless you're trying to make the players think it matters.
+
+Based Cosmo — 10/14/25, 4:43 PM
+One of the things I love about playing IRL is rolling dice for no reason to freak out my players
+
+Archon Shiva — 10/14/25, 4:45 PM
+A player ended up in a trivia contest organized by a thirteen year old, and refused to roll, asking me to quiz him instead.
+
+He ended up having a feud with the thirteen year old over semantics.
+
+During a cruise ship lockdown.
+
+Archon Shiva — 10/14/25, 4:46 PM
+The kid asked "Do fish exist?", then went on about fish aren't a real evolutionary branch which, while true, doesn't make them ontologically false.  Dunning-Kruger, etc.
+
+dripton — 10/14/25, 4:55 PM
+I saw a Hank Green video about this.  Something like sharks are more different from bony fish than humans are, so if we're calling sharks fish our whole taxonomy sucks.
+
+Archon Shiva — 10/14/25, 8:44 PM
+Basically.  But also the question as asked by the kid, "Do fish exist?", isn't properly answered with "No".
+
+Turns out, trees are the same: it's just a shape plants can take that looks like a proper category, no taxonomic sense to it.  And, of course, crabs.
+
+|| #politics, I think maybe *women*, too.||
+
+Zuljita — 10/17/25, 2:48 AM
+Okay, this is hilarious... don't have sora 2 yet, this is what I got from Sora 1 though: https://sora.chatgpt.com/g/gen_01k7r0zktzfdzbam9cfmjp1re0
+
+Archon Shiva — 10/17/25, 2:48 AM
+Screenshot?  We can't access it.
+
+Zuljita — 10/17/25, 2:49 AM
+orly? I hit the share button... let me try again
+
+Zuljita — 10/17/25, 2:49 AM
+https://sora.chatgpt.com/g/gen_01k7r0zktzfdzbam9cfmjp1re0
+
+Zuljita — 10/17/25, 2:49 AM
+does that one work?
+
+Zuljita — 10/17/25, 2:49 AM
+oh, I see
+
+Archon Shiva — 10/17/25, 2:49 AM
+You must onboard to use this service.  Both.
+
+Archon Shiva — 10/17/25, 2:52 AM
+That was... Blink?
+
+Zuljita — 10/17/25, 2:53 AM
+maybe...
+
+Archon Shiva — 10/17/25, 2:53 AM
+Critical failure, change facing instead of position.
+
+Zuljita — 10/17/25, 2:59 AM
+Now watch vael turn into a fae...
+
+Zuljita — 10/17/25, 3:00 AM
+oh and his robes become skin
+
+Zuljita — 10/17/25, 3:00 AM
+That's meta's vibes thing.
+
+Based Cosmo — 10/18/25, 3:28 AM
+I now understand the frustration of my players when enemies have Dodge-11...
+
+Zuljita — 10/18/25, 3:29 AM
+You might have done a bit better with heroic feats to start the fight.
+
+Zuljita — 10/18/25, 3:29 AM
+It's a little late now.
+
+Zuljita — 10/18/25, 3:30 AM
+We're getting late in the session, the odds of another fight are slim, might as well have cashed out.
+
+Based Cosmo — 10/18/25, 3:30 AM
+Yeah, I am just spacey recently. I also don't play DFRPG and often forget how things work or what I have...
+
+Zuljita — 10/18/25, 3:32 AM
+Sure. My advice is to always think at the start of the fight: "what are the odds we have another big fight in the time left?"
+
+Based Cosmo — 10/18/25, 3:32 AM
+Usually after 9:30pm (at least, since I started college) I have trouble thinking in general...
+
+Zuljita — 10/18/25, 3:33 AM
+Sounds rough.  I do most of my best thinking between 10 and midnight.
+
+Based Cosmo — 10/18/25, 3:35 AM
+I do most of my thinking trying to figure out new horrors to throw at my party on the bus. (Which, right now, is a wraith and demilich guarding a hoard of treasure worth ~$15,000 a la Tomb of Horrors)
+
+Archon Shiva — 10/18/25, 4:58 AM
+I forgot to use most of Basilisk’s kit myself.  No uninterrupted flurry, no heroic vitality,  no throwing.
+
+Zuljita — 10/18/25, 2:59 PM
+I was a little surprised at how "normal" basilisk felt last night.
+
+dripton — 10/18/25, 2:59 PM
+She mostly seemed to be practicing her bat gliding, with the occasional kiai thrown in.
+
+Archon Shiva — 10/18/25, 3:15 PM
+It was probably somewhat obvious I was prepping my game at the same time.  But also none of the battles felt threatening enough to bother with Uninterrupted Flurry and Heroic Vitality.
+
+Archon Shiva — 10/18/25, 3:16 PM
+And figuring out controlled gliding.
+
+Zuljita — 10/18/25, 3:48 PM
+Flurry is every 5 minutes, so you should use it every battle 😛
+
+Archon Shiva — 10/18/25, 3:49 PM
+I know.  But it skips my first turn.
+
+Archon Shiva — 10/18/25, 3:49 PM
+And some battles that’s turn #4!
+
+Zuljita — 10/18/25, 7:24 PM
+Okay this is interesting given I didn't mention it at all:
+
+Archon Shiva — 10/18/25, 8:16 PM
+BTW, I find that “Ask me  until 95% sure what I want” is an amazing AI tool.
+
+Archon Shiva — 10/19/25, 3:54 PM
+Basilisk, who is heavily neurodivergent and always misunderstand how rituals flow, has a new life goal: She wants to convert Set.
+
+Demented Avenger — 10/20/25, 1:30 AM
+Um, to what?
+
+Archon Shiva — 10/20/25, 2:11 AM
+To her.
+
+Archon Shiva — 10/20/25, 2:12 AM
+Ya know, once we wipe the clerics, if Set is willing to make some compromises.
+
+dripton — 10/22/25, 8:03 PM
+If you break a Concept 2 rowing machine, is that a critical success on ST or a critical failure on DX?
+
+Archon Shiva — 10/22/25, 8:10 PM
+Yes.
+
+Archon Shiva — 10/25/25, 2:34 AM
+<https://www.nytimes.com/1974/01/22/archives/baboon-experiment-shows-alcohol-damages-liver-even-with-gooddiet-a.html>
+
+Archon Shiva — 10/25/25, 2:34 AM
+It's from 1974!
+
+Based Cosmo — 11/1/25, 12:45 AM
+Perfect day to do this tower...
+
+Based Cosmo — 11/1/25, 1:15 AM
+If I seem like a scaredy-cat this session, I have begun to care about Uvash much more and this tower is freaking me out IC and OOC XD
+
+Based Cosmo — 11/1/25, 1:37 AM
+Fun thing about Wraiths in DF. I gave mine the ability to make players permanently lose 1 HP if they failed a Quintessence (more accurately, the Faith attribute) check. One player was hit by it before it was finished off, and was shocked.
+
+Zuljita — 11/7/25, 4:29 AM
+Fun with Sora 2
+
+Demented Avenger — 11/9/25, 7:44 PM
+What did I say that Ioannes was going to research this week? There was something tantalyzing at the end of last session but I forgot
+
+Greybrown — 11/9/25, 7:49 PM
+One of the items recovered from Theskalon's Tomb?
+
+Based Cosmo — 11/9/25, 7:50 PM
+Oh, the dude that is dead but also somehow alive
+
+Based Cosmo — 11/9/25, 7:51 PM
+Ptarmis
+
+Greybrown — 11/9/25, 7:51 PM
+Rumor 5: The great Thothian wizard, Ptarmis, built himself a secret tomb amid a huge 
+forest of colossal mushrooms. We found the fungus cavern on the second level
+from the surface, but were driven back before we could locate the tomb by some
+sheep- headed critters wielding swords and spears.
+
+Demented Avenger — 11/9/25, 7:51 PM
+yeah, him, thanks
+
+Greybrown — 11/9/25, 7:52 PM
+Lycandus - illusions conceal
+his remains. Ptarmis claims he can control the Fungal Foresters.
+Horkhari was shown the tomb of great Theskelon, of the Set Cult; it
+lies to the east of the Southern Necropolis of Set. Amhit has found the
+Obsidian Gates, but has been unable to teleport behind them.
+
+Demented Avenger — 11/9/25, 7:52 PM
+I'm going to look beyond what a rumor roll would tell us
+
+Greybrown — 11/9/25, 7:52 PM
+Just collecting what we have so far.
+
+Demented Avenger — 11/9/25, 7:52 PM
+Anyone want a specific potion?
+
+Based Cosmo — 11/16/25, 7:05 PM
+The one session I am gone... XD
+
+dripton — 11/16/25, 7:06 PM
+Yeah, there's no way to explain what happened other than sending Uvash through the rug to see for himself.
+
+Based Cosmo — 11/16/25, 7:06 PM
+"I don't believe it!"
+*Goes there*
+"Well, i'll be damned"
+
+Based Cosmo — 11/22/25, 2:08 AM
+If I do not reply, I have had a long few days with not as much sleep as I need *and* I have been having some internet issues today.
+
+Based Cosmo — 11/22/25, 4:26 AM
+On what I was saying: I have only *read* Tonisborg. I have no prior experience with Megadungeons. I would love to run one proper in the future.
+
+Archon Shiva — 11/24/25, 1:27 AM
+"Oh noes, no loot, such terrible, such week!"
+GM: "Everyone gets 5 cp."
+
+dripton — 11/24/25, 1:28 AM
+Clearly it's all about dog hair.
+
+Zuljita — 11/24/25, 4:20 AM
+I'm experimenting with other LLM centric ways to improve note-taking and relationship/map tracking... The LLM was pretty sure Levitation was an NPC...
+
+Zuljita — 11/26/25, 12:54 AM
+Apparently some LLM along the way agreed with you <@396077326129037345> about the rug being an NPC:
+
+dripton — 11/26/25, 1:04 AM
+They might be PCs
+
+Zuljita — 11/26/25, 1:05 AM
+Fair
+
+Zuljita — 11/26/25, 4:36 AM
+this is getting wild:
+
+Zuljita — 11/26/25, 4:36 AM
+There's a lot of garbage there that I'm having the LLM clean now, but there's a ton of good stuff too.
+
+Zuljita — 11/26/25, 5:57 AM
+But it's also coming along in some neat ways:
+
+Zuljita — 11/26/25, 2:10 PM
+Once the data's a little less noisy, I'll get  a pipeline for getting this hosted somewhere.
+
+Zuljita — 11/27/25, 6:04 AM
+Getting closer:
+
+Based Cosmo — 12/20/25, 2:29 AM
+"Bring out ye dead!"
+
+ATXTableCam — 12/27/25, 12:53 AM
+Anyone free early to help me test some issues with the last few weeks of recordings?  I've gotten no audio.
+
+Demented Avenger — 12/27/25, 1:42 AM
+Did this just happen?
+
+Based Cosmo — 12/27/25, 1:43 AM
+Yes, yes it did
+
+Archon Shiva — 12/27/25, 3:05 AM
+Arguably, if feeding them becomes too annoying, you can feed them Lacrymosa.
+
+Based Cosmo — 1/3/26, 1:16 AM
+These magic rugs are slightly ridiculous. I know the dungeon is big, but *two?*
+
+Demented Avenger — 1/3/26, 1:16 AM
+just enjoy it
+
+Archon Shiva — 1/3/26, 1:18 AM
+It's a failsafe.  For when an explosion destroys one.
+
+Based Cosmo — 1/3/26, 1:19 AM
+I thought for sure drip did it on purpose to try to destroy the rug lol
+
+Archon Shiva — 1/3/26, 1:19 AM
+I think drip is way more "neutral uncaring" GM than this.
+
+Based Cosmo — 1/3/26, 1:19 AM
+I agree
+
+Archon Shiva — 1/3/26, 3:44 AM
+Rule of thumb is
+If it’s touchable, Ioannes did it first;
+If it’s drinkable, Uvash did.
+
+Based Cosmo — 1/3/26, 3:44 AM
+I rate this dungeon 1/10. Not enough fountains to drink from.
+
+Demented Avenger — 1/3/26, 3:44 AM
+Because Curious ≠ Stupid
+
+Based Cosmo — 1/3/26, 3:45 AM
+You never know when a fountain might increase an attribute!
+
+Based Cosmo — 1/11/26, 2:04 AM
+On this: Neither do I. I don't know many people who do. Unless you count dungeons as pre-written adventures.
+
+Demented Avenger — 1/11/26, 2:08 AM
+You'll be really jealous of the first half of 1990 for me, then. A typical weekend for me and my friends was to get off school on Friday, go over to my house (since I lived less than a mile from the high school and had a big basement and an extra bedroom; my brother playing was sometimes welcomed, but usually just tolerated) and dick around for a couple of hours then break out AD&D 2e, usually set in Krynn but sometimes Faerun. We'd play for a bit, order pizza (Pizza Hut, South Robert Street in West Saint Paul), grab it (a couple of my friends had cars by then), then play until after midnight. Then we'd all watch a porno or two, then crash. The next morning, we'd wake up around noon and play some non-D&D game (usually a Palladium game like TMNT or Robotech; later in high school we'd move to Rifts or Shadowrun), watch a movie, then play D&D again with pizza and then watch a porno at 1am. Crash, wake up the next day, play a little of some RPG, then everyone would go home and do homework
+
+Based Cosmo — 1/11/26, 2:09 AM
+This makes me very jealous. Except for the porno part, usually we shoot the shit during that time or do nothing.
+
+Based Cosmo — 1/11/26, 2:09 AM
+But yes, very
+
+Demented Avenger — 1/11/26, 2:10 AM
+Only two of us had cars. Nobody had girlfriends (I mean, duh). I was the only drinker and the only one who had even smoked weed
+
+Demented Avenger — 1/11/26, 2:10 AM
+So we were all still pretty young in both age and tastes
+
+Based Cosmo — 1/11/26, 2:10 AM
+My high school (which I no longer attend) had only ~160 kids, 40 of which are obnoxious (and also hate me, because I am vocal when you piss me off by being stupid)
+
+The rest are either """gangsters""" or aren't into TTRPGs.
+
+Demented Avenger — 1/11/26, 2:11 AM
+I went to a high school of over 1,200
+
+Based Cosmo — 1/11/26, 2:11 AM
+Me and my best friend, who I play TTRPGs with IRL and online, basically have that routine though
+
+Based Cosmo — 1/11/26, 2:11 AM
+I could have gone to a larger school, but I chose not to
+
+Based Cosmo — 1/11/26, 2:11 AM
+Because the one near me (CRHS) is a shit hole
+
+Demented Avenger — 1/11/26, 2:12 AM
+We were pretty much all 14-16 at this point, sophomores and one freshman in the regular group, plus my brother in 7th grade. Sibley (or Two Rivers now) grad
+
+Demented Avenger — 1/11/26, 2:13 AM
+It all started to peter out the next year as we started feuding with each other. Some guys got girlfriends. I spent more time in band and getting wasted with the hockey team
+
+Based Cosmo — 1/11/26, 2:13 AM
+I have some college kids I play with, but only one of them is down to do something like absolutely wasting the weekend playing TTRPGs
+
+Demented Avenger — 1/11/26, 2:13 AM
+Yeah, because they have booze!
+
+Based Cosmo — 1/11/26, 2:14 AM
+Ahaha, yeah, I lost most of my friends a while back because they were all connected to my girlfriend at the time and she said some annoyingly false things about me
+
+Based Cosmo — 1/11/26, 2:15 AM
+Actually, none of us drink! Which is not surprising, we're all nerds who care more about using pencils, not pens, instead of drinking or women
+
+Demented Avenger — 1/11/26, 2:15 AM
+Oh, we all would have preferred women, to a teenage boy
+
+Based Cosmo — 1/11/26, 2:16 AM
+Oh, I do prefer women to playing TTRPGs (for the most part), I am just too socially awkward to date
+
+Based Cosmo — 1/11/26, 2:16 AM
+And dating college students at my age is frowned upon now (this seems bad, but the law would place me as the victim)
+
+Based Cosmo — 1/11/26, 2:18 AM
+Once I finally do have a group, I think things will be great
+
+Based Cosmo — 1/11/26, 2:18 AM
+It will help to live on campus and have money to buy a second hand DFRPG boxed set
+
+Based Cosmo — 1/11/26, 2:20 AM
+I am astonished that you could even focus on a few different games at once. People my age can barely focus on *one* game without staring at their phone or telling me that they need to go have an hour long lunch break because they're bored.
+
+Based Cosmo — 1/11/26, 2:20 AM
+(Second thing *actually* happened.)
+
+Demented Avenger — 1/11/26, 2:20 AM
+We all played multiple RPGs
+
+Demented Avenger — 1/11/26, 2:20 AM
+It wasn't even a question
+
+Based Cosmo — 1/11/26, 2:21 AM
+Well that's just unfair.
+
+Demented Avenger — 1/11/26, 2:22 AM
+We used to loiter at the downtown Saint Paul and Inver Grove Heights Shinders Books and read the RPGs
+
+Based Cosmo — 1/11/26, 2:23 AM
+That's smart. I have GURPS Basic Set, and I have sometimes thought that sitting in some library, gamestore, or other congregation place could be good for finding like-minded nerds to play with. The issue is, no one my age goes to libraries or game stores. They just buy all their games online and play online
+
+Demented Avenger — 1/11/26, 2:24 AM
+Library use is much higher among youth than among the elderly
+
+Based Cosmo — 1/11/26, 2:24 AM
+I've never seen a kid in a library, other than people with me, though I don't doubt it
+
+Based Cosmo — 1/11/26, 2:25 AM
+There is one within walking distance of me. I just have to hope that my ex that said they wanted to work there isn't actually working there. THAT would be awkward.
+
+Based Cosmo — 1/11/26, 2:26 AM
+An upcoming Friday, date currently unknown (club management sucks) I will hopefully be able to find more players. I need to figure out my timeslot and see if I can make it though. They convene on Fridays, annoyingly
+
+Demented Avenger — 1/14/26, 10:52 PM
+Avoiding for obvious reasons, but putting it out there 
+
+https://bundleofholding.com/presents/2026Arden
+
+Zuljita — 1/14/26, 11:14 PM
+I'll buy it for after.
+
+Zuljita — 1/14/26, 11:14 PM
+It's expensive otherwise.
+
+Demented Avenger — 1/14/26, 11:15 PM
+I might as well. I still haven’t read through even a twentieth part of Whiterock
+
+Demented Avenger — 1/14/26, 11:15 PM
+And Kal often asked me to look up whatever encounter we were on!
+
+Archon Shiva — 1/14/26, 11:16 PM
+It just occurred to me how odd it is that all these worlds with resurrection don’t seem to have come up with litteral *life insurance*.
+
+Based Cosmo — 1/14/26, 11:52 PM
+Interesting idea
+
+dripton — 1/15/26, 3:04 PM
+It's simple enough to add in any society with the financial sophistication.  It's just that most fantasy game worlds aren't very well developed.  They're just "it's our idealized version of Medieval Times except also with magic but we're going to ignore any effects the magic would actually have because that would require thinking."
+
+dripton — 1/15/26, 3:07 PM
+Resurrection requires 3 things: 1. someone who can actually cast the spell  2. enough mana to cast it, so a big ceremonial circle and/or a huge powerstone or power item 3. the body.  A really first-class resurrection insurance might deal with all three parts.  If we hear you died, we will use knowledge magic to find your body, send in our people to fetch your body, then take it to the resurrector.  Perhaps the best place to buy this service would be from a church that employed people capable of all of the above.
+
+dripton — 1/15/26, 3:08 PM
+Now a real complication with Resurrection is noble and especially royal inheritence.  Most of the people who can afford it have heirs who might want that money/title more than they want the decedant back.  How does THAT work?
+
+Zuljita — 1/15/26, 3:38 PM
+Yeah, if you take it far enough it gets pretty crazy when you start trying to think about the real world effects of certain magical items, especially the always-on ones.
+
+Archon Shiva — 1/17/26, 3:30 AM
+Cultists right now:
+
+Based Cosmo — 1/17/26, 3:30 AM
+Dude, if *I* was these guys, that would be my only idea as well XD
+
+Archon Shiva — 1/17/26, 3:31 AM
+At that point, my go to move would be *converting to Zodarrim*.
+
+Based Cosmo — 1/17/26, 3:38 AM
+Now that's a good idea!
+
+Demented Avenger — 1/24/26, 3:08 AM
+<@253319584268943361> Ubi es tu?
+
+Demented Avenger — 1/24/26, 3:12 AM
+Stopped for a 502
+Next time, it's gonna be you!
+
+Demented Avenger — 1/24/26, 4:20 AM
+Vallium just now
+
+Based Cosmo — 1/25/26, 2:20 AM
+Completely off topic: in a hypothetical scenario, if you were to play GURPS/DFRPG for multiple hours (I am talking like, 14-20 hours straight without a break), when the party heads back to town, would you award XP and reset exploration and loot counters? Or would you wait until the end of the session?
+
+dripton — 1/25/26, 2:22 AM
+If I wanted to give them a chance to spend XP, reuse once-per-session powers, etc. then I'd treat it as two or even three sessions.  If I didn't, I'd treat it as one session.  All valid choices.
+
+Archon Shiva — 1/25/26, 2:22 AM
+You’re asking the question backwards:  What behaviour do you *want*?
+
+Based Cosmo — 1/25/26, 2:23 AM
+Players to have fun. That's it. (Our kind of fun is odd; today someone almost died to a 6d6 fire jet trap from a ceiling but bless proced)
+
+Archon Shiva — 1/25/26, 2:23 AM
+In DFW, we got cp for each session, independent of going to town.  We’d be in the dungeon for two months at a time.
+
+Archon Shiva — 1/25/26, 2:25 AM
+Dripton *wanted*  town after each session, resulting in the new cp rules.
+
+Based Cosmo — 1/25/26, 2:25 AM
+I mean, the thing is though, if we are playing for 2+ days straight, it could get annoying if you're a cleric and you get ONE use of Divine Grace, etc
+
+Archon Shiva — 1/25/26, 2:25 AM
+No.  Make all of these time-based.
+
+Based Cosmo — 1/25/26, 2:26 AM
+Would you propose a "session ends when we pass out, award pts then" type situation?
+
+Archon Shiva — 1/25/26, 2:26 AM
+Divine Grace is per 3-hours block.
+
+Based Cosmo — 1/25/26, 2:27 AM
+that would make divine grace twice per session on normal days then, and becomes an annoying timer :p
+
+It is possible, but I am already annoyed with needing my 500+ rooms sorted on a google sheets file
+
+Archon Shiva — 1/25/26, 2:27 AM
+How many fights do you get per six hours?
+
+Based Cosmo — 1/25/26, 2:28 AM
+Depends. They run, a lot. The entire group almost died to seven bats because everyone kept failing surprise rolls! (Scroll of Recall ftw)
+
+But yeah, it really depends on their goal
+
+Based Cosmo — 1/25/26, 2:28 AM
+They could spend all day fighting, or they could decide that today they're touching back on old areas and checking for secret doors or remapping stuff (they do it on paper, so that is part of it)
+
+Archon Shiva — 1/25/26, 2:30 AM
+Do 1/sessions things get used every session?  If they don’t, getting two uses done of the time is fine.  “Infinite use” stuff is calibrated vs x/session around 2-4h sessions.
+
+Based Cosmo — 1/25/26, 2:31 AM
+Usually yes. Divine Might (which is what Garthrax actualy has) gets used near the end of the session. Like when they're fighting 19 skeletons and he gets swarmed by them... (not a great idea, they're at barely 85 pts)
+
+Zuljita — 1/27/26, 7:33 PM
+On reflection, I'd intentionally structure the session with breaks every 3 hours and you get one use between each break.
+
+Based Cosmo — 1/27/26, 7:35 PM
+I might go with that.
+
+Based Cosmo — 1/27/26, 7:35 PM
+I am moreso worried about getting breaks in, as usually we *keep* playing and forget what time it is
+
+Zuljita — 1/27/26, 9:13 PM
+Set a timer.
+
+Based Cosmo — 1/27/26, 9:14 PM
+You know, somehow when I typed that I forgot that I could even do that...
+
+Demented Avenger — 1/31/26, 12:58 AM
+Be there in a minute, dealing with dinner
+
+Demented Avenger — 1/31/26, 1:55 AM
+I hear nobody
+
+Greybrown — 1/31/26, 1:55 AM
+We all hear you
+
+Based Cosmo — 2/5/26, 10:17 PM
+https://tenor.com/view/respect-my-authority-cartman-south-park-respect-me-im-in-charge-gif-22089203
+
+Archon Shiva — 2/6/26, 10:13 AM
+Wow that work meeting was quite the experience.
+
+My (big) boss is stringing words that don’t add up to conveying of meaningful information, and refuse to explain what he means.
+
+When he does explain, he gives as examples of things I’m not allowed to say… things I didn’t say and obviously wouldn’t have been okay.
+
+Archon Shiva — 2/6/26, 10:15 AM
+He dropped the name of a different school as something I should account for, I said it’s not his first time mentioning it and he gave zero explanation last time either, and he said I should read the 100-pages report.
+
+dripton — 2/6/26, 2:48 PM
+This is what a failed intimidation check looks like in a civilized setting.
+
+Archon Shiva — 2/6/26, 5:34 PM
+As far as I can tell, from reading up on the report, my principal is expressing worry that I might be introducing Islamic religious concepts to public schools.
+
+I’m guessing there’s a metaphor there that I’m missing.
+
+dripton — 2/6/26, 5:38 PM
+"You are saying things that you are allowed to say but we don't want you to say.  Therefore we will make vague analogies in hopes you get confused and shut up."
+
+Demented Avenger — 2/6/26, 6:32 PM
+I didn’t know that you were a Muslim!
+
+Archon Shiva — 2/6/26, 6:34 PM
+That’s really the weirdest part.  I’m a pretty hardcore atheist.
+
+Archon Shiva — 2/6/26, 6:35 PM
+I feel I’m more likely to say something vaguely Islamophobic, like “Muslims don’t eat bacon because not drinking alcohol is so much harder.”
+
+Demented Avenger — 2/6/26, 6:35 PM
+I dunno, bacon is tasty
+
+Archon Shiva — 2/6/26, 6:35 PM
+(Or so I hear.  I eat bacon and don’t drink.)
+
+Based Cosmo — 2/6/26, 6:36 PM
+I could never drink alcohol and eat bacon instead and be fine with that
+
+Based Cosmo — 2/6/26, 6:36 PM
+According to most people I know, however, my opinion on alcohol will change if I become a professor
+
+Archon Shiva — 2/6/26, 6:36 PM
+(The full quote is “abstaining from alcohol and premarital sex” being harder.)
+
+Demented Avenger — 2/6/26, 6:37 PM
+Muslims don’t drink alcohol, either
+
+Based Cosmo — 2/6/26, 6:37 PM
+Note; they're supposed to but a lot still drink
+
+Demented Avenger — 2/6/26, 6:38 PM
+Oh, the ones who live by me staff the smoke shop so they’re often stoned
+
+Based Cosmo — 2/6/26, 6:38 PM
+I think that is allowed
+
+Based Cosmo — 2/6/26, 6:38 PM
+I am not sure
+
+Archon Shiva — 2/6/26, 6:38 PM
+Muslims aren’t *supposed* to do either of the three.  In reality, some do all three.  The “joke” is that a lot of them pick bacon at the one rule to actually follow.
+
+Demented Avenger — 2/6/26, 6:39 PM
+Why would someone spurn bacon when the other options are booze and weed?
+
+Archon Shiva — 2/6/26, 6:39 PM
+booze and sex (out of wedlock)
+
+Based Cosmo — 2/6/26, 6:39 PM
+If you had to pick one:
+
+Smoke Weed
+Drink
+Eat Bacon
+
+Based Cosmo — 2/6/26, 6:39 PM
+Ah, that makes more sense
+
+Demented Avenger — 2/6/26, 6:40 PM
+Oh, that depends on my age
+
+Demented Avenger — 2/6/26, 6:40 PM
+I’m married now so sex out of wedlock is good to spurn. Not that I’m getting any in wedlock, but I’m totally spurning sex outside of marriage now
+
+Based Cosmo — 2/6/26, 6:41 PM
+If you're married, sex out of wedlock seems like an easy thing not to do
+
+Demented Avenger — 2/6/26, 6:41 PM
+Exactly
+
+Demented Avenger — 2/6/26, 6:43 PM
+I used to sometimes give up sex for Lent in the 1990s as a joke since I seldom had a girlfriend. I failed at that once, and I met my now-wife the night before Easter so I technically made it another time but barely
+
+Archon Shiva — 2/6/26, 6:44 PM
+I’m French Canadian.  We don’t wedlock.
+
+Based Cosmo — 2/6/26, 6:45 PM
+I feel like not being in wedlock is the norm
+
+Demented Avenger — 2/6/26, 6:46 PM
+Wedlock helps with estate planning, mostly because it makes it easy
+
+Archon Shiva — 2/6/26, 6:46 PM
+It makes it easy *once*.
+
+Archon Shiva — 2/6/26, 6:47 PM
+If you’re getting married to simplify estate planning, make sure you don’t divorce, and remarry, because the total hassle is *not* worth it.
+
+Demented Avenger — 2/6/26, 6:48 PM
+Marriage also helps with ensuring a future supply of nookie. Well, or so I thought
+
+Demented Avenger — 2/6/26, 6:50 PM
+It certainly helps when you’re younger, I know that. The dating game is hella unpleasant
+
+Based Cosmo — 2/6/26, 6:51 PM
+Yes. Yes it is. Most people I know that date a lot are apparently miserable. I wouldn't know because... you know... I play GURPS and all. At my age, playing GURPS and having a girlfriend are mutually exclusive (what's funny too, is that whenever I date I seem to be SoL for playing GURPS)
+
+Demented Avenger — 2/6/26, 6:52 PM
+More or less true. My daughters game. One dates, too
+
+Archon Shiva — 2/6/26, 6:53 PM
+I dunno GURPS has been extremely girlfriend friendly for me.
+
+Based Cosmo — 2/6/26, 6:54 PM
+I am inept enough socially to where all I know how to talk about is history and GURPS.
+
+Archon Shiva — 2/6/26, 6:54 PM
+I do long-term relationships.  Ana’s been celebrating nine years just now.  Previous had been 11+.
+
+Demented Avenger — 2/6/26, 6:54 PM
+You need more topics to discuss so that maybe there will be girls there
+
+Demented Avenger — 2/6/26, 6:55 PM
+I was pretty bad at picking girl-friendly topics, however
+
+Based Cosmo — 2/6/26, 6:55 PM
+You think chicks dig talkin' medieval arms and armor? :p
+
+More seriously, I also talk about music a lot.
+
+Based Cosmo — 2/6/26, 6:55 PM
+Not like, rap music, though
+
+Based Cosmo — 2/6/26, 6:55 PM
+And that seems to be more popular
+
+Demented Avenger — 2/6/26, 6:56 PM
+That might help, but it depends on the music. I found that girls are allergic to progressive rock for the most part
+
+Archon Shiva — 2/6/26, 6:56 PM
+But honestly, the biggest pickup has always been light BDSM.  Weave a decorative rope bracelet on someone’s wrist and you’ve got their full attention.
+
+Based Cosmo — 2/6/26, 6:57 PM
+Yeah... I tried talking about the Mars Volta to someone and they looked at me like I just played a mp3 of someone getting their femur crushed
+
+Demented Avenger — 2/6/26, 6:57 PM
+When my wife found my CD player with Genesis Live in it and played Watcher of the Skies and declared the opening “beautiful,” I knew I had to keep her around even though she likes country and divas
+
+Based Cosmo — 2/6/26, 6:57 PM
+Country? Strong of will you are.
+
+Demented Avenger — 2/6/26, 6:57 PM
+You’re not going to get many women with Francis the Mute
+
+Archon Shiva — 2/6/26, 6:57 PM
+Jump a bit.  Learn about “Princess” clothes.
+
+Based Cosmo — 2/6/26, 6:58 PM
+The single or the album? I think they might look at me even more crazy if I played the three minute opening of just creepy bells.
+
+Archon Shiva — 2/6/26, 6:58 PM
+Armor is just an especially rigid corset,
+
+Demented Avenger — 2/6/26, 6:59 PM
+I was talking the record. I really can’t differentiate between the songs; it’s one of the few records that I own made after 1990
+
+Based Cosmo — 2/6/26, 6:59 PM
+It is an extremely good album. The single of Frances the Mute, which got cut from the record, is also great
+
+Demented Avenger — 2/6/26, 6:59 PM
+It might be the only album I own made after 2000, in fact
+
+Demented Avenger — 2/6/26, 7:00 PM
+The average year of my music collection is late 1974
+
+Based Cosmo — 2/6/26, 7:00 PM
+I probably lean towards younger music
+
+Based Cosmo — 2/6/26, 7:01 PM
+If I didn't have to leave I would check my CD collection to judge
+
+Demented Avenger — 2/6/26, 7:02 PM
+I once entered my whole CD collection into the Mac and then started entering the data into a spreadsheet
+
+Demented Avenger — 2/6/26, 7:03 PM
+Average year was like 1974.8, 25% of the music was Pink Floyd, and fully 80% could be described as, “British hippies born before the Sex Pistols”
+
+Based Cosmo — 2/6/26, 7:03 PM
+Interesting. I am not really a fan of Pink Floyd. Some of it was conditioning from my father; some of it is just me not resonating with them.
+
+Demented Avenger — 2/6/26, 7:04 PM
+In fact, if I relaxed either the age or nationality (and pretended that Frank Zappa wouldn’t have been insulted by being called a “hippie”), that would have described almost the whole collection
+
+Demented Avenger — 2/6/26, 7:05 PM
+Rush? Canadians, but of the right age. Iron Maiden? Born a little late but English
+
+Demented Avenger — 2/6/26, 7:08 PM
+Long songs, meandering, sometimes aggressive and certainly never Windham Hill, weird lyrics, odd time signatures,
+
+Zuljita — 2/6/26, 7:34 PM
+It's not exclusive but it takes a willingness to "hide your PlayStation" until she's interested.
+
+Zuljita — 2/6/26, 7:35 PM
+There's also well documented benefits to your children.
+
+Zuljita — 2/6/26, 7:36 PM
+To get better takes practice and a willingness to fail bravely
+
+Based Cosmo — 2/6/26, 7:36 PM
+Oh, I fail spectacularly. Way back when, I remember the first ever girl to take interest in me liked country music and rejected me. She rollerbladed, man!
+
+Based Cosmo — 2/6/26, 7:37 PM
+It would also help if the girls I am into weren’t older than me to the point where they wouldnt consider dating me
+
+Zuljita — 2/6/26, 7:37 PM
+Yeah but you have to keep failing until you stop failing
+
+Based Cosmo — 2/6/26, 7:37 PM
+This is true, I never said I haven’t stopped failing or trying
+
+Based Cosmo — 2/6/26, 11:57 PM
+Huh. I actually got people interested in DFRPG to sign up and commit to a game tomorrow at 11am.
+
+Based Cosmo — 2/6/26, 11:57 PM
+That's mindblowing to me.
+
+dripton — 2/7/26, 12:06 AM
+I finished v1 of a new map with 55 minutes to go, guaranteeing you won't go that way.
+
+Based Cosmo — 2/7/26, 4:24 AM
+https://tenor.com/view/spongebob-mr-krabs-money-cash-gif-24741861
+
+Based Cosmo — 2/14/26, 3:37 AM
+I am *tooooootally* using this against my players tomorrow. Forgot about Shadows.
+
+ATXTableCam — 2/14/26, 3:40 AM
+<@630407861536686109> I think this is as strong a fight as you're going to find for heroic feats
+
+Based Cosmo — 2/14/26, 3:40 AM
+slipped my mind
+
+Based Cosmo — 2/26/26, 5:13 PM
+<@439963160502337536> If you liked The Mars Volta’s Frances the Mute, you might like their Deloused in the Comatorium. I meant to say this a while back when we talked about it but totally forgot until I was thinking about The Mars Volta today
+
+dripton — 2/26/26, 5:20 PM
+I saw them live in 2011.  I felt bad for the people who were there to see Soundgarden and had no idea what hit them.
+
+Based Cosmo — 2/26/26, 5:25 PM
+Yeah, probably something similar to what happened when I showed my friend, who (apparently) only listens to anime soundtracks (i’m not kidding), TMV. His reaction to Vismund was his eyes widening and him audibly going “woaaaaah.”
+
+Based Cosmo — 2/27/26, 3:13 PM
+Well now I want to read this irl...
+
+dripton — 2/27/26, 3:15 PM
+It's in Mithric.
+
+Based Cosmo — 2/27/26, 3:17 PM
+Dang it
+
+Archon Shiva — 2/28/26, 12:51 AM
+<@630407861536686109> 
+Uvash has
+* Finisher
+* Finisher 2.
+Lacrymosa has
+* Tears of the Forsaken
+* 2 Tears 2 Forsaken
+* Tears v. Forsaken : Dawn of Archery
+* Tears of the Forsaken : Tychias' Gift (upcoming)
+
+Elves and dwarves, eh?
+
+Based Cosmo — 2/28/26, 12:52 AM
+Oh, it gets worse. 
+
+The first mace Uvash used was later named Utharnil, Tharnas Omersalul mom Nasnökor ("Firsthammer, Slayer of Greenskins and Undead") after prayer to Zorradrim
+
+Archon Shiva — 2/28/26, 12:54 AM
+Halloween : Water
+
+ATXTableCam — 2/28/26, 1:50 AM
+<@630407861536686109> how you feeling about the pick so far?
+
+Based Cosmo — 2/28/26, 1:50 AM
+https://tenor.com/view/oh-yeah-nodding-smiling-like-love-gif-22031087
+
+Based Cosmo — 2/28/26, 1:51 AM
+I forgot how nice it is to do imp rather than cr
+
+ATXTableCam — 2/28/26, 1:51 AM
+Next time you can aim for the vitals for -3 if you're not M&A
+
+Based Cosmo — 2/28/26, 1:54 AM
+Planning on it
+
+Based Cosmo — 2/28/26, 2:14 AM
+"Set Lite -- Refreshing!"
+
+Archon Shiva — 2/28/26, 2:19 AM
+One lever mouth says "Walk"
+Other lever mouth sells "Freeze!"
+
+Based Cosmo — 2/28/26, 2:25 AM
+That's right, if you make Set mad he will huff and puff and blow you over!
+
+Archon Shiva — 2/28/26, 3:18 AM
+Cursed lanyard.  If you drop your weapon, it goes back into its scabbard instead.
+
+Based Cosmo — 2/28/26, 4:35 AM
+"Mom! Right for Riches is under my bed!"
+
+Archon Shiva — 2/28/26, 9:25 PM
+The Message spell, combined with the Propaganda skill, could be used to give our enemies nightmares…
+
+dripton — 2/28/26, 9:27 PM
+Resisted by spells that block sound
+
+dripton — 2/28/26, 9:27 PM
+Need Silence as an anti-spam measure
+
+Archon Shiva — 2/28/26, 9:28 PM
+Just having Settites maintain silence over their dormitories so their acolytes can get some sleep feels like a fantastic deal.
+
+Zuljita — 2/28/26, 10:41 PM
+That seems hilarious
+
+Archon Shiva — 2/28/26, 10:42 PM
+Coinbase as a PC would 100% do it.  As an NPC, downtime actions are trickier.
+
+Demented Avenger — 3/1/26, 8:06 PM
+“I just had the weirdest dream. There was this guy with a sword slaughtering everyone in front of him. And it was everyone, including you and Larry and Billy Bob and Susie Q and all the rest. Those who moved to sword guy’s side got a pick to the heart from this short guy. The sword guy stepped up to me and raised his sword and … I woke up.”
+
+Archon Shiva — 3/1/26, 8:50 PM
+That sounds like the adventurers we're fighting.  Pick to the heart from a short guy gotta be Uvash.
+
+Archon Shiva — 3/3/26, 11:43 AM
+Super looking forward to Friday night for part two, hope I'm not jinxing it.
+
+Archon Shiva — 3/3/26, 9:44 PM
+Berserk does nothing to archers?  A short riff on slavish adherence to RAW:
+
+“If armed with a melee weapon, you must […]” I’m not.
+“If the enemy is more than 20 yards away […]” It’s not.
+“If for any reason you end up in a posture other than
+standing […]” I won’t.
+
+DFRPG Berserk as written somehow only affects PCs armed with a melee weapon, or with foes >20 yards away.
+
+dripton — 3/3/26, 9:45 PM
+Your fist is a melee weapon.
+
+dripton — 3/3/26, 9:45 PM
+It's badly written.
+
+Archon Shiva — 3/3/26, 9:45 PM
+It’s terrible.
+
+Archon Shiva — 3/3/26, 9:49 PM
+RAI is obvious: “Act berserk”.
+
+Archon Shiva — 3/3/26, 9:52 PM
+(If fist and foot count as melee weapons, both the Unarmed Master and Berserk’s entire first “If” provision become nonsensical.
+
+dripton — 3/3/26, 9:52 PM
+Maybe they'll fix them in 4.5.   Not holding my breath
+
+Archon Shiva — 3/3/26, 10:02 PM
+The intent is pretty clear:
+
+You must All-Out Attack each turn, unless you have no valid target, in which case Move & Attack (or Move, if no target is reached) is allowed in order to acquire a target.
+
+Change Posture is allowed if it helps you attack more.
+
+A failed Fast-Draw, done as part of an All-Out Attack or Move and Attack, is probably treated the same way as if you were not Berserk, otherwise Berserk’s too good.
+
+Based Cosmo — 3/7/26, 1:52 AM
+on the topic of "hidden rules": 
+
+One of my IRL players, when reading DFRPG, complained to me about Lariats and how whips are spread across three locations in two different books
+
+Archon Shiva — 3/7/26, 2:28 AM
+If you want to have fun, just try to figure out how a melee net works in melee.
+
+Archon Shiva — 3/7/26, 2:28 AM
+It's a mix of nets, lariats and bolas, and not clear which part is which.
+
+Based Cosmo — 3/7/26, 2:29 AM
+<@179039634909560832> Q: How does Merenuithiel use her bow? It is listed as 23t, and unless I am missing something, I don't see how you can fire it
+
+Based Cosmo — 3/7/26, 2:29 AM
+Unless you're chugging potions
+
+Archon Shiva — 3/7/26, 2:30 AM
+Drugs.  The answer is drugs.  However, she's been using Dawn here, not 2F2F.
+
+Archon Shiva — 3/7/26, 2:30 AM
+They don't have enough HP and DR to justify the big bow.
+
+Based Cosmo — 3/7/26, 2:56 AM
+At least I get to tell my friends a funny story about this session... 
+
+Otherwise this blows; my greeeeeeeeed to hit stuff overpowered my worry that shit will hit the fan and I got screwed :P
+
+Based Cosmo — 3/7/26, 2:56 AM
+thr cr isn't bad though
+
+Archon Shiva — 3/7/26, 2:57 AM
+You're doing a great job as a tank, though.
+
+Demented Avenger — 3/7/26, 2:57 AM
+Yeah, you should lean into this role
+
+Zuljita — 3/7/26, 2:57 AM
+<@630407861536686109> can you contingency cast to get your arm back?
+
+Based Cosmo — 3/7/26, 2:59 AM
+Uhm, that is a good idea, but I need to "RUN AWAY!" first to cast it effectively
+
+Based Cosmo — 3/7/26, 3:02 AM
+<@439963160502337536> I can't find one; is there a spell to fix muh arm?
+
+Demented Avenger — 3/7/26, 3:03 AM
+Restoration
+
+Based Cosmo — 3/7/26, 3:03 AM
+This is true; I am still used to the type of games I usually play in where a situation like that is death (We also use rules like penalized consecutive dodges and such)
+
+Based Cosmo — 3/7/26, 3:04 AM
+There's probably not a way I can do that as long as this assault is kept up
+
+Based Cosmo — 3/7/26, 3:04 AM
+Restoration only works after a month as well
+
+Based Cosmo — 3/7/26, 3:05 AM
+Stop Paralysis?
+
+Archon Shiva — 3/7/26, 3:05 AM
+Resist Pain.
+
+Demented Avenger — 3/7/26, 3:05 AM
+It's definitely not paralyzed
+
+Based Cosmo — 3/7/26, 3:05 AM
+Worth an ask
+
+Demented Avenger — 3/7/26, 3:39 AM
+I keep hallucinating that clicking that indicates time is running out, but only like one or two clicks
+
+Demented Avenger — 3/7/26, 3:54 AM
+I'm finding it incredibly difficult to believe that all these people are hanging out in the forms of Set but really are avowed foes of Set
+
+Based Cosmo — 3/7/26, 3:55 AM
+Yeah
+
+Archon Shiva — 3/7/26, 12:09 PM
+They might feel rather the same way about us.
+
+Demented Avenger — 3/7/26, 9:58 PM
+We do have a credential that they lack, however: we’re practically wading in the blood of the Settite cultists whom we’ve killed
+
+Archon Shiva — 3/7/26, 10:11 PM
+Maybe that just makes us psychotic, though.
+
+Archon Shiva — 3/8/26, 12:36 AM
+“Many several of the Settites”
+
+Demented Avenger — 3/20/26, 10:19 PM
+I'm discussing RPGs in Latin right now. heh
+
+dripton — 3/20/26, 10:21 PM
+Veni, vidi, alea iacta, mortuus sum
+
+Demented Avenger — 3/20/26, 10:22 PM
+We all have our personal translation for "D&D"
+
+Based Cosmo — 3/20/26, 10:30 PM
+What would they call a TTRPG in Latin? I know… zero Latin, but that doesn’t curb my curiosity
+
+Demented Avenger — 3/20/26, 10:45 PM
+Ludus in quo personas agimus?
+
+Based Cosmo — 3/20/26, 10:50 PM
+I understand "personas" as characters, and nothing else. I don't know what I expected. But I am going to use this to sound smart with my friends now
+
+Demented Avenger — 3/20/26, 11:25 PM
+"Game in which we portray characters"
+
+Archon Shiva — 3/27/26, 6:38 PM
+Ludus means game, which confuses Luddites endlessly.
+
+Based Cosmo — 3/28/26, 12:55 AM
+<@439963160502337536> You are the first person I have met that has a negative opinion towards REM
+
+Demented Avenger — 3/28/26, 12:56 AM
+Well, they suck, at least Stipe. I did think the album where the others were Warren Zevon's backing band wasn't bad, which is weird since I'm kind of hit or miss on Zevon (I hate "Werewolves of London" but like a bit of his other work).
+
+Based Cosmo — 3/28/26, 12:56 AM
+You don't like Werewolves of London? Man, everyone likes that song!
+
+Demented Avenger — 3/28/26, 12:57 AM
+It's annoying and repetitive and tedious. It turned me off of Zevon for years until I realized that it's kind of anomalous in his catalog
+
+Based Cosmo — 3/28/26, 12:59 AM
+Eh, I listen to a lot of repetitive music (a *lot* of shoegaze) so I am not the type of guy to be annoyed about it.
+
+Based Cosmo — 3/28/26, 12:59 AM
+I can totally understand it though
+
+Demented Avenger — 3/28/26, 1:04 AM
+Oh, I'm a big prog fan, so I'm used to listening to one riff for several minutes. The absolute pinnacle of rock is the C#m one-chord jam about seven minutes into "Echoes." The ending of "I Want You (She's So Heavy)" is majestic. But those develop. "Werewolves of London" doesn't change other than the lyrics
+
+Based Cosmo — 3/28/26, 1:29 AM
+This is why you don't try to summon Demons at sleepovers, kids.
+
+Archon Shiva — 4/4/26, 12:50 AM
+We dropped an elephant on the forum's Settite statue, decapitating it.
+
+Zuljita — 4/4/26, 2:26 AM
+Did that prevent the gas from coming out?
+
+Demented Avenger — 4/4/26, 2:27 AM
+yes
+
+Based Cosmo — 4/4/26, 5:05 PM
+<@253319584268943361> <@439963160502337536> Asking this to you two so I can settle a bet with a friend about RPM implementation in my setting:
+
+While playing, do you ever feel like you want to do more in combat? Or are you satisfied with what you are doing currently with your character
+
+Zuljita — 4/4/26, 5:21 PM
+I made my peace with not having something to do every turn in combat a long time ago. It's a service to the rest of the party to recognize when it's time to be simple and then be unashamed when it's time to step it up. As the wizard, I often chew up more screen time than other characters out of combat and that's fine.  
+
+If you need to cater to someone who wants to do something every second, playing a wizard is probably not the move
+
+Zuljita — 4/4/26, 5:21 PM
+I know players who absolutely must feel like they accomplished something significant every turn.
+
+Zuljita — 4/4/26, 5:21 PM
+That's not me
+
+Zuljita — 4/4/26, 5:21 PM
+But I'll also say that I rest easy knowing that when I do something it almost always rocks the whole battlefield
+
+Demented Avenger — 4/4/26, 5:22 PM
+Well, I don’t like RPM much, but there’s no reason why I have to be doing something constantly
+
+Zuljita — 4/4/26, 5:23 PM
+I have a hard time with RPM because every time I've seen it used at the table it becomes the show both in terms of problem solving and in terms of stopping play to figure out a complex math problem and negotiate what the spell is capable of
+
+Zuljita — 4/4/26, 5:24 PM
+But now that we've answered your question, you've got to tell us the whole debate
+
+Based Cosmo — 4/4/26, 5:29 PM
+So, I am working on my simulationist nerd ruleset again, which uses more esoteric pyramid articles and houserules than it does sourcebooks. The rules go hand-in-hand with my fantasy world, which is something close to HarnWorld. Now, my major problem with the world is figuring out Magic in a way that I enjoy, as the world's magic as is described in the things I have written *as flavor* for it is nothing close to GURPS Magic, which we were using for a while. I tried other magic options as well, but I could not get something that was slow and methodical.
+
+My friend, who wanted to play a cleric, wanted to see if RPM would work. I told him sure, as I knew it worked for slower magic, if you tuned it correctly. I told him I wanted to omit charms and methods of "spell slinging", as magic was powerful, but not in a way where it was used in combat. Magic is supposed to be used for civic or esoteric purposes, not for waging warfare. Anyways, after a week and a half of back and forth, I mentioned that I knew that my DFRPG group had players who were content with not doing something every turn, or even necessarily every combat. He told me that I was bullshitting him, and for me to ask. (I did, and I got the answer I told him I would get).
+
+Based Cosmo — 4/4/26, 5:31 PM
+He thinks that magic should be off limits to the players if it has no combat purpose, and that it is not fun, but I think that a world where healing magic costs ~$100 per HP (this is a gross oversimplification) is not one where wizards should be hurling 12d fireballs at people. So it was really just a conflict of preference that got settled after you replied and I forwarded what you two said to him. He is going to play a different character now, as he thinks anything magical would not be fun in a game about traveling Mercenaries. Which, I disagree with, but I assume that he prefers combat casters.
+
+Zuljita — 4/4/26, 5:43 PM
+So I think charms can be interesting for enabling some ability to react in combat, but making them a limited prepared resource that has to be worked up over hours beforehand. You can't tailor it to this moment. You have to work with what you have.
+
+Zuljita — 4/4/26, 5:44 PM
+It's going to allow the caster to have the ability to drop those big bombs once in awhile in a spell casting system. That otherwise doesn't work in combat at all. (Assuming you don't allow ritual adapt)
+
+Zuljita — 4/4/26, 5:45 PM
+Vael as an RPMist without charms should probably just stay home
+
+Based Cosmo — 4/4/26, 5:46 PM
+I don't allow ritual adept, no. However, that is the goal. I personally don't see Wizards in my world as something akin to D&D, but rather something closer to (as long as my memory serves me correctly) Merlin, where it is clever tricks and pre-combat buffs that make them valuable
+
+Zuljita — 4/4/26, 5:46 PM
+I have a sense that from what you described above, there's no way to practically be a spellcaster in anything like combat time at party scale.
+
+Zuljita — 4/4/26, 5:47 PM
+Pre combat buffs don't work if it takes 30 minutes or more to cast them
+
+Zuljita — 4/4/26, 5:48 PM
+Merlin and gandalf both have a few tricks they can pull off in the moment but they use them Sparingly That feels more like charms.
+
+Based Cosmo — 4/4/26, 5:48 PM
+That is true, I suppose. But that is part of the goal. I am not a fan of wizards taking the spotlight in *my* games. In others, it is fine. I am also quite picky when it comes to my world. I have even devised an entire in-house price list.
+
+I suppose that is true yes
+
+Based Cosmo — 4/4/26, 5:48 PM
+But I would ask then, how would you limit charms to being more like what Merlin and Gandalf can achieve?
+
+Zuljita — 4/4/26, 5:49 PM
+The way I would limit them is to make them difficult to make even on a daily or weekly basis, you need place and time and facilities.
+
+Zuljita — 4/4/26, 5:50 PM
+That said, keep in mind that both of those characters are wildly higher points than the other characters at the table, I'd give even money on gandalf against thorin in a no magic sword fight.
+
+Zuljita — 4/4/26, 5:50 PM
+And gandalf is a lot smarter and has a lot more skills and other advantages
+
+Based Cosmo — 4/4/26, 5:51 PM
+That is true, yes
+
+Zuljita — 4/4/26, 5:51 PM
+If you want wizards to be viable player characters, they have to be able to solve problems with magic at least some of the time. It sounds like that's not what you want and you should probably just own it and say that spell casting isn't for adventurers
+
+Based Cosmo — 4/4/26, 5:52 PM
+I do want them to be able to solve problems, just not combat ones. Which is where the tuning becomes hard
+
+Zuljita — 4/4/26, 5:52 PM
+My character solves combat problems all the time that nobody else can solve
+
+Based Cosmo — 4/4/26, 5:52 PM
+For example, clever use of Levitation back when we used GURPS Magic kept people dry in Early Spring as they crossed a river
+
+Based Cosmo — 4/4/26, 5:52 PM
+*That* I like!
+
+Based Cosmo — 4/4/26, 5:53 PM
+Yeah, true. I guess I just need to balance it more
+
+Based Cosmo — 4/4/26, 5:53 PM
+GURPS is a toolkit after all
+
+Zuljita — 4/4/26, 5:53 PM
+For crying out loud, I used shape air to deadly effect more than once in this campaign
+
+Based Cosmo — 4/4/26, 5:54 PM
+I have had players do that as well
+
+Based Cosmo — 4/4/26, 5:54 PM
+However, it is players that have barely read Magic...
+
+Zuljita — 4/4/26, 5:54 PM
+The wizard is not for someone who doesn't do their homework
+
+Zuljita — 4/4/26, 5:54 PM
+It's just not.
+
+Zuljita — 4/4/26, 5:54 PM
+No matter what magic system you're using
+
+Based Cosmo — 4/4/26, 5:55 PM
+Tell that to the lot of College Kids that I play with that I have to make character sheets before because they can't figure out GCS XD
+
+Zuljita — 4/4/26, 5:55 PM
+I find GCS to be not very intuitive once you understand how it works it flows just fine.
+
+Zuljita — 4/4/26, 5:55 PM
+But you need to understand all the underlying rules for spell casting for it to make sense
+
+Based Cosmo — 4/4/26, 5:56 PM
+I share the sentiment with all of GURPS honestly. I have seen people get super confused at the start and then it clicks and they're fine
+
+Zuljita — 4/4/26, 5:56 PM
+And you have to have read all your spells at least once and have some inkling of what to do when.
+
+Zuljita — 4/4/26, 5:56 PM
+No. You can play a combat character with a supportive GM and not know the rules at all
+
+Zuljita — 4/4/26, 5:56 PM
+And it's important that the GM be willing to support such a player so that they can learn the system at their Pace
+
+Zuljita — 4/4/26, 5:57 PM
+It's really not a difficult system for the player if the GM is supportive
+
+Based Cosmo — 4/4/26, 5:57 PM
+Oh, I know that well. One of my players smiles with glee as he goes "I swing with my mace!" because that's what he knows and it is what he enjoys. I also have recently been making more tools for them on paper so they can learn easier
+
+Demented Avenger — 4/4/26, 6:49 PM
+Then he’s free to play another game. If you can’t get players, then you have to yield
+
+Based Cosmo — 4/4/26, 6:54 PM
+I have more players than I need. A close knit group of friends that are willing to play a simulationist ruleset. He’s just one of the extras that I invited because he’s a close friend
+
+Demented Avenger — 4/4/26, 8:36 PM
+As always, I dumped the latest log into ChatGPT, which called the GOAT, “chaos with a spell list.” I guess these things really are learning!
+
+Based Cosmo — 4/4/26, 8:36 PM
+lol
+
+Demented Avenger — 4/4/26, 8:38 PM
+The log doesn’t show this, but Archon Shiva was actively discussing summoning a *whale* to drop on the statue
+
+Based Cosmo — 4/4/26, 8:39 PM
+he what
+
+dripton — 4/4/26, 8:39 PM
+I didn't have a whale token so he had to settle for an elephant.
+
+Demented Avenger — 4/4/26, 8:39 PM
+I shit you not
+
+Based Cosmo — 4/4/26, 8:39 PM
+I would say that maybe "chaos with a side of insanity" is a better description
+
+dripton — 4/4/26, 8:40 PM
+Goblins For the Unethical Treatment of Summoned Animals
+
+Demented Avenger — 4/4/26, 8:41 PM
+No, insanity implies a system of ethics that the mind is rejecting and wouldn’t if it were functioning properly. The GOAT is well beyond any such system. It has no place in his mind
+
+Demented Avenger — 4/4/26, 8:42 PM
+He did get of the h2g2 joke anyways, which I refrained from doing because there were no bowls of petunias involved
+
+Demented Avenger — 4/4/26, 8:42 PM
+But it was definitely on everyone’s brain. So the ground got to be friends with an elephant instead
+
+Zuljita — 4/11/26, 12:42 AM
+I'm here at the zoo overnight event... Hippo skulls always look so metal.
+
+Archon Shiva — 4/11/26, 1:59 AM
+I alsways assumed skeletons were mana-dependent.
+
+Based Cosmo — 4/11/26, 2:00 AM
+I think they are.
+
+Based Cosmo — 4/11/26, 2:00 AM
+But they might have some sort of exception
+
+Based Cosmo — 4/11/26, 2:00 AM
+It is magic, after all
+
+Archon Shiva — 4/11/26, 2:00 AM
+Well, in this case, it's very specifically *isn't*.
+
+Archon Shiva — 4/11/26, 2:04 AM
+Getting a lot of "This actor isn't part of the union" errors tonight.
+
+Based Cosmo — 4/11/26, 2:05 AM
+I have *not* had this on my personal foundry server.
+
+Based Cosmo — 4/11/26, 3:08 AM
+Someone put Foundry in the Timeout corner
+
+Demented Avenger — 4/11/26, 3:25 AM
+<@630407861536686109> can you pull Vallium out of the NMZ
+
+Based Cosmo — 4/11/26, 3:25 AM
+I will probably have to
+
+Demented Avenger — 4/16/26, 1:50 PM
+I’d keep it since that’s one of my favorite songs
+
+Zuljita — 4/16/26, 1:50 PM
+I feel like it's our party so much
+
+Based Cosmo — 4/16/26, 1:52 PM
+I pick up *everything* I see in a lot of games, and rarely to sell. When I used to play D&D when I was growing up I took every monster head I could and made the party big-guy (my brother) lug them around since I couldn’t
+
+Based Cosmo — 4/16/26, 2:42 PM
+What D&D module (from any version before 3e) do you guys think would be good to convert into GURPS to introduce some people to the game?
+
+dripton — 4/16/26, 2:45 PM
+Whichever one you like.  Start with something small though; I'm *still* not done converting Arden Vul.
+
+Based Cosmo — 4/16/26, 2:46 PM
+Oh, yeah, 100%. Something like Arden Vul would be too much; this is one to two sessions tops.
+
+Demented Avenger — 4/16/26, 2:46 PM
+I used White Plume Mountain once, though the draw of that is walking away with sweet weapons
+
+Based Cosmo — 4/16/26, 2:46 PM
+My Dad and his Grognard friends enjoyed my complex GURPS ruleset last time but didn’t understand it a lot so i’m running just base GURPS
+
+Based Cosmo — 4/16/26, 2:47 PM
+(I use Grognard literally here, most of them played BECMI with him in the 90’s apparently and still like that best)
+
+Demented Avenger — 4/16/26, 2:48 PM
+I’ve always intended to convert Expedition to the Barrier Peaks since GURPS would handle the technology well, but every time I roll up my sleeves, it looks like a beast to do
+
+dripton — 4/16/26, 2:49 PM
+If you only have 1-2 sessions I would start much simpler.  Pick one of the L1 adventures like Village of Hommlet or Sinister Secret of Saltmarsh.
+
+Based Cosmo — 4/16/26, 2:49 PM
+I can take a crack at it, but i’m pretty sure he’s played it. Though I am sure if I changed names he’d never know
+
+Based Cosmo — 4/16/26, 2:49 PM
+Those would work as well
+
+Demented Avenger — 4/16/26, 2:49 PM
+Ick, Hommlet, hard pass, though I imagine it’s easy to translate. I assume he’s played Keep
+
+Based Cosmo — 4/16/26, 2:50 PM
+100%
+
+Based Cosmo — 4/16/26, 2:50 PM
+That’s the issue…
+
+Based Cosmo — 4/16/26, 2:50 PM
+I think he’s played MOST modules that I own/can borrow
+
+Based Cosmo — 4/16/26, 2:50 PM
+And the ones he hasn’t are episodic type ones
+
+Demented Avenger — 4/16/26, 2:50 PM
+You know, B1, as it lets you vary the foes and treasure
+
+dripton — 4/16/26, 2:51 PM
+If you want something he hasn't played, just pick one that was written later.  Like one of the many Dungeon Crawl Classics adventures for 3E.  Different stat blocks but still easy to translate.
+
+dripton — 4/16/26, 2:52 PM
+Or if you don't want to do all that work just pick one from https://1shotadventures.com/
+
+Based Cosmo — 4/16/26, 2:52 PM
+I was thinking up my own dungeon but I just couldn’t figure out what I wanted to do
+
+Based Cosmo — 4/16/26, 2:52 PM
+It sounds like they enjoyed the meat grinder I wrote for my friends but it is hard to not come up with tricks that won’t piss them off (my friends have resilience for my antics)
+
+Based Cosmo — 4/16/26, 2:54 PM
+I am not a huge fan of 1SA mostly because they’re written very different for how I run games
+
+Based Cosmo — 4/16/26, 2:55 PM
+In Search of the Unknown is good
+
+Based Cosmo — 4/16/26, 2:55 PM
+I think my dad has a copy of it that I can borrow too but i’m more than sure there’s a PDF I have of it somewhere
+
+Demented Avenger — 4/16/26, 2:58 PM
+You can just use DFRPG monsters and treasures in that one rather than translate
+
+Based Cosmo — 4/16/26, 2:59 PM
+True
+
+Based Cosmo — 4/16/26, 2:59 PM
+You wrote up a bunch of traps on the GURPS Wikidot right?
+
+Demented Avenger — 4/16/26, 2:59 PM
+Yes. I translated from 3e and Grimtooth’s Traps for a lot of them
+
+Based Cosmo — 4/16/26, 2:59 PM
+Gotcha
+
+Zuljita — 4/16/26, 6:31 PM
+I'm personally a big fan of red hand of Doom, it's written for 3.5 though
+
+Zuljita — 4/16/26, 6:31 PM
+Or maybe 3.0
+
+Zuljita — 4/16/26, 6:31 PM
+I've heard good things about against the cult of the reptile God
+
+Zuljita — 4/16/26, 6:32 PM
+But I haven't really looked at it
+
+Demented Avenger — 4/16/26, 7:22 PM
+I have Red Hand of Doom. I know it's for 3.5. I don't think I played it; I considered using it after the Shattered Gates of Slaughtergarde, which ended in a TPK ("Get a piece of the vrock!")
+
+Zuljita — 4/16/26, 7:23 PM
+I started writing up a red hand of Doom conversion using obsidian.  It needs some more TLC before it's done
+
+Based Cosmo — 4/16/26, 10:25 PM
+TLC?
+
+Based Cosmo — 4/16/26, 10:25 PM
+Oh, Tender Love and Care?
+
+Zuljita — 4/16/26, 10:30 PM
+Correct
+
+Based Cosmo — 4/18/26, 2:59 AM
+Again, so sorry about that. I’ve tested my theory of “Wingstop always gives you food poisoning” on accident though.
+
+Archon Shiva — 4/18/26, 3:21 AM
+So you reject the null-hypothesis, then?
+
+Based Cosmo — 4/18/26, 3:22 AM
+Yes, I do.
+The past three times I have had Wing Stop in the past... two years(?) I have gotten pretty sick.
+
+Demented Avenger — 4/18/26, 3:22 AM
+Well, I suggest not eating at Wing Stop
+
+Based Cosmo — 4/18/26, 3:23 AM
+The only reason I even ate it is because at 11:30pm when you are starving after a day of filming yourself and your friends doing medieval combat *and* a chest/shoulder work out before that, I didn't care WHAT I was eating
+
+Demented Avenger — 4/18/26, 3:25 AM
+there's always McDonald's, you know
+
+Based Cosmo — 4/18/26, 3:26 AM
+Actually McDonalds is worse. The few times I have ever eaten at McDonalds the entire *family* got sick.
+
+Demented Avenger — 4/18/26, 3:26 AM
+you might have a problem, then
+
+Based Cosmo — 4/18/26, 3:27 AM
+Burger King has never failed me (despite my friend having the inverse problem)
+
+Demented Avenger — 4/18/26, 3:27 AM
+yeah, but it tastes way worse
+
+Based Cosmo — 4/18/26, 3:28 AM
+in my humble opinion: McD < BK < A&W < Wendy's < Culver's
+
+Demented Avenger — 4/18/26, 3:30 AM
+Never had Culver's other than the custard. But there is nothing, *nothing* in the world quite as unique as the McDonald's hamburger. It tastes the same every time. Like Arthur Dent, I'd be doubled-over if they ever left the world.
+
+Based Cosmo — 4/18/26, 3:30 AM
+Wait
+
+Based Cosmo — 4/18/26, 3:30 AM
+You live in MN and have never had Culver's????
+
+Demented Avenger — 4/18/26, 3:31 AM
+Nope. Never cared. Never a big deal here, either.
+
+Based Cosmo — 4/18/26, 3:31 AM
+They have the best burgers that I have ever had
+
+Demented Avenger — 4/18/26, 3:31 AM
+Best ever? Andy's Garage.
+
+Based Cosmo — 4/18/26, 3:33 AM
+Is that the place on Washington?
+
+Demented Avenger — 4/18/26, 3:33 AM
+Worst? Burger King might not be the worst, but it's pretty close, and they put some chemical in it that makes your shit stink the next day
+
+Based Cosmo — 4/18/26, 3:33 AM
+That is every fast food place for me
+
+Demented Avenger — 4/18/26, 3:34 AM
+Midtown Global Market
+
+Demented Avenger — 4/18/26, 3:34 AM
+For chains, I'm pretty partial to Smashburger, then Five Guys
+
+Based Cosmo — 4/18/26, 3:34 AM
+I haven't been to Global Market really, except for when I got my permit (I was in there for maybe fifteen minutes, to do the test, before we were told to go elsewhere to get the actual permit)
+
+Based Cosmo — 4/18/26, 3:35 AM
+I only had Five Guys once *here*. My first time was in Germany and it was okay. It is just pricey.
+
+Based Cosmo — 4/18/26, 3:35 AM
+Smashburger, i've never been
+
+Zuljita — 4/18/26, 3:35 AM
+Hopdoddy better than all of that, (haven't tried MGM), but I don't think it's in MN
+
+Based Cosmo — 4/18/26, 3:36 AM
+Never heard
+
+Demented Avenger — 4/18/26, 3:37 AM
+Incidentally, Cosmo, I found a flyer for a local gaming Discord posted in Uptown today when I was going to the dentist
+
+Archon Shiva — 4/18/26, 3:37 AM
+The only thing I even eat in there is Wendy's.
+
+Archon Shiva — 4/18/26, 3:37 AM
+(Don't know Culver's)
+
+Based Cosmo — 4/18/26, 3:38 AM
+It is an American Midwest thing
+
+Based Cosmo — 4/18/26, 3:38 AM
+If you took a picture of it, DM me. I am trying to do something other than sit on my ass this summer.
+
+Demented Avenger — 4/18/26, 3:39 AM
+I can do that. I was kind of skipping out on part of my last day (?) of work because they wouldn't let me take time off so I wasn't going to dawdle once I did the scan
+
+Archon Shiva — 4/18/26, 3:39 AM
+We have Harvey's.  They're who Subway probably stole "pick your condiments" from, but charcoal burgers.
+
+Demented Avenger — 4/18/26, 3:40 AM
+You guys have poutine up there. We have pale imitations of it
+
+Based Cosmo — 4/18/26, 3:40 AM
+Gotcha. For a while I put up a DFRPG flyer at the Source, but I never even got one hit for it.
+
+Based Cosmo — 4/18/26, 3:40 AM
+mmmmmmm poutine
+
+Demented Avenger — 4/18/26, 3:41 AM
+That poutine was a highlight of our honeymoon in Niagara Falls
+
+Based Cosmo — 4/18/26, 3:41 AM
+I need to get north of the border one of these days
+
+Based Cosmo — 4/18/26, 3:41 AM
+I have been told that it is cool up there
+
+Demented Avenger — 4/18/26, 3:42 AM
+the moment you cross they have a bajillion Cuban cigars for sale
+
+Based Cosmo — 4/18/26, 3:42 AM
+Why do they have Cuban cigars in Canada? Do they know their geography? ||(That is my vain attempt at making jokes)||
+
+Archon Shiva — 4/18/26, 3:42 AM
+The poutine game here has gotten crazy in the last decade.  Poutine has become like pizza, in that you get menus with twenty different gourmet poutines on them.
+
+Demented Avenger — 4/18/26, 3:45 AM
+Yeah, well, add some back bacon to it
+
+Demented Avenger — 4/18/26, 3:46 AM
+https://tenor.com/view/bob-and-doug-beauty-eh-beauty-eh-rick-moranis-gif-23547486
+
+Based Cosmo — 4/18/26, 3:46 AM
+I need to watch that movie
+I started it but never finished it
+
+Demented Avenger — 4/18/26, 3:46 AM
+take off, you hoser
+
+Demented Avenger — 4/18/26, 3:48 AM
+but I think the shot comes from the TV show
+
+dripton — 4/20/26, 6:07 PM
+Interesting philosophical question from another Discord: Do dwarves make bagels?  If so, can they be used as chakrams?
+
+Based Cosmo — 4/20/26, 7:15 PM
+I think so? I imagine dwarves to eat pretty hardy (*badumtss*) food, and they were originally based off of the Semitic peoples (in Tolkein's legendarium), so those facts all combined make me reach the conclusion of "bagel chakrams"
+
+Archon Shiva — 4/20/26, 7:40 PM
+And the obligatory: can they be enchanted with the Staff spell?
+
+Zuljita — 4/20/26, 10:08 PM
+My brother is currently playing a dwarven martial artist who's using "throwing steins" (boomerangs but reskinned for flavor). He's a drunken master.
+
+dripton — 4/20/26, 10:09 PM
+Empty or full?
+
+Zuljita — 4/20/26, 10:11 PM
+Empty.  He does have a sort of bouncer code of honor.  he keeps an item that creates water and another that turns water to beer, offers beers to anyone who helped him in a fight after.
+
+Zuljita — 4/20/26, 10:12 PM
+to encourage the bar to self-police
+
+Based Cosmo — 4/21/26, 12:39 AM
+Posed this question elsewhere, but what (in your opinion) are some great deadly but fair traps?
+
+Based Cosmo — 4/21/26, 12:40 AM
+I decided to just write a dungeon for my dad, since I couldn't find anything that would fit his idea of what BECMI was like back in the day, which, as he always described to me:
+"It was really deadly, man. I mean, you could open a door, right? And there could either be five goblins or a fuckin' dragon! It was awesome, nothing like what you'd see today."
+
+dripton — 4/21/26, 12:53 AM
+If you want something as deadly as possible, either run Paranoia, or a Dungeon Crawl Classics level 0 funnel.  Sailors on the Starless Sea, for example, is for 10-15 level 0 PCs.  (Each player starts with 3.  They won't have 3 for long.)
+
+Demented Avenger — 4/21/26, 3:03 AM
+I’ve played Paranoia a couple of times at a con. First time I was the loser, second time I played to screw over everyone and succeeded
+
+Based Cosmo — 5/2/26, 12:13 AM
+I am trying to have my camera on to show dice rolling -- is that working? It is not showing up on my end so I can't tell
+
+dripton — 5/2/26, 12:15 AM
+I see a camera
+
+Demented Avenger — 5/2/26, 1:19 AM
+Note for Ioannes: maintaining 4 Bless spells, 2 Affect Spirits, has +2 from Bless
+
+Demented Avenger — 5/2/26, 1:20 AM
+Most spells now being cast at 14, 13 for Gift of Letters, Gift of Tongues, Major Healing
+
+Demented Avenger — 5/2/26, 1:26 AM
+Down 6 FP/ER from spellcasting, +3 ER from ring, so at 15/18 FP, 7/10 ER
+
+Based Cosmo — 5/2/26, 1:26 AM
+What's our number on the enemy wraithes?
+
+Based Cosmo — 5/2/26, 1:26 AM
+keeping track for myself
+
+Archon Shiva — 5/2/26, 1:31 AM
+<@439963160502337536> Do I have an Affect Spirits?
+
+Demented Avenger — 5/2/26, 1:31 AM
+I only cast two. I can cast a third, but I'll need two seconds
+
+Based Cosmo — 5/2/26, 1:36 AM
+This is how I envision the party right now, this poster is always fresh in my mind when fighting hordes of evil
+
+Demented Avenger — 5/2/26, 1:48 AM
+Luck 848 central
+
+Demented Avenger — 5/2/26, 1:48 AM
+11 of 16+2
+
+Demented Avenger — 5/2/26, 1:57 AM
+Note for Ioannes: maintaining 4 Bless spells, 3 Affect Spirits, has +2 from Bless
+Most spells now being cast at 13, 12 for Gift of Letters, Gift of Tongues, Major Healing
+Down 9 FP/ER from spellcasting, +3 ER from ring, so at 14/18 FP, 5/10 ER
+
+Based Cosmo — 5/2/26, 2:11 AM
+LUCK 2111 CST
+
+Greybrown — 5/2/26, 2:54 AM
+luck 10:54
+
+Archon Shiva — 5/2/26, 2:35 PM
+<@630407861536686109> IRL belts have multiple size holes, and are generally one-size fits all, whereas shoes vary even within a half point shoe size.
+
+Official DFRPG rules (that nobody uses) even say that you need to use Armoury rolls to resize found armor to fit yourself across the same race, at an extra -5 for Fine armor.
+
+I really don’t think having a single long thin flexible strap that’s meant to be adjustable be more versatile across species than a fitted suit is that much of an arbitrary rules kludge.
+
+Zuljita — 5/2/26, 2:36 PM
+I keep having to buy new smaller belts as I lose weight.  I need to find a leatherworker to resize all my old fancy belts.
+
+Zuljita — 5/2/26, 2:36 PM
+<<
+
+Zuljita — 5/2/26, 2:36 PM
+>>
+
+Based Cosmo — 5/2/26, 2:39 PM
+I mean, it still doesn’t make sense. A belt meant for a 5’8” human probably wouldn’t fit a 4’4” halfling/dwarf very well. Especially since magic items aren’t usually one-size-fits-all. But this comes back around to the magic ring problem, where everyone seemingly has the same size fingers.
+
+Based Cosmo — 5/2/26, 2:40 PM
+I say magic items aren’t one-size-fits-all, because if you’re getting a belt made for yourself, you’re not getting that many notches to adjust it
+
+Zuljita — 5/2/26, 2:41 PM
+Some things are below the resolution of every particular game.  GURPS decided to be weirdly harsh about dwarf size.  I think I'd probably do it the way you're suggesting for many things, but RAW is the way it is.
+
+Based Cosmo — 5/2/26, 2:42 PM
+Yeah. I mostly just get over analytic with clothing size because I have to do it irl. 
+I respect drip’s ruling and RAW; RAW just annoys me personally due to it being funky
+
+Demented Avenger — 5/9/26, 3:02 AM
+https://www.youtube.com/watch?v=FvqAvL37zjQ&t=162s

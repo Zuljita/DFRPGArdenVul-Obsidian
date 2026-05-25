@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 5
+session_date: 2025-04-12
+source_url: https://dfwhiterock.blogspot.com/2025/04/dfrpg-arden-vul-session-5-parleys-and.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 5: Parleys and The [[locations/Great Cavern.md|Great Cavern]]
@@ -120,4 +122,4 @@ They are really sick of paying tribute to both halflings and the dragon, so it s
 
 - Previous Session: [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
 - Next Session: [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
-
+- Discord Discussions: [[Discord Summary 2025-W14]], [[Discord Summary 2025-W15]]

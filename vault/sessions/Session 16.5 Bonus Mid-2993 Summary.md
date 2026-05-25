@@ -1,6 +1,7 @@
 ---
 tags:
   - session
+session_date: 2025-07-02
 ---
 
 DFRPG [[locations/Arden Vul.md|Arden Vul]]: Mid-2993 Summary
@@ -67,4 +68,4 @@ Smallest Enemy Appeased:
 
 - Previous Session: [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]
 - Next Session: [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]
-
+- Discord Discussions: [[Discord Summary 2025-W25]], [[Discord Summary 2025-W26]]

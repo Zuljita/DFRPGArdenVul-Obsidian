@@ -1,0 +1,229 @@
+Loot 2025-07-25
+
+dripton — 7/26/25, 4:36 PM
+I started the GM loot sheet for this week.  Vael was able to identify most items but was unsure about the quality of some brandy and some spears so paid for a second opinion on those.
+
+dripton — 7/26/25, 4:37 PM
+The Set armor is scale but is bright red.
+
+dripton — 7/26/25, 4:38 PM
+The Lion Cloak is ... interesting
+
+dripton — 7/26/25, 4:39 PM
+The wand is See Secrets and Vael used a second Analyze Magic to get a charge count.
+
+dripton — 7/26/25, 4:40 PM
+The ring is Climbing
+
+dripton — 7/26/25, 4:41 PM
+There was a frieze on the wall in one room that looked valuable but was literally too heavy/attached to move, so it's not on the loot sheet as getting it to town would be a Construction Project.
+
+Archon Shiva — 7/26/25, 4:53 PM
+So if the party eventually manages to bring it home (not playing the system, just bringing it home), it could still count as loot at that time?
+
+dripton — 7/26/25, 4:54 PM
+Yes, but it would be very difficult to do.
+
+dripton — 7/26/25, 4:54 PM
+The combo of heavy/built-in/fragile.
+
+Demented Avenger — 7/26/25, 4:56 PM
+Are the coins of special value? They don't have numbers listed
+
+dripton — 7/26/25, 4:57 PM
+Gold is 10 and silver 1, as usual
+
+Zuljita — 7/26/25, 5:21 PM
+Lion Cloak (DR1, ST +2, HT -2, Infravision, Increased Consumption, Berserk)... I can't see us ever really using that. Berserk is a death sentence and HT -2 is a huge vulnerability. 
+
+Thoughts?
+
+Demented Avenger — 7/26/25, 5:23 PM
+I see that and I think, “Sell to a sucker,”
+
+Archon Shiva — 7/26/25, 5:37 PM
+Berserk isn’t « always on », though.  It’s a control roll, which Luck can mitigate.
+
+Lacrymosa would consider it.  Thronebreaker might.
+
+Zuljita — 7/26/25, 7:44 PM
+<@439963160502337536> did you take a first whack at the loot sheet?  it ended up being a copy of an older version that doesn't take new cp rules into account so I'm replacing it, but I'm not sure I agree with all of your yes/no's
+
+Zuljita — 7/26/25, 7:44 PM
+<@396077326129037345> are any of the coins found of the more ancient variety that might fit in the column?
+
+dripton — 7/26/25, 7:46 PM
+The only ancient coin you found was an octagonal platinum piece.  All the other coins were modern.
+
+dripton — 7/26/25, 7:46 PM
+You can get (reasonably common) ancient coins in town.
+
+Zuljita — 7/26/25, 7:49 PM
+cool.  next question will be the gems.  I'm struggling with a tension that I'm not sure is desirable (you tell me) between gems being essentially cash (and thus good xp) and them being quest items. for things like this pillar.  It'd be unfortunate if we couldn't explore some large swath of the dungeon because we sold a ruby that seemed pretty normal at the time but is uniquely critical for some mechanism.  
+
+Is that something you want us to struggle with, or can we enter some kind of meta compact on that?
+
+dripton — 7/26/25, 7:50 PM
+Gems are cash for XP purposes without needing to sell them, so if you think a particular gem is useful you can just keep it.
+
+dripton — 7/26/25, 7:51 PM
+It's not a tension between use and XP like with magic items.
+
+Zuljita — 7/26/25, 7:51 PM
+Aha! that means we're going to start being quite the gem collectors for a while I think.
+
+Zuljita — 7/26/25, 7:52 PM
+But thank you, that really helps.
+
+dripton — 7/26/25, 7:52 PM
+Gems are the perfect treasure because they are basically weightless and valuable.  Only catch is you need to appraise them, and not *everyone* takes them as money, but in any decent sized town you can change them.
+
+Zuljita — 7/26/25, 7:52 PM
+(and means I may need to change the sheet again)
+
+Demented Avenger — 7/26/25, 7:52 PM
+Yeah, I realize that point issue now. I think I just defaulted all to one (kept or sold, forget which)
+
+Zuljita — 7/26/25, 7:53 PM
+Someone went through and did a full yes/no, but it may have just been copied over from the sheet you copied.
+
+Zuljita — 7/26/25, 7:53 PM
+All good, now that I know you aren't married to it I can revisit.
+
+Demented Avenger — 7/26/25, 7:54 PM
+That would be cheating on my wife
+
+Zuljita — 7/26/25, 7:54 PM
+Fair.
+
+Demented Avenger — 7/26/25, 7:54 PM
+Mostly I wanted to make sure I got the values and weights in there
+
+dripton — 7/26/25, 7:54 PM
+In some jurisdictions you get 1 spouse and 2 Google Sheets.
+
+dripton — 7/26/25, 7:55 PM
+When I tried accessing the player loot sheet I saw a weird message I've never seen before "This has changed a lot!  Reload?"
+
+dripton — 7/26/25, 7:55 PM
+I think it was saying there were enough changes that it couldn't undo/redo that far so if I took the latest I could not get back.
+
+Demented Avenger — 7/26/25, 7:56 PM
+It’s definitely looking like 1 CP for loot unless I’m seriously underestimating something, dunno how much for exploring
+
+dripton — 7/26/25, 7:56 PM
+2 XP for exploration.  You explored a lot.
+
+dripton — 7/26/25, 7:56 PM
+That shiny new level feeling.
+
+Demented Avenger — 7/26/25, 7:57 PM
+I’d love 2 XP for loot since it means I can go right to HT 11 this week, but I don’t think that’s in the cards
+
+Based Cosmo — 7/26/25, 8:00 PM
+If I personally wanted that Ring of Climbing, would that make me go to 0pts gained from this session? (Willing to do that anyway)
+
+Demented Avenger — 7/26/25, 10:23 PM
+Is there anything special about the spears we found (page 309)? We paid identification costs for them
+
+dripton — 7/26/25, 10:24 PM
+No, they were normal good quality spears.  Vael pays ID costs whenever he's not sure, if the item *might* be worth identifying.
+
+Demented Avenger — 7/26/25, 10:25 PM
+Why are we keeping the small emeralds?
+
+Zuljita — 7/26/25, 11:38 PM
+I hadn't made a decision yet but I'm not sure they aren't eyes
+
+Zuljita — 7/26/25, 11:38 PM
+Sorry, I'm not done
+
+Zuljita — 7/26/25, 11:38 PM
+I started to sit down and focus on it and then got pulled away
+
+Zuljita — 7/29/25, 3:10 AM
+Still working on Loot Sheet.  <@630407861536686109> I had planned on making it party loot just because it's irreplaceable and the MSRP isn't that high.
+
+Zuljita — 7/29/25, 3:10 AM
+I don't see a whole lot of competition to wear it week after week, so no reason for you to take a personal cash hit to claim it.
+
+Zuljita — 7/29/25, 3:11 AM
+Just "check it out" from the party stash.
+
+Demented Avenger — 7/29/25, 3:11 AM
+Yeah, as there's no thief, there's nobody who really needs it
+
+Zuljita — 7/29/25, 3:11 AM
+Is that you looking at the sheet with me DA?
+
+Demented Avenger — 7/29/25, 3:11 AM
+yes
+
+Zuljita — 7/29/25, 3:15 AM
+<@179039634909560832> would grudge take the lion cloak as their share for this week?
+
+Based Cosmo — 7/29/25, 12:42 PM
+Gotcha
+
+Archon Shiva — 7/29/25, 2:10 PM
+It’s not cursed, just gives both disadvantages with a self-control rolls on Berserk?
+
+Archon Shiva — 7/29/25, 2:14 PM
+If so, they’ll take it as a $2k value.  It’s a big Ring of Infravision.
+
+Zuljita — 7/29/25, 3:08 PM
+Meet me in the middle $3.5k? It's a great tool for hyper specialists
+
+Zuljita — 7/29/25, 3:09 PM
+Makes it better than retail for you and better than vending for me
+
+dripton — 7/29/25, 3:22 PM
+It's not cursed; you can take it off.  It just has both positive and negative effects.
+
+Archon Shiva — 7/29/25, 4:49 PM
+If you’re selling an item the party “owns”, and therefore cannot get cp for, we can negotiate price.
+
+If you’re giving it as part of a share, and therefore someone in the party can counts its value towards their cp, it’s precisely the current session’s selling price, no more and no less.
+
+Otherwise it breaks cp rules.
+
+You *can* decide not to sell it, and immediately after you get cp, sell it to the brigade for some other amount.
+
+Archon Shiva — 7/29/25, 4:50 PM
+You want 3.5k for it *and* want it to count for cp?  Ask to bring one of the rich mercs.
+
+Zuljita — 8/1/25, 7:49 PM
+<@179039634909560832>  you can buy the cloak for 2k I guess, doesn't hurt us compared with selling it to a vendor, it just feels bad to not haggle for more.
+
+Zuljita — 8/1/25, 7:50 PM
+By my math given the gem/coin ruling, we get to claim 2 cp for loot, some of us just barely.
+
+Zuljita — 8/1/25, 7:50 PM
+<@396077326129037345> , <@439963160502337536>  <@630407861536686109> , <@344820413026795534>
+
+Based Cosmo — 8/1/25, 7:51 PM
+Sweet o7
+
+Zuljita — 8/1/25, 7:51 PM
+Also, once we're sure we don't need those big platinum coins anymore, we can liquidate them.
+
+dripton — 8/1/25, 7:52 PM
+Adjusted sheet
+
+Demented Avenger — 8/1/25, 7:53 PM
+So how many CP was that session worth?
+
+dripton — 8/1/25, 7:57 PM
+4
+
+dripton — 8/1/25, 7:58 PM
+2 loot, 2 exploration
+
+Demented Avenger — 8/1/25, 10:17 PM
+So we took home less than we had count for CP, Kyle?
+
+Zuljita — 8/1/25, 10:18 PM
+That's correct.  see this ruling: https://discord.com/channels/1346534955357835336/1398705270942597152/1398754472020279326
+
+Zuljita — 8/1/25, 10:19 PM
+Basically we don't have to liquidate gems to count them as loot, which means we can keep them in party inventory for quests.  There's a large platinum coin we're keeping for the same reason.

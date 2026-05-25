@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 14
+session_date: 2025-06-14
+source_url: https://dfwhiterock.blogspot.com/2025/06/dfrpg-arden-vul-session-14-behind.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 14: Behind the [[locations/Waterfall.md|Waterfall]] Again
@@ -121,4 +123,4 @@ Of course there has already been talk about going after [[npcs/Phlebotomas Plumt
 
 - Previous Session: [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]
 - Next Session: [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15 - The Great Cavern Re-Revisited]]
-
+- Discord Discussions: [[Discord Summary 2025-W24]], [[Discord Summary 2025-W25]]

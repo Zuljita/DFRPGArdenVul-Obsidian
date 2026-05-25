@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import json
+import os
 import re
 import subprocess
 from collections import defaultdict
@@ -11,6 +12,8 @@ from typing import Dict, List, Optional, Tuple, Any
 import re as _re
 
 VAULT = Path('vault')
+DEFAULT_ENDPOINT = os.environ.get('LMSTUDIO_BASE_URL') or os.environ.get('LLM_ENDPOINT') or 'http://100.76.165.94:1234'
+DEFAULT_MODEL = os.environ.get('LMSTUDIO_IAC_MODEL') or os.environ.get('LMSTUDIO_MODEL') or os.environ.get('LLM_MODEL') or 'google/gemma-4-26b-a4b'
 
 ENTITY_DIRS = {
     'NPC': 'npcs',
@@ -21,8 +24,12 @@ ENTITY_DIRS = {
 EXTRA_POOLS = ['pcs']  # allow resolving NPCs to PCs
 
 LLM_PROMPT = (
-    "From the text, list entity candidates grouped by type (NPC, Location, Faction, Item). "
-    "Title Case; exclude generics and scaffolding words; do not invent; no mapping. Output concise bullets only."
+    "/no_think\n"
+    "From the text, extract named entity candidates that may deserve canonical Obsidian articles. "
+    "Return strictly valid JSON and nothing else, with exactly these keys: "
+    '"NPC", "Location", "Faction", "Item". Each value must be an array of unique Title Case strings. '
+    "Exclude generic room/scenery labels, scaffolding words, ordinary monsters, unnamed groups, "
+    "plain equipment, spells, and player handles. Do not invent entities. Do not map to existing pages."
 )
 
 # Load filter config
@@ -79,8 +86,15 @@ def load_canonicals() -> Dict[str, Dict[str, Canonical]]:
             aliases = extract_frontmatter_list(txt, 'aliases')
             c = Canonical(title=title, path=p, aliases=aliases)
             canon[kind][normalize_key(title)] = c
+            canon[kind][normalize_key(p.stem)] = c
+            for v in implicit_aliases(p.stem, kind):
+                canon[kind][normalize_key(v)] = c
+            for v in implicit_aliases(title, kind):
+                canon[kind][normalize_key(v)] = c
             for a in aliases:
                 canon[kind][normalize_key(a)] = c
+                for v in implicit_aliases(a, kind):
+                    canon[kind][normalize_key(v)] = c
     # also load extras (pcs)
     for kind in EXTRA_POOLS:
         d = VAULT / kind
@@ -95,8 +109,15 @@ def load_canonicals() -> Dict[str, Dict[str, Canonical]]:
             aliases = extract_frontmatter_list(txt, 'aliases')
             c = Canonical(title=title, path=p, aliases=aliases)
             canon[kind][normalize_key(title)] = c
+            canon[kind][normalize_key(p.stem)] = c
+            for v in implicit_aliases(p.stem, kind):
+                canon[kind][normalize_key(v)] = c
+            for v in implicit_aliases(title, kind):
+                canon[kind][normalize_key(v)] = c
             for a in aliases:
                 canon[kind][normalize_key(a)] = c
+                for v in implicit_aliases(a, kind):
+                    canon[kind][normalize_key(v)] = c
     # build all-name index for cross-kind mapping
     canon['_all'] = {}
     for pool_name, pool in canon.items():
@@ -146,16 +167,35 @@ def extract_frontmatter_list(text: str, key: str) -> List[str]:
 
 
 def normalize_key(s: str) -> str:
-    return re.sub(r"\s+", " ", s.strip().lower())
+    s = re.sub(r"\.md\b", "", s.strip(), flags=re.IGNORECASE)
+    s = re.sub(r"\s+", " ", s.lower())
+    s = re.sub(r"^(the|a|an)\s+", "", s)
+    return s.strip()
+
+
+def implicit_aliases(name: str, kind: str) -> List[str]:
+    clean = re.sub(r"\[\[|\]\]", "", name)
+    clean = re.sub(r"\.md\b", "", clean, flags=re.IGNORECASE)
+    clean = re.sub(r"\s+", " ", clean).strip()
+    aliases: List[str] = []
+    if clean.lower().startswith("the "):
+        aliases.append(clean[4:])
+    tokens = clean.split()
+    if kind in {"npcs", "pcs"}:
+        if " the " in clean.lower() and tokens:
+            aliases.append(tokens[0])
+        if len(tokens) >= 3 and tokens[0][:1].isupper() and tokens[1][:1].isupper():
+            aliases.append(" ".join(tokens[:2]))
+    return aliases
 
 
 def similarity(a: str, b: str) -> float:
     return SequenceMatcher(None, a, b).ratio()
 
 
-def call_llm(files: List[Path], endpoint: str = None, model: str = None, temperature: float = 0.1, max_tokens: int = 400, timeout: int = 180) -> str:
-    model = model or 'qwen2.5-7b-instruct'
-    endpoint = endpoint or 'http://192.168.21.76:1234'
+def call_llm(files: List[Path], endpoint: str = None, model: str = None, temperature: float = 0.1, max_tokens: int = 2000, timeout: int = 300) -> str:
+    model = model or DEFAULT_MODEL
+    endpoint = endpoint or DEFAULT_ENDPOINT
     cmd = [
         'python3', 'scripts/local_llm_client.py',
         '--endpoint', endpoint,
@@ -173,6 +213,28 @@ def call_llm(files: List[Path], endpoint: str = None, model: str = None, tempera
 
 
 def parse_candidates(text: str) -> Dict[str, List[str]]:
+    cleaned = text.strip()
+    if cleaned.startswith("```"):
+        cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned)
+        cleaned = re.sub(r"\s*```$", "", cleaned)
+    try:
+        obj = json.loads(cleaned)
+    except json.JSONDecodeError:
+        obj = None
+    if isinstance(obj, dict):
+        groups = defaultdict(list)
+        for key in ("NPC", "Location", "Faction", "Item"):
+            vals = obj.get(key, [])
+            if isinstance(vals, list):
+                groups[key].extend(str(v).strip() for v in vals if str(v).strip())
+        for k in list(groups.keys()):
+            seen = []
+            for v in groups[k]:
+                if normalize_key(v) not in {normalize_key(x) for x in seen}:
+                    seen.append(v)
+            groups[k] = seen
+        return groups
+
     # Expect concise bullets like:
     # - NPC: Name A; Name B
     # - Location: Place X
@@ -252,52 +314,11 @@ def create_stub(kind: str, name: str, appears_in: Path) -> Path:
     return target
 
 
-def chunk_text(text: str, max_chars: int = 2400) -> List[str]:
-    parts: List[str] = []
-    current: List[str] = []
-    size = 0
-    for para in text.split('\n\n'):
-        if size + len(para) + 2 > max_chars and current:
-            parts.append('\n\n'.join(current))
-            current = []
-            size = 0
-        current.append(para)
-        size += len(para) + 2
-    if current:
-        parts.append('\n\n'.join(current))
-    return parts
-
-
-def run_iac_on_file(session_file: Path, dry_run: bool=False, kinds: Optional[List[str]] = None, chunk_size: int = 2400, endpoint: str = None, model: str = None) -> Dict[str, List[Tuple[str, str]]]:
+def run_iac_on_file(session_file: Path, dry_run: bool=False, kinds: Optional[List[str]] = None, endpoint: str = None, model: str = None) -> Dict[str, List[Tuple[str, str]]]:
     canon = load_canonicals()
     filters = load_filters()
-    # Chunk session content to improve extraction
-    text = session_file.read_text(encoding='utf-8', errors='ignore')
-    chunks = chunk_text(text, max_chars=chunk_size)
-    tmpdir = Path('.iac_tmp')
-    tmpdir.mkdir(exist_ok=True)
-    merged: Dict[str, List[str]] = defaultdict(list)
-    for i, chunk in enumerate(chunks):
-        fp = tmpdir / f"{session_file.stem}.part{i+1}.md"
-        fp.write_text(chunk, encoding='utf-8')
-        try:
-            out = call_llm([fp], endpoint=endpoint, model=model)
-        finally:
-            try:
-                fp.unlink()
-            except OSError:
-                pass
-        g = parse_candidates(out)
-        for k, vals in g.items():
-            merged[k].extend(vals)
-    # de-dup merged
-    for k in list(merged.keys()):
-        seen = []
-        for v in merged[k]:
-            if normalize_key(v) not in {normalize_key(x) for x in seen}:
-                seen.append(v)
-        merged[k] = seen
-    groups = merged
+    out = call_llm([session_file], endpoint=endpoint, model=model)
+    groups = parse_candidates(out)
     actions: Dict[str, List[Tuple[str, str]]] = defaultdict(list)
     # stoplists to reduce false positives
     stop_location = set([s.lower() for s in filters.get('stop_location', [])])
@@ -310,6 +331,7 @@ def run_iac_on_file(session_file: Path, dry_run: bool=False, kinds: Optional[Lis
     # Optional unique item filter
     unique_mode = globals().get('_IAC_ITEMS_MODE', 'all')
 
+    mapped_paths = set()
     for kind, names in groups.items():
         if kind not in ENTITY_DIRS:
             continue
@@ -332,7 +354,10 @@ def run_iac_on_file(session_file: Path, dry_run: bool=False, kinds: Optional[Lis
             match, fuzzy_key = find_match(kind, name, canon)
             if match:
                 # If fuzzy match via alias key, consider adding alias in ACE; for IAC we only record.
-                actions['mapped'].append((name, str(match.path)))
+                path_key = str(match.path)
+                if path_key not in mapped_paths:
+                    actions['mapped'].append((name, path_key))
+                    mapped_paths.add(path_key)
                 seen_keys.add(nkey)
                 continue
             # create stub
@@ -348,30 +373,35 @@ def run_iac_on_file(session_file: Path, dry_run: bool=False, kinds: Optional[Lis
 def main():
     ap = argparse.ArgumentParser(description='Run Identifying Article Candidates (IAC) on sessions.')
     ap.add_argument('--file', help='Path to a session markdown file')
+    ap.add_argument('--digest', help='Path to a Discord Summary markdown file')
     ap.add_argument('--all', action='store_true', help='Process all sessions (descending by session id)')
+    ap.add_argument('--all-digests', action='store_true', help='Process all Discord Summary files in vault/notes/')
     ap.add_argument('--kinds', default='NPC,Location,Faction', help='Comma-separated kinds to process (default: NPC,Location,Faction)')
     ap.add_argument('--items-mode', choices=['all','unique'], default='all', help='Item selection: all (default) or unique')
-    ap.add_argument('--chunk-size', type=int, default=2400, help='Chunk size for IAC model calls (chars)')
-    ap.add_argument('--endpoint', default=None, help='LLM endpoint (OpenAI-compatible)')
-    ap.add_argument('--model', default=None, help='LLM model name')
+    ap.add_argument('--endpoint', default=None, help=f'LLM endpoint (OpenAI-compatible, default: {DEFAULT_ENDPOINT})')
+    ap.add_argument('--model', default=None, help=f'LLM model name (default: {DEFAULT_MODEL})')
     ap.add_argument('--dry-run', action='store_true', help='Do not create files, just print actions')
     args = ap.parse_args()
 
     targets: List[Path] = []
     if args.file:
         targets = [Path(args.file)]
+    elif args.digest:
+        targets = [Path(args.digest)]
     elif args.all:
         sessions = sorted((VAULT / 'sessions').glob('*.md'), reverse=True)
         targets = sessions
+    elif args.all_digests:
+        targets = sorted((VAULT / 'notes').glob('Discord Summary *.md'), reverse=True)
     else:
-        ap.error('Specify --file <session.md> or --all')
+        ap.error('Specify --file <session.md>, --all, --digest <digest.md>, or --all-digests')
 
     summary = []
     kinds = [k.strip() for k in args.kinds.split(',') if k.strip()]
     # set global for unique filtering
     globals()['_IAC_ITEMS_MODE'] = args.items_mode
     for sf in targets:
-        acts = run_iac_on_file(sf, dry_run=args.dry_run, kinds=kinds, chunk_size=args.chunk_size, endpoint=args.endpoint, model=args.model)
+        acts = run_iac_on_file(sf, dry_run=args.dry_run, kinds=kinds, endpoint=args.endpoint, model=args.model)
         summary.append({'file': str(sf), **{k: v for k, v in acts.items()}})
 
     print(json.dumps(summary, indent=2))
