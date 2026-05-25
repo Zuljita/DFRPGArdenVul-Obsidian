@@ -284,6 +284,10 @@ def load_local_sources() -> dict:
         "vault_rag_collection": os.environ.get("ARDEN_VAULT_RAG_COLLECTION") or config.get("vault_rag_collection", "arden_vul_vault"),
         "vault_rag_embed_model": os.environ.get("ARDEN_VAULT_RAG_EMBED_MODEL") or config.get("vault_rag_embed_model", "bge-m3"),
         "vault_rag_embed_url": os.environ.get("ARDEN_VAULT_RAG_EMBED_URL") or config.get("vault_rag_embed_url", "http://127.0.0.1:11434/api/embeddings"),
+        "mechanics_rag_chroma_path": (lambda v: Path(v).expanduser() if v else None)(
+            os.environ.get("ARDEN_MECHANICS_RAG_PATH") or config.get("mechanics_rag_chroma_path")
+        ),
+        "mechanics_rag_collection": os.environ.get("ARDEN_MECHANICS_RAG_COLLECTION") or config.get("mechanics_rag_collection", "dfrpg"),
         "article_edit_queue_top": int(config.get("article_edit_queue_top", 0) or 0),
         "article_edit_walk_step": int(config.get("article_edit_walk_step", 0) or 0),
         "article_edit_verify_limit": int(config.get("article_edit_verify_limit", 0) or 0),
@@ -2588,6 +2592,44 @@ def vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> lis
     return hits
 
 
+def mechanics_rag_search(query: str, top_k: int = 3) -> list[dict]:
+    """Query the DFRPG rules MechanicsVault Chroma collection. Used by the
+    new-entity verifier to flag candidates that are actually rulebook entries
+    (spells, generic items, monster stat blocks from DFRPG/GURPS books) rather
+    than campaign-specific entities. Returns [] silently if not configured."""
+    if not CHROMA_AVAILABLE:
+        return []
+    sources = load_local_sources()
+    path = sources.get("mechanics_rag_chroma_path")
+    if not path or not Path(path).exists():
+        return []
+    try:
+        client = chromadb.PersistentClient(path=str(path))
+        coll = client.get_collection(sources["mechanics_rag_collection"])
+    except Exception:
+        return []
+    try:
+        query_emb = vault_rag_embed(query)
+        res = coll.query(query_embeddings=[query_emb], n_results=top_k)
+    except Exception:
+        return []
+    hits: list[dict] = []
+    docs = (res.get("documents") or [[]])[0]
+    metas = (res.get("metadatas") or [[]])[0]
+    dists = (res.get("distances") or [[]])[0]
+    for doc, meta, dist in zip(docs, metas, dists):
+        meta = meta or {}
+        hits.append({
+            "book": meta.get("book", "?"),
+            "printed_page": meta.get("printed_page", "?"),
+            "section": meta.get("section", "?"),
+            "source_pdf": meta.get("source", "?"),
+            "distance": dist,
+            "text": doc,
+        })
+    return hits
+
+
 # ---- new-entity proposal lane (item 6: IAC/ACE) ----
 
 IAC_KIND_TO_DIR = {
@@ -2944,6 +2986,21 @@ def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
             )
     except Exception:
         pass
+    # Cross-reference the candidate name against the DFRPG MechanicsVault rules
+    # collection. If the candidate is a rulebook entry (e.g. the spell "Awaken",
+    # the potion "Paut", a monster stat block from DF_Monsters), we don't want
+    # to create a campaign-specific stub for it. The verifier should mark it
+    # as "rulebook_entry" instead.
+    rules_block = ""
+    try:
+        rules_hits = mechanics_rag_search(candidate.name, top_k=3)
+        if rules_hits:
+            rules_block = "\n\nDFRPG RULES CROSS-REFERENCE (MechanicsVault hits — if the candidate matches a rulebook entry, mark it rulebook_entry instead of confirmed):\n\n" + "\n\n---\n\n".join(
+                f"[{h.get('book','?')} p.{h.get('printed_page','?')} §{h.get('section','?')}]\n{(h.get('text') or '')[:500]}"
+                for h in rules_hits[:3]
+            )
+    except Exception:
+        pass
     nearest_line = (
         f"\nNearest existing entity in vault/{candidate.canonical_target_dir}/: "
         f"`{candidate.nearest_existing}` (similarity {candidate.nearest_distance:.2f}).\n"
@@ -2958,16 +3015,22 @@ def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
         "EVIDENCE EXCERPTS FROM CANONICAL VAULT SOURCES (Blogspot session recaps, weekly Discord digests, "
         "raw Discord channel rollups, lore notes, and ignored spreadsheet snapshots):\n\n"
         f"{sources_text}"
-        f"{rag_block}\n\n"
+        f"{rag_block}"
+        f"{rules_block}\n\n"
         "Decide one of:\n"
-        "- \"confirmed\": evidence clearly establishes this as a named campaign entity of the proposed kind, with no obvious duplicate. The vault cross-reference, if present, did not surface this entity under another name.\n"
+        "- \"confirmed\": evidence clearly establishes this as a named CAMPAIGN-SPECIFIC entity of the proposed kind, with no obvious duplicate. The vault cross-reference did not surface this entity under another name AND the rules cross-reference did not show this is a rulebook entry.\n"
+        "- \"rulebook_entry\": the DFRPG rules cross-reference clearly shows this is a generic rulebook entry (a published spell like Awaken or Detect Magic; a generic potion like Paut; a monster stat block from DF_Monsters; an Adventurer power). We do NOT create lore-style vault pages for rulebook entries — those are already covered by the rules. Cite the book/page in rationale.\n"
         "- \"wrong_kind\": evidence supports a real entity but the proposed kind is wrong (e.g. it is a Location, not an NPC; or it is a Monster, not an Item; or a Media item, not a plain Item). Set suggested_kind to the correct one.\n"
-        "- \"duplicate\": evidence (including the vault cross-reference) indicates this is the same entity as an already-known page, possibly under a different surface name. Cite which path in rationale.\n"
+        "- \"duplicate\": evidence (including the vault cross-reference) indicates this is the same entity as an already-known vault page, possibly under a different surface name. Cite which path in rationale.\n"
         "- \"not_an_entity\": this is a generic noun, scaffolding word, sentence fragment, room/door label, generic monster type, or term that should not become a vault page.\n"
         "- \"ambiguous\": evidence is too thin or contradictory to decide.\n\n"
+        "IMPORTANT: a campaign-specific named instance can have the same name as a rulebook entry. "
+        "For example a NAMED behir (\"Korthax the Coiled\") is a campaign entity, but \"Behir\" as a "
+        "monster-type stat block from DF_Monsters is rulebook_entry. Use status=confirmed only when "
+        "evidence shows campaign-specific identity beyond what the rulebook provides.\n\n"
         "Return strict JSON only:\n"
         "{\n"
-        '  "status": "confirmed|wrong_kind|duplicate|not_an_entity|ambiguous",\n'
+        '  "status": "confirmed|rulebook_entry|wrong_kind|duplicate|not_an_entity|ambiguous",\n'
         '  "rationale": "<one sentence grounded in the cited evidence and/or vault cross-reference>",\n'
         '  "suggested_kind": "<NPC|PC|Location|Faction|Item|Monster|Spell|Concept|Media if status=wrong_kind, else empty string>",\n'
         '  "suggested_media_subtype": "<book|map|scroll|data-crystal|library|catalog|journal|inscription if kind=Media and status=confirmed, else empty string>",\n'
@@ -3010,7 +3073,7 @@ def verify_new_entity_proposals(limit: int = 20) -> list[dict]:
     by_status: dict[str, list[dict]] = {}
     for r in out:
         by_status.setdefault(r["verifier_status"], []).append(r)
-    for status in ["confirmed", "wrong_kind", "duplicate", "ambiguous", "not_an_entity", "error", "unknown"]:
+    for status in ["confirmed", "rulebook_entry", "wrong_kind", "duplicate", "ambiguous", "not_an_entity", "error", "unknown"]:
         items = by_status.get(status, [])
         if not items:
             continue
@@ -3087,6 +3150,7 @@ def apply_verified_new_entities(apply_changes: bool, limit: int | None = None) -
     confirmed = [v for v in verifications if v.get("verifier_status") == "confirmed"]
     if limit is not None:
         confirmed = confirmed[:limit]
+    rulebook_count = sum(1 for v in verifications if v.get("verifier_status") == "rulebook_entry")
     results: list[dict] = []
     created: list[str] = []
     for v in confirmed:
@@ -3131,6 +3195,7 @@ def apply_verified_new_entities(apply_changes: bool, limit: int | None = None) -
         "ok": True,
         "mode": "apply" if apply_changes else "dry-run",
         "confirmed_count": len(confirmed),
+        "rulebook_filtered_count": rulebook_count,
         "created_count": len(created),
         "skipped_count": sum(1 for r in results if r["action"] in ("skipped", "error")),
         "results": results,
