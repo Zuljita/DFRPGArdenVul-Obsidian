@@ -3,7 +3,7 @@
 LLM Model Benchmark:
 - Query available models from the local endpoint
 - Determine which models haven't been benchmarked yet
-- Run baseline tests: IAC, LCE, ACE (discovery-only), and CAC on a sample file
+- Run baseline tests: IAC, ACE (discovery-only), and CAC on a sample file
 - Save a static copy of the Goblins faction file for repeatable benchmarks
 - Record results under docs/benchmarks/
 """
@@ -57,13 +57,6 @@ def benchmark_model(endpoint: str, model: str) -> Dict[str, Any]:
         result['iac']['would_create'] = len(rec.get('would_create', [])) if isinstance(rec, dict) else None
     except Exception:
         result['iac']['error'] = (err or out)[:400]
-
-    # LCE baseline (Temple of Set, para-window=3)
-    cmd = ['python3', str(ROOT / 'scripts' / 'lce_extract.py'), '--location', 'Temple of Set', '--session', str(SESSION), '--para-window', '3', '--dry-run', '--endpoint', endpoint, '--model', model]
-    rc, dt, out, err = run(cmd, timeout=120)
-    edges = sum(1 for line in out.splitlines() if '->' in line)
-    narrative = sum(1 for line in out.splitlines() if any(x in line.lower() for x in ['murder','brought','map','talk','led them']))
-    result['lce'] = {'rc': rc, 'time_s': round(dt, 2), 'edges': edges, 'narrative_terms': narrative}
     if rc != 0:
         result['lce']['error'] = (err or out)[:400]
 
@@ -99,7 +92,7 @@ def benchmark_model(endpoint: str, model: str) -> Dict[str, Any]:
     return result
 
 def main():
-    p = argparse.ArgumentParser(description='Benchmark local LLM models for IAC/LCE/ACE/CAC')
+    p = argparse.ArgumentParser(description='Benchmark local LLM models for IAC/ACE/CAC')
     p.add_argument('--endpoint', default='http://192.168.21.76:1234')
     p.add_argument('--all', action='store_true', help='Benchmark all available models (except embeddings)')
     p.add_argument('--new', action='store_true', help='Benchmark only models not seen in previous results')

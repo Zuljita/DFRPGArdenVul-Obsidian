@@ -92,7 +92,7 @@ Thoroughness is more important than speed or brevity.
 ## Pacing & Quality Principles
 
 - Thorough over fast: prioritize accuracy, conservative edits, and clear sourcing over speed. It is acceptable (and preferred) to defer uncertain changes to a later pass with a TODO entry.
-- Review-first automation: use dry-run/report modes (e.g., LCE helper) before applying broad changes.
+- Review-first automation: use dry-run / `--apply`-gated modes before applying broad changes.
 - Session-grounded edits: only add connections/tags/claims that are explicitly present in session text or established pages. Avoid invention.
 
 ## Session Note Structure
@@ -110,59 +110,27 @@ The standard order of sections in a session note is as follows:
 
 This structure ensures that the most important information is immediately accessible, while the full details are available on demand.
 
-## Ingestion SOP (IAC · ACE · LCE)
+## Ingestion SOP (IAC · ACE)
 
-This vault uses a three‑phase, LLM‑assisted intake flow for any new narrative data (especially new session recaps):
+This vault uses an LLM-assisted intake flow for any new narrative data (especially new session recaps), implemented as `scripts/vault_automation.py` subcommands. The SOP emphasizes source preservation, LLM reasoning, independent verification, and conservative edits with sources. Deterministic filters and dedup provide guardrails, but they do not decide campaign facts or entity identity by themselves.
 
-- IAC — Identify Article Candidates
-- ACE — Article Candidate Enrichment
-- LCE — Location Connections Extraction
+- **IAC — Identify Article Candidates** (`propose-new-entities`): walks the latest canonical sources, asks the LLM to enumerate candidates across 9 kinds (NPC, PC, Location, Faction, Item, Monster, Spell, Concept, Media), applies deterministic filters (scaffolding rejection, word-level dedup against existing entity index incl. pcs/, kind-specific stop lists).
+- **ACE — Article Candidate Enrichment** (`verify-new-entities` / `apply-verified-new-entities`): for each candidate the verifier gets vault-rag cross-reference plus DFRPG-rules cross-reference (MechanicsVault). Classifies as confirmed | rulebook_entry | duplicate | wrong_kind | not_an_entity | ambiguous. Confirmed candidates become stub pages with tags = [<kind>, identity/uncertain] + status: stub.
+- **Article enrichment** (`propose-article-edits` / `verify-article-edits` / `apply-verified-article-edits`): vault-rag-grounded bullet/alias/summary additions to existing pages. Connection-style edits land via `append_bullet_to_section` against an existing `## Connections` H2.
 
-The SOP emphasizes source preservation, LLM reasoning, independent verification, and conservative edits with sources. Deterministic scripts provide guardrails and syntax repair, but they do not decide campaign facts or entity identity by themselves.
-
-### IAC: Identify Article Candidates
-- Goal: From the new text, list canonical entity candidates by type (NPC, Location, Faction, Item). Do not map or invent.
-- Deterministic pre‑pass: fix malformed wikilinks, close brackets, and normalize already-known targets. Do not extract entities from regexes, capitalization, or grammar tags alone.
-- Prompt (candidates only):
-  - “From the text, list entity candidates grouped by type (NPC, Location, Faction, Item). Title Case; exclude generics and scaffolding words; do not invent; no mapping.”
-- Settings: temperature 0.1–0.2, max_tokens 300–600, chunk size 2–3k chars.
-- Output: short list per type (no descriptions). Use fuzzy matching, aliases, chronology, and local context before treating a candidate as new. Use this to drive ACE.
-
-### ACE: Article Candidate Enrichment
-- Goal: Create/update minimal pages for true entities, with safe frontmatter and short summaries (no invention).
-- Pages: one concept per file, correct folder (`npcs/`, `locations/`, `factions/`, `items/`).
-- Frontmatter conventions:
-  - NPCs: `tags: [npc, gender/<value>, race/<value>, profession/<value>]` using `unknown` when not stated.
-  - Items: `tags: [item/<weapon|armor|magic|mundane>]` inferred only if stated.
-  - Factions: `tags: [faction]`.
-  - Locations: `tags: [location]`; add `entrance` only for proven access points.
-- Identity tags: add `type/<value>`, `status/<value>`, `title/<value>`, `faction/<slug>`, `culture/<slug>`, `site/<slug>`, and `session/<id>` only when the source supports them. Use `identity/uncertain`, `identity/possible-alias`, or `identity/possible-duplicate` to queue review; do not use those tags as final conclusions.
-- Media tags: use `media/book`, `media/map`, `media/data-crystal`, `media/scroll`, `media/library`, `language/<slug>`, `repository/<slug>`, `topic/<slug>`, `reading/<unread|partial|read>`, and `translation/<untranslated|partial|complete>` when supported. These tags should help retrieval find related readings, not replace citations.
+Frontmatter conventions for new stubs:
+- Entity-class tag: `npc`, `pc`, `location`, `faction`, `item`, `monster`, `spell`, `concept`.
+- Identity tags: add `type/<value>`, `status/<value>`, `title/<value>`, `faction/<slug>`, `culture/<slug>`, `site/<slug>`, `session/<id>` only when the source supports them. Use `identity/uncertain`, `identity/possible-alias`, or `identity/possible-duplicate` to queue review.
+- Media tags: use `media/book`, `media/map`, `media/data-crystal`, `media/scroll`, `media/library`, `language/<slug>`, `repository/<slug>`, `topic/<slug>`, `reading/<unread|partial|read>`, `translation/<untranslated|partial|complete>` when supported.
 - Aliases: add alternate spellings/epithets on the canonical page; update links to canonical where safe.
-- Stubs: include 1–2 sentence summary + “Sources” sessions; no speculation.
-- Verification: every added claim must be supported by a Blogspot recap or Discord digest/chat excerpt. A second LLM verification pass should classify the claim as supported, contradicted, ambiguous, or not found before automatic promotion.
+- Stubs: 1–2 sentence summary plus a "Sources" section linking back to the canonical sources that produced the evidence; no speculation.
 
-### LCE: Location Connections Extraction
-- Goal: Populate `## Connections` (and `## Sources`) on location pages with explicit, sourced routes.
-- What counts: direct links (leads to/through/via/across/down/up) and methods/features (rope ladder, teleporter, secret door).
-- Deterministic pre‑scan: for each location mentioned in the changed session, collect 2–4 paragraph windows around the mention; keep only windows containing connector phrases (connect/lead/via/through/across/toward/into/onto/to/from/down/up/entrance/exit/gate/basket/rappel/levitat/teleport/stair/hole).
-- LLM screen: YES/NO — “Does this segment describe movement or explicit connections? Answer YES or NO.”
-- LLM extraction (if YES):
-  - “Extract ONLY explicit connections between named locations. Output Edges ‘A -> B [via X] [method: M] [feature: F]’. Use names exactly as in text; Title Case; exclude non‑locations; no commentary. For example, if the text says 'we went from The Great Chasm to the Glory of Thoth, and from there to the Arden Vul Surface', you should extract 'The Great Chasm -> Glory of Thoth' and 'Glory of Thoth -> Arden Vul Surface', but not 'The Great Chasm -> Arden Vul Surface'.”
-- Mapping: exact filename in `vault/locations/` → frontmatter `aliases` → UNMAPPED (manual review). Never invent.
-- Patching: add bullets to `## Connections` and cite supporting sessions in `## Sources`. Remove “Residents” dumps from dungeon pages; use “Hazards & Encounters” and “Notable Finds”.
-- Quality gates: every bullet has a session citation; all wikilinks resolve; omit inferred hops.
+Verification: every added claim must be supported by a Blogspot recap, Discord digest, Discord rollup excerpt, or spreadsheet snapshot. The verifier classifies the claim as supported, contradicted, ambiguous, or not_found before automatic promotion. Rulebook entries (verified against the DFRPG MechanicsVault Chroma collection) are filtered out — generic published spells, items, and monster stat blocks do not get campaign-specific vault pages.
 
 ### Local LLM
-- Endpoint: `http://192.168.21.76:1234` (OpenAI‑compatible).
-- Default: `qwen2.5-7b-instruct` (or `qwen2.5-14b-instruct` if headroom).
-- Timeouts: 60–180s; temperature: 0.1–0.2; max_tokens: 300–600; chunk size: 2–3k.
-
-### Automation Hooks (recommended)
-- Pre‑commit (local): when `vault/sessions/*` changes, run LCE dry‑run and show the patch for affected locations.
-- CI (optional): on PRs, post an LCE report and fail if there are unmapped names, unresolved links, or missed connections.
-
-Helper: `scripts/lce_extract.py` collects windows, queries the local LLM, maps canonical names, and prints patch suggestions (dry‑run by default).
+- See `config/local_sources.json` (gitignored) for `llm_base_url` and `llm_model`. The current setup uses an LM-Studio gateway serving a Gemma-4 26B reasoning model.
+- Reasoning models burn 200–500 tokens of internal chain-of-thought before producing visible content; budget max_tokens accordingly (we use 16384 in `llm_chat_json`).
+- Chunk size for proposer prompts: ~3000 chars (set by VAULT_RAG_MAX_CHUNK_CHARS).
 
 ### Rumor Consolidation
 To provide a centralized view of all rumors, a consolidation process is used:

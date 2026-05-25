@@ -20,6 +20,4 @@
 - Confirm whether Craastonistorex is the dragon Ioannes researched; ensure cross-links/readability in relevant session/NPC pages.
 - Audit “Azure Shield” mentions in Session 24b across entries; ensure clean links and no nested pipes.
 - Re-check `npcs/Basilisk.md`, `npcs/Hushbreaker.md`, `npcs/Sanguinette.md` for Session 27 consistency (bullets/sources style).
-- Continue LCE on hubs: Howling Caves, Glory of Thoth, Well of Light adjacencies, Great Hall ↔ beastman path, Great Chasm ladders/bridges/gates; add multi‑step Routes where sessions show chains.
 - Placeholder vs canonical name audit: scan and merge via aliases where a placeholder and real name both exist (example handled: Craas → Craastonistorex); compile list for review.
-- Add pre-commit hook + PR job to run `scripts/lce_extract.py` in report mode on changed sessions; attach report to PRs.

@@ -2079,7 +2079,7 @@ def llm_chat_json(prompt: str, timeout: int = 90) -> dict:
             {"role": "user", "content": prompt},
         ],
         "temperature": 0.0,
-        "max_tokens": 8192,
+        "max_tokens": 16384,
     }
     request = urllib.request.Request(
         url,
@@ -3931,7 +3931,7 @@ def cmd_propose(_: argparse.Namespace) -> int:
             {
                 "ok": False,
                 "error": "proposal_generation_not_implemented",
-                "message": "Implement IAC/ACE/LCE proposal generation only after discover and validate are stable.",
+                "message": "Implement IAC/ACE proposal generation only after discover and validate are stable.",
             },
             indent=2,
         )

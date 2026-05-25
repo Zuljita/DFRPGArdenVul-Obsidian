@@ -274,7 +274,7 @@ Allowed proposal types:
 - append sourced bullet to an existing page section
 - add alias to existing frontmatter
 - create a new stub for a true new entity
-- add LCE connection with source citation
+- append connection bullet to a location page's `## Connections` section
 - flag conflict for manual review
 
 Output:
