@@ -2590,18 +2590,63 @@ def vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> lis
 
 # ---- new-entity proposal lane (item 6: IAC/ACE) ----
 
-IAC_KIND_TO_DIR = {"NPC": "npcs", "Location": "locations", "Faction": "factions", "Item": "items"}
+IAC_KIND_TO_DIR = {
+    "NPC": "npcs",
+    "PC": "pcs",
+    "Location": "locations",
+    "Faction": "factions",
+    "Item": "items",
+    "Monster": "monsters",
+    "Spell": "spells",
+    "Concept": "concepts",
+    "Media": "items",  # Media items live in items/ with media/<subtype> tags
+}
+IAC_KIND_EXTRA_TAGS = {
+    "Media": ("media/general",),  # Verifier may upgrade to media/book, media/map, etc.
+}
 IAC_CANDIDATE_PROMPT = (
-    "From the text, list entity candidates grouped by type (NPC, Location, Faction, Item). "
-    "Title Case; exclude generics and scaffolding words; do not invent; no mapping. "
+    "You are extracting named entities from a recap of a Dungeon Fantasy RPG (DFRPG/GURPS) "
+    "tabletop campaign set in the Halls of Arden Vul. Recaps come from blog session writeups, "
+    "weekly Discord digests, raw Discord channel rollups, lore notes, and spreadsheet snapshots.\n\n"
+    "List entity candidates from the text grouped by type:\n"
+    "- NPC: named non-player characters (people, sentient creatures with proper names).\n"
+    "- PC: a named player character (e.g. Vael, Ioannes, Vallium, Uvash). PC names are listed "
+    "in \"Player Characters\" sections of session recaps.\n"
+    "- Location: named places (regions, halls, named rooms like \"Goblin Forum\", landmarks). "
+    "Skip generic rooms (\"the hallway\", \"a chamber\") and door labels.\n"
+    "- Faction: named groups, cults, organizations, militaries, races/cultures used as groups "
+    "(e.g. \"Cult of Set\", \"Sortians\", \"Sun-Scarred Knights\").\n"
+    "- Item: named magical or significant non-media items (weapons, armor, artifacts, devices).\n"
+    "- Monster: named creatures or distinct creature types appearing as encounters "
+    "(e.g. \"Behir\", \"Surgical Construct\", \"Ancient Wyrm of the Chasm\"). Skip generic "
+    "common monsters (ghoul, goblin, skeleton) unless they appear as named individuals — "
+    "those are NPCs instead.\n"
+    "- Spell: named spells, magical effects, or supernatural abilities used in-fiction "
+    "(e.g. \"Seeker\", \"Apportation\", \"Recover Energy\"). Not generic verbs.\n"
+    "- Concept: named in-world concepts that aren't a person/place/group/item (e.g. "
+    "\"Apophidian Calendar\", \"Litany of Light\", named rituals or eras).\n"
+    "- Media: named books, scrolls, maps, data crystals, libraries, journals, or catalogs "
+    "(e.g. \"Book of Priors\", \"On the Location of Priscus Pulcher\", \"The Archontean "
+    "Empire\"). These are items, but flagged separately so they get the right media tags.\n\n"
+    "Rules:\n"
+    "- Title Case only. Use the canonical proper name, not a sentence fragment.\n"
+    "- Exclude generics, scaffolding words (we, they, that, this, date, session, summary), "
+    "and pronouns.\n"
+    "- Do not invent. Only list names actually present in the text.\n"
+    "- Do not map to existing pages — that's a separate step.\n\n"
     "Return strict JSON only:\n"
     "{\n"
-    '  "NPC": ["Name1", "Name2"],\n'
-    '  "Location": ["Place1"],\n'
-    '  "Faction": ["Group1"],\n'
-    '  "Item": ["Thing1"]\n'
+    '  "NPC": ["..."],\n'
+    '  "PC": ["..."],\n'
+    '  "Location": ["..."],\n'
+    '  "Faction": ["..."],\n'
+    '  "Item": ["..."],\n'
+    '  "Monster": ["..."],\n'
+    '  "Spell": ["..."],\n'
+    '  "Concept": ["..."],\n'
+    '  "Media": ["..."]\n'
     "}\n"
-    "Return empty arrays for kinds with no candidates."
+    "Empty arrays for kinds with no candidates."
 )
 NEW_ENTITY_MIN_MENTIONS = 2
 NEW_ENTITY_FUZZY_THRESHOLD = 0.88
@@ -2693,13 +2738,19 @@ def _entity_name_overlap(a: str, b: str) -> bool:
 
 
 def find_nearest_existing_entity(name: str, kind: str, entity_index: dict[str, list[EntityPage]]) -> tuple[str | None, float]:
-    # NPC candidates also need to be checked against pcs/ — player characters are people too
-    # and should never be added as NPC pages.
+    # NPC and PC candidates need to be checked against each other — player characters
+    # are people too and should never be added as NPC pages. Media items live in
+    # items/ alongside non-media items so dedup needs to scan there.
     kind_to_dirs = {
         "NPC": ["npcs", "pcs"],
+        "PC": ["pcs", "npcs"],
         "Location": ["locations"],
         "Faction": ["factions"],
         "Item": ["items"],
+        "Monster": ["monsters"],
+        "Spell": ["spells"],
+        "Concept": ["concepts"],
+        "Media": ["items"],
     }
     dirs = kind_to_dirs.get(kind)
     if not dirs:
@@ -2743,7 +2794,7 @@ def iac_extract_candidates_from_chunk(chunk_text: str) -> dict[str, list[str]]:
     except Exception:
         return {}
     out: dict[str, list[str]] = {}
-    for kind in ("NPC", "Location", "Faction", "Item"):
+    for kind in IAC_KIND_TO_DIR.keys():
         values = response.get(kind) or []
         if isinstance(values, list):
             cleaned = []
@@ -2789,7 +2840,7 @@ def build_new_entity_proposals(source_limit: int = 10, candidate_limit: int = 50
     filters = load_entity_filters()
     ignore_npcs = load_ace_ignore_npcs()
     entity_index = build_entity_index()
-    raw_by_kind: dict[str, dict[str, list[Path]]] = {k: {} for k in ("NPC", "Location", "Faction", "Item")}
+    raw_by_kind: dict[str, dict[str, list[Path]]] = {k: {} for k in IAC_KIND_TO_DIR.keys()}
     for sp in canonical_sources:
         try:
             text = read_text(sp)
@@ -2847,7 +2898,7 @@ def write_new_entity_proposal_report(proposals: list[NewEntityCandidate]) -> Non
     by_kind: dict[str, list[NewEntityCandidate]] = {}
     for p in proposals:
         by_kind.setdefault(p.kind, []).append(p)
-    for kind in ("NPC", "Location", "Faction", "Item"):
+    for kind in IAC_KIND_TO_DIR.keys():
         ps = by_kind.get(kind, [])
         if not ps:
             continue
@@ -2872,30 +2923,54 @@ def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
         f"[{s.get('path','')} §{s.get('section','?')}]\n{s.get('excerpt','')}"
         for s in candidate.sources[:5]
     )
+    # Cross-reference the candidate name against the existing vault via vault-rag.
+    # This catches concept-duplicates that name-overlap dedup misses — e.g. the
+    # candidate has a different surface name but the vault already covers it
+    # under an alias or in a related page.
+    rag_block = ""
+    try:
+        rag_hits = vault_rag_search(candidate.name, top_k=4)
+        # Drop hits from the candidate's intended target folder if they're the
+        # nearest_existing (already cited above), to keep the prompt focused.
+        kept: list[dict] = []
+        for h in rag_hits:
+            if h.get("path") == candidate.nearest_existing:
+                continue
+            kept.append(h)
+        if kept:
+            rag_block = "\n\nVAULT CROSS-REFERENCE (vault-rag hits for the candidate name in the wider vault):\n\n" + "\n\n---\n\n".join(
+                f"[{h.get('path','?')} §{h.get('section','?')} kind={h.get('kind','?')}]\n{(h.get('text') or '')[:600]}"
+                for h in kept[:4]
+            )
+    except Exception:
+        pass
     nearest_line = (
         f"\nNearest existing entity in vault/{candidate.canonical_target_dir}/: "
         f"`{candidate.nearest_existing}` (similarity {candidate.nearest_distance:.2f}).\n"
         if candidate.nearest_existing else ""
     )
     return (
-        f"You are auditing a proposed new {candidate.kind} entity for the Arden Vul DFRPG tabletop campaign vault.\n\n"
+        f"You are auditing a proposed new {candidate.kind} entity for the Arden Vul DFRPG/GURPS tabletop campaign vault.\n\n"
         f"Candidate name: \"{candidate.name}\"\n"
         f"Proposed entity kind: {candidate.kind}\n"
         f"Target vault folder: vault/{candidate.canonical_target_dir}/\n"
         f"{nearest_line}\n"
-        "EVIDENCE EXCERPTS FROM CANONICAL VAULT SOURCES (Blogspot recaps, weekly Discord digests, lore docs):\n\n"
-        f"{sources_text}\n\n"
+        "EVIDENCE EXCERPTS FROM CANONICAL VAULT SOURCES (Blogspot session recaps, weekly Discord digests, "
+        "raw Discord channel rollups, lore notes, and ignored spreadsheet snapshots):\n\n"
+        f"{sources_text}"
+        f"{rag_block}\n\n"
         "Decide one of:\n"
-        "- \"confirmed\": evidence clearly establishes this as a named campaign entity of the proposed kind, with no obvious duplicate.\n"
-        "- \"wrong_kind\": evidence supports a real entity but the proposed kind is wrong (e.g. it is a Location, not an NPC). Include the corrected kind in suggested_kind.\n"
-        "- \"duplicate\": evidence indicates this is the same entity as the nearest existing page or another already-known entity.\n"
-        "- \"not_an_entity\": this is a generic noun, scaffolding word, sentence fragment, or term that should not become a vault page.\n"
+        "- \"confirmed\": evidence clearly establishes this as a named campaign entity of the proposed kind, with no obvious duplicate. The vault cross-reference, if present, did not surface this entity under another name.\n"
+        "- \"wrong_kind\": evidence supports a real entity but the proposed kind is wrong (e.g. it is a Location, not an NPC; or it is a Monster, not an Item; or a Media item, not a plain Item). Set suggested_kind to the correct one.\n"
+        "- \"duplicate\": evidence (including the vault cross-reference) indicates this is the same entity as an already-known page, possibly under a different surface name. Cite which path in rationale.\n"
+        "- \"not_an_entity\": this is a generic noun, scaffolding word, sentence fragment, room/door label, generic monster type, or term that should not become a vault page.\n"
         "- \"ambiguous\": evidence is too thin or contradictory to decide.\n\n"
         "Return strict JSON only:\n"
         "{\n"
         '  "status": "confirmed|wrong_kind|duplicate|not_an_entity|ambiguous",\n'
-        '  "rationale": "<one sentence grounded in the cited evidence>",\n'
-        '  "suggested_kind": "<NPC|Location|Faction|Item if status=wrong_kind, else empty string>",\n'
+        '  "rationale": "<one sentence grounded in the cited evidence and/or vault cross-reference>",\n'
+        '  "suggested_kind": "<NPC|PC|Location|Faction|Item|Monster|Spell|Concept|Media if status=wrong_kind, else empty string>",\n'
+        '  "suggested_media_subtype": "<book|map|scroll|data-crystal|library|catalog|journal|inscription if kind=Media and status=confirmed, else empty string>",\n'
         '  "summary": "<one factual sentence suitable for the stub page if status=confirmed, else empty string>"\n'
         "}"
     )
@@ -2915,16 +2990,19 @@ def verify_new_entity_proposals(limit: int = 20) -> list[dict]:
             rationale = str(response.get("rationale", ""))
             suggested_kind = str(response.get("suggested_kind", ""))
             summary = str(response.get("summary", ""))
+            media_subtype = str(response.get("suggested_media_subtype", "")).strip().lower()
         except Exception as exc:
             status = "error"
             rationale = str(exc)[:200]
             suggested_kind = ""
             summary = ""
+            media_subtype = ""
         result = asdict(p)
         result["verifier_status"] = status
         result["verifier_rationale"] = rationale
         result["verifier_suggested_kind"] = suggested_kind
         result["verifier_summary"] = summary
+        result["verifier_media_subtype"] = media_subtype
         out.append(result)
     proposals_dir = AUTOMATION_DIR / "proposals"
     write_json(proposals_dir / "new_entity_verifications.json", out)
@@ -2956,20 +3034,36 @@ def slugify_entity_name(name: str) -> str:
     return cleaned
 
 
-def build_new_entity_stub(name: str, kind: str, summary: str, sources: list[dict]) -> str:
-    tag_map = {"NPC": "npc", "Location": "location", "Faction": "faction", "Item": "item"}
+def build_new_entity_stub(name: str, kind: str, summary: str, sources: list[dict], media_subtype: str = "") -> str:
+    tag_map = {
+        "NPC": "npc",
+        "PC": "pc",
+        "Location": "location",
+        "Faction": "faction",
+        "Item": "item",
+        "Monster": "monster",
+        "Spell": "spell",
+        "Concept": "concept",
+        "Media": "item",  # Media lives in items/ alongside non-media items
+    }
     tag = tag_map.get(kind, kind.lower())
-    lines = [
-        "---",
-        "tags:",
-        f"  - {tag}",
-        "  - identity/uncertain",
+    tags = [tag]
+    if kind == "Media":
+        # media/<subtype> tag (book/map/scroll/data-crystal/library/catalog/journal/inscription).
+        allowed_media = {"book", "map", "scroll", "data-crystal", "library", "catalog", "journal", "inscription"}
+        subtype = media_subtype if media_subtype in allowed_media else "general"
+        tags.append(f"media/{subtype}")
+    tags.append("identity/uncertain")
+    lines = ["---", "tags:"]
+    for t in tags:
+        lines.append(f"  - {t}")
+    lines.extend([
         "status: stub",
         "---",
         "",
         f"# {name}",
         "",
-    ]
+    ])
     if summary:
         lines.extend(["## Summary", summary, ""])
     lines.append("## Sources")
@@ -2998,6 +3092,11 @@ def apply_verified_new_entities(apply_changes: bool, limit: int | None = None) -
     for v in confirmed:
         name = v.get("name", "")
         kind = v.get("kind", "")
+        # PC pages are maintained by players; never auto-create them. Log so we
+        # know the proposer hit one, but don't write to disk.
+        if kind == "PC":
+            results.append({"name": name, "kind": kind, "action": "skipped", "reason": "PC pages must be created manually"})
+            continue
         target_dir_name = IAC_KIND_TO_DIR.get(kind, "")
         if not target_dir_name:
             results.append({"name": name, "kind": kind, "action": "error", "reason": "unsupported kind"})
@@ -3015,7 +3114,10 @@ def apply_verified_new_entities(apply_changes: bool, limit: int | None = None) -
         if target_path.exists():
             results.append({"name": name, "kind": kind, "action": "skipped", "reason": "page already exists", "path": rel_path})
             continue
-        content = build_new_entity_stub(name, kind, v.get("verifier_summary", ""), v.get("sources", []))
+        content = build_new_entity_stub(
+            name, kind, v.get("verifier_summary", ""), v.get("sources", []),
+            media_subtype=v.get("verifier_media_subtype", ""),
+        )
         if apply_changes:
             target_path.write_text(content, encoding="utf-8")
             created.append(rel_path)
@@ -3200,10 +3302,14 @@ def article_edit_proposer_prompt(
         "Be conservative: do not invent facts, do not paraphrase loosely, do not propose changes already present in the article.\n\n"
         "Allowed addition types:\n"
         "- \"append_bullet_to_section\": Add ONE wikilinked bullet to an existing H2 section (e.g. \"Sessions\", "
-        "\"Appears In\", \"Notes\", \"Connections\"). target_section must match an existing H2 heading in the article.\n"
+        "\"Appears In\", \"Notes\", \"Connections\"). target_section must match an existing H2 heading in the article. "
+        "PREFER THIS TYPE over extend_summary when adding a new fact.\n"
         "- \"add_alias\": Add ONE alternate name to the frontmatter aliases list. target_section must be \"aliases\".\n"
         "- \"extend_summary\": Add ONE short factual sentence to the Summary section. target_section must be \"Summary\". "
-        "Use only when strongly supported.\n\n"
+        "Use only when strongly supported AND the new sentence introduces information that is not already in the Summary. "
+        "Do NOT propose extend_summary text whose words substantially overlap with the existing Summary content — that "
+        "produces a near-duplicate restatement and adds noise. If the fact is new but could go elsewhere, prefer "
+        "append_bullet_to_section in Notes/History/Appears In.\n\n"
         "Every proposal MUST cite a specific source excerpt by path and section. The excerpt should be a short verbatim "
         "quote from the source content, not a paraphrase.\n\n"
         "Return strict JSON only. No commentary, no markdown fences, no preamble. Schema:\n"
