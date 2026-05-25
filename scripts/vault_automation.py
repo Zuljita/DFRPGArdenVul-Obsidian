@@ -3040,9 +3040,17 @@ def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
     try:
         rules_hits = mechanics_rag_search(candidate.name, top_k=3)
         if rules_hits:
-            rules_block = "\n\nDFRPG RULES CROSS-REFERENCE (MechanicsVault hits — if the candidate matches a rulebook entry, mark it rulebook_entry instead of confirmed):\n\n" + "\n\n---\n\n".join(
-                f"[{h.get('book','?')} p.{h.get('printed_page','?')} §{h.get('section','?')}]\n{(h.get('text') or '')[:500]}"
-                for h in rules_hits[:3]
+            literal_count = sum(1 for h in rules_hits if h.get("match_type") == "literal")
+            header = "\n\nDFRPG RULES CROSS-REFERENCE (MechanicsVault hits):"
+            if literal_count > 0:
+                header += (
+                    f" {literal_count} LITERAL match(es) — the candidate name appears VERBATIM "
+                    "in rulebook text below. This is strong evidence the candidate is a "
+                    "rulebook_entry, not a campaign-specific entity."
+                )
+            rules_block = header + "\n\n" + "\n\n---\n\n".join(
+                f"[{h.get('book','?')} p.{h.get('printed_page','?')} §{h.get('section','?')} match={h.get('match_type','?')}]\n{(h.get('text') or '')[:500]}"
+                for h in rules_hits[:5]
             )
     except Exception:
         pass
@@ -3069,10 +3077,22 @@ def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
         "- \"duplicate\": evidence (including the vault cross-reference) indicates this is the same entity as an already-known vault page, possibly under a different surface name. Cite which path in rationale.\n"
         "- \"not_an_entity\": this is a generic noun, scaffolding word, sentence fragment, room/door label, generic monster type, or term that should not become a vault page.\n"
         "- \"ambiguous\": evidence is too thin or contradictory to decide.\n\n"
-        "IMPORTANT: a campaign-specific named instance can have the same name as a rulebook entry. "
-        "For example a NAMED behir (\"Korthax the Coiled\") is a campaign entity, but \"Behir\" as a "
-        "monster-type stat block from DF_Monsters is rulebook_entry. Use status=confirmed only when "
-        "evidence shows campaign-specific identity beyond what the rulebook provides.\n\n"
+        "CRITICAL RULE FOR RULEBOOK ENTRIES:\n"
+        "If the rules cross-reference contains ANY hit with match=literal that shows the actual "
+        "rulebook entry for the candidate name (e.g. an `### Apportation` spell entry, an "
+        "`## Salamander Amulet` item entry, a monster stat block header), the candidate is a "
+        "rulebook_entry — even if session recaps and Discord rollups document characters using or "
+        "discussing it. Routine campaign use of a published spell, item, or monster is NOT enough "
+        "to make it campaign-specific:\n"
+        "- Vael casting Dispel Magic in Session 50 -> Dispel Magic stays rulebook_entry.\n"
+        "- The party brewing a Salamander Amulet -> Salamander Amulet stays rulebook_entry.\n"
+        "- A delver fighting a generic ghoul -> Ghoul stays rulebook_entry / not_an_entity.\n"
+        "Only mark as confirmed when the campaign introduces a UNIQUELY-NAMED variant or a "
+        "substantively different version that the rulebook doesn't cover. Examples that DO warrant "
+        "confirmed status:\n"
+        "- A behir named \"Korthax the Coiled\" appearing as a recurring antagonist (campaign NPC).\n"
+        "- A custom spell \"Scry Gate of Beacon\" with campaign-specific mechanics not in the rules.\n"
+        "- A unique magical item like \"The Iron Circlet of Ghanor\" with a campaign-rooted name and history.\n\n"
         "Return strict JSON only:\n"
         "{\n"
         '  "status": "confirmed|rulebook_entry|wrong_kind|duplicate|not_an_entity|ambiguous",\n'
