@@ -3201,8 +3201,11 @@ def build_new_entity_stub(name: str, kind: str, summary: str, sources: list[dict
         if not path or path in seen:
             continue
         seen.add(path)
+        # Vault-relative wikilink form (no leading "vault/") matches the
+        # convention used elsewhere in the vault.
+        wiki_path = path[len("vault/"):] if path.startswith("vault/") else path
         label = Path(path).stem
-        lines.append(f"- [[{path}|{label}]]")
+        lines.append(f"- [[{wiki_path}|{label}]]")
     lines.append("")
     return "\n".join(lines)
 
