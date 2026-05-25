@@ -2592,11 +2592,32 @@ def vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> lis
     return hits
 
 
+def _format_mechanics_hit(doc, meta, dist, match_type) -> dict:
+    meta = meta or {}
+    return {
+        "book": meta.get("book", "?"),
+        "printed_page": meta.get("printed_page", "?"),
+        "section": meta.get("section", "?"),
+        "source_pdf": meta.get("source", "?"),
+        "distance": dist,
+        "match_type": match_type,
+        "text": doc,
+    }
+
+
 def mechanics_rag_search(query: str, top_k: int = 3) -> list[dict]:
-    """Query the DFRPG rules MechanicsVault Chroma collection. Used by the
-    new-entity verifier to flag candidates that are actually rulebook entries
-    (spells, generic items, monster stat blocks from DFRPG/GURPS books) rather
-    than campaign-specific entities. Returns [] silently if not configured."""
+    """Hybrid search of the DFRPG rules MechanicsVault Chroma collection.
+
+    bge-m3 embeddings rank thematically-similar chunks (e.g. searching for
+    "Wall of Lightning" returns Weather Spells intro and Lightning Missiles
+    entries before the actual Wall of Lightning spell). To compensate, we
+    also do a literal $contains scan for the candidate name and prefer those
+    hits — if the rulebook text contains the verbatim name, that's a much
+    stronger signal that it's a rulebook entry than semantic similarity.
+
+    Returns up to top_k hits; literal-match hits come first, then embedding-
+    based hits, with duplicates collapsed by (book, page, section).
+    """
     if not CHROMA_AVAILABLE:
         return []
     sources = load_local_sources()
@@ -2608,26 +2629,50 @@ def mechanics_rag_search(query: str, top_k: int = 3) -> list[dict]:
         coll = client.get_collection(sources["mechanics_rag_collection"])
     except Exception:
         return []
+    # Literal name-match: surface chunks whose text contains the candidate name
+    # verbatim (case-insensitive). Strong signal for rulebook entries.
+    literal_hits: list[dict] = []
+    needle = (query or "").strip()
+    if needle:
+        try:
+            res = coll.get(where_document={"$contains": needle}, limit=top_k * 2)
+            for doc, meta in zip(res.get("documents") or [], res.get("metadatas") or []):
+                literal_hits.append(_format_mechanics_hit(doc, meta, 0.0, "literal"))
+        except Exception:
+            pass
+        # Try lowercase too — some chunk text is normalized, queries may not be.
+        if needle != needle.lower():
+            try:
+                res = coll.get(where_document={"$contains": needle.lower()}, limit=top_k * 2)
+                for doc, meta in zip(res.get("documents") or [], res.get("metadatas") or []):
+                    literal_hits.append(_format_mechanics_hit(doc, meta, 0.0, "literal"))
+            except Exception:
+                pass
+    # Embedding-based search as a fallback for fuzzy matches (e.g. abbreviated
+    # or paraphrased names).
+    embedding_hits: list[dict] = []
     try:
         query_emb = vault_rag_embed(query)
         res = coll.query(query_embeddings=[query_emb], n_results=top_k)
     except Exception:
-        return []
-    hits: list[dict] = []
+        res = {}
     docs = (res.get("documents") or [[]])[0]
     metas = (res.get("metadatas") or [[]])[0]
     dists = (res.get("distances") or [[]])[0]
     for doc, meta, dist in zip(docs, metas, dists):
-        meta = meta or {}
-        hits.append({
-            "book": meta.get("book", "?"),
-            "printed_page": meta.get("printed_page", "?"),
-            "section": meta.get("section", "?"),
-            "source_pdf": meta.get("source", "?"),
-            "distance": dist,
-            "text": doc,
-        })
-    return hits
+        embedding_hits.append(_format_mechanics_hit(doc, meta, dist, "embedding"))
+    # Merge — literal first, then embedding, deduped by (book, page, section).
+    seen: set[tuple] = set()
+    out: list[dict] = []
+    for h in literal_hits + embedding_hits:
+        key = (h.get("book"), h.get("printed_page"), h.get("section"))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(h)
+        if len(out) >= top_k * 2:
+            break
+    return out[: top_k * 2]
 
 
 # ---- new-entity proposal lane (item 6: IAC/ACE) ----
