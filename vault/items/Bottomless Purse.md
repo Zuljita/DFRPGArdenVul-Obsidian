@@ -13,4 +13,4 @@ Magical container with extradimensional capacity discovered during early delves.
 
 ## Notes
 - Referenced in multiple session loot summaries alongside other magic items.
-
+- One instance was found in duplicate.

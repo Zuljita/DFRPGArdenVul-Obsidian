@@ -8,11 +8,15 @@ tags:
 ## Summary
 Goblin polity led by [[npcs/Weskenim.md|Weskenim]]; controls parts of the Halls and negotiates with surface adventuring companies.
 
+Following the defeat of [[Plumthorn's Halflings]], the [[Halls of Thoth]] have been renamed to [[Upper Goblintown]].
+
 ## Members
 - [[npcs/Larakim.md|Larakim]]
 - [[npcs/Harab.md|Harab]]
+- [[npcs/Killick.md|Killick]]
 
 ## Sessions
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 
 ## Sessions
 

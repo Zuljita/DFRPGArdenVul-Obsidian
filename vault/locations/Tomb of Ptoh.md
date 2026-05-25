@@ -10,6 +10,7 @@ Stub for the tomb associated with Ptoh. Concrete details are not yet extracted i
 
 ## Connections
 TBD — add once explicit paths are identified in session notes.
+- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]
 
 ## Notes
 - Replace this stub with specific encounters/loot when a session references this location directly.

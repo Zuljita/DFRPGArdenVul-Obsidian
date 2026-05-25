@@ -19,6 +19,7 @@ He is a middle-aged goblin with green skin, red eyes, and black hair, typically 
 [[npcs/Wicktrimmer.md|Wicktrimmer]] was formerly a member of an adventuring party called [[Lost and Found]], which was led by the wizard [[Balthazar the Blue]] and the paladin [[Grimley]]. His party explored [[Arden Vul]] extensively, making it as far as the [[Obsidian Gates]] before the party disbanded when Balthazar retired.
 
 Twelve years ago, [[npcs/Wicktrimmer.md|Wicktrimmer]] founded the [[Rarities Factor]] in [[Gosterwick]], later expanding to [[Newmarket]] and [[Narsileon]].
+- He has not visited [[notes/The Ruins.md|The Ruins]] in years.
 
 ## Business & Capabilities
 As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offers banking, letters of credit, and shipping via mule caravan at cheaper rates than his competitors. He also has a number of other capabilities:

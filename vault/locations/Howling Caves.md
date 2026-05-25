@@ -13,6 +13,8 @@ A major baboon-held cave network east of the [[locations/Well of Light.md|Well o
 - In Session 34a, [[npcs/Yamki.md|Yamki]] guided the party south through the caves but would not accompany them into rival territory.
 - Baboon factions in and beyond the caves included groups under [[npcs/Inkor.md|Inkor]] and [[npcs/Ranko.md|Ranko]].
 - [[npcs/The Thane.md|The Thane]] had previously raided this region to kidnap young baboons.
+- [[npcs/The Master.md|The Master]] used to protect the caves.
+- [[npcs/Bumpko.md|Bumpko]] is a 4-armed intelligent giant baboon from this location.
 
 ## Sessions
 - [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]

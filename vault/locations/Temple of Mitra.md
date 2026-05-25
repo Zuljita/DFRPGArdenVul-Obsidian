@@ -15,3 +15,4 @@ The apartments and bureaucratic offices of the cult are cleverly set into the wa
 ## Discord Insights
 
 - Ioannes finds a book about ghosts here. ([[notes/Discord Summary 2025-W22.md|Discord Summary 2025-W22]])
+- Associated with the prominent 'Library of Mitra'. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])

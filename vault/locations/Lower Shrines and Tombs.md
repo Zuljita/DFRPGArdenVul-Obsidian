@@ -20,3 +20,4 @@ TBD
 ## Notes
 
 TBD
+- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]

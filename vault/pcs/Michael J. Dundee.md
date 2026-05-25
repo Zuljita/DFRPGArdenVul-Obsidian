@@ -25,5 +25,7 @@ aliases:
 - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]]
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
+- [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]
 
 ## Notes
+- Left the party to travel home to Sweetwater Hold to see his sick father, taking a magic shield, healing potions, and the Belt of Strength as his share.

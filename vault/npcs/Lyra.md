@@ -19,6 +19,7 @@ Unknown.
 
 ## Notes
 Her disappearance or fate is unknown, but her familiar was found by the party.
+- Was killed by some giant reptiles.
 
 ## Sessions
 - [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]

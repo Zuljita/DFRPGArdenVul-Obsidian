@@ -11,3 +11,4 @@ appears_in:
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
 
 ## Notes
+- Member of [[factions/Sun-Scarred Knights.md|Sun-Scarred Knights]]

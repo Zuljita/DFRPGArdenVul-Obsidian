@@ -17,8 +17,10 @@ An ancient rescript from the high priest of [[Set]] to his counterpart in [[loca
 
 ## Notes
 These creatures might be a type of golem or a magically augmented beast.
+- Referred to as [[Dam (Arden Vul)|dam]].
 
 ## Sessions
+- [[notes/Unfinished Plotlines and Tasks.md|Session 20 — The Outer Caverns of Set]]
 
 ## Discord Insights
 

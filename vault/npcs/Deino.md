@@ -10,6 +10,7 @@ Powerful beastman matriarch called "Mother," allied with [[npcs/Count Skleros.md
 
 ## Sessions
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
 
 ## Notes
 - Met the party in her guarded chambers after dragon attacks on her people.

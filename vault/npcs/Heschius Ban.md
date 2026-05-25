@@ -19,6 +19,7 @@ Described as having "disturbing things" associated with him.
 
 ## Notes
 - There is no alignment in GURPS, but implications are that his followers might be morally questionable.
+- The Church of Heschius Ban reportedly charges extra for healing and mocks those who are injured.
 
 ## Sessions
 

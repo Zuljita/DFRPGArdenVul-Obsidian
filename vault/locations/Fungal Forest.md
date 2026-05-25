@@ -11,6 +11,7 @@ An underground forest composed of giant fungi and other subterranean flora, crea
 ## Level
 Underground in [[Assassin Vine]]s
 - Various fungal creatures and other subterranean life.
+- Located on the second level from the surface where Ptarmis's tomb is sought.
 
 ## Notes
 A bioluminescent ecosystem, filled with strange and dangerous plant life.

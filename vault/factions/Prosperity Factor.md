@@ -10,4 +10,6 @@ The [[factions/Prosperity Factor.md|Prosperity Factor]] is an Empire-wide mercha
 
 They are known to employ statue brokers who work out of the [[Inn of the Broken Head]].
 
+They also have a presence in [[Newmarket]].
+
 ## Sessions

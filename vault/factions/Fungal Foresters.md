@@ -20,6 +20,7 @@ TBD
 ## Leadership & Members
 
 - Controlled by [[Ptarmis]]?
+- [[Ptarmis]]: alleged influence or control; at minimum long familiarity.
 
 ## Allies & Rivals
 

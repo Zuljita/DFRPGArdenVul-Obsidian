@@ -22,6 +22,7 @@ The specific members of The Ten are not fully enumerated in the provided text, b
 
 ## Notes
 Temples to all of The Ten can be found in the city of [[Newmarket]].
+- A big shared temple exists for the deities among 'The Ten' who do not have individual temples.
 
 ## Members
 

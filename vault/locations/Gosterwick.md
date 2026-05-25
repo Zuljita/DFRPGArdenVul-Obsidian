@@ -24,3 +24,6 @@ tags:
 - Azgallatu the cleric is back there. Uvash is the Theological Leader of Zorradrim here. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])
 - A town where Astableon's bookstore is located. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])
 - Ioannes failed to find any written record of the teleportation rings here. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])
+- The taverns include Baliff's Truncheon, Dripping Hog, Rusty Gauntlet, Old Well, Pyrite, Grinning Skull, Muddy Puddle, Three Hanged Men, and the Pig and Whistle; the inns are the Yellow Cloak and the Stunned Acolyte.
+- The hill in the NW of Gosterwick is called the Hill of the Gods, home to all temples.
+- Originally a tiny Thorcin farming village, it was expanded into a town about 20 years ago by the Archontean noblewoman Lady Alexia.

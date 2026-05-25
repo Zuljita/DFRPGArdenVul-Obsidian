@@ -20,8 +20,10 @@ A mage of the [[factions/Eighth Collegium|Eighth Collegium]] encountered in Gobl
 - Claimed the Eighth Collegium mostly avoided the Settites and wanted to be friends with the Varumani and goblins
 - Could see invisible creatures (spotted [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] while invisible)
 - Had been waiting in Goblintown for weeks, occasionally meeting with [[npcs/Palestrim.md|Palestrim]] but never the King directly
+- Ambassador from the [[factions/Eighth Collegium|Eighth Collegium]] to the Goblins
 
 ## Sessions
 - [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
+- [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]

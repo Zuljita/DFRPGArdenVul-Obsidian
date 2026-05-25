@@ -13,6 +13,8 @@ aliases:
 ## Summary
 [[npcs/Weskenim.md|Weskenim]] is the ambitious and pragmatic ruler of the [[factions/United Goblins|United Goblins]], styling himself as their Grand King. From his court in [[locations/Goblintown|Goblintown]], he presides over a growing territory that includes the [[locations/Wet Caves|Wet Caves]] and the repurposed "Glory of [[npcs/Weskenim.md|Weskenim]]" (formerly the [[locations/Glory of Thoth|Glory of Thoth]]). While he projects authority through a network of sub-chiefs and sergeants, his rule is not universally accepted among all goblins, with some outlying groups openly disparaging him. He is known for his distinctive pink turban and his fondness for his pet cat, which can sometimes distract him from matters of state.
 
+Physically, he is described as being quite large for a goblin, with black hair, big incisors, and a lumpy nose, often wearing bright silks and a colorful turban topped with a crown.
+
 ## History & Interactions
 [[npcs/Weskenim.md|Weskenim]]'s relationship with the [[factions/Right for Riches Company|Right for Riches Company]] began in earnest after they rescued his brother, [[npcs/Gribble|Gribble]], from the clutches of the [[factions/Cult of Set|Cult of Set]] ([[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md]]).
 

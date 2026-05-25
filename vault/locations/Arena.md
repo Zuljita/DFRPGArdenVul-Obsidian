@@ -18,6 +18,7 @@ The Arena is a large underground entertainment complex on the Arena Level of the
 - Located near [[npcs/Gog.md|Gog]]'s underground grotto.
 - Reachable from the Goblin Forum level via a stairway to the south.
 - The Varumani Lifts can take visitors to the Floating Gardens or all the way across the Great Chasm.
+- Located above the level of the Troll Thegn.
 
 ## Layout
 - **Bleachers:** Seating for spectators, mostly goblins. The Arena Lord has his own box on the far side of the Arena.

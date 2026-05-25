@@ -22,3 +22,5 @@ Beastman commander in the [[locations/Halls of Thoth.md|Halls of Thoth]] who neg
 - Identified as the military leader of nearby beastman forces.
 - Asked for supplies (including food and materials) and help with a local ghoul problem.
 - Honored negotiated terms by assigning escorts and directions to the [[locations/Great Cavern.md|Great Cavern]] route.
+- Was upset by news of dragon attacks.
+- Appreciated the recovery of his lost troopers.

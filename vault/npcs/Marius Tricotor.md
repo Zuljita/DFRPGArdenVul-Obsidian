@@ -9,6 +9,8 @@ tags:
 
 A historical figure known for his military victories.
 
+Marius was the most famous Archon of Arden Vul.
+
 ## First Appearance
 
 Mentioned in the [[Book of Priors]].

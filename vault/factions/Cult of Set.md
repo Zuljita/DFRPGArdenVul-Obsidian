@@ -14,6 +14,9 @@ An ancient, banned religious faction devoted to [[npcs/Set.md|Set]]. The group r
 ## Notes
 - The cult is associated with the [[locations/Temple of Set.md|Temple of Set]] and [[locations/Forum of Set.md|Forum of Set]].
 - In [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]], the party encountered and defeated Set-aligned guards while operating inside the [[locations/Temple of Set.md|Temple of Set]].
+- The [[factions/Settite Guild of Service.md|Settite Guild of Service]] is believed to be a front for the cult.
+- There are no known independent clerics of Set outside the cult.
+- The party has a recorded body count of roughly 50 cultists.
 
 ## Sessions
 - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]

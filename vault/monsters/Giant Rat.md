@@ -13,6 +13,8 @@ aliases:
 ## Summary
 A larger, more aggressive variant of a common rat, often found in dark, damp environments like dungeons or sewers.
 
+They have been noted to be slightly bigger than halflings.
+
 ## First Appearance
 [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 

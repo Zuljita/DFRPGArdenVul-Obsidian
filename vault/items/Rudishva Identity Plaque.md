@@ -45,6 +45,7 @@ These devices appear as cards or plaques made of various materials (plastic, met
 - **Type:** Physical backup mechanism
 - **Function:** Opens secret doors via low-tech physical mechanism (card jam)
 - **Note:** Any oval keycard works for certain Beacon closet doors
+- Black card (different style)
 
 ## Technology
 - **Materials:** Various (plastic, metal, crystalline)

@@ -6,12 +6,14 @@ tags:
 # Larel's Sack
 
 ## Properties
+- A bag of holding that creates small cheap objects.
 
 ## Known History
 
 ## Notes
 
 ## Sessions
+- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]
 
 ## Discord Insights
 

@@ -30,6 +30,7 @@ A crazy Dwarven thief held prisoner, later found dead; his body was recovered fr
   - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — The cavern contained a half-eaten dwarf corpse, which Ioannes recognized as [[npcs/Gwelf.md|Gwelf]], the dwarf they had freed from [[npcs/Gerrilad.md|Gerrilad]]'s prison, who had then run off.
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 30: [[locations/Tomb of Theskalon.md|The Tomb of Theskalon]] Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
 - A Seeker spell found his body, revealing a massive cutting wound across his torso in an unrecognized underground cave.
+- [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]] — A Seeker spell found his body in a dark underground cave with a massive cutting wound across his torso; his killer is still unknown.
 
 ## Notes
 

@@ -13,6 +13,8 @@ appears_in:
 ## Summary
 Eccentric half‑elven druid and torturer associated with cages, keys, and control over a portion of the levels near the [[locations/Library of Thoth.md|Library of Thoth]]. [[npcs/Gerrilad.md|Gerrilad]] kept prisoners and claimed ownership of areas, lending or losing keys that later opened cells and doors the party encountered.
 
+He possessed 3 out of a total of 25 keys.
+
 ## Appears In
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]

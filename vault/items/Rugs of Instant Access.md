@@ -16,6 +16,9 @@ A set of linked teleport rugs used by the party as its primary logistics and ext
 - In Session 41, one green rug was stolen by Settite-aligned actors, triggering a recovery operation and escalation.
 
 - A second set of these rugs was recovered from a hidden storeroom near the goblin market. ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])
+- Specific rugs in use include the "Exequor" and "Viator".
+- Approximately 1400 years ago, a rug was used by Sligo the Devious to send assassins to kill Leonidas of Archontos.
+- Following the murder of Leonidas, Emperor Basil confiscated the rugs and banned further enchanting.
 
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]

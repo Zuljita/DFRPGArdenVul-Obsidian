@@ -13,3 +13,4 @@ Surface.
 
 ## Notes
 The party often recruits mercenaries here.
+- A small building on the outskirts of [[locations/Gosterwick.md|Gosterwick]].

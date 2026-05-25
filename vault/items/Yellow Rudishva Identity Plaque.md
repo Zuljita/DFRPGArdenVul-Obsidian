@@ -25,6 +25,7 @@ The high-priority yellow credential variant of Rudishva identity plaques. Captai
   - Activates teleporter panels
   - Bypasses force-field controls
   - Can pacify/suppress some security constructs
+- **Primary Location:** [[locations/Rudishva Bastion.md|Rudishva Bastion]]
 
 ## Beacon System
 - Two yellow captain's plaques were registered in the Beacon system

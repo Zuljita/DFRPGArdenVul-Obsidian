@@ -21,5 +21,6 @@ Typically consists of a single wheel, two handles, and a tray for carrying loads
 
 ## Notes
 Can be enchanted to become a [[items/Living Wheelbarrow.md|Living Wheelbarrow]].
+- Can be used with a [[items/Bag of Holding.md|Bag of Holding]] to transport items into or out of Arden Vul.
 
 ## Sessions

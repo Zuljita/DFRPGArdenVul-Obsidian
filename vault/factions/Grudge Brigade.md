@@ -6,11 +6,14 @@ tags:
 - culture/archontean
 - culture/thorcin
 aliases:
+  - Grudge Brigade HQ
 ---
 # Grudge Brigade
 
 ## Summary
 The [[Grudge Brigade]] is a mercenary company operating out of [[Gosterwick]], offering its services to adventurers and others in need of combat support or specialized skills. Their headquarters is a small building on the outskirts of [[locations/Gosterwick.md|Gosterwick]].
+
+By some standards, they are considered "basically a bunch of kamikazes."
 
 ## Members
 

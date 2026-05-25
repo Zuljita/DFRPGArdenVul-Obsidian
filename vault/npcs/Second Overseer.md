@@ -20,4 +20,4 @@ Cowardly.
 
 ## Notes
 [[Archon Uriel Basileon]] intends to "smoke him out of his lair" and deliver him for punishment once conditions improve.
-
+- A messenger from [[Hithra Paleologos]] has recently been seen entering the Tower of Scrutiny.

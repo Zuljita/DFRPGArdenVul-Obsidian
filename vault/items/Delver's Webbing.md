@@ -14,6 +14,7 @@ A practical piece of equipment, likely made of sturdy leather or rope, with vari
 ## Properties
 - Specialized equipment for delvers.
 - Designed for utility and carrying capacity.
+- Can function as a 'fast-draw' rig for potions.
 
 ## Known History
 A common item for those exploring dangerous ruins.

@@ -25,3 +25,4 @@ Their earthy composition suggests resistance to certain attacks and vulnerabilit
 
 ## Sessions
 - [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
+- [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]

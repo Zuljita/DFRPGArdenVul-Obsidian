@@ -16,4 +16,5 @@ The expedition was an attempt to retake [[Arden Vul]]. It was composed of six co
 The expedition failed bloodily and all six cohorts were lost in a battle fought at the [[Cavern of Blood]], where their battle standards were also lost. The [[Haunted Tower]] at the base of the [[Waterfall]] was built during this expedition and abandoned when the survivors fled.
 
 A rumor claims that the leader of the expedition, a certain "Adrienic" (presumably [[Archon Phocion IV]]), committed suicide rather than report his failure.
-
+- [[npcs/Lankios.md|Lankios]] is a former member of the expedition.
+- The third cohort of the [[factions/Imperial Tagmata|Imperial Tagmata]] participated in the expedition.

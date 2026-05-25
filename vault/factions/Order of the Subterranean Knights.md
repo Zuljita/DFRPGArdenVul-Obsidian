@@ -25,6 +25,7 @@ TBD
 ## Allies & Rivals
 
 TBD
+- [[npcs/Under-Archon.md|Under-Archon]] (seeks to bring co-founder Melacorius to heel)
 
 ## Notes
 

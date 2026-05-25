@@ -23,3 +23,4 @@ appears_in:
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]] — The party received a map from [[npcs/Temrin.md|Temrin]] that was locked in [[Leifcrim]]'s vault. The map showed a path to [[Nyema]]'s body in the [[Temple of Set]]. Vael commissioned another map to find a gold [[Rudishva oval identity plaque]].
 
 ## Notes
+- Has painted portraits of both [[npcs/Weskenim.md|Weskenim]] and [[Gribble]].

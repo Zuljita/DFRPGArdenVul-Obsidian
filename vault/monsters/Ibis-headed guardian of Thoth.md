@@ -20,3 +20,4 @@ aliases:
 - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]] — Secret door positions triggered guardians to attack; fights were manageable.
 
 ## Notes
+- Travelers are warned not to enter the Temple of Thoth without a holy symbol of Thoth due to hostile Ibis Guardians.

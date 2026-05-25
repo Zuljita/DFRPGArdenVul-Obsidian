@@ -29,6 +29,7 @@ appears_in:
 
 ## Summary
 Deity associated with knowledge, libraries, and inscriptions throughout [[Arden Vul]]; many structures bear his name (e.g., [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], [[locations/Library of Thoth.md|Library of Thoth]], [[locations/Glory of Thoth.md|Glory of Thoth]]). Mentions in sessions often describe statues, rituals, or sites dedicated to [[npcs/Thoth.md|Thoth]] rather than direct manifestations.
+- The Church of Thoth maintains a teleportation network in Arden Vul using glass activation tiles.
 
 ## Appears In
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]

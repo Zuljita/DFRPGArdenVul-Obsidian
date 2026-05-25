@@ -28,6 +28,7 @@ Roger met both parties at the Glory of Weskenim. He arranged for [[npcs/Bottlene
 
 ### Session 45 — Beacon Island Scouting
 Spotted on the Beacon island; told Vallium the Five Fingers were heading to the ruined palace on the northern end of the island.
+- [[sessions/Session 47 - The No Mana Zone.md|Session 47 — The No Mana Zone]]
 
 ## Notes
 - Can be treated as distinct from [[npcs/Roger.md|Roger]] (former Kronos employee) until confirmed otherwise.

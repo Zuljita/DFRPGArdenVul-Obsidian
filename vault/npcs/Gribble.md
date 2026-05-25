@@ -4,6 +4,7 @@ tags:
   - npc
   - race/goblin
 aliases:
+  - Domo Gribble
   - United Goblins Gribble
   - Lord of the Goblin Forum
 ---

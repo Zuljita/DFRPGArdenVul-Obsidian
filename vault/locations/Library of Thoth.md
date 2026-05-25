@@ -13,11 +13,14 @@ appears_in:
 ## Summary
 The Library of Thoth is a Thothian library located near the [[locations/Well of Light.md|Well of Light]], containing lost and valuable knowledge. The main library room was cleared and its books moved to the [[locations/Beacon.md|Beacon]] in Session 37. Adjacent to the library is a secret room — the **Secret Library of Thoth** — containing a much rarer and more dangerous collection.
 
+It has not been reached in recent years due to undead guards.
+
 ## Main Library
 - Contains a locked door opened by Vallium's key.
 - Located near the Well of Light level, adjacent to the librarian's chamber.
 - The librarian's chamber has a fear trap outside it (overcome with Uvash's Amulet of Courage).
 - In Session 37, the party moved all ~40 books from the main library to their Beacon library, leaving Basil and Stamelis to sort them.
+- Session 21 took place on Basilsday, 2nd of Gerakios, 2993 AE.
 
 ## Secret Library (Discovered Session 37)
 A secret door on the **south wall** of the librarian's chamber leads to a small room with built-in shelves and a central table.
@@ -31,6 +34,7 @@ A secret door on the **south wall** of the librarian's chamber leads to a small 
 - **One magical book** — a cursed trap. Its first page contains a title; the next several pages show vivid underground scenes possibly from the Halls of Arden Vul. Opening to the next page caused **Vael's eyes to be magically ripped from his face**. He passed out and required Instant Regeneration from [[npcs/Jador the Just.md|Jador the Just]] at great expense. Vael resolved never to read a magical book again without first casting Analyze Magic for curses.
 
 **Note**: The party hid the secret library's contents in a side room at the Beacon away from Stamelis, not wanting him to see what secrets it might contain.
+- A letter exists instructing the Chief Librarian of Thoth to burn works in the secret library.
 
 ## Location
 - Near the Well of Light level.

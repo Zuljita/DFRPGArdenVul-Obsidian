@@ -34,3 +34,5 @@ aliases:
 - Uvash's family is migrating to this location, which is also the campaign setting. ([[notes/Discord Summary 2026-W02.md|Discord Summary 2026-W02]])
 - The main campaign setting where Uvash wants his family to migrate. ([[notes/Discord Summary 2026-W03.md|Discord Summary 2026-W03]])
 - The campaign setting where the Rudishva and Kaliyani built a forge combining tech and magic. ([[notes/Discord Summary 2026-W04.md|Discord Summary 2026-W04]])
+- The Drowned Canyon is an iconic location within Arden Vul ([[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]])
+- Animated monkey-shaped constructs known as Flying Monkey Statues are encountered here ([[monsters/Flying Monkey Statues.md|Flying Monkey Statues]])

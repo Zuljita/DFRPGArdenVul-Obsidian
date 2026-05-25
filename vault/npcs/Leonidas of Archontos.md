@@ -17,3 +17,4 @@ aliases:
 ## Discord Insights
 
 - received a Rug of Instant Access as a peace offering from Sligo the Devious and was subsequently killed by assassins who came through the Rug ([[notes/Discord Summary 2025-W43.md|Discord Summary 2025-W43]])
+- This event occurred in Archontos approximately 1400 years ago.

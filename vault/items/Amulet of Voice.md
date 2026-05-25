@@ -16,5 +16,6 @@ TBD
 
 ## Notes
 TBD
+- Provides Voice advantage, thus +2 to reaction rolls, among others.
 
 ## Sessions

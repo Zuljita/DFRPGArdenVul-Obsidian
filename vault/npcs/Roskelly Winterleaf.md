@@ -22,6 +22,8 @@ appears_in:
 ## Summary
 [[Roskelly Winterleaf]] is a [[Halfling]] lieutenant and toll collector operating under [[Phlebotomas Plumthorn]] in the pyramid approaches. He manages checkpoints, demands an "Adventuring License" fee and a tithe from delvers, and keeps [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]’s interest protected with a mix of charm and muscle.
 
+He was killed by [[npcs/Lacrymosa|Lacrymosa]] during an engagement in the [[locations/Glory of Thoth.md|Glory of Thoth]].
+
 ## Appears In
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]

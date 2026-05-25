@@ -6,6 +6,8 @@ tags:
 # Hall of Forty Pillars
 
 ## Connections
+- [[locations/Obsidian Gates.md|Obsidian Gates]]
+
 ## Residents
 
 - [[factions/Goblins.md|Goblins]]

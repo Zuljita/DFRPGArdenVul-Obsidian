@@ -16,6 +16,9 @@ A hostile wizard based in the [[locations/Tower of the Ape.md|Tower of the Ape]]
 - Survived multiple near-catches by retreating between levels and eventually abandoning the tower.
 - Human captives recovered in Session 34c reported they were sold to him at the slave market in the [[locations/Forum of Set.md|Forum of Set]] and forced into Disciplined-style combat drills under coercion.
 - In Session 34c, Vael's Seeker/Trace placed him in [[locations/Narsileon.md|Narsileon]] shortly after the tower actions, implying fast long-range relocation (likely magical transit).
+- Forced to retreat three times during combat: once by a Magebane grenade, once by Vallium eliminating the Disciplined on the stairs, and once by Vallium engaging him in melee on the balcony.
+- Seeker placed him in a windowless room in Narsileon; Trace confirmed he made a 3-week trip in 3 days via assumed teleportation.
+- Came to the Howling Caves with bald human followers and kidnapped [[npcs/Bobo.md|Bobo]] and [[npcs/Bifki.md|Bifki]].
 
 ## Sessions
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]

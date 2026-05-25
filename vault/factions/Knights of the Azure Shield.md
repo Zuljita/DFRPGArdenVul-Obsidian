@@ -25,6 +25,8 @@ aliases:
 - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Shrines.md|Hall of Shrines]]]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo) Significant NPCs: Many [[npcs/Set.md|Set]] guards Several [[npcs/Set.md|Set]] acolytes Several [[npcs/Set.md|Set]] sergeants [[factions/Cult of Set.md|Some Set Guild of Service fighters]]
   - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Shrines.md|Hall of Shrines]]]] — They met another patrol of [[factions/Knights of the Azure Shield.md|Knights of the Azure Shield]] on the [[locations/Imperial Road.md|Imperial Road]] before reaching town, but the Knights just asked them for news of the [[factions/Cult of Set.md|Cult of Set]] and let them pass.
 - [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]] — He appeared to be a [[factions/Knights of the Azure Shield.md|Knight of the Azure Shield]], probably only weeks or months old, and had fatal puncture wounds all around its neck, like he had been repeatedly stabbed in the neck by spears or...
+- [[npcs/Zoe.md|Zoe]] is a squire of the [[Order of the Azure Shield]], serving alongside [[Alexios]] and [[Demetrios]].
+- [[npcs/Sir Lucia.md|Sir Lucia]] is a [[npcs/Knight Commander.md|Knight Commander]] of the [[Order of the Azure Shield]].
 
 ## Notes
 

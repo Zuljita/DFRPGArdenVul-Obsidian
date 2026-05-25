@@ -13,6 +13,8 @@ aliases:
 ## Summary
 Animated monkey-shaped constructs encountered in Arden Vul. Current evidence suggests a shared creature family with observed visual variants.
 
+Three instances have been recorded.
+
 ## Known Variants
 
 ### Huge-Ears Variant
@@ -26,6 +28,7 @@ Animated monkey-shaped constructs encountered in Arden Vul. Current evidence sug
 ## Significant Notes
 - Both variants are recorded in the same operational context and are likely related manifestations of one construct line.
 - Treat this page as canonical for family-level behavior; keep variant pages as lightweight aliases.
+- A stone pedestal features a monkey statue with an oversized mouth, possibly a trap or a mechanism.
 
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]

@@ -23,6 +23,8 @@ A young, vain mage and co-owner of the [[Arcane Practitioners' Club]]. She was f
 - She was formerly the apprentice of her partner, [[Lyssandra Astorion]].
 - When [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] attempted to flirt with her, she appeared not to notice.
 - Canonical name: "Pelteon" (the "Palteon" spelling was a typo).
+- Youngish Archontean woman with brown eyes, frizzy blonde hair, and very stylish wizard's robes.
+- She charges [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]]'s robes.
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]

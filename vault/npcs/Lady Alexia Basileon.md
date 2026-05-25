@@ -16,6 +16,8 @@ appears_in:
 ## Summary
 Ruler of [[Gosterwick]] and patron of the [[Knights of the Azure Shield]], [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] (the “[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]”) is a decisive political force who mixes civic authority with pragmatic deal‑making. She leverages knightly power, patronage networks, and informed advisers to shape events around [[Arden Vul]] while balancing rivals in town and abroad.
 
+She is described as a tall, slim, middle-aged woman with tanned skin, black hair, green eyes, and an Archontean nose.
+
 ## Appears In
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
 
@@ -28,6 +30,7 @@ Ruler of [[Gosterwick]] and patron of the [[Knights of the Azure Shield]], [[npc
 - [[Freydis the Stern]]: trusted steward and gatekeeper for audiences and requests.
 - [[Lord Iskander Burdock]]: half‑brother; tense/political rivalry noted in town dynamics.
 - [[Wicktrimmer]]: cordial, influential merchant ally with overlapping interests in trade and security.
+- [[npcs/Horace Trych.md|Horace Trych]]: Claims her as his employer.
 
 ## History
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]] — About halfway into the ten-mile hike, the party was overtaken by a group of six mounted [[factions/Knights of the Azure Shield.md|Knights of the Azure Shield]], the force aligned with the ruler of [[locations/Gosterwick.md|Gosterwick]], [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]].

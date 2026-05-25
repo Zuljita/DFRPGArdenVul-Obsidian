@@ -3,6 +3,7 @@ tags:
   - item
   - rudishva
 aliases:
+  - ID Badge
   - Rudishva Identity Plaque
   - Identity Plaque
 ---
@@ -15,6 +16,8 @@ Canonical page: [[items/Rudishva Identity Plaque.md|Rudishva Identity Plaque]]
 A family of Rudishva credentials (cards/plaques) used for access control, teleporter activation, and security overrides in bastion systems.
 
 This page documents specific known variants. For complete information on identity plaque types and functions, see the [[items/Rudishva Identity Plaque.md|canonical Rudishva Identity Plaque page]].
+
+They are used throughout Rudishva installations, including the [[locations/Beacon.md|Beacon]].
 
 ## Known Variants
 
@@ -33,6 +36,7 @@ This page documents specific known variants. For complete information on identit
 ### Other Colors
 - Rust/Brown - Standard crew access
 - Sky Blue - Unknown security level
+- Black card (different style)
 
 ## Significant Notes
 - See [[items/Rudishva Identity Plaque.md|Rudishva Identity Plaque]] for complete canonical information.

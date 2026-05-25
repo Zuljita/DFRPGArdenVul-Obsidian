@@ -15,6 +15,8 @@ A rare and valuable gemstone, glowing faintly with an inner light, rumored to en
 - Magical.
 - Permanently boosts intelligence.
 - Identified by [[npcs/Lyssandra Astorion.md|Lyssandra]] and [[npcs/Pelteon.md|Pelteon]].
+- Requires being held for approximately 3 months for the effect to take effect.
+- Once activated, may transform into a valuable diamond or reset its effect after approximately 50 years.
 
 ## History
 - [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]] — And one of the items they found in the pit was truly amazing, a [[items/Gem of Insight.md|Gem of Insight]], which could permanently boost someone's intelligence.

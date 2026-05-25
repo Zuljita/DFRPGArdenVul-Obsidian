@@ -14,6 +14,8 @@ appears_in:
 ## Summary
 Archontean fighter who briefly adventured with the party in the lower caverns before being murdered in [[locations/Gosterwick.md|Gosterwick]], likely by agents of the [[Cult of Set]]. Her death triggered reprisals and political maneuvering in town.
 
+She was decapitated in her bed at the [[locations/Yellow Cloak Inn.md|Yellow Cloak Inn]].
+
 ## Appears In
 - [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23a - Gelatinous Cube and Slime Kraken]]
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
@@ -30,6 +32,8 @@ Archontean fighter who briefly adventured with the party in the lower caverns be
 - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — Dundee, Thorcin barbarian (Adam) Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo) Significant NPCs: Jador the Just, chief priestess of [[npcs/Mitra.md|Mitra]] in [[locations/Gosterwick.md|Gosterwick]] [[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]], logothete of the House of Sight ("[[factions/Drome.md|Drome]]") in [[locations/Gosterwick.md|Gosterwick]] Freydi...
   - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — Audun explained that he was appalled by the murder of [[npcs/Susarra.md|Susarra]], but could not officially endorse an attack on [[npcs/Set.md|Set]], or lend any resources to one.
 - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]] — They resolved to treat [[locations/Gosterwick.md|Gosterwick]] as a dangerous place after [[npcs/Susarra.md|Susarra]]'s murder and try to watch each other's backs.
+- [[npcs/Margot the Red.md|Margot the Red]] connected her with [[pcs/Vallium Halcyon|Vallium]] in the common room of the [[locations/Yellow Cloak Inn.md|Yellow Cloak Inn]] after a scream.
+- Her head was later found approximately 10 miles north at the elevation of a cliff face.
 
 ## Notes
 

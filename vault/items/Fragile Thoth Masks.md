@@ -17,5 +17,6 @@ Masks associated with [[Thoth]], possibly delicate and valuable.
 
 ## Notes
 TBD
+- One mask provides Clairvoyance/Clairaudience.
 
 ## Sessions

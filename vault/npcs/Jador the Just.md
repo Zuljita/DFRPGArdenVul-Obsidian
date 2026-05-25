@@ -11,6 +11,8 @@ Chief priestess of [[Mitra]] in [[Gosterwick]]; interlocutor for divine aid and 
 
 ## Notes
 - In Session 34c, coordinated a high-cost resurrection rite for Uvash with support from Mitra and Demma clergy in Gosterwick.
+- Knows Instant Regeneration, which she used to restore Vael's sight.
+- In Session 23c, detailed a lesser cleric to accompany Ioannes to the [[factions/Silent Factor.md|Silent Factor]] to transfer reward money.
 
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]

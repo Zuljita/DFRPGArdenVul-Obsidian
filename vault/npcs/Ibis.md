@@ -31,5 +31,6 @@ appears_in:
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — Vallium then borrowed the Ring of Climbing from Uvash, tied a rope around his waist, wrapped the rope around the ibis-head statue, and had Uvash hold onto the other end of the rope.
   - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — The giant ibis-headed [[npcs/Thoth.md|Thoth]] statue was wearing a pink turban, sort of resembling the one [[npcs/Weskenim.md|Weskenim]] wore.
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]] — Once again they searched for secret doors, and this time Vael spotted an ibis fresco on the north wall that looked suspicious, with a slot in its beak.
+- Thoth priests created doors marked with an ibis that teleport users.
 
 ## Notes

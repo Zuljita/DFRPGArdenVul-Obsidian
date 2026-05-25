@@ -9,6 +9,7 @@ appears_in:
 
 ## Appears In
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+- [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
 
 ## History
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 6: Good Ghost, Bad Ghost Date: Demmasday, 18th of Lucrios, 2993 AEP Weather: Warm, sunny Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger) Vallium Halcyon, Archontea...

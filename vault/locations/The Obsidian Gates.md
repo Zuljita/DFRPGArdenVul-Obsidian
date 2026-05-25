@@ -18,3 +18,5 @@ TBD
 ## Notes
 
 - An individual named [[Amhit]] found the Gates but was unable to teleport behind them.
+- Contains a green dragon's hoard.
+- A way to open the Gates is through the sequence: Lockmaster, Shape Earth, Blink.

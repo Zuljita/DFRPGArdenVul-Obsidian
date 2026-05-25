@@ -27,6 +27,8 @@ Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A
 - An older, practical mage who is a co-owner of the [[Arcane Practitioners' Club]].
 - She was the mentor to her partner, [[Pelteon]].
 - She is interested in buying scrolls or spellbooks containing rare or unusual spells that she does not already know.
+- Enforces a rule that livestock or corpses are not permitted at the [[Arcane Practitioners' Club]].
+- Is currently evicting tenants from the [[Arcane Practitioners' Club]], with all apartment tenants required to leave by the 1st of Dikaios.
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]

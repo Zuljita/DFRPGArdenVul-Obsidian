@@ -9,3 +9,8 @@ tags:
 ## Notes
 TBD
 - [[sessions/Session 33 - Nyema.md|Session 33]] — Temrin was seen sitting in his stall here.
+- A merchant was seen attempting to sell spears to Claudine.
+- Temrin retrieved a map from Leifcrim's vault here.
+- Accessible via the goblin Wet Caves and stairs from Lower Goblintown.
+- A squad of goblins carrying meat for 'Mr. Heads' was seen on the stairs leading from the Wet Caves.
+- The map retrieved from Leifcrim's vault detailed a route through stairs and a chasm leading toward the Forum of Set and the Temple of Set.

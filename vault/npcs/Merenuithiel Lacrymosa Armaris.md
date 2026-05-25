@@ -28,6 +28,8 @@ Merenuithiel Lacrymosa Armaris (known as **Lacrymosa**) is an elven mercenary ar
 - Drinks Agility and Strength potions before major engagements.
 - Has **Luck** (used it to survive Dobby's invisible backstab attempt in Session 43b).
 - Can wear magical goggles to see through Settite magical darkness.
+- Uses the bow *Tears of the Forsaken*
+- Known for a relentless desire to confront and kill halflings.
 
 ## Actions in Sessions 38–39
 

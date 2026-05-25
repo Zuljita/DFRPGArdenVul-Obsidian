@@ -24,3 +24,4 @@ Members of the [[Cult of Set]].
 ## Notes
 
 TBD
+- While displaced, the Guild is reported to be at 100% manpower.

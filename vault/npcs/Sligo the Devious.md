@@ -17,3 +17,5 @@ aliases:
 ## Discord Insights
 
 - gifted a Rug of Instant Access to Leonidas of Archontos as a peace offering, then used it to send assassins to kill Leonidas; was convicted of murder ([[notes/Discord Summary 2025-W43.md|Discord Summary 2025-W43]])
+- was sentenced to death by Emperor Basil, who also confiscated the Rugs and banned enchanting more ([[notes/Discord Summary 2025-W43.md|Discord Summary 2025-W43]])
+- his crimes occurred in Archontos approximately 1400 years ago ([[npcs/Leonidas of Archontos.md|Leonidas of Archontos]])

@@ -24,6 +24,7 @@ None.
 
 ## Notes
 Known for their draining attacks. Infestation can lead to [[Stirge Fever]].
+- [[Stirge Fever]] symptoms may include weakness and fatigue.
 
 ## Sessions
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

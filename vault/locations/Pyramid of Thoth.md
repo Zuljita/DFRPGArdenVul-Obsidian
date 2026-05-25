@@ -3,6 +3,8 @@ title: Pyramid of Thoth
 tags:
   - location
   - entrance
+aliases:
+  - Great Pyramid of Thoth
 ---
 # Pyramid of [[Thoth]]
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]

@@ -23,6 +23,8 @@ Thrainor "Thronebreaker" Ironvein is a Dwarven mercenary fighter affiliated with
 - **Power Blow** — used to knock sarcophagus lids off with extreme force.
 - High Will score — resisted wraith ranged attacks that felled more magically-inclined party members.
 - Can interact with force spheres; discovered they could be pushed around the room by pressing against them.
+- Uses a meteoric axe to cut through things.
+- Can facilitate quick exits using well-timed Intimidate checks.
 
 ## Actions in Sessions 42a–42b
 

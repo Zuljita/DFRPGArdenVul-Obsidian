@@ -12,6 +12,7 @@ appears_in:
 
 ## Theology
 The faith of [[npcs/Zodarrim.md|Zodarrim]] is a monotheistic religion practiced by dwarves. It appears to be the dominant, if not sole, religious institution for the dwarven people.
+- A sacred text exists that Uvash plans to include in his church ([[notes/Holy Book of Zorradrim.md|Holy Book of Zodarrim]]).
 
 ## The Clergy of [[npcs/Zodarrim.md|Zodarrim]]
 Several clerics of [[npcs/Zodarrim.md|Zodarrim]] have been encountered by the party, suggesting an organized priesthood.

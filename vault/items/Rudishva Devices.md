@@ -11,6 +11,7 @@ tags:
 ## Properties
 - Contains pictures of many [[factions/Rudishva.md|Rudishva]] devices, which can be used to identify unknown artifacts.
 - The book contains warnings related to the devices. Reading the correct page before experimenting with an artifact may make the process safer.
+- Includes names, functions, and properties for various devices.
 
 ## Notes
 - The writing in the book is described as confusing, and some of the devices pictured look very similar, making identification uncertain.

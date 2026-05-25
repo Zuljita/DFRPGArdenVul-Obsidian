@@ -5,6 +5,7 @@ tags:
   - monster
   - sentience/sapient
 aliases:
+  - mushroom folk
 ---
 # Mushroom People
 
@@ -22,6 +23,7 @@ None specified.
 
 ## Notes
 Described as small with spotted caps.
+- Willing to trade Cloud Cap mushrooms in exchange for a living wheelbarrow.
 
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]

@@ -3,6 +3,7 @@ title: Versania
 tags:
   - npc
 aliases:
+  - Lytta
   - Versania
   - Dirty starving crazy woman with a giant magic belt
 appears_in:
@@ -22,3 +23,4 @@ A woman found living behind the waterfall, initially appearing as a dirty, starv
 - Rescued by the party from behind the waterfall where she was living in filth and fear of a giant turtle.
 - Was cured of her insanity by [[Jador the Just]] at the [[Temple of Mitra]].
 - She was a woman-at-arms from [[Narsileon]] who was part of an expedition to explore [[Arden Vul]].
+- Is currently volunteering at the House of the Gods.

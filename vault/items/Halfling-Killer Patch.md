@@ -19,3 +19,4 @@ Owned by [[pcs/Michael J. Dundee.md|Michael J Dundee]], [[pcs/Vaelethron 'Vael' 
 TBD
 
 ## Sessions
+- [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]

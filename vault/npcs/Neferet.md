@@ -20,6 +20,7 @@ Neferet is a powerful **Greater Mummy** spellcaster whose tomb is located off th
 - Her sarcophagus is labeled in Mithric: *"Neferet, Beloved of [[npcs/Thoth.md|Thoth]]"*, with a picture of a woman on the lid.
 - Was a High Priestess who demanded the relocation of a special library's contents to her residence.
 - [[npcs/Bastet.md|Bastet]]'s avatar (when asked) had no idea who Neferet was.
+- Served as second in command of the temple of Thoth in Arden Vul, under the Prior.
 
 ## Known Abilities & Equipment
 - **Blink** — her primary evasion tool; used repeatedly to escape melee attacks and fire.

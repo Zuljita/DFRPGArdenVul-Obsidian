@@ -17,6 +17,7 @@ A parchment or other material depicting the geographical features, paths, and po
 
 ## Known History
 Found by the party during their explorations.
+- Found at [[locations/Secreta Secretorum.md|Secreta Secretorum]]
 
 ## Notes
 Provides valuable intelligence for navigating the cavern.

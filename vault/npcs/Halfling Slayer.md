@@ -16,3 +16,4 @@ appears_in:
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — halfling-slayer patches awarded.
 
 ## Notes
+- [[npcs/Bottleneck.md|Bottleneck]] also uses this as part of his moniker.

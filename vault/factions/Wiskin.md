@@ -23,5 +23,6 @@ TBD
 - [[Ketil]] is a [[Wiskin]] ranger.
 
 ## Members
+- [[Svenbar]] is a Wiskin blacksmith.
 
 ## Sessions

@@ -14,6 +14,8 @@ appears_in:
 ## Summary
 Kerbog Khan is a small bipedal construct of unknown origin encountered in the [[locations/Goblintown.md|Goblin Market]]. He claims to possess knowledge of the Halls of Arden Vul surpassing that of anyone else living, and seeks to trade information — but only under very specific terms.
 
+He has also been described as an evil sorcerer.
+
 ## Appearance
 - Small bipedal construct (not humanoid-sized).
 - Exact appearance not further described.

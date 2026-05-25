@@ -19,6 +19,7 @@ Stephania is the High Priestess of [[npcs/Set.md|Set]] in the [[locations/Temple
 - The room contained poisoned wine (which [[npcs/Uvash Edzuson.md|Uvash]] survived due to dwarven constitution).
 - A secret door in her quarters led to a small treasure room containing significant wealth and magical items.
 - Another secret door led to a room containing several kaliyani (six-armed snake-men).
+- There is canonical uncertainty whether she is the same person as the Stephania who acts as a supplier to The Forum.
 
 ## Death (Session 43b)
 During the **Last Stand of the Settites** in [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b]], Stephania rallied a large force of Settite guards, priests, and cultists approximately 50 yards northwest of the Forum. When the Right for Riches company pushed through, the Settites began losing. One of her own priests decided the defeat was Stephania's fault and **cut her down from behind**, killing her. The priest then tried to take command, but other Settites killed him in response for the act of treachery. With their leadership collapsed, the remaining Settites fled or were killed.

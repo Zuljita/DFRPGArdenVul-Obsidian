@@ -13,6 +13,7 @@ tags:
 - Inserted into the bridge chair slot in the [[locations/Beacon.md|Beacon]], where the bridge system recognized the bearer as "Captain."
 - Used by Vael to assert command authority and designate additional officers/crew.
 - In [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]], the party discussed keeping the tablet in a secret room within the [[locations/Beacon.md|Beacon]].
+- A second Tablet of the Beacon exists in an unknown area, following Temrin's map from the Bastion.
 
 ## Properties
 
@@ -21,6 +22,7 @@ tags:
 ## Sessions
 - [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
+- [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
 
 ## Recording Sources
 - [[lore/recording-notes/Recording 2026-02-13.md|Recording 2026-02-13]]

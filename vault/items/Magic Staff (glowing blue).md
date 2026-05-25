@@ -4,6 +4,8 @@ tags:
   - item
   - item/weapon
   - item/magic
+aliases:
+  - "Staff of Blue Light"
 ---
 # Magic Staff (glowing blue)
 

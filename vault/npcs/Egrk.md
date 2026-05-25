@@ -20,6 +20,7 @@ None specified.
 ## Notes
 A representative of a more primitive culture within the world.
 - His people want metal weapons, tools, and cooking pots in exchange for information.
+- Identified three dungeon entrances: a mid-cliff entrance used by snake men and lizard people, an entrance far across the waterfall used by beastmen, and a southern entrance used by blue knights on big horses.
 
 ## Sessions
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]

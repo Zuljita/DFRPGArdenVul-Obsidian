@@ -27,3 +27,4 @@ Its teleportation ability makes it a dangerous and elusive foe.
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]

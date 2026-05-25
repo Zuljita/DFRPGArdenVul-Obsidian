@@ -43,6 +43,9 @@ aliases:
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
+- [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
+- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgi...md|Sessions 52b and 53: Behir, Varumani, and the Surgi...]]
 
 ## History
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 1: First Visit to the Ruins of [[locations/Arden Vul.md|Arden Vul]] Date: Demmasday, 14th of Toternios, 2993 AEP Weather: Unseasonably warm, sunny Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Aven...

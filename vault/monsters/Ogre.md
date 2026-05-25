@@ -23,6 +23,7 @@ None specified.
 
 ## Notes
 Often found in lairs with treasure, sometimes accompanied by other monstrous humanoids.
+- An ogre boatman offers passage underneath the Halls.
 
 ## Sessions
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

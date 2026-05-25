@@ -9,5 +9,7 @@ aliases:
 ## Summary
 - TODO: Short description.
 
+Mariposa is Chrysalis's monkey familiar.
+
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]

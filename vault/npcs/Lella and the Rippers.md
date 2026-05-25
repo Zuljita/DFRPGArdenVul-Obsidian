@@ -24,6 +24,7 @@ Lella and the Rippers are a group of Thorcin mercenaries led by Lella the Ripper
 - Assisted the Right for Riches company and goblins in defeating the Cult of Set forces.
 - Helped supervise the freed former slaves in the Forum after the battle.
 - Had departed the Forum by the time the party returned from their trip to Gosterwick.
+- Made a big score and sold some of the treasure to the merchants in the Forum.
 
 ## Appears In
 - [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]]

@@ -1,6 +1,8 @@
 ---
 tags:
   - location
+aliases:
+  - Halls of Thoth
 ---
 
 # [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]]]; halfling-slayer patches awarded.

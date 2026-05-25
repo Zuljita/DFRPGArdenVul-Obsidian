@@ -16,10 +16,13 @@ TBD
 ## Inhabitants
 
 TBD
+- [[npcs/Basil of Narsileon.md|Basil of Narsileon]]
+- Keko the Lame (Head of the Drome branch)
 
 ## Notes
 
 TBD
+- [[npcs/Tikun Thane.md|Tikun Thane]] was seen in a windowless room here.
 
 ## Notes
 
