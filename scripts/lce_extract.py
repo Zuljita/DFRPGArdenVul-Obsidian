@@ -187,9 +187,12 @@ def main():
     edges_accum: List[Tuple[Path, str]] = []
 
     for p, chunk in windows:
-        yn = call_llm(args.endpoint, args.model, YESNO_SYS, YESNO_USER_TMPL.format(chunk=chunk), 0.1, 10)
-        if yn.strip().upper().startswith("Y"):
-            extracted = call_llm(args.endpoint, args.model, EXTRACT_SYS, EXTRACT_USER_TMPL.format(chunk=chunk), 0.1, 500)
+        # Token budgets sized for reasoning models (Gemma 4 burns 200-400
+        # reasoning_tokens before the visible answer; a too-tight cap returns
+        # empty content with finish_reason=length).
+        yn = call_llm(args.endpoint, args.model, YESNO_SYS, YESNO_USER_TMPL.format(chunk=chunk), 0.0, 2048)
+        if "Y" in yn.upper():
+            extracted = call_llm(args.endpoint, args.model, EXTRACT_SYS, EXTRACT_USER_TMPL.format(chunk=chunk), 0.1, 4096)
             for line in parse_edges(extracted):
                 edges_accum.append((p, line))
 
