@@ -2,6 +2,7 @@
 title: Akla-Chah
 tags:
 - npc
+  - tradition/rudishva
 aliases:
   - Akla-Chah, Rudishva hologram therapist
   - Akla-Chan

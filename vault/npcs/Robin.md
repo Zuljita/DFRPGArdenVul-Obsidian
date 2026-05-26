@@ -1,5 +1,7 @@
 ---
 tags:
+  - tradition/thothian
+  - status/deceased
   - npc
 ---
 

@@ -2,6 +2,8 @@
 title: Versania
 tags:
   - npc
+  - tradition/demma
+  - tradition/mitran
 aliases:
   - Lytta
   - Versania

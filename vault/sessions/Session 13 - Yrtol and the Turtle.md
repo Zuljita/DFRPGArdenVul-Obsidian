@@ -3,6 +3,7 @@ title: "13: Yrtol and the Turtle"
 tags:
   - session
   - recap
+  - tradition/demma
 session_id: 13
 ---
 
@@ -22,7 +23,7 @@ Player Characters:
 
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 - [[pcs/grudge-brigade/Ashe Maykum.md|Ashe "Goat" Maykum]], Goblin mercenary druid (Sharp Frank)
-- [[pcs/grudge-brigade/Chrysalis.md|Lasselanta "Chrysalis" Ashcroft]], Half-Elven mercenary martial artist (ArchonShiva)
+- [[pcs/grudge-brigade/Chrysalis.md|Lasselanta "Chrysalis" Ashcroft]], Half-Elven mercenary martial artist
 
 
 Significant NPCs:

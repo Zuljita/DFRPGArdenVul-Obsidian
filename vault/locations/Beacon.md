@@ -66,7 +66,6 @@ In the Rudishva command chamber, a pool of green liquid with 24 labeled buttons 
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
-- [[lore/recording-notes/Recording 2026-01-30.md|Recording 2026-01-30]]
 
 ## Discord Insights
 

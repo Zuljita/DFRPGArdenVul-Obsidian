@@ -34,4 +34,3 @@ A pre-campaign discussion covering character-building expectations, death/replac
 
 ## Sources
 
-- [[lore/recording-notes/Recording 2025-03-07.md|Recording Notes (2025-03-07)]]

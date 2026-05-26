@@ -1,6 +1,7 @@
 ---
 title: Varumani
 tags:
+  - type/troll
   - faction
 ---
 # Varumani

@@ -1,6 +1,7 @@
 ---
 title: Temple of Thoth
 tags:
+  - tradition/thothian
   - location
 ---
 # Temple of [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]

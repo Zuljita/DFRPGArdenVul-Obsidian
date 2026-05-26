@@ -2,6 +2,8 @@
 tags:
   - faction
   - culture/archontean
+  - era/historical
+  - culture/archontean
 ---
 
 # Dragons

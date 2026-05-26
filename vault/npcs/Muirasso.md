@@ -2,6 +2,7 @@
 title: Muirasso
 tags:
 - npc
+  - tradition/thothian
 aliases:
   - Muirasso (Wight)
 ---

@@ -1,12 +1,15 @@
 ---
 tags:
+  - type/goblin
+  - culture/archontean
   - npc
 ---
+  - race/goblin
 
 # Imperial Goblin
 
 ## Summary
-A playable PC race in the setting, fully assimilated into the [[lore/Archontean Empire.md|Archontean Empire]], though considered second-class citizens.
+A playable PC race in the setting, fully assimilated into the [[factions/Archontean Empire.md|Archontean Empire]], though considered second-class citizens.
 
 ## Racial Template (GURPS DFRPG)
 - **SM:** -1 [0]
@@ -27,7 +30,7 @@ Mentioned in the "Announcing DFRPG [[locations/Arden Vul.md|Arden Vul]]" and "[[
 TBD
 
 ## Known Associates
-- [[lore/Archontean Empire.md|Archontean Empire]]
+- [[factions/Archontean Empire.md|Archontean Empire]]
 
 ## Notes
 - [[Ashe Maykum]] is an [[npcs/Imperial Goblin.md|Imperial Goblin]].

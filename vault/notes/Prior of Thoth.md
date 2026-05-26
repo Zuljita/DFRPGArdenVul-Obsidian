@@ -1,5 +1,5 @@
 ---
-tags: [auto-generated]
+tags: [auto-generated, tradition/thothian]
 ---
 
 # Prior of Thoth

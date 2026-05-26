@@ -3,6 +3,8 @@ title: "15: The Great Cavern Re-Revisited"
 tags:
   - session
   - recap
+  - tradition/demma
+  - culture/thorcin
 session_id: 15
 ---
 
@@ -16,9 +18,9 @@ Hot, dry
 
 Player Characters: 
 [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)
-[[pcs/Michael J. Dundee.md|Michael]] J. Dundee, Thorcin barbarian (Adam)
-[[npcs/Ashe Maykum.md|Ashe Maykum]] "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) 
+[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter
+[[pcs/Michael J. Dundee.md|Michael]] J. Dundee, Thorcin barbarian
+[[pcs/grudge-brigade/Ashe Maykum.md|Ashe Maykum]] "GOAT" Maykum, Goblin mercenary druid (Sharp Frank) 
 Merenuithiel "[[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]" [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]], Elven mercenary archer (Archon Shiva) 
 
 Significant NPCs:

@@ -3,6 +3,7 @@ title: Pyramid of Thoth
 tags:
   - location
   - entrance
+  - tradition/thothian
 aliases:
   - Great Pyramid of Thoth
 ---

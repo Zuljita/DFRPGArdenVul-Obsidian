@@ -3,6 +3,7 @@ tags:
   - lore
   - culture/archontean
   - tradition/thothian
+  - tradition/thothian
 ---
 
 # [[npcs/Ptarmis.md|Ptarmis]] Research

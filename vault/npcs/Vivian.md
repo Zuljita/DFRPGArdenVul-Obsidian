@@ -2,6 +2,9 @@
 title: Vivian
 tags:
 - npc
+  - tradition/demma
+  - tradition/mitran
+  - culture/thorcin
 aliases:
   - Vivian, Thorcin chief priest of the Temple of Demma in Gosterwick
   - Vivian, priest of Demma

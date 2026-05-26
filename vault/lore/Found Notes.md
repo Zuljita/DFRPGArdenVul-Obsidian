@@ -1,6 +1,9 @@
 ---
 tags:
   - lore
+  - tradition/settite
+  - tradition/rudishva
+  - culture/archontean
   - culture/archontean
 ---
 

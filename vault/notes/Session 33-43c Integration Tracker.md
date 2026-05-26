@@ -30,7 +30,7 @@ Sessions in order:
 - Added inline links to all entities in `[[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]`.
 - Italicized spell names per Style Guide.
 - Fixed "Androsia" → "[[npcs/Ambrosia.md|Ambrosia]]" for consistency with canonical page.
-- Linked entities include: [[pcs/Basilisk.md|Basilisk]], [[npcs/Gog.md|Gog]], [[npcs/Temrin.md|Temrin]], [[npcs/Hama.md|Hama]], [[npcs/Trollreaper.md|Trollreaper]], [[npcs/Reeflik.md|Reeflik]], [[npcs/Palestrim.md|Palestrim]], [[npcs/Skimmel.md|Skimmel]], [[npcs/Gribble.md|Gribble]], [[npcs/Craastonistorex.md|Craastonistorex]], [[npcs/Maat.md|Maat]], [[npcs/Deino.md|Deino]], [[npcs/Ambrosia.md|Ambrosia]], [[factions/Right for Riches.md|Right for Riches]], [[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]], [[items/Scepter of the Goblins.md|Scepter of the Goblins]].
+- Linked entities include: [[pcs/grudge-brigade/Sister Valya -Basilisk- Hushbreaker.md|Basilisk]], [[npcs/Gog.md|Gog]], [[npcs/Temrin.md|Temrin]], [[npcs/Hama.md|Hama]], [[npcs/Trollreaper.md|Trollreaper]], [[npcs/Reeflik.md|Reeflik]], [[npcs/Palestrim.md|Palestrim]], [[npcs/Skimmel.md|Skimmel]], [[npcs/Gribble.md|Gribble]], [[npcs/Craastonistorex.md|Craastonistorex]], [[npcs/Maat.md|Maat]], [[npcs/Deino.md|Deino]], [[npcs/Ambrosia.md|Ambrosia]], [[factions/Right for Riches Company.md|Right for Riches]], [[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]], [[items/Scepter of the Goblins.md|Scepter of the Goblins]].
 
 ## Completed
 

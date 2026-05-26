@@ -1,6 +1,8 @@
 ---
 tags:
   - item
+aliases:
+  - Amulet of the Silver Tongue
 ---
 
 # Amulet of Voice

@@ -1,5 +1,5 @@
 ---
-tags: [auto-generated]
+tags: [auto-generated, tradition/rudishva]
 ---
 
 # gold oval Rudishva ID Image

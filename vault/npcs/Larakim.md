@@ -3,6 +3,8 @@ title: Larakim
 tags:
   - npc
   - race/goblin
+  - type/goblin
+  - tradition/thothian
 aliases:
   - Larakim, goblin witch doctor
 ---

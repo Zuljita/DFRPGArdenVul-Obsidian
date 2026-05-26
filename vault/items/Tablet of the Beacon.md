@@ -23,6 +23,3 @@ tags:
 - [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
-
-## Recording Sources
-- [[lore/recording-notes/Recording 2026-02-13.md|Recording 2026-02-13]]

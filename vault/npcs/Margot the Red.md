@@ -2,6 +2,7 @@
 title: "Margot the Red"
 tags:
   - npc
+  - culture/thorcin
 aliases:
   - Margot
 ---

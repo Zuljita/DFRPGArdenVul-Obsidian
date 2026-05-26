@@ -1,8 +1,9 @@
 ---
-title: "Phlebotomas Plumthorn.md|Phlebotomas Phlebotomas Plumthorn]]"
+title: "Phlebotomas Plumthorn"
 tags:
   - npc
   - antagonist
+  - status/deceased
 aliases:
   - Phlebotomas Plumthorn
   - Plummie
@@ -17,10 +18,10 @@ appears_in:
   - Session 11 - The Great Cavern Redux
   - "Session 26 - The Scouring of the Shire"
 ---
-# Phlebotomas Phlebotomas Plumthorn
+# Phlebotomas Plumthorn
 
 ## Summary
-[[npcs/Phlebotomas Plumthorn.md|Phlebotomas Phlebotomas Plumthorn]] was the halfling mob boss who ran an extortion racket near the pyramid landings under [[locations/Arden Vul|Arden Vul]]. For a long time, he and his gang of thugs controlled access to the [[locations/Halls of Thoth|Halls of Thoth]], demanding payment from all who passed. His operation was ultimately dismantled by the [[factions/Right for Riches Company|Right for Riches Company]] in a decisive assault.
+[[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]] was the halfling mob boss who ran an extortion racket near the pyramid landings under [[locations/Arden Vul|Arden Vul]]. For a long time, he and his gang of thugs controlled access to the [[locations/Halls of Thoth|Halls of Thoth]], demanding payment from all who passed. His operation was ultimately dismantled by the [[factions/Right for Riches Company|Right for Riches Company]] in a decisive assault.
 
 ## Criminal Enterprise
 [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s gang controlled the territory beneath the [[locations/Pyramid of Thoth|Pyramid of Thoth]]. His business model involved:
@@ -30,15 +31,15 @@ appears_in:
 - **Armed Enforcement:** His gang was known to be well-armed, reportedly using magic wands and poison.
 
 ## Relationships
-- **[[npcs/Roskelly Winterleaf|Roskelly Winterleaf]]:** [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s primary lieutenant, responsible for managing the day-to-day operations of the toll collection. He was killed by [[npcs/Lacrymosa|Lacrymosa]] while attempting to flee during the party's final assault.
-- **[[npcs/Blandveg|Blandveg]]:** An Archontean mage, alchemist, and poisoner who worked with the halflings. He was also killed by [[npcs/Lacrymosa|Lacrymosa]].
+- **[[npcs/Roskelly Winterleaf|Roskelly Winterleaf]]:** [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s primary lieutenant, responsible for managing the day-to-day operations of the toll collection. He was killed by [[npcs/Merenuithiel Lacrymosa Armaris|Lacrymosa]] while attempting to flee during the party's final assault.
+- **[[npcs/Blandveg|Blandveg]]:** An Archontean mage, alchemist, and poisoner who worked with the halflings. He was also killed by [[npcs/Merenuithiel Lacrymosa Armaris|Lacrymosa]].
 - **[[npcs/Weskenim|King Weskenim]]:** A significant rival. [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s gang was squatting on territory that [[npcs/Weskenim.md|Weskenim]] considered a rightful goblin entrance to the surface. The goblin king encouraged the party to act as "halfling exterminators."
 - **[[factions/Right for Riches Company|Right for Riches Company]]:** [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s relationship with the party was fraught with tension from their first meeting. The constant tolls and harassment were a recurring point of frustration, eventually leading to his downfall.
 
 ## The Downfall
 After numerous sessions of debate and planning, the [[factions/Right for Riches Company|Right for Riches Company]] finally moved against [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]] in **Session 26**.
-- **The Plan:** Aided by the mercenary [[npcs/Lacrymosa|Lacrymosa]], the party used a combination of flight and invisibility spells to bypass [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s guards and strike directly at the leadership.
-- **The Assault:** The ambush was a resounding success. [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]] killed [[npcs/Blandveg|Blandveg]] almost immediately. [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]] was quickly wounded and, after a successful intimidation by [[pcs/Vaelethron 'Vael' Sunshadow|Vael]], was forced to surrender.
+- **The Plan:** Aided by the mercenary [[npcs/Merenuithiel Lacrymosa Armaris|Lacrymosa]], the party used a combination of flight and invisibility spells to bypass [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s guards and strike directly at the leadership.
+- **The Assault:** The ambush was a resounding success. [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]] killed [[npcs/Blandveg|Blandveg]] almost immediately. [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]] was quickly wounded and, after a successful intimidation by [[pcs/Vaelethron 'Vael' Sunshadow|Vael]], was forced to surrender.
 - **The Aftermath:** [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]] was stripped of his possessions, including his keys, which were later copied and given to the goblins. He and his surviving followers were exiled from [[locations/Arden Vul|Arden Vul]] and instructed to return to [[locations/Newmarket|Newmarket]] under threat of death. His former territory was then ceded to [[npcs/Weskenim|King Weskenim]]'s goblins.
 
 ## Appears In
@@ -51,3 +52,8 @@ After numerous sessions of debate and planning, the [[factions/Right for Riches 
 - [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
 - [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]]
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
+
+## Territory
+- A psychotic halfling thug rumored to have taken over the top level just under the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].
+- Reportedly refuses to let anyone pass without buying an 'exploration license'.
+- His goons are said to be armed with potent magic wands.

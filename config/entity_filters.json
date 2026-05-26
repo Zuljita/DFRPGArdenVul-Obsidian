@@ -35,5 +35,11 @@
   ],
   "stop_npcs": [
     "ashe the goblin", "vael lockmaster", "mummy", "coinbase levitated"
+  ],
+  "stop_concepts": [
+    "basilsday", "lunday", "tothsday", "mitrasday", "tahsday", "horasday", "demmasday",
+    "molivios", "deuterios", "toternios", "lucrios", "ligarios", "jelenios", "masporios", "gerakios",
+    "besemios", "basilembrios", "dikaios", "fidios", "mercedonian days", "voluptarian days",
+    "archontean calendar", "ennian calendar", "calendar"
   ]
 }

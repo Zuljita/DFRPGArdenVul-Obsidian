@@ -1,5 +1,6 @@
 ---
 tags:
+  - tradition/demma
   - faction
 ---
 
@@ -22,4 +23,5 @@ Scholarly priests, such as [[Ioannes]], are more aligned with this branch than t
 - [[Priesthood of Demma]]
 
 ## Notes
-TBD
+
+- Temples are protected by dedicated warriors known as **Harvest Guardians**, who serve both as defenders of the faith and enforcers of Demma's justice.

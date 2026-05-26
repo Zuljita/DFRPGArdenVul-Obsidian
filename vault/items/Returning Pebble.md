@@ -2,6 +2,7 @@
 tags:
   - item
   - identity/uncertain
+  - tradition/thothian
 status: stub
 ---
 

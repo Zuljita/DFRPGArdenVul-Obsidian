@@ -6,7 +6,7 @@
 
 ### Session 45: Purple Mist and the Drowned Canyon
 - **Date:** March 20, 2026 (Tahsday, 14th of Molivios, 2994 AE)
-- **Uvash absent:** Player (Cosmo) missed session for a first date; character stayed behind to pray [session-45 | 2026-03-20]
+- **Uvash absent:** Player missed session for a first date; character stayed behind to pray [session-45 | 2026-03-20]
 
 ### Key Discoveries
 

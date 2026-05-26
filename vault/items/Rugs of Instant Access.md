@@ -2,6 +2,7 @@
 title: "Rugs of Instant Access"
 tags:
   - item
+  - era/historical
 aliases:
 ---
 # Rugs of Instant Access

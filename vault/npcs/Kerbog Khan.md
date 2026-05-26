@@ -3,6 +3,7 @@ title: Kerbog Khan
 tags:
   - npc
   - race/construct
+  - culture/thorcin
 aliases:
   - Kerbog Khan, construct
 appears_in:

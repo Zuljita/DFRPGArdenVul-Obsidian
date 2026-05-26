@@ -3,6 +3,7 @@ title: Demma
 tags:
   - npc
   - deity
+  - tradition/demma
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
   - Session 27 - The Tomb of Ptoh-Ristus

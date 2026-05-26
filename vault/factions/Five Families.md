@@ -10,7 +10,8 @@ tags:
 Prominent Archontean noble lineages referenced in research notes; serve as background power blocs.
 
 ## Notes
-TBD
+
+- The [[notes/Basileon family.md|Basileon]] family is also influential in modern times.
 
 ## Discord Insights
 

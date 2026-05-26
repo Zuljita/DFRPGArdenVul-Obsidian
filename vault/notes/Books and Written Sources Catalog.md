@@ -1,5 +1,5 @@
 ---
-tags: [catalog, books, written-sources]
+tags: [catalog, books, written-sources, tradition/thothian, era/historical]
 status: active
 last_updated: 2026-03-22
 ---
@@ -19,9 +19,8 @@ Primary crosswalk: [[notes/Books Title Concordance|Books Title Concordance]] (ma
 
 ## Canonical written sources (books, journals, scrolls)
 
-- [[notes/Book of Priors|Book of Priors]]
-  - Summary: Ancient obelisk reference.
-  - Notes: Possible duplicate with [[notes/The Book of Priors|The Book of Priors]] and/or [[lore/The Book of Priors|lore version]].
+- [[lore/The Book of Priors.md|Book of Priors]]
+  - Summary: Six-volume Thothian history of Arden Vul (937–1782 AEP), in Mithric.
 - [[notes/The Book of Priors|The Book of Priors]]
   - Notes: Candidate merge target with other Book of Priors pages.
 - [[lore/The Book of Priors|The Book of Priors (lore)]]

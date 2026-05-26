@@ -3,6 +3,9 @@ title: "12: First Encounter with the Cult of Set"
 tags:
   - session
   - recap
+  - tradition/settite
+  - tradition/demma
+  - culture/thorcin
 session_id: 12
 ---
 
@@ -21,9 +24,9 @@ Cool, rainy
 Player Characters:
 
 [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-[[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
-[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Michael J. Dundee.md|Michael J. Dundee]], Thorcin barbarian (Adam)
+[[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter
+[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage
+[[pcs/Michael J. Dundee.md|Michael J. Dundee]], Thorcin barbarian
 [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
 
 
@@ -66,7 +69,7 @@ Significant NPCs:
 
 
 
-Ioannes and [[npcs/Thronebreaker.md|Thronebreaker]] adopted the four cats found in the [[locations/Great Cavern.md|Great Cavern]] the previous week.  Ioannes paid [[npcs/Fael.md|Fael]] the druid to cast Beast Speech and speak to the black cat who appeared to be the leader.  He explained that his name was [[npcs/Onyx.md|Onyx]], that he used to be the familiar of an Elven mage named [[npcs/Lyra.md|Lyra]], and that [[npcs/Lyra.md|Lyra]] had been killed by a giant lizard while foolishly adventuring without sufficient bodyguards.  He had met the other cats while looking for a way out the [[locations/Great Cavern.md|Great Cavern]], and had survived by adopting their primitive lifestyle of eating mice and small lizards and sleeping in a damp cave, but he didn't like it at all.  He had been trying to find a way out, so they could find a nice wizard to adopt them and provide a civilized existence, but had not yet succeeded until Ioannes and his bodyguards had found them.  He asked [[npcs/Fael.md|Fael]] if he could be placed with a female elven wizard who was smart enough not to go adventuring, as having his previous wizard killed had been stressful.  [[npcs/Fael.md|Fael]] smiled and relayed [[npcs/Onyx.md|Onyx]]'s message and returned him to Ioannes, who then took the cats back to his apartment at the Arcane Practitioners' Club.
+Ioannes and [[npcs/Thrainor Thronebreaker Ironvein.md|Thronebreaker]] adopted the four cats found in the [[locations/Great Cavern.md|Great Cavern]] the previous week.  Ioannes paid [[npcs/Fael.md|Fael]] the druid to cast Beast Speech and speak to the black cat who appeared to be the leader.  He explained that his name was [[npcs/Onyx.md|Onyx]], that he used to be the familiar of an Elven mage named [[npcs/Lyra.md|Lyra]], and that [[npcs/Lyra.md|Lyra]] had been killed by a giant lizard while foolishly adventuring without sufficient bodyguards.  He had met the other cats while looking for a way out the [[locations/Great Cavern.md|Great Cavern]], and had survived by adopting their primitive lifestyle of eating mice and small lizards and sleeping in a damp cave, but he didn't like it at all.  He had been trying to find a way out, so they could find a nice wizard to adopt them and provide a civilized existence, but had not yet succeeded until Ioannes and his bodyguards had found them.  He asked [[npcs/Fael.md|Fael]] if he could be placed with a female elven wizard who was smart enough not to go adventuring, as having his previous wizard killed had been stressful.  [[npcs/Fael.md|Fael]] smiled and relayed [[npcs/Onyx.md|Onyx]]'s message and returned him to Ioannes, who then took the cats back to his apartment at the Arcane Practitioners' Club.
 
 
 

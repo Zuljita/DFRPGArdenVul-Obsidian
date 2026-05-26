@@ -1,15 +1,12 @@
 ---
+title: "Mithric"
 tags:
   - concept
   - identity/uncertain
-status: stub
+  - redirect
+redirect_to: vault/lore/Mithric.md
+status: redirect
 ---
-
 # Mithric
 
-## Summary
-A language used within the campaign for passwords, magical warnings, and reading text.
-
-## Sources
-- [[notes/Discord Summary 2026-W08.md|Discord Summary 2026-W08]]
-- [[notes/Discord Summary 2026-W12.md|Discord Summary 2026-W12]]
+This page has been merged into [[lore/Mithric.md|Mithric]].

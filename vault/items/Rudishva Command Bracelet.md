@@ -1,5 +1,6 @@
 ---
 tags:
+  - tradition/rudishva
   - item
 ---
 
@@ -20,8 +21,3 @@ It also functions as an authorization device and allows giving commands to Rudis
 ## Sessions
 - [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
-
-## Recording Sources
-
-- [[lore/recording-notes/Recording 2026-01-30.md|Recording 2026-01-30]]
-- [[lore/recording-notes/Recording 2026-02-06.md|Recording 2026-02-06]]

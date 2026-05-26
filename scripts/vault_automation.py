@@ -2788,7 +2788,7 @@ def is_candidate_rejected(name: str, kind: str, filters: dict, ignore_npcs: set[
         return True, "all-caps single token (likely acronym/header)"
     if " " not in n and len(n) <= 4 and n[0].isupper():
         return True, "single short title-case word (likely generic)"
-    stop_key = {"NPC": "stop_npcs", "Location": "stop_location", "Faction": "stop_factions", "Item": "stop_items"}.get(kind)
+    stop_key = {"NPC": "stop_npcs", "Location": "stop_location", "Faction": "stop_factions", "Item": "stop_items", "Concept": "stop_concepts"}.get(kind)
     if stop_key:
         for stop in filters.get(stop_key, []):
             if nl == str(stop).lower():

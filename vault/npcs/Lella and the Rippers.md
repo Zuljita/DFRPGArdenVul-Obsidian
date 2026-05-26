@@ -5,6 +5,8 @@ tags:
   - faction/rippers
   - race/thorcin
   - profession/mercenary
+  - tradition/settite
+  - culture/thorcin
 aliases:
   - Lella the Ripper
   - The Rippers

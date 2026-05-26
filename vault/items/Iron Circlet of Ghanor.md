@@ -20,6 +20,3 @@ tags:
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
-
-## Recording Sources
-- [[lore/recording-notes/Recording 2026-02-13.md|Recording 2026-02-13]]

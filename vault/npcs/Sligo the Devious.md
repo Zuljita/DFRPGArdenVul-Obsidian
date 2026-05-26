@@ -2,6 +2,7 @@
 title: "Sligo the Devious"
 tags:
   - npc
+  - era/historical
 aliases:
 ---
 # Sligo the Devious

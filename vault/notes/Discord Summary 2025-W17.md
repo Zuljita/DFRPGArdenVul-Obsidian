@@ -1,47 +1,84 @@
 ---
+title: "Discord Summary 2025-W17"
 tags:
-  - note
   - discord-summary
+  - canonical-source
+week_ending: 2025-05-02
+source_type: private-discord-weekly-digest
+source_week: week-ending-2025-05-02-2300-central
 ---
 
-# Discord Summary: 2025-W17
+# Discord Summary 2025-W17
 
-**Date Range:** 2025-04-28 to 2025-05-04
-**Messages:** 20
+## Source
+- Private Discord weekly digest
+- Week ending: 2025-05-02
 
-## Distilled In-World Knowledge
+## Navigation
 
-*No in-world content found in this summary. All entries were rules mechanics, meta-game logistics, or out-of-character discussion.*
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W18.md|Discord Summary 2025-W18]]
+<!-- END AUTO NAV -->
 
----
+# Weekly Chronicle: The Right for Riches Company
+**Date:** Week ending 2025-05-02  
+**Subject:** The Halfling Threat and the Rod of Imperium
 
-## In-World Highlights
+### 1. Summary
+The company has turned its attention toward the halfling faction occupying the nearby dungeon chambers, weighing the risks of reconnaissance against a direct confrontation. Amidst preparations for upcoming expeditions, significant magical discoveries have been made regarding recent acquisitions, and the company continues to formalize its logistical stockpiles.
 
-### #archive
+### 2. Events & Actions by Character
 
-- **Grudge Brigade** (2025-04-28): Does Power Blow work for contests of ST used in disarming or grappling? (if used instantly, in those cases where concentration is not allowed) Does it multiply Striking ST and Lifting ST, as appropriate to the roll, or only raw ST? (I think those are ST with Accessibility, so it should count)
-- **GM** (2025-04-28): Disarming yes.  Break free, yes.  Grappling, no, as you're only super strong for an instant and grappling is a continuing effect.  Yes it works on both Striking and Lifting ST, but which is appropriate for a given use case is up to the GM.
-- **Ioannes** (2025-04-29): As the boxed set is lacking details, what kind of mounts and vehicles are available to us?
-- **GM** (2025-04-29): Mounts: Sakeon sells horses, ponies, mules, donkeys, and oxen. Vehicles: You might be able to buy a wagon, a coach, a canoe, a  rowboat, or a small barge.
-- **Grudge Brigade** (2025-05-03): I notice that your March 11 post talks about cp per session.  How do you handle multi-session delves?  Just multiply thresholds and cp?
-- **GM** (2025-05-03): No multiplication; there's no reward for taking longer in real life to accomplish the same. However all the stuff found during a multi-session delve adds up.
-- **Grudge Brigade** (2025-05-04): If, after ending a session outside of town, the party returns to town early in the next session and ventures back out (coming back by session's end), can they score loot and exploration cp for both delves?  (Not suggesting straight up multiple delves per week)
-- **GM** (2025-05-04): Yes, but not until the end of the session.
-- **Grudge Brigade** (2025-05-04): So they'd get two sessions worth of cp, but all at the end of the second session.
-- **GM** (2025-05-04): Yes.  And if any PCs or players didn't participate in both delves my head might explode.
+**Ioannes Grammatikos Byzantios**
+*   **Town Actions:** Purchased a Healer's kit and surgical instruments to be held in the company’s communal stores (the "Gatehouse" tab).
+*   **Alchemy/Crafting:** Successfully brewed *paut*.
+*   **Research/Study:** Undertook research into the motives and movements of Roskelly and his band of halflings; the roll yielded no information regarding their specific intentions or recent activities.
+*   **Character Development:** Increased Strength by one level, Speed by 0.25, and Lifting Strength by 1. Changed the *Fast Draw* advantage to *Boomerang*.
+*   **Equipment Changes:** None recorded this week.
 
-### #questions-for-gm
+**Vaelitharon "Vael" Sunshadow**
+*   **Town Actions:** Acting as company quartermaster, Vael established a "Gatehouse" tab within the loot records to manage mundane, easily replaceable items for the group. Purchased an armory toolkit for company use.
+*   **Alchemy/Crafting:** None recorded this week.
+*   **Research/Study:** Performed magical analysis on recent acquisitions. Identified a magic rod as a *Rod of Imperium*, noting its ability to transform into various weapons (flaming greatsword, great axe, heavy spear, or climbing pole) and its limited charges for spells such as *Fear*, *Paralyze*, and life-draining healing.
+*   **Character Development:** Acquired a 25-point power item for combat utility. Discussed acquiring *Concussion*, *Wizard Eye*, and *Great Haste*. The GM suggested *Wall of Lightning* may be a better path than *Windstorm* (which is difficult to use well at skill 15) and noted *Missile Shield* as a future option. The GM also suggested *Contingency Casting* or *Wild Talent* for emergency skill access.
+*   **Equipment Changes:** Purchased an armory toolkit for company use.
 
-- **Grudge Brigade** (2025-04-28): Does Power Blow work for contests of ST used in disarming or grappling? (if used instantly, in those cases where concentration is not allowed) Does it multiply Striking ST and Lifting ST, as appropriate to the roll, or only raw ST? (I think those are ST with Accessibility, so it should count)
-- **GM** (2025-04-28): Disarming yes.  Break free, yes.  Grappling, no, as you're only super strong for an instant and grappling is a continuing effect.  Yes it works on both Striking and Lifting ST, but which is appropriate for a given use case is up to the GM.
-- **Ioannes** (2025-04-29): As the boxed set is lacking details, what kind of mounts and vehicles are available to us?
-- **GM** (2025-04-29): Mounts: Sakeon sells horses, ponies, mules, donkeys, and oxen. Vehicles: You might be able to buy a wagon, a coach, a canoe, a  rowboat, or a small barge.
-- **Grudge Brigade** (2025-05-03): I notice that your March 11 post talks about cp per session.  How do you handle multi-session delves?  Just multiply thresholds and cp?
-- **GM** (2025-05-03): No multiplication; there's no reward for taking longer in real life to accomplish the same. However all the stuff found during a multi-session delve adds up.
-- **Grudge Brigade** (2025-05-04): If, after ending a session outside of town, the party returns to town early in the next session and ventures back out (coming back by session's end), can they score loot and exploration cp for both delves?  (Not suggesting straight up multiple delves per week)
-- **GM** (2025-05-04): Yes, but not until the end of the session.
-- **Grudge Brigade** (2025-05-04): So they'd get two sessions worth of cp, but all at the end of the second session.
-- **GM** (2025-05-04): Yes.  And if any PCs or players didn't participate in both delves my head might explode.
+**Uvash Edzuson**
+*   **Town Actions:** None recorded this week.
+*   **Alchemy/Crafting:** None recorded this week.
+*   **Research/Study:** None recorded this week.
+*   **Character Development:** Expressed a long-term goal to increase Strength and specialize in buffing magic.
+*   **Equipment Changes:** None recorded this week.
 
----
-*Generated: 2026-03-16 15:41*
+**Vallium Halcyon**
+*   **Town Actions:** Purchased 100 yards of 3/4" rope for company use.
+*   **Alchemy/Crafting:** None recorded this week.
+*   **Research/Study:** None recorded this week.
+*   **Character Development:** None recorded this week.
+*   **Equipment Changes:** None recorded this week.
+
+### 3. Lore & Discoveries
+*   **The Rod of Imperium:** This item is a sign of Archonal power. It is also a magic maul that can transform into a flaming greatsword, great axe, heavy spear, or climbing pole. It weighs 12 lbs, making it heavy for most users. It possesses charges for *Fear*, *Paralyze*, and life-draining healing, but appeared not to be rechargeable. Lyssandra and Pelteon suggested informing Lady Alexia of its presence.
+*   **The Basileon Signet Ring:** The ring recovered from recent loot is confirmed to be a Basileon signet ring, belonging to the family of Lady Alexia. Chairduster refused to buy it, turning lighter green and demanding the company tell Lady Alexia about it.
+*   **Weapon Maintenance:** A recently recovered magic shortsword was inspected by Torunn and found to be "Fine and Balanced," though it requires maintenance.
+*   **Halfling Presence:** The company observed a significant halfling presence, numbering approximately thirty individuals alongside a human wizard, occupying roughly three rooms of the dungeon near the scorpion tunnel.
+*   **Bounty Valuation:** For animal bounties, dead animals are valued at their "used" rate, while live animals are valued at their "new" rate. The freshness of a corpse affects its value; for example, a one-day-old specimen is acceptable, whereas a week-old, scavenged carcass is not.
+
+### 4. World Rulings
+*   **Pinning Mechanics:** A Pinning attempt is a Regular Contest. To succeed, the attacker's FBS must succeed while the defender's FM fails; margins of success are ignored.
+*   **Power Blow Utility:** The *Power Blow* advantage may be used to succeed in disarming or breaking free from a hold. However, it cannot be used for grappling, as grappling is a continuing effect rather than an instantaneous strike. *Power Blow* applies to both Striking and Lifting ST.
+*   **Local Commerce:** Sakeon provides various mounts, including horses, ponies, mules, donkeys, and oxen. For transport, wagons, coaches, canoes, rowboats, and small barges are available for purchase.
+
+### 5. Tactical Planning
+*   **Halfling Reconnaissance:** The company intends to conduct reconnaissance on the halfling territory—potentially using *Wizard's Eye* or invisibility—to assess the size of their complex before committing to a fight.
+*   **Combat Buffing Protocol:** For upcoming engagements, Ioannes plans to cast *Bless* upon Uvash, who will then cast *Bless* back upon Ioannes to facilitate easier spellcasting for the cleric.
+*   **Logistical Management:** The company intends to use the "Gatehouse" tab to store essential rations and tools to reduce individual encumbrance.
+*   **Surprise Mitigation:** The company discussed using *Keen Vision* (+4) to reduce the likelihood of being surprised, citing low Basic Speed as a vulnerability to mental stun.
+*   **Tithe Strategy:** The company discussed saving the tithe to maximize XP benefits.
+
+### 6. Unresolved Threads
+*   **The Halfling Conflict:** Whether the company should attempt to eliminate the halfling faction, or simply exert enough pressure to ensure they no longer pose a threat to the company's interests.
+*   **Retaliation Risks:** The potential for the halflings to seek revenge following any direct confrontation.
+*   **The Black Void:** The nature of the black void/portal located within the pit trap at the east entrance of the pyramid remains unknown.
+*   **Wizard's Eye Requirements:** Vael must still acquire *Keen Vision* if he is to utilize *Wizard's Eye* for scouting.

@@ -1,6 +1,8 @@
 ---
 tags:
   - lore
+  - tradition/demma
+  - culture/thorcin
   - culture/thorcin
 ---
 

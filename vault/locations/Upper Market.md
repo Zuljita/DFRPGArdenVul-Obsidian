@@ -1,12 +1,11 @@
 ---
+title: "Upper Market"
 tags:
   - location
+  - redirect
+redirect_to: vault/locations/Gosterwick.md
+status: redirect
 ---
+# Upper Market
 
-# [[Gosterwick]]
-
-## Timeline
-- Session 2 — [[npcs/Jeremias Smallleaf.md|Jeremias Smallleaf]] keeps his main shop here; additional stalls run by Marla and Cassie.
-
-## Notes
-TBD
+This page has been merged into [[locations/Gosterwick.md|Gosterwick]]. See the Districts & Landmarks and Notable Establishments sections.

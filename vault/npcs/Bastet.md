@@ -17,7 +17,3 @@ Bastet is the Goddess of Cats.
 
 ## Sessions
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
-
-## Recording Sources
-
-- [[lore/recording-notes/Recording 2026-02-13.md|Recording 2026-02-13]]

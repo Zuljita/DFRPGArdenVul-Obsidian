@@ -4,6 +4,7 @@ tags:
   - npc
   - profession/mage
   - faction/eighth-collegium
+  - type/troll
 aliases:
   - Eighth Collegium
 ---

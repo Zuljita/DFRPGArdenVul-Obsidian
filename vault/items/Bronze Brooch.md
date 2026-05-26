@@ -1,5 +1,6 @@
 ---
 tags:
+  - tradition/demma
   - item
 ---
 

@@ -2,6 +2,7 @@
 title: "Jador the Just"
 tags:
   - npc
+  - tradition/mitran
 aliases:
 ---
 # Jador the Just

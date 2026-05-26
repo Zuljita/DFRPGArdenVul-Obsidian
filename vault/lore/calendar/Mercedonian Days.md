@@ -1,13 +1,11 @@
+---
+title: "Mercedonian Days"
+tags:
+  - calendar
+  - redirect
+redirect_to: vault/lore/The Archontean Calendar.md
+status: redirect
+---
 # Mercedonian Days
 
-## Summary
-The first intercalary period in the [[The Archontean Calendar.md|Archontean Calendar]], also known as the "days of wages".
-
-## Season
-Between Autumn and Winter.
-
-## Position in Year
-First intercalary period.
-
-## Notes
-A six-day period.
+This page has been merged into [[lore/The Archontean Calendar.md|The Archontean Calendar]] — see the **Intercalary Periods** section.

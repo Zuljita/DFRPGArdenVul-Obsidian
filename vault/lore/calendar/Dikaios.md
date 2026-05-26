@@ -1,13 +1,11 @@
+---
+title: "Dikaios"
+tags:
+  - calendar
+  - redirect
+redirect_to: vault/lore/The Archontean Calendar.md
+status: redirect
+---
 # Dikaios
 
-## Summary
-A month in the [[The Archontean Calendar.md|Archontean Calendar]].
-
-## Season
-Autumn
-
-## Position in Year
-Eleventh month of the year.
-
-## Notes
-Corresponds to the real-world equivalent of November. Ancient name: Vadrius.
+This page has been merged into [[lore/The Archontean Calendar.md|The Archontean Calendar]] — see the **Months of the Year** section.

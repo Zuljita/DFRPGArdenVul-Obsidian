@@ -3,6 +3,8 @@ title: Harab
 tags:
   - npc
   - race/goblin
+  - type/goblin
+  - tradition/thothian
 aliases:
   - Harab, goblin sub-chief
 ---

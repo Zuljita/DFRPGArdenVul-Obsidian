@@ -1,5 +1,5 @@
 ---
-tags: [auto-generated]
+tags: [auto-generated, era/historical]
 ---
 
 # Vul

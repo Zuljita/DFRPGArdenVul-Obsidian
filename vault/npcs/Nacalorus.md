@@ -1,6 +1,7 @@
 ---
 tags:
   - npc
+  - tradition/rudishva
 aliases:
   - Naik-Lir
 ---

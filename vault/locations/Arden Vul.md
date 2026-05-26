@@ -1,6 +1,8 @@
 ---
 title: Arden Vul
 tags:
+  - tradition/thothian
+  - era/historical
   - location
 ---
 

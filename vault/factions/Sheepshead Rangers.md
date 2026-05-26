@@ -2,6 +2,8 @@
 tags:
   - faction
   - culture/archontean
+  - era/historical
+  - culture/archontean
 ---
 
 # Sheepshead Rangers
@@ -12,13 +14,13 @@ A military unit of [[lore/Archontean.md|Archontean]] legionaries, five cohorts o
 A survivor's memoir claims the legionaries were destroyed by giant trolls wielding bolts of lightning.
 
 ## Goals
-Military service for the [[lore/Archontean Empire.md|Archontean Empire]].
+Military service for the [[factions/Archontean Empire.md|Archontean Empire]].
 
 ## Leadership & Members
 TBD
 
 ## Allies & Rivals
-- [[lore/Archontean Empire.md|Archontean Empire]]
+- [[factions/Archontean Empire.md|Archontean Empire]]
 
 ## Notes
 All five cohorts were lost in a bloody battle at the [[Cavern of Blood]].

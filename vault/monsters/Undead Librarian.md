@@ -4,6 +4,7 @@ type: monster
 tags:
   - monster
   - classification/undead
+  - type/undead
 aliases:
 ---
 # Undead Librarian

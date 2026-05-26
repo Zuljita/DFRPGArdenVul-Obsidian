@@ -1,6 +1,8 @@
 ---
 tags:
   - note
+  - culture/thorcin
+  - era/historical
   - discord-summary
 ---
 

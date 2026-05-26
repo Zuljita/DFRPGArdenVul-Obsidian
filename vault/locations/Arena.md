@@ -3,6 +3,7 @@ title: Arena
 tags:
   - location
   - iconic
+  - tradition/rudishva
 appears_in:
   - "Session 32 - Fast Exploration"
   - "Session 44 - Clearing the Goblin Forum"

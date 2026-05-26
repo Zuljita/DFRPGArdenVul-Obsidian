@@ -1,5 +1,8 @@
 ---
 tags:
+  - type/heqeti
+  - tradition/thothian
+  - era/historical
   - faction
 ---
 

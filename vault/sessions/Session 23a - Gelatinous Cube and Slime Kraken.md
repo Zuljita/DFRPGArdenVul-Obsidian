@@ -3,6 +3,10 @@ title: "23A: Gelatinous Cube and Slime Kraken"
 tags:
   - session
   - recap
+  - tradition/thothian
+  - tradition/demma
+  - tradition/mitran
+  - culture/thorcin
 session_id: 23a
 in_world_date: Basilsday, 16th of Gerakios, 2993 AE
 ---
@@ -19,11 +23,11 @@ Hot, dry
 
 Player Characters: 
 
-[[pcs/Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon]], Archontean fighter (Greybrown)
+[[pcs/Vaelethron 'Vael' Sunshadow]], Half-Elven mage
+[[pcs/Vallium Halcyon]], Archontean fighter
 [[pcs/Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-[[pcs/Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo)
+[[pcs/Michael J. Dundee]], Thorcin barbarian
+[[pcs/Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]]
 
 
 Significant NPCs:

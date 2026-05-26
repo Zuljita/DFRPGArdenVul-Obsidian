@@ -3,6 +3,9 @@ title: Gribble
 tags:
   - npc
   - race/goblin
+  - type/goblin
+  - tradition/thothian
+  - tradition/settite
 aliases:
   - Domo Gribble
   - United Goblins Gribble

@@ -1,32 +1,11 @@
 ---
+title: "Order of the Subterranean Knights"
 tags:
   - faction
+  - redirect
+redirect_to: vault/factions/Sun-Scarred Knights.md
+status: redirect
 ---
-
 # Order of the Subterranean Knights
 
-## Summary
-
-A knightly order co-founded by [[Isocritis Half-Hand]] and [[Melacorius]].
-
-## Description
-
-TBD
-
-## Goals
-
-TBD
-
-## Leadership & Members
-
-- [[Isocritis Half-Hand]] (co-founder)
-- [[Melacorius]] (co-founder)
-
-## Allies & Rivals
-
-TBD
-- [[npcs/Under-Archon.md|Under-Archon]] (seeks to bring co-founder Melacorius to heel)
-
-## Notes
-
-- [[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand]] and Melacorius had a falling out after founding the order.
+This page has been merged into [[factions/Sun-Scarred Knights.md|Sun-Scarred Knights]]. The Order of the Subterranean Knights and the Sun-Scarred Knights are the same order.

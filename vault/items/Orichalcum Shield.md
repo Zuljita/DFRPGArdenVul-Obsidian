@@ -7,7 +7,7 @@ tags:
 # Orichalcum Shield
 
 ## Summary
-A shield made of [[Orichalcum]], possibly belonging to [[npcs/Coinbase.md|Coinbase]].
+A shield made of [[Orichalcum]], possibly belonging to [[pcs/grudge-brigade/Coinbase.md|Coinbase]].
 
 ## Description
 A sturdy shield crafted from the mythical metal [[Orichalcum]], known for its strength and often magical properties.
@@ -18,7 +18,7 @@ A sturdy shield crafted from the mythical metal [[Orichalcum]], known for its st
 - Potentially magical.
 
 ## Known History
-Mentioned in connection with [[npcs/Coinbase.md|Coinbase]].
+Mentioned in connection with [[pcs/grudge-brigade/Coinbase.md|Coinbase]].
 
 ## Notes
 

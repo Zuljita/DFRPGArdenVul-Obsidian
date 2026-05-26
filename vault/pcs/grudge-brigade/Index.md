@@ -3,6 +3,7 @@ title: Grudge Brigade Members
 tags:
   - pcs
   - grudge-brigade
+  - tradition/mitran
   - index
 ---
 

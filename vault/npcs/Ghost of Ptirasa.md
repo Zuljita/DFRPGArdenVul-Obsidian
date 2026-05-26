@@ -2,6 +2,8 @@
 title: Ghost of Ptirasa
 tags:
   - npc
+  - type/ghost
+  - tradition/thothian
 aliases:
   - Arpostas
 ---

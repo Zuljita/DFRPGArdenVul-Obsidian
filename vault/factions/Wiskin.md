@@ -1,5 +1,6 @@
 ---
 tags:
+  - culture/wiskin
   - faction
 ---
 

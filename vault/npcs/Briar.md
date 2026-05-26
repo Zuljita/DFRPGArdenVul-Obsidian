@@ -1,6 +1,7 @@
 ---
 title: Briar
 tags:
+  - type/wyvern
   - npc
 ---
 # Briar

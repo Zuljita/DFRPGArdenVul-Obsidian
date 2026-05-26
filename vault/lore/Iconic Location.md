@@ -1,6 +1,7 @@
 ---
 title: "Iconic Location"
 tags:
+  - tradition/thothian
   - lore
 ---
 # Iconic Location

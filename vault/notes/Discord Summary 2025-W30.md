@@ -1,6 +1,7 @@
 ---
 tags:
   - note
+  - tradition/thothian
   - discord-summary
 ---
 

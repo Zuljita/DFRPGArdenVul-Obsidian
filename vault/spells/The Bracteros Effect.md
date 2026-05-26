@@ -11,3 +11,7 @@ tags:
 - **Prerequisite:** Invisibility
 
 Renders a light source invisible to those more than 7 hexes away from it.
+
+## Source
+- Posted to `#new-spells` by the GM on 2025-08-03 (message `1401601298146660503`).
+- Channel rule: `#new-spells` is GM-only and contains canonical campaign-specific spell definitions. Treat every entry as authoritative campaign data.

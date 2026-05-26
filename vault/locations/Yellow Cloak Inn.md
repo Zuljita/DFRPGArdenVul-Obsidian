@@ -5,8 +5,7 @@ tags:
 appears_in:
   - "Session 2 - Halfling Rent-Seekers"
 ---
-# [[pcs/Vaelethron 'Vael' Sunshadow|Vael]].
-
+# Yellow Cloak Inn
 ## Discord Insights
 
 - A 5-story building with a 3-story addition near the Central Market in Gosterwick; has reception, lounge, common rooms, guest rooms, and dormitories; player characters spend a lot of time there. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])

@@ -3,12 +3,19 @@ tags:
   - item
   - rudishva
   - technology
+  - tradition/rudishva
 aliases:
-  - Rudishva Identity Plaque
   - Identity Plaque
   - ID Plaque
+  - ID Badge
   - Rudishva ID Badge
   - Identity Badge
+  - Rudishva Identity Cards
+  - Silver ID Card
+  - Yellow Rudishva Identity Plaque
+  - Yellow Identity Plaque
+  - Yellow Card
+  - Yellow Plaque
 ---
 
 # Rudishva Identity Plaque

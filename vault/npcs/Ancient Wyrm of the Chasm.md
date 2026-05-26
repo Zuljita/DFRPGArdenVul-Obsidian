@@ -1,5 +1,6 @@
 ---
 tags:
+  - type/dragon
   - npc
 ---
 

@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# [[Arden Vul]].
+# Obelisk
 - Contains writing about the [[Beacon]].
 
 ## Notes

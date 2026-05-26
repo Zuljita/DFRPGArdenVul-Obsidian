@@ -2,6 +2,8 @@
 title: "33: Nyema"
 tags:
   - session
+  - tradition/demma
+  - culture/thorcin
   - recap
 ---
 
@@ -14,11 +16,11 @@ Lunday, 5th of Dikaios, 2993 AE
 Cold, partly cloudy, windy
 
 ## Player Characters
-- Vallium Halcyon, Archontean fighter (Greybrown)
+- Vallium Halcyon, Archontean fighter
 - Ioannes Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
-- Vael Sunshadow, Half-Elven mage (Kyle)
-- Uvash Edzuson, Dwarven cleric of Zodarrim (Cosmo)
-- Lacrymosa, Elven Mercenary Archer (ArchonShiva)
+- Vael Sunshadow, Half-Elven mage
+- Uvash Edzuson, Dwarven cleric of Zodarrim
+- Lacrymosa, Elven Mercenary Archer
 
 ## Significant NPCs
 - Yamki, 3-armed intelligent giant baboon

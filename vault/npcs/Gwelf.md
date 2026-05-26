@@ -2,6 +2,7 @@
 title: Gwelf
 tags:
 - npc
+  - culture/thorcin
 aliases:
   - Gwelf, crazy Dwarven thief prisoner
   - Gwelf, deceased dwarven thief
@@ -24,7 +25,7 @@ A crazy Dwarven thief held prisoner, later found dead; his body was recovered fr
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
 
 ## History
-- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Dundee, Thorcin barbarian (Adam) [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis ([[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Dundee, Thorcin barbarian [[npcs/Thrainor Thronebreaker Ironvein.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis ([[npcs/Lasselanta Chrysalis Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
   - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Vallium had [[npcs/Gerrilad.md|Gerrilad]]'s keys, and used them to unlock three cells and release [[npcs/Tresti.md|Tresti]] the half-elven mage, [[npcs/Jost.md|Jost]] the Thorcin barbarian, and [[npcs/Gwelf.md|Gwelf]] the apparently insane dwarf, who was running around his cage singing silly dwarven drinking so...
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 29: [[locations/Tower of Scrutiny.md|The Tower of Scrutiny]] Date: Horasday, 26th of Besemios, 2993 AE Weather: Cool, cloudy, chance of r...
   - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — The cavern contained a half-eaten dwarf corpse, which Ioannes recognized as [[npcs/Gwelf.md|Gwelf]], the dwarf they had freed from [[npcs/Gerrilad.md|Gerrilad]]'s prison, who had then run off.

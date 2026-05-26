@@ -3,6 +3,7 @@ tags:
   - item
   - magic
   - thoth
+  - tradition/thothian
 aliases:
   - Thothian Teleportation Ring
   - Thothian Teleportation Rings

@@ -1,5 +1,5 @@
 ---
-tags: [auto-generated]
+tags: [auto-generated, culture/archontean]
 ---
 
 # Archontean golem-like constructs

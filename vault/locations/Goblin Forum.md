@@ -3,6 +3,8 @@ tags:
   - location
   - identity/uncertain
 status: stub
+aliases:
+  - Goblin Market
 ---
 
 # Goblin Forum

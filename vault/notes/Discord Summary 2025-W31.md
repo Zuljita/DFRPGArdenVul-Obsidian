@@ -1,87 +1,84 @@
 ---
+title: "Discord Summary 2025-W31"
 tags:
-  - note
   - discord-summary
+  - canonical-source
+week_ending: 2025-08-08
+source_type: private-discord-weekly-digest
+source_week: week-ending-2025-08-08-2300-central
 ---
 
-# Discord Summary: 2025-W31 (Distilled)
+# Discord Summary 2025-W31
 
-**Date Range:** 2025-08-04 to 2025-08-10
-**Messages:** 27
+## Source
+- Private Discord weekly digest
+- Week ending: 2025-08-08
 
----
+## Navigation
 
-## Distilled In-World Knowledge
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W30.md|Discord Summary 2025-W30]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W32.md|Discord Summary 2025-W32]]
+<!-- END AUTO NAV -->
 
-### Discoveries & Research
+# Weekly Chronicle: The Right for Ruala Company
+**Date:** Week ending 2025-08-08  
+**Subject:** Fraudulent Liturgies, Alchemical Failures, and the Bound Prisoner
 
-- The *Litany of Light* book found by the party is a fraud according to research sources; attempting the ritual would likely fail and might have negative consequences. [August_SeptemberTownRolls | 2025-08-05]
+### Summary
+The company faced a week of significant setbacks, characterized by failed alchemical endeavors and the unsettling discovery that recently acquired religious texts may be fraudulent. Amidst these frustrations, magical scrying provided a grim glimpse of a captive soul, setting new priorities for the company's next expedition.
 
-- A Seeker vision revealed a woman imprisoned in a cell lit by Continual Light—she appeared beaten, gagged, and bound, with bars on two sides and stone walls on the other two. _(Truncated: source data needed for full vision details.)_ [August_SeptemberTownRolls | 2025-08-07]
+### Events & Actions by Character
 
-- A Trace spell on Lillian indicates she is located to the north toward the ruins, relatively stationary, with no significant altitude difference detected. The trace lasts until the caster sleeps. [August_SeptemberTownRolls | 2025-08-07]
+**Uvash Edzuson**
+*   **Town actions:** Purchased two Dwarven religious texts from Astableon’s at a total cost of 150 silver; the more affordable volume is intended to be returned to his kin.
 
-### NPC Activity & Rumors
+**Vallium Halcyon**
+*   **Town actions:** Undertook a carousing endeavor at a cost of 125 silver, during which he encountered an individual named Dalton at the Stunned Acolyte. Dalton reported that progress past the Obsidian Gates has been halted for all travelers, as even high-level magic such as *Lockmaster* and *Blink* fails to penetrate them. Dalton believes there is "good treasure" behind the gates, providing a specific lead. Vallium inquired about armor from the armorer Torunn but held off on the deposit, as he could not yet afford the full suit. He specifically requested only Fine Heavy Scale Body Armor. Torunn noted she does not have Lighten enchantment available and requires a decision on whether he wants a full-face helmet or one with better visibility.
+*   **Alchemy and crafting:** Attempted to brew a Potion of Strength; the attempt was a failure, resulting in the potion catching fire and causing additional costs to the company.
+*   **Equipment changes:** None this week.
 
-- Dalton was encountered at the Stunned Acolyte; he mentioned he is currently trying to find a way past something. _(Truncated: source data needed to complete statement.)_ [August_SeptemberTownRolls | 2025-08-07]
+**Ioannes Grammatikos Byzantios**
+*   **Town actions:** Shared news regarding the Library of Thoth with Pelteon and Lyssandra, though he withheld information regarding specific spellbooks.
+*   **Alchemy and crafting:** Attempted to brew a Potion of Magebane; the attempt failed, resulting in increased costs for the company.
+*   **Research results:** Investigated the *Litany of Light*; sources indicate the text is a fraud and that attempting its rituals may lead to dangerous consequences. The party suspects this may be due to a critical failure on the research roll or that the vendor Stamelis provided a fake.
 
-### Commerce & Equipment
+**Vaelitharon "Vael" Sunshadow**
+*   **Town actions:** Conducted weekly scrying operations. *Pathfinder* yielded unclear results regarding the troll lifts. *Seeker* identified a woman named Lillian in a prison cell, gagged, bound, and in bad physical shape as though she had been beaten. The cell is lit by Continual Light (no orange hue). A goblin is present in the adjacent cell. *Trace* determined her location is mostly north, toward the ruins; no sense of movement or significant altitude difference was detected.
+*   **Alchemy and crafting:** None this week.
+*   **Research results:** None this week.
+*   **Equipment changes:** Transferred ownership of the Returning Pebble from the party to himself to track it properly. The pebble returns to its owner after 30 minutes, appearing suddenly without fanfare. The party agreed to sell the Wand of Freezing from the communal loot pool to balance character point distribution.
 
-- An armorer (Petra) offers a choice between a full face helmet or one providing better visibility, but cannot combine both features without magic. She deferred pushing the sale of both helmets until the party is ready to purchase armor, allowing them to mix and match depending on anticipated challenges. [August_SeptemberTownRolls | 2025-08-07]
+### Lore & Discoveries
+*   **The Found Texts:** The following volumes were identified:
+    *   *The Litany of Light* (Mithric): Describes four rituals for rooms around the Well of Light. (Note: Recent research indicates this text is a fraud).
+    *   *The Lives of the Noble Founders Arden and Vul* (Mithric): A biography detailing Arden's twelve labors and Vul's four summonings.
+    *   *The Deeds of Marius Tricotor* (Mithric): Chronicles the exploits of the Archon Marius, specifically his defeat of "amphibians" in the lower Halls.
+    *   *The Twelve Labors of Arden* (Archontean): A detailed account of Arden's trials against various foes, including owlbears, trolls, and dragons; the twelfth labor remains unrecorded.
+*   **Historical Figures:** Arden lived approximately 2000 years ago; while some regard her as a demigod, others remain skeptical.
+*   **The Obsidian Gates:** It is reported that no one has successfully passed these gates recently, as magical bypasses like *Lockmaster* and *Blink* are ineffective there.
 
-### Logistics & Procedures
+### World Rulings
+*   **Spells and Magic:**
+    *   *Perpetual Light* produces a distinctive orange hue.
+    *   The *Returning Pebble* returns to its owner after 30 minutes, appearing suddenly without fanfare.
+    *   The *Aim* maneuver does not receive an accuracy bonus from bracing a weapon with a second hand; the weapon must be braced against a solid object.
+    *   Scrying via *Pathfinder*, *Seeker*, and *Trace* is limited to one use per week for each specific spell type.
+*   **New Spells Established:** 
+    *   *Curse Item*: Permanent minor malevolent effect.
+    *   *Basil's Torch Treatment*: Triples torch lifespan.
+    *   *The Bracteros Effect*: Renders a light source invisible beyond 7 hexes.
+    *   *Frigg's Elephant Ears*: Causes ears to grow and droop upon detection of lies.
+    *   *Perpetual Light*: Permanent orange glow; requires arcanum consumption.
 
-- Contingency Casting can only be performed during active play sessions, not between sessions; Uvash must make the call during the next session. [August_SeptemberTownRolls | 2025-08-10]
+### Tactical Planning
+*   **The Well of Light Expedition:** The company intends to return to the Well of Light via flight down the shaft. Objectives include exploring unexplored rooms, reinstalling the primary mirror at the bottom of the shaft, and adjusting hallway mirrors for illumination. 
+*   **Contingency:** Due to the confirmed fraudulence of the *Litany of Light*, the company is hesitant to attempt the ritual, focusing instead on clearing the level and flooding it with light.
+*   **Mercenary Recruitment:** There is ongoing discussion regarding the recruitment of a second mercenary to bolster the company's strength.
 
-### Minor Notes
-
-- No orange was detected in the surveyed area. [August_SeptemberTownRolls | 2025-08-08]
-
----
-
-## Raw Source Data (Preserved)
-
-<details>
-<summary>Original Discord Summary</summary>
-
-### #August_SeptemberTownRolls
-
-- **GM** (2025-08-05): Research: Your sources indicate that the Litany of Light book you found is a fraud, and trying that ritual probably won't work and might have negative consequences. Alchemy: Failure, you made the potion but have to pay extra because it took two tries.
-- **GM** (2025-08-07): Alchemy: ooh, that did NOT go well. You spent all the money and your potion caught fire. Fortunately the Arcane Practitioners Club alchemy lab is designed for this kind of thing Carousing: You run into Dalton at the Stunned Acolyte. He tells you that he's currently trying to find a way past th...
-- **GM** (2025-08-07): Also she needs to know if you want a full face helmet or one that gives better visibility. She doesn't know how to do both at once without magic.
-- **GM** (2025-08-07): Seeing that you're not ready to buy the armor yet, she holds off on her attempt to sell you both helmets so that you can mix and match depending on the challenge.
-- **GM** (2025-08-07): Pathfinder: unclear Seeker: You see a woman in a prison cell. She is in bad physical shape as though she's been beaten. She is gagged and bound. The cell appears to be indoors and lit by Continual Light. There are bars on two sides of her cell, and the other two sides are stone walls. You se...
-- **GM** (2025-08-07): You have a Trace on Lillian. She's to the north. You don't get any feeling that she's moving around much. The Trace lasts until you go to bed, then expires.
-- **GM** (2025-08-07): The direction is mostly north, toward the ruins. The altitude difference is too small to notice, compared to the general sense of north.
-- **GM** (2025-08-08): He did not notice any orange.
-- **GM** (2025-08-10): Alchemy: success, you made Paut at a discount. Other stuff: Contingency Casting is only during sessions not between; that has to wait for Uvash to make the call, during the next session.
-
-### #archive
-
-- **GM** (2025-08-05): Research: Your sources indicate that the Litany of Light book you found is a fraud, and trying that ritual probably won't work and might have negative consequences. Alchemy: Failure, you made the potion but have to pay extra because it took two tries.
-- **GM** (2025-08-07): Alchemy: ooh, that did NOT go well. You spent all the money and your potion caught fire. Fortunately the Arcane Practitioners Club alchemy lab is designed for this kind of thing Carousing: You run into Dalton at the Stunned Acolyte. He tells you that he's currently trying to find a way past th...
-- **GM** (2025-08-07): Also she needs to know if you want a full face helmet or one that gives better visibility. She doesn't know how to do both at once without magic.
-- **GM** (2025-08-07): Seeing that you're not ready to buy the armor yet, she holds off on her attempt to sell you both helmets so that you can mix and match depending on the challenge.
-- **GM** (2025-08-07): Pathfinder: unclear Seeker: You see a woman in a prison cell. She is in bad physical shape as though she's been beaten. She is gagged and bound. The cell appears to be indoors and lit by Continual Light. There are bars on two sides of her cell, and the other two sides are stone walls. You se...
-- **GM** (2025-08-07): You have a Trace on Lillian. She's to the north. You don't get any feeling that she's moving around much. The Trace lasts until you go to bed, then expires.
-- **GM** (2025-08-07): The direction is mostly north, toward the ruins. The altitude difference is too small to notice, compared to the general sense of north.
-- **GM** (2025-08-08): He did not notice any orange.
-- **GM** (2025-08-10): Alchemy: success, you made Paut at a discount. Other stuff: Contingency Casting is only during sessions not between; that has to wait for Uvash to make the call, during the next session.
-
-### #town-rolls
-
-- **GM** (2025-08-05): Research: Your sources indicate that the Litany of Light book you found is a fraud, and trying that ritual probably won't work and might have negative consequences. Alchemy: Failure, you made the potion but have to pay extra because it took two tries.
-- **GM** (2025-08-07): Alchemy: ooh, that did NOT go well. You spent all the money and your potion caught fire. Fortunately the Arcane Practitioners Club alchemy lab is designed for this kind of thing Carousing: You run into Dalton at the Stunned Acolyte. He tells you that he's currently trying to find a way past th...
-- **GM** (2025-08-07): Also she needs to know if you want a full face helmet or one that gives better visibility. She doesn't know how to do both at once without magic.
-- **GM** (2025-08-07): Seeing that you're not ready to buy the armor yet, she holds off on her attempt to sell you both helmets so that you can mix and match depending on the challenge.
-- **GM** (2025-08-07): Pathfinder: unclear Seeker: You see a woman in a prison cell. She is in bad physical shape as though she's been beaten. She is gagged and bound. The cell appears to be indoors and lit by Continual Light. There are bars on two sides of her cell, and the other two sides are stone walls. You se...
-- **GM** (2025-08-07): You have a Trace on Lillian. She's to the north. You don't get any feeling that she's moving around much. The Trace lasts until you go to bed, then expires.
-- **GM** (2025-08-07): The direction is mostly north, toward the ruins. The altitude difference is too small to notice, compared to the general sense of north.
-- **GM** (2025-08-08): He did not notice any orange.
-- **GM** (2025-08-10): Alchemy: success, you made Paut at a discount. Other stuff: Contingency Casting is only during sessions not between; that has to wait for Uvash to make the call, during the next session.
-
-</details>
-
----
-*Generated: 2026-03-16 21:00*  
-*Distilled: 2026-03-18*
+### Unresolved Threads
+*   **The Lillian Mystery:** The status and location of the bound woman, Lillian, remain unknown.
+*   **The Litany Authenticity:** Whether the *Litany of Light* is truly a forgery or if the recent research was flawed remains unverified.
+*   **The Obsidian Gates:** The nature of the magical interference at the Obsidian Gates is an open mystery.
+*   **Pebble Hypothesis:** A plan exists to test the mechanics of the Returning Pebble by having Vael and Chrysalis give their respective pebbles to a third party simultaneously to see if they return at the exact same time.
+*   **Armor Procurement:** Completion of Vallium's armor request from Torunn remains pending, pending a decision on helmet type.

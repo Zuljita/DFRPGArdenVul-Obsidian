@@ -1,6 +1,7 @@
 ---
 title: Temple of Set
 tags:
+  - tradition/settite
   - location
 ---
 

@@ -1,6 +1,7 @@
 ---
 tags:
   - note
+  - era/historical
   - discord-summary
 ---
 

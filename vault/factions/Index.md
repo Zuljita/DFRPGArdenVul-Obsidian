@@ -2,6 +2,7 @@
 tags:
   - faction
   - culture/archontean
+  - tradition/settite
   - culture/thorcin
 ---
 

@@ -2,6 +2,8 @@
 title: Halfling Slayer
 tags:
   - npc
+  - type/halfling
+  - race/halfling
 appears_in:
   - "Session 32 - Fast Exploration"
 ---

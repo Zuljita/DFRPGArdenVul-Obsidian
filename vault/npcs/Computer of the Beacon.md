@@ -2,6 +2,7 @@
 tags:
   - npc
   - type/ai
+  - tradition/rudishva
   - faction/rudishva
 ---
 

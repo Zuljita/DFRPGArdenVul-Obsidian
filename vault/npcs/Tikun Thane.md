@@ -1,6 +1,8 @@
 ---
 tags:
   - npc
+aliases:
+  - The Thane
 ---
 
 # Tikun Thane
@@ -36,3 +38,7 @@ A hostile wizard based in the [[locations/Tower of the Ape.md|Tower of the Ape]]
 
 - A reclusive Archontean wizard who owns the Tower of the Ape in Newmarket, rumored to have apes inside. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])
 - Has a workshop where pieces of broken magic items were found. ([[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]])
+
+## Initial Identification
+- First appeared as 'The Thane', a wizard from [[locations/Newmarket.md|Newmarket]] who kidnaps baboons from the [[locations/Howling Caves.md|Howling Caves]]. ([[sessions/Session 33 - Nyema.md|Session 33 - Nyema]])
+- Subsequently identified by name as Tikun Thane in the Tower of the Ape engagements.

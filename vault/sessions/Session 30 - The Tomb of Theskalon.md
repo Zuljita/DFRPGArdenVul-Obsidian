@@ -3,6 +3,11 @@ title: "30: The Tomb of Theskalon"
 tags:
   - session
   - recap
+  - tradition/thothian
+  - tradition/settite
+  - tradition/demma
+  - culture/thorcin
+  - culture/wiskin
 session_id: 30
 ---
 
@@ -19,11 +24,11 @@ Cool, cloudy, chance of rain
 
 Player Characters: 
 
-Vallium Halcyon, Archontean fighter (Greybrown)
-Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo)
+Vallium Halcyon, Archontean fighter
+Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]]
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
-Chrysalis ([[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage
+Chrysalis ([[npcs/Lasselanta Chrysalis Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva)
 
 
 Significant NPCs:

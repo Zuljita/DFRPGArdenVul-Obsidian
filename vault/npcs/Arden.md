@@ -2,6 +2,8 @@
 title: Arden
 tags:
   - npc
+  - culture/wiskin
+  - era/historical
 appears_in:
   - Session 1 - First Visit to the Ruins of Arden Vul
   - Session 5 - Parleys and The Great Cavern
@@ -15,6 +17,8 @@ appears_in:
 ## Summary
 
 [[npcs/Arden.md|Arden]] is one of the 20 Worthies of the Empire and a legendary hero who lived approximately 2100 years ago. Along with her partner, [[npcs/Vul the Sorcerer.md|Vul the Sorcerer]], she discovered the cavern system that would become the [[Halls of Arden Vul]]. The city founded there was later named in their honor.
+
+The discovery of the site took place in 829 AEP.
 
 ## History & Lore
 

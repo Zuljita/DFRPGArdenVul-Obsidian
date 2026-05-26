@@ -2,6 +2,8 @@
 title: Archontean Empire
 tags:
   - faction
+  - type/troll
+  - culture/archontean
   - culture/archontean
 ---
 # Archontean Empire

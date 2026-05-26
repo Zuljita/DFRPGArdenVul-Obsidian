@@ -9,6 +9,7 @@ tags:
 aliases:
   - Chrysalis
   - Lasselanta Ashcroft
+  - Thorne Lasselanta Ashcroft
 appears_in:
   - "Session 42a - Neferet"
   - "Session 42b - Neferet and the Wraiths"
@@ -51,3 +52,7 @@ Mariposa is Chrysalis's monkey familiar. A gargoyle in the Great Hall swooped at
 ## Appears In
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42b - Neferet and the Wraiths]]
+
+## Earlier Appearances
+- [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
+- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]

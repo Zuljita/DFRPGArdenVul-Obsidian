@@ -5,6 +5,7 @@ tags:
   - race/goblin
   - race/imperial-goblin
   - profession/thief
+  - tradition/settite
   - status/deceased
 ---
 

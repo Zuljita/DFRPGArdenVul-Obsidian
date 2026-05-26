@@ -4,6 +4,7 @@ tags:
   - npc
   - profession/guard
   - profession/fighter
+  - type/troll
 aliases:
   - Dworm, guard
 ---

@@ -1,13 +1,11 @@
+---
+title: "Molivios"
+tags:
+  - calendar
+  - redirect
+redirect_to: vault/lore/The Archontean Calendar.md
+status: redirect
+---
 # Molivios
 
-## Summary
-A month in the [[The Archontean Calendar.md|Archontean Calendar]].
-
-## Season
-Winter
-
-## Position in Year
-First month of the year.
-
-## Notes
-Corresponds to the real-world equivalent of January. Ancient name: Patebrius.
+This page has been merged into [[lore/The Archontean Calendar.md|The Archontean Calendar]] — see the **Months of the Year** section.

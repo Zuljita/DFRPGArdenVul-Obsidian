@@ -127,6 +127,17 @@ Frontmatter conventions for new stubs:
 
 Verification: every added claim must be supported by a Blogspot recap, Discord digest, Discord rollup excerpt, or spreadsheet snapshot. The verifier classifies the claim as supported, contradicted, ambiguous, or not_found before automatic promotion. Rulebook entries (verified against the DFRPG MechanicsVault Chroma collection) are filtered out — generic published spells, items, and monster stat blocks do not get campaign-specific vault pages.
 
+### Preservation channels (verbatim canonical content)
+
+Some Discord channels are GM-authored and contain canonical campaign data that must be preserved verbatim, not summarized. The rules-RAG generic-rulebook filter does NOT apply to content sourced from these channels — even if the spell/item name collides with a DFRPG canon entry, the GM's version in a preservation channel is authoritative.
+
+- **`#new-spells`** — GM-only. Each message is a custom spell definition (campaign-specific). Every message gets its own `vault/spells/<Spell Name>.md` page containing the verbatim text in a fenced `## Definition` block + `## Source` attribution with `source_channel`, `source_message_id`, `source_date` frontmatter. Names that collide with DFRPG canon (e.g., `Hallow`, `Curse Item`) are kept because the GM's text supersedes the rulebook for this campaign.
+- **`#worldbuilding`** (and all its threads, including `the-book-of-priors`) — GM-authored canonical lore. Long-form structured text (multi-paragraph, lists, headers) should be preserved verbatim under `vault/lore/<Topic>.md`. Do NOT summarize.
+
+The rules-RAG QC step (`scripts/dedup_qc.py verify-rules-rag-qc`) may misclassify preservation-channel content as `generic_rulebook` because the spell name matches GURPS canon. Verify the source channel before deleting any flagged page.
+
+See `data/automation/proposals/canonical_preservation_design.md` for the proposed pipeline that automates this.
+
 ### Local LLM
 - See `config/local_sources.json` (gitignored) for `llm_base_url` and `llm_model`. The current setup uses an LM-Studio gateway serving a Gemma-4 26B reasoning model.
 - Reasoning models burn 200–500 tokens of internal chain-of-thought before producing visible content; budget max_tokens accordingly (we use 16384 in `llm_chat_json`).
@@ -206,3 +217,7 @@ Safe daily-cron defaults: `article_edit_queue_top: 2`, `article_edit_walk_step: 
 - **`run-low-risk` doesn't yet auto-run the new-entity lane** — propose/verify/apply for new entity stubs is manual-only until verifier confidence is proven across more candidates.
 - **ChromaDB Rust bindings segfault on a corrupted index** (`chromadb_rust_bindings.abi3.so` crash during `coll.count()`/`coll.query()`). Triggered once during this session by accidentally running two `vault_walk_sprint.sh` loops at the same time — the parallel writes corrupted the on-disk store. **Always rebuild via `ingest-vault-rag --reset` if the harness starts returning rc=139.** The sprint script should add a `flock` guard so a duplicate launch can't race the store again.
 - **Sprint script (`/tmp/vault_walk_sprint.sh`) is untracked** and lacks any concurrency guard. If you re-run a sprint, add `flock` against a sentinel file in `/tmp/` to prevent dual-loop corruption.
+
+## Proposal Approval Workflow (Discord)
+
+Vault edits flow through a reaction-driven Discord approval workflow in #botland. See [docs/PROPOSAL_APPROVAL_WORKFLOW.md](docs/PROPOSAL_APPROVAL_WORKFLOW.md) for the full pipeline (`scripts/vault_proposals_discord.py` + Hermes cron polling).

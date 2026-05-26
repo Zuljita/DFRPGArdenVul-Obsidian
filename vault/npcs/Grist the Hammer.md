@@ -2,6 +2,7 @@
 title: "Grist the Hammer"
 tags:
   - npc
+  - tradition/settite
 aliases:
   - Grist
 ---

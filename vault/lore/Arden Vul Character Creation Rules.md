@@ -3,6 +3,7 @@ tags:
   - lore
   - culture/archontean
   - culture/thorcin
+  - culture/thorcin
 ---
 
 # [[locations/Arden Vul.md|Arden Vul]] Character Creation Rules (2025-03-06)
@@ -40,7 +41,7 @@ This document outlines the specific rules for character creation in the DFRPG [[
 - **Important Languages in the Area:**
     - **[[lore/Archontean.md|Archontean]]**: More urban and ruling class.
     - **[[lore/Thorcin.md|Thorcin]]**: More rural and working class.
-    - **[[Mithric]]**: The language of the ancient [[lore/Archontean Empire.md|Archontean Empire]], currently a "dead" native language but essential for magic, some religions, and scholars. Spellbooks and scrolls are written in [[Mithric]], so mages and clerics should know it.
+    - **[[Mithric]]**: The language of the ancient [[factions/Archontean Empire.md|Archontean Empire]], currently a "dead" native language but essential for magic, some religions, and scholars. Spellbooks and scrolls are written in [[Mithric]], so mages and clerics should know it.
 - **Language Levels:** Allowed to take languages at Accented or Broken levels for fewer points (using GURPS Basic [[npcs/Set.md|Set]] rules in GCS).
 
 ## Equipment and Economy

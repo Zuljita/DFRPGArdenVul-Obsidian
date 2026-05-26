@@ -3,6 +3,7 @@ tags:
   - npc
   - knight
   - second-chance
+  - culture/thorcin
 aliases:
   - Knight Sixth
   - Sixt

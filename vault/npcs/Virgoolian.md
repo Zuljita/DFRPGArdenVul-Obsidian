@@ -4,6 +4,8 @@ tags:
   - npc
   - race/goblin
   - profession/chemist
+  - type/goblin
+  - type/troll
 aliases:
   - Virgoolian, goblin chemist
 appears_in:

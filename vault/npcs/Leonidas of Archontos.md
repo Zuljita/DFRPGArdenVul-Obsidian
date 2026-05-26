@@ -2,6 +2,8 @@
 title: Leonidas of Archontos
 tags:
   - npc
+  - era/historical
+  - status/deceased
 aliases:
 ---
 # Leonidas of [[locations/Archontos.md|Archontos]]

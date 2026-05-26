@@ -1,15 +1,11 @@
 ---
-tags: [auto-generated]
+title: "APC"
+tags:
+  - faction
+  - redirect
+redirect_to: vault/factions/Arcane Practitioners' Club.md
+status: redirect
 ---
-
 # APC
 
-*Location*
-
-## Summary
-
-land can be purchased nearby; presumably the Arcane Practitioners Club
-
-## Discord Insights
-
-- land can be purchased nearby; presumably the Arcane Practitioners Club ([[notes/Discord Summary 2025-W50.md|Discord Summary 2025-W50]])
+This page has been merged into [[factions/Arcane Practitioners' Club.md|Arcane Practitioners' Club]].

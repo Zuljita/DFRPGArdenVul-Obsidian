@@ -1,6 +1,7 @@
 ---
 tags:
   - note
+  - culture/thorcin
   - discord-summary
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Temple of Mitra
 tags:
+  - tradition/mitran
   - location
 ---
 # Temple of [[npcs/Mitra.md|Mitra]] is a circular stone structure fronted by a portico with an impressive pediment.

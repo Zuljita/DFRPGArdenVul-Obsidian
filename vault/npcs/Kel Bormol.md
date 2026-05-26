@@ -1,5 +1,7 @@
 ---
 tags:
+  - tradition/thothian
+  - era/historical
   - npc
 ---
 

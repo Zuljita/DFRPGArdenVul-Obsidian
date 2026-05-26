@@ -2,6 +2,7 @@
 title: Jost
 tags:
   - npc
+  - culture/thorcin
 aliases:
 ---
 # Jost

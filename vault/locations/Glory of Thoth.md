@@ -4,6 +4,7 @@ aliases:
   - locations/Glory of Weskenim
   - Glory of Weskenim
 tags:
+  - tradition/thothian
   - location
 ---
 

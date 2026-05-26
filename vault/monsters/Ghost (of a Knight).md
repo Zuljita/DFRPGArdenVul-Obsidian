@@ -4,6 +4,8 @@ type: monster
 tags:
   - monster
   - classification/undead
+  - type/ghost
+  - type/undead
 aliases:
 ---
 # Ghost (of a Knight)

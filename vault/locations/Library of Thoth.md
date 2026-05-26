@@ -2,6 +2,7 @@
 title: Library of Thoth
 tags:
   - location
+  - tradition/thothian
 appears_in:
   - "Session 21 - The Library of Thoth"
   - "Session 28 - Teleport Rugs and Baboons"

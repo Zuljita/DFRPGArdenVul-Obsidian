@@ -2,6 +2,7 @@
 title: Gerrilad
 tags:
   - npc
+  - culture/thorcin
 aliases:
   - Weird guy who hangs out with baboons
 appears_in:
@@ -21,7 +22,7 @@ He possessed 3 out of a total of 25 keys.
 - [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
 
 ## History
-- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Dundee, Thorcin barbarian (Adam) [[npcs/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis ([[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
+- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Dundee, Thorcin barbarian [[npcs/Thrainor Thronebreaker Ironvein.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fighter (Martin) Chrysalis ([[npcs/Lasselanta Chrysalis Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva) Significant NPCs: 3 undead rats 2 ghouls Small bal...
   - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Vallium had [[npcs/Gerrilad.md|Gerrilad]]'s keys, and used them to unlock three cells and release [[npcs/Tresti.md|Tresti]] the half-elven mage, [[npcs/Jost.md|Jost]] the Thorcin barbarian, and [[npcs/Gwelf.md|Gwelf]] the apparently insane dwarf, who was running around his cage singing silly dwarven drinking so...
 - [[sessions/Session 18 - Back Down the Well of Light.md|Session 18 - Back Down the Well of Light]] — Vael and Ioannes asked [[npcs/Stamelis.md|Stamelis]] a lot of questions, and he verified that [[locations/Library of Thoth.md|The Library of Thoth]] was just to the west of here, that th...
 - [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]] — Vallium went through his collection of keys, and one of them (which had been taken from [[npcs/Gerrilad.md|Gerrilad]]) unlocked the door.

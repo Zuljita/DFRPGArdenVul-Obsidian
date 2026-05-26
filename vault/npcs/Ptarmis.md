@@ -2,6 +2,8 @@
 title: Ptarmis
 tags:
 - npc
+  - tradition/thothian
+  - era/historical
 aliases:
   - Ptarmis, strange robed human
 appears_in:

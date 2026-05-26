@@ -2,6 +2,8 @@
 title: "39: Diving for the Yellow Card"
 tags:
   - session
+  - tradition/thothian
+  - tradition/demma
   - recap
 ---
 
@@ -13,7 +15,7 @@ Weather: 
 Frigid, party cloudy, snowy
 
 Player Characters: 
-[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)Thrainor "Thronebreaker" Ironvein, Dwarven mercenary fighter (ArchonShiva)
+[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of ZodarrimThrainor "Thronebreaker" Ironvein, Dwarven mercenary fighter
 
 Significant NPCs:
 [[npcs/Roger.md|Roger the Rapier]], leader of the Five Fingers of Destiny adventuring company

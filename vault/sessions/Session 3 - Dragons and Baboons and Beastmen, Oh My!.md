@@ -3,6 +3,11 @@ title: "3: Dragons and Baboons and Beastmen, Oh My!"
 tags:
   - session
   - recap
+  - tradition/thothian
+  - tradition/demma
+  - tradition/mitran
+  - culture/thorcin
+  - era/historical
 session_id: 3
 ---
 
@@ -21,9 +26,9 @@ Cool, overcast, light rain
 Player Characters:
 
 - [[vault/pcs/Ioannes Grammatikos Byzantios|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-- [[vault/pcs/Michael J Dundee|Michael J Dundee]], Thorcin barbarian (Adam)
-- [[vault/pcs/Vaelethron 'Vael' Sunshadow|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
-- [[vault/pcs/Vallium Halcyon|Vallium Halcyon]], Archontean fighter (Greybrown)
+- [[vault/pcs/Michael J Dundee|Michael J Dundee]], Thorcin barbarian
+- [[vault/pcs/Vaelethron 'Vael' Sunshadow|Vaelethron 'Vael' Sunshadow]], Half-Elven mage
+- [[vault/pcs/Vallium Halcyon|Vallium Halcyon]], Archontean fighter
 - [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase Ethereum Thuringwador]], Elven Shield Bro (mercenary) (Archon Shiva)
 
 
@@ -123,7 +128,6 @@ It sounds like they're going to keep exploring the halfling level.  They don't l
 
 ## Sources
 
-- [[lore/recording-notes/Recording 2025-03-28.md|Recording Notes (2025-03-28)]]
 - [Original Source](https://dfwhiterock.blogspot.com/2025/03/dfrpg-arden-vul-session-3-dragons-and.html)
 
 ## Session Navigation

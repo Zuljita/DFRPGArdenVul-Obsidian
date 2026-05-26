@@ -3,6 +3,10 @@ title: "8a: Never Trust a Scorpion"
 tags:
   - session
   - recap
+  - tradition/thothian
+  - tradition/demma
+  - culture/thorcin
+  - era/historical
 session_id: 8a
 ---
 
@@ -21,10 +25,10 @@ Cool, rainy
 Player Characters:
 
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-- [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
+- [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter
 - [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
-- [[pcs/Michael J. Dundee.md|Michael J. Dundee]], Thorcin barbarian (Adam)
-- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
+- [[pcs/Michael J. Dundee.md|Michael J. Dundee]], Thorcin barbarian
+- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage
 
 
 Significant NPCs:
@@ -141,7 +145,6 @@ For once, I can confidently say what they'll be doing at the start of the next s
 
 ## Sources
 
-- [[lore/recording-notes/Recording 2025-05-02.md|Recording Notes (2025-05-02)]]
 - [Original Source](https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-8a-never-trust.html)
 
 ## Session Navigation

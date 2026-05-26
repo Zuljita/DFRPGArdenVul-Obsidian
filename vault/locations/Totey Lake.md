@@ -1,11 +1,11 @@
 ---
+title: "Totey Lake"
 tags:
   - location
+  - redirect
+redirect_to: vault/locations/Gosterwick.md
+status: redirect
 ---
+# Totey Lake
 
-# [[Gosterwick]].
-- Fishermen operate by the docks on this lake.
-
-## Notes
-- Near the [[Baliff's Truncheon]].
-- Some of the fishing and boating people along Totey Lake can swim and one is willing to give some lessons.
+This page has been merged into [[locations/Gosterwick.md|Gosterwick]]. See the Districts & Landmarks and Notable Establishments sections.

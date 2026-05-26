@@ -4,6 +4,7 @@ tags:
   - npc
   - race/human
   - faction/cult-of-set
+  - tradition/settite
   - profession/accountant
 ---
 

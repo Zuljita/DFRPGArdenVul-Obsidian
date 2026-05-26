@@ -3,6 +3,10 @@ title: "18: Back Down the Well of Light"
 tags:
   - session
   - recap
+  - tradition/thothian
+  - tradition/demma
+  - culture/thorcin
+  - culture/wiskin
 session_id: 18
 ---
 
@@ -22,9 +26,9 @@ Player Characters:
 
 
 [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-[[pcs/Michael J. Dundee.md|Michael J. Dundee]], Thorcin barbarian (Adam)
-[[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo)
-[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
+[[pcs/Michael J. Dundee.md|Michael J. Dundee]], Thorcin barbarian
+[[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]]
+[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage
 
 
 Significant NPCs:

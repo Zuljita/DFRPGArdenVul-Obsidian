@@ -1,15 +1,11 @@
 ---
+title: "Demmasday"
 tags:
-  - concept
-  - identity/uncertain
-status: stub
+  - calendar
+  - redirect
+redirect_to: vault/lore/The Archontean Calendar.md
+status: redirect
 ---
-
 # Demmasday
 
-## Summary
-A specific day or date designation used within the Arden Vul calendar system.
-
-## Sources
-- [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
-- [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
+This page has been merged into [[lore/The Archontean Calendar.md|The Archontean Calendar]] — see the **Days of the Week** section.

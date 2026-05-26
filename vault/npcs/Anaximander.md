@@ -2,6 +2,7 @@
 title: Anaximander
 tags:
 - npc
+  - tradition/mitran
 aliases:
   - Anaximander, ancient insane cleric of Mitra
   - Anaximander, ancient sage and cleric of Mitra

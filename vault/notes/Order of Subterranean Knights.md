@@ -1,15 +1,11 @@
 ---
-tags: [auto-generated]
+title: "Order of Subterranean Knights"
+tags:
+  - faction
+  - redirect
+redirect_to: vault/factions/Sun-Scarred Knights.md
+status: redirect
 ---
-
 # Order of Subterranean Knights
 
-*Faction*
-
-## Summary
-
-Co-founded by Isocrates.
-
-## Discord Insights
-
-- Co-founded by Isocrates. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])
+This page has been merged into [[factions/Sun-Scarred Knights.md|Sun-Scarred Knights]].

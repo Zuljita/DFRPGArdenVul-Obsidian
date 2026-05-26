@@ -2,6 +2,7 @@
 title: Remagis
 tags:
   - npc
+  - tradition/thothian
 aliases:
   - Remagis, un-petrified ancient priest of Thoth
 ---

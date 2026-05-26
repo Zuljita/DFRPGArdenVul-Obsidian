@@ -1,6 +1,8 @@
 ---
 tags:
   - item
+aliases:
+  - Magic Staff (glowing blue)
 ---
 
 # Staff of Blue Light

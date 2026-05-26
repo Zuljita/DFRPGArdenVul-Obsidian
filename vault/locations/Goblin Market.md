@@ -1,10 +1,11 @@
 ---
-title: Goblin Market
+title: "Goblin Market"
 tags:
   - location
-appears_in:
-  - "Session 31 - I Want to Believe"
-aliases:
-  - Goblin Forum
+  - redirect
+redirect_to: vault/locations/Goblin Forum.md
+status: redirect
 ---
-# Goblin Market, but this one was pale green.
+# Goblin Market
+
+This page has been merged into [[locations/Goblin Forum.md|Goblin Forum]].

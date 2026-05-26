@@ -1,6 +1,7 @@
 ---
 tags:
   - note
+  - tradition/thothian
   - discord-summary
 ---
 
@@ -46,7 +47,7 @@ tags:
 - There are lots and lots of empty lots near the Arcane Practitioners Club. [gm-lore-drops | 2025-12-06]
 
 ### Party Activities (⚠️ Partial/Truncated)
-- Vael wants to spend downtime creating comprehensive maps from explored areas to post all over the walls of the dining room in the Beacon. He doesn't want to make a huge amount of extra prep time for the GM. He's asking if the GM could activate a few maps (without tokens so he can't move around or reveal anything) between sessions so he can start trying to map that out as Kyle (to support mapping it out as Vael). Just trying to see a way where he can build maps during downtime in character without causing a ton of work. Tokens on maps but game on pause? Otherwise he'll just try to keep snagging screenshots during the game. [#archive | 2025-12-02; #questions-for-gm | 2025-12-02]
+- Vael wants to spend downtime creating comprehensive maps from explored areas to post all over the walls of the dining room in the Beacon. Vael's player doesn't want to make a huge amount of extra prep time for the GM, and is asking if the GM could activate a few maps (without tokens so the player can't move around or reveal anything) between sessions, so the player can start trying to map that out out-of-game to support mapping it out as Vael in-character. Just trying to see a way where Vael can build maps during downtime in character without causing a ton of work. Tokens on maps but game on pause? Otherwise the player will just try to keep snagging screenshots during the game. [#archive | 2025-12-02; #questions-for-gm | 2025-12-02]
 - Vael is considering taking Navigation to combine with Trace and Absolute Direction to triangulate the party's position relative to the Beacon. [#archive | 2025-12-03; #questions-for-gm | 2025-12-03]
 - Vallium visited Anaximander at the Temple of Mitra to ask about symbols of snake, cat, lizard, ram, and winged horse, theorizing the ram represents the 2nd Legion (Sheep's Head Rangers). [#archive | 2025-12-02; #town-rolls | 2025-12-02]
 

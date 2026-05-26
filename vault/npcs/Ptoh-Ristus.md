@@ -2,6 +2,7 @@
 title: Ptoh-Ristus
 tags:
   - npc
+  - tradition/thothian
 appears_in:
   - Session 27 - The Tomb of Ptoh-Ristus
 ---

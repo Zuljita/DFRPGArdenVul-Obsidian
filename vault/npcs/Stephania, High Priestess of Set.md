@@ -2,6 +2,7 @@
 tags:
   - npc
   - faction/cult-of-set
+  - tradition/settite
   - title/high-priestess
 ---
 

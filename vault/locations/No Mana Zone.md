@@ -2,6 +2,7 @@
 tags:
   - location
   - identity/uncertain
+  - tradition/thothian
 status: stub
 ---
 

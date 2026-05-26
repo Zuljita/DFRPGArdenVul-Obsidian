@@ -6,6 +6,7 @@ tags:
 - classification/construct
 - body_plan/humanoid
 - sentience/mindless
+  - tradition/thothian
 aliases:
   - Ibis-headed guardians of Thoth
   - Ibis Constructs

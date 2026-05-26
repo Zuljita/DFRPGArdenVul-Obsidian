@@ -1,12 +1,13 @@
 ---
 tags:
+  - culture/archontean
   - item
 ---
 
 # The [[factions/Archontean Empire.md|Archontean Empire]]
 
 ## Description
-A book or tome discussing the history and workings of the [[lore/Archontean Empire.md|Archontean Empire]].
+A book or tome discussing the history and workings of the [[factions/Archontean Empire.md|Archontean Empire]].
 
 ## Properties
 - Reference material.

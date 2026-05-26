@@ -5,8 +5,7 @@ tags:
 appears_in:
   - "Session 32 - Fast Exploration"
 ---
-# [[npcs/Lotus.md|Red Lotus]]
-
+# Red Lotus
 ## Appears In
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 

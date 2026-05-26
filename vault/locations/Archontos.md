@@ -3,8 +3,7 @@ tags:
   - location
 ---
 
-# [[lore/Archontean Empire.md|Archontean Empire]]
-
+# Archontos
 ## Discord Insights
 
 - A location where a counterpart to the high priest of Set resided, and where a Set temple succeeded in breeding fearsome animals. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])

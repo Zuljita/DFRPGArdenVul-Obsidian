@@ -2,6 +2,7 @@
 title: "Theskalon the Master"
 tags:
   - npc
+  - tradition/settite
 aliases:
   - Theskelon the Master
 ---

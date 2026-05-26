@@ -1,6 +1,7 @@
 ---
 tags:
   - note
+  - tradition/mitran
   - discord-summary
 ---
 

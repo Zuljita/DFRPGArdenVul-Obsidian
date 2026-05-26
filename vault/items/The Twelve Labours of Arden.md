@@ -1,5 +1,8 @@
 ---
 tags:
+  - culture/thorcin
+  - culture/wiskin
+  - era/historical
   - item
 ---
 

@@ -2,6 +2,8 @@
 tags:
   - lore
   - culture/thorcin
+  - culture/wiskin
+  - culture/thorcin
 ---
 
 # [[locations/Yellow Cloak Inn.md|Yellow Cloak Inn]] Details

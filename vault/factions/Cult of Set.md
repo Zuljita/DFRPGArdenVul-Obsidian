@@ -2,6 +2,7 @@
 title: Cult of Set
 tags:
   - faction
+  - tradition/settite
 aliases:
   - Set cult
 ---

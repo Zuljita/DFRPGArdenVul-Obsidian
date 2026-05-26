@@ -2,6 +2,7 @@
 title: Barnaby Goodbarrel
 tags:
   - npc
+  - type/halfling
 appears_in:
   - Session 25 - Looking for the Back Door to the Forum of Set
   - "Session 31 - I Want to Believe"

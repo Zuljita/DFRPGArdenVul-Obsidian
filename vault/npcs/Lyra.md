@@ -1,5 +1,6 @@
 ---
 tags:
+  - status/deceased
   - npc
 ---
 

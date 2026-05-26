@@ -2,6 +2,7 @@
 tags:
   - item
   - identity/uncertain
+  - tradition/rudishva
 status: stub
 ---
 

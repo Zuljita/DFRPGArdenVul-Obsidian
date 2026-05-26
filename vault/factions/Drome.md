@@ -1,13 +1,16 @@
 ---
 tags:
   - faction
+  - tradition/settite
+  - culture/archontean
+  - era/historical
   - culture/archontean
 ---
 
 # Drome
 
 ## Summary
-The [[factions/Drome.md|Drome]] is a powerful and officially sanctioned organization within the [[lore/Archontean Empire.md|Archontean Empire]], responsible for law enforcement and handling sensitive matters. They are known to operate out of the [[House of Sight]] in [[Gosterwick]].
+The [[factions/Drome.md|Drome]] is a powerful and officially sanctioned organization within the [[factions/Archontean Empire.md|Archontean Empire]], responsible for law enforcement and handling sensitive matters. They are known to operate out of the [[House of Sight]] in [[Gosterwick]].
 
 ## Activities
 - **Investigation of [[npcs/Susarra.md|Susarra]]'s Murder:** The [[factions/Drome.md|Drome]] was officially informed of the murder of [[Susarra]] in [[Gosterwick]]. While they could not officially endorse a retaliatory attack on the [[Cult of Set]], they assisted the party's investigation by providing a blood sample of the victim for magical tracking.

@@ -1,3 +1,7 @@
+---
+tags:
+  - tradition/thothian
+---
 # Discord Summary: 2026-W10 (Distilled)
 
 **Date Range:** 2026-03-09 to 2026-03-15

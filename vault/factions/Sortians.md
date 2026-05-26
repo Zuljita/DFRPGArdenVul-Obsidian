@@ -1,6 +1,8 @@
 ---
 tags:
 - faction
+  - tradition/thothian
+  - era/historical
 aliases:
   - factions/Sortian
 ---

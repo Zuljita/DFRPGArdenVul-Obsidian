@@ -1,6 +1,7 @@
 ---
 title: Anubis
 tags:
+  - tradition/thothian
   - npc
 ---
 # Anubis

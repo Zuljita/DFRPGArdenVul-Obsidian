@@ -2,6 +2,8 @@
 title: "45: Purple Mist and the Drowned Canyon"
 tags:
   - session
+  - tradition/thothian
+  - tradition/demma
   - recap
 ---
 

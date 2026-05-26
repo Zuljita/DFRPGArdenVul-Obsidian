@@ -482,7 +482,7 @@
 ### Resolved/Updated
 
 - **Egrk's cave people trade** — Trade completed in Session 28; no further contact this session.
-- **[[npcs/Thorne Lasselanta Ashcroft.md|Chrysalis]]** — Not present this session.
+- **[[npcs/Lasselanta Chrysalis Ashcroft.md|Chrysalis]]** — Not present this session.
 
 ### Inter-Session Discord (W48, 2025-12-01 to 2025-12-07)
 

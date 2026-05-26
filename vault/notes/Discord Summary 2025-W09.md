@@ -3,6 +3,7 @@ title: "Discord Summary 2025-W09"
 tags:
   - discord-summary
   - canonical-source
+  - culture/thorcin
 week_ending: 2025-03-07
 source_type: private-discord-weekly-digest
 ---
@@ -25,7 +26,7 @@ source_type: private-discord-weekly-digest
 **Subject:** Preparations, Character Formations, and World Rulings
 
 ### 1. Summary
-The adventuring company has solidified its core membership and established the foundational rules for the campaign. The GM, Dripton, has clarified several critical house rules regarding character creation, combat mechanics, and magical laws. New player Adam M. has been introduced and briefed on the system. The party aims to finalize character sheets and recruit a fifth full-time member, targeting a first session around March 14th.
+The adventuring company has solidified its core membership and established the foundational rules for the campaign. The GM has clarified several critical house rules regarding character creation, combat mechanics, and magical laws. A new player has been introduced and briefed on the system. The party aims to finalize character sheets and recruit a fifth full-time member, targeting a first session around March 14th.
 
 ### 2. Events & Actions by Character
 
@@ -51,8 +52,8 @@ The adventuring company has solidified its core membership and established the f
 *   **Character Development:** Exploring a Druid concept focused on animal summoning and an Archer concept. Investigating the viability of "Kiai" as a primary offensive and defensive tool.
 *   **Druid Ruling:** The GM clarified that a Druid from Khumus could have seen Central Asian animals (like tigers or elephants), while a Thorcin or Archontean would need to take a pilgrimage to see them. Karkadann are unknown in this region.
 
-**Adam M. (Player: Adam M.)**
-*   **Status:** New player invited to the campaign.
+**New Player Introduction**
+*   **Status:** Invited to the campaign; not yet running a character.
 *   **Briefing:** Received a high-level overview of GURPS mechanics, including stats, disadvantages, skills, 3d6 roll-low, hit locations, and active defenses.
 
 ### 3. Lore & Discoveries

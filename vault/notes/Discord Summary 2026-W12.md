@@ -33,7 +33,7 @@ This was a planning week following Session 45 (March 20, 2026). No session was h
 
 ### Session 46 Planning (April 3 - Holiday Session)
 
-- **Attendance Issues:** Multiple players unavailable due to Easter holiday (Good Friday). Uvash and Vallium confirmed absent; Kyle also unavailable. [planning | 2026-03-24]
+- **Attendance Issues:** Multiple players unavailable due to Easter holiday (Good Friday). Uvash, Vallium, and Vael confirmed unavailable. [planning | 2026-03-24]
 - **Session 46 Options:**
   - Small-party session with Ioannes and Grudge Brigade mercenaries only
   - Take the week off entirely

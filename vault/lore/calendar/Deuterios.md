@@ -1,13 +1,11 @@
+---
+title: "Deuterios"
+tags:
+  - calendar
+  - redirect
+redirect_to: vault/lore/The Archontean Calendar.md
+status: redirect
+---
 # Deuterios
 
-## Summary
-A month in the [[The Archontean Calendar.md|Archontean Calendar]].
-
-## Season
-Winter
-
-## Position in Year
-Second month of the year.
-
-## Notes
-Corresponds to the real-world equivalent of February. Ancient name: Haenubrius.
+This page has been merged into [[lore/The Archontean Calendar.md|The Archontean Calendar]] — see the **Months of the Year** section.

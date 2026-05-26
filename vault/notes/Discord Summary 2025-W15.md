@@ -1,74 +1,74 @@
 ---
+title: "Discord Summary 2025-W15"
 tags:
-  - note
   - discord-summary
+  - canonical-source
+week_ending: 2025-04-18
+source_type: private-discord-weekly-digest
+source_week: week-ending-2025-04-18-2300-central
 ---
 
-# Discord Summary: 2025-W15
+# Discord Summary 2025-W15
 
-**Date Range:** 2025-04-14 to 2025-04-20
-**Messages:** 31
+## Source
+- Private Discord weekly digest
+- Week ending: 2025-04-18
 
----
+## Navigation
 
-## Distilled In-World Knowledge
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W14.md|Discord Summary 2025-W14]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]]
+<!-- END AUTO NAV -->
 
-- Vallium Halcyon shared a rumor that the great Thothian wizard Ptarmis built a secret tomb amid a huge forest of colossal mushrooms. The fungus cavern exists on the second level from the surface, but adventurers were driven back by sheep-headed creatures wielding swords and spears before locating the tomb. [#rumors | 2025-04-18]
+# Weekly Chronicle: The Archives of Gosterwick
+**Date:** Week ending 2025-04-18  
+**Subject:** Equipment Upgrades, Alchemical Success, and Strategic Cache Planning
 
-- A record was found regarding the guard tower's creation: it is approximately 250 years old, built by Archon Adrienic who was sent by Emperor Phocion IV to retake Archon Vul. The expedition was massacred and the tower abandoned after survivors fled. Some locals claim the tower is haunted, but the author says that's just folklore. [#archive | 2025-04-20; #town-rolls | 2025-04-20]
+### 1. Summary
+The company focused on liquidating recent spoils to secure experience gains and upgrading the martial readiness of Ioannes Grammatikos Byzantios. Discussions have also turned toward long-term logistics, specifically the establishment of a hidden forward base near the beastmen entrance.
 
----
+### 2. Events & Actions by Character
 
-## ✅ Truncation Resolved
+**Ioannes Grammatikos Byzantios**
+*   **Town Actions:** Completed the purchase of new armor, a fine medium shield (replacing an ordinary medium shield), and an axe. Additionally, acquired a wheelbarrow (costing 60 gold) and a lanyard (costing 1 gold). The old ordinary shield and decommissioned gear were deemed to have negligible resale value and were not sold.
+*   **Alchemy/Crafting:** Successfully performed an alchemy attempt to produce a potion.
+*   **Character Development:** None recorded this week.
+*   **Equipment Changes:** Replaced old armor, shield, and axe with upgraded versions; currently holds a wheelbarrow and a lanyard.
 
-~~The guard tower record entry was truncated (ends with "autho...") - *Fixed from source data*~~
+**Vaelitharon "Volem" Sunshadow**
+*   **Town Actions:** Offered professional identification services to the company for a fee of 50 gold per item. The GM approved this service, establishing its availability in Gosterwick.
+*   **Alchemy/Crafting:** None recorded this week.
+*   **Research/Study:** Participated in the group consensus to sell the flight potion to maximize experience point distribution, based on GM-provided calculations.
+*   **Character Development:** None recorded this week.
 
----
+**Vallium Halcyon**
+*   **Town Actions:** None recorded this week.
+*   **Equipment Changes:** Confirmed the Magic Fish-Shaped Rod is in the party’s possession (not sold previously). The GM ruled that there are no known limitations (such as Magery requirements) on this item, allowing Vallium to propose its use during future excursions through the Great Cavern to mitigate the party's lack of Boating skill.
 
-## Original Summary (Preserved)
+**Uvash Edzuson**
+*   **Town Actions:** Expressed interest in inspecting a new mace available in town, sparked by discussions regarding the potential use of brute force to open a locked chest.
+*   **Character Development:** None recorded this week.
+*   **Equipment Changes:** None recorded this week.
 
-### #Rumors
+### 3. Lore & Discoveries
+*   **The Mushroom Forest Tomb:** A rumor persists that the great Thothian wizard, Ptarmis, constructed a secret tomb within a forest of colossal mushrooms. While the fungus cavern on the second level from the surface has been located, it is currently occupied by armed, sheep-headed creatures (Source: Player Rumor).
+*   **Gosterwick Commerce:** The local economy is influenced by three distinct merchant factors: The Rarities Factor, the Prosperity Factor, and the Silent Factor (Source: Character Notes).
+*   **The Arcane Practitioners Club:** The club's facilities include a standard alchemy laboratory suitable for potion brewing (Source: GM Ruling).
 
-- **Vallium Halcyon** (2025-04-18): Rumor 5: The great Thothian wizard, Ptarmis, built himself a secret tomb amid a huge forest of colossal mushrooms. We found the fungus cavern on the second level from the surface, but were driven back before we could locate the tomb by some sheep- headed critters wielding swords and spears.
+### 4. World Rulings
+*   **Alchemy Availability:** Minor and major healing potions are now readily available for purchase without the need for availability rolls.
+*   **Alchemical Limits:** Characters are permitted only one alchemy attempt per week.
+*   **Currency Valuation:** Silver ingots found in loot are treated as liquid currency, possessing 100% of their face value. However, the 1,000 gold dragon tribute acts as an expense that effectively cancels out the value of these ingots for the current run.
+*   **Armor Properties:** The "Ornate" property on armor applies a +3 bonus from every individual piece of armor worn.
+*   **Magic Item Limitations:** The Magic Fish-Shaped Rod has no known usage restrictions or Magery requirements.
+*   **NPC Services:** Vaelitharon Sunshadow provides identification services for 50 gold per item, a service confirmed as available by the GM.
 
-### #archive
+### 5. Tactical Planning
+*   **Logistical Base:** The company is considering using *Shape Earth* to create a hidden cave or cache near the beastmen entrance, utilizing *Camouflage* and *Conceal* to secure supplies for future use.
+*   **Loot Liquidation:** The party intends to sell the flight potion to maximize experience point distribution, accepting the dragon tribute as a sunk cost for the run.
 
-- **Vael, Zuljita** (2025-04-19): If we decide not to sell an item like a headdress or a gold statue and instead offer them to a dragon, are they an expense when they leave us?  if so, do we lose them at the sale price or MSRP?
-- **GM** (2025-04-19): Yes, anything you lose during an adventure is an expense at MSRP. It's the same as burning rations.
-- **Ioannes** (2025-04-20): Making sure: is there any way to buy enchantments for our gear (e.g., Accuracy, Deflect, Fortify, Lighten, Puissance)? This need not be in Gosterwick
-- **GM** (2025-04-20): You don't know of a place to buy such things.
-- **Ioannes** (2025-04-20): I'll take that as, "There might be, there might not be. Explore some more and find out."
-- **GM** (2025-04-20): Failure, 10% extra cost
-- **GM** (2025-04-20): Failure, 10% extra cost
-- **Grudge Brigade** (2025-04-20): Some details here regarding expectations: ⁠DF Whiterock⁠unknown
-- **Ioannes** (2025-04-20): Related to this, in a way: aside from equipment upgrades, what is there for us to buy in this campaign? We're getting a lot of money and starting to run into availability issues. Is there some way to invest money in the community and benefit from this?
-- **GM** (2025-04-20): You haven't found any yet.
-- **Ioannes** (2025-04-20): So we're accumulating money with no output for it?
-- **Grudge Brigade** (2025-04-20): Yet.
-- **GM** (2025-04-20): There are plenty of places to spend money: temples, baths, taverns, pawnshop, bookseller, arcane practitioners' club, livestock and horse market. You can probably find more.
-- **Ioannes** (2025-04-20): Bath houses? I'm curious what we can get there other than a good time
-- **GM** (2025-04-20): You find a record of that guard tower's creation.  It's about 250 years old, and was built by Archon Adrienic, sent by Emperor Phocion IV to retake Archon Vul.  This expedition was massacred.  The tower was abandoned after the survivors fled.  Some locals claim the tower is haunted, but the autho...
-- **GM** (2025-04-20): You find a record of that guard tower's creation.  It's about 250 years old, and was built by Archon Adrienic, sent by Emperor Phocion IV to retake Archon Vul.  This expedition was massacred.  The tower was abandoned after the survivors fled.  Some locals claim the tower is haunted, but the autho...
-
-### #questions-for-gm
-
-- **Vael, Zuljita** (2025-04-19): If we decide not to sell an item like a headdress or a gold statue and instead offer them to a dragon, are they an expense when they leave us?  if so, do we lose them at the sale price or MSRP?
-- **GM** (2025-04-19): Yes, anything you lose during an adventure is an expense at MSRP. It's the same as burning rations.
-- **Ioannes** (2025-04-20): Making sure: is there any way to buy enchantments for our gear (e.g., Accuracy, Deflect, Fortify, Lighten, Puissance)? This need not be in Gosterwick
-- **GM** (2025-04-20): You don't know of a place to buy such things.
-- **Ioannes** (2025-04-20): I'll take that as, "There might be, there might not be. Explore some more and find out."
-- **Grudge Brigade** (2025-04-20): Some details here regarding expectations: ⁠DF Whiterock⁠unknown
-- **Ioannes** (2025-04-20): Related to this, in a way: aside from equipment upgrades, what is there for us to buy in this campaign? We're getting a lot of money and starting to run into availability issues. Is there some way to invest money in the community and benefit from this?
-- **GM** (2025-04-20): You haven't found any yet.
-- **Ioannes** (2025-04-20): So we're accumulating money with no output for it?
-- **Grudge Brigade** (2025-04-20): Yet.
-- **GM** (2025-04-20): There are plenty of places to spend money: temples, baths, taverns, pawnshop, bookseller, arcane practitioners' club, livestock and horse market. You can probably find more.
-- **Ioannes** (2025-04-20): Bath houses? I'm curious what we can get there other than a good time
-
-### #town-rolls
-
-- **GM** (2025-04-20): Failure, 10% extra cost
-- **GM** (2025-04-20): You find a record of that guard tower's creation.  It's about 250 years old, and was built by Archon Adrienic, sent by Emperor Phocion IV to retake Archon Vul.  This expedition was massacred.  The tower was abandoned after the survivors fled.  Some locals claim the tower is haunted, but the autho...
-
----
-*Generated: 2026-03-16 15:38 | Distilled: 2026-03-18*
+### 6. Unresolved Threads
+*   **The Locked Chest:** The company has yet to decide on a method for opening a locked chest in town (options discussed include hiring a thief, utilizing magic, or brute force).
+*   **Merchant Identities:** The specific roles and summaries of the Rarities, Prosperity, and Silent Factors remain unknown.
+*   **The Dragon Tribute:** The long-term impact of the 1,000 gold dragon tribute on the company's overall profitability remains a point of concern, with plans to avoid the entity in future runs.

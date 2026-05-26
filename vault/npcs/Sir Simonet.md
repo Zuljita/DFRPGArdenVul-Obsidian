@@ -2,6 +2,7 @@
 title: Sir Simonet
 tags:
   - npc
+  - tradition/thothian
 aliases:
   - Sir Simonet, sun-scarred knight
 ---

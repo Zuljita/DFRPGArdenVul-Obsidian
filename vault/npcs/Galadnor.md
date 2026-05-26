@@ -5,6 +5,7 @@ tags:
   - race/half-elf
   - profession/merchant
   - profession/spy
+  - tradition/thothian
 aliases:
   - Galadnor, Half-Elven merchant and spy
 ---

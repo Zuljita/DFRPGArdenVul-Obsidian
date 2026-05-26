@@ -2,6 +2,9 @@
 title: "42a: Neferet"
 tags:
   - session
+  - tradition/thothian
+  - tradition/demma
+  - culture/thorcin
   - recap
 ---
 
@@ -14,7 +17,7 @@ Cold, mostly sunny, snowy
 
 Player Characters: 
 
-[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)Thrainor "Thronebreaker" Ironvein, Dwarven mercenary fighter (Frank)Lasselanta "Chrysalis" Ashcroft, Half-Elven mercenary martial artist (ArchonShiva)
+[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of ZodarrimThrainor "Thronebreaker" Ironvein, Dwarven mercenary fighter (Frank)Lasselanta "Chrysalis" Ashcroft, Half-Elven mercenary martial artist
 
 Significant NPCs:
 Mariposa, Chyrsalis's monkey familiarOnyx, cat geniusSecondary catsFael, Half-Elven DruidStatuette of Bastet, Goddess of CatsBottleneck, Goblin sergeantMany goblinsYamki, 3-armed giant intelligence baboonMany baboonsTemrin, Goblin Royal ArtistAkla-Chah, Rudishva AI psychologistKillik, Goblin Boss of the Wet CavesSeveral ogre royal guardsSeveral goblin royal guardsPalestrim, Goblin MajordomoKing [[npcs/Weskenim.md|Weskenim]], King of the United Goblin TribesGribble, Goblin chiefConstruct of Kerbog KhanLukor, Thorcin mage of the Eighth CollegiumOther mages and fighters of the Eighth CollegiumSeveral beastmenMummy2 ShadowsNeferet, Greater Mummy

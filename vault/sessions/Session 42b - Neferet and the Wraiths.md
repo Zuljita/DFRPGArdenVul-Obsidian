@@ -2,6 +2,7 @@
 title: "42b: Neferet and the Wraiths"
 tags:
   - session
+  - tradition/demma
   - recap
 ---
 
@@ -14,7 +15,7 @@ Cold, mostly sunny, snowy
 
 Player Characters: 
 
-[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)Thrainor "Thronebreaker" Ironvein, Dwarven mercenary fighter (Frank)Lasselanta "Chrysalis" Ashcroft, Half-Elven mercenary martial artist (ArchonShiva)
+[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of ZodarrimThrainor "Thronebreaker" Ironvein, Dwarven mercenary fighter (Frank)Lasselanta "Chrysalis" Ashcroft, Half-Elven mercenary martial artist
 
 Significant NPCs:
 Mariposa, Chyrsalis's monkey familiarNeferet, Greater MummySeveral beastmenMany wraithsImperial stone guardian

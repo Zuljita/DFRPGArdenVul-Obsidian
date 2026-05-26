@@ -2,6 +2,7 @@
 title: "Thorgrim the Easy"
 tags:
   - npc
+  - culture/wiskin
 aliases:
 ---
 # Thorgrim the Easy

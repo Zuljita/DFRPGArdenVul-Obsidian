@@ -2,6 +2,7 @@
 tags:
   - lore
   - tradition/thothian
+  - tradition/thothian
 ---
 
 # [[npcs/Wicktrimmer.md|Wicktrimmer]] Negotiations and Research

@@ -3,6 +3,10 @@ title: "1: First Visit to the Ruins of Arden Vul"
 tags:
   - session
   - recap
+  - tradition/thothian
+  - tradition/demma
+  - culture/thorcin
+  - era/historical
 session_id: 1
 ---
 
@@ -18,8 +22,8 @@ Unseasonably warm, sunny
 Player Characters:
 
 [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], [[lore/Archontean.md|Archontean]] cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-[[pcs/Michael J. Dundee.md|Michael J Dundee]], [[lore/Thorcin.md|Thorcin]] barbarian (Adam)
-[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
+[[pcs/Michael J. Dundee.md|Michael J Dundee]], [[lore/Thorcin.md|Thorcin]] barbarian
+[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage
 [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
 [[pcs/grudge-brigade/Ashe Maykum.md|Ashe Maykum]], [[npcs/Imperial Goblin.md|Imperial Goblin]] druid (mercenary) (Archon Shiva)
 

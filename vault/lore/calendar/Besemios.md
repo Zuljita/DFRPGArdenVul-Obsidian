@@ -1,13 +1,11 @@
+---
+title: "Besemios"
+tags:
+  - calendar
+  - redirect
+redirect_to: vault/lore/The Archontean Calendar.md
+status: redirect
+---
 # Besemios
 
-## Summary
-A month in the [[The Archontean Calendar.md|Archontean Calendar]].
-
-## Season
-Autumn
-
-## Position in Year
-Ninth month of the year.
-
-## Notes
-Corresponds to the real-world equivalent of September. Ancient name: Besemius.
+This page has been merged into [[lore/The Archontean Calendar.md|The Archontean Calendar]] — see the **Months of the Year** section.

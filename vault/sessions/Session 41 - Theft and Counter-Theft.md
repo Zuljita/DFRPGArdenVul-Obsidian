@@ -2,6 +2,8 @@
 title: "41: Theft and Counter-Theft"
 tags:
   - session
+  - tradition/thothian
+  - tradition/demma
   - recap
 ---
 
@@ -14,7 +16,7 @@ Weather: 
 Cold, party cloudy, snowy
 
 Player Characters: 
-[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)
+[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim
 
 Significant NPCs:
 [[factions/Arcane Vengeance.md|Arcane Vengeance]], elven adventuring party

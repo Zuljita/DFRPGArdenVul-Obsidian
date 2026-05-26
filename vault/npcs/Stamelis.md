@@ -2,6 +2,8 @@
 title: Stamelis
 tags:
 - npc
+  - tradition/thothian
+  - tradition/rudishva
 aliases:
   - Stamelis, animated head, formerly Librarian of Thoth
   - Stamelis, enchanted head of a Thothian librarian

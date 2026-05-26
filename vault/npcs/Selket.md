@@ -2,6 +2,7 @@
 title: Selket
 tags:
   - npc
+  - tradition/thothian
 aliases:
   - Serket
   - Selqet

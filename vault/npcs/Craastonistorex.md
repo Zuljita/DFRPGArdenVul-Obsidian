@@ -2,6 +2,7 @@
 title: Craastonistorex
 tags:
   - npc
+  - era/historical
 aliases:
   - Huge Green Dragon
   - Craastonistorex

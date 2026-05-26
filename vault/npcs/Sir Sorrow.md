@@ -2,6 +2,7 @@
 title: Sir Sorrow
 tags:
 - npc
+  - tradition/settite
 aliases:
   - Sir Sorrow Rizzit
 ---

@@ -1,6 +1,10 @@
 ---
 tags:
   - faction
+aliases:
+  - Arcane Practitioners Club
+  - APC
+  - Arcane Practitioners Club alchemy lab
 ---
 
 # Arcane Practitioners' Club

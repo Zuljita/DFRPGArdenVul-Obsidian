@@ -2,6 +2,7 @@
 title: Njal
 tags:
   - npc
+  - culture/wiskin
 aliases:
 ---
 # Njal

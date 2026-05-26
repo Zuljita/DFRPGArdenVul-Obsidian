@@ -2,6 +2,7 @@
 title: Lyssandra Astorion
 tags:
 - npc
+  - era/historical
 aliases:
   - Lyssandra Astorion, Archontean wizard, co-owner of the Arcane Practitioners'' Club
   - Lyssandra Astorion, principal of the Arcane Practitioners'' Club

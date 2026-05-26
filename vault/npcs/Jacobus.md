@@ -2,6 +2,9 @@
 title: Jacobus
 tags:
 - npc
+  - tradition/thothian
+  - tradition/demma
+  - era/historical
 aliases:
   - Jacobus, former Prior of Thoth, current friendly ghost
   - Prior Jacobus

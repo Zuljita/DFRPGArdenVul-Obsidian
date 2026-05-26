@@ -2,6 +2,7 @@
 tags:
   - concept
   - identity/uncertain
+  - tradition/rudishva
 status: stub
 ---
 

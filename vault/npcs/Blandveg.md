@@ -2,6 +2,7 @@
 title: Blandveg
 tags:
   - npc
+  - culture/thorcin
 aliases:
   - Unknown human alchemist
   - Unknown human alchemist, working with the halfling thugs
@@ -14,7 +15,7 @@ appears_in:
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
 
 ## History
-- [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Dundee, Thorcin barbarian (Adam) [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Merenuithiel Lacrymosa Armaris]], Elf [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary archer (Archon Shiva) Significant NPCs: [[npcs/Craastonistorex.md|Craastonistorex]], green dragon [[npcs/Briar.md|Briar]], Wyvern Giant Tick [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Phlebotomas Plumthorn]], Halfling mob bo...
+- [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Dundee, Thorcin barbarian [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]], Elf [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary archer (Archon Shiva) Significant NPCs: [[npcs/Craastonistorex.md|Craastonistorex]], green dragon [[npcs/Briar.md|Briar]], Wyvern Giant Tick [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]], Halfling mob bo...
   - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — It continued south and peeked in the second room, spying [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]], [[npcs/Blandveg.md|Blandveg]], and three more guards.
 
 ## Notes

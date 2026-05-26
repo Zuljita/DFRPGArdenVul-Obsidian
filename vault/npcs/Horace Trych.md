@@ -6,6 +6,7 @@ tags:
   - profession/merchant
   - profession/spy
   - affiliation/gosterwick
+  - tradition/thothian
 aliases:
   - Horace Trych
   - Horace
