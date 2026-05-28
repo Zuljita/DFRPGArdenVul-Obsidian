@@ -30,6 +30,7 @@ Barnaby has a reputation for keeping his word. He is also known for being except
 ## Relationships
 - [[Wicktrimmer]] and the [[Rarities Factor]]: frequent counterparty in artifact contracts.
 - PCs: formed companies, reviewed contracts, and provided ongoing legal guidance.
+- Michael J. Dundee: Handled separation agreement for his departure from the party.
 
 ## Discord Insights
 

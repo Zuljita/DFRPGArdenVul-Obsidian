@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Deterministic vault automation harness.
+Conservative vault automation harness.
 
-This script is intentionally conservative. It does not call an LLM and does not
-edit vault Markdown. The first job is to make source discovery and guardrail
-validation boring enough that scheduled automation can safely report proposals
-instead of mutating the vault directly.
+Most source discovery, validation, queueing, and application logic is
+deterministic so scheduled runs stay bounded and auditable. Research lanes may
+call the configured local LLM to propose and verify small sourced changes before
+the deterministic applicator mutates vault Markdown.
 """
 
 from __future__ import annotations
@@ -2400,7 +2400,7 @@ def _split_oversized_chunk(text: str, max_chars: int) -> list[str]:
 
 def chunk_markdown_for_rag(text: str) -> list[tuple[str, str]]:
     """Split markdown at H2 boundaries; sub-split sections larger than VAULT_RAG_MAX_CHUNK_CHARS at paragraph breaks."""
-    text = VAULT_RAG_FRONTMATTER_RE.sub("", text, count=1).strip()
+    text = strip_frontmatter(text).strip()
     if not text:
         return []
     parts = VAULT_RAG_H2_SPLIT_RE.split(text)
@@ -2457,8 +2457,12 @@ def vault_rag_kind_for_path(path: Path) -> str:
 
 def vault_rag_source_paths() -> list[tuple[Path, str]]:
     """Return (path, kind) pairs for content to ingest into the vault-rag Chroma collection.
-    Indexes the entire vault (skipping templates/quartz/attachments), plus per-channel rollup
-    files from the configured discord_rollup_root, plus the spreadsheet snapshot if present."""
+    Indexes the entire vault (skipping templates/quartz/attachments), plus the spreadsheet snapshot if present.
+
+    Do not index raw Discord weekly rollup channel files here. Those files preserve
+    near-verbatim chat logs; player-facing RAG should only see curated vault pages
+    such as Discord Summary notes.
+    """
     items: list[tuple[Path, str]] = []
     if VAULT.exists():
         for p in sorted(VAULT.rglob("*.md")):
@@ -2466,14 +2470,10 @@ def vault_rag_source_paths() -> list[tuple[Path, str]]:
             # Skip files inside any excluded directory at any depth.
             if any(part in VAULT_RAG_SKIP_DIRS for part in rel_parts[:-1]):
                 continue
+            frontmatter = parse_frontmatter(read_text(p))
+            if str(frontmatter.get("status") or "").strip().lower() == "redirect":
+                continue
             items.append((p, vault_rag_kind_for_path(p)))
-    sources = load_local_sources()
-    rollup_root = sources.get("discord_rollup_root")
-    if rollup_root:
-        rollup_path = Path(rollup_root).expanduser()
-        if rollup_path.exists():
-            for p in sorted(rollup_path.rglob("channels/*.md")):
-                items.append((p, "rollup"))
     snapshot = AUTOMATION_DIR / "sources" / "group_spreadsheet_snapshot.md"
     if snapshot.exists():
         items.append((snapshot, "spreadsheet"))
@@ -3669,14 +3669,15 @@ def article_edit_verifier_prompt(proposal: ArticleEditProposal) -> str:
     )
 
 
-def verify_article_edit_proposals(limit: int = 10) -> list[dict]:
+def verify_article_edit_proposals(limit: int | None = 10) -> list[dict]:
     proposals_path = AUTOMATION_DIR / "proposals" / "article_edit_proposals.json"
     if not proposals_path.exists():
         raise RuntimeError("article_edit_proposals.json not found; run propose-article-edits first")
     raw = json.loads(proposals_path.read_text(encoding="utf-8"))
     proposals = [ArticleEditProposal(**r) for r in raw]
     out: list[dict] = []
-    for p in proposals[:limit]:
+    selected = proposals if limit is None else proposals[:limit]
+    for p in selected:
         try:
             response = llm_chat_json(article_edit_verifier_prompt(p), timeout=120)
             status = str(response.get("status", "unknown"))
@@ -4195,6 +4196,8 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
             walk_step = int(sources_cfg.get("article_edit_walk_step", 0) or 0)
             ae_verify_limit = int(sources_cfg.get("article_edit_verify_limit", 0) or 0)
             ae_apply_limit = int(sources_cfg.get("article_edit_apply_limit", 0) or 0)
+            ae_verify_limit_arg = None if ae_verify_limit < 0 else ae_verify_limit
+            ae_apply_limit_arg = None if ae_apply_limit < 0 else ae_apply_limit
             if (queue_top or walk_step) and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
                 selected_paths: list[Path] = []
                 seen: set[str] = set()
@@ -4225,14 +4228,14 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                     "proposal_count": len(proposals),
                 }
                 if ae_verify_limit and proposals:
-                    verified = verify_article_edit_proposals(limit=ae_verify_limit)
+                    verified = verify_article_edit_proposals(limit=ae_verify_limit_arg)
                     vcounts: dict[str, int] = {}
                     for v in verified:
                         st = str(v.get("verifier_status", "unknown"))
                         vcounts[st] = vcounts.get(st, 0) + 1
                     article_edit_result["verifier_status_counts"] = vcounts
                     if ae_apply_limit:
-                        apply_result = apply_verified_article_edits(apply_changes=True, limit=ae_apply_limit)
+                        apply_result = apply_verified_article_edits(apply_changes=True, limit=ae_apply_limit_arg)
                         article_edit_result["applied"] = {
                             "supported_count": apply_result.get("supported_count", 0),
                             "articles_touched": apply_result.get("articles_touched", 0),
