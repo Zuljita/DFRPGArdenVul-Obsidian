@@ -8,6 +8,8 @@ tags:
   - culture/thorcin
   - culture/wiskin
 session_id: 18
+session_date: 2025-07-12
+source_url: https://dfwhiterock.blogspot.com/2025/07/dfrpg-arden-vul-session-18-back-down.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 18: Back Down the Well of Light
@@ -100,4 +102,4 @@ Next Week:
 
 - Previous Session: [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]
 - Next Session: [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]
-
+- Discord Discussions: [[Discord Summary 2025-W28]], [[Discord Summary 2025-W29]]

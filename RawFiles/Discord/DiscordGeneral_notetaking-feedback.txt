@@ -1,0 +1,76 @@
+Notetaking feedback
+
+Zuljita — 11/28/25, 8:46 PM
+Let's work on it here so we don't spam the channel
+
+Zuljita — 11/28/25, 8:47 PM
+<@439963160502337536>
+
+Demented Avenger — 11/28/25, 8:47 PM
+Going to my campaign wiki and going to the first page in history, I get "cleric female hobbit npc" as tags
+
+Demented Avenger — 11/28/25, 8:48 PM
+Kobolds get "kobold race"
+
+Demented Avenger — 11/28/25, 8:48 PM
+They probably should also have Mundane
+
+Demented Avenger — 11/28/25, 8:48 PM
+and they do now
+
+Demented Avenger — 11/28/25, 8:51 PM
+An orc leader has the tags "bandit male mundane npc orc"
+
+Zuljita — 11/28/25, 8:52 PM
+Some of this feels like GM level notes instead of player level, especially about hit locations and so on.
+
+Demented Avenger — 11/28/25, 8:52 PM
+Yeah, probably for those, but I'm looking at ways to quickly describe monsters
+
+Demented Avenger — 11/28/25, 8:53 PM
+My items don't seem to have many secondary tags. I should have some for weapons and armor and magic
+
+Demented Avenger — 11/28/25, 8:54 PM
+Though in the case of my wiki, all items are magic
+
+Demented Avenger — 11/28/25, 8:54 PM
+Oh, I do have one for sword
+
+Demented Avenger — 11/28/25, 8:54 PM
+I think I was going the Dave Arneson route
+
+Demented Avenger — 11/28/25, 8:55 PM
+This is more for the GM, but the more artwork we get, the better
+
+Demented Avenger — 11/28/25, 8:57 PM
+I don't know the best way of handling lore. Some of it is going to be associated with a person, place, or thing, but some of it is going to tie all of those together. I keep folktales separate, but that's because I went nuts on them
+
+Demented Avenger — 11/28/25, 9:00 PM
+We do need languages referenced in there if they are not already. I see Mithric in Lore; it probably needs a separate tag
+
+Demented Avenger — 11/28/25, 9:02 PM
+This lets us get all the Mithric speakers together, for example
+
+Demented Avenger — 11/28/25, 9:25 PM
+Also such and such book is in Mithric
+
+Demented Avenger — 11/28/25, 9:32 PM
+I know this is beyond the scope of the current project, but this would be a good companion for DoA
+
+Zuljita — 11/28/25, 9:48 PM
+Interesting, you mean as a toolkit for campaign management?  I just strung together a few components, but it does require a few subscriptions I was paying for anyway.
+
+Zuljita — 11/28/25, 9:48 PM
+(assuming you mean the LLM thing)
+
+Demented Avenger — 11/28/25, 9:49 PM
+Yes, absolutely as that. You have a LLM alongside to the maps you generate
+
+Zuljita — 11/28/25, 9:50 PM
+Let's take it outside of the current thread, but there's a world where I could build such a thing, it'd just be... complicated.
+
+Demented Avenger — 11/28/25, 9:50 PM
+got it
+
+Demented Avenger — 11/28/25, 9:50 PM
+this kind of thing really is off to the future, but probably in the future of TTRPGs online

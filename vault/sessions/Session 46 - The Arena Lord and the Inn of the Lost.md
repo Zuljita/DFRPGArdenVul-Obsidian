@@ -3,8 +3,8 @@ title: "46: The Arena Lord and the Inn of the Lost"
 tags:
   - session
   - recap
-  - tradition/demma
-source_url: https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-46-arena-lord.html?m=1
+source_url: https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-46-arena-lord.html
+session_date: 2026-04-04
 ---
 
 # 46: The Arena Lord and the Inn of the Lost
@@ -110,4 +110,4 @@ We should have closer to a full party next time, so they can explore more boldly
 
 - Previous Session: [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
 - Next Session: [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]
-
+- Discord Discussions: [[Discord Summary 2026-W12]], [[Discord Summary 2026-W13]]

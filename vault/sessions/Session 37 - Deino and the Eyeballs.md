@@ -5,6 +5,8 @@ tags:
   - tradition/thothian
   - tradition/demma
   - recap
+session_date: 2026-01-10
+source_url: https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-37-deino-and.html
 ---
 
 # 37: Deino and the Eyeballs
@@ -99,4 +101,4 @@ Next Week:
 
 - Previous Session: [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
 - Next Session: [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
-
+- Discord Discussions: [[Discord Summary 2026-W01]], [[Discord Summary 2026-W02]]

@@ -6,6 +6,8 @@ tags:
   - tradition/demma
   - culture/thorcin
 session_id: 25
+session_date: 2025-09-20
+source_url: https://dfwhiterock.blogspot.com/2025/09/dfrpg-arden-vul-session-25-looking-for.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 25: Looking for the Back Door to the [[locations/Forum of Set.md|Forum of Set]]
@@ -110,4 +112,4 @@ No game the next two weeks; GM on vacation.  We'd played every week since March,
 
 - Previous Session: [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24B - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]
 - Next Session: [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
-
+- Discord Discussions: [[Discord Summary 2025-W38]], [[Discord Summary 2025-W40]]

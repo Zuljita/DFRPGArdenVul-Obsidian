@@ -6,6 +6,7 @@ tags:
   - tradition/thothian
   - tradition/demma
 source_url: https://dfwhiterock.blogspot.com/2026/05/dfrpg-arden-vul-session-50-iron-circlet.html
+session_date: 2026-05-02
 ---
 
 # 50: The Iron Circlet of Ghanor

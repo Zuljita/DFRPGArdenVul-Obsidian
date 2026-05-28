@@ -9,6 +9,8 @@ tags:
   - culture/thorcin
   - era/historical
 session_id: 3
+session_date: 2025-03-29
+source_url: https://dfwhiterock.blogspot.com/2025/03/dfrpg-arden-vul-session-3-dragons-and.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 3: [[factions/Dragons.md|Dragons]] and Baboons and Beastmen, Oh My!
@@ -134,4 +136,4 @@ It sounds like they're going to keep exploring the halfling level.  They don't l
 
 - Previous Session: [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 - Next Session: [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
-
+- Discord Discussions: [[Discord Summary 2025-W12]], [[Discord Summary 2025-W13]]

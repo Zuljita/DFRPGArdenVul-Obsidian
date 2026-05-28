@@ -6,6 +6,8 @@ tags:
   - tradition/demma
   - culture/thorcin
 session_id: 26
+session_date: 2025-10-11
+source_url: https://dfwhiterock.blogspot.com/2025/10/dfrpg-arden-vul-session-26-scouring-of.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 26: The Scouring of the Shire
@@ -134,4 +136,4 @@ With the halflings eliminated, the Right for Riches company needs to pick a new 
 
 - Previous Session: [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]]
 - Next Session: [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]
-
+- Discord Discussions: [[Discord Summary 2025-W40]], [[Discord Summary 2025-W41]], [[Discord Summary 2025-W42]]

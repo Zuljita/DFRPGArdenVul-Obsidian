@@ -6,6 +6,8 @@ tags:
   - tradition/demma
   - culture/thorcin
 session_id: 10
+session_date: 2025-05-17
+source_url: https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-10-baboons.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 10: Baboons, Ghouls, and a Mule
@@ -128,4 +130,4 @@ I haven't heard any concrete plans yet.  There was a bit of the usual discussion
 
 - Previous Session: [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8B/9 - Muirasso's Tomb and the Broken Head]]
 - Next Session: [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]]
-
+- Discord Discussions: [[Discord Summary 2025-W19]], [[Discord Summary 2025-W20]], [[Discord Summary 2025-W21]]

@@ -5,6 +5,8 @@ tags:
   - tradition/demma
   - culture/thorcin
   - recap
+session_date: 2025-11-29
+source_url: https://dfwhiterock.blogspot.com/2025/11/dfrpg-arden-vul-session-33-nyema.html
 ---
 
 # 33: Nyema
@@ -123,3 +125,4 @@ They plan to go after The Thane, who Vallium thinks is Tikun Thane the wizard fr
 ## Session Navigation
 - Previous Session: [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 - Next Session: [[sessions/Session 34a - Hunting the Thane.md|Session 34A - Hunting the Thane]]
+- Discord Discussions: [[Discord Summary 2025-W48]], [[Discord Summary 2025-W50]], [[Discord Summary 2025-W51]], [[Discord Summary 2025-W52]]

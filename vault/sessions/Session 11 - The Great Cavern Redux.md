@@ -5,6 +5,8 @@ tags:
   - recap
   - tradition/demma
 session_id: 11
+session_date: 2025-05-24
+source_url: https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-11-great-cavern.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 11: The [[locations/Great Cavern.md|Great Cavern]] Redux
@@ -266,4 +268,4 @@ I think they might actually take a shot at [[npcs/Phlebotomas Plumthorn.md|Phleb
 
 - Previous Session: [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
 - Next Session: [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
-
+- Discord Discussions: [[Discord Summary 2025-W21]]

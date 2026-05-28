@@ -6,6 +6,8 @@ tags:
   - tradition/demma
   - tradition/rudishva
 session_id: 32
+session_date: 2025-11-22
+source_url: https://dfwhiterock.blogspot.com/2025/11/dfrpg-arden-vul-session-32-fast.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 32: Fast Exploration
@@ -146,4 +148,4 @@ The current plan is to bring food to [[npcs/Gog.md|Gog]] and see if he can tell 
 
 - Previous Session: [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 - Next Session: [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
-
+- Discord Discussions: [[Discord Summary 2025-W44]], [[Discord Summary 2025-W45]], [[Discord Summary 2025-W46]], [[Discord Summary 2025-W47]], [[Discord Summary 2025-W48]]

@@ -9,6 +9,8 @@ tags:
   - culture/thorcin
 session_id: 23a
 in_world_date: Basilsday, 16th of Gerakios, 2993 AE
+session_date: 2025-08-16
+source_url: https://dfwhiterock.blogspot.com/2025/08/dfrpg-arden-vul-session-23a-gelatinous.html
 ---
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 23A: Gelatinous Cube and Slime Kraken
 
@@ -102,4 +104,4 @@ We know they'll be starting the session fighting those [[npcs/Set.md|Set]] guard
 
 - Previous Session: [[sessions/Session 22.5 Interlude - Bonus Downtime Recap.md|Session 22.5 - Interlude Bonus Downtime Recap]]
 - Next Session: [[sessions/Session 23b - Disrupting Services in the Temple of Set.md|Session 23B - Disrupting Services in the Temple of Set]]
-
+- Discord Discussions: [[Discord Summary 2025-W34]], [[Discord Summary 2025-W35]]

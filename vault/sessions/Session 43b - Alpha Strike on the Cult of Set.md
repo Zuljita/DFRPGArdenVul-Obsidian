@@ -6,6 +6,8 @@ tags:
   - tradition/demma
   - culture/thorcin
   - recap
+session_date: 2026-03-07
+source_url: https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-43b-alpha.html
 ---
 
 # 43b: Alpha Strike on the Cult of Set
@@ -86,4 +88,4 @@ The goal seems to be eradicating the rest of the defeated Settites, freeing all 
 
 - Previous Session: [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43A - Alpha Strike on the Cult of Set]]
 - Next Session: [[sessions/Session 43c - Looting the Cult of Set.md|Session 43C - Looting the Cult of Set]]
-
+- Discord Discussions: [[Discord Summary 2026-W08]], [[Discord Summary 2026-W09]]

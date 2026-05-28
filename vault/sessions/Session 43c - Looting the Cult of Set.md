@@ -7,6 +7,8 @@ tags:
   - tradition/demma
   - culture/thorcin
   - recap
+session_date: 2026-03-14
+source_url: https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-43c-looting.html
 ---
 
 # 43c: Looting the Cult of Set
@@ -105,4 +107,4 @@ The PCs plan to bring a lot of food from [[locations/Gosterwick.md|Gosterwick]] 
 
 - Previous Session: [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43B - Alpha Strike on the Cult of Set]]
 - Next Session: [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
-
+- Discord Discussions: [[Discord Summary 2026-W09]], [[Discord Summary 2026-W10]], [[Discord Summary 2026-W11]], [[Discord Summary 2026-W12]]

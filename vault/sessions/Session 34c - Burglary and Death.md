@@ -2,6 +2,8 @@
 tags:
   - session
   - recap
+session_date: 2025-12-20
+source_url: https://dfwhiterock.blogspot.com/2025/12/dfrpg-arden-vul-session-34c-burglary.html
 ---
 
 # 34c - Burglary and Death
@@ -53,4 +55,4 @@ They plan to go back to Goblintown to get their map from Temrin and have Vael in
 
 - Previous Session: [[sessions/Session 34b - Tower of the Ape.md|Session 34B - Tower of the Ape]]
 - Next Session: [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]]
-
+- Discord Discussions: [[Discord Summary 2025-W51]], [[Discord Summary 2025-W52]], [[Discord Summary 2026-W00]]

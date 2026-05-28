@@ -4,6 +4,8 @@ tags:
   - session
   - recap
 session_id: 7
+session_date: 2025-04-26
+source_url: https://dfwhiterock.blogspot.com/2025/04/dfrpg-session-7-why-did-it-have-to-be.html
 ---
 # 7 - Why Did It Have to Be Plants?
 
@@ -27,4 +29,4 @@ Note: Reconstructed stub. TODO: restore full narrative.
 
 - Previous Session: [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - Next Session: [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8A - Never Trust a Scorpion]]
-
+- Discord Discussions: [[Discord Summary 2025-W16]], [[Discord Summary 2025-W17]]

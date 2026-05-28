@@ -5,6 +5,8 @@ tags:
   - tradition/thothian
   - tradition/demma
   - recap
+session_date: 2026-03-21
+source_url: https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-44-clearing.html
 ---
 
 # 44: Clearing the Goblin Forum
@@ -106,4 +108,4 @@ They have a lot of options. I have no idea where they are going yet.
 
 - Previous Session: [[sessions/Session 43c - Looting the Cult of Set.md|Session 43C - Looting the Cult of Set]]
 - Next Session: [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
-
+- Discord Discussions: [[Discord Summary 2026-W10]], [[Discord Summary 2026-W11]], [[Discord Summary 2026-W12]]

@@ -6,6 +6,8 @@ tags:
   - tradition/thothian
   - tradition/demma
 session_id: 27
+session_date: 2025-10-18
+source_url: https://dfwhiterock.blogspot.com/2025/10/dfrpg-arden-vul-session-27-tomb-of-ptoh.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 27: The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]]
@@ -97,4 +99,4 @@ Total:  Probably 2 XP
 
 - Previous Session: [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
 - Next Session: [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
-
+- Discord Discussions: [[Discord Summary 2025-W41]], [[Discord Summary 2025-W42]], [[Discord Summary 2025-W43]]

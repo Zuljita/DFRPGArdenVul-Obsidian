@@ -5,6 +5,7 @@ tags:
   - recap
   - tradition/demma
 source_url: https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-47-no-mana-zone.html
+session_date: 2026-04-11
 ---
 
 # 47: The No Mana Zone
@@ -90,3 +91,4 @@ They're planning on heading right back to the western [[locations/Well of Light.
 
 - Previous Session: [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
 - Next Session: [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48 - Thothian Teleportation Rings]]
+- Discord Discussions: [[Discord Summary 2026-W13]], [[Discord Summary 2026-W14]]

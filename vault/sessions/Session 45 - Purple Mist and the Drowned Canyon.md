@@ -5,6 +5,8 @@ tags:
   - tradition/thothian
   - tradition/demma
   - recap
+session_date: 2026-03-28
+source_url: https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-45-purple-mist.html
 ---
 
 # 45: Purple Mist and the Drowned Canyon
@@ -100,4 +102,4 @@ Several players can't make it because of the Easter holiday, so we might take th
 
 - Previous Session: [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 - Next Session: [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
-
+- Discord Discussions: [[Discord Summary 2026-W11]], [[Discord Summary 2026-W12]]

@@ -6,6 +6,7 @@ tags:
   - tradition/thothian
   - tradition/demma
 source_url: https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-48-thothian.html
+session_date: 2026-04-18
 ---
 
 # 48: Thothian Teleportation Rings

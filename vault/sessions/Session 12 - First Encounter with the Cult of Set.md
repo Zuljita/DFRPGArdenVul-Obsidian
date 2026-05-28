@@ -7,6 +7,8 @@ tags:
   - tradition/demma
   - culture/thorcin
 session_id: 12
+session_date: 2025-05-31
+source_url: https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-session-12-first.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 12: First Encounter with the [[factions/Cult of Set.md|Cult of Set]]
@@ -222,4 +224,4 @@ Original Source: <https://dfwhiterock.blogspot.com/2025/05/dfrpg-arden-vul-sessi
 
 - Previous Session: [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]]
 - Next Session: [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]
-
+- Discord Discussions: [[Discord Summary 2025-W21]]

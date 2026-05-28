@@ -8,6 +8,8 @@ tags:
   - culture/thorcin
 session_id: 23b
 in_world_date: Basilsday, 16th of Gerakios, 2993 AE
+session_date: 2025-08-23
+source_url: https://dfwhiterock.blogspot.com/2025/08/dfrpg-arden-vul-session-23b-disrupting.html
 ---
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 23B: Disrupting Services in the [[locations/Temple of Set.md|Temple of Set]]
 
@@ -81,4 +83,4 @@ They're pretty sure they're close to [[npcs/Lillian.md|Lillian]] now, so they're
 
 - Previous Session: [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23A - Gelatinous Cube and Slime Kraken]]
 - Next Session: [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23C - Set Jailbreak and Down to Goblintown]]
-
+- Discord Discussions: [[Discord Summary 2025-W34]], [[Discord Summary 2025-W35]]

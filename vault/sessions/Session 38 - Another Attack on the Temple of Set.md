@@ -4,6 +4,8 @@ tags:
   - session
   - tradition/demma
   - recap
+session_date: 2026-01-17
+source_url: https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-38-another.html
 ---
 
 # 38: Another Attack on the Temple of Set
@@ -82,4 +84,4 @@ I haven't seen a formal plan yet, but there was some discussion of following [[n
 
 - Previous Session: [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 - Next Session: [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
-
+- Discord Discussions: [[Discord Summary 2026-W02]]

@@ -4,6 +4,8 @@ tags:
   - session
   - tradition/demma
   - recap
+session_date: 2026-02-21
+source_url: https://dfwhiterock.blogspot.com/2026/02/dfrpg-arden-vul-session-42b-neferet-and.html
 ---
 
 # 42b: Neferet and the Wraiths
@@ -68,4 +70,4 @@ They want to heal up and go right back after [[npcs/Neferet.md|Neferet]] and the
 
 - Previous Session: [[sessions/Session 42a - Neferet.md|Session 42A - Neferet]]
 - Next Session: [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43A - Alpha Strike on the Cult of Set]]
-
+- Discord Discussions: [[Discord Summary 2026-W07]]

@@ -7,6 +7,8 @@ tags:
   - tradition/demma
   - tradition/mitran
 session_id: 22
+session_date: 2025-08-09
+source_url: https://dfwhiterock.blogspot.com/2025/08/dfrpg-arden-vul-session-22-oracle-of.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 22: The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light
@@ -119,4 +121,4 @@ They left a couple of secret doors and a staircase unexplored at the end of the 
 
 - Previous Session: [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
 - Next Session: [[sessions/Session 22.5 Interlude - Bonus Downtime Recap.md|Session 22.5 - Interlude Bonus Downtime Recap]]
-
+- Discord Discussions: [[Discord Summary 2025-W31]], [[Discord Summary 2025-W32]], [[Discord Summary 2025-W34]]

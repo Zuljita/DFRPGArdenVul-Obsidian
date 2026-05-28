@@ -3,6 +3,8 @@ tags:
   - tradition/settite
   - tradition/mitran
   - session
+session_date: 2025-08-31
+source_url: https://dfwhiterock.blogspot.com/2025/08/dfrpg-bonus-downtime-recap-strange.html
 ---
 
 DFRPG Bonus Downtime Recap: Strange Happenings in [[locations/Gosterwick.md|Gosterwick]]
@@ -29,4 +31,4 @@ To be continued...
 
 - Previous Session: [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
 - Next Session: [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23A - Gelatinous Cube and Slime Kraken]]
-
+- Discord Discussions: [[Discord Summary 2025-W34]], [[Discord Summary 2025-W35]]

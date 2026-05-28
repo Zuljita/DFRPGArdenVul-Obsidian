@@ -1,0 +1,16 @@
+Points consolidation
+
+Archon Shiva — 4/24/25, 6:06 PM
+ST: Striking ST [5], Lifting ST [3] and HP [2];
+DX: Speed +0.25 [5], (High Manual DX +1 [5]);
+IQ: Will +1 [5], Per +1 [5];
+HT: Speed +0.25 [5], FP +1 [3], Hard to Kill +1 [2];
+
+Acute (Sense) +1 [2] can be turned into Per +1 [5];
+
+None of these can be done backwards (Per but not Hearing for [3], IQ! for [10], etc.)
+
+Racial modifiers can never be folded into stuff.
+
+Zuljita — 9/18/25, 3:19 AM
+Same here.

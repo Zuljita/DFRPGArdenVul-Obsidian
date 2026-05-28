@@ -6,6 +6,8 @@ tags:
   - tradition/thothian
   - culture/thorcin
 session_id: 19
+session_date: 2025-07-19
+source_url: https://dfwhiterock.blogspot.com/2025/07/df-whiterock-session-19-pool-of-donkey.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 19: The Pool of Donkey Ears
@@ -108,4 +110,4 @@ Maybe they'll keep exploring this level and see if anyone else can get donkey ea
 
 - Previous Session: [[sessions/Session 18 - Back Down the Well of Light.md|Session 18 - Back Down the Well of Light]]
 - Next Session: [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
-
+- Discord Discussions: [[Discord Summary 2025-W28]], [[Discord Summary 2025-W29]]

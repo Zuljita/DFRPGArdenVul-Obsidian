@@ -5,6 +5,8 @@ tags:
   - tradition/thothian
   - tradition/demma
   - recap
+session_date: 2026-01-03
+source_url: https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-36-rescuing.html
 ---
 
 # 36: Rescuing [[npcs/Deino.md|Deino]]'s Kids
@@ -100,4 +102,4 @@ Next Week:- Meet with Count Skleros about the dragon
 
 - Previous Session: [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]]
 - Next Session: [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
-
+- Discord Discussions: [[Discord Summary 2026-W01]], [[Discord Summary 2026-W02]]

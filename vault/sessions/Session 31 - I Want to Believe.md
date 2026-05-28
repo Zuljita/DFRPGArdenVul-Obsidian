@@ -8,6 +8,8 @@ tags:
   - tradition/rudishva
   - culture/thorcin
 session_id: 31
+session_date: 2025-11-15
+source_url: https://dfwhiterock.blogspot.com/2025/11/dfrpg-arden-vul-session-31-i-want-to.html
 ---
 
 # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 31: I Want to Believe
@@ -154,4 +156,4 @@ They're currently planning to explore an unexplored bit of the [[locations/Great
 
 - Previous Session: [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
 - Next Session: [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
-
+- Discord Discussions: [[Discord Summary 2025-W44]], [[Discord Summary 2025-W45]], [[Discord Summary 2025-W46]]

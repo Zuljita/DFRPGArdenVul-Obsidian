@@ -1,0 +1,2769 @@
+[
+  {
+    "title": "Lore Scroll: Letter form Archon to Overseer",
+    "normalized": "lore scroll letter form archon to overseer",
+    "type": "scroll",
+    "acquisitions": [
+      {
+        "date": "2025-03-14",
+        "sheet": "20250314",
+        "qty": null,
+        "page": 114.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Book: Unknown (secret language of Thoth?)",
+    "normalized": "book unknown secret language of thoth",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-04-18",
+        "sheet": "20250418",
+        "qty": 3.0,
+        "page": 185.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "book: 74 Ways of Opening the Lotus (Mithric)",
+    "normalized": "book 74 ways of opening the lotus mithric",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-04-18",
+        "sheet": "20250418",
+        "qty": 1.0,
+        "page": 185.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "blueprints (map of 3 rooms)",
+    "normalized": "blueprints map of 3 rooms",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2025-04-18",
+        "sheet": "20250418",
+        "qty": null,
+        "page": 185.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Book of Priors (Mithric)",
+    "normalized": "book of priors mithric",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-04-18",
+        "sheet": "20250418",
+        "qty": null,
+        "page": 187.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Book, \"12 Labors of Arden\", deluxe edition, Mithric",
+    "normalized": "book 12 labors of arden deluxe edition mithric",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-06-06",
+        "sheet": "20250606AS",
+        "qty": null,
+        "page": 865.0,
+        "value": 250.0,
+        "notes": null,
+        "sold": null,
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "parchment \"red black yellow blue green white\"",
+    "normalized": "parchment red black yellow blue green white",
+    "type": "parchment",
+    "acquisitions": [
+      {
+        "date": "2025-06-20",
+        "sheet": "20250620AS",
+        "qty": null,
+        "page": 236.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "map",
+    "normalized": "map",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2025-06-20",
+        "sheet": "20250620AS",
+        "qty": null,
+        "page": 236.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2025-07-04",
+        "sheet": "20250704AS",
+        "qty": null,
+        "page": 121.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Vallium"
+      },
+      {
+        "date": "2026-01-02",
+        "sheet": "20260102",
+        "qty": null,
+        "page": 221.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 365.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 365.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-05-01",
+        "sheet": "20260501",
+        "qty": null,
+        "page": 114.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "note about little pyramid",
+    "normalized": "note about little pyramid",
+    "type": "notebook",
+    "acquisitions": [
+      {
+        "date": "2025-07-04",
+        "sheet": "20250704AS",
+        "qty": null,
+        "page": 120.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Vallium"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Mushroom cookbook",
+    "normalized": "mushroom cookbook",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-07-11",
+        "sheet": "20250711DA",
+        "qty": 3.0,
+        "page": 148.0,
+        "value": 75.0,
+        "notes": null,
+        "sold": "Yes",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "General cookbook",
+    "normalized": "general cookbook",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-07-11",
+        "sheet": "20250711DA",
+        "qty": null,
+        "page": 148.0,
+        "value": 10.0,
+        "notes": null,
+        "sold": "Yes",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "On the Properties of Arcanum",
+    "normalized": "on the properties of arcanum",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-07-11",
+        "sheet": "20250711DA",
+        "qty": 147.0,
+        "page": 150.0,
+        "value": 300.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "parchment",
+    "normalized": "parchment",
+    "type": "parchment",
+    "acquisitions": [
+      {
+        "date": "2025-07-11",
+        "sheet": "20250711DA",
+        "qty": 148.0,
+        "page": 150.0,
+        "value": 20.0,
+        "notes": null,
+        "sold": "Yes",
+        "owner": null
+      },
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": null,
+        "page": 269.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "note from Archon to librarian",
+    "normalized": "note from archon to librarian",
+    "type": "letter",
+    "acquisitions": [
+      {
+        "date": "2025-07-11",
+        "sheet": "20250711DA",
+        "qty": 150.0,
+        "page": 150.0,
+        "value": 10.0,
+        "notes": null,
+        "sold": "No",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "adventuring notes",
+    "normalized": "adventuring notes",
+    "type": "notebook",
+    "acquisitions": [
+      {
+        "date": "2025-07-18",
+        "sheet": "20250718",
+        "qty": null,
+        "page": 121.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "mage spellbook: Gift of Letters, Gift of Tongues, Jump, Shield, Lighten Burden",
+    "normalized": "mage spellbook gift of letters gift of tongues jump shield lighten burden",
+    "type": "spellbook",
+    "acquisitions": [
+      {
+        "date": "2025-07-18",
+        "sheet": "20250718",
+        "qty": null,
+        "page": 178.0,
+        "value": 500.0,
+        "notes": null,
+        "sold": "Yes",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "letter",
+    "normalized": "letter",
+    "type": "letter",
+    "acquisitions": [
+      {
+        "date": "2025-07-25",
+        "sheet": "20250725",
+        "qty": null,
+        "page": 313.0,
+        "value": 10.0,
+        "notes": null,
+        "sold": "No",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Isocritis' spellbook (includes Perpetual Light)",
+    "normalized": "isocritis spellbook includes perpetual light",
+    "type": "spellbook",
+    "acquisitions": [
+      {
+        "date": "2025-08-01",
+        "sheet": "20250801",
+        "qty": null,
+        "page": 150.0,
+        "value": 500.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Tresti's spellbook (includes Basil's Torch Treatment, Bracteros Effect, Frigg's Elephant Ears)",
+    "normalized": "tresti s spellbook includes basil s torch treatment bracteros effect frigg s elephant ears",
+    "type": "spellbook",
+    "acquisitions": [
+      {
+        "date": "2025-08-01",
+        "sheet": "20250801",
+        "qty": null,
+        "page": 150.0,
+        "value": 300.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Litany of Light",
+    "normalized": "litany of light",
+    "type": "ritual-text",
+    "acquisitions": [
+      {
+        "date": "2025-08-01",
+        "sheet": "20250801",
+        "qty": null,
+        "page": 150.0,
+        "value": 50.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": [
+      "Discord Summary 2025-W31"
+    ]
+  },
+  {
+    "title": "The Lives of the Noble Founders, Arden and Vul",
+    "normalized": "lives of the noble founders arden and vul",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-08-01",
+        "sheet": "20250801",
+        "qty": null,
+        "page": 150.0,
+        "value": 45.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": 0.0,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "The Deeds of Marius Tricotor",
+    "normalized": "deeds of marius tricotor",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2025-08-01",
+        "sheet": "20250801",
+        "qty": null,
+        "page": 150.0,
+        "value": 250.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": 3.0,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-05-08",
+        "sheet": "20260508",
+        "qty": null,
+        "page": 619.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "12 Labors of Arden (deluxe)",
+    "normalized": "12 labors of arden deluxe",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-08-01",
+        "sheet": "20250801",
+        "qty": null,
+        "page": 150.0,
+        "value": 150.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Book of nonsense scribbles",
+    "normalized": "book of nonsense scribbles",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-08-01",
+        "sheet": "20250801",
+        "qty": null,
+        "page": 140.0,
+        "value": 1.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Deeds of Phagtro the Westron (Phagtro the Scout)",
+    "normalized": "deeds of phagtro the westron phagtro the scout",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2025-08-01",
+        "sheet": "20250801",
+        "qty": null,
+        "page": 140.0,
+        "value": 50.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "The Courtship of Julius the Exarch",
+    "normalized": "courtship of julius the exarch",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-08-08",
+        "sheet": "20250808",
+        "qty": 3.0,
+        "page": 126.0,
+        "value": 60.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2025-12-19",
+        "sheet": "20251219",
+        "qty": null,
+        "page": "TA-12",
+        "value": 60.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "recipe for baboon stew",
+    "normalized": "recipe for baboon stew",
+    "type": "other",
+    "acquisitions": [
+      {
+        "date": "2025-08-08",
+        "sheet": "20250808",
+        "qty": 30.0,
+        "page": 148.0,
+        "value": 40.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Litany of Light (simple version)",
+    "normalized": "litany of light simple version",
+    "type": "ritual-text",
+    "acquisitions": [
+      {
+        "date": "2025-08-08",
+        "sheet": "20250808",
+        "qty": null,
+        "page": 137.0,
+        "value": 50.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Reward from Temple of Mitra for Lillian",
+    "normalized": "reward from temple of mitra for lillian",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2025-08-29",
+        "sheet": "20250829",
+        "qty": null,
+        "page": 48.0,
+        "value": 5000.0,
+        "notes": null,
+        "sold": "Yes",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "love notes in Mithric, from Larel, to various rich women",
+    "normalized": "love notes in mithric from larel to various rich women",
+    "type": "letter",
+    "acquisitions": [
+      {
+        "date": "2025-09-12",
+        "sheet": "20250912",
+        "qty": null,
+        "page": 181.0,
+        "value": 20.0,
+        "notes": null,
+        "sold": null,
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Great Villains of Archontos, Part IV: Larsinius the Erarch (in Archontean)",
+    "normalized": "great villains of archontos part iv larsinius the erarch in archontean",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-10-10",
+        "sheet": "20251010",
+        "qty": null,
+        "page": 164.0,
+        "value": 65.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Thorcin Poisons and their Cures (in Thorcin)",
+    "normalized": "thorcin poisons and their cures in thorcin",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-10-10",
+        "sheet": "20251010",
+        "qty": null,
+        "page": 164.0,
+        "value": 450.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "spellbook (boring spells, plus Frigg's Jelly Legs)",
+    "normalized": "spellbook boring spells plus frigg s jelly legs",
+    "type": "spellbook",
+    "acquisitions": [
+      {
+        "date": "2025-10-10",
+        "sheet": "20251010",
+        "qty": null,
+        "page": 164.0,
+        "value": 200.0,
+        "notes": null,
+        "sold": "Yes",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Emperors of Archontos: Volume I (in Mithric)",
+    "normalized": "emperors of archontos volume i in mithric",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-10-10",
+        "sheet": "20251010",
+        "qty": null,
+        "page": 164.0,
+        "value": 250.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "map of Prior Jacobus's tomb",
+    "normalized": "map of prior jacobus s tomb",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2025-10-17",
+        "sheet": "20251017",
+        "qty": null,
+        "page": 185.0,
+        "value": 10.0,
+        "notes": null,
+        "sold": "Yes",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "quire from Deeds of Phagtro the Westron, \"Phagtro and the Moving Island\" (Mithric)",
+    "normalized": "quire from deeds of phagtro the westron phagtro and the moving island mithric",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2025-10-17",
+        "sheet": "20251017",
+        "qty": null,
+        "page": 185.0,
+        "value": 50.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "map of Temple of Thoth",
+    "normalized": "map of temple of thoth",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2025-10-17",
+        "sheet": "20251017",
+        "qty": null,
+        "page": 185.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": [
+      "Discord Summary 2025-W11",
+      "Discord Summary 2025-W32",
+      "Discord Summary 2025-W41",
+      "Discord Summary 2026-W11",
+      "Discord Summary 2026-W12"
+    ]
+  },
+  {
+    "title": "ancient book in unknown language",
+    "normalized": "ancient book in unknown language",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-10-17",
+        "sheet": "20251017",
+        "qty": null,
+        "page": 189.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Practical Liturgies of Lord Thoth (secret language)",
+    "normalized": "practical liturgies of lord thoth secret language",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-10-24",
+        "sheet": "20251024",
+        "qty": null,
+        "page": 149.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Thoth in All His Forms (secret language)",
+    "normalized": "thoth in all his forms secret language",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-10-24",
+        "sheet": "20251024",
+        "qty": null,
+        "page": 149.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "parchment with secrets",
+    "normalized": "parchment with secrets",
+    "type": "parchment",
+    "acquisitions": [
+      {
+        "date": "2025-10-24",
+        "sheet": "20251024",
+        "qty": null,
+        "page": 135.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "spellbook: book spells plus Frigg's Fraud",
+    "normalized": "spellbook book spells plus frigg s fraud",
+    "type": "spellbook",
+    "acquisitions": [
+      {
+        "date": "2025-10-24",
+        "sheet": "20251024",
+        "qty": null,
+        "page": 130.0,
+        "value": 200.0,
+        "notes": null,
+        "sold": "Yes",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Dwarven life-stone (inscribed \"Schist Corundam\" in dwarven)",
+    "normalized": "dwarven life stone inscribed schist corundam in dwarven",
+    "type": "tablet",
+    "acquisitions": [
+      {
+        "date": "2025-10-31",
+        "sheet": "20251031",
+        "qty": null,
+        "page": 132.0,
+        "value": "?",
+        "notes": null,
+        "sold": "No",
+        "owner": "Uvash"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "copper plaques with maps, strange glyphs, Mithric notes on back",
+    "normalized": "copper plaques with maps strange glyphs mithric notes on back",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2025-11-07",
+        "sheet": "20251107",
+        "qty": null,
+        "page": 301.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "book on bone plates, in unknown language",
+    "normalized": "book on bone plates in unknown language",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-11-07",
+        "sheet": "20251107",
+        "qty": null,
+        "page": 301.0,
+        "value": 50.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "parchment and hide codex, in unknown language",
+    "normalized": "parchment and hide codex in unknown language",
+    "type": "codex",
+    "acquisitions": [
+      {
+        "date": "2025-11-07",
+        "sheet": "20251107",
+        "qty": null,
+        "page": 301.0,
+        "value": 50.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Preparing for the Long Death, in Mithric, manual of making undead mummies",
+    "normalized": "preparing for the long death in mithric manual of making undead mummies",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-11-07",
+        "sheet": "20251107",
+        "qty": null,
+        "page": 301.0,
+        "value": 3000.0,
+        "notes": null,
+        "sold": "Yes",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Laelius’s Linguistic Primer, or How to Speak the Old Ones’ Tongue",
+    "normalized": "laelius s linguistic primer or how to speak the old ones tongue",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": 0.0,
+        "page": 874.0,
+        "value": 1000.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "A Complete Decoding of the Old Ones’ Glyphs",
+    "normalized": "complete decoding of the old ones glyphs",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": 0.0,
+        "page": 874.0,
+        "value": 1000.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Arden Speaks",
+    "normalized": "arden speaks",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 200.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": [
+      "Discord Summary 2026-W05"
+    ]
+  },
+  {
+    "title": "the Art of Becoming",
+    "normalized": "art of becoming",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 10000.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Notes on the Rudishva Spirits",
+    "normalized": "notes on the rudishva spirits",
+    "type": "notebook",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 1000.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "On the Wars of the Old Ones with the Trolls",
+    "normalized": "on the wars of the old ones with the trolls",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 400.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": 3.0,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Practical Animal Magic",
+    "normalized": "practical animal magic",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 1000.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Rudishva Devices",
+    "normalized": "rudishva devices",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 1000.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": [
+      "Discord Summary 2025-W45"
+    ]
+  },
+  {
+    "title": "Thirty Uses for Arcanum",
+    "normalized": "thirty uses for arcanum",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": null,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Sorcerous Properties of Gems",
+    "normalized": "sorcerous properties of gems",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 250.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": 1.0,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "copper ID",
+    "normalized": "copper id",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 25.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "bronze ID",
+    "normalized": "bronze id",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 25.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-03-13",
+        "sheet": "20260313",
+        "qty": null,
+        "page": 272.0,
+        "value": 25.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "rust ID",
+    "normalized": "rust id",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 25.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "platinum ID",
+    "normalized": "platinum id",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 25.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-02-06",
+        "sheet": "20260206",
+        "qty": null,
+        "page": 362.0,
+        "value": 500.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "brown ID",
+    "normalized": "brown id",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 25.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "sky blue ID",
+    "normalized": "sky blue id",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 25.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "pale green ID",
+    "normalized": "pale green id",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 874.0,
+        "value": 25.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-02-06",
+        "sheet": "20260206",
+        "qty": null,
+        "page": 362.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": [
+      "Discord Summary 2025-W45"
+    ]
+  },
+  {
+    "title": "map of Beacon",
+    "normalized": "map of beacon",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 877.0,
+        "value": 25.0,
+        "notes": null,
+        "sold": "No",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "map of Old Ones Barracks",
+    "normalized": "map of old ones barracks",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 877.0,
+        "value": 25.0,
+        "notes": null,
+        "sold": "No",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "map to a tomb",
+    "normalized": "map to a tomb",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2025-11-14",
+        "sheet": "20251114",
+        "qty": null,
+        "page": 877.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "treasure map (Glory of Thoth to a secret door on E side of great chasm, N of Sundered Span)",
+    "normalized": "treasure map glory of thoth to a secret door on e side of great chasm n of sundered span",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2025-11-28",
+        "sheet": "20251128",
+        "qty": null,
+        "page": 200.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "copper slate, says \"varumani\" (in Mithric)  \"that is, troll\" (in Archontean)",
+    "normalized": "copper slate says varumani in mithric that is troll in archontean",
+    "type": "tablet",
+    "acquisitions": [
+      {
+        "date": "2025-11-28",
+        "sheet": "20251128",
+        "qty": null,
+        "page": 305.0,
+        "value": 10.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "parchment with adventuring notes",
+    "normalized": "parchment with adventuring notes",
+    "type": "parchment",
+    "acquisitions": [
+      {
+        "date": "2025-12-19",
+        "sheet": "20251219",
+        "qty": 3.0,
+        "page": 685.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "notebook with 3 Thane spells",
+    "normalized": "notebook with 3 thane spells",
+    "type": "notebook",
+    "acquisitions": [
+      {
+        "date": "2025-12-19",
+        "sheet": "20251219",
+        "qty": null,
+        "page": 679.0,
+        "value": 300.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Kel Bormol's chess diary (with some experimental notes in the back)",
+    "normalized": "kel bormol s chess diary with some experimental notes in the back",
+    "type": "diary",
+    "acquisitions": [
+      {
+        "date": "2025-12-19",
+        "sheet": "20251219",
+        "qty": null,
+        "page": 679.0,
+        "value": 125.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "spellbook with 3 Thane spells, other spells",
+    "normalized": "spellbook with 3 thane spells other spells",
+    "type": "spellbook",
+    "acquisitions": [
+      {
+        "date": "2025-12-19",
+        "sheet": "20251219",
+        "qty": null,
+        "page": "TA-12",
+        "value": 300.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Divine Power Is a Manifestation of Collective Will",
+    "normalized": "divine power is a manifestation of collective will",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-12-19",
+        "sheet": "20251219",
+        "qty": null,
+        "page": "TA-12",
+        "value": 200.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Eighth Collegium - Fact or Fiction",
+    "normalized": "eighth collegium fact or fiction",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-12-19",
+        "sheet": "20251219",
+        "qty": null,
+        "page": "TA-12",
+        "value": 150.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Great Vampire Lords and their Demise",
+    "normalized": "great vampire lords and their demise",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-12-19",
+        "sheet": "20251219",
+        "qty": null,
+        "page": "TA-12",
+        "value": 350.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Great Villains of Archontos Part V: Priscus the Tratior",
+    "normalized": "great villains of archontos part v priscus the tratior",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-12-19",
+        "sheet": "20251219",
+        "qty": null,
+        "page": "TA-12",
+        "value": 50.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "History of the Pagan Cults",
+    "normalized": "history of the pagan cults",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-12-19",
+        "sheet": "20251219",
+        "qty": null,
+        "page": "TA-12",
+        "value": 50.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "The Kauketiad",
+    "normalized": "kauketiad",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-12-19",
+        "sheet": "20251219",
+        "qty": null,
+        "page": "TA-12",
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Legionary Rex and the Hidden Temple",
+    "normalized": "legionary rex and the hidden temple",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2025-12-19",
+        "sheet": "20251219",
+        "qty": null,
+        "page": "TA-12",
+        "value": 75.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Mithric scroll about \"floating sage\"",
+    "normalized": "mithric scroll about floating sage",
+    "type": "scroll",
+    "acquisitions": [
+      {
+        "date": "2026-01-02",
+        "sheet": "20260102",
+        "qty": null,
+        "page": 221.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "stone slab, artwork of vessel with 4 kinds of creatures, Rudishva glyphs",
+    "normalized": "stone slab artwork of vessel with 4 kinds of creatures rudishva glyphs",
+    "type": "tablet",
+    "acquisitions": [
+      {
+        "date": "2026-01-16",
+        "sheet": "20260116",
+        "qty": null,
+        "page": 306.0,
+        "value": 3000.0,
+        "notes": null,
+        "sold": "Yes",
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "platinum Rudishva ID",
+    "normalized": "platinum rudishva id",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2026-01-23",
+        "sheet": "20260123",
+        "qty": 3.0,
+        "page": 614.0,
+        "value": 500.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": [
+      "Discord Summary 2025-W45"
+    ]
+  },
+  {
+    "title": "silver Rudishva ID",
+    "normalized": "silver rudishva id",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2026-01-23",
+        "sheet": "20260123",
+        "qty": 3.0,
+        "page": 614.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 359.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 359.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": [
+      "Discord Summary 2026-W10"
+    ]
+  },
+  {
+    "title": "sky blue Rudishva ID",
+    "normalized": "sky blue rudishva id",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2026-01-23",
+        "sheet": "20260123",
+        "qty": 3.0,
+        "page": 614.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "yellow Rudishva ID",
+    "normalized": "yellow rudishva id",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2026-01-23",
+        "sheet": "20260123",
+        "qty": 3.0,
+        "page": 614.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 359.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": [
+      "Discord Summary 2026-W03"
+    ]
+  },
+  {
+    "title": "black Rudishva card",
+    "normalized": "black rudishva card",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2026-01-23",
+        "sheet": "20260123",
+        "qty": 0.0,
+        "page": 614.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": [
+      "Discord Summary 2026-W03"
+    ]
+  },
+  {
+    "title": "waxy food wrapping paper with Rudishva glyphs with food type",
+    "normalized": "waxy food wrapping paper with rudishva glyphs with food type",
+    "type": "parchment",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 613.0,
+        "value": 1.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "data crystal: Solutions to the Propulsion Problem",
+    "normalized": "data crystal solutions to the propulsion problem",
+    "type": "data-crystal",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 613.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Command Tablet a.k.a. Tablet of the Beacon",
+    "normalized": "command tablet a k a tablet of the beacon",
+    "type": "tablet",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 613.0,
+        "value": 20000.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "data crystal: Letters Home",
+    "normalized": "data crystal letters home",
+    "type": "data-crystal",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 612.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "data crystal: the Shining Beacon of Glorious Heaven: Technical Specifications of this Yort-Class Exploration Vessel",
+    "normalized": "data crystal the shining beacon of glorious heaven technical specifications of this yort class exploration vessel",
+    "type": "data-crystal",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": null,
+        "value": null,
+        "notes": null,
+        "sold": null,
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "data crystal: Diary of Pliv-Mol, Chief of Security",
+    "normalized": "data crystal diary of pliv mol chief of security",
+    "type": "data-crystal",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 612.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "data crystal: untitled (by Dipra-Jol)",
+    "normalized": "data crystal untitled by dipra jol",
+    "type": "data-crystal",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 612.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "data crystal: Crew Roster",
+    "normalized": "data crystal crew roster",
+    "type": "data-crystal",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 612.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "data crystal: Allies for Ever!",
+    "normalized": "data crystal allies for ever",
+    "type": "data-crystal",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 612.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "data crystal: Fire Pits of Creation",
+    "normalized": "data crystal fire pits of creation",
+    "type": "data-crystal",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 358.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "data crystal: Troll Pits",
+    "normalized": "data crystal troll pits",
+    "type": "data-crystal",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 358.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "book: Time of Darkened Skies (Rudishva)",
+    "normalized": "book time of darkened skies rudishva",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 358.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "book: The Properties of Arcanum (Rudishva)",
+    "normalized": "book the properties of arcanum rudishva",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 358.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "book: The Betrayal (Rudishva)",
+    "normalized": "book the betrayal rudishva",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 358.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "manuscript: Translattions of 250 Rudishva glyphs to Mithric",
+    "normalized": "manuscript translattions of 250 rudishva glyphs to mithric",
+    "type": "manuscript",
+    "acquisitions": [
+      {
+        "date": "2026-01-30",
+        "sheet": "20260130",
+        "qty": null,
+        "page": 358.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "map on copper with Dwarven and Archontean writing",
+    "normalized": "map on copper with dwarven and archontean writing",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2026-02-06",
+        "sheet": "20260206",
+        "qty": null,
+        "page": 361.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "map (caves)",
+    "normalized": "map caves",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2026-03-13",
+        "sheet": "20260313",
+        "qty": null,
+        "page": 272.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      },
+      {
+        "date": "2026-03-13",
+        "sheet": "20260313",
+        "qty": null,
+        "page": 272.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "map (dungeon)",
+    "normalized": "map dungeon",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2026-03-13",
+        "sheet": "20260313",
+        "qty": null,
+        "page": 272.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "codex",
+    "normalized": "codex",
+    "type": "codex",
+    "acquisitions": [
+      {
+        "date": "2026-03-13",
+        "sheet": "20260313",
+        "qty": null,
+        "page": 272.0,
+        "value": 10.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "accounts of Cult of Set",
+    "normalized": "accounts of cult of set",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-03-13",
+        "sheet": "20260313",
+        "qty": null,
+        "page": 268.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "6' x 3' chunk of plasteel with map",
+    "normalized": "6 x 3 chunk of plasteel with map",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2026-03-13",
+        "sheet": "20260313",
+        "qty": null,
+        "page": 266.0,
+        "value": 45.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "text describing how to access Tomb of Marius through a ceiling",
+    "normalized": "text describing how to access tomb of marius through a ceiling",
+    "type": "other",
+    "acquisitions": [
+      {
+        "date": "2026-03-13",
+        "sheet": "20260313",
+        "qty": null,
+        "page": 266.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "text describing Varumani, Rudishva, Kaliyani, Varuda",
+    "normalized": "text describing varumani rudishva kaliyani varuda",
+    "type": "other",
+    "acquisitions": [
+      {
+        "date": "2026-03-13",
+        "sheet": "20260313",
+        "qty": null,
+        "page": 266.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Tales of Larel One-Eye",
+    "normalized": "tales of larel one eye",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": 3.0,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "On the Location of Priscus Pulcher",
+    "normalized": "on the location of priscus pulcher",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": 3.0,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "A True History of Isadora, companion of Priscus Pulcher",
+    "normalized": "true history of isadora companion of priscus pulcher",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": 0.0,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "The Song of Jacinth the Rose",
+    "normalized": "song of jacinth the rose",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": 13.0,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "The Value of Mud",
+    "normalized": "value of mud",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": null,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Canticle of Arcane Knowledge",
+    "normalized": "canticle of arcane knowledge",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": null,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Thorcin Poisons and their Cures",
+    "normalized": "thorcin poisons and their cures",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": null,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "The Deeds of the Azure Knights",
+    "normalized": "deeds of the azure knights",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": null,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "The Nine Hells: a Catalogue with descriptions and summoning notes",
+    "normalized": "nine hells a catalogue with descriptions and summoning notes",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": null,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "scroll with 3 permutations of 6 colors",
+    "normalized": "scroll with 3 permutations of 6 colors",
+    "type": "scroll",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": null,
+        "page": 276.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "invisible book",
+    "normalized": "invisible book",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": null,
+        "page": 277.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": [
+      "Discord Summary 2026-W10"
+    ]
+  },
+  {
+    "title": "maps",
+    "normalized": "maps",
+    "type": "map",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": null,
+        "page": 269.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "diary in secret Set language",
+    "normalized": "diary in secret set language",
+    "type": "diary",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": null,
+        "page": 270.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "ancient incriminating information",
+    "normalized": "ancient incriminating information",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2026-03-20",
+        "sheet": "20260320",
+        "qty": null,
+        "page": 270.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "parchment with 12x12 letters",
+    "normalized": "parchment with 12x12 letters",
+    "type": "parchment",
+    "acquisitions": [
+      {
+        "date": "2026-03-27",
+        "sheet": "20260327",
+        "qty": null,
+        "page": 359.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Ancient Varumani Passport",
+    "normalized": "ancient varumani passport",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2026-03-27",
+        "sheet": "20260327",
+        "qty": null,
+        "page": 355.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "piece of plasteel with Mithric writing",
+    "normalized": "piece of plasteel with mithric writing",
+    "type": "other",
+    "acquisitions": [
+      {
+        "date": "2026-03-27",
+        "sheet": "20260327",
+        "qty": null,
+        "page": 355.0,
+        "value": null,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": [
+      "Discord Summary 2026-W11"
+    ]
+  },
+  {
+    "title": "parchment with “yellow-blue-green-white-black-red”",
+    "normalized": "parchment with yellow blue green white black red",
+    "type": "parchment",
+    "acquisitions": [
+      {
+        "date": "2026-03-27",
+        "sheet": "20260327",
+        "qty": null,
+        "page": 192.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "spellbook with Brain Full of Small Spiders, various standard spells",
+    "normalized": "spellbook with brain full of small spiders various standard spells",
+    "type": "spellbook",
+    "acquisitions": [
+      {
+        "date": "2026-04-24",
+        "sheet": "20260424",
+        "qty": 1.0,
+        "page": 262.0,
+        "value": 200.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "note about Theskelon",
+    "normalized": "note about theskelon",
+    "type": "letter",
+    "acquisitions": [
+      {
+        "date": "2026-04-24",
+        "sheet": "20260424",
+        "qty": null,
+        "page": 278.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "bounty on varumani heads",
+    "normalized": "bounty on varumani heads",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2026-04-24",
+        "sheet": "20260424",
+        "qty": null,
+        "page": 278.0,
+        "value": 0.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Dogmatics of Father Set (unreadable, secret language, Gift of Letters got the title)",
+    "normalized": "dogmatics of father set unreadable secret language gift of letters got the title",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-04-24",
+        "sheet": "20260424",
+        "qty": null,
+        "page": 300.0,
+        "value": 50.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "paut",
+    "normalized": "paut",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2026-04-24",
+        "sheet": "20260424",
+        "qty": null,
+        "page": 300.0,
+        "value": 135.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Preparing for the Long Death (incomplete)",
+    "normalized": "preparing for the long death incomplete",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-04-24",
+        "sheet": "20260424",
+        "qty": null,
+        "page": 302.0,
+        "value": 2000.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Liturgy of the Strong (unreadable, secret language, Gift of Letters got the title)",
+    "normalized": "liturgy of the strong unreadable secret language gift of letters got the title",
+    "type": "ritual-text",
+    "acquisitions": [
+      {
+        "date": "2026-04-24",
+        "sheet": "20260424",
+        "qty": null,
+        "page": 302.0,
+        "value": 50.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Tablet of the Beacon",
+    "normalized": "tablet of the beacon",
+    "type": "tablet",
+    "acquisitions": [
+      {
+        "date": "2026-05-08",
+        "sheet": "20260508",
+        "qty": null,
+        "page": 619.0,
+        "value": 25000.0,
+        "notes": "Only worth this much to Lady Alexia, and only in good condition",
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "quire with 20 teleporter addresses",
+    "normalized": "quire with 20 teleporter addresses",
+    "type": "notebook",
+    "acquisitions": [
+      {
+        "date": "2026-05-08",
+        "sheet": "20260508",
+        "qty": null,
+        "page": 619.0,
+        "value": 100.0,
+        "notes": "Possibly worth more if paired with a set of glass squares",
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Irene Bellatrix: on the Wars of this Great Archon",
+    "normalized": "irene bellatrix on the wars of this great archon",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-05-08",
+        "sheet": "20260508",
+        "qty": null,
+        "page": 619.0,
+        "value": 100.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "The Honorable Life of Ligarius, Archon",
+    "normalized": "honorable life of ligarius archon",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-05-08",
+        "sheet": "20260508",
+        "qty": null,
+        "page": 619.0,
+        "value": 65.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": []
+  },
+  {
+    "title": "Archons of Arden Vul",
+    "normalized": "archons of arden vul",
+    "type": "book",
+    "acquisitions": [
+      {
+        "date": "2026-05-08",
+        "sheet": "20260508",
+        "qty": null,
+        "page": 619.0,
+        "value": 50.0,
+        "notes": null,
+        "sold": "No",
+        "owner": "Party"
+      }
+    ],
+    "discord_mentions": [
+      "Discord Summary 2025-W28",
+      "Discord Summary 2026-W02"
+    ]
+  },
+  {
+    "title": "Rescript from Archon Pellas Idreonus to chiliarch Celsim Torquatius",
+    "normalized": "rescript from archon pellas idreonus to chiliarch celsim torquatius",
+    "type": "document",
+    "acquisitions": [
+      {
+        "date": "2026-05-08",
+        "sheet": "20260508",
+        "qty": null,
+        "page": null,
+        "value": null,
+        "notes": null,
+        "sold": null,
+        "owner": null
+      }
+    ],
+    "discord_mentions": []
+  }
+]

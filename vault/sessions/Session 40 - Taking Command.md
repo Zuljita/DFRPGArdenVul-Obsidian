@@ -5,6 +5,8 @@ tags:
   - tradition/thothian
   - tradition/demma
   - recap
+session_date: 2026-01-31
+source_url: https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-40-taking.html
 ---
 
 # 40: Taking Command
@@ -89,4 +91,4 @@ Next Week:
 
 - Previous Session: [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
 - Next Session: [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
-
+- Discord Discussions: [[Discord Summary 2026-W04]], [[Discord Summary 2026-W05]]
