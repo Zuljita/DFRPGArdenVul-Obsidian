@@ -5,57 +5,76 @@ tags:
   - discord-summary
 ---
 
-# Discord Summary: 2025-W11 (Distilled)
+# Discord Summary 2025-W11
 
-**Date Range:** 2025-03-17 to 2025-03-23
-**Messages:** 70
+## Source
+- Private Discord weekly digest
+- Week ending: 2025-03-21
 
-## In-World Knowledge
+## Navigation
+<!-- BEGIN AUTO NAV -->
+<!-- END AUTO NAV -->
 
-### Places
+# Weekly Knowledge Base: Arden Vul Expedition
+**Date:** 2025-03-21
+**Subject:** Loot Distribution, Gosterwick Infrastructure, and Mercenary Reconstitution
 
-- The Yellow Cloak Inn is a 5-story building near the Central Market in Gosterwick with a 3-story addition, featuring a reception area, lounge, upper-class common room, main common room, individual guest rooms (max occupancy 3), and dormitories with bunkbeds. [gosterwick | 2025-03-17; worldbuilding | 2025-03-22]
+## 1. Summary
+This week focused on the complex logistics of distributing spoils from the recent delve to maximize character point (CP) gains for the company. Significant progress was made in establishing the operational framework for the Grudge Brigade within Gosterwick, including the utilization of the Arcane Practitioners Club and the identification of various magical artifacts. The party successfully navigated the "knapsack problem" of loot management, balancing the retention of valuable gear against the necessity of reaching a gross haul threshold for bonus XP.
 
-- Gosterwick has 9 taverns and 2 inns. The taverns in roughly ascending order of quality include Baliff's Truncheon, Dripping Hog, Rusty Gauntlet, Old Well, Pyrite, Grinning Skull, Muddy Puddle, Three Hanged Men, and the Pig and Whistle. The inns are the Yellow Cloak and the Stunned Acolyte. [gosterwick | 2025-03-18]
+## 2. Events & Actions by Character
 
-- The hill in the NW of Gosterwick is called the Hill of the Gods, home to all temples. Four of the Ten (Demma, Mitra, Lucreon, and Heschius Ban) have individual temples staffed with full-time clerics. The House of the Gods is the large shared temple for the other gods. [archive | 2025-03-22]
+**Uvash Edzuson**
+* **Town Actions:** Negotiated the retention of dwarf-sized mail from the recent loot haul.
+* **Character Advancement:** Intends to prioritize increasing Strength (ST) to better utilize heavy weaponry and manage encumbrance; noted a desire to avoid reaching medium encumbrance levels for now.
+* **Equipment Changes:** Retained a suit of dwarf-sized mail.
 
-### Rumors & Reports
+**Ioannes Grammatikos Byzantios**
+* **Town Actions:** Utilized the Arcane Practitioners Club laboratory to identify powdered Major Healing potions (achieved by recognizing the scent upon adding water); performed preliminary inspections of various looted armors.
+* **Character Advancement:** Spent a point in Research (at the $40 rate via his Mage piece) and a point in Hiking (obtained at no cost due to recent use).
+* **Equipment Changes:** Retained one medium shield from the loot haul; intends to sell his small shield for $16 to assist with party funds.
 
-- A unique source of magical energy exists inside the plateau, drawing creatures and inquisitive mages. It can be manipulated by powerful mages for good or for ill; look for orange rocks. [rumors | 2025-03-19]
+**Vaelitharon "Vael" Sunshadow**
+* **Town Actions:** Undertook a lesson in Weapon and Armor Appreciation with Torunn the Smith to distinguish between Good, Fine, and Dwarven quality craftsmanship.
+* **Character Advancement:** Planning future training in identification-based skills, specifically Merchant and Connoisseur (Weapons), to improve loot valuation.
 
-- We were waiting to take the lift down to the troll market when a huge troll exiting the lift asked us a question in surprisingly good Thorcin! It wanted to know if we had seen one of its fellow hunters, a troll named Bedara. When we said no, the troll spat and wouldn't say another word. I got the feeling that they'd be real friendly if you could find this Bedara. [rumors | 2025-03-19]
+**Thorne Lasselanta Ashcroft (Mercenary)**
+* **Equipment Changes:** Presented a new combat profile for the company's next deployment; noted to wield dual long staves with specialized parrying capabilities at range 2-3. The mercenary's spear is equipped with a $880 power item providing 7 FP.
 
-- Gog is a barmy old goblin living in an underground grotto near the arena. He barters information for meat, especially beastman meat, and claims he was exiled from the goblin court due to the treachery of another goblin named Mook. [rumors | 2025-03-21]
+## 3. Lore & Discoveries
+* **Gosterwick Infrastructure:** The town is a burgeoning "boom town" expanded by Lady Alex_Alexia and the Knights of the Azure Shield. Key locations include the Yellow Cloak Inn (managed by Margot the Red), Torunn the Smith, and the Arcane Practitioners Club (APC).
+* **The Arcane Practitioners Club (APC):** A facility providing alchemy labs, research libraries, and magical training/identification services. Membership is $13 per week ($50/month). Notable members include Pelteon and Lyssandra. The club can recharge Mage power items.
+* **Rumors & Legends:**
+    * A goblin named Gog resides in a grotto near the arena and trades information for beastman meat.
+    * A chamber in the Upper Halls may contain a horn through through which the god Thoth speaks.
+    * The "Cavern of Blood" holds the remains of six lost legionary cohorts from 250 years ago.
+    * A troll named Bedara is currently missing, sought by a hunter near the troll market.
 
-- Graffiti found on stairs in the Pyramid reads (in Archontean): "I told Robin not to touch the eyes. Now his picks are mine." [rumors | 2025-03-21]
+## 4. World Rulings
+* **Training Costs:** Training in skills listed on a character's "Piece" costs $40 per point; all other training costs $80 per point. Training is free if the GM rules it was not needed due to recent use.
+* **Loot XP Thresholds:** For the current expedition, a gross haul of $7,800 is required to achieve a 2-XP bonus. The threshold increases as characters gain CP.
+* **Loot Valuation:** Items sold immediately to non-party members yield 4/10 (40%) of retail value (unless the seller possesses Wealth). Items kept by the party for utility or future use are valued at 2/10 (20%) for XP calculation purposes.
+* **Magic Item Identification:** Alchemy rolls can identify well-known potions without a lab; however, unknown or complex magical items require professional identification via the APC or specialized skills.
+* **Levitation Constraints:** The *Levitation* spell only functions on living targets. The mana cost is determined by the total weight of the target and all carried equipment.
 
-### Discoveries & Observations
+## 5. Item Intelligence
+* **Boots of Subtlety:**
+    * **Properties:** Fine DR2 leather boots that magically resize to fit the wearer. They are cursed with a reduction in pain perception; the wearer perceives injuries as only 2/3 as severe as they actually are, which reduces shock penalties but risks fatal underestimation of wounds.
+    * **Provenance/Value:** The actual offer from Lyssandra was $800 (40% of the $2,000 "book value").
+    * **Handling:** Lyssandra of the APC warns that the curse is likely permanent and cannot be removed without destroying the magic.
+* **Halfling-Sized Leather Armor:**
+    * **Properties:** A full suit of leather armor (open-faced) featuring *Fortify* and *Lighten* enchantments (-25% weight).
+    * **Provenance/Value:** Identified by Pelteon of the APC.
+* **Powdered Major Healing Potion:**
+    * **Properties:** A dehydrated form of a standard Major Healing potion; requires water to reconstitute.
+    * **Discovery:** Identified via Alchemy by Ioannes Grammatikos Byzantios.
 
-- The party has not observed significant changes to the water level in Gosterwick, though it's early spring when rivers run high from melting snow. [archive | 2025-03-23; general | 2025-03-23]
+## 6. Tactical Planning
+* **Logistics:** The company intends to acquire a wheelbarrow or a beast of burden (such as a mule) to facilitate the transport of heavy loot from future delves.
+* **Next Deployment:** The next session is slated to commence at the Yellow Cloak Inn.
 
-- A cursed torch recovered by the party was Remove Cursed and placed in a wheelbarrow with a "Do Not Touch" sign. The party decided to keep it rather than sell, as light appears important to Thoth and may have unexpected uses. [weeklylootthread | 2025-03-21 through 2025-03-23]
-
-### Religious & Cultural Notes
-
-- Having a friend who is a cleric of a temple grants "friendly cleric discount rates" for spellcasting services at that temple. Those without such connections pay higher "heathen unbeliever rates." Vael can get Remove Curse cast at book rate at the Temple of Demma if accompanied by Ioannes, who can do the talking. [weeklylootthread | 2025-03-22; archive | 2025-03-22]
-
-- The party earned a group achievement: "Iconic Location: The Glory of Thoth" worth 1 XP. [archive | 2025-03-21]
-
-### Session Outcomes
-
-- Party earned 3 XP this week: 1 XP for exploration, 1 XP for loot, and 1 XP for the group achievement. [archive | 2025-03-21]
-
----
-
-## Truncation Notes
-
-The following entries require source data fetch:
-
-1. ~~**Tavern list** - Fixed from raw source data~~
-2. ~~**Troll encounter** - Fixed from raw source data~~
-3. ~~**Gog's story** - Entry was complete, no truncation~~
-
----
-
-*Distilled: 2026-03-18*
+## 7. Unresolved Threads
+* **The Baboon Staircase:** Investigation is required regarding the rumor of a hidden staircase behind a painted baboon image on the pyramid steps.
+* **Unidentified Loot:** The value of the recovered lore scroll and one suit of scale armor remains unconfirmed.
+* **The Bedara Lead:** Whether to pursue information regarding the missing troll, Bedara.
+* **Wealth Management:** Determining the long-term strategy for acquiring "Wealth" advantages to optimize loot profits.

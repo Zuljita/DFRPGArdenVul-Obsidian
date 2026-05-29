@@ -6,47 +6,72 @@ tags:
   - discord-summary
 ---
 
-# Discord Summary: 2025-W43 (Distilled)
+# Discord Summary 2025-W43
 
-**Date Range:** 2025-10-27 to 2025-11-02
+## Source
+- Private Discord weekly digest
+- Week ending: 2025-10-31
 
----
+## Navigation
+<!-- BEGIN AUTO NAV -->
+<!-- END AUTO NAV -->
 
-## Distilled In-World Knowledge
+# Weekly Chronicle: The Eve of the New Moon
+**Date:** 31st of Besemios, 2993 AE
 
-### NPCs & Dialogue
-- **Pelteon** told Ioannes that she reacts poorly to milk and does not drink it, directing him to speak with **Fael at the Grain Hall** for help choosing milk for his cats. [#pc-notes/#archive | 2025-10-27]
+## 1. Summary
+The company has focused its efforts on resource management and long-term infrastructure within Gosterwick following recent expeditions. While alchemical endeavors have been marred by significant failures, the expansion of Uvash Eduson’s religious influence and the acquisition of new magical intelligence have set the stage for upcoming incursions into the ruins of Arden Vul.
 
-### Discoveries & Research
-- Ioannes uncovered a story about **Sligo the Devious**, who gifted **Leonidas of Archontos** a Rug of Instant Access as a peace offering, then had assassins come through it at night to kill him; Sligo was convicted of murder and sentenced to death by Emperor Basil, who also confiscated the Rugs and banned enchanting more. This all happened in Archontos about 1400 years ago. Carpets are still not given as gifts in the Empire, and rug-weavers have the slogan "A Carpet Is Forever" to encourage the wealthy to only use custom-made carpets and never buy used carpets. [#town-rolls | 2025-10-29]
+## 2. Events & Actions by Character
 
-### Factions & Groups
-- **Iris**, a Thorcin adventurer belonging to a group called **Second Chance**, told Vallium that one of the knights in amazing armor (the ones with pale, scarred faces) stopped them and demanded to know if they had seen her companion, a knight named **[[npcs/Knight Sixth.md|Sixth]]**. Said their Order would pay good money for knowledge of his whereabouts. [#town-rolls | 2025-10-30]
+### Uvash Eduson
+* **Town Actions:** Undertook proselytizing efforts to expand the flock of Zorradrim; however, no new converts were secured this/this week, as most local dwarves are already established members of the parish. Proposed a significant architectural project: the construction of a church and dormitory near the existing dwarven quarter in Gosterwick to accommodate growing numbers of worshippers.
+* **Character Advancement:** Acquired the "Wealthy" advantage, funded by recent donations from his growing parish.
+* **Equipment Changes:** Equipped with the Ring of Climbing.
 
-### Economics & Logistics
-- Archontean coinage (copper, silver, gold) weighs 0.02 lbs each; $200 in silver = 4 lbs. Ancient silver is slightly lighter; ancient gold solidi are 10× as heavy and 10× as valuable. Gems are essentially weightless for carrying large sums. [#questions-for-gm | 2025-10-29]
-- Key copies for Gerrilad: 3 new keys acquired, party now holds 25 keys total, $250 spent on copies. [#town-rolls | 2025-10-30]
-- Building costs in Gosterwick range from ~$2,000 (small used house) to $100,000+ (custom high-end structures). Time investment scales with complexity. [#questions-for-gm | 2025-10-31]
+### Vallium Halcyon
+* **Town Actions:** Engaged in carousing at a cost of $125; during this time, met an adventurer named Iris of the "Second Chance" group, who is searching for a knight known as Sixth. Commissioned the duplication of 25 keys (including those from Gerrilad) at a cost of $250.
+* **Alchemy/Crafting:** Attempted to brew a Paut Potion under supervision; the attempt resulted in failure and incurred additional costs.
+* **Equipment Changes:** Equipped with the Ring of Free Action.
 
-### Religious Affairs (Uvash's Church)
-- Skills useful for religious conversion or attracting dwarves: Propaganda, Diplomacy, Public Speaking, Performance, Religious Ritual, Theology, Writing. [#questions-for-gm | 2025-10-29]
-- Weekly result: No new converts. Most of Gosterwick's small dwarven population already belongs to Uvash's flock (~50% attendance rate), plus a couple of humans. [#town-rolls | 2025-10-29]
-- There is no full Dwarven Quarter, but there is a street with ~6 dwarven buildings clustered together; the **Hill of the Gods** is another viable church location. [#questions-for-gm | 2025-10-31]
-- Uvash drafted church blueprints: (1) Entryway with offering table, bookshelf for Dwarven Literature and Holy Book of Zorradrim; (2) Chapel with 10ft pews seating four dwarves each, stained glass for aesthetics; (3) Dining area for private gatherings; (4a) Uvash's bedroom for him and his wife; (4b) Barracks housing four with personal locked chests, small table and curtains. Purple carpets and bedding because purple is the color of Prince Zorradrim. Approximately 810 sq ft of ground space. [#questions-for-gm | 2025-10-31]
+### Ioannes Grammatikos Byzantios
+* **Town Actions:** Conducted research into the history and properties of teleportation rugs.
+* **Alchemy/Crafting:** Attempted to brew a Greater Healing Potion; the attempt resulted in a critical failure, causing significant mess, loss of funds, and professional reprimand from Lyssandra.
+* **Equipment Changes:** Equipped with the Bracers of Force.
 
-### Events & Outcomes
-- **Alchemy (Critical Failure):** Money lost, no potion produced. **Lyssandra** is unhappy with the mess and tells the party to supervise Vallium more closely. [#town-rolls | 2025-10-31]
+### Vaelitharon "Vael" Sunshadow
+* **Town Actions:** Conducted an analysis of newly acquired items using *Analyze Magic*.
+* **Alchemy/Crafting:** Successfully brewed a Death Potion (requested via town roll by Zuljita), achieving a discount on the process.
+* **Character Advancement:** Purchased the *Mage Sight* spell to improve item identification capabilities.
+* **Equipment Changes:** None.
 
----
+## 3. Lore & Discoveries
+* **The History of Rugs (Research):** A historical account was uncovered regarding Sligo the Devious, who gifted a Rug of Instant Access to Leonidas of Archontos as a peace offering, only to facilitate an assassination by a team of infiltrators. This event led Emperor Basil to confiscate the rugs and ban further enchantments of this type approximately 1400 years ago. Consequently, rug-weavers in the Empire use the slogan "A Carpet Is Forever" to discourage the purchase of used goods.
+* **The Church of Heschius Ban (NPC Lore):** It is known that healers from this church provide services but are noted for charging extra fees and mocking those they treat for weakness.
+* **Religious Observations:** Vaelitharon maintains a skeptical view of deities such as Thoth, viewing their power more as the result of ritualistic "bowing and scraping" than divine right.
 
-## Truncated Entries Requiring Source Data
+## 4. World Rulings
+* **Attribute Caps:** The maximum permanent value for any primary or secondary attribute (including those acting as secondary attributes, such as Per or ST) is 20. Temporary buffs provided by spells or Chi powers may exceed this limit, but permanent augmentations (such as those from a Familiar) are subject to the cap.
+* **Loot and Commerce:** Quest rewards are classified as loot. Items purchased directly from merchants do not count toward loot totals. The legality of counting bartered goods as loot remains subject to scrutiny.
+* **Currency and Weight:** Modern Archontean coins (copper, silver, and gold) weigh 0.02 lbs each. Ancient gold *solidi* are ten times heavier and ten times more valuable than their modern counterparts. Gems are weightless but are difficult for merchants to use for small transactions.
+* **Construction in Gosterwick:** All significant construction requires government approval. Prime real and high-value land, such as the Hill of the Gods, is already occupied or carries a high premium; cheaper building opportunities exist in Outer Gosterwick near the Arcane Practitioners' Club.
 
-| Topic | Channel | Date | Note |
-|-------|---------|------|------|
-| ~~Sligo/Leonidas story conclusion~~ | ~~#town-rolls~~ | ~~2025-10-29~~ | ~~*Fixed from raw source*~~ |
-| ~~Sixth (knight) description~~ | ~~#town-rolls~~ | ~~2025-10-30~~ | ~~*Fixed from raw source*~~ |
-| ~~Uvash church blueprints~~ | ~~#questions-for-gm~~ | ~~2025-10-31~~ | ~~*Fixed from raw source*~~ |
+## 5. Item Intelligence
+* **Axe Head (Magic):** A magical axe head was recovered that currently lacks a handle. It can be fitted with a basic handle for $20, a balanced/dwarven handle for $200, or an exceptional handle for $500. For an additional $10, the axe can be modified to be throwable.
+* **Eyes of Set:** These goggles are magical and provide a Dark Vision effect. However, they have a specific limitation: they cannot see through magical darkness created by spells such as *Darkness*.
+* **Teleportation Rugs:** Due to their historical association with the assassination of Leonidas, carpets are never accepted as formal gifts within the Empire.
+* **Wands:** The party has recently acquired a Wand of See Secrets and a Wand of Illumination.
 
----
-*Original: 43 messages | Distilled: 9 knowledge entries | Truncated: 0 entries (all resolved)*
-*Generated: 2026-03-16 23:30 | Distilled: 2026-03-18*
+## 6. Tactical Planning
+The company is currently considering a multi-stage expedition:
+1.  **Testing Range:** Testing the range of the teleportation rugs by traveling incrementally between Gosterwick and Arden Vul.
+2.  **Tribute:** Ascending the Long Stair to the Dam Control Building to leave silver chess pieces as tribute to Craastonistorex.
+3.  **The Tower:** Exploring the Tower at the surface level of the Arden Vul ruins, utilizing the Eyes of Set to navigate potential magical darkness.
+4.  **Well of Light:** Returning to the Well of Light to interact with the inhabitants (Trefko and the apes) and potentially reinstalling the central mirror and frame.
+
+## 7. Unresolved Threads
+* **The Knight Sixth:** The whereabouts of the knight mentioned by Iris of Second Chance remain unknown.
+* **Church Construction:** The final cost and timeline for Uvash's proposed church and dormitory are to be determined once blueprints are drafted.
+* **Axe Disposition:** The party has yet to decide whether to repair the magical axe head for use, for trade, or to sell it as-is.
+* **The Tower Entrance:** The method of entry into the Arden Vul tower (via keys, *Magelock*, or levitation) remains untested.
+* **Support Personnel:** The potential for bringing in a loremaster support mage if Vael's attendance remains an issue.

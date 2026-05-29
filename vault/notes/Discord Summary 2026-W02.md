@@ -4,47 +4,82 @@ tags:
   - discord-summary
 ---
 
-# Discord Summary: 2026-W02 (Distilled)
+# Discord Summary 2026-W02
 
-**Date Range:** 2026-01-12 to 2026-01-18
-**Source Messages:** 22
+## Source
+- Private Discord weekly digest
+- Week ending: 2026-01-16
 
----
+## Navigation
+<!-- BEGIN AUTO NAV -->
+<!-- END AUTO NAV -->
 
-## Distilled In-World Knowledge
+# Weekly Chronicle: The Eye of the Storm
+**Date:** Week ending 2026-01-16  
+**Subject:** Archive of the Adventuring Company
 
-### NPCs & Factions
-- The Ligareons are one of the Five Families and remain super important in modern times. [archive | 2026-01-12; questions-for-gm | 2026-01-12]
-- The Vasildon family is not known to the party. [archive | 2026-01-12; questions-for-gm | 2026-01-12]
+## 1. Summary
+The week was marked by a harrowing magical accident involving Vaelitharon Sunshadow, whose eyes were forcibly extracted by a cursed tome, necessitating an expensive emergency regeneration ritual performed by Jador the Just. Following this crisis, the company focused on the monumental task of catalog and identifying a massive influx of books and scrolls recovered from the Secret Library.
 
-### Discoveries & Locations
-- A map was found in the Secreta Secretorum with indication that "we can go deeper." [archive | 2026-01-12; pc-notes | 2026-01-12]
-- The Set/Seth temple has torches and Continual Light areas; the party's exit route can be used for re-entry on future assaults. [20260205General | 2026-01-17; archive | 2026-01-17; general | 2026-01-17]
+## 2. Events & Actions by Character
 
-### Books & Research
-- *On Profit* is a text about venture capital, finance, and making monopolies. Described as dry reading. [archive | 2026-01-18; town-rolls | 2026-01-18]
-- *Archons of Arden Vul* contains a list of archons from AEP 893 to AEP 1783 with short summaries of each reign. Described as super boring. [archive | 2026-01-18; town-rolls | 2026-01-18]
+### Uvash Edzuson
+* **Town Actions:** Undertook research into "Thoth in All His Forms"; however, the text was written in an indecipherable secret language, yielding no usable information. Attempted to research the "Sun-Scarred Knights," but found no records regarding them. Identified the work *"Why All So-Called Gods Are Merely Avatars of the One Deity"* as a potentially significant theological text.
+* **Equipment Changes:** None.
 
-### Streetwise Intelligence
-- Nobody in town seems willing to talk about Set. [archive | 2026-01-18; town-rolls | 2026-01-18]
-- The party learned the glyphs for "Shining Beacon of Glorious Heaven." [archive | 2026-01-18; town-rolls | 2026-01-18]
+### Vallium Halcyon
+* **Town Actions:** Dedicated much of the week to the logistical burden of the new library acquisitions, assisting Stamelis with book categorization (Scrolls, Spellbooks, Archontean, Mithric, and Secret Language). Continued study of Mithric (reading *Secreta Sanctorum*) to improve both spoken and written proficiency.
+* **Alchemy/Crafting:** Successfully brewed an Agility Potion at a discounted cost.
+* **Character Advancement:** Achieved proficiency in Mithric at the "Broken" level for both spoken and written forms.
+* **Equipment Changes:** Proposed the sale of two significant volumes (a Golemancy book and a Potion book) to acquire 2 loot points for the company.
 
----
+### Ioannes Grammatikos Byzantios
+* **Town Actions:** Utilized *Gift of Letters* to identify titles within the new acquisitions, including texts in the secret language. Purchased the "Propaganda" skill to facilitate future political maneuvering.
+* **Alchemy/Crafting:** Successfully brewed Alkahest.
+* **Research:** Investigated the history of the Cult of Arden; discovered records of an elite military cult that attempted to replicate the Twelve Labors of Arden within the cliff faces of Arden Vul.
+* **Equipment Changes:** None.
 
-## ✅ Truncation Resolved
+### Vaelitharon "Vael" Sunshadow
+* **Town Actions:** Conducted extensive reading and identification of new acquisitions, including *Thirty Uses for Arcanum*, *Notes on the Followers of the Arch-Traitor, Priscus Pulcher, with Suggestions for their Destruction*, and *Animating the Inanimate* (a text regarding the creation of constructs). Identified the book *"Elves Are the Enemy"* during his reading session. Engaged in Rudishvan studies with Akla-Chah.
+* **Research:** Planned an interview with Anaximander to gather intelligence on Lankios, K, and Guivrel.
+* **Character Advancement:** None.
+* **Equipment Changes:** None.
 
-- Uvash sent a letter to his family (wife and one young adult child) in Kazildor asking them to migrate to Arden Vul. He received a reply saying his wife and child can come in the spring, after the mountain passes are open. [2026205QuestionsForGM | 2026-01-12]
+## 3. Lore & Discoveries
+* **The Eye Trap:** A magic book with blue leather and a gold lidless eye contains a trap: viewing a blank page causes the reader's eyes to be ripped out and sent into Arden Vul to serve as scrying devices for that page (Source: Vaelitharon’s injury).
+* **Stamelis the Librarian:** Formerly a human librarian in the 1600s AEP, he became a Head of Thoth and eventually a Librarian Emeritus. He was left behind during the Arden Vul evacuation following the Civil War (Source: Stamelis).
+* **Kel Bormol:** An archmage and former Overseer of Thoth who used his authority to demand books from the library. He disappeared unexpectedly during the Civil War (Source: Stamelis).
+* **The Cult of Arden:** An elite group of military officials stationed in Arden Vul who built hidden halls within the cliff face to replicate the Twelve Labors of Arden (Source: Historical Research).
+* **Clan Rivalries:** Ancient gossip exists regarding misdeeds involving the Ligareon and Vasildon clans (Source: *Secreta Sanctorum*).
+* **The Secret Language of Thoth:** Certain texts use a secret language that utilizes the Mithric alphabet but consists of indecipherable nonsense to those without specific magical assistance (Source: Ioannes’s research).
 
----
+## 4. World Rulings
+* **Mithric Training:** Reading books with broken Mithric allows for one book per week as a background activity, or two if dedicated entirely to it. Fluent/Accented Mithric allows for three books per week (background) or seven (full time). This counts as training but does not grant free points.
+* **Plant Speech Scroll:** This scroll is usable by clerics once, but the spell itself cannot be learned by clerics; it is exclusive to Druids.
+* **Alchemical Costs:** The established costs for certain alchemical preparations are: Hostile Levitation ($800), Molasses ($800), and Singing Birds ($1000).
+* **Resurrection Requirements:** A successful resurrection requires a capable caster, sufficient mana/powerstones, and the physical presence of the deceased's body.
 
-## Excluded (Meta/Play-by-Play)
+## 5. Item Intelligence
+* **The Cursed Scrying Book:** A blue leather book with a gold lidless eye. It contains approximately ten pages of crystalline material. **Danger:** Looking at a blank page results in the loss of eyes. **Status:** Currently held in the "Chest of Do Not Open."
+* **Magic Bones:** These bones possess the ability to communicate with the spirit of a deceased individual once per month. **Handling Instructions:** The protection effect only functions if the bones are held reverently in both hands; they provide no protection if simply stored in a bag.
+* **Elven Magic Rope:** An elven-made rope that can tie or untie itself upon command. **Command Words:** "Tie" (in Elvish) and "Untie, untie, untie, yes, I'm sure, untie" (in Elvish).
+* **The Copper Bowl:** A 6-inch diameter bowl containing a pair of blue eyes submerged in a liquid metal (likely mercury). The eyes are magically bound to the bowl.
+* **Powerful Resurrection Scroll:** A critical artifact of immense value; it has been assigned its own dedicated scroll case for safekeeping.
+* **Loot Acquisitions:** Recent finds include several axes and shields (medium, fixed).
 
-- Rules chatter about night attack tactics
-- Repeated "Restarting it" messages across channels
-- Player-side planning discussions about temple re-entry strategy
-- "We can go deeper" appears to be both a discovery and a meme; kept as discovery
+## 6. Tactical Planning
+The company has outlined a route for the upcoming expedition to the Glory of Thoth:
+1.  Commence by attempting to commune with the spirit of the burned bones.
+2.  Utilize the Rugs for transport to the Beacon. Use "Blink Other" to deploy Vallium to the surface ruins.
+3.  Deploy the *Plant Speech* scroll on the Great Tree in the Forum.
+4.  Descend into the Glory of Thoth level, moving west through the triple portcullis and utilizing the rope ladder to reach the natural Caverns.
+5.  Siege the Temple of Thoth, targeting the Settites and attempting to loot or desanctify the area.
+6.  Explore the Settite jail and the subsequent hole in the ground.
 
----
-
-*Distilled: 2026-03-18*
-*Original Generated: 2026-03-17 05:03*
+## 7. Unresolved Threads
+* **The Dragon Threat:** The long-term implications of the dragon's presence and how various factions might react to its potential removal remain unassessed.
+* **The Eyes in the Bowl:** The nature and origin of the blue eyes found in the copper bowl remain unknown.
+* **Anaximander’s Intel:** The results of the upcoming interview regarding Lankios, K, and Guivrel are pending.
+* **The Blue Haze/Red Lotus/Green Friend:** The long-term effects and safety of these botanical substances found in *Fael's Manual of Herb Lore* are untested.
+* **The "Wardens" Persona:** A proposal to use the Propaganda skill to establish a false party identity (The Wardens) is under consideration.
+* **Teleportation Circle:** The existence and location of a potential teleportation circle mentioned by Stamelis remains unconfirmed.

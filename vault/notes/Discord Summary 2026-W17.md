@@ -14,75 +14,69 @@ source_type: private-discord-weekly-digest
 - Week ending: 2026-05-01
 
 ## Navigation
-
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2026-W16.md|Discord Summary 2026-W16]]
 - Next Discord Summary: [[notes/Discord Summary 2026-W18.md|Discord Summary 2026-W18]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The [[factions/Right for Riches Company.md|Right for Riches Company]]
-**Date:** Week ending 1st of May, 2994 AE
+# Weekly Knowledge Base: Arden Vul
+**Week Ending:** 2026-05-01 23:00 CDT
 
-## 1. Summary
-The company focused heavily on administrative and legal preparations in [[locations/Gosterwick.md|Gosterwick]], formalizing the future of the "Right for Riches" enterprise. While alchemical endeavors yielded mixed results, significant progress was made in documenting the party's history and securing specialized commissions for upcoming ventures into the depths of [[npcs/Arden.md|Arden]] Vul.
+**Summary**
+The company Chrysalis has focused heavily on legal restructuring and long-term logistical planning within Gosterwick. While recent alchemical endeavors have seen both success and failure, the party has begun preparing for a significant upcoming confrontation with the entity known as Neferet.
 
-## 2. Events & Actions by Character
+**Events & Actions by Character**
 
-### Vaelitharon "[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]]" [[pcs/Vaelethron 'Vael' Sunshadow.md|Sunshadow]]
-*   **Town Actions:** 
-    *   Visited [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]]’s office to formalize several legal instruments: a will bequeathing all assets to the [[factions/Right for Riches Company.md|Right for Riches company]] in the event of his death; two writs authorizing fund withdrawals for corpse recovery (up to 20% of holdings) and resurrection ($15,000 or market rate); and an addendum to the articles of incorporation.
-    *   The addendum added [[npcs/Basil.md|Basil]] as a trustee with power to appoint further trustees (up to six total) and established provisions for the lifelong care of [[npcs/Onyx.md|Onyx]] the cat. 
-    *   Included a clause that if the company dissolves, the Library of the [[locations/Beacon.md|Beacon]] is to be transported to [[locations/Gosterwick.md|Gosterwick]] and donated to the Arcane Practitioner's Club.
-    *   Commissioned Chairduster to create a specialized power item: a cuff for the left bicep, functioning like an oversized torc, made of gold and platinum with intricate wirework, the creator's seal, and magical inscriptions in at least four languages. A 2/3 down payment was made. Chairduster estimated completion in a couple of weeks, pending gem sourcing.
-    *   Undertook the task of copying various setite books using magic and blank volumes. He tasked [[npcs/Basil.md|Basil]] and Stamellis with checking borrowed books for duplicates, specifically *Clarius's On the Wars of the Old Ones with the Trolls*, *Justinian the Wise's A True History of Isadora*, *Sardonyx Peridot's Sorcerous Properties of Gems*, and *Herodian the Blessed's The Value of Mud*. He also added *Thorcin Poisons and their Cures* to his copying list, noting the party already possessed a copy written in Thorcin.
-    *   Began composing the "Chronicle of the [[factions/Right for Riches Company.md|Right for Riches Company]]," a personal history of the party's exploits.
-    *   Begun studying the [[factions/Varumani.md|Varumani]] language with [[npcs/Akla-Chah.md|Akla-Chah]] during breaks from his work.
-*   **Alchemy/Crafting:** Successfully brewed a Potion of Dispelling.
-*   **Character Advancement:** Increased Will by +1 (which resulted in an Intelligence increase of +1).
+**Uvash Edzuson**
+* **Town actions taken:** Consulted various local wizards and clerics regarding the viability of resizing magical clothing or armor; no reliable method was uncovered. Spoke with T/Tasha the tailor, who refused to provide a warranty for alterations to magical gear.
+* **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Might; the attempt failed, resulting in an increased cost of materials by 10%.
+* **Equipment changes:** Currently wearing a +2 ring.
 
-### [[pcs/Uvash Edzuson.md|Uvash]] Edzuson
-*   **Town Actions:** 
-    *   Assisted Vaelitharon in the development of the company chronicle.
-    *   Contributed $250 toward the legal fees for the new corporate documents.
-    *   Consulted [[npcs/Tasha.md|Tasha]] the tailor, a cobbler, and every wizard and cleric around town regarding the viability of resizing magical clothing or armor; no reliable method was discovered.
-*   **Alchemy/Crafting:** Attempted to brew a Potion of Might; the attempt failed, resulting in an increased cost for materials.
+**Vallium Halcyon**
+* **Town actions taken:** Paid $125 to improve his Carousing roll by +2. Visited Theopilus to commission copies of several non-magical keys (including the large keys from Session 47 and the pentagram room key) for a total cost of $100.
+* **Alchemy/crafting attempts and results:** Attempted to brew an Agility Potion; the attempt failed.
+* **Research results:** Researched Erist Ellagelsson; no information was found, though the name appears elvish in origin. Read *Great Vampire Lords and Their Demise*, which details seven slain lords and methods for resisting charm effects.
+* **Equipment changes:** Utilizing a communal Agility Potion obtained during previous expeditions.
 
-### [[pcs/Vallium Halcyon.md|Vallium]] Halcyon
-*   **Town Actions:** 
-    *   Paid $125 to improve his Carousing roll.
-    *   Commissioned Theopilus to create duplicates of several keys: one copy each of the two large keys from Session 47 and one copy of the pentagram room key from Session 48, for a total of $100.
-    *   Spent time reviewing recent acquisitions and potential duplicates in the library.
-*   **Alchemy/Crafting:** Attempted to brew an Agility Potion; the attempt failed.
-*   **Research:** Undertook research into the individual Erist Ellagelsson; no information was found, though the name appears elvish in origin.
-*   **Lore Discovery:** Read *Great Vampire Lords and Their Demise*, learning of the methods used to resist the charms of the seven great vampire lords who were slain.
-*   **Equipment Changes:** Observed a "relic of [[locations/Arden Vul.md|Arden Vul]]"—a jagged, nearly weightless piece of metal inscribed with known glyphs.
+**Ioannes Grammatikos Byzantios**
+* **Town actions taken:** Conducted propaganda efforts to promote the Goblin Forum. 
+* **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Dispelling; the attempt failed.
+* **Research results:** Researched "Pol"; discovered that Pol the Devious was an archmage who went insane due to exposure to the orange mineral in Arden Vul, leaving behind an empty tower near the Tomb of Marius.
+* **Character advancement:** Currently maintaining four *Bless* spells and three *Affect Spirits* spells. Due to recent spellcasting, his current status is 14/18 FP and 5/10 ER (including +3 ER from his ring). Most spells are currently being cast at Skill Levels 13 and 12 (*Gift of Letters*, *Gift of Tongues*, *Major Healing*).
 
-### [[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios
-*   **Town Actions:** 
-    *   Undertook propaganda efforts to promote the [[locations/Goblin Forum.md|Goblin Forum]] (market).
-*   **Alchemy/Crafting:** Attempted to brew a Potion of Dispelling; the attempt failed.
-*   **Research:** Conducted research into Pol the Devious, uncovering historical details regarding his descent into madness due to exposure to the [[items/Orange Mineral.md|orange mineral]] in [[locations/Arden Vul.md|Arden Vul]], his impenetrable tower near the Tomb of Marius, and the belief that his spirit inhabits the dungeon stones.
+**Vaelitharon "Vael" Sunshadow**
+* **Town actions taken:** Visited Barnaby Goodbarrel’s office to formalize company legalities ($1000 fee). Executed a will bequeathing all assets to the Right for Riches company in the event of his death. Established writs for fund withdrawal (for corpse recovery and resurrection services) to be held by Basil. Amended the articles of．of incorporation to add Basil as a trustee, established provisions for the lifelong care of Onyx the cat, and mandated that the Library of the Beacon be donated to the Arcane Practitioner's Club should the company dissolve. Commissioned Chairduster to craft a gold and platinum bicep cuff (target value $26,025); a two-thirds down payment has been made.
+* **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Dispelling; the attempt was successful.
+* **Research results:** Investigated whether the Arcane Practitioner's Club (APC) could copy *Scrolls of Protection from Magic*; it was determined they cannot.
+* **Character advancement:** Spent 1 point on writing skill and 10 points to upgrade 1 PER and 1 WILL to +1 IQ. Requested tutoring in the Varumani language from Akla-Chah.
+* **Equipment changes:** Utilizing blank books to create magical copies of various setite texts; tasked Basil and Stamellis with checking for duplicates among these volumes.
 
-## 3. Lore & Discoveries
-*   **Pol the Devious:** A legendary archmage of the ancient empire who went insane due to prolonged exposure to the [[items/Orange Mineral.md|orange mineral]] found within [[npcs/Arden.md|Arden]] Vul. He is said to possess an impenetrable tower near the Tomb of Marius, and his spirit is believed to inhabit the very stones of the dungeon levels. (Source: Research roll).
-*   **The Relic:** A jagged piece of metal, remarkably weightless, bearing familiar glyphs, identified as a relic of [[npcs/Arden.md|Arden]] Vul. (Source: Direct observation).
-*   **Vampiric Lore:** The text *Great Vampire Lords and Their Demise* details the historical struggle against resisting the charms of seven great vampire lords. (Source: Book reading).
+**Lore & Discoveries**
+* **Teeth of Pol:** These 6-inch tall items grant +1 IQ if worn against the skin. However, wearing them causes the user to become a sarcastic, surly jerk, imposing -10 points of mental disadvantages and a -2 penalty to reactions. Two such teeth can be worn simultaneously, and their reaction penalties stack.
+* **Bracers of Haste:** Provides +1 to Basic Move.
+* **Relic of Arden Vul:** A jagged, almost weightless piece of metal with known glyphs was presented to Vallium.
+* **Scroll of Protection from Magic:** A universal scroll that creates an area (Size 2) following the caster for 1d minutes. Within this area, magic is suppressed (effectively a "no mana" zone). The scrolls cannot be copied by the APC.
 
-## 4. World Rulings
-*   **Equipment Slots:** A Brooch and an Amulet occupy the same equipment slot. The Teeth of Pol occupy their own unique slot, allowing up to two to be worn simultaneously.
-*   **Magic Item Properties:** Magical boots cannot be resized without the risk of destroying them. [[items/Larel's Cloak.md|Larel's cloak]] does not stack with a Ring of Protection for the purpose of Damage Reduction (DR).
-*   **Scrolls:** The *Scroll of Protection from Magic* is a universal item. Its effect covers an area of 2, follows the caster, and prevents magic for 1d minutes. The Arcane Practitioner's Club is unable to produce copies of this scroll.
-*   **Alchemy Mechanics:** Successful alchemy attempts provide a -20% modifier to costs; failed attempts result in a +10% increase in costs.
-*   **Market Availability:** Potions generally available for purchase are limited to Minor and Major Healing; all other alchemical concoctions must be brewed or discovered.
+**World Rulings**
+* **Alchemy Costs:** Successful alchemy reduces the cost of ingredients by 20%; failed attempts increase the cost by 10%.
+* **Potion Availability:** Only *Minor Healing* and *Major Healing* potions are generally available for purchase in town; all other specialized potions must be brewed or discovered.
+* **Equipment Slots:** The Brooch and Amulet occupy the same equipment slot. The Teeth of Pol occupy their own unique slot, allowing a maximum of two to be worn.
+* **Magic Item Alteration:** There is no known way to resize magical clothing or armor without the risk of destroying the item's enchantments.
+* **Heavy Leather Boots of the Ogre:** These boots provide +1 ST but are sized for humans and elves; they are not suitable for dwarven characters like Uvash.
 
-## 5. Tactical Planning
-*   **Contingency Plan ([[npcs/Neferet.md|Neferet]]):** Should the party number five, the plan is to use Rugs and the [[factions/Rudishva.md|Rudishva]] Teleportation Pad to reach the Tower of Scrutiny. Vaelitharon will utilize *Trace* to locate [[npcs/Neferet.md|Neferet]], while the party utilizes *Feathers of [[npcs/Maat.md|Maat]]*, ranged weapons, and area spells (such as *Wall of Lightning*) to counter her "Blink" ability and the Scrutiny Wraiths. [[pcs/Vallium Halcyon.md|Vallium]] may use the *Scroll of Protection from Magic* as a portable No Mana Zone to prevent blinking.
-*   **Session 50 Objectives:** The company intends to perform town business (Blessing [[pcs/Uvash Edzuson.md|Uvash]] and purchasing food for the [[locations/Goblin Forum.md|Goblin Forum]]) before traveling via the teleportation pads to clear the area around the [[locations/Goblin Forum.md|Goblin Forum]], specifically targeting the northern hallway of the Dead Inside entrance and the southern sarcophagi/burial niches.
+**Tactical Planning**
+The company has outlined several objectives for the upcoming session:
+* **Logistics:** Perform town business, including *Blessing* Uvash and purchasing food for the Goblin Forum. The party intends to summon the Avatar of Bastet if necessary.
+* **Exploration Path:** Utilize the Rugs to reach the Beacon, then use the Rudishva Teleportation Pad to reach the Vault. The route will proceed through the acidic pool room and the room containing the Chaotic Sweat.
+* **The Goblin Forum:** Travel east/west to deliver food and collect funds from Gribble.
+* **Clearing Operations:** Systematic clearing of the area around the Goblin Forum, beginning with the northern hallway of the Dead Inside entrance and moving toward Theskalon's Tomb. The party intends to search sarcophagi and niches using *Affect Spirits* and use *See Secrets* on newly discovered rooms.
+* **Contingency (Neferet):** If five members are present for a confrontation with Neintet, the plan involves using *Seeker* to locate her, utilizing the teleportation pads to reach the Vault/Acidic Pool, and moving toward the Tower of Scrutiny. The party will use *Trace* to triangulate her position and employ ranged weapons, area spells (*Wall of Lightning*, *Returning Javelin*), and *Feathers of Maat* to counter her "Blink" ability and the Scrutiny Wraiths.
 
-## 6. Unresolved Threads
-*   **The Iron Crown:** Uncertainty remains regarding whether the party was deceived in a recent transaction involving the "Iron Crown," with hypotheses suggesting the situation was too easy and may have been a scam.
-*   **The Blue Knights:** A need to consult with the Blue Knights regarding the Iron Crown situation.
-*   **Shield Lectern:** The company currently lacks a shield lectern, an item that must be specifically ordered.
-*   **[[npcs/Neferet.md|Neferet]] Countermeasures:** Ongoing search for anti-undead potions and potential contact poisons (e.g., Magebane) to use against Neferet.
-*   **The Toothless Statue:** A hypothesis exists regarding whether the "five-foot tall statue of a head, with an open grinning toothless mouth" is related to the Teeth of Pol.
-*   **Alchemical Needs:** The need for a Potion of Dexterity for [[pcs/Uvash Edzuson.md|Uvash]] remains unaddressed.
+**Unresolved Threads**
+* **The Identity of Pol:** Is there a connection between the archmage Pol and the entity Saloth Sar?
+* **The Iron Crown:** Was the party's recent acquisition a successful deal or a scam?
+* **The Blue Knights:** The company needs to consult with the Blue Knights regarding the matter of the Iron Crown.
+* **Shield Lectern:** The party currently lacks a shield lectern; this item must be specifically ordered in town.
+* **Resizing Magic Gear:** Uvash continues to seek a reliable method for resizing magical equipment.
+* **Erist Ellagelsson:** The identity and significance of this individual remain unknown.
+* **Alchemy Needs:** The party needs to decide on the production of Potion of Dexterity or further Potion of Dispelling.

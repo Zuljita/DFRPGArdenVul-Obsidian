@@ -15,70 +15,75 @@ source_week: week-ending-2025-08-08-2300-central
 - Week ending: 2025-08-08
 
 ## Navigation
-
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W30.md|Discord Summary 2025-W30]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W32.md|Discord Summary 2025-W32]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The Right for Ruala Company
-**Date:** Week ending 2025-08-08  
-**Subject:** Fraudulent Liturgies, Alchemical Failures, and the Bound Prisoner
+# Weekly Knowledge Base: Expedition Archives
+**Date:** 2025-08-08
+**Subject:** Audit of Recent Discoveries, Scholarly Research, and Preparations for the Well of Light
 
-### Summary
-The company faced a week of significant setbacks, characterized by failed alchemical endeavors and the unsettling discovery that recently acquired religious texts may be fraudulent. Amidst these frustrations, magical scrying provided a grim glimpse of a captive soul, setting new priorities for the company's next expedition.
+## 1. Summary
+The company has spent the recent week engaged in intensive scholarly research and alchemical experimentation following the recovery of several significant texts from the Library of Thoth. While new historical insights were gained, much of the week was overshadowed by failed alchemical endeavors and troubling revelations regarding the authenticity of recovered religious litanies.
 
-### Events & Actions by Character
+## 2. Events & Actions by Character
 
-**Uvash Edzuson**
-*   **Town actions:** Purchased two Dwarven religious texts from Astableon’s at a total cost of 150 silver; the more affordable volume is intended to be returned to his kin.
+### Uvash Edzuson
+*   **Town Actions:** None recorded this week. (Note: The purchase of Dwarven religious texts occurred during the previous week's session).
 
-**Vallium Halcyon**
-*   **Town actions:** Undertook a carousing endeavor at a cost of 125 silver, during which he encountered an individual named Dalton at the Stunned Acolyte. Dalton reported that progress past the Obsidian Gates has been halted for all travelers, as even high-level magic such as *Lockmaster* and *Blink* fails to penetrate them. Dalton believes there is "good treasure" behind the gates, providing a specific lead. Vallium inquired about armor from the armorer Torunn but held off on the deposit, as he could not yet afford the full suit. He specifically requested only Fine Heavy Scale Body Armor. Torunn noted she does not have Lighten enchantment available and requires a decision on whether he wants a full-face helmet or one with better visibility.
-*   **Alchemy and crafting:** Attempted to brew a Potion of Strength; the attempt was a failure, resulting in the potion catching fire and causing additional costs to the company.
-*   **Equipment changes:** None this week.
+### Vallium Halcyon
+*   **Town Actions:** Conducted carousing in Gosterwick, spending $125. During this time, he encountered an individual named Dalton at the Stunned Acolyte, who provided intelligence regarding the Obsidian Gates. 
+*   **Alchemy/Crafting:** Attempted to brew a Strength potion; the attempt was a failure, resulting in the potion catching fire and the loss of all invested funds.
+*   **Equipment Changes:** Currently negotiating with the armorer Torunn for the future acquisition of Fine Heavy Scale Body Armor (not yet deposited). The cost for a full suit is $33,000; Vallium intends to pay half upon commencement of crafting.
+*   **Financials:** Received an offer from Zuljita to borrow funds for equipment if necessary.
 
-**Ioannes Grammatikos Byzantios**
-*   **Town actions:** Shared news regarding the Library of Thoth with Pelteon and Lyssandra, though he withheld information regarding specific spellbooks.
-*   **Alchemy and crafting:** Attempted to brew a Potion of Magebane; the attempt failed, resulting in increased costs for the company.
-*   **Research results:** Investigated the *Litany of Light*; sources indicate the text is a fraud and that attempting its rituals may lead to dangerous consequences. The party suspects this may be due to a critical failure on the research roll or that the vendor Stamelis provided a fake.
+### Ioannes Grammatikos Byzantios
+*   **Town Actions:** Shared news of the Library's discovery with Pelteon and Lyssandra, though he withheld information regarding specific spellbooks.
+*   **Research Results:** Undertook research into *The Litany of Light*. The findings were highly concerning: current sources suggest the text may be a fraud, and attempting the rituals described within could lead to dangerous consequences.
+*   **Alchemy/Crafting:** Attempted to brew a Magebane potion; the attempt failed, requiring a second attempt which increased the total cost of materials.
 
-**Vaelitharon "Vael" Sunshadow**
-*   **Town actions:** Conducted weekly scrying operations. *Pathfinder* yielded unclear results regarding the troll lifts. *Seeker* identified a woman named Lillian in a prison cell, gagged, bound, and in bad physical shape as though she had been beaten. The cell is lit by Continual Light (no orange hue). A goblin is present in the adjacent cell. *Trace* determined her location is mostly north, toward the ruins; no sense of movement or significant altitude difference was detected.
-*   **Alchemy and crafting:** None this week.
-*   **Research results:** None this week.
-*   **Equipment changes:** Transferred ownership of the Returning Pebble from the party to himself to track it properly. The pebble returns to its owner after 30 minutes, appearing suddenly without fanfare. The party agreed to sell the Wand of Freezing from the communal loot pool to balance character point distribution.
+### Vaelitharon "Vael" Sunshadow
+*   **Town Actions:** Decided to sell the *Wand of Freezing* to the company to assist in balancing loot distribution for the party. 
+*   **Research/Magic:** Utilized *Seeker* to locate Chrysalis, observing her practicing with rocks in the Grudge Brigade building. Used *Trace* on an individual named Lillian, establishing a northern heading toward the ruins.
+*   **Equipment Changes:** Transferred ownership of the *Returning Pebble* to himself for testing; decided to let the *Magelocks* on the Library of Thoth doors lapse rather than attempting to maintain them through sleep.
 
-### Lore & Discoveries
-*   **The Found Texts:** The following volumes were identified:
-    *   *The Litany of Light* (Mithric): Describes four rituals for rooms around the Well of Light. (Note: Recent research indicates this text is a fraud).
-    *   *The Lives of the Noble Founders Arden and Vul* (Mithric): A biography detailing Arden's twelve labors and Vul's four summonings.
-    *   *The Deeds of Marius Tricotor* (Mithric): Chronicles the exploits of the Archon Marius, specifically his defeat of "amphibians" in the lower Halls.
-    *   *The Twelve Labors of Arden* (Archontean): A detailed account of Arden's trials against various foes, including owlbears, trolls, and dragons; the twelfth labor remains unrecorded.
-*   **Historical Figures:** Arden lived approximately 2000 years ago; while some regard her as a demigod, others remain skeptical.
-*   **The Obsidian Gates:** It is reported that no one has successfully passed these gates recently, as magical bypasses like *Lockmaster* and *Blink* are ineffective there.
+### Sister Valya "Basilisk" (Mercenary)
+*   **Town Actions:** None recorded this week.
 
-### World Rulings
-*   **Spells and Magic:**
-    *   *Perpetual Light* produces a distinctive orange hue.
-    *   The *Returning Pebble* returns to its owner after 30 minutes, appearing suddenly without fanfare.
-    *   The *Aim* maneuver does not receive an accuracy bonus from bracing a weapon with a second hand; the weapon must be braced against a solid object.
-    *   Scrying via *Pathfinder*, *Seeker*, and *Trace* is limited to one use per week for each specific spell type.
-*   **New Spells Established:** 
-    *   *Curse Item*: Permanent minor malevolent effect.
-    *   *Basil's Torch Treatment*: Triples torch lifespan.
-    *   *The Bracteros Effect*: Renders a light source invisible beyond 7 hexes.
-    *   *Frigg's Elephant Ears*: Causes ears to grow and droop upon detection of lies.
-    *   *Perpetual Light*: Permanent orange glow; requires arcanum consumption.
+### Zuljita
+*   **Town Actions:** Conducted scrying from town using *Pathfinder* (locating the way to the troll lifts) and *Seeker* (locating Lillian). 
+*   **Research/Magic:** Used *Trace* on Lillian, confirming her position is north toward the ruins with negligible altitude difference.
 
-### Tactical Planning
-*   **The Well of Light Expedition:** The company intends to return to the Well of Light via flight down the shaft. Objectives include exploring unexplored rooms, reinstalling the primary mirror at the bottom of the shaft, and adjusting hallway mirrors for illumination. 
-*   **Contingency:** Due to the confirmed fraudulence of the *Litany of Light*, the company is hesitant to attempt the ritual, focusing instead on clearing the level and flooding it with light.
-*   **Mercenary Recruitment:** There is ongoing discussion regarding the recruitment of a second mercenary to bolster the company's strength.
+## 3. Lore & Discoveries
+*   **The Library Finds:** The following texts were recovered: *The Litany of Light*, *The Lives of the Noble Founders Arden and Vul*, *The Deeds of Marius Tricotor*, and *The Twelve Labors of Arden*.
+    *   ***The Litany of Light***: Describes four specific rituals to be performed in four rooms around the Well of Light. (Note: Authenticity is currently under dispute).
+    *   ***The Lives of Arden and Vul***: A biographical account of the founders; mentions the twelve labors of Arden and the four summonings of Vul. The author holds the view that Arden is the greatest person in history, followed by Vul.
+    *   ***The Deeds of Marius Tricotor***: Chronicles the exploits of the famous Archon, specifically his defeat of "amphibians" in the lower Halls.
+    *   ***The Twelve Labors of Arden***: A detailed list of Arden's trials, including Owlbears, Trolls, Ogre Magi, Wiskin Berserkers, Frost Giants, evil Thorcin priests, a water elemental, an evil priestess, an undead bard, a lich, and dragons. The twelfth labor remains unrecorded/unaccomplished.
+*   **Historical Context:** Arden lived approximately 2,000 years ago; some legends suggest she persists as a demigod.
+*   **The Obsidian Gates:** According to Dalton, the gates are currently impassable; even high-level magic such as *Lockmaster* or *Blink* has failed to bypass them.
 
-### Unresolved Threads
-*   **The Lillian Mystery:** The status and location of the bound woman, Lillian, remain unknown.
-*   **The Litany Authenticity:** Whether the *Litany of Light* is truly a forgery or if the recent research was flawed remains unverified.
-*   **The Obsidian Gates:** The nature of the magical interference at the Obsidian Gates is an open mystery.
-*   **Pebble Hypothesis:** A plan exists to test the mechanics of the Returning Pebble by having Vael and Chrysalis give their respective pebbles to a third party simultaneously to see if they return at the exact same time.
-*   **Armor Procurement:** Completion of Vallium's armor request from Torunn remains pending, pending a decision on helmet type.
+## 4. World Rulings
+*   **Scrying Limitations:** The use of scrying spells (*Pathfinder*, *Seeker*, and *Trace*) is limited to one use per week, per individual spell.
+*   **Combat Mechanics:** When using a pistol crossbow, the "Aim" maneuver does not receive an accuracy bonus from bracing the weapon with a second hand; a bonus is only granted when bracing against a solid object.
+*   **Spell Maintenance:** Spells cannot be maintained while sleeping without severe physical consequences (e.g., extreme sleep deprivation).
+
+## 5. Item Intelligence
+*   **Returning Pebble:** This item returns to its original owner approximately 30 minutes after being moved or given away. The return is instantaneous and occurs without any audible or visual fanfare.
+*   **Wand of Freezing:** Confirmed as a strictly consumable item that cannot be recharged.
+*   **Ever-Full Inkwell:** Found on an illiterate baboon; noted for its high utility for mages and scribes and identified as a potential valuable for bribery or trade.
+
+## 6. Tactical Planning
+The company is currently proposing an expedition to the Well of Light via flight down the main shaft. The primary objectives are:
+1.  Exploration of previously unmapped rooms on the upper level (excluding the chamber containing baboon cubs).
+2.  Reinstallation of the primary mirror at the base of the well and adjustment of hallway mirrors to facilitate widespread illumination.
+3.  Potential investigation of the western route leading toward the Halls of Thoth.
+*Note: The performance of the Litany of Light is currently on hold due to concerns regarding its authenticity.*
+
+## 7. Unresolved Threads
+*   **The Authenticity Crisis:** Is *The Litany of Light* a genuine religious text or a dangerous forgery?
+*   **Lillian's Fate:** Where is Lillian located, and what is her connection to the individual seen in the prison cell? (A goblin was noted in the adjacent cell).
+*   **The Obsidian Gates:** How can the party bypass the gates if standard magical solutions have failed?
+*   **Eye Protection:** The company requires specialized equipment or magic to protect against intense light during the mirror realignment at the Well of Light.
+*   **Mercenary Recruitment:** Whether to hire the mercenary "Thronebreaker" to assist in managing local fauna (apes/baboons) during the next expedition.

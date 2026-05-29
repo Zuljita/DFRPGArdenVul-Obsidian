@@ -14,81 +14,85 @@ source_type: private-discord-weekly-digest
 - Week ending: 2026-05-15
 
 ## Navigation
-
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2026-W18.md|Discord Summary 2026-W18]]
 - Next Discord Summary: [[notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The [[factions/Right for Riches Company.md|Right for Riches Company]]
-**Date:** Week Ending 2026-05-15  
-**Subject:** Scholarly Pursuits and Preparations for the [[locations/Goblin Forum.md|Goblin Forum]]
+# Weekly Knowledge Base: Arden Vul
+**Week Ending:** 2026-05-15 23:00 CDT
 
-### 1. Summary
-This week was defined by intensive scholarly study, alchemical experimentation, and the strategic planning of upcoming expeditions. While the company successfully expanded its knowledge of historical conflicts and local biology, much of the period was spent coordinating logistics for a focused push into the territories surrounding the [[locations/Goblin Forum.md|Goblin Forum]] and Theskalon's Tomb.
+**Summary**
+The company Chrysalis engaged in extensive scholarly pursuits and propaganda efforts this week, seeking to bolster their reputation within the Azure Keep and beyond. While alchemical endeavors yielded mixed results, significant progress was made in documenting the appearances of key figures and uncovering the nature of local threats.
 
-### 2. Events & Actions by Character
+**Events & Actions by Character**
 
-**[[pcs/Uvash Edzuson.md|Uvash]] Edzuson**
-*   **Town Actions:** Engaged in proselytizing throughout the city, sharing tales of the company’s recent victory over wights to bolster the reputation of [[npcs/Zodarrim.md|Zodarrim]]; sought out potential instructors capable of teaching the hidden mysteries of the undead.
-*   **Alchemy/Crafting:** Attempted to brew a *Potion of Dexterity*; the attempt resulted in failure.
-*   **Research:** Conducted research into the "worm-tendril" creatures encountered in the caverns, identifying them as Tenebrous Worms, noting their paralyzing bristles and predatory nature. Read *The Honorable Life of Ligaruis, Archon*, gaining insight into the Ligarion clan.
-*   **Equipment:** None this week.
+**Uvash Edzuson**
+* **Town actions taken:** Conducted proselytizing efforts throughout town, sharing tales of the company's recent victory over wights to bolster the prestige of his companions (while omitting the details of their grave-robbing activities). He has begun compiling a personal notebook documenting his encounters with various undead entities.
+* **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Dexterity; the attempt was unsuccessful.
+* **Research results:** Investigated the "worm-tendril-things" encountered in the caverns; identified them as Tenebrous Worms, noting that their bristles contain paralysis poison and they consume prey alive. He also read *The Honorable Life of Ligaruis, Archon*, a Mithric text detailing the life of the man who became Archon of Arden Vul and patriarch of the Ligarion clan. He sought a mentor for the study of undead lore, though no suitable teacher has been located.
+* **Character advancement:** None this week.
+* **Equipment changes:** None this week.
 
-**[[pcs/Vallium Halcyon.md|Vallium]] Halcyon**
-*   **Town Actions:** Conducted carousing within the city at a cost of 125 gold to improve social connections; attempted to investigate the legitimacy of a recently purchased property in Archontos.
-*   **Alchemy/Crafting:** Attempted to brew an *Agility Potion*; the attempt resulted in failure.
-*   **Research:** Investigated the history of the [[locations/Archontos.md|Archontos]] property listed on his deed, but found no information regarding its origins or legitimacy (Dead end).
-*   **Equipment:** None this/week.
+**Vallium Halcyon**
+* **Town actions taken:** Paid 125 gold to increase Carousing proficiency by +2. He also proposed commissioning Barnaby Goodbarrel to investigate the legitimacy of a property in Archontos for a fee of 100 gold; the expense was approved. During carousing, he encountered Franalis of the company Arcane Vengeance, who shared news regarding magic silver eyes.
+* **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Agility; the attempt was unsuccessful.
+* **Research results:** Investigated the Archontos property listed on a recently purchased deed; no information regarding the property could be found (Dead end). Read the *Canticle of Revelation*, which details how Thoth revealed language, magic, and knowledge to humanity.
+* **Character advancement:** None this week.
+* **Equipment changes:** None this week.
 
-**[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios**
-*   **Town Actions:** Utilized propaganda techniques to promote the prestige of the [[factions/Right for Riches Company.md|Right for Riches company]] and the prowess of Vaelitharon; worked to shape public perception regarding various local factions.
-*   **Alchemy/Crafting:** Successfully brewed *Liquid Ice*.
-*   **Research:** Investigated Settite burial practices, learning that their methods varied by social status, ranging from simple pits to elaborate tombs.
-*   **Equipment:** None this week.
+**Ioannes Grammatikos Byzantios**
+* **Town actions/Propaganda actions taken:** Conducted propaganda efforts to promote the deeds of Right for Riches, specifically highlighting the company's service to King Wiskenim and the prowess of Vaelitharon Sunshadow.
+* **Alchemy/crafting attempts and results:** Successfully brewed Liquid Ice.
+* **Research results:** Researched Settite burial practices and eschatology; discovered that the Settites generally favor death, with burial customs varying significantly based on the wealth and power of the deceased. He also investigated whether the Settites have contact with "Elvis."
+* **Character advancement:** None this week.
+* **Equipment changes:** None this week.
 
-**Vaelitharon "[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]]" [[pcs/Vaelethron 'Vael' Sunshadow.md|Sunshadow]]**
-*   **Town Actions:** Dedicated significant time to the study of spoken [[factions/Varumani.md|Varumani]] and written Rudishva alongside Akla-Cha; continued the composition of the "Chronicle of the Right for Riches Company."
-*   **Alchemy/Crafting:** Successfully brewed a *[[items/Potion of Wisdom.md|Potion of Wisdom]]*.
-*   **Research:** Completed extensive reading of several texts:
-    *   *Divine Power is a Manifestation of Collective Will*: Learned that this text is banned in human lands and posits that gods are merely projections of human will.
-    *   *[[factions/Eighth Collegium.md|Eighth Collegium]] - Fact or Fiction?*: Explored theories regarding the identity of the [[factions/Eighth Collegium.md|Eighth Collegium]] (vampires, [[factions/Goblins.md|goblins]], etc.).
-    *   *Empericallys of [[locations/Archontos.md|Archontos]]: Volume I*: Reviewed various historical biographies.
-    *   *On the Wars of the Old Ones with the Trolls*: Studied the tactical history of Archontean defeats and subsequent alliances.
-*   **Equipment:** None this week.
+**Vaelitharon "Vael" Sunshadow**
+* **Town actions taken:** Continued studies in spoken Varumani and written Rudishva under the tutelage of Akla-Cha. He has dedicated his remaining downtime to composing the *"Chronicle of the Right for Riches Company."*
+* **Alchemy/crafting attempts and results:** Successfully brewed a Potion of Wisdom.
+* **Research results:** Read several texts, including:
+    * *Divine Power is a Manifestation of Collective Will*: A controversial text (banned in human lands) arguing that gods are merely manifestations of human will.
+    * *Eighth Collegium - Fact or Fiction?*: A collection of theories regarding the hidden Eighth Collegium, ranging from vampires to goblins.
+    * *Emperors of Archontos: Volume I*: A compilation of 275 biographies.
+    * *On the Wars of the Old Ones with the Trolls*: A tactical history of Archontean military campaigns against the Varumani.
+* **Character advancement:** None this week.
+* **Equipment changes:** None this week.
 
-### 3. Lore & Discoveries
-*   **Tenebrous Worms:** These creatures possess bristles containing paralysis poison; they paralyze prey before consuming them alive (Research).
-*   **Settite Customs:** Burial practices among the [[factions/Settites.md|Settites]] were highly dependent on wealth, ranging from mass pits to ornate tombs (Research).
-*   **Theology & Magic:** The text *Divine Power is a Manifestation of Collective Will* argues that gods are not literal entities but manifestations of human collective will (Reading: *Divine Power...*).
-*   **Thothian Lore:** The *Canticle of Revelation* details how the god [[npcs/Thoth.md|Thoth]] bestowed language, magic, and knowledge upon humanity (Reading: *Canticle of Revelation*).
-*   **The Silver Eyes:** Franalis of [[factions/Arcane Vengeance.md|Arcane Vengeance]] reported finding magical silver eyes, though their function remains unknown; they are rumored to interact with the [[locations/The Obsidian Gates.md|Obsidian Gates]] or ancient granite toad statues (Carousing).
-*   **Ligarion Clan:** The patriarch Ligaruis was a former soldier who rose to become Archon of [[locations/Arden Vul.md|Arden Vul]] (Reading: *The Honorable Life of Ligaruis*).
+**Lore & Discoveries**
+* **Tenebrous Worms:** Identified as creatures that use paralyzing bristles to feed on prey alive (Source: Uvash Edzuson's research).
+* **The Thothian Teleportation Network:** A network of glass activation tiles exists, utilizing specific color codes for various locations, including the Archon's Palace and the Canyon Vaults (Source: Recovered parchment).
+* **Marius’s Tomb:** The entrance is located via a mechanism in the Shrine of Marius; twisting the ring on the central statue opens a door in the ceiling (Source: Recovered notes).
+* **Lady Alexia:** A tall, slim, middle-aged woman with tanned skin, black hair, green eyes, and an Archontean nose. She wears green dresses and projects absolute authority (Source: Established fact).
+* **King Wiskenim:** A large goblin with old features, black hair, prominent incisors, and a loup nose; he wears bright silks and a colorful turban topped with a crown (Source: Established fact).
+* **Akla-Cha:** A 7-foot tall, spindly hologram with brown skin, two curved horns, and three fingers plus a thumb on each hand (Source: Established fact).
 
-### 4. World Rulings
-*   **NPC Limitations:** NPCs are prohibited from adventuring with the company; while hirelings may be employed within the city, they do not accompany parties into dungeons.
-*   **Slippers of Stealth:** These items only function when worn on bare feet; wearing armor over them nullifies their magical properties.
-*   **Armor Layering:** Hard leather and plate components are physically incompatible for layering; one cannot wear both simultaneously.
-*   **The Thothian Teleportation Network:** Activation tiles are fragile and must be handled by anointed Priests of Dexterity and Temperance. Specific color codes correspond to various locations (e.g., Green-Red-Yellow-White-Black-Blue leads to the Archon's Palace).
-*   **Cost of Living:** Failure to meet weekly living expenses results in a reduction of Wealth and inflicts starvation damage unless food is otherwise provided.
-*   **NPC Appearances:** 
-    *   **Lady Alexia:** A tall, slim, middle-aged woman with tanned skin, black hair, green eyes, and an Archontean (Roman) nose; she projects absolute authority.
-    *   **[[npcs/Weskenim.md|King Wiskenim]]:** A large goblin with a lumpy nose, big incisors, and bright silks/turban.
-    *   **[[npcs/Akla-Chah.md|Akla-Chah]]:** A 7-foot tall, spindly, translucent hologram with brown skin and three fingers per hand.
+**World Rulings**
+* **Slippers of Stealth:** These items only function when worn on bare feet; wearing armor over them negates their effect.
+* **Equipment Layering:** Hard leather items, such as the Bracers of Haste+1 and Imperial Field Plate Sleeves, are physically incompatible and cannot be layered or worn simultaneously.
+* **Cost of Living:** Failure to meet weekly living expenses results in a reduction of Wealth and inflicts starvation damage unless food is otherwise provided via hunting or magic.
+* **Skill Availability:** The skill *Hidden Lore (undead)* is unavailable to characters once a campaign has commenced, unless a specialized teacher is found.
+* **NPC Limitations:** NPCs are prohibited from adventuring with the party; while hirelings may be maintained in town, they will not accompany the company into dungeons.
 
-### 5. Tactical Planning
-The company has proposed the following itinerary for Session 52:
-1.  **Town Business:** Perform blessings for Vaelitharon and [[pcs/Vallium Halcyon.md|Vallium]]; potentially deliver the disabled Tablet of the [[locations/Beacon.md|Beacon]] to Lady Alexia.
-2.  **Transit:** Utilize magic rugs to reach the [[locations/Beacon.md|Beacon]], then use the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to reach the Vault, proceeding through the acidic pool room to the chamber of Chaotic Sweat.
-3.  **The [[locations/Goblin Forum.md|Goblin Forum]]:** Travel west to deliver supplies and collect funds; check in with [[npcs/Gribble.md|Gribble]] regarding local stability.
-4.  **Clearing Operations:** Systematic exploration of the area around Theskalon's Tomb, beginning with the northern hallway of the Dead Inside entrance and moving through the southern sarcophagi and burial niches using *Affect Spirits* and *See Secrets*.
-5.  **Exploration:** Investigate the hallways west of the Dead Inside room and the areas between the Red Bridge and the basket elevator.
+**Item Intelligence**
+* **Magic Silver Eyes:** Found by the company Arcane Vengeance; it is hypothesized that these eyes may interact with the ancient granite toad statues or serve to open the Obsidian Gates (Source: Franalis).
+* **Thothian Glass Activation Tiles:** These tiles are extremely fragile. They must be handled only by anointed Priests of Dexterity and Temperance, using both hands while reciting the "Prayer Against Breakage" (Source: Thothian Network documentation).
 
-### 6. Unresolved Threads
-*   **The Tablet Dilemma:** The risk involved in handing the Tablet of the [[locations/Beacon.md|Beacon]] to Lady Alexia, specifically whether her knowledge of the item might compromise the company's security.
-*   **The Silver Eyes:** Determining the true purpose of the magic silver eyes found by Franalis.
-*   **Theskalon Research:** Whether further investigation into Theskalon’s history or burial practices is warranted.
-*   **Dragon Distraction:** Developing a propaganda strategy to distract the dragon, [[npcs/Craastonistorex.md|Craas]], using the greed of the [[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]] as a lever.
-*   **The [[items/Arcanum.md|Arcanum]] Geode:** Determining how to utilize the [[items/Arcanum.md|Arcanum]] Geode during upcoming downtime.
-*   **The Settite Statue:** Deciding whether to use an elephant to demolish the remaining Settite statue.
-*   **Undead Instruction:** The ongoing search for a mentor capable of teaching Hidden Lore (undead).
+**Tactical Planning**
+The company has proposed a plan for Session 52:
+* **Town Business:** Perform blessings for Vaelitharon and Vallium; potentially deliver the disabled Tablet of the Beacon to Lady Alexia.
+* **Exploration Path:** Utilize Rugs to reach the Beacon, then use the Rudishva Teleportation Pad to access the Vault. The route will proceed through the acidic pool room toward the room containing the Chaotic Sweat.
+* **Goblin Forum:** Deliver food supplies and collect outstanding funds; check in with Gribble regarding local stability.
+* **Settite Area Clearing:** Prioritize clearing the area around Theskalon's tomb, specifically the northern hallway from the Dead Inside entrance and the southern sarcophagi/niches.
+* **Advanced Scouting:** Utilize *See Secrets* to inspect newly discovered rooms near Theskalon's Tomb and explore the hallways between the Red Bridge and the basket elevator.
+
+**Unresolved Threads**
+* **The Archontos Property:** Whether the legitimacy of the property on Vallium’s deed can be verified via Barnaby Goodbarrel.
+* **The Arcanum Geode:** Determining the practical applications or uses for the geode currently held by Vaelitharon.
+* **The Dragon, Craas:** The ongoing debate regarding whether to hunt the dragon for his hoard or avoid him to prevent destabilizing the surface/dungeon economy.
+* **The Tablet of the Beacon:** Whether to disable the tablet before handing it over to Lady Alexia, risking potential future heists in the Azure Keep.
+* **Teleportation Mapping:** The need to scry the four remaining unidentified teleportation addresses.
+* **Undead Expertise:** Uvash Edzuson's continued search for a teacher of *Hidden Lore (undead)*.
+* **The Settite Statue:** Plans to destroy the remainder of the Settite statue using an elephant.
+* **Defacing the Beacon Note:** The intention to return to the chamber where the Tablet of the Beacon was found to deface the note regarding surface obelisks.
+* **Exploration Expansion:** Planned exploration of the hallway west of the eastern entrance to the Dead Inside room and more rooms south between the Red Bridge and the basket elevator.

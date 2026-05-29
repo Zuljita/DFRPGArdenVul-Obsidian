@@ -4,72 +4,76 @@ tags:
   - discord-summary
 ---
 
-# Discord Summary: 2025-W44 (Distilled)
+# Discord Summary 2025-W44
 
-**Date Range:** 2025-11-03 to 2025-11-09
-**Messages:** 112
+## Source
+- Private Discord weekly digest
+- Week ending: 2025-11-07
 
-## In-World Knowledge
+## Navigation
+<!-- BEGIN AUTO NAV -->
+<!-- END AUTO NAV -->
 
-### NPCs, Groups & Organizations
-- Geleg, Tresti, Klisko, and Samantha the Red are part of a new adventuring party called the Second Chance Company. [gosterwick | 2025-11-04; archive | 2025-11-04; town-rolls | 2025-11-04]
-- Cerbactos was an archmage who had been a member of the Collegium of Cinders but, a few decades ago, disappeared along with several priceless tomes about magical things. Whatever bureaucratic functionaries were running the College at the time failed to run an effective search and neither Cerbactos or the books were ever found, which was a stain upon the honor of the College. However, Asrotelion was recently promoted to Assistant Department Head, gaining the authority to resume the search. And unlike whoever botched the investigation before, Asrotelion actually managed to cast Seeker well enough to find where Cerbactos had gone. He expects that when he returns with the tomes, he will be promoted to Associate Department Head. You will probably read about it in a few months. [gosterwick | 2025-11-05; archive | 2025-11-05; town-rolls | 2025-11-05]
-- Kiglon, one of the rescued prisoners with his hands cut off, died in the night despite priestly intervention. [gosterwick | 2025-11-08; archive | 2025-11-08; town-rolls | 2025-11-08]
-- Hjalti, another rescued prisoner, was captured by the Settites in the Great Cavern and thrown in a slave pit. [gosterwick | 2025-11-08; archive | 2025-11-08; town-rolls | 2025-11-08]
-- The Settites were looking for an evil sorcerer named Kerbog Khan, who was wanted by one of the Collegium. (Hjalti doesn't know all the details; his party leader, a wizard named Bjorn, died in the fight with the Settites.) [gosterwick | 2025-11-08; archive | 2025-11-08; town-rolls | 2025-11-08]
-- Ptarmis was a famous Thothian priest from long ago, back in the early days of Arden Vul, who discovered the Great Cavern and brought it under Archontean control. He apparently also bred giant mushrooms. [ptarmis | 2025-11-09; archive | 2025-11-09; town-rolls | 2025-11-09]
-- One source said Ptarmis left his family and church behind to live with his mushrooms, like some kind of weird Druid. [ptarmis | 2025-11-09; archive | 2025-11-09; town-rolls | 2025-11-09]
-- Lyssandra and Pelteon train Research and Alchemy skills. [archive | 2025-11-08; town-rolls | 2025-11-08]
+# Weekly Chronicle: The Eve of Arden Vul
+**Week Ending 2025-11-07**
 
-### Locations & Geography
-- The Halls of Thoth have been renamed Upper Goblintown by the United Goblins. They are allowing passage through their territory from all friendly adventuring groups who respect their sovereignty, but request donations of food or alcohol or money. [gosterwick | 2025-11-04; archive | 2025-11-04; town-rolls | 2025-11-04]
-- The Great Cavern is a location beneath Arden Vul where the Settites operate slave pits. [gosterwick | 2025-11-08; archive | 2025-11-08; town-rolls | 2025-11-08]
+## 1. Summary
+The company has completed a period of significant social and commercial activity within Gosterwick, highlighted by Vallium Halcyon’s ambitious "Gauntlet of Gosterwick" drinking trial. While new political shifts in the Halls of Thoth have been brought to light via recent encounters, the company also faces growing tensions regarding the rising influence of goblin factions and the movements of rogue archmages near the ruins of Arden Vul.
 
-### Events & Rumors
-- Plumthorn's Halflings have been defeated by the United Goblins. [gosterwick | 2025-11-04; archive | 2025-11-04; town-rolls | 2025-11-04]
-- The Settites were looking for a "lord of the fungi" in the Great Cavern. [gosterwick | 2025-11-08; archive | 2025-11-08; town-rolls | 2025-11-08]
+## 2. Events & Actions by Character
 
-### Historical Facts
-- Arden and Vul discovered the site around 2150 years ago. [ptarmis | 2025-11-09; archive | 2025-11-09; town-rolls | 2025-11-09]
-- The city was founded 2100 years ago. [ptarmis | 2025-11-09; archive | 2025-11-09; town-rolls | 2025-11-09]
-- Marius Tricotor finished conquering everything under the Halls around 1950 years ago. [ptarmis | 2025-11-09; archive | 2025-11-09; town-rolls | 2025-11-09]
-- Ptarmis lived roughly 2000 years ago (give or take a couple hundred years). [ptarmis | 2025-11-09; archive | 2025-11-09; town-rolls | 2025-11-09]
+### Vallium Halcyon
+* **Town Actions:** Undertook the "Gauntlet of Gosterwick," a feat of carousing involving visits to all nine local taverns and two inns in a single night; the endeavor cost $500 but provided significant social momentum. Commissioned a custom embroidered patch from T/Tasha’s Tailor Shop depicting eleven wooden mugs to commemorate the event ($25).
+* **Alchemy/Crafting:** Attempted to brew an Alkahest Grenade; the attempt resulted in failure and incurred additional material costs.
+* **Research:** None this week.
+* **Equipment Changes:** Acquired a custom commemorative patch.
 
-### Religious & Magical Knowledge
-- The soapstone idol appears to be Kauket, an obscure ancient salamander demon god. [gosterwick | 2025-11-04; archive | 2025-11-04; town-rolls | 2025-11-04]
-- The Scarab of Protection absorbs death attacks and occupies the same equipment slot as Amulets. [questions-for-gm | 2025-11-05; archive | 2025-11-05]
-- The Gauntlet of Flaming Fury activates as a free action when wielding a weapon with purposeful intent; holding it casually does not produce flame. [questions-for-gm | 2025-11-07; archive | 2025-11-07]
+### Uvash Edzuson
+* **Town Actions:** Acted as a companion and witness during Vallium Halcyon’s "Gauntlet of Gosterwick." 
+* **Alchemy/Crafting:** Successfully brewed a Greater Healing Potion at a discounted cost earlier in the week.
+* **Research:** None this week.
+* **Equipment Changes:** None this week.
 
-### Economic & Services
-- Gosterwick has 9 taverns and 2 inns. [archive | 2025-11-04; town-rolls | 2025-11-04]
-- The taverns in roughly ascending order of quality: Baliff's Truncheon, Dripping Hog, Rusty Gauntlet, Old Well, Pyrite, Grinning Skull, Muddy Puddle, Three Hanged Men. [archive | 2025-11-04; town-rolls | 2025-11-04]
-- "The Gauntlet" costs $500 and includes the signature drink at each establishment, granting a Carousing +3 roll. [archive | 2025-11-04; town-rolls | 2025-11-04]
-- Minor Healing Potions cost $100 each; 5 were available this week. [questions-for-gm | 2025-11-04; archive | 2025-11-04]
-- Tasha's Tailor Shop commissions custom patches for $25. [gosterwick | 2025-11-05; archive | 2025-11-05; town-rolls | 2025-11-05]
-- Training costs $80 to learn one point in a new skill not on your template, or $40 if the skill is on your template. [archive | 2025-11-08; town-rolls | 2025-11-08]
+### Ioannes Grammatios Byzantios
+* **Town Actions:** Purchased five Minor Healing Potions from local stock. Utilized a power item to re-apply a *Bless* effect upon Uvash Edzuson ($200 cost). 
+* **Alchemy/Crafting:** None this week.
+* **Research:** None this week.
+* **Equipment Changes:** None this week.
 
-### Practical Knowledge
-- Writing a letter requires only Literacy for basic correspondence; Writing skill improves quality. Family letters have lower standards than correspondence with nobles. Illiterate people can pay scribes to write letters for them, or read letters to them. [archive | 2025-11-09; questions-for-gm | 2025-11-09]
+### Vaelitharon "Vael" Sunshadow
+* **Town Actions:** Engaged in diplomatic inquiries with the wizard Asrotelion regarding the whereabouts of the rogue archmage Cerbactos and the stolen tomes. Discussed a potential rate for providing identification services for the company's recent loot.
+* **Alchemy/Crafting:** None this week.
+* ** Research:** None this week.
+* **Equipment Changes:** None this week.
 
-### Unanswered/Ongoing
-- It is unknown whether Fragile items in a Bag of Holding/Larel's Sack receive additional protection; the party has not tested this. [questions-for-gm | 2025-11-07; archive | 2025-11-07]
-- Uvash found no information about the specific cave he researched. [archive | 2025-11-08; town-rolls | 2025-11-08]
-- Uvash broke a glass object, leaving little bits of glass in Larel's Sack that are taking forever to remove. [archive | 2025-11-08; town-rolls | 2025-11-08]
+## 3. Lore & Discoveries
+* **The Demon God Kauket:** Research into the soapstone idol revealed it to be an icon of Kauket, an obscure ancient demon god of the salamander variety.
+* **Gosterwick Establishments:** Through Vallium’s carousing, the full roster of local drinking establishments was confirmed. Taverns include: Baliff's Truncheon, Dripping Hog, Rusty Gauntlet, Old Well, Pyrite, Grinning Skull, Muddy Puddle, Three Hanged Men, and the Pig and Whistle. The two primary inns are the Yellow Cloak and the Stunned Acolyte.
+* **The Second Chance Company:** An encounter at the Muddy Puddle with Geleg, Tresti, Klisko, and Samantha the Red revealed that Plumthorn's Halflings have been defeated by the United Goblins. Consequently, the Halls of Thoth have been renamed "Upper Goblintown." This new faction permits passage through their territory provided donations of food, alcohol, or coin are made.
+* **The Theft from the College of Cinders:** The wizard Asrotelion revealed that the archmage Cerbactos stole several priceless, unique tomes from the College of Cinders decades ago. Asrotelion has tracked Cerbactos to the edge of the Empire, specifically near Arden Vul.
 
-- After returning to Gosterwick, Vallium will head to the temple to check on the rescuees and see what he can learn from them. He'll suggest that Harald seek out the Second Chance Company, and to approach the wizard Geleg, as he might be the most sympathetic considering his own run-in with the Settites. Vallium will let him know about Susarra, and that even Gosterwick is not safe from Settites without friends to watch your back. Vallium will also ask for any details concerning Harald's old party, specifically any defining features or appearances that would help in recognizing them if they were encountered while delving. [gosterwick | 2025-11-08]
+## 4. World Rulings
+* **Trade and Wealth:** Due to Uvash Edzuson’s "Very Wealthy" status, items sold by the company are valued at 100% of their worth.
+* **Item Weight/Bulk:** Rugs weigh 2 lbs each but are considered bulky unless carefully rolled.
+* **Equipment Slots:** The Scarab of Protection occupies the same equipment slot as an Amulet.
+* **Magic Item Activation:** The Gauntlet of Flaming Fury activates via a free action, provided the user "Holds It With Purpose." If held casually, the weapon does not remain aflame.
+* **Construction Costs:** Building costs follow LTC3 standards; reducing the height of a structure scales the total cost linearly.
 
----
-*Distilled: 2026-03-18*
+## 5. Item Intelligence
+* **Thothian Masks (Set of 10):** The set contains nine useful masks and one cursed mask. Some masks, specifically those providing *Clairvoyance* or *Clairaudience*, have been slated for sale to meet XP requirements.
+* **Scarab of Protection:** This item is capable of absorbing direct death attacks; however, it does not mitigate other forms of magical damage.
+* **Gauntlet of Flaming Fury:** Requires the user to hold the weapon with specific intent to maintain its flame; activation is a permanent effect as long as the "purpose" is maintained, and can be triggered via a free action.
+* **Inventory Note:** The company currently possesses two wands.
 
-## ✅ Source Data Resolved
+## 6. Tactical Planning
+* **Arden Vul Expedition:** The company intends to travel to Arden Vul, utilizing the Long Stair and a secret entrance to reach the Great Cavern.
+* **Objectives in the Great Cavern:** Plans include exploring the shaft near the metal pillar, investigating the old Archontean temple, and ambushing the Settite outpost to seize their food supplies (specifically Bags of Holding).
+* **Logistics:** A plan is in place to cache essential gear in a secure room within Gosterwick before departing for the ruins.
 
-All previously truncated entries have been filled in from raw Discord source:
-
-| Entry | Channel | Date | Status |
-|-------|---------|------|--------|
-| ~~Halls of Thoth renamed~~ | ~~gosterwick, archive, town-rolls~~ | ~~2025-11-04~~ | ~~*Fixed: renamed Upper Goblintown*~~ |
-| ~~Cerbactos/Collegium~~ | ~~gosterwick, archive, town-rolls~~ | ~~2025-11-05~~ | ~~*Fixed: complete bureaucratic functionaries text*~~ |
-| ~~Vallium's suggestion to Harald~~ | ~~gosterwick~~ | ~~2025-11-08~~ | ~~*Fixed: complete suggestion text*~~ |
-| ~~Kerbog Khan~~ | ~~gosterwick, archive, town-rolls~~ | ~~2025-11-08~~ | ~~*Fixed: wanted by one of the Collegium*~~ |
-| ~~Ptarmis's mushroom obsession~~ | ~~ptarmis, archive, town-rolls~~ | ~~2025-11-09~~ | ~~*Fixed: like some kind of weird Druid*~~ |
-| ~~Letter writing~~ | ~~archive, questions-for-gm~~ | ~~2025-11-09~~ | ~~*Fixed: pay scribes to write letters for them*~~ |
+## 7. Unresolved Threads
+* **The Fate of Asrotelion:** The wizard's departure to confront Cerbactos leaves his ultimate success or failure unknown.
+* **The Search for Asrotelion’s Remains:** A lingering desire remains to recover the corpse of Asrotelion should his mission end in tragedy.
+* **Cerbactos and the Lost Tomes:** The location of the stolen College of Cinders tomes remains unconfirmed beyond the general vicinity of Arden Vul.
+* **The Soapstone Idol:** Whether an offering to the idol will trigger a response from Kauket remains untested.
+* **The Bounty of the Beetle:** A potential bounty involving "The GOAT" and a Giant Boring Beetle corpse is pending.
+* **Research Leads:** The company has yet to decide on a specific topic for upcoming research (potential leads include methods for dealing with Wraiths).

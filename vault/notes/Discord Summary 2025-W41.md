@@ -6,51 +6,78 @@ tags:
   - discord-summary
 ---
 
-# Discord Summary: 2025-W41 — Distilled
+# Discord Summary 2025-W41
 
-**Date Range:** 2025-10-13 to 2025-10-19  
-**Status:** ⚠️ Some entries truncated — source data needed
+## Source
+- Private Discord weekly digest
+- Week ending: 2025-10-17
 
----
+## Navigation
+<!-- BEGIN AUTO NAV -->
+<!-- END AUTO NAV -->
 
-## In-World Knowledge
+# Weekly Knowledge Base: 2025-10-17
 
-### Creatures & Threats
-- About 50 years ago, a group of the late Lord Burdock's men-at-arms climbed the cliff face to explore Arden Vul ruins, encountered a huge green dragon, and 10 of 12 men died including three knights. The only survivors were two young men who were kept back to hold horses, and they lost most of the horses and baggage as they fled. Lord Burdock then forbade any more of his subjects from going up the Long Stair to the ruins, lest they anger the dragon further. He also discouraged outsiders from using the Burdock Valley as a base for exploration of the ruins. So there was apparently very little exploration of the ruins until his death 25 years ago. [#Dragon | 2025-10-17; #town-rolls | 2025-10-17]
-- Bands of lizardmen exit the Halls via a cave halfway up the cliff face, to the left of the waterfall. They lay fiendish traps along the Swift River and take unwary captives back to their lair to be eaten. (Source: Thorcin fighter named Roscoe, who claimed firsthand knowledge.) [#archive | 2025-10-16; #town-rolls | 2025-10-16])
+## 1. Summary
+Following the recent takeover of halfling territories, the company focused on the liquidation of spoils and the management of newly acquired wealth to maximize experience gains. While preparations for future expeditions into the ruins were discussed, significant effort was dedicated to researching the history of the green dragon inhabiting the area and negotiating trade with local mercenaries.
 
-### Items & Gear
-- Map discovered in Prior Jacobus's room. [pc-notes | 2025-10-17]
-- Jacobus gave the party a single key found inside a hat in an armoire; the key had not been looted previously. [questions-for-gm | 2025-10-18]
-- Larel's Sack (Bag of Holding): holds 500# or 70 ft³. Second Bag of Holding found by party holds 1000# or 150 ft³. [questions-for-gm | 2025-10-18]
-- A standard 10' ladder (2' wide, 1/2" thick = ~10 ft³) fits inside either bag but occupies significant space. [questions-for-gm | 2025-10-18]
-- Chrysalis tested her pebble's return properties: arrives warm if heated, but not wet from water or dirty from mud. [questions-for-gm | 2025-10-18]
+## 2. Events & Actions by Character
 
-### Locations & Geography
-- The western pit in the Hall of Judgement is less than 12 yards deep (bottom visible with Continual Light from the top). [questions-for-gm | 2025-10-19]
-- The temple of Thoth has been trashed to the point it no longer has High sanctity (if it ever did). [questions-for-gm | 2025-10-19]
+**Uvash Edzuson**
+*   **Town Actions:** Currently unavailable to conduct sales or commerce on behalf of the company during his absence from town.
 
-### Spells & Magic
-- **Hallow** (Meta-Spell): Area spell, Base Cost 5, Casting Time 1 hour, Duration Permanent, Prerequisite PI 5. Increases Sanctity (cleric) or Nature's Strength (druid) by one level, max High Sanctity or +3 Nature's Strength. This may only be cast in an appropriate area, such as a temple of the appropriate god for a cleric, or a particularly nice natural area for a druid. [#NewSpells | 2025-10-19; #questions-for-gm | 2025-10-19]
-- Hallow only works for the caster's own deity (clerics of multiple gods may choose). [questions-for-gm | 2025-10-19]
-- Sanctity can be destroyed by utterly destroying a temple; mere desecration reduces it over time (centuries of no worshippers may suffice). Hallow accelerates restoration. [questions-for-gm | 2025-10-19]
-- Druids prefer finding areas of strong Nature's Strength over creating them, as such areas are typically hundreds of miles into wilderness. [questions-for-gm | 2025-10-19]
+**Vallium Halcyon**
+*   **Alchemy/Crafting:** Attempted to brew a Flight Potion; the attempt failed, resulting in additional costs to the company.
+*   **Town Actions:** Engaged in carousing, spending 125 gold to secure a +2 bonus to his next roll.
+*   **Character Advancement:** Currently prioritizing the acquisition of the Weapon Master advantage, followed by increasing Strength to 17, and subsequently pursuing the Throwing skill and Extra Attack.
+*   **Equipment Changes:** Considering the use of lightning-infused scale armor for upcoming combat.
 
-### NPCs & Services
-- Giant wheelbarrow order delayed — vendor went on a trip to see giant sharks and gather colorful seaweed. [archive | 2025-10-16; general | 2025-10-16]
+**Ioannes Grammatikos Byzantios**
+*   **Alchemy/Crafting:** Attempted to brew a Flight Potion; the attempt was successful and achieved at a discounted price.
+*   **Research:** Conducted research into the dragon inhabiting the ruins. He uncovered an account from fifty years ago detailing how Lord Burdock’s men-at-arms explored the ruins, encountered a massive green dragon, and suffered heavy casualties (10 of 12 men died). The only survivors were two young men who had been kept back to hold horses. This event led Lord Burdock to forbid exploration of the Long Stair and discourage use of the Burdock Valley as a base.
+*   **Loot Management:** Successfully optimized loot distribution to reach exactly the 2 XP threshold for loot.
 
----
+**Vaelitharon "Vael" Sunshadow**
+*   **Town Actions:** Managed the logistics of transporting heavy library acquisitions using bags and a wheelbarrow, calculating total capacity at approximately 1815 pounds.
+*   **Equipment Changes:** Purchased an orange oval of unknown substance covered in glyphs (500 gold), a magic fish-shaped rod (115 gold), and a returning pebble (200 gold).
 
-## ✅ Source Data Resolved
+**Basilisk (Mercenary)**
+*   **Equipment Changes:** The familiar's token has been updated from a single bat to a swarm of bats for tactical efficiency.
 
-All previously truncated entries have been filled in from raw Discord source:
+## 3. Lore & Discoveries
+*   **The Burdock Massacre:** Fifty years ago, a group of knights and men-at-arms under Lord Burdock attempted to explore the Arden Vul ruins. They were met by a large green dragon; only two young men (who were kept back to hold horses) survived the encounter. There was very little exploration of the ruins until Lord Burdock's death 25 years ago. (Source: Research by Ioannes).
+*   **Zoology of Magae:** The known and accessible parts of Magae contain elephants, narwhals, mammoths, rhinos, and sperm whales. Bear species include black, brown, cave, and polar bears. While aurochs are unknown, oxen and boars are available for purchase. Baboons are noted to be SM 0 (shorter and broader than humans). (Source: Research by Archon Shiva/GM).
+*   **Halfling Conflict Aftermath:** The recent takeover of the halfling territories was relatively bloodless, with approximately six halfling deaths recorded, though the deaths of Roskelly and a local wizard were significant. (Source: Company records).
 
-| Entry | Channel | Date | Status |
-|-------|---------|------|--------|
-| ~~Dragon survivors story~~ | ~~#Dragon, #town-rolls~~ | ~~2025-10-17~~ | ~~*Fixed: two young men kept back to hold horses*~~ |
-| ~~Lizardmen rumor source~~ | ~~#archive, #town-rolls~~ | ~~2025-10-16~~ | ~~*Fixed: Thorcin fighter named Roscoe*~~ |
-| ~~Hallow spell details~~ | ~~#NewSpells, #questions-for-gm~~ | ~~2025-10-19~~ | ~~*Fixed: temple of the appropriate god for a cleric*~~ |
+## 4. World Rulings
+*   **Alchemy Outcomes:** Failed alchemy attempts require additional payment; successful attempts may be subject to discounts.
+*   **Commerce & Sales:** The mercenary Lacrymosa conducts sales at a rate of 70%. Gems are treated as cash and generate experience points automatically upon appraisal in town. Uvash Edzultson cannot conduct sales if he is not present in town.
+*   **Armor & Size Modifiers (SM):** Armor must be worn to affect a character's Size Modifier. Fine armor is specifically fitted and requires the correct size, not merely the correct SM.
+*   **Wall of Lightning:** This spell creates a continuous loop or perimeter of lightning within the purchased area; it cannot be used to create "holes" or a "Swiss cheese" pattern within the area. The wall can be shaped into a crescent as long as the outer edge remains contiguous and follows hex boundaries. The wall is applied to the edges of the area, not the interior. Damage is applied per turn rather than per hex crossed.
+*   **Create Fire:** Damage from this spell is calculated per turn (1d-1 if the target spends a full turn in the fire, 1d-3 if only part of a turn) rather than per hex.
+*   **Poison Mechanics:** The "Mortality" poison does not deal increased damage based on hit location (eye, skull, etc.).
 
----
+## 5. Item Intelligence
+*   **Tripod of Warming:** A utility item that burns continuously without a fuel source, providing both warmth and light without producing smoke.
+*   **Orange Oval with Glyphs:** An object measuring 6" x 2" x 0.5" containing unrecognizable glyphs; purchased for 500 gold.
+*   **Thronebreaker (Weapon):** A high-impact weapon possessing Magery (including *Measure*, *Find Weakness*, and *Silence*), extreme strength, and the ability to deal massive damage (up to 4d+10 cut). It is also noted for its high Intimidate capability.
+*   **"Mortality" Poison:** A potent poison produced in the halfling alchemy labs; highly valuable and potentially useful against significant threats like dragons.
 
-*Distilled: 2026-03-18*
+**Recent Loot Acquisitions:**
+*   A large diamond.
+*   A suit of magic scale armor (reward for rescuing Gribble).
+*   Contents of Plumthorn's chest: coins, gems, holy symbols, and books.
+*   Contents of the secret compartment in the sarcophagus: coins, a scroll, a holy symbol, and 2 magic arrows.
+
+## 6. Tactical Planning
+*   **The Cavemen Expedition:** The company intends to visit the Cavemen living west of the Arden Vul base to offer metal weaponry (specifically shortswords and spears) as trade goods.
+*   **The Long Stair & Pyramid:** Plans are being discussed to climb the Long Stair and leave tribute for the dragon, with an attempt to enter the pyramid to recover previously sought gold and magic.
+*   **Goblin Warrens:** A planned descent into the Upper and Lower Goblin Warrens to interact with local NPCs, purchase goods, and gather intelligence on prisoners and the local marketplace.
+*   **The Cult of Set (Plan 5B):** The company is considering a strike against the Cult of $Set$ outpost. The strategy involves using Vael's power items (such as *Lightning Wall*) to slow or disable enemies, with an explicit order to "cut bait and run" if organized resistance becomes too great.
+
+## 7. Unresolved Threads
+*   **The Living Wheelbarrow:** The delivery of the custom, colorful wheelbarrow remains pending, contingent on the return of the craftsman from his travels.
+*   **New Faction/Trade Hub:** The company has yet to decide whether to approach Wicktrimmer regarding establishing a new trade hub or to seek out other potential allies like the Beastmen or Lady Alexia's interests.
+*   **The Vampire Hypothesis:** An ongoing theory persists regarding whether the knightly order of full plate represents a True Neutral faction or is linked to vampiric entities.
+*   **The Halfling Tokens:** A hypothesis has been raised by Uvash Edzuson that the Halfling Adventurer Tokens distributed to the party may be a source of recent misfortune.
+*   **Potential Allies/Funding:** The company must decide whether to approach Lady Alexia's half-brother as a potential ally or funding source, and whether to seek support from "the Club."

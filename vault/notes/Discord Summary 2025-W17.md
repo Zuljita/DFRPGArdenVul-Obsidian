@@ -15,70 +15,77 @@ source_week: week-ending-2025-05-02-2300-central
 - Week ending: 2025-05-02
 
 ## Navigation
-
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W18.md|Discord Summary 2025-W18]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The Right for Riches Company
-**Date:** Week ending 2025-05-02  
-**Subject:** The Halfling Threat and the Rod of Imperium
+# Weekly Chronicle: The Company of the Grudge Brigade
+**Week Ending:** 2025-05-02
 
-### 1. Summary
-The company has turned its attention toward the halfling faction occupying the nearby dungeon chambers, weighing the risks of reconnaissance against a direct confrontation. Amidst preparations for upcoming expeditions, significant magical discoveries have been made regarding recent acquisitions, and the company continues to formalize its logistical stockpiles.
+## 1. Summary
+This week focused on intensive magical analysis of recent spoils and the establishment of a secondary supply cache known as the "Gatehouse." While research into local halfling factions yielded no direct intelligence, the company has begun preparing for a potential confrontation or reconnaissance mission within the halfling-controlled territories.
 
-### 2. Events & Actions by Character
+## 2. Events & Actions by Character
 
-**Ioannes Grammatikos Byzantios**
-*   **Town Actions:** Purchased a Healer's kit and surgical instruments to be held in the company’s communal stores (the "Gatehouse" tab).
-*   **Alchemy/Crafting:** Successfully brewed *paut*.
-*   **Research/Study:** Undertook research into the motives and movements of Roskelly and his band of halflings; the roll yielded no information regarding their specific intentions or recent activities.
-*   **Character Development:** Increased Strength by one level, Speed by 0.25, and Lifting Strength by 1. Changed the *Fast Draw* advantage to *Boomerang*.
-*   **Equipment Changes:** None recorded this week.
+### Uvash Edzuson
+*   **Town Actions:** Discussed tactical coordination with Ioannes regarding the use of *Bless* to optimize combat effectiveness.
+*   **Equipment Changes:** Expressed a preference for maintaining lower weight loads to preserve movement and dodge capabilities, declining the acquisition of heavy mail.
 
-**Vaelitharon "Vael" Sunshadow**
-*   **Town Actions:** Acting as company quartermaster, Vael established a "Gatehouse" tab within the loot records to manage mundane, easily replaceable items for the group. Purchased an armory toolkit for company use.
-*   **Alchemy/Crafting:** None recorded this week.
-*   **Research/Study:** Performed magical analysis on recent acquisitions. Identified a magic rod as a *Rod of Imperium*, noting its ability to transform into various weapons (flaming greatsword, great axe, heavy spear, or climbing pole) and its limited charges for spells such as *Fear*, *Paralyze*, and life-draining healing.
-*   **Character Development:** Acquired a 25-point power item for combat utility. Discussed acquiring *Concussion*, *Wizard Eye*, and *Great Haste*. The GM suggested *Wall of Lightning* may be a better path than *Windstorm* (which is difficult to use well at skill 15) and noted *Missile Shield* as a future option. The GM also suggested *Contingency Casting* or *Wild Talent* for emergency skill access.
-*   **Equipment Changes:** Purchased an armory toolkit for company use.
-
-**Uvash Edzuson**
-*   **Town Actions:** None recorded this week.
-*   **Alchemy/Crafting:** None recorded this week.
-*   **Research/Study:** None recorded this week.
-*   **Character Development:** Expressed a long-term goal to increase Strength and specialize in buffing magic.
-*   **Equipment Changes:** None recorded this week.
-
-**Vallium Halcyon**
+### Vallium Halcyon
 *   **Town Actions:** Purchased 100 yards of 3/4" rope for company use.
-*   **Alchemy/Crafting:** None recorded this week.
-*   **Research/Study:** None recorded this week.
-*   **Character Development:** None recorded this week.
-*   **Equipment Changes:** None recorded this week.
+*   **Equipment Changes:** Added 100 yards of 3/4" rope to the party's shared stores.
 
-### 3. Lore & Discoveries
-*   **The Rod of Imperium:** This item is a sign of Archonal power. It is also a magic maul that can transform into a flaming greatsword, great axe, heavy spear, or climbing pole. It weighs 12 lbs, making it heavy for most users. It possesses charges for *Fear*, *Paralyze*, and life-draining healing, but appeared not to be rechargeable. Lyssandra and Pelteon suggested informing Lady Alexia of its presence.
-*   **The Basileon Signet Ring:** The ring recovered from recent loot is confirmed to be a Basileon signet ring, belonging to the family of Lady Alexia. Chairduster refused to buy it, turning lighter green and demanding the company tell Lady Alexia about it.
-*   **Weapon Maintenance:** A recently recovered magic shortsword was inspected by Torunn and found to be "Fine and Balanced," though it requires maintenance.
-*   **Halfling Presence:** The company observed a significant halfling presence, numbering approximately thirty individuals alongside a human wizard, occupying roughly three rooms of the dungeon near the scorpion tunnel.
-*   **Bounty Valuation:** For animal bounties, dead animals are valued at their "used" rate, while live animals are valued at their "new" rate. The freshness of a corpse affects its value; for example, a one-day-old specimen is acceptable, whereas a week-old, scavenged carcass is not.
+### Ioannes Grammatikos Byzantios
+*   **Alchemy and Crafting:** Successfully brewed a batch of *paut*.
+*   **Research Undertaken:** Conducted research into the "Pinky T/Tuscadero" halfling gang; no new information was uncovered regarding their specific strength or motives.
+*   **Town Actions:** Purchased a Healer's kit and surgical instruments to be held in the Gatehouse stash.
+*   **Equipment Changes:** Acquired a Healer's kit and surgical instruments (noted as too heavy for active carry).
 
-### 4. World Rulings
-*   **Pinning Mechanics:** A Pinning attempt is a Regular Contest. To succeed, the attacker's FBS must succeed while the defender's FM fails; margins of success are ignored.
-*   **Power Blow Utility:** The *Power Blow* advantage may be used to succeed in disarming or breaking free from a hold. However, it cannot be used for grappling, as grappling is a continuing effect rather than an instantaneous strike. *Power Blow* applies to both Striking and Lifting ST.
-*   **Local Commerce:** Sakeon provides various mounts, including horses, ponies, mules, donkeys, and oxen. For transport, wagons, coaches, canoes, rowboats, and small barges are available for purchase.
+### Vaelitharon "Vael" Sunshadow
+*   **Alchemy and Crafting:** Performed *Analyze Magic* on several recent acquisitions to determine their properties.
+*   **Research Undertaken:** Investigated the magical properties of a magic shortsword and a magic rod.
+*   **Character Advancement:** Planning the acquisition of new spells, including *Concussion*, *Great Haste*, and *Wizard's Eye* (noting the requirement for *Apportation* and *Keen Vision*).
+*   **Town Actions:** Purchased an armory toolkit to be placed in the Gatehouse stash.
+*   **Equipment Changes:** Added an armory toolkit to the Gatehouse stash.
 
-### 5. Tactical Planning
-*   **Halfling Reconnaissance:** The company intends to conduct reconnaissance on the halfling territory—potentially using *Wizard's Eye* or invisibility—to assess the size of their complex before committing to a fight.
-*   **Combat Buffing Protocol:** For upcoming engagements, Ioannes plans to cast *Bless* upon Uvash, who will then cast *Bless* back upon Ioannes to facilitate easier spellcasting for the cleric.
-*   **Logistical Management:** The company intends to use the "Gatehouse" tab to store essential rations and tools to reduce individual encumbrance.
-*   **Surprise Mitigation:** The company discussed using *Keen Vision* (+4) to reduce the likelihood of being surprised, citing low Basic Speed as a vulnerability to mental stun.
-*   **Tithe Strategy:** The company discussed saving the tithe to maximize XP benefits.
+### Michael Dundee
+*   **Character Advancement:** Updated character sheet, adding a level of Strength, 0.25 Speed, and 1 Lifting Strength; changed Fast Draw to Boomerang.
 
-### 6. Unresolved Threads
-*   **The Halfling Conflict:** Whether the company should attempt to eliminate the halfling faction, or simply exert enough pressure to ensure they no longer pose a threat to the company's interests.
-*   **Retaliation Risks:** The potential for the halflings to seek revenge following any direct confrontation.
-*   **The Black Void:** The nature of the black void/portal located within the pit trap at the east entrance of the pyramid remains unknown.
-*   **Wizard's Eye Requirements:** Vael must still acquire *Keen Vision* if he is to utilize *Wizard's Eye* for scouting.
+### Chrysalis (Mercenary)
+*   **Social/Legal:** Formerly known as Lasselanta Ashcroft (or "Thorne"), the mercenary has officially transitioned to contracting under the name *Chrysalis* following a financial settlement regarding naming disputes.
+*   **Bounty Collection:** Successfully collected bounties for a Strix ($25), a Giant Centipede ($50), and a Mountain Lion ($200).
+
+## 3. Lore & Discoveries
+*   **The Archon's Palace:** Confirmed as an iconic location, granting increased experience for those present.
+*   **Halfling Factions:** A large group of approximately thirty halflings and one human wizard were observed occupying roughly three rooms of the dungeon. Rumors persist that this faction engages in extortion, the sale of illegal exploration licenses, and the theft of magic wands from adventuring parties.
+*   **The Rod of Imperium:** Identified by Lyssandra and Pelteon as a significant artifact of Archonal power, potentially of interest to Lady Alexia.
+*   **Basileon Lineage:** The merchant Chairduster identified a recently acquired signet ring as belonging to the family of Lady Alexia, noting it is far too sensitive for common trade.
+*   **Local Commerce:** It is known that the merchant Sakeon provides various mounts (horses, ponies, mules, donkeys, and oxen) and vehicles (wagons, coaches, canoes, rowboats, and small barges).
+
+## 4. World Rulings
+*   **Grappling Mechanics:** The act of pinning an opponent is a Regular Contest; the attacker must succeed while the defender fails, ignoring margins.
+*   **Power Blow Utility:** *Power Blow* may be used to facilitate disarming or breaking free from grapples (as these are instant effects), but it cannot be used to bolster Strength during a continuous grappling effect. It applies to both Striking and Lifting ST.
+*   **Bounty Valuation:** For the purposes of bounties, dead animals are valued at their "used" rate, while live animals are valued at their "new" rate. Furthermore, providing a live specimen grants a +10% bonus to the bounty reward.
+
+## 5. Item Intelligence
+*   **Rod of Imperium (Magic Maul):**
+    *   **Revealed by:** Lyssandra and Pelteon via *Analyze Magic*.
+    *   **Significance:** A sign of Archonal power; potentially significant to Lady Alexintia. It is a heavy item (12 lbs) capable of transforming into a flaming greatsword, great axe, heavy spear, or climbing pole. It contains limited, non-rechargeable charges for the spells *Fear*, *Paralyze*, and a life-draining effect that heals the wielder.
+*   **Magic Shortsword:**
+    *   **Revealed by:** Torunn via consultation.
+    *   **Significance:** Despite its age, the blade is confirmed to be "Fine and Balanced," though it requires routine maintenance.
+*   **Basileon Signet Ring:**
+    *   **Revealed by:** Chairduster.
+    *   **Significance:** Highly sensitive political item; possession or attempted sale of this ring is considered a major transgression by local merchants.
+
+## 6. Tactical Planning
+*   **Reconnaissance:** The company intends to conduct reconnaissance on the halfling complex, potentially utilizing *Wizard's Eye* (if Vael can acquire the necessary prerequisites) or through direct parley.
+*   **Combat Strategy:** A coordinated *Bless* strategy has been proposed: Uvash will cast *Bless* upon Ioannes, who will then return the favor to optimize the party's combat performance.
+*   **Logistics:** The company is considering using *Shape Earth* or *Entomb* to create a more secure, permanent storage location for the "Gatehouse" supplies in the fungus level. The Gatehouse stash should also include a supply of rations.
+
+## 7. Unresolved Threads
+*   **The Halfling Threat:** Should the company move to eliminate the halfling faction, or simply establish enough dominance that they cease their interference?
+*   **Next Destination:** The party has yet to finalize which unexplored location to target (e.g., the Waterfall entrance, the Ruined Watchtower, the Well of Light, or the Pyramid).
+*   **The Wand Rumor:** Is there truth to the claim that the halflings are intercepting magic wands?
+*   **Supply Security:** Where can the "Gatehouse" items be moved to ensure they are not lost if the current location is compromised?

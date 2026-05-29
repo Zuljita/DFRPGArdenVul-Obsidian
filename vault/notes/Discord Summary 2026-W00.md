@@ -15,72 +15,67 @@ source_week: week-ending-2026-01-02-2300-central
 - Week ending: 2026-01-02
 
 ## Navigation
-
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W52.md|Discord Summary 2025-W52]]
 - Next Discord Summary: [[notes/Discord Summary 2026-W01.md|Discord Summary 2026-W01]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The Right for Rises Company
-**Date:** Week ending 2026-01-02  
-**Subject:** Beacon Logistics, Linguistic Constraints, and Ancient Correspondence
+# Weekly Chronicle: The Rebuilding of the Beacon
+**Week Ending 2026-01-02**
 
-### Summary
-The company focused on stabilizing the Beacon’s annex through low-tech ventilation solutions and organizing newly acquired treasures. Significant historical insights were gained through the translation of ancient Mithric correspondence, revealing a "secret library" and potential threats within the Tower of Scrutiny. Vallium Halcyon encountered linguistic barriers in his studies, necessitating external training, while Ioannes Grammatikos Byzantios identified the material composition of the Scepter of the Goblins.
+## 1. Summary
+Following a period of devastating loss, the company has turned its focus toward the stabilization and expansion of the Beacon. Efforts this week were centered on organizing newly acquired loot, establishing logistical foundations for the annex, and pursuing historical leads regarding the Sortian incursions and the Thothian archives. The company is also preparing for a high-stakes rescue mission in the Great Cavern.
 
-### Events & Actions by Character
+## 2. Events & Actions by Character
 
-**Uvash Edzuson**
-*   **Status:** Deceased.
-*   **Character Advancement:** Currently undergoing the process of character generation.
+### Vallium Halcyon
+* **Town Actions:** Spent significant downtime within the Beacon assisting Basil of Narsileon with the organization of equipment and providing reading materials for Akla-Chah and Stamelis. Traveled to Gosterwick to engage a trainer for the purpose of acquiring the Research skill via Archontean sources. Attempted to brew a "Sleep Potion Grenade."
+* **Research:** Undertook a study regarding "Sortian Eyes." The investigation uncovered historical accounts of Priscus Pulcro, a traitor during the Sortian civil war, noting that the Sortians utilized magical eyes crafted from silver, gold, sapphire, and human ocular tissue.
+* **Character Advancement:** Achieved proficiency in the Mithric alphabet and several basic words through study, though has not yet reached the Broken level of proficiency.
+* **Equipment & Utility:** Utilized the *Ring of Illusion Disguise* to assume the appearance of Ptirasa for the purpose of questioning Stamelis regarding her familiarity with said individual; Stamelis did not recognize the figure as Ptirasa.
 
-**Vallium Halcyon**
-*   **Town Actions:** Dedicated downtime to organizing the Beacon’s stores and sorting newly acquired equipment. Assisted Basil and Stamelis by providing reading materials.
-*   **Alchemy/Crafting:** Attempted to brew a Sleep Potion Grenade (in progress).
-*   **Research:**
-    *   **Success:** Investigated "Sortian Eyes" via historical texts. Discovered that these magical eyes, composed of silver, gold, and sapphire, required human eyes as ingredients. This suggests the Sortians engaged in the defilement of corpses and the murder of people to take their eyes, explaining the traitor Priscus Pulcher’s unnatural affinity for poor children.
-    *   **Linguistic Constraint:** Vallium learned a few words of Mithric and the Mithric alphabet but has not yet reached the "Broken" level required to learn the Research skill from Stamelis using Mithric sources. Consequently, he paid a trainer in Gosterwick to learn Research via Archontean sources.
-*   **Character Advancement:** Pursuing Research skill training via external trainer.
-*   **Equipment Changes:** Assisting with the storage of various items within the Beacon's workshop and library.
-*   **Investigation:** Used a Ring of Illusion Disguise to impersonate the priestess Ptirasa to query Stamelis regarding her identity. Stamelis was impressed by the illusion but did not recognize Ptirasa, though he noted she looked like a Thothian priestess.
-*   **Inquiry:** Asked Akla-Chah for a physical description of the Command Tablet.
+### Ioannes Grammatikos Byzantios
+* **Town Actions:** Purchased four minor healing potions to bolster personal reserves.
+* **Alchemy & Crafting:** Successfully brewed a single major healing potion.
+* **Research:** Investigated the provenance of the recently acquired flute-like scepter; determined through anatomical study that it is carved from a troll femur.
 
-**Ioannes Grammatikos Byzantios**
-*   **Town Actions:** Purchased four potions of Minor Healing.
-*   **Alchemy/Crafting:** Successfully brewed a Potion of Greater Healing.
-*   **Research:**
-    *   **Result:** Investigated the origin of the "Scepter of the Goblins." Found no historical information regarding the object. However, through anatomical study, determined the object is carved from a troll femur.
-*   **Equipment Changes:** None.
+### Vaelitharon "Vael" Sunshadow
+* **Town Actions:** Conducted extensive mapping of the Beacon’s annex and surrounding chambers to assist Akla-Chah with sanitation planning. Proposed the use of planks to prop open iris doors to facilitate airflow between the bridge and the annex.
+* **Research:** None recorded this week.
 
-**Vaelitharon "Vax" Sunshadow**
-*   **Town Actions:** Consulted with the physician Akla-Chah regarding the Beacon's life support and climate management in the newly constructed annex. Implemented a low-tech solution to improve airflow by propping open the iris doors with wooden planks.
-*   **Equipment Changes:** None.
+### Basilisk (Mercenary)
+* **Character Advancement:** The mercenary has refined several combat and utility capabilities, including Vampiric Bite, Share Vitality, Body Control, Carousing, Swimming, and Kiai.
 
-### Lore & Discoveries
-*   **The Command Tablet:** Described by Akla-Chah as an oval-shaped device, larger than standard identity plaques, featuring Rudishva glyphs, two control sticks, and small display screens. It fits into specific indentations in the bridge's command chair. Two such tablets were known to exist (for the Captain and First Officer), though both officers are presumed dead.
-*   **The Sortian Eyes:** A dark magical practice involving the use of human eyes to create sapphire, gold, and silver ocular enchantments, linked to the crimes of Priscus Pulcher (Source: Research into Sortian history).
-*   **Ancient Correspondence (Mithric):**
-    *   A letter from Uriel Basileon to Kel Bormol warns that a Second Overseer is hiding in the Tower of Scrutiny following a Sortian onslaught, and notes a suspicious messenger from Hithra Paleologos has entered the Tower.
-    *   A letter from Archon Bruno of Arden Vul to the Librarian Hellas orders the destruction of all works within the "secret library" to prevent them from falling into enemy hands.
-*   **The Mailed Fist:** An elite Imperial unit, specifically the Third Cohort of the Imperial Thugmata (the Emperor's elite personal guard), which was decimated during the fall of Arden Vul. Some local beastmen maintain a historical connection to this cohort.
-*   **Thothian Secrets:** The party has determined that Stamelis does not understand the Thothian secret language. To prevent him from accessing sensitive information, the translated letters have been placed in a scroll case outside the communal book area.
+## 3. Lore & Discoveries
+* **The Sortian Eyes:** Historical texts reveal that the "Sortian Eyes" were magical implements made from precious gems and human eyes, used by the Sortians during their civil war (Source: Research into Sortian Eyes).
+* **The Command Tablet:** Akla-Chah describes the device as oval-shaped, featuring Rudishva glyphs, two control sticks, and small displays. It is designed to fit into specific indentations within the bridge's command chair. There were believed to be at least two: one for the Captain and one for the First Officer (Source: Akla-Chah).
+* **The Mailed Fist:** This Imperial unit, specifically the Third Cohort of the Imperial Thugmata, was famously decimated during the events at Arden Vul; certain beastmen populations maintain a historical connection to this cohort (Source: Company Records).
+* **Correspondence from Uriel Baslamon:** A Mithric letter from Uriel to Kel Bormol reveals that an individual is currently hiding in the Tower of Scrutiny following a "Sortian onslaught" and mentions a suspicious messenger from Hithra Paleologos entering the Tower (Source: Translation of Uriel’s Letter).
+* **The Secret Library Order:** A letter from Bruno, Archon of Arden Vul, to Hellas, Chief Librarian of Thoth, contains an explicit command to burn all works within the secret library to prevent them from falling into enemy hands (Source: Translation of Bruno's Letter).
 
-### World Rulings
-*   **Beacon Life Support:** The Beacon’s life support system is capable of regulating the climate of the annex, provided the iris doors are kept open to allow airflow. However, the system cannot be reprogrammed without a Command Tablet.
-*   **Iris Door Safety:** The iris doors feature a safety mechanism that prevents them from closing on any object or person placed within the threshold during the opening process.
-*   **Cleric Training:** Clerics must provide payment for training to acquire new cleric-specific spells.
-*   **Magic Item Maintenance:** Recharging a Wand of Magical Bolt costs $80 per charge and requires a caster with at least the Magical Bolt 4 level. Lyssandra has indicated she may be able to recharge such items, though potentially at a reduced power level.
-*   **Geological Constraints:** Vertical tunneling within the Beacon's immediate vicinity is impossible without causing significant flooding/water ingress issues.
-*   **Teleportation:** The teleportation pads within the Beacon are currently non-operational.
+## 4. World Rulings
+* **Cleric Training:** It is established that clerics must provide payment for training when learning new cleric-specific spells.
+* **Loot and Experience:** To receive experience points for the sale of items, they must be sold at the first available opportunity (noting the current exception for the Rugs being held for Wicktrimmer).
+* **The Beacon’s Infrastructure:** The Beacon is situated on a low island within the river. While the life support systems are robust, vertical tunneling beneath the structure is known to cause immediate flooding.
+* **Iris Door Safety:** The iris doors of the Beacon possess a safety mechanism: if an object or living being is placed within the door's path, the door will cease its closing motion to prevent injury.
 
-### Tactical Planning
-The company is weighing two primary courses of action for the upcoming expedition:
-*   **Proposal 1 (Exploration):** Focus on clearing the Glory of Thoth. This includes communing with Thoth at the Obelisk of Answers and exploring the previously unvisited illuminated room and the northeast corner of the map.
-*   **Proposal 2 (Rescue/Intervention):** A time-sensitive mission to the Great Cavern. The plan involves descending via the cliff face, checking a stone chest for the "Emperor's Tagmata" symbol, and entering Androsia’s lair. The objective is to use non-lethal means (Mass Daze, ropes, or sleep grenades) to transport six captured beastmen to the Children of Deino entrance before Count Skleros can intervene.
+## 5. Item Intelligence
+* **Rugs of Instant Access (Sets "Exequor" and "Viator"):** Two sets have been secured. The "Exequor" rug is intended for use between the APC quarters and the Beacon, while the "Viator" rug will be used for active exploration.
+* **Ebony Wand of Magical Bolt:** A 25-point version of the item containing 20 charges of 1d Magical Bolt. Recharging costs $80 per charge and requires a caster with at least the Magical Bolt 4 skill (e.g., Lyssandra).
+* **The Scepter of the Goblins:** A flute carved from a troll femur. It is intended for delivery to King Weskenim to facilitate the acquisition of experience.
+* **The Command Tablet:** An essential device for asserting captain-level control over the Beacon's systems, including the ability to reprogram security features like iris doors.
 
-### Unresolved Threads
-*   **The Secret Library:** Where is the location of the library Bruno ordered burned?
-*   **The Messenger:** Who is the individual from Hithra Paleologos seen entering the Tower of Scrutiny?
-*   **The Command Tablet:** Can the company locate a functioning tablet to assert control over the Beacon's security features?
-*   **Elemental Threats:** How can the company effectively counter earth elementals that utilize "disappearing" or "merging" tactics behind waterfalls?
-*   **Apparel Status:** Vaelitharon’s new robes are still under construction; the tailor is still learning and cannot provide a definite delivery timeline.
+## 6. Tactical Planning
+The company has outlined several primary objectives for the upcoming session:
+* **Logistics:** Establish a permanent placement for the two Rugs of Instant Access and organize the workshop area to store volatile and inexpensive items.
+* **Diplomacy:** Deliver the Scepter of the Goblins to King Weskenim.
+* **Exploration & Rescue:** Descend into the Great Cavern via the cliff face. The primary mission is the rescue of the six beastmen currently held by the Children of Deino, utilizing non-lethal methods (such as Mass Daze or silk cord) to prevent harm to the prisoners.
+* **Secondary Objectives:** If time permits, explore the unexplored sectors of the Glory of Thoth, specifically looking for the "Pit of Fire" and the "antechamber."
+
+## 7. Unresolved Threads
+* **The Secret Library:** The location of the library mentioned in Archon Bruno's letter remains unknown; the company must determine if it is hidden within the vicinity of the arcanum.
+* **The Tower Messenger:** The identity and intent of the messenger from Hithra Paleologos entering the Tower of Scrutiny are unconfirmed.
+* **Sanitation Engineering:** The long-term viability of using iris door manipulation for air circulation in the annex remains untested.
+* **The Command Tablet:** The whereabouts of the second tablet, presumably held by the former First Officer, remain a mystery.
+* **Elemental Threats:** The nature of the earth elementals behind the waterfall (whether they are merging with the ground, invisible, or teleporting) remains unknown.
+* **Economic/Utility Leads:** The potential for using "Create Food" as a trading good or finding ways to utilize "Shape Earth" or "Earth Vision" against elemental threats remain uninvestigated.

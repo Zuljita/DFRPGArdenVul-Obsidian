@@ -5,77 +5,87 @@ tags:
   - discord-summary
 ---
 
-# Discord Summary: 2025-W46 — Distilled
+# Discord Summary 2025-W46
 
-**Date Range:** 2025-11-17 to 2025-11-23  
-**Source Messages:** 72
+## Source
+- Private Discord weekly digest
+- Week ending: 2025-11-21
 
----
+## Navigation
+<!-- BEGIN AUTO NAV -->
+<!-- END AUTO NAV -->
 
-## In-World Knowledge Extracted
+# Weekly Chronicle: The Company of Right for Riches
+**Week Ending:** 2025-11-21
 
-### Historical & Lore
+## 1. Summary
+The company has begun establishing a secondary base of operations within the Beacon, utilizing teleportation rugs to bridge the distance between Gosterwick and their new outpost. While research into Rudishva artifacts provided vital nomenclature for recently recovered items, investigations into the history of the Beacon's crash have yielded no results. Negotiations regarding the renovation of the company’s residential quarters in Gosterwick are currently underway, involving a complex counter-offer from Lyssandra and Pelteon.
 
-- **Arden** was one of the 20 Worthies of the Empire, living approximately 2,100 years ago. Some human traditions claim she ascended to demi-godhood rather than dying—though scholars dismiss this as historical corruption. [#Arden | 2025-11-22]
+## 2. Events & Actions by Character
 
-- **Priscus Pulcher** led the ancient **Sortians** in rebellion against the church/college monopoly on magic, advocating for open magical aptitude. The resulting civil war lasted years; all sides lost, though the Empire survived with reduced borders. Eventually spell restrictions eased, old churches declined, and new ones rose. Pulcher and the Sortians remain branded as traitors, though popular memory of their actual cause has faded. [#Sortians | 2025-11-22]
+### Uvash Edzuson
+* **Research:** Conducted an intensive study of the text *Rudishva Devices*. This research was successful, allowing for the identification of several previously unnamed items on the company loot sheet and providing critical warnings regarding the dangers of unguided experimentation with Rudishva technology.
+* **Town Actions:** Engaged in conversation with the hologram Akla-Chah using Mithric (Broken for spoken, Accented for written).
+* **Equipment:** No changes recorded this week.
 
-- **"The Philosopher"** is a generic figure, while **Priscus Pulcher** was an actual historical figure who resembled The Philosopher late in his (shortened by execution) life. It is unclear which representation came first. [#Sortians | 2025-11-22]
+### Vallium Halcyon
+* **Alchemy/Crafting:** Successfully brewed a *Paut Potion* at a discounted rate. 
+* **Town Actions:** 
+    * Participated in carousing at local establishments; while no significant intelligence was enough to be noted, the presence of a suspicious scribe taking notes on company conversations was observed.
+    * Commissioned copies of three standard keys ($10 each) and one steel copy of the elaborate bronze key ($25).
+    * Negotiated an agreement with Lyssandra: in exchange for the company's *Elixir of Health*, Lyssary will attempt to reverse-engineer its recipe. 
+* **Equipment:** Acquired a copy of a strange, purple-inked, and malodorous potion recipe provided by Lyssandra; also holds a handwritten copy of his own recipe for Ioannes.
 
-### Places & Commerce
+### Ioannes Grammatikos Byzantios
+* **Alchemy/Crafting:** Successfully crafted *Greater Healing Potions*. One was distributed to each active party member (noting Uvash may already possess one). Note that Freydis has placed a limit on the production of minor healing potions to four per week.
+* **Research:** Attempted to locate town records regarding the crash of the Beacon and its aftermath; this research resulted in a dead end, as no such information exists within local documents.
+* **Equipment:** Carrying a handwritten copy of Vallium’s recipe.
 
-- **Astableon's Bookstore** in Gosterwick is modest—not every title is available. Stock includes *The Archontean Empire* and *Dickios and Janius Learn Mithric*. Books typically cost $10–$50 depending on size and illustrations; buyers can name a budget for a curated selection. A $100 budget builds a very small library, $1,000 a decent one, and $10,000 would exceed current stock (special orders possible). Books average 2 pounds each. [#Gosterwick | 2025-11-22; #town-rolls | 2025-11-22]
+### Vaelitharon "Vael" Sunshadow
+* **Town Actions:** Dedicated downtime to teaching the Archontean language to Akla-Chah.
+* **Equipment:** Utilized the *Lockmaster* spell to manipulate the stone door between the granite and marble sectors of the Beacon.
 
-- **No records of the Beacon** exist in any documents found in town. [#archive | 2025-11-18]
+### Mercenary: Unspecified (Archon Shiva)
+* **Character Development:** Noted updates to attributes including *Very Fit*, **Acute Vision*, and *Weapon Bond*.
 
-### Culture & Practices
+## 3. Lore & Discoveries
+* **The Beacon Structure:** The northern marble-floored sector maintains a stable temperature, whereas the southern granite-floored sector fluctuates with the outdoor climate. The stone door separating these sectors is lockable via magic or physical key. The exit via the stairs is obstructed by a thick stone cap that requires *Shape Earth* or heavy mining to breach. The facility lacks a privy and relies on Akla-Chah’s machine for food and drink. (Source: Internal Survey).
+* **Rudishva Technology:** Arcanum is a native element of this world and serves as a potential power source for Rudishva machinery. (Source: *Thirty Uses for Arcanum*).
+* **The Great Chasm Rumors:** A green dragon rules the surface ruins; her daughter, a descendant of a terrible wyrm, resides at the bottom of the Great Chasm, served by "the survivors"—a race of deathless, horned skeletons. (Source: Local Rumor 9).
+* **Found Artifacts:** Three maps were recovered from the conference room and added to the company's collection.
+* **Historical Figures (from Blackboard Notes):**
+    * *Crallicarus:* An actor or similar figure organizing dramatic readings in the old hopper colintrium.
+    * *Sakorikus:* A surgical assistant with theories regarding the compatibility of human and Rudishva fluids.
+    * *Ravatorus:* A sage specializing in subterranean and piscine life.
+    * *Isocrates:* A veteran warrior and advisor to the Under-Archon.
+    * *Melacorius:* A warrior of suspect loyalty and co-creator of the Order of Subterranean Knights.
 
-- **Rudishvan Funeral Traditions** (per Lyssandra): Full Recycling is considered best but the Beacon currently lacks the ability; Spacing is second-best and also unavailable; Cremation is third-best and might be practical if you have the means to build a suitably hot fire, somewhere outside the Beacon. [#Rudishvans | 2025-11-22]
+## 4. World Rulings
+* **Downtime Logistics:** The Beacon levels are freely navigable provided teleportation rugs are established for safe transit to Gosterwick. Alchemy and research may be conducted in either location. However, experimentation with Rudishva artifacts is strictly a "during-play" activity due to inherent instability.
+* **Language Acquisition:** A dedicated week of downtime spent almost exclusively on language study yields one level of proficiency (e.g., moving from Broken to Written).
+* **Alchemy Constraints:** The creation of golems is not a standard weekly alchemy roll; it is an expensive, long-term endeavor requiring exact materials and specific spells.
+* **Real Estate & Economics:** Owning a residence in Gosterwick costs approximately 180 months of rent. Ownership reduces the owner's local Cost of Living (CoL) by half.
+* **Weaponry Mechanics:** Energy weapons do not qualify as edged weapons. Training with such devices requires repeated use and sufficient ammunition to master the firing controls.
 
-### NPCs & Factions
+## 5. Item Intelligence
+* **Rudishva Large Shield:** Weighs 10 lbs; its transparency provides a tactical advantage by preventing the standard -2 attack penalty, though its appearance is highly unusual.
+* **Wand of Paralyze Limb:** Valued at $10,000. The effect is conditional: the user must successfully land a hit on the target's specific limb, and the target must fail both defense and resistance rolls. Each use consumes one charge.
+* **Gold Medallions:** All medallions are unique in design but share a standard size and jewelry value of $ $45.
+* **Access Cards:** Colored oval keycards (rust, brown, sky blue, pale green, orange) operate the iris doors within the Beacon; metallic cards (copper, bronze, platinum) do not function for this purpose.
 
-- **Freydis** (alchemist) has limited Ioannes to 4 minor healing potions per week to reserve stock for others; she hinted this cap may be raised if Ioannes demonstrates concrete progress toward recovering any of **Lady Alexia's Regalia**. [#archive | 2025-11-18]
+## 6. Tactical Planning
+The company intends to execute a deep delve into the Great Cavern during the next session:
+1.  Teleport from Gosterwick to the Beacon using the Rug of Access.
+2.  Exit the Beacon via the stairs (utilizing *Shape Earth*).
+3.  Navigate the Long Stair to reach the area near the abandoned Settite outpost.
+4.  Explore a passage 35 feet up, south of the outpost, leading toward the blue octagonal pillar room.
+5.  Descend the western Settite stairs to reach the area behind the waterfall.
+6.  Utilize the Platinum Token of Arden to bypass the guardian at the base of the stairs.
+7.  Use various colored access cards to investigate the round door behind the waterfall and search for an alternative entrance that avoids the water.
 
-- **Lyssandra** accepts the offer of the free Elixir of Health in exchange for the recipe if she can find it. The next day, Vallium is given a piece of paper with a potion recipe in precise handwriting, except the ink is a weird purple color and smells a bit off. [#archive | 2025-11-20]
-
-- A **robed figure** was observed taking notes on the party's conversation during carousing, suggesting other adventurers are actively gathering intelligence on the group. [#archive | 2025-11-20]
-
-### Items & Equipment
-
-- Key copies were exchanged: Vallium now holds Lyssandra's purple copy; Ioannes holds Vallium's handwritten copy. Standard keys cost $10 each. The elaborate bronze key cost $25 to copy; the copy matches the shape but uses a less elaborate steel handle rather than bronze. [#archive | 2025-11-20]
-
-- A **Restoration** glyph was successfully identified. Alchemy produced 4 potions available for purchase. [#town-rolls | 2025-11-22]
-
-- The party acquired approximately 15 general nonfiction books on various subjects from Astableon. [#town-rolls | 2025-11-22]
-
-### Logistics & Capabilities
-
-- Hirelings may be contracted for any task **except entering the dungeon**; the Grudge Brigade is exempt from this restriction because they are a PC. [#archive | 2025-11-21]
-
-- Immersive language study (e.g., Rudishvan) consumes a full week and allows **zero** spell acquisition or town activities during that period. [#archive | 2025-11-20]
-
-- Upgrading a bow from ST 19 to ST 27 requires a **new bow**, not restringing; fine quality is recommended for reliability at ST 27. Weapon Bond does not transfer. [#archive | 2025-11-21]
-
-- **Traps** skill covers simple machines (pulleys, levers, snatch blocks) at this tech level and can be studied. [#questions-for-gm | 2025-11-21; #questions-for-gm | 2025-11-22]
-
-- None of the requested simple-machine-related materials are currently available in Gosterwick. [#questions-for-gm | 2025-11-22]
-
-- The party currently knows nothing about **Rudishva weapons**. [#archive | 2025-11-21]
-
----
-
-## ✅ Truncation Notes — All Resolved
-
-The following entries have been filled in from raw source data:
-
-| Entry | Source | Date | Status |
-|-------|--------|------|--------|
-| ~~Arden entry~~ | ~~#Arden~~ | ~~2025-11-22~~ | ~~*Complete entry already in body*~~ |
-| ~~Rudishvan funeral traditions~~ | ~~#Rudishvans~~ | ~~2025-11-22~~ | ~~*Fixed from raw source*~~ |
-| ~~Sortians entry~~ | ~~#Sortians~~ | ~~2025-11-22~~ | ~~*Complete entry already in body*~~ |
-| ~~Lyssandra's acceptance~~ | ~~#archive~~ | ~~2025-11-20~~ | ~~*Fixed from raw source*~~ |
-
----
-
-*Distilled: 2026-03-18*
-*Original generated: 2026-03-17*
+## 7. Unresolved Threads
+* **The Lyssandra Proposal:** The company must decide whether to accept Lyssandra’s counter-offer regarding the renovation of the top-floor apartments into luxury units in exchange for the Golem book.
+* **The Purple Recipe:** The origin and nature of the strange, purple-inked recipe provided by Lyssandra remain unknown.
+* **The Scribe:** The identity and motive of the individual observed taking notes on company business in Gosterwick are unconfirmed.
+* **Weaponry Research:** Whether to prioritize researching the properties of Rudishva energy weapons or investigating the nature of the local wraiths.
+* **The Beacon's Origin:** The mystery of why no records exist regarding the Beacon's arrival/crash remains unsolved.

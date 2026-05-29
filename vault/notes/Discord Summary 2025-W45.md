@@ -16,65 +16,77 @@ source_week: week-ending-2025-11-14-2300-central
 - Week ending: 2025-11-14
 
 ## Navigation
-
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The Right for R/R Company
-**Date:** Week ending 2025-11-14  
-**Subject:** The Legacy of Ptarmis, the Shadows of Kerbog Khan, and Plans for the Forum
+# Weekly Chronicle: Arden Vul
+**Week Ending 2025-11-14**
 
-### Summary
-The company processed spoils from Theskalon's Tomb and gathered intelligence in Gosterwick. Research into ancient Thothian history revealed the origins of the Great Cavern and the figure of Ptarmis. New intelligence from rescued survivors indicated that Settites are hunting for a "Lord of the Fungi" and a sorcerer named Kerbog Khan. The company finalized plans for the Ankh Puzzle and discussed establishing a permanent base in the Forum of Set.
+## 1. Summary
+The company returned to Gosterwick following the harrowing events in the Tomb of Theskalon, focusing on recovering survivors and processing recent spoils. While some casualties were mourermed, new intelligence regarding the history of the Great Cavern and local political recruitment has come to light.
 
-### Events & Actions by Character
+## 2. Events & Actions by Character
 
-**Uvash Edzuson**
-*   **Research:** Investigated the strange, water-filled cavern encountered during recent travels; no information was found regarding this location.
-*   **Town Actions:** Spent $160 to acquire training in Research and Alchemy (one point each). Expressed intent to compose a letter to family in his mountainhome to establish permanent ties to Gosterwick.
+### Uvash Edzuson
+* **Research:** Undertook research into the nature of the strange, water-walled cave encountered during recent travels; no information was found regarding this specific location.
+* **Alchemy/Crafting:** Spent $160 to increase Research and Alchemy skills by one point each.
+* **Town Actions:** Expressed intent to compose a letter to family in the mountainhome to establish permanent ties to Gosterwick.
 
-**Vallium Halcyon**
-*   **Town Actions:** Visited the local temple to check on rescued survivors. Learned that Kiglon had passed away, while Hjalti was recovering. Hjalti reported that the Settites were searching for a "Lord of the Fungi" and an evil sorcerer named Kerbog Khan, wanted by the Collegium. Vallium also inquired about Harald’s old party to aid in future recognition; learned Harald had left the temple after ensuring the wounded were cared for. Consulted with Azgallatu the cleric, who reported that Lord Iskander Burdock is recruiting adventurers for a 50/50 treasure split in the Halls. Spent $125 to secure a +2 bonus to a Carousing roll.
-*   **Alchemy/Crafting:** Successfully brewed an Agility Potion at a discounted cost.
-*   **Equipment Changes:** Commissioned a copy of the complex key recovered from Theskalon's Tomb ($25). Conducted a destructive experiment with Larel's Sack and a glass flask to test its protective qualities; the resulting breakage left the sack filled with minute, difficult-to-remove glass shards.
+### Vallium Halcyon
+* **Alchemy/Crafting:** Successfully brewed an Agility Potion (at a discounted cost).
+* **Town Actions:** 
+    * Visited the temple to check on rescued survivors; learned of the death of Kiglon and the recovery of Hjalti.
+    * Advised the survivor Harald to seek out the wizard Geleg via the Second Chance Company.
+    * Conduct and result of scientific experiment: Striking an empty glass flask against the floor within Larel's Sack caused it to shatter, resulting in minute glass shards contaminating the interior of the sack.
+    * Commissioned a duplicate of the complex key recovered from Theskalon's Tomb at a cost of $25, as explained by the locksmith Theopilos.
+    * Engaged in carousing (costing $125) to gather local intelligence.
+* **Equipment Changes:** Acquired a duplicate key; currently burdened by glass shards within Larel's Sack.
 
-**Ioannes Grammatics Byzantios**
-*   **Town Actions:** Purchased all four available Minor Healing Potions from local vendors.
-*   **Alchemy/Crafting:** Successfully brewed a Greater Healing Potion at a discounted cost.
-*   **Research:** Conducted research into the figure known as Ptarmis, discovering he was a Thothian priest from approximately 2000 years ago who established control over the Great Cavern and cultivated giant mushrooms.
+### Ioannes Grammatikos Byzantios
+* **Alchemy/Crafting:** Successfully brewed a Greater Healing Potion (at a discounted cost).
+* **Town Actions:** Purchased four minor healing potions from Freydis the Stern.
+* **Research:** Conducted research into the historical figure Ptarmis; uncovered details regarding his role as a Thothian priest who built a tomb in a forest of mushrooms.
+* **Equipment Changes:** Added four minor healing potions to personal inventory (bringing total possession to 12 minor healing potions).
 
-**Vaelitharon "Vael" Sunshadow**
-*   **Town Actions:** Performed a thorough inspection of recent loot using Mage Sight and manual handling.
-*   **Research:** Studied an incomplete book regarding mummy creation; noted the text contains Settite and necromantic rituals that are largely unintelligible without further study. Decided to sell the volume to Lyssandra for retail value.
+### Vaelitharon "Vael" Sunshadow
+* **Research/Analysis:** Utilized Mage Sight to inspect all recently recovered loot for magical properties or hidden dangers.
+* **Town Actions:** Arranged the sale of an incomplete mummy creation book to Lyssandra at retail price.
 
-### Lore & Discoveries
-*   **The History of Ptarmis:** A Thothian priest who lived roughly two millennia ago, credited with discovering the Great Cavern and bringing it under Archontean control. Sources suggest he left his family and church to live with his mushrooms, akin to a Druid (Research: Ioannes).
-*   **Chronology of Arden Vul:** The site was discovered ~2150 years ago; the city was founded ~2100 years ago; Marius Tricotor completed his conquests ~1950 years ago; the civil war and subsequent abandonment occurred ~1200 years ago (Research: Ioannes).
-*   **The Kerbog Khan Rumor:** Hjalti reported that the Settites were searching for an evil sorcerer named Kerbog Khan, a figure wanted by the Collegium. Players noted potential similarities between Kerbog Khan and the previously encountered Cerbactos (Interview: Hjalti).
-*   **The Lord of the Fungi:** The Settites were actively seeking a "Lord of the Fungi" in the Great Cavern, the identity of whom remains unknown (Interview: Hjalti).
-*   **Mithric Plaques:** Three copper plaques were recovered from Theskalon's Tomb, containing notes in Mithric regarding:
-    1.  An unknown location of a powerful weapon, possibly near administrative centers and shrines.
-    2.  A dwelling found by Scriptor workmen, though the workmen were devoured and the Scriptor is uncooperative.
-    3.  An unidentified armory, with a reference to a voice noted as likely a mistake.
+## 3. Lore & Discoveries
+* **The Fate of the Survivors:** Kiglon, having sustained severe wounds, succumbed to his injuries in the night. Hjalti is recovering and revealed that he was held in a Settite slave pit; he noted that the Settites were searching for a "lord of the fungi" and an evil sorcerer known as Kerbog Khan (Source: Testimony of Hjalti).
+* **The History of Ptarmis:** Ptarmis was a Thothian priest from approximately 2,000 years ago who built himself a secret tomb amid a huge forest of colossal mushrooms (Source: Research).
+* **Chronology of Arden Vul:** The site was discovered by Arden and Vul roughly 2,150 years ago; the city was founded 2,100 years ago; Marius Tricotor completed the conquest of the Halls approximately 1,950 years ago; the civil war and subsequent abandonment occurred roughly 1,200 years ago (Source: Research).
+* **Local Politics:** Lord Iskander Burdock, half-brother to Lady Alexia, is actively recruiting adventurers to delve into the Halls, offering equipment in exchange for a fifty-percent split of all recovered treasure (Source: Azgallatu the Cleric).
 
-### World Rulings
-*   **Training Costs:** Training for a new skill not present on a character's template costs $80 per point. If the skill is already on the template, the cost is $40 for one point.
-*   **Literacy and Correspondence:** Characters with Literacy can write letters; those without may employ scribes. The quality of the Writing skill determines the persuasiveness of the correspondence.
-*   **Key Duplication:** Due to its immense complexity, a copy of the key from Theskalon's Tomb costs $25.
-*   **Market Availability:** Only four Minor Healing Potions were available for purchase in Gosterwick during this period.
+## 4. World Rulings
+* **Training Costs:** The cost to learn one point in a new skill not present on a character's template is $80. If the skill is already on the template, the cost is reduced to $4/point. Once a skill is acquired, characters may self-train through repeated use.
+* **Literacy and Correspondence:** Characters with the Literacy skill can write letters; however, the Writing skill is required to produce high-quality, persuasive correspondence. Those lacking literacy may employ scribes to facilitate communication.
 
-### Tactical Planning
-The company is preparing for Session 31 with the following intentions:
-*   **Deployment:** Travel to Arden Vul, leaving one Rug of Instant Access in Gosterwick for contingency.
-*   **Surveying:** Utilize *Water Vision* to survey the swamp and river systems near the Stellar Obelisk, specifically looking for submerged structures or entrances.
-*   **The Obelisk Puzzle:** The company intends to place the Lunar and Stellar ankhs in their recesses prior to high noon, then place the Solar ankh at midday to attempt to reveal the beacon.
-*   **Expansion:** There is ongoing discussion regarding clearing the Forum of Set and reconsecrating it to Zorradrim to establish a permanent base of operations within the ruins, potentially inviting dwarven kin to reside there.
+## 5. Item Intelligence
+* **Copper Plaques (Set of 3):** Recovered from Theskalon's Tomb. These plaques contain Mithric inscriptions regarding:
+    1.  A powerful weapon located near an unknown administrative center/shrine.
+    2.  A dwelling found by the Scriptor’s workmen, though the workmen were devoured.
+    3.  An armory at an unknown location.
+* **Mummy Creation Book:** An incomplete text containing approximately one-third of a ritual for creating mummies; contains Settite and Necromantic content (Source: Vaelitharon's inspection).
+* **The Key (from Theskalon's Tomb):** A large, highly complex key. Due to its intricacy, any attempt to duplicate it requires $25 (Source: Theopilos the Locksmith).
+* **Larel's Sack:** It has been determined that this item cannot safely store fragile objects, such as glass or delicate masks, as high-impact movement within the sack will cause them to shatter.
 
-### Unresolved Threads
-*   **The Identity of Kerbog Khan:** Who is this sorcerer, and what is his connection to the recent Settite activity?
-*   **The Lord of the Fungi:** The identity of the individual the Settites were seeking in the Great Cavern remains unknown.
-*   **Rug Range Limits:** The maximum effective distance for the Rugs of Instant Access has yet to be determined.
-*   **The Mithric Leads:** The locations of the "powerful weapon," the "dwelling," and the "armory" mentioned on the copper plaques remain undiscovered.
-*   **Settite Eviction:** Whether the company should commit to a full-scale push to evict the Settites from the Forum or continue operating from Gosterwick.
+## 6. Tactical Planning
+The company is currently contemplating several long-term strategies:
+* **Establishment of a Forward Base:** There is an ongoing discussion regarding clearing the Forum and reconsecrating the temple to Zorradrim, potentially inviting dwarven settlers to create a secure outpost in Arden Vul.
+* **Logistical Testing:** The company intends to travel toward Narselion via cart and mule to determine the maximum effective range of the Rugs of Instant Access. There is also interest in using the rugs to connect Gosterwick to Narselion for easier travel.
+* **Session 31 Objectives:**
+    * Travel to the surface level of the Arden Vul ruins using the Rugs of Instant Access.
+    * Leave tribute for Craastonistorex near the dam control house.
+    * Utilize *Water Vision* to survey the swamp and river systems for submerged structures or entrances.
+    * Inspect the Stellar Obelisk and attempt to activate the solar, lunar, and stellar mechanisms using the silver ankhs at high noon.
+    * Explore the passages south of the abandoned Settite outpost and investigate the Great Cavern/Settite territory.
+
+## 7. Unresolved Threads
+* **The Identity of Kerbog Khan:** Who is this sorcerer sought by the Collegium?
+* **The Lord of the Fungi:** What entity or personage does the Settite interest in the Great Cavern refer to?
+* **Rug Range Limits:** What is the maximum distance a Rug of Instant Access can reliably connect two locations?
+* **The Scriptor's Secret:** Where is the dwelling mentioned on the second copper plaque located?
+* **The Ankh Puzzle:** Should the company attempt to activate the obelisks one by one, or simultaneously with all three ankhs at high noon?

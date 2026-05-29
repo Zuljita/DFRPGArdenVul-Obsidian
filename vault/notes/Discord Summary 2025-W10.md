@@ -6,69 +6,86 @@ tags:
   - discord-summary
 ---
 
-# Discord Summary: 2025-W10 (Distilled)
+# Discord Summary 2025-W10
 
-**Date Range:** 2025-03-10 to 2025-03-16
-**Source Messages:** 116
+## Source
+- Private Discord weekly digest
+- Week ending: 2025-03-14
 
----
-
-## In-World Knowledge
-
-### Arcane Practitioners Club (APC)
-
-- Lyssandra is interested in purchasing Mage scrolls containing spells she doesn't already know, presumably including spellbooks; she likely seeks rare or unusual spells. Pelteon was formerly Lyssandra's apprentice. [#ArcanePractitionersClub | 2025-03-16; #worldbuilding | 2025-03-16]
-- The APC can recharge Mage Power Items. [#ArcanePractitionersClub | 2025-03-16; #worldbuilding | 2025-03-16]
-- The APC offers: magic item identification services ($100), spell training at book cost, library/lab/lounge access (membership $50/month, $13/week, or $600/year), apartments for rent, and will buy certain magic items. They can teach most spells plus wizard skills like Thaumatology, Alchemy, and Research. [#loot | 2025-03-15; #loot | 2025-03-16; #worldbuilding | 2025-03-16]
-- The APC alchemy lab counts as good equipment with no penalty for being a "backpack" lab (though not fine quality). [#loot | 2025-03-16]
-- Lyssandra insists it is called the "Arcane Practitioners Club," not College. [#loot | 2025-03-16; #worldbuilding | 2025-03-16]
-- **NPCs met:** Only Lyssandra and Pelteon have been met so far. [#ArcanePractitionersClub | 2025-03-16; #worldbuilding | 2025-03-16]
-
-### Gosterwick
-
-- Gosterwick was originally a tiny Thorcin farming village. About 20 years ago, an Archontean noblewoman named **Lady Alexia** moved in with Knights of the Azure Shield, built a keep, and began expanding the village into a town. They tried giving the town an Archontean name but it didn't stick so most still call it Gosterwick. Probably a couple thousand people there by now. The walled keep is in the northeast by the lake. The rest of the walls are marked out by a dirt berm, but not built yet except for 2 gatehouses. Most of the buildings are in the northeast corner by the keep, with a few buildings like the stables and Arcane Practitioners Club deliberately isolated from the rest. There are a couple of big ugly wooden guard houses sticking up in the empty part of town, to try to make up for the unfinished walls. For a small town there are a lot of services: a couple of inns, 4 full temples as well as some small shrines, a full Archontean-style bathhouse, several bars, a few government buildings, a pawn shop, a money changer, some banking factors, even a bookseller. It has the feel of a boom town. Something is clearly bringing a lot of money into the area and people are moving to Gosterwick to get some of it. As travellers you know of both inns. The Yellow Cloak Inn is good quality at a reasonable price. That's where all of you were staying. The Stunned Acolyte is much more expensive; apparently that's where rich people go. The kind of place where you buy dinner with gold instead of silver. [#Gosterwick | 2025-03-16; #worldbuilding | 2025-03-16]
-- **Torunn the Smith**, a big Wiskin woman, is reputedly the best smith in Gosterwick. She personally crafts the highest quality items while apprentices handle most standard work under her supervision. She gave Vael a paid lesson in Weapon and Armor Appreciation. [#loot | 2025-03-16; #worldbuilding | 2025-03-16]
-- Shortswords retail for $400; used shortswords sell for 40% of retail unless the seller has Wealth. [#loot | 2025-03-16]
-
-### Religious Organizations
-
-- **Uriel Basileon**, an archon, wrote to **Kel Bormol**, Overseer of Thoth, stating that the Second Overseer (Bormol's assistant) has not dared show himself since his cowardly retreat before the Sortian onslaught. He reportedly cowers within the **Tower of Scrutiny**, refusing entry to petitioners. [#archive | 2025-03-14; #pc-notes | 2025-03-14]
-- The **Temple of Demma** in Gosterwick is led by someone (name not specified in summary). [#worldbuilding | 2025-03-14]
-
-### Rumors & Leads
-
-- The priests of Mitra seek help tracking down a missing priestess named **Lillian**, last seen near the huge overgrown Thicket by the cliff of Arden Vul. A shepherd claims he saw her being taken by walking pigs up the cliff into the ruins of Arden Vul. If you can find and return this Lillian, there's a big reward posted in Newmarket. [#Rumors | 2025-03-10; #Rumors | 2025-03-14]
-- Many devoted followers of Thoth ("Thoth's Beloved") were buried in catacombs located just under the pyramid, guarded by Thoth's power which prevents intruders from entering. [#Rumors | 2025-03-14]
-- Thoth represented the light of knowledge that erased the darkness of ignorance; Thoth priests were obsessed with light and every one of their Halls remains brightly lit with Thoth's bright, clear light. [#Rumors | 2025-03-14]
-- A massive road, built for creatures larger than humans, runs for a mile through the caverns. If you can get on it, you'll be able to reach the goblin king and the troll thegn. [#Rumors | 2025-03-10; #Rumors | 2025-03-14]
-- The caverns under Arden Vul produced a large supply of a wondrous orange mineral that proved to have very many arcane uses. The city was abandoned when the mines ran dry. [#Rumors | 2025-03-10]
-
-### Commerce & Services
-
-- **Jeremias Smalleaf**, the money changer, identifies well-known coins for free and only charges fees for actual moneychanging services. He handles coins and gems and also lends money. [#loot | 2025-03-16]
-- The two mages at the Arcane Practitioners Guild identify magic items for $100. [#loot | 2025-03-15]
-
----
-
-## Notes
-
-- **Truncation detected:** Several entries marked with "..." in the source need fetching from original Discord channels:
-  - ~~Gosterwick history (Lady Alexia entry)~~ - *Fixed from source*
-  - ~~Rumors about Lillian/the shepherd~~ - *Fixed from source*
-  - ~~Rumors about Thoth's Halls~~ - *Fixed from source*
-  - ~~Rumors about the massive road~~ - *Fixed from source*
-  - ~~Rumors about the orange mineral~~ - *Fixed from source*
-  - Priesthood of Demma thread content
-
-- **Excluded:** Rules discussions about XP thresholds, loot calculations, PC point values, spell mechanics, scroll usage rules, and inventory management chatter.
-
----
-*Distilled: 2026-03-18*
-*Source: Discord Summary 2025-W10.md*
-
-## Session Navigation
-
+## Navigation
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W09.md|Discord Summary 2025-W09]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]]
 <!-- END AUTO NAV -->
+
+# Weekly Knowledge Base: Arden Vul Expedition
+**Date:** 2025-03-14
+**Subject:** Finalization of Company Roster and Theological Foundations
+
+## 1. Summary
+This week marked the formal conclusion of character preparations, with all primary adventuring company members and key mercenaries having their identities and capabilities ratified. Significant focus was placed on establishing the religious doctrines of the Priesthood of Demma in Gosterwick and finalizing the tactical utility of various mercenary assets.
+
+## 2. Events & Actions by Character
+
+**Uvash Edzuson**
+* **Character Advancement:** Finalized primary attributes and traits; confirmed as a Dwarven Cleric of Zodarrim.
+* **Equipment Changes:** Prepared for upcoming expedition with standard clerical gear.
+
+**Vallium Halcyon**
+* **Character Advancement:** Final and finalized combat training and skill sets; confirmed as an Archontean Fighter with proficiency in Broadsword (Skill 14).
+* **Equipment Changes:** Finalized equipment loadout for the initial foray.
+
+**Ioannes Grammatikos Byzantios**
+* **Character Advancement:** Finalized clerical training; established expertise in healing (Stop Bleeding, Minor/Major Healing) and medical skills (First Aid, Esoteric Medicine, Surgery, and Diagnosis). Confirmed as a cleric of Demma with access to the Mystic Theurge path.
+* **Research:** Undertook theological study regarding the Priesthood of Demma; established the structure of the temple in Gosterwick.
+* **Alchemy/Crafting:** Expressed intent to develop alchemy skills for the future production of healing potions.
+* **Equipment Changes:** Utilizes a dwarven axe and a shield in combat.
+
+**Vaelitharon "Vael" Sunshadow**
+* **Character Advancement:** Reconfigured spell list, replacing *Death Vision* with *Blink Other*. Adjusted physical profile to a more wiry build (reducing weight by 40 lbs).
+* **Spells & Buffs:** Prepared a variety of spells for area control (*Shape Air*, *Grease*, *Create Fire*, *Shape Fire*, and *Smoke*) as well as exploration buffs (*Seek Earth*, *Infravision*, *Keen Vision*, and *Levitation*) and combat buffs (*Haste*).
+* **Equipment Changes:** Identified Wizard's Robes ($150) as a primary target for future acquisition. Noted that while a backpack is a superior power item, its "quick release" nature makes it unreliable for immediate needs during combat.
+
+**Ashe Maykum (Mercenary)**
+* **Character Advancement:** Finalized Goblin Druid capabilities, including the use of pollen clouds and animal summoning.
+
+**Merenuithiel Armaris (Mercary)**
+* **Character Advancement:** Finalized Archer training; noted for high proficiency in Bow skill.
+
+**Valya "Basilisk" Hushbreaker (Mercenary)**
+* **Character Advancement:** Finalized Monk/Cleric capabilities, focusing on Kiai and paralyzing vocal techniques. 
+* **Equipment Changes:** Currently operating with minimal equipment; requires future funding for gear.
+
+**Michael J. Dundee (New Recruit)**
+* **Character Advancement:** Finalized initial training; acquired Archontean language proficiency (Accented Spoken).
+
+## 3. Lore & Discoveries
+* **Dwarven Pantheon:** The dwarven pantheon consists of a single deity, Zodarrim.
+* **Priesthood of Demma (Gosterwick):** Led by Chief Priest Vivian, a Thorcin male. The temple prioritizes aid to the rural poor and focuses on fertility, crops, and households. It is assisted by four clerics and guarded by six warriors wielding flails.
+* **Theology of Demma:** Centered on balance, stewardship, and the sacred duty of cultivation. Her clergy wear earthy tones (greens, yellows, browns) and use the flail as a sacred symbol.
+* **Goblin Lifespan:** Goblins possess a lifespan similar to humans; however, those in dangerous professions like mining or adventuring often face shorter average lifespans due to environmental hazards.
+* **Rumor - The Missing Priestess:** A priestess of Mitra named Lillian went missing near the overgrown thick．thicket by the Arden Vul cliffs; witnesses claim she was taken by "walking pigs" into the ruins.
+* **Rumor - Thoth Priests:** The priests of Thoth are obsessed with light, ensuring all their Halls remain brightly lit.
+* **Rumor - The Great Road:** A massive road built for much larger creatures runs for a mile through the caverns, potentially leading to the Goblin King and the Troll Thegn.
+* **Rumor - The Orange Mineral:** The caverns under Arden Vul once produced a wondrous orange mineral with various arcane uses, but the mines were abandoned when they ran dry.
+* **Rumor - The Hermit's Path:** A staircase is hidden behind a painted image of a baboon in the ruins, leading to "the scene of the crime."
+* **Rumor - Thoth's Beloved:** Devotees of Thoth are buried in catacombs beneath the pyramid, protected by the power of the god himself.
+
+## 4. World Rulings
+* **Consumables:** The acquisition and use of consumables cost experience points (XP).
+* **Spell Training:** Players may pay one point and a sum of money to have a trainer teach them a spell.
+* **Blink Other (Blocking):** When used as a blocking spell, the target may resist via Strength or Will. A caster cannot use *Blink Other* against an attacker to prevent the initial hit, but may use a *Wait* maneuver to blink the attacker away after they move into position but before they roll their attack.
+* **Command (Blocking):** This is considered a blocking spell only when used as a defense roll following a successful attack; otherwise, it must be cast as a Regular spell.
+* **Kiai:** The technique of Kiai can be performed on side hexes, but not on rear hexes.
+* **Skill Permanence:** Points invested in a skill are permanent to that skill and cannot be later merged into an attribute increase.
+* **Weaponry Modifiers:** Fine Bodkin arrows provide +1 damage to piercing (pi) damage. Conversely, a Dwarven Whetstone does *not* provide a bonus to pi damage, only to cut and impale.
+
+## 5. Tactical Planning
+* **Expedition Logistics:** The company intends to procure a wheelbarrow, picks, and rope for upcoming delves. There is discussion regarding using a wheelbarrow to transport gear or even a character.
+* **Scouting/Utility:** Discussion held regarding the use of "pollen clouds" or "spore" effects for area control and interaction during encounters.
+
+## 6. Unresolved Threads
+* **The Second Overseer:** The whereabouts and status of the Second Overseer in the Tower of Scrutiny remain unknown.
+* **The Lunar Eclipse:** It remains a matter of theological debate whether a lunar eclipse signifies a dragon consuming the moon.
+* **Lillian's Fate:** The search for the missing priestess Lillian is an active lead.
+* **The Messenger:** The identity and intent of the messenger from Hithra Paleologos entering the Tower of Scrutiny are unconfirmed.

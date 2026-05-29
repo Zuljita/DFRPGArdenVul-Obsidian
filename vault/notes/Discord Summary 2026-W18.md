@@ -14,71 +14,83 @@ source_type: private-discord-weekly-digest
 - Week ending: 2026-05-08
 
 ## Navigation
-
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2026-W17.md|Discord Summary 2026-W17]]
 - Next Discord Summary: [[notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The Company of the Right for Riches
-**Date:** Week ending 2026-05-08
+# Weekly Knowledge Base: Arden Vul
+**Week Ending:** 2026-05-08 23:00 CDT
 
-## 1. Summary
-This week saw the company engage in scholarly research, alchemical experimentation, and logistical preparation for the upcoming push toward the [[locations/Beacon.md|Beacon]] and the Bastion. [[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios and [[pcs/Vallium Halcyon.md|Vallium]] Halcyon successfully brewed potions and conducted research, while Vaelitharon "[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]]" [[pcs/Vaelethron 'Vael' Sunshadow.md|Sunshadow]] suffered a costly alchemical failure but gained significant historical insights. [[npcs/Remagis.md|Remagis]] accompanied [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] to [[locations/Gosterwick.md|Gosterwick]] to procure supplies for his intended restoration of the Temple of [[npcs/Thoth.md|Thoth]] within Arden Vul. The company has finalized plans for the next expedition, including specific protocols for the Tower of Scrutiny.
+**Summary**
+The company Chrysalis spent the week in Gosterwick conducting research into ancient conflicts and preparing for upcoming expeditions. While alchemical endeavors yielded both great success and a disastrous explosion, new intelligence regarding the Rudishva and the nature of Arden Vul's inhabitants has been gathered.
 
-## 2. Events & Actions by Character
+**Events & Actions by Character**
 
-**[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]]**
-*   **Alchemy/Crafting:** Successfully brewed a Potion of Fire Resistance.
-*   **Research:** Investigated survivors of the [[factions/Rudishva.md|Rudishva]], specifically excluding those associated with the [[locations/Arena.md|Arena]] Lord. This research uncovered a tattered report from the Archon of [[locations/Arden Vul.md|Arden Vul]] addressed to the Logothete of the [[factions/Drome.md|Drome]] in Archontos. The report details the presence of an extinct, highly dangerous race of sorcerers within the ruins. It notes that one survivor, [[npcs/Crallicarus.md|Crallicarus]], has offered assistance to the Archon, while another, [[npcs/Melacorius.md|Melacorius]], poses a palpable military threat.
-*   **Town Actions:** Engaged in propaganda efforts to promote the Goblin Forum.
+**Uvash Edzuscson**
+* **Town actions taken:** None this week.
+* **Alchemy/crafting attempts and results:** None this week.
+* **Research results:** None this week.
+* **Character advancement:** None this week.
+* **Equipment changes:** None this week.
 
-**[[pcs/Vallium Halcyon.md|Vallium Halcyon]]**
-*   **Alchemy/Crafting:** Successfully brewed an Agility Potion.
-*   **Research:** Conducted research into the Ligareon family; no significant information was found regarding this lineage.
-*   **Town Actions:** Read the *Book of Night Maneuvers*, a text written in Mithric detailing eight famous historical heists. Spent 125 gold to secure a +2 bonus to his Carousing rolls. Learned that the halfling thug Plumthorn sells a narcotic called "mushroom ale" under the name "Hack's Special," which induces the effects of *suggestion* in those who consume it.
+**Vallium Halcyon**
+* **Town actions taken:** Paid $125 to increase Carousing proficiency by +2. 
+* **Alchemy/crafting attempts and results:** Successfully brewed a Potion of Agility.
+* **Research results:** Attempted to research the Ligareon family; no interesting information was found. Read the *Book of Night Maneuvers*, which is written in Mithric and details eight famous historical heists.
+* **Character advancement:** None this week.
+* **Equipment changes:** Currently utilizing the party's communal Boots of Ogre Strength.
 
-**Vaelitharon "[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]]" [[pcs/Vaelethron 'Vael' Sunshadow.md|Sunshadow]]**
-*   **Alchemy/Crafting:** Attempted to brew a [[items/Potion of Wisdom.md|Potion of Wisdom]], resulting in a critical failure and the destruction of materials.
-*   **Research:** Studied three historical texts:
-    *   *The Betrayal*: Revealed that a [[factions/Kaliyani.md|Kaliyani]] named Lisstak manipulated his people against the [[factions/Rudishva.md|Rudishva]] out of boredom with peace, leading to the arrival of "the sickness."
-    *   *Tales of [[npcs/Larel One-Eye.md|Larel One-Eye]]*: A collection of folklore detailing the trickster Larel’s exploits, including tricking a farmer’s wife, distracting wolves with a chicken, visiting wizard Tilgo, and surviving bugbear captivity.
-    *   *On the Wars of the Old Ones with the Trolls*: A tactical history of Archontean campaigns against the [[factions/Varumani.md|Varumani]], illustrating how the Archontes defeated the trolls and turned them into loyal allies.
-*   **Language Study:** Continued studies in spoken [[factions/Varumani.md|Varumani]] and written Rudishva (using *The Betrayal* as a primer).
-*   **Town Actions:** Continued drafting the "Chronicle of the [[factions/Right for Riches Company.md|Right for Riches Company]] By Vaelitharon '[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]]' Sunshadow." Accompanied the mercenary [[npcs/Remagis.md|Remagis]] to [[locations/Gosterwick.md|Gosterwick]], acting as an interpreter for his broken Archontean and facilitating his shopping.
+**Ioannes Grammatikos Byzantios**
+* **Town actions taken:** Conducted propaganda efforts to promote the Goblin Forum.
+* **Alchemy/crafting attempts and results:** Successfully brewed a Potion of Fire Resistance.
+* **Research results:** Researched Rudivisha survivors (other than the Arena Lord); uncovered a tattered report from the Archon of Arden Vul to the Logothete of the Drome in Archontos. The report claims that "survivors" of an extinct race reside within Arden Vul; specifically, Crallicarus has assisted the Archon, while Melacorius is noted as a significant military threat.
+* **Character advancement:** None this week.
+* **Equipment changes:** None this week.
 
-**[[pcs/Uvash Edzuson.md|Uvash]] Edzuson**
-*   **Town Actions:** None recorded this week.
+**Vaelitharon "Vael" Sunshadow**
+* **Town actions taken:** Accompanied the mercenary Remagis to Gosterwick; managed a budget of $300 for Remagis's supplies and acted as an interpreter. 
+* **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Wisdom; the attempt resulted in a critical failure and a localized explosion, resulting in the loss of the gold spent on materials.
+* **Research results:** Studied several texts:
+    * *The Betrayal*: A difficult text detailing how a Kaliyani named Lisst::stak got bored with peace after victory and twisted the minds of the Kaliyani against the Rudishva, leading to "the sickness."
+    * *Tales of Larel One-Eye*: A collection of anecdotes regarding the trickster Larel, including his tricks involving a farmer's wife, a chicken used to distract wolves, and his theft of a wizard's spellbook in the tower of Tilgo.
+    * *On the Wars of the Old Ones with the Trolls*: A tactical history of Archontean military campaigns against the Varumani.
+    * Continued study of spoken Varumani and written Rudishva.
+* **Character advancement:** Continued writing the "Chronicle of the Right for Riches Company By Vaelitharon 'Vael' Sunshadow."
+* **Equipment changes:** None this week.
 
-**[[npcs/Remagis.md|Remagis]] (Mercenary)**
-*   **Town Actions:** Accompanied Vaelitharon to Gosterwick. Purchased food, holy water, cleaning supplies, and several wooden holy symbols of Thoth. Expressed intentions to reopen the Temple of [[npcs/Thoth.md|Thoth]] within [[locations/Arden Vul.md|Arden Vul]] once his Archontean proficiency is sufficient to navigate the goblin population that currently encompasses the site.
+**Remagis (Mercenary)**
+* **Town actions taken:** Traveled to Gosterwick with Vaelitharon; attempted to use broken Archontean on various townspeople. Purchased food, holy water, cleaning supplies, and several wooden holy symbols of Thoth.
+* **Character advancement:** Expressed intent to reopen the Temple of Thoth within Arden Vul once proficient in Archontean.
+* **Equipment changes:** None this week.
 
-## 3. Lore & Discoveries
-*   **The Extinct Race:** A report from the Archon of [[locations/Arden Vul.md|Arden Vul]] to the Logothete of the [[factions/Drome.md|Drome]] confirms that members of an extinct, highly dangerous race of sorcerers reside in the ruins. [[npcs/Crallicarus.md|Crallicarus]] is noted as a helpful figure, while [[npcs/Melacorius.md|Melacorius]] is identified as a military threat.
-*   **The [[factions/heqeti.md|Heqeti]] Ring:** It has been confirmed that the [[factions/heqeti.md|Heqeti]] Ring was recovered from the finger of the deceased official.
-*   **The Mithric Heists:** The *Book of Night Maneuvers* contains accounts of eight famous historical heists.
-*   **The "Hack's Special":** It is known that the halfling thug Plumthorn sells a narcotic called "mushroom ale" under this name; consumption leads to the effects of *suggestion*.
+**Lore & Discoveries**
+* **The "Hack's Special":** Information gathered via Vallium indicates that a halfling thug named Plumthorn sells a dangerous narcotic known as "mushroom ale" under this name; consumption of the substance renders the user subject to suggestion. (Source: Local rumors/Vallium).
+* **Historical Heists:** The *Book of Night Maneuvers* contains records of eight legendary heists. (Source: *Book of Night Maneuvers*).
+* **The Kaliyani Schism:** Historical records indicate that Lisstak's boredom with peace led him to manipulate the Kaliyani against the Rudishva, prompting many to seek protection from "the old enemy." (Source: *The Betrayal*).
+* **Extinct Race Survivors:** Reports confirm the presence of dangerous, sorcery-adept beings within Arden Vul, specifically naming Crallicarus and Melacorius. (Source: Archon's Report via Ioannes).
 
-## 4. World Rulings
-*   **Equipment Classification:** Belts are classified as clothing, not armor; conversely, boots are classified as foot armor.
-*   **Dwarf Sizing and Resizing:** Official DFRPG rules require Armoury rolls to resize found armor to fit a character of a different race, with an additional -5 penalty for Fine armor. Magic items are generally not considered one-size-fits-all, though belts and rings are more versatile than fitted armor.
-*   **Scaling Magical Items:** The GM has indicated that finding a way to resize magical items (such as the Boots of Ogre Strength) while retaining their magical properties is significantly less likely than finding a new item of appropriate size and power.
-*   **Rule Supplements:** The *GURPS Dungeon Fantasy 11: Power-Ups* supplement is not in use for this campaign.
+**World Rulings**
+* **Equipment Classification:** Belts are classified as clothing, not armor; Boots are classified as foot armor.
+* **Taxation Laws:** Members of the company are permitted to remove any of the four regalia items from Arden Vul without taxation, provided they are eventually returned to Lady Alexia.
+* **Game Rules:** The *GURPS Dungeon Fantasy 11: Power-Ups* supplement is not in use for this campaign.
 
-## 5. Tactical Planning
-The company has proposed the following objectives for the upcoming session:
-*   **Diplomacy:** Consult with Lady Alexia regarding the reward for retrieving the Iron Circlet. The company intends to negotiate for something of significant value, potentially a Wand or a single-charge Minor Wish, leveraging their freedom to remove items from [[locations/Arden Vul.md|Arden Vul]] without taxation.
-*   **Expedition to the [[locations/Beacon.md|Beacon]]/Bastion:** 
-    *   Utilize Rugs for travel to the Beacon and inform [[npcs/Basil.md|Basil]] of the delve plans.
-    *   Travel to the Bastion via the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]], employing Salamander Amulets and Rugs to mitigate fire trap hazards.
-    *   Use the black Rudishva card to access the cavern previously occupied by the statue mimic.
-    *   Follow [[npcs/Temrin.md|Temrin]]’s map to locate the Tablet of the Beacon.
-*   **Contingency:** If forced to retreat, the company will return to the [[locations/Goblin Forum.md|Goblin Forum]] to continue searching sarcophagi or exploring the western and northern hallways.
-*   **[[locations/Tower of Scrutiny.md|Tower of Scrutiny]] Operations:** The company intends to reveal the surrounding map, consult local [[factions/Thothian.md|Thothian]] clergy, test existing keys on ground-level doors, analyze the Ibis Head/Statue, and utilize various detection spells (*Seek Platinum/Gold/Silver/Magic*, *See Secrets*) and the Periapt of Finding Heqeti.
-*   **Tower Security:** There is an ongoing discussion regarding whether to demolish [[locations/Tower of Scrutiny.md|the Tower of Scrutiny]] or use *Shape Earth* to seal its basement and camouflage it to prevent incursions from the Children of [[npcs/Deino.md|Deino]] or the Apes.
+**Item Intelligence**
+* **Boots of Ogre Strength:** A piece of party loot providing +1 Strength. Uvash Edzuscson has expressed a desire to resize these for dwarven use, though the difficulty of resizing magical items remains an obstacle.
+* **Heqeti Ring:** It has been confirmed that this ring was recovered from the finger of the corpse found within the Tower of Scrutiny.
+* **Salamander Amulets & Rugs:** Identified as essential tools for upcoming travel to the Bastion to bypass fire traps.
+* **Periapt of Finding Heqeti:** The company intends to use this within the Tower of Scrutiny to determine if specific entities are present.
 
-## 6. Unresolved Threads
-*   **The Negotiation:** What specific reward will Lady Alexia offer beyond land?
-*   **The Scaling Problem:** How might the company find a way to resize magical items, specifically the Boots of Ogre Strength, for dwarven physiology? (Note: GM guidance suggests finding a new item is more viable than resizing).
-*   **Tower Fate:** Will [[locations/Tower of Scrutiny.md|the Tower of Scrutiny]] be demolished or merely sealed via *Shape Earth* and camouflage?
-*   **The Extinct Race:** What are the true identities and capabilities of [[npcs/Crallicarus.md|Crallicarus]] and [[npcs/Melacorius.md|Melacorius]]?
+**Tactical Planning**
+* **Session 51 Objectives:**
+    * Consult Lady Alexia regarding the reward for retrieving the Iron Circlet.
+    * Utilize Rugs for travel to the Beacon and provide Basil with delve plans.
+    * Use the Rudishva Teleportation Pad to reach the Bastion, employing Salamander Amulets and Rugs to mitigate fire trap risks.
+    * Access the cavern containing the statue mimic using the black Rudishva card.
+    * Follow Temrin’s map toward the location of the Tablet of the Beacon.
+* **Tower of Scrutiny Operations:** The company intends to reveal unseen areas of the map, consult the Thothian librarian, and test keys on ground-level doors. Plans include analyzing the Ibis Head/Statue and using *See Secrets* to scout the tower. There is an ongoing debate regarding whether to seal the basement with earth or demolish the tower entirely.
+
+**Unresolved Threads**
+* **The Lady Alexia Negotiation:** The company has yet to decide what specific reward or favor to request from Lady Alexia in exchange for the regalia.
+* **Tower Security:** A decision must be reached on how to secure the Tower of Scrutiny area to prevent incursions by the Children of Deino or the Apes.
+* **The Tablet of the Beacon:** The exact location and method of retrieval remain a primary objective for the next expedition.

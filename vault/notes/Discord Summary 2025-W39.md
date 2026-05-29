@@ -14,69 +14,70 @@ source_type: private-discord-weekly-digest
 - Week ending: 2025-10-03
 
 ## Navigation
-
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W38.md|Discord Summary 2025-W38]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W40.md|Discord Summary 2025-W40]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The Right for Riches Company
-**Date:** Week ending 2025-10-03  
-**Subject:** Strategic Deliberation Regarding Halfling Territories
+# Weekly Chronicle: The Company’s Deliberations
+**Week Ending:** 2025-10-03
 
-### Summary
-The company engaged in extensive tactical planning for the upcoming assault on the halfling territories, scheduled for 2025-10-10. The primary focus was refining a stealth-based "decapitation strike" against Phlebotomas and his wizard associate, while preparing a secondary intimidation-based fallback. The party confirmed the exclusion of specific mercenaries (Coinbase and Basilisk) and finalized equipment allocations, including the use of *Potions of Flight* and *Rings of Friendship* to cross the Great Chasm. Ioannes Grammatikos Byzantios confirmed his attendance and financial status for the session, while Uvash Edzunson notified the company of his unavoidable absence.
+## 1. Summary
+Following a brief hiatus in active delving, the company spent the week engaged in intense strategic planning regarding an upcoming assault on halfling territories. Discussions focused on balancing a stealthy "Plan A" assassination of key targets against a high-impact "Plan B" frontal assault using intimidation to force a mass surrender and exile of the remaining population.
 
-### Events & Actions by Character
+## 2. Events & Actions by Character
 
-**Uvash Edzunson**
-*   **Town Actions:** Notified the company of an unavoidable absence for the scheduled expedition on 2025-10-10.
+### Uvash Edzultson
+*   **Town Actions:** None recorded this week. Note: The cleric is expected to be absent from the upcoming operation.
 
-**Vallium Halcyon**
-*   **Town Actions:** Actively participated in tactical planning for the halfling assault; evaluated the utility of various mercenary assets and equipment.
-*   **Equipment:** Proposed using a *Potion of Flight* for himself and a *Ring of Friendship* to facilitate crossing the Great Chasm, allowing him to carry others across without expending spells. Discussed utilizing *Larel's Cloak* for concealment and the *Amulet of the Silver Tongue* for subsequent negotiations.
+### Vallium Halcyon
+*   **Town Actions:** Participated in strategic planning for the "Back Door" assault.
+*   **Equipment Changes:** Prepared a *Magebane Grenade* for use against enemy casters. Discussed utilizing a *Potion of Flight* and one of the *Rings of Friendship* to facilitate movement across the Great Chasm. Light stones have been put away for the mission.
 
-**Ioannes Grammatikos Byzantios**
-*   **Town Actions:** Confirmed attendance for the 2025-10-10 session and inquired about his coin split (expected to have 207 cp at session start). Evaluated the mechanical feasibility of utilizing *Levitation* for self-transport across the chasm (effective skill 9, or 13 with Bless).
-*   **Research/Study:** Proposed investigating potential bounties or weaknesses regarding Phlebotomas and his wizard associate in Newmarket, specifically noting interest in their vulnerabilities rather than just financial rewards.
-*   **Magic:** Discussed a "weird dynamic" with Vaelitharon where Ioannes possesses the necessary FP to lend energy for *Walk on Air*, while Vael holds the spells.
+### Ioannes Grammatikos Byzantios
+*   **Town Actions:** Participated in strategic planning regarding magical logistics.
+*   **Character Development:** It was noted that while the cleric can utilize *Levitation*, his effective skill remains at 9. A specific magical dynamic was identified: Ioannes possesses the necessary energy, while Vaelitharon holds the spells. Discussion occurred regarding the lending of energy to Vaelitharon to facilitate easier casting of *Walk on Air*.
 
-**Vaelitharon "Vael" Sunshadow**
-*   **Town Actions:** Acted as the primary strategist for the upcoming assault; proposed various magical deployment patterns involving *Invisibility*, *Walk on Air*, and *Great Haste*.
-*   **Alchemy/Crafting:** Evaluated the use of a *Magebane Grenade* during the initial breach.
-*   **Equipment:** Discussed utilizing *Larel's Cloak* for concealment and the *Amulet of the Silver Tongue* for subsequent negotiations.
-*   **Constraints:** Calculated that the stealth plan would require 8-9 spells to initiate, noting he would struggle to cast them quickly and reliably by the end of the sequence.
+### Vaelitharon "Vael" Sunshadow
+*   **Town Actions:** Led the tactical debate regarding spell economy and deployment.
+*   **Character Development:** Focused on optimizing energy efficiency for high-impact spells such as *Invisibility*, *Walk on Air*, and *Great Haste*. 
+*   **Equipment Changes:** Discussed utilizing *Larel's Cloak* for concealment and the *Amulet of the Silver Tongue* to bolster negotiations with surrendering halflings.
 
-**Mercenaries & Associates**
-*   **Thronebreaker:** Identified as a primary candidate for the intimidation-based fallback strategy due to his ability to influence large groups (up to 125 individuals) and his *Levitation* capability for forced entry. Confirmed to possess Meteoric weaponry.
-*   **Lacrymosa:** Identified as the primary candidate for the stealth-based assault, capable of discharging three projectiles per turn through a portcullis following a successful stun. Confirmed to possess Meteoric weaponry. Note: Her *Walk on Air* skill is 8; casting a second instance is mechanically difficult.
-*   **Exclusions:** Explicitly instructed to **not** bring Coinbase or Basilisk to this fight.
+### Mercenary: Thronebreaker
+*   **Tactical Role:** Identified as the primary asset for a "Plan B" frontal assault. His ability to utilize *Intimidation* and *Levitation* makes him ideal for forcing entry through portcullises and breaking enemy morale.
 
-### Lore & Discoveries
-*   **Kobold Lair Valuation:** A standard kobold lair (excluding women and children) yields approximately 2,360 XP and 2,534 GP in loot.
-*   **Ghast Lair Valuation:** A ghast lair (approx. 3.5 monsters) yields approximately 917 XP and roughly 28,579 GP in loot, plus 2,497 GP worth of magic item XP.
-*   **Halfling Territory Layout:** The target area contains a central room occupied by Phlebotomas, a wizard, and two guards. Additional halfling forces are stationed in rooms abutting the Great Chasm. A northern room features a lookout point overlooking a bridge, accessible via a quick northern bridge route.
-*   **Chasm Width:** Estimated at 6 hexes across.
+### Mercenary: Lacrymosa
+*   **Tactical Role:** Designated for a high-lethality stealth approach. Her capabilities include shooting up to three targets per turn through a portcullis, utilizing *Concussion*, and casting *Walk on Air*. It was noted that using *Walk on Air* to transport multiple allies may be physically unpleasant for her.
 
-### World Rulings
-*   **Intimidation Mechanics:** When utilizing Thronebreaker to intimidate a crowd, he may roll against up to 125 individuals, suffering a -1 penalty for every 25 individuals in the group (or fraction thereof). He receives an additional +2 bonus to Intimidation against SM-2 targets. His effective skill against halflings is 24 + Bless. Coming through the portcullis may provide a further bonus.
-*   **Lacrymosa Combat Capabilities:** Lacrymosa can discharge three projectiles per turn through a portcullis following a successful stun. She is capable of utilizing *Concussion* and *Walk on Air* (Skill 8).
-*   **Flight Potion Duration:** A standard *Potion of Flight* provides flight for exactly one hour. The party considered spending one from communal equipment for the crossing.
-*   **Obelisk Properties:** Silver ankhs fit the indentations on the obelisk (specifically one ankh-shaped indentation). Prior attempts to activate it have yielded no observable results; Vallium reclaimed the ankh rather than leaving it in.
-*   **Magelocking:** The GM confirmed that magelocking doors is a viable strategy to buy time during an assault.
+## 3. Lore & Discoveries
+*   **The Obelisk Puzzle (Dead End):** Previous attempts to use silver ankhs on the obelisk have yielded no discernible results, though the ankhs fit the indentations perfectly. It remains unknown if further interaction or *Analyze Magic* is required.
+*   **Yrtol’s Contract:** The contract requires the deaths of 50 Settites and the recovery of Nyema's body, accompanied by a wedding necklace.
+*   **Fire Mephit Trade:** Information suggests that Fire Mephits are seeking *Eye Opener* mushrooms, which are currently in short supply due to beastmen activity.
+*   **The Cat Statue:** A telepathic cat statue has expressed a desire to be returned to its "sister-people" as an act of vengeance.
 
-### Tactical Planning
-The company finalized two primary operational doctrines for the halfling assault:
-1.  **Plan A (Stealth/Surgical - Primary):** Utilize *Invisibility* and *Walk on Air* to enter via the northern bridge and back entrance. The objective is to eliminate Phlebotomas and the wizard using a *Magebane Grenade* and sudden violence, then use subsequent Intimidation to force the remaining halflings into surrender or exile. Vaelitharon will remain behind the chasm to manage spellcasting and energy lending to Ioannes. Zuljita proposed magelocking doors to secure the area.
-2.  **Plan B (Intimidation/Frontal - Fallback):** Utilize Thronebreaker to breach the portcullis, using high-impact intimidation to drive the halfling forces southward or westward. This plan leverages Thronebreaker's *Levitation* and Meteoric weaponry.
+## 4. World Rulings
+*   **Intimidation Mechanics:** The mercenary Thronebreaker can roll *Intimidation* against groups of up to 125 individuals, suffering a -1 penalty for every 25 individuals in the group (or fraction thereof). He receives an additional +2 bonus when intimidating SM-2 targets.
+*   **Combat Capabilities:** Lacrymosa is capable of discharging three projectiles per turn through a portcullis and can utilize *Walk on Air* (Skill 8) to move allies.
+*   **Geography of the Chasm:** The Great Chasm is approximately six hexes wide. The edge facing the halfling rooms features an opening or "window" that is not at floor level, rather than a continuous wall. A northern bridge provides a route that can be bypassed via *Invisibility*.
 
-The company also discussed the potential use of a "statue head trap" (weighing 50 lbs, requiring amber eyes) as an opening gambit to trigger chaos, though its reliability remains untested.
+## 5. Item Intelligence
+*   **Magebane Grenade:** To be used by Vallium Halcyon specifically to neutralize the enemy wizard during the initial breach.
+*   **Flight Potion:** Has a duration of one hour; identified as a valuable resource for crossing the chasm.
+*   **Larel's Cloak:** Essential for providing concealment during the stealth phase of the assault.
+*   **Amulet of the Silver Tongue:** To be utilized by Vaelitharon to facilitate the negotiation and eventual exile of the halfling factions.
+*   **Statue Head Trap (Amber Eyes):** A potential "opener" for the battle if it can be triggered via explosion from across the chasm, though its reliability is unproven.
 
-### Unresolved Threads
-*   **The Obelisk Puzzle:** The specific mechanism required to activate the obelisk remains unknown, despite the confirmed fit of the silver ankhs.
-*   **Yrtol’s Contract:** The status of the requirement for 50 dead Settites and the recovery of Nyema's body (specifically with a wedding necklace) is unverified. Nyema may be a tracking spell target.
-*   **The Fire Mephits' Trade:** The acquisition of Eye Opener mushrooms remains a pending objective; they are in short supply due to beastmen.
-*   **The Telepathic Cat Statue:** The motivation behind the statue's plea to "Avenge this wrong!" and its request to be returned to "sister-people" remains a mystery.
-*   **Phlebotomas’ Location:** It is unconfirmed if Phlebotomas or his wizard associate are currently stationed in their known quarters or elsewhere (e.g., Newmarket or the privy). A roll may be required to determine his presence.
-*   **Negotiation Outcomes:** Whether the halflings will be amenable to exile/surrender or if deadly force will be required remains to be seen.
-*   **Varumani Guards & Wicktrimmer:** The potential for a contained encounter with four Varumani guards and the utility of Wicktrimmer's information network for targeted strikes remain open opportunities.
+## 6. Tactical Planning
+The company has prioritized a "Plan A" stealth approach:
+1.  **Infiltration:** Michael and Vallium will use *Flight* (via potion or spell) and *Invisibility* to cross the chasm and enter the center room undetected. Others may be brought across via *Walk on Air*.
+2.  **Assassination:** Deploy a *Magebane Grenade* against the wizard and eliminate Phlebotomas and his immediate guards.
+3.  **Containment:** Potentially use *Magelock* to seal doors, trapping enemies within specific chambers.
+4.  **Consolidation:** Once leadership is removed, use *Intimidation* across various rooms (Northern/Southern lookout rooms, sleeping quarters) to demand the surrender and exile of the remaining halflings.
+
+## 7. Unresolved Threads
+*   **Phlebotomas' Location:** The exact current position of Phlebotomas and his wizard sidekick remains unconfirmed.
+*   **The Obelisk:** Whether additional obelisks exist or if different colored glass squares are required to trigger the mechanism.
+*   **Nyema’s Recovery:** The method for locating Nyema's body and the specific wedding necklace required for Yrtol.
+*   **The Eye Opener Trade:** Locating a sufficient supply of mushrooms to satisfy the Fire Mephits.
+*   **The Statue Head:** Determining if the amber-eyed statue head can be used as an effective explosive opening move, or if red/yellow glass spheres are required.
+*   **Scouting:** The potential utility of using a *Wizard Eye* for scouting enemy positions before the assault.

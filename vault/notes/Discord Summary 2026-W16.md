@@ -15,53 +15,60 @@ source_type: private-discord-weekly-digest
 - Week ending: 2026-04-24
 
 ## Navigation
-
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2026-W15.md|Discord Summary 2026-W15]]
 - Next Discord Summary: [[notes/Discord Summary 2026-W17.md|Discord Summary 2026-W17]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: Week Ending 2026-04-24
+# Weekly Knowledge Base: Arden Vul
+**Week Ending:** 2026-04-24 23:00 CDT
 
-## 1. Summary
-The party concluded the previous week’s exploration of the [[factions/Thothian.md|Thothian]] [[items/Thothian Teleportation Ring.md|Teleportation Rings]] and returned to the surface. With the immediate threat of the dragon still pending and the [[locations/Goblin Forum.md|Goblin Forum]] requiring maintenance, the group focused on logistical preparations and securing local alliances. [[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios updated his character sheet to reflect increased Perceptive abilities, and the party’s communal equipment was updated to reflect recent acquisitions.
+**Summary**
+Following a recent expedition, the company Chrysalis has secured several significant magical artifacts, including a scroll of *Resurrection* and a ring of clerical energy reserve. The company is currently focused on logistical preparations for upcoming ventures to the Goblin Market and the Vault.
 
-## 2. Events & Actions by Character
+**Events & Actions by Character**
 
-### [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]]
-*   **Character Advancement:** Updated character sheet to reflect increased Perceptive abilities.
+**Uvash Edzultson**
+*   **Town actions taken:** Departed for a remote campsite to perform religious service work; currently away from the primary company hub.
 
-### The Party
-*   **Town Business:** Conducted business in Vallium, including blessing the town (+2 bonus) and purchasing food supplies for the Goblin Forum.
-*   **Equipment:** Updated the Communal Party Equipment sheet to reflect current holdings.
-*   **Intelligence Gathering:** Acquired a map to the [[items/Tablet of the Beacon.md|Tablet of the Beacon]] from [[npcs/Temrin.md|Temrin]] in the Goblin Market.
+**Vallium Halcyon**
+*   **Equipment changes:** Currently carries the Large Knife of Venom and the Ring of Free Action. The company has discussed utilizing the Clerical Energy Reserve ring to bolster his defenses via a *Bless* effect.
 
-### Mercenaries & Allies
-*   **[[npcs/Gribble.md|Gribble]]:** Checked in with [[npcs/Gribble.md|Gribble]] regarding the status of the [[locations/Goblin Forum.md|Goblin Forum]] to ensure no issues had arisen during the party's absence.
-*   **[[factions/Varumani.md|Varumani]] Ambassador:** Spoke with the [[factions/Varumani.md|Varumani]] Ambassador regarding the status of the party’s passport.
+**Ioannes Grammatikos Byzantios**
+*   **Character advancement:** Plans to purchase additional Will (character points) during the next significant haul.
+*   **Equipment changes:** Identified as the primary candidate for wearing the newly acquired Ring of Clerical Energy Reserve.
 
-## 3. Lore & Discoveries
-*   **Tablet of the [[locations/Beacon.md|Beacon]]:** The party obtained a specific map from [[npcs/Temrin.md|Temrin]] detailing the location and layout of the Tablet of the Beacon.
-*   **[[locations/Goblin Forum.md|Goblin Forum]] Status:** The Forum remains a critical logistical hub requiring regular food deliveries to maintain stability and prevent upheaval.
+**Vaelitharon "Vael" Sunshadow**
+*   **Alchemy/crafting attempts:** Attempted to identify a newly discovered magic cloak; the attempt was unsuccessful.
+*   **Research results:** Failed to identify the properties of the recovered magic cloak (later identified by Pelteon).
+*   **Equipment changes:** Used *Apportation* to safely extract a jewel-encrusted comb and brush from a coffer without physical contact.
+*   **Tactical actions:** Intends to use *See Invisible* to investigate the southeast chamber containing extinguishing candles to identify potential culprits.
 
-## 4. World Rulings
-*   **Dragon Infiltration:** The party discussed using the newly acquired [[factions/Rudishva.md|Rudishva]] Teleportation Pad and Teleportation Circles to infiltrate the dragon’s lair. It was established that there is no evidence suggesting these teleportation methods can bypass the dragon’s defenses or reach its lair directly.
-*   **Strategic Priorities:** The GM ruled that the immediate priority is securing the [[locations/Goblin Forum.md|Goblin Forum]] to prevent chaos. Following this, the party must choose between pursuing [[npcs/Neferet.md|Neferet]] (and the circlet) or dealing with the dragon.
-*   **Trap Design Philosophy:** In off-topic discussions, it was noted that while the party seeks "deadly but fair" traps, the dungeon environment retains elements of high lethality reminiscent of older dungeon-crawling traditions, where encounters can range from minor skirmishes to immediate dragon-level threats.
+**Lore & Discoveries**
+*   **The Tablet of the Beacon:** A map leading to this location is held by an individual named Temrin, located within the Goblin Market.
 
-## 5. Tactical Planning
-The party formulated a detailed plan for the upcoming session (Session 49):
-1.  **Town Business:** Complete blessings and food purchases.
-2.  **Route to [[locations/Beacon.md|Beacon]]:** Use the first set of rugs to travel to the [[locations/Beacon.md|Beacon]], then use the [[factions/Rudishva.md|Rudishva]] Teleportation Pad to reach the Vault. Proceed west to the acidic pool room and up the hole to the room containing the Chaotic Sweat.
-3.  **Map Acquisition:** Travel west to the [[locations/Glory of Thoth.md|Glory of Thoth]] map location, then descend to Goblin Town to visit [[npcs/Temrin.md|Temrin]] in the [[locations/Goblin Market.md|Goblin Market]] for the [[items/Tablet of the Beacon.md|Tablet of the Beacon]] map.
-4.  **Forum Logistics:** Deliver food to the Goblin Forum, collect payment, and check in with Gribble.
-5.  **Exploration - Southeast:** Clear the area southeast of the Forum, specifically the room with extinguishing candles. [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] is to cast *See Invisible* to determine if a being is extinguishing them. Investigate the effects of the candles going out.
-6.  **Exploration - North:** Explore the room to the north containing the imprisoned, creepy staring Settite.
-7.  **Exploration - South:** Clear rooms south of the Forum, between the Forum and the basket elevator, potentially including the zombie area.
+**World Rulings**
+*   **Ring of Clerical Energy Reserve:** This item adds +3 Energy Reserve (ER) to the wearer's existing pool. The bonus does not recharge independently; it recharges in tandem with the wearer's existing ER. If the ring is unequipped, the bonus energy drops to zero immediately.
 
-## 6. Unresolved Threads
-*   **The Dragon:** The dragon remains a significant threat. The party has ruled out teleportation infiltration but has not yet committed to a surface-level scouring strategy.
-*   **[[npcs/Neferet.md|Neferet]]:** The pursuit of [[npcs/Neferet.md|Neferet]] and the circlet remains a competing priority against the dragon.
-*   **Extinguishing Candles:** The cause and effect of the candles in the southeastern room remain to be determined.
-*   **Imprisoned Settite:** The nature and purpose of the imprisoned Settite in the northern room are unknown.
-*   **Zombie Area:** The status and contents of the zombie area south of the Forum are unexplored.
+**Item Intelligence**
+*   **Cloak of the Bat:** Identified by Pelteon. This cloak grants the wearer the ability to fly, but this effect is strictly limited to periods of darkness and a finite duration. 
+*   **Ring of Clerical Energy Reserve:** Provides +3 ER to the wearer; recharges alongside the wearer's natural pool.
+*   **Scroll of Resurrection:** Recovered from a fire trap during recent exploration.
+
+**Tactical Planning**
+The company has outlined the following objectives for the upcoming session:
+*   **Logistical Preparations:** Purchase provisions for the Goblin Forum and secure a *Bless+2* effect for Vallium Halcyon.
+*   **Exploration (The Vault):** Utilize Rudishva Teleportation Pads to reach the Vault, proceeding west through the acidic pool room toward the chamber of Chaotic Sweat.
+*   **Exploration (Goblin Market):** Traverse the Glory of Thoth map to reach Goblin Town and the Goblin Market to retrieve Temrin’s map.
+*   **Diplomacy:** Deliver food to the Goblin Forum, collect outstanding funds, consult with Gribble regarding local stability, and meet with the Varumani Ambassador regarding company passports.
+*   **Clearing Operations:** 
+    *   Investigate the southeast chamber containing extinguishing candles; Vaelitharon will use *See Invisible* to identify potential culprits. The company is also considering the consequences of all candles being extinguished simultaneously.
+    *   Explore the northern chamber containing an imprisoned Settite.
+    *   Clear the zombie-infested area between the Forum and the basket elevator.
+
+**Unresolved Threads**
+*   **The Dragon:** The threat of the dragon remains a primary concern that must be addressed.
+*   **Neferet/The Circlet:** Determining whether to prioritize the recovery of the circlet or the dragon.
+*   **The "Flying Piñata":** A logistical nuisance/threat that requires resolution.
+*   **Infiltration Tactics:** Whether the Rudishva Teleporters can be used to facilitate an infiltration of the dragon's lair.
+*   **Strategic Risk:** The hypothesis that clearing the dragon may inadvertently allow Neferet to be stolen by a third party.

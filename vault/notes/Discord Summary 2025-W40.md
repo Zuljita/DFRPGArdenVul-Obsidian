@@ -4,44 +4,60 @@ tags:
   - discord-summary
 ---
 
-# Discord Summary: 2025-W40 (Distilled)
+# Discord Summary 2025-W40
 
-**Date Range:** 2025-10-06 to 2025-10-12
-**Messages:** 30
+## Source
+- Private Discord weekly digest
+- Week ending: 2025-10-10
 
-## In-World Knowledge
-
-### Spells
-- Frigg's Jelly Legs is a Body Control spell causing rubbery, unstable legs that inflict Bad Footing (-2 to hit, -1 to defend, +1 movement point per hex) for the duration of the spell. If they're already suffering from Bad Footing, the effects are cumulative. [NewSpells | 2025-10-11]
-
-### Rumors & Reports
-- A weird goblin prophet named **Gislu** has been spotted near the Forum of Set. He's looking for some ancient goblin artifact and is sure that the object is located near the Set shrine. [archive | 2025-10-08; town-rolls | 2025-10-08]
-
-### Facts & Discoveries
-- Research into the name **Androsia** yielded no results. [archive | 2025-10-07; town-rolls | 2025-10-07]
-- A type of potion or item exists that can be thrown at enemies to freeze them in place temporarily. [archive | 2025-10-08; town-rolls | 2025-10-08]
-
----
-
-## ✅ Source Data Resolved
-
-| Entry | Source | Date | Status |
-|-------|--------|------|--------|
-| ~~Frigg's Jelly Legs spell~~ | ~~NewSpells~~ | ~~2025-10-11~~ | ~~*Fixed from raw source*~~ |
-| ~~Gislu the goblin prophet~~ | ~~archive/town-rolls~~ | ~~2025-10-08~~ | ~~*Fixed from raw source*~~ |
-
----
-
-## Session Meta (Out-of-Game)
-- XP awards for previous session: Ioannes 2, all other PCs 3. [general | 2025-10-10]
-
----
-*Generated: 2026-03-16 22:30*  
-*Distilled: 2026-03-18*
-
-## Session Navigation
-
+## Navigation
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W39.md|Discord Summary 2025-W39]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W41.md|Discord Summary 2025-W41]]
 <!-- END AUTO NAV -->
+
+# Weekly Knowledge Base: 2025-10-10
+
+## 1. Summary
+The company successfully executed a surgical strike against halfling territories, resulting in the surrender of Plumthorn, the death of Roskelly and a local wizard, and significant halfling casualties. While the primary campaign has seen success, the company spent much of the week engaged in town-based preparations, including alchemy attempts and gathering intelligence through carousing.
+
+## 2. Events & Actions by Character
+
+**Ioannes Grammatikos Byzantios**
+*   **Alchemy:** Successfully brewed a *Potion of Flight* at a discounted price.
+*   **Research:** Undertook research regarding "Androsia"; no information was found regarding this name.
+
+**Vallium Halcyon**
+*   **Alchemy:** Attempted to brew a *Potion of Flight*; the attempt failed, resulting in additional costs.
+*   **Social/Carousing:** Spent $125 to perform a Carousing (+2) roll. This led to the discovery of a goblin prophet named Gislu near the Forum of Set.
+*   **Shopping/Acquisitions:** Attempted to purchase shackles for various humanoid sizes, but none were available at the Demmasday market. However, while searching, Vallium acquired 200 Dwarven Rations and a Bit and Brace.
+
+**Vaelitharon "Vael" Sunshadow**
+*   **Purchases:** Following a tip from Creon, Vael purchased a *Potion of Frost Cage* for $500.
+
+**Archon Shiva**
+*   **Acquisitions:** Acquired a Lego Death Star.
+
+**Uvash Edzancuson**
+*   No actions recorded this week.
+
+## 3. Lore & Discoveries
+*   **The Prophet Gislu:** A strange goblin prophet known as Gislu has been spotted near the Forum of Set. He is reportedly searching for an ancient goblin artifact believed to be located near the shrine of Set. (Source: Vallium’s Carousing roll).
+*   **The Scepter of the Goblins:** While King Weskenim has commissioned the recovery of the "Scepter of the Goblins," the true nature of the object is unconfirmed. A Wiskin mage named Trillip indicated uncertainty as to whether the artifact is actually a scepter. (Source: Conversation with GM).
+
+## 4. World Rulings
+*   **Potion of Frost Cage:** When thrown at an enemy, this potion freezes the target in place for a duration.
+
+## 5. Item Intelligence
+*   **Potion of Frost Cage:** Acquired by Vaelitharon. The potion is used by being thrown at a target to induce a freezing effect that holds them in place.
+*   **Dwarven Rations (200 units):** Found by Vallium during a search of the Demmasday market.
+*   **Bit and Brace:** Found by Vallium during a search of the Demmasday market.
+
+## 6. Tactical Planning
+*   **Future Mercenary Strategy:** The company discussed potential builds for future mercenaries, specifically focusing on high-utility/low-risk builds such as "Possession" specialists (targeting Possession 30 or 40) and high-durability "tank" builds utilizing high Hit Points, Hard to Kill, and Very Fit.
+*   **Ongoing Operations:** The company intends to monitor the aftermath of the halfling campaign and evaluate if further surgical strikes are required.
+
+## 7. Unresolved Threads
+*   **The Search for Gislu:** The party has not yet investigated the whereabouts or intentions of the prophet Gislu near the Forum of Set.
+*   **The Nature of the Artifact:** The identity and physical form of the artifact sought by Gislu (and potentially the Scepter requested by King Weskenim) remain unknown.
+*   **Blink Other Status:** Verification is required to determine if Vaelitharon's "Blink Other" capability is currently operational for upcoming sessions.

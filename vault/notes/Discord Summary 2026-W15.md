@@ -14,78 +14,67 @@ source_type: private-discord-weekly-digest
 - Week ending: 2026-04-17
 
 ## Navigation
-
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2026-W14.md|Discord Summary 2026-W14]]
 - Next Discord Summary: [[notes/Discord Summary 2026-W16.md|Discord Summary 2026-W16]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The Right for Riches Company
-**Date:** Week ending 2026-04-17  
-**Subject:** The Lead Project and the Shadow of the No Mana Zone
+# Weekly Knowledge Base: Arden Vul
+**Week Ending:** 2026-04-17 23:00 CDT
 
-### Summary
-The company returned to the dungeon immediately following Session 47, prioritizing the fortification of the Beacon against magical intrusion and the preparation for a major excursion into a "No Mana Zone" (NMZ). Vaelitharon Sunshadow completed the "Lead Project," plating the Beacon’s interior and exterior with lead to block scrying and teleportation. The party also identified the current location of [[npcs/Neferet.md|Neferet]] within the Tower of Scrutiny and secured the mercenary [[npcs/Lasselanta Chrysalis Ashcroft.md|Chrysalis]] for the upcoming NMZ expedition, as her non-magical capabilities are essential for operating in the zone.
+**Summary**
+The company Chrysalis is currently debating and implementing "Disaster Recovery" and "Succession Plans" following a recent encounter with a No Mana Zone (NMZ). While the NMZ was relatively small—measuring only three yards in length—it presented a significant tactical challenge by neutralizing the party's primary magical optimizations. The company is now focused on establishing protocols for future incursions into mana-depleted areas and securing their assets against potential total party loss.
 
-### Events & Actions by Character
+**Events & Actions by Character**
 
 **Ioannes Grammatikos Byzantios**
-*   **Town actions:** None this week.
-*   **Alchemy/crafting:** Ioannes initially proposed brewing a death potion but abandoned the attempt after the group decided to return to the dungeon the next day rather than taking a full week of downtime.
-*   **Research:** None this week.
-*   **Character advancement:** None this week.
-*   **Equipment changes:** None this week.
+*   **Character Advancement:** Increased HT to 11, Dragon Skin to 5, and ST to 12 (folding Striking ST and Lifting ST).
+*   **Equipment/Inventory:** Maintains a large collection of gear; notably, Larel's Sack contains approximately 97 items, the majority of which are magical.
+*   **Personal Business:** Drafted a Last Will and Testament naming Onyx the Cat as his heir to his personal estate, with execution entrusted to Barnaby Goodbarrel and Basil.
 
-**Uvash Edzuson**
-*   **Town actions:** Managed company finances and settled payments for recent acquisitions.
-*   **Alchemy/crafting:** None this week.
-*   **Research:** None this week.
-*   **Character advancement:** None this week.
-*   **Equipment changes:** Paid for his own new armor. Contributed $3,627 toward the communal purchase of a Serpent Amulet ($9,590) and a Salamander Amulet ($4,920).
+**Uvash**
+*   **Character Advancement:** Increased ST to 12 (folding Striking ST and Lifting ST).
+*   **Personal Business:** Drafted a Last Will and Testament. His personal belongings (including Utharnil and his Holy Symbol) are to be buried with him, while company property remains with the company. He has authorized Barnaby Goodbarrel to hold two writs: one for hiring a recovery team ($10,000 limit) and one for resurrection expenses.
+*   **Financials:** Maintains $25,000 in a savings account dedicated to these recovery purposes.
 
-**Vallium Halcyon**
-*   **Town actions:** Paid for the portable ram used in the previous session.
-*   **Alchemy/crafting:** None this week.
-*   **Research:** None this week.
-*   **Character advancement:** None this week.
-*   **Equipment changes:** Contributed $3,627 toward the communal purchase of a Serpent Amulet ($9,590) and a Salamander Amulet ($4,920).
+**Vael**
+*   **Downtime Activities:** 
+    *   Purchased lead and commissioned the blacksmith Svenbar to create a lead-lined foot locker (approx. 3x3x2). Testing confirmed that *Seek Earth* and *Seek Magic* cannot detect items inside the closed box, though *Seek Earth* can still detect the lead itself.
+    
+*   **Alchemy/Research:** 
+    *   Attempted to use *Blink Other* to place a chicken (purchased by Zuljita) inside the lead-lined foot locker; all attempts were unsuccessful due to the inability to see into the box.
+    *   Utilized *Seeker* to locate Neferet; identified her location as the Tower of Scrutiny.
+    *   Planned further research into Rudishva glyphs using "Time of Darkened Skies" and potential brewing of a gaseous form potion.
 
-**Vaelitharon "Vael" Sunshadow**
-*   **Town actions:** Undertook the "Lead Project," acquiring large quantities of lead and bags of holding. Using *Shape Earth*, Vael plated the exterior walls, ceilings, and floors of the Beacon with lead, covering it with a stone veneer. Additionally, Vael fortified the staircase room to prevent entry via *Blink* or *Bolem*.
-*   **Alchemy/crafting:** Successfully brewed a *Potion of Gaseous Form*.
-*   **Research:** 
-    *   Rested in the holodeck with Akla-Cha, reading *Time of Darkened Skies* for practice in Rudishva glyphs.
-    *   Learned of the historical conflict where Rudishva, Varumani, Varuda, and Kalyani forces defeated the Heqeti Hopping Ones. Key details include the use of fire/blasting tactics, the destruction of the Heqeti Upper Temple, the seizure of the Obsidian Gates, the defeat of the Varuda in the Cave of Tears, and the final assault on the Heqeti Ziggurat. The book is difficult to read and requires significant assistance from Akla-Cha.
-    *   Utilized the *Seeker* spell to locate Neferet; a subsequent *Trace* confirmed her presence within the Tower of Scrutiny, specifically in a room featuring two doors and four passages.
-    *   Consulted with Stamelis regarding the acquisition of specific historical texts. Stamelis noted that while he does not believe any Settite books are strictly essential, he would need to read them all to be certain. He provided a list of 15 available texts for future acquisition, including *The Lives of the Noble Founders*, *The Deeds of [[npcs/Marius Tricotor.md|Marius Tricotor]]*, and *Sardonyx Peridot's Sorcerous Properties of Gems*.
-    *   If time permitted, Vael intended to work on the book *The Betrayal*.
-*   **Character advancement:** Learned enough Rudishva glyphs to facilitate the purchase of written or broken scripts.
-*   **Equipment changes:** Acquired lead, bags of holding, and various library references.
+**Zuljita**
+*   **Character Advancement:** Plans to take points in the Tactics skill for better synergy.
+*   **Downtime Activities:** 
+    *   Purchased a chicken for Vael's experimentation.
+    *   Initiated "The Lead Project": Committed to a $15,000 plan to use local labor (Svenbar) to create lead roofing tiles for the Beacon using lead sourced from the Deepton mine.
+*   **Financials:** Agreed to pay her share of recent communal equipment purchases (Serpent and Salamander Amulets).
 
-**Chrysalis (Mercenary)**
-*   **Town actions:** Joined the company for the upcoming expedition. Chrysalis was selected over other options (such as [[npcs/Merenuithiel Lacrymosa Armaris.md|Lacrymosa]]) specifically because her abilities function without magic, which is critical for operating within the No Mana Zone.
+**Greybrown**
+*   **Inventory Management:** Managed the accounting for recent communal acquisitions, including a Serpent Amulet ($9,590) and a Salamander Amulet ($4,920), noting that all members must deduct $3,627 from personal funds to cover their shares.
 
-### Lore & Discoveries
-*   **The Heqeti War:** Historical records in *Time of Darkened Skies* detail a major conflict involving the destruction of the Heqeti Upper Temple and the retreat of the Hopping Ones into the underworld. The Rudishva and their allies used fire and blasting tactics, culminating in the final assault on the Heqeti Ziggurat.
-*   **Neferet’s Location:** Neferet has been located within the Tower of Scrutiny (Source: *Seeker* and *Trace* spells).
-*   **Library of Set Acquisitions:** Stamelis provided a list of 15 available texts for the company library, including *The Lives of the Noble Founders*, *The Deeds of Marius Tricotor*, *A True History of Isadora*, and *The Nine Hells: a Catalogue with descriptions and summoning notes*.
-*   **Wizard's Cache:** This spell allows a mage to hide an object up to 2 feet in diameter in extra-dimensional space. It is permanent until dispelled, has a casting time of 10 seconds, and costs 2 per pound. The cache leaves a glowing green glyph and cannot be detected via *Seeker*. The object can be recalled to the glyph's location using a password or *Dispel Magic*.
+**Lore & Discoveries**
+*   **Wizard's Cache (New Spell):** 
+    *   **Type:** Gate (Regular)
+    *   **Duration:** Permanent until dispelled.
+    *   **Casting Time:** 10 seconds.
+    *   **Cost:** 2 per pound.
+    *   **Prerequisite:** *Blink Other*.
+    *   **Effect:** Hides an object up to 2' in diameter in extra-dimensional space. It is undetectable by *Seeker* or similar effects and leaves a glowing green glyph. The object can be recalled to the glyph via a password or *Dispel Magic*.
+*   **NMZ Properties:** Confirmed that while magic is suppressed, certain chemical/alchemical items (e.g., Alchemist's Fire, Glow Vials, Nageteppos) and non-magical skills remain functional.
 
-### World Rulings
-*   **No Mana Zone (NMZ) Properties:** Within an NMZ, certain magical effects are nullified. Specifically, Lacrymosa’s potions lose their efficacy/wear out when brought into the zone. Clerical spells such as *Bless* may still function, but their power is limited by the zone's boundaries. Ioannes can cast *Bless +1* in the dungeon but not *Bless +2*. The "Blessless" role (the party member who cannot benefit from blessings) must be filled by Greybrown, as Ioannes and Uvash are required to maintain blessings for others, and Vael is not suited to operate alone in an NMZ.
-*   **Dependents and Cost of Living:** If Uvash Edzuson provides support for his arriving family members, his Cost of Living will increase, and he will incur the Dependent disadvantage (subject to existing disadvantage limits).
+**World Rulings**
+*   **The Lead Project:** Sourcing lead from Narsileon for pre-made tiles costs $20,000 (plus a month of transit). Sourcing raw lead from the Deepton mine is cheaper ($5,000) but requires local shaping/hammering by a smith like Svenbar, costing an additional $10,000 and several months of labor.
+*   **Succession Protocol:** The "Disaster Recovery Plan" involves Basil and Barnaby using authorized writs to fund recovery efforts if the party fails to check in via communication bracelet within 12 hours of a scheduled window.
 
-### Tactical Planning
-The company intends to return to the dungeon immediately for Session 48 with the following objectives:
-*   **Exploration Sequence:** Analyze the ivory box via *Analyze Magic*, then use the Rugs to travel to the Beacon. From there, utilize the Rudishva Teleportation Pad to reach the Vault, moving through the acidic pool room and the room of Chaotic Sweat.
-*   **The Well of Light:** Use the teleporting pyramid to descend to the Well of Light. If weather permits, perform the Litany of Light (after warning the Apes).
-*   **New Room Investigation:** Explore the area west of the Well of Light, specifically analyzing the Baboon Statue and investigating the room breached by the portable ram.
-*   **Maintenance:** Use *Repair* on the portcullis and lever.
-*   **Search Protocols:** In rooms not affected by the No Mana Zone, use *See Secrets* or *See Invisible*. In NMZ-affected rooms, perform manual searches for secrets.
-*   **Logistics:** Visit Temrin in the Goblin Market to retrieve the map to the Tablet of the Beacon, and check in with [[npcs/Gribble.md|Gribble]] at the Goblin Forum to collect funds.
+**Tactical Planning**
+*   **NMZ Preparedness:** The party is moving toward stocking non-magical alchemicals (Alchemist's Fire, Acid) and utilizing physical skills (Fast-Draw, Athletics, Tactics) to mitigate the loss of magical utility.
+*   **Future Exploration:** Plans for the next excursion include using the Rudishva Teleportation Pad to reach the Vault, performing the Litany of Light at the Well of Light, and exploring new rooms near the Baboon Statue.
 
-### Unresolved Threads
-*   **The Arrival of Kin:** The arrival of Uvash Edzuson’s wife and son remains pending; they are expected mid-spring once the mountain paths have thawed.
-*   **Library Completion:** The task of acquiring the specific books listed by Stamelis remains ongoing.
-*   **The Lead Project:** The completion and long-term stability of the lead plating at the Beacon.
-*   **Mercenary Rotation:** Whether Chrysalis will remain the primary mercenary or if other specialists will be required for future NMZ excursions.
+**Unresolved Threads**
+*   **The Lead Project Logistics:** The party must determine a method for transporting mass quantities of lead from the Deepton mine to Gosterwick/the Beacon.
+*   **Property Inventory:** Basil needs to work with the company to formally distinguish between personal property and company property.
+*   **Recovery Team:** Determining which mercenaries (e.g., Basilisk or The GOAT) are suitable for NMZ-heavy environments.

@@ -15,66 +15,72 @@ source_week: week-ending-2025-06-13-2300-central
 - Week ending: 2025-06-13
 
 ## Navigation
-
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W22.md|Discord Summary 2025-W22]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W24.md|Discord Summary 2025-W24]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The Right for Riches Company
-**Date:** Week ending 2025-06-13  
-**Subject:** Financial Restructuring, Doppelganger Warnings, and Halfling Preparations
+# Weekly Knowledge Base: 2025-06-13
 
-### 1. Summary
-The company has officially adopted a gross-profit model for experience acquisition, meaning expenses incurred during delves no longer reduce the loot value used for XP thresholds, though the GM has noted that the monetary thresholds for gaining experience will increase accordingly. In town, Ioannes Grammatikos Byzantios directed research toward the Great Caverns and uncovered new rumors, while also failing an alchemy attempt which increased future potion costs by 10%. Vallium Halcyon purchased a temporary bonus to Carousing for an upcoming trip to Newmarket and invested a point into Swimming. A significant warning was received from Gedrick Malachite regarding doppelganger infiltration among the dwarven population, contextualized by Archon Shiva as part of an ongoing war between dwarves and doppelgangers. The company prepares to face the halflings next week, having secured the services of mercenaries Basilisk and The GOAT.
+## 1. Summary
+The company has focused on the liquidation and identification of recent spoils, alongside a significant shift in how expedition profits are calculated for Experience Point (XP) purposes. While some members were absent due to travel, others have been engaged in research regarding the Great Caverns and preparing for upcoming encounters with local threats.
 
-### 2. Events & Actions by Character
+## 2. Events & Actions by Character
 
-**Ioannes Grammatikos Byzantios**
-*   **Town Actions:** Directed research efforts toward the Great Caverns, successfully uncovering new rumors. Conducted extensive identification of recent loot through the Arcane Practitioners Club, Torunn the smith, and Chairduster the jeweler.
-*   **Alchemy/Crafting:** Attempted to brew a *Strength Potion*; the attempt failed, resulting in a 10% price increase for future attempts.
-*   **Character Development:** Managed the distribution of recent spoils. Retained the greatsword *Oculus*, a cursed shield, and a red glass square. His liquid wealth stands at $1687.66 after accounting for essential expenses (rations and power items). The cursed shield was retained with the specific intent of gifting it to the halflings or other enemies.
+**Uvash Edzuroson**
+*   **Town actions:** Spent time touring the local sights as a visitor to the region; no significant purchases or commissions were recorded.
 
 **Vallium Halcyon**
-*   **Town Actions:** Spent $500 to secure a +3 bonus to Carousing rolls specifically for the upcoming trip to Newmarket.
-*   **Character Development:** Purchased the **Swimming** skill (1 point).
-*   **Equipment Changes:** Wore the *Belt of Strength+1* during the absence of Vaelitharon Sunshadow. Discussed wearing the *Ring of Free Action* for the upcoming turtle fight, though final allocation was pending.
+*   **Town actions:** Invested $500 into a specialized endeavor to secure a +3 bonus to his Carousing rolls for upcoming ventures in Newmarket.
+*   **Equipment changes:** Currently wearing the Belt of Strength +1, assuming the role of primary combatant during the absence of Vaelitharon Sunshadow.
 
-**Uvash Edzuson**
-*   **Status:** Absent. The character is on a three-week cruise/traveling and is not present in town.
+**Ioannes Grammatikos Byzantios**
+*   **Town actions:** Undertook extensive identification of recent loot through the Arcane Practitioners Club, Torunn the smith, and Chairduster the jeweler. 
+*   **Alchemy/crafting:** Attempted to brew a Strength potion; the attempt was unsuccessful, resulting in a 10% increase in future brewing costs for this recipe.
+*   **Research undertaken:** Conducted research regarding the Great Caverns; the investigation was successful and yielded new rumors regarding the area.
+*   **Character advancement:** Prioritizing reaching IQ 13 in upcoming sessions.
+*   **Equipment changes:** Personally holds title to several high-value items, including a magic shortsword, a glass cube, a cursed shield, and a red glass square (identified as one of several teleportation keys).
 
-**Vaelitharon "Vael" Sunshadow**
-*   **Status:** Absent. The character is traveling and away from the company's primary locations for an extended period. His equipment (specifically the *Belt of Strength+1*) is being worn by Vallium.
+**Vaelitharon "Vulnerable" Sunshadow**
+*   **Town actions:** None; currently traveling for an extended period.
 
-### 3. Lore & Discoveries
-*   **Doppelganger Infiltration:** Gedrick Malachite warned that doppelgangers have been appearing in town. Archon Shiva clarified that dwarves and doppelgangers are currently engaged in a war, necessitating close inspection of all dwarves to ensure they are not imposters.
-*   **The Forum of Set:** The Forum hosts various "Mysteries." The company has witnessed the First and Second Mysteries. The Third Mystery remains a guarded secret, with the Deacon threatening enslavement to those who inquire.
-*   **Loot Identifications:**
-    *   **The Returning Pebble:** A magical pebble that returns to its owner after approximately 30 minutes. (Source: Identification at APC)
-    *   **The Ghost's Circlet:** A valuable item composed of platinum. (Source: Identification at APC)
-    *   **Cursed Shield:** An item recovered from the grotto found to be cursed and of no practical value. (Source: Identification at APC)
-    *   **Red Glass Square:** Identified as a teleportation key. (Source: Identification at APC)
-    *   ***Oculus***: A highly valuable greatsword ($7200), though its fame makes legal sale in Gosterwick difficult. (Source: Identification at APC)
-    *   **Shortswords:** One blade is standard; the second is "fine and balanced" and provides resistance to spells, though it possesses no remaining wishes. (Source: Identification at APC)
-*   **Creature Data:** Albino baboons are confirmed to be SM 0, while their intelligent, four-armed leader is SM 1. (Source: Research/GM Ruling)
-*   **Literature Recommendation:** Archon Shiva advised acquiring a copy of *The Twelve Labours of Arden* to guide the party in solving the puzzle starting with purification at the fountain underneath the waterfall.
+**The GOAT (Mercenary)**
+*   **Character advancement:** Updated skill: Create Animal (Level 20).
 
-### 4. World Rulings
-*   **Experience Acquisition:** The company now calculates experience points based on gross loot brought to town and converted to cash (coins and gems). Expenses incurred during a delve (such as rations or power item usage) no longer count against the total loot used for XP thresholds. The GM has noted that the **thresholds for XP will go up** to reflect this change.
-*   **Currency Standards:** There are no pennies in Arden Vul; coppers are valued at $0.1. Moneychangers are capable of handling fractional currency.
-*   **Magical Maintenance:** The cost of maintaining a spell is determined by the more restrictive environment: the location of the caster or the area of the spell's effect. If a caster stands in a neutral zone but the spell operates in a low-mana zone, the discount does not apply.
-*   **Wild Talent Casting:** When using Wild Talent to cast *Dark Vision* (at IQ 15/Magery 5), the casting and maintenance costs are 3/0, as the skill level is determined by the caster's IQ + Magery.
-*   **Underwater Combat & Equipment:** Non-sealed firearms, bows, and crossbows are non-functional underwater. Throwing axes lose significant effectiveness underwater unless the *Swim* spell is active. The *Ring of Free Action* allows for full movement speed underwater but does not grant automatic success on swimming rolls.
-*   **Enchantment Stacking:** Bow and arrow enchantments (such as *Puissance*) stack with one another, provided they do not consist of identical, non-leveled abilities.
+**Basilisk (Mercenary)**
+*   **Character advancement:** Updated skills: Spider Climb (18), Move (6), Throwing (13), and Fast-Draw: Nageteppos (11).
 
-### 5. Tactical Planning
-*   **The Halflings:** The company intends to target the halflings in the upcoming session. Archon Shiva explicitly stated, "Next week -- the halflings!"
-*   **Mercenary Support:** The company will utilize the specialized skills of mercenaries Basilisk and The GOAT. Basilisk is noted for being effective against low numbers of powerful foes, while The GOA is enthusiastic about encountering the "orca-sized turtle."
-*   **Defensive Measures:** Lacrymosa carries a Magebane grenade and has shown interest in participating in the fight against the halflings' magic users. The party discussed the utility of Magebane grenades for future encounters with hostile magic users.
-*   **Logistics for the Great Cavern:** Plans are being discussed to use climbing supplies (ropes and hooks) or the *Apportation* spell to navigate elevation changes and water crossings in the Great Cavern.
+## 3. Lore & Discoveries
+*   **The Forum of Set:** Recent visits to the Forum revealed the presence of the First Mystery (details classified) and an impressive Second Mystery. However, inquiries regarding a Third Mystery were met with threats of enslavement by the local Deacon. (Source: Rumor 12).
+*   **Doppelganger Incursion:** Gedrick Malachite has reported sightings of doppelgangers within the town; he advises that all dwarves should be closely inspected for deception. (Source: Gedrick Malachite).
+*   **Albino Baboons:** It is confirmed that these creatures possess a Strength Modifier of 0, though their intelligent four-armed leaders possess an SM of +1. (Source: Field observation).
+*   **The Twelve Labors of Arden:** A common edition of this text was recovered; while informative, it holds little market value. It is noted as potentially useful for solving puzzles involving purification at the waterfall fountain. (Source: Recovered text).
 
-### 6. Unresolved Threads
-*   **The Teleportation Key:** The party has yet to determine a practical method for utilizing the red glass square.
-*   **The Saved Wizard:** The identity and potential utility of the wizard recently rescued by the company remain unconfirmed.
-*   **Halfling Relations:** The company has not decided whether to attempt to monetize interactions with the halflings or move toward Gog's territory.
-*   **Economic Strategy:** Whether to continue using mercenaries like The GOAT for specific high-threat targets (such as the "orca-sized turtle").
+## 4. World Rulings
+*   **XP Calculation Reform:** The method for calculating Experience Points has transitioned from net profit to gross profit. XP is now determined by the total value of loot brought into town and converted to cash, without subtracting expedition expenses such as rations or consumables.
+*   **Spell Maintenance in Mana Zones:** The cost of maintaining a spell is dictated by the more disadvantageous location: either where the caster is standing or where the spell's effect is operating. If multiple paths exist between the caster and the target, the caster may choose a path that avoids low-mana zones to maintain efficiency.
+*   **Wild Talent Casting:** When utilizing Wild Talent, the casting and maintenance costs are calculated based on the character's IQ + Magery (e.g., Dark Vision 5/2 becomes 3/0).
+*   **Underwater Combat Constraints:** Bows, crossbows, and non-sealed firearms are non-functional underwater. Throwing axes are ineffective in aquatic environments unless the *Swim* spell is active. While a *Ring of Free Action* allows for full movement speed underwater, it does not grant automatic success on swimming rolls; there remains a risk of sinking.
+*   **Weapon Enchantment Stacking:** Enchantments on bows and arrows (such as Puissance or Penetrating) are cumulative, provided the bonuses do not stem from identical, non-leveled abilities.
+
+## 5. Item Intelligence
+*   **Returning Pebble:** A magical pebble that returns to its owner approximately every 30 minutes. Because it cannot be permanently parted with, it is considered difficult to value for trade. (Source: Identification at APC).
+*   **Ghost's Circlet:** A valuable item composed of platinum. (Source: Identification at enough APC).
+*   **Cursed Shield:** A worthless and cursed item found in the grotto; it is recommended to be discarded or gifted to an enemy. (Source: Identification at APC).
+*   **Red Glass Square:** Identified as one of several teleportation keys. (Source: Identification at APC).
+*   **Shortsword (Luck Blade Variant):** A fine and balanced weapon that assists in resisting spells, though it has no remaining "Wishes" to grant. (Source: Pelteon).
+*   **Oculus (Greatsword):** A highly valuable magic greatsword ($7200); however, its legal sale in Gosterwick is complicated by the high profile of its previous owner. (Source: Identification at APC).
+*   **Knight's Scale Armor:** A magical and valuable piece of armor that is less difficult to sell than the Oculus due to lower traceability. (Source: Identification at APC).
+*   **Strength Potion:** An affordable consumable costing roughly the same as two minor healing potions; effects last for one hour. (Source: Ioannes Grammatikos Byzantios).
+*   **Communal Inventory:** The company currently possesses several Flight potions.
+
+## 6. Tactical Planning
+*   **The Great Caverns:** Discussion is ongoing regarding logistics for exploring the caverns, specifically the potential use of *Apportation* and basic climbing supplies (ropes and hooks) to navigate elevation changes.
+*   **Newmarket Expedition:** A resolution of recent events in Newmarket is planned for the upcoming session.
+*   **The Halflings/Waterfall Caves:** There is ongoing debate regarding whether to confront the halfling populations or focus on the waterfall caves, provided the company possesses the necessary *Swim* and *Breathe Water* capabilities.
+
+## 7. Unresolved Threads
+*   **The Identity of the Saved Wizard:** The true nature and potential utility of the wizard rescued during recent events remains unknown.
+*   **Halfling Monetization/Tactics:** Whether the halflings can be leveraged for profit or must be dealt with via combat/stealth remains undecided; there is also consideration regarding the use of Magebane grenades against their magic users.
+*   **Gog's Territory Logistics:** The specific requirements for a successful foray into Gog's territory (e.g., food supplies) are still being assessed.
+*   **The "Orca-Sized" Turtle:** Whether to actively pursue the legendary massive turtle mentioned in recent reports remains an open question.

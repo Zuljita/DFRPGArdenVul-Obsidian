@@ -15,60 +15,65 @@ source_week: week-ending-2025-04-18-2300-central
 - Week ending: 2025-04-18
 
 ## Navigation
-
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W14.md|Discord Summary 2025-W14]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The Archives of Gosterwick
-**Date:** Week ending 2025-04-18  
-**Subject:** Equipment Upgrades, Alchemical Success, and Strategic Cache Planning
+# Weekly Knowledge Base: Week Ending 2/18/2025
 
-### 1. Summary
-The company focused on liquidating recent spoils to secure experience gains and upgrading the martial readiness of Ioannes Grammatikos Byzantios. Discussions have also turned toward long-term logistics, specifically the establishment of a hidden forward base near the beastmen entrance.
+## 1. Summary
+The company has concluded its recent expedition with a focus on distributing spoils and upgrading essential equipment. Following the acquisition of several valuable items, the decision was made to sell a flight potion to ensure the distribution of experience points to all members. Significant investments were made by Ioannes Grammatikos Byzantios in new defensive gear and logistical tools. Additionally, the party has been joined by a new mercenary, The GOAT.
 
-### 2. Events & Actions by Character
+## 2. Events & Actions by Character
 
-**Ioannes Grammatikos Byzantios**
-*   **Town Actions:** Completed the purchase of new armor, a fine medium shield (replacing an ordinary medium shield), and an axe. Additionally, acquired a wheelbarrow (costing 60 gold) and a lanyard (costing 1 gold). The old ordinary shield and decommissioned gear were deemed to have negligible resale value and were not sold.
-*   **Alchemy/Crafting:** Successfully performed an alchemy attempt to produce a potion.
-*   **Character Development:** None recorded this week.
-*   **Equipment Changes:** Replaced old armor, shield, and axe with upgraded versions; currently holds a wheelbarrow and a lanyard.
+### Ioannes Grammatikos Byzantios
+* **Town Actions:** Purchased upgraded armor, a fine medium shield, an axe, a lanyard, and a wheelbarrow.
+* **Alchemy/Crafting:** Successfully performed an alchemy attempt to produce a potion.
+* **Equipment Changes:** Transitioned from ordinary medium armor/shield to upgraded versions; acquired a wheelbarrow for logistical transport.
+* **Planned Actions:** Intends to sell his previous set of armor, shield, and axe, though timing remains dependent on the availability of wealthy mercenaries to purchase them.
 
-**Vaelitharon "Volem" Sunshadow**
-*   **Town Actions:** Offered professional identification services to the company for a fee of 50 gold per item. The GM approved this service, establishing its availability in Gosterwick.
-*   **Alchemy/Crafting:** None recorded this week.
-*   **Research/Study:** Participated in the group consensus to sell the flight potion to maximize experience point distribution, based on GM-provided calculations.
-*   **Character Development:** None recorded this week.
+### Vaelitharon "Varel" Sunshadow
+* **Skills/Advancement:** Added Climbing to skill list.
+* **Planned Actions:** Has proposed offering identification services for $50 per item to the company.
 
-**Vallium Halcyon**
-*   **Town Actions:** None recorded this week.
-*   **Equipment Changes:** Confirmed the Magic Fish-Shaped Rod is in the party’s possession (not sold previously). The GM ruled that there are no known limitations (such as Magery requirements) on this item, allowing Vallium to propose its use during future excursions through the Great Cavern to mitigate the party's lack of Boating skill.
+### Uvash Edzuson
+* **Skills/Advancement:** Added Climbing to skill list.
 
-**Uvash Edzuson**
-*   **Town Actions:** Expressed interest in inspecting a new mace available in town, sparked by discussions regarding the potential use of brute force to open a locked chest.
-*   **Character Development:** None recorded this week.
-*   **Equipment Changes:** None recorded this week.
+### Vallium Halcyon
+* **Research/Discussion:** Evaluated the utility of the Magic Fish-Shaped Rod for upcoming navigation through the Great Cavern.
 
-### 3. Lore & Discoveries
-*   **The Mushroom Forest Tomb:** A rumor persists that the great Thothian wizard, Ptarmis, constructed a secret tomb within a forest of colossal mushrooms. While the fungus cavern on the second level from the surface has been located, it is currently occupied by armed, sheep-headed creatures (Source: Player Rumor).
-*   **Gosterwick Commerce:** The local economy is influenced by three distinct merchant factors: The Rarities Factor, the Prosperity Factor, and the Silent Factor (Source: Character Notes).
-*   **The Arcane Practitioners Club:** The club's facilities include a standard alchemy laboratory suitable for potion brewing (Source: GM Ruling).
+### Based Cosmo
+* **Town Actions:** Expressed interest in inspecting and potentially purchasing a new mace.
+* **Skills/Advancement:** Added Climbing to skill list.
 
-### 4. World Rulings
-*   **Alchemy Availability:** Minor and major healing potions are now readily available for purchase without the need for availability rolls.
-*   **Alchemical Limits:** Characters are permitted only one alchemy attempt per week.
-*   **Currency Valuation:** Silver ingots found in loot are treated as liquid currency, possessing 100% of their face value. However, the 1,000 gold dragon tribute acts as an expense that effectively cancels out the value of these ingots for the current run.
-*   **Armor Properties:** The "Ornate" property on armor applies a +3 bonus from every individual piece of armor worn.
-*   **Magic Item Limitations:** The Magic Fish-Shaped Rod has no known usage restrictions or Magery requirements.
-*   **NPC Services:** Vaelitharon Sunshadow provides identification services for 50 gold per item, a service confirmed as available by the GM.
+### The GOAT
+* **Character Entry:** Joined the company as a new mercenary.
+* **Skills/Advancement:** Initial skills include Water Vision, Fog, Mystic Mist, Shape Earth, Hail, and Per.
 
-### 5. Tactical Planning
-*   **Logistical Base:** The company is considering using *Shape Earth* to create a hidden cave or cache near the beastmen entrance, utilizing *Camouflage* and *Conceal* to secure supplies for future use.
-*   **Loot Liquidation:** The party intends to sell the flight potion to maximize experience point distribution, accepting the dragon tribute as a sunk cost for the run.
+## 3. Lore & Discoveries
+* **The Thothian Tomb (Rumor 5):** It is rumored that the great Thothian wizard, Ptarmis, constructed a secret tomb within a massive forest of colossal mushrooms. While a fungus cavern was located on the second level from the surface, exploration was halted by hostile sheep-headed creatures wielding spears and swords.
+* **Gosterwick Merchant Factors:** The commerce of Gosterwick is governed by three distinct entities: the Rarities Factor, the Prosperity Factor, and the Silent Factor. (Summaries of these factors are currently being compiled).
+* **Arcane Practitioners Club (APC):** The APC facilities include a standard alchemy laboratory suitable for potion brewing.
 
-### 6. Unresolved Threads
-*   **The Locked Chest:** The company has yet to decide on a method for opening a locked chest in town (options discussed include hiring a thief, utilizing magic, or brute force).
-*   **Merchant Identities:** The specific roles and summaries of the Rarities, Prosperity, and Silent Factors remain unknown.
-*   **The Dragon Tribute:** The long-term impact of the 1,000 gold dragon tribute on the company's overall profitability remains a point of concern, with plans to avoid the entity in future runs.
+## 4. World Rulings
+* **Ornate Equipment:** Armor possessing the "Ornate" property provides a +3 bonus from every individual piece of armor worn, which can significantly impact Reaction modifiers.
+* **Alchemy Limitations:** Characters are permitted one alchemy attempt per week. Successes provide a discount on potion costs but still require the acquisition of raw materials.
+* **Potion Availability:** Minor and major healing potions are currently available for purchase without the need for availability rolls.
+* **Currency & Value:** Silver ingots are treated as liquid cash, possessing 100% of their face value.
+* **Expenses:** Dragon tributes and halfling tithes are classified as company expenses.
+
+## 5. Item Intelligence
+* **Magic Fish-Shaped Rod:** Found during the April 4th session; it is capable of controlling one small boat at a time. There are no known restrictions regarding the Magery level or specific skill requirements of the user.
+* **Green Glass Key:** An item recovered from recent loot; its purpose is unknown, though it appears to be a key for an unidentified teleportation device.
+* **Elven Boot:** A single boot was recovered; while magical in nature, it possesses negligible resale value.
+* **Unclaimed Equipment:** One Medium Shield (Fine, Balanced, Deflect 1, Lighten -25%) remains unclaimed from recent sessions.
+
+## 6. Tactical Planning
+* **Base Construction:** There is a proposal to establish a permanent base within the beastmen entrance. This would involve using *Shape Earth* to create a cave, supplemented by *Camouflage* and *Conceal* spells to hide the entrance and any stored equipment.
+* **Great Cavern Navigation:** The company intends to utilize the Magic Fish-Shaped Rod during the next traversal of the Great Cavern to mitigate the lack of Boating skill among the members.
+
+## 7. Unresolved Threads
+* **The Merchant Factors:** Detailed summaries regarding the Rarities, Prosperity, and Silent Factors are still required.
+* **Logistical Strategy (Chest Opening):** The company has yet to decide on a preferred method for opening locked chests in town, specifically whether to hire a thief, hire a wizard (Lockmaster), or use physical destruction (e.g., smashing the lock with a mace).
+* **Equipment Liquidation:** Whether Ioannes should sell his old gear immediately or wait for a more lucrative buyer remains undecided.
