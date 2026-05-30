@@ -2,6 +2,8 @@
 tags:
   - npc
   - race/halfling
+  - type/halfling
+  - tradition/thothian
   - faction/five-fingers-of-destiny
 ---
 

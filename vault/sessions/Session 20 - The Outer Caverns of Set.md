@@ -3,6 +3,8 @@ title: "20: The Outer Caverns of Set"
 tags:
   - session
   - recap
+  - tradition/thothian
+  - tradition/demma
 session_id: 20
 session_date: 2025-07-27
 source_url: https://dfwhiterock.blogspot.com/2025/07/df-whiterock-session-20-outer-caverns.html
@@ -22,11 +24,11 @@ Hot, dry
 
 Player Characters: 
 
-[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo)
-[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)
+[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]]
+[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage
+[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter
 [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-[[npcs/Ashe Maykum.md|Ashe Maykum]] "[[pcs/grudge-brigade/Ashe Maykum.md|GOAT]]" Maykum, Goblin mercenary druid (ArchonShiva)
+[[pcs/grudge-brigade/Ashe Maykum.md|Ashe Maykum]] "[[pcs/grudge-brigade/Ashe Maykum.md|GOAT]]" Maykum, Goblin mercenary druid
 
 
 Significant NPCs:

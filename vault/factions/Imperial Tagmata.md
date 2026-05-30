@@ -1,5 +1,6 @@
 ---
 tags:
+  - era/historical
   - faction
 ---
 
@@ -13,3 +14,4 @@ The Emperor's own guard unit. The third cohort was wiped out in Arden Vul during
 ## Discord Insights
 
 - The Emperor's own military force; its third cohort participated in Adrienic's Expedition. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])
+- The expedition's force also included the Sheep's Head Legion. ([[notes/Adrienic's Expedition.md|Adrienic's Expedition]])

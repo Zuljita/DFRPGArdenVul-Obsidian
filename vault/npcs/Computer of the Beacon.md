@@ -2,6 +2,7 @@
 tags:
   - npc
   - type/ai
+  - tradition/rudishva
   - faction/rudishva
 ---
 
@@ -20,10 +21,13 @@ The Computer of the [[locations/Beacon.md|Beacon]] is the main artificial intell
 - Capable of learning new languages (demonstrated by learning Archontean)
 - Provides schematics and operational instructions for Rudishva technology
 - Can be commanded via the Command Tablet (Tablet of the Beacon)
+- Can recognize Arden Vul
+- Grants access to various systems based on user rank
 
 ## History
 - When [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael Sunshadow]] inserted the Command Tablet into the bridge console, the computer recognized him as Captain and displayed a nataraja figure addressing him in Rudishva.
 - With [[npcs/Akla-Chah.md|Akla-Chah]]'s assistance, the computer began learning Archontean to communicate directly with the party.
+- Following Vael's recognition as Captain, other party members were assigned ranks just below his.
 
 ## Relationships
 - [[npcs/Akla-Chah.md|Akla-Chah]]: Rudishva AI psychologist who serves as an intermediary and translator

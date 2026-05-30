@@ -1,6 +1,7 @@
 ---
 tags:
   - item
+  - tradition/thothian
   - magic
 ---
 

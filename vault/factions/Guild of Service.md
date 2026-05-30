@@ -2,14 +2,10 @@
 title: "Guild of Service"
 tags:
   - faction
-aliases:
+  - redirect
+redirect_to: vault/factions/Settite Guild of Service.md
+status: redirect
 ---
 # Guild of Service
 
-## Summary
-- TODO: Short description for faction.
-
-## Appears In
-- [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
-- [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
-
+This page has been merged into [[factions/Settite Guild of Service.md|Settite Guild of Service]].

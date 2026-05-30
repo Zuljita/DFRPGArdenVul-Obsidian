@@ -18,3 +18,4 @@ He co-founded the [[Order of the Subterranean Knights]] with [[Melacorius]], but
 
 ## Notes
 - Mentioned on a blackboard note found in the world.
+- Co-founder of [[Sun-Scarred Knights]]

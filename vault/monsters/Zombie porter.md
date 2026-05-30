@@ -5,6 +5,7 @@ tags:
 - monster
 - classification/undead
 - sentience/mindless
+  - type/undead
 aliases:
   - Zombie with Dog Collar
   - monsters/Zombie with Dog Collar

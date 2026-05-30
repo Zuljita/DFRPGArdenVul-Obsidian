@@ -2,6 +2,8 @@
 title: Ptarmis
 tags:
 - npc
+  - tradition/thothian
+  - era/historical
 aliases:
   - Ptarmis, strange robed human
 appears_in:
@@ -22,6 +24,7 @@ Mysterious [[npcs/Thoth.md|Thoth]]‑aligned wizard tied to the fungal caverns n
 ## Roles & Influence
 - Claimed “master of the cavern”; rumored to direct or bargain with the [[Fungal Foresters]].
 - Historical priest of [[Thoth]] associated with discovery and control of the [[Great Cavern]].
+- Credited with bringing the Great Cavern under Archontean control.
 
 ## Relationships
 - [[Fungal Foresters]]: alleged influence or control; at minimum long familiarity.
@@ -35,6 +38,8 @@ Mysterious [[npcs/Thoth.md|Thoth]]‑aligned wizard tied to the fungal caverns n
   - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]] — Vael indicated that they were also friends of [[npcs/Ptarmis.md|Ptarmis]] and asked if the foresters had a source of cloud cap mushrooms.
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — There was a Mithric inscription on the sarcophagus: Here rests [[npcs/Ptarmis.md|Ptarmis]] loyal servant of [[npcs/Thoth.md|Thoth]] seeker of hidden ways who destroyed the loathsome ones raised his children from spores and opened this cavern Those who disturb his sleep Will ...
   - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — This was a bit confusing, since they'd met a man named [[npcs/Ptarmis.md|Ptarmis]], on the throne a bit to the east, who was very much alive.
+- Built a secret tomb within a fungus cavern in a forest of colossal mushrooms.
+- Built a secret tomb within a fungus cavern on the second level of [[notes/huge forest of colossal mushrooms.md|the huge forest of colossal mushrooms]].
 
 ## Notes
 

@@ -2,6 +2,8 @@
 title: "45: Purple Mist and the Drowned Canyon"
 tags:
   - session
+  - tradition/thothian
+  - tradition/demma
   - recap
 session_date: 2026-03-28
 source_url: https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-45-purple-mist.html

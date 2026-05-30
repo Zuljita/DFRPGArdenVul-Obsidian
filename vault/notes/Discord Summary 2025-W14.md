@@ -1,143 +1,98 @@
 ---
+title: "Discord Summary 2025-W14"
 tags:
-  - note
   - discord-summary
+  - canonical-source
+week_ending: 2025-04-11
+source_type: private-discord-weekly-digest
+source_week: week-ending-2025-04-11-2300-central
 ---
 
-# Discord Summary: 2025-W14
+# Discord Summary 2025-W14
 
-**Date Range:** 2025-04-07 to 2025-04-13
-**Messages:** 83
+## Source
+- Private Discord weekly digest
+- Week ending: 2025-04-11
 
-## Distilled In-World Knowledge
+## Navigation
 
-### Factions & Organizations
-- The Set priests are slavers; anyone encountered on the Long Stairs leading to their Forum is liable to be enslaved, but those who reach the Forum are safe. [#rumors | 2025-04-10]
-- Three merchant factors operate in Gosterwick: the Rarities Factor, the Prosperity Factor, and the Silent Factor. [#worldbuilding | 2025-04-12]
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W13.md|Discord Summary 2025-W13]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W15.md|Discord Summary 2025-W15]]
+<!-- END AUTO NAV -->
 
-### Locations & Geography
-- The Hall of Forty Pillars lies right next to the Obsidian Gates, filled with creepy albino toads that transform into demons and attack if the wrong person touches the Gates. [#rumors | 2025-04-10]
-- The cliff face ascent takes approximately 90 minutes on foot, varying with speed, encumbrance, and caution; a cave with a fire pit exists about halfway up, and another cave with spider webs lies over the next switchback. [#worldbuilding | 2025-04-09]
-- Magical travel times for the cliff ascent: Levitation takes ~10 minutes, Walk on Air ~1 hour, and Flight ~3 minutes (encumbrance affects all). [#worldbuilding | 2025-04-09]
-- The Arcane Practitioners Club possesses a standard alchemy lab available for use. [#worldbuilding | 2025-04-12; #arcane-practitioners-club | 2025-04-12]
+# Weekly Knowledge Base: Arden Vul Expedition
+**Period Ending:** 2025-04-11
 
-### Items & Equipment
-- Minor and major healing potions are now available for purchase in town without requiring availability rolls. [#questions-for-gm | 2025-04-12; #archive | 2025-04-12]
-- The group recovered enchanted shields from recent delves: one Large Shield (Fine, Balanced, Deflect 1, Lighten -25%) and one Medium Shield (Fine, Balanced, Deflect 1, Lighten -25%), neither yet claimed by party members. [#archive | 2025-04-12]
+## 1. Summary
+Following a period of significant wealth acquisition, the company has focused on the distribution of rewards and the strategic evaluation of high-value artifacts. A majority vote has been cast regarding the Gem of Insight: the company intends to sell the artifact to Lady Alexia (also referred to as the Green Lady) in exchange for 25,000 gold and the political title of "Warden of Vetucaster" for all members of the group.
 
-### ✅ Truncated Entry Resolved
-- ~~**[SOURCE NEEDED]**~~ The Pyramid of Thoth in the ruined city leads directly to the topmost of the many underground levels; beneath it are at least a dozen other levels, culminating in a huge cavern and lake at the bottom. [#rumors | 2025-04-10]
+## 2. Events & Actions by Character
 
----
+**Ioannes Grammatikos Byzantios**
+* **Character Advancement:** Received 6 XP (including a bonus for successfully negotiating with Thoth).
+* **Equipment Changes:** Currently holds a significant amount of loot; requires the establishment of a secure banking solution to manage growing wealth.
 
-## Raw Source Log
+**Vaelitharon "Varel" Sunshadow**
+* **Research & Analysis:** Utilized *Analyze Magic* to investigate the Gem of Insight and a mysterious glass square. 
+* **Research Results:** Determined the Gem of Insight functions as a permanent *Wisdom* spell after several months of continuous contact, though its long-term stability is uncertain. Identified the glass square as a key intended for use within a larger teleportation device.
+* **Equipment Changes:** Acquired various Mage Scrolls (powered/non-maintainable) with energy levels of 5, 5, 3, and 2.
+* **Town Actions:** Commissioned identification services for various loot items.
 
-<details>
-<summary>Original Discord Summary (click to expand)</summary>
+**Vallium Halcyon**
+* **Equipment Changes:** Potential claimant to the Fine, Balanced Broadsword and the Large Shield recovered from recent endeavors.
 
-### #ArcanePractitionersClub
+**Uvash Edzuson**
+* **Town Actions:** None this week.
+* **Alchemy/Crafting:** None this week.
+* **Research:** None this week.
+* **Equipment Changes:** None this week.
 
-- **GM** (2025-04-12): They have an alchemy lab.
-- **GM** (2025-04-12): Standard
+**Basilisk**
+* **Character Advancement:** Increased Will to 5.
+* **Equipment Changes:** Purchased "perfectly normal" elven rations at double list price as part of a ritual.
 
-### #Rumors
+## 3. Lore & Discoveries
+* **The Set Priests:** Rumors suggest that priests of the Set act as slavers along the Long Stairs leading to their Forum; however, those who reach the Forum itself are considered safe (Source: Archon Shiva).
+* **The Pyramid of Thoth:** The pyramid in the ruined city is believed to lead to numerous underground levels, eventually terminating in a massive cavern and lake (Source: Archon Shiva).
+* **The Great Chasm Cistern:** A massive cistern, roughly 100 feet deep and covering an area the size of a small town, exists at the foot of the chasm and is reportedly ruled by a kraken (Source: Archon Shiva).
+* **The Imperial Span:** A stone bridge, created by the sorcerers of Marius Tricotor, once spanned the Great Chasm to facilitate troop movement (Source: Archon Shiva).
+* **The Hall of Forty Pillars:** This hall, located near the Obsidian Gates, is inhabited by albino toads; touching the Gates may cause these toads to transform into attacking demons (Source: Greybrown).
+* **Cliff Face Features:** A cave containing a fire pit exists halfway up the cliff face, and another switchback contains spider webs.
+* **Gem of Insight Properties:** The gem provides a permanent *Wisdom* effect after approximately three months of continuous holding. There is a risk that once the effect is established, the item may revert to a mundane diamond or require decades to become magical again (Source: Lyssandra).
 
-- **Grudge Brigade** (2025-04-10): 🩸 (1) The Set priests are slavers. Anyone they encounter on the Long Stairs leading to their Forum is liable to be enslaved. If you make it to the Forum, though, you're safe. 🩸 (2) The Pyramid of Thoth in the ruined city leads directly to the topmost of the many underground levels; beneath it are...
-- **Vallium Halcyon** (2025-04-10): Rumor 4: The Hall of Forty Pillars is right next to the Obsidian Gates. The hall is filled with these creepy albino toads. If the wrong person touches the Gates, the toads turn into demons and attack. .
+## 4. World Rulings
+* **Armor Availability:** Heavy Scale is the heaviest armor available in the current market. Armors categorized as "Plate" (such as Brigandine or Segmented Plate) are not available. Elven Heavy Mail is the superior option, provided it is in stock.
+* **Magic Item Commerce:** No magical items or potions are available for purchase at retail; all such items must be discovered through exploration.
+* **Fast-Draw Mechanics:** The ability to fast-draw is strictly limited by specialty. While certain "grandfathered" skills (like arrows for both bows and crossbows) exist, separate weapon skills require their own specific Fast-Draw training (e.g., one requires *Fast-Draw [shuriken]* to use shurikens).
+* **Shield Usage:** A combatant holding a weapon in the hand on the shield arm may "hold" a weapon but cannot "wield" it for tasks requiring two hands, such as loading or readying nets, blowpipes, or crossbows.
+* **Spell Effects:** Spells such as *Alertness* and *Keen Vision* provide bonuses to Per-based skill checks (e.g., *Traps*) only when the skill is being used in a perception-based manner.
+* **Climbing Durations:** Standard climbing of a cliff face takes approximately 1.5 hours. The use of magic alters this significantly: *Levitation* reduces the time to 10 minutes, *Walk on $on$ Air* to one hour, and *Flight* to roughly 3 minutes.
 
-### #archive
+## 5. Item Intelligence
+* **Gem of Insight**
+    * **Revealed Properties:** Acts as a permanent *Wisdom* spell after ~3 months of continuous contact.
+    * **Risks/Handling:** If the gem is lost or sold after the effect has taken hold, the user retains the increased IQ but loses the associated Will and Perception bonuses. 
+    * **Strategic Value:** Valued at approximately $5,000 as a mundane diamond; however, its magical utility is immense.
+    * **Current Status:** The company has voted to sell it to Lady Alexia for $25,000 and the political title of "Warden of Vetucaster" for the group.
 
-- **Vael, Zuljita** (2025-04-07): The tailor I was talking with can't do enchanted stuff right? Can I roll to search for enchanted cloth armor and pay for tailoring to make it fine?
-- **GM** (2025-04-07): You do not know of a source for enchanted armor.  If you find enchanted armor, you can make it ornate after the fact by adding stuff, but making it fine might ruin the enchantment.
-- **Vael, Zuljita** (2025-04-07): Can I get Ornate +3 (+9 CF) Fine (+9 CF) Light cloth from that NPC I've already talked to? and adding gilded arcane patches or whatever to make it both look punk rock and to drive the sticker price up for no apparent reason is fair game?
-- **GM** (2025-04-07): Yes
-- **Vael, Zuljita** (2025-04-07): Paut potions available off the shelf at retail?
-- **GM** (2025-04-07): No, nothing magical is available without finding it.
-- **Grudge Brigade** (2025-04-09): How long has the climb up been, on average?
-- **GM** (2025-04-09): 1.5 hours.  This varies with speed, encumbrance, and caution.
-- **Grudge Brigade** (2025-04-09): How long does it look to be with Levitation, Walk on Air or Flight?
-- **GM** (2025-04-09): Levitation: about 10 minutes.  Walk on Air: about an hour.  Flight: about 3 minutes.  Encumbrance matters.
-- **started a thread: Going up the cliff face. See all threads.** (2025-04-09): Going up the cliff face 3 Messages › There are no recent messages in this thread. Demented Avenger (Ioannes)
-- **Grudge Brigade** (2025-04-10): Fast-Draw "Potion: Grenades carried in delver's webbing or a potion belt." DFA114 implies it includes drinkable, utility and bundle as well.  I assume it also works on Nageteppos and Caltrops.  Correct? Are you treating the specialties list on DFA76 as exhaustive?  I'm especially thinking of rang...
-- **GM** (2025-04-10): Fast-draw (two-handed sword) is unrealistic but RAW.  So I allow most things that are kinda stupid but less stupid than fast-drawing a greatsword.  Examples: 1H axe, 1H mace, small buckler, javelin.  However, I'm strict on specialties.  Every separate weapon skill needs its own fast-draw skill, e...
-- **Grudge Brigade** (2025-04-10): So... generally most items up to 5 lbs., plus Small Buckler (8 lbs.) and stuff allowed by RAW?
-- **GM** (2025-04-10): Small Buckler not all shields.  Most one-handed weapons, no more two-handed weapons.
-- **Grudge Brigade** (2025-04-11): Do the spells Alertness and Keen (Sense) add to Per-based skills? (like Per and Acute (sense) would)
-- **GM** (2025-04-11): Yes, assuming the skill is being used in a Per-based way.  (Example: If you're looking for a secret door with Traps, Alertness and Keen Vision help.  If you're trying to figure out how to open a secret door, they do not.)
-- **Grudge Brigade** (2025-04-11): Hand on shield arm can "hold" but not "wield" a weapon.  Can it be used to for weapons that require only one hand to attack but two to load/ready/etc.?  (Readying a Large Net, or loading a Blowpipe, Pistol Crossbow, Sling, or Spear Thrower)
-- **GM** (2025-04-11): No
-- **Ioannes** (2025-04-12): Am I able to add the new armor to Ioannes's sheet now?
-- **GM** (2025-04-12): Yes, if you paid for it, it will be ready for next week.
-- **Ioannes** (2025-04-12): Cool. I'll do that tonight, and, unless someone wants them, sell his old armor, shield, and axe.
-- **Vallium Halcyon** (2025-04-12): What are you using for your new shield?
-- **Ioannes** (2025-04-12): I bought a fine medium shield in-game last night. The old one is an ordinary medium shield
-- **Vallium Halcyon** (2025-04-12): Over the past two session we retrieved: 1 Large Shield (Fine, Balanced, Deflect 1, Lighten -25%) & 1 Medium Shield (Fine, Balanced, Deflect 1, Lighten -25%)
-- **Ioannes** (2025-04-12): So?
-- **Vallium Halcyon** (2025-04-12): I don't think anybody has claimed the 1 Medium Shield (Fine, Balanced, Deflect 1, Lighten -25%).
-- **Ioannes** (2025-04-12): I assume one of the better fighters should grab it. Ioannes is the fourth-best fighter in the group
-- **Grudge Brigade** (2025-04-12): He can wait to sell his old armor when they have a wealthy merc, right?
-- **Ioannes** (2025-04-12): I'm not going to get much for it anyways
-- **Ioannes** (2025-04-12): Are we able to buy healing potions without availability rolls now?
-- **GM** (2025-04-12): Yes, minor and major healing potions are now available.
-- **GM** (2025-04-12): Bot isn't up yet.  I'll do it in Foundry.  Success!
-- **GM** (2025-04-12): Yes, one.
-- **started a thread: Merchant Factors. See all threads.** (2025-04-12): Merchant Factors 8 Messages › There are no recent messages in this thread. Demented Avenger (Ioannes)
-- **Grudge Brigade** (2025-04-13): Would you mind moving the total cp earned and current point totals to lines ~3-4 instead of the bottom, so we don't have to scroll down to find them?
+* **Glass Square**
+    * **Revealed Properties:** A key intended for use within a larger teleportation device or object.
+    * **Risks/Handling:** Extremely fragile; must be stored safely until a compatible device is located.
 
-### #questions-for-gm
+* **Mage Scrolls**
+    * **Revealed Properties:** These are "powered" scrolls, meaning they contain enough energy for a single casting but cannot be used to maintain a spell effect. Energy levels: 5, 5, 3, and 2.
 
-- **Vael, Zuljita** (2025-04-07): The tailor I was talking with can't do enchanted stuff right? Can I roll to search for enchanted cloth armor and pay for tailoring to make it fine?
-- **GM** (2025-04-07): You do not know of a source for enchanted armor.  If you find enchanted armor, you can make it ornate after the fact by adding stuff, but making it fine might ruin the enchantment.
-- **Vael, Zuljita** (2025-04-07): Can I get Ornate +3 (+9 CF) Fine (+9 CF) Light cloth from that NPC I've already talked to? and adding gilded arcane patches or whatever to make it both look punk rock and to drive the sticker price up for no apparent reason is fair game?
-- **GM** (2025-04-07): Yes
-- **Vael, Zuljita** (2025-04-07): Paut potions available off the shelf at retail?
-- **GM** (2025-04-07): No, nothing magical is available without finding it.
-- **Grudge Brigade** (2025-04-09): How long has the climb up been, on average?
-- **GM** (2025-04-09): 1.5 hours.  This varies with speed, encumbrance, and caution.
-- **Grudge Brigade** (2025-04-09): How long does it look to be with Levitation, Walk on Air or Flight?
-- **GM** (2025-04-09): Levitation: about 10 minutes.  Walk on Air: about an hour.  Flight: about 3 minutes.  Encumbrance matters.
-- **Grudge Brigade** (2025-04-10): Fast-Draw "Potion: Grenades carried in delver's webbing or a potion belt." DFA114 implies it includes drinkable, utility and bundle as well.  I assume it also works on Nageteppos and Caltrops.  Correct? Are you treating the specialties list on DFA76 as exhaustive?  I'm especially thinking of rang...
-- **GM** (2025-04-10): Fast-draw (two-handed sword) is unrealistic but RAW.  So I allow most things that are kinda stupid but less stupid than fast-drawing a greatsword.  Examples: 1H axe, 1H mace, small buckler, javelin.  However, I'm strict on specialties.  Every separate weapon skill needs its own fast-draw skill, e...
-- **Grudge Brigade** (2025-04-10): So... generally most items up to 5 lbs., plus Small Buckler (8 lbs.) and stuff allowed by RAW?
-- **GM** (2025-04-10): Small Buckler not all shields.  Most one-handed weapons, no more two-handed weapons.
-- **Grudge Brigade** (2025-04-11): Do the spells Alertness and Keen (Sense) add to Per-based skills? (like Per and Acute (sense) would)
-- **GM** (2025-04-11): Yes, assuming the skill is being used in a Per-based way.  (Example: If you're looking for a secret door with Traps, Alertness and Keen Vision help.  If you're trying to figure out how to open a secret door, they do not.)
-- **Grudge Brigade** (2025-04-11): Hand on shield arm can "hold" but not "wield" a weapon.  Can it be used to for weapons that require only one hand to attack but two to load/ready/etc.?  (Readying a Large Net, or loading a Blowpipe, Pistol Crossbow, Sling, or Spear Thrower)
-- **GM** (2025-04-11): No
-- **Ioannes** (2025-04-12): Am I able to add the new armor to Ioannes's sheet now?
-- **GM** (2025-04-12): Yes, if you paid for it, it will be ready for next week.
-- **Ioannes** (2025-04-12): Cool. I'll do that tonight, and, unless someone wants them, sell his old armor, shield, and axe.
-- **Vallium Halcyon** (2025-04-12): What are you using for your new shield?
-- **Ioannes** (2025-04-12): I bought a fine medium shield in-game last night. The old one is an ordinary medium shield
-- **Vallium Halcyon** (2025-04-12): Over the past two session we retrieved: 1 Large Shield (Fine, Balanced, Deflect 1, Lighten -25%) & 1 Medium Shield (Fine, Balanced, Deflect 1, Lighten -25%)
-- **Ioannes** (2025-04-12): So?
-- **Vallium Halcyon** (2025-04-12): I don't think anybody has claimed the 1 Medium Shield (Fine, Balanced, Deflect 1, Lighten -25%).
-- **Ioannes** (2025-04-12): I assume one of the better fighters should grab it. Ioannes is the fourth-best fighter in the group
-- **Grudge Brigade** (2025-04-12): He can wait to sell his old armor when they have a wealthy merc, right?
-- **Ioannes** (2025-04-12): I'm not going to get much for it anyways
-- **Ioannes** (2025-04-12): Are we able to buy healing potions without availability rolls now?
-- **GM** (2025-04-12): Yes, minor and major healing potions are now available.
-- **Grudge Brigade** (2025-04-13): Would you mind moving the total cp earned and current point totals to lines ~3-4 instead of the bottom, so we don't have to scroll down to find them?
+* **Wand (Unidentified)**
+    * **Revealed Properties:** Identified as possessing a Magic Aura, but no discernible magical effect was found.
 
-### #town-rolls
+## 6. Tactical Planning
+* **Beastmen Diplomacy:** The company intends to approach the beastmen via their "back door" to avoid conflict with the halflings and seek a safe passage route to the surface.
+* **Dragon Tribute:** There is a proposal to leave a tribute (potentially $500 worth of new jewelry) at the dam for the dragon at the start of the next session.
+* **Exploration:** Plans are in place to investigate the area near the one-way door and re-examine the Statue of Thoth.
 
-- **GM** (2025-04-12): Bot isn't up yet.  I'll do it in Foundry.  Success!
-- **GM** (2025-04-12): Yes, one.
-
-### #worldbuilding
-
-- **Grudge Brigade** (2025-04-09): Walking up the cliff face takes about 90 minutes, depending on caution and encumbrance; Levitating takes about 10 minutes, and flight should get there in 3 minutes. There is a cave with a fire pit about halfway up, and another over the next switchback with spider webs.
-- **started a thread: Going up the cliff face. See all threads.** (2025-04-09): Going up the cliff face 3 Messages › There are no recent messages in this thread. Demented Avenger (Ioannes)
-- **Ioannes** (2025-04-12): What facilities exist at the APC for brewing potions?
-- **GM** (2025-04-12): They have an alchemy lab.
-- **Ioannes** (2025-04-12): Standard equipment? Or another level? (edited)Saturday, April 12, 2025 6:21 PM
-- **GM** (2025-04-12): Standard
-- **Ioannes** (2025-04-12): This is a repository for what we know about the three merchant factors in Gosterwick For reference, these are: Rarities Factor Prosperity Factor Silent Factor
-- **started a thread: Merchant Factors. See all threads.** (2025-04-12): Merchant Factors 8 Messages › There are no recent messages in this thread. Demented Avenger (Ioannes)
-- **Ioannes** (2025-04-12): Can someone post the summaries of each one?
-
-</details>
-
----
-*Generated: 2026-03-16 15:38*
-*Distilled: 2026-03-18*
+## 7. Unresolved Threads
+* **Banking:** Ioannes requires a secure location/method for storing his recent loot.
+* **Tribute Logistics:** Clarification is needed from the GM regarding whether dragon tribute is treated as a standard expense (subtracted from loot) or an equipment purchase.
+* **Warden Title:** The specific benefits and responsibilities of the "Warden of Vetucaster" title remain to be fully understood.
+* **Adam's Vote:** Clarification is needed on whether Adam voted no on the Gem sale.

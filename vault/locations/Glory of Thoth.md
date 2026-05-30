@@ -4,6 +4,7 @@ aliases:
   - locations/Glory of Weskenim
   - Glory of Weskenim
 tags:
+  - tradition/thothian
   - location
 ---
 
@@ -23,3 +24,4 @@ A major transit and control area in the upper Arden Vul complex near the Great C
 
 - An iconic location associated with a group achievement; light is very important to Thoth. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])
 - An area that could potentially be cleared in 13 minutes. ([[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]])
+- Features include a bronze floating head, a statue east of the bridge, and the Fountain of Donkey Ears. ([[ooc-planning-unfinished-business.md|ooc-planning-unfinished-business]])

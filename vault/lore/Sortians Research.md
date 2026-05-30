@@ -1,6 +1,8 @@
 ---
 tags:
   - lore
+  - tradition/mitran
+  - culture/archontean
   - culture/archontean
 ---
 

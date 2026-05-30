@@ -3,6 +3,7 @@ title: "Discord Summary 2025-W09"
 tags:
   - discord-summary
   - canonical-source
+  - culture/thorcin
 week_ending: 2025-03-07
 source_type: private-discord-weekly-digest
 ---
@@ -20,71 +21,59 @@ source_type: private-discord-weekly-digest
 - Next Discord Summary: [[notes/Discord Summary 2025-W10.md|Discord Summary 2025-W10]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The Eve of Expedition
+# Weekly Chronicle: The Eve of Adventure
 **Date:** Week ending 2025-03-07
-**Subject:** Preparations, Character Formations, and World Rulings
 
-### 1. Summary
-The adventuring company has solidified its core membership and established the foundational rules for the campaign. The GM, Dripton, has clarified several critical house rules regarding character creation, combat mechanics, and magical laws. New player Adam M. has been introduced and briefed on the system. The party aims to finalize character sheets and recruit a fifth full-time member, targeting a first session around March 14th.
+## 1. Summary
+The adventuring company has spent this week in intensive preparation, focusing on the formalization of character identities and the establishment of religious and cultural foundations for their upcoming expedition. While no blades have enough yet been drawn in the megadungeon, the structural framework of the party is nearing completion through rigorous debate over lineage, faith, and martial utility.
 
-### 2. Events & Actions by Character
+## 2. Events & Actions by Character
 
-**Andronikos (Player: Demented Avenger)**
-*   **Character Development:** Finalized the character **Andronikos**, a Cleric/Medic/Light Mage hybrid. The build utilizes the Priest and Cerebral pieces, with plans to prioritize Alchemy for potion production.
-*   **Religion:** Explicitly chose **Demma** (LG), goddess of harvest and motherhood, after reviewing the temples of Gosterwick.
-*   **Languages:** Committed to learning Mithric (Broken/None) and Thorcin (Broken/Broken) to navigate local texts and commerce.
-*   **Equipment:** Evaluating loadouts to balance utility with alchemical supplies.
+### Ioannes Grammatikos Byzantios
+* **Character Development:** Finalized a foundational build utilizing the "DF on the Cheap" method, focusing on a hybrid role of cleric, medic, and light mage. The character is being constructed with an emphasis on high Intelligence and survivative traits, though noted to lack significant Luck. To afford more languages, Ioannes plans to utilize higher Common and lower ER.
+* **Research & Study:** Undertook study into the religious landscape of Gosterwick to select a patron deity; ultimately settled upon Demma (LG).
+* **Language Acquisition:** Established proficiency in Archontean (Native), Mithric (Broken), and Thorcin (Broken) to facilitate communication with local populations and the reading of ancient texts.
+* **Planned Advancement:** Expressed intent to acquire Alchemy to facilitate the production of medicinal potions for the party; considered dropping the "Haste" advantage to prioritize this pursuit.
 
-**Vallium Halcyon (Player: Greybrown)**
-*   **Character Development:** An experienced player joining the group. Vallium is a frontline combatant who has been **approved** by the GM.
-*   **Combat Strategy:** Pivoted from Archery to **Thrown Weapon (Knife)** based on advice from Archon Shiva and the GM. This allows for high rates of fire while maintaining shield protection.
-*   **Attributes:** Consolidated Lifting ST, Striking ST, and Extra HP into an efficient Increased ST investment. Swapped Search for Observation to better suit frontline needs.
-*   **Equipment:** Currently lacks a primary weapon but is prepared to utilize knives and broadswords as they are acquired.
+### Vallium Halcyon
+* **Character Development:** Refined martial training focus. Following consultation regarding weapon efficiency, transitioned from a primary reliance on the Bow to expertise in Thren Weapon (Knife) to better utilize a shield and maintain a high rate of fire.
+* **Skill Optimization:** Reallocated training focus from Search to Observation to better suit the needs of an Archontean combatant.
+* **Equipment Changes:** Currently lacks a primary blade; though possessing 2 points in Knife and 1 point in Fast-Draw (Knife), the character cannot yet afford a physical knife.
 
-**Vaelitharon "Vael" Sunshadow (Player: Zuljita)**
-*   **Character Development:** Developing a "battlefield controller" wizard archetype, focusing on area-denial spells such as Grease, Glue, Blur, and Smoke to protect squishier party members.
-*   **Quirks:** The GM approved a quirk regarding a distaste for bad singing, noting it is acceptable as long as it is not an "Offensive Phobia."
-*   **Race:** Confirmed that elves in this setting naturally possess green hair, though many dye it. A full elf with naturally non-green hair is likely a "99% elf" with quirks.
+### Vael_Sunshadow
+* **Character Development:** Developing a specialized "battlefield controller" magical profile, focusing on spells such as *Grease*, *Glue*, *Blur*, and *Smoke* to manage enemy positioning. The build prioritizes high Intelligence (IQ 13) to support essential utility spells like *Blink*.
 
-**Archon Shiva (Player: Archon Shiva)**
-*   **Status:** Not a full-time party member. Shiva has proposed joining as a **"pin hitter"** or temporary hireling when the main party is short-handed.
-*   **Character Development:** Exploring a Druid concept focused on animal summoning and an Archer concept. Investigating the viability of "Kiai" as a primary offensive and defensive tool.
-*   **Druid Ruling:** The GM clarified that a Druid from Khumus could have seen Central Asian animals (like tigers or elephants), while a Thorcin or Archontean would need to take a pilgrimage to see them. Karkadann are unknown in this region.
+### Archon Shiva (Mercenary/Hireling)
+* **Character Development:** Exploring various specialized roles for future service, including a Druid capable of animal summoning and an Archer.
+* **Tactical Consultation:** Provided significant strategic counsel regarding the efficacy of different weapon types (slings, axes, and crossbows) and the importance of building characters for long-term growth rather than immediate utility.
 
-**Adam M. (Player: Adam M.)**
-*   **Status:** New player invited to the campaign.
-*   **Briefing:** Received a high-level overview of GURPS mechanics, including stats, disadvantages, skills, 3d6 roll-low, hit locations, and active defenses.
+## 3. Lore & Discoveries
+* **The Temples of Gosterwick:**
+    * **Temple of Mitra (LG):** A circular stone structure featuring a portico and pediment depicting the god in mail. The central cult object is a statue holding the scales of justice; worshippers use the scales to present offerings.
+    * **Temple of Heschius Ban (LE):** A classic three-chamber temple located at the rear of the Hill of the Gods. Rituals involve shedding blood upon the head of a trampled enemy and offering wealth. During solemn rites, the sacrifice of legally purchased slaves is practiced. The clergy provides healing to those who seek it, albeit with notable condescension.
+    * **Temple of Demma (LG):** A large stone structure resembling a tithe barn. It contains a 30’x10’ plot of magically fertile earth that receives magical rainfall twice daily, producing ripe crops regardless of the season. A 15’ tall statue of the goddess stands at its center.
+    * **Temple of Lucreon (LN):** A three-chamber temple housing a massive granite statue. The shrine features a magical phenomenon where coins dropped into an offering box appear to fall from the air into the god's money bag. To prepare for the next day's magic, clerics empty the god's bag every night.
+* **Cultural Notes:** 
+    * Tobacco and pipeweed are known within the region, though their use is primarily associated with the halflings of the Grain Islands.
+    * Elven hair is naturally green, though many elves utilize dyes to alter this appearance; an elf with non-green hair is likely of very high elven blood (99%).
 
-### 3. Lore & Discoveries
+## 4. World Rulings
+* **The Law of Luck:** For members of the adventuring company, the "Luck" advantage may be purchased by substituting an existing advantage on a character "Piece," provided that Piece contains at least 15 points of Advantages.
+* **The Nature of Bless:** The spell *Bless* is categorized as a "spell on" effect; while beneficial, it is debilitating to the caster, imposing a -1 penalty to all other active spells for the duration. There are no known *Bless* scrolls.
+* **Ritual Concussion:** The spell *Concussion* may be cast for 1FP to deal 0d damage, provided the caster accepts that the stun effect will still manifest.
+* **Linguistic Progression:** Proficiency in written and spoken languages follows a standardized cost: one point per level to progress from Broken to Accented to Fluent.
+* **Combat Speed:** The previous restriction limiting characters to three attacks per second has been rescinded.
 
-**The Temples of Gosterwick**
-*   **Mitra (LG):** A stone, circular structure focused on justice and protection. The temple features a portico with an impressive pediment showing Mitra striding among worshippers, dispensing justice, and punishing the guilty. The cult object is a statue holding scales of justice; worshippers place offerings in the scales to seek balance.
-*   **Heschius Ban (LE):** An Archontean deity of might and manifest destiny. The temple features a three-chamber design where the cella smells strongly of blood due to ritualistic shedding of blood upon a trampled enemy statue. The clergy perform human sacrifices using legally purchased slaves. Notably, the clergy provide healing with **condescension**, as needing healing is viewed as showing weakness.
-*   **Demma (LG):** A goddess of harvest and motherhood. Her temple is shaped like a larger version of rural tithe barns, two stories tall. Inside, a 15’ tall statue of the goddess rises from a 30’x10’ plot of ever-fertile earth that remains perpetually ripe with seasonal crops, nourished by twice-daily magical rainfall.
-*   **Lucreon (LN):** A deity of commerce and fortune. His shrine features a "mystery" where coins dropped into an offering box magically reappear in the air to fall into the god's money bag. Clerics empty the bag at night so it is ready for the next day's rituals.
+## 5. Item Intelligence
+* **Wheelbarrow:** A standard piece of equipment available for purchase. It weighs 18 lbs, has a capacity of 350 lbs, and is valued at $60.
 
-**Natural History & Biology**
-*   **Local Fauna:** The region is primarily characterized by a Northern European climate; bears and wolves are common, while exotic creatures like the Karkadann are unknown to this area.
-*   **Cultural Habits:** Pipeweed/tobacco use is prevalent among Halflings of the Grain Islands and certain human/dwarven groups.
+## 6. Tactical Planning
+* The company intends to finalize all character sheets and resolve remaining recruitment needs by the upcoming week.
+* A tentative date for the first expedition into Arden Vul has been proposed for March 14th, pending character readiness.
+* Vael_Sunshadow plans to focus on area-denial magic (smoke, grease, etc.) to protect the more vulnerable members of the party during encounters.
 
-### 4. World Rulings
-
-*   **The Law of Luck:** For members of the adventuring company, the "Luck" advantage is available on any Character Piece that possesses 15 or more points of Advantages. Players may substitute **non-essential advantages** (excluding Magery 1 for Mages) to afford it.
-*   **Linguistic Progression:** Proficiency in languages follows a standardized cost: one point per level to progress from Broken to Accented, and from Accented to Fluent. Being fluent in both spoken and written forms costs 6 points; fluent spoken only costs 3.
-*   **The Burden of Bless:** The *Bless* spell is categorized as "Spell On." While powerful, it is debilitating to the caster, imposing a -1 penalty to all other active spells for the duration. There are no such spells available in scroll form. Getting an NPC to cast it is super expensive due to PI5 rarity and the debilitation factor.
-*   **Concussion Mechanics:** The *Concussion* spell can be cast for 1 FP to deal 0 damage; however, the target still suffers the stun effect. A cost of 2 FP is required to deal 1d damage.
-*   **Combat Speed:** The cap on the number of attacks per second has been removed to prevent bogging down the game. The GM may impose time limits on turns in the future if combat becomes too slow.
-*   **Lifting Strength:** The availability of Lifting ST is permitted via house rule to ensure consistency with Striking ST availability, as DFRPG restricts it to specific templates.
-*   **Equipment:** Cheap weapons are not allowed unless they appear in *DFRPG Adventurers*. The GM rejected house-ruled cheap gear.
-
-### 5. Tactical Planning
-
-*   **Party Composition:** The company intends to finalize all character sheets and recruit a fifth full-time member if possible, aiming for a first session around March 14th.
-*   **Combat Strategy:** Vael plans to utilize area-denial magic (grease/smoke) to protect the more "squishy" casters, while Vallium intends to use thrown weapons to maintain high combat frequency without sacrificing shield protection.
-*   **Logistics:** The party is considering acquiring a wheelbarrow for transporting heavy gear. The GM has noted the mechanical hurdle of needing to figure out Foundry VTT scripting to make a token drag another token.
-
-### 6. Unresolved Threads
-
-*   **Recruitment:** The status of the fifth player slot remains open.
-*   **Character Finalization:** All members are still finalizing specific quirks, disadvantages, and religious affiliations (specifically for Andronikos, who has now chosen Demma).
-*   **Hypothesis:** It is hypothesized that a Druid may struggle in the deep levels of Arden Vul due to the lack of natural environments, though a Khumus-born Druid may have an advantage.
+## 7. Unresolved Threads
+* **Recruitment:** The fifth and final full-time slot in the company remains open for a potential recruit.
+* **Mercenary Contracts:** The exact nature and composition of Archon Shiva’s "Temp Agency" hirelings (e.g., Druids or Archers) remain to be determined.
+* **Religious Affiliation:** While Demma is favored by Ioannes, the final choice of patron for the remaining members is not yet codified.
+* **Equipment Acquisition:** The party currently lacks a unified supply of weaponry, specifically regarding knives and bows for Vallium Halcyon.

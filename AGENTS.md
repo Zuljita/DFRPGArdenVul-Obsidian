@@ -92,7 +92,7 @@ Thoroughness is more important than speed or brevity.
 ## Pacing & Quality Principles
 
 - Thorough over fast: prioritize accuracy, conservative edits, and clear sourcing over speed. It is acceptable (and preferred) to defer uncertain changes to a later pass with a TODO entry.
-- Review-first automation: use dry-run/report modes (e.g., LCE helper) before applying broad changes.
+- Review-first automation: use dry-run / `--apply`-gated modes before applying broad changes.
 - Session-grounded edits: only add connections/tags/claims that are explicitly present in session text or established pages. Avoid invention.
 
 ## Session Note Structure
@@ -110,59 +110,38 @@ The standard order of sections in a session note is as follows:
 
 This structure ensures that the most important information is immediately accessible, while the full details are available on demand.
 
-## Ingestion SOP (IAC · ACE · LCE)
+## Ingestion SOP (IAC · ACE)
 
-This vault uses a three‑phase, LLM‑assisted intake flow for any new narrative data (especially new session recaps):
+This vault uses an LLM-assisted intake flow for any new narrative data (especially new session recaps), implemented as `scripts/vault_automation.py` subcommands. The SOP emphasizes source preservation, LLM reasoning, independent verification, and conservative edits with sources. Deterministic filters and dedup provide guardrails, but they do not decide campaign facts or entity identity by themselves.
 
-- IAC — Identify Article Candidates
-- ACE — Article Candidate Enrichment
-- LCE — Location Connections Extraction
+- **IAC — Identify Article Candidates** (`propose-new-entities`): walks the latest canonical sources, asks the LLM to enumerate candidates across 9 kinds (NPC, PC, Location, Faction, Item, Monster, Spell, Concept, Media), applies deterministic filters (scaffolding rejection, word-level dedup against existing entity index incl. pcs/, kind-specific stop lists).
+- **ACE — Article Candidate Enrichment** (`verify-new-entities` / `apply-verified-new-entities`): for each candidate the verifier gets vault-rag cross-reference plus DFRPG-rules cross-reference (MechanicsVault). Classifies as confirmed | rulebook_entry | duplicate | wrong_kind | not_an_entity | ambiguous. Confirmed candidates become stub pages with tags = [<kind>, identity/uncertain] + status: stub.
+- **Article enrichment** (`propose-article-edits` / `verify-article-edits` / `apply-verified-article-edits`): vault-rag-grounded bullet/alias/summary additions to existing pages. Connection-style edits land via `append_bullet_to_section` against an existing `## Connections` H2.
 
-The SOP emphasizes source preservation, LLM reasoning, independent verification, and conservative edits with sources. Deterministic scripts provide guardrails and syntax repair, but they do not decide campaign facts or entity identity by themselves.
-
-### IAC: Identify Article Candidates
-- Goal: From the new text, list canonical entity candidates by type (NPC, Location, Faction, Item). Do not map or invent.
-- Deterministic pre‑pass: fix malformed wikilinks, close brackets, and normalize already-known targets. Do not extract entities from regexes, capitalization, or grammar tags alone.
-- Prompt (candidates only):
-  - “From the text, list entity candidates grouped by type (NPC, Location, Faction, Item). Title Case; exclude generics and scaffolding words; do not invent; no mapping.”
-- Settings: temperature 0.1–0.2, max_tokens 300–600, chunk size 2–3k chars.
-- Output: short list per type (no descriptions). Use fuzzy matching, aliases, chronology, and local context before treating a candidate as new. Use this to drive ACE.
-
-### ACE: Article Candidate Enrichment
-- Goal: Create/update minimal pages for true entities, with safe frontmatter and short summaries (no invention).
-- Pages: one concept per file, correct folder (`npcs/`, `locations/`, `factions/`, `items/`).
-- Frontmatter conventions:
-  - NPCs: `tags: [npc, gender/<value>, race/<value>, profession/<value>]` using `unknown` when not stated.
-  - Items: `tags: [item/<weapon|armor|magic|mundane>]` inferred only if stated.
-  - Factions: `tags: [faction]`.
-  - Locations: `tags: [location]`; add `entrance` only for proven access points.
-- Identity tags: add `type/<value>`, `status/<value>`, `title/<value>`, `faction/<slug>`, `culture/<slug>`, `site/<slug>`, and `session/<id>` only when the source supports them. Use `identity/uncertain`, `identity/possible-alias`, or `identity/possible-duplicate` to queue review; do not use those tags as final conclusions.
-- Media tags: use `media/book`, `media/map`, `media/data-crystal`, `media/scroll`, `media/library`, `language/<slug>`, `repository/<slug>`, `topic/<slug>`, `reading/<unread|partial|read>`, and `translation/<untranslated|partial|complete>` when supported. These tags should help retrieval find related readings, not replace citations.
+Frontmatter conventions for new stubs:
+- Entity-class tag: `npc`, `pc`, `location`, `faction`, `item`, `monster`, `spell`, `concept`.
+- Identity tags: add `type/<value>`, `status/<value>`, `title/<value>`, `faction/<slug>`, `culture/<slug>`, `site/<slug>`, `session/<id>` only when the source supports them. Use `identity/uncertain`, `identity/possible-alias`, or `identity/possible-duplicate` to queue review.
+- Media tags: use `media/book`, `media/map`, `media/data-crystal`, `media/scroll`, `media/library`, `language/<slug>`, `repository/<slug>`, `topic/<slug>`, `reading/<unread|partial|read>`, `translation/<untranslated|partial|complete>` when supported.
 - Aliases: add alternate spellings/epithets on the canonical page; update links to canonical where safe.
-- Stubs: include 1–2 sentence summary + “Sources” sessions; no speculation.
-- Verification: every added claim must be supported by a Blogspot recap or Discord digest/chat excerpt. A second LLM verification pass should classify the claim as supported, contradicted, ambiguous, or not found before automatic promotion.
+- Stubs: 1–2 sentence summary plus a "Sources" section linking back to the canonical sources that produced the evidence; no speculation.
 
-### LCE: Location Connections Extraction
-- Goal: Populate `## Connections` (and `## Sources`) on location pages with explicit, sourced routes.
-- What counts: direct links (leads to/through/via/across/down/up) and methods/features (rope ladder, teleporter, secret door).
-- Deterministic pre‑scan: for each location mentioned in the changed session, collect 2–4 paragraph windows around the mention; keep only windows containing connector phrases (connect/lead/via/through/across/toward/into/onto/to/from/down/up/entrance/exit/gate/basket/rappel/levitat/teleport/stair/hole).
-- LLM screen: YES/NO — “Does this segment describe movement or explicit connections? Answer YES or NO.”
-- LLM extraction (if YES):
-  - “Extract ONLY explicit connections between named locations. Output Edges ‘A -> B [via X] [method: M] [feature: F]’. Use names exactly as in text; Title Case; exclude non‑locations; no commentary. For example, if the text says 'we went from The Great Chasm to the Glory of Thoth, and from there to the Arden Vul Surface', you should extract 'The Great Chasm -> Glory of Thoth' and 'Glory of Thoth -> Arden Vul Surface', but not 'The Great Chasm -> Arden Vul Surface'.”
-- Mapping: exact filename in `vault/locations/` → frontmatter `aliases` → UNMAPPED (manual review). Never invent.
-- Patching: add bullets to `## Connections` and cite supporting sessions in `## Sources`. Remove “Residents” dumps from dungeon pages; use “Hazards & Encounters” and “Notable Finds”.
-- Quality gates: every bullet has a session citation; all wikilinks resolve; omit inferred hops.
+Verification: every added claim must be supported by a Blogspot recap, Discord digest, Discord rollup excerpt, or spreadsheet snapshot. The verifier classifies the claim as supported, contradicted, ambiguous, or not_found before automatic promotion. Rulebook entries (verified against the DFRPG MechanicsVault Chroma collection) are filtered out — generic published spells, items, and monster stat blocks do not get campaign-specific vault pages.
+
+### Preservation channels (verbatim canonical content)
+
+Some Discord channels are GM-authored and contain canonical campaign data that must be preserved verbatim, not summarized. The rules-RAG generic-rulebook filter does NOT apply to content sourced from these channels — even if the spell/item name collides with a DFRPG canon entry, the GM's version in a preservation channel is authoritative.
+
+- **`#new-spells`** — GM-only. Each message is a custom spell definition (campaign-specific). Every message gets its own `vault/spells/<Spell Name>.md` page containing the verbatim text in a fenced `## Definition` block + `## Source` attribution with `source_channel`, `source_message_id`, `source_date` frontmatter. Names that collide with DFRPG canon (e.g., `Hallow`, `Curse Item`) are kept because the GM's text supersedes the rulebook for this campaign.
+- **`#worldbuilding`** (and all its threads, including `the-book-of-priors`) — GM-authored canonical lore. Long-form structured text (multi-paragraph, lists, headers) should be preserved verbatim under `vault/lore/<Topic>.md`. Do NOT summarize.
+
+The rules-RAG QC step (`scripts/dedup_qc.py verify-rules-rag-qc`) may misclassify preservation-channel content as `generic_rulebook` because the spell name matches GURPS canon. Verify the source channel before deleting any flagged page.
+
+See `data/automation/proposals/canonical_preservation_design.md` for the proposed pipeline that automates this.
 
 ### Local LLM
-- Endpoint: `http://192.168.21.76:1234` (OpenAI‑compatible).
-- Default: `qwen2.5-7b-instruct` (or `qwen2.5-14b-instruct` if headroom).
-- Timeouts: 60–180s; temperature: 0.1–0.2; max_tokens: 300–600; chunk size: 2–3k.
-
-### Automation Hooks (recommended)
-- Pre‑commit (local): when `vault/sessions/*` changes, run LCE dry‑run and show the patch for affected locations.
-- CI (optional): on PRs, post an LCE report and fail if there are unmapped names, unresolved links, or missed connections.
-
-Helper: `scripts/lce_extract.py` collects windows, queries the local LLM, maps canonical names, and prints patch suggestions (dry‑run by default).
+- See `config/local_sources.json` (gitignored) for `llm_base_url` and `llm_model`. The current setup uses an LM-Studio gateway serving a Gemma-4 26B reasoning model.
+- Reasoning models burn 200–500 tokens of internal chain-of-thought before producing visible content; budget max_tokens accordingly (we use 16384 in `llm_chat_json`).
+- Chunk size for proposer prompts: ~3000 chars (set by VAULT_RAG_MAX_CHUNK_CHARS).
 
 ### Rumor Consolidation
 To provide a centralized view of all rumors, a consolidation process is used:
@@ -178,3 +157,67 @@ To prepare the vault for use with NotebookLM, a script is used to consolidate th
 - **Purpose:** This script iterates through the subdirectories of the `vault` and concatenates the content of all markdown files within each subdirectory into a single file.
 - **Output:** The script generates a set of plain text files in the `notebookLMFiles` directory, with each file corresponding to a subdirectory in the vault (e.g., `npcs.txt`, `locations.txt`).
 - **Exclusions:** The script excludes the `.obsidian` and `templates` directories from the export.
+
+## Operational State (as of 2026-05-24)
+
+Live automation runs from `scripts/vault_automation.py` under a Hermes cron job; the brain-rag-* pgvector stack and `refresh-rag` lane were retired in favor of a local Chroma vault-rag. See `docs/VAULT_AUTOMATION_REARCHITECTURE.md` for the design.
+
+### Three review-gated lanes (all propose → verify → apply)
+
+- **Entity links** — adds wikilinks from mentions to already-promoted entity pages.
+  - Subcommands: `propose-entity-links` / `verify-entity-links` / `apply-verified-entity-links`
+- **Article edits** — adds sourced bullets/aliases/summary sentences to existing articles. Research via vault-rag; verifier reads source files directly to ground each proposal.
+  - Subcommands: `propose-article-edits` / `verify-article-edits` / `apply-verified-article-edits`
+  - Addition types: `append_bullet_to_section`, `add_alias`, `extend_summary`
+- **New entities** — creates stub vault pages for genuinely-new NPCs/Locations/Factions/Items extracted from canonical sources. Multi-stage deterministic filter (PC cross-check, word-level subset dedup, scaffolding rejection, entity_filters.json) plus LLM verifier with `confirmed | wrong_kind | duplicate | not_an_entity | ambiguous`.
+  - Subcommands: `propose-new-entities` / `verify-new-entities` / `apply-verified-new-entities`
+
+### Vault-rag (Chroma)
+
+- Path: `/home/kyle/rag_project/vaults/ArdenVault/index/` (sibling of MechanicsVault DFRPG-rules collection)
+- Collection: `arden_vul_vault`
+- Embedding model: Ollama `bge-m3` at `http://127.0.0.1:11434/api/embeddings`
+- Cosine distance, chunked at H2 headings with paragraph sub-splitting at 3000 chars
+- Scope: whole vault (`sessions/`, `notes/Discord Summary *.md`, `notes/`, `lore/`, `npcs/`, `pcs/`, `locations/`, `factions/`, `items/`, `monsters/`, `spells/`, `concepts/`) **plus per-channel rollups** from `discord_rollup_root` tagged `kind=rollup`, plus the spreadsheet snapshot
+- ~17,500 chunks across ~1,770 files at last full ingest (2026-05-24)
+- Subcommands: `ingest-vault-rag [--reset] [--limit N]`, `refresh-vault-rag` (sha256-gated), `vault-rag-search <query> [--top-k N] [--kind ...]`
+- Auto-refreshed after each apply step and at end of `run-low-risk`
+
+### Scheduled cron + vault walk
+
+- Hermes job `fd3dccf7b808`: `~/.hermes/scripts/arden_vault_run.sh` daily at 07:00 CT, delivers a one-line summary to Discord
+- `run-low-risk` orchestrates: discover → validate → import-low-risk → entity-link proposals/verify → article queue → media queue → spreadsheet snapshot → loot reconciliation → article-edit lane (propose/verify/apply on `article_edit_queue_top` weakest + `article_edit_walk_step` cursor-walk articles) → vault-rag refresh
+- Vault walk cursor lives in `data/automation/vault_walk_cursor.json` and rotates through every article in `vault/{npcs,pcs,locations,factions,items,monsters,spells}` (573 paths at last count). Inspect with `vault-walk-status`. Cursor advances per scheduled run.
+- Hermes script timeout overridden globally to 1200s in `~/.hermes/config.yaml` under `cron.script_timeout_seconds`.
+
+### Config (gitignored at `config/local_sources.json`)
+
+Runtime knobs and private paths/credentials stay out of the repo:
+
+```
+discord_digest_root, discord_rollup_root            — external Discord source paths
+group_spreadsheet_url, group_spreadsheet_gid        — shared spreadsheet
+llm_base_url, llm_model                             — LiteLLM/LM-Studio gateway
+vault_rag_chroma_path, vault_rag_collection,
+  vault_rag_embed_model, vault_rag_embed_url        — vault-rag connection
+entity_link_verify_limit, entity_link_apply_limit   — entity-link lane budget
+article_queue_limit                                  — top-N queue size
+article_edit_queue_top, article_edit_walk_step,
+  article_edit_verify_limit, article_edit_apply_limit — article-edit lane budget per cron tick
+```
+
+Safe daily-cron defaults: `article_edit_queue_top: 2`, `article_edit_walk_step: 3`, `article_edit_verify_limit: 15`, `article_edit_apply_limit: 3`. Sprint mode bumps these (typical: 10/8/30 walk-step/apply/verify) and restores afterward.
+
+### Known issues / followups
+
+- **`extend_summary` near-duplicates**: the proposer occasionally restates the existing Summary with a small parenthetical addition (e.g., `vault/npcs/Bifki.md`). Detection in `apply_article_edit_to_text` should reject when proposed text's word-overlap with existing summary exceeds ~80%.
+- **3 tiny stub locations fail to embed in vault-rag**: `vault/locations/Exarchate of Narsileon.md`, `vault/locations/The Canyon.md`, `vault/locations/The Tomb of Ptoh-Ristus.md` — all 60–112 char H1+wikilink-only chunks that trigger Ollama bge-m3 NaN output. Workaround: bump `VAULT_RAG_MIN_CHUNK_CHARS` from 60 or expand chunks with surrounding context.
+- **Blog session-title parser**: handles singular `Session N` and plural `Sessions Xb and Y` titles. Re-check if dripton ever uses other compound forms.
+- **LLM JSON robustness**: `llm_chat_json` parses raw → code-fence-stripped → greedy `{...}` → bracket-counted slice. If a model server starts returning structured-output mode (`response_format: json_object`), we removed that field because LM Studio rejected it; revisit when upstream support is reliable.
+- **`run-low-risk` doesn't yet auto-run the new-entity lane** — propose/verify/apply for new entity stubs is manual-only until verifier confidence is proven across more candidates.
+- **ChromaDB Rust bindings segfault on a corrupted index** (`chromadb_rust_bindings.abi3.so` crash during `coll.count()`/`coll.query()`). Triggered once during this session by accidentally running two `vault_walk_sprint.sh` loops at the same time — the parallel writes corrupted the on-disk store. **Always rebuild via `ingest-vault-rag --reset` if the harness starts returning rc=139.** The sprint script should add a `flock` guard so a duplicate launch can't race the store again.
+- **Sprint script (`/tmp/vault_walk_sprint.sh`) is untracked** and lacks any concurrency guard. If you re-run a sprint, add `flock` against a sentinel file in `/tmp/` to prevent dual-loop corruption.
+
+## Proposal Approval Workflow (Discord)
+
+Vault edits flow through a reaction-driven Discord approval workflow in #botland. See [docs/PROPOSAL_APPROVAL_WORKFLOW.md](docs/PROPOSAL_APPROVAL_WORKFLOW.md) for the full pipeline (`scripts/vault_proposals_discord.py` + Hermes cron polling).

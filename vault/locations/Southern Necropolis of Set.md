@@ -1,5 +1,6 @@
 ---
 tags:
+  - tradition/settite
   - location
 ---
 
@@ -20,6 +21,7 @@ TBD
 ## Notes
 
 TBD
+- [[sessions/Session 30 - The Tomb of Theskalon.md]]
 
 ## Discord Insights
 

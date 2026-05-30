@@ -9,6 +9,7 @@ tags:
 aliases:
   - Chrysalis
   - Lasselanta Ashcroft
+  - Thorne Lasselanta Ashcroft
 appears_in:
   - "Session 42a - Neferet"
   - "Session 42b - Neferet and the Wraiths"
@@ -44,6 +45,8 @@ Lasselanta "Chrysalis" Ashcroft is a Half-Elven mercenary martial artist affilia
 - Tried to push the last Bead of Force after Neferet through the web-filled hallway.
 - In the Tower of Scrutiny, fought wraiths with her staff enchanted with Affect Spirits by Ioannes — killed several wraiths.
 - Was badly wounded by wraith ranged attacks; this contributed to the party's retreat.
+- [[npcs/Thrainor Thronebreaker Ironvein.md|Thronebreaker]], Uvash, and Mariposa were trapped in a separate sphere of force.
+- Pursued Neferet down the hall, striking at her with her staff.
 
 ## Companion: Mariposa
 Mariposa is Chrysalis's monkey familiar. A gargoyle in the Great Hall swooped at Mariposa, but she dodged the attack. Mariposa was trapped in the Bead of Force sphere in Session 42a alongside Thronebreaker and Uvash.
@@ -51,3 +54,7 @@ Mariposa is Chrysalis's monkey familiar. A gargoyle in the Great Hall swooped at
 ## Appears In
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42b - Neferet and the Wraiths]]
+
+## Earlier Appearances
+- [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
+- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]

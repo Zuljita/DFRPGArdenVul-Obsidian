@@ -3,6 +3,8 @@ title: "32: Fast Exploration"
 tags:
   - session
   - recap
+  - tradition/demma
+  - tradition/rudishva
 session_id: 32
 session_date: 2025-11-22
 source_url: https://dfwhiterock.blogspot.com/2025/11/dfrpg-arden-vul-session-32-fast.html
@@ -22,11 +24,11 @@ Cool, rainy
 
 Player Characters: 
 
-Vallium Halcyon, Archontean fighter (Greybrown)
+Vallium Halcyon, Archontean fighter
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
-Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo)
-[[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]], Elven Mercenary Archer (ArchonShiva)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage
+Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]]
+[[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]], Elven Mercenary Archer
 
 
 Significant NPCs:
@@ -71,7 +73,7 @@ Uvash spent most of the week reading the [[factions/Rudishva.md|Rudishva]] book 
 
 Ioannes and Vallium spent most of the week back in [[locations/Gosterwick.md|Gosterwick]], researching and brewing potions and carousing.  Vallium sadly found that, despite his willingness to buy drinks, nobody was sharing much new information with him, and actually noticed an elf writing down everything he said.
 
-On Lunday, they all teleported back to the [[locations/Beacon.md|Beacon]] using the Rugs of Instant Access, along with the mercenary archer [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].  Vael cast Shape Earth to punch a small hole in the stone cover he and [[npcs/Ashe Maykum.md|Ashe Maykum]] had built over the stairway to the surface.  Everyone climbed through the hole into the rainy early morning chill.  Vael cast another Shape Earth to repair the hole in the cover.  They all hiked southeast through the gates of the ruins, to the top of the [[locations/Long Stair.md|Long Stair]].  There Vael spread the Rug on the ground and the others all used to to teleport back to [[locations/Gosterwick.md|Gosterwick]].  Vael grabbed the Rug and Levitated down the side of the [[locations/Cliff Face.md|Cliff Face]] to the secret door, then spread out the Rug and waited for the others to join him.  They then opened the secret door, and Vallium led them in a roundabout march through the southern [[locations/Great Cavern.md|Great Cavern]], east then north they west through side passages, the across the Cavern itself to under the ledge in the southeast corner.  At that point everyone stepped back through the Rug, Vael carried it to the top of the ledge, and everyone came back out.
+On Lunday, they all teleported back to the [[locations/Beacon.md|Beacon]] using the Rugs of Instant Access, along with the mercenary archer [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].  Vael cast Shape Earth to punch a small hole in the stone cover he and [[pcs/grudge-brigade/Ashe Maykum.md|Ashe Maykum]] had built over the stairway to the surface.  Everyone climbed through the hole into the rainy early morning chill.  Vael cast another Shape Earth to repair the hole in the cover.  They all hiked southeast through the gates of the ruins, to the top of the [[locations/Long Stair.md|Long Stair]].  There Vael spread the Rug on the ground and the others all used to to teleport back to [[locations/Gosterwick.md|Gosterwick]].  Vael grabbed the Rug and Levitated down the side of the [[locations/Cliff Face.md|Cliff Face]] to the secret door, then spread out the Rug and waited for the others to join him.  They then opened the secret door, and Vallium led them in a roundabout march through the southern [[locations/Great Cavern.md|Great Cavern]], east then north they west through side passages, the across the Cavern itself to under the ledge in the southeast corner.  At that point everyone stepped back through the Rug, Vael carried it to the top of the ledge, and everyone came back out.
 
 There was a short passage back into the cave wall, terminating in a 4' high bas-relief of a mostly realistic face of a middle aged man, except with half-spherical empty holes where his eyes should be.  A careful inspection of the face showed that it was magical, and that there were lines around the edges as if it were a door, but it would not open.  Vallium compared the eye holes to various small objects he was carrying, then stepped back through the Rug to the [[factions/Arcane Practitioners' Club.md|Arcane Practitioners' Club]] in [[locations/Gosterwick.md|Gosterwick]] and came back with a pouch full of additional coins and gems, and compared each of them to the eye holes without actually inserting them.  The eyes were too spherical and deep for coins, and too perfectly round to be a good match for most gems, but the silver and blue magical eyes they had were a perfect match.  Vallium said those eyes were valuable and he didn't want to risk losing them without knowing more, so he recommended not actually inserting them yet.  They resolved to come back later when they learned more.
 

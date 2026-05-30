@@ -1,5 +1,6 @@
 ---
 tags:
+  - era/historical
   - session
 session_date: 2025-07-02
 ---

@@ -8,6 +8,8 @@ tags:
 ## Summary
 A young baboon from the [[Howling Caves]] who was kidnapped by [[The Thane]].
 
+A young baboon from the [[Howling Caves]] who was kidnapped by [[The Thane]] (presumed to be [[npcs/Tikun Thane.md|Tikun Thane]]).
+
 ## First Appearance
 [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 

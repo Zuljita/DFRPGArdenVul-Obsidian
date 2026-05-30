@@ -1,6 +1,8 @@
 ---
 tags:
   - faction
+aliases:
+  - Collegium of Cinders
 ---
 
 # College of Cinders
@@ -14,3 +16,4 @@ A college or organization of mages.
 
 ## Notes
 - Several priceless and unique tomes were stolen from the college by [[Cerbactos]] decades ago.
+- Previous attempts to locate [[Cerbactos]] and the stolen books failed due to ineffective searches by functionaries.

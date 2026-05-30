@@ -1,12 +1,11 @@
+---
+title: "Tothsday"
+tags:
+  - calendar
+  - redirect
+redirect_to: vault/lore/The Archontean Calendar.md
+status: redirect
+---
 # Tothsday
 
-## Summary
-A day of the week in the [[The Archontean Calendar.md|Archontean Calendar]].
-
-## Etymology
-Named after the god [[Thoth]].
-
-## Position in Week
-Third day of the week.
-
-## Notes
+This page has been merged into [[lore/The Archontean Calendar.md|The Archontean Calendar]] — see the **Days of the Week** section.

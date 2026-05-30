@@ -3,8 +3,7 @@ tags:
   - location
 ---
 
-# [[Archontos]].
-
+# Winedark Sea
 ## Residents
 Various marine life, potentially mythical creatures.
 

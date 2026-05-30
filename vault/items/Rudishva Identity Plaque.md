@@ -3,12 +3,19 @@ tags:
   - item
   - rudishva
   - technology
+  - tradition/rudishva
 aliases:
-  - Rudishva Identity Plaque
   - Identity Plaque
   - ID Plaque
+  - ID Badge
   - Rudishva ID Badge
   - Identity Badge
+  - Rudishva Identity Cards
+  - Silver ID Card
+  - Yellow Rudishva Identity Plaque
+  - Yellow Identity Plaque
+  - Yellow Card
+  - Yellow Plaque
 ---
 
 # Rudishva Identity Plaque
@@ -45,6 +52,7 @@ These devices appear as cards or plaques made of various materials (plastic, met
 - **Type:** Physical backup mechanism
 - **Function:** Opens secret doors via low-tech physical mechanism (card jam)
 - **Note:** Any oval keycard works for certain Beacon closet doors
+- Black card (different style)
 
 ## Technology
 - **Materials:** Various (plastic, metal, crystalline)

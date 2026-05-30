@@ -1,5 +1,8 @@
 ---
 tags:
+  - tradition/settite
+  - tradition/demma
+  - era/historical
   - lore
 ---
 

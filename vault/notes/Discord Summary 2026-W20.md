@@ -18,67 +18,77 @@ source_week: week-ending-2026-05-22-2300-central
 
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]]
-- Next Discord Summary: (none)
+- Next Discord Summary: [[notes/Discord Summary 2026-W21.md|Discord Summary 2026-W21]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The Right for Riches Company
-**Date:** Week Ending 2026-05-22  
-**Subject:** The Behir Hunt and the Retreat to the Beacon
+# Weekly Knowledge Base: Arden Vul
+**Week Ending:** 2026-05-22 23:00 CDT
 
-### 1. Summary
-The company engaged in a high-stakes hunt within the natural caverns, successfully slaying a Behir but suffering an ambush by a ceiling predator during the extraction. Following a desperate retreat via magical means, the party has returned to the Beacon to regroup, loot their spoils, and tend to wounded equipment.
+**Summary**
+The company Chrysalis successfully hunted and slew a Behir within its lair, though the retreat to the Beacon was marked by a harrowing ambush from a creature descending from the ceiling. Following the combat, the party processed the kill—including skinning the beast—and secured valuables before retreating via magic carpet. While the immediate threat of the Behir has passed, the company must now address cursed magical effects acquired during the encounter and prepare for rising tensions involving the Rudishva.
 
-### 2. Events & Actions by Character
+**Events & Actions by Character**
 
 **Uvash Edzuson**
-* **Town Actions:** None this week.
-* **Alchemy/Crafting:** None this week.
-* **Research:** None this week.
-* **Character Advancement:** None this week.
-* **Equipment:** None this week.
+* **Town actions taken:** None this week.
+* **Alchemy/crafting attempts and results:** Expressed intent to consume Behir meat following the hunt.
+* **Research results:** None this week.
+* **Character advancement:** None this week.
+* **Equipment changes:** None this week.
 
 **Vallium Halcyon**
-* **Town Actions:** None this week.
-* **Alchemy/Crafting:** None this week.
-* **Research:** None this week.
-* **Character Advancement:** None this week.
-* **Equipment:** Wears Heavy Plate Body Armor and a Ring of Protection +3.
+* **Town actions taken:** None this week.
+* **Alchemy/crafting attempts and results:** None this week.
+* **Research results:** None this week.
+* **CRITICAL NOTE: DR Calculation:** It has been established that against electrical or lightning-based attacks, metal armor provides only DR 1. Consequently, Vallium's effective DR against such elements is 6 (comprising +1 Heavy Plate, +1 Armor Mastery, +1 Tough Skin, and +3 Ring of Protection; the Fortify enchantment is negated by the higher value of the Ring).
+* **Character advancement:** None this week.
+* **Equipment changes:** None this week.
 
 **Ioannes Grammatikos Byzantios**
-* **Town Actions:** None this week.
-* **Alchemy/Crafting:** None this week.
-* **Research:** None this week.
-* **Character Advancement:** Considering the acquisition of the *Command* spell to increase combat utility.
-* **Equipment:** None this week.
+* **Town actions taken:** None this week.
+* **Alchemy/crafting attempts and results:** None this week.
+* **Research results:** None this week.
+* **Character advancement:** None this week.
+* **Equipment changes:** The company noted that Ioannes's belt is a Dwarven belt that provides increased bonuses if the user is *not* a dwarf. There is also concern regarding whether his power item may need to provide energy to sustain the party during heavy combat.
 
-**Vaelitharon Sunshadow**
-* **Town Actions:** None this week.
-* **．Alchemy/Crafting:** None this week.
-* **Research:** None this week.
-* **Character Advancement:** None this week.
-* **Equipment:** Acquired "Set's Gift of Zapping People" following an interaction with the runes on the Set statue.
+**Vaelitharon "Vael" Sunshadow**
+* **Town actions taken:** None this week.
+* **Alchemy/crafting attempts and results:** None this week.
+* **Research results:** None this week.
+* **Character advancement:** None this week.
+* **Equipment changes:** Acquired a magical effect known as "Set's Gift of Zapping People" (or "Set blast") following an interaction with the Set statue; however, this effect is currently cursed and requires de-cursing. His power item currently holds 10 charges and requires recharging.
 
-### 3. Lore & Discoveries
-* **The Long Death:** Research into various texts confirms that this work pertains to the process of mummification.
-* **Behir Physiology:** It has been established that a Behir possesses a Size Modifier of +5.
-* **Historical Texts:** Confirmed correct titles for recent acquisitions include *The Honorable Life of Ligareus, Archon* and *Irene Ballatrix: On the Wars of this Great Archon*.
+**Mercenary: Basilisk**
+* **Status:** Active. It has been noted that the mercenary now possesses Darkvision via a familiar.
 
-### 4. World Rulings
-* **Spell Acquisition:** Players may only learn new spells through the use of spellbooks; a standard starting repertoire consists of six spells from a pool of approximately thirty. Spells degrade upon memorization, preventing issues with magical scarcity.
-* **The *Awaken* Spell:** This spell is highly effective for party utility, as it counters physical and mental stuns, unconsciousness (including 0 HP or Sleep effects), and certain fatigue-based penalties (such as reduced movement or dodge).
-* **Electrical Resistance:** Metal armor provides only DR 1 against electrical or lightning-based attacks.
-* **Enchantment Stacking:** Magical enchantments such as *Fortify* and items like a *Ring of Protection* are not cumulative.
-* **Logistics:** The statue of Set is too large to be transported in one piece.
-* **Rudishva Grenades:** These implements utilize the mundane Throwing skill, providing a +4 bonus when targeting a specific hex.
+**Lore & Discoveries**
+* **Behir Physiology:** The Berit possesses a Size Modifier of +5.
+* **Historical Texts:** 
+    * *The Honorable Life of Ligareus, Archont*.
+    * *Irene Ballatrix: On the Wars of this Great Archon*.
+    * *The Long Death* contains information regarding the creation of mummies; the collected fragments currently held by the company appear to form a complete set of information.
 
-### 5. Tactical Planning
-* **Cloister Security:** The company intends to prioritize clearing and securing the Cloister area, moving all portable assets out of the vicinity to prevent loss.
-* **Mapping:** Plans are in place to systematically map the local teleportation network.
-* **Goblin Coordination:** The party intends to visit the Goblin Forum to deliver provisions, collect outstanding funds, and consult with Gribble regarding regional stability.
-* **Exploration:** Future objectives include scrying the five uncertain Teleportation Circle locations and clearing the area south toward the basket elevator for potential goblin patrol use.
+**World Rulings**
+* **Spell Acquisition:** Mages can only learn new spells through the use of spellbooks. Upon memorization, spellbooks degrade, preventing issues of infinite scarcity. A mage begins their journey with a limited repertoire of approximately six spells chosen from a pool of roughly thirty.
+* **Armor & Elemental Resistance:** Metal armor provides only DR 1 against electrical or lightning-based attacks.
+* **Enchantment Stacking:** The bonuses provided by a *Ring of Protection* and the *Fortify* enchantment are not cumulative; the higher value takes precedence.
+* **Ordnance Deployment:** Rudishva Grenades are compatible with the mundane Throwing skill, providing a +4 bonus when targeting a specific hex.
 
-### 6. Unresolved Threads
-* **The Archmage Kahn:** The intentions and threat level of the Rudishva archmage, Kahn, remain unknown; his ability to teleport others presents both an opportunity and a risk.
-* **Statue Removal:** There is ongoing debate regarding whether the area near the Behir lair should be opened to goblin patrols before the statue of Set is dealt with or removed.
-* **Equipment Maintenance:** The party must address the need to recharge Vaelitharon’s power item and Ioannes's equipment following recent combat.
-* **The "GOAT" Hypothesis:** The company has noted a potential rise in "GOAT" cargo cultism among the local goblin populations due to their commerce in statue shards.
+**Item Intelligence**
+* **The Set Statue:** This large, rune-covered artifact is located at the site of the Behir's death. It was determined to be too massive to transport in one piece and remains in the lair, bearing sword wounds.
+* **The Dead Inside Key:** A copy of the key to the "Dead Inside" door is to be delivered to the Goblin Keymaster.
+
+**Tactical Planning**
+* **Cloister Operations:** The company intends to prioritize clearing all portable assets from areas connected to the Cloister and mapping the existing teleportation network. Plans include traveling via the Rudishva Teleportation Pad to the Cloister, moving west to the acidic pool room, and proceeding up to the room containing the Chaotic Sweat.
+* **Logistics & Scouting:** 
+    * The party intends to travel to the Goblin Forum to check in with Gribble, deliver supplies/food, and collect funds.
+    * Plans are in place to continue clearing the natural caverns near the Behir lair, attempting to link them to the spiked door off the main hallway.
+    * The company aims to clear the area south of the basket elevator to ensure it is safe for goblin patrols.
+    * Following this, the party intends to use Scry Gate on five uncertain Teleportation Circle locations.
+* **Security:** The company aims to secure loot and protect areas against dragonfly automatons.
+* **Maintenance:** Immediate priorities include analyzing magic and de-cursing Vaelitharon's "Set blast."
+
+**Unresolved Threads**
+* **The Rudishva Contact:** The intentions and threat level of Kahn remain unknown; the party is debating whether to maintain distance or prepare for a potential calculated assassination and looting should the turf war escalate.
+* **The Goblin Cult:** There are growing rumors of a "cult" among the goblins centered around the "GOAT," involving the sale of shards from a destroyed statue.
+* **The Statue's Fate:** The remains of the Set statue at the Behir lair remain an unaddressed element of the environment.

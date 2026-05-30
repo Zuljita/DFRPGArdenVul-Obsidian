@@ -4,6 +4,7 @@ tags:
   - npc
   - race/undead
   - type/greater-mummy
+  - tradition/thothian
 aliases:
   - Neferet, Beloved of Thoth
   - Neferet, Greater Mummy
@@ -20,6 +21,8 @@ Neferet is a powerful **Greater Mummy** spellcaster whose tomb is located off th
 - Her sarcophagus is labeled in Mithric: *"Neferet, Beloved of [[npcs/Thoth.md|Thoth]]"*, with a picture of a woman on the lid.
 - Was a High Priestess who demanded the relocation of a special library's contents to her residence.
 - [[npcs/Bastet.md|Bastet]]'s avatar (when asked) had no idea who Neferet was.
+- Served as second in command of the temple of Thoth in Arden Vul, under the Prior.
+- Potentially served the Lord of Light deity or religious faction.
 
 ## Known Abilities & Equipment
 - **Blink** — her primary evasion tool; used repeatedly to escape melee attacks and fire.
@@ -67,10 +70,6 @@ Vael used Seeker followed by Trace and confirmed Neferet was in the Tower of Scr
 ## Sessions
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42b - Neferet and the Wraiths]]
-
-## Recording Sources
-- [[lore/recording-notes/Recording 2026-02-06.md|Recording 2026-02-06]]
-- [[lore/recording-notes/Recording 2026-02-13.md|Recording 2026-02-13]]
 
 ## Discord Insights
 - High priestess who demanded relocation of special library contents to her new residence. ([[notes/Discord Summary 2026-W01.md|Discord Summary 2026-W01]])

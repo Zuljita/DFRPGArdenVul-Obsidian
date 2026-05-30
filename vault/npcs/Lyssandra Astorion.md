@@ -2,6 +2,7 @@
 title: Lyssandra Astorion
 tags:
 - npc
+  - era/historical
 aliases:
   - Lyssandra Astorion, Archontean wizard, co-owner of the Arcane Practitioners'' Club
   - Lyssandra Astorion, principal of the Arcane Practitioners'' Club
@@ -17,6 +18,7 @@ Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A
 ## Appears In
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
+- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
 
 ## History
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 5: Parleys and [[locations/Great Cavern.md|The Great Cavern]] Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
@@ -27,6 +29,8 @@ Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A
 - An older, practical mage who is a co-owner of the [[Arcane Practitioners' Club]].
 - She was the mentor to her partner, [[Pelteon]].
 - She is interested in buying scrolls or spellbooks containing rare or unusual spells that she does not already know.
+- Enforces a rule that livestock or corpses are not permitted at the [[Arcane Practitioners' Club]].
+- Is currently evicting tenants from the [[Arcane Practitioners' Club]], with all apartment tenants required to leave by the 1st of Dikaios.
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]

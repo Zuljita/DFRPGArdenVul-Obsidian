@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 """
-Generate weekly in-world Discord summaries for Arden Vul.
-Processes classified IC/lore messages and creates weekly summary files.
+LEGACY — do not run.
+
+This emits `- **Author** (date): text` lines that bake real handles + verbatim chat
+into vault/notes/Discord Summary YYYY-WNN.md, which Quartz then publishes. The
+active pipeline is `vault_automation.py::import_discord_digests`, which copies the
+curated narrative digest in from discord-chat-explorer's `weekly-digests/`. Kept
+here only for archaeological reference.
 """
 
 import json
@@ -11,6 +16,14 @@ import re
 from datetime import datetime, timedelta
 from collections import defaultdict
 from pathlib import Path
+
+if os.environ.get("ARDEN_ALLOW_RAW_DISCORD_SUMMARIES") != "1":
+    sys.stderr.write(
+        "refusing to run: this script writes raw per-message chat into the published vault.\n"
+        "use scripts/vault_automation.py import-discord-digests instead.\n"
+        "if you really mean it, set ARDEN_ALLOW_RAW_DISCORD_SUMMARIES=1.\n"
+    )
+    sys.exit(2)
 
 VAULT_DIR = Path(__file__).parent.parent / "vault"
 NOTES_DIR = VAULT_DIR / "notes"

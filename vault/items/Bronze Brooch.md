@@ -1,5 +1,6 @@
 ---
 tags:
+  - tradition/demma
   - item
 ---
 
@@ -18,6 +19,7 @@ A small decorative clasp, often used to fasten cloaks or other garments.
 - Used by high-ranking priests of [[Demma]] as a ceremonial fastener for their hooded cloaks, often in the shape of a seed.
 
 ## Notes
+- Occupies the same equipment slot as an amulet.
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]

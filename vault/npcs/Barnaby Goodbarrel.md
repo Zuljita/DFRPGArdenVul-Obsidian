@@ -2,6 +2,7 @@
 title: Barnaby Goodbarrel
 tags:
   - npc
+  - type/halfling
 appears_in:
   - Session 25 - Looking for the Back Door to the Forum of Set
   - "Session 31 - I Want to Believe"
@@ -29,7 +30,9 @@ Barnaby has a reputation for keeping his word. He is also known for being except
 ## Relationships
 - [[Wicktrimmer]] and the [[Rarities Factor]]: frequent counterparty in artifact contracts.
 - PCs: formed companies, reviewed contracts, and provided ongoing legal guidance.
+- Michael J. Dundee: Handled separation agreement for his departure from the party.
 
 ## Discord Insights
 
 - A halfling and the second best lawyer in Gosterwick, known for keeping his word and knowing everything happening in town. ([[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]])
+- Middle aged halfling man, pale skin, brown eyes, brown curly hair, formally dressed. Smiles a lot.

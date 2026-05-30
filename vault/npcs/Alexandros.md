@@ -5,6 +5,7 @@ tags:
   - race/human
   - profession/librarian
   - faction/cult-of-set
+  - tradition/settite
 aliases:
   - Alexandros, Set librarian
 ---

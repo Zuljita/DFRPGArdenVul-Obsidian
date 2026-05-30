@@ -1,3 +1,8 @@
+---
+tags:
+  - era/historical
+  - tradition/thothian
+---
 # Compact of Ennius
 
 ## Summary

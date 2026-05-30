@@ -10,6 +10,8 @@ tags:
 ## Summary
 A long knife imbued with magical properties, making it more effective in combat or granting special abilities.
 
+It is considered a valuable item.
+
 ## Description
 A knife with a longer than usual blade, enchanted to possess magical qualities.
 

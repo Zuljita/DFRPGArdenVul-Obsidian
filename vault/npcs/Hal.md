@@ -4,6 +4,7 @@ tags:
 - npc
 - race/varumani
 - profession/barkeeper
+  - type/troll
 aliases:
   - Hal, varumani barkeeper
 appears_in:

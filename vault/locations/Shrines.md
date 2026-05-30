@@ -3,5 +3,5 @@ title: Shrines
 tags:
   - location
 ---
-# [[npcs/Demma.md|Demma]]
+# Shrines
  - [[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]]

@@ -3,6 +3,8 @@ title: "48: Thothian Teleportation Rings"
 tags:
   - session
   - recap
+  - tradition/thothian
+  - tradition/demma
 source_url: https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-48-thothian.html
 session_date: 2026-04-18
 ---
@@ -17,14 +19,14 @@ Warm, sunny
 
 ## Player Characters
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-- [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
-- [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
-- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael Sunshadow]], Half-Elven mage (Kyle)
+- [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter
+- [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of Zodarrim
+- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael Sunshadow]], Half-Elven mage
 - [[pcs/grudge-brigade/Coinbase.md|Coinbase]], Elven Mercenary Bro (Archon Shiva)
 - [[npcs/Lasselanta Chrysalis Ashcroft.md|Lasselanta "Chrysalis" Ashcroft]], Half-Elven mercenary martial artist (Archon Shiva)
 
 ## Significant NPCs
-- [[npcs/Basil.md|Basil]], [[factions/Right for Riches.md|Right for Riches]] employee
+- [[npcs/Basil.md|Basil]], [[factions/Right for Riches Company.md|Right for Riches]] employee
 - [[npcs/Akla-Chah.md|Akla-Chah]], Rudishva AI
 - [[npcs/Remagis.md|Remagis]], recently un-petrified ancient priest of Thoth
 - 2 imps
@@ -48,7 +50,7 @@ Warm, sunny
 - Clear more rooms near the [[locations/Goblin Forum.md|Goblin Forum]]
 
 ## What Happened
-Not wanting to give anyone else a chance to loot the no mana zone, the [[factions/Right for Riches.md|Right for Riches]] company rested, healed, identified some loot, and then headed right back to the Halls of Arden Vul the next day. This time they recruited Chrysalis, to provide more protection in areas without spells. Once again they took the Rudishva teleporter to the Cloister, then went down the secret tunnel to the slime pit room. Most of the party went through the Teleport Rug back to the [[locations/Beacon.md|Beacon]], while [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] and [[pcs/Vallium Halcyon.md|Vallium]] Levitated up the shaft to the cavern north of the ruined [[locations/Temple of Set.md|Temple of Set]]. They didn't run into any trouble, and set the Rug down so everyone else could rejoin them.
+Not wanting to give anyone else a chance to loot the no mana zone, the [[factions/Right for Riches Company.md|Right for Riches]] company rested, healed, identified some loot, and then headed right back to the Halls of Arden Vul the next day. This time they recruited Chrysalis, to provide more protection in areas without spells. Once again they took the Rudishva teleporter to the Cloister, then went down the secret tunnel to the slime pit room. Most of the party went through the Teleport Rug back to the [[locations/Beacon.md|Beacon]], while [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] and [[pcs/Vallium Halcyon.md|Vallium]] Levitated up the shaft to the cavern north of the ruined [[locations/Temple of Set.md|Temple of Set]]. They didn't run into any trouble, and set the Rug down so everyone else could rejoin them.
 
 The group headed east through the ruined [[locations/Temple of Thoth.md|Temple of Thoth]], then south to the indoor pyramid, and used the lever on top to teleport to the other indoor pyramid on the [[locations/Well of Light.md|Well of Light]] level. They went west, back to the No Mana Zone. Before going in, Vallium showed Vael the areas they had explored, and suggested that he try analyzing the magical baboon statue. Vael did so, and found that it was some kind of magical potion making machine, where one put the ingredients in the eye sockets and then the potion dripped out the nostrils.
 

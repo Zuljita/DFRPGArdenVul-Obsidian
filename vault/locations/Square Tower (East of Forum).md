@@ -20,3 +20,4 @@ A mostly intact, large square tower (40' square and 45' tall) located on the eas
 - Has huge bronze double doors that appear magical and have keyholes, but the party decided not to interact with them due to potential traps.
 - Large windows on the top level, without glass, allow entry.
 - The stairs leading down are suspiciously dark, suggesting a possible no mana zone or other hazard.
+- Looted items included scrolls.

@@ -3,6 +3,8 @@ title: "26: The Scouring of the Shire"
 tags:
   - session
   - recap
+  - tradition/demma
+  - culture/thorcin
 session_id: 26
 session_date: 2025-10-11
 source_url: https://dfwhiterock.blogspot.com/2025/10/dfrpg-arden-vul-session-26-scouring-of.html
@@ -23,10 +25,10 @@ Cool, dry
 
 Player Characters: 
 
-Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
-Vallium Halcyon, Archontean fighter (Greybrown)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage
+Vallium Halcyon, Archontean fighter
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Michael J. Dundee, Thorcin barbarian (Adam)
+Michael J. Dundee, Thorcin barbarian
 [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]], Elf [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary archer (Archon Shiva)
 
 

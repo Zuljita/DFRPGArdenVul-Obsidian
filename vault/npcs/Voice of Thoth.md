@@ -2,6 +2,7 @@
 title: Voice of Thoth
 tags:
   - npc
+  - tradition/thothian
 aliases:
 ---
 # Voice of [[npcs/Thoth.md|Thoth]]

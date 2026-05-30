@@ -16,6 +16,7 @@ A long, polearm weapon with a sharp, magical tip. Its unusual weight suggests po
 ## Properties
 - Magical.
 - Ridiculously heavy.
+- Only the strongest can use.
 
 ## Known History
 Found as loot during an exploration.

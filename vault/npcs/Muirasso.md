@@ -2,6 +2,7 @@
 title: Muirasso
 tags:
 - npc
+  - tradition/thothian
 aliases:
   - Muirasso (Wight)
 ---
@@ -17,3 +18,4 @@ Powerful undead wight, formerly a cleric of [[Thoth]], now guarding his tomb. Ho
 
 ## Notes
 - Former Thothian cleric interred in his tomb; defeated by the party after a major battle.
+- Attacked Vallium with a glowing broadsword.

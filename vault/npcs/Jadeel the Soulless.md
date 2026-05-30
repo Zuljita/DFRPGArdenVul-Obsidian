@@ -7,6 +7,7 @@ tags:
   - profession/wizard
   - faction/cult-of-set
   - status/deceased
+  - tradition/settite
 aliases:
   - Jadeel
 ---

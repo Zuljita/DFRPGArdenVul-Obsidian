@@ -24,6 +24,7 @@ TBD
 ## Notes
 
 TBD
+- A place to find trainers for less savory skills, such as Search and Stealth.
 
 ## Discord Insights
 

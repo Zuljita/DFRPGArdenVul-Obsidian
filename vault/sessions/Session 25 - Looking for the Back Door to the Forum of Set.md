@@ -3,6 +3,8 @@ title: "25: Looking for the Back Door to the Forum of Set"
 tags:
   - session
   - recap
+  - tradition/demma
+  - culture/thorcin
 session_id: 25
 session_date: 2025-09-20
 source_url: https://dfwhiterock.blogspot.com/2025/09/dfrpg-arden-vul-session-25-looking-for.html
@@ -21,11 +23,11 @@ Warm, dry
 
 Player Characters: 
 
-Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle)
-Vallium Halcyon, Archontean fighter (Greybrown)
+Vaelethron 'Vael' Sunshadow, Half-Elven mage
+Vallium Halcyon, Archontean fighter
 Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Michael J. Dundee, Thorcin barbarian (Adam)
-Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo)
+Michael J. Dundee, Thorcin barbarian
+Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]]
 
 
 Significant NPCs:
@@ -50,7 +52,7 @@ After a long negotiation, the Right for Riches Company contacted a local halflin
 
 He gave them 20000 pieces of silver, free lifetime banking at the [[factions/Rarities Factor.md|Rarities Factor]], personal shopping services in [[locations/Narsileon.md|Narsileon]] (for up to five designated items per month, if available and found by his agent there, using their own funds deposited at the [[factions/Rarities Factor.md|Rarities Factor]]), and any information on their enemies (particularly the [[factions/Cult of Set.md|Cult of Set]]) that he learned.  In exchange they would give him the powerful magic stiletto Larel's Pin and right of first refusal on any magical or historical items the company or its members wanted to sell in the future (except for a few items which [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] specifically claimed).
 
-[[npcs/Wicktrimmer.md|Wicktrimmer]] did not have any new information on the [[npcs/Set.md|Set]] cult, beyond the contract on their heads that [[npcs/Coinbase.md|Coinbase]] had already told them about.  Vallium decided they should revisit the [[locations/Great Cavern.md|Great Cavern]] and see if the Settite guard post they had found there connected with the [[locations/Forum of Set.md|Forum of Set]].  Vael's [[items/Living Wheelbarrow.md|Living Wheelbarrow]] (invented by [[npcs/Ashe Maykum.md|Ashe Maykum]] the goblin druid) was ready, so cast Levitation on it and used it to carry Larel's Sack.
+[[npcs/Wicktrimmer.md|Wicktrimmer]] did not have any new information on the [[npcs/Set.md|Set]] cult, beyond the contract on their heads that [[pcs/grudge-brigade/Coinbase.md|Coinbase]] had already told them about.  Vallium decided they should revisit the [[locations/Great Cavern.md|Great Cavern]] and see if the Settite guard post they had found there connected with the [[locations/Forum of Set.md|Forum of Set]].  Vael's [[items/Living Wheelbarrow.md|Living Wheelbarrow]] (invented by [[pcs/grudge-brigade/Ashe Maykum.md|Ashe Maykum]] the goblin druid) was ready, so cast Levitation on it and used it to carry Larel's Sack.
 
 Ioannes spent some of his wealth on an even more expensive power item, which enabled him to cast Bless +2 on Vael, Vallium, and Michael, as long as they paid for the power item recharges.  Uvash declined and kept his Bless +1.
 

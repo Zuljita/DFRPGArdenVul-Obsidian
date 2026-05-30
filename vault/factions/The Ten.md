@@ -1,13 +1,16 @@
 ---
 tags:
   - faction
+  - tradition/demma
+  - tradition/mitran
+  - culture/archontean
   - culture/archontean
 ---
 
 # The Ten
 
 ## Summary
-The ten major gods of the [[lore/Archontean Empire.md|Archontean Empire]]'s pantheon, forming the core of the state-sponsored religion.
+The ten major gods of the [[factions/Archontean Empire.md|Archontean Empire]]'s pantheon, forming the core of the state-sponsored religion.
 
 ## Goals
 To maintain their divine influence and guide the mortal world according to their respective domains.
@@ -22,6 +25,7 @@ The specific members of The Ten are not fully enumerated in the provided text, b
 
 ## Notes
 Temples to all of The Ten can be found in the city of [[Newmarket]].
+- A big shared temple exists for the deities among 'The Ten' who do not have individual temples.
 
 ## Members
 

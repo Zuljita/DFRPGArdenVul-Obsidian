@@ -1,6 +1,7 @@
 ---
 title: Temple of Set
 tags:
+  - tradition/settite
   - location
 ---
 
@@ -15,3 +16,4 @@ A major Setite stronghold in Arden Vul. The party repeatedly treats it as hostil
 
 ## Sessions
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]

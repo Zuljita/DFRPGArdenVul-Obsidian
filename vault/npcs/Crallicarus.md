@@ -1,6 +1,8 @@
 ---
 tags:
   - npc
+aliases:
+  - Crellik-Var
 ---
 
 # Crallicarus
@@ -16,6 +18,7 @@ Mentioned on a blackboard note.
 ## Notes
 
 - He organizes dramatic readings in the old [[Hopper Coliseum]] near the tomb of [[Marius Tricotor]].
+- Has offered much assistance to the archon of Arden Vul.
 
 ## Discord Insights
 

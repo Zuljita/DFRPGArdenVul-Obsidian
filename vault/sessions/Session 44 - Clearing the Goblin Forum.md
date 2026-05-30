@@ -2,6 +2,8 @@
 title: "44: Clearing the Goblin Forum"
 tags:
   - session
+  - tradition/thothian
+  - tradition/demma
   - recap
 session_date: 2026-03-21
 source_url: https://dfwhiterock.blogspot.com/2026/03/dfrpg-arden-vul-session-44-clearing.html
@@ -18,8 +20,8 @@ Warm, rainy
 ## Player Characters
 
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael Sunshadow]], Half-Elven mage (Kyle)
-- [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
+- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael Sunshadow]], Half-Elven mage
+- [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter
 
 ## Significant NPCs
 

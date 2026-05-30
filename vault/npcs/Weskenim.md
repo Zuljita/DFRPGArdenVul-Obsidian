@@ -13,6 +13,8 @@ aliases:
 ## Summary
 [[npcs/Weskenim.md|Weskenim]] is the ambitious and pragmatic ruler of the [[factions/United Goblins|United Goblins]], styling himself as their Grand King. From his court in [[locations/Goblintown|Goblintown]], he presides over a growing territory that includes the [[locations/Wet Caves|Wet Caves]] and the repurposed "Glory of [[npcs/Weskenim.md|Weskenim]]" (formerly the [[locations/Glory of Thoth|Glory of Thoth]]). While he projects authority through a network of sub-chiefs and sergeants, his rule is not universally accepted among all goblins, with some outlying groups openly disparaging him. He is known for his distinctive pink turban and his fondness for his pet cat, which can sometimes distract him from matters of state.
 
+Physically, he is described as being quite large for a goblin, with black hair, big incisors, and a lumpy nose, often wearing bright silks and a colorful turban topped with a crown.
+
 ## History & Interactions
 [[npcs/Weskenim.md|Weskenim]]'s relationship with the [[factions/Right for Riches Company|Right for Riches Company]] began in earnest after they rescued his brother, [[npcs/Gribble|Gribble]], from the clutches of the [[factions/Cult of Set|Cult of Set]] ([[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md]]).
 
@@ -21,6 +23,8 @@ A major point of contention for [[npcs/Weskenim.md|Weskenim]] was the occupation
 [[npcs/Weskenim.md|Weskenim]] is keenly interested in recovering the legendary **Scepter of the [[factions/Goblins.md|Goblins]]**, which he believes is key to unifying all goblin clans under his rule. He has promised the adventurers a further reward for its retrieval, though he dismisses the goblin mystic [[npcs/Gislu|Gislu]], who also seeks it, as a "fake."
 
 He maintains a court with a major-domo named [[npcs/Palestrim|Palestrim]] and advisors like [[npcs/Skimmel|Skimmel]] and [[npcs/Reeflik|Reeflik]]. He has shown a degree of political cunning, deliberately delaying an audience with a group of mysterious wizards he suspected were hostile to the [[factions/Varumani|Varumani]], whom he wishes to avoid conflict with.
+- He expressed a need for the [[factions/Goblins.md|Scepter of the Goblins]] to unify his people.
+- The [[factions/Eighth Collegium.md|Eighth Collegium]] sought the party's help to gain a direct audience with him.
 
 ## Roles & Influence
 - **Goblin Unifier:** Aspires to unite all goblin clans under his banner.

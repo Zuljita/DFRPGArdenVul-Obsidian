@@ -17,7 +17,7 @@ Warm, rainy
 
 ## Player Characters
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael Sunshadow]], Half-Elven mage (Kyle)
+- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael Sunshadow]], Half-Elven mage
 - The GOAT, Imperial Goblin Mercenary Druid (Archon Shiva)
 
 ## Significant NPCs
@@ -46,7 +46,7 @@ Warm, rainy
 - [[npcs/Boots.md|Boots]], Barkeeper, [[locations/Inn of the Lost.md|Inn of the Lost]]
 - [[npcs/Aethgrim.md|Aethgrim]], Entertainer, [[locations/Inn of the Lost.md|Inn of the Lost]]
 - [[npcs/Akla-Chah.md|Akla-Chah]], hologram psychologist
-- [[npcs/Basil.md|Basil of Narsileon]], [[factions/Right for Riches.md|Right for Riches]] company employee
+- [[npcs/Basil.md|Basil of Narsileon]], [[factions/Right for Riches Company.md|Right for Riches]] company employee
 - Various summoned goats, bats, bears, and an elephant
 
 ## The Plan

@@ -2,6 +2,7 @@
 tags:
   - lore
   - tradition/thothian
+  - era/historical
 aliases:
   - Book of Priors
 ---

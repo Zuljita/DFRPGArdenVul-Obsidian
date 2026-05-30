@@ -1,12 +1,15 @@
 ---
 tags:
+  - type/goblin
+  - culture/archontean
   - npc
 ---
+  - race/goblin
 
 # Imperial Goblin
 
 ## Summary
-A playable PC race in the setting, fully assimilated into the [[lore/Archontean Empire.md|Archontean Empire]], though considered second-class citizens.
+A playable PC race in the setting, fully assimilated into the [[factions/Archontean Empire.md|Archontean Empire]], though considered second-class citizens.
 
 ## Racial Template (GURPS DFRPG)
 - **SM:** -1 [0]
@@ -27,9 +30,15 @@ Mentioned in the "Announcing DFRPG [[locations/Arden Vul.md|Arden Vul]]" and "[[
 TBD
 
 ## Known Associates
-- [[lore/Archontean Empire.md|Archontean Empire]]
+- [[factions/Archontean Empire.md|Archontean Empire]]
 
 ## Notes
 - [[Ashe Maykum]] is an [[npcs/Imperial Goblin.md|Imperial Goblin]].
+- [[npcs/Dobby.md|Dobby]] was an Imperial Goblin thief.
 
 ## Sessions
+- [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
+- [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
+- [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
+- [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]

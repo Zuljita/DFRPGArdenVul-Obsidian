@@ -22,11 +22,16 @@ aliases:
 
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
+- [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]
+- [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
 
 ## Notes
 - He was very excited to hear about the defeat of [[Phlebotomas Plumthorn]]'s halflings.
 - He appears to be a key figure in the goblin military command in [[Upper Goblintown]].
 - In [[sessions/Session 33 - Nyema.md]], he was surprised that [[Vallium Halcyon]] had a key to a door in the [[Glory of Weskenim]].
+- Slightly bigger than average goblin, middle-aged, and muscular, with a huge misshapen neck.
+- Wears a goblin military uniform with sergeant insignia and a halfling killer badge.
+- His misshapen neck is like a Formula One driver who just suffered a fatal crash.
 
 ## Relationships
 - [[Weskenim]]: serves as master sergeant under the goblin king’s authority.

@@ -11,6 +11,8 @@ aliases:
 ## Summary
 A dangerous tower complex near the Forum/Well region, associated with undead threats and restricted passages.
 
+The tower contains a room with two doors and four passages leading out.
+
 ## Notes
 - In Session 34a, the party discovered a hidden route with stairs rising roughly 250' into what they assessed as a basement area of the tower.
 - They immediately withdrew rather than engage expected wraith opposition.

@@ -1,12 +1,12 @@
 ---
-title: Basil of Narsileon
+title: "Basil of Narsileon"
 tags:
   - npc
   - alias
+redirect_to: vault/npcs/Basil.md
+status: redirect
 ---
 
 # Basil of Narsileon
 
-Canonical page: [[npcs/Basil.md|Basil]]
-
-This page exists as an alias target for links that use the full display name.
+This entry has been merged into the canonical page: [[npcs/Basil.md|Basil]].

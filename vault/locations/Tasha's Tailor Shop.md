@@ -1,13 +1,11 @@
 ---
+title: "Tasha's Tailor Shop"
 tags:
   - location
+  - redirect
+redirect_to: vault/locations/Gosterwick.md
+status: redirect
 ---
+# Tasha's Tailor Shop
 
-# [[Gosterwick]].
-
-## Services
-- Custom embroidered patches, available for $25.
-
-## Discord Insights
-
-- A place to commission custom patches. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])
+This page has been merged into [[locations/Gosterwick.md|Gosterwick]]. See the Districts & Landmarks and Notable Establishments sections.

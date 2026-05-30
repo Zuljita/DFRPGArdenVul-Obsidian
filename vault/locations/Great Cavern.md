@@ -1,6 +1,7 @@
 ---
 title: Great Cavern
 tags:
+  - culture/thorcin
   - location
 ---
 
@@ -12,7 +13,7 @@ tags:
 aliases:
   - The [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]].
 
-- Session 24a - Revenge on the [[npcs/Camilla.md|Camilla]] Re-Revisited — Dundee, Thorcin barbarian (Adam) [[npcs/Gribble.md|Gribble]]'s missing brother [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]] the Horse Whisperer, then the group decided to visit The [[locations/Great Cavern.md|Great Cavern]] Basilion [[locations/Great Cavern.md|Great Cavern]] that were extremely important to her, and for which she would richly reward the finders.
+- Session 24a - Revenge on the [[npcs/Camilla.md|Camilla]] Re-Revisited — Dundee, Thorcin barbarian [[npcs/Gribble.md|Gribble]]'s missing brother [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]] the Horse Whisperer, then the group decided to visit The [[locations/Great Cavern.md|Great Cavern]] Basilion [[locations/Great Cavern.md|Great Cavern]] that were extremely important to her, and for which she would richly reward the finders.
 - Session 24a - Revenge on the [[locations/Great Cavern.md|Great Cavern]] Re-Revisited
 - Session 16 - Random Scorpion Teleport to the Hall of Judgment
 - Session 18 - Back Down the Well of Light
@@ -22,6 +23,7 @@ aliases:
 
 - The party negotiated passage through beastman territory with [[npcs/Count Skleros.md|Count Skleros]].
 - A hidden urn in a side cave contained the [[items/Scepter of the Goblins.md|Scepter of the Goblins]]; a secret tomb nearby guarded by constructs yielded a magical torc, golden ceremonial helmet, wand, and a second set of [[items/Rugs of Instant Access.md|Rugs of Instant Access]]. ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])
+- Known for an easy entrance from the Long Stair, with several tunnels, caves, or islands yet to be explored.
 
 ## Discord Insights
 

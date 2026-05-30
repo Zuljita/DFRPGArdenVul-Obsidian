@@ -2,12 +2,13 @@
 tags:
   - faction
   - culture/archontean
+  - culture/archontean
 ---
 
 # The Seventeen
 
 ## Summary
-The seventeen minor gods of the [[lore/Archontean Empire.md|Archontean Empire]]'s pantheon, who receive less prominence than [[The Ten]] but are still part of the official religion.
+The seventeen minor gods of the [[factions/Archontean Empire.md|Archontean Empire]]'s pantheon, who receive less prominence than [[The Ten]] but are still part of the official religion.
 
 ## Goals
 To maintain their divine influence within their specific, often narrower, domains.

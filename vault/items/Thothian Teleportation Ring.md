@@ -3,6 +3,7 @@ tags:
   - item
   - magic
   - thoth
+  - tradition/thothian
 aliases:
   - Thothian Teleportation Ring
   - Thothian Teleportation Rings
@@ -26,6 +27,7 @@ Thothian Teleportation Rings are magical devices created by the priests of [[Tho
 - **Function:** Instantaneous teleportation between paired or networked locations
 - **Activation:** Requires correct sequence knowledge and magical activation
 - **Range:** Varies by specific ring and network configuration
+- **Color Codes:** GR (green), YE (yellow), BL (blue), BK (black), RE (red), WH (white)
 
 ## Known Properties
 - The activation squares are fragile and easily broken
@@ -47,6 +49,7 @@ Thothian Teleportation Rings are magical devices created by the priests of [[Tho
 ## Appearances
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 - [[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]]
+- [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48 - Thothian Teleportation Rings]]
 
 ## Related Topics
 - [[npcs/Stamelis.md|Stamelis]] - recalls the rings but never had permission to use them

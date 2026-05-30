@@ -1,5 +1,6 @@
 ---
 tags:
+  - era/historical
   - session
 ---
 

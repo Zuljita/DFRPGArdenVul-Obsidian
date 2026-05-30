@@ -10,4 +10,4 @@ Distinct kobold tribe active in the ruins. Little is documented; add sightings a
 
 ## Notes
 TBD
-
+- [[npcs/Lillian.md|Lillian]] was captured by them while searching for Settite activity.

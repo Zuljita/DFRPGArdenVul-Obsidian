@@ -8,6 +8,7 @@ tags:
 ## Key Features
 
 TBD
+- The Newmarket market runs five days a week, and the selection there seems a bit better than in Gosterwick.
 
 ## Connected Areas
 

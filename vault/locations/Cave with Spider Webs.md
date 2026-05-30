@@ -8,6 +8,8 @@ tags:
 ## Summary
 A cave located over a switchback on the cliff face leading to [[Cliff Face]].
 
+Part of the features found on the [[Winding Stair]] ascent.
+
 ## Residents
 - Spiders (implicitly)
 

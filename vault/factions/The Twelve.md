@@ -2,12 +2,13 @@
 tags:
   - faction
   - culture/archontean
+  - culture/archontean
 ---
 
 # The Twelve
 
 ## Summary
-A group of twelve gods who are no longer sponsored by the [[lore/Archontean Empire.md|Archontean Empire]] and have few remaining worshippers.
+A group of twelve gods who are no longer sponsored by the [[factions/Archontean Empire.md|Archontean Empire]] and have few remaining worshippers.
 
 ## Goals
 Unknown, likely focused on regaining influence or pursuing their divine interests without mortal support.
@@ -25,3 +26,4 @@ PC clerics are discouraged from choosing patrons from The Twelve without special
 ## Members
 
 ## Sessions
+- [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]

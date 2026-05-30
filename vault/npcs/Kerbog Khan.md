@@ -3,6 +3,7 @@ title: Kerbog Khan
 tags:
   - npc
   - race/construct
+  - culture/thorcin
 aliases:
   - Kerbog Khan, construct
 appears_in:
@@ -13,6 +14,8 @@ appears_in:
 
 ## Summary
 Kerbog Khan is a small bipedal construct of unknown origin encountered in the [[locations/Goblintown.md|Goblin Market]]. He claims to possess knowledge of the Halls of Arden Vul surpassing that of anyone else living, and seeks to trade information — but only under very specific terms.
+
+He has also been described as an evil sorcerer.
 
 ## Appearance
 - Small bipedal construct (not humanoid-sized).
@@ -29,6 +32,8 @@ Kerbog Khan was observed in the Goblin Market attempting to negotiate with Thorc
 ## Notes
 - Potentially a significant source of information about the Halls if the party is willing to deal on his terms.
 - His origins and true nature are unknown.
+- Wanted by one of the [[College of Cinders|Collegium]].
+- Reports suggest he kidnaps varumani for unauthorized medical experiments.
 
 ## Appears In
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]

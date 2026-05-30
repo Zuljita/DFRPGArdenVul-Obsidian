@@ -1,13 +1,11 @@
+---
+title: "Voluptarian Days"
+tags:
+  - calendar
+  - redirect
+redirect_to: vault/lore/The Archontean Calendar.md
+status: redirect
+---
 # Voluptarian Days
 
-## Summary
-The second intercalary period in the [[The Archontean Calendar.md|Archontean Calendar]], also known as the "days of pleasure".
-
-## Season
-Between Summer and Autumn.
-
-## Position in Year
-Second intercalary period.
-
-## Notes
-A six-day period, associated with festivals and pleasure.
+This page has been merged into [[lore/The Archontean Calendar.md|The Archontean Calendar]] — see the **Intercalary Periods** section.

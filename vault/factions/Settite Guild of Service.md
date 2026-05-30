@@ -1,6 +1,9 @@
 ---
 tags:
   - faction
+  - tradition/settite
+aliases:
+  - Guild of Service
 ---
 
 # Settite Guild of Service
@@ -24,3 +27,8 @@ Members of the [[Cult of Set]].
 ## Notes
 
 TBD
+- While displaced, the Guild is reported to be at 100% manpower.
+
+## Appears In
+- [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
+- [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]

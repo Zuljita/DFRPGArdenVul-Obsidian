@@ -2,6 +2,7 @@
 title: "38: Another Attack on the Temple of Set"
 tags:
   - session
+  - tradition/demma
   - recap
 session_date: 2026-01-17
 source_url: https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-38-another.html
@@ -16,7 +17,7 @@ Weather: 
 Cold, snowing
 
 Player Characters: 
-[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)Merenuithiel "[[npcs/Merenuithiel Lacrymosa Armaris.md|Lacrymosa]]" Armaris, Elven mercenary archer (Archon Shiva) 
+[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of ZodarrimMerenuithiel "[[npcs/Merenuithiel Lacrymosa Armaris.md|Lacrymosa]]" Armaris, Elven mercenary archer (Archon Shiva) 
 
 Significant NPCs:
 [[npcs/Wicktrimmer.md|Wicktrimmer]], Imperial goblin merchant

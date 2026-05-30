@@ -19,6 +19,7 @@ A ring typically worn to seal official documents or to denote family lineage. Th
 Found on the corpse of a noblewoman, possibly Lady [[npcs/Lady Alexia Basileon|Alexia Basileon]] or a relative.
 
 ## Notes
+- Chairduster refused to purchase the ring, recognizing it as belonging to Lady Alexia's family.
 
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]

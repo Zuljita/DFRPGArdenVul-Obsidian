@@ -15,6 +15,9 @@ scripts/output/
 notebookLMFiles/.tmp.driveupload/
 notebookLMFiles/.tmp.driveupload/**
 
+# Raw Discord exports must never enter the repo; the vault only ingests curated digests.
+RawFiles/
+
 # Quartz build output (if present)
 quartz/public/
 
@@ -23,3 +26,4 @@ node_modules/
 
 #GCP Service Account
 dfrpgardenvulsync-a76054fc16dd.json
+data/automation/proposal_decisions*.jsonl

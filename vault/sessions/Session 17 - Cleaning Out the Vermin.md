@@ -21,9 +21,9 @@ Hot, dry
 
 Player Characters: 
 
-[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)
+[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter
 [[pcs/grudge-brigade/Thronebreaker.md|Thronebreaker]] (Thrainor Ironvein), Dwarven mercenary fighter (Martin)
-[[pcs/grudge-brigade/Chrysalis.md|Chrysalis]] ([[npcs/Thorne Lasselanta Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva)
+[[pcs/grudge-brigade/Chrysalis.md|Chrysalis]] ([[npcs/Lasselanta Chrysalis Ashcroft.md|Thorne Lasselanta Ashcroft]]), Half-Elven mercenary martial artist (Archon Shiva)
 
 
 Significant NPCs:

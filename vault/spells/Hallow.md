@@ -15,3 +15,7 @@ tags:
 Increases the Sanctity (for clerics) or Nature's Strength (for druids) of an area by one level, to a maximum of High Sanctity or +3 Nature's Strength.
 
 This may only be cast in an appropriate area, such as a temple of the appropriate god for a cleric, or a particularly nice natural area for a druid. It can be used in an opposing temple to reduce its sanctity for the opposing religion, but only to Normal sanctity; getting to High would require extensive changes to the temple.
+
+## Source
+- Posted to `#new-spells` by the GM on 2025-10-19 (message `1429486497471529100`).
+- Channel rule: `#new-spells` is GM-only and contains canonical campaign-specific spell definitions. Treat every entry as authoritative campaign data.

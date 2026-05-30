@@ -1,11 +1,12 @@
 ---
 title: "The Tower Ghost"
-type: monster
 tags:
   - monster
   - classification/undead
-aliases:
+  - redirect
+redirect_to: vault/npcs/Yrtol.md
+status: redirect
 ---
 # The Tower Ghost
 
-See: [[Yrtol]]
+This page has been merged into [[npcs/Yrtol.md|Yrtol]].

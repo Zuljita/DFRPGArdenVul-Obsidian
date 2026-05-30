@@ -3,6 +3,7 @@ tags:
   - lore
   - culture
   - culture/thorcin
+  - culture/thorcin
 ---
 
 # Thorcin

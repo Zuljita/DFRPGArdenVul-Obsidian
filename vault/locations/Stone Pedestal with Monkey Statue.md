@@ -13,6 +13,7 @@ Underground in [[Arden Vul]].
 
 ## Notes
 Could be a puzzle or trap.
+- Such statues may be animated or imbued with magical properties.
 
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]

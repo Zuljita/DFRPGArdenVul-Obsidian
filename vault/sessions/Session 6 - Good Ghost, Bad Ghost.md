@@ -3,6 +3,7 @@ title: "6: Good Ghost, Bad Ghost"
 tags:
   - session
   - recap
+  - era/historical
 session_id: 6
 session_date: 2025-04-19
 source_url: https://dfwhiterock.blogspot.com/2025/04/dfrpg-arden-vul-session-6-good-ghost.html
@@ -18,7 +19,7 @@ Warm, sunny
 
 **Player Characters:**
 - [[pcs/Ioannes Grammatikos Byzantios|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma|Demma]] (Demented Avenger)
-- [[pcs/Vallium Halcyon|Vallium Halcyon]], Archontean fighter (Greybrown)
+- [[pcs/Vallium Halcyon|Vallium Halcyon]], Archontean fighter
 - [[pcs/Uvash Edzuson|Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim|Zodarrim]] (Based Cosmo)
 - [[pcs/grudge-brigade/Ashe Maykum|Ashe Maykum]] "Goat" Maykum, Goblin Druid (Mercenary) (Archon Shiva)
 

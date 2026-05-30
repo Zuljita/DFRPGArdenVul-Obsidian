@@ -24,3 +24,4 @@ Referenced in early delves; a named group within the Halls' wider ecosystem.
 ## Notes
 
 - Some members adopted the mailed fist insignia of the [[factions/Imperial Tagmata.md|Imperial Tagmata]] (the Emperor's own third cohort guard unit, wiped out 200 years ago). ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])
+- Count Skleros, a beastman commander in the Halls of Thoth, negotiated safe conduct with the party in exchange for practical support ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]]).

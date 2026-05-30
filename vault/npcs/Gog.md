@@ -2,6 +2,7 @@
 title: Gog
 tags:
   - npc
+  - type/troll
 appears_in:
   - "Session 32 - Fast Exploration"
 ---

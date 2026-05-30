@@ -14,6 +14,10 @@ He was apparently big on self-promotion, and some of his party's exploits were l
 ## Notes
 - He is a long-time friend of [[Wicktrimmer]], his former party member.
 - [[npcs/Wicktrimmer.md|Wicktrimmer]] believes that Balthazar does not think [[Larel]] was a real person, and is eager to prove him wrong.
+- The revelation of [[Larel's Pin]] will deeply affect him.
+- He and [[Wicktrimmer]] have argued about whether [[Larel]] existed for 20 years.
+- His co-leader in the [[Lost and Found]] was the paladin [[Grimley]].
+- The [[Lost and Found]] party explored as far as the [[Obsidian Gates]] during his career.
 
 ## Discord Insights
 

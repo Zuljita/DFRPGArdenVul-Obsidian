@@ -2,6 +2,9 @@
 title: "43a: Alpha Strike on the Cult of Set"
 tags:
   - session
+  - tradition/thothian
+  - tradition/settite
+  - tradition/demma
   - recap
 session_date: 2026-02-28
 source_url: https://dfwhiterock.blogspot.com/2026/02/dfrpg-arden-vul-session-43a-alpha.html
@@ -16,9 +19,9 @@ Warm, partly cloudy
 
 Player Characters:
 - [[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
-- [[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)
-- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)
-- [[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)
+- [[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim
+- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage
+- [[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter
 - [[npcs/Merenuithiel Lacrymosa Armaris.md|Lacrymosa]], Elven mercenary archer (Archon Shiva)
 
 Significant NPCs:

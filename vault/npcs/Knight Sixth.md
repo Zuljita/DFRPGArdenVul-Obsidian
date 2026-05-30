@@ -3,6 +3,7 @@ tags:
   - npc
   - knight
   - second-chance
+  - culture/thorcin
 aliases:
   - Knight Sixth
   - Sixt
@@ -13,6 +14,8 @@ aliases:
 
 ## Summary
 Knight Sixth (also referred to as "Sixt") is a member of an order of knights who wear amazing armor and have pale, scarred faces. They are associated with the adventuring group [[Second Chance]].
+
+His order has offered payment for information regarding his whereabouts.
 
 ## Description
 Knight Sixth is a companion or associate of the knights who stopped [[Iris]] and her group from [[Second Chance]]. One of these knights demanded to know if Iris had seen their companion, Knight Sixth.

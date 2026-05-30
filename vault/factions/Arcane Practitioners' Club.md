@@ -1,6 +1,10 @@
 ---
 tags:
   - faction
+aliases:
+  - Arcane Practitioners Club
+  - APC
+  - Arcane Practitioners Club alchemy lab
 ---
 
 # Arcane Practitioners' Club
@@ -38,5 +42,6 @@ TBD
 - Membership costs $50/month.
 - Apartments are available for rent to members for $150/week on top of the membership fee.
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]], a PC, once attempted to flirt with [[npcs/Pelteon.md|Pelteon]], who appeared not to notice.
+- Land can be purchased nearby.
 
 ## Sessions

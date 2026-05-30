@@ -1,6 +1,8 @@
 ---
 tags:
   - item
+aliases:
+  - Amulet of the Silver Tongue
 ---
 
 # Amulet of Voice
@@ -16,5 +18,6 @@ TBD
 
 ## Notes
 TBD
+- Provides Voice advantage, thus +2 to reaction rolls, among others.
 
 ## Sessions

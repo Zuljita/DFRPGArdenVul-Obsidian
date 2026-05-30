@@ -2,6 +2,7 @@
 title: Craastonistorex
 tags:
   - npc
+  - era/historical
 aliases:
   - Huge Green Dragon
   - Craastonistorex
@@ -24,7 +25,12 @@ Hostile and extremely dangerous, but willing to negotiate if it serves his inter
 - An account from approximately 50 years ago details an encounter between the dragon and a party of 12 of [[Lord Burdock]]'s men-at-arms, where he killed 10 of them. This event led Lord Burdock to forbid exploration of the ruins.
 - **Rumor:** The dragon rules the surface ruins and extorts a toll on those he catches exiting the Halls.
 - **Rumor:** He is rumored to be the son of a more ancient wyrm that lives at the bottom of the [[Great Chasm]].
+- Session 44 involves his tribute due.
+- In [[sessions/Session 26 - The Scouring of the Shire.md|Session 26]], he considered eating Briar for a paltry gift but let it slide.
+- The encounter occurred during the tenure of [[npcs/Lord Iskander Burdock.md|Lord Burdock]], who died 25 years ago.
 
 ## Relationships
 - [[Briar]]: pet wyvern serving as a scout and enforcer.
 - PCs (“Wardens of the Dam”): negotiated arrangement trading tribute for limited non‑interference.
+- [[npcs/Tuftwillig.md|Tuftwillig]]: has a stated dislike of him.
+- [[npcs/Tuftwillig.md|Tuftwillig]]: has a stated dislike of him and the undead in the [[locations/Tower of Scrutiny.md|Tower of Scrutiny]].

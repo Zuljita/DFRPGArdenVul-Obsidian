@@ -1,6 +1,7 @@
 ---
 title: Temple of Mitra Knockback
 tags:
+  - tradition/mitran
   - location
 ---
 # Temple of [[npcs/Mitra.md|Mitra]] Knockback

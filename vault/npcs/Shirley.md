@@ -26,4 +26,4 @@ Secretive.
 
 - "Shirley" is likely a fake name.
 - Her role is to manage initial contact with potential clients.
-
+- Encountered in [[sessions/Streetwise Training with the Benevolent Brotherhood.md]]

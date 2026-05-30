@@ -31,3 +31,5 @@ Recording-backed logistics notes indicate the party also used the factor as a te
 - A business founded by Wicktrimmer in Gosterwick, specializing in magical items, and possessing a secure vault. ([[notes/Discord Summary 2025-W36.md|Discord Summary 2025-W36]])
 - A banking factor operating in Gosterwick and Newmarket. ([[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]])
 - Charged retail price for Vallium's Broadsword. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])
+- [[npcs/Tresti.md|Tresti]] works for Wicktrimmer at the Rarities Factor.
+- All three locations should have safe deposit boxes available.

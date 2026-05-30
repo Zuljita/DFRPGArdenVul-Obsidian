@@ -20,53 +20,68 @@ source_type: private-discord-weekly-digest
 - Next Discord Summary: [[notes/Discord Summary 2025-W50.md|Discord Summary 2025-W50]]
 <!-- END AUTO NAV -->
 
-# Weekly Chronicle: The Right for R/R Company
-**Date:** Week ending 2025-12-12  
-**Subject:** The Tower of the Ape and Logistical Constraints
+# Weekly Knowledge Base: Week Ending 2025-12-12
 
-### Summary
-The company engaged in a significant skirmish at the Tower of the Ape against four enhanced, spear-wielding baboons. Following the battle, the company faces mounting logistical challenges regarding the transport of heavy spoils and the need for improved long-distance communication. Due to the decision to "power forward" into the dungeon while Uvash Edzuson was absent, the company is effectively isolated from the town, preventing Archon Shiva from rejoining the party and limiting access to town records.
+## 1. Summary
+The company remains locked in a high-stakes combat encounter, currently navigating a "murder closet" against a group of four enhanced, spear-wielding baboons (notably, one foe is obscured beneath another token on the battle map). Amidst the struggle, the party is grappling with the logistical burden of significant heavy loot recently recovered and contemplating long-term magical solutions for communication and utility.
 
-### Events & Actions by Character
+## 2. Events & Actions by Character
 
 **Uvash Edzuson**
-*   **Town Actions:** None this week; the cleric was absent from company business due to personal obligations and study.
-*   **Equipment Changes:** None.
+*   **Town actions taken:** None this week; the character was absent from recent engagements due to prior commitments.
+*   **Alchemy/crafting attempts:** None this week.
+*   **Research undertaken:** None this week.
+*   **Character advancement:** None this week.
+*   **Equipment changes:** None this week.
 
 **Vallium Halcyon**
-*   **Town Actions:** None this week.
-*   **Equipment Changes:** Vallium is currently sorting thirteen mail suits recovered during the delve live as the loot appears. The total weight is approximately 585 lbs, comprising one Dwarven suit, one Deino suit, five additional Deino suits, and six copper suits. The group is determining which items can be retained versus which must be abandoned due to weight constraints.
+*   **Town actions taken:** None this week.
+*   **Alchemy/crafting attempts:** None this week.
+*   **Research undertaken:** None this week.
+*   **Character advancement:** None this week.
+*   **Equipment changes:** Currently managing a massive influx of heavy mail armor, totaling approximately 585 lbs (comprising one Dwarven suit, one Deino suit, five additional Deino suits, and six copper suits).
 
 **Ioannes Grammatikos Byzantios**
-*   **Town Actions:** None this week.
-*   **Character Advancement:** Ioannes is prioritizing increases to Magery and Enhanced Reflexes (ER) Magic to reach the threshold for the *Message* spell. He notes that acquiring *Message* requires purchasing 7–8 additional spells (including *Detect Magic*), a process that will take considerable time.
+*   **Town actions taken:** None this week.
+*   **Alchemy/crafting attempts:** None this week.
+*   **Research undertaken:** None this week.
+*   **Character advancement:** None this week.
+*   **Equipment changes:** None this week.
 
 **Vaelitharon "Vael" Sunshadow**
-*   **Town Actions:** None this week.
-*   **Character Advancement:** Vael is prioritizing the acquisition of *Soul Rider* and *Message* to facilitate coordinated party actions at a distance. *Soul Rider* is preferred over *Telepathy* because *Telepathy* is obscenely expensive to maintain in the medium term. Vael intends to spend points toward *Soul Rider* now, with the goal of maintaining it for free once a specific FP level is reached.
-*   **Equipment Changes:** None.
+*   **Town actions taken:** None this week.
+*   **Alchemy/crafting attempts:** None this week.
+*   **Research undertaken:** None this week.
+*   **Character advancement:** None this week.
+*   **Equipment changes:** None this week.
 
-**Archon Shiva (Mercenary)**
-*   **Town Actions:** None this week.
-*   **Status:** Archon Shiva dropped out of the previous session due to exhaustion. Due to the company's decision to power forward into the dungeon without waiting for Uvash, Shiva is currently unable to rejoin the party.
-*   **Note:** Participated in the engagement at the Tower of the Ape prior to dropping out.
+**Zuljita**
+*   **Town actions taken:** Currently performing real-time sorting and cataloging of loot as it is acquired during the current delve.
+*   **Alchemy/crafting attempts:** None this week.
+*   **Research undertaken:** Evaluating various mind-based spells, specifically *Telepathy*, *Soul Rider*, and *Message*, to determine the most cost-effective method for long-distance coordination.
+*   **Character advancement:** Planning to invest in *Soul Rider* and *Message*; aiming to reach a level of Magery where 2 FP spells can be maintained without expenditure of Focus Points.
+*   **Equipment changes:** None this week.
 
-### Lore & Discoveries
-*   **The Arcane Practitioners Club:** This establishment is situated in isolation within the Future Town Walls, with no other development in its immediate vicinity. A cemetery lies approximately 50 yards to the west, and the nearest buildings are located roughly 50 yards to the northeast. (Source: Inquiry of local records).
-*   **Lover's Tokens:** These items are single-use only and require a period of preparation before they can be utilized. (Source: Field observation).
-*   **Tower of the Ape:** The engagement involved four enhanced, spear-wielding baboons. (Source: Battle report correction).
+## 3. Lore & Discoveries
+*   **Geography of the Arcane Practitioners Club:** The club is situated in an isolated area within the Future Town Walls, with no other immediate development nearby. A cemetery is located approximately 50 yards to the west, and the nearest inhabited buildings are roughly 50 yards to the northeast. The surrounding area contains many empty lots.
 
-### World Rulings
-*   **Property Acquisition:** The empty lots surrounding the Arcane Practitioners Club are confirmed to exist. However, the characters are currently "trapped in a murder closet" within the dungeon and cannot access town records to confirm if these lots are available for purchase.
-*   **Teleportation Mechanics:** The utility of using *Simple* (Gestures) or *Complex* (Speech) illusion spells to pass messages through walls without line of sight is under consideration, as these spells may allow control of the illusion without seeing it.
+## 4. World Rulings
+*   **Lover's Tokens:** These items are single-use only and require specific preparation before they can be utilized.
+*   **Trade Rates:** The current delve is operating under a sale agreement of 40% of item value.
 
-### Tactical Planning
-*   **Communication Coordination:** The company intends to utilize *Soul Rider* and *Message* as a primary method for one-way or limited two-way communication during split-party maneuvers (e.g., when using *Blink Other*). *Soul Rider* allows Vael to know immediately if a blinded or invisible ally is in danger, while *Message* provides one-way communication.
-*   **Logistical Transport:** There is an ongoing discussion regarding the use of the "rug" to facilitate the transport of heavy loot or the recruitment of additional mercenaries. If the rug functions correctly, it may allow the company to haul the 585 lbs of mail suits out of the dungeon.
-*   **Hypothesis - Sympathetic Links:** Vaelitharon has proposed the possibility of using one rug as a "sympathetic link" to a seeker on another rug, though this remains untested.
+## 5. Item Intelligence
+*   **Mail Suits (Various):** The party has recovered 13 suits of mail (1 Dwarven, 1 Deino, 5 Deino, and 6 copper). Due to the extreme weight (approx. 585 lbs total), these items may be left behind unless additional transport capacity is secured.
+*   **The Rug:** There is a hypothesis that "the rug" could serve as a primary method for hauling heavy loot or even transporting mercenaries, provided any current obstructions on the rug are cleared.
 
-### Unresolved Threads
-*   **Weight Management:** The company currently lacks a sufficient method (such as a wheelbarrow or *Bag of Holding*) to transport the 585 lbs of mail suits without abandoning some of the copper-grade spoils.
-*   **Property Acquisition:** It remains unconfirmed whether the empty lots surrounding the Arcane Practitioners Club are available for purchase, as the characters cannot currently check town records.
-*   **Hypothesis - Sympathetic Links:** Vaelitharon has proposed the possibility of using one rug as a "sympathetic link" to a seeker on another rug, though this remains untested.
-*   **Hypothesis - Illusionary Communication:** The utility of using *Simple* or *Complex Gesture* illusion spells to pass messages through walls is currently under consideration.
+## 6. Tactical Planning
+*   **Communication Strategies:** The company is considering several methods for maintaining contact during split-party maneuvers:
+    *   Utilizing *Blink Other* to bypass doors that lack keyholes or hinges, followed by communication.
+    *   Combining *Soul Rider* and *Message* to establish a two-way communication link.
+    *   Investigating the use of illusion spells (*Simple* or *Complex Gestures*) to pass information through physical barriers.
+
+## 7. Unresolved Threads
+*   **Logistics:** The necessity of acquiring a wheelbarrow or a *Bag of Holding* to manage the weight of the recovered mail armor.
+*   **Expansion:** Whether the empty lots surrounding the Arcane Practitioners Club are available for purchase.
+*   **Combat:** The resolution of the current engagement with the spear-wielding baboons.
+*   **The Rug:** Determining if the rug is functional for heavy hauling once cleared of any obstructions, and whether it could be used to pick up a mercenary.
+*   **Procurement:** The potential for requesting a reusable magical item from Wicktrimmer to assist with long-term utility.

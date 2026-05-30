@@ -2,6 +2,9 @@
 title: Jacobus
 tags:
 - npc
+  - tradition/thothian
+  - tradition/demma
+  - era/historical
 aliases:
   - Jacobus, former Prior of Thoth, current friendly ghost
   - Prior Jacobus
@@ -23,3 +26,4 @@ Ghost of a former Claustral Prior of [[Thoth]]; left behind a mapped [[locations
   - [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]] — Vallium led the others through the rest of [[npcs/Jacobus.md|Jacobus]]'s area, but they didn't find any other treasure.
 
 ## Notes
+- Gave a single key, originally found in a hat.

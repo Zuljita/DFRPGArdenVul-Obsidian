@@ -20,6 +20,7 @@ A seemingly ordinary cloth bag, often made of canvas or leather, but magically e
 A ubiquitous magic item for adventurers. The party possesses one.
 
 ## Notes
+- Can be used to transport items such as hammers, rams, spikes, rods, scrolls, rings, and a wheelbarrow into or out of Arden Vul.
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]

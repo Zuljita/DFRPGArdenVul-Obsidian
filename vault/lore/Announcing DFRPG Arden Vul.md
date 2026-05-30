@@ -2,6 +2,9 @@
 tags:
   - lore
   - culture/archontean
+  - tradition/demma
+  - tradition/mitran
+  - culture/thorcin
   - culture/thorcin
 ---
 
@@ -30,8 +33,8 @@ The campaign uses the Dungeon Fantasy Roleplaying Game (DFRPG) as its base rule 
 ## Setting Introduction
 
 -   **World Name:** [[lore/Magae.md|Magae]].
--   **Major Power:** The [[lore/Archontean Empire.md|Archontean Empire]].
--   **Historical Context:** The old [[lore/Archontean Empire.md|Archontean Empire]] (analogous to ancient Rome) expanded across nearby islands and parts of [[lore/Irthuin.md|Irthuin]]. 1200 years ago, a magical civil war led survivors to retreat to the home island of [[Mithruin]]. The current empire (analogous to Byzantium) is re-occupying old territories. [[Arden Vul]] was a frontier city destroyed in this civil war.
+-   **Major Power:** The [[factions/Archontean Empire.md|Archontean Empire]].
+-   **Historical Context:** The old [[factions/Archontean Empire.md|Archontean Empire]] (analogous to ancient Rome) expanded across nearby islands and parts of [[lore/Irthuin.md|Irthuin]]. 1200 years ago, a magical civil war led survivors to retreat to the home island of [[Mithruin]]. The current empire (analogous to Byzantium) is re-occupying old territories. [[Arden Vul]] was a frontier city destroyed in this civil war.
 -   **Local Geography:** The play area is [[Burdock's Valley]] (90x80 miles), containing [[Arden Vul]], [[Gosterwick]] (half-day's march south of [[Arden Vul]]), [[Newmarket]] (3 days further south), six small villages, and a couple of castles. Most inhabitants are [[lore/Thorcin.md|Thorcin]].
 
 ## Cultures
@@ -40,7 +43,7 @@ The campaign uses the Dungeon Fantasy Roleplaying Game (DFRPG) as its base rule 
 -   **[[lore/Thorcin.md|Thorcin]]**: Local population in [[lore/Irthuin.md|Irthuin]], conquered then independent, now conquered again.
 -   **[[Wiskin]]**: Vikings from northern islands.
 -   **[[Khumus]]**: Horse nomads from far to the west.
--   **[[Halflings]] & [[Imperial Goblin]]s**: Assimilated into the [[lore/Archontean Empire.md|Archontean Empire]], though goblins are second-class citizens.
+-   **[[Halflings]] & [[Imperial Goblin]]s**: Assimilated into the [[factions/Archontean Empire.md|Archontean Empire]], though goblins are second-class citizens.
 -   **[[Elves]] & [[Dwarves]]**: Independent, secretive kingdoms outside the Empire.
 
 ## Languages

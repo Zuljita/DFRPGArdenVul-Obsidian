@@ -2,6 +2,8 @@
 title: "40: Taking Command"
 tags:
   - session
+  - tradition/thothian
+  - tradition/demma
   - recap
 session_date: 2026-01-31
 source_url: https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-40-taking.html
@@ -16,10 +18,10 @@ Weather: 
 Frigid, party cloudy, snowy
 
 Player Characters:
-- [[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)
+- [[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
-- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)
-- [[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)
+- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage
+- [[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim
 
 Significant NPCs:
 - Rudishva floor cleaning robot

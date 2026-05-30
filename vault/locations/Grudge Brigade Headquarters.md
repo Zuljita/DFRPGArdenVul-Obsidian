@@ -1,15 +1,11 @@
 ---
+title: "Grudge Brigade Headquarters"
 tags:
   - location
+  - redirect
+redirect_to: vault/locations/Gosterwick.md
+status: redirect
 ---
+# Grudge Brigade Headquarters
 
-# [[Gosterwick]] mercenary company.
-
-## Level
-Surface.
-
-## Aliases
-- [[factions/Grudge Brigade.md|Grudge Brigade]] HQ
-
-## Notes
-The party often recruits mercenaries here.
+This page has been merged into [[locations/Gosterwick.md|Gosterwick]]. See the Districts & Landmarks and Notable Establishments sections.

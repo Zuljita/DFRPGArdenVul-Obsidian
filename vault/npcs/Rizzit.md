@@ -12,3 +12,4 @@ Imprisoned demon described in notes as a “weird purple wax” figure near [[lo
 
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
+- [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]

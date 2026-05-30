@@ -3,6 +3,7 @@ tags:
   - faction
   - culture/archontean
   - culture/thorcin
+  - culture/thorcin
 ---
 
 # Thorcin Pantheon
@@ -17,7 +18,7 @@ To guide and protect the [[lore/Thorcin.md|Thorcin]] people.
 The specific members of the Thorcin Pantheon are not fully enumerated in the provided text.
 
 ## Allies & Rivals
-- [[The Ten]] and [[The Seventeen]] (the [[lore/Archontean Empire.md|Archontean Empire]]'s pantheons)
+- [[The Ten]] and [[The Seventeen]] (the [[factions/Archontean Empire.md|Archontean Empire]]'s pantheons)
 
 ## Notes
 Most of the Thorcin pantheon has temples in the city of [[Newmarket]].

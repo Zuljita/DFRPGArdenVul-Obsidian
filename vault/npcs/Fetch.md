@@ -2,6 +2,8 @@
 title: Fetch
 tags:
 - npc
+  - tradition/thothian
+  - tradition/mitran
 aliases:
   - Fetch, elderly Archontean slave prisoner
 appears_in:

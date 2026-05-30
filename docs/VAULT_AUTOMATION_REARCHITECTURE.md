@@ -6,9 +6,10 @@ The previous Hermes vault jobs are paused:
 
 - `f0d471864312` - Knowledge Graph Enrichment Agent
 - `3f4b10dff606` - vault-placeholder-janitor
-- `b33890342ddf` - Archivist Pipeline Automator
 
 They should stay paused until the pipeline below exists and has passed dry-run validation.
+
+The obsolete general-purpose Hermes vault job was deleted. Do not recreate or restart that pattern; it used an unbounded agent and an obsolete external refiner pipeline.
 
 ## Failure Mode
 
@@ -274,7 +275,7 @@ Allowed proposal types:
 - append sourced bullet to an existing page section
 - add alias to existing frontmatter
 - create a new stub for a true new entity
-- add LCE connection with source citation
+- append connection bullet to a location page's `## Connections` section
 - flag conflict for manual review
 
 Output:
@@ -329,7 +330,7 @@ Each queue item includes RAG search queries broad enough to preserve context, fo
 The intended research loop is:
 
 1. Select the highest-scoring article from the queue.
-2. Search private RAG with the article title, type, aliases, and campaign context queries.
+2. Search the vault-rag Chroma collection with the article title, type, aliases, and campaign context queries.
 3. Retrieve source windows from canonical and structured source classes:
    - Blogspot session recaps stored in `vault/sessions/`
    - private weekly Discord digests imported to `vault/notes/`
@@ -338,16 +339,11 @@ The intended research loop is:
 5. Ask a verifier LLM to classify each proposed addition as supported, contradicted, ambiguous, or not found.
 6. Build a patch only for supported additions.
 7. Run validation.
-8. After accepted edits are applied, refresh private RAG with the changed vault Markdown files.
+8. After accepted edits are applied, refresh the vault-rag Chroma collection so subsequent research sees the new content.
 
-The current repo-side hook for step 8 is:
+The vault-rag store is a sibling of the DFRPG rules Chroma collection (`MechanicsVault`) and lives at `/home/kyle/rag_project/vaults/ArdenVault/index/` with collection name `arden_vul_vault`. It uses Ollama `bge-m3` for embeddings. Connection target and collection name are the separator between vault data and any other RAG corpus (rules, paperclip, etc.). No project tokens or shared databases.
 
-```bash
-python3 scripts/vault_automation.py refresh-rag --dry-run
-python3 scripts/vault_automation.py refresh-rag --limit 25 --wait
-```
-
-The ingest endpoint is configured only through environment variables or ignored local config. The public repo must not contain private service URLs, private paths, model names, or chat tooling names.
+The repo-side hooks for ingest/search live in `scripts/vault_automation.py` (subcommands `ingest-vault-rag`, `refresh-vault-rag`); private paths and model names stay outside git.
 
 ### 5C. Media And Library Updates
 
@@ -426,7 +422,7 @@ python3 scripts/vault_automation.py run-low-risk
 - `last_validation.json`
 - `runs/<run-id>/run.json`
 
-It also refreshes the article and media improvement queues on each scheduled pass. Private RAG refresh remains disabled unless `rag_refresh_limit` is explicitly set above zero in ignored local config.
+It also refreshes the article and media improvement queues on each scheduled pass. Vault-rag refresh is a separate manual step (`refresh-vault-rag`) until the research lane is stable enough to schedule.
 
 Systemd templates are checked in under `docs/systemd/`:
 

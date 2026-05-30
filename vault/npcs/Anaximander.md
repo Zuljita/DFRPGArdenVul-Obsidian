@@ -2,6 +2,7 @@
 title: Anaximander
 tags:
 - npc
+  - tradition/mitran
 aliases:
   - Anaximander, ancient insane cleric of Mitra
   - Anaximander, ancient sage and cleric of Mitra
@@ -21,3 +22,4 @@ appears_in:
 ## Discord Insights
 
 - Sleeping the first two times, awake the third. States the ram could be the Sheep's Head Legion but not the official Sheep's Head Rangers insignia. Not an expert on military history. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])
+- Does not recall snake, cat, lizard, or pegasus legions, and notes they were not part of Adrienic's Expedition to re-conquer the Halls of Arden Vul.

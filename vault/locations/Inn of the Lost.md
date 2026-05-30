@@ -29,6 +29,7 @@ The Inn of the Lost is an underground inn located on the Arena Level of the Hall
 - A large door is marked with a sign in Mithric ("House of Isocorax") before the passage turns toward the inn entrance.
 - East of the inn's merchant stalls (chemist, baker, cleric, weapons dealer), there is a cave-in. Beyond the cave-in is a passage leading to a Rudishva-architecture room with a kaliyani statue.
 - The area to the north of the merchant stalls was described by the chemist [[npcs/Virgoolian.md|Virgoolian]] as leading to "death."
+- The Inn is located east of the merchant stalls and is accessible through an unlocked door.
 
 ## Connections
 - [[locations/Arena.md|Arena]] — The main draw for visitors to this level.

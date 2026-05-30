@@ -3,6 +3,9 @@ title: "22: The Oracle of Thoth and The Litany of Light"
 tags:
   - session
   - recap
+  - tradition/thothian
+  - tradition/demma
+  - tradition/mitran
 session_id: 22
 session_date: 2025-08-09
 source_url: https://dfwhiterock.blogspot.com/2025/08/dfrpg-arden-vul-session-22-oracle-of.html
@@ -21,8 +24,8 @@ Hot, dry
 
 Player Characters: 
 
-[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
+[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage
+[[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter
 [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 [[pcs/grudge-brigade/Lacrymosa.md|Merenuithiel]] "[[pcs/grudge-brigade/Lacrymosa.md|Merenuithiel Lacrymosa Armaris]]" [[pcs/grudge-brigade/Lacrymosa.md|Merenuithiel Lacrymosa Armaris]], Elven mercenary archer (Archon Shiva)
 

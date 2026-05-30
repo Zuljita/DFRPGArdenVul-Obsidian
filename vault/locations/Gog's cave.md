@@ -3,4 +3,4 @@ tags:
   - location
 ---
 
-# [[npcs/Gog.md|Gog]]
+# Gog's cave

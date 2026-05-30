@@ -1,83 +1,87 @@
 ---
+title: "Discord Summary 2025-W23"
 tags:
-  - note
   - discord-summary
+  - canonical-source
+week_ending: 2025-06-13
+source_type: private-discord-weekly-digest
+source_week: week-ending-2025-06-13-2300-central
 ---
 
-# Discord Summary: 2025-W23
+# Discord Summary 2025-W23
 
-**Date Range:** 2025-06-09 to 2025-06-15
-**Messages:** 33
+## Source
+- Private Discord weekly digest
+- Week ending: 2025-06-13
 
-## Distilled In-World Knowledge
+## Navigation
 
-### Places & Events
-- The Forum of Set features a large statue of Set with slaves at his feet, a marketplace, and hosts Mysteries. Vallium Halcyon attended the First Mystery and found it underwhelming. [rumors | 2025-06-13]
-- Vallium Halcyon attended the First Mystery at the Forum of Set and found it underwhelming. The speaker refused to reveal what it was, saying "it's a mystery!" When they began to comment on the Second Mystery, the statement was intentionally cut off ("tha...") — possibly as a joke or the speaker was interrupted. [rumors | 2025-06-13]
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W22.md|Discord Summary 2025-W22]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W24.md|Discord Summary 2025-W24]]
+<!-- END AUTO NAV -->
 
-### Threats & Warnings
-- Gedrick Malachite reports that doppelgangers have been appearing in town and advises carefully inspecting any dwarf encountered, as they may be doppelgangers in disguise. [rumors | 2025-06-13; pc-notes | 2025-06-13]
-- A war is ongoing between dwarves and doppelgangers. [rumors | 2025-06-13]
+# Weekly Knowledge Base: 2025-06-13
 
-### NPCs & Opportunities
-- The wizard rescued by the party is now in town and could potentially serve as a lackey if the party can afford to hire him. [archive | 2025-06-13; pc-notes | 2025-06-13]
+## 1. Summary
+The company has focused on the liquidation and identification of recent spoils, alongside a significant shift in how expedition profits are calculated for Experience Point (XP) purposes. While some members were absent due to travel, others have been engaged in research regarding the Great Caverns and preparing for upcoming encounters with local threats.
 
-### Downtime Activities
-- Research check: Success, new rumor discovered. Alchemy check: Failure, potion prices increased by 10%. [archive | 2025-06-13; town-rolls | 2025-06-13]
-- Vallium Halcyon spent $500 to gain a +3 bonus to his Carousing roll in Newmarket. [town-rolls | 2025-06-13]
+## 2. Events & Actions by Character
 
----
-## ✅ Note on "Truncation"
+**Uvash Edzuroson**
+*   **Town actions:** Spent time touring the local sights as a visitor to the region; no significant purchases or commissions were recorded.
 
-The Second Mystery comment ending in "tha..." appears to be **intentionally incomplete** (as a joke or interruption) in the original Discord message, not a data extraction error. The speaker says "No, I won't tell you what it is... it's a mystery!" and then begins to say something about the Second Mystery but cuts off.
+**Vallium Halcyon**
+*   **Town actions:** Invested $500 into a specialized endeavor to secure a +3 bonus to his Carousing rolls for upcoming ventures in Newmarket.
+*   **Equipment changes:** Currently wearing the Belt of Strength +1, assuming the role of primary combatant during the absence of Vaelitharon Sunshadow.
 
----
-*Generated: 2026-03-16 19:31*
-*Distilled: 2026-03-18*
+**Ioannes Grammatikos Byzantios**
+*   **Town actions:** Undertook extensive identification of recent loot through the Arcane Practitioners Club, Torunn the smith, and Chairduster the jeweler. 
+*   **Alchemy/crafting:** Attempted to brew a Strength potion; the attempt was unsuccessful, resulting in a 10% increase in future brewing costs for this recipe.
+*   **Research undertaken:** Conducted research regarding the Great Caverns; the investigation was successful and yielded new rumors regarding the area.
+*   **Character advancement:** Prioritizing reaching IQ 13 in upcoming sessions.
+*   **Equipment changes:** Personally holds title to several high-value items, including a magic shortsword, a glass cube, a cursed shield, and a red glass square (identified as one of several teleportation keys).
 
-- **Grudge Brigade** (2025-06-09): Do PCs (not mercs) using potions, scrolls, arrows or other expendable items count against loot for XP purposes?
-- **GM** (2025-06-09): Yes, loot gained is net of resources used.
-- **Grudge Brigade** (2025-06-09): So a $1k potion found, kept and eventually used costs $2k in loot value?  ($1k lower loot for not immediately selling it, then a later $1k loot deduction for using it?)
-- **GM** (2025-06-09): That's one way to frame it, though it mostly doesn't matter unless you hit right on an XP breakpoint. You get enough net loot for 0, 1, or 2 XP. What qualifies as "enough" goes up as characters gain points. This is all Peter's stuff from DF21. With different numbers. It's also basically AD&D gold...
-- **Grudge Brigade** (2025-06-09): I can't find anything remotely like it hinted in DF21 (which I also didn't know we were using), and DFE92 only mentions CoL and power items, not potions or rations, but you get to set the rules for your campaign, so long as they are clear.
-- **GM** (2025-06-09): DF21 page 10, but with different numbers. The intent is you get XP for exploration and finding treasure, not for passing time. DF Whiterock was ruined by excessive XP for doing nothing so this is mostly a reaction to that.
-- **Grudge Brigade** (2025-06-09): I don't think we're talking about the same thing at all.  This is just about what counts against profit. I don't think that's what Peter suggests in DF21 either, per https://dungeonfantastic.blogspot.com/2020/04/the-cost-of-doing-business.html, but that's not really a question, so I guess you've ...
-- **GM** (2025-06-09): It's net profit.  What you pull out of the dungeon minus what you spend to get it.  I don't account for capital expenses like durable weapons, only expendibles used. Peter ignores the expenses but I don't, true. Most of the time the expenses don't really matter because they're small, but if you s...
-- **Grudge Brigade** (2025-06-09): Cost of living is what the $150 base is supposed to represent, actually.  But cp x 10 makes more sense in the long rune, and could easily become cp x 20 starting at 200 or whatever.
-- **GM** (2025-06-13): Research: success, new rumor found.  Alchemy: fail, +10% price.
-- **GM** (2025-06-13): Research: success, new rumor found.  Alchemy: fail, +10% price.
-- **Vallium Halcyon** (2025-06-13): Vallium spent $500 for a +3 to his Carousing roll (re: Newmarket), but did you say you wanted to resolve all the Newmarket things at the table?
-- **Vallium Halcyon** (2025-06-13): Vallium spent $500 for a +3 to his Carousing roll (re: Newmarket), but did you say you wanted to resolve all the Newmarket things at the table?
-- **GM** (2025-06-13): Yeah, we'll do the Newmarket trip in the first few minutes tonight. (For the PCs who are back anyway; Vael and Michael can resolve theirs later.)
-- **GM** (2025-06-13): Yeah, we'll do the Newmarket trip in the first few minutes tonight. (For the PCs who are back anyway; Vael and Michael can resolve theirs later.)
-- **Uvash** (2025-06-13): Gedrick(?) Malachite says that doppelgangers have been showing up here. He also tells to give every dwarf a good look over, as they might be a doppelganger. Wizard we saved is also in the town. Possible lackey if we can save up the cash to get it.
+**Vaelitharon "Vulnerable" Sunshadow**
+*   **Town actions:** None; currently traveling for an extended period.
 
-### #grudge-brigade
+**The GOAT (Mercenary)**
+*   **Character advancement:** Updated skill: Create Animal (Level 20).
 
-- **GM** (2025-06-14): "People"
+**Basilisk (Mercenary)**
+*   **Character advancement:** Updated skills: Spider Climb (18), Move (6), Throwing (13), and Fast-Draw: Nageteppos (11).
 
-### #pc-notes
+## 3. Lore & Discoveries
+*   **The Forum of Set:** Recent visits to the Forum revealed the presence of the First Mystery (details classified) and an impressive Second Mystery. However, inquiries regarding a Third Mystery were met with threats of enslavement by the local Deacon. (Source: Rumor 12).
+*   **Doppelganger Incursion:** Gedrick Malachite has reported sightings of doppelgangers within the town; he advises that all dwarves should be closely inspected for deception. (Source: Gedrick Malachite).
+*   **Albino Baboons:** It is confirmed that these creatures possess a Strength Modifier of 0, though their intelligent four-armed leaders possess an SM of +1. (Source: Field observation).
+*   **The Twelve Labors of Arden:** A common edition of this text was recovered; while informative, it holds little market value. It is noted as potentially useful for solving puzzles involving purification at the waterfall fountain. (Source: Recovered text).
 
-- **Uvash** (2025-06-13): Gedrick(?) Malachite says that doppelgangers have been showing up here. He also tells to give every dwarf a good look over, as they might be a doppelganger. Wizard we saved is also in the town. Possible lackey if we can save up the cash to get it.
+## 4. World Rulings
+*   **XP Calculation Reform:** The method for calculating Experience Points has transitioned from net profit to gross profit. XP is now determined by the total value of loot brought into town and converted to cash, without subtracting expedition expenses such as rations or consumables.
+*   **Spell Maintenance in Mana Zones:** The cost of maintaining a spell is dictated by the more disadvantageous location: either where the caster is standing or where the spell's effect is operating. If multiple paths exist between the caster and the target, the caster may choose a path that avoids low-mana zones to maintain efficiency.
+*   **Wild Talent Casting:** When utilizing Wild Talent, the casting and maintenance costs are calculated based on the character's IQ + Magery (e.g., Dark Vision 5/2 becomes 3/0).
+*   **Underwater Combat Constraints:** Bows, crossbows, and non-sealed firearms are non-functional underwater. Throwing axes are ineffective in aquatic environments unless the *Swim* spell is active. While a *Ring of Free Action* allows for full movement speed underwater, it does not grant automatic success on swimming rolls; there remains a risk of sinking.
+*   **Weapon Enchantment Stacking:** Enchantments on bows and arrows (such as Puissance or Penetrating) are cumulative, provided the bonuses do not stem from identical, non-leveled abilities.
 
-### #questions-for-gm
+## 5. Item Intelligence
+*   **Returning Pebble:** A magical pebble that returns to its owner approximately every 30 minutes. Because it cannot be permanently parted with, it is considered difficult to value for trade. (Source: Identification at APC).
+*   **Ghost's Circlet:** A valuable item composed of platinum. (Source: Identification at enough APC).
+*   **Cursed Shield:** A worthless and cursed item found in the grotto; it is recommended to be discarded or gifted to an enemy. (Source: Identification at APC).
+*   **Red Glass Square:** Identified as one of several teleportation keys. (Source: Identification at APC).
+*   **Shortsword (Luck Blade Variant):** A fine and balanced weapon that assists in resisting spells, though it has no remaining "Wishes" to grant. (Source: Pelteon).
+*   **Oculus (Greatsword):** A highly valuable magic greatsword ($7200); however, its legal sale in Gosterwick is complicated by the high profile of its previous owner. (Source: Identification at APC).
+*   **Knight's Scale Armor:** A magical and valuable piece of armor that is less difficult to sell than the Oculus due to lower traceability. (Source: Identification at APC).
+*   **Strength Potion:** An affordable consumable costing roughly the same as two minor healing potions; effects last for one hour. (Source: Ioannes Grammatikos Byzantios).
+*   **Communal Inventory:** The company currently possesses several Flight potions.
 
-- **Grudge Brigade** (2025-06-09): Do PCs (not mercs) using potions, scrolls, arrows or other expendable items count against loot for XP purposes?
-- **GM** (2025-06-09): Yes, loot gained is net of resources used.
-- **Grudge Brigade** (2025-06-09): So a $1k potion found, kept and eventually used costs $2k in loot value?  ($1k lower loot for not immediately selling it, then a later $1k loot deduction for using it?)
-- **GM** (2025-06-09): That's one way to frame it, though it mostly doesn't matter unless you hit right on an XP breakpoint. You get enough net loot for 0, 1, or 2 XP. What qualifies as "enough" goes up as characters gain points. This is all Peter's stuff from DF21. With different numbers. It's also basically AD&D gold...
-- **Grudge Brigade** (2025-06-09): I can't find anything remotely like it hinted in DF21 (which I also didn't know we were using), and DFE92 only mentions CoL and power items, not potions or rations, but you get the rules for your campaign, so long as they are clear.
-- **GM** (2025-06-09): DF21 page 10, but with different numbers. The intent is you get XP for exploration and finding treasure, not for passing time. DF Whiterock was ruined by excessive XP for doing nothing so this is mostly a reaction to that.
-- **Grudge Brigade** (2025-06-09): I don't think we're talking about the same thing at all.  This is just about what counts against profit. I don't think that's what Peter suggests in DF21 either, per https://dungeonfantastic.blogspot.com/2020/04/the-cost-of-doing-business.html, but that's not really a question, so I guess you've ...
-- **GM** (2025-06-09): It's net profit.  What you pull out of the dungeon minus what you spend to get it.  I don't account for capital expenses like durable weapons, only expendibles used. Peter ignores the expenses but I don't, true. Most of the time the expenses don't really matter because they're small, but if you s...
-- **Grudge Brigade** (2025-06-09): Cost of living is what the $150 base is supposed to represent, actually.  But cp x 10 makes more sense in the long rune, and could easily become cp x 20 starting at 200 or whatever.
+## 6. Tactical Planning
+*   **The Great Caverns:** Discussion is ongoing regarding logistics for exploring the caverns, specifically the potential use of *Apportation* and basic climbing supplies (ropes and hooks) to navigate elevation changes.
+*   **Newmarket Expedition:** A resolution of recent events in Newmarket is planned for the upcoming session.
+*   **The Halflings/Waterfall Caves:** There is ongoing debate regarding whether to confront the halfling populations or focus on the waterfall caves, provided the company possesses the necessary *Swim* and *Breathe Water* capabilities.
 
-### #town-rolls
-
-- **GM** (2025-06-13): Research: success, new rumor found.  Alchemy: fail, +10% price.
-- **Vallium Halcyon** (2025-06-13): Vallium spent $500 for a +3 to his Carousing roll (re: Newmarket), but did you say you wanted to resolve all the Newmarket things at the table?
-- **GM** (2025-06-13): Yeah, we'll do the Newmarket trip in the first few minutes tonight. (For the PCs who are back anyway; Vael and Michael can resolve theirs later.)
-
----
-*Generated: 2026-03-16 19:31*
-*Distilled: 2026-03-18*
+## 7. Unresolved Threads
+*   **The Identity of the Saved Wizard:** The true nature and potential utility of the wizard rescued during recent events remains unknown.
+*   **Halfling Monetization/Tactics:** Whether the halflings can be leveraged for profit or must be dealt with via combat/stealth remains undecided; there is also consideration regarding the use of Magebane grenades against their magic users.
+*   **Gog's Territory Logistics:** The specific requirements for a successful foray into Gog's territory (e.g., food supplies) are still being assessed.
+*   **The "Orca-Sized" Turtle:** Whether to actively pursue the legendary massive turtle mentioned in recent reports remains an open question.

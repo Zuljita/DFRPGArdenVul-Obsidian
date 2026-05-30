@@ -2,6 +2,7 @@
 title: Knight Commander
 tags:
   - npc
+  - culture/thorcin
 appears_in:
   - "Session 8a - Never Trust a Scorpion"
 ---
@@ -11,7 +12,8 @@ appears_in:
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
 
 ## History
-- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]] — Dundee, Thorcin barbarian (Adam) Vaelethron 'Vael' Sunshadow, Half-Elven mage (Kyle) Significant NPCs: Lyssandra and [[npcs/Pelteon.md|Pelteon]], wizards of the Arcane Practitioners' Club [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon Basileon]], ruler of [[locations/Gosterwick.md|Gosterwick]] [[npcs/Freydis the Stern.md|Freydis the Stern]], steward to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] [[factio...
+- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]] — Dundee, Thorcin barbarian Vaelethron 'Vael' Sunshadow, Half-Elven mage Significant NPCs: Lyssandra and [[npcs/Pelteon.md|Pelteon]], wizards of the Arcane Practitioners' Club [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon Basileon]], ruler of [[locations/Gosterwick.md|Gosterwick]] [[npcs/Freydis the Stern.md|Freydis the Stern]], steward to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] [[factio...
   - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]] — The leader of the knights introduced herself as [[npcs/Sir Lucia.md|Sir Lucia]], a [[npcs/Knight Commander.md|Knight Commander]], and said they were tasked with recovering the body of the Archon.
 
 ## Notes
+- Member of [[factions/Knights of the Azure Shield.md|Knights of the Azure Shield]]

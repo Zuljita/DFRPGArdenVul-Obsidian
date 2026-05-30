@@ -2,6 +2,8 @@
 title: "37: Deino and the Eyeballs"
 tags:
   - session
+  - tradition/thothian
+  - tradition/demma
   - recap
 session_date: 2026-01-10
 source_url: https://dfwhiterock.blogspot.com/2026/01/dfrpg-arden-vul-session-37-deino-and.html
@@ -16,14 +18,14 @@ Weather: 
 Warm, overcast
 
 Player Characters: 
-[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage (Kyle)[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim (Cosmo)
+[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim
 
 Significant NPCs:
 - [[npcs/Wicktrimmer.md|Wicktrimmer]], Imperial goblin merchant
 - [[npcs/Fael.md|Fael]], half-elven druid
 - [[npcs/Onyx.md|Onyx]], cat genius
 - [[npcs/Avatar of Bastet.md|Avatar of Bastet]], ancient goddess of cats
-- [[npcs/Basil of Narsileon.md|Basil of Narsileon]], [[factions/Right for Riches.md|Right for Riches]] employee
+- [[npcs/Basil of Narsileon.md|Basil of Narsileon]], [[factions/Right for Riches Company.md|Right for Riches]] employee
 - Many goblins
 - Many beastmen
 - [[npcs/Count Skleros.md|Count Skleros]], beastman commander

@@ -1,8 +1,14 @@
 ---
 title: Forum of Set
+aliases:
+  - Goblin Forum
+  - Set Forum
 tags:
   - location
   - iconic
+  - tradition/thothian
+  - tradition/settite
+  - culture/thorcin
 appears_in:
   - "Session 25 - Looking for the Back Door to the Forum of Set"
   - "Session 34c - Burglary and Death"

@@ -14,11 +14,14 @@ A sturdy belt, often crafted with dwarven motifs, that magically imbues the wear
 ## Properties
 - Magical.
 - Grants dwarven traits or abilities.
+- Provides +1 Charisma vs dwarves and causes rapid beard growth.
 
 ## Known History
 A classic magic item in fantasy settings, likely present in the world of [[locations/Arden Vul.md|Arden Vul]].
 
 ## Notes
 Owned by [[Ioannes]]
+- Not a party item.
+
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]

@@ -2,18 +2,22 @@
 tags:
   - lore
   - culture/archontean
+  - tradition/demma
+  - tradition/mitran
+  - culture/thorcin
+  - culture/wiskin
   - culture/thorcin
 ---
 
 # Religion in [[locations/Arden Vul.md|Arden Vul]]
 
 ## Summary
-The religious landscape of the [[lore/Archontean Empire.md|Archontean Empire]] is diverse, with a state-sponsored pantheon, various other cultural pantheons, and fringe or illegal cults. The prominence of a deity's cult can vary significantly by location.
+The religious landscape of the [[factions/Archontean Empire.md|Archontean Empire]] is diverse, with a state-sponsored pantheon, various other cultural pantheons, and fringe or illegal cults. The prominence of a deity's cult can vary significantly by location.
 
 ## Key Concepts
-- **The Ten**: The ten major gods of the [[lore/Archontean Empire.md|Archontean Empire]].
-- **The Seventeen**: The seventeen minor gods of the [[lore/Archontean Empire.md|Archontean Empire]].
-- **The Twelve**: A group of twelve gods no longer sponsored by the [[lore/Archontean Empire.md|Archontean Empire]].
+- **The Ten**: The ten major gods of the [[factions/Archontean Empire.md|Archontean Empire]].
+- **The Seventeen**: The seventeen minor gods of the [[factions/Archontean Empire.md|Archontean Empire]].
+- **The Twelve**: A group of twelve gods no longer sponsored by the [[factions/Archontean Empire.md|Archontean Empire]].
 - **Thorcin Pantheon**: The pantheon of the [[Thorcins]].
 - **[[factions/Wiskin.md|Wiskin]] Pantheon**: The pantheon of the [[Wiskin]], including [[Odin]].
 - **Illegal Cults**: Worship of some deities, like [[Set]], is illegal.

@@ -19,6 +19,7 @@ TBD
 
 ## Notes
 - A [[Shrine of Lucreon]] exists in [[Gosterwick]], known for its magical coin offering mystery.
+- When a coin is dropped into the shrine's offering box, it magically appears in the air above the statue and falls into the god's money bag.
 
 ## Sessions
 

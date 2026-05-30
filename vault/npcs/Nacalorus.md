@@ -1,6 +1,9 @@
 ---
 tags:
   - npc
+  - tradition/rudishva
+aliases:
+  - Naik-Lir
 ---
 
 # Nacalorus
@@ -25,6 +28,7 @@ Servant of Melacorius.
 ## Notes
 
 TBD
+- One of the names found on the Chalkboard.
 
 ## Discord Insights
 

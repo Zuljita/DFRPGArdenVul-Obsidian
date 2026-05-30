@@ -3,6 +3,10 @@ title: "21: The Library of Thoth"
 tags:
   - session
   - recap
+  - tradition/thothian
+  - tradition/demma
+  - tradition/mitran
+  - culture/thorcin
 session_id: 21
 session_date: 2025-08-02
 source_url: https://dfwhiterock.blogspot.com/2025/08/dfrpg-arden-vul-session-21-library-of.html
@@ -22,11 +26,11 @@ Cool, dry
 
 Player Characters: 
 
-[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Cosmo)
-[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage (Kyle)
-[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter (Greybrown)
+[[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]]
+[[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage
+[[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter
 [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
-Sister Valya "[[pcs/grudge-brigade/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]" [[pcs/grudge-brigade/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]], Halfling mercenary monk (ArchonShiva)
+Sister Valya "[[pcs/grudge-brigade/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]]" [[pcs/grudge-brigade/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya -Basilisk- Hushbreaker]], Halfling mercenary monk
 
 
 Significant NPCs:

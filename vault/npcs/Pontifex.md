@@ -1,5 +1,6 @@
 ---
 tags:
+  - tradition/settite
   - npc
 ---
 
@@ -23,3 +24,4 @@ Hostile.
 
 ## Notes
 The [[npcs/Pontifex.md|Pontifex]] issued a bounty for $2,500 each for the capture or kill of [[Vael]], [[Ioannes]], [[Michael]], [[Uvash]], [[Vallium Halcyon]], and [[Susarra]].
+- Bounty hunters are instructed to show the bounty letter to the [[npcs/Duty Deacon.md|Duty Deacon]] to get in contact with them.

@@ -2,56 +2,76 @@
 tags:
   - note
   - discord-summary
+week_ending: 2025-11-28
 ---
 
-# Discord Summary: 2025-W47 — Distilled
+# Discord Summary 2025-W47
 
-**Date Range:** 2025-11-24 to 2025-11-30
-**Messages:** 36
+## Source
+- Private Discord weekly digest
+- Week ending: unknown
 
----
+## Navigation
 
-## In-World Knowledge
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]]
+<!-- END AUTO NAV -->
 
-### Storage Factors & Merchants
+# Weekly Chronicle: The Company of Right for Riches
+**Period Ending:** 28th of Basilembrios, 2993 AE
 
-- Three Empire-wide storage factors operate: Prosperity Factor, Silent Factor, and Golden Band. The Rarities Factor is smaller, with locations only in Narsileon, Newmarket, and Gosterwick. [#worldbuilding | 2025-11-24]
-- In Gosterwick specifically, storage pricing ranks: Rarities Factor (cheapest), Prosperity Factor (medium), Silent Factor (most expensive). [#worldbuilding | 2025-11-24]
-- Silent Factor employees dress in black with veils, communicate via sign language with interpreters, and offer the highest security and privacy. [#worldbuilding | 2025-11-24]
-- Wicktrimmer, a local goblin, serves as proprietor of the Rarities Factor in Gosterwick and holds right of first refusal on items from Larel's collection. [#worldbuilding | 2025-11-24]
-- The 3 statue brokers at the Inn of the Broken Head work for the Prosperity Factor, the Golden Band, and the Wisdom Factor. [#worldbuilding | 2025-11-24; #archive | 2025-11-24]
+## 1. Summary
+This week was defined by significant legal and residential negotiations within Gosterwick, resulting in a long-term lease for the company's quarters within the Arcane Practitioners Club (APC). While the company secured its presence in the city through the trade of a valuable golem book, much of the week’s focus shifted toward scholarly research into the ancient Sortian rebellion and the legendary figure Arden.
 
-### NPCs & Contacts
+## 2. Events & Actions by Character
 
-- Chairduster is a gem and jewelry merchant in Gosterwick. [#worldbuilding | 2025-11-24]
-- Creon owns Creon's Curios, a curio shop in Gosterwick. [#worldbuilding | 2025-11-24]
-- A pawnbroker in Gosterwick receives tips from Vael to alert him when quality items are acquired. [#worldbuilding | 2025-11-24]
+### Uvash Edzuson
+* **Research:** Undertook an investigation into the history of Arden. Through various texts, learned that Arden was one of the twenty Worthies of the Empire and lived approximately 2,100 years ago. She and her partner, Vul the Sorcerer, discovered the cavern systems of the Halls; however, their bodies were never found. The research detailed her eleven completed Labors, with a mysterious twelfth labor yet to be fulfilled. Some historical accounts claim Arden never actually died but ascended to demi-godhood, though scholars view this as corruption of the record.
+* **Town Actions:** None this week.
 
-### Rumors & Developments
+### Vallium Halcyon
+* **Alchemy/Crafting:** Successfully brewed an Elixir of Health (at a discounted cost).
+* **Social/Carousing:** Spent 125 gold at the Stunned Acolyte in an attempt to locate Dalton; while the individual was not found, news was gathered regarding Lord Burdock’s recent acquisition of a map leading to the Bone Ring of Jagri-Naz and the Iron Circlet of Ghanor.
+* **Town Actions:** Attempted to procure a portable ram in Gosterwick, though none were available for purchase.
 
-- Carousing result: You do not find Dalton. However, you hear from a Newmarket merchant that Lord Burdock has acquired a map leading to the Bone Ring of Jagri-Naz and the Iron Circlet of Ghanor, and has sent out a group of mercenaries, led by his bailiff, to recover them. [#archive | 2025-11-26; #town-rolls | 2025-11-26]
+### Ioannes Grammatikos Byzantios
+* **Research:** Investigated the nature of Sortian statues and eyes within the Library of Mitra. Discovered that the Sortians, rebels under Printiscus Pulcher, utilized magical eyes inserted into graven images to facilitate communication, teleportation, and other effects. 
+* **Alchemy/Crafting:** Attempted to brew an Elixir of Health; the attempt resulted in a failure and incurred additional costs due to the release of hazardous vapors, requiring purification by Pelteon. Attempted to craft a sleep potion. Purchased four minor healing potions.
+* **Purchases:** Commissioned and purchased approximately fifteen non-fiction volumes from Astabelon’s bookstore for a total of 1,000 gold. The collection includes works such as *The Archontean Empire*, *Dickios*, and *Jankius Learn Mithric*.
+* **Equipment Changes:** Carrying new scholarly texts (averaging 2 lbs each). The company's library now includes approximately 30 books kept from previous loot.
 
-### Arden Vul Ruins & Artifacts
+### Vaelitharon "Vael" Sunshadow
+* **Negotiations/Legal:** Finalized a complex residential agreement with Lyssandra and Pelteont regarding the APC apartments. In exchange for the company's Golem Book, secured a two-year lease on three luxury apartments (currently undergoing renovation). The agreement includes a mutual non-disclosure agreement regarding trade secrets and specific transit rights for moving goods immediately out of the premises.
+* **Town Actions:** Delivered a monthly shopping list to the merchant Wicktrimmer, requesting the procurement of a healer's kit, surgical instruments, a portable alchemy lab, bracers of force, and various magical gems/squares.
+* **Equipment Changes:** None this week.
 
-- Temrin possesses a map leading to Nyema. [#archive | 2025-11-28; #pc-notes | 2025-11-28]
-- The Temple of Set exists within or related to the expedition area. [#archive | 2025-11-28; #pc-notes | 2025-11-28]
-- On the surface level of the Arden Vul ruins, a dried-out fountain contains a statue arm believed to belong to the Arden statue. [#questions-for-gm | 2025-11-29]
-- Three stone hands recently discovered are too small to match the Arden statue. They may belong to a smaller statue with 3+ hands, or to two smaller statues. [#questions-for-gm | 2025-11-29]
+### Lacrymosa (Mercenary)
+* **Town Actions:** None this week.
 
-### Practical Knowledge
+## 3. Lore & Discoveries
+* **The Sortian Rebellion:** Historical records indicate that the Sortians, led by Priscus Pulcher, rebelled against the established magical order of the churches and colleges. Their failure to adhere to tradition contributed to a devastating civil war and the eventual abandonment of the Exarchate of Dendros/Narsileon.
+* **Rudishva Funeral Rites:** According to Akla-Chah, the preferred methods for Rudishva burial are Full Recycling and Spacing, though both are currently impossible within the Beacon. Cremation is noted as a viable, if difficult, alternative.
+* **The Nataraja:** Identified via research as a type of Rudishva mythological creature or technological construct. It features a Rudishva glyph on the bottom of its foot that serves as a command word ("Akla-Chah") to make it dance. The owner can perceive through its eyes. If destroyed, it emits a piercing scream capable of causing confusion.
 
-- For tunneling around the beacon: Shape Earth magic suffices for small holes, but Prospecting skill is recommended for creating sound rooms. [#questions-for-gm | 2025-11-29]
+## 4. World Rulings
+* **APC Residential Agreement:** The Right for Riches company is permitted to reside in the APC apartments during construction, provided they adhere to noise and security regulations. Residents must be members of the $APC$; any non-wizard alchemists must work under wizardly supervision to prevent accidents. No livestock or deceased remains are permitted within the residential quarters.
+* **Storage Factors:** In Gosterwick, the Rarities Factor is the most economical for storage, followed by the Prosperity Factor, with the Silent Factor being the most expensive and secure. The Newmarket branch of the Rarities Factor contains all five named regional factors.
+* **Book Logistics:** Books purchased from Astabelon vary in weight (1–3 lbs) and cost ($10–$50). Larger orders may require sourcing from Narsileon.
 
----
+## 5. Item Intelligence
+* **Six-Armed Magic Statue (Nataraja):**
+    * **Properties:** Does not attack on its own; however, it will dance if activated via the command word "Akla-Chah" (found via a Rudishva glyph on its foot). The owner can perceive through its eyes. If the statue is destroyed, it emits a piercing scream capable of causing confusion.
+    * **Handling:** It is noted as being quite heavy; moving it requires significant strength (e.g., Vallium Halcyon) or the use of teleportation rugs.
+* **Rudishva Artifacts:** Recent loot included a Rust Rudishva ID, an orange jumpsuit, and a Rudishva corpse.
+* **New Loot:** A magic spear was also recovered during recent explorations.
 
-## Excluded (OOC/Mechanics)
+## 6. Tactical Planning
+* **Upcoming Expedition (Session 33):** The company intends to travel to the Beacon via the Pyramid of Thoth. The planned route involves descending to meet Gog to inquire about the Court of the Troll Thegn, then proceeding to the Goblin Market to retrieve a commissioned map from Temrin. The company must prepare for potential encounters with Settite forces along the path. There is also a possibility of visiting the Well of Light during this excursion.
+* **Logistics:** Plans are being discussed to move excess gear from the gatehouse to the more secure Beacon.
 
-- Alchemy roll results (success/failure, discounts, Pelteon's Purify Air casting) — pure mechanics
-- Duplicate carousing entries
-- Discussion about AI/podcast tools (corporate feel, queryability, Google accounts)
-- Player logistics about note-taking SLAs
-- Accommodation plans (staying at Inn, APC, etc.)
-
----
-
-*Distilled: 2026-03-18*
+## 7. Unresolved Threads
+* **Procurement:** Awaiting feedback from Wicktrimmer regarding the availability of the blue magic glass square, Sort::Sortian eyes, and spider silk.
+* **The Lost Dwarves:** A hypothesis exists linking the recently acquired dog fur to the potential location of lost dwarves.
+* **The Arena:** The company remains interested in observing or participating in upcoming matches at the local Arena, though schedules are not released far in advance.
+* **The Statue's Fate:** Debate continues regarding whether the Nataraja statue should be kept as a decorative piece or sold for profit. There is also speculation on whether it could be used as a "teleporting" device by dropping it onto the Beacon landing.

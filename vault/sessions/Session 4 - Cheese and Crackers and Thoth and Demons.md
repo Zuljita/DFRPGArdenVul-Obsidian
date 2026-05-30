@@ -3,6 +3,9 @@ title: "4: Cheese and Crackers and Thoth and Demons"
 tags:
   - session
   - recap
+  - tradition/thothian
+  - culture/thorcin
+  - era/historical
 session_id: 4
 session_date: 2025-04-05
 source_url: https://dfwhiterock.blogspot.com/2025/04/dfrpg-arden-vul-session-4-cheese-and.html
@@ -20,9 +23,9 @@ Cool, overcast, rainy
 
 **Player Characters:**
 - [[pcs/Ioannes Grammatikos Byzantios|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma|Demma]] (Demented Avenger)
-- [[pcs/Michael J. Dundee|Michael J Dundee]], Thorcin barbarian (Adam)
-- [[pcs/Vaelethron 'Vael' Sunshadow|Vael Sunshadow]], Half-Elven mage (Kyle)
-- [[pcs/Vallium Halcyon|Vallium Halcyon]], Archontean fighter (Greybrown)
+- [[pcs/Michael J. Dundee|Michael J Dundee]], Thorcin barbarian
+- [[pcs/Vaelethron 'Vael' Sunshadow|Vael Sunshadow]], Half-Elven mage
+- [[pcs/Vallium Halcyon|Vallium Halcyon]], Archontean fighter
 - [[pcs/grudge-brigade/Lacrymosa|Lacrymosa Merenuithiel Armaris]], Elven archer (mercenary) (Archon Shiva)
 
 
@@ -81,7 +84,6 @@ They thought they had enough loot for one day, so they started discussing whethe
 Ioannes wasn't in great shape for climbing down the [[locations/Long Stair|Long Stair]], so Vael Levitated the two of them down while the other three walked.  They all eventually made it back to [[locations/Gosterwick|Gosterwick]], and took Ioannes straight to the temple of [[npcs/Demma|Demma]] for a Remove Curse spell.  Vael then set to learning Analyze Magic so he could avoid paying the Arcane Practitioners' Club to identify every magical item they found.  And one of the items they found in the pit was truly amazing, a Gem of Insight, which could permanently boost someone's intelligence.
 
 
-
 ## GM's Comments:
 
 This was the second week in a row the group hit a teleporter.  This time it at least took them somewhere they recognized.  They had three fights this week, all of them pretty easy with the archer along.  They looted the victims of two different one-way door traps (one with a hidden escape teleporter, one possibly with no way out at all) that had each bagged many victims over the years.
@@ -104,7 +106,6 @@ Sounds like they definitely want to talk to the beastmen.  Maybe they'll fight t
 
 
 ## Sources
-- [[lore/recording-notes/Recording 2025-04-04|Recording Notes (2025-04-04)]]
 - **Original Source:** [dfwhiterock.blogspot.com/2025/04/dfrpg-arden-vul-session-4-cheese-and.html](https://dfwhiterock.blogspot.com/2025/04/dfrpg-arden-vul-session-4-cheese-and.html)
 
 ## Session Navigation

@@ -1,6 +1,8 @@
 ---
 tags:
   - item
+aliases:
+  - Magic Staff (glowing blue)
 ---
 
 # Staff of Blue Light
@@ -14,6 +16,7 @@ A staff, likely made of wood or metal, which continuously glows with a soft blue
 ## Properties
 - Magical.
 - Emits blue light.
+- Has permanent blue Continual Light.
 
 ## Known History
 An empty niche for this staff was found in a room with three stone monkey statues in the [[Great Cavern]].

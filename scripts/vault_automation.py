@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Deterministic vault automation harness.
+Conservative vault automation harness.
 
-This script is intentionally conservative. It does not call an LLM and does not
-edit vault Markdown. The first job is to make source discovery and guardrail
-validation boring enough that scheduled automation can safely report proposals
-instead of mutating the vault directly.
+Most source discovery, validation, queueing, and application logic is
+deterministic so scheduled runs stay bounded and auditable. Research lanes may
+call the configured local LLM to propose and verify small sourced changes before
+the deterministic applicator mutates vault Markdown.
 """
 
 from __future__ import annotations
@@ -30,6 +30,20 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import Iterable
 from zoneinfo import ZoneInfo
+
+try:
+    import chromadb  # type: ignore[import-not-found]
+    CHROMA_AVAILABLE = True
+except ImportError:
+    chromadb = None  # type: ignore[assignment]
+    CHROMA_AVAILABLE = False
+
+try:
+    import yaml  # type: ignore[import-not-found]
+    YAML_AVAILABLE = True
+except ImportError:
+    yaml = None  # type: ignore[assignment]
+    YAML_AVAILABLE = False
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -200,6 +214,35 @@ class EntityLinkProposal:
     status: str
 
 
+@dataclass
+class NewEntityCandidate:
+    name: str
+    kind: str
+    canonical_target_dir: str
+    mention_count: int
+    sources: list[dict]
+    rationale: str
+    nearest_existing: str | None
+    nearest_distance: float
+    proposal_id: str = ""
+    status: str = "needs-verification"
+
+
+@dataclass
+class ArticleEditProposal:
+    article_path: str
+    article_title: str
+    article_kind: str
+    article_score: int
+    addition_type: str
+    target_section: str
+    proposed_text: str
+    rationale: str
+    sources: list[dict]
+    status: str = "needs-verification"
+    proposal_id: str = ""
+
+
 @dataclass(frozen=True)
 class ArticleQueueItem:
     path: str
@@ -242,8 +285,24 @@ def load_local_sources() -> dict:
         "entity_link_apply_limit": int(config.get("entity_link_apply_limit", 0) or 0),
         "article_queue_limit": int(os.environ.get("ARDEN_ARTICLE_QUEUE_LIMIT") or config.get("article_queue_limit", 30) or 30),
         "media_queue_limit": int(os.environ.get("ARDEN_MEDIA_QUEUE_LIMIT") or config.get("media_queue_limit", 30) or 30),
-        "rag_ingest_url": os.environ.get("ARDEN_RAG_INGEST_URL") or config.get("rag_ingest_url"),
-        "rag_refresh_limit": int(os.environ.get("ARDEN_RAG_REFRESH_LIMIT") or config.get("rag_refresh_limit", 0) or 0),
+        "vault_rag_chroma_path": (lambda v: Path(v).expanduser() if v else None)(
+            os.environ.get("ARDEN_VAULT_RAG_PATH") or config.get("vault_rag_chroma_path")
+        ),
+        "vault_rag_collection": os.environ.get("ARDEN_VAULT_RAG_COLLECTION") or config.get("vault_rag_collection", "arden_vul_vault"),
+        "vault_rag_embed_model": os.environ.get("ARDEN_VAULT_RAG_EMBED_MODEL") or config.get("vault_rag_embed_model", "bge-m3"),
+        "vault_rag_embed_url": os.environ.get("ARDEN_VAULT_RAG_EMBED_URL") or config.get("vault_rag_embed_url", "http://127.0.0.1:11434/api/embeddings"),
+        "mechanics_rag_chroma_path": (lambda v: Path(v).expanduser() if v else None)(
+            os.environ.get("ARDEN_MECHANICS_RAG_PATH") or config.get("mechanics_rag_chroma_path")
+        ),
+        "mechanics_rag_collection": os.environ.get("ARDEN_MECHANICS_RAG_COLLECTION") or config.get("mechanics_rag_collection", "dfrpg"),
+        "article_edit_queue_top": int(config.get("article_edit_queue_top", 0) or 0),
+        "article_edit_walk_step": int(config.get("article_edit_walk_step", 0) or 0),
+        "article_edit_verify_limit": int(config.get("article_edit_verify_limit", 0) or 0),
+        "article_edit_apply_limit": int(config.get("article_edit_apply_limit", 0) or 0),
+        "action_items_enabled": bool(config.get("action_items_enabled", False)),
+        "action_items_apply": bool(config.get("action_items_apply", False)),
+        "action_items_latest_sessions": int(config.get("action_items_latest_sessions", 8) or 8),
+        "action_items_max_items": int(config.get("action_items_max_items", 50) or 50),
     }
 
 
@@ -1125,20 +1184,27 @@ def html_to_markdown(content_html: str) -> str:
 
 
 def parse_session_id(title: str) -> str | None:
-    match = re.search(r"\bSession\s+(\d+[a-z]?)\b", title, re.IGNORECASE)
-    return match.group(1) if match else None
+    # Match singular "Session 52a" or plural "Sessions 52b and 53" / "Sessions 8b and 9"
+    plural = re.search(r"\bSessions\s+(\d+[a-z]?(?:\s+and\s+\d+[a-z]?)+)\b", title, re.IGNORECASE)
+    if plural:
+        return plural.group(1)
+    singular = re.search(r"\bSession\s+(\d+[a-z]?)\b", title, re.IGNORECASE)
+    return singular.group(1) if singular else None
 
 
 def session_sort_key(session_id: str) -> tuple[int, str]:
-    match = re.match(r"(\d+)([a-z]?)$", session_id)
+    # Use the first numeric session in a compound id like "52b and 53" for sorting.
+    match = re.match(r"(\d+)([a-z]?)", session_id)
     if not match:
         return (10_000, session_id)
     return (int(match.group(1)), match.group(2))
 
 
 def session_display_title(title: str, session_id: str) -> str:
-    cleaned = re.sub(r"^DFRPG\s+(?:Arden Vul\s+)?Session\s+\S+\s*:\s*", "", title, flags=re.IGNORECASE).strip()
-    cleaned = re.sub(r"^Session\s+\S+\s*:\s*", "", cleaned, flags=re.IGNORECASE).strip()
+    # Strip the "DFRPG Arden Vul Session(s) <ids>:" prefix from the blog title.
+    prefix_pat = r"^DFRPG\s+(?:Arden Vul\s+)?Sessions?\s+\S+(?:\s+and\s+\S+)*\s*:\s*"
+    cleaned = re.sub(prefix_pat, "", title, flags=re.IGNORECASE).strip()
+    cleaned = re.sub(r"^Sessions?\s+\S+(?:\s+and\s+\S+)*\s*:\s*", "", cleaned, flags=re.IGNORECASE).strip()
     return cleaned or title
 
 
@@ -1668,6 +1734,29 @@ def score_article(path: Path, text: str) -> tuple[int, tuple[str, ...]]:
     return score, tuple(reasons)
 
 
+def build_article_queue_item(path: Path) -> ArticleQueueItem | None:
+    """Build a queue item for one article path, regardless of score. Accepts either
+    a relative repo path or an absolute one. Used for walk-cursor selections that
+    may include strong articles outside the weakest-N queue."""
+    abs_path = path if path.is_absolute() else (ROOT / path)
+    if not abs_path.exists() or abs_path.stem.lower() in {"index", "readme"}:
+        return None
+    text = read_text(abs_path)
+    score, reasons = score_article(abs_path, text)
+    title = article_title(abs_path, text)
+    aliases = article_aliases(text)
+    tags = article_tags(text)
+    return ArticleQueueItem(
+        path=abs_path.relative_to(ROOT).as_posix(),
+        title=title,
+        kind=article_kind(abs_path),
+        tags=tags,
+        score=score,
+        reasons=reasons,
+        queries=article_queue_queries(title, article_kind(abs_path), aliases, tags),
+    )
+
+
 def build_article_queue(limit: int = 30) -> list[ArticleQueueItem]:
     items: list[ArticleQueueItem] = []
     for folder in ENTITY_DIRS:
@@ -1675,26 +1764,10 @@ def build_article_queue(limit: int = 30) -> list[ArticleQueueItem]:
         if not root.exists():
             continue
         for path in sorted(root.glob("*.md")):
-            if path.stem.lower() in {"index", "readme"}:
+            item = build_article_queue_item(path)
+            if item is None or item.score <= 0:
                 continue
-            text = read_text(path)
-            score, reasons = score_article(path, text)
-            if score <= 0:
-                continue
-            title = article_title(path, text)
-            aliases = article_aliases(text)
-            tags = article_tags(text)
-            items.append(
-                ArticleQueueItem(
-                    path=path.relative_to(ROOT).as_posix(),
-                    title=title,
-                    kind=article_kind(path),
-                    tags=tags,
-                    score=score,
-                    reasons=reasons,
-                    queries=article_queue_queries(title, article_kind(path), aliases, tags),
-                )
-            )
+            items.append(item)
     items.sort(key=lambda item: (-item.score, item.kind, item.title.lower(), item.path))
     return items[:limit]
 
@@ -1944,6 +2017,67 @@ def verification_prompt(proposal: EntityLinkProposal) -> str:
     )
 
 
+def _parse_llm_json(content: str) -> dict:
+    """Best-effort JSON parse for LLM output. Tries: raw, stripped of code fences,
+    greedy {...} match, then bracket-counted slice. Raises if all fail."""
+    if not content:
+        raise ValueError("empty content")
+    candidates: list[str] = [content]
+    # Strip ```json ... ``` or ``` ... ``` fences if present.
+    fence = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", content, re.S)
+    if fence:
+        candidates.append(fence.group(1))
+    # Greedy first-{ ... last-} slice.
+    first = content.find("{")
+    last = content.rfind("}")
+    if first != -1 and last > first:
+        candidates.append(content[first:last + 1])
+    # Bracket-counted slice starting at first {, ignoring brackets inside strings.
+    if first != -1:
+        depth = 0
+        in_str = False
+        esc = False
+        end = -1
+        for i, ch in enumerate(content[first:], start=first):
+            if esc:
+                esc = False
+                continue
+            if ch == "\\":
+                esc = True
+                continue
+            if ch == '"':
+                in_str = not in_str
+                continue
+            if in_str:
+                continue
+            if ch == "{":
+                depth += 1
+            elif ch == "}":
+                depth -= 1
+                if depth == 0:
+                    end = i
+                    break
+        if end > first:
+            candidates.append(content[first:end + 1])
+    last_err: Exception | None = None
+    for cand in candidates:
+        try:
+            return json.loads(cand)
+        except json.JSONDecodeError as exc:
+            last_err = exc
+            continue
+    if YAML_AVAILABLE:
+        for cand in candidates:
+            try:
+                parsed = yaml.safe_load(cand)
+                if isinstance(parsed, dict):
+                    return parsed
+            except Exception as exc:
+                last_err = exc
+                continue
+    raise RuntimeError(f"could not parse LLM JSON: {last_err}; content head: {content[:200]!r}")
+
+
 def llm_chat_json(prompt: str, timeout: int = 90) -> dict:
     sources = load_local_sources()
     base_url = sources.get("llm_base_url")
@@ -1965,7 +2099,7 @@ def llm_chat_json(prompt: str, timeout: int = 90) -> dict:
             {"role": "user", "content": prompt},
         ],
         "temperature": 0.0,
-        "max_tokens": 4096,
+        "max_tokens": 16384,
     }
     request = urllib.request.Request(
         url,
@@ -1977,11 +2111,15 @@ def llm_chat_json(prompt: str, timeout: int = 90) -> dict:
         body = json.loads(response.read().decode("utf-8"))
     choice = body["choices"][0]
     content = choice["message"].get("content") or ""
-    match = re.search(r"\{.*\}", content, flags=re.S)
-    if not match:
+    try:
+        return _parse_llm_json(content)
+    except Exception as exc:
         finish_reason = choice.get("finish_reason", "unknown")
-        raise RuntimeError(f"LLM verifier did not return JSON; finish_reason={finish_reason}; content={content[:200]}")
-    return json.loads(match.group(0))
+        raise RuntimeError(f"LLM JSON parse failed; finish_reason={finish_reason}; err={exc}") from exc
+
+
+def _entity_link_proposal_key(source: str, entity_path: str, mention: str) -> str:
+    return f"{source}|{entity_path}|{mention}"
 
 
 def verify_entity_link_proposals(limit: int = 25) -> list[dict]:
@@ -1992,35 +2130,66 @@ def verify_entity_link_proposals(limit: int = 25) -> list[dict]:
     else:
         proposals = build_entity_link_proposals(limit_per_source=20)
         write_entity_link_proposal_report(proposals)
-    verified: list[dict] = []
-    for proposal in proposals[:limit]:
+    run_dir = AUTOMATION_DIR / "proposals"
+    verifications_path = run_dir / "entity_link_verifications.json"
+    # Load prior verifications and skip proposals already classified — otherwise
+    # the scheduled runner re-verifies the same first-N proposals every cycle,
+    # hammering the LLM with identical queries while later proposals never get
+    # a turn.
+    prior: list[dict] = []
+    verified_keys: set[str] = set()
+    if verifications_path.exists():
+        try:
+            prior = json.loads(verifications_path.read_text(encoding="utf-8"))
+        except Exception:
+            prior = []
+        for v in prior:
+            status = str(v.get("status", "")).lower()
+            if status in {"supported", "contradicted", "ambiguous", "not_found"}:
+                verified_keys.add(_entity_link_proposal_key(
+                    str(v.get("source", "")),
+                    str(v.get("entity_path", "")),
+                    str(v.get("mention", "")),
+                ))
+    pending = [
+        p for p in proposals
+        if _entity_link_proposal_key(p.source, p.entity_path, p.mention) not in verified_keys
+    ]
+    fresh: list[dict] = []
+    for proposal in pending[:limit]:
         prompt = verification_prompt(proposal)
-        result = llm_chat_json(prompt)
-        status = str(result.get("status", "ambiguous")).lower()
-        if status not in {"supported", "contradicted", "ambiguous", "not_found"}:
-            status = "ambiguous"
-        verified.append(
-            {
+        try:
+            result = llm_chat_json(prompt)
+            status = str(result.get("status", "ambiguous")).lower()
+            if status not in {"supported", "contradicted", "ambiguous", "not_found"}:
+                status = "ambiguous"
+            fresh.append({
                 **asdict(proposal),
                 "status": status,
                 "verifier_rationale": str(result.get("rationale", "")),
                 "verifier_evidence": str(result.get("evidence", "")),
-            }
-        )
-    run_dir = AUTOMATION_DIR / "proposals"
-    write_json(run_dir / "entity_link_verifications.json", verified)
+            })
+        except Exception as exc:
+            fresh.append({
+                **asdict(proposal),
+                "status": "error",
+                "verifier_rationale": f"verifier failed: {str(exc)[:200]}",
+                "verifier_evidence": "",
+            })
+    combined = prior + fresh
+    write_json(verifications_path, combined)
     lines = [
         "# Entity Link Verifications",
         "",
-        "LLM verifier results for review-only entity link proposals.",
+        "LLM verifier results for review-only entity link proposals. Accumulated across runs.",
         "",
         f"Generated: {datetime.now(timezone.utc).isoformat()}",
-        f"Verified count: {len(verified)}",
+        f"Total verified: {len(combined)}  (this run: {len(fresh)} new, pending: {max(0, len(pending) - len(fresh))})",
         "",
         "| Entity | Mention | Status | Evidence | Rationale |",
         "| --- | --- | --- | --- | --- |",
     ]
-    for item in verified:
+    for item in combined:
         entity_link = f"[[{item['entity_path']}|{item['entity']}]]"
         lines.append(
             f"| {entity_link} | {item['mention']} | {item['status']} | "
@@ -2028,7 +2197,7 @@ def verify_entity_link_proposals(limit: int = 25) -> list[dict]:
             f"{normalize_space(item['verifier_rationale']).replace('|', '\\|')} |"
         )
     (run_dir / "entity_link_verifications.md").write_text("\n".join(lines), encoding="utf-8")
-    return verified
+    return fresh
 
 
 def wikilink_target_from_repo_path(path: str) -> str:
@@ -2110,118 +2279,6 @@ def write_json(path: Path, payload: object) -> None:
     tmp.replace(path)
 
 
-def git_changed_vault_markdown_paths() -> list[Path]:
-    commands = [
-        ["git", "-C", str(ROOT), "diff", "--name-only", "--", "vault"],
-        ["git", "-C", str(ROOT), "ls-files", "--others", "--exclude-standard", "--", "vault"],
-    ]
-    paths: set[Path] = set()
-    for command in commands:
-        result = subprocess.run(command, text=True, capture_output=True, check=False)
-        if result.returncode != 0:
-            continue
-        for rel in result.stdout.splitlines():
-            path = ROOT / rel
-            if path.suffix.lower() == ".md" and path.exists() and path.is_relative_to(VAULT):
-                paths.add(path)
-    return sorted(paths, key=lambda p: p.relative_to(ROOT).as_posix())
-
-
-def rag_job_status(ingest_url: str, job_id: str) -> dict:
-    base = re.sub(r"/ingest/(text|file|url)/?$", "", ingest_url.rstrip("/"))
-    request = urllib.request.Request(f"{base}/ingest/status/{job_id}", method="GET")
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.loads(response.read().decode("utf-8"))
-
-
-def wait_for_rag_job(ingest_url: str, job_id: str, timeout: int = 300) -> dict:
-    deadline = time.time() + timeout
-    while time.time() < deadline:
-        status = rag_job_status(ingest_url, job_id)
-        if status.get("status") not in {"queued", "running"}:
-            return status
-        time.sleep(2)
-    return {"status": "timeout", "job_id": job_id}
-
-
-def rag_ingest_text(url: str, path: Path, wait: bool = False) -> dict:
-    rel = path.relative_to(ROOT).as_posix()
-    text = read_text(path)
-    payload = {
-        "source": rel,
-        "source_type": "vault-markdown",
-        "title": path.stem,
-        "text": text,
-        "metadata": {
-            "project": "arden-vul-vault",
-            "path": rel,
-            "sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
-            "updated_at": datetime.now(timezone.utc).isoformat(),
-        },
-    }
-    request = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-    with urllib.request.urlopen(request, timeout=60) as response:
-        body = response.read().decode("utf-8", errors="ignore")
-    try:
-        parsed: object = json.loads(body) if body else {}
-    except json.JSONDecodeError:
-        parsed = {"raw": body[:500]}
-    result = {"path": rel, "ok": True, "response": parsed}
-    if wait and isinstance(parsed, dict) and parsed.get("job_id"):
-        status = wait_for_rag_job(url, str(parsed["job_id"]))
-        result["job_status"] = status
-        result["ok"] = status.get("status") in {"inserted", "completed", "success", "succeeded", "duplicate"}
-    return result
-
-
-def refresh_rag_for_changed_files(limit: int, dry_run: bool = False, wait: bool = False) -> dict:
-    sources = load_local_sources()
-    ingest_url = sources.get("rag_ingest_url")
-    paths = git_changed_vault_markdown_paths()[:limit]
-    if dry_run:
-        return {
-            "ok": True,
-            "mode": "dry-run",
-            "configured": bool(ingest_url),
-            "candidate_count": len(paths),
-            "paths": [p.relative_to(ROOT).as_posix() for p in paths],
-        }
-    if not ingest_url:
-        return {
-            "ok": False,
-            "error": "rag_ingest_url_not_configured",
-            "candidate_count": len(paths),
-            "paths": [p.relative_to(ROOT).as_posix() for p in paths],
-        }
-    results: list[dict] = []
-    failures: list[dict] = []
-    for path in paths:
-        try:
-            result = rag_ingest_text(str(ingest_url), path, wait=wait)
-            if result.get("ok"):
-                results.append(result)
-            else:
-                failures.append(result)
-        except Exception as exc:
-            failures.append({"path": path.relative_to(ROOT).as_posix(), "error": str(exc)})
-    payload = {
-        "ok": not failures,
-        "mode": "apply",
-        "candidate_count": len(paths),
-        "ingested_count": len(results),
-        "failure_count": len(failures),
-        "results": results,
-        "failures": failures,
-    }
-    write_json(AUTOMATION_DIR / "rag_refresh.json", payload)
-    return payload
-
-
 def build_source_manifest(feed_url: str = BLOG_FEED_URL) -> dict:
     records = discover_sources()
     blog_posts = fetch_blog_posts(feed_url)
@@ -2285,6 +2342,2060 @@ def append_changelog(run_id: str, import_result: dict) -> None:
         f.write("\n".join(lines) + "\n")
 
 
+# ---- vault-rag (local Chroma) ----
+
+VAULT_RAG_H2_SPLIT_RE = re.compile(r"^## (?!#)", re.MULTILINE)
+VAULT_RAG_FRONTMATTER_RE = re.compile(r"^---\n.*?\n---\n+", re.DOTALL)
+VAULT_RAG_MAX_CHUNK_CHARS = 3000
+VAULT_RAG_MIN_CHUNK_CHARS = 60
+VAULT_RAG_SCHEMA_VERSION = 3  # bumped: chunk metadata now includes frontmatter status and aliases
+VAULT_RAG_LABEL_SECTIONS = {
+    "date",
+    "weather",
+    "player characters",
+    "significant npcs",
+    "the plan",
+    "what happened",
+    "gm's comments",
+    "gm's notes",
+    "achievements",
+    "xp",
+    "next week",
+    "original source",
+}
+
+
+def vault_rag_embed(text: str) -> list[float]:
+    sources = load_local_sources()
+    url = sources["vault_rag_embed_url"]
+    model = sources["vault_rag_embed_model"]
+    body = None
+    last_error: Exception | None = None
+    for prompt in (
+        text,
+        text.rstrip() + "\n\n.",
+        text.rstrip() + "\n\nAdditional context.",
+        text.rstrip() + "\n\nThis is a vault note.",
+    ):
+        payload = json.dumps({"model": model, "prompt": prompt}).encode("utf-8")
+        request = urllib.request.Request(
+            url,
+            data=payload,
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=120) as response:
+                body = json.loads(response.read().decode("utf-8"))
+            break
+        except Exception as exc:
+            last_error = exc
+    if body is None:
+        raise RuntimeError(f"vault-rag embedding request failed: {last_error}")
+    emb = body.get("embedding")
+    if not emb:
+        raise RuntimeError(f"vault-rag embedding returned no vector: {str(body)[:200]}")
+    return emb
+
+
+def vault_rag_client():
+    if not CHROMA_AVAILABLE:
+        raise RuntimeError("chromadb is not installed in this Python environment")
+    sources = load_local_sources()
+    path = sources["vault_rag_chroma_path"]
+    if not path:
+        raise RuntimeError(
+            "vault_rag_chroma_path is not configured. Set it in config/local_sources.json or ARDEN_VAULT_RAG_PATH env var."
+        )
+    Path(path).mkdir(parents=True, exist_ok=True)
+    return chromadb.PersistentClient(path=str(path))
+
+
+def vault_rag_collection():
+    sources = load_local_sources()
+    client = vault_rag_client()
+    return client.get_or_create_collection(
+        sources["vault_rag_collection"],
+        metadata={"hnsw:space": "cosine"},
+    )
+
+
+def _split_oversized_chunk(text: str, max_chars: int) -> list[str]:
+    """Split a long chunk at paragraph boundaries, packing up to max_chars per piece.
+    Falls back to hard-splitting if a single paragraph still exceeds max_chars."""
+    pieces: list[str] = []
+    current: list[str] = []
+    current_size = 0
+    for para in text.split("\n\n"):
+        para_size = len(para) + 2
+        if current and current_size + para_size > max_chars:
+            pieces.append("\n\n".join(current))
+            current = [para]
+            current_size = para_size
+        else:
+            current.append(para)
+            current_size += para_size
+    if current:
+        pieces.append("\n\n".join(current))
+    out: list[str] = []
+    for piece in pieces:
+        if len(piece) <= max_chars:
+            out.append(piece)
+        else:
+            for i in range(0, len(piece), max_chars):
+                out.append(piece[i:i + max_chars])
+    return out
+
+
+def _section_from_line(line: str) -> str | None:
+    stripped = line.strip()
+    if stripped.startswith("## ") and not stripped.startswith("### "):
+        return stripped[3:].strip()
+    bold = re.match(r"^\*\*(?P<label>[^*:\n]+):\*\*\s*$", stripped)
+    if bold:
+        label = bold.group("label").strip()
+        if label.lower() in VAULT_RAG_LABEL_SECTIONS:
+            return label
+    bare = re.match(r"^(?P<label>[A-Za-z][A-Za-z0-9 '’&/-]{1,60}):(?P<rest>.*)$", stripped)
+    if bare:
+        label = bare.group("label").strip()
+        if label.lower() in VAULT_RAG_LABEL_SECTIONS:
+            return label
+    return None
+
+
+def _split_markdown_sections(text: str) -> list[tuple[str, str]]:
+    """Split at H2s plus common imported recap labels.
+
+    Many early imported sessions use plain labels such as "GM's Comments:" or
+    "XP:" instead of H2 headings. If those are left inside the intro chunk, RAG
+    metadata reports late-session material as `(intro)`.
+    """
+    lines = text.splitlines()
+    sections: list[tuple[str, list[str]]] = []
+    current_section = "(intro)"
+    current_lines: list[str] = []
+    for line in lines:
+        section = _section_from_line(line)
+        if section and current_lines:
+            sections.append((current_section, current_lines))
+            current_section = section
+            current_lines = [line]
+        elif section:
+            current_section = section
+            current_lines = [line]
+        else:
+            current_lines.append(line)
+    if current_lines:
+        sections.append((current_section, current_lines))
+    return [(section, "\n".join(lines).strip()) for section, lines in sections if "\n".join(lines).strip()]
+
+
+def chunk_markdown_for_rag(text: str) -> list[tuple[str, str]]:
+    """Split markdown by sections; sub-split large sections at paragraph breaks."""
+    text = strip_frontmatter(text).strip()
+    if not text:
+        return []
+    raw_chunks: list[tuple[str, str]] = []
+    for section, body in _split_markdown_sections(text):
+        raw_chunks.append((section, body))
+    chunks: list[tuple[str, str]] = []
+    for section, body in raw_chunks:
+        if len(body) <= VAULT_RAG_MAX_CHUNK_CHARS:
+            chunks.append((section, body))
+        else:
+            for sub in _split_oversized_chunk(body, VAULT_RAG_MAX_CHUNK_CHARS):
+                chunks.append((section, sub))
+    return [(s, c) for s, c in chunks if len(c.strip()) >= VAULT_RAG_MIN_CHUNK_CHARS]
+
+
+def vault_rag_chunk_kind(base_kind: str, section: str) -> str:
+    if section.strip().lower() == "session navigation":
+        return "navigation"
+    return base_kind
+
+
+VAULT_RAG_SKIP_DIRS = {"templates", "quartz", "attachments", ".obsidian"}
+VAULT_RAG_FOLDER_TO_KIND = {
+    "sessions": "session",
+    "notes": "note",
+    "lore": "lore",
+    "npcs": "npc",
+    "pcs": "pc",
+    "locations": "location",
+    "factions": "faction",
+    "items": "item",
+    "monsters": "monster",
+    "spells": "spell",
+    "concepts": "concept",
+}
+
+
+def vault_rag_kind_for_path(path: Path) -> str:
+    try:
+        rel = path.relative_to(VAULT)
+    except ValueError:
+        return "external"
+    parts = rel.parts
+    if not parts:
+        return "vault"
+    top = parts[0]
+    if top == "notes" and path.stem.startswith("Discord Summary"):
+        return "summary"
+    return VAULT_RAG_FOLDER_TO_KIND.get(top, "vault")
+
+
+def vault_rag_source_paths() -> list[tuple[Path, str]]:
+    """Return (path, kind) pairs for content to ingest into the vault-rag Chroma collection.
+    Indexes the entire vault (skipping templates/quartz/attachments), plus the spreadsheet snapshot if present.
+
+    Do not index raw Discord weekly rollup channel files here. Those files preserve
+    near-verbatim chat logs; player-facing RAG should only see curated vault pages
+    such as Discord Summary notes.
+    """
+    items: list[tuple[Path, str]] = []
+    if VAULT.exists():
+        for p in sorted(VAULT.rglob("*.md")):
+            rel_parts = p.relative_to(VAULT).parts
+            # Skip files inside any excluded directory at any depth.
+            if any(part in VAULT_RAG_SKIP_DIRS for part in rel_parts[:-1]):
+                continue
+            frontmatter = parse_frontmatter(read_text(p))
+            if str(frontmatter.get("status") or "").strip().lower() == "redirect":
+                continue
+            items.append((p, vault_rag_kind_for_path(p)))
+    snapshot = AUTOMATION_DIR / "sources" / "group_spreadsheet_snapshot.md"
+    if snapshot.exists():
+        items.append((snapshot, "spreadsheet"))
+    return items
+
+
+def vault_rag_upsert_file(coll, path: Path, kind: str) -> dict:
+    try:
+        rel = path.relative_to(ROOT).as_posix()
+    except ValueError:
+        rel = str(path)
+    text = read_text(path)
+    sha = hashlib.sha256(text.encode("utf-8")).hexdigest()
+    existing = coll.get(where={"path": rel})
+    existing_ids = existing.get("ids") or []
+    existing_metas = existing.get("metadatas") or []
+    if existing_ids and existing_metas:
+        existing_sha = existing_metas[0].get("sha256")
+        existing_schema = existing_metas[0].get("schema_version")
+        if existing_sha == sha and existing_schema == VAULT_RAG_SCHEMA_VERSION:
+            return {"path": rel, "action": "unchanged", "chunk_count": len(existing_ids)}
+        coll.delete(ids=existing_ids)
+    chunks = chunk_markdown_for_rag(text)
+    if not chunks:
+        return {"path": rel, "action": "empty", "chunk_count": 0}
+
+    # Extract filterable frontmatter fields so retrieval can use them.
+    try:
+        fm = parse_frontmatter(text)
+    except Exception:
+        fm = {}
+    fm_status = str(fm.get("status") or "").strip().lower() or None
+    fm_aliases_raw = fm.get("aliases") or []
+    if isinstance(fm_aliases_raw, str):
+        fm_aliases_raw = [a.strip() for a in fm_aliases_raw.split(",") if a.strip()]
+    fm_aliases = ", ".join(str(a) for a in fm_aliases_raw if str(a).strip()) or None
+
+    ids: list[str] = []
+    docs: list[str] = []
+    metas: list[dict] = []
+    embeddings: list[list[float]] = []
+    skipped: list[dict] = []
+    for i, (section, chunk_text) in enumerate(chunks):
+        try:
+            emb = vault_rag_embed(chunk_text)
+        except Exception as exc:
+            skipped.append({"chunk_index": i, "section": section, "char_count": len(chunk_text), "error": str(exc)[:200]})
+            continue
+        chunk_id = f"{rel}#{i}:{hashlib.sha1(chunk_text.encode('utf-8')).hexdigest()[:8]}"
+        ids.append(chunk_id)
+        docs.append(chunk_text)
+        chunk_meta: dict = {
+            "path": rel,
+            "kind": vault_rag_chunk_kind(kind, section),
+            "source_kind": kind,
+            "section": section,
+            "title": path.stem,
+            "sha256": sha,
+            "schema_version": VAULT_RAG_SCHEMA_VERSION,
+            "chunk_index": i,
+            "char_count": len(chunk_text),
+        }
+        if fm_status:
+            chunk_meta["status"] = fm_status
+        if fm_aliases:
+            chunk_meta["aliases"] = fm_aliases
+        metas.append(chunk_meta)
+        embeddings.append(emb)
+    if not ids:
+        return {"path": rel, "action": "error", "chunk_count": 0, "error": "all chunks failed to embed", "skipped": skipped}
+    coll.add(ids=ids, documents=docs, metadatas=metas, embeddings=embeddings)
+    result: dict = {"path": rel, "action": "upserted", "chunk_count": len(ids)}
+    if skipped:
+        result["skipped_chunks"] = skipped
+    return result
+
+
+def vault_rag_ingest_all(reset: bool = False, limit: int | None = None) -> dict:
+    sources = load_local_sources()
+    collection_name = sources["vault_rag_collection"]
+    if reset:
+        try:
+            vault_rag_client().delete_collection(collection_name)
+        except Exception:
+            pass
+    coll = vault_rag_collection()
+    paths = vault_rag_source_paths()
+    if limit:
+        paths = paths[:limit]
+    results: list[dict] = []
+    for p, kind in paths:
+        try:
+            results.append(vault_rag_upsert_file(coll, p, kind))
+        except Exception as exc:
+            try:
+                rel = p.relative_to(ROOT).as_posix()
+            except ValueError:
+                rel = str(p)
+            results.append({"path": rel, "action": "error", "error": str(exc)})
+    counts: dict[str, int] = {}
+    for r in results:
+        counts[r.get("action", "?")] = counts.get(r.get("action", "?"), 0) + 1
+    return {
+        "ok": counts.get("error", 0) == 0,
+        "collection": collection_name,
+        "total_files": len(paths),
+        "actions": counts,
+        "collection_size": coll.count(),
+        "results": results,
+    }
+
+
+def vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> list[dict]:
+    """Query the local vault-rag Chroma collection. Used by article-edit research lane."""
+    coll = vault_rag_collection()
+    where = {"kind": kind} if kind else None
+    query_emb = vault_rag_embed(query)
+    res = coll.query(
+        query_embeddings=[query_emb],
+        n_results=top_k,
+        where=where,
+    )
+    hits: list[dict] = []
+    docs = (res.get("documents") or [[]])[0]
+    metas = (res.get("metadatas") or [[]])[0]
+    dists = (res.get("distances") or [[]])[0]
+    for doc, meta, dist in zip(docs, metas, dists):
+        hits.append({
+            "path": (meta or {}).get("path"),
+            "section": (meta or {}).get("section"),
+            "kind": (meta or {}).get("kind"),
+            "title": (meta or {}).get("title"),
+            "distance": dist,
+            "text": doc,
+        })
+    return hits
+
+
+def _format_mechanics_hit(doc, meta, dist, match_type) -> dict:
+    meta = meta or {}
+    return {
+        "book": meta.get("book", "?"),
+        "printed_page": meta.get("printed_page", "?"),
+        "section": meta.get("section", "?"),
+        "source_pdf": meta.get("source", "?"),
+        "distance": dist,
+        "match_type": match_type,
+        "text": doc,
+    }
+
+
+def mechanics_rag_search(query: str, top_k: int = 3) -> list[dict]:
+    """Hybrid search of the DFRPG rules MechanicsVault Chroma collection.
+
+    bge-m3 embeddings rank thematically-similar chunks (e.g. searching for
+    "Wall of Lightning" returns Weather Spells intro and Lightning Missiles
+    entries before the actual Wall of Lightning spell). To compensate, we
+    also do a literal $contains scan for the candidate name and prefer those
+    hits — if the rulebook text contains the verbatim name, that's a much
+    stronger signal that it's a rulebook entry than semantic similarity.
+
+    Returns up to top_k hits; literal-match hits come first, then embedding-
+    based hits, with duplicates collapsed by (book, page, section).
+    """
+    if not CHROMA_AVAILABLE:
+        return []
+    sources = load_local_sources()
+    path = sources.get("mechanics_rag_chroma_path")
+    if not path or not Path(path).exists():
+        return []
+    try:
+        client = chromadb.PersistentClient(path=str(path))
+        coll = client.get_collection(sources["mechanics_rag_collection"])
+    except Exception:
+        return []
+    # Literal name-match: surface chunks whose text contains the candidate name
+    # verbatim (case-insensitive). Strong signal for rulebook entries.
+    literal_hits: list[dict] = []
+    needle = (query or "").strip()
+    if needle:
+        try:
+            res = coll.get(where_document={"$contains": needle}, limit=top_k * 2)
+            for doc, meta in zip(res.get("documents") or [], res.get("metadatas") or []):
+                literal_hits.append(_format_mechanics_hit(doc, meta, 0.0, "literal"))
+        except Exception:
+            pass
+        # Try lowercase too — some chunk text is normalized, queries may not be.
+        if needle != needle.lower():
+            try:
+                res = coll.get(where_document={"$contains": needle.lower()}, limit=top_k * 2)
+                for doc, meta in zip(res.get("documents") or [], res.get("metadatas") or []):
+                    literal_hits.append(_format_mechanics_hit(doc, meta, 0.0, "literal"))
+            except Exception:
+                pass
+    # Embedding-based search as a fallback for fuzzy matches (e.g. abbreviated
+    # or paraphrased names).
+    embedding_hits: list[dict] = []
+    try:
+        query_emb = vault_rag_embed(query)
+        res = coll.query(query_embeddings=[query_emb], n_results=top_k)
+    except Exception:
+        res = {}
+    docs = (res.get("documents") or [[]])[0]
+    metas = (res.get("metadatas") or [[]])[0]
+    dists = (res.get("distances") or [[]])[0]
+    for doc, meta, dist in zip(docs, metas, dists):
+        embedding_hits.append(_format_mechanics_hit(doc, meta, dist, "embedding"))
+    # Merge — literal first, then embedding, deduped by (book, page, section).
+    seen: set[tuple] = set()
+    out: list[dict] = []
+    for h in literal_hits + embedding_hits:
+        key = (h.get("book"), h.get("printed_page"), h.get("section"))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(h)
+        if len(out) >= top_k * 2:
+            break
+    return out[: top_k * 2]
+
+
+# ---- new-entity proposal lane (item 6: IAC/ACE) ----
+
+IAC_KIND_TO_DIR = {
+    "NPC": "npcs",
+    "PC": "pcs",
+    "Location": "locations",
+    "Faction": "factions",
+    "Item": "items",
+    "Monster": "monsters",
+    "Spell": "spells",
+    "Concept": "concepts",
+    "Media": "items",  # Media items live in items/ with media/<subtype> tags
+}
+IAC_KIND_EXTRA_TAGS = {
+    "Media": ("media/general",),  # Verifier may upgrade to media/book, media/map, etc.
+}
+IAC_CANDIDATE_PROMPT = (
+    "You are extracting named entities from a recap of a Dungeon Fantasy RPG (DFRPG/GURPS) "
+    "tabletop campaign set in the Halls of Arden Vul. Recaps come from blog session writeups, "
+    "weekly Discord digests, raw Discord channel rollups, lore notes, and spreadsheet snapshots.\n\n"
+    "List entity candidates from the text grouped by type:\n"
+    "- NPC: named non-player characters (people, sentient creatures with proper names).\n"
+    "- PC: a named player character (e.g. Vael, Ioannes, Vallium, Uvash). PC names are listed "
+    "in \"Player Characters\" sections of session recaps.\n"
+    "- Location: named places (regions, halls, named rooms like \"Goblin Forum\", landmarks). "
+    "Skip generic rooms (\"the hallway\", \"a chamber\") and door labels.\n"
+    "- Faction: named groups, cults, organizations, militaries, races/cultures used as groups "
+    "(e.g. \"Cult of Set\", \"Sortians\", \"Sun-Scarred Knights\").\n"
+    "- Item: named magical or significant non-media items (weapons, armor, artifacts, devices).\n"
+    "- Monster: named creatures or distinct creature types appearing as encounters "
+    "(e.g. \"Behir\", \"Surgical Construct\", \"Ancient Wyrm of the Chasm\"). Skip generic "
+    "common monsters (ghoul, goblin, skeleton) unless they appear as named individuals — "
+    "those are NPCs instead.\n"
+    "- Spell: named spells, magical effects, or supernatural abilities used in-fiction "
+    "(e.g. \"Seeker\", \"Apportation\", \"Recover Energy\"). Not generic verbs.\n"
+    "- Concept: named in-world concepts that aren't a person/place/group/item (e.g. "
+    "\"Apophidian Calendar\", \"Litany of Light\", named rituals or eras).\n"
+    "- Media: named books, scrolls, maps, data crystals, libraries, journals, or catalogs "
+    "(e.g. \"Book of Priors\", \"On the Location of Priscus Pulcher\", \"The Archontean "
+    "Empire\"). These are items, but flagged separately so they get the right media tags.\n\n"
+    "Rules:\n"
+    "- Title Case only. Use the canonical proper name, not a sentence fragment.\n"
+    "- Exclude generics, scaffolding words (we, they, that, this, date, session, summary), "
+    "and pronouns.\n"
+    "- Do not invent. Only list names actually present in the text.\n"
+    "- Do not map to existing pages — that's a separate step.\n\n"
+    "Return strict JSON only:\n"
+    "{\n"
+    '  "NPC": ["..."],\n'
+    '  "PC": ["..."],\n'
+    '  "Location": ["..."],\n'
+    '  "Faction": ["..."],\n'
+    '  "Item": ["..."],\n'
+    '  "Monster": ["..."],\n'
+    '  "Spell": ["..."],\n'
+    '  "Concept": ["..."],\n'
+    '  "Media": ["..."]\n'
+    "}\n"
+    "Empty arrays for kinds with no candidates."
+)
+NEW_ENTITY_MIN_MENTIONS = 2
+NEW_ENTITY_FUZZY_THRESHOLD = 0.88
+NEW_ENTITY_SCAFFOLDING = {
+    "the", "a", "an", "that", "this", "they", "we", "i", "you", "also", "however",
+    "finally", "first", "second", "third", "next", "previous", "again", "great",
+    "over", "under", "ahead", "before", "after", "date", "session", "summary",
+    "page", "note", "tbd", "todo", "however,", "but", "and", "or",
+}
+NEW_ENTITY_SCAFFOLDING_SUFFIXES = {
+    "date", "over", "we", "that", "this", "again", "finally", "however",
+    "before", "after", "they", "you", "i",
+}
+
+
+def load_entity_filters() -> dict:
+    p = ROOT / "config" / "entity_filters.json"
+    if not p.exists():
+        return {}
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def load_ace_ignore_npcs() -> set[str]:
+    p = ROOT / "config" / "ace_ignore_npcs.txt"
+    if not p.exists():
+        return set()
+    out: set[str] = set()
+    for line in p.read_text(encoding="utf-8").splitlines():
+        line = line.split("#", 1)[0].strip()
+        if line:
+            out.add(line.lower())
+    return out
+
+
+def is_candidate_rejected(name: str, kind: str, filters: dict, ignore_npcs: set[str]) -> tuple[bool, str]:
+    if not name:
+        return True, "empty"
+    n = name.strip()
+    if n.startswith("[[") and n.endswith("]]"):
+        n = n[2:-2].split("|")[-1]
+    if len(n) < 3:
+        return True, "too short"
+    if any(c in n for c in (":", ";", "?", "!", "\n", "\t")):
+        return True, "punctuation suggests fragment"
+    nl = n.lower()
+    if nl in NEW_ENTITY_SCAFFOLDING:
+        return True, "scaffolding word"
+    if " " not in n and n.isupper():
+        return True, "all-caps single token (likely acronym/header)"
+    if " " not in n and len(n) <= 4 and n[0].isupper():
+        return True, "single short title-case word (likely generic)"
+    stop_key = {"NPC": "stop_npcs", "Location": "stop_location", "Faction": "stop_factions", "Item": "stop_items", "Concept": "stop_concepts"}.get(kind)
+    if stop_key:
+        for stop in filters.get(stop_key, []):
+            if nl == str(stop).lower():
+                return True, f"in {stop_key}"
+    if kind == "Item":
+        for commodity in filters.get("commodity_items", []):
+            if nl == str(commodity).lower():
+                return True, "commodity item"
+    if kind == "NPC" and nl in ignore_npcs:
+        return True, "in ace_ignore_npcs"
+    last = n.split()[-1].lower()
+    if last in NEW_ENTITY_SCAFFOLDING_SUFFIXES:
+        return True, f"trailing scaffolding word '{last}'"
+    return False, ""
+
+
+_WORD_RE = re.compile(r"\b\w+\b", re.UNICODE)
+
+
+def _entity_name_overlap(a: str, b: str) -> bool:
+    """Word-level subset check: True if names share enough words to be the same entity.
+    Catches cases like 'Vael Sunshadow' vs 'Vaelethron Vael Sunshadow', 'The Beacon' vs 'Beacon',
+    'Lady Alexia' vs 'Lady Alexia Basileon'."""
+    aw = {w for w in _WORD_RE.findall(a.lower()) if len(w) > 1}
+    bw = {w for w in _WORD_RE.findall(b.lower()) if len(w) > 1}
+    if not aw or not bw:
+        return False
+    common = aw & bw
+    if len(common) >= 2:
+        return True
+    if common and (aw.issubset(bw) or bw.issubset(aw)):
+        return True
+    return False
+
+
+def find_nearest_existing_entity(name: str, kind: str, entity_index: dict[str, list[EntityPage]]) -> tuple[str | None, float]:
+    # NPC and PC candidates need to be checked against each other — player characters
+    # are people too and should never be added as NPC pages. Media items live in
+    # items/ alongside non-media items so dedup needs to scan there.
+    kind_to_dirs = {
+        "NPC": ["npcs", "pcs"],
+        "PC": ["pcs", "npcs"],
+        "Location": ["locations"],
+        "Faction": ["factions"],
+        "Item": ["items"],
+        "Monster": ["monsters"],
+        "Spell": ["spells"],
+        "Concept": ["concepts"],
+        "Media": ["items"],
+    }
+    dirs = kind_to_dirs.get(kind)
+    if not dirs:
+        return None, 0.0
+    best_path: str | None = None
+    best_sim = 0.0
+    nl = name.lower()
+    for dir_name in dirs:
+        for ent in entity_index.get(dir_name, []):
+            names_to_check = [ent.title.lower()] + [a.lower() for a in ent.aliases]
+            for cand_name in names_to_check:
+                if not cand_name:
+                    continue
+                if _entity_name_overlap(nl, cand_name):
+                    return ent.path, 1.0
+                sim = difflib.SequenceMatcher(None, nl, cand_name).ratio()
+                if sim > best_sim:
+                    best_sim = sim
+                    best_path = ent.path
+    return best_path, best_sim
+
+
+def build_entity_index() -> dict[str, list[EntityPage]]:
+    out: dict[str, list[EntityPage]] = {}
+    for p in entity_pages():
+        parts = p.path.split("/")
+        key = None
+        if parts and parts[0] == "vault" and len(parts) >= 2:
+            key = parts[1]
+        elif parts:
+            key = parts[0]
+        if key:
+            out.setdefault(key, []).append(p)
+    return out
+
+
+def iac_extract_candidates_from_chunk(chunk_text: str) -> dict[str, list[str]]:
+    prompt = IAC_CANDIDATE_PROMPT + "\n\nTEXT:\n" + chunk_text[:3000]
+    try:
+        response = llm_chat_json(prompt, timeout=120)
+    except Exception:
+        return {}
+    out: dict[str, list[str]] = {}
+    for kind in IAC_KIND_TO_DIR.keys():
+        values = response.get(kind) or []
+        if isinstance(values, list):
+            cleaned = []
+            for v in values:
+                if isinstance(v, (str, int, float)):
+                    s = str(v).strip()
+                    if s:
+                        cleaned.append(s)
+            out[kind] = cleaned
+    return out
+
+
+def extract_candidate_evidence(name: str, source_paths: list[Path]) -> list[dict]:
+    evidence: list[dict] = []
+    pattern = re.compile(re.escape(name), re.IGNORECASE)
+    section_pat = re.compile(r"^## (?!#)([^\n]+)", re.MULTILINE)
+    for sp in source_paths:
+        try:
+            text = read_text(sp)
+        except Exception:
+            continue
+        m = pattern.search(text)
+        if not m:
+            continue
+        section = "(intro)"
+        for sec_m in section_pat.finditer(text[:m.start()]):
+            section = sec_m.group(1).strip()
+        start = max(0, m.start() - 150)
+        end = min(len(text), m.end() + 200)
+        excerpt = normalize_space(text[start:end])
+        try:
+            rel = sp.relative_to(ROOT).as_posix()
+        except ValueError:
+            rel = str(sp)
+        evidence.append({"path": rel, "section": section, "excerpt": excerpt[:400]})
+    return evidence
+
+
+def build_new_entity_proposals(source_limit: int = 10, candidate_limit: int = 50) -> list[NewEntityCandidate]:
+    canonical_sources = latest_canonical_sources(limit=source_limit)
+    if not canonical_sources:
+        return []
+    filters = load_entity_filters()
+    ignore_npcs = load_ace_ignore_npcs()
+    entity_index = build_entity_index()
+    raw_by_kind: dict[str, dict[str, list[Path]]] = {k: {} for k in IAC_KIND_TO_DIR.keys()}
+    for sp in canonical_sources:
+        try:
+            text = read_text(sp)
+        except Exception:
+            continue
+        for i in range(0, len(text), 3000):
+            chunk = text[i:i + 3000]
+            if len(chunk.strip()) < 80:
+                continue
+            extracted = iac_extract_candidates_from_chunk(chunk)
+            for kind, names in extracted.items():
+                for name in names:
+                    raw_by_kind[kind].setdefault(name, []).append(sp)
+    out: list[NewEntityCandidate] = []
+    for kind, by_name in raw_by_kind.items():
+        for name, sources_seen in by_name.items():
+            rejected, _ = is_candidate_rejected(name, kind, filters, ignore_npcs)
+            if rejected:
+                continue
+            unique_sources = list({str(p): p for p in sources_seen}.values())
+            if len(unique_sources) < NEW_ENTITY_MIN_MENTIONS and len(sources_seen) < NEW_ENTITY_MIN_MENTIONS:
+                continue
+            nearest_path, nearest_sim = find_nearest_existing_entity(name, kind, entity_index)
+            if nearest_sim >= NEW_ENTITY_FUZZY_THRESHOLD:
+                continue
+            ev = extract_candidate_evidence(name, unique_sources[:5])
+            if len(ev) < NEW_ENTITY_MIN_MENTIONS:
+                continue
+            proposal_id = hashlib.sha1(f"{kind}|{name}".encode("utf-8")).hexdigest()[:12]
+            out.append(NewEntityCandidate(
+                name=name,
+                kind=kind,
+                canonical_target_dir=IAC_KIND_TO_DIR[kind],
+                mention_count=len(ev),
+                sources=ev,
+                rationale=(
+                    f"Mentioned across {len(ev)} canonical sources; "
+                    f"not found in existing vault/{IAC_KIND_TO_DIR[kind]}/ pages "
+                    f"(nearest match similarity={nearest_sim:.2f})."
+                ),
+                nearest_existing=nearest_path,
+                nearest_distance=nearest_sim,
+                proposal_id=proposal_id,
+                status="needs-verification",
+            ))
+    out.sort(key=lambda c: (-c.mention_count, c.kind, c.name))
+    return out[:candidate_limit]
+
+
+def write_new_entity_proposal_report(proposals: list[NewEntityCandidate]) -> None:
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    proposals_dir.mkdir(parents=True, exist_ok=True)
+    write_json(proposals_dir / "new_entity_proposals.json", [asdict(p) for p in proposals])
+    lines: list[str] = ["# New Entity Proposals", ""]
+    by_kind: dict[str, list[NewEntityCandidate]] = {}
+    for p in proposals:
+        by_kind.setdefault(p.kind, []).append(p)
+    for kind in IAC_KIND_TO_DIR.keys():
+        ps = by_kind.get(kind, [])
+        if not ps:
+            continue
+        lines.append(f"## {kind} ({len(ps)})")
+        lines.append("")
+        for p in ps:
+            lines.append(f"### {p.proposal_id} — {p.name}")
+            lines.append(f"**Mentions**: {p.mention_count}")
+            if p.nearest_existing:
+                lines.append(f"**Nearest existing**: `{p.nearest_existing}` (similarity {p.nearest_distance:.2f})")
+            lines.append(f"**Rationale**: {p.rationale}")
+            lines.append("**Evidence**:")
+            for s in p.sources[:3]:
+                ex = (s.get("excerpt", "") or "").replace("|", "\\|").replace("\n", " ")
+                lines.append(f"- `{s.get('path','')}` §{s.get('section','')}: > {ex}")
+            lines.append("")
+    (proposals_dir / "new_entity_proposals.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
+    sources_text = "\n\n---\n\n".join(
+        f"[{s.get('path','')} §{s.get('section','?')}]\n{s.get('excerpt','')}"
+        for s in candidate.sources[:5]
+    )
+    # Cross-reference the candidate name against the existing vault via vault-rag.
+    # This catches concept-duplicates that name-overlap dedup misses — e.g. the
+    # candidate has a different surface name but the vault already covers it
+    # under an alias or in a related page.
+    rag_block = ""
+    try:
+        rag_hits = vault_rag_search(candidate.name, top_k=4)
+        # Drop hits from the candidate's intended target folder if they're the
+        # nearest_existing (already cited above), to keep the prompt focused.
+        kept: list[dict] = []
+        for h in rag_hits:
+            if h.get("path") == candidate.nearest_existing:
+                continue
+            kept.append(h)
+        if kept:
+            rag_block = "\n\nVAULT CROSS-REFERENCE (vault-rag hits for the candidate name in the wider vault):\n\n" + "\n\n---\n\n".join(
+                f"[{h.get('path','?')} §{h.get('section','?')} kind={h.get('kind','?')}]\n{(h.get('text') or '')[:600]}"
+                for h in kept[:4]
+            )
+    except Exception:
+        pass
+    # Cross-reference the candidate name against the DFRPG MechanicsVault rules
+    # collection. If the candidate is a rulebook entry (e.g. the spell "Awaken",
+    # the potion "Paut", a monster stat block from DF_Monsters), we don't want
+    # to create a campaign-specific stub for it. The verifier should mark it
+    # as "rulebook_entry" instead.
+    rules_block = ""
+    try:
+        rules_hits = mechanics_rag_search(candidate.name, top_k=3)
+        if rules_hits:
+            literal_count = sum(1 for h in rules_hits if h.get("match_type") == "literal")
+            header = "\n\nDFRPG RULES CROSS-REFERENCE (MechanicsVault hits):"
+            if literal_count > 0:
+                header += (
+                    f" {literal_count} LITERAL match(es) — the candidate name appears VERBATIM "
+                    "in rulebook text below. This is strong evidence the candidate is a "
+                    "rulebook_entry, not a campaign-specific entity."
+                )
+            rules_block = header + "\n\n" + "\n\n---\n\n".join(
+                f"[{h.get('book','?')} p.{h.get('printed_page','?')} §{h.get('section','?')} match={h.get('match_type','?')}]\n{(h.get('text') or '')[:500]}"
+                for h in rules_hits[:5]
+            )
+    except Exception:
+        pass
+    nearest_line = (
+        f"\nNearest existing entity in vault/{candidate.canonical_target_dir}/: "
+        f"`{candidate.nearest_existing}` (similarity {candidate.nearest_distance:.2f}).\n"
+        if candidate.nearest_existing else ""
+    )
+    return (
+        f"You are auditing a proposed new {candidate.kind} entity for the Arden Vul DFRPG/GURPS tabletop campaign vault.\n\n"
+        f"Candidate name: \"{candidate.name}\"\n"
+        f"Proposed entity kind: {candidate.kind}\n"
+        f"Target vault folder: vault/{candidate.canonical_target_dir}/\n"
+        f"{nearest_line}\n"
+        "EVIDENCE EXCERPTS FROM CANONICAL VAULT SOURCES (Blogspot session recaps, weekly Discord digests, "
+        "raw Discord channel rollups, lore notes, and ignored spreadsheet snapshots):\n\n"
+        f"{sources_text}"
+        f"{rag_block}"
+        f"{rules_block}\n\n"
+        "Decide one of:\n"
+        "- \"confirmed\": evidence clearly establishes this as a named CAMPAIGN-SPECIFIC entity of the proposed kind, with no obvious duplicate. The vault cross-reference did not surface this entity under another name AND the rules cross-reference did not show this is a rulebook entry.\n"
+        "- \"rulebook_entry\": the DFRPG rules cross-reference clearly shows this is a generic rulebook entry (a published spell like Awaken or Detect Magic; a generic potion like Paut; a monster stat block from DF_Monsters; an Adventurer power). We do NOT create lore-style vault pages for rulebook entries — those are already covered by the rules. Cite the book/page in rationale.\n"
+        "- \"wrong_kind\": evidence supports a real entity but the proposed kind is wrong (e.g. it is a Location, not an NPC; or it is a Monster, not an Item; or a Media item, not a plain Item). Set suggested_kind to the correct one.\n"
+        "- \"duplicate\": evidence (including the vault cross-reference) indicates this is the same entity as an already-known vault page, possibly under a different surface name. Cite which path in rationale.\n"
+        "- \"not_an_entity\": this is a generic noun, scaffolding word, sentence fragment, room/door label, generic monster type, or term that should not become a vault page.\n"
+        "- \"ambiguous\": evidence is too thin or contradictory to decide.\n\n"
+        "CRITICAL RULE FOR RULEBOOK ENTRIES:\n"
+        "If the rules cross-reference contains ANY hit with match=literal that shows the actual "
+        "rulebook entry for the candidate name (e.g. an `### Apportation` spell entry, an "
+        "`## Salamander Amulet` item entry, a monster stat block header), the candidate is a "
+        "rulebook_entry — even if session recaps and Discord rollups document characters using or "
+        "discussing it. Routine campaign use of a published spell, item, or monster is NOT enough "
+        "to make it campaign-specific:\n"
+        "- Vael casting Dispel Magic in Session 50 -> Dispel Magic stays rulebook_entry.\n"
+        "- The party brewing a Salamander Amulet -> Salamander Amulet stays rulebook_entry.\n"
+        "- A delver fighting a generic ghoul -> Ghoul stays rulebook_entry / not_an_entity.\n"
+        "Only mark as confirmed when the campaign introduces a UNIQUELY-NAMED variant or a "
+        "substantively different version that the rulebook doesn't cover. Examples that DO warrant "
+        "confirmed status:\n"
+        "- A behir named \"Korthax the Coiled\" appearing as a recurring antagonist (campaign NPC).\n"
+        "- A custom spell \"Scry Gate of Beacon\" with campaign-specific mechanics not in the rules.\n"
+        "- A unique magical item like \"The Iron Circlet of Ghanor\" with a campaign-rooted name and history.\n\n"
+        "Return strict JSON only:\n"
+        "{\n"
+        '  "status": "confirmed|rulebook_entry|wrong_kind|duplicate|not_an_entity|ambiguous",\n'
+        '  "rationale": "<one sentence grounded in the cited evidence and/or vault cross-reference>",\n'
+        '  "suggested_kind": "<NPC|PC|Location|Faction|Item|Monster|Spell|Concept|Media if status=wrong_kind, else empty string>",\n'
+        '  "suggested_media_subtype": "<book|map|scroll|data-crystal|library|catalog|journal|inscription if kind=Media and status=confirmed, else empty string>",\n'
+        '  "summary": "<one factual sentence suitable for the stub page if status=confirmed, else empty string>"\n'
+        "}"
+    )
+
+
+def verify_new_entity_proposals(limit: int = 20) -> list[dict]:
+    proposals_path = AUTOMATION_DIR / "proposals" / "new_entity_proposals.json"
+    if not proposals_path.exists():
+        raise RuntimeError("new_entity_proposals.json not found; run propose-new-entities first")
+    raw = json.loads(proposals_path.read_text(encoding="utf-8"))
+    proposals = [NewEntityCandidate(**r) for r in raw]
+    out: list[dict] = []
+    for p in proposals[:limit]:
+        try:
+            response = llm_chat_json(new_entity_verifier_prompt(p), timeout=120)
+            status = str(response.get("status", "unknown"))
+            rationale = str(response.get("rationale", ""))
+            suggested_kind = str(response.get("suggested_kind", ""))
+            summary = str(response.get("summary", ""))
+            media_subtype = str(response.get("suggested_media_subtype", "")).strip().lower()
+        except Exception as exc:
+            status = "error"
+            rationale = str(exc)[:200]
+            suggested_kind = ""
+            summary = ""
+            media_subtype = ""
+        result = asdict(p)
+        result["verifier_status"] = status
+        result["verifier_rationale"] = rationale
+        result["verifier_suggested_kind"] = suggested_kind
+        result["verifier_summary"] = summary
+        result["verifier_media_subtype"] = media_subtype
+        out.append(result)
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    write_json(proposals_dir / "new_entity_verifications.json", out)
+    lines: list[str] = ["# New Entity Verifications", ""]
+    by_status: dict[str, list[dict]] = {}
+    for r in out:
+        by_status.setdefault(r["verifier_status"], []).append(r)
+    for status in ["confirmed", "rulebook_entry", "wrong_kind", "duplicate", "ambiguous", "not_an_entity", "error", "unknown"]:
+        items = by_status.get(status, [])
+        if not items:
+            continue
+        lines.append(f"## {status} ({len(items)})")
+        lines.append("")
+        for r in items:
+            lines.append(f"### {r['proposal_id']} — {r['name']} ({r['kind']})")
+            lines.append(f"**Verifier**: {r.get('verifier_rationale','')}")
+            if r.get("verifier_summary"):
+                lines.append(f"**Suggested summary**: {r['verifier_summary']}")
+            if r.get("verifier_suggested_kind"):
+                lines.append(f"**Suggested kind**: {r['verifier_suggested_kind']}")
+            lines.append("")
+    (proposals_dir / "new_entity_verifications.md").write_text("\n".join(lines), encoding="utf-8")
+    return out
+
+
+def slugify_entity_name(name: str) -> str:
+    cleaned = re.sub(r"[\\/:*?\"<>|]", "", name).strip()
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    return cleaned
+
+
+def build_new_entity_stub(name: str, kind: str, summary: str, sources: list[dict], media_subtype: str = "") -> str:
+    tag_map = {
+        "NPC": "npc",
+        "PC": "pc",
+        "Location": "location",
+        "Faction": "faction",
+        "Item": "item",
+        "Monster": "monster",
+        "Spell": "spell",
+        "Concept": "concept",
+        "Media": "item",  # Media lives in items/ alongside non-media items
+    }
+    tag = tag_map.get(kind, kind.lower())
+    tags = [tag]
+    if kind == "Media":
+        # media/<subtype> tag (book/map/scroll/data-crystal/library/catalog/journal/inscription).
+        allowed_media = {"book", "map", "scroll", "data-crystal", "library", "catalog", "journal", "inscription"}
+        subtype = media_subtype if media_subtype in allowed_media else "general"
+        tags.append(f"media/{subtype}")
+    tags.append("identity/uncertain")
+    lines = ["---", "tags:"]
+    for t in tags:
+        lines.append(f"  - {t}")
+    lines.extend([
+        "status: stub",
+        "---",
+        "",
+        f"# {name}",
+        "",
+    ])
+    if summary:
+        lines.extend(["## Summary", summary, ""])
+    lines.append("## Sources")
+    seen: set[str] = set()
+    for s in sources:
+        path = s.get("path", "")
+        if not path or path in seen:
+            continue
+        seen.add(path)
+        # Vault-relative wikilink form (no leading "vault/") matches the
+        # convention used elsewhere in the vault.
+        wiki_path = path[len("vault/"):] if path.startswith("vault/") else path
+        label = Path(path).stem
+        lines.append(f"- [[{wiki_path}|{label}]]")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def apply_verified_new_entities(apply_changes: bool, limit: int | None = None) -> dict:
+    ver_path = AUTOMATION_DIR / "proposals" / "new_entity_verifications.json"
+    if not ver_path.exists():
+        return {"ok": False, "error": "verifications_not_found", "hint": "Run verify-new-entities first"}
+    verifications = json.loads(ver_path.read_text(encoding="utf-8"))
+    confirmed = [v for v in verifications if v.get("verifier_status") == "confirmed"]
+    if limit is not None:
+        confirmed = confirmed[:limit]
+    rulebook_count = sum(1 for v in verifications if v.get("verifier_status") == "rulebook_entry")
+    results: list[dict] = []
+    created: list[str] = []
+    for v in confirmed:
+        name = v.get("name", "")
+        kind = v.get("kind", "")
+        # PC pages are maintained by players; never auto-create them. Log so we
+        # know the proposer hit one, but don't write to disk.
+        if kind == "PC":
+            results.append({"name": name, "kind": kind, "action": "skipped", "reason": "PC pages must be created manually"})
+            continue
+        target_dir_name = IAC_KIND_TO_DIR.get(kind, "")
+        if not target_dir_name:
+            results.append({"name": name, "kind": kind, "action": "error", "reason": "unsupported kind"})
+            continue
+        target_dir = VAULT / target_dir_name
+        if not target_dir.exists():
+            results.append({"name": name, "kind": kind, "action": "error", "reason": f"vault/{target_dir_name}/ missing"})
+            continue
+        slug = slugify_entity_name(name)
+        if not slug:
+            results.append({"name": name, "kind": kind, "action": "error", "reason": "name slugified to empty"})
+            continue
+        target_path = target_dir / f"{slug}.md"
+        rel_path = target_path.relative_to(ROOT).as_posix()
+        if target_path.exists():
+            results.append({"name": name, "kind": kind, "action": "skipped", "reason": "page already exists", "path": rel_path})
+            continue
+        content = build_new_entity_stub(
+            name, kind, v.get("verifier_summary", ""), v.get("sources", []),
+            media_subtype=v.get("verifier_media_subtype", ""),
+        )
+        if apply_changes:
+            target_path.write_text(content, encoding="utf-8")
+            created.append(rel_path)
+            results.append({"name": name, "kind": kind, "action": "created", "path": rel_path})
+        else:
+            results.append({
+                "name": name, "kind": kind, "action": "would_create", "path": rel_path,
+                "preview": content[:300],
+            })
+    payload: dict = {
+        "ok": True,
+        "mode": "apply" if apply_changes else "dry-run",
+        "confirmed_count": len(confirmed),
+        "rulebook_filtered_count": rulebook_count,
+        "created_count": len(created),
+        "skipped_count": sum(1 for r in results if r["action"] in ("skipped", "error")),
+        "results": results,
+    }
+    if apply_changes and created:
+        payload["vault_rag_refresh"] = refresh_vault_rag_safely()
+    return payload
+
+
+def cmd_propose_new_entities(args: argparse.Namespace) -> int:
+    proposals = build_new_entity_proposals(source_limit=args.source_limit, candidate_limit=args.limit)
+    write_new_entity_proposal_report(proposals)
+    by_kind: dict[str, int] = {}
+    for p in proposals:
+        by_kind[p.kind] = by_kind.get(p.kind, 0) + 1
+    summary = {
+        "ok": True,
+        "proposal_count": len(proposals),
+        "by_kind": by_kind,
+        "markdown": str(AUTOMATION_DIR / "proposals" / "new_entity_proposals.md"),
+        "json": str(AUTOMATION_DIR / "proposals" / "new_entity_proposals.json"),
+    }
+    print(json.dumps(summary, indent=2))
+    return 0
+
+
+def cmd_verify_new_entities(args: argparse.Namespace) -> int:
+    try:
+        verifications = verify_new_entity_proposals(limit=args.limit)
+    except RuntimeError as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    counts: dict[str, int] = {}
+    for v in verifications:
+        st = v.get("verifier_status", "unknown")
+        counts[st] = counts.get(st, 0) + 1
+    summary = {
+        "ok": True,
+        "verified_count": len(verifications),
+        "status_counts": counts,
+        "markdown": str(AUTOMATION_DIR / "proposals" / "new_entity_verifications.md"),
+        "json": str(AUTOMATION_DIR / "proposals" / "new_entity_verifications.json"),
+    }
+    print(json.dumps(summary, indent=2))
+    return 0
+
+
+def cmd_apply_verified_new_entities(args: argparse.Namespace) -> int:
+    result = apply_verified_new_entities(apply_changes=args.apply, limit=args.limit)
+    print(json.dumps(result, indent=2))
+    return 0 if result.get("ok") else 2
+
+
+# ---- vault walk cursor (rotates through every article over time) ----
+
+VAULT_WALK_CURSOR_PATH = AUTOMATION_DIR / "vault_walk_cursor.json"
+VAULT_WALK_DIRS = ("npcs", "pcs", "locations", "factions", "items", "monsters", "spells")
+
+
+def vault_walk_eligible_articles() -> list[str]:
+    """Sorted repo-relative paths of every walkable article."""
+    paths: list[str] = []
+    for sub in VAULT_WALK_DIRS:
+        root = VAULT / sub
+        if not root.exists():
+            continue
+        for p in sorted(root.glob("*.md")):
+            if p.stem.lower() in {"index", "readme"}:
+                continue
+            paths.append(p.relative_to(ROOT).as_posix())
+    return paths
+
+
+def vault_walk_load_cursor() -> dict:
+    if not VAULT_WALK_CURSOR_PATH.exists():
+        return {"last_path": "", "wraps": 0, "started_at": datetime.now(timezone.utc).isoformat()}
+    try:
+        return json.loads(VAULT_WALK_CURSOR_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {"last_path": "", "wraps": 0, "started_at": datetime.now(timezone.utc).isoformat()}
+
+
+def vault_walk_save_cursor(cursor: dict) -> None:
+    VAULT_WALK_CURSOR_PATH.parent.mkdir(parents=True, exist_ok=True)
+    cursor["updated_at"] = datetime.now(timezone.utc).isoformat()
+    write_json(VAULT_WALK_CURSOR_PATH, cursor)
+
+
+def vault_walk_next(n: int, save: bool = True) -> list[str]:
+    """Return the next n article paths after the cursor and (optionally) advance the cursor."""
+    if n <= 0:
+        return []
+    paths = vault_walk_eligible_articles()
+    if not paths:
+        return []
+    cursor = vault_walk_load_cursor()
+    last = cursor.get("last_path", "")
+    start_idx = 0
+    if last:
+        try:
+            start_idx = paths.index(last) + 1
+        except ValueError:
+            start_idx = 0
+    selected: list[str] = []
+    wraps = int(cursor.get("wraps", 0))
+    idx = start_idx
+    for _ in range(min(n, len(paths))):
+        if idx >= len(paths):
+            idx = 0
+            wraps += 1
+        selected.append(paths[idx])
+        idx += 1
+    if save and selected:
+        cursor["last_path"] = selected[-1]
+        cursor["wraps"] = wraps
+        cursor["total_articles"] = len(paths)
+        vault_walk_save_cursor(cursor)
+    return selected
+
+
+def cmd_vault_walk_status(_: argparse.Namespace) -> int:
+    paths = vault_walk_eligible_articles()
+    cursor = vault_walk_load_cursor()
+    last = cursor.get("last_path", "")
+    pos = (paths.index(last) + 1) if last and last in paths else 0
+    print(json.dumps({
+        "ok": True,
+        "total_articles": len(paths),
+        "cursor_position": pos,
+        "last_path": last,
+        "wraps_completed": cursor.get("wraps", 0),
+        "started_at": cursor.get("started_at"),
+        "updated_at": cursor.get("updated_at"),
+    }, indent=2))
+    return 0
+
+
+# ---- article-edit research lane ----
+
+ARTICLE_EDIT_ADDITION_TYPES = {"append_bullet_to_section", "add_alias", "extend_summary"}
+
+
+def article_edit_proposer_prompt(
+    article_text: str,
+    source_chunks: list[dict],
+    article_path: str,
+    article_title: str,
+    article_kind: str,
+) -> str:
+    article_excerpt = article_text[:2000]
+    blocks = []
+    for c in source_chunks:
+        blocks.append(
+            f"[{c.get('path','?')} §{c.get('section','?')} kind={c.get('kind','?')}]\n{(c.get('text') or '')[:900]}"
+        )
+    sources_text = "\n\n---\n\n".join(blocks)
+    return (
+        "You are an Obsidian vault research assistant for the Arden Vul DFRPG tabletop campaign.\n\n"
+        f"CURRENT ARTICLE PAGE: {article_path}\n"
+        f"Title: {article_title}\n"
+        f"Kind: {article_kind}\n"
+        "Content:\n---\n"
+        f"{article_excerpt}\n"
+        "---\n\n"
+        "SOURCE EVIDENCE retrieved from canonical vault sources (Blogspot recaps in vault/sessions/, "
+        "weekly Discord digests in vault/notes/, lore docs in vault/lore/, and ignored spreadsheet snapshots):\n\n"
+        f"{sources_text}\n\n"
+        "YOUR TASK: Propose at most 3 small, sourced additions to the article based ONLY on the source evidence above. "
+        "Be conservative: do not invent facts, do not paraphrase loosely, do not propose changes already present in the article.\n\n"
+        "Allowed addition types:\n"
+        "- \"append_bullet_to_section\": Add ONE wikilinked bullet to an existing H2 section (e.g. \"Sessions\", "
+        "\"Appears In\", \"Notes\", \"Connections\"). target_section must match an existing H2 heading in the article. "
+        "PREFER THIS TYPE over extend_summary when adding a new fact.\n"
+        "- \"add_alias\": Add ONE alternate name to the frontmatter aliases list. target_section must be \"aliases\".\n"
+        "- \"extend_summary\": Add ONE short factual sentence to the Summary section. target_section must be \"Summary\". "
+        "Use only when strongly supported AND the new sentence introduces information that is not already in the Summary. "
+        "Do NOT propose extend_summary text whose words substantially overlap with the existing Summary content — that "
+        "produces a near-duplicate restatement and adds noise. If the fact is new but could go elsewhere, prefer "
+        "append_bullet_to_section in Notes/History/Appears In.\n\n"
+        "Every proposal MUST cite a specific source excerpt by path and section. The excerpt should be a short verbatim "
+        "quote from the source content, not a paraphrase.\n\n"
+        "Return strict JSON only. No commentary, no markdown fences, no preamble. Schema:\n"
+        "{\n"
+        '  "proposals": [\n'
+        "    {\n"
+        '      "addition_type": "append_bullet_to_section",\n'
+        '      "target_section": "Sessions",\n'
+        '      "proposed_text": "- [[sessions/Session 27 - Tomb of Ptoh-Ristus.md|Session 27 - Tomb of Ptoh-Ristus]]",\n'
+        '      "rationale": "Article mentions Ptoh-Ristus but lacks the canonical session reference.",\n'
+        '      "sources": [\n'
+        '        {"path": "vault/sessions/Session 27 - Tomb of Ptoh-Ristus.md", "section": "Full Recap", "excerpt": "<short verbatim quote>"}\n'
+        "      ]\n"
+        "    }\n"
+        "  ]\n"
+        "}\n\n"
+        "Return {\"proposals\": []} if the evidence does not support any addition."
+    )
+
+
+def gather_article_research_chunks(item: ArticleQueueItem, top_k_per_query: int = 5, max_chunks: int = 12) -> list[dict]:
+    """Collect candidate research chunks from vault-rag for an article.
+    Reorders results so chunks that literally mention the article title come first,
+    since multi-topic chunks often bury the most relevant evidence below pure name-similarity."""
+    seen: set[tuple] = set()
+    chunks: list[dict] = []
+    for q in list(item.queries)[:6]:
+        try:
+            hits = vault_rag_search(q, top_k=top_k_per_query)
+        except Exception:
+            continue
+        for h in hits:
+            if h.get("path") == item.path:
+                continue
+            key = (h.get("path"), h.get("section"))
+            if key in seen:
+                continue
+            seen.add(key)
+            chunks.append(h)
+            if len(chunks) >= max_chunks:
+                break
+        if len(chunks) >= max_chunks:
+            break
+    # Boost chunks that literally contain the article title.
+    title_l = item.title.lower()
+    def _key(h: dict) -> tuple[int, float]:
+        text = (h.get("text") or "").lower()
+        has_title = 0 if title_l in text else 1
+        return (has_title, h.get("distance", 1.0))
+    chunks.sort(key=_key)
+    return chunks
+
+
+def build_article_edit_proposals(
+    article_paths: list[Path] | None = None,
+    limit: int = 5,
+    max_additions_per_article: int = 3,
+    top_k_per_query: int = 5,
+) -> list[ArticleEditProposal]:
+    queue = build_article_queue(limit=200)
+    if article_paths:
+        wanted_paths: list[str] = []
+        for p in article_paths:
+            try:
+                wanted_paths.append(p.relative_to(ROOT).as_posix() if p.is_absolute() else p.as_posix())
+            except ValueError:
+                wanted_paths.append(p.as_posix())
+        # Preserve caller order; fall back to building a queue item for paths
+        # that are outside the weakest-N queue so walk-cursor articles still process.
+        by_path = {it.path: it for it in queue}
+        items = []
+        for rel in wanted_paths:
+            if rel in by_path:
+                items.append(by_path[rel])
+                continue
+            built = build_article_queue_item(ROOT / rel)
+            if built is not None:
+                items.append(built)
+    else:
+        items = queue[:limit]
+    proposals: list[ArticleEditProposal] = []
+    for item in items:
+        path = ROOT / item.path
+        if not path.exists():
+            continue
+        article_text = read_text(path)
+        chunks = gather_article_research_chunks(item, top_k_per_query=top_k_per_query)
+        if not chunks:
+            continue
+        prompt = article_edit_proposer_prompt(
+            article_text, chunks, item.path, item.title, item.kind
+        )
+        try:
+            response = llm_chat_json(prompt, timeout=120)
+        except Exception:
+            continue
+        raw_proposals = response.get("proposals") or []
+        for raw in raw_proposals[:max_additions_per_article]:
+            if not isinstance(raw, dict):
+                continue
+            addition_type = str(raw.get("addition_type", "")).strip()
+            if addition_type not in ARTICLE_EDIT_ADDITION_TYPES:
+                continue
+            target_section = str(raw.get("target_section", "")).strip()
+            proposed_text = str(raw.get("proposed_text", "")).strip()
+            rationale = str(raw.get("rationale", "")).strip()
+            sources: list[dict] = []
+            for src in (raw.get("sources") or []):
+                if isinstance(src, dict) and src.get("path"):
+                    sources.append({
+                        "path": str(src.get("path", "")),
+                        "section": str(src.get("section", "")),
+                        "excerpt": str(src.get("excerpt", ""))[:400],
+                    })
+            if not sources or not proposed_text or not target_section:
+                continue
+            proposal_id = hashlib.sha1(
+                f"{item.path}|{addition_type}|{target_section}|{proposed_text}".encode("utf-8")
+            ).hexdigest()[:12]
+            proposals.append(ArticleEditProposal(
+                article_path=item.path,
+                article_title=item.title,
+                article_kind=item.kind,
+                article_score=item.score,
+                addition_type=addition_type,
+                target_section=target_section,
+                proposed_text=proposed_text,
+                rationale=rationale,
+                sources=sources,
+                status="needs-verification",
+                proposal_id=proposal_id,
+            ))
+    return proposals
+
+
+def write_article_edit_proposal_report(proposals: list[ArticleEditProposal]) -> None:
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    proposals_dir.mkdir(parents=True, exist_ok=True)
+    write_json(proposals_dir / "article_edit_proposals.json", [asdict(p) for p in proposals])
+    lines: list[str] = ["# Article Edit Proposals", ""]
+    by_article: dict[str, list[ArticleEditProposal]] = {}
+    for p in proposals:
+        by_article.setdefault(p.article_path, []).append(p)
+    for article_path, props in sorted(by_article.items()):
+        lines.append(f"## {article_path}")
+        first = props[0]
+        lines.append(f"score={first.article_score} kind={first.article_kind}")
+        lines.append("")
+        for p in props:
+            lines.append(f"### {p.proposal_id} — `{p.addition_type}` → `{p.target_section}`")
+            lines.append(f"**Proposed**: {p.proposed_text}")
+            lines.append(f"**Rationale**: {p.rationale}")
+            if p.sources:
+                lines.append("**Sources**:")
+                for s in p.sources:
+                    excerpt = (s.get("excerpt", "") or "").replace("|", "\\|").replace("\n", " ")
+                    lines.append(f"- `{s.get('path','')}` §{s.get('section','')}: > {excerpt}")
+            lines.append("")
+    (proposals_dir / "article_edit_proposals.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def article_edit_verifier_prompt(proposal: ArticleEditProposal) -> str:
+    article_full_path = ROOT / proposal.article_path
+    article_text = read_text(article_full_path)[:1800] if article_full_path.exists() else ""
+    source_blocks: list[str] = []
+    for src in proposal.sources:
+        src_path_str = src.get("path", "")
+        src_path = Path(src_path_str) if src_path_str.startswith("/") else ROOT / src_path_str
+        if not src_path.exists():
+            source_blocks.append(f"[{src_path_str} §{src.get('section','?')}]\nSOURCE FILE NOT FOUND")
+            continue
+        src_text = read_text(src_path)
+        section = src.get("section", "")
+        excerpt = (src.get("excerpt", "") or "").strip()
+        window = ""
+        # Prefer to center the window on the cited excerpt if we can find it verbatim.
+        needle = excerpt[:80].strip() if excerpt else ""
+        excerpt_idx = src_text.find(needle) if needle else -1
+        if excerpt_idx >= 0:
+            start = max(0, excerpt_idx - 1200)
+            end = min(len(src_text), excerpt_idx + 2000)
+            window = src_text[start:end]
+        # Fallback: full section bounded by next H2.
+        if not window and section:
+            sec_pat = re.compile(rf"^## {re.escape(section)}\s*$", re.MULTILINE)
+            m = sec_pat.search(src_text)
+            if m:
+                end_search = re.search(r"^## ", src_text[m.end():], re.MULTILINE)
+                end = m.end() + end_search.start() if end_search else len(src_text)
+                # Allow up to 6000 chars so multi-paragraph sections aren't truncated.
+                window = src_text[m.start():min(end, m.start() + 6000)]
+        # Last resort: the start of the file.
+        if not window:
+            window = src_text[:3000]
+        source_blocks.append(f"[{src.get('path','')} §{section or '?'}]\n{window}")
+    sources_text = "\n\n---\n\n".join(source_blocks)
+    return (
+        "Verify whether the proposed article addition is supported by the cited canonical sources.\n\n"
+        "PROPOSED ADDITION:\n"
+        f"- For article: {proposal.article_path}\n"
+        f"- Article title: {proposal.article_title}\n"
+        f"- Article kind: {proposal.article_kind}\n"
+        f"- Addition type: {proposal.addition_type}\n"
+        f"- Target section: {proposal.target_section}\n"
+        f"- Proposed text: {proposal.proposed_text}\n"
+        f"- Proposer rationale: {proposal.rationale}\n\n"
+        "CURRENT ARTICLE CONTENT (for awareness only — verification is against the cited sources, not the article):\n"
+        "---\n"
+        f"{article_text}\n"
+        "---\n\n"
+        "CITED SOURCES (verbatim from disk):\n\n"
+        f"{sources_text}\n\n"
+        "Classify the proposed addition strictly:\n"
+        "- \"supported\": cited sources clearly support adding this content to the article.\n"
+        "- \"contradicted\": cited sources contain evidence against this content.\n"
+        "- \"ambiguous\": sources mention the topic but do not clearly support the specific claim.\n"
+        "- \"not_found\": cited sources do not contain content relevant to the proposed addition.\n\n"
+        "Return strict JSON only:\n"
+        "{\n"
+        '  "status": "supported|contradicted|ambiguous|not_found",\n'
+        '  "rationale": "<one sentence grounded in the cited source content>",\n'
+        '  "evidence": "<short verbatim quote from one cited source if status=supported, else empty string>"\n'
+        "}"
+    )
+
+
+def verify_article_edit_proposals(limit: int | None = 10) -> list[dict]:
+    proposals_path = AUTOMATION_DIR / "proposals" / "article_edit_proposals.json"
+    if not proposals_path.exists():
+        raise RuntimeError("article_edit_proposals.json not found; run propose-article-edits first")
+    raw = json.loads(proposals_path.read_text(encoding="utf-8"))
+    proposals = [ArticleEditProposal(**r) for r in raw]
+    out: list[dict] = []
+    selected = proposals if limit is None else proposals[:limit]
+    for p in selected:
+        try:
+            response = llm_chat_json(article_edit_verifier_prompt(p), timeout=120)
+            status = str(response.get("status", "unknown"))
+            rationale = str(response.get("rationale", ""))
+            evidence = str(response.get("evidence", ""))
+        except Exception as exc:
+            status = "error"
+            rationale = str(exc)[:200]
+            evidence = ""
+        result = asdict(p)
+        result["verifier_status"] = status
+        result["verifier_rationale"] = rationale
+        result["verifier_evidence"] = evidence
+        out.append(result)
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    write_json(proposals_dir / "article_edit_verifications.json", out)
+    lines: list[str] = ["# Article Edit Verifications", ""]
+    by_status: dict[str, list[dict]] = {}
+    for r in out:
+        by_status.setdefault(r["verifier_status"], []).append(r)
+    for status in ["supported", "contradicted", "ambiguous", "not_found", "error", "unknown"]:
+        items = by_status.get(status, [])
+        if not items:
+            continue
+        lines.append(f"## {status} ({len(items)})")
+        lines.append("")
+        for r in items:
+            lines.append(f"### {r['proposal_id']} — {r['article_path']}")
+            lines.append(f"**Type**: `{r['addition_type']}` → `{r['target_section']}`")
+            lines.append(f"**Proposed**: {r['proposed_text']}")
+            lines.append(f"**Verifier**: {r['verifier_rationale']}")
+            ev = (r.get("verifier_evidence") or "").replace("|", "\\|").replace("\n", " ")
+            if ev:
+                lines.append(f"**Evidence**: > {ev}")
+            lines.append("")
+    (proposals_dir / "article_edit_verifications.md").write_text("\n".join(lines), encoding="utf-8")
+    return out
+
+
+def apply_article_edit_to_text(text: str, edit: dict) -> tuple[str, bool, str]:
+    addition_type = edit.get("addition_type", "")
+    target_section = edit.get("target_section", "")
+    proposed_text = (edit.get("proposed_text", "") or "").rstrip()
+    if not proposed_text:
+        return text, False, "empty proposed_text"
+    if proposed_text in text:
+        return text, False, "already present"
+    if addition_type == "append_bullet_to_section":
+        pat = re.compile(rf"^## {re.escape(target_section)}\s*$", re.MULTILINE)
+        m = pat.search(text)
+        if not m:
+            return text, False, f"section '{target_section}' not found"
+        rest_start = m.end()
+        next_h2 = re.search(r"^## ", text[rest_start:], re.MULTILINE)
+        if next_h2:
+            insert_at = rest_start + next_h2.start()
+            before = text[:insert_at].rstrip()
+            after = text[insert_at:]
+            new = before + "\n" + proposed_text + "\n\n" + after
+        else:
+            new = text.rstrip() + "\n" + proposed_text + "\n"
+        return new, True, "appended bullet"
+    if addition_type == "add_alias":
+        fm_match = re.match(r"^---\n(.*?)\n---\n", text, re.DOTALL)
+        if not fm_match:
+            return text, False, "no frontmatter"
+        alias_text = proposed_text.strip()
+        fm = fm_match.group(1)
+        rest = text[fm_match.end():]
+        if re.search(rf"(^|\s){re.escape(alias_text)}(\s|$)", fm):
+            return text, False, "alias already present"
+        am = re.search(r"^aliases:[ \t]*(.*)$", fm, re.MULTILINE)
+        if am:
+            line = am.group(0)
+            value = am.group(1).strip()
+            if value in ("", "[]"):
+                new_line = f"aliases:\n  - {alias_text}"
+                new_fm = fm.replace(line, new_line, 1)
+            elif value.startswith("[") and value.endswith("]"):
+                inner = value[1:-1].strip()
+                items = [s.strip() for s in inner.split(",") if s.strip()] if inner else []
+                items.append(alias_text)
+                new_line = f"aliases: [{', '.join(items)}]"
+                new_fm = fm.replace(line, new_line, 1)
+            else:
+                new_line = line + f"\n  - {alias_text}"
+                new_fm = fm.replace(line, new_line, 1)
+        else:
+            new_fm = fm.rstrip() + f"\naliases:\n  - {alias_text}"
+        return "---\n" + new_fm + "\n---\n" + rest, True, "added alias"
+    if addition_type == "extend_summary":
+        pat = re.compile(r"^## Summary\s*$", re.MULTILINE)
+        m = pat.search(text)
+        if not m:
+            return text, False, "no Summary section"
+        rest_start = m.end()
+        next_h2 = re.search(r"^## ", text[rest_start:], re.MULTILINE)
+        end = rest_start + next_h2.start() if next_h2 else len(text)
+        before = text[:end].rstrip()
+        after = text[end:]
+        new = before + "\n\n" + proposed_text + "\n\n" + after
+        return new, True, "extended summary"
+    return text, False, f"unsupported addition_type: {addition_type}"
+
+
+# ---- action-item lane ----
+
+ACTION_ITEMS_PATH = VAULT / "notes" / "Active Action Items.md"
+ACTION_ITEM_LEGACY_PATHS = [
+    VAULT / "notes" / "Unfinished Plotlines and Tasks.md",
+    VAULT / "notes" / "Open Threads - Post Session 35.md",
+]
+ACTION_ITEM_CATEGORIES = {
+    "Active Quests",
+    "Open Mysteries",
+    "Watch List",
+    "Completed / Resolved",
+}
+ACTION_ITEM_STATUS_TO_CATEGORY = {
+    "active": "Active Quests",
+    "open": "Open Mysteries",
+    "watch": "Watch List",
+    "completed": "Completed / Resolved",
+    "resolved": "Completed / Resolved",
+}
+
+
+def _truncate_middle(text: str, limit: int) -> str:
+    if len(text) <= limit:
+        return text
+    head = limit // 2
+    tail = limit - head - 80
+    return text[:head].rstrip() + "\n\n...[truncated]...\n\n" + text[-tail:].lstrip()
+
+
+def latest_session_pages(limit: int) -> list[Path]:
+    sessions = [path for _sid, path in list_session_pages()]
+    return sessions[-limit:] if limit > 0 else []
+
+
+def markdown_section_excerpt(text: str, headings: set[str], max_chars: int = 5000) -> str:
+    parts: list[str] = []
+    matches = list(re.finditer(r"^##\s+(.+?)\s*$", text, flags=re.MULTILINE))
+    for idx, match in enumerate(matches):
+        heading = match.group(1).strip().rstrip(":").lower()
+        if heading not in headings:
+            continue
+        end = matches[idx + 1].start() if idx + 1 < len(matches) else len(text)
+        parts.append(text[match.start():end].strip())
+    if not parts:
+        return _truncate_middle(text, max_chars)
+    return _truncate_middle("\n\n".join(parts), max_chars)
+
+
+def action_item_context(latest_session_count: int) -> str:
+    blocks: list[str] = []
+    if ACTION_ITEMS_PATH.exists():
+        blocks.append(
+            f"## CURRENT CANONICAL ACTION NOTE: {ACTION_ITEMS_PATH.relative_to(ROOT).as_posix()}\n"
+            + _truncate_middle(read_text(ACTION_ITEMS_PATH), 10000)
+        )
+    post35 = VAULT / "notes" / "Open Threads - Post Session 35.md"
+    if post35.exists():
+        blocks.append(
+            f"## LEGACY THREAD NOTE: {post35.relative_to(ROOT).as_posix()}\n"
+            + _truncate_middle(read_text(post35), 10000)
+        )
+    unfinished = VAULT / "notes" / "Unfinished Plotlines and Tasks.md"
+    if unfinished.exists():
+        text = read_text(unfinished)
+        session_30 = re.search(r"^## Session 30\b", text, flags=re.MULTILINE)
+        if session_30:
+            text = text[session_30.start():]
+        blocks.append(
+            f"## LEGACY THREAD NOTE EXCERPT: {unfinished.relative_to(ROOT).as_posix()}\n"
+            + _truncate_middle(text, 18000)
+        )
+    wanted = {"next week", "gm's comments", "resolved/updated", "open threads", "achievements"}
+    for path in latest_session_pages(latest_session_count):
+        text = markdown_section_excerpt(read_text(path), wanted, max_chars=4500)
+        blocks.append(
+            f"## RECENT SESSION: {path.relative_to(ROOT).as_posix()}\n"
+            + text
+        )
+    return "\n\n---\n\n".join(blocks)
+
+
+def action_item_prompt(latest_session_count: int, max_items: int) -> str:
+    context = action_item_context(latest_session_count)
+    return (
+        "You maintain an Obsidian campaign note named vault/notes/Active Action Items.md for an Arden Vul DFRPG campaign.\n\n"
+        "Use ONLY the provided source context. The older thread notes are useful historical inventories, but recent session "
+        "recaps are stronger evidence for current status. Prefer concrete party obligations, next-session plans, unresolved "
+        "promises, live threats, and actionable leads over broad lore questions. Do not include spoilers or facts not present "
+        "in the context. Do NOT treat a session's pre-session 'The Plan' section as proof that something is still active; "
+        "the later What Happened / GM's Comments / Next Week / Resolved sections supersede it.\n\n"
+        "Your task is to produce a clean current action-item inventory. Merge duplicates. Mark items completed/resolved only "
+        "when the provided context explicitly says they were completed, resolved, found, rescued, or otherwise closed. Keep "
+        "uncertain lore as Open Mysteries or Watch List rather than Active Quests.\n\n"
+        "Each item must cite at least one source path and a short verbatim excerpt from that source. Use repo-relative paths "
+        "like vault/sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md.\n\n"
+        f"Return no more than {max_items} items. Return strict JSON only, no markdown fences:\n"
+        "{\n"
+        '  "items": [\n'
+        "    {\n"
+        '      "id": "short-stable-slug",\n'
+        '      "title": "Recover or resolve X",\n'
+        '      "status": "active|open|watch|completed",\n'
+        '      "category": "Active Quests|Open Mysteries|Watch List|Completed / Resolved",\n'
+        '      "summary": "One concise campaign-facing sentence.",\n'
+        '      "next_step": "Concrete next step, or empty string for completed items.",\n'
+        '      "related": ["[[npcs/Example.md|Example]]"],\n'
+        '      "sources": [{"path": "vault/sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md", "excerpt": "short verbatim quote"}]\n'
+        "    }\n"
+        "  ]\n"
+        "}\n\n"
+        "SOURCE CONTEXT:\n"
+        "---\n"
+        f"{context}\n"
+        "---"
+    )
+
+
+def _normalized_contains(haystack: str, needle: str) -> bool:
+    h = re.sub(r"\s+", " ", haystack).strip().lower()
+    n = re.sub(r"\s+", " ", needle).strip().lower()
+    if not n:
+        return False
+    return n in h
+
+
+def clean_action_item(raw: dict) -> dict | None:
+    title = str(raw.get("title", "")).strip()
+    summary = str(raw.get("summary", "")).strip()
+    if not title or not summary:
+        return None
+    status = str(raw.get("status", "open")).strip().lower()
+    if status == "resolved":
+        status = "completed"
+    if status not in {"active", "open", "watch", "completed"}:
+        status = "open"
+    category = str(raw.get("category", "")).strip() or ACTION_ITEM_STATUS_TO_CATEGORY[status]
+    if category not in ACTION_ITEM_CATEGORIES:
+        category = ACTION_ITEM_STATUS_TO_CATEGORY[status]
+    slug = str(raw.get("id", "")).strip().lower()
+    slug = re.sub(r"[^a-z0-9]+", "-", slug or title.lower()).strip("-")[:64]
+    if not slug:
+        slug = hashlib.sha1(title.encode("utf-8")).hexdigest()[:12]
+    related_raw = raw.get("related") or []
+    related = [str(v).strip() for v in related_raw if str(v).strip()][:8] if isinstance(related_raw, list) else []
+    sources: list[dict] = []
+    for src in raw.get("sources") or []:
+        if not isinstance(src, dict):
+            continue
+        path = str(src.get("path", "")).strip()
+        excerpt = str(src.get("excerpt", "")).strip()
+        if path and excerpt:
+            sources.append({"path": path, "excerpt": excerpt[:500]})
+    if not sources:
+        return None
+    return {
+        "id": slug,
+        "title": title[:160],
+        "status": status,
+        "category": category,
+        "summary": summary[:500],
+        "next_step": str(raw.get("next_step", "")).strip()[:300],
+        "related": related,
+        "sources": sources[:4],
+    }
+
+
+def source_excerpt_supported(src: dict) -> bool:
+    path_str = str(src.get("path", "")).strip()
+    excerpt = str(src.get("excerpt", "")).strip()
+    if not path_str or not excerpt:
+        return False
+    path = Path(path_str) if path_str.startswith("/") else ROOT / path_str
+    if not path.exists() or not path.is_file():
+        return False
+    return _normalized_contains(read_text(path), excerpt)
+
+
+def verify_action_item_inventory(items: list[dict]) -> tuple[list[dict], list[dict]]:
+    accepted: list[dict] = []
+    rejected: list[dict] = []
+    seen: set[str] = set()
+    for item in items:
+        clean = clean_action_item(item)
+        if not clean:
+            rejected.append({"item": item, "reason": "missing required fields"})
+            continue
+        if clean["id"] in seen:
+            rejected.append({"item": clean, "reason": "duplicate id"})
+            continue
+        supported_sources = [src for src in clean["sources"] if source_excerpt_supported(src)]
+        if not supported_sources:
+            rejected.append({"item": clean, "reason": "no cited excerpt found in source files"})
+            continue
+        clean["sources"] = supported_sources
+        seen.add(clean["id"])
+        accepted.append(clean)
+    return accepted, rejected
+
+
+def build_action_item_inventory(latest_sessions: int = 8, max_items: int = 50) -> dict:
+    response = llm_chat_json(action_item_prompt(latest_sessions, max_items), timeout=1800)
+    raw_items = response.get("items") or []
+    if not isinstance(raw_items, list):
+        raw_items = []
+    accepted, rejected = verify_action_item_inventory(raw_items[:max_items])
+    payload = {
+        "ok": True,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "latest_sessions": latest_sessions,
+        "max_items": max_items,
+        "accepted_count": len(accepted),
+        "rejected_count": len(rejected),
+        "items": accepted,
+        "rejected": rejected,
+    }
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    proposals_dir.mkdir(parents=True, exist_ok=True)
+    write_json(proposals_dir / "action_item_inventory.json", payload)
+    write_action_item_inventory_report(payload)
+    return payload
+
+
+def write_action_item_inventory_report(payload: dict) -> None:
+    lines = ["# Action Item Inventory Proposal", ""]
+    lines.append(f"Accepted: {payload.get('accepted_count', 0)}")
+    lines.append(f"Rejected: {payload.get('rejected_count', 0)}")
+    lines.append("")
+    for category in ["Active Quests", "Open Mysteries", "Watch List", "Completed / Resolved"]:
+        items = [it for it in payload.get("items", []) if it.get("category") == category]
+        if not items:
+            continue
+        lines.append(f"## {category}")
+        lines.append("")
+        for item in items:
+            mark = "x" if item.get("status") == "completed" else " "
+            lines.append(f"- [{mark}] **{item['title']}**")
+            lines.append(f"  - Status: {item['status']}")
+            lines.append(f"  - Summary: {item['summary']}")
+            if item.get("next_step"):
+                lines.append(f"  - Next step: {item['next_step']}")
+            for src in item.get("sources", []):
+                lines.append(f"  - Evidence: [[{src['path']}]] — \"{src['excerpt']}\"")
+            lines.append("")
+    rejected = payload.get("rejected") or []
+    if rejected:
+        lines.append("## Rejected")
+        lines.append("")
+        for r in rejected[:20]:
+            title = ((r.get("item") or {}).get("title") if isinstance(r.get("item"), dict) else "") or "(untitled)"
+            lines.append(f"- {title}: {r.get('reason')}")
+    (AUTOMATION_DIR / "proposals" / "action_item_inventory.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def render_action_items_note(items: list[dict]) -> str:
+    lines: list[str] = [
+        "---",
+        "tags:",
+        "  - note",
+        "  - action-items",
+        "  - open-threads",
+        "generated_by: vault_automation.py action-items",
+        f"updated: {datetime.now(timezone.utc).isoformat()}",
+        "---",
+        "",
+        "# Active Action Items",
+        "",
+        "This note is maintained by the vault automation. It merges current quests, unresolved mysteries, watch items, and completed items from cited session and campaign notes.",
+        "",
+        "## Sources",
+        "- [[notes/Unfinished Plotlines and Tasks.md|Unfinished Plotlines and Tasks]]",
+        "- [[notes/Open Threads - Post Session 35.md|Open Threads - Post Session 35]]",
+        "- Recent session recaps",
+        "",
+    ]
+    for category in ["Active Quests", "Open Mysteries", "Watch List", "Completed / Resolved"]:
+        category_items = [it for it in items if it.get("category") == category]
+        lines.append(f"## {category}")
+        lines.append("")
+        if not category_items:
+            lines.append("_No current items._")
+            lines.append("")
+            continue
+        for item in category_items:
+            mark = "x" if item.get("status") == "completed" else " "
+            lines.append(f"- [{mark}] **{item['title']}**")
+            lines.append(f"  - ID: `{item['id']}`")
+            lines.append(f"  - Status: {item['status']}")
+            lines.append(f"  - Summary: {item['summary']}")
+            if item.get("next_step"):
+                lines.append(f"  - Next step: {item['next_step']}")
+            if item.get("related"):
+                related = [link for link in (normalize_vault_wikilink(v) for v in item["related"]) if link]
+                if related:
+                    lines.append(f"  - Related: {', '.join(related)}")
+            lines.append("  - Evidence:")
+            for src in item.get("sources", []):
+                path = src["path"]
+                link_path = path.removeprefix("vault/")
+                label = Path(path).stem
+                excerpt = src["excerpt"].replace('"', "'")
+                lines.append(f"    - [[{link_path}|{label}]] — \"{excerpt}\"")
+            lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def apply_action_item_inventory(apply_changes: bool = False) -> dict:
+    inv_path = AUTOMATION_DIR / "proposals" / "action_item_inventory.json"
+    if not inv_path.exists():
+        return {"ok": False, "error": "action_item_inventory_not_found", "hint": "Run build-action-items first"}
+    payload = json.loads(inv_path.read_text(encoding="utf-8"))
+    items = payload.get("items") or []
+    new_text = render_action_items_note(items)
+    old_text = read_text(ACTION_ITEMS_PATH) if ACTION_ITEMS_PATH.exists() else ""
+    changed = old_text != new_text
+    if changed and apply_changes:
+        ACTION_ITEMS_PATH.parent.mkdir(parents=True, exist_ok=True)
+        ACTION_ITEMS_PATH.write_text(new_text, encoding="utf-8")
+    return {
+        "ok": True,
+        "mode": "apply" if apply_changes else "dry-run",
+        "path": ACTION_ITEMS_PATH.relative_to(ROOT).as_posix(),
+        "changed": changed,
+        "item_count": len(items),
+        "active_count": sum(1 for it in items if it.get("status") == "active"),
+        "open_count": sum(1 for it in items if it.get("status") == "open"),
+        "watch_count": sum(1 for it in items if it.get("status") == "watch"),
+        "completed_count": sum(1 for it in items if it.get("status") == "completed"),
+    }
+
+
+def normalize_vault_wikilink(link: str) -> str | None:
+    match = re.match(r"^\[\[([^|\]]+)(?:\|([^\]]+))?\]\]$", link.strip())
+    if not match:
+        return None
+    target = match.group(1).removeprefix("vault/")
+    label = match.group(2)
+    path = VAULT / target
+    if not path.exists():
+        stem_target = target.replace("-", " ")
+        path = VAULT / stem_target
+        if path.exists():
+            target = stem_target
+    if not path.exists():
+        return None
+    return f"[[{target}|{label or Path(target).stem}]]"
+
+
+def update_action_items_safely(apply_changes: bool, latest_sessions: int, max_items: int) -> dict:
+    try:
+        inventory = build_action_item_inventory(latest_sessions=latest_sessions, max_items=max_items)
+        applied = apply_action_item_inventory(apply_changes=apply_changes)
+        return {
+            "enabled": True,
+            "ok": bool(inventory.get("ok") and applied.get("ok")),
+            "accepted_count": inventory.get("accepted_count", 0),
+            "rejected_count": inventory.get("rejected_count", 0),
+            "applied": applied,
+            "markdown": str(AUTOMATION_DIR / "proposals" / "action_item_inventory.md"),
+            "json": str(AUTOMATION_DIR / "proposals" / "action_item_inventory.json"),
+        }
+    except Exception as exc:
+        return {"enabled": True, "ok": False, "error": str(exc)[:300]}
+
+
+def cmd_build_action_items(args: argparse.Namespace) -> int:
+    try:
+        payload = build_action_item_inventory(latest_sessions=args.latest_sessions, max_items=args.max_items)
+    except Exception as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    print(json.dumps({
+        "ok": True,
+        "accepted_count": payload.get("accepted_count", 0),
+        "rejected_count": payload.get("rejected_count", 0),
+        "markdown": str(AUTOMATION_DIR / "proposals" / "action_item_inventory.md"),
+        "json": str(AUTOMATION_DIR / "proposals" / "action_item_inventory.json"),
+    }, indent=2))
+    return 0
+
+
+def cmd_apply_action_items(args: argparse.Namespace) -> int:
+    result = apply_action_item_inventory(apply_changes=args.apply)
+    if result.get("ok") and args.apply and result.get("changed"):
+        result["vault_rag_refresh"] = refresh_vault_rag_safely()
+    print(json.dumps(result, indent=2))
+    return 0 if result.get("ok") else 2
+
+
+def refresh_vault_rag_safely() -> dict:
+    """Refresh vault-rag, swallowing setup errors so the caller stays robust.
+    Returns a small status dict suitable for inclusion in run/apply reports."""
+    try:
+        result = vault_rag_ingest_all(reset=False, limit=None)
+    except Exception as exc:
+        return {"ok": False, "skipped": True, "reason": str(exc)[:200]}
+    return {
+        "ok": result.get("ok", False),
+        "actions": result.get("actions", {}),
+        "collection_size": result.get("collection_size"),
+    }
+
+
+def apply_verified_article_edits(apply_changes: bool, limit: int | None = None) -> dict:
+    ver_path = AUTOMATION_DIR / "proposals" / "article_edit_verifications.json"
+    if not ver_path.exists():
+        return {"ok": False, "error": "verifications_not_found", "hint": "Run verify-article-edits first"}
+    verifications = json.loads(ver_path.read_text(encoding="utf-8"))
+    supported = [v for v in verifications if v.get("verifier_status") == "supported"]
+    if limit is not None:
+        supported = supported[:limit]
+    by_article: dict[str, list[dict]] = {}
+    for v in supported:
+        by_article.setdefault(v["article_path"], []).append(v)
+    results: list[dict] = []
+    for article_path, edits in by_article.items():
+        full_path = ROOT / article_path
+        if not full_path.exists():
+            results.append({"article_path": article_path, "applied": 0, "skipped": len(edits), "error": "file_not_found"})
+            continue
+        text = read_text(full_path)
+        applied = 0
+        per_edit: list[dict] = []
+        for v in edits:
+            new_text, changed, reason = apply_article_edit_to_text(text, v)
+            per_edit.append({
+                "proposal_id": v.get("proposal_id"),
+                "addition_type": v.get("addition_type"),
+                "target_section": v.get("target_section"),
+                "changed": changed,
+                "reason": reason,
+            })
+            if changed:
+                text = new_text
+                applied += 1
+        if applied and apply_changes:
+            full_path.write_text(text, encoding="utf-8")
+        results.append({
+            "article_path": article_path,
+            "applied": applied,
+            "skipped": len(edits) - applied,
+            "edits": per_edit,
+        })
+    payload: dict = {
+        "ok": True,
+        "mode": "apply" if apply_changes else "dry-run",
+        "supported_count": len(supported),
+        "articles_touched": len(by_article),
+        "total_applied": sum(r["applied"] for r in results),
+        "results": results,
+    }
+    if apply_changes and payload["total_applied"] > 0:
+        payload["vault_rag_refresh"] = refresh_vault_rag_safely()
+    return payload
+
+
+def cmd_propose_article_edits(args: argparse.Namespace) -> int:
+    article_paths = [Path(args.article)] if args.article else None
+    proposals = build_article_edit_proposals(
+        article_paths=article_paths,
+        limit=args.limit,
+        max_additions_per_article=args.max_additions_per_article,
+        top_k_per_query=args.top_k_per_query,
+    )
+    write_article_edit_proposal_report(proposals)
+    summary = {
+        "ok": True,
+        "proposal_count": len(proposals),
+        "articles_with_proposals": len({p.article_path for p in proposals}),
+        "markdown": str(AUTOMATION_DIR / "proposals" / "article_edit_proposals.md"),
+        "json": str(AUTOMATION_DIR / "proposals" / "article_edit_proposals.json"),
+    }
+    print(json.dumps(summary, indent=2))
+    return 0
+
+
+def cmd_verify_article_edits(args: argparse.Namespace) -> int:
+    try:
+        verifications = verify_article_edit_proposals(limit=args.limit)
+    except RuntimeError as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    counts: dict[str, int] = {}
+    for v in verifications:
+        st = v.get("verifier_status", "unknown")
+        counts[st] = counts.get(st, 0) + 1
+    summary = {
+        "ok": True,
+        "verified_count": len(verifications),
+        "status_counts": counts,
+        "markdown": str(AUTOMATION_DIR / "proposals" / "article_edit_verifications.md"),
+        "json": str(AUTOMATION_DIR / "proposals" / "article_edit_verifications.json"),
+    }
+    print(json.dumps(summary, indent=2))
+    return 0
+
+
+def cmd_apply_verified_article_edits(args: argparse.Namespace) -> int:
+    result = apply_verified_article_edits(apply_changes=args.apply, limit=args.limit)
+    print(json.dumps(result, indent=2))
+    return 0 if result.get("ok") else 2
+
+
 def cmd_discover(args: argparse.Namespace) -> int:
     payload = build_source_manifest(args.blog_feed)
     if args.write:
@@ -2320,7 +4431,7 @@ def cmd_propose(_: argparse.Namespace) -> int:
             {
                 "ok": False,
                 "error": "proposal_generation_not_implemented",
-                "message": "Implement IAC/ACE/LCE proposal generation only after discover and validate are stable.",
+                "message": "Implement IAC/ACE proposal generation only after discover and validate are stable.",
             },
             indent=2,
         )
@@ -2473,10 +4584,47 @@ def cmd_reconcile_loot(_: argparse.Namespace) -> int:
     return 0
 
 
-def cmd_refresh_rag(args: argparse.Namespace) -> int:
-    result = refresh_rag_for_changed_files(args.limit, args.dry_run, args.wait)
+def cmd_ingest_vault_rag(args: argparse.Namespace) -> int:
+    try:
+        result = vault_rag_ingest_all(reset=args.reset, limit=args.limit)
+    except RuntimeError as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    if not args.verbose:
+        result.pop("results", None)
     print(json.dumps(result, indent=2))
     return 0 if result["ok"] else 2
+
+
+def cmd_refresh_vault_rag(args: argparse.Namespace) -> int:
+    try:
+        result = vault_rag_ingest_all(reset=False, limit=args.limit)
+    except RuntimeError as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    if not args.verbose:
+        result.pop("results", None)
+    print(json.dumps(result, indent=2))
+    return 0 if result["ok"] else 2
+
+
+def cmd_vault_rag_search(args: argparse.Namespace) -> int:
+    try:
+        hits = vault_rag_search(args.query, top_k=args.top_k, kind=args.kind)
+    except RuntimeError as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    output: list[dict] = []
+    for hit in hits:
+        item = {**hit}
+        if not args.full and item.get("text"):
+            item["text"] = item["text"][:300]
+        output.append(item)
+    print(json.dumps(
+        {"ok": True, "query": args.query, "top_k": args.top_k, "kind": args.kind, "hits": output},
+        indent=2,
+    ))
+    return 0
 
 
 def cmd_import(args: argparse.Namespace) -> int:
@@ -2499,7 +4647,6 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
     link_apply_result: dict = {"enabled": False}
     article_queue: list[ArticleQueueItem] = []
     media_queue: list[MediaQueueItem] = []
-    rag_refresh_result: dict = {"enabled": False}
     if before["ok"]:
         proposals = build_entity_link_proposals(limit_per_source=20)
         write_entity_link_proposal_report(proposals)
@@ -2520,7 +4667,6 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
         loot_reconciliation = write_loot_reconciliation_report()
         verify_limit = sources.get("entity_link_verify_limit", 0)
         apply_limit = sources.get("entity_link_apply_limit", 0)
-        rag_refresh_limit = int(sources.get("rag_refresh_limit", 0) or 0)
         if verify_limit and sources.get("llm_base_url") and sources.get("llm_model"):
             try:
                 verified = verify_entity_link_proposals(int(verify_limit))
@@ -2541,11 +4687,79 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                     }
             except Exception as exc:
                 verification_result = {"enabled": True, "ok": False, "error": str(exc)}
-        if rag_refresh_limit:
-            rag_refresh_result = {
-                "enabled": True,
-                **refresh_rag_for_changed_files(rag_refresh_limit, dry_run=False, wait=True),
-            }
+    article_edit_result: dict = {"enabled": False}
+    if before["ok"]:
+        try:
+            sources_cfg = load_local_sources()
+            queue_top = int(sources_cfg.get("article_edit_queue_top", 0) or 0)
+            walk_step = int(sources_cfg.get("article_edit_walk_step", 0) or 0)
+            ae_verify_limit = int(sources_cfg.get("article_edit_verify_limit", 0) or 0)
+            ae_apply_limit = int(sources_cfg.get("article_edit_apply_limit", 0) or 0)
+            ae_verify_limit_arg = None if ae_verify_limit < 0 else ae_verify_limit
+            ae_apply_limit_arg = None if ae_apply_limit < 0 else ae_apply_limit
+            if (queue_top or walk_step) and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
+                selected_paths: list[Path] = []
+                seen: set[str] = set()
+                if queue_top and article_queue:
+                    for it in article_queue[:queue_top]:
+                        if it.path not in seen:
+                            seen.add(it.path)
+                            selected_paths.append(Path(it.path))
+                walk_selection: list[str] = []
+                if walk_step:
+                    walk_selection = vault_walk_next(walk_step, save=True)
+                    for wp in walk_selection:
+                        if wp not in seen:
+                            seen.add(wp)
+                            selected_paths.append(Path(wp))
+                proposals = build_article_edit_proposals(
+                    article_paths=selected_paths,
+                    max_additions_per_article=3,
+                    top_k_per_query=3,
+                )
+                write_article_edit_proposal_report(proposals)
+                article_edit_result = {
+                    "enabled": True,
+                    "queue_top": queue_top,
+                    "walk_step": walk_step,
+                    "walk_selection": walk_selection,
+                    "articles_processed": len(selected_paths),
+                    "proposal_count": len(proposals),
+                }
+                if ae_verify_limit and proposals:
+                    verified = verify_article_edit_proposals(limit=ae_verify_limit_arg)
+                    vcounts: dict[str, int] = {}
+                    for v in verified:
+                        st = str(v.get("verifier_status", "unknown"))
+                        vcounts[st] = vcounts.get(st, 0) + 1
+                    article_edit_result["verifier_status_counts"] = vcounts
+                    if ae_apply_limit:
+                        apply_result = apply_verified_article_edits(apply_changes=True, limit=ae_apply_limit_arg)
+                        article_edit_result["applied"] = {
+                            "supported_count": apply_result.get("supported_count", 0),
+                            "articles_touched": apply_result.get("articles_touched", 0),
+                            "total_applied": apply_result.get("total_applied", 0),
+                            "files": [
+                                r.get("article_path")
+                                for r in apply_result.get("results", [])
+                                if r.get("applied", 0) > 0
+                            ],
+                        }
+        except Exception as exc:
+            article_edit_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
+    action_items_result: dict = {"enabled": False}
+    if before["ok"]:
+        try:
+            sources_cfg = load_local_sources()
+            if sources_cfg.get("action_items_enabled") and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
+                action_items_result = update_action_items_safely(
+                    apply_changes=bool(sources_cfg.get("action_items_apply")),
+                    latest_sessions=int(sources_cfg.get("action_items_latest_sessions", 8) or 8),
+                    max_items=int(sources_cfg.get("action_items_max_items", 50) or 50),
+                )
+        except Exception as exc:
+            action_items_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
+    vault_rag_refresh = refresh_vault_rag_safely() if before["ok"] else {"ok": False, "skipped": True, "reason": "pre_validation_failed"}
     after = validate_state()
     payload = {
         "ok": before["ok"] and import_result["ok"] and after["ok"],
@@ -2579,7 +4793,9 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
             "discord_disposition_evidence_count": loot_reconciliation["discord_disposition_evidence_count"] if before["ok"] else 0,
             "markdown": str(AUTOMATION_DIR / "proposals" / "loot_reconciliation.md"),
         },
-        "rag_refresh": rag_refresh_result,
+        "article_edit": article_edit_result,
+        "action_items": action_items_result,
+        "vault_rag_refresh": vault_rag_refresh,
         "after_validation": after,
     }
     write_json(AUTOMATION_DIR / "source_manifest.json", manifest)
@@ -2645,11 +4861,70 @@ def build_parser() -> argparse.ArgumentParser:
     loot_reconcile = sub.add_parser("reconcile-loot", help="Write a review-only loot inventory reconciliation report")
     loot_reconcile.set_defaults(func=cmd_reconcile_loot)
 
-    rag_refresh = sub.add_parser("refresh-rag", help="Refresh private RAG ingest for changed vault Markdown files")
-    rag_refresh.add_argument("--limit", type=int, default=25, help="Maximum changed vault files to ingest")
-    rag_refresh.add_argument("--dry-run", action="store_true", help="List files without calling the private ingest endpoint")
-    rag_refresh.add_argument("--wait", action="store_true", help="Wait for ingest jobs and fail if indexing fails")
-    rag_refresh.set_defaults(func=cmd_refresh_rag)
+    ingest_vault_rag = sub.add_parser("ingest-vault-rag", help="Ingest vault sessions/summaries/lore into the local Chroma vault-rag collection")
+    ingest_vault_rag.add_argument("--reset", action="store_true", help="Delete the existing collection first and rebuild from scratch")
+    ingest_vault_rag.add_argument("--limit", type=int, default=None, help="Maximum number of files to process (for testing)")
+    ingest_vault_rag.add_argument("--verbose", action="store_true", help="Include per-file results in the JSON output")
+    ingest_vault_rag.set_defaults(func=cmd_ingest_vault_rag)
+
+    refresh_vault_rag = sub.add_parser("refresh-vault-rag", help="Refresh the vault-rag collection (sha256-gated; only changed files get re-embedded)")
+    refresh_vault_rag.add_argument("--limit", type=int, default=None, help="Maximum number of files to process (for testing)")
+    refresh_vault_rag.add_argument("--verbose", action="store_true", help="Include per-file results in the JSON output")
+    refresh_vault_rag.set_defaults(func=cmd_refresh_vault_rag)
+
+    search_vault_rag = sub.add_parser("vault-rag-search", help="Query the vault-rag Chroma collection")
+    search_vault_rag.add_argument("query", help="Natural-language query")
+    search_vault_rag.add_argument("--top-k", type=int, default=5, help="Number of results to return (default 5)")
+    search_vault_rag.add_argument(
+        "--kind",
+        choices=["session", "summary", "note", "lore", "npc", "pc", "location", "faction", "item", "monster", "spell", "concept", "rollup", "spreadsheet"],
+        default=None,
+        help="Filter by chunk kind",
+    )
+    search_vault_rag.add_argument("--full", action="store_true", help="Print full chunk text instead of a 300-char preview")
+    search_vault_rag.set_defaults(func=cmd_vault_rag_search)
+
+    propose_article = sub.add_parser("propose-article-edits", help="Generate sourced article edit proposals via vault-rag + LLM")
+    propose_article.add_argument("--limit", type=int, default=5, help="Number of top-scored queue articles to process (ignored when --article is set)")
+    propose_article.add_argument("--article", default=None, help="Process a single article by repo-relative path (e.g. vault/npcs/Pelteon.md)")
+    propose_article.add_argument("--max-additions-per-article", type=int, default=3, help="Maximum proposals to keep per article (default 3)")
+    propose_article.add_argument("--top-k-per-query", type=int, default=3, help="vault-rag top_k per generated research query (default 3)")
+    propose_article.set_defaults(func=cmd_propose_article_edits)
+
+    verify_article = sub.add_parser("verify-article-edits", help="LLM-verify article edit proposals against canonical sources")
+    verify_article.add_argument("--limit", type=int, default=10, help="Maximum proposals to verify (default 10)")
+    verify_article.set_defaults(func=cmd_verify_article_edits)
+
+    apply_article = sub.add_parser("apply-verified-article-edits", help="Apply supported article edits to vault files")
+    apply_article.add_argument("--apply", action="store_true", help="Write changes to vault files; omit for dry-run")
+    apply_article.add_argument("--limit", type=int, default=None, help="Maximum supported edits to consider")
+    apply_article.set_defaults(func=cmd_apply_verified_article_edits)
+
+    build_actions = sub.add_parser("build-action-items", help="Generate a cited current action-item inventory")
+    build_actions.add_argument("--latest-sessions", type=int, default=8, help="Recent session files to include as current-status evidence")
+    build_actions.add_argument("--max-items", type=int, default=50, help="Maximum action items to keep")
+    build_actions.set_defaults(func=cmd_build_action_items)
+
+    apply_actions = sub.add_parser("apply-action-items", help="Apply the generated action-item inventory to the canonical note")
+    apply_actions.add_argument("--apply", action="store_true", help="Write vault/notes/Active Action Items.md; omit for dry-run")
+    apply_actions.set_defaults(func=cmd_apply_action_items)
+
+    propose_new = sub.add_parser("propose-new-entities", help="Extract new entity candidates from canonical sources via IAC + filters")
+    propose_new.add_argument("--source-limit", type=int, default=10, help="Latest canonical sources to scan (default 10)")
+    propose_new.add_argument("--limit", type=int, default=50, help="Maximum candidates to keep after filtering (default 50)")
+    propose_new.set_defaults(func=cmd_propose_new_entities)
+
+    verify_new = sub.add_parser("verify-new-entities", help="LLM-verify new entity candidates against canonical source evidence")
+    verify_new.add_argument("--limit", type=int, default=20, help="Maximum candidates to verify per run (default 20)")
+    verify_new.set_defaults(func=cmd_verify_new_entities)
+
+    apply_new = sub.add_parser("apply-verified-new-entities", help="Create stub vault pages for confirmed new entity candidates")
+    apply_new.add_argument("--apply", action="store_true", help="Write stub files; omit for dry-run")
+    apply_new.add_argument("--limit", type=int, default=None, help="Maximum confirmed candidates to apply (default unlimited)")
+    apply_new.set_defaults(func=cmd_apply_verified_new_entities)
+
+    walk_status = sub.add_parser("vault-walk-status", help="Show the vault walk cursor's current position")
+    walk_status.set_defaults(func=cmd_vault_walk_status)
 
     status = sub.add_parser("status", help="Summarize repo, Discord, and Blogspot source state")
     status.set_defaults(func=cmd_status)

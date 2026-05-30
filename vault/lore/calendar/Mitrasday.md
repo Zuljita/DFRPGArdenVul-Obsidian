@@ -1,12 +1,11 @@
+---
+title: "Mitrasday"
+tags:
+  - calendar
+  - redirect
+redirect_to: vault/lore/The Archontean Calendar.md
+status: redirect
+---
 # Mitrasday
 
-## Summary
-A day of the week in the [[The Archontean Calendar.md|Archontean Calendar]].
-
-## Etymology
-Named after the god [[Mitra]].
-
-## Position in Week
-Fourth day of the week.
-
-## Notes
+This page has been merged into [[lore/The Archontean Calendar.md|The Archontean Calendar]] — see the **Days of the Week** section.

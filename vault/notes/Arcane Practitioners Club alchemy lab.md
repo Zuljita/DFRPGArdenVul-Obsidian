@@ -1,15 +1,11 @@
 ---
-tags: [auto-generated]
+title: "Arcane Practitioners Club alchemy lab"
+tags:
+  - faction
+  - redirect
+redirect_to: vault/factions/Arcane Practitioners' Club.md
+status: redirect
 ---
-
 # Arcane Practitioners Club alchemy lab
 
-*Location*
-
-## Summary
-
-An alchemy lab designed to handle mishaps like potions catching fire.
-
-## Discord Insights
-
-- An alchemy lab designed to handle mishaps like potions catching fire. ([[notes/Discord Summary 2025-W31.md|Discord Summary 2025-W31]])
+This page has been merged into [[factions/Arcane Practitioners' Club.md|Arcane Practitioners' Club]].

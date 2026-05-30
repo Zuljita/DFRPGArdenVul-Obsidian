@@ -3,7 +3,9 @@ tags:
   - location
 ---
 
-# [[Rarities Factor]], [[Golden Band]], and others.
+# Narsileon
+
+[[Rarities Factor]], [[Golden Band]], and others.
 
 ## Key Features
 
@@ -16,10 +18,13 @@ TBD
 ## Inhabitants
 
 TBD
+- [[npcs/Basil of Narsileon.md|Basil of Narsileon]]
+- Keko the Lame (Head of the Drome branch)
 
 ## Notes
 
 TBD
+- [[npcs/Tikun Thane.md|Tikun Thane]] was seen in a windowless room here.
 
 ## Notes
 

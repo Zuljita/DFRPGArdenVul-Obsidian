@@ -4,6 +4,8 @@ tags:
   - npc
   - race/goblin
   - profession/chemist
+  - type/goblin
+  - type/troll
 aliases:
   - Virgoolian, goblin chemist
 appears_in:
@@ -21,6 +23,7 @@ Virgoolian is a goblin chemist who operates a merchant stall near the [[location
 
 ## Notes
 - Warned Ioannes and GOAT that the passage to the north of the merchant stalls leads to "death."
+- His stall is located in a Rudishva-architecture room northeast of the Varumani Lifts.
 
 ## Appears In
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]

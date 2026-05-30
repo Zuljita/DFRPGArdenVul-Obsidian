@@ -1,58 +1,86 @@
-# Discord Summary: 2026-W08 (Distilled)
-
-**Date Range:** 2026-02-23 to 2026-03-01
-
-## In-World Knowledge Extracted
-
-- The Right for Riches company hired Lacrymosa, an elven mercenary archer from the Grudge Brigade, for an assault on the Forum of Set. [planning | 2026-02-23; session-43a | 2026-02-27]
-
-- Session 43a (Tothsday, 5th of Molivios, 2994 AE): The company invaded the Forum of Set from the southern cliff face entrance rather than the Sighing Stair, using Levitation spells and the Purple Teleport Rug to bypass the main entrance force field. [session-43a | 2026-02-27]
-
-- Initial infiltration achieved complete surprise; approximately half the cultists in the entry chamber were killed before they could react, with Lacrymosa shooting cultists who attempted to escape via basket down the cliff. [session-43a | 2026-02-27]
-
-- The Red Bridge of Set features a trapped chest suspended in the chasm containing platinum bars, Thoth's Battle Helmet (DR 5, Fortify +2), and a mysterious stone wrapped in chamois. [session-43a | 2026-02-27]
-
-- A lever system on the balcony overlooking the chasm triggers a Magic Mouth warning in Mithric and releases poison gas when tampered with. [session-43a | 2026-02-27]
-
-- The kitchen battle resulted in the deaths of numerous Settite cultists and guards; a cook escaped to warn others. The guards possessed keys of limited utility for deeper areas. [session-43a | 2026-02-27]
-
-- A zombie-infested room was discovered but left sealed after Vael left a warning note on the door. [session-43a | 2026-02-27]
-
-- Goblin visitors in the dormitories claimed to be mere food buyers; the party warned them to return to Goblintown and gave them confiscated Settite food stores. [session-43a | 2026-02-27]
-
-- The Settites maintain an area of magical darkness patrolled by guards wearing special goggles that allow them to see through it. The party recovered similar goggles from defeated guards. [session-43a | 2026-02-27]
-
-- The Battle of the Darkness of Set resulted in significant Settite casualties, including five goggled guards and a hired mage, though one guard escaped north to rally reinforcements before the session ended mid-combat. [session-43a | 2026-02-27]
-
-- Post-session discussions revealed concern that Settite leadership might flee through a secret passage to the Kaliyani; the party debated whether to offer surrender terms or pursue total eradication. [planning | 2026-02-27; planning | 2026-03-01]
-
-- The Forum of Set vault contains significant treasures requiring multiple keys and Alkahest potions to access, guarded by a bipedal boar construct. The vault held coins, gems, magic items, food stores, and merchant goods belonging to Horace Trych and Galadnor. [session-43c | 2026-03-01]
-
-- Lady Alexia of Gosterwick agreed to provide Writs of Freedom for liberated slaves and dispatched Knights of the Azure Shield with wagons to assist with evacuation of the wounded. [session-43c | 2026-03-01]
-
-- Wicktrimmer the Imperial Goblin merchant demanded a pair of Teleport Rugs as his price for managing the Forum of Set; the Right for Riches Company declined his offer. [session-43c | 2026-03-01]
-
-- King Weskenim of the United Goblin Tribes agreed to assume control of the Forum, appointing his brother Gribble as the new Lord of the Goblin Forum with a dozen goblin guards. [session-43c | 2026-03-01]
-
+---
+title: "Discord Summary 2026-W08"
+tags:
+  - discord-summary
+  - canonical-source
+week_ending: 2026-02-27
+source_type: private-discord-weekly-digest
 ---
 
-## Sessions Covered
+# Discord Summary 2026-W08
 
-| Session | Date | Title |
-|---------|------|-------|
-| 43a | 2026-02-27 | Alpha Strike on the Cult of Set |
-| 43b | 2026-02-28 | (Continuation - mid-session) |
-| 43c | 2026-03-01 | Looting the Cult of Set |
+## Source
+- Private Discord weekly digest
+- Week ending: unknown
 
 ## Navigation
 
-- **Previous:** [[Discord Summary 2026-W07]]
-- **Next:** [[Discord Summary 2026-W09]]
-- **Related Sessions:**
-  - [[Session 43a - Alpha Strike on the Cult of Set]]
-  - [[Session 43b - Alpha Strike on the Cult of Set]]
-  - [[Session 43c - Looting the Cult of Set]]
+<!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2026-W07.md|Discord Summary 2026-W07]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W09.md|Discord Summary 2026-W09]]
+<!-- END AUTO NAV -->
 
----
+# Weekly Chronicle: The Company’s Progress
+**Date:** 2994 AE, late February
 
-*Generated: 2026-03-30*
+## 1. Summary
+Following the recent expedition into Neferet's Tomb, the company has focused on recovery, research, and preparation within the surrounding territories. While the pursuit of Neferet remains a primary objective, significant time has been dedicated to studying ancient texts, refining alchemical formulae, and fortifying defenses for upcoming confrontations with the cultists of Set.
+
+## 2. Events & Actions by Character
+
+### Uvash Edzuson
+* **Town Actions:** Acquired a medium shield (Fine and Balanced) from Vallium Halcyon for $40 and 1 CP.
+* **Character Advancement:** Purchased the **Shield Wall Training** skill.
+* **Equipment Changes:** Now carries the mace *Finisher* (previously named *Utharnil, Tharnas Omersalul mom Nasnökor*), which contains approximately $11,025 worth of embedded gems; also carries the newly acquired medium shield.
+
+### Vallium Halcyon
+* **Town Actions:** Visited Newmarket during market day to consult various texts and visit local merchants. Encountered two Wiskin mercenaries in Newmarket who declined a contract involving the Forum of Set due to their refusal to work for slavers. Met with Wicktrimmer at the Rarities Factor; discussed the theft of the company's magic rug, though Wicktrimmer had no news regarding the thief.
+* **Alchemy/Crafting:** Successfully brewed a **Potion of Flight**.
+* **Equipment Changes:** Sold a medium shield (Fine and Balanced) to Uvash Edzuson.
+
+### Ioannes Grammatikos Byzantios
+* **Alchemy/Crafting:** Successfully brewed a **Major Healing Potion**.
+* **Research:** Undertook research regarding the entity Neferet; discovered references to a powerful high priestess of Thoth named Neferet who served as second-in-command at the Temple of Thoth in Arden Vul prior to the civil war.
+
+### Vaelitharon "Vael" Sunshadow
+* **Town Actions:** Visited Astabelon's bookstore, spending $1,000 on new volumes and $500 on blank books for future copying. Commissioned the reverse engineering of a **Deafening Light grenade** ($500) and a **Youth potion** ($500).
+* **Alchemy/Crafting:** Successfully brewed a **Deafening Light grenade** (capable of producing a Flash and Concussion effect in an Area 3 radius). Attempted to reverse engineer a **Youth potion**, but the process remains incomplete as the recipe requires vampire blood, which is currently unavailable.
+* **Research Plans:** 
+    * Intends to read *The Kauketiad*, an epic poem regarding the wars between Archonteans and the Heqeti; noted the conquest of the Ziggurat of Kauket, located north and east of the Great Chasm.
+    * Intends to continue studying written **Rudishva**.
+    * Plans to have Akla-Chah read *Properties of Arcanum*; findings include that arcanum serves as a power source for "Creation Molds" to manufacture items such as struts, plating, fuel cells, teleportation plates, melee weapons, jewelry, control rods, and circlets; noted that arcanum can recharge items if placed in close proximity.
+* **Equipment Changes:** Acquired several new books and supplies for copying.
+
+## 3. Lore & Discoveries
+* **The Kauketiad (Book):** An epic poem detailing the Archontean-Heqeti wars, focusing on the virtues of soldiers (fidelity, protection, vengeance, nobility) rather than specific leaders (*Source: Vaelitharon's reading plans*).
+* **Neferet (Historical Figure):** Formerly a high priestess and second-in-command at the Temple of Thoth in Arden Vul (*Source: Ioannes' research*).
+* **Sapphire Properties:** Linked to wisdom, magic, vision, cold, and chastity (*Source: Vallium's research*).
+* **Arcanum Mechanics:** Arcanum can be used via Creation Molds to produce various magical components and can act as a reagent to recharge depleted items (*Source: Akla-Chah/Properties of Arcanum*).
+
+## 4. World Rulings
+* **Teleport Shields:** A teleport shield only prevents movement that crosses the established boundary of the spell; it does not prevent "blinking" or teleportation maneuvers that begin and end entirely within the shielded area.
+* **Cleric Restrictions (Zodarrim):** The religious prohibitions for Uvash Edzuson's order mandate a ban on cutting weapons; however, piercing weapons are permitted.
+* **Item Modification:** Moving ornate features or gems between items is not trivial and requires the services of a jeweler, along with significant time and coin (e.g., $50 per item for Chairduster).
+* **Commissioning Jewelry:** A silver torq starts at $100 (effectively steel with silver plating); to achieve an Ornate 3 rating, the item must cost at least $1,000.
+* **Market Logistics:** The Newmarket market operates five days a week and offers a superior selection of goods compared to Gosterwick.
+
+## 5. Item Intelligence
+* **Boots of Levitation:** Recovered from Neferet's tomb. These boots magically resize to fit any wearer (excluding halflings). They possess a maximum lifting capacity of 300 lbs.
+* **Wizard Scrolls:** Three charged scrolls were recovered from a scroll case in the mummy's sarcophagus.
+* **Deafening Light Grenade:** A newly created alchemical item that produces both Flash and Concussion effects within an Area 3 radius.
+* **Finisher (Mace):** A power item used by Uvash Edzuson, heavily adorned with gems totaling $11,025 in value.
+
+## 6. Tactical Planning
+The company has proposed several courses of action for the upcoming expedition:
+* **Primary Objective:** Utilize existing magic rugs to reach the Beacon and descend to the Well of Light.
+* **Ritual Attempt:** Perform the *Litany of Light* at the Well of Light, following the alerting of local apes.
+* **Neferet Pursuit:** Vaelitharon will attempt to use *Seeker* on Neferet; if successful, the company may assault her tomb or the Tower of Scrutiny.
+* **Alternative Exploration:** If Neferet is not pursued, the party intends to explore the area west of the Well of Light or descend into the Great Chasm via levitation.
+* **Anti-Set Strategy:** Plans include destroying the frost giant statue warning system and utilizing silence spells, walls of $lightning$, and death potions to exploit chokepoints during a frontal assault on the cultists.
+
+## 7. Unresolved Threads
+* **The Theft of the Rug:** The identity of the thief who stole the company's magic rug and potentially delivered it to the Forum of Set remains unknown.
+* **Neferet’s Location:** The current whereabouts and intentions of Neferet following her retreat remain unconfirmed. A potential lead exists in consulting Stamelis regarding her history.
+* **The Imperial Stone Construct:** While destroyed, a secret door in the Great Hall remains unexplored.
+* **Alchemical Requirements:** The search for vampire blood to complete the reverse engineering of the Youth potion continues.
+* **Mercenary Logistics:** The company must decide whether to hire the mercenary Chrysalis for the next mission and determine how to fund the Grudge Brigade's shares.

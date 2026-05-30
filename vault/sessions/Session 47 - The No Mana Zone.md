@@ -3,6 +3,7 @@ title: "47: The No Mana Zone"
 tags:
   - session
   - recap
+  - tradition/demma
 source_url: https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-47-no-mana-zone.html
 session_date: 2026-04-11
 ---
@@ -17,8 +18,8 @@ Warm, cloudy, rainy
 
 ## Player Characters
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
-- [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
-- [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
+- [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter
+- [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of Zodarrim
 - [[pcs/grudge-brigade/Coinbase.md|Coinbase]], Elven Mercenary Bro (Archon Shiva)
 
 ## Significant NPCs
@@ -31,7 +32,7 @@ Warm, cloudy, rainy
 - Construct spearman
 - [[npcs/Remagis.md|Remagis]], un-petrified ancient priest of Thoth
 - [[npcs/Stamelis.md|Stamelis]], Head of Thoth librarian
-- [[npcs/Basil.md|Basil]], [[factions/Right for Riches.md|Right for Riches]] employee
+- [[npcs/Basil.md|Basil]], [[factions/Right for Riches Company.md|Right for Riches]] employee
 - Many ghouls
 - Many skeletons
 - Many zombies
@@ -66,7 +67,7 @@ Three somewhat separate battles happened. One was Ioannes versus some ghouls, wi
 
 Uvash took down a lot of undead, almost winning the battle and saving Vallium, until one of the zombies landed a lucky critical hit and knocked him unconscious. Meanwhile, Ioannes, not really strong enough to efficiently kill ghouls, focused on aiming at their feet and crippling them. [[pcs/grudge-brigade/Coinbase.md|Coinbase]] cast Great Haste (twice), Haste, and Flight on Ioannes, and otherwise Levitated horizontally near the ceiling so the ghouls had to jump to try to lay a claw on him.
 
-When Uvash went down, the last few skeletons and zombies ran out to get Ioannes, and he managed to cripple all of their feet. Once no undead were left standing, they went into the No Mana zone and dragged the unconscious Uvash and paralyzed Vallium out, then Ioannes cast multiple healing spells on both of them. Uvash woke up a few minutes later, and Vallium was able to move again. Everyone staggered back to the east, then reversed their path to the [[locations/Beacon.md|Beacon]]. They didn't run into anything hostile on the way, so they made it. It had been very close though; with both Vallium and Uvash knocked out, a pack of undead in a no-mana zone had almost ended the [[factions/Right for Riches.md|Right for Riches]] company.
+When Uvash went down, the last few skeletons and zombies ran out to get Ioannes, and he managed to cripple all of their feet. Once no undead were left standing, they went into the No Mana zone and dragged the unconscious Uvash and paralyzed Vallium out, then Ioannes cast multiple healing spells on both of them. Uvash woke up a few minutes later, and Vallium was able to move again. Everyone staggered back to the east, then reversed their path to the [[locations/Beacon.md|Beacon]]. They didn't run into anything hostile on the way, so they made it. It had been very close though; with both Vallium and Uvash knocked out, a pack of undead in a no-mana zone had almost ended the [[factions/Right for Riches Company.md|Right for Riches]] company.
 
 ## GM's Comments
 When Vallium went down I thought there was a decent chance of a total party kill. Uvash, Ioannes, and [[pcs/grudge-brigade/Coinbase.md|Coinbase]] managed to win the fight, but it was close. No mana zones are not a joke.

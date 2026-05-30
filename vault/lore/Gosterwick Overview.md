@@ -2,6 +2,10 @@
 tags:
   - lore
   - culture/archontean
+  - tradition/mitran
+  - culture/thorcin
+  - culture/wiskin
+  - era/historical
   - culture/thorcin
 ---
 
