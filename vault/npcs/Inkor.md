@@ -15,3 +15,4 @@ A giant four-armed baboon leader who controlled passage near a high cliff in the
 
 ## Sessions
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
+- [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]

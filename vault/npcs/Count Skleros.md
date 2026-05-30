@@ -17,6 +17,7 @@ Beastman commander in the [[locations/Halls of Thoth.md|Halls of Thoth]] who neg
 
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48 - Thothian Teleportation Rings]]
 
 ## Notes
 - Identified as the military leader of nearby beastman forces.
@@ -24,3 +25,4 @@ Beastman commander in the [[locations/Halls of Thoth.md|Halls of Thoth]] who neg
 - Honored negotiated terms by assigning escorts and directions to the [[locations/Great Cavern.md|Great Cavern]] route.
 - Was upset by news of dragon attacks.
 - Appreciated the recovery of his lost troopers.
+- Allied with [[npcs/Deino.md|Deino]].

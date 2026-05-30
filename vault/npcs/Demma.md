@@ -33,6 +33,8 @@ The vestments are designed to be practical for work, reinforcing the belief that
 ### Branches of the Faith
 - **[[factions/Seedkeepers|Seedkeepers]]:** A scholarly, more esoteric branch of the priesthood. They guard ancient agricultural knowledge, sacred fertility rites, and study the interplay between magic and the natural world.
 - **[[factions/Harvest Guardians|Harvest Guardians]]:** The dedicated warrior arm of the faith. They defend temples and enforce [[npcs/Demma.md|Demma]]'s will, wielding the flail. Each major temple typically has a contingent of six to twelve fighters.
+- A temple dedicated to her is located on the Hill of the Gods.
+- Local temples are led by a Chief Priest, such as Vivian in Gosterwick, who oversees a council of four to eight assisting clerics.
 
 ## Notable Followers
 - **[[pcs/Ioannes Grammatikos Byzantios|Ioannes Grammatikos Byzantios]]:** A player character and a scholarly, Archontean cleric of [[npcs/Demma.md|Demma]]. His personal attire is slightly more ornate than that of the rural clergy, reflecting his broader understanding of [[npcs/Demma.md|Demma]]'s role in magic and wisdom.

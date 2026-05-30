@@ -24,6 +24,7 @@ appears_in:
 ## Roles & Influence
 - Proprietor of [[npcs/Creon.md|Creon]]’s Curios in [[Gosterwick]].
 - Information conduit for magical items entering town; maintains lists and notifies preferred buyers.
+- Does not currently stock potion belts.
 
 ## Relationships
 - PCs (esp. [[Vaelethron 'Vael' Sunshadow]]): recurring customer for arcane supplies and leads.
@@ -40,5 +41,6 @@ appears_in:
   - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — What Actually Happened: Vael got a tip from [[npcs/Creon.md|Creon]] the pawnbroker than an interesting item was available, and it turned out to be the Eyes of [[npcs/Set.md|Set]], some goggles that allegedly allowed seeing through magical darkness cast by [[factions/Cult of Set.md|Cult of Set]].
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 30: [[locations/Tomb of Theskalon.md|The Tomb of Theskalon]] Date: Lunday, 9th of Basilembrios, 2993 AE Weather: Cool, cloudy, chance of ...
   - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — [[npcs/Creon.md|Creon]] sent Vael a note that he had some newly arrived magical items.
+- [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]: Sold the Eyes of Set.
 
 ## Notes

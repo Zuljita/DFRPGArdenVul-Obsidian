@@ -39,6 +39,7 @@ Mysterious [[npcs/Thoth.md|Thoth]]‑aligned wizard tied to the fungal caverns n
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — There was a Mithric inscription on the sarcophagus: Here rests [[npcs/Ptarmis.md|Ptarmis]] loyal servant of [[npcs/Thoth.md|Thoth]] seeker of hidden ways who destroyed the loathsome ones raised his children from spores and opened this cavern Those who disturb his sleep Will ...
   - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — This was a bit confusing, since they'd met a man named [[npcs/Ptarmis.md|Ptarmis]], on the throne a bit to the east, who was very much alive.
 - Built a secret tomb within a fungus cavern in a forest of colossal mushrooms.
+- Built a secret tomb within a fungus cavern on the second level of [[notes/huge forest of colossal mushrooms.md|the huge forest of colossal mushrooms]].
 
 ## Notes
 

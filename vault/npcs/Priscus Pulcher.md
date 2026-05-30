@@ -15,6 +15,8 @@ He is remembered as a traitor by the Empire. The Sortian rebellion led to a long
 ## Notes
 - He was known to have a resemblance to the statues known as "The Philosopher".
 - The Sortians created magical statues of him for worship.
+- The group he led was known for magical eyes.
+- Information about his faction can be found in the Book of Priors and in old books in the Library of Mitra.
 
 ## Discord Insights
 

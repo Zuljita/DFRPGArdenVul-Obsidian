@@ -4,6 +4,7 @@ tags:
   - npc
   - tradition/mitran
 aliases:
+  - Mother Jador
 ---
 # Jador the Just
 
@@ -19,3 +20,5 @@ Chief priestess of [[Mitra]] in [[Gosterwick]]; interlocutor for divine aid and 
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
 - [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
+- [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]]
+- [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]]

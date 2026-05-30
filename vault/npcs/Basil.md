@@ -33,6 +33,7 @@ Basil is a young Archontean man from [[locations/Narsileon.md|Narsileon]], rescu
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 - [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
 - [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]]
+- [[sessions/Session 44.md|Session 44]]
 
 ## Session Notes
 

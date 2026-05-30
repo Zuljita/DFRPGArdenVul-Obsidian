@@ -10,3 +10,4 @@ TBD
 - A glass square is identified as a key to a teleportation device ([[notes/glass square.md|glass square]])
 - Accessed via the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]]
 - Key identification attributed to Pelteon ([[notes/glass square.md|glass square]])
+- [[npcs/Dalton.md|Dalton]]

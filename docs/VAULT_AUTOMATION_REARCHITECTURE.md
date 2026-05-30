@@ -6,9 +6,10 @@ The previous Hermes vault jobs are paused:
 
 - `f0d471864312` - Knowledge Graph Enrichment Agent
 - `3f4b10dff606` - vault-placeholder-janitor
-- `b33890342ddf` - Archivist Pipeline Automator
 
 They should stay paused until the pipeline below exists and has passed dry-run validation.
+
+The obsolete general-purpose Hermes vault job was deleted. Do not recreate or restart that pattern; it used an unbounded agent and an obsolete external refiner pipeline.
 
 ## Failure Mode
 

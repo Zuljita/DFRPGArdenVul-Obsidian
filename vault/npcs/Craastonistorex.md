@@ -27,8 +27,10 @@ Hostile and extremely dangerous, but willing to negotiate if it serves his inter
 - **Rumor:** He is rumored to be the son of a more ancient wyrm that lives at the bottom of the [[Great Chasm]].
 - Session 44 involves his tribute due.
 - In [[sessions/Session 26 - The Scouring of the Shire.md|Session 26]], he considered eating Briar for a paltry gift but let it slide.
+- The encounter occurred during the tenure of [[npcs/Lord Iskander Burdock.md|Lord Burdock]], who died 25 years ago.
 
 ## Relationships
 - [[Briar]]: pet wyvern serving as a scout and enforcer.
 - PCs (“Wardens of the Dam”): negotiated arrangement trading tribute for limited non‑interference.
 - [[npcs/Tuftwillig.md|Tuftwillig]]: has a stated dislike of him.
+- [[npcs/Tuftwillig.md|Tuftwillig]]: has a stated dislike of him and the undead in the [[locations/Tower of Scrutiny.md|Tower of Scrutiny]].

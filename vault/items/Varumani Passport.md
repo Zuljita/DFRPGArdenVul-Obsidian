@@ -3,6 +3,10 @@ tags:
   - item
   - identity/uncertain
 status: stub
+aliases:
+  - passport
+  - varumani passport
+  - Varumani passport
 ---
 
 # Varumani Passport

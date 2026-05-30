@@ -21,6 +21,7 @@ import base64
 import json
 import re
 import shutil
+import subprocess
 import sys
 import time
 import urllib.request
@@ -147,64 +148,188 @@ def match_pc_from_filename(filename: str, pcs: list[dict]) -> tuple[dict | None,
     return None, "no PC name overlap"
 
 
-def find_rollup_context(channel_id: str, message_id: str, window_msgs: int = 2) -> str:
-    """Return surrounding Discord rollup text for context: up to N messages before
-    and N messages after the given message. Walks all weekly rollups."""
-    context_lines: list[str] = []
-    # message IDs are snowflakes; we can compare numerically.
+def find_stream_context(channel_id: str, message_id: str, window_hours: float = 24) -> str:
+    """Return surrounding messages from the raw stream JSONL within a time window.
+
+    Uses a ±window_hours window around the target message's timestamp rather
+    than a fixed message count, so threads that span many hours stay connected
+    while very busy channels don't balloon the context.
+
+    Reads directly from the stream file — not dependent on rollups existing.
+    """
+    from datetime import datetime, timezone, timedelta
+    stream_glob = list({
+        p for pattern in [
+            f"guilds/*/streams/*-{channel_id}.jsonl",
+            f"guilds/*/streams/*{channel_id}*.jsonl",
+        ]
+        for p in EXPLORER_ROOT.glob(pattern)
+    })
+    if not stream_glob:
+        return ""
+    records: list[tuple[datetime, int, str, str]] = []  # (ts, mid, author, body)
+    seen_mids: set[int] = set()
+    for jsonl in stream_glob:
+        with jsonl.open(encoding="utf-8") as f:
+            for line in f:
+                if not line.strip():
+                    continue
+                try:
+                    rec = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                msg = rec.get("message") or {}
+                mid_str = msg.get("id") or ""
+                if not mid_str:
+                    continue
+                try:
+                    mid = int(mid_str)
+                except ValueError:
+                    continue
+                if mid in seen_mids:
+                    continue
+                seen_mids.add(mid)
+                ts_str = msg.get("timestamp") or ""
+                if not ts_str:
+                    continue
+                try:
+                    ts = datetime.fromisoformat(ts_str.replace("Z", "+00:00"))
+                except ValueError:
+                    continue
+                author = (msg.get("author") or {}).get("global_name") or \
+                         (msg.get("author") or {}).get("username") or "?"
+                content = (msg.get("content") or "").strip()
+                atts = msg.get("attachments") or []
+                att_notes = " ".join(
+                    f"[attachment: {a.get('filename', '')}]" for a in atts
+                )
+                body = " ".join(filter(None, [content, att_notes]))
+                records.append((ts, mid, author, body))
+    if not records:
+        return ""
+    records.sort(key=lambda x: x[0])
+    target_mid = int(message_id) if message_id.isdigit() else 0
+    target_ts = next((r[0] for r in records if r[1] == target_mid), None)
+    if target_ts is None:
+        return ""
+    cutoff = timedelta(hours=window_hours)
+    lines = []
+    for ts, mid, author, body in records:
+        if abs((ts - target_ts).total_seconds()) <= cutoff.total_seconds():
+            marker = " ◀ THIS MESSAGE" if mid == target_mid else ""
+            lines.append(f"[{ts.strftime('%Y-%m-%d %H:%M')}] {author}: {body[:400]}{marker}")
+    return "\n".join(lines)
+
+
+def find_rollup_context(channel_id: str, message_id: str, window_hours: float = 24) -> str:
+    """Return surrounding context for an image message.
+
+    Tries the raw stream JSONL first (time-based ±window_hours window).
+    Falls back to weekly rollup markdown if the stream file can't be found.
+    """
+    ctx = find_stream_context(channel_id, message_id, window_hours=window_hours)
+    if ctx:
+        return ctx
+    # Fallback: scan rollup markdown files with a fixed ±8 message window.
     target = int(message_id) if message_id.isdigit() else 0
     found = []
     for rollup_md in sorted(ROLLUPS_ROOT.glob("*/channels/*.md")):
         text = rollup_md.read_text(encoding="utf-8", errors="ignore")
-        # Each block: "## <date> ... - <author> - <msg_id>\n\n<body>"
         for m in re.finditer(
             r"^## (?P<dt>\d{4}-\d{2}-\d{2}[^\n-]*) - (?P<author>[^\n-]+) - (?P<mid>\d+)\s*\n+(?P<body>.+?)(?=^## \d{4}-\d{2}-\d{2}|\Z)",
             text, flags=re.M | re.S,
         ):
             mid = int(m.group("mid"))
             found.append((mid, m.group("dt").strip(), m.group("author").strip(),
-                          m.group("body").strip(), rollup_md.parent.parent.name))
+                          m.group("body").strip()))
     if not found:
         return ""
     found.sort(key=lambda x: x[0])
-    # find target index
     idx = next((i for i, f in enumerate(found) if f[0] == target), None)
     if idx is None:
         return ""
-    lo = max(0, idx - window_msgs)
-    hi = min(len(found), idx + window_msgs + 1)
+    lo = max(0, idx - 8)
+    hi = min(len(found), idx + 9)
+    lines = []
     for i in range(lo, hi):
-        mid, dt, author, body, week = found[i]
+        mid, dt, author, body = found[i]
         marker = " ◀ THIS MESSAGE" if i == idx else ""
-        context_lines.append(f"[{dt}] {author}: {body[:500]}{marker}")
-    return "\n".join(context_lines)
+        lines.append(f"[{dt}] {author}: {body[:400]}{marker}")
+    return "\n".join(lines)
 
 
 # ---------- vision classifier ----------
 
 VISION_SYSTEM = """You are classifying images posted to a private Discord server for an Arden Vul DFRPG campaign. For each image, decide:
   1. What kind of image it is (portrait, map, character-sheet-screenshot, item-photo, monster-stat-block, group-art, meme, chat-screenshot, off-topic).
-  2. Whether it belongs in the campaign vault knowledge-base (skip memes, chat screenshots, off-topic).
+  2. Whether it belongs in the campaign vault knowledge-base.
   3. If yes, which vault entity it is about (NPC name, PC name, location name, item name, monster name, or just "general lore").
+
+Classification rules:
+- INCLUDE: AI-generated or hand-drawn portraits of named campaign NPCs or PCs, even if posted casually in #off-topic. Use surrounding Discord context to identify the character — if messages nearby ask "which looks most like [Name]?" or name the character, that IS the entity.
+- INCLUDE: Maps, handouts, monster stat blocks, item art, and group faction art relevant to the campaign.
+- INCLUDE: Images from #screenshots are almost always dungeon maps, battle grids, or in-session reference images — include them and classify as "map" unless obviously off-topic.
+- INCLUDE: Images from #character-sheets that are portraits, character art, or illustrated character reference images.
+- INCLUDE: Images from #pc-notes, #ooc-planning, #general that show campaign maps, handouts, or character art; skip personal/off-topic content in those channels.
+- INCLUDE: Images from loot channels (channel name starts with "Loot") are likely item photos or loot-sheet screenshots — include as "item".
+- SKIP: Screenshots of wiki/Obsidian vault pages (dark background, structured sections like Summary/Background/Properties with wikilinks). These are screenshots of data that already exists as text in the vault.
+- SKIP: Screenshots of AI chat interfaces (ChatGPT/Claude/Gemini UI chrome) where the content is reasoning, planning, or text generation — NOT a portrait. Exception: if the AI output IS a portrait image embedded in the screenshot, classify by the portrait content.
+- SKIP: Memes, real-world photos, weather screenshots, food photos, and other off-topic personal content.
+- SKIP: LLM "thinking" traces or internal reasoning dumps (walls of small text, no images).
 
 Output JSON exactly:
 {"kind":"...","include":true|false,"entity":"<title or empty>","entity_kind":"npc|pc|location|item|monster|lore|skip","caption":"<one short sentence>","reason":"<why include/skip>"}
 """
 
 
+_MAX_IMAGE_BYTES = 3 * 1024 * 1024   # 3 MB encoded; resize if larger
+_MAX_IMAGE_DIM   = 1536              # max width or height after resize
+
+
+def _prepare_image_data_url(image_path: Path) -> str:
+    """Return a base64 data URL for the image, resizing if necessary.
+
+    Large images and webp files cause HTTP 400 errors from LM Studio.
+    Resizes anything over _MAX_IMAGE_DIM on its longest side and converts
+    webp/gif to JPEG so the payload stays within limits.
+    """
+    from PIL import Image
+    import io
+    with Image.open(image_path) as img:
+        # Convert palette/transparency modes that JPEG can't handle
+        if img.mode not in ("RGB", "L"):
+            img = img.convert("RGB")
+        # Resize if either dimension exceeds the limit
+        w, h = img.size
+        if max(w, h) > _MAX_IMAGE_DIM:
+            scale = _MAX_IMAGE_DIM / max(w, h)
+            img = img.resize((int(w * scale), int(h * scale)), Image.LANCZOS)
+        # Encode as JPEG (universally supported, good compression)
+        buf = io.BytesIO()
+        img.save(buf, format="JPEG", quality=85)
+        raw = buf.getvalue()
+    # If still too large, re-encode at lower quality
+    if len(raw) > _MAX_IMAGE_BYTES:
+        buf = io.BytesIO()
+        with Image.open(image_path) as img:
+            if img.mode not in ("RGB", "L"):
+                img = img.convert("RGB")
+            w, h = img.size
+            scale = min(1.0, (_MAX_IMAGE_DIM * 0.75) / max(w, h))
+            img = img.resize((int(w * scale), int(h * scale)), Image.LANCZOS)
+            img.save(buf, format="JPEG", quality=70)
+        raw = buf.getvalue()
+    return f"data:image/jpeg;base64,{base64.b64encode(raw).decode()}"
+
+
 def vision_classify(image_path: Path, context: str, channel: str, filename: str) -> dict:
     sources = va.load_local_sources()
     base_url = sources.get("llm_base_url") or "http://100.76.165.94:1234/v1"
     model = sources.get("llm_model") or "google/gemma-4-26b-a4b"
-    if image_path.suffix.lower() in {".jpg", ".jpeg"}:
-        mime = "image/jpeg"
-    elif image_path.suffix.lower() == ".webp":
-        mime = "image/webp"
-    elif image_path.suffix.lower() == ".gif":
-        mime = "image/gif"
-    else:
-        mime = "image/png"
-    data_url = f"data:{mime};base64,{base64.b64encode(image_path.read_bytes()).decode()}"
+    try:
+        data_url = _prepare_image_data_url(image_path)
+    except Exception as e:
+        raise RuntimeError(f"image prep failed: {e}") from e
     user_text = (
         f"Channel: #{channel}\n"
         f"Filename: {filename}\n\n"
@@ -361,6 +486,7 @@ def propose_media_ingestion(args: argparse.Namespace) -> int:
         elif ext in IMAGE_EXTS:
             try:
                 context = find_rollup_context(channel_id, msg_id)
+                proposal["discord_context"] = context
                 verdict = vision_classify(local_abs, context, channel, filename)
             except Exception as e:
                 proposal.update({
@@ -415,6 +541,7 @@ def propose_media_ingestion(args: argparse.Namespace) -> int:
             out_json.write_text(json.dumps(proposals, indent=2, ensure_ascii=False), encoding="utf-8")
             print(f"  progress: {i}/{len(manifest)}", file=sys.stderr)
 
+    _dedup_maps(proposals)
     out_json.write_text(json.dumps(proposals, indent=2, ensure_ascii=False), encoding="utf-8")
     _write_proposal_markdown(proposals)
     print(f"\nproposal stats:")
@@ -422,6 +549,32 @@ def propose_media_ingestion(args: argparse.Namespace) -> int:
         print(f"  {k}: {v}")
     print(f"wrote {out_json}")
     return 0
+
+
+def _dedup_maps(proposals: list[dict]) -> None:
+    """For map proposals with a resolved target page, keep only the newest per location.
+
+    Map screenshots accumulate over sessions as the party explores further.
+    Only the most recent snapshot is worth embedding — it shows the most
+    complete state of the dungeon/area. Older ones are marked superseded.
+    """
+    from collections import defaultdict
+    groups: dict[str, list[int]] = defaultdict(list)
+    for i, pr in enumerate(proposals):
+        if pr.get("kind") == "map" and pr.get("include") and pr.get("target_page"):
+            groups[pr["target_page"]].append(i)
+    for target_page, indices in groups.items():
+        if len(indices) <= 1:
+            continue
+        indices.sort(key=lambda i: int(proposals[i].get("message_id") or 0), reverse=True)
+        newest = proposals[indices[0]]
+        for i in indices[1:]:
+            proposals[i]["include"] = False
+            proposals[i]["superseded_by"] = newest.get("message_id")
+            proposals[i]["reason"] = (
+                f"older map of same location; superseded by msg {newest.get('message_id')} "
+                f"({newest.get('timestamp', '')[:10]})"
+            )
 
 
 def _section_for_kind(kind: str) -> str:
@@ -505,7 +658,9 @@ def apply_media_ingestion(args: argparse.Namespace) -> int:
         target_path = ROOT / target
         if target_path.exists():
             inject_reference(target_path, vault_path, pr, apply=args.apply)
-        applied.append({"file": pr["filename"], "→": target, "section": pr.get("target_section"), "applied": args.apply})
+        applied.append({"file": pr["filename"], "→": target, "section": pr.get("target_section"),
+                         "vault_path": vault_path, "target_page": target if target else None,
+                         "applied": args.apply})
 
     if args.apply:
         msg = f"applied {len(applied)} ingestions"
@@ -514,6 +669,24 @@ def apply_media_ingestion(args: argparse.Namespace) -> int:
     print(msg)
     (PROPOSALS_DIR / "media_ingestion_apply_summary.json").write_text(
         json.dumps(applied, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    if args.apply and applied:
+        to_stage = [e["vault_path"] for e in applied if e.get("vault_path")]
+        to_stage += [e["target_page"] for e in applied if e.get("target_page")]
+        if to_stage:
+            r = subprocess.run(["git", "-C", str(ROOT), "add"] + to_stage,
+                               capture_output=True, text=True)
+            if r.returncode != 0:
+                print(f"git add failed: {r.stderr.strip()}", file=sys.stderr)
+            else:
+                commit_msg = f"media: batch ingest {len(applied)} attachment(s) into vault"
+                r2 = subprocess.run(["git", "-C", str(ROOT), "commit", "-m", commit_msg],
+                                    capture_output=True, text=True)
+                if r2.returncode != 0 and "nothing to commit" not in r2.stdout:
+                    print(f"git commit failed: {r2.stderr.strip()}", file=sys.stderr)
+                else:
+                    print(r2.stdout.strip() or "git commit ok")
+
     return 0
 
 

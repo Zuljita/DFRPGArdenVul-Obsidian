@@ -38,6 +38,9 @@ She is scheduled to meet with authorities at the House of Sight to share her exp
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]] — Dundee, Thorcin barbarian Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] Significant NPCs: [[npcs/Susarra.md|Susarra]], Archontean fighter Many [[npcs/Set.md|Set]] guards [[npcs/Hidlat.md|Hidlat]], [[npcs/Set.md|Set]] wizard [[npcs/Kathroc.md|Kathroc]], [[npcs/Set.md|Set]] torturer [[npcs/Lenuel.md|Lenuel]], [[npcs/Set.md|Set]] jailer [[npcs/Eadgithu.md|Eadgithu]], enslaved Thorcin range...
   - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]] — Heading west, they found some peepholes into a prison, with seven cells, six prisoners (including [[npcs/Lillian.md|Lillian]]), and four guards.
 - Intended to deliver a letter of introduction to the [[locations/Temple of Thoth.md|Temple of Thoth]].
+- Captured by [[factions/Green Fang Kobolds|Green Fang Kobolds]] while searching for Settite activity.
+- Rumored to have gone missing near the [[locations/Huge Overgrown Thicket|Huge Overgrown Thicket]].
+- Was in Newmarket with [[notes/Azgallatu the cleric.md|Azgallatu]].
 
 ## Notes
 

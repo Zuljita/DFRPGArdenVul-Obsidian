@@ -20,3 +20,4 @@ appears_in:
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]] — [[Temrin]]'s map was kept in [[npcs/Leifcrim.md|Leifcrim]]'s vault for safekeeping.
 
 ## Notes
+- His vault is located in [[vault/locations/Goblin Great Hall.md|the Goblin Great Hall]].

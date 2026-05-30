@@ -5,6 +5,8 @@ tags:
 status: stub
 aliases:
   - Goblin Market
+  - Forum of Set
+  - Set Forum
 ---
 
 # Goblin Forum

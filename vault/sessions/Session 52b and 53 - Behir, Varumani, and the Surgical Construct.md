@@ -153,5 +153,6 @@ They're planning to fight the renegade varumani who didn't respect their passpor
 - Previous Session: [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
 - Next Session: (none)
 - Previous Discord Summary: [[notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W21.md|Discord Summary 2026-W21]]
 - Original Source: https://dfwhiterock.blogspot.com/2026/05/dfrpg-arden-vul-sessions-52b-and-53.html
 <!-- END AUTO NAV -->

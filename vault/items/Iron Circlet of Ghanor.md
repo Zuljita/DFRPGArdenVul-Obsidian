@@ -2,6 +2,10 @@
 title: "Iron Circlet of Ghanor"
 tags:
   - item
+aliases:
+  - Iron Crown
+  - Circlet of Ghanor
+  - Iron Crown of Ghanor
 ---
 # Iron Circlet of Ghanor
 

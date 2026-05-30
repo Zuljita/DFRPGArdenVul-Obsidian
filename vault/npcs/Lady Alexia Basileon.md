@@ -23,6 +23,7 @@ She is described as a tall, slim, middle-aged woman with tanned skin, black hair
 
 ## Appears In
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
+- [[sessions/Session 51 - The Vengeance Aspect.md|Session 51]] (Recipient of the [[Tablet of the Beacon]])
 
 ## Roles & Influence
 - Ruler of [[Gosterwick]]; de facto authority over access, security, and diplomacy around the ruins.
@@ -46,5 +47,6 @@ She is described as a tall, slim, middle-aged woman with tanned skin, black hair
 - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — Dundee, Thorcin barbarian Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] Significant NPCs: Jador the Just, chief priestess of [[npcs/Mitra.md|Mitra]] in [[locations/Gosterwick.md|Gosterwick]] [[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]], logothete of the House of Sight ("[[factions/Drome.md|Drome]]") in [[locations/Gosterwick.md|Gosterwick]] Freydi...
   - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — They continued to the [[locations/Azure Keep.md|Azure Keep]] to try to arrange a meeting with [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]].
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]] — In exchange they would give him the powerful magic stiletto Larel's Pin and right of first refusal on any magical or historical items the company or its members wanted to sell in the future (except for a few items which [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] speci...
+- A [[Basileon Signet Ring]] was found on the corpse of a noblewoman, possibly herself or a relative.
 
 ## Notes

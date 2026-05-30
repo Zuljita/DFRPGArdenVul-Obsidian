@@ -34,8 +34,11 @@ TBD
 
 ## Notes
 - [[Ashe Maykum]] is an [[npcs/Imperial Goblin.md|Imperial Goblin]].
+- [[npcs/Dobby.md|Dobby]] was an Imperial Goblin thief.
 
 ## Sessions
 - [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
 - [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
+- [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]

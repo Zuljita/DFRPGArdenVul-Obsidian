@@ -12,6 +12,8 @@ Innkeeper and merchant at the [[locations/Inn of the Broken Head.md|Inn of the B
 
 The inn provides beds, meals, and a place to sell treasure.
 
+He is the former employer of [[npcs/Roger.md|Roger]] and [[npcs/Roger's Cousin.md|Roger's Cousin]].
+
 ## Appears In
 - [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
 - [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]

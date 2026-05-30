@@ -23,6 +23,8 @@ appears_in:
 ## Summary
 Merenuithiel Lacrymosa Armaris (known as **Lacrymosa**) is an elven mercenary archer affiliated with the [[factions/Grudge Brigade.md|Grudge Brigade]]. She was hired by the Right for Riches company for the invasion of the [[locations/Forum of Set.md|Forum of Set]] in Sessions 43a–43c.
 
+She was raised as an assassin at the [[locations/Temple of Tychias.md|Temple of Tychias]].
+
 ## Abilities
 - Highly skilled archer with rapid rate of fire; under [[spells/Great Haste.md|Great Haste]] (cast by Vael) she was essentially a one-woman firing line.
 - Carries alchemical grenades: Concussion, Flash, and Smoke nagetempos.
@@ -31,6 +33,7 @@ Merenuithiel Lacrymosa Armaris (known as **Lacrymosa**) is an elven mercenary ar
 - Can wear magical goggles to see through Settite magical darkness.
 - Uses the bow *Tears of the Forsaken*
 - Known for a relentless desire to confront and kill halflings.
+- Killed Roskelly Winterleaf during an engagement in the Glory of Thoth (Session 8a).
 
 ## Actions in Sessions 38–39
 

@@ -1,5 +1,8 @@
 ---
 title: Forum of Set
+aliases:
+  - Goblin Forum
+  - Set Forum
 tags:
   - location
   - iconic

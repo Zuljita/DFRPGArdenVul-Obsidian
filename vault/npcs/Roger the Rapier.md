@@ -13,6 +13,8 @@ aliases:
 ## Summary
 Roger the Rapier is a wizard and the field leader of the [[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]]. He operates in the same areas of Arden Vul as the Right for Riches company and has had several notable interactions with them — sometimes as rival, sometimes as negotiating partner.
 
+He is a former employee of Kronos Kettle-Belly.
+
 ## Key Interactions
 
 ### Session 37 — The Ankh-Key Inquiry

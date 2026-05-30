@@ -17,6 +17,7 @@ Mentioned in a conversation with [[Asrotelion]].
 - [[Asrotelion]] located him by casting a `Seeker` spell.
 - His disappearance and the loss of the books was a stain upon the honor of the [[College of Cinders]].
 - Previous attempts to locate him and the stolen books failed due to ineffective searches by [[College of Cinders]] functionaries.
+- The stolen tomes contained information about magical things.
 
 ## Discord Insights
 

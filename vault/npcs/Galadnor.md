@@ -22,6 +22,7 @@ Galadnor is a Half-Elven merchant and spy who operated a stall in the [[location
 - Revealed the location of the Settites' vault to the southwest of the Forum, warning that it was locked and probably trapped.
 - Had items stored in the Settite vault that were returned to him after the party looted it.
 - Sold several Sortian eyes, Thothian teleportation squares, magic black sand, and a Rudishva power disc to Vael.
+- His guard, [[npcs/Dworm.md|Dworm]], was appointed by the Right for Riches company to temporarily manage a food stall in the Goblin Forum.
 
 ## Relationships
 - [[npcs/Dworm.md|Dworm]]: His guard and assistant

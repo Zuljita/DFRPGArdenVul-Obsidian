@@ -18,6 +18,8 @@ Remagis is an ancient priest of [[npcs/Thoth.md|Thoth]] who was found petrified 
 - Brought to the [[locations/Beacon.md|Beacon]] where [[npcs/Stamelis.md|Stamelis]] could speak with him and [[npcs/Basil.md|Basil]] could assist.
 - Established a deal with Bottleneck and the goblins of Upper Goblintown, exchanging healing for food.
 - Warned travelers not to enter the Temple of Thoth without a holy symbol of Thoth due to hostile Ibis Guardians.
+- Mentioned a pool with healing properties that formerly contained a Slime Kraken.
+- Conversed with Stamelis in a secret Thothian language.
 
 ## Appears In
 - [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]

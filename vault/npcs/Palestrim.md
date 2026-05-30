@@ -31,3 +31,4 @@ Goblin major‑domo serving at court; recognizes known delvers and manages audie
   - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — When they reached the Court, the major-domo [[npcs/Palestrim.md|Palestrim]] recognized them and asked what they wanted.
 
 ## Notes
+- Responsible for managing the royal court.

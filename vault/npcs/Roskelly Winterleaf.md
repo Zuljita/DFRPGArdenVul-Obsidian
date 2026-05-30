@@ -27,6 +27,8 @@ appears_in:
 
 He was killed by [[npcs/Merenuithiel Lacrymosa Armaris|Lacrymosa]] during an engagement in the [[locations/Glory of Thoth.md|Glory of Thoth]].
 
+He died while attempting to flee during the party's final assault.
+
 ## Appears In
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]

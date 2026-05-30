@@ -14,7 +14,7 @@ Workflow (every subcommand is idempotent):
 
   poll     Walk the message index → for each unresolved card, hit the
            Discord API for that message's reactions. First non-bot
-           reaction by an allowed user wins; record it to
+           reaction wins; record it to
            data/automation/proposal_decisions.jsonl + mark the index entry
            resolved. Also edits the original message to append the resolution
            line so the channel shows the outcome.
@@ -45,8 +45,11 @@ Channel/guild are baked in via constants below (can be overridden by env).
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
+import shutil
+import subprocess
 import sys
 import time
 import urllib.error
@@ -152,9 +155,23 @@ def load_article_edit_proposals() -> list[dict]:
     return json.loads(p.read_text()) if p.exists() else []
 
 
+def load_media_ingestion_proposals() -> list[dict]:
+    p = PROPOSALS_DIR / "media_ingestion_proposals.json"
+    if not p.exists():
+        return []
+    return [pr for pr in json.loads(p.read_text()) if pr.get("include")]
+
+
+def _media_pid(pr: dict) -> str:
+    key = pr.get("local_path") or pr.get("absolute_path") or ""
+    return "media-" + hashlib.sha1(key.encode()).hexdigest()[:12]
+
+
 def proposal_kind(p: dict) -> str:
     if p.get("addition_type") in {"append_bullet_to_section", "add_alias", "extend_summary"}:
         return "article_edit"
+    if p.get("vault_attachment_path"):
+        return "media"
     return "unknown"
 
 
@@ -164,6 +181,9 @@ def all_proposals_indexed() -> dict[str, tuple[str, dict]]:
         pid = p.get("proposal_id")
         if pid:
             out[pid] = ("article_edit", p)
+    for p in load_media_ingestion_proposals():
+        pid = _media_pid(p)
+        out[pid] = ("media", dict(p, proposal_id=pid))
     return out
 
 
@@ -216,48 +236,156 @@ def consumed_load() -> set[str]:
 
 # ---------- post (card creation) ----------
 
+def _section_excerpt(article_path: str, section: str, max_chars: int = 300) -> str:
+    """Return the current content of a section in a vault page, or empty string."""
+    if not article_path or not section:
+        return ""
+    path = ROOT / article_path
+    if not path.exists():
+        return ""
+    text = path.read_text(encoding="utf-8")
+    m = re.search(rf"(?m)^## {re.escape(section)}\s*$", text)
+    if not m:
+        return "(section not yet present)"
+    start = m.end()
+    next_h2 = re.search(r"(?m)^## ", text[start:])
+    end = (start + next_h2.start()) if next_h2 else len(text)
+    content = text[start:end].strip()
+    return _clip(content, max_chars) if content else "(empty)"
+
+
 def render_card_text(p: dict) -> str:
     """One Discord message body. Markdown allowed; under 2000 chars."""
     kind = p.get("kind") or p.get("article_kind") or "Proposal"
-    title = p.get("article_title") or p.get("title") or p.get("filename") or "Proposal"
     pid = p.get("proposal_id") or p.get("id") or "?"
-    addition_type = p.get("addition_type") or p.get("classification") or ""
     target = p.get("article_path") or p.get("target_page") or ""
     section = p.get("target_section") or p.get("section") or ""
-    body = (p.get("proposed_text") or p.get("caption") or p.get("reason") or "").strip()
-    rationale = (p.get("rationale") or p.get("vision_reason") or "").strip()
-    sources = p.get("sources") or []
+    is_media = bool(p.get("vault_attachment_path") or p.get("absolute_path"))
 
-    lines = [f"**[{kind}] {title}** — `{pid}`"]
-    if target:
-        lines.append(f"**Target page:** `{target}`")
-    meta = []
-    if addition_type:
-        meta.append(f"**{addition_type}**")
-    if section:
-        meta.append(f"→ §`{section}`")
-    if meta:
-        lines.append("**Edit:** " + " ".join(meta))
-    if body:
-        lines.append("**Proposed:**")
-        lines.append(f"```md\n{_clip(body, 800)}\n```")
-    if rationale:
-        lines.append(f"**Rationale:** {_clip(rationale, 400)}")
-    if sources:
-        lines.append("**Sources:**")
-        for s in sources[:2]:
-            spath = s.get("path", "?")
-            sec = s.get("section", "")
+    lines = []
+
+    if is_media:
+        title = p.get("entity") or p.get("filename") or "?"
+        lines.append(f"**[{kind}] {title}** — `{pid}`")
+        from_parts = [f"#{p['channel']}" if p.get("channel") else None,
+                      p.get("author") or None,
+                      (p.get("timestamp") or "")[:10] or None]
+        from_str = " · ".join(x for x in from_parts if x)
+        if from_str:
+            lines.append(f"**From:** {from_str}")
+        if target:
+            lines.append(f"**Target:** `{target}`" + (f" → §`{section}`" if section else ""))
+        caption = (p.get("caption") or "").strip()
+        if caption:
+            lines.append(f"**Caption:** {_clip(caption, 200)}")
+        reason = (p.get("vision_reason") or p.get("reason") or "").strip()
+        if reason and reason != caption:
+            lines.append(f"**Reason:** {_clip(reason, 200)}")
+        ctx = (p.get("discord_context") or "").strip()
+        if ctx:
+            # Keep only lines around the target message marker, max 5 lines
+            ctx_lines = ctx.splitlines()
+            target_idx = next((i for i, l in enumerate(ctx_lines) if "◀ THIS MESSAGE" in l), None)
+            if target_idx is not None:
+                lo = max(0, target_idx - 2)
+                hi = min(len(ctx_lines), target_idx + 2)
+                ctx_lines = ctx_lines[lo:hi]
+            ctx_trimmed = "\n".join(f"> {l}" for l in ctx_lines[:5])
+            lines.append(f"**Context:**\n{_clip(ctx_trimmed, 500)}")
+    else:
+        title = p.get("article_title") or p.get("title") or p.get("filename") or "Proposal"
+        addition_type = p.get("addition_type") or ""
+        lines.append(f"**[{kind}] {title}** — `{pid}`")
+        if target:
+            lines.append(f"**Target:** `{target}`" + (f" → §`{section}`" if section else ""))
+        if addition_type:
+            lines.append(f"**Edit:** {addition_type}")
+        body = (p.get("proposed_text") or "").strip()
+        if body:
+            lines.append(f"**Proposed:**\n```md\n{_clip(body, 400)}\n```")
+        cur = _section_excerpt(target, section, max_chars=250)
+        if cur:
+            lines.append(f"**Current §{section}:**\n```\n{cur}\n```")
+        rationale = (p.get("rationale") or "").strip()
+        if rationale:
+            lines.append(f"**Rationale:** {_clip(rationale, 300)}")
+        sources = p.get("sources") or []
+        for s in sources[:1]:
             excerpt = (s.get("excerpt") or "").strip()
-            lines.append(f"• `{spath}` §`{sec}`")
             if excerpt:
-                lines.append(f"  > {_clip(excerpt, 300)}")
+                lines.append(f"**Source:** `{s.get('path','?')}` > {_clip(excerpt, 200)}")
+
     lines.append(f"\nReact: {REACTION_APPROVE} approve · {REACTION_REJECT} reject · {REACTION_SKIP} skip")
     return "\n".join(lines)[:1990]
 
 
 def _clip(s: str, n: int) -> str:
     return s if len(s) <= n else s[: n - 3] + "..."
+
+
+_DISCORD_IMG_EXTS = {"png", "jpg", "jpeg", "webp", "gif"}
+_DISCORD_MAX_DIM  = 1024
+_DISCORD_MAX_BYTES = 8 * 1024 * 1024
+
+
+def _resize_for_discord(path: Path) -> bytes | None:
+    """Return JPEG bytes resized for Discord upload, or None if not an image."""
+    ext = path.suffix.lower().lstrip(".")
+    if ext not in _DISCORD_IMG_EXTS:
+        return None
+    try:
+        from PIL import Image
+        import io
+        with Image.open(path) as img:
+            if img.mode not in ("RGB", "L"):
+                img = img.convert("RGB")
+            w, h = img.size
+            if max(w, h) > _DISCORD_MAX_DIM:
+                scale = _DISCORD_MAX_DIM / max(w, h)
+                img = img.resize((int(w * scale), int(h * scale)), Image.LANCZOS)
+            buf = io.BytesIO()
+            img.save(buf, format="JPEG", quality=85)
+            return buf.getvalue()
+    except Exception:
+        return None
+
+
+def discord_post_with_file(channel_id: str, token: str, text: str,
+                           file_data: bytes, filename: str) -> dict | None:
+    """POST a Discord message with an image attachment (multipart/form-data)."""
+    import uuid
+    boundary = uuid.uuid4().hex
+    CRLF = b"\r\n"
+    body = b""
+    body += f"--{boundary}\r\n".encode()
+    body += b'Content-Disposition: form-data; name="payload_json"\r\n'
+    body += b'Content-Type: application/json\r\n\r\n'
+    body += json.dumps({"content": text}).encode()
+    body += CRLF
+    body += f"--{boundary}\r\n".encode()
+    body += f'Content-Disposition: form-data; name="files[0]"; filename="{filename}"\r\n'.encode()
+    body += b"Content-Type: image/jpeg\r\n\r\n"
+    body += file_data
+    body += CRLF
+    body += f"--{boundary}--\r\n".encode()
+    url = f"{DISCORD_API_BASE}/channels/{channel_id}/messages"
+    headers = {
+        "Authorization": f"Bot {token}",
+        "Content-Type": f"multipart/form-data; boundary={boundary}",
+        "User-Agent": "ArdenVulVaultProposals (rest-only, +local)",
+    }
+    req = urllib.request.Request(url, data=body, method="POST", headers=headers)
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return json.loads(r.read().decode("utf-8"))
+        except urllib.error.HTTPError as e:
+            if e.code == 429:
+                delay = float(json.loads(e.read()).get("retry_after", 1.0))
+                time.sleep(delay + 0.2)
+                continue
+            raise RuntimeError(f"Discord upload HTTP {e.code}: {e.read()[:200]}") from e
+    return None
 
 
 def cmd_post(args):
@@ -280,9 +408,20 @@ def cmd_post(args):
     for p in pending:
         pid = p.get("proposal_id") or p.get("id")
         text = render_card_text(p)
+        # For image proposals, attach the file so it renders inline in Discord.
+        img_data = None
+        img_name = None
+        abs_path = p.get("absolute_path")
+        if abs_path:
+            img_data = _resize_for_discord(Path(abs_path))
+            if img_data:
+                img_name = Path(abs_path).stem[:80] + ".jpg"
         try:
-            msg = discord_request("POST", f"/channels/{args.channel_id}/messages",
-                                  token, {"content": text})
+            if img_data:
+                msg = discord_post_with_file(args.channel_id, token, text, img_data, img_name)
+            else:
+                msg = discord_request("POST", f"/channels/{args.channel_id}/messages",
+                                      token, {"content": text})
         except RuntimeError as e:
             print(f"  ERR  {pid}: {e}")
             continue
@@ -431,8 +570,66 @@ def apply_article_edit(proposal: dict, apply: bool) -> tuple[str, str]:
     return "applied" if apply else "would-apply", article_path
 
 
+_MEDIA_IMAGE_EXTS = {"png", "jpg", "jpeg", "webp", "gif"}
+
+
+def _inject_media_reference(target_path: Path, vault_path: str, pr: dict, apply: bool) -> None:
+    """Insert ![[…]] (images) or [[…]] (binaries) under the target section."""
+    text = target_path.read_text(encoding="utf-8")
+    rel = vault_path[len("vault/"):] if vault_path.startswith("vault/") else vault_path
+    ext = pr.get("ext", "").lower()
+    if ext in _MEDIA_IMAGE_EXTS:
+        line = f"- ![[{rel}]] — {pr.get('caption') or pr.get('filename', '')}"
+    else:
+        line = f"- [[{rel}|{pr.get('filename', rel.split('/')[-1])}]]"
+    section = pr.get("target_section") or "Reference Images"
+    header_re = re.compile(rf"(?m)^## {re.escape(section)}\s*$")
+    if header_re.search(text):
+        new = header_re.sub(rf"## {section}\n{line}", text, count=1)
+    else:
+        text = text if text.endswith("\n") else text + "\n"
+        new = text + f"\n## {section}\n\n{line}\n"
+    if apply:
+        target_path.write_text(new, encoding="utf-8")
+
+
+def apply_media_proposal(proposal: dict, apply: bool) -> tuple[str, str]:
+    src = Path(proposal.get("absolute_path") or "")
+    vault_path = proposal.get("vault_attachment_path") or ""
+    target_page = proposal.get("target_page") or ""
+    if not vault_path:
+        return "error", "no vault_attachment_path"
+    if not src.exists():
+        return "error", f"source missing: {src}"
+    dst = ROOT / vault_path
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    to_stage: list[str] = []
+    if apply:
+        shutil.copy2(src, dst)
+        to_stage.append(vault_path)
+    if target_page:
+        target_path = ROOT / target_page
+        if target_path.exists():
+            _inject_media_reference(target_path, vault_path, proposal, apply=apply)
+            if apply:
+                to_stage.append(target_page)
+    if apply and to_stage:
+        r = subprocess.run(["git", "-C", str(ROOT), "add"] + to_stage,
+                           capture_output=True, text=True)
+        if r.returncode != 0:
+            print(f"  WARN git add: {r.stderr.strip()}", file=sys.stderr)
+        else:
+            commit_msg = f"media: ingest {proposal.get('filename', vault_path.split('/')[-1])}"
+            r2 = subprocess.run(["git", "-C", str(ROOT), "commit", "-m", commit_msg],
+                                capture_output=True, text=True)
+            if r2.returncode != 0 and "nothing to commit" not in r2.stdout:
+                print(f"  WARN git commit: {r2.stderr.strip()}", file=sys.stderr)
+    return ("applied" if apply else "would-apply"), vault_path
+
+
 DISPATCH: dict[str, Callable[[dict, bool], tuple[str, str]]] = {
     "article_edit": apply_article_edit,
+    "media": apply_media_proposal,
 }
 
 
@@ -509,12 +706,15 @@ def cmd_status(args):
             print("\nfirst 10 unposted:")
             for pid in pending_post[:10]:
                 _, p = proposals[pid]
-                print(f"  {pid}  {p.get('article_title','?')}: {(p.get('proposed_text') or '')[:80]}")
+                label = p.get("article_title") or p.get("filename") or "?"
+                body = (p.get("proposed_text") or p.get("caption") or "")[:80]
+                print(f"  {pid}  {label}: {body}")
         if pending_decision:
             print("\nfirst 10 awaiting decision:")
             for pid in pending_decision[:10]:
                 _, p = proposals.get(pid, ("?", {}))
-                print(f"  {pid}  {p.get('article_title','?')}  msg_id={index[pid].get('message_id')}")
+                label = p.get("article_title") or p.get("filename") or "?"
+                print(f"  {pid}  {label}  msg_id={index[pid].get('message_id')}")
     return 0
 
 

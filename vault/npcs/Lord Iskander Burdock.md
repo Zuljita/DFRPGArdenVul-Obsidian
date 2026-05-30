@@ -18,6 +18,8 @@ His domain included the [[Burdock Valley]], and he died approximately 25 years a
 - A rumor from a carousing session states that he has been recruiting adventurers to delve into the Halls of [[Arden Vul]].
 - He is said to be offering equipment in exchange for a 50/50 split of any treasure found.
 - Following a dragon attack on his men-at-arms, he forbade subjects from using the Long Stair to reach the ruins.
+- He also discouraged outsiders from using the [[Burdock Valley]] as a base for exploration of the ruins.
+- The dragon attack on his men-at-arms resulted in 10 deaths, including three knights.
 
 ## Discord Insights
 

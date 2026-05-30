@@ -14,6 +14,8 @@ He mentioned that an elf wizard has been trying to sell secrets related to Arden
 
 He noted that Dalton was unwilling to pay the wizard's asking price, so he does not know if the secrets are legitimate.
 
+He speaks with a west Thorcin hill accent.
+
 ## Appears In
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]

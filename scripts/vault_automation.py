@@ -38,6 +38,13 @@ except ImportError:
     chromadb = None  # type: ignore[assignment]
     CHROMA_AVAILABLE = False
 
+try:
+    import yaml  # type: ignore[import-not-found]
+    YAML_AVAILABLE = True
+except ImportError:
+    yaml = None  # type: ignore[assignment]
+    YAML_AVAILABLE = False
+
 
 ROOT = Path(__file__).resolve().parents[1]
 VAULT = ROOT / "vault"
@@ -292,6 +299,10 @@ def load_local_sources() -> dict:
         "article_edit_walk_step": int(config.get("article_edit_walk_step", 0) or 0),
         "article_edit_verify_limit": int(config.get("article_edit_verify_limit", 0) or 0),
         "article_edit_apply_limit": int(config.get("article_edit_apply_limit", 0) or 0),
+        "action_items_enabled": bool(config.get("action_items_enabled", False)),
+        "action_items_apply": bool(config.get("action_items_apply", False)),
+        "action_items_latest_sessions": int(config.get("action_items_latest_sessions", 8) or 8),
+        "action_items_max_items": int(config.get("action_items_max_items", 50) or 50),
     }
 
 
@@ -2055,6 +2066,15 @@ def _parse_llm_json(content: str) -> dict:
         except json.JSONDecodeError as exc:
             last_err = exc
             continue
+    if YAML_AVAILABLE:
+        for cand in candidates:
+            try:
+                parsed = yaml.safe_load(cand)
+                if isinstance(parsed, dict):
+                    return parsed
+            except Exception as exc:
+                last_err = exc
+                continue
     raise RuntimeError(f"could not parse LLM JSON: {last_err}; content head: {content[:200]!r}")
 
 
@@ -2328,21 +2348,50 @@ VAULT_RAG_H2_SPLIT_RE = re.compile(r"^## (?!#)", re.MULTILINE)
 VAULT_RAG_FRONTMATTER_RE = re.compile(r"^---\n.*?\n---\n+", re.DOTALL)
 VAULT_RAG_MAX_CHUNK_CHARS = 3000
 VAULT_RAG_MIN_CHUNK_CHARS = 60
+VAULT_RAG_SCHEMA_VERSION = 3  # bumped: chunk metadata now includes frontmatter status and aliases
+VAULT_RAG_LABEL_SECTIONS = {
+    "date",
+    "weather",
+    "player characters",
+    "significant npcs",
+    "the plan",
+    "what happened",
+    "gm's comments",
+    "gm's notes",
+    "achievements",
+    "xp",
+    "next week",
+    "original source",
+}
 
 
 def vault_rag_embed(text: str) -> list[float]:
     sources = load_local_sources()
     url = sources["vault_rag_embed_url"]
     model = sources["vault_rag_embed_model"]
-    payload = json.dumps({"model": model, "prompt": text}).encode("utf-8")
-    request = urllib.request.Request(
-        url,
-        data=payload,
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-    with urllib.request.urlopen(request, timeout=120) as response:
-        body = json.loads(response.read().decode("utf-8"))
+    body = None
+    last_error: Exception | None = None
+    for prompt in (
+        text,
+        text.rstrip() + "\n\n.",
+        text.rstrip() + "\n\nAdditional context.",
+        text.rstrip() + "\n\nThis is a vault note.",
+    ):
+        payload = json.dumps({"model": model, "prompt": prompt}).encode("utf-8")
+        request = urllib.request.Request(
+            url,
+            data=payload,
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=120) as response:
+                body = json.loads(response.read().decode("utf-8"))
+            break
+        except Exception as exc:
+            last_error = exc
+    if body is None:
+        raise RuntimeError(f"vault-rag embedding request failed: {last_error}")
     emb = body.get("embedding")
     if not emb:
         raise RuntimeError(f"vault-rag embedding returned no vector: {str(body)[:200]}")
@@ -2398,22 +2447,57 @@ def _split_oversized_chunk(text: str, max_chars: int) -> list[str]:
     return out
 
 
+def _section_from_line(line: str) -> str | None:
+    stripped = line.strip()
+    if stripped.startswith("## ") and not stripped.startswith("### "):
+        return stripped[3:].strip()
+    bold = re.match(r"^\*\*(?P<label>[^*:\n]+):\*\*\s*$", stripped)
+    if bold:
+        label = bold.group("label").strip()
+        if label.lower() in VAULT_RAG_LABEL_SECTIONS:
+            return label
+    bare = re.match(r"^(?P<label>[A-Za-z][A-Za-z0-9 '’&/-]{1,60}):(?P<rest>.*)$", stripped)
+    if bare:
+        label = bare.group("label").strip()
+        if label.lower() in VAULT_RAG_LABEL_SECTIONS:
+            return label
+    return None
+
+
+def _split_markdown_sections(text: str) -> list[tuple[str, str]]:
+    """Split at H2s plus common imported recap labels.
+
+    Many early imported sessions use plain labels such as "GM's Comments:" or
+    "XP:" instead of H2 headings. If those are left inside the intro chunk, RAG
+    metadata reports late-session material as `(intro)`.
+    """
+    lines = text.splitlines()
+    sections: list[tuple[str, list[str]]] = []
+    current_section = "(intro)"
+    current_lines: list[str] = []
+    for line in lines:
+        section = _section_from_line(line)
+        if section and current_lines:
+            sections.append((current_section, current_lines))
+            current_section = section
+            current_lines = [line]
+        elif section:
+            current_section = section
+            current_lines = [line]
+        else:
+            current_lines.append(line)
+    if current_lines:
+        sections.append((current_section, current_lines))
+    return [(section, "\n".join(lines).strip()) for section, lines in sections if "\n".join(lines).strip()]
+
+
 def chunk_markdown_for_rag(text: str) -> list[tuple[str, str]]:
-    """Split markdown at H2 boundaries; sub-split sections larger than VAULT_RAG_MAX_CHUNK_CHARS at paragraph breaks."""
+    """Split markdown by sections; sub-split large sections at paragraph breaks."""
     text = strip_frontmatter(text).strip()
     if not text:
         return []
-    parts = VAULT_RAG_H2_SPLIT_RE.split(text)
     raw_chunks: list[tuple[str, str]] = []
-    intro = parts[0].strip()
-    if intro:
-        raw_chunks.append(("(intro)", intro))
-    for part in parts[1:]:
-        body = ("## " + part).strip()
-        if not body:
-            continue
-        first_line = body.split("\n", 1)[0]
-        section = first_line[3:].strip() if first_line.startswith("## ") else "(unknown)"
+    for section, body in _split_markdown_sections(text):
         raw_chunks.append((section, body))
     chunks: list[tuple[str, str]] = []
     for section, body in raw_chunks:
@@ -2423,6 +2507,12 @@ def chunk_markdown_for_rag(text: str) -> list[tuple[str, str]]:
             for sub in _split_oversized_chunk(body, VAULT_RAG_MAX_CHUNK_CHARS):
                 chunks.append((section, sub))
     return [(s, c) for s, c in chunks if len(c.strip()) >= VAULT_RAG_MIN_CHUNK_CHARS]
+
+
+def vault_rag_chunk_kind(base_kind: str, section: str) -> str:
+    if section.strip().lower() == "session navigation":
+        return "navigation"
+    return base_kind
 
 
 VAULT_RAG_SKIP_DIRS = {"templates", "quartz", "attachments", ".obsidian"}
@@ -2492,12 +2582,25 @@ def vault_rag_upsert_file(coll, path: Path, kind: str) -> dict:
     existing_metas = existing.get("metadatas") or []
     if existing_ids and existing_metas:
         existing_sha = existing_metas[0].get("sha256")
-        if existing_sha == sha:
+        existing_schema = existing_metas[0].get("schema_version")
+        if existing_sha == sha and existing_schema == VAULT_RAG_SCHEMA_VERSION:
             return {"path": rel, "action": "unchanged", "chunk_count": len(existing_ids)}
         coll.delete(ids=existing_ids)
     chunks = chunk_markdown_for_rag(text)
     if not chunks:
         return {"path": rel, "action": "empty", "chunk_count": 0}
+
+    # Extract filterable frontmatter fields so retrieval can use them.
+    try:
+        fm = parse_frontmatter(text)
+    except Exception:
+        fm = {}
+    fm_status = str(fm.get("status") or "").strip().lower() or None
+    fm_aliases_raw = fm.get("aliases") or []
+    if isinstance(fm_aliases_raw, str):
+        fm_aliases_raw = [a.strip() for a in fm_aliases_raw.split(",") if a.strip()]
+    fm_aliases = ", ".join(str(a) for a in fm_aliases_raw if str(a).strip()) or None
+
     ids: list[str] = []
     docs: list[str] = []
     metas: list[dict] = []
@@ -2512,15 +2615,22 @@ def vault_rag_upsert_file(coll, path: Path, kind: str) -> dict:
         chunk_id = f"{rel}#{i}:{hashlib.sha1(chunk_text.encode('utf-8')).hexdigest()[:8]}"
         ids.append(chunk_id)
         docs.append(chunk_text)
-        metas.append({
+        chunk_meta: dict = {
             "path": rel,
-            "kind": kind,
+            "kind": vault_rag_chunk_kind(kind, section),
+            "source_kind": kind,
             "section": section,
             "title": path.stem,
             "sha256": sha,
+            "schema_version": VAULT_RAG_SCHEMA_VERSION,
             "chunk_index": i,
             "char_count": len(chunk_text),
-        })
+        }
+        if fm_status:
+            chunk_meta["status"] = fm_status
+        if fm_aliases:
+            chunk_meta["aliases"] = fm_aliases
+        metas.append(chunk_meta)
         embeddings.append(emb)
     if not ids:
         return {"path": rel, "action": "error", "chunk_count": 0, "error": "all chunks failed to embed", "skipped": skipped}
@@ -3783,6 +3893,395 @@ def apply_article_edit_to_text(text: str, edit: dict) -> tuple[str, bool, str]:
     return text, False, f"unsupported addition_type: {addition_type}"
 
 
+# ---- action-item lane ----
+
+ACTION_ITEMS_PATH = VAULT / "notes" / "Active Action Items.md"
+ACTION_ITEM_LEGACY_PATHS = [
+    VAULT / "notes" / "Unfinished Plotlines and Tasks.md",
+    VAULT / "notes" / "Open Threads - Post Session 35.md",
+]
+ACTION_ITEM_CATEGORIES = {
+    "Active Quests",
+    "Open Mysteries",
+    "Watch List",
+    "Completed / Resolved",
+}
+ACTION_ITEM_STATUS_TO_CATEGORY = {
+    "active": "Active Quests",
+    "open": "Open Mysteries",
+    "watch": "Watch List",
+    "completed": "Completed / Resolved",
+    "resolved": "Completed / Resolved",
+}
+
+
+def _truncate_middle(text: str, limit: int) -> str:
+    if len(text) <= limit:
+        return text
+    head = limit // 2
+    tail = limit - head - 80
+    return text[:head].rstrip() + "\n\n...[truncated]...\n\n" + text[-tail:].lstrip()
+
+
+def latest_session_pages(limit: int) -> list[Path]:
+    sessions = [path for _sid, path in list_session_pages()]
+    return sessions[-limit:] if limit > 0 else []
+
+
+def markdown_section_excerpt(text: str, headings: set[str], max_chars: int = 5000) -> str:
+    parts: list[str] = []
+    matches = list(re.finditer(r"^##\s+(.+?)\s*$", text, flags=re.MULTILINE))
+    for idx, match in enumerate(matches):
+        heading = match.group(1).strip().rstrip(":").lower()
+        if heading not in headings:
+            continue
+        end = matches[idx + 1].start() if idx + 1 < len(matches) else len(text)
+        parts.append(text[match.start():end].strip())
+    if not parts:
+        return _truncate_middle(text, max_chars)
+    return _truncate_middle("\n\n".join(parts), max_chars)
+
+
+def action_item_context(latest_session_count: int) -> str:
+    blocks: list[str] = []
+    if ACTION_ITEMS_PATH.exists():
+        blocks.append(
+            f"## CURRENT CANONICAL ACTION NOTE: {ACTION_ITEMS_PATH.relative_to(ROOT).as_posix()}\n"
+            + _truncate_middle(read_text(ACTION_ITEMS_PATH), 10000)
+        )
+    post35 = VAULT / "notes" / "Open Threads - Post Session 35.md"
+    if post35.exists():
+        blocks.append(
+            f"## LEGACY THREAD NOTE: {post35.relative_to(ROOT).as_posix()}\n"
+            + _truncate_middle(read_text(post35), 10000)
+        )
+    unfinished = VAULT / "notes" / "Unfinished Plotlines and Tasks.md"
+    if unfinished.exists():
+        text = read_text(unfinished)
+        session_30 = re.search(r"^## Session 30\b", text, flags=re.MULTILINE)
+        if session_30:
+            text = text[session_30.start():]
+        blocks.append(
+            f"## LEGACY THREAD NOTE EXCERPT: {unfinished.relative_to(ROOT).as_posix()}\n"
+            + _truncate_middle(text, 18000)
+        )
+    wanted = {"next week", "gm's comments", "resolved/updated", "open threads", "achievements"}
+    for path in latest_session_pages(latest_session_count):
+        text = markdown_section_excerpt(read_text(path), wanted, max_chars=4500)
+        blocks.append(
+            f"## RECENT SESSION: {path.relative_to(ROOT).as_posix()}\n"
+            + text
+        )
+    return "\n\n---\n\n".join(blocks)
+
+
+def action_item_prompt(latest_session_count: int, max_items: int) -> str:
+    context = action_item_context(latest_session_count)
+    return (
+        "You maintain an Obsidian campaign note named vault/notes/Active Action Items.md for an Arden Vul DFRPG campaign.\n\n"
+        "Use ONLY the provided source context. The older thread notes are useful historical inventories, but recent session "
+        "recaps are stronger evidence for current status. Prefer concrete party obligations, next-session plans, unresolved "
+        "promises, live threats, and actionable leads over broad lore questions. Do not include spoilers or facts not present "
+        "in the context. Do NOT treat a session's pre-session 'The Plan' section as proof that something is still active; "
+        "the later What Happened / GM's Comments / Next Week / Resolved sections supersede it.\n\n"
+        "Your task is to produce a clean current action-item inventory. Merge duplicates. Mark items completed/resolved only "
+        "when the provided context explicitly says they were completed, resolved, found, rescued, or otherwise closed. Keep "
+        "uncertain lore as Open Mysteries or Watch List rather than Active Quests.\n\n"
+        "Each item must cite at least one source path and a short verbatim excerpt from that source. Use repo-relative paths "
+        "like vault/sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md.\n\n"
+        f"Return no more than {max_items} items. Return strict JSON only, no markdown fences:\n"
+        "{\n"
+        '  "items": [\n'
+        "    {\n"
+        '      "id": "short-stable-slug",\n'
+        '      "title": "Recover or resolve X",\n'
+        '      "status": "active|open|watch|completed",\n'
+        '      "category": "Active Quests|Open Mysteries|Watch List|Completed / Resolved",\n'
+        '      "summary": "One concise campaign-facing sentence.",\n'
+        '      "next_step": "Concrete next step, or empty string for completed items.",\n'
+        '      "related": ["[[npcs/Example.md|Example]]"],\n'
+        '      "sources": [{"path": "vault/sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md", "excerpt": "short verbatim quote"}]\n'
+        "    }\n"
+        "  ]\n"
+        "}\n\n"
+        "SOURCE CONTEXT:\n"
+        "---\n"
+        f"{context}\n"
+        "---"
+    )
+
+
+def _normalized_contains(haystack: str, needle: str) -> bool:
+    h = re.sub(r"\s+", " ", haystack).strip().lower()
+    n = re.sub(r"\s+", " ", needle).strip().lower()
+    if not n:
+        return False
+    return n in h
+
+
+def clean_action_item(raw: dict) -> dict | None:
+    title = str(raw.get("title", "")).strip()
+    summary = str(raw.get("summary", "")).strip()
+    if not title or not summary:
+        return None
+    status = str(raw.get("status", "open")).strip().lower()
+    if status == "resolved":
+        status = "completed"
+    if status not in {"active", "open", "watch", "completed"}:
+        status = "open"
+    category = str(raw.get("category", "")).strip() or ACTION_ITEM_STATUS_TO_CATEGORY[status]
+    if category not in ACTION_ITEM_CATEGORIES:
+        category = ACTION_ITEM_STATUS_TO_CATEGORY[status]
+    slug = str(raw.get("id", "")).strip().lower()
+    slug = re.sub(r"[^a-z0-9]+", "-", slug or title.lower()).strip("-")[:64]
+    if not slug:
+        slug = hashlib.sha1(title.encode("utf-8")).hexdigest()[:12]
+    related_raw = raw.get("related") or []
+    related = [str(v).strip() for v in related_raw if str(v).strip()][:8] if isinstance(related_raw, list) else []
+    sources: list[dict] = []
+    for src in raw.get("sources") or []:
+        if not isinstance(src, dict):
+            continue
+        path = str(src.get("path", "")).strip()
+        excerpt = str(src.get("excerpt", "")).strip()
+        if path and excerpt:
+            sources.append({"path": path, "excerpt": excerpt[:500]})
+    if not sources:
+        return None
+    return {
+        "id": slug,
+        "title": title[:160],
+        "status": status,
+        "category": category,
+        "summary": summary[:500],
+        "next_step": str(raw.get("next_step", "")).strip()[:300],
+        "related": related,
+        "sources": sources[:4],
+    }
+
+
+def source_excerpt_supported(src: dict) -> bool:
+    path_str = str(src.get("path", "")).strip()
+    excerpt = str(src.get("excerpt", "")).strip()
+    if not path_str or not excerpt:
+        return False
+    path = Path(path_str) if path_str.startswith("/") else ROOT / path_str
+    if not path.exists() or not path.is_file():
+        return False
+    return _normalized_contains(read_text(path), excerpt)
+
+
+def verify_action_item_inventory(items: list[dict]) -> tuple[list[dict], list[dict]]:
+    accepted: list[dict] = []
+    rejected: list[dict] = []
+    seen: set[str] = set()
+    for item in items:
+        clean = clean_action_item(item)
+        if not clean:
+            rejected.append({"item": item, "reason": "missing required fields"})
+            continue
+        if clean["id"] in seen:
+            rejected.append({"item": clean, "reason": "duplicate id"})
+            continue
+        supported_sources = [src for src in clean["sources"] if source_excerpt_supported(src)]
+        if not supported_sources:
+            rejected.append({"item": clean, "reason": "no cited excerpt found in source files"})
+            continue
+        clean["sources"] = supported_sources
+        seen.add(clean["id"])
+        accepted.append(clean)
+    return accepted, rejected
+
+
+def build_action_item_inventory(latest_sessions: int = 8, max_items: int = 50) -> dict:
+    response = llm_chat_json(action_item_prompt(latest_sessions, max_items), timeout=1800)
+    raw_items = response.get("items") or []
+    if not isinstance(raw_items, list):
+        raw_items = []
+    accepted, rejected = verify_action_item_inventory(raw_items[:max_items])
+    payload = {
+        "ok": True,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "latest_sessions": latest_sessions,
+        "max_items": max_items,
+        "accepted_count": len(accepted),
+        "rejected_count": len(rejected),
+        "items": accepted,
+        "rejected": rejected,
+    }
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    proposals_dir.mkdir(parents=True, exist_ok=True)
+    write_json(proposals_dir / "action_item_inventory.json", payload)
+    write_action_item_inventory_report(payload)
+    return payload
+
+
+def write_action_item_inventory_report(payload: dict) -> None:
+    lines = ["# Action Item Inventory Proposal", ""]
+    lines.append(f"Accepted: {payload.get('accepted_count', 0)}")
+    lines.append(f"Rejected: {payload.get('rejected_count', 0)}")
+    lines.append("")
+    for category in ["Active Quests", "Open Mysteries", "Watch List", "Completed / Resolved"]:
+        items = [it for it in payload.get("items", []) if it.get("category") == category]
+        if not items:
+            continue
+        lines.append(f"## {category}")
+        lines.append("")
+        for item in items:
+            mark = "x" if item.get("status") == "completed" else " "
+            lines.append(f"- [{mark}] **{item['title']}**")
+            lines.append(f"  - Status: {item['status']}")
+            lines.append(f"  - Summary: {item['summary']}")
+            if item.get("next_step"):
+                lines.append(f"  - Next step: {item['next_step']}")
+            for src in item.get("sources", []):
+                lines.append(f"  - Evidence: [[{src['path']}]] — \"{src['excerpt']}\"")
+            lines.append("")
+    rejected = payload.get("rejected") or []
+    if rejected:
+        lines.append("## Rejected")
+        lines.append("")
+        for r in rejected[:20]:
+            title = ((r.get("item") or {}).get("title") if isinstance(r.get("item"), dict) else "") or "(untitled)"
+            lines.append(f"- {title}: {r.get('reason')}")
+    (AUTOMATION_DIR / "proposals" / "action_item_inventory.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def render_action_items_note(items: list[dict]) -> str:
+    lines: list[str] = [
+        "---",
+        "tags:",
+        "  - note",
+        "  - action-items",
+        "  - open-threads",
+        "generated_by: vault_automation.py action-items",
+        f"updated: {datetime.now(timezone.utc).isoformat()}",
+        "---",
+        "",
+        "# Active Action Items",
+        "",
+        "This note is maintained by the vault automation. It merges current quests, unresolved mysteries, watch items, and completed items from cited session and campaign notes.",
+        "",
+        "## Sources",
+        "- [[notes/Unfinished Plotlines and Tasks.md|Unfinished Plotlines and Tasks]]",
+        "- [[notes/Open Threads - Post Session 35.md|Open Threads - Post Session 35]]",
+        "- Recent session recaps",
+        "",
+    ]
+    for category in ["Active Quests", "Open Mysteries", "Watch List", "Completed / Resolved"]:
+        category_items = [it for it in items if it.get("category") == category]
+        lines.append(f"## {category}")
+        lines.append("")
+        if not category_items:
+            lines.append("_No current items._")
+            lines.append("")
+            continue
+        for item in category_items:
+            mark = "x" if item.get("status") == "completed" else " "
+            lines.append(f"- [{mark}] **{item['title']}**")
+            lines.append(f"  - ID: `{item['id']}`")
+            lines.append(f"  - Status: {item['status']}")
+            lines.append(f"  - Summary: {item['summary']}")
+            if item.get("next_step"):
+                lines.append(f"  - Next step: {item['next_step']}")
+            if item.get("related"):
+                related = [link for link in (normalize_vault_wikilink(v) for v in item["related"]) if link]
+                if related:
+                    lines.append(f"  - Related: {', '.join(related)}")
+            lines.append("  - Evidence:")
+            for src in item.get("sources", []):
+                path = src["path"]
+                link_path = path.removeprefix("vault/")
+                label = Path(path).stem
+                excerpt = src["excerpt"].replace('"', "'")
+                lines.append(f"    - [[{link_path}|{label}]] — \"{excerpt}\"")
+            lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def apply_action_item_inventory(apply_changes: bool = False) -> dict:
+    inv_path = AUTOMATION_DIR / "proposals" / "action_item_inventory.json"
+    if not inv_path.exists():
+        return {"ok": False, "error": "action_item_inventory_not_found", "hint": "Run build-action-items first"}
+    payload = json.loads(inv_path.read_text(encoding="utf-8"))
+    items = payload.get("items") or []
+    new_text = render_action_items_note(items)
+    old_text = read_text(ACTION_ITEMS_PATH) if ACTION_ITEMS_PATH.exists() else ""
+    changed = old_text != new_text
+    if changed and apply_changes:
+        ACTION_ITEMS_PATH.parent.mkdir(parents=True, exist_ok=True)
+        ACTION_ITEMS_PATH.write_text(new_text, encoding="utf-8")
+    return {
+        "ok": True,
+        "mode": "apply" if apply_changes else "dry-run",
+        "path": ACTION_ITEMS_PATH.relative_to(ROOT).as_posix(),
+        "changed": changed,
+        "item_count": len(items),
+        "active_count": sum(1 for it in items if it.get("status") == "active"),
+        "open_count": sum(1 for it in items if it.get("status") == "open"),
+        "watch_count": sum(1 for it in items if it.get("status") == "watch"),
+        "completed_count": sum(1 for it in items if it.get("status") == "completed"),
+    }
+
+
+def normalize_vault_wikilink(link: str) -> str | None:
+    match = re.match(r"^\[\[([^|\]]+)(?:\|([^\]]+))?\]\]$", link.strip())
+    if not match:
+        return None
+    target = match.group(1).removeprefix("vault/")
+    label = match.group(2)
+    path = VAULT / target
+    if not path.exists():
+        stem_target = target.replace("-", " ")
+        path = VAULT / stem_target
+        if path.exists():
+            target = stem_target
+    if not path.exists():
+        return None
+    return f"[[{target}|{label or Path(target).stem}]]"
+
+
+def update_action_items_safely(apply_changes: bool, latest_sessions: int, max_items: int) -> dict:
+    try:
+        inventory = build_action_item_inventory(latest_sessions=latest_sessions, max_items=max_items)
+        applied = apply_action_item_inventory(apply_changes=apply_changes)
+        return {
+            "enabled": True,
+            "ok": bool(inventory.get("ok") and applied.get("ok")),
+            "accepted_count": inventory.get("accepted_count", 0),
+            "rejected_count": inventory.get("rejected_count", 0),
+            "applied": applied,
+            "markdown": str(AUTOMATION_DIR / "proposals" / "action_item_inventory.md"),
+            "json": str(AUTOMATION_DIR / "proposals" / "action_item_inventory.json"),
+        }
+    except Exception as exc:
+        return {"enabled": True, "ok": False, "error": str(exc)[:300]}
+
+
+def cmd_build_action_items(args: argparse.Namespace) -> int:
+    try:
+        payload = build_action_item_inventory(latest_sessions=args.latest_sessions, max_items=args.max_items)
+    except Exception as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    print(json.dumps({
+        "ok": True,
+        "accepted_count": payload.get("accepted_count", 0),
+        "rejected_count": payload.get("rejected_count", 0),
+        "markdown": str(AUTOMATION_DIR / "proposals" / "action_item_inventory.md"),
+        "json": str(AUTOMATION_DIR / "proposals" / "action_item_inventory.json"),
+    }, indent=2))
+    return 0
+
+
+def cmd_apply_action_items(args: argparse.Namespace) -> int:
+    result = apply_action_item_inventory(apply_changes=args.apply)
+    if result.get("ok") and args.apply and result.get("changed"):
+        result["vault_rag_refresh"] = refresh_vault_rag_safely()
+    print(json.dumps(result, indent=2))
+    return 0 if result.get("ok") else 2
+
+
 def refresh_vault_rag_safely() -> dict:
     """Refresh vault-rag, swallowing setup errors so the caller stays robust.
     Returns a small status dict suitable for inclusion in run/apply reports."""
@@ -4240,9 +4739,26 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                             "supported_count": apply_result.get("supported_count", 0),
                             "articles_touched": apply_result.get("articles_touched", 0),
                             "total_applied": apply_result.get("total_applied", 0),
+                            "files": [
+                                r.get("article_path")
+                                for r in apply_result.get("results", [])
+                                if r.get("applied", 0) > 0
+                            ],
                         }
         except Exception as exc:
             article_edit_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
+    action_items_result: dict = {"enabled": False}
+    if before["ok"]:
+        try:
+            sources_cfg = load_local_sources()
+            if sources_cfg.get("action_items_enabled") and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
+                action_items_result = update_action_items_safely(
+                    apply_changes=bool(sources_cfg.get("action_items_apply")),
+                    latest_sessions=int(sources_cfg.get("action_items_latest_sessions", 8) or 8),
+                    max_items=int(sources_cfg.get("action_items_max_items", 50) or 50),
+                )
+        except Exception as exc:
+            action_items_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
     vault_rag_refresh = refresh_vault_rag_safely() if before["ok"] else {"ok": False, "skipped": True, "reason": "pre_validation_failed"}
     after = validate_state()
     payload = {
@@ -4278,6 +4794,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
             "markdown": str(AUTOMATION_DIR / "proposals" / "loot_reconciliation.md"),
         },
         "article_edit": article_edit_result,
+        "action_items": action_items_result,
         "vault_rag_refresh": vault_rag_refresh,
         "after_validation": after,
     }
@@ -4382,6 +4899,15 @@ def build_parser() -> argparse.ArgumentParser:
     apply_article.add_argument("--apply", action="store_true", help="Write changes to vault files; omit for dry-run")
     apply_article.add_argument("--limit", type=int, default=None, help="Maximum supported edits to consider")
     apply_article.set_defaults(func=cmd_apply_verified_article_edits)
+
+    build_actions = sub.add_parser("build-action-items", help="Generate a cited current action-item inventory")
+    build_actions.add_argument("--latest-sessions", type=int, default=8, help="Recent session files to include as current-status evidence")
+    build_actions.add_argument("--max-items", type=int, default=50, help="Maximum action items to keep")
+    build_actions.set_defaults(func=cmd_build_action_items)
+
+    apply_actions = sub.add_parser("apply-action-items", help="Apply the generated action-item inventory to the canonical note")
+    apply_actions.add_argument("--apply", action="store_true", help="Write vault/notes/Active Action Items.md; omit for dry-run")
+    apply_actions.set_defaults(func=cmd_apply_action_items)
 
     propose_new = sub.add_parser("propose-new-entities", help="Extract new entity candidates from canonical sources via IAC + filters")
     propose_new.add_argument("--source-limit", type=int, default=10, help="Latest canonical sources to scan (default 10)")

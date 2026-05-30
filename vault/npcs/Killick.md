@@ -40,3 +40,4 @@ He reports to King [[npcs/Weskenim.md|Weskenim]] and has interacted with the [[f
 - Asked [[pcs/Uvash Edzuson.md|Uvash]] about the whereabouts of the rest of his company.
 - Warned the party about unseen visitors when [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] spoke while invisible.
 - Appears to be a subordinate to King [[npcs/Weskenim.md|Weskenim]] but has authority in the Wet Caves area.
+- Warned the party to move quickly toward the Sundered Span.

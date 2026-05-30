@@ -18,6 +18,7 @@ Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A
 ## Appears In
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
+- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
 
 ## History
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 5: Parleys and [[locations/Great Cavern.md|The Great Cavern]] Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...

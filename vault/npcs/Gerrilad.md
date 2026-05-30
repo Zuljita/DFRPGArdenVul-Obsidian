@@ -30,6 +30,7 @@ He possessed 3 out of a total of 25 keys.
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — The cavern contained a half-eaten dwarf corpse, which Ioannes recognized as [[npcs/Gwelf.md|Gwelf]], the dwarf they had freed from [[npcs/Gerrilad.md|Gerrilad]]'s prison, who had then run off.
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — It was [[npcs/Dalton.md|Dalton]]'s Darlings, the entire group, including their friend [[npcs/Jost.md|Jost]] who they had rescued from [[npcs/Gerrilad.md|Gerrilad]]'s jail.
 - Possessed 3 out of a total of 25 keys ([[notes/Discord Summary 2025-W43.md|Discord Summary 2025-W43]])
+- An item known as [[Gerrilad's Last Sentence]] is associated with him.
 
 ## Roles & Influence
 - Local power on that level; holds keys and asserts authority over cells and passages.

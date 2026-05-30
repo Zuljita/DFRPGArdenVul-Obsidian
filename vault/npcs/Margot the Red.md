@@ -13,6 +13,8 @@ aliases:
 
 Her husband is [[Bricwine]], the inn's bartender.
 
+She discovered the body of [[npcs/Susarra.md|Susarra]] and alerted the party.
+
 ## Appears In
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 

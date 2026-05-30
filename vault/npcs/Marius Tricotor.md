@@ -28,6 +28,7 @@ Cited in the **History** section of [[lore/The Book of Priors.md|The Book of Pri
 - Defeated the [[factions/Varumani.md|Varumani]] (trolls) in **1043 AEP**. The Varumani surrendered to him and became loyal Imperial subjects.
 - Defeated the [[heqeti]] (hoppers) in **1051 AEP**.
 - Conquered the [[Heqeti Ziggurat]] (the heqeti survivors retreated into the Underearth).
+- His tomb is located near the [[locations/Hopper Coliseum.md|Hopper Coliseum]].
 
 ## Disposition
 
