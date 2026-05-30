@@ -4,16 +4,20 @@ tags:
   - culture/thorcin
   - era/historical
   - discord-summary
+week_ending: 2025-10-31
 ---
 
 # Discord Summary 2025-W43
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-10-31
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W42.md|Discord Summary 2025-W42]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Eve of the New Moon

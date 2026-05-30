@@ -15,6 +15,7 @@ source_type: private-discord-weekly-digest
 - Week ending: 2026-04-24
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2026-W15.md|Discord Summary 2026-W15]]
 - Next Discord Summary: [[notes/Discord Summary 2026-W17.md|Discord Summary 2026-W17]]

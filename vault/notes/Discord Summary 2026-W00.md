@@ -15,6 +15,7 @@ source_week: week-ending-2026-01-02-2300-central
 - Week ending: 2026-01-02
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W52.md|Discord Summary 2025-W52]]
 - Next Discord Summary: [[notes/Discord Summary 2026-W01.md|Discord Summary 2026-W01]]

@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2025-06-27
 ---
 
 # Discord Summary 2025-W25
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-06-27
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W24.md|Discord Summary 2025-W24]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W26.md|Discord Summary 2025-W26]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: Arden Vul

@@ -15,6 +15,7 @@ source_week: week-ending-2025-05-02-2300-central
 - Week ending: 2025-05-02
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W18.md|Discord Summary 2025-W18]]

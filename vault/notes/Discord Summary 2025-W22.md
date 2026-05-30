@@ -3,16 +3,20 @@ tags:
   - note
   - tradition/mitran
   - discord-summary
+week_ending: 2025-06-06
 ---
 
 # Discord Summary 2025-W22
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-06-06
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W21.md|Discord Summary 2025-W21]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W23.md|Discord Summary 2025-W23]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Grudge Brigade
@@ -36,7 +40,7 @@ The company has focused its efforts on the liquidation of recent spoils and the 
 *   **Character Advancement:** Considering the acquisition of the *Affect Spirits* spell to better combat incorporeal threats.
 
 ### Vaelitharon "Vael" Sunshadow
-*   **Town Actions:** Managed the logistics of selling recovered "Set" armor. To avoid attracting unwanted attention from the Cult of $\text{Set}$, the sale was conducted through a contact known as Petros at the docks, ensuring anonymity.
+*   **Town Actions:** Managed the logistics of selling recovered "Set" armor. To avoid attracting unwanted attention from the Cult of Set, the sale was conducted through a contact known as Petros at the docks, ensuring anonymity.
 *   **Research/Training:** Investigated the utility of the *Streetwise* skill for future anonymous transactions. Noted that while frequent navigation has aided his mapping, formal training is required to master *Absolute Direction*.
 *   **Loot Management:** Authorized expenditures to identify various recovered items, including a silver plaque and unidentified organic matter.
 

@@ -1,12 +1,23 @@
+---
+title: "Discord Summary 2026-W08"
+tags:
+  - discord-summary
+  - canonical-source
+week_ending: 2026-02-27
+source_type: private-discord-weekly-digest
+---
 
 # Discord Summary 2026-W08
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2026-02-27
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2026-W07.md|Discord Summary 2026-W07]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W09.md|Discord Summary 2026-W09]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Company’s Progress
@@ -42,7 +53,7 @@ Following the recent expedition into Neferet's Tomb, the company has focused on 
 
 ## 3. Lore & Discoveries
 * **The Kauketiad (Book):** An epic poem detailing the Archontean-Heqeti wars, focusing on the virtues of soldiers (fidelity, protection, vengeance, nobility) rather than specific leaders (*Source: Vaelitharon's reading plans*).
-* **Neferet (Historical Figure):** Formerly a high priestess and second-in-command at the Temple of $\text{Thoth}$ in Arden Vul (*Source: Ioannes' research*).
+* **Neferet (Historical Figure):** Formerly a high priestess and second-in-command at the Temple of Thoth in Arden Vul (*Source: Ioannes' research*).
 * **Sapphire Properties:** Linked to wisdom, magic, vision, cold, and chastity (*Source: Vallium's research*).
 * **Arcanum Mechanics:** Arcanum can be used via Creation Molds to produce various magical components and can act as a reagent to recharge depleted items (*Source: Akla-Chah/Properties of Arcanum*).
 

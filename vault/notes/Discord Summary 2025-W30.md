@@ -3,16 +3,20 @@ tags:
   - note
   - tradition/thothian
   - discord-summary
+week_ending: 2025-08-01
 ---
 
 # Discord Summary 2025-W30
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-08-01
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W29.md|Discord Summary 2025-W29]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W31.md|Discord Summary 2025-W31]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Company's Progress

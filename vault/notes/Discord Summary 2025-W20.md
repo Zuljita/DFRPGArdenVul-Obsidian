@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2025-05-23
 ---
 
 # Discord Summary 2025-W20
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-05-23
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W19.md|Discord Summary 2025-W19]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W21.md|Discord Summary 2025-W21]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Company of the Long Stair

@@ -2,15 +2,17 @@
 tags:
   - note
   - discord-summary
+week_ending: 2025-08-29
 ---
 
 # Discord Summary 2025-W34
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-08-29
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W33.md|Discord Summary 2025-W33]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W35.md|Discord Summary 2025-W35]]

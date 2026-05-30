@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2025-09-19
 ---
 
 # Discord Summary 2025-W37
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-09-19
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W36.md|Discord Summary 2025-W36]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W38.md|Discord Summary 2025-W38]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Right for Riches Company

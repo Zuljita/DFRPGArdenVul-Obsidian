@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2026-01-30
 ---
 
 # Discord Summary 2026-W04
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2026-01-30
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2026-W03.md|Discord Summary 2026-W03]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]]
 <!-- END AUTO NAV -->
 
 # Weekly Knowledge Base: Session 39–40 Transition

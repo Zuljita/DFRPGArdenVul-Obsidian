@@ -3,15 +3,17 @@ tags:
   - note
   - tradition/thothian
   - discord-summary
+week_ending: 2025-12-05
 ---
 
 # Discord Summary 2025-W48
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-12-05
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W47.md|Discord Summary 2025-W47]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W49.md|Discord Summary 2025-W49]]

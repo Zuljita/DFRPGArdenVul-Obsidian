@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2025-04-25
 ---
 
 # Discord Summary 2025-W16
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-04-25
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W15.md|Discord Summary 2025-W15]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W17.md|Discord Summary 2025-W17]]
 <!-- END AUTO NAV -->
 
 # Weekly Knowledge Base: The Right for Riches Company

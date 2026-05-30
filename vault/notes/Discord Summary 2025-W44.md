@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2025-11-07
 ---
 
 # Discord Summary 2025-W44
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-11-07
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W43.md|Discord Summary 2025-W43]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Eve of Arden Vul

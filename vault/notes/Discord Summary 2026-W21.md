@@ -15,6 +15,7 @@ source_week: week-ending-2026-05-29-2300-central
 - Week ending: 2026-05-29
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]
 - Next Discord Summary: (none)
@@ -53,7 +54,7 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
 * **Town actions taken:** 
     * Conducted promotional efforts within the goblin market to increase local awareness of company services.
     * Undertook research into the Varumani people to identify tactical vulnerabilities.
-    * Read *On the Terrible Old Gods*; found the ancient Mithric text difficult to $\text{parse}$, requiring significant effort to translate.
+    * Read *On the Terrible Old Gods*; found the ancient Mithric text difficult to parse, requiring significant effort to translate.
 * **Alchemy/crafting attempts and results:** Successfully brewed an Invisibility Potion.
 * **Research results:** None this week.
 * **Character advancement:** Increased Intelligence to 16; updated written Mithric proficiency from Written to Accented. Learned the spells *Awaken* and *Command*.
@@ -66,11 +67,11 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
     * Celebrated the acquisition of a new power item by sharing wine with Chairduster and the torc; during the celebration, Vael smashed a bottle of wine ($100) against the counter and tipped Chairduster $50 for the mess.
 * **Alchemy/crafting attempts and results:** Successfully brewed a Potion of Wisdom.
 * **Research results:** 
-    * Read *Ancient Incriminating Information*: Discovered evidence that Emperor Marcion V may have $\text{have}$ been fathered by Taxiarch Lucius of the Imperial Tagmata, and that the Cult of Set was bribed to suppress this fact.
+    * Read *Ancient Incriminating Information*: Discovered evidence that Emperor Marcion V may have have been fathered by Taxiarch Lucius of the Imperial Tagmata, and that the Cult of Set was bribed to suppress this fact.
     * Read *Courtship of Julius the Exarch*: Identified as an aristocratic romance novel.
     * Read *Phagtro the Scout*: Learned that Phagtro guided imperial legions to Trenner's Rock, providing a tactical advantage against the Thorcinga.
 * **Character advancement:** Spent 5 points on Will specifically to facilitate the conversion of Will into Intelligence (reaching IQ 16).
-* **Equipment changes:** Acquired "The Captain's Broadside" from a local shop; donned a second set of Bracers of $\text{Force}$ (DR 3); when worn in conjunction with Larel's cloak, total protection is increased to DR 5.
+* **Equipment changes:** Acquired "The Captain's Broadside" from a local shop; donned a second set of Bracers of Force (DR 3); when worn in conjunction with Larel's cloak, total protection is increased to DR 5.
 
 **Mercenary: Basilisk**
 * **Status:** Active.
@@ -100,7 +101,7 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
 The company intends to execute the following during the next session:
 1. Conduct town business.
 2. Utilize the first set of Rugs of Instant Access to travel to the Beacon.
- $\text{Use}$ the Rudishva Teleportation Pad to reach the Cloister, proceeding through secret passages (southwest, then north along water, then east).
+ Use the Rudishva Teleportation Pad to reach the Cloister, proceeding through secret passages (southwest, then north along water, then east).
 3. Explore the area containing the "Troll Lifts and Arena W" map, with a specific intent to ambush Lesser and Bestial Varumani.
 4. Investigate the surgical bay area.
 5. If the area is cleared, return to the Behir caves to continue exploration.

@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2025-07-18
 ---
 
 # Discord Summary 2025-W28
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-07-18
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W27.md|Discord Summary 2025-W27]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W29.md|Discord Summary 2025-W29]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Grudge Brigade
@@ -33,7 +37,7 @@ The company spent much of the week engaged in commercial negotiations, alchemica
 * **Equipment Changes:** Holds a large shield which may be offered to mercenary Thronebreaker as payment if no party member claims it.
 
 ### Ioannes Grammatikos Byzantios
-* **Town Actions:** Engaged in social inquiry with the feline entity Onyx, utilizing *Gift of $\text{Tongues}$* to investigate the nature of familiars. 
+* **Town Actions:** Engaged in social inquiry with the feline entity Onyx, utilizing *Gift of Tongues* to investigate the nature of familiars. 
 * **Alchemy/Crafting:** Successfully brewed a Minor Healing potion, achieving the result at a discounted cost.
 * **Equipment Changes:** Acquired a potion belt through the expenditure of character points and personal funds; the belt is considered his personal property rather than party loot.
 

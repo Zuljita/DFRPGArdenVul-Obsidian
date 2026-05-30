@@ -1,12 +1,23 @@
+---
+title: "Discord Summary 2026-W13"
+tags:
+  - discord-summary
+  - canonical-source
+week_ending: 2026-04-03
+source_type: private-discord-weekly-digest
+---
 
 # Discord Summary 2026-W13
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2026-04-03
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2026-W12.md|Discord Summary 2026-W12]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W14.md|Discord Summary 2026-W14]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Arena Reconnaissance and the Beacon’s Defense

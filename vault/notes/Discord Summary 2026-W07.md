@@ -3,16 +3,20 @@ title: Discord Summary 2026-W07
 tags:
   - discord-summary
   - week-07
+week_ending: 2026-02-20
 ---
 
 # Discord Summary 2026-W07
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2026-02-20
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2026-W06.md|Discord Summary 2026-W06]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W08.md|Discord Summary 2026-W08]]
 <!-- END AUTO NAV -->
 
 # Weekly Knowledge Base: Neferet’s Tomb Expedition

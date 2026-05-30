@@ -15,6 +15,7 @@ source_type: private-discord-weekly-digest
 - Week ending: 2025-03-07
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: (none)
 - Next Discord Summary: [[notes/Discord Summary 2025-W10.md|Discord Summary 2025-W10]]
@@ -58,7 +59,7 @@ The adventuring company has spent this week in intensive preparation, focusing o
 
 ## 4. World Rulings
 * **The Law of Luck:** For members of the adventuring company, the "Luck" advantage may be purchased by substituting an existing advantage on a character "Piece," provided that Piece contains at least 15 points of Advantages.
-* **The Nature of Bless:** The spell *Bless* is categorized as a "spell on" effect; while beneficial, it is debilitating to the caster, imposing a -1 penalty to all other active spells for the $\text{duration}$. There are no known *Bless* scrolls.
+* **The Nature of Bless:** The spell *Bless* is categorized as a "spell on" effect; while beneficial, it is debilitating to the caster, imposing a -1 penalty to all other active spells for the duration. There are no known *Bless* scrolls.
 * **Ritual Concussion:** The spell *Concussion* may be cast for 1FP to deal 0d damage, provided the caster accepts that the stun effect will still manifest.
 * **Linguistic Progression:** Proficiency in written and spoken languages follows a standardized cost: one point per level to progress from Broken to Accented to Fluent.
 * **Combat Speed:** The previous restriction limiting characters to three attacks per second has been rescinded.

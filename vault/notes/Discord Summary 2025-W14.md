@@ -15,6 +15,7 @@ source_week: week-ending-2025-04-11-2300-central
 - Week ending: 2025-04-11
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W13.md|Discord Summary 2025-W13]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W15.md|Discord Summary 2025-W15]]
@@ -55,7 +56,7 @@ Following a period of significant wealth acquisition, the company has focused on
 * **The Set Priests:** Rumors suggest that priests of the Set act as slavers along the Long Stairs leading to their Forum; however, those who reach the Forum itself are considered safe (Source: Archon Shiva).
 * **The Pyramid of Thoth:** The pyramid in the ruined city is believed to lead to numerous underground levels, eventually terminating in a massive cavern and lake (Source: Archon Shiva).
 * **The Great Chasm Cistern:** A massive cistern, roughly 100 feet deep and covering an area the size of a small town, exists at the foot of the chasm and is reportedly ruled by a kraken (Source: Archon Shiva).
-* **The Imperial Span:** A stone bridge, created by the $\text{sorcerers of Marius Tricotor}$, once spanned the Great Chasm to facilitate troop movement (Source: Archon Shiva).
+* **The Imperial Span:** A stone bridge, created by the sorcerers of Marius Tricotor, once spanned the Great Chasm to facilitate troop movement (Source: Archon Shiva).
 * **The Hall of Forty Pillars:** This hall, located near the Obsidian Gates, is inhabited by albino toads; touching the Gates may cause these toads to transform into attacking demons (Source: Greybrown).
 * **Cliff Face Features:** A cave containing a fire pit exists halfway up the cliff face, and another switchback contains spider webs.
 * **Gem of Insight Properties:** The gem provides a permanent *Wisdom* effect after approximately three months of continuous holding. There is a risk that once the effect is established, the item may revert to a mundane diamond or require decades to become magical again (Source: Lyssandra).

@@ -2,16 +2,20 @@
 date: 2025-07-07
 date_range: 2025-07-07 to 2025-07-13
 messages: 70
+week_ending: 2025-07-11
 ---
 
 # Discord Summary 2025-W27
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-07-11
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W26.md|Discord Summary 2025-W26]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W28.md|Discord Summary 2025-W28]]
 <!-- END AUTO NAV -->
 
 # Weekly Knowledge Base: Week Ending 2/11/2025

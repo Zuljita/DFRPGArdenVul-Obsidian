@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2026-01-23
 ---
 
 # Discord Summary 2026-W03
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2026-01-23
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2026-W02.md|Discord Summary 2026-W02]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W04.md|Discord Summary 2026-W04]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Company’s Records

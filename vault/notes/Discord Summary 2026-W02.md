@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2026-01-16
 ---
 
 # Discord Summary 2026-W02
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2026-01-16
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2026-W01.md|Discord Summary 2026-W01]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W03.md|Discord Summary 2026-W03]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Eye of the Storm

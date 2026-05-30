@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2026-02-06
 ---
 
 # Discord Summary 2026-W05
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2026-02-06
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2026-W04.md|Discord Summary 2026-W04]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W06.md|Discord Summary 2026-W06]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Beacon’s Ascendance
@@ -32,7 +36,7 @@ Following the successful seizure of the *Beacon*, the company has transitioned i
 ### Vallium Halcyon
 * **Town Actions:** Visited Fael at the Grain House to procure a concoction for poison resistance; spent 125 gold to enhance his social standing (Carousing); purchased a +2 bonus to Carousing rolls.
 * **Alchemy & Crafting:** Attempted to brew a Potion of Universal Antidote, which resulted in failure and an increased cost of materials.
-* **Research:** Studied the collection *Arden Speaks*; investigated historical references to "Sortian Dragons," noting that both Sortians and Theosophs utilized dragons during the Civil War in violation of the Compact of $\text{Ennius}$.
+* **Research:** Studied the collection *Arden Speaks*; investigated historical references to "Sortian Dragons," noting that both Sortians and Theosophs utilized dragons during the Civil War in violation of the Compact of Ennius.
 * **Equipment Changes:** Currently carries a Ring of Protection +2, a Torc of Protection, a Gauntlet of Flaming Fury, and a Small Shield (with Deflect 4 and Shatterproof properties). Plans to upgrade to a Ring of Protection +3 and Mail Suit of Fortify 3 upon acquisition.
 
 ### Ioannes Grammatikos Byzantios
@@ -49,7 +53,7 @@ Following the successful seizure of the *Beacon*, the company has transitioned i
 * **Town Actions:** Commissioned a fancy chessboard from Chairduster the jeweler.
 
 ## 3. Lore & Discoveries
-* **The Heqeti War:** Historical records from the diary of Pliv- $\text{Mol}$ reveal that after the *Beacon* crashed, the Rudishva crew attempted to rebuild their society within Arden Vul. They successfully drove the Heqeti back from their pyramids but were eventually betrayed by the Kaliyani, who allied with the Heqeti to massacre much of the Rudishva population. (Source: Pliv-$\text{Mol}$’s Diary).
+* **The Heqeti War:** Historical records from the diary of Pliv- Mol reveal that after the *Beacon* crashed, the Rudishva crew attempted to rebuild their society within Arden Vul. They successfully drove the Heqeti back from their pyramids but were eventually betrayed by the Kaliyani, who allied with the Heqeti to massacre much of the Rudishva population. (Source: Pliv-Mol’s Diary).
 * **The Kaliyani:** Identified as a loyal species with reptilian features and six limbs; historically labeled as "the betrayers" due to their treason against the Rudishva. (Source: Ship Computer/Akla-Chah).
 * **The Forge of Creation:** The Rudishva and Kaliyani utilized a forge within Arden Vul that integrates technology and magic, requiring specific temperature, chthonic energy, and phase settings alongside raw materials like arcanum and lava. (Source: Data Crystal: Fire Pits of Creation).
 * **The Transit Shaft:** A transport system used for moving supplies, utilizing magical grouting and a specialized liquid to facilitate levitation. (Source: Ship Computer).
@@ -64,7 +68,7 @@ Following the successful seizure of the *Beacon*, the company has transitioned i
 * **Obsidian Gate Breach:** The identified method to open the Obsidian Gates is through the sequential use of *Lockmaster*, *Shape Earth*, and *Blink*.
 
 ## 5. Item Intelligence
-* **Command Bracelet (Red):** A vital authorization and communication tool. It allows the wearer to understand spoken Rudishva and facilitates two- $\text{way}$ communication with anyone wearing a compatible bracelet, even across great distances. It also permits the user to issue commands to Rudishva machinery within a 100-foot radius.
+* **Command Bracelet (Red):** A vital authorization and communication tool. It allows the wearer to understand spoken Rudishva and facilitates two- way communication with anyone wearing a compatible bracelet, even across great distances. It also permits the user to issue commands to Rudishva machinery within a 100-foot radius.
 * **GnuCoder 1000:** A portable data reader used for viewing data crystals. It requires a Lesser Power Supply to operate and displays Rudishva glyphs for interface instructions.
 * **Pale Green Horn:** An artifact recovered from the Heqeti ziggurat. Its removal is believed to have diminished the magical potency of the Heqeti. Akla-Chah has issued strict orders that this item must be secured within the Vault (accessible only via Yellow Captain's Card) and its existence must remain secret to prevent Heqeti discovery.
 * **Potion of Dispelling:** A consumable that can be thrown as a missile (affecting an Area 1 hex) or ingested (affecting the drinker).

@@ -3,16 +3,20 @@ tags:
   - note
   - era/historical
   - discord-summary
+week_ending: 2025-11-21
 ---
 
 # Discord Summary 2025-W46
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-11-21
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W47.md|Discord Summary 2025-W47]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Company of Right for Riches

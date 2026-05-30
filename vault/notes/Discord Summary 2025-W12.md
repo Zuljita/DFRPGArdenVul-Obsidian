@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2025-03-28
 ---
 
 # Discord Summary 2025-W12
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-03-28
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W13.md|Discord Summary 2025-W13]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Grudge Brigade

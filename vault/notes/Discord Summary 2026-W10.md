@@ -1,16 +1,20 @@
 ---
 tags:
   - tradition/thothian
+week_ending: 2026-03-13
 ---
 
 # Discord Summary 2026-W10
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2026-03-13
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2026-W09.md|Discord Summary 2026-W09]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W11.md|Discord Summary 2026-W11]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Aftermath of the Alpha Strike

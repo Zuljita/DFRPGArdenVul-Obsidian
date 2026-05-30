@@ -14,6 +14,7 @@ source_type: private-discord-weekly-digest
 - Week ending: 2025-08-22
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W32.md|Discord Summary 2025-W32]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]]

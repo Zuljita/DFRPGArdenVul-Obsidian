@@ -3,16 +3,20 @@ tags:
   - note
   - culture/thorcin
   - discord-summary
+week_ending: 2025-03-21
 ---
 
 # Discord Summary 2025-W11
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-03-21
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W10.md|Discord Summary 2025-W10]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W12.md|Discord Summary 2025-W12]]
 <!-- END AUTO NAV -->
 
 # Weekly Knowledge Base: Arden Vul Expedition

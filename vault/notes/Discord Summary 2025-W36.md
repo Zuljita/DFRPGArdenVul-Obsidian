@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2025-09-12
 ---
 
 # Discord Summary 2025-W36
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-09-12
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W35.md|Discord Summary 2025-W35]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]]
 <!-- END AUTO NAV -->
 
 # Weekly Knowledge Base: The Company Chronicles

@@ -1,12 +1,23 @@
+---
+title: "Discord Summary 2026-W09"
+tags:
+  - discord-summary
+  - canonical-source
+week_ending: 2026-03-06
+source_type: private-discord-weekly-digest
+---
 
 # Discord Summary 2026-W09
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2026-03-06
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2026-W08.md|Discord Summary 2026-W08]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W10.md|Discord Summary 2026-W10]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Assault on the Forum of Set

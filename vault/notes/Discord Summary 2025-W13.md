@@ -2,16 +2,20 @@
 date: 2025-03-31
 date_range: 2025-03-31 to 2025-04-06
 messages: 75
+week_ending: 2025-04-04
 ---
 
 # Discord Summary 2025-W13
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-04-04
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W12.md|Discord Summary 2025-W12]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W14.md|Discord Summary 2025-W14]]
 <!-- END AUTO NAV -->
 
 # Weekly Knowledge Base: Arden Vul

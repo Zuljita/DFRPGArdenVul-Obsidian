@@ -2,16 +2,20 @@
 tags:
   - note
   - discord-summary
+week_ending: 2025-09-05
 ---
 
 # Discord Summary 2025-W35
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-09-05
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]]
+- Next Discord Summary: [[notes/Discord Summary 2025-W36.md|Discord Summary 2025-W36]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: The Blood of Gosterwick

@@ -1,12 +1,23 @@
+---
+title: "Discord Summary 2026-W11"
+tags:
+  - discord-summary
+  - canonical-source
+week_ending: 2026-03-20
+source_type: private-discord-weekly-digest
+---
 
 # Discord Summary 2026-W11
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2026-03-20
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
+- Previous Discord Summary: [[notes/Discord Summary 2026-W10.md|Discord Summary 2026-W10]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W12.md|Discord Summary 2026-W12]]
 <!-- END AUTO NAV -->
 
 # Weekly Chronicle: 2026-03-13 to 2026-03-20

@@ -4,15 +4,17 @@ tags:
   - culture/thorcin
   - era/historical
   - discord-summary
+week_ending: 2025-03-14
 ---
 
 # Discord Summary 2025-W10
 
 ## Source
 - Private Discord weekly digest
-- Week ending: 2025-03-14
+- Week ending: unknown
 
 ## Navigation
+
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2025-W09.md|Discord Summary 2025-W09]]
 - Next Discord Summary: [[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]]
