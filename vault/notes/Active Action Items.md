@@ -4,7 +4,7 @@ tags:
   - action-items
   - open-threads
 generated_by: vault_automation.py action-items
-updated: 2026-05-31T10:21:38.524488+00:00
+updated: 2026-05-31T15:15:47.423876+00:00
 ---
 
 # Active Action Items
@@ -73,6 +73,14 @@ This note is maintained by the vault automation. It merges current quests, unres
   - Next step: Try to meet the varumani Thegn.
   - Evidence:
     - [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]] — "They plan on visiting the varumani market and trying to meet the varumani Thegn."
+
+- [ ] **Repair Vael's Gift**
+  - ID: `fix-vaels-gift`
+  - Status: active
+  - Summary: Identify treasure and fix the item Vael's Gift from Set.
+  - Next step: Spend a day identifying treasure and fixing Vael's Gift.
+  - Evidence:
+    - [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]] — "They would like to spend a day identifying treasure and fixing Vael's Gift from Set"
 
 ## Open Mysteries
 

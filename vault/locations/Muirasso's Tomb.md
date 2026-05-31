@@ -15,3 +15,4 @@ aliases:
 
 - Has a secret entrance; corpses were found outside. ([[notes/Discord Summary 2025-W19.md|Discord Summary 2025-W19]])
 - The corpses found outside the secret entrance also contained crystals and pearls.
+- A green necklace was found on a corpse within the decoy burial chamber. ([[notes/Discord Summary 2025-W19.md|Discord Summary 2025-W19]])

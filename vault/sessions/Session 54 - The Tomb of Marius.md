@@ -24,10 +24,10 @@ Cool, fair
 [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
 [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
 
-Vallium Halcyon, Archontean fighter (Greybrown)
-Vael Sunshadow, Half-Elven mage (Kyle)
+[[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
+[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael Sunshadow]], Half-Elven mage (Kyle)
 
-Thrainor "Thronebreaker" Ironvein, mercenary dwarf (ArchonShiva)
+[[npcs/Thrainor Thronebreaker Ironvein.md|Thrainor "Thronebreaker" Ironvein]], mercenary dwarf (ArchonShiva)
 
 ## Significant NPCs:
 
@@ -37,7 +37,7 @@ Thrainor "Thronebreaker" Ironvein, mercenary dwarf (ArchonShiva)
 
 [[npcs/Basil.md|Basil]], Right for Riches employee
 
-Akla-Chah, Rudishva AI
+[[npcs/Akla-Chah.md|Akla-Chah]], Rudishva AI
 
 [[npcs/Stamelis.md|Stamelis]], Head Librarian of Thoth
 
@@ -68,11 +68,11 @@ Many goblins
 
 ## What Happened:
 
-Ioannes hadn't spoken to [[npcs/Onyx.md|Onyx]] in a while, so he hired [[npcs/Fael.md|Fael]] the druid to cast Speak with Animals.  [[npcs/Fael.md|Fael]] insisted they go outside the town walls where the urban sprawl wouldn't interfere with nature's karma.  [[npcs/Onyx.md|Onyx]] complained that Wicktrimmer had been out of town too often, and his underlings at the [[factions/Rarities Factor.md|Rarities Factor]] didn't supply enough variety or quality of fish for [[npcs/Onyx.md|Onyx]] and all the cats in his town.  He also noted that Ioannes was gone through his Rug to this "[[locations/Beacon.md|Beacon]]" place too often, and that Pelteon was insufficiently attentive because of her own problems with some human.
+Ioannes hadn't spoken to [[npcs/Onyx.md|Onyx]] in a while, so he hired [[npcs/Fael.md|Fael]] the druid to cast Speak with Animals.  [[npcs/Fael.md|Fael]] insisted they go outside the town walls where the urban sprawl wouldn't interfere with nature's karma.  [[npcs/Onyx.md|Onyx]] complained that Wicktrimmer had been out of town too often, and his underlings at the [[factions/Rarities Factor.md|Rarities Factor]] didn't supply enough variety or quality of fish for [[npcs/Onyx.md|Onyx]] and all the cats in his town.  He also noted that Ioannes was gone through his Rug to this "[[locations/Beacon.md|Beacon]]" place too often, and that [[npcs/Pelteon.md|Pelteon]] was insufficiently attentive because of her own problems with some human.
 
 Vael failed to find anything worth purchasing at Creon's pawnshop, but found a couple of folding ladders for sale at the Demmasday market, and bought both.
 
-The group hired Thronebreaker at the [[factions/Grudge Brigade.md|Grudge Brigade]], then went through the [[items/Teleport Rug.md|Teleport Rug]] to the Beacon.  After giving [[npcs/Akla-Chah.md|Akla-Chan]] and [[npcs/Basil.md|Basil]] a copy of their delve plan, they went through the Rudishva teleporter to the secure vault near the Cloister.  They crossed the [[locations/Cloister.md|Cloister]], went down the secret passage, then went north and east through the caverns, until they reached the sloping passage down.  From there they went west and south to the area where the bestial varumani tried to ambush them.
+The group hired [[npcs/Thrainor Thronebreaker Ironvein.md|Thronebreaker]] at the [[factions/Grudge Brigade.md|Grudge Brigade]], then went through the [[items/Teleport Rug.md|Teleport Rug]] to the Beacon.  After giving [[npcs/Akla-Chah.md|Akla-Chan]] and [[npcs/Basil.md|Basil]] a copy of their delve plan, they went through the Rudishva teleporter to the secure vault near the Cloister.  They crossed the [[locations/Cloister.md|Cloister]], went down the secret passage, then went north and east through the caverns, until they reached the sloping passage down.  From there they went west and south to the area where the bestial varumani tried to ambush them.
 
 This time, Vallium didn't bother with diplomacy.  He just waded in and started stabbing varumani.  More came in to reinforce them, but most were unarmed, fighting with bare hands.  Their leader had a huge club and seemed a bit more skilled, but all but one of the varumani went down under attacks from Vallium, Uvash, and Thronebreaker.  The ones that weren't killed by Vallium's flaming sword started regenerating, but he doubled back and singed them before any got back up.
 
@@ -90,7 +90,7 @@ Vael and Vallium explored the area, passing three closed doors and opening a doo
 
 After asking permission, Vallium used Lockmaster to open the locked door.  Inside were some bodies of ancient knights, some magical armor and weapons, a key, and a few maps.  Vael announced that he could take the bodies back to town for a proper burial but he would need privacy to do the teleportation spell.  As soon as the door was closed, Vallium carried the corpses through the Purple Rug to the [[locations/Beacon.md|Beacon]], but also took the key.  He went through the Green Rug to [[locations/Gosterwick.md|Gosterwick]], then sprinted to the shop of [[npcs/Theopilos.md|Theopilos]] the Locksmith.  Theopolis was in, and Vallium said he needed a key copied immediately.  Theopolis agreed to do it immediately but charged extra for haste.  Vallium ran back to the Green Rug in the Arcane Practitioners Club, hopped through the Purple Rug back to [[locations/Arden Vul.md|Arden Vul]], and put the key back on the table.
 
-Meanwhile, Vael cast the Copy spell on all three maps.  All seemed very old.  One depicted the City of [[locations/Arden Vul.md|Arden Vul]] before it was destroyed.  Another showed Burdock's Valley, long ago.  The third showed the area around the Tomb of Marius.
+Meanwhile, Vael cast the Copy spell on all three maps.  All seemed very old.  One depicted the City of [[locations/Arden Vul.md|Arden Vul]] before it was destroyed.  Another showed [[locations/Burdock Valley.md|Burdock's Valley]], long ago.  The third showed the area around the Tomb of Marius.
 
 Eventually the knights got suspicious and pounded on the door, but by then everything was back in place and the bodies were gone, so their suspicions were unfounded.  Vallium tested the key in the door, and it fit, so he gave it to the Knight Commander.
 

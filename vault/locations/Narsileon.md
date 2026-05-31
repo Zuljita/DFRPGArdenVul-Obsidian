@@ -10,6 +10,7 @@ tags:
 ## Key Features
 
 TBD
+- Serves as the Exarchate capital in this part of Irthuin.
 
 ## Connected Areas
 

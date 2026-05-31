@@ -9,6 +9,7 @@ tags:
 
 TBD
 - The Newmarket market runs five days a week, and the selection there seems a bit better than in Gosterwick.
+- Branches of all five named Factors operate here (Golden Band, Prosperity Factor, Silent Factor, Rarities Factor, and Wisdom Factor).
 
 ## Connected Areas
 
@@ -21,6 +22,7 @@ TBD
 ## Notes
 
 TBD
+- The god Odin has a temple located in Newmarket.
 
 ## Discord Insights
 

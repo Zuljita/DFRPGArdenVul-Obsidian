@@ -13,3 +13,4 @@ Members of the [[Second Chance Company]], including Geleg, Tresti, Klisko, and S
 ## Discord Insights
 
 - A tavern in Gosterwick where an adventuring party was found. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])
+- An encounter here revealed that Plumthorn's Halflings were defeated by the United Goblins, resulting in the Halls of Thoth being renamed Upper Goblintown. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])

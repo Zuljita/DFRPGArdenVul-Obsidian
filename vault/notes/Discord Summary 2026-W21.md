@@ -52,8 +52,8 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
 
 **[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]]**
 * **Town actions taken:** 
-    * Conducted promotional efforts within the goblin market to increase local awareness of company services.
-    * Undertook research into the Varumani people to identify tactical vulnerabilities.
+    * Conducted promotional efforts within [[locations/Goblin Market.md|the goblin market]] to increase local awareness of company services.
+    * Undertook research into the [[factions/Varumani.md|Varumani]] people to identify tactical vulnerabilities.
     * Read *On the Terrible Old Gods*; found the ancient Mithric text difficult to parse, requiring significant effort to translate.
 * **Alchemy/crafting attempts and results:** Successfully brewed an Invisibility Potion.
 * **Research results:** None this week.
@@ -71,7 +71,7 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
     * Read *Courtship of Julius the Exarch*: Identified as an aristocratic romance novel.
     * Read *Phagtro the Scout*: Learned that Phagtro guided imperial legions to Trenner's Rock, providing a tactical advantage against the Thorcinga.
 * **Character advancement:** Spent 5 points on Will specifically to facilitate the conversion of Will into Intelligence (reaching IQ 16).
-* **Equipment changes:** Acquired "The Captain's Broadside" from a local shop; donned a second set of Bracers of Force (DR 3); when worn in conjunction with Larel's cloak, total protection is increased to DR 5.
+* **Equipment changes:** Acquired "The Captain's Broadside" from a local shop; donned a second set of Bracers of Force (DR 3); when worn in conjunction with [[items/Larel's Cloak.md|Larel's cloak]], total protection is increased to DR 5.
 
 **Mercenary: Basilisk**
 * **Status:** Active.
