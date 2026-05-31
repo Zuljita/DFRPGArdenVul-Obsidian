@@ -246,6 +246,19 @@ class ArticleEditProposal:
     proposal_id: str = ""
 
 
+@dataclass
+class MetadataEditProposal:
+    article_path: str
+    article_title: str
+    article_kind: str
+    proposal_type: str
+    value: str
+    rationale: str
+    sources: list[dict]
+    status: str = "needs-verification"
+    proposal_id: str = ""
+
+
 @dataclass(frozen=True)
 class ArticleQueueItem:
     path: str
@@ -305,6 +318,10 @@ def load_local_sources() -> dict:
         "article_edit_walk_step": int(config.get("article_edit_walk_step", 0) or 0),
         "article_edit_verify_limit": int(config.get("article_edit_verify_limit", 0) or 0),
         "article_edit_apply_limit": int(config.get("article_edit_apply_limit", 0) or 0),
+        "metadata_edit_enabled": bool(config.get("metadata_edit_enabled", False)),
+        "metadata_edit_queue_top": int(config.get("metadata_edit_queue_top", 5) or 5),
+        "metadata_edit_verify_limit": int(config.get("metadata_edit_verify_limit", 0) or 0),
+        "metadata_edit_apply_limit": int(config.get("metadata_edit_apply_limit", 0) or 0),
         "action_items_enabled": bool(config.get("action_items_enabled", False)),
         "action_items_apply": bool(config.get("action_items_apply", False)),
         "action_items_latest_sessions": int(config.get("action_items_latest_sessions", 8) or 8),
@@ -1480,9 +1497,10 @@ def parse_frontmatter(text: str) -> dict[str, object]:
     fields: dict[str, object] = {}
     current_key: str | None = None
     for raw_line in match.group(1).splitlines():
-        if raw_line.startswith("  - ") and current_key:
+        list_match = re.match(r"^\s*-\s+(.+)$", raw_line)
+        if list_match and current_key:
             fields.setdefault(current_key, [])
-            value = raw_line[4:].strip().strip('"')
+            value = list_match.group(1).strip().strip("\"'")
             if value:
                 assert isinstance(fields[current_key], list)
                 fields[current_key].append(value)
@@ -1761,6 +1779,13 @@ def article_tags(text: str) -> tuple[str, ...]:
     raw = frontmatter.get("tags") or []
     tags = [normalize_space(item) for item in raw if isinstance(item, str) and item.strip()]
     return tuple(dict.fromkeys(tags))
+
+
+def frontmatter_list(text: str, key: str) -> list[str]:
+    raw = parse_frontmatter(text).get(key) or []
+    if isinstance(raw, str):
+        raw = [raw]
+    return [normalize_space(item) for item in raw if isinstance(item, str) and item.strip()]
 
 
 def count_wikilinks(text: str) -> int:
@@ -2513,7 +2538,7 @@ VAULT_RAG_H2_SPLIT_RE = re.compile(r"^## (?!#)", re.MULTILINE)
 VAULT_RAG_FRONTMATTER_RE = re.compile(r"^---\n.*?\n---\n+", re.DOTALL)
 VAULT_RAG_MAX_CHUNK_CHARS = 3000
 VAULT_RAG_MIN_CHUNK_CHARS = 60
-VAULT_RAG_SCHEMA_VERSION = 3  # bumped: chunk metadata now includes frontmatter status and aliases
+VAULT_RAG_SCHEMA_VERSION = 4  # bumped: chunk metadata now includes retrieval enrichment fields
 VAULT_RAG_LABEL_SECTIONS = {
     "date",
     "weather",
@@ -2766,6 +2791,9 @@ def vault_rag_upsert_file(coll, path: Path, kind: str) -> dict:
     if isinstance(fm_aliases_raw, str):
         fm_aliases_raw = [a.strip() for a in fm_aliases_raw.split(",") if a.strip()]
     fm_aliases = ", ".join(str(a) for a in fm_aliases_raw if str(a).strip()) or None
+    fm_tags = ", ".join(frontmatter_list(text, "tags")) or None
+    fm_related_entities = ", ".join(frontmatter_list(text, "related_entities")) or None
+    fm_identity_hints = ", ".join(frontmatter_list(text, "identity_hints")) or None
 
     ids: list[str] = []
     docs: list[str] = []
@@ -2796,6 +2824,12 @@ def vault_rag_upsert_file(coll, path: Path, kind: str) -> dict:
             chunk_meta["status"] = fm_status
         if fm_aliases:
             chunk_meta["aliases"] = fm_aliases
+        if fm_tags:
+            chunk_meta["tags"] = fm_tags
+        if fm_related_entities:
+            chunk_meta["related_entities"] = fm_related_entities
+        if fm_identity_hints:
+            chunk_meta["identity_hints"] = fm_identity_hints
         metas.append(chunk_meta)
         embeddings.append(emb)
     if not ids:
@@ -3735,6 +3769,300 @@ def cmd_vault_walk_status(_: argparse.Namespace) -> int:
         "updated_at": cursor.get("updated_at"),
     }, indent=2))
     return 0
+
+
+# ---- metadata enrichment lane ----
+
+METADATA_EDIT_TYPES = {"add_tag", "add_related_entity", "add_identity_hint", "add_alias"}
+METADATA_TAG_PATTERN = re.compile(
+    r"^(?:type|status|title|faction|culture|site|session|identity)/[a-z0-9][a-z0-9-]*$"
+)
+METADATA_IDENTITY_TAGS = {"identity/uncertain", "identity/possible-alias", "identity/possible-duplicate"}
+
+
+def metadata_edit_proposer_prompt(item: ArticleQueueItem, article_text: str, source_chunks: list[dict]) -> str:
+    evidence = "\n\n---\n\n".join(
+        f"[{chunk.get('path','?')} §{chunk.get('section','?')}]\n{(chunk.get('text') or '')[:1400]}"
+        for chunk in source_chunks
+    )
+    return (
+        "You maintain retrieval metadata for one canonical Obsidian page in an Arden Vul campaign vault.\n\n"
+        f"PAGE: {item.path}\nTITLE: {item.title}\nKIND: {item.kind}\n\n"
+        f"CURRENT PAGE:\n---\n{article_text[:4000]}\n---\n\n"
+        f"CITABLE VAULT EVIDENCE:\n{evidence}\n\n"
+        "Propose only small metadata additions that make related campaign evidence easier to retrieve. "
+        "Every proposal must be supported by the current page or cited vault evidence. Tags and relationships are "
+        "retrieval hints, not proof of identity. Never merge pages and never infer that two entities are identical merely "
+        "because they share a type or location.\n\n"
+        "Allowed proposal types:\n"
+        "- add_tag: one namespaced tag using type/<slug>, status/<slug>, title/<slug>, faction/<slug>, culture/<slug>, "
+        "site/<slug>, session/<id>, or one of identity/uncertain, identity/possible-alias, identity/possible-duplicate. "
+        "Use type/ghost for a ghost. Apply culture tags only to the page subject's supported culture, not the era or "
+        "culture of a related site.\n"
+        "- add_related_entity: one existing canonical vault target as an explicit wikilink, such as "
+        "[[npcs/Nyema.md|Nyema]]. Use only relationships supported by evidence.\n"
+        "- add_identity_hint: one evidence-scoped descriptive phrase used before a canonical identity was known, such as "
+        "angry scary ghost. This is searchable metadata, not a global alias and not proof of identity.\n"
+        "- add_alias: one verified alternate proper name, epithet, or spelling for this exact canonical entity. Do not use "
+        "generic descriptions or path-like values as aliases; use add_identity_hint for generic historical descriptions.\n\n"
+        "Avoid duplicate values already present in the page. Return at most 6 proposals. Every proposal must cite a short "
+        "verbatim excerpt from a vault path. Return strict JSON only:\n"
+        "{\n"
+        '  "proposals": [\n'
+        '    {"proposal_type":"add_tag","value":"type/ghost","rationale":"<why>",'
+        '"sources":[{"path":"vault/npcs/Example.md","section":"Summary","excerpt":"<verbatim quote>"}]}\n'
+        "  ]\n"
+        "}\n"
+    )
+
+
+def normalize_related_entity(value: str) -> str | None:
+    match = re.fullmatch(r"\[\[([^|\]]+?)(?:\|([^\]]+))?\]\]", value.strip())
+    if not match:
+        return None
+    target = match.group(1).strip()
+    if target.startswith("vault/"):
+        target = target[len("vault/"):]
+    if not target.endswith(".md"):
+        target += ".md"
+    if not (VAULT / target).exists():
+        return None
+    label = normalize_space(match.group(2) or Path(target).stem)
+    return f"[[{target}|{label}]]"
+
+
+def metadata_proposal_value(proposal_type: str, value: str) -> str | None:
+    value = normalize_space(value)
+    if not value or len(value) > 120:
+        return None
+    if proposal_type == "add_tag":
+        value = value.lower()
+        if not METADATA_TAG_PATTERN.fullmatch(value):
+            return None
+        if value.startswith("identity/") and value not in METADATA_IDENTITY_TAGS:
+            return None
+        return value
+    if proposal_type == "add_related_entity":
+        return normalize_related_entity(value)
+    if proposal_type == "add_identity_hint":
+        return value if len(value) >= 4 and "[[" not in value and "]]" not in value else None
+    if proposal_type == "add_alias":
+        if "/" in value or "[[" in value or "]]" in value or len(value.split()) > 8:
+            return None
+        return value
+    return None
+
+
+def metadata_edit_key(proposal: MetadataEditProposal) -> str:
+    return hashlib.sha256(
+        f"{proposal.article_path}|{proposal.proposal_type}|{proposal.value}".encode("utf-8")
+    ).hexdigest()[:12]
+
+
+def build_metadata_edit_proposals(
+    article_paths: list[Path] | None = None,
+    limit: int = 5,
+    top_k_per_query: int = 3,
+) -> list[MetadataEditProposal]:
+    if article_paths:
+        items = [build_article_queue_item(path) for path in article_paths]
+        selected = [item for item in items if item is not None]
+    else:
+        selected = build_article_queue(limit=limit)
+    proposals: list[MetadataEditProposal] = []
+    for item in selected:
+        path = ROOT / item.path
+        article_text = read_text(path)
+        chunks = [{
+            "path": item.path,
+            "section": "current canonical page",
+            "text": strip_frontmatter_only(article_text),
+        }]
+        chunks.extend(gather_article_research_chunks(item, top_k_per_query=top_k_per_query, max_chunks=8))
+        try:
+            response = llm_chat_json(metadata_edit_proposer_prompt(item, article_text, chunks), timeout=180)
+        except Exception:
+            continue
+        for raw in (response.get("proposals") or [])[:6]:
+            if not isinstance(raw, dict):
+                continue
+            proposal_type = str(raw.get("proposal_type", "")).strip()
+            if proposal_type not in METADATA_EDIT_TYPES:
+                continue
+            value = metadata_proposal_value(proposal_type, str(raw.get("value", "")))
+            if not value:
+                continue
+            sources = []
+            for src in raw.get("sources") or []:
+                if isinstance(src, dict) and is_citable_article_source(str(src.get("path", ""))):
+                    sources.append({
+                        "path": str(src.get("path", "")),
+                        "section": str(src.get("section", "")),
+                        "excerpt": str(src.get("excerpt", ""))[:500],
+                    })
+            if not sources:
+                continue
+            proposal = MetadataEditProposal(
+                article_path=item.path,
+                article_title=item.title,
+                article_kind=item.kind,
+                proposal_type=proposal_type,
+                value=value,
+                rationale=str(raw.get("rationale", "")).strip(),
+                sources=sources,
+            )
+            proposal.proposal_id = metadata_edit_key(proposal)
+            proposals.append(proposal)
+    unique: dict[tuple[str, str, str], MetadataEditProposal] = {}
+    for proposal in proposals:
+        unique[(proposal.article_path, proposal.proposal_type, proposal.value.lower())] = proposal
+    return sorted(unique.values(), key=lambda item: (item.article_path, item.proposal_type, item.value.lower()))
+
+
+def write_metadata_edit_report(proposals: list[MetadataEditProposal]) -> None:
+    out = AUTOMATION_DIR / "proposals"
+    write_json(out / "metadata_edit_proposals.json", [asdict(item) for item in proposals])
+    lines = ["# Metadata Edit Proposals", ""]
+    for item in proposals:
+        lines.extend([
+            f"## {item.proposal_id} - {item.article_path}",
+            f"- Type: `{item.proposal_type}`",
+            f"- Value: `{item.value}`",
+            f"- Rationale: {item.rationale}",
+            "",
+        ])
+    (out / "metadata_edit_proposals.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+def metadata_edit_verifier_prompt(proposal: MetadataEditProposal) -> str:
+    blocks = []
+    for src in proposal.sources:
+        path = ROOT / src["path"]
+        text = read_text(path) if path.exists() else ""
+        needle = src.get("excerpt", "")
+        index = text.find(needle) if needle else -1
+        window = text[max(0, index - 500):index + len(needle) + 900] if index >= 0 else text[:2200]
+        blocks.append(f"[{src['path']} §{src.get('section','?')}]\n{window}")
+    return (
+        "Verify one retrieval-metadata proposal for a canonical Arden Vul vault page. Use only the cited source windows. "
+        "Tags, related entities, aliases, and identity hints must be supported by evidence. A generic historical "
+        "description belongs in add_identity_hint, not add_alias. A shared type or site does not prove two entities are "
+        "identical. Return strict JSON only.\n\n"
+        f"PAGE: {proposal.article_path}\nTYPE: {proposal.proposal_type}\nVALUE: {proposal.value}\n"
+        f"RATIONALE: {proposal.rationale}\n\nSOURCES:\n" + "\n\n---\n\n".join(blocks) + "\n\n"
+        '{"status":"supported|contradicted|ambiguous|not_found","rationale":"<one sentence>",'
+        '"evidence":"<short verbatim quote if supported, else empty>"}'
+    )
+
+
+def verify_metadata_edit_proposals(limit: int | None = None) -> list[dict]:
+    path = AUTOMATION_DIR / "proposals" / "metadata_edit_proposals.json"
+    if not path.exists():
+        raise RuntimeError("metadata_edit_proposals.json not found; run propose-metadata-edits first")
+    proposals = [MetadataEditProposal(**item) for item in json.loads(path.read_text(encoding="utf-8"))]
+    selected = proposals if limit is None else proposals[:limit]
+    out = []
+    for proposal in selected:
+        try:
+            response = llm_chat_json(metadata_edit_verifier_prompt(proposal), timeout=180)
+            status = str(response.get("status", "unknown"))
+            rationale = str(response.get("rationale", ""))
+            evidence = str(response.get("evidence", ""))
+        except Exception as exc:
+            status, rationale, evidence = "error", str(exc)[:200], ""
+        item = asdict(proposal)
+        item.update(verifier_status=status, verifier_rationale=rationale, verifier_evidence=evidence)
+        out.append(item)
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    write_json(proposals_dir / "metadata_edit_verifications.json", out)
+    lines = ["# Metadata Edit Verifications", ""]
+    for item in out:
+        lines.extend([
+            f"## {item['proposal_id']} - {item['article_path']}",
+            f"- Status: `{item['verifier_status']}`",
+            f"- Type: `{item['proposal_type']}`",
+            f"- Value: `{item['value']}`",
+            f"- Verifier: {item['verifier_rationale']}",
+            "",
+        ])
+    (proposals_dir / "metadata_edit_verifications.md").write_text("\n".join(lines), encoding="utf-8")
+    return out
+
+
+def add_frontmatter_list_item(text: str, key: str, value: str) -> tuple[str, bool, str]:
+    fm_match = re.match(r"^---\n(.*?)\n---\n", text, re.DOTALL)
+    if not fm_match:
+        return text, False, "no frontmatter"
+    if value.lower() in {item.lower() for item in frontmatter_list(text, key)}:
+        return text, False, "already present"
+    fm = fm_match.group(1)
+    rest = text[fm_match.end():]
+    match = re.search(rf"^{re.escape(key)}:[ \t]*(.*)$", fm, re.MULTILINE)
+    if match:
+        line = match.group(0)
+        inline = match.group(1).strip()
+        if inline in {"", "[]"}:
+            remainder = fm[match.end():]
+            following_list = re.match(r"\n(?P<indent>\s*)-\s+", remainder)
+            indent = following_list.group("indent") if following_list else "  "
+            replacement = f"{key}:\n{indent}- {value}"
+        elif inline.startswith("[") and inline.endswith("]"):
+            items = [part.strip() for part in inline[1:-1].split(",") if part.strip()]
+            replacement = f"{key}: [{', '.join(items + [value])}]"
+        else:
+            replacement = line + f"\n  - {value}"
+        fm = fm.replace(line, replacement, 1)
+    else:
+        fm = fm.rstrip() + f"\n{key}:\n  - {value}"
+    return "---\n" + fm + "\n---\n" + rest, True, f"added {key}"
+
+
+def apply_verified_metadata_edits(apply_changes: bool, limit: int | None = None) -> dict:
+    path = AUTOMATION_DIR / "proposals" / "metadata_edit_verifications.json"
+    if not path.exists():
+        return {"ok": False, "error": "verifications_not_found"}
+    supported = [item for item in json.loads(path.read_text(encoding="utf-8")) if item.get("verifier_status") == "supported"]
+    if limit is not None:
+        supported = supported[:limit]
+    key_by_type = {
+        "add_tag": "tags",
+        "add_related_entity": "related_entities",
+        "add_identity_hint": "identity_hints",
+        "add_alias": "aliases",
+    }
+    by_article: dict[str, list[dict]] = {}
+    for item in supported:
+        by_article.setdefault(item["article_path"], []).append(item)
+    results = []
+    for article_path, edits in by_article.items():
+        full_path = ROOT / article_path
+        if not full_path.exists():
+            results.append({"article_path": article_path, "applied": 0, "error": "file_not_found"})
+            continue
+        text = read_text(full_path)
+        applied = 0
+        for item in edits:
+            key = key_by_type.get(item.get("proposal_type", ""))
+            value = metadata_proposal_value(str(item.get("proposal_type", "")), str(item.get("value", "")))
+            if not key or not value:
+                continue
+            text, changed, _reason = add_frontmatter_list_item(text, key, value)
+            if changed:
+                applied += 1
+        if applied and apply_changes:
+            full_path.write_text(text, encoding="utf-8")
+        results.append({"article_path": article_path, "applied": applied})
+    payload = {
+        "ok": True,
+        "mode": "apply" if apply_changes else "dry-run",
+        "supported_count": len(supported),
+        "articles_touched": len(by_article),
+        "total_applied": sum(item["applied"] for item in results),
+        "results": results,
+    }
+    if apply_changes and payload["total_applied"]:
+        payload["vault_rag_refresh"] = refresh_vault_rag_safely()
+    return payload
 
 
 # ---- article-edit research lane ----
@@ -4891,6 +5219,50 @@ def cmd_apply_verified_article_edits(args: argparse.Namespace) -> int:
     return 0 if result.get("ok") else 2
 
 
+def cmd_propose_metadata_edits(args: argparse.Namespace) -> int:
+    article_paths = [Path(args.article)] if args.article else None
+    proposals = build_metadata_edit_proposals(
+        article_paths=article_paths,
+        limit=args.limit,
+        top_k_per_query=args.top_k_per_query,
+    )
+    write_metadata_edit_report(proposals)
+    print(json.dumps({
+        "ok": True,
+        "proposal_count": len(proposals),
+        "articles_with_proposals": len({item.article_path for item in proposals}),
+        "markdown": str(AUTOMATION_DIR / "proposals" / "metadata_edit_proposals.md"),
+        "json": str(AUTOMATION_DIR / "proposals" / "metadata_edit_proposals.json"),
+    }, indent=2))
+    return 0
+
+
+def cmd_verify_metadata_edits(args: argparse.Namespace) -> int:
+    try:
+        verifications = verify_metadata_edit_proposals(limit=args.limit)
+    except RuntimeError as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
+        return 2
+    counts: dict[str, int] = {}
+    for item in verifications:
+        status = str(item.get("verifier_status", "unknown"))
+        counts[status] = counts.get(status, 0) + 1
+    print(json.dumps({
+        "ok": True,
+        "verified_count": len(verifications),
+        "status_counts": counts,
+        "markdown": str(AUTOMATION_DIR / "proposals" / "metadata_edit_verifications.md"),
+        "json": str(AUTOMATION_DIR / "proposals" / "metadata_edit_verifications.json"),
+    }, indent=2))
+    return 0
+
+
+def cmd_apply_verified_metadata_edits(args: argparse.Namespace) -> int:
+    result = apply_verified_metadata_edits(apply_changes=args.apply, limit=args.limit)
+    print(json.dumps(result, indent=2))
+    return 0 if result.get("ok") else 2
+
+
 def cmd_discover(args: argparse.Namespace) -> int:
     payload = build_source_manifest(args.blog_feed)
     if args.write:
@@ -5099,8 +5471,10 @@ def cmd_refresh_vault_rag(args: argparse.Namespace) -> int:
         return 2
     if not args.verbose:
         result.pop("results", None)
+    if result["ok"]:
+        result["postgres_sync"] = sync_postgres_rag_safely()
     print(json.dumps(result, indent=2))
-    return 0 if result["ok"] else 2
+    return 0 if result["ok"] and result["postgres_sync"]["ok"] else 2
 
 
 def cmd_vault_rag_search(args: argparse.Namespace) -> int:
@@ -5183,6 +5557,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
             except Exception as exc:
                 verification_result = {"enabled": True, "ok": False, "error": str(exc)}
     article_edit_result: dict = {"enabled": False}
+    selected_paths: list[Path] = []
     if before["ok"]:
         try:
             sources_cfg = load_local_sources()
@@ -5194,7 +5569,6 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
             ae_verify_limit_arg = None if ae_verify_limit < 0 else ae_verify_limit
             ae_apply_limit_arg = None if ae_apply_limit < 0 else ae_apply_limit
             if (queue_top or media_queue_top or walk_step) and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
-                selected_paths: list[Path] = []
                 seen: set[str] = set()
                 if queue_top and article_queue:
                     for it in article_queue[:queue_top]:
@@ -5249,6 +5623,39 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                         }
         except Exception as exc:
             article_edit_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
+    metadata_edit_result: dict = {"enabled": False}
+    if before["ok"]:
+        try:
+            sources_cfg = load_local_sources()
+            if sources_cfg.get("metadata_edit_enabled") and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
+                metadata_paths = selected_paths
+                if not metadata_paths:
+                    metadata_paths = [
+                        item.path for item in build_article_queue(limit=sources_cfg["metadata_edit_queue_top"])
+                    ]
+                proposals = build_metadata_edit_proposals(article_paths=metadata_paths)
+                write_metadata_edit_report(proposals)
+                metadata_edit_result = {
+                    "enabled": True,
+                    "articles_processed": len(metadata_paths),
+                    "proposal_count": len(proposals),
+                }
+                verify_limit = int(sources_cfg.get("metadata_edit_verify_limit", 0) or 0)
+                apply_limit = int(sources_cfg.get("metadata_edit_apply_limit", 0) or 0)
+                if verify_limit and proposals:
+                    verified = verify_metadata_edit_proposals(None if verify_limit < 0 else verify_limit)
+                    counts: dict[str, int] = {}
+                    for item in verified:
+                        status = str(item.get("verifier_status", "unknown"))
+                        counts[status] = counts.get(status, 0) + 1
+                    metadata_edit_result["verifier_status_counts"] = counts
+                    if apply_limit:
+                        metadata_edit_result["applied"] = apply_verified_metadata_edits(
+                            apply_changes=True,
+                            limit=None if apply_limit < 0 else apply_limit,
+                        )
+        except Exception as exc:
+            metadata_edit_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
     action_items_result: dict = {"enabled": False}
     if before["ok"]:
         try:
@@ -5296,6 +5703,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
             "markdown": str(AUTOMATION_DIR / "proposals" / "loot_reconciliation.md"),
         },
         "article_edit": article_edit_result,
+        "metadata_edit": metadata_edit_result,
         "action_items": action_items_result,
         "vault_rag_refresh": vault_rag_refresh,
         "after_validation": after,
@@ -5401,6 +5809,21 @@ def build_parser() -> argparse.ArgumentParser:
     apply_article.add_argument("--apply", action="store_true", help="Write changes to vault files; omit for dry-run")
     apply_article.add_argument("--limit", type=int, default=None, help="Maximum supported edits to consider")
     apply_article.set_defaults(func=cmd_apply_verified_article_edits)
+
+    propose_metadata = sub.add_parser("propose-metadata-edits", help="Generate sourced retrieval-metadata proposals via vault-rag + LLM")
+    propose_metadata.add_argument("--limit", type=int, default=5, help="Number of top-scored queue articles to process")
+    propose_metadata.add_argument("--article", default=None, help="Process a single article by repo-relative path")
+    propose_metadata.add_argument("--top-k-per-query", type=int, default=3, help="vault-rag top_k per generated research query")
+    propose_metadata.set_defaults(func=cmd_propose_metadata_edits)
+
+    verify_metadata = sub.add_parser("verify-metadata-edits", help="LLM-verify retrieval-metadata proposals against cited sources")
+    verify_metadata.add_argument("--limit", type=int, default=None, help="Maximum proposals to verify")
+    verify_metadata.set_defaults(func=cmd_verify_metadata_edits)
+
+    apply_metadata = sub.add_parser("apply-verified-metadata-edits", help="Apply supported retrieval-metadata edits to vault files")
+    apply_metadata.add_argument("--apply", action="store_true", help="Write changes to vault files; omit for dry-run")
+    apply_metadata.add_argument("--limit", type=int, default=None, help="Maximum supported edits to consider")
+    apply_metadata.set_defaults(func=cmd_apply_verified_metadata_edits)
 
     build_actions = sub.add_parser("build-action-items", help="Generate a cited current action-item inventory")
     build_actions.add_argument("--latest-sessions", type=int, default=8, help="Recent session files to include as current-status evidence")

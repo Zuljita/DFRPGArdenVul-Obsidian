@@ -20,7 +20,7 @@ source_type: private-discord-weekly-digest
 - Next Discord Summary: [[notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]
 <!-- END AUTO NAV -->
 
-# Weekly Knowledge Base: Arden Vul
+# Weekly Knowledge Base: [[locations/Arden Vul.md|Arden Vul]]
 **Week Ending:** 2026-05-15 23:00 CDT
 
 **Summary**
@@ -31,7 +31,7 @@ The company Chrysalis engaged in extensive scholarly pursuits and propaganda eff
 **[[pcs/Uvash Edzuson.md|Uvash Edzuson]]**
 * **Town actions taken:** Conducted proselytizing efforts throughout town, sharing tales of the company's recent victory over wights to bolster the prestige of his companions (while omitting the details of their grave-robbing activities). He has begun compiling a personal notebook documenting his encounters with various undead entities.
 * **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Dexterity; the attempt was unsuccessful.
-* **Research results:** Investigated the "worm-tendril-things" encountered in the caverns; identified them as Tenebrous Worms, noting that their bristles contain paralysis poison and they consume prey alive. He also read *The Honorable Life of Ligaruis, Archon*, a Mithric text detailing the life of the man who became Archon of Arden Vul and patriarch of the Ligarion clan. He sought a mentor for the study of undead lore, though no suitable teacher has been located.
+* **Research results:** Investigated the "worm-tendril-things" encountered in the caverns; identified them as Tenebrous Worms, noting that their bristles contain paralysis poison and they consume prey alive. He also read *The Honorable Life of Ligaruis, Archon*, a Mithric text detailing the life of the man who became Archon of [[locations/Arden Vul.md|Arden Vul]] and patriarch of the Ligarion clan. He sought a mentor for the study of undead lore, though no suitable teacher has been located.
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
 
@@ -84,7 +84,7 @@ The company has proposed a plan for Session 52:
 * **Town Business:** Perform blessings for Vaelitharon and Vallium; potentially deliver the disabled [[items/Tablet of the Beacon.md|Tablet of the Beacon]] to Lady Alexia.
 * **Exploration Path:** Utilize Rugs to reach the Beacon, then use the Rudishva Teleportation Pad to access the Vault. The route will proceed through the acidic pool room toward the room containing the Chaotic Sweat.
 * **Goblin Forum:** Deliver food supplies and collect outstanding funds; check in with [[npcs/Gribble.md|Gribble]] regarding local stability.
-* **Settite Area Clearing:** Prioritize clearing the area around Theskalon's tomb, specifically the northern hallway from the Dead Inside entrance and the southern sarcophagi/niches.
+* **Settite Area Clearing:** Prioritize clearing the area around [[locations/Tomb of Theskalon.md|Theskalon's tomb]], specifically the northern hallway from the Dead Inside entrance and the southern sarcophagi/niches.
 * **Advanced Scouting:** Utilize *See Secrets* to inspect newly discovered rooms near Theskalon's Tomb and explore the hallways between the Red Bridge and the basket elevator.
 
 **Unresolved Threads**

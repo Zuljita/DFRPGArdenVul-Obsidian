@@ -13,3 +13,4 @@ TBD
 - Uvash tried feeding it goat meat, but it did not work.
 - During [[sessions/Session 24 — Revenge on the Set Cult and the Hall of Shrines (Parts A, B).md|Session 24]], the party chased retreating Set cultists down the stairs to glimpse the Forum of Set.
 - A portcullis was located on the left side of the stairs during the encounter with the Cult of Set.
+- In [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a]], Vael used a Glass Wall spell to look through the stone roof over the stairs.

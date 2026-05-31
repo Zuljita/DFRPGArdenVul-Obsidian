@@ -1,12 +1,17 @@
 ---
 tags:
+- type/ghost
 - npc
 aliases:
+  - Yrtol the Unfriendly Ghost
   - The Tower Ghost
   - Yrtol the Angry Ghost
   - Angry scary ghost
-  - npcs/Angry scary ghost
-  - monsters/Angry scary ghost
+identity_hints:
+  - unfriendly ghost
+related_entities:
+  - [[npcs/Nyema.md|Nyema]]
+  - [[items/Watcher's eyes|Watcher's eyes]]
 ---
 
 # Yrtol
