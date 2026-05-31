@@ -22,6 +22,8 @@ It has not been reached in recent years due to undead guards.
 - The librarian's chamber has a fear trap outside it (overcome with Uvash's Amulet of Courage).
 - In Session 37, the party moved all ~40 books from the main library to their Beacon library, leaving Basil and Stamelis to sort them.
 - Session 21 took place on Basilsday, 2nd of Gerakios, 2993 AE.
+- Many books in the Thoth section of the library are written in the Secret Language of Thoth. [[library/Thoth in All His Forms (secret language).md|Thoth in All His Forms (secret language)]]
+- Notable entities encountered during Session 21 include Isocritis Half-Hand, an Archontean wizard, and intelligent baboons Umsko and Yamki.
 
 ## Secret Library (Discovered Session 37)
 A secret door on the **south wall** of the librarian's chamber leads to a small room with built-in shelves and a central table.

@@ -4,13 +4,14 @@ tags:
   - discord-summary
   - week-07
 week_ending: 2026-02-20
+source_type: private-discord-weekly-digest
 ---
 
 # Discord Summary 2026-W07
 
 ## Source
 - Private Discord weekly digest
-- Week ending: unknown
+- Week ending: 2026-02-20
 
 ## Navigation
 

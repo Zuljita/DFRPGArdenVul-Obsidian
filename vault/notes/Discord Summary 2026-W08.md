@@ -11,7 +11,7 @@ source_type: private-discord-weekly-digest
 
 ## Source
 - Private Discord weekly digest
-- Week ending: unknown
+- Week ending: 2026-02-27
 
 ## Navigation
 

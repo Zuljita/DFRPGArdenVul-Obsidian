@@ -17,7 +17,7 @@ TODO: Add description.
 | 2025-04-18 | p.187 | — | 1 | No | Party |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+- 6 volumes in Mithric, written by Thothian priors from 937 to 1782 AEP.
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

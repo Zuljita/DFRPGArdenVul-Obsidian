@@ -4,13 +4,14 @@ tags:
   - era/historical
   - discord-summary
 week_ending: 2025-11-21
+source_type: private-discord-weekly-digest
 ---
 
 # Discord Summary 2025-W46
 
 ## Source
 - Private Discord weekly digest
-- Week ending: unknown
+- Week ending: 2025-11-21
 
 ## Navigation
 

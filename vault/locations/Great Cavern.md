@@ -24,6 +24,7 @@ aliases:
 - The party negotiated passage through beastman territory with [[npcs/Count Skleros.md|Count Skleros]].
 - A hidden urn in a side cave contained the [[items/Scepter of the Goblins.md|Scepter of the Goblins]]; a secret tomb nearby guarded by constructs yielded a magical torc, golden ceremonial helmet, wand, and a second set of [[items/Rugs of Instant Access.md|Rugs of Instant Access]]. ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])
 - Known for an easy entrance from the Long Stair, with several tunnels, caves, or islands yet to be explored.
+- An alternative route behind a waterfall was considered but bypassed in favor of revisiting the cavern.
 
 ## Discord Insights
 

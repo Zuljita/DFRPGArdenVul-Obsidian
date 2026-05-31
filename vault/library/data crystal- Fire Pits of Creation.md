@@ -17,7 +17,7 @@ TODO: Add description.
 | 2026-01-30 | p.358 | — | 1 | No | Party |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+- The Forge of Creation: A forge within Arden Vul that integrates technology and magic, requiring specific temperature, chthonic energy, and phase settings alongside raw materials like arcanum and lava.
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

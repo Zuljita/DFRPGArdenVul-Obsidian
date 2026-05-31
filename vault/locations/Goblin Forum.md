@@ -16,6 +16,8 @@ A location inhabited by goblins, including Chief Gribble and the guard Dworm, us
 
 Efforts are underway to clear surrounding rooms to facilitate safer commerce.
 
+The site was formerly a large Settite compound operated by the Cult of Set.
+
 ## Sources
 - [[vault/sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
 - [[vault/sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]

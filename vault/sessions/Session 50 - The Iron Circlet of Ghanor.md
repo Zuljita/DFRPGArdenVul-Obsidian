@@ -1,5 +1,5 @@
 ---
-title: "50: The Iron Circlet of Ghanor"
+title: "50: The [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]]"
 tags:
   - session
   - recap
@@ -9,7 +9,7 @@ source_url: https://dfwhiterock.blogspot.com/2026/05/dfrpg-arden-vul-session-50-
 session_date: 2026-05-02
 ---
 
-# 50: The Iron Circlet of Ghanor
+# 50: The [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]]
 
 ## Date
 Demmasday, 7th of Deuterios, 2994 AE
@@ -46,7 +46,7 @@ Cool, rainy
 - Explore more rooms south of the [[locations/Forum of Set.md|Goblin Forum]]
 
 ## What Happened
-[[pcs/Uvash Edzuson.md|Uvash]]'s wife and son arrived in [[locations/Gosterwick.md|Gosterwick]], as part of a group of several dwarves travelling from Khazildor. [[pcs/Ioannes.md|Ioannes]] started spreading propaganda, telling the merchants of Gosterwick that they could earn great profits selling to the Goblin Forum of Arden Vul.
+[[pcs/Uvash Edzuson.md|Uvash]]'s wife and son arrived in [[locations/Gosterwick.md|Gosterwick]], as part of a group of several dwarves travelling from Khazildor. [[pcs/Ioannes.md|Ioannes]] started spreading propaganda, telling the merchants of [[locations/Gosterwick.md|Gosterwick]] that they could earn great profits selling to the [[locations/Goblin Forum.md|Goblin Forum]] of Arden Vul.
 
 The group hired [[npcs/Lasselanta Chrysalis Ashcroft.md|Chrysalis]] and then teleported through the Rug to the [[locations/Beacon.md|Beacon]]. There they saw [[npcs/Remagis.md|Remagis]] teaching [[npcs/Basil.md|Basil]] how to tie a tourniquet. [[npcs/Basil.md|Basil]] explained that [[npcs/Remagis.md|Remagis]] was teaching him First Aid, in exchange for [[npcs/Basil.md|Basil]] teaching [[npcs/Remagis.md|Remagis]] Modern Archontean.
 
@@ -68,13 +68,13 @@ With all the wraiths eliminated, they searched the tower. There were a lot of co
 
 With the [[locations/Tower of Scrutiny.md|Tower of Scrutiny]] cleared, the group paused to let Vael fully analyze the [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]], which had several beneficial magical effects, but also a drawback. They decided to give it to Lady Alexia in Gosterwick.
 
-Vael removed the Teeth of Pol from his wrists. His intelligence went back to normal, but his surliness remained. Knowing he wasn't fit for talking to anyone, he asked Ioannes to take him to the [[locations/Temple of Demma.md|Temple of Demma]] in Gosterwick and see if they could fix him. One of the priests cast Remove Curse, but charged a high price for it.
+Vael removed the Teeth of Pol from his wrists. His intelligence went back to normal, but his surliness remained. Knowing he wasn't fit for talking to anyone, he asked Ioannes to take him to the [[locations/Temple of Demma.md|Temple of Demma]] in [[locations/Gosterwick.md|Gosterwick]] and see if they could fix him. One of the priests cast Remove Curse, but charged a high price for it.
 
 With Vael in less danger of saying something that might get them executed, the group went over to the [[locations/Azure Keep.md|Azure Keep]] to give the Circlet to Lady Alexia. After a brief discussion with her guards and a longer discussion with her steward Freydis, Lady Alexia came into the room. She asked where they had found her Circlet. She was somewhat amused that it had been so close to the surface. She asked if they wanted any particular reward, but neither of Vael's ideas were practical, so she just had Freydis give them a lot of gold coins.
 
-The group bought more food for the Goblin Forum, then teleported back to the [[locations/Beacon.md|Beacon]] and took their usual complicated underground path to the Forum. [[npcs/Gribble.md|Gribble]] greeted them and said he had awards for them. He gave each of them a patch depicting an elephant crushing a statue of a Set animal, and also gave each of them a rock which he said was an authentic piece of the actual destroyed statue.
+The group bought more food for the [[locations/Goblin Forum.md|Goblin Forum]], then teleported back to the [[locations/Beacon.md|Beacon]] and took their usual complicated underground path to the Forum. [[npcs/Gribble.md|Gribble]] greeted them and said he had awards for them. He gave each of them a patch depicting an elephant crushing a statue of a Set animal, and also gave each of them a rock which he said was an authentic piece of the actual destroyed statue.
 
-[[npcs/Dworm.md|Dworm]] said that the [[factions/Varumani.md|Varumani]] had bought all the surplus food from last week, but had complained about the price increase. Vael went over to the Varumani embassy to tell [[npcs/Yoburra.md|Yoburra]] that he couldn't subsidize the food forever and that prices would gradually return to normal. [[npcs/Yoburra.md|Yoburra]] said that if prices went up, the Varumani might not buy all the extra food. He then returned to his card game with the junior ambassadors.
+[[npcs/Dworm.md|Dworm]] said that the [[factions/Varumani.md|Varumani]] had bought all the surplus food from last week, but had complained about the price increase. Vael went over to the [[factions/Varumani.md|Varumani]] embassy to tell [[npcs/Yoburra.md|Yoburra]] that he couldn't subsidize the food forever and that prices would gradually return to normal. [[npcs/Yoburra.md|Yoburra]] said that if prices went up, the [[factions/Varumani.md|Varumani]] might not buy all the extra food. He then returned to his card game with the junior ambassadors.
 
 The group went south from the Forum, to the Set statue that was still standing. Vael tried Dispelling the magic on the statue, then grabbed the gem eyes, which shocked him, but not very badly. A sound spell calling for guards and warning about thieves also triggered, but since the only guards in the area were friendly goblins, it didn't matter. Vael took the onyx ears and ivory teeth from the statue, then told the goblin guards that the statue was still somewhat dangerous and he didn't recommend touching it. One guard dared another guard to touch it anyway, and he did and got non-fatally shocked, to the amusement of all the other guards.
 
@@ -85,14 +85,14 @@ Vallium pointed out another room on the map, with an altar to Set. The room cont
 Deciding that was enough exploration for one day, the group went back to the Beacon. There Vael experimented with two Rudishva artifacts, a membrane that fit over the face, and a futuristic helmet. The membrane seemed to filter out smoke, but did not allow breathing underwater. The helmet was a helmet, providing excellent protection to the head, and even a translucent visor to protect the eyes. It also had a stud on one side, which when pressed gave the wearer infravision, despite the helmet not appearing magical. Finally, the helmet also filtered out smoke, as the membrane had.
 
 ## GM's Comments
-Despite scrying [[npcs/Neferet.md|Neferet]]'s corpse in [[locations/Tower of Scrutiny.md|the Tower of Scrutiny]] multiple times, the players refused to believe she was actually dead. They thought that's how mummies rested, or that was a fake decoy Neferet, or something. But, no, it was actually her, and fleeing into the [[locations/Tower of Scrutiny.md|Tower of Scrutiny]] had been a poor tactical choice, as not all undead are on the same team.
+Despite scrying [[npcs/Neferet.md|Neferet]]'s corpse in [[locations/Tower of Scrutiny.md|the Tower of Scrutiny]] multiple times, the players refused to believe she was actually dead. They thought that's how mummies rested, or that was a fake decoy [[npcs/Neferet.md|Neferet]], or something. But, no, it was actually her, and fleeing into the [[locations/Tower of Scrutiny.md|Tower of Scrutiny]] had been a poor tactical choice, as not all undead are on the same team.
 
 The wraiths had forced the group to retreat twice, but this time they were buffed to the point where the wraiths could not stand against them.
 
 Foundry broke hard this session, so we ran things theater of the mind. I found tracking hit points, spell durations, turn order, everyone's positions, etc. in a text file a bit annoying, but doable. I think maybe it's just using too much memory for the dinky little AWS VM I'm running it on, and I might need to move it to one with more memory, or run it locally on my PC.
 
 ## Achievements
-- Regalia: 1 XP for finding the Iron Circlet of Ghanor and returning it to Lady Alexia
+- Regalia: 1 XP for finding the [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]] and returning it to Lady Alexia
 
 ## XP
 - Exploration: 3 new rooms, 0 XP
@@ -101,7 +101,7 @@ Foundry broke hard this session, so we ran things theater of the mind. I found t
 - Total: 3 XP
 
 ## Next Week
-They're going after the second Tablet of the Beacon, following [[npcs/Temrin.md|Temrin]]'s map from the Bastion to an unknown area.
+They're going after the second [[items/Tablet of the Beacon.md|Tablet of the Beacon]], following [[npcs/Temrin.md|Temrin]]'s map from the Bastion to an unknown area.
 
 ## Source
 - https://dfwhiterock.blogspot.com/2026/05/dfrpg-arden-vul-session-50-iron-circlet.html

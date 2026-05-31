@@ -15,6 +15,8 @@ aliases:
 
 Physically, he is described as being quite large for a goblin, with black hair, big incisors, and a lumpy nose, often wearing bright silks and a colorful turban topped with a crown.
 
+He is served by his majordomo, [[npcs/Palestrim|Palestrim]].
+
 ## History & Interactions
 [[npcs/Weskenim.md|Weskenim]]'s relationship with the [[factions/Right for Riches Company|Right for Riches Company]] began in earnest after they rescued his brother, [[npcs/Gribble|Gribble]], from the clutches of the [[factions/Cult of Set|Cult of Set]] ([[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md]]).
 
@@ -25,6 +27,8 @@ A major point of contention for [[npcs/Weskenim.md|Weskenim]] was the occupation
 He maintains a court with a major-domo named [[npcs/Palestrim|Palestrim]] and advisors like [[npcs/Skimmel|Skimmel]] and [[npcs/Reeflik|Reeflik]]. He has shown a degree of political cunning, deliberately delaying an audience with a group of mysterious wizards he suspected were hostile to the [[factions/Varumani|Varumani]], whom he wishes to avoid conflict with.
 - He expressed a need for the [[factions/Goblins.md|Scepter of the Goblins]] to unify his people.
 - The [[factions/Eighth Collegium.md|Eighth Collegium]] sought the party's help to gain a direct audience with him.
+- The [[factions/Eighth Collegium|Eighth Collegium]] sought the party's help to gain a direct audience with him.
+- [[npcs/Temrin|Temrin]] has painted portraits of him.
 
 ## Roles & Influence
 - **Goblin Unifier:** Aspires to unite all goblin clans under his banner.

@@ -10,6 +10,8 @@ status: stub
 ## Summary
 A location within Arden Vul used for purchasing food and livestock.
 
+Fael works here, and milk for cats can be obtained.
+
 ## Sources
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]

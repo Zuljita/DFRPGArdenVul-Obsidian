@@ -3,13 +3,14 @@ tags:
   - note
   - discord-summary
 week_ending: 2025-08-29
+source_type: private-discord-weekly-digest
 ---
 
 # Discord Summary 2025-W34
 
 ## Source
 - Private Discord weekly digest
-- Week ending: unknown
+- Week ending: 2025-08-29
 
 ## Navigation
 

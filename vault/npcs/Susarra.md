@@ -37,6 +37,9 @@ She was decapitated in her bed at the [[locations/Yellow Cloak Inn.md|Yellow Clo
 - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]] — They resolved to treat [[locations/Gosterwick.md|Gosterwick]] as a dangerous place after [[npcs/Susarra.md|Susarra]]'s murder and try to watch each other's backs.
 - [[npcs/Margot the Red.md|Margot the Red]] connected her with [[pcs/Vallium Halcyon|Vallium]] in the common room of the [[locations/Yellow Cloak Inn.md|Yellow Cloak Inn]] after a scream.
 - Her head was later found approximately 10 miles north at the elevation of a cliff face.
+- Her headless corpse was discovered by Vallium, Ioannes, and Uvash; investigation revealed the decapitation was performed with a large axe by an unskilled hand.
+- A bounty of $2,500 was offered for her capture or death.
+- Magical tracking placed her head approximately ten miles north in a well-decorated room.
 
 ## Notes
 

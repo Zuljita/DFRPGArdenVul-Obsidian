@@ -1,6 +1,8 @@
 ---
 tags:
   - location
+aliases:
+  - Sign of the Broken Head
 ---
 
 # Inn of the Broken Head
@@ -14,6 +16,7 @@ It is located in [[Gosterwick]].
 - Innkeeper (TBD)
 - Various travelers, mercenaries, and delvers.
 - [[npcs/Kronos Kettle-Belly.md|Kronos Kettle-Belly]]
+- Estelle (Archontean innkeeper)
 
 ## Notes
 Provides lodging and provisions for those venturing into the ruins.

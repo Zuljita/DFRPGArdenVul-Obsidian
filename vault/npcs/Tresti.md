@@ -36,6 +36,7 @@ Tresti Iredell is a Half-Elven mage who was originally encountered as a prisoner
 - In Session 39, she approached the party about subleasing one of their four apartments at the Arcane Practitioners' Club. They had taken all four when they became available, jumping her place in line. They agreed to sublease one apartment in exchange for utility spellcasting services (Message spell monitoring, etc.).
 - **Apartment monitoring**: Tresti is usually home and agreed to use the Message spell to alert the party if she detects any intruders in their apartment area. This was valuable after the Jarnno the False apartment break-in.
 - She later sent a Message to Ioannes when Onyx the cat arrived at the Rarities Factor (Session 41), saying she'd check the Arcane Practitioners' Club.
+- Has been encountered at [[locations/Muddy Puddle.md|Muddy Puddle]] as part of the Second Chance Company.
 
 ## Services Available
 - Utility spellcasting (Message spells, monitoring)

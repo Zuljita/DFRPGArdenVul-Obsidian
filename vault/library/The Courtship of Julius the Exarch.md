@@ -20,7 +20,7 @@ TODO: Add description.
 | 2025-12-19 | TA-12 | $60 | 1 | No | Party |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+- Identified as an aristocratic romance novel.
 
 ## Reading Events
-TODO: Sessions where players read or interacted with this work.
+- [[notes/Discord Summary 2026-W21.md|Discord Summary 2026-W21]] - Vael read this work.

@@ -17,7 +17,8 @@ TODO: Add description.
 | 2025-07-18 | p.121 | — | 1 | No | Party |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+- Details a failed expedition involving the Obsidian Gate, the Chamber of Life, and the Drowned Canyon, including the death of Gregor near the Troll Lift.
+- Includes details regarding the loss of an individual's spellbook to fire.
 
 ## Reading Events
-TODO: Sessions where players read or interacted with this work.
+- [[notes/Discord Summary 2025-W29.md|Discord Summary 2025-W29]] - The party read this work.

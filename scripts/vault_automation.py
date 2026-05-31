@@ -64,6 +64,7 @@ ENTITY_DIRS = {
 }
 
 MEDIA_DIRS = {
+    "library": "Library Source",
     "notes": "Media Note",
     "lore": "Lore Source",
     "items": "Media Item",
@@ -111,6 +112,7 @@ CANONICAL_VAULT_DIRS = {
     "factions",
     "items",
     "locations",
+    "library",
     "lore",
     "monsters",
     "notes",
@@ -212,6 +214,7 @@ class EntityLinkProposal:
     mention: str
     context: str
     status: str
+    source_excerpt: str = ""
 
 
 @dataclass
@@ -281,10 +284,13 @@ def load_local_sources() -> dict:
         "group_spreadsheet_gid": str(spreadsheet_gid) if spreadsheet_gid is not None else None,
         "llm_base_url": os.environ.get("ARDEN_LLM_BASE_URL") or config.get("llm_base_url"),
         "llm_model": os.environ.get("ARDEN_LLM_MODEL") or config.get("llm_model"),
+        "rag_api_base_url": os.environ.get("ARDEN_RAG_API_BASE_URL") or config.get("rag_api_base_url", "http://127.0.0.1:8897"),
+        "rag_api_key": os.environ.get("ARDEN_RAG_API_KEY") or config.get("rag_api_key"),
         "entity_link_verify_limit": int(config.get("entity_link_verify_limit", 0) or 0),
         "entity_link_apply_limit": int(config.get("entity_link_apply_limit", 0) or 0),
         "article_queue_limit": int(os.environ.get("ARDEN_ARTICLE_QUEUE_LIMIT") or config.get("article_queue_limit", 30) or 30),
         "media_queue_limit": int(os.environ.get("ARDEN_MEDIA_QUEUE_LIMIT") or config.get("media_queue_limit", 30) or 30),
+        "media_edit_queue_top": int(config.get("media_edit_queue_top", 0) or 0),
         "vault_rag_chroma_path": (lambda v: Path(v).expanduser() if v else None)(
             os.environ.get("ARDEN_VAULT_RAG_PATH") or config.get("vault_rag_chroma_path")
         ),
@@ -1565,6 +1571,10 @@ def strip_frontmatter(text: str) -> str:
     return re.sub(r"\[\[([^\]]+)\]\]", visible_wikilink, text)
 
 
+def strip_frontmatter_only(text: str) -> str:
+    return re.sub(r"\A---\n.*?\n---\n", "", text, flags=re.S)
+
+
 def context_excerpt(text: str, start: int, end: int, width: int = 220) -> str:
     left = max(0, start - width)
     right = min(len(text), end + width)
@@ -1588,44 +1598,144 @@ def mention_pattern(mention: str) -> re.Pattern[str] | None:
     return re.compile(r"(?<![\w/])" + r"\s+".join(parts) + r"(?![\w.-])", flags=re.IGNORECASE)
 
 
-def build_entity_link_proposals(limit_per_source: int = 40) -> list[EntityLinkProposal]:
-    entities = entity_pages()
+def entity_link_catalog(entities: list[EntityPage]) -> str:
+    return "\n".join(
+        f"{entity.kind} | {entity.path} | {entity.title} | aliases: {', '.join(entity.aliases) or '-'}"
+        for entity in entities
+    )
+
+
+def entity_link_proposal_prompt(source_key: str, source_text: str, entities: list[EntityPage]) -> str:
+    return (
+        "Propose Obsidian wikilinks from one canonical Arden Vul campaign source to EXISTING vault entity pages.\n\n"
+        "Use semantic judgment first. Do not perform naive substring matching. A surface word may be part of a "
+        "different concept: for example, `Boots` inside `Boots of the North` is an item phrase and must not be "
+        "linked to an NPC merely because an NPC page named Boots exists. Likewise, `Arden` inside `Arden Vul` "
+        "must not be linked to an NPC unless the text actually refers to that person.\n\n"
+        "Propose individual occurrences, not file-wide replacement rules. The same visible text can refer to different "
+        "entities in different sentences. Return one entry per intended occurrence, with an exact source excerpt that "
+        "uniquely identifies that occurrence.\n\n"
+        "Only propose a link when:\n"
+        "- the exact unlinked source phrase appears verbatim in SOURCE TEXT;\n"
+        "- the phrase semantically refers to one specific page from EXISTING ENTITY CATALOG;\n"
+        "- the catalog path is copied exactly; and\n"
+        "- adding the link would improve navigation rather than link incidental words.\n\n"
+        "Prefer named NPCs, PCs, locations, factions, and unique items. Skip generic nouns, partial-name matches, "
+        "rules terms, ambiguous references, and phrases already written as wikilinks. Propose every useful high-confidence link.\n\n"
+        "Return strict JSON only:\n"
+        "{\n"
+        '  "links": [\n'
+        "    {\n"
+        '      "entity_path": "vault/npcs/Example.md",\n'
+        '      "mention": "Exact source phrase",\n'
+        '      "source_excerpt": "Exact unmodified sentence or short paragraph containing this occurrence",\n'
+        '      "rationale": "One short sentence explaining why this phrase refers to that page."\n'
+        "    }\n"
+        "  ]\n"
+        "}\n\n"
+        f"SOURCE: {source_key}\n\n"
+        "EXISTING ENTITY CATALOG:\n"
+        f"{entity_link_catalog(entities)}\n\n"
+        "SOURCE TEXT:\n"
+        f"{source_text}"
+    )
+
+
+def llm_entity_link_proposals_for_source(
+    source: Path,
+    entities: list[EntityPage],
+    limit_per_source: int | None,
+) -> list[EntityLinkProposal]:
+    source_key = source.relative_to(ROOT).as_posix()
+    raw_text = strip_frontmatter_only(read_text(source))
+    prompt = entity_link_proposal_prompt(source_key, raw_text, entities)
+    try:
+        response = llm_chat_json(prompt, timeout=180)
+    except Exception:
+        response = llm_chat_json(prompt + "\n\nIMPORTANT: Return syntactically valid strict JSON only.", timeout=180)
+    raw_links = response.get("links") or []
+    if not isinstance(raw_links, list):
+        raise RuntimeError("LLM entity-link proposer returned non-list links")
+    entities_by_path = {entity.path: entity for entity in entities}
     proposals: list[EntityLinkProposal] = []
     seen: set[tuple[str, str, str]] = set()
-    counts_by_source: dict[str, int] = {}
+    for item in raw_links:
+        if not isinstance(item, dict):
+            continue
+        entity_path = str(item.get("entity_path", "")).strip()
+        mention = normalize_space(str(item.get("mention", "")))
+        source_excerpt = str(item.get("source_excerpt", "")).strip()
+        entity = entities_by_path.get(entity_path)
+        pattern = mention_pattern(mention)
+        if not entity or not pattern or not source_excerpt or raw_text.count(source_excerpt) != 1:
+            continue
+        excerpt_start = raw_text.index(source_excerpt)
+        excerpt_matches = [
+            candidate for candidate in pattern.finditer(source_excerpt)
+            if not in_existing_wikilink(source_excerpt, candidate.start())
+        ]
+        if len(excerpt_matches) != 1:
+            continue
+        match = excerpt_matches[0]
+        key = (entity_path, match.group(0).lower(), source_excerpt)
+        if key in seen:
+            continue
+        seen.add(key)
+        proposals.append(
+            EntityLinkProposal(
+                source=source_key,
+                entity=entity.title,
+                entity_path=entity.path,
+                kind=entity.kind,
+                mention=match.group(0),
+                context=context_excerpt(raw_text, excerpt_start + match.start(), excerpt_start + match.end()),
+                status="needs-verification",
+                source_excerpt=source_excerpt,
+            )
+        )
+        if limit_per_source is not None and len(proposals) >= limit_per_source:
+            break
+    return proposals
+
+
+def build_entity_link_proposals(limit_per_source: int | None = None) -> list[EntityLinkProposal]:
+    entities = entity_pages()
+    catalog_sha = hashlib.sha256(("occurrence-v1\n" + entity_link_catalog(entities)).encode("utf-8")).hexdigest()
+    cache_path = AUTOMATION_DIR / "proposals" / "entity_link_proposal_cache.json"
+    try:
+        cache = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
+    except Exception:
+        cache = {}
+    cached_sources = cache.get("sources") if cache.get("catalog_sha") == catalog_sha else {}
+    if not isinstance(cached_sources, dict):
+        cached_sources = {}
+    next_sources: dict[str, dict] = {}
+    proposals: list[EntityLinkProposal] = []
+    errors: list[dict[str, str]] = []
     for source in latest_canonical_sources():
         if not source.exists():
             continue
-        raw_text = strip_frontmatter(read_text(source))
         source_key = source.relative_to(ROOT).as_posix()
-        for entity in entities:
-            mentions = (entity.title, *entity.aliases)
-            for mention in mentions:
-                pattern = mention_pattern(mention)
-                if not pattern:
-                    continue
-                for match in pattern.finditer(raw_text):
-                    if raw_text[max(0, match.start() - 2):match.start()] == "[[":
-                        continue
-                    key = (source_key, entity.path, match.group(0).lower())
-                    if key in seen:
-                        continue
-                    seen.add(key)
-                    proposals.append(
-                        EntityLinkProposal(
-                            source=source_key,
-                            entity=entity.title,
-                            entity_path=entity.path,
-                            kind=entity.kind,
-                            mention=match.group(0),
-                            context=context_excerpt(raw_text, match.start(), match.end()),
-                            status="needs-verification",
-                        )
-                    )
-                    counts_by_source[source_key] = counts_by_source.get(source_key, 0) + 1
-                    break
-            if counts_by_source.get(source_key, 0) >= limit_per_source:
-                break
+        source_sha = hashlib.sha256(read_text(source).encode("utf-8")).hexdigest()
+        cached = cached_sources.get(source_key) or {}
+        raw_proposals: list[dict]
+        cache_source = True
+        if cached.get("sha256") == source_sha and isinstance(cached.get("proposals"), list):
+            raw_proposals = cached["proposals"]
+        else:
+            try:
+                fresh = llm_entity_link_proposals_for_source(source, entities, limit_per_source)
+                raw_proposals = [asdict(item) for item in fresh]
+            except Exception as exc:
+                raw_proposals = []
+                cache_source = False
+                errors.append({"source": source_key, "error": str(exc)[:300]})
+        if cache_source:
+            next_sources[source_key] = {"sha256": source_sha, "proposals": raw_proposals}
+        selected = raw_proposals if limit_per_source is None else raw_proposals[:limit_per_source]
+        proposals.extend(EntityLinkProposal(**item) for item in selected)
+    write_json(cache_path, {"catalog_sha": catalog_sha, "sources": next_sources})
+    write_json(AUTOMATION_DIR / "proposals" / "entity_link_proposal_errors.json", errors)
     proposals.sort(key=lambda p: (p.source, p.kind, p.entity.lower(), p.mention.lower()))
     return proposals
 
@@ -1893,6 +2003,10 @@ def build_media_queue(limit: int = 30) -> list[MediaQueueItem]:
             title = article_title(path, text)
             tags = article_tags(text)
             kind = media_kind(path, title, tags)
+            article_item = build_article_queue_item(path)
+            if article_item and curated_summary_literal_hits(article_item, max_hits=1):
+                score += 100
+                reasons = (*reasons, "curated Discord digest explicitly mentions work")
             items.append(
                 MediaQueueItem(
                     path=path.relative_to(ROOT).as_posix(),
@@ -1977,7 +2091,10 @@ def source_context_for_proposal(proposal: EntityLinkProposal) -> str:
     path = ROOT / proposal.source
     if not path.exists() or not path.is_relative_to(VAULT):
         return proposal.context
-    text = strip_frontmatter(read_text(path))
+    text = strip_frontmatter_only(read_text(path))
+    if proposal.source_excerpt and text.count(proposal.source_excerpt) == 1:
+        start = text.index(proposal.source_excerpt)
+        return context_window(text, start, start + len(proposal.source_excerpt))
     pattern = mention_pattern(proposal.mention)
     if not pattern:
         return proposal.context
@@ -2118,17 +2235,17 @@ def llm_chat_json(prompt: str, timeout: int = 90) -> dict:
         raise RuntimeError(f"LLM JSON parse failed; finish_reason={finish_reason}; err={exc}") from exc
 
 
-def _entity_link_proposal_key(source: str, entity_path: str, mention: str) -> str:
-    return f"{source}|{entity_path}|{mention}"
+def _entity_link_proposal_key(source: str, entity_path: str, mention: str, source_excerpt: str = "") -> str:
+    return f"{source}|{entity_path}|{mention}|{source_excerpt}"
 
 
-def verify_entity_link_proposals(limit: int = 25) -> list[dict]:
+def verify_entity_link_proposals(limit: int | None = None) -> list[dict]:
     proposals_path = AUTOMATION_DIR / "proposals" / "entity_link_proposals.json"
     if proposals_path.exists():
         raw = json.loads(proposals_path.read_text(encoding="utf-8"))
         proposals = [EntityLinkProposal(**item) for item in raw]
     else:
-        proposals = build_entity_link_proposals(limit_per_source=20)
+        proposals = build_entity_link_proposals()
         write_entity_link_proposal_report(proposals)
     run_dir = AUTOMATION_DIR / "proposals"
     verifications_path = run_dir / "entity_link_verifications.json"
@@ -2150,13 +2267,15 @@ def verify_entity_link_proposals(limit: int = 25) -> list[dict]:
                     str(v.get("source", "")),
                     str(v.get("entity_path", "")),
                     str(v.get("mention", "")),
+                    str(v.get("source_excerpt", "")),
                 ))
     pending = [
         p for p in proposals
-        if _entity_link_proposal_key(p.source, p.entity_path, p.mention) not in verified_keys
+        if _entity_link_proposal_key(p.source, p.entity_path, p.mention, p.source_excerpt) not in verified_keys
     ]
     fresh: list[dict] = []
-    for proposal in pending[:limit]:
+    selected = pending if limit is None else pending[:limit]
+    for proposal in selected:
         prompt = verification_prompt(proposal)
         try:
             result = llm_chat_json(prompt)
@@ -2212,40 +2331,86 @@ def in_existing_wikilink(text: str, index: int) -> bool:
     return before_open > before_close
 
 
-def link_first_unlinked_mention(text: str, mention: str, entity_path: str) -> tuple[str, bool]:
+def contextual_link_edit(text: str, mention: str, entity_path: str, source_excerpt: str) -> tuple[int, int, str] | None:
     pattern = mention_pattern(mention)
-    if not pattern:
-        return text, False
+    if not pattern or not source_excerpt or text.count(source_excerpt) != 1:
+        return None
+    excerpt_start = text.index(source_excerpt)
+    matches = [
+        match for match in pattern.finditer(source_excerpt)
+        if not in_existing_wikilink(source_excerpt, match.start())
+    ]
+    if len(matches) != 1:
+        return None
+    match = matches[0]
     target = wikilink_target_from_repo_path(entity_path)
-    for match in pattern.finditer(text):
-        if in_existing_wikilink(text, match.start()):
-            continue
-        link = f"[[{target}|{match.group(0)}]]"
-        return text[: match.start()] + link + text[match.end():], True
-    return text, False
+    start = excerpt_start + match.start()
+    end = excerpt_start + match.end()
+    return start, end, f"[[{target}|{text[start:end]}]]"
 
 
 def apply_verified_entity_links(apply: bool, limit: int | None = None) -> dict:
     verifications_path = AUTOMATION_DIR / "proposals" / "entity_link_verifications.json"
     if not verifications_path.exists():
         return {"ok": False, "error": "missing_verifications"}
+    proposals_path = AUTOMATION_DIR / "proposals" / "entity_link_proposals.json"
+    if not proposals_path.exists():
+        return {"ok": False, "error": "missing_current_proposals"}
     verifications = json.loads(verifications_path.read_text(encoding="utf-8"))
-    changes: list[str] = []
-    applied = 0
+    proposals = json.loads(proposals_path.read_text(encoding="utf-8"))
+    current_keys = {
+        _entity_link_proposal_key(
+            str(item.get("source", "")),
+            str(item.get("entity_path", "")),
+            str(item.get("mention", "")),
+            str(item.get("source_excerpt", "")),
+        )
+        for item in proposals
+    }
+    candidates: list[dict] = []
     for item in verifications:
-        if limit is not None and applied >= limit:
-            break
         if item.get("status") != "supported":
             continue
-        source = ROOT / item["source"]
+        key = _entity_link_proposal_key(
+            str(item.get("source", "")),
+            str(item.get("entity_path", "")),
+            str(item.get("mention", "")),
+            str(item.get("source_excerpt", "")),
+        )
+        if key not in current_keys:
+            continue
+        candidates.append(item)
+    changes: list[str] = []
+    applied = 0
+    by_source: dict[str, list[dict]] = {}
+    for item in candidates:
+        by_source.setdefault(str(item.get("source", "")), []).append(item)
+    for source_key, items in sorted(by_source.items()):
+        if limit is not None and applied >= limit:
+            break
+        source = ROOT / source_key
         if not source.is_relative_to(VAULT) or not source.exists():
             continue
         text = read_text(source)
-        updated, changed = link_first_unlinked_mention(text, item["mention"], item["entity_path"])
-        if not changed:
+        edits: list[tuple[int, int, str, dict]] = []
+        for item in items:
+            edit = contextual_link_edit(text, item["mention"], item["entity_path"], item.get("source_excerpt", ""))
+            if edit:
+                edits.append((*edit, item))
+        accepted: list[tuple[int, int, str, dict]] = []
+        for edit in sorted(edits, key=lambda value: (value[0], -(value[1] - value[0]))):
+            if accepted and edit[0] < accepted[-1][1]:
+                continue
+            accepted.append(edit)
+        if limit is not None:
+            accepted = accepted[:max(0, limit - applied)]
+        if not accepted:
             continue
-        changes.append(f"link {item['mention']} -> {item['entity_path']} in {item['source']}")
-        applied += 1
+        updated = text
+        for start, end, replacement, item in reversed(accepted):
+            updated = updated[:start] + replacement + updated[end:]
+            changes.append(f"link {item['mention']} -> {item['entity_path']} in {item['source']}")
+            applied += 1
         if apply:
             source.write_text(updated, encoding="utf-8")
     return {
@@ -2525,6 +2690,7 @@ VAULT_RAG_FOLDER_TO_KIND = {
     "locations": "location",
     "factions": "faction",
     "items": "item",
+    "library": "library",
     "monsters": "monster",
     "spells": "spell",
     "concepts": "concept",
@@ -2676,8 +2842,57 @@ def vault_rag_ingest_all(reset: bool = False, limit: int | None = None) -> dict:
     }
 
 
-def vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> list[dict]:
-    """Query the local vault-rag Chroma collection. Used by article-edit research lane."""
+def local_rag_api_key() -> str:
+    configured = str(load_local_sources().get("rag_api_key") or "").strip()
+    if configured:
+        return configured
+    env_path = Path("/opt/brain/.env")
+    if env_path.exists():
+        for line in env_path.read_text(encoding="utf-8", errors="ignore").splitlines():
+            if line.startswith("RAG_API_KEYS="):
+                return line.partition("=")[2].split(",", 1)[0].strip()
+    return ""
+
+
+def pgvector_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> list[dict]:
+    """Query the published local pgvector RAG API."""
+    sources = load_local_sources()
+    base_url = str(sources.get("rag_api_base_url") or "").rstrip("/")
+    api_key = local_rag_api_key()
+    if not base_url or not api_key:
+        return []
+    payload: dict = {
+        "query": query,
+        "top_k": top_k,
+        "include_text": True,
+        "max_text_chars": 4000,
+    }
+    if kind:
+        payload["kind"] = kind
+    request = urllib.request.Request(
+        base_url + "/search/arden",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        body = json.loads(response.read().decode("utf-8"))
+    return [
+        {
+            "path": hit.get("path"),
+            "section": hit.get("section"),
+            "kind": hit.get("kind"),
+            "title": hit.get("title"),
+            "distance": hit.get("distance"),
+            "text": hit.get("text"),
+            "match_type": hit.get("match_type"),
+        }
+        for hit in body.get("hits", [])
+    ]
+
+
+def chroma_vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> list[dict]:
+    """Query the local vault-rag Chroma staging collection."""
     coll = vault_rag_collection()
     where = {"kind": kind} if kind else None
     query_emb = vault_rag_embed(query)
@@ -2700,6 +2915,17 @@ def vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> lis
             "text": doc,
         })
     return hits
+
+
+def vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> list[dict]:
+    """Prefer published pgvector retrieval; retain Chroma staging as rollback."""
+    try:
+        hits = pgvector_rag_search(query, top_k=top_k, kind=kind)
+        if hits:
+            return hits
+    except Exception:
+        pass
+    return chroma_vault_rag_search(query, top_k=top_k, kind=kind)
 
 
 def _format_mechanics_hit(doc, meta, dist, match_type) -> dict:
@@ -3519,6 +3745,7 @@ ARTICLE_EDIT_ADDITION_TYPES = {"append_bullet_to_section", "add_alias", "extend_
 def article_edit_proposer_prompt(
     article_text: str,
     source_chunks: list[dict],
+    private_hints: list[dict],
     article_path: str,
     article_title: str,
     article_kind: str,
@@ -3530,6 +3757,12 @@ def article_edit_proposer_prompt(
             f"[{c.get('path','?')} §{c.get('section','?')} kind={c.get('kind','?')}]\n{(c.get('text') or '')[:900]}"
         )
     sources_text = "\n\n---\n\n".join(blocks)
+    hint_blocks = []
+    for hint in private_hints:
+        hint_blocks.append(
+            f"[PRIVATE AUTOMATION HINT: {hint.get('path','?')}]\n{(hint.get('text') or '')[:1200]}"
+        )
+    hints_text = "\n\n---\n\n".join(hint_blocks) or "(none)"
     return (
         "You are an Obsidian vault research assistant for the Arden Vul DFRPG tabletop campaign.\n\n"
         f"CURRENT ARTICLE PAGE: {article_path}\n"
@@ -3543,9 +3776,17 @@ def article_edit_proposer_prompt(
         f"{sources_text}\n\n"
         "YOUR TASK: Propose at most 3 small, sourced additions to the article based ONLY on the source evidence above. "
         "Be conservative: do not invent facts, do not paraphrase loosely, do not propose changes already present in the article.\n\n"
+        "For library and media pages, prioritize recent citable evidence that explicitly names the current work. If the "
+        "page has TODO placeholders in `Content` or `Reading Events`, propose concise bullets for those sections from an "
+        "explicitly named reading result before exploring loosely related works or older similarly named research. A raw "
+        "private hint may help locate the curated digest, but the proposed bullet must cite the curated digest. When a "
+        "curated digest explicitly states that the work was read and gives its result, do not return an empty proposal "
+        "list: add a `Content` bullet summarizing the revealed information and a `Reading Events` bullet linking the "
+        "digest. Use this form where practical: `- [[notes/Discord Summary YYYY-WNN.md|Discord Summary YYYY-WNN]] - ...`.\n\n"
         "Allowed addition types:\n"
-        "- \"append_bullet_to_section\": Add ONE wikilinked bullet to an existing H2 section (e.g. \"Sessions\", "
-        "\"Appears In\", \"Notes\", \"Connections\"). target_section must match an existing H2 heading in the article. "
+        "- \"append_bullet_to_section\": Add ONE sourced bullet to an existing H2 section (e.g. \"Sessions\", "
+        "\"Appears In\", \"Notes\", \"Connections\", \"Content\", \"Reading Events\"). Include relevant wikilinks. "
+        "target_section must match an existing H2 heading in the article. "
         "PREFER THIS TYPE over extend_summary when adding a new fact.\n"
         "- \"add_alias\": Add ONE alternate name to the frontmatter aliases list. target_section must be \"aliases\".\n"
         "- \"extend_summary\": Add ONE short factual sentence to the Summary section. target_section must be \"Summary\". "
@@ -3555,8 +3796,16 @@ def article_edit_proposer_prompt(
         "append_bullet_to_section in Notes/History/Appears In.\n\n"
         "Every proposal MUST cite a specific source excerpt by path and section. The excerpt should be a short verbatim "
         "quote from the source content, not a paraphrase.\n\n"
+        "PRIVATE AUTOMATION HINTS below come from raw local Discord rollups. They may help you identify a topic or ask "
+        "for better retrieval, but they are NOT publishable evidence. Never cite them. Never propose a factual addition "
+        "supported only by a private hint. A proposed fact must also appear in the citable SOURCE EVIDENCE above.\n\n"
+        f"{hints_text}\n\n"
+        "If this evidence bundle is incomplete, return up to 3 focused `research_queries`. The caller will search the "
+        "campaign RAG again and ask you to reconsider with expanded evidence. Use an empty list when no follow-up "
+        "retrieval is needed.\n\n"
         "Return strict JSON only. No commentary, no markdown fences, no preamble. Schema:\n"
         "{\n"
+        '  "research_queries": ["optional focused RAG query"],\n'
         '  "proposals": [\n'
         "    {\n"
         '      "addition_type": "append_bullet_to_section",\n'
@@ -3569,7 +3818,53 @@ def article_edit_proposer_prompt(
         "    }\n"
         "  ]\n"
         "}\n\n"
-        "Return {\"proposals\": []} if the evidence does not support any addition."
+        "Return {\"research_queries\": [], \"proposals\": []} if the evidence does not support any addition."
+    )
+
+
+def media_article_edit_proposer_prompt(
+    article_text: str,
+    source_chunks: list[dict],
+    private_hints: list[dict],
+    article_path: str,
+    article_title: str,
+) -> str:
+    evidence = "\n\n---\n\n".join(
+        f"[{chunk.get('path','?')} §{chunk.get('section','?')}]\n{(chunk.get('text') or '')[:1400]}"
+        for chunk in source_chunks
+    )
+    hints = "\n\n---\n\n".join(
+        f"[PRIVATE AUTOMATION HINT: {hint.get('path','?')}]\n{(hint.get('text') or '')[:900]}"
+        for hint in private_hints
+    ) or "(none)"
+    return (
+        "You maintain one library/media page in an Obsidian campaign vault.\n\n"
+        f"PAGE: {article_path}\nTITLE: {article_title}\n\n"
+        f"CURRENT PAGE:\n---\n{article_text[:2200]}\n---\n\n"
+        "CITABLE CURATED EVIDENCE:\n"
+        f"{evidence}\n\n"
+        "PRIVATE AUTOMATION HINTS (local raw Discord; never cite these and never publish a fact supported only here):\n"
+        f"{hints}\n\n"
+        "Extract improvements for this exact named work. When curated evidence says this work was read and states the "
+        "result, propose both:\n"
+        "1. one concise `Content` bullet describing the revealed information; and\n"
+        "2. one `Reading Events` bullet linking the curated digest and stating that the work was read.\n\n"
+        "Use only existing H2 sections. Do not return an empty list when CITABLE CURATED EVIDENCE explicitly names this "
+        "work and gives its reading result. Do not cite private hints. For `Reading Events`, link the digest with its own "
+        "title as the label, for example `- [[notes/Discord Summary 2026-W21.md|Discord Summary 2026-W21]] - Vael read "
+        "this work.` Return strict JSON only:\n"
+        "{\n"
+        '  "research_queries": [],\n'
+        '  "proposals": [\n'
+        "    {\n"
+        '      "addition_type": "append_bullet_to_section",\n'
+        '      "target_section": "Content",\n'
+        '      "proposed_text": "- <concise sourced fact>",\n'
+        '      "rationale": "<short reason>",\n'
+        '      "sources": [{"path": "vault/notes/Discord Summary YYYY-WNN.md", "section": "<section label>", "excerpt": "<short verbatim quote>"}]\n'
+        "    }\n"
+        "  ]\n"
+        "}"
     )
 
 
@@ -3578,10 +3873,12 @@ def gather_article_research_chunks(item: ArticleQueueItem, top_k_per_query: int 
     Reorders results so chunks that literally mention the article title come first,
     since multi-topic chunks often bury the most relevant evidence below pure name-similarity."""
     seen: set[tuple] = set()
-    chunks: list[dict] = []
+    chunks = curated_summary_literal_hits(item)
+    for hit in chunks:
+        seen.add((hit.get("path"), hit.get("section")))
     for q in list(item.queries)[:6]:
         try:
-            hits = vault_rag_search(q, top_k=top_k_per_query)
+            hits = vault_rag_search(q, top_k=max(top_k_per_query * 3, 9))
         except Exception:
             continue
         for h in hits:
@@ -3601,9 +3898,154 @@ def gather_article_research_chunks(item: ArticleQueueItem, top_k_per_query: int 
     def _key(h: dict) -> tuple[int, float]:
         text = (h.get("text") or "").lower()
         has_title = 0 if title_l in text else 1
-        return (has_title, h.get("distance", 1.0))
+        return (has_title, h.get("distance") if h.get("distance") is not None else 1.0)
     chunks.sort(key=_key)
     return chunks
+
+
+def article_literal_phrases(item: ArticleQueueItem) -> list[str]:
+    candidates = [item.title]
+    if item.title.lower().startswith("the "):
+        candidates.append(item.title[4:])
+    candidates.extend(re.findall(r"\(([^)]+)\)", item.title))
+    phrases: list[str] = []
+    seen: set[str] = set()
+    for candidate in candidates:
+        phrase = normalize_space(candidate)
+        if len(phrase) < 5 or phrase.lower() in seen:
+            continue
+        seen.add(phrase.lower())
+        phrases.append(phrase)
+    return phrases
+
+
+def curated_summary_literal_hits(item: ArticleQueueItem, max_hits: int = 4, width: int = 900) -> list[dict]:
+    """Surface exact title-bearing digest excerpts before semantic retrieval."""
+    hits: list[dict] = []
+    for path in reversed(all_discord_summary_paths()):
+        text = read_text(path)
+        lower = text.lower()
+        for phrase in article_literal_phrases(item):
+            index = lower.find(phrase.lower())
+            if index < 0:
+                continue
+            start = max(0, index - width)
+            end = min(len(text), index + width)
+            hits.append({
+                "path": path.relative_to(ROOT).as_posix(),
+                "section": "curated Discord summary literal match",
+                "kind": "summary",
+                "title": path.stem,
+                "distance": -1.0,
+                "match_type": "literal-local-curated",
+                "text": text[start:end],
+            })
+            break
+        if len(hits) >= max_hits:
+            break
+    return hits
+
+
+PRIVATE_HINT_STOPWORDS = {
+    "arden", "book", "campaign", "contents", "discord", "downtime", "read", "source", "summary", "the", "vul",
+}
+
+
+def private_discord_hint_search(query: str, max_hits: int = 4, width: int = 900) -> list[dict]:
+    """Retrieve local-only Discord context for Heavy. These hints are never citable."""
+    rollup_root = load_local_sources().get("discord_rollup_root")
+    if not rollup_root or not Path(rollup_root).exists():
+        return []
+    terms = [
+        term.lower()
+        for term in re.findall(r"[A-Za-z0-9][A-Za-z0-9'-]{2,}", query)
+        if term.lower() not in PRIVATE_HINT_STOPWORDS
+    ]
+    if not terms:
+        return []
+    hits: list[dict] = []
+    for path in sorted(Path(rollup_root).glob("week-ending-*/channels/*.md"), reverse=True):
+        text = read_text(path)
+        lower = text.lower()
+        matched = [term for term in terms if term in lower]
+        if not matched:
+            continue
+        score = len(matched)
+        phrase = normalize_space(query).lower()
+        if phrase and phrase in lower:
+            score += 10
+            index = lower.index(phrase)
+        else:
+            index = min(lower.index(term) for term in matched)
+        start = max(0, index - width)
+        end = min(len(text), index + width)
+        hits.append({
+            "path": str(path),
+            "score": score,
+            "text": text[start:end],
+        })
+    hits.sort(key=lambda hit: (-int(hit["score"]), str(hit["path"])), reverse=False)
+    return hits[:max_hits]
+
+
+def gather_private_discord_hints(item: ArticleQueueItem, max_hits: int = 6) -> list[dict]:
+    seen: set[tuple[str, str]] = set()
+    hints: list[dict] = []
+    for query in list(item.queries)[:4]:
+        for hit in private_discord_hint_search(query):
+            key = (str(hit.get("path", "")), str(hit.get("text", "")))
+            if key in seen:
+                continue
+            seen.add(key)
+            hints.append(hit)
+            if len(hints) >= max_hits:
+                return hints
+    return hints
+
+
+def is_citable_article_source(path: str) -> bool:
+    if path.startswith("vault/"):
+        full_path = ROOT / path
+        return full_path.exists() and full_path.is_relative_to(VAULT)
+    return path == "data/automation/sources/group_spreadsheet_snapshot.md" and (ROOT / path).exists()
+
+
+def normalize_vault_wikilinks(text: str) -> str:
+    return text.replace("[[vault/", "[[")
+
+
+def remove_section_todo(text: str, target_section: str) -> str:
+    pattern = re.compile(
+        rf"(^## {re.escape(target_section)}\s*$)(.*?)(?=^## |\Z)",
+        flags=re.MULTILINE | re.DOTALL,
+    )
+    match = pattern.search(text)
+    if not match:
+        return text
+    body = re.sub(r"(?m)^TODO:.*\n?", "", match.group(2))
+    return text[:match.start(2)] + body + text[match.end(2):]
+
+
+def expand_article_research_chunks(chunks: list[dict], queries: list[str], top_k_per_query: int, max_chunks: int = 20) -> list[dict]:
+    seen = {(hit.get("path"), hit.get("section"), hit.get("text")) for hit in chunks}
+    expanded = list(chunks)
+    for query in queries[:3]:
+        query = normalize_space(query)
+        if not query:
+            continue
+        try:
+            hits = vault_rag_search(query, top_k=max(top_k_per_query * 3, 9))
+        except Exception:
+            continue
+        for hit in hits:
+            key = (hit.get("path"), hit.get("section"), hit.get("text"))
+            if key in seen:
+                continue
+            seen.add(key)
+            expanded.append(hit)
+            if len(expanded) >= max_chunks:
+                return expanded
+    return expanded
 
 
 def build_article_edit_proposals(
@@ -3640,15 +4082,44 @@ def build_article_edit_proposals(
             continue
         article_text = read_text(path)
         chunks = gather_article_research_chunks(item, top_k_per_query=top_k_per_query)
+        private_hints = gather_private_discord_hints(item)
+        exact_digest_hits: list[dict] = []
+        if path.parent.name == "library":
+            exact_digest_hits = curated_summary_literal_hits(item)
+            if exact_digest_hits:
+                exact_keys = {(hit.get("path"), hit.get("section"), hit.get("text")) for hit in exact_digest_hits}
+                supplemental = [
+                    hit for hit in chunks
+                    if (hit.get("path"), hit.get("section"), hit.get("text")) not in exact_keys
+                ]
+                chunks = exact_digest_hits + supplemental[:4]
+                private_hints = private_hints[:2]
         if not chunks:
             continue
-        prompt = article_edit_proposer_prompt(
-            article_text, chunks, item.path, item.title, item.kind
+        prompt = (
+            media_article_edit_proposer_prompt(article_text, chunks, private_hints, item.path, item.title)
+            if path.parent.name == "library" and exact_digest_hits
+            else article_edit_proposer_prompt(article_text, chunks, private_hints, item.path, item.title, item.kind)
         )
         try:
             response = llm_chat_json(prompt, timeout=120)
         except Exception:
             continue
+        research_queries = response.get("research_queries") or []
+        if isinstance(research_queries, list) and research_queries:
+            expanded_chunks = expand_article_research_chunks(
+                chunks,
+                [str(query) for query in research_queries],
+                top_k_per_query=top_k_per_query,
+            )
+            if len(expanded_chunks) > len(chunks):
+                try:
+                    response = llm_chat_json(
+                        article_edit_proposer_prompt(article_text, expanded_chunks, private_hints, item.path, item.title, item.kind),
+                        timeout=120,
+                    )
+                except Exception:
+                    continue
         raw_proposals = response.get("proposals") or []
         for raw in raw_proposals[:max_additions_per_article]:
             if not isinstance(raw, dict):
@@ -3657,11 +4128,11 @@ def build_article_edit_proposals(
             if addition_type not in ARTICLE_EDIT_ADDITION_TYPES:
                 continue
             target_section = str(raw.get("target_section", "")).strip()
-            proposed_text = str(raw.get("proposed_text", "")).strip()
+            proposed_text = normalize_vault_wikilinks(str(raw.get("proposed_text", "")).strip())
             rationale = str(raw.get("rationale", "")).strip()
             sources: list[dict] = []
             for src in (raw.get("sources") or []):
-                if isinstance(src, dict) and src.get("path"):
+                if isinstance(src, dict) and is_citable_article_source(str(src.get("path", ""))):
                     sources.append({
                         "path": str(src.get("path", "")),
                         "section": str(src.get("section", "")),
@@ -3849,7 +4320,7 @@ def apply_article_edit_to_text(text: str, edit: dict) -> tuple[str, bool, str]:
             new = before + "\n" + proposed_text + "\n\n" + after
         else:
             new = text.rstrip() + "\n" + proposed_text + "\n"
-        return new, True, "appended bullet"
+        return remove_section_todo(new, target_section), True, "appended bullet"
     if addition_type == "add_alias":
         fm_match = re.match(r"^---\n(.*?)\n---\n", text, re.DOTALL)
         if not fm_match:
@@ -4289,10 +4760,34 @@ def refresh_vault_rag_safely() -> dict:
         result = vault_rag_ingest_all(reset=False, limit=None)
     except Exception as exc:
         return {"ok": False, "skipped": True, "reason": str(exc)[:200]}
-    return {
+    summary = {
         "ok": result.get("ok", False),
         "actions": result.get("actions", {}),
         "collection_size": result.get("collection_size"),
+    }
+    if summary["ok"]:
+        summary["postgres_sync"] = sync_postgres_rag_safely()
+    return summary
+
+
+def sync_postgres_rag_safely() -> dict:
+    """Publish the refreshed Chroma indexes to the parallel pgvector service."""
+    command = [
+        "docker",
+        "exec",
+        "brain-postgres-rag-api",
+        "python",
+        "/scripts/sync_chroma_to_postgres.py",
+    ]
+    try:
+        completed = subprocess.run(command, capture_output=True, text=True, timeout=300)
+    except Exception as exc:
+        return {"ok": False, "skipped": True, "reason": str(exc)[:200]}
+    output = (completed.stdout or completed.stderr or "").strip()
+    return {
+        "ok": completed.returncode == 0,
+        "returncode": completed.returncode,
+        "output": output[-1000:],
     }
 
 
@@ -4648,7 +5143,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
     article_queue: list[ArticleQueueItem] = []
     media_queue: list[MediaQueueItem] = []
     if before["ok"]:
-        proposals = build_entity_link_proposals(limit_per_source=20)
+        proposals = build_entity_link_proposals()
         write_entity_link_proposal_report(proposals)
         sources = load_local_sources()
         article_queue = build_article_queue(int(sources.get("article_queue_limit", 30)))
@@ -4669,7 +5164,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
         apply_limit = sources.get("entity_link_apply_limit", 0)
         if verify_limit and sources.get("llm_base_url") and sources.get("llm_model"):
             try:
-                verified = verify_entity_link_proposals(int(verify_limit))
+                verified = verify_entity_link_proposals(None if int(verify_limit) < 0 else int(verify_limit))
                 counts: dict[str, int] = {}
                 for item in verified:
                     status = str(item.get("status", "unknown"))
@@ -4683,7 +5178,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                 if apply_limit:
                     link_apply_result = {
                         "enabled": True,
-                        **apply_verified_entity_links(True, int(apply_limit)),
+                        **apply_verified_entity_links(True, None if int(apply_limit) < 0 else int(apply_limit)),
                     }
             except Exception as exc:
                 verification_result = {"enabled": True, "ok": False, "error": str(exc)}
@@ -4692,16 +5187,22 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
         try:
             sources_cfg = load_local_sources()
             queue_top = int(sources_cfg.get("article_edit_queue_top", 0) or 0)
+            media_queue_top = int(sources_cfg.get("media_edit_queue_top", 0) or 0)
             walk_step = int(sources_cfg.get("article_edit_walk_step", 0) or 0)
             ae_verify_limit = int(sources_cfg.get("article_edit_verify_limit", 0) or 0)
             ae_apply_limit = int(sources_cfg.get("article_edit_apply_limit", 0) or 0)
             ae_verify_limit_arg = None if ae_verify_limit < 0 else ae_verify_limit
             ae_apply_limit_arg = None if ae_apply_limit < 0 else ae_apply_limit
-            if (queue_top or walk_step) and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
+            if (queue_top or media_queue_top or walk_step) and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
                 selected_paths: list[Path] = []
                 seen: set[str] = set()
                 if queue_top and article_queue:
                     for it in article_queue[:queue_top]:
+                        if it.path not in seen:
+                            seen.add(it.path)
+                            selected_paths.append(Path(it.path))
+                if media_queue_top and media_queue:
+                    for it in media_queue[:media_queue_top]:
                         if it.path not in seen:
                             seen.add(it.path)
                             selected_paths.append(Path(it.path))
@@ -4712,21 +5213,22 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                         if wp not in seen:
                             seen.add(wp)
                             selected_paths.append(Path(wp))
-                proposals = build_article_edit_proposals(
+                article_edit_proposals = build_article_edit_proposals(
                     article_paths=selected_paths,
                     max_additions_per_article=3,
                     top_k_per_query=3,
                 )
-                write_article_edit_proposal_report(proposals)
+                write_article_edit_proposal_report(article_edit_proposals)
                 article_edit_result = {
                     "enabled": True,
                     "queue_top": queue_top,
+                    "media_queue_top": media_queue_top,
                     "walk_step": walk_step,
                     "walk_selection": walk_selection,
                     "articles_processed": len(selected_paths),
-                    "proposal_count": len(proposals),
+                    "proposal_count": len(article_edit_proposals),
                 }
-                if ae_verify_limit and proposals:
+                if ae_verify_limit and article_edit_proposals:
                     verified = verify_article_edit_proposals(limit=ae_verify_limit_arg)
                     vcounts: dict[str, int] = {}
                     for v in verified:
@@ -4825,11 +5327,11 @@ def build_parser() -> argparse.ArgumentParser:
     propose.set_defaults(func=cmd_propose)
 
     entity_links = sub.add_parser("propose-entity-links", help="Write review-only entity link proposals")
-    entity_links.add_argument("--limit-per-source", type=int, default=40, help="Maximum proposals per source file")
+    entity_links.add_argument("--limit-per-source", type=int, default=None, help="Optional maximum proposals per source file")
     entity_links.set_defaults(func=cmd_propose_entity_links)
 
     verify_links = sub.add_parser("verify-entity-links", help="LLM-verify review-only entity link proposals")
-    verify_links.add_argument("--limit", type=int, default=25, help="Maximum proposals to verify")
+    verify_links.add_argument("--limit", type=int, default=None, help="Optional maximum proposals to verify")
     verify_links.set_defaults(func=cmd_verify_entity_links)
 
     apply_links = sub.add_parser("apply-verified-entity-links", help="Apply supported verified entity links")

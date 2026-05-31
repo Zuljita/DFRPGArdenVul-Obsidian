@@ -30,6 +30,7 @@ The Forum of Set was a large Settite compound in the Halls of Arden Vul, operate
 - **Cliff Face Entrance**: Approximately 800 feet down the cliff face, marked with a red lantern. Guarded by cultists; has a basket for lowering/raising people.
 - **Sighing Stair**: From the former [[locations/Temple of Set.md|Temple of Set]] above (now cleared).
 - **Thothian Teleportation Circle**: Located in the finished room near the cliff entrance (stairs up).
+- **Southern Orientation**: The cliff face entrance is located on the southern side of the Forum.
 
 ## Layout (Sessions 43a–43c)
 

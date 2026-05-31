@@ -4,7 +4,7 @@ tags:
   - action-items
   - open-threads
 generated_by: vault_automation.py action-items
-updated: 2026-05-30T00:05:28.489042+00:00
+updated: 2026-05-31T10:21:38.524488+00:00
 ---
 
 # Active Action Items
@@ -26,22 +26,6 @@ This note is maintained by the vault automation. It merges current quests, unres
   - Evidence:
     - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]] — "They're planning to fight the renegade varumani who didn't respect their passport."
 
-- [ ] **Test Thothian teleporters**
-  - ID: `test-teleporters`
-  - Status: active
-  - Summary: Conduct tests on the Thothian teleporters using the newly found directory.
-  - Next step: Maybe test some teleporters.
-  - Evidence:
-    - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]] — "maybe test some teleporters."
-
-- [ ] **Identify treasure and fix Vael's Gift**
-  - ID: `identify-treasure-and-fix-vaels-gift`
-  - Status: active
-  - Summary: Spend time identifying recently found treasure and repairing Vael's Gift from Set.
-  - Next step: Spend a day identifying treasure and fixing Vael's Gift from Set.
-  - Evidence:
-    - [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]] — "They would like to spend a day identifying treasure and fixing Vael's Gift from Set"
-
 - [ ] **Clear area south of Goblin Forum**
   - ID: `clear-south-goblin-forum`
   - Status: active
@@ -50,22 +34,45 @@ This note is maintained by the vault automation. It merges current quests, unres
   - Evidence:
     - [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]] — "continue clearing the area south of the Forum."
 
-- [ ] **Retrieve second Tablet of the Beacon**
-  - ID: `retrieve-second-tablet`
+- [ ] **Test Thothian teleporters**
+  - ID: `test-teleporters`
   - Status: active
-  - Summary: Follow Temrin's map from the Bastion to find the second Tablet of the Beacon in an unknown area.
-  - Next step: Follow the map from the Bastion to an unknown area.
-  - Related: [[npcs/Temrin.md|Temrin]]
+  - Summary: Conduct tests on the Thochian teleporters using the newly found directory.
+  - Next step: Scry or test some teleporters if a path to the cliff face is cleared.
   - Evidence:
-    - [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]] — "They're going after the second Tablet of the Beacon, following [[npcs/Temrin.md|Temrin]]'s map from the Bastion to an unknown area."
+    - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]] — "maybe test some teleporters."
 
-- [ ] **Explore Rudishva surgical bay**
-  - ID: `explore-rudishva-surgical-bay`
+- [ ] **Explore behir caves**
+  - ID: `explore-behir-caves`
   - Status: active
-  - Summary: Explore the area around the surgical bay in Rudishva.
-  - Next step: Explore more of the Rudichva area around the surgical bay.
+  - Summary: If time permits, explore the areas around the behir caves.
+  - Next step: Explore more around the behir caves.
   - Evidence:
-    - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]] — "then more of the Rudishva area around the surgical bay."
+    - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]] — "If time remains they'll explore more around the behir caves"
+
+- [ ] **Search for treasure**
+  - ID: `search-for-treasure`
+  - Status: active
+  - Summary: Conduct a search for treasure during upcoming delves.
+  - Next step: Search for treasure.
+  - Evidence:
+    - [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]] — "search for treasure"
+
+- [ ] **Return to Gosterwick**
+  - ID: `return-to-gosterwick`
+  - Status: active
+  - Summary: Travel back to Goster/Gosterwick.
+  - Next step: Go back to Gosterwick.
+  - Evidence:
+    - [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]] — "go back to Gosterwick."
+
+- [ ] **Visit varumani market**
+  - ID: `visit-varumani-market`
+  - Status: active
+  - Summary: Visit the varumani market and try to meet the varumani Thegn.
+  - Next step: Try to meet the varumani Thegn.
+  - Evidence:
+    - [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]] — "They plan on visiting the varumani market and trying to meet the varumani Thegn."
 
 ## Open Mysteries
 
@@ -91,13 +98,6 @@ _No current items._
 
 ## Completed / Resolved
 
-- [x] **Deliver Tablet of the Beacon**
-  - ID: `deliver-tablet-beacon`
-  - Status: completed
-  - Summary: The Tablet of the Beacon was brought to Lady Alexia.
-  - Evidence:
-    - [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]] — "bringing the Tablet of the Beacon to Lady Alexia"
-
 - [x] **Rescue Gevorda**
   - ID: `rescue-gevorda`
   - Status: completed
@@ -105,17 +105,38 @@ _No current items._
   - Evidence:
     - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]] — "rescuing Gevorda from the surgical construct"
 
+- [x] **Rescue Lepp**
+  - ID: `rescue-lepp`
+  - Status: completed
+  - Summary: Rescued Lepp from the bestial varumani.
+  - Evidence:
+    - [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]] — "rescuing Lepp from the bestial varumani"
+
+- [x] **Un-petrify Remagis**
+  - ID: `unpetrify-remagis`
+  - Status: completed
+  - Summary: Successfully un-petrified and rescued Remagis.
+  - Related: [[npcs/Remagis.md|Remagis]]
+  - Evidence:
+    - [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]] — "1 XP for un-petrifying and rescuing [[npcs/Remagis.md|Remagis]]"
+
+- [x] **Find Iron Circlet of Ghanor**
+  - ID: `find-iron-circlet`
+  - Status: completed
+  - Summary: Found the Iron Circlet of Ghanor and returned it to Lady Alexia.
+  - Evidence:
+    - [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]] — "finding the [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]] and returning it to Lady Alexia"
+
+- [x] **Deliver Tablet of the Beacon**
+  - ID: `bring-tablet-to-alexia`
+  - Status: completed
+  - Summary: Brought the first Tablet of the Beacon to Lady Alexia.
+  - Evidence:
+    - [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]] — "bringing the [[items/Tablet of the Beacon.md|Tablet of the Beacon]] to Lady Alexia"
+
 - [x] **Rescue Goblins**
   - ID: `rescue-goblins`
   - Status: completed
-  - Summary: The party rescued cut-off and starving goblins.
+  - Summary: Rescued the cut-off and starving goblins.
   - Evidence:
     - [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48 - Thothian Teleportation Rings]] — "rescuing the cut-off and starving goblins"
-
-- [x] **Find Iron Circlet of Ghanor**
-  - ID: `find-iron-circlet-ghanor`
-  - Status: completed
-  - Summary: The party found the Iron Circlet of Ghanor and returned it to Lady Alexia.
-  - Related: [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]]
-  - Evidence:
-    - [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]] — "finding the Iron Circlet of Ghanor and returning it to Lady Alexia"

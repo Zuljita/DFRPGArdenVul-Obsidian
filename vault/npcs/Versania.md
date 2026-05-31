@@ -26,3 +26,4 @@ A woman found living behind the waterfall, initially appearing as a dirty, starv
 - Was cured of her insanity by [[Jador the Just]] at the [[Temple of Mitra]].
 - She was a woman-at-arms from [[Narsileon]] who was part of an expedition to explore [[Arden Vul]].
 - Is currently volunteering at the House of the Gods.
+- Survived in the caves for several years by fishing.

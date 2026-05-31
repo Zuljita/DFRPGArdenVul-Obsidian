@@ -15,6 +15,8 @@ appears_in:
 ## Summary
 The Arena is a large underground entertainment complex on the Arena Level of the Halls of Arden Vul. It is run by the [[npcs/Arena Lord.md|Arena Lord]], a [[Rudishva]] being who hosts gladiatorial spectacles. The Arena is located near the Varumani Lifts and the [[locations/Inn of the Lost.md|Inn of the Lost]].
 
+The Arena Lord is tentatively identified as Crellik-Var, the Entertainment Officer of the crashed starship the Beacon.
+
 ## Access
 - Located near [[npcs/Gog.md|Gog]]'s underground grotto.
 - Reachable from the Goblin Forum level via a stairway to the south.
@@ -31,6 +33,7 @@ The Arena is a large underground entertainment complex on the Arena Level of the
 
 ## The Arena Lord
 The Arena is presided over by the [[npcs/Arena Lord.md|Arena Lord]], a Rudishva known as [[npcs/Arena Lord.md|Rudishva]], who announces spectacles from his box. He wears a purple jumpsuit, a white scarf, and a red bracelet (possibly a Rudishva Command Bracelet).
+- Temrin's map indicated a second Rudishva Command Bracelet was located in the Arena.
 
 ## Spectacle Days
 The Arena holds regular "Spectacle Days," during which gladiators fight monsters or each other. Bets are placed and settled in the gamblers' area. Known gladiators include:

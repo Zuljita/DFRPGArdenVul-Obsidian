@@ -17,7 +17,8 @@ TODO: Add description.
 | 2026-03-20 | p.276 | — | 0 | No | Party |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+- Details the life of Isadora, daughter of a provincial chartoularios, as she transitioned from philosopher to defender of Priscus Pulcher, concluding with her rescuing him from the gibbet in Narsileon after his execution.
+- His execution was ordered by the Archon.
 
 ## Reading Events
-TODO: Sessions where players read or interacted with this work.
+- [[notes/Discord Summary 2026-W14.md|Discord Summary 2026-W14]] - Vallium Halcyon read this work.
