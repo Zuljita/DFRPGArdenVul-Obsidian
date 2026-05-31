@@ -3,9 +3,9 @@ title: "Discord Summary 2026-W16"
 tags:
   - discord-summary
   - canonical-source
-  - tradition/thothian
 week_ending: 2026-04-24
 source_type: private-discord-weekly-digest
+source_week: week-ending-2026-04-24-2300-central
 ---
 
 # Discord Summary 2026-W16

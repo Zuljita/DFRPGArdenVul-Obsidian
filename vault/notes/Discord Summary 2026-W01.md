@@ -1,9 +1,11 @@
 ---
+title: "Discord Summary 2026-W01"
 tags:
-  - note
   - discord-summary
+  - canonical-source
 week_ending: 2026-01-09
 source_type: private-discord-weekly-digest
+source_week: week-ending-2026-01-09-2300-central
 ---
 
 # Discord Summary 2026-W01
@@ -63,7 +65,7 @@ This week was defined by the logistical expansion of the Beacon annex and the di
 ## 3. Lore & Discoveries
 *   **The Feathers of Maat:** According to ancient human cult texts, holding these feathers with faith protects the bearer from Wights, Specters, and Vampires (Source: Uvash’s research).
 *   **Secret Names:** Knowledge of a demon's true name provides leverage, but demons use aliases to manipulate and kill their interlocutors (Source: Ioannes’ research).
-*   **The Song of Arden:** An ancient verse stating: *"Fear is the destroyer... Strength counters fear..."* (Source: Vallium’s research).
+*   **The Song of Arden:** An ancient verse stating: *"Fear is the $\text{destroyer... Strength counters fear...}$"* (Source: Vallium’s research).
 *   **Rudishvan Script:** The full written language is notoriously difficult; a simplified version known as "Semi-Glyphik" is commonly used by various regional factions (Source: Akla-Chah).
 *   **The Floating Sage:** A non-magical scroll written in formal Mithric calligraphy contains the phrase *"Dubito, ergo cogito, ergo sum"* ("I doubt, therefore I think, therefore I am") (Source: Loot analysis).
 

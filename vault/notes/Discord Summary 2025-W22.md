@@ -1,10 +1,11 @@
 ---
+title: "Discord Summary 2025-W22"
 tags:
-  - note
-  - tradition/mitran
   - discord-summary
+  - canonical-source
 week_ending: 2025-06-06
 source_type: private-discord-weekly-digest
+source_week: week-ending-2025-06-06-2300-central
 ---
 
 # Discord Summary 2025-W22
@@ -41,7 +42,7 @@ The company has focused its efforts on the liquidation of recent spoils and the 
 *   **Character Advancement:** Considering the acquisition of the *Affect Spirits* spell to better combat incorporeal threats.
 
 ### Vaelitharon "Vael" Sunshadow
-*   **Town Actions:** Managed the logistics of selling recovered "Set" armor. To avoid attracting unwanted attention from the Cult of Set, the sale was conducted through a contact known as Petros at the docks, ensuring anonymity.
+*   **Town Actions:** Managed the logistics of selling recovered "Set" armor. To avoid attracting unwanted attention from the Cult of $\text{Set}$, the sale was conducted through a contact known as Petros at the docks, ensuring anonymity.
 *   **Research/Training:** Investigated the utility of the *Streetwise* skill for future anonymous transactions. Noted that while frequent navigation has aided his mapping, formal training is required to master *Absolute Direction*.
 *   **Loot Management:** Authorized expenditures to identify various recovered items, including a silver plaque and unidentified organic matter.
 

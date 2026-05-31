@@ -1,9 +1,11 @@
 ---
+title: "Discord Summary 2026-W02"
 tags:
-  - note
   - discord-summary
+  - canonical-source
 week_ending: 2026-01-16
 source_type: private-discord-weekly-digest
+source_week: week-ending-2026-01-16-2300-central
 ---
 
 # Discord Summary 2026-W02

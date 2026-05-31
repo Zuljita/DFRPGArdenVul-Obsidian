@@ -3,7 +3,6 @@ title: "Discord Summary 2025-W45"
 tags:
   - discord-summary
   - canonical-source
-  - tradition/thothian
 week_ending: 2025-11-14
 source_type: private-discord-weekly-digest
 source_week: week-ending-2025-11-14-2300-central

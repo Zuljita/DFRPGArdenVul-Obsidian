@@ -1,9 +1,11 @@
 ---
+title: "Discord Summary 2025-W18"
 tags:
-  - note
   - discord-summary
+  - canonical-source
 week_ending: 2025-05-09
 source_type: private-discord-weekly-digest
+source_week: week-ending-2025-05-09-2300-central
 ---
 
 # Discord Summary 2025-W18
@@ -58,7 +60,7 @@ The company remains deep within the megadungeon, operating *in media res*. As th
 * **Pathfinder (Spell):** Identified as a high-priority acquisition for Vaelitharon Sunshadow to mitigate the risks of unreliable teleportation within the dungeon.
 
 ## 6. Tactical Planning
-The company is currently debating several courses of action regarding the halfling-controlled territories:
+The company is currently debating several courses of $\text{action}$ regarding the halfling-controlled territories:
 * **Diplomacy:** Attempting to negotiate a flat fee for passage or establishing a long-term business relationship with the halflings.
 * **Aggression:** A high-risk plan to send specialized combatants (buffed with *Flight*, *Invisibility*, and *Blur*) to assassinate Phlebotomas, thereby decapitating the organization's leadership.
 * **Extraction:** If heavily wounded, the company intends to retreat toward Gosterwick, though it is noted a closer inn may exist as a potential destination.

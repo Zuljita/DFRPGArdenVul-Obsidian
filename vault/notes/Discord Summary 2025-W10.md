@@ -1,11 +1,11 @@
 ---
+title: "Discord Summary 2025-W10"
 tags:
-  - note
-  - culture/thorcin
-  - era/historical
   - discord-summary
+  - canonical-source
 week_ending: 2025-03-14
 source_type: private-discord-weekly-digest
+source_week: week-ending-2025-03-14-2300-central
 ---
 
 # Discord Summary 2025-W10
