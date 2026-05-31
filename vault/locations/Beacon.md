@@ -17,7 +17,7 @@ The ship is located near a Rudishva cloister.
 - **Captain Leil-Jor** — Issued the quarantine order on the corrupted varuda nests during the crisis.
 - **Entertainment Officer Crellik-Var** — Tentatively identified as the [[npcs/Arena Lord.md|Arena Lord]] currently running the [[locations/Arena.md|Arena]] in the Halls of Arden Vul. If correct, he is a surviving crew member.
 - Not all crew members are accounted for; [[npcs/Akla-Chah.md|Akla-Chah]] confirmed in Session 46 that it is possible some are still alive despite the ship having crashed long ago.
-- [[npcs/Sir Basil.md|Basil]] — A Beacon hireling.
+- [[npcs/Basil.md|Basil]] — A Beacon hireling.
 
 ## Recorded Crisis Message (Session 45)
 A hologram recorded for the crew plays on the northern dais in a large Rudishva chamber connected to the Beacon. Translated by Vael in Session 45:

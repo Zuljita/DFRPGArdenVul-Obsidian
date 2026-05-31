@@ -14,4 +14,4 @@ The main fortress of the [[Chasm Floor]]
 ## Inhabitants
 
 - [[Marius Tricotor]].
-- [[Heqeti]] (some of whom are mages or demon-anti-priests)
+- [[factions/heqeti.md|Heqeti]] (some of whom are mages or demon-anti-priests)

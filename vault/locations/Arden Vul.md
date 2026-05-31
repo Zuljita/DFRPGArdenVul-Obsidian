@@ -38,6 +38,6 @@ aliases:
 - The campaign setting where the Rudishva and Kaliyani built a forge combining tech and magic. ([[notes/Discord Summary 2026-W04.md|Discord Summary 2026-W04]])
 - The Drowned Canyon is an iconic location within Arden Vul ([[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]])
 - Animated monkey-shaped constructs known as Flying Monkey Statues are encountered here ([[monsters/Flying Monkey Statues.md|Flying Monkey Statues]])
-- A letter exists from the Archon of Arden Vul to the Overseer of Thoth. ([[notes/ancient letter from Uriel Basileon to Kel Bormol.md|Discord Summary 2025-W52]])
-- The Great Pyramid of Thoth was presumably built here. ([[notes/Great Pyramid of Thoth.md|Discord Summary 2025-W16]])
+- A letter exists from the Archon of Arden Vul to the Overseer of Thoth. ([[notes/ancient letter from Uriel Basileon to Kel Bormol.md|ancient letter from Uriel Basileon to Kel Bormol]])
+- The Great Pyramid of Thoth was presumably built here. ([[notes/Great Pyramid of Thoth.md|Great Pyramid of Thoth]])
 - The Drowned Canyon is an iconic location within the ruins. ([[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]])
