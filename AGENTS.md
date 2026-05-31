@@ -160,33 +160,38 @@ To prepare the vault for use with NotebookLM, a script is used to consolidate th
 
 ## Operational State (as of 2026-05-24)
 
-Live automation runs from `scripts/vault_automation.py` under a Hermes cron job; the brain-rag-* pgvector stack and `refresh-rag` lane were retired in favor of a local Chroma vault-rag. See `docs/VAULT_AUTOMATION_REARCHITECTURE.md` for the design.
+Live automation runs from `scripts/vault_automation.py` under a Hermes cron job. Automation writes the local Chroma vault-rag, then mirrors it into the GPT-facing pgvector API. See `docs/VAULT_AUTOMATION_REARCHITECTURE.md` for the design.
 
-### Three review-gated lanes (all propose → verify → apply)
+### Four review-gated lanes (all propose → verify → apply)
 
 - **Entity links** — adds wikilinks from mentions to already-promoted entity pages.
   - Subcommands: `propose-entity-links` / `verify-entity-links` / `apply-verified-entity-links`
 - **Article edits** — adds sourced bullets/aliases/summary sentences to existing articles. Research via vault-rag; verifier reads source files directly to ground each proposal.
   - Subcommands: `propose-article-edits` / `verify-article-edits` / `apply-verified-article-edits`
   - Addition types: `append_bullet_to_section`, `add_alias`, `extend_summary`
+- **Metadata enrichment** — adds evidence-backed namespaced tags, related-entity links, historical identity hints, and exact aliases to improve retrieval. Shared tags are discovery hints, not identity proof.
+  - Subcommands: `propose-metadata-edits` / `verify-metadata-edits` / `apply-verified-metadata-edits`
+  - Frontmatter fields: `tags`, `related_entities`, `identity_hints`, `aliases`
 - **New entities** — creates stub vault pages for genuinely-new NPCs/Locations/Factions/Items extracted from canonical sources. Multi-stage deterministic filter (PC cross-check, word-level subset dedup, scaffolding rejection, entity_filters.json) plus LLM verifier with `confirmed | wrong_kind | duplicate | not_an_entity | ambiguous`.
   - Subcommands: `propose-new-entities` / `verify-new-entities` / `apply-verified-new-entities`
 
-### Vault-rag (Chroma)
+### Vault-rag (Chroma writer, pgvector serving mirror)
 
 - Path: `/home/kyle/rag_project/vaults/ArdenVault/index/` (sibling of MechanicsVault DFRPG-rules collection)
 - Collection: `arden_vul_vault`
 - Embedding model: Ollama `bge-m3` at `http://127.0.0.1:11434/api/embeddings`
 - Cosine distance, chunked at H2 headings with paragraph sub-splitting at 3000 chars
-- Scope: whole vault (`sessions/`, `notes/Discord Summary *.md`, `notes/`, `lore/`, `npcs/`, `pcs/`, `locations/`, `factions/`, `items/`, `monsters/`, `spells/`, `concepts/`) **plus per-channel rollups** from `discord_rollup_root` tagged `kind=rollup`, plus the spreadsheet snapshot
+- Scope: whole vault (`sessions/`, `notes/Discord Summary *.md`, `notes/`, `lore/`, `npcs/`, `pcs/`, `locations/`, `factions/`, `items/`, `monsters/`, `spells/`, `concepts/`) plus the spreadsheet snapshot. Raw Discord rollups remain private local research inputs and are intentionally excluded from player-facing RAG.
 - ~17,500 chunks across ~1,770 files at last full ingest (2026-05-24)
 - Subcommands: `ingest-vault-rag [--reset] [--limit N]`, `refresh-vault-rag` (sha256-gated), `vault-rag-search <query> [--top-k N] [--kind ...]`
 - Auto-refreshed after each apply step and at end of `run-low-risk`
+- Mirrored into the local pgvector API after refresh; GPT actions call the pgvector service rather than opening Chroma directly
+- Retrieval metadata includes `aliases`, `tags`, `related_entities`, and `identity_hints`; explicit related entities may contribute a bounded second retrieval hop
 
 ### Scheduled cron + vault walk
 
 - Hermes job `fd3dccf7b808`: `~/.hermes/scripts/arden_vault_run.sh` daily at 07:00 CT, delivers a one-line summary to Discord
-- `run-low-risk` orchestrates: discover → validate → import-low-risk → entity-link proposals/verify → article queue → media queue → spreadsheet snapshot → loot reconciliation → article-edit lane (propose/verify/apply on `article_edit_queue_top` weakest + `article_edit_walk_step` cursor-walk articles) → vault-rag refresh
+- `run-low-risk` orchestrates: discover → validate → import-low-risk → entity-link proposals/verify → article queue → media queue → spreadsheet snapshot → loot reconciliation → article-edit lane → metadata-enrichment lane → vault-rag refresh
 - Vault walk cursor lives in `data/automation/vault_walk_cursor.json` and rotates through every article in `vault/{npcs,pcs,locations,factions,items,monsters,spells}` (573 paths at last count). Inspect with `vault-walk-status`. Cursor advances per scheduled run.
 - Hermes script timeout overridden globally to 1200s in `~/.hermes/config.yaml` under `cron.script_timeout_seconds`.
 
@@ -204,6 +209,8 @@ entity_link_verify_limit, entity_link_apply_limit   — entity-link lane budget
 article_queue_limit                                  — top-N queue size
 article_edit_queue_top, article_edit_walk_step,
   article_edit_verify_limit, article_edit_apply_limit — article-edit lane budget per cron tick
+metadata_edit_enabled, metadata_edit_queue_top,
+  metadata_edit_verify_limit, metadata_edit_apply_limit — metadata-enrichment lane controls
 ```
 
 Safe daily-cron defaults: `article_edit_queue_top: 2`, `article_edit_walk_step: 3`, `article_edit_verify_limit: 15`, `article_edit_apply_limit: 3`. Sprint mode bumps these (typical: 10/8/30 walk-step/apply/verify) and restores afterward.

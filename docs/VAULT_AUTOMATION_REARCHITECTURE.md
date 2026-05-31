@@ -134,7 +134,11 @@ Local source paths must be configured outside git. `scripts/vault_automation.py`
   "llm_base_url": "http://private-local-llm/v1",
   "llm_model": "local-model-name",
   "entity_link_verify_limit": 5,
-  "entity_link_apply_limit": 0
+  "entity_link_apply_limit": 0,
+  "metadata_edit_enabled": true,
+  "metadata_edit_queue_top": 5,
+  "metadata_edit_verify_limit": -1,
+  "metadata_edit_apply_limit": 0
 }
 ```
 
@@ -416,13 +420,13 @@ Replace agentic vault jobs with deterministic cron/systemd tasks:
 python3 scripts/vault_automation.py run-low-risk
 ```
 
-`run-low-risk` performs source discovery, allowlisted canonical import, navigation refresh, review-only entity link proposal generation, optional LLM verification, and validation in one service-safe command. If `entity_link_apply_limit` is greater than zero in the ignored local config, it may also apply that many supported verified links. It writes generated operational state under `data/automation/`, which is ignored by git:
+`run-low-risk` performs source discovery, allowlisted canonical import, navigation refresh, entity-link proposals and verification, article-edit proposals and verification, metadata-enrichment proposals and verification, vault-rag refresh, and validation in one service-safe command. Positive apply limits in the ignored local config allow supported verified edits to be written automatically. The metadata lane adds namespaced tags, related-entity links, historical identity hints, and exact aliases; these improve discovery but do not establish identity by themselves. Generated operational state is written under `data/automation/`, which is ignored by git:
 
 - `source_manifest.json`
 - `last_validation.json`
 - `runs/<run-id>/run.json`
 
-It also refreshes the article and media improvement queues on each scheduled pass. Vault-rag refresh is a separate manual step (`refresh-vault-rag`) until the research lane is stable enough to schedule.
+It also refreshes the article and media improvement queues on each scheduled pass. Vault-rag refresh updates the local Chroma writer index and mirrors it into the GPT-facing pgvector API. Chroma remains an implementation detail of ingestion; external GPT actions use the pgvector service.
 
 Systemd templates are checked in under `docs/systemd/`:
 
