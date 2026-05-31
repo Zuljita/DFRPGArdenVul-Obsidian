@@ -4764,9 +4764,9 @@ def action_item_context(latest_session_count: int) -> str:
             f"## LEGACY THREAD NOTE EXCERPT: {unfinished.relative_to(ROOT).as_posix()}\n"
             + _truncate_middle(text, 18000)
         )
-    wanted = {"next week", "gm's comments", "resolved/updated", "open threads", "achievements"}
+    wanted = {"what happened", "next week", "gm's comments", "resolved/updated", "open threads", "achievements"}
     for path in latest_session_pages(latest_session_count):
-        text = markdown_section_excerpt(read_text(path), wanted, max_chars=4500)
+        text = markdown_section_excerpt(read_text(path), wanted, max_chars=6000)
         blocks.append(
             f"## RECENT SESSION: {path.relative_to(ROOT).as_posix()}\n"
             + text
@@ -4783,9 +4783,13 @@ def action_item_prompt(latest_session_count: int, max_items: int) -> str:
         "promises, live threats, and actionable leads over broad lore questions. Do not include spoilers or facts not present "
         "in the context. Do NOT treat a session's pre-session 'The Plan' section as proof that something is still active; "
         "the later What Happened / GM's Comments / Next Week / Resolved sections supersede it.\n\n"
-        "Your task is to produce a clean current action-item inventory. Merge duplicates. Mark items completed/resolved only "
-        "when the provided context explicitly says they were completed, resolved, found, rescued, or otherwise closed. Keep "
-        "uncertain lore as Open Mysteries or Watch List rather than Active Quests.\n\n"
+        "Your task is to produce a clean current action-item inventory. Treat the current canonical action note as a prior "
+        "hypothesis to reconcile, not evidence that an item is still active. Merge duplicates. Keep an active or watch item "
+        "only when the supplied timeline still supports future work. When a later recap shows that an older plan was carried "
+        "out, retire it from the active list and include it as completed only when it remains useful historical context. Mark "
+        "items completed/resolved only when the provided context explicitly says they were completed, resolved, found, "
+        "rescued, or otherwise closed. Prefer the newest decisive citation for each status. Keep uncertain lore as Open "
+        "Mysteries or Watch List rather than Active Quests.\n\n"
         "Each item must cite at least one source path and a short verbatim excerpt from that source. Use repo-relative paths "
         "like vault/sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md.\n\n"
         f"Return no more than {max_items} items. Return strict JSON only, no markdown fences:\n"
@@ -4892,8 +4896,18 @@ def verify_action_item_inventory(items: list[dict]) -> tuple[list[dict], list[di
     return accepted, rejected
 
 
+def action_item_llm_json(prompt: str) -> dict:
+    last_error: Exception | None = None
+    for _attempt in range(3):
+        try:
+            return llm_chat_json(prompt, timeout=1800)
+        except Exception as exc:
+            last_error = exc
+    raise RuntimeError(f"action item LLM failed after 3 attempts: {last_error}")
+
+
 def build_action_item_inventory(latest_sessions: int = 8, max_items: int = 50) -> dict:
-    response = llm_chat_json(action_item_prompt(latest_sessions, max_items), timeout=1800)
+    response = action_item_llm_json(action_item_prompt(latest_sessions, max_items))
     raw_items = response.get("items") or []
     if not isinstance(raw_items, list):
         raw_items = []
@@ -5004,6 +5018,8 @@ def apply_action_item_inventory(apply_changes: bool = False) -> dict:
         return {"ok": False, "error": "action_item_inventory_not_found", "hint": "Run build-action-items first"}
     payload = json.loads(inv_path.read_text(encoding="utf-8"))
     items = payload.get("items") or []
+    if not items:
+        return {"ok": False, "error": "action_item_inventory_empty"}
     new_text = render_action_items_note(items)
     old_text = read_text(ACTION_ITEMS_PATH) if ACTION_ITEMS_PATH.exists() else ""
     changed = old_text != new_text
