@@ -34,3 +34,4 @@ Thorcin chief priest of [[Demma]] in [[Gosterwick]]. A stern but fair cleric cap
 - He is powerful enough to cast `Remove Curse`.
 - He believes that faith must be practical, service-oriented, and rooted in daily life.
 - He personally trains new clerics in the mysteries of [[Demma]].
+- Trains new clerics in the mysteries of Demma.

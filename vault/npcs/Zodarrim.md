@@ -24,3 +24,5 @@ Several clerics of [[npcs/Zodarrim.md|Zodarrim]] have been encountered by the pa
 ## Appears In
 - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — Uvash meets Gedric Malachite, priest of [[npcs/Zodarrim.md|Zodarrim]].
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — Uvash meets [[npcs/Hallsted.md|Hallsted]], another cleric of [[npcs/Zodarrim.md|Zodarrim]].
+- [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
+- [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23a - Gelatinous Cube and Slime Kraken]]

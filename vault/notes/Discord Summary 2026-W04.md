@@ -3,13 +3,14 @@ tags:
   - note
   - discord-summary
 week_ending: 2026-01-30
+source_type: private-discord-weekly-digest
 ---
 
 # Discord Summary 2026-W04
 
 ## Source
 - Private Discord weekly digest
-- Week ending: unknown
+- Week ending: 2026-01-30
 
 ## Navigation
 

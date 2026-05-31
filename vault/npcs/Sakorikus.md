@@ -17,6 +17,7 @@ Mentioned on a blackboard note.
 
 - He is suggested to be a potential surgical assistant.
 - He has "bizarre theories about the compatibility of human and rudishva fluids."
+- Possibly the first Rudishva born on this planet.
 
 ## Discord Insights
 

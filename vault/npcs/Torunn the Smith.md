@@ -14,6 +14,7 @@ Torunn is a large [[factions/Wiskin.md|Wiskin]] woman who is regarded as the bes
 ## Services
 She makes metal weapons and armor, with several apprentices working under her supervision. She handles the high-quality work ("The Good Stuff") herself and is familiar with Good, Fine, Balanced, and Dwarven quality work.
 - She does not work with leather or wooden items.
+- She is willing to provide training in Armory and Connoisseur (Weapons).
 
 ## Appears In
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]

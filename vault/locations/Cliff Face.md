@@ -15,6 +15,7 @@ A steep exterior approach beneath the ruins of [[locations/Arden Vul.md|Arden Vu
 - Nearby caves can function as temporary staging points during ascent/descent.
 - [[vault/locations/Cave with Spider Webs.md|Cave with Spider Webs]] is located over a switchback on the cliff face.
 - A cliff face entrance west of the waterfall may be used by Lizardmen.
+- [[vault/npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]] used the cliff-face entrance during the Session 43a invasion.
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]

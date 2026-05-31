@@ -12,3 +12,4 @@ TBD
 - Connects from the former [[locations/Temple of Set.md|Temple of Set]] above.
 - Uvash tried feeding it goat meat, but it did not work.
 - During [[sessions/Session 24 — Revenge on the Set Cult and the Hall of Shrines (Parts A, B).md|Session 24]], the party chased retreating Set cultists down the stairs to glimpse the Forum of Set.
+- A portcullis was located on the left side of the stairs during the encounter with the Cult of Set.

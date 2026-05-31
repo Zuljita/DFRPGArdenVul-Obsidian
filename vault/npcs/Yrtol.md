@@ -24,3 +24,5 @@ A restless ghost haunting the ruined tower near the waterfall. Initially encount
 - Early sessions refer to Yrtol as an "angry scary ghost" / "tower ghost."
 - In Session 33, the party recovered [[npcs/Nyema.md|Nyema]] and buried her remains in front of Yrtol's tower, after which Yrtol found peace and disappeared.
 - Upon disappearing, Yrtol left behind two large sapphires known as the [[items/Watcher's eyes|Watcher's eyes]].
+- The tower he haunts was built during the Adrienic Expedition as an attempt by Archon Phocion IV to retake Arden Vul.
+- The spirit has been heard screaming accusations of "Settite murderers."

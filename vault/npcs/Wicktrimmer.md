@@ -28,6 +28,9 @@ As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offe
 - **Logistics:** He can arrange for concierge shopping in [[Narsileon]] and can send messages there in less than a day.
 - **Connections:** He is apparently friends with other important local figures, such as the [[Green Lady]] and [[Lady Alexia Basileon]].
 - **Operation Type:** An Archontean goblin-run local operation working with the native Arden Vul goblins.
+- Willing to house non-cash goods and provides free storage for the party following a deal regarding Larel's Dagger.
+- Extremely interested in acquiring a [[vault/items/Teleporter with 400 Mile Range.md|teleporter with 400 mile range]] to improve business logistics.
+- Competes against a powerful entity with hundreds of years of reputation.
 
 ## Notable Interactions
 - **The Larel Artifacts:** [[npcs/Wicktrimmer.md|Wicktrimmer]]'s interest in collecting led him to negotiate a major deal with the Right for Riches Company for [[Larel's Pin]] and [[Larel's Dagger]]. His motivation was partly personal, as he wanted to prove the existence of the legendary Larel to his old friend [[Balthazar the Blue]].

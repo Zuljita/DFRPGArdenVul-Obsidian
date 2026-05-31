@@ -10,3 +10,5 @@ A territory of the Empire that was abandoned as a result of the civil war caused
 
 [[locations/Narsileon.md|Narsileon]] serves as the Exarchate capital in this part of Irthuin.
 
+The organization Drome is based in Narsileon, led by Keko the Lame.
+

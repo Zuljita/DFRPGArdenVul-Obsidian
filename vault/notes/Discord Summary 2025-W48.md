@@ -4,13 +4,14 @@ tags:
   - tradition/thothian
   - discord-summary
 week_ending: 2025-12-05
+source_type: private-discord-weekly-digest
 ---
 
 # Discord Summary 2025-W48
 
 ## Source
 - Private Discord weekly digest
-- Week ending: unknown
+- Week ending: 2025-12-05
 
 ## Navigation
 

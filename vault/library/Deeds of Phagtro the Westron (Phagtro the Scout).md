@@ -17,7 +17,7 @@ TODO: Add description.
 | 2025-08-01 | p.140 | $50 | 1 | No | Party |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+- Phagtro guided imperial legions to Trenner's Rock, providing a tactical advantage against the Thorcinga.
 
 ## Reading Events
-TODO: Sessions where players read or interacted with this work.
+- [[notes/Discord Summary 2026-W21.md|Discord Summary 2026-W21]] - Vael read this work.

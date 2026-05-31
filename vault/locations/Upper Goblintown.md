@@ -2,6 +2,7 @@
 tags:
   - location
 aliases:
+  - - Glory of Weskenim
   - Halls of Thoth
 ---
 
@@ -13,7 +14,9 @@ aliases:
 
 ## Notes
 TBD
-
+- Features include a bronze floating head, a statue east of the bridge, and the Fountain of Donkey Ears.
+- The Halls of Thoth were renamed Upper Goblintown after the defeat of Plumthorn's Halflings by the United Goblins. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])
+- Light is very important to Thoth. ([[locations/Glory of Thoth.md|Glory of Thoth]] Discord Insights)
 
 ## Notes
 

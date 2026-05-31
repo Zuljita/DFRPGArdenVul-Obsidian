@@ -12,3 +12,4 @@ A bookstore in [[Astabelon]]*
 Located in [[Gosterwick]].
 - [[The Archontean Empire]]
 - Knows of [[notes/field guide to mushrooms.md|field guide to mushrooms]], but does not have it in stock.
+- Offers reference materials including encyclopedias, dictionaries, grammar references, bestiaries, and herbaries.

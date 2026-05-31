@@ -2,13 +2,14 @@
 tags:
   - tradition/thothian
 week_ending: 2026-03-13
+source_type: private-discord-weekly-digest
 ---
 
 # Discord Summary 2026-W10
 
 ## Source
 - Private Discord weekly digest
-- Week ending: unknown
+- Week ending: 2026-03-13
 
 ## Navigation
 

@@ -21,6 +21,8 @@ A hostile wizard based in the [[locations/Tower of the Ape.md|Tower of the Ape]]
 - Forced to retreat three times during combat: once by a Magebane grenade, once by Vallium eliminating the Disciplined on the stairs, and once by Vallium engaging him in melee on the balcony.
 - Seeker placed him in a windowless room in Narsileon; Trace confirmed he made a 3-week trip in 3 days via assumed teleportation.
 - Came to the Howling Caves with bald human followers and kidnapped [[npcs/Bobo.md|Bobo]] and [[npcs/Bifki.md|Bifki]].
+- His base at the [[locations/Tower of the Ape.md|Tower of the Ape]] contains a deactivated teleporter that connects to the ruins of Arden Vul.
+- Avoided entering the Howling Caves while [[npcs/The Master.md|The Master]] was present.
 
 ## Sessions
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]

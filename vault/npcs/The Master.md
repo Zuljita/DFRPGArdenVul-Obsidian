@@ -1,6 +1,8 @@
 ---
 tags:
   - npc
+aliases:
+  - Theskalon
 ---
 
 # The Master

@@ -24,6 +24,8 @@ Virgoolian is a goblin chemist who operates a merchant stall near the [[location
 ## Notes
 - Warned Ioannes and GOAT that the passage to the north of the merchant stalls leads to "death."
 - His stall is located in a Rudishva-architecture room northeast of the Varumani Lifts.
+- The stalls are part of the House of Isocorax Passage.
+- Other merchants in this area include Swiddy (baker), Aebbe Long-Nose (cleric), and Philippous (weapons dealer).
 
 ## Appears In
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]

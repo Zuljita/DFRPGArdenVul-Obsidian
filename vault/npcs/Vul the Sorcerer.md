@@ -13,6 +13,7 @@ Unknown, but a powerful sorcerer from a bygone age.
 
 ## Known Associates
 - [[Arden]] (partner)
+- [[Jaken]]
 
 ## Notes
 - Along with [[Arden]], mysteriously disappeared at the height of his power.

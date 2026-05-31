@@ -28,6 +28,7 @@ aliases:
 ## Roles & Influence
 - Guardian‑scholar of the [[Library of Thoth]]; dispenses lore, procedures, and cautions.
 - Requests assistance with practical tasks he cannot perform (books, retrieval).
+- Formerly served as Chief Librarian for the Thoth organization.
 
 ## Relationships
 - [[Library of Thoth]]: bound locale and knowledge source.
@@ -41,3 +42,4 @@ aliases:
 - Teaches Research using Mithric sources, and the party considers showing him a letter about a secret library. ([[notes/Discord Summary 2025-W52.md|Discord Summary 2025-W52]])
 - Former human librarian of Thoth, Chief Librarian of the Arden Vul Chapter, and later a Head of Thoth and Librarian Emeritus. ([[notes/Discord Summary 2026-W01.md|Discord Summary 2026-W01]])
 - He is greatly pained by Uvash sorting books differently than he had asked Basil to, believing Thothian Mithric alphabetical order is a holy sacrament. ([[notes/Discord Summary 2026-W04.md|Discord Summary 2026-W04]])
+- Senior priests had permission to use them, and their activation squares were made of fragile Arcanum-enriched glass.

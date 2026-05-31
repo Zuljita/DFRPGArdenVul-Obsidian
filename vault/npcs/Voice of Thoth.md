@@ -16,3 +16,4 @@ A direct booming manifestation attributed to [[npcs/Thoth.md|Thoth]], heard by d
 
 ## Notes
 - In Session 4, a question asked through a ritual pillar produced both a shock and a spoken instruction about offerings to [[npcs/Thoth.md|Thoth]].
+- Associated with the ancient god's domains of magic, moons, and secrets.

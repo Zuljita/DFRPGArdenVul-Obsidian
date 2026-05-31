@@ -17,6 +17,7 @@ tags:
 ## First Appearance
 
 Mentioned in research about the [[Cult of Set]].
+- [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
 
 ## Disposition
 

@@ -3,13 +3,14 @@ date: 2025-07-07
 date_range: 2025-07-07 to 2025-07-13
 messages: 70
 week_ending: 2025-07-11
+source_type: private-discord-weekly-digest
 ---
 
 # Discord Summary 2025-W27
 
 ## Source
 - Private Discord weekly digest
-- Week ending: unknown
+- Week ending: 2025-07-11
 
 ## Navigation
 

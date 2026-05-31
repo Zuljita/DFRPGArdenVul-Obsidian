@@ -21,6 +21,7 @@ Yoburra is a Varumani ambassador who has been involved in diplomatic and trade a
 - Indicated that the Varumani were supporting the new Goblin Forum by buying food from the surface.
 - Expressed interest in purchasing more food from the company in the future.
 - 9' tall, stands erect, with brown skin, black eyes with no pupils, less pronounced eye ridges, wears mail and carries a huge greatsword.
+- Involved in discussions regarding a suspected Varumani passport.
 
 ## Appears In
 - [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]

@@ -27,6 +27,8 @@ The hill in the NW is called the **Hill of the Gods**, home to all temples. Wate
 - **Grudge Brigade Headquarters** — A small building on the outskirts of town; home of the [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary company. The party often recruits mercenaries here.
 - **Imperial Road** — The road running through Gosterwick.
 - **Totey Lake** — Fishermen operate by the docks. Near the [[Baliff's Truncheon]]. Some of the fishing and boating people can swim, and one is willing to give swimming lessons.
+- **Town Walls** — A dirt berm with two gatehouses, protecting a walled keep in the northeast by a lake.
+- **Arcane Practitioners' Club** — An isolated building located near the town.
 
 ## Notable Establishments
 
@@ -34,6 +36,7 @@ The hill in the NW is called the **Hill of the Gods**, home to all temples. Wate
 - **Astableon's Bookstore** — Bookstore in town. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])
 - **Taverns**: Baliff's Truncheon, Dripping Hog, Rusty Gauntlet, Old Well, Pyrite, Grinning Skull, Muddy Puddle, Three Hanged Men, Pig and Whistle.
 - **Inns**: Yellow Cloak, Stunned Acolyte.
+- **Torunn the Smith** — A renowned Wiskin smith specializing in metal weapons and armor.
 
 ## Trades & Notable Residents
 

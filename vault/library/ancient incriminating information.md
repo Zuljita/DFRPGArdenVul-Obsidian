@@ -17,7 +17,8 @@ TODO: Add description.
 | 2026-03-20 | p.270 | — | 1 | No | Party |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+- Evidence that Emperor Marcion V may have been fathered by Taxiarch Lucius of the Imperial Tagmata, and that the Cult of Set was bribed to suppress this fact.
+- Documents alleging Lucius Krakteros maintained three separate families in Archontos, Narsileon, and Arden Vul approximately 1200 years ago.
 
 ## Reading Events
-TODO: Sessions where players read or interacted with this work.
+- [[notes/Discord Summary 2026-W21.md|Discord Summary 2026-W21]] - Vael read this work.

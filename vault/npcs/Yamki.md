@@ -31,6 +31,8 @@ Massive four‑armed baboon chieftain encountered near the [[locations/Howling C
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]] — The party promised Yamki they would go after The Thane soon.
 - Coordinates at a distance with fellow baboon leader [[npcs/Trefko.md|Trefko]].
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a]]: Guided the party south through the caves but would not accompany them into rival territory.
+- Fellow baboon leader to [[npcs/Trefko.md|Trefko]], coordinating at a distance.
+- In Session 34a, guided the party south through the caves but refused to accompany them into rival territory.
 
 ## Roles & Influence
 - Local leader among the baboons; controls access and behavior near key choke points.

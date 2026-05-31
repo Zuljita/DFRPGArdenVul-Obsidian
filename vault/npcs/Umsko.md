@@ -11,4 +11,4 @@ aliases:
 
 ## Appears In
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
-
+- [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
