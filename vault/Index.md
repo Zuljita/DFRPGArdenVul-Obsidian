@@ -13,4 +13,4 @@ title: Index
 - [[library/Index|Library]] (books, letters, maps, tablets, data crystals)
 - [[Party Armory]] (427 items · 7 categories · 63 destroyed)
 - [[notes/Arden Vul GM Source Index.md|Arden Vul GM Source Index]]
-- [[notes/weekly-digests/Index|Weekly Discord Digests]]
+- [[notes/Discord Summary 2025-W09.md|Discord Summaries]] (weekly campaign digests from Discord)

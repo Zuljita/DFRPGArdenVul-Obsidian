@@ -1,9 +1,11 @@
 ---
-date: 2025-03-31
-date_range: 2025-03-31 to 2025-04-06
-messages: 75
+title: "Discord Summary 2025-W13"
+tags:
+  - discord-summary
+  - canonical-source
 week_ending: 2025-04-04
 source_type: private-discord-weekly-digest
+source_week: week-ending-2025-04-04-2300-central
 ---
 
 # Discord Summary 2025-W13

@@ -325,6 +325,7 @@ def load_local_sources() -> dict:
         "action_items_enabled": bool(config.get("action_items_enabled", False)),
         "action_items_apply": bool(config.get("action_items_apply", False)),
         "action_items_latest_sessions": int(config.get("action_items_latest_sessions", 8) or 8),
+        "action_items_latest_discord_weeks": int(config.get("action_items_latest_discord_weeks", 4) or 4),
         "action_items_max_items": int(config.get("action_items_max_items", 50) or 50),
     }
 
@@ -1446,13 +1447,25 @@ def adjacent_paths(sorted_paths: list[Path], selected: set[Path]) -> set[Path]:
     return out
 
 
-def import_discord_digests(apply: bool, changes: list[str]) -> set[Path]:
+def import_discord_digests(apply: bool, changes: list[str], force_update: bool = False) -> set[Path]:
+    """Import Discord digests into vault Discord Summary files.
+
+    With force_update=True, existing summaries are overwritten when the source
+    digest has changed (comparing body content, ignoring frontmatter).
+    """
     created: set[Path] = set()
     for week_end, folder, digest in iter_external_digests():
         target = discord_summary_path_for_week_end(week_end)
-        if target.exists():
+        if target.exists() and not force_update:
             continue
         text = build_discord_summary_markdown(week_end, folder, digest)
+        if target.exists():
+            # Only update if the body (post-frontmatter) actually changed
+            existing = read_text(target)
+            existing_body = re.sub(r"^---\n.*?\n---\n", "", existing, flags=re.DOTALL).strip()
+            new_body = re.sub(r"^---\n.*?\n---\n", "", text, flags=re.DOTALL).strip()
+            if existing_body == new_body:
+                continue
         write_text_if_changed(target, text, apply, changes)
         created.add(target)
     return created
@@ -1568,10 +1581,18 @@ def entity_pages() -> list[EntityPage]:
     return pages
 
 
+PARTY_ARMORY_PATH = VAULT / "Party Armory.md"
+
+
 def latest_canonical_sources(limit: int = 5) -> list[Path]:
     sessions = list_session_pages()[-limit:]
     summaries = all_discord_summary_paths()[-limit:]
-    return [path for _sid, path in sessions] + summaries
+    paths = [path for _sid, path in sessions] + summaries
+    # Party Armory is ground-truth current inventory — always include it so items
+    # the party currently holds but lack vault pages can be proposed.
+    if PARTY_ARMORY_PATH.exists():
+        paths.append(PARTY_ARMORY_PATH)
+    return paths
 
 
 def normalize_space(value: str) -> str:
@@ -2485,7 +2506,7 @@ def build_source_manifest(feed_url: str = BLOG_FEED_URL) -> dict:
     }
 
 
-def import_low_risk(apply: bool, blog_feed: str = BLOG_FEED_URL) -> dict:
+def import_low_risk(apply: bool, blog_feed: str = BLOG_FEED_URL, force_discord_update: bool = False) -> dict:
     validation = validate_state()
     if not validation["ok"]:
         return {"ok": False, "error": "validation_failed", "validation": validation}
@@ -2493,7 +2514,7 @@ def import_low_risk(apply: bool, blog_feed: str = BLOG_FEED_URL) -> dict:
     changes: list[str] = []
     existing_discord = all_discord_summary_paths()
     existing_sessions = all_session_paths()
-    created_discord = import_discord_digests(apply, changes)
+    created_discord = import_discord_digests(apply, changes, force_update=force_discord_update)
     created_sessions = import_blog_sessions(apply, changes, blog_feed)
     sanitize_discord_summary_sources(apply, changes)
 
@@ -3324,20 +3345,29 @@ def build_new_entity_proposals(source_limit: int = 10, candidate_limit: int = 50
             if nearest_sim >= NEW_ENTITY_FUZZY_THRESHOLD:
                 continue
             ev = extract_candidate_evidence(name, unique_sources[:5])
-            if len(ev) < NEW_ENTITY_MIN_MENTIONS:
+            from_armory = any(str(s.get("path", "")) == str(PARTY_ARMORY_PATH.relative_to(ROOT)) or
+                               str(s.get("path", "")).endswith("Party Armory.md")
+                               for s in ev)
+            min_mentions = 1 if from_armory else NEW_ENTITY_MIN_MENTIONS
+            if len(ev) < min_mentions:
                 continue
             proposal_id = hashlib.sha1(f"{kind}|{name}".encode("utf-8")).hexdigest()[:12]
+            rationale = (
+                f"Listed in Party Armory (current inventory); "
+                f"no existing vault/{IAC_KIND_TO_DIR[kind]}/ page found "
+                f"(nearest match similarity={nearest_sim:.2f})."
+            ) if from_armory else (
+                f"Mentioned across {len(ev)} canonical sources; "
+                f"not found in existing vault/{IAC_KIND_TO_DIR[kind]}/ pages "
+                f"(nearest match similarity={nearest_sim:.2f})."
+            )
             out.append(NewEntityCandidate(
                 name=name,
                 kind=kind,
                 canonical_target_dir=IAC_KIND_TO_DIR[kind],
                 mention_count=len(ev),
                 sources=ev,
-                rationale=(
-                    f"Mentioned across {len(ev)} canonical sources; "
-                    f"not found in existing vault/{IAC_KIND_TO_DIR[kind]}/ pages "
-                    f"(nearest match similarity={nearest_sim:.2f})."
-                ),
+                rationale=rationale,
                 nearest_existing=nearest_path,
                 nearest_distance=nearest_sim,
                 proposal_id=proposal_id,
@@ -4727,6 +4757,51 @@ def latest_session_pages(limit: int) -> list[Path]:
     return sessions[-limit:] if limit > 0 else []
 
 
+def latest_discord_summary_pages(limit: int) -> list[Path]:
+    pattern = re.compile(r"^Discord Summary (\d{4}-W\d{2})\.md$")
+    notes_dir = VAULT / "notes"
+    matches = [(m.group(1), p) for p in notes_dir.glob("Discord Summary *.md") if (m := pattern.match(p.name))]
+    matches.sort(key=lambda x: x[0])
+    return [p for _, p in matches[-limit:]] if limit > 0 else []
+
+
+def discord_summary_action_excerpt(text: str, max_chars: int = 4000) -> str:
+    """Extract Unresolved Threads, Tactical Planning, and Item Intelligence from a Discord summary.
+
+    Handles both ## numbered-heading format (older summaries) and **Bold** standalone-line
+    format (newer summaries).
+    """
+    wanted = {"unresolved threads", "tactical planning", "item intelligence"}
+    parts: list[str] = []
+
+    # Try ## heading extraction (strips leading "N. " from numbered headings)
+    heading_matches = list(re.finditer(r"^##\s+(.+?)\s*$", text, flags=re.MULTILINE))
+    for idx, match in enumerate(heading_matches):
+        heading = re.sub(r"^\d+\.\s+", "", match.group(1)).strip().lower()
+        if heading not in wanted:
+            continue
+        end = heading_matches[idx + 1].start() if idx + 1 < len(heading_matches) else len(text)
+        parts.append(text[match.start():end].strip())
+
+    if parts:
+        return _truncate_middle("\n\n".join(parts), max_chars)
+
+    # Fall back to **Bold** standalone-line section headers
+    bold_matches = list(re.finditer(
+        r"^\*\*(" + "|".join(re.escape(h.title()) for h in wanted) + r")\*\*\s*$",
+        text, flags=re.MULTILINE | re.IGNORECASE,
+    ))
+    for idx, match in enumerate(bold_matches):
+        end = bold_matches[idx + 1].start() if idx + 1 < len(bold_matches) else len(text)
+        parts.append(text[match.start():end].strip())
+
+    if parts:
+        return _truncate_middle("\n\n".join(parts), max_chars)
+
+    # No structured sections found — return truncated full text
+    return _truncate_middle(text, max_chars)
+
+
 def markdown_section_excerpt(text: str, headings: set[str], max_chars: int = 5000) -> str:
     parts: list[str] = []
     matches = list(re.finditer(r"^##\s+(.+?)\s*$", text, flags=re.MULTILINE))
@@ -4741,7 +4816,7 @@ def markdown_section_excerpt(text: str, headings: set[str], max_chars: int = 500
     return _truncate_middle("\n\n".join(parts), max_chars)
 
 
-def action_item_context(latest_session_count: int) -> str:
+def action_item_context(latest_session_count: int, latest_discord_weeks: int = 4) -> str:
     blocks: list[str] = []
     if ACTION_ITEMS_PATH.exists():
         blocks.append(
@@ -4771,11 +4846,19 @@ def action_item_context(latest_session_count: int) -> str:
             f"## RECENT SESSION: {path.relative_to(ROOT).as_posix()}\n"
             + text
         )
+    for path in latest_discord_summary_pages(latest_discord_weeks):
+        excerpt = discord_summary_action_excerpt(read_text(path), max_chars=3000)
+        if excerpt.strip():
+            blocks.append(
+                f"## RECENT DISCORD SUMMARY (Unresolved Threads / Tactical Planning / Item Intelligence): "
+                f"{path.relative_to(ROOT).as_posix()}\n"
+                + excerpt
+            )
     return "\n\n---\n\n".join(blocks)
 
 
-def action_item_prompt(latest_session_count: int, max_items: int) -> str:
-    context = action_item_context(latest_session_count)
+def action_item_prompt(latest_session_count: int, max_items: int, latest_discord_weeks: int = 4) -> str:
+    context = action_item_context(latest_session_count, latest_discord_weeks)
     return (
         "You maintain an Obsidian campaign note named vault/notes/Active Action Items.md for an Arden Vul DFRPG campaign.\n\n"
         "Use ONLY the provided source context. The older thread notes are useful historical inventories, but recent session "
@@ -4790,8 +4873,14 @@ def action_item_prompt(latest_session_count: int, max_items: int) -> str:
         "items completed/resolved only when the provided context explicitly says they were completed, resolved, found, "
         "rescued, or otherwise closed. Prefer the newest decisive citation for each status. Keep uncertain lore as Open "
         "Mysteries or Watch List rather than Active Quests.\n\n"
+        "Discord summary excerpts (labeled RECENT DISCORD SUMMARY) are also valid sources. They appear in the context "
+        "under 'Unresolved Threads', 'Tactical Planning', and 'Item Intelligence' sections. Treat items listed under "
+        "'Unresolved Threads' in a Discord summary as open threads eligible for the Watch List or Open Mysteries "
+        "unless a later session explicitly resolves them. Items listed under 'Tactical Planning' or 'Item Intelligence' "
+        "that describe an explicit party obligation or pending decision are eligible for Active Quests.\n\n"
         "Each item must cite at least one source path and a short verbatim excerpt from that source. Use repo-relative paths "
-        "like vault/sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md.\n\n"
+        "like vault/sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md or "
+        "vault/notes/Discord Summary 2026-W05.md.\n\n"
         f"Return no more than {max_items} items. Return strict JSON only, no markdown fences:\n"
         "{\n"
         '  "items": [\n'
@@ -4906,8 +4995,8 @@ def action_item_llm_json(prompt: str) -> dict:
     raise RuntimeError(f"action item LLM failed after 3 attempts: {last_error}")
 
 
-def build_action_item_inventory(latest_sessions: int = 8, max_items: int = 50) -> dict:
-    response = action_item_llm_json(action_item_prompt(latest_sessions, max_items))
+def build_action_item_inventory(latest_sessions: int = 8, max_items: int = 50, latest_discord_weeks: int = 4) -> dict:
+    response = action_item_llm_json(action_item_prompt(latest_sessions, max_items, latest_discord_weeks))
     raw_items = response.get("items") or []
     if not isinstance(raw_items, list):
         raw_items = []
@@ -5056,9 +5145,9 @@ def normalize_vault_wikilink(link: str) -> str | None:
     return f"[[{target}|{label or Path(target).stem}]]"
 
 
-def update_action_items_safely(apply_changes: bool, latest_sessions: int, max_items: int) -> dict:
+def update_action_items_safely(apply_changes: bool, latest_sessions: int, max_items: int, latest_discord_weeks: int = 4) -> dict:
     try:
-        inventory = build_action_item_inventory(latest_sessions=latest_sessions, max_items=max_items)
+        inventory = build_action_item_inventory(latest_sessions=latest_sessions, max_items=max_items, latest_discord_weeks=latest_discord_weeks)
         applied = apply_action_item_inventory(apply_changes=apply_changes)
         return {
             "enabled": True,
@@ -5075,7 +5164,7 @@ def update_action_items_safely(apply_changes: bool, latest_sessions: int, max_it
 
 def cmd_build_action_items(args: argparse.Namespace) -> int:
     try:
-        payload = build_action_item_inventory(latest_sessions=args.latest_sessions, max_items=args.max_items)
+        payload = build_action_item_inventory(latest_sessions=args.latest_sessions, max_items=args.max_items, latest_discord_weeks=args.latest_discord_weeks)
     except Exception as exc:
         print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
         return 2
@@ -5513,7 +5602,7 @@ def cmd_vault_rag_search(args: argparse.Namespace) -> int:
 
 
 def cmd_import(args: argparse.Namespace) -> int:
-    payload = import_low_risk(args.apply, args.blog_feed)
+    payload = import_low_risk(args.apply, args.blog_feed, force_discord_update=getattr(args, "force_discord_update", False))
     print(json.dumps(payload, indent=2))
     return 0 if payload["ok"] else 2
 
@@ -5680,6 +5769,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                 action_items_result = update_action_items_safely(
                     apply_changes=bool(sources_cfg.get("action_items_apply")),
                     latest_sessions=int(sources_cfg.get("action_items_latest_sessions", 8) or 8),
+                    latest_discord_weeks=int(sources_cfg.get("action_items_latest_discord_weeks", 4) or 4),
                     max_items=int(sources_cfg.get("action_items_max_items", 50) or 50),
                 )
         except Exception as exc:
@@ -5843,6 +5933,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     build_actions = sub.add_parser("build-action-items", help="Generate a cited current action-item inventory")
     build_actions.add_argument("--latest-sessions", type=int, default=8, help="Recent session files to include as current-status evidence")
+    build_actions.add_argument("--latest-discord-weeks", type=int, default=4, help="Recent Discord summary weeks to include as supplementary context")
     build_actions.add_argument("--max-items", type=int, default=50, help="Maximum action items to keep")
     build_actions.set_defaults(func=cmd_build_action_items)
 
@@ -5873,6 +5964,7 @@ def build_parser() -> argparse.ArgumentParser:
     importer = sub.add_parser("import-low-risk", help="Import canonical Blogspot recaps and external Discord digests")
     importer.add_argument("--apply", action="store_true", help="Write changes. Omit for dry-run.")
     importer.add_argument("--blog-feed", default=BLOG_FEED_URL, help="Blogger JSON feed URL")
+    importer.add_argument("--force-discord-update", action="store_true", help="Overwrite existing Discord Summaries when revised-digest.md has changed")
     importer.set_defaults(func=cmd_import)
 
     scheduled = sub.add_parser("run-low-risk", help="Scheduled low-risk vault maintenance entry point")

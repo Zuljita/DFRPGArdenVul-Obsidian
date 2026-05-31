@@ -1,9 +1,11 @@
 ---
-date: 2025-07-07
-date_range: 2025-07-07 to 2025-07-13
-messages: 70
+title: "Discord Summary 2025-W27"
+tags:
+  - discord-summary
+  - canonical-source
 week_ending: 2025-07-11
 source_type: private-discord-weekly-digest
+source_week: week-ending-2025-07-11-2300-central
 ---
 
 # Discord Summary 2025-W27

@@ -5,6 +5,7 @@ tags:
   - canonical-source
 week_ending: 2025-12-12
 source_type: private-discord-weekly-digest
+source_week: week-ending-2025-12-12-2300-central
 ---
 
 # Discord Summary 2025-W49

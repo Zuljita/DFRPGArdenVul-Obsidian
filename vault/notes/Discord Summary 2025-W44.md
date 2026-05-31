@@ -1,9 +1,11 @@
 ---
+title: "Discord Summary 2025-W44"
 tags:
-  - note
   - discord-summary
+  - canonical-source
 week_ending: 2025-11-07
 source_type: private-discord-weekly-digest
+source_week: week-ending-2025-11-07-2300-central
 ---
 
 # Discord Summary 2025-W44

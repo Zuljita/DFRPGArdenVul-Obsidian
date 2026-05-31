@@ -1,10 +1,11 @@
 ---
-title: Discord Summary 2026-W06
+title: "Discord Summary 2026-W06"
 tags:
   - discord-summary
-  - week-06
+  - canonical-source
 week_ending: 2026-02-13
 source_type: private-discord-weekly-digest
+source_week: week-ending-2026-02-13-2300-central
 ---
 
 # Discord Summary 2026-W06
@@ -33,7 +34,7 @@ The company has focused its efforts on investigating the recent theft of a magic
 
 ### Vallium Halcyon
 *   **Town Actions:** Departed for business in Newmarket. 
-*   **Equipment Changes:** Left several personal items available for the company's use during his absence: the Ring of Free Action, Torc of Protection, and the Gauntlet of Flaming Fury.
+*   **Equipment Changes:** Left several personal items available for the company's use during his absence: the Ring of Free Action, Torc of $\text{Protection}$, and the Gauntlet of Flaming Fury.
 
 ### Ioannes Grammatikos Byzantios
 *   **Alchemy/Crafting:** Successfully brewed a Potion of Major Healing.
@@ -59,14 +60,14 @@ The company has focused its efforts on investigating the recent theft of a magic
 
 ### Thronebreaker (Mercenary)
 *   **Character Advancement:** Acquired Pickaxe Penchant-4.
-*   **Equipment Changes:** Assigned the Torc of Protection from Vallium's available gear.
+*   **Equipment Changes:** Assigned the Torc of $\text{Protection}$ from Vallium's available gear.
 
 ## 3. Lore & Discoveries
 *   **Theft Reconstruction:** Through the use of *History* and *Beast Speech*, it was determined that a thief—described as a woman with red hair, heavy makeup, and fancy armor—handed the stolen rug to a male goblin and a younger woman. The theft involved the use of magic (likely Invisibility or Apportation) and a Bag of Holding.
 *   **Undead Biology:** 
     *   **Liches:** Use phylacteries to protect their intellect from decay; information on them is largely speculative due to the rarity of survivors.
     *   **Mummies:** Resistant to cold and most physical weapons; vulnerable to fire, electricity, and holy water.
-*   **Political Climate:** The Empire does not formally recognize Lady Alexia’s claim to Gosterwick. Audun Yellow- Eyes is considered a candidate for the Drome post by Lady Alexia, though his appointment by Keko the Lame remains unconfirmed.
+*   **Political Climate:** The Empire does not formally recognize Lady Alexia’s claim to Gosterwick. Audun Yellow- $\text{Eyes}$ is considered a candidate for the Drome post by Lady Alexia, though his appointment by Keko the Lame remains unconfirmed.
 *   **Inscriptions & Correspondence:** 
     *   A Magic Mouth was discovered in the Great Hall, stating: *"The path of lord Priscus is the way to enlightenment and fulfilment. The eyes will tell you the way."*
     *   A letter from "Hellas" to Neferet, High Priestess, was recovered. It expresses refusal to relocate the contents of a special library due to the risks of necromancy and the public nature of Neferet's new residence. The author notes that Neferet may have already claimed the Circlet from the archon but warns against stealing the heritage of Lord Thoth.

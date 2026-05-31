@@ -1,9 +1,11 @@
 ---
+title: "Discord Summary 2025-W51"
 tags:
-  - note
   - discord-summary
+  - canonical-source
 week_ending: 2025-12-26
 source_type: private-discord-weekly-digest
+source_week: week-ending-2025-12-26-2300-central
 ---
 
 # Discord Summary 2025-W51
@@ -39,7 +41,7 @@ The company has endured a period of profound loss following a recent explosion t
 **Ioannes Grammatikos Byzantios**
 *   **Town Actions:** Purchased four additional Potions of Minor Healing. Undertook identification services for various new loot items, incurring $500 in total fees (covering a gem, two mushrooms, and investigation into a broken teleporter).
 *   **Alchemy/Crafting:** Successfully brewed a replacement Potion of Greater Healing at a discounted rate.
-*   **Research:** Investigated the history of Kel Bormol; discovered he served as the Overseer, Archmate, and Eye of Thoth during the collapse of Arden Vul approximately 1200 years ago, though no information was found regarding his parentage.
+*   **Research:** Investigated the history of Kel Bormol; discovered he served as the Overseer, Archmate, and Eye of $\text{Thoth}$ during the collapse of Arden Vul approximately 1200 years ago, though no information was found regarding his parentage.
 
 **Vaelitharon "Vael" Sunshadow**
 *   **Town Actions:** Commissioned fine, ornate +3 Spider Silk robes from Tasha ($17,700). Visited the Rarities Factor to leave a note with the assistant for Wicktrimmer regarding the cessation of spider silk orders. Sent a formal letter via diplomacy to Freydis, the steward of Lady Alexia, offering surplus bricks from the Beacon expansion for use in the town wall project. Instructed the APC personnel to copy all data from the stolen spellbook before disposing of it due to the danger posed by its original owner.
@@ -53,13 +55,13 @@ The company has endured a period of profound loss following a recent explosion t
 *   **Status/Requirements:** Requires $175 per week for expenses ($100 salary, $75 food/lodging). He is also encouraged to learn Mithric to access more of the library.
 
 ## 3. Lore & Discoveries
-*   **The History of Kel Bormol:** Identified as a high-ranking official (Overseer, Archmage, Eye) of Thoth during the fall of Arden Vul (Source: Research by Ioannes).
+*   **The History of Kel Bormol:** Identified as a high-ranking official (Overseer, Archmage, Eye) of $\text{Thoth}$ during the fall of Arden Vul (Source: Research by Ioannes).
 *   **Fael’s Mycological Guide:** A collection of known mushrooms in Northern Inthuin was documented (Source: Fael, Gosterwick Nature Foundation):
     *   *Aqua Vitae:* Can be sautéed to create a Minor Healing Potion (2-week shelf life).
     *   *Blue Trumpet & Cloud Cap:* Nutritious; Cloud Caps can produce multiple Minor Healing Potions.
     *   *Orange Lamps:* Provide emergency light for several hours after picking.
     *   *White Ribs:* Highly nutritious, but easily confused with the lethal White Bulb.
-*   **The Imperial Tagmata:** A hypothesis has been raised that the "Mailed Fist" insignia found on beastman equipment may represent the third cohort of the Imperial Tagmata (Source: Discussion by Vallium and Uvash).
+*   **The Imperial Tagmata:** A hypothesis has been $\text{raised}$ that the "Mailed Fist" insignia found on beastman equipment may represent the third cohort of the Imperial Tagmata (Source: Discussion by Vallium and Uvash).
 
 ## 4. World Rulings
 *   **Key Duplication:** Keys may be copied by Theopilus for $10 per copy.
@@ -82,7 +84,7 @@ The company intends to execute the following during the next session:
 *   **Infiltration:** Travel through the Goblin Market to reach the Beacon via the Rug, using *Levitation* and *Invisibility* to bypass security.
 *   **Exploration:** Utilize a newly commissioned map to locate the "Pit of Fire" and the "Antechamber."
 *   **Investigation:** Use *Analyze Magic* on the bronze floating head and test the stability of the teleportation squares in the room using *Scry Gate*.
-*   **Communion:** Vallium intends to commune with Thoth at the Obelisk of Answers to request one of the deity's secret names.
+*   **Communion:** Vallium intends to commune with $\text{Thoth}$ at the Obelisk of Answers to request one of the deity's secret names.
 
 ## 7. Unresolved Threads
 *   **The Theft Investigation:** Who was the thief, and do they have ties to the Benevolent Brotherhood?

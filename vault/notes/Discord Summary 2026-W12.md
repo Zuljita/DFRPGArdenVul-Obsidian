@@ -5,6 +5,7 @@ tags:
   - canonical-source
 week_ending: 2026-03-27
 source_type: private-discord-weekly-digest
+source_week: week-ending-2026-03-27-2300-central
 ---
 
 # Discord Summary 2026-W12
