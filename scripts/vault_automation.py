@@ -1586,8 +1586,18 @@ PARTY_ARMORY_PATH = VAULT / "Party Armory.md"
 
 
 def latest_canonical_sources(limit: int = 5) -> list[Path]:
-    sessions = list_session_pages()[-limit:]
-    summaries = all_discord_summary_paths()[-limit:]
+    """Return canonical sources for entity proposal scanning.
+
+    limit=0 means all sessions + all Discord summaries (full vault walk).
+    """
+    all_sessions = list_session_pages()
+    all_summaries = all_discord_summary_paths()
+    if limit <= 0:
+        sessions = all_sessions
+        summaries = all_summaries
+    else:
+        sessions = all_sessions[-limit:]
+        summaries = all_summaries[-limit:]
     paths = [path for _sid, path in sessions] + summaries
     # Party Armory is ground-truth current inventory — always include it so items
     # the party currently holds but lack vault pages can be proposed.
@@ -3995,7 +4005,8 @@ def apply_verified_new_entities(apply_changes: bool, limit: int | None = None) -
 
 
 def cmd_propose_new_entities(args: argparse.Namespace) -> int:
-    proposals = build_new_entity_proposals(source_limit=args.source_limit, candidate_limit=args.limit)
+    source_limit = 0 if getattr(args, "all_sources", False) else args.source_limit
+    proposals = build_new_entity_proposals(source_limit=source_limit, candidate_limit=args.limit)
     write_new_entity_proposal_report(proposals)
     by_kind: dict[str, int] = {}
     for p in proposals:
@@ -6264,7 +6275,8 @@ def build_parser() -> argparse.ArgumentParser:
 
     propose_new = sub.add_parser("propose-new-entities", help="Extract new entity candidates from canonical sources via IAC + filters")
     propose_new.add_argument("--source-limit", type=int, default=10, help="Latest canonical sources to scan (default 10)")
-    propose_new.add_argument("--limit", type=int, default=50, help="Maximum candidates to keep after filtering (default 50)")
+    propose_new.add_argument("--all-sources", action="store_true", help="Scan every session and Discord summary (full vault walk, ~17 min)")
+    propose_new.add_argument("--limit", type=int, default=50, help="Maximum candidates to keep after filtering (default 50; use 200+ with --all-sources)")
     propose_new.set_defaults(func=cmd_propose_new_entities)
 
     verify_new = sub.add_parser("verify-new-entities", help="LLM-verify new entity candidates against canonical source evidence")
