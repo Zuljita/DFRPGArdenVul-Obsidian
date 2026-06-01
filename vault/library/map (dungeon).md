@@ -2,6 +2,8 @@
 title: "map (dungeon)"
 type: map
 tags:
+  - site/megadungeon
+  - type/map
   - library
   - map
 ---

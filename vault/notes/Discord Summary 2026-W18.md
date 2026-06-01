@@ -46,7 +46,7 @@ The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] c
 **Ioannes Grammatikos Byzantios**
 * **Town actions taken:** Conducted propaganda efforts to promote the Goblin Forum.
 * **Alchemy/crafting attempts and results:** Successfully brewed a Potion of Fire Resistance.
-* **Research results:** Researched Rudivisha survivors (other than the [[npcs/Arena Lord.md|Arena Lord]]); uncovered a tattered report from the Archon of Arden Vul to the Logothete of the Drome in Archontos. The report claims that "survivors" of an extinct race reside within Arden Vul; specifically, [[npcs/Crallicarus.md|Crallicarus]] has assisted the Archon, while [[npcs/Melacorius.md|Melacorius]] is noted as a significant military threat.
+* **Research results:** Researched Rudivisha survivors (other than the [[npcs/Arena Lord.md|Arena Lord]]); uncovered a tattered report from the Archon of Arden Vul to the Logothete of the [[factions/Drome.md|Drome]] in Archontos. The report claims that "survivors" of an extinct race reside within Arden Vul; specifically, [[npcs/Crallicarus.md|Crallicarus]] has assisted the Archon, while [[npcs/Melacorius.md|Melacorius]] is noted as a significant military threat.
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
 
@@ -55,7 +55,7 @@ The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] c
 * **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Wisdom; the attempt resulted in a critical failure and a localized explosion, resulting in the loss of the gold spent on materials.
 * **Research results:** Studied several texts:
     * *The Betrayal*: A difficult text detailing how a Kaliyani named Lisst::stak got bored with peace after victory and twisted the minds of the Kaliyani against the Rudishva, leading to "the sickness."
-    * *Tales of Larel One-Eye*: A collection of anecdotes regarding the trickster Larel, including his tricks involving a farmer's wife, a chicken used to distract wolves, and his theft of a wizard's spellbook in the tower of Tilgo.
+    * *Tales of Larel One-Eye*: A collection of anecdotes regarding the trickster [[npcs/Larel One-Eye.md|Larel]], including his tricks involving a farmer's wife, a chicken used to distract wolves, and his theft of a wizard's spellbook in the tower of Tilgo.
     * *On the Wars of the Old Ones with the Trolls*: A tactical history of Archontean military campaigns against the Varumani.
     * Continued study of spoken Varumani and written Rudishva.
 * **Character advancement:** Continued writing the "Chronicle of the [[factions/Right for Riches Company.md|Right for Riches Company]] By Vaelitharon 'Vael' Sunshadow."
@@ -67,7 +67,7 @@ The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] c
 * **Equipment changes:** None this week.
 
 **Lore & Discoveries**
-* **The "Hack's Special":** Information gathered via Vallium indicates that a halfling thug named Plumthorn sells a dangerous narcotic known as "mushroom ale" under this name; consumption of the substance renders the user subject to suggestion. (Source: Local rumors/Vallium).
+* **The "Hack's Special":** Information gathered via [[pcs/Vallium Halcyon.md|Vallium]] indicates that a halfling thug named [[npcs/Phlebotomas Plumthorn.md|Plumthorn]] sells a dangerous narcotic known as "mushroom ale" under this name; consumption of the substance renders the user subject to suggestion. (Source: Local rumors/Vallium).
 * **Historical Heists:** The *Book of Night Maneuvers* contains records of eight legendary heists. (Source: *Book of Night Maneuvers*).
 * **The Kaliyani Schism:** Historical records indicate that Lisstak's boredom with peace led him to manipulate the Kaliyani against the Rudishva, prompting many to seek protection from "the old enemy." (Source: *The Betrayal*).
 * **Extinct Race Survivors:** Reports confirm the presence of dangerous, sorcery-adept beings within Arden Vul, specifically naming Crallicarus and Melacorius. (Source: Archon's Report via Ioannes).
@@ -85,7 +85,7 @@ The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] c
 
 **Tactical Planning**
 * **Session 51 Objectives:**
-    * Consult Lady Alexia regarding the reward for retrieving the Iron Circlet.
+    * Consult [[npcs/Lady Alexia Basileon.md|Lady Alexia]] regarding the reward for retrieving the Iron Circlet.
     * Utilize Rugs for travel to the [[locations/Beacon.md|Beacon]] and provide [[npcs/Basil.md|Basil]] with delve plans.
     * Use the Rudishva Teleportation Pad to reach the Bastion, employing Salamander Amulets and Rugs to mitigate fire trap risks.
     * Access the cavern containing the statue mimic using the black Rudishva card.
@@ -94,5 +94,5 @@ The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] c
 
 **Unresolved Threads**
 * **The Lady Alexia Negotiation:** The company has yet to decide what specific reward or favor to request from Lady Alexia in exchange for the regalia.
-* **Tower Security:** A decision must be reached on how to secure the Tower of Scrutiny area to prevent incursions by the Children of Deino or the Apes.
+* **Tower Security:** A decision must be reached on how to secure the Tower of Scrutiny area to prevent incursions by the [[factions/Children of Deino.md|Children of Deino]] or the Apes.
 * **The Tablet of the Beacon:** The exact location and method of retrieval remain a primary objective for the next expedition.

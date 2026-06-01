@@ -1,6 +1,10 @@
 ---
 tags:
+  - type/tower
+  - site/forum
   - location
+related_entities:
+  - [[locations/Forum of Set.md|Forum of Set]]
 ---
 
 # Square Tower (East of Forum)

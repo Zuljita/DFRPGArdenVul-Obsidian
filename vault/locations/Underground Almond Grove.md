@@ -1,5 +1,6 @@
 ---
 tags:
+  - site/arden-vul
   - location
 ---
 

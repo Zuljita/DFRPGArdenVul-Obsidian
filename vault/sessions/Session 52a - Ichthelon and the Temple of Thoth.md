@@ -35,7 +35,7 @@ Cool, fair
 
 [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]], ruler of [[locations/Gosterwick.md|Gosterwick]]
 
-[[npcs/Basil.md|Basil]], Right for Riches employee
+[[npcs/Basil.md|Basil]], [[factions/Right for Riches Company.md|Right for Riches]] employee
 [[npcs/Akla-Chah.md|Akla-Chah]], [[factions/Rudishva.md|Rudishva]] AI
 
 [[npcs/Stamelis.md|Stamelis]], Librarian Emeritus of [[npcs/Thoth.md|Thoth]]

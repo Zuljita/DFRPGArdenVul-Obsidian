@@ -1,6 +1,10 @@
 ---
 tags:
+  - type/inn
+  - site/gosterwick
   - location
+identity_hints:
+  - one of the two primary inns in Gosterwick
 ---
 
 # The Stunned Acolyte

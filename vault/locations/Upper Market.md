@@ -1,10 +1,14 @@
 ---
 title: "Upper Market"
 tags:
+  - status/merged
+  - session/2
   - location
   - redirect
 redirect_to: vault/locations/Gosterwick.md
 status: redirect
+identity_hints:
+  - market area with stalls run by Marla and Cassie
 ---
 # Upper Market
 

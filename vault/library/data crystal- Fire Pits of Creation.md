@@ -2,6 +2,8 @@
 title: "data crystal: Fire Pits of Creation"
 type: data-crystal
 tags:
+  - session/2026-w05
+  - type/data-crystal
   - title/fire-pits-of-creation
   - site/forge-of-creation
   - site/arden-vul
@@ -27,4 +29,4 @@ TODO: Add description.
 - The Forge of Creation: A forge within Arden Vul utilized by the Rudishva and Kaliyani that integrates technology and magic, requiring specific temperature, chthonic energy, and phase settings alongside raw materials like arcanum and lava.
 
 ## Reading Events
-TODO: Sessions where players read or interacted with this work.
+- [[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]] - Players read this work.

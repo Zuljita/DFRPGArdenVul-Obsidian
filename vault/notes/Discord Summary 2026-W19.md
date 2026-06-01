@@ -29,24 +29,24 @@ The company Chrysalis engaged in extensive scholarly pursuits and propaganda eff
 
 **Events & Actions by Character**
 
-**Uvash Edzuson**
+**[[pcs/Uvash Edzuson.md|Uvash Edzuson]]**
 * **Town actions taken:** Conducted proselytizing efforts throughout town, sharing tales of the company's recent victory over wights to bolster the prestige of his companions (while omitting the details of their grave-robbing activities). He has begun compiling a personal notebook documenting his encounters with various undead entities.
 * **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Dexterity; the attempt was unsuccessful.
 * **Research results:** Investigated the "worm-tendril-things" encountered in the caverns; identified them as Tenebrous Worms, noting that their bristles contain paralysis poison and they consume prey alive. He also read *The Honorable Life of Ligaruis, Archon*, a Mithric text detailing the life of the man who became Archon of Arden Vul and patriarch of the Ligarion clan. He sought a mentor for the study of undead lore, though no suitable teacher has been located.
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
 
-**Vallium Halcyon**
+**[[pcs/Vallium Halcyon.md|Vallium Halcyon]]**
 * **Town actions taken:** Paid 125 gold to increase Carousing proficiency by +2. He also proposed commissioning [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]] to investigate the legitimacy of a property in [[locations/Archontos.md|Archontos]] for a fee of 100 gold; the expense was approved. During carousing, he encountered Franalis of the company [[factions/Arcane Vengeance.md|Arcane Vengeance]], who shared news regarding magic silver eyes.
 * **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Agility; the attempt was unsuccessful.
 * **Research results:** Investigated the Archontos property listed on a recently purchased deed; no information regarding the property could be found (Dead end). Read the *Canticle of Revelation*, which details how Thoth revealed language, magic, and knowledge to humanity.
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
 
-**Ioannes Grammatikos Byzantios**
-* **Town actions/Propaganda actions taken:** Conducted propaganda efforts to promote the deeds of Right for Riches, specifically highlighting the company's service to King Wiskenim and the prowess of Vaelitharon Sunshadow.
+**[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]]**
+* **Town actions/Propaganda actions taken:** Conducted propaganda efforts to promote the deeds of Right for Riches, specifically highlighting the company's service to [[npcs/Weskenim.md|King Wiskenim]] and the prowess of Vaelitharon Sunshadow.
 * **Alchemy/crafting attempts and results:** Successfully brewed Liquid Ice.
-* **Research results:** Researched Settite burial practices and eschatology; discovered that the Settites generally favor death, with burial customs varying significantly based on the wealth and power of the deceased. He also investigated whether the Settites have contact with "Elvis."
+* **Research results:** Researched Settite burial practices and eschatology; discovered that the Settites generally favor death, with burial customs varying significantly based on the wealth and power of the deceased. He also investigated whether the [[factions/Settites.md|Settites]] have contact with "Elvis."
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
 
@@ -86,7 +86,7 @@ The company has proposed a plan for Session 52:
 * **Exploration Path:** Utilize Rugs to reach the [[locations/Beacon.md|Beacon]], then use the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to access the Vault. The route will proceed through the acidic pool room toward the room containing the Chaotic Sweat.
 * **Goblin Forum:** Deliver food supplies and collect outstanding funds; check in with [[npcs/Gribble.md|Gribble]] regarding local stability.
 * **Settite Area Clearing:** Prioritize clearing the area around Theskalon's tomb, specifically the northern hallway from the Dead Inside entrance and the southern sarcophagi/niches.
-* **Advanced Scouting:** Utilize *See Secrets* to inspect newly discovered rooms near Theskalon's Tomb and explore the hallways between the Red Bridge and the basket elevator.
+* **Advanced Scouting:** Utilize *See Secrets* to inspect newly discovered rooms near Theskalon's Tomb and explore the hallways between the [[locations/Red Bridge of Set.md|Red Bridge]] and the basket elevator.
 
 **Unresolved Threads**
 * **The Archontos Property:** Whether the legitimacy of the property on Vallium’s deed can be verified via Barnaby Goodbarrel.

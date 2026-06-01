@@ -57,7 +57,7 @@ title: Party Armory
 | magic 6-armed statue, stands guard if activated, command word in [[factions/Rudishva.md|Rudishva]] on bottom of foot, shrieks and confuses if destroyed | 3 | p.471 | $10,000 | 2025-11-21 | — |
 | magic deck of 22 ivory plaques with highly random effects, some good some bad (anyone) | 1 | p.275 | $10,000 | 2026-03-20 | — |
 | magic deck of 22 ivory plaques with highly random effects, some good some bad (mages only) | 1 | p.275 | $10,000 | 2026-03-20 | — |
-| Matched pair of Rugs of Instant Access (1-hex, SM 0 person can stand on one, Concentrate, say command word, appear on other, Range ?) | 1 | p.189 | $20,000 | 2025-10-17 | — |
+| Matched pair of [[items/Rugs of Instant Access.md|Rugs of Instant Access]] (1-hex, SM 0 person can stand on one, Concentrate, say command word, appear on other, Range ?) | 1 | p.189 | $20,000 | 2025-10-17 | — |
 | melted artifact - looks like one of the artifacts in the Beacon except melted | 0 | p.614 | $10 | 2026-01-23 | — |
 | Mistral: fine balanced scimitar (curved non-thrusting broadsword), +2 Acc/Puissance, seems to have additional hidden powers | 1 | p.305 | $20,000 | 2025-11-28 | — |
 | Non-functioning teleporter | 1 | p.TA-18 | $100 | 2025-12-19 | — |
@@ -309,7 +309,7 @@ title: Party Armory
 | large bronze key to ? | 1 | p.193 | $0 | 2025-11-28 | — |
 | large flask of non-magical liquid  - no idea | 1 | p.614 | $10 | 2026-01-23 | — |
 | large keys | 3 | p.129 | — | 2026-04-10 | — |
-| lesser Rudishva power supply | 1 | p.874 | $25 | 2025-11-14 | — |
+| lesser [[factions/Rudishva.md|Rudishva]] power supply | 1 | p.874 | $25 | 2025-11-14 | — |
 | mirror and frame | 3 | p.150 | $0 | 2025-10-24 | — |
 | patches for recovering [[items/Scepter of the Goblins.md|Scepter of the Goblins]] | 0 | — | — | 2026-01-09 | — |
 | Plumthorn's keys | 3 | p.164 | — | 2025-10-10 | — |
@@ -363,7 +363,7 @@ title: Party Armory
 | pearl (gem) | 1 | p.305 | $75 | 2025-11-28 | — |
 | set of lead soldiers | 0 | p.619 | $125 | 2026-05-08 | — |
 | silver ewer | 1 | p.275 | $35 | 2026-02-06 | — |
-| silver plate with pictures of varuda, [[factions/Varumani.md|varumani]], kaliyani | 1 | p.361 | $110 | 2026-02-06 | — |
+| silver plate with pictures of varuda, [[factions/Varumani.md|varumani]], [[factions/Kaliyani.md|kaliyani]] | 1 | p.361 | $110 | 2026-02-06 | — |
 | Silver ring with inscription from [[npcs/Lankios.md|Lankios]] to Guivrel | 0 | p.684 | $20 | 2025-12-19 | — |
 | silver Sortian eye | 1 | p.192 | — | 2026-03-27 | — |
 | small emeralds | 1 | p.313 | $400 | 2025-07-25 | — |
@@ -448,7 +448,7 @@ title: Party Armory
 | Rudishva corpse | 3 | p.870 | $0 | 2025-11-21 | — |
 | scroll: Find Familar (allows gaining DF5 Common Familiar advantage) | 148 | p.150 | $700 | 2025-07-11 | — |
 | Seventeen Uses of a Dead Troll | 1 | p.151 | $0 | 2026-01-09 | — |
-| silver ankh (fits in obelisk) | 1 | p.99 | — | 2025-04-25 | — |
+| silver ankh (fits in [[locations/Obelisk.md|obelisk]]) | 1 | p.99 | — | 2025-04-25 | — |
 | silver bar | 1 | p.187 | $25 | 2025-04-18 | — |
 | single bracer of Haste +1 (non-functional without another) | 1 | p.237 | $50 | 2025-05-23 | — |
 | Sixteen Steps to Successful Administration | 1 | p.151 | $50 | 2026-01-09 | — |

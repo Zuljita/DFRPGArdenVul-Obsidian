@@ -1,7 +1,10 @@
 ---
 title: Waterfall
 tags:
+  - status/unexplored
   - location
+identity_hints:
+  - site of an unopened iris door
 ---
 # Waterfall
 

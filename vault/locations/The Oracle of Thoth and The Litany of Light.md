@@ -1,6 +1,8 @@
 ---
 title: The Oracle of Thoth and The Litany of Light
 tags:
+  - site/well-of-light
+  - session/22
   - tradition/thothian
   - location
 ---

@@ -2,6 +2,11 @@
 title: Wet Caves
 tags:
   - location
+related_entities:
+  - [[npcs/Temrin.md|Temrin]]
+  - [[npcs/Killick.md|Killick]]
+  - [[locations/Varumani Lifts.md|Varumani Lifts]]
+  - [[locations/Temple of Set.md|Temple of Set]]
 ---
 
 # Wet Caves
@@ -11,6 +16,9 @@ A cave region traversed by the party on routes between Goblintown and Set-linked
 
 ## Notes
 - In [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]], the party passed through the Wet Caves while following [[npcs/Temrin.md|Temrin]]'s map toward the [[locations/Temple of Set.md|Temple of Set]].
+- Killick, a goblin leader and the "Big Boss of the Wet Caves," reports to King Weskenim.
+- The party encountered Killick in the caves during their transit to the Goblin Market.
+- Killick can provide directions to the Troll Lifts.
 
 ## Sessions
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]

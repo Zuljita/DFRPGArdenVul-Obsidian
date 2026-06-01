@@ -1,6 +1,7 @@
 ---
 title: Varumani Lifts
 tags:
+  - site/great-chasm
   - location
 aliases:
   - Varumani Lift
@@ -8,6 +9,11 @@ aliases:
 appears_in:
   - "Session 39 - Diving for the Yellow Card"
   - "Session 46 - The Arena Lord and the Inn of the Lost"
+related_entities:
+  - [[locations/Wet Caves.md|Wet Caves]]
+  - [[locations/Sundered Span.md|Sundered Span]]
+  - [[locations/Great Chasm.md|Great Chasm]]
+  - [[factions/Varumani.md|Varumani]]
 ---
 
 # Varumani Lifts

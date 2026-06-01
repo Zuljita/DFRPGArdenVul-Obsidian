@@ -23,6 +23,7 @@ TBD
 ## Inhabitants
 
 TBD
+- [[factions/Cult of Set.md|Cult of Set]] (active in and around the ruins)
 
 ## Notes
 

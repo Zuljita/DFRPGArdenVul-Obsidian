@@ -1,5 +1,8 @@
 ---
 tags:
+  - site/docks
+  - session/2025-w22
+  - session/2025-w19
   - location
 ---
 

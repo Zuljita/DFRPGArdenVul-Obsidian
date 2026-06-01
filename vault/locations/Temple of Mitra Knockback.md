@@ -1,6 +1,7 @@
 ---
 title: Temple of Mitra Knockback
 tags:
+  - session/23c
   - tradition/mitran
   - location
 ---

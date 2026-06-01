@@ -1,7 +1,10 @@
 ---
 title: "Tomb of Ptoh"
 tags:
+  - culture/mithric
   - location
+aliases:
+  - Tomb of Ptoh-Ristus
 ---
 # Tomb of Ptoh
 
@@ -14,6 +17,7 @@ TBD — add once explicit paths are identified in session notes.
 
 ## Notes
 - Replace this stub with specific encounters/loot when a session references this location directly.
+- A room contains two white marble sarcophagi, a large black basalt sarcophagus, and animated spearman statues.
 
 ## Sources
 - No direct session recap yet linked; see nearby content under [[locations/The Tomb of Ptoh-Ristus.md|The Tomb of Ptoh‑Ristus]].

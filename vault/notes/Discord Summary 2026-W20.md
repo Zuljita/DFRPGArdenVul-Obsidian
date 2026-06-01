@@ -36,7 +36,7 @@ The company Chrysalis successfully hunted and slew a Behir within its lair, thou
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
 
-**Vallium Halcyon**
+**[[pcs/Vallium Halcyon.md|Vallium Halcyon]]**
 * **Town actions taken:** None this week.
 * **Alchemy/crafting attempts and results:** None this week.
 * **Research results:** None this week.
@@ -79,7 +79,7 @@ The company Chrysalis successfully hunted and slew a Behir within its lair, thou
 * **The Dead Inside Key:** A copy of the key to the "Dead Inside" door is to be delivered to the Goblin Keymaster.
 
 **Tactical Planning**
-* **Cloister Operations:** The company intends to prioritize clearing all portable assets from areas connected to the Cloister and mapping the existing teleportation network. Plans include traveling via the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to [[locations/Cloister.md|the Cloister]], moving west to the acidic pool room, and proceeding up to the room containing the Chaotic Sweat.
+* **Cloister Operations:** The company intends to prioritize clearing all portable assets from areas connected to the [[locations/Cloister.md|Cloister]] and mapping the existing teleportation network. Plans include traveling via the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to [[locations/Cloister.md|the Cloister]], moving west to the acidic pool room, and proceeding up to the room containing the Chaotic Sweat.
 * **Logistics & Scouting:** 
     * The party intends to travel to [[locations/Goblin Forum.md|the Goblin Forum]] to check in with [[npcs/Gribble.md|Gribble]], deliver supplies/food, and collect funds.
     * Plans are in place to continue clearing the natural caverns near the Behir lair, attempting to link them to the spiked door off the main hallway.
