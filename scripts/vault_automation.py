@@ -3465,17 +3465,30 @@ def _llm_judge_update_candidate(
     if not evidence_blocks:
         return {"verdict": "SKIP", "reason": "no evidence excerpts"}
 
+    # If the existing page is a definition stub (no Sessions/Appearances section),
+    # any in-world evidence almost certainly adds new lore worth documenting.
+    is_stub = not re.search(r"^##\s+(session|appears in|appearances|discovered|found in|lore)", existing_text, re.IGNORECASE | re.MULTILINE)
+    stub_hint = (
+        "\nNOTE: The existing page has no Sessions or Appearances section, so it is "
+        "a definition stub. Any evidence of the entity being discovered in-world "
+        "(found as a scroll, in a book, used by an NPC, acquired by the party) "
+        "qualifies as new information worth documenting even if the definition is complete.\n"
+    ) if is_stub else ""
+
     prompt = (
         f"You are auditing whether campaign evidence warrants updating a vault page.\n\n"
         f"ENTITY: [{kind}] {name}\n\n"
         f"EXISTING PAGE (truncated):\n{existing_text[:1500]}\n\n"
         f"EVIDENCE FROM SESSIONS/SUMMARIES:\n"
         + "\n\n---\n\n".join(evidence_blocks)
-        + "\n\nDoes the evidence contain NEW FACTUAL INFORMATION about this specific entity "
+        + f"\n\n{stub_hint}"
+        + "Does the evidence contain NEW FACTUAL INFORMATION about this specific entity "
         f"that is NOT already in the existing page? "
-        f"New facts = abilities, history, relationships, appearances, game rulings specific to this entity. "
+        f"New facts = abilities, history, relationships, appearances, game rulings, "
+        f"or in-world discoveries (finding a scroll, a book, an NPC using the spell, "
+        f"or the party acquiring it). "
         f"Do NOT count: tactical plans mentioning the entity, session player lists, "
-        f"incidental references, or information already present in the page.\n\n"
+        f"or incidental references where the entity is not the subject.\n\n"
         f'Return strict JSON: {{"verdict": "UPDATE", "reason": "one sentence"}} '
         f'or {{"verdict": "SKIP", "reason": "one sentence"}}'
     )
