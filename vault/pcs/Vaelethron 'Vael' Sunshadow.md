@@ -9,6 +9,8 @@ aliases:
   - Vael
   - vael
   - Sunshadow
+  - Vaelitharon
+  - Vaelitharon Sunshadow
 ---
 # Vaelethron 'Vael' Sunshadow
 

@@ -1,5 +1,7 @@
 ---
 tags:
+  - site/arden-vul
+  - type/route
   - location
 ---
 

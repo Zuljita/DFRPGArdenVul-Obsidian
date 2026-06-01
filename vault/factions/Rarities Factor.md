@@ -8,7 +8,7 @@ tags:
 ## Summary
 The [[factions/Rarities Factor.md|Rarities Factor]] is a regional merchant factor with locations in [[Gosterwick]], [[Narsileon]], and [[Newmarket]]. The [[locations/Gosterwick.md|Gosterwick]] branch is led by the goblin [[Wicktrimmer]].
 
-It is known for being the cheapest of the factors in [[locations/Gosterwick.md|Gosterwick]]. Due to a deal made regarding [[Larel's Dagger]], storage is now free for the party. They are also willing to house non-cash goods.
+It is known for being the cheapest of the factors in [[locations/Gosterwick.md|Gosterwick]]. Due to a deal made regarding [[Larel's Dagger]], storage is now free for the party. They are also willing to house non-cash goods. Services include banking, letters of credit, and shipping via mule caravan; all three locations maintain safe deposit boxes.
 
 Recording-backed logistics notes indicate the party also used the factor as a temporary endpoint for a teleport-rug connection to move bulk coin from the [[locations/Beacon.md|Beacon]].
 

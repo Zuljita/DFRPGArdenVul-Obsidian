@@ -25,7 +25,7 @@ source_week: week-ending-2026-05-08-2300-central
 **Week Ending:** 2026-05-08 23:00 CDT
 
 **Summary**
-The company Chrysalis spent the week in Gosterwick conducting research into ancient conflicts and preparing for upcoming expeditions. While alchemical endeavors yielded both great success and a disastrous explosion, new intelligence regarding the Rudishva and the nature of Arden Vul's inhabitants has been gathered.
+The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] conducting research into ancient conflicts and preparing for upcoming expeditions. While alchemical endeavors yielded both great success and a disastrous explosion, new intelligence regarding the [[factions/Rudishva.md|Rudishva]] and the nature of Arden Vul's inhabitants has been gathered.
 
 **Events & Actions by Character**
 
@@ -46,19 +46,19 @@ The company Chrysalis spent the week in Gosterwick conducting research into anci
 **Ioannes Grammatikos Byzantios**
 * **Town actions taken:** Conducted propaganda efforts to promote the Goblin Forum.
 * **Alchemy/crafting attempts and results:** Successfully brewed a Potion of Fire Resistance.
-* **Research results:** Researched Rudivisha survivors (other than the Arena Lord); uncovered a tattered report from the Archon of Arden Vul to the Logothete of the Drome in Archontos. The report claims that "survivors" of an extinct race reside within Arden Vul; specifically, Crallicarus has assisted the Archon, while Melacorius is noted as a significant military threat.
+* **Research results:** Researched Rudivisha survivors (other than the [[npcs/Arena Lord.md|Arena Lord]]); uncovered a tattered report from the Archon of Arden Vul to the Logothete of the Drome in Archontos. The report claims that "survivors" of an extinct race reside within Arden Vul; specifically, [[npcs/Crallicarus.md|Crallicarus]] has assisted the Archon, while [[npcs/Melacorius.md|Melacorius]] is noted as a significant military threat.
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
 
 **Vaelitharon "Vael" Sunshadow**
-* **Town actions taken:** Accompanied the mercenary Remagis to Gosterwick; managed a budget of $300 for Remagis's supplies and acted as an interpreter. 
+* **Town actions taken:** Accompanied the mercenary Remagis to [[locations/Gosterwick.md|Gosterwick]]; managed a budget of $300 for [[npcs/Remagis.md|Remagis]]'s supplies and acted as an interpreter. 
 * **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Wisdom; the attempt resulted in a critical failure and a localized explosion, resulting in the loss of the gold spent on materials.
 * **Research results:** Studied several texts:
     * *The Betrayal*: A difficult text detailing how a Kaliyani named Lisst::stak got bored with peace after victory and twisted the minds of the Kaliyani against the Rudishva, leading to "the sickness."
     * *Tales of Larel One-Eye*: A collection of anecdotes regarding the trickster Larel, including his tricks involving a farmer's wife, a chicken used to distract wolves, and his theft of a wizard's spellbook in the tower of Tilgo.
     * *On the Wars of the Old Ones with the Trolls*: A tactical history of Archontean military campaigns against the Varumani.
     * Continued study of spoken Varumani and written Rudishva.
-* **Character advancement:** Continued writing the "Chronicle of the Right for Riches Company By Vaelitharon 'Vael' Sunshadow."
+* **Character advancement:** Continued writing the "Chronicle of the [[factions/Right for Riches Company.md|Right for Riches Company]] By Vaelitharon 'Vael' Sunshadow."
 * **Equipment changes:** None this week.
 
 **Remagis (Mercenary)**
@@ -86,10 +86,10 @@ The company Chrysalis spent the week in Gosterwick conducting research into anci
 **Tactical Planning**
 * **Session 51 Objectives:**
     * Consult Lady Alexia regarding the reward for retrieving the Iron Circlet.
-    * Utilize Rugs for travel to the Beacon and provide Basil with delve plans.
+    * Utilize Rugs for travel to the [[locations/Beacon.md|Beacon]] and provide [[npcs/Basil.md|Basil]] with delve plans.
     * Use the Rudishva Teleportation Pad to reach the Bastion, employing Salamander Amulets and Rugs to mitigate fire trap risks.
     * Access the cavern containing the statue mimic using the black Rudishva card.
-    * Follow Temrin’s map toward the location of the Tablet of the Beacon.
+    * Follow [[npcs/Temrin.md|Temrin]]’s map toward the location of the Tablet of the Beacon.
 * **Tower of Scrutiny Operations:** The company intends to reveal unseen areas of the map, consult the Thothian librarian, and test keys on ground-level doors. Plans include analyzing the Ibis Head/Statue and using *See Secrets* to scout the tower. There is an ongoing debate regarding whether to seal the basement with earth or demolish the tower entirely.
 
 **Unresolved Threads**

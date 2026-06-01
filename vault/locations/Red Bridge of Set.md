@@ -1,9 +1,12 @@
 ---
 title: "Red Bridge of Set"
 tags:
+  - faction/cult-of-set
   - location
 aliases:
   - The Red Bridge of Set
+related_entities:
+  - [[locations/Forum of Set.md|Forum of Set]]
 ---
 
 # Red Bridge of Set

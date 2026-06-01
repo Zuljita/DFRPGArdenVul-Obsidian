@@ -17,12 +17,12 @@ title: Party Armory
 | Amulet of the Silver Tongue | 1 | p.193 | $10,000 | 2025-08-29 | — |
 | Baculus (fine balanced baton with Staff spell) | 20 | p.121 | $170 | 2025-07-18 | — |
 | badge of mailed fist | 1 | p.684 | $0 | 2025-12-19 | — |
-| Bag of Holding (25#, holds 500# or 70 ft^3) | 1 | p.1103 | $5,000 | 2026-03-13 | — |
+| [[items/Bag of Holding.md|Bag of Holding]] (25#, holds 500# or 70 ft^3) | 1 | p.1103 | $5,000 | 2026-03-13 | — |
 | bag of holding: 35#, holds 1000# or 150 ft^3 | 1 | p.233 | $7,400 | 2025-09-19 | — |
 | blue magic glass square | 0 | p.173 | $5 | 2025-11-28 | — |
 | Bones of Jaken the Proud (protection from Evil, talk to Jaken 1/month) | 0 | p.181 | $20,000 | 2026-01-09 | — |
-| Boots of Levitation (DR2, 300# limit, resize) | 3 | p.205 | $7,500 | 2026-02-20 | — |
-| Bottomless Purse (holds 9 lbs, 6 lbs don't count as encumbrance) | 1 | p.130 | $12,010 | 2025-10-24 | — |
+| [[items/Boots of Levitation.md|Boots of Levitation]] (DR2, 300# limit, resize) | 3 | p.205 | $7,500 | 2026-02-20 | — |
+| [[items/Bottomless Purse.md|Bottomless Purse]] (holds 9 lbs, 6 lbs don't count as encumbrance) | 1 | p.130 | $12,010 | 2025-10-24 | — |
 | broken Was stick | 3 | p.310 | $5 | 2025-07-25 | — |
 | Brooch of Shielding (absorbs Magical Bolt damage) | 1 | p.300 | $1,000 | 2026-04-24 | — |
 | Death Mask of Ptoh-Risus (DR1 golden helmet and mask, See Secrets 1/day, Detect Lies +4, Resist Illusion +5, Will +1, Infravision, hidden magic) | 1 | p.188 | $5,000 | 2025-10-17 | — |
@@ -35,7 +35,7 @@ title: Party Armory
 | Eyes of Pol (magic bowl of mercury, living eyes, act as camera for Pol's Book of Scrying) | 1 | p.972 | $1,000 | 2026-01-09 | — |
 | Eyes of Set (see through Set magical darkness only) | 13 | p.263 | $50 | 2026-03-13 | — |
 | Feather of Maat | 1 | p.170 | $100 | 2026-01-16 | — |
-| Gauntlet of Flaming Fury (heavy leather gauntlet DR2, any weapon held in it gets Flaming Weapon and counts as magic) | 1 | p.130 | $5,000 | 2025-10-24 | — |
+| [[items/Gauntlet of Flaming Fury.md|Gauntlet of Flaming Fury]] (heavy leather gauntlet DR2, any weapon held in it gets Flaming Weapon and counts as magic) | 1 | p.130 | $5,000 | 2025-10-24 | — |
 | Goggles of Seeing (can't be worn with helmet, See Invisible, +1 Vision within 3 yards, blind beyond 5 yards, No Peripheral Vision, linked to a statue) | 1 | p.682 | $15,000 | 2025-12-19 | — |
 | gold magic eye | 1 | p.131 | $650 | 2025-10-24 | — |
 | green glass activation square | 1 | p.683 | — | 2025-12-19 | — |
@@ -46,7 +46,7 @@ title: Party Armory
 | huge magic gold key | 1 | p.101 | $100 | 2025-11-14 | — |
 | Infernal Effigy -- can summon devil, if true name known (it's not) | 1 | p.275 | $1,000 | 2026-02-06 | — |
 | insert dwarven lifestone | 1 | p.272 | $0 | 2026-03-13 | — |
-| Larel's Sack (bag of holding, holds 500# or 70 ft^3, creates mundane item up to $15 15# 3/day, no weapons monsters sentients, conceal magic) | 1 | p.181 | $20,000 | 2025-09-12 | — |
+| [[items/Larel's Sack.md|Larel's Sack]] (bag of holding, holds 500# or 70 ft^3, creates mundane item up to $15 15# 3/day, no weapons monsters sentients, conceal magic) | 1 | p.181 | $20,000 | 2025-09-12 | — |
 | large gold magic key | 1 | p.613 | — | 2026-01-30 | — |
 | large platinum magic key | 1 | p.613 | — | 2026-01-30 | — |
 | lesser power supply | 0 | p.613 | — | 2026-01-30 | — |
@@ -82,8 +82,8 @@ title: Party Armory
 | Ring of Truth (Detect Lies-20, but wearer gains Truthfulness, which sticks after removal) | 1 | p.199 | $2,500 | 2025-11-28 | — |
 | Ring of Water Breathing | 1 | p.292 | $2,500 | 2026-05-01 | — |
 | Rudishva Useful Palm of the Cleansing Wind | 1 | p.358 | — | 2026-01-30 | — |
-| Rugs of Instant Access (purple, command word "exequor") | 1 | p.690 | $20,000 | 2025-12-26 | — |
-| Salamander Amulet | 149 | p.150 | $4,920 | 2025-07-11 | — |
+| [[items/Rugs of Instant Access.md|Rugs of Instant Access]] (purple, command word "exequor") | 1 | p.690 | $20,000 | 2025-12-26 | — |
+| [[items/Salamander Amulet.md|Salamander Amulet]] | 149 | p.150 | $4,920 | 2025-07-11 | — |
 | scarab of protection from death magic (absorbs death magic attacks) | 1 | p.233 | $10,000 | 2025-09-19 | — |
 | scrying ball, attuned to Forum of Set | 1 | p.278 | $4,000 | 2026-03-13 | — |
 | Secreta Secretorum | 1 | p.151 | $8,000 | 2026-01-09 | — |
@@ -252,7 +252,7 @@ title: Party Armory
 | powered mage scroll of Ice Sphere (6d) | 1 | p.278 | $300 | 2026-04-24 | — |
 | red lotus mushroom | 1 | p.TA-26 | $10 | 2025-12-19 | — |
 | red veil mushroom | 1 | p.TA-26 | $40 | 2025-12-19 | — |
-| Rudishva Pep Pills | 1 | p.358 | — | 2026-01-30 | — |
+| [[items/Rudishva Pep Pills.md|Rudishva Pep Pills]] | 1 | p.358 | — | 2026-01-30 | — |
 | scroll of Curse Item | 1 | p.302 | $200 | 2026-04-24 | — |
 | Scroll of Protection from Magic (Area 2, follows caster, 1d minutes) | 1 | p.359 | $650 | 2026-03-27 | — |
 | Scroll of Protection from Petrification | 1 | p.613 | — | 2026-01-30 | — |
@@ -311,7 +311,7 @@ title: Party Armory
 | large keys | 3 | p.129 | — | 2026-04-10 | — |
 | lesser Rudishva power supply | 1 | p.874 | $25 | 2025-11-14 | — |
 | mirror and frame | 3 | p.150 | $0 | 2025-10-24 | — |
-| patches for recovering Scepter of the Goblins | 0 | — | — | 2026-01-09 | — |
+| patches for recovering [[items/Scepter of the Goblins.md|Scepter of the Goblins]] | 0 | — | — | 2026-01-09 | — |
 | Plumthorn's keys | 3 | p.164 | — | 2025-10-10 | — |
 | Portable Point Defense Controller | 1 | p.358 | — | 2026-01-30 | — |
 | potion belt | 1 | p.312 | $60 | 2025-07-25 | — |

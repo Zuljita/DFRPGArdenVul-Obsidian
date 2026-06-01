@@ -19,6 +19,7 @@ import io
 import json
 import os
 import re
+import requests
 import subprocess
 import sys
 import time
@@ -3179,10 +3180,15 @@ def is_candidate_rejected(name: str, kind: str, filters: dict, ignore_npcs: set[
         return True, "all-caps single token (likely acronym/header)"
     if " " not in n and len(n) <= 4 and n[0].isupper():
         return True, "single short title-case word (likely generic)"
-    stop_key = {"NPC": "stop_npcs", "Location": "stop_location", "Faction": "stop_factions", "Item": "stop_items", "Concept": "stop_concepts"}.get(kind)
+    stop_key = {"NPC": "stop_npcs", "Location": "stop_location", "Faction": "stop_factions", "Item": "stop_items", "Concept": "stop_concepts", "Spell": "spells", "Media": "stop_items"}.get(kind)
     if stop_key:
+        # Spells in the stop list may have difficulty suffixes like " (VH)" or " (H)" that
+        # the LLM extractor omits. Strip them before comparing so "Blink Other" matches
+        # "Blink Other (VH)".
+        _DIFF_SUFFIX = re.compile(r"\s+\([VH]+\)\s*$", re.IGNORECASE)
         for stop in filters.get(stop_key, []):
-            if nl == str(stop).lower():
+            stop_norm = _DIFF_SUFFIX.sub("", str(stop)).lower().strip()
+            if nl == stop_norm or nl == str(stop).lower():
                 return True, f"in {stop_key}"
     if kind == "Item":
         for commodity in filters.get("commodity_items", []):
@@ -3248,6 +3254,26 @@ def find_nearest_existing_entity(name: str, kind: str, entity_index: dict[str, l
                 if sim > best_sim:
                     best_sim = sim
                     best_path = ent.path
+    # Cross-directory dedup: entities can legitimately live in a different directory
+    # than the proposed kind (e.g. a merchant guild proposed as Location but filed
+    # under factions/). A high-confidence name match anywhere in the vault is enough
+    # to treat it as already covered.
+    CROSS_DIR_THRESHOLD = 0.92
+    if best_sim < CROSS_DIR_THRESHOLD:
+        for dir_name, pages in entity_index.items():
+            if dir_name in dirs:
+                continue
+            for ent in pages:
+                names_to_check = [ent.title.lower()] + [a.lower() for a in ent.aliases]
+                for cand_name in names_to_check:
+                    if not cand_name:
+                        continue
+                    if _entity_name_overlap(nl, cand_name):
+                        return ent.path, 1.0
+                    sim = difflib.SequenceMatcher(None, nl, cand_name).ratio()
+                    if sim > best_sim:
+                        best_sim = sim
+                        best_path = ent.path
     return best_path, best_sim
 
 
@@ -3374,7 +3400,244 @@ def build_new_entity_proposals(source_limit: int = 10, candidate_limit: int = 50
                 status="needs-verification",
             ))
     out.sort(key=lambda c: (-c.mention_count, c.kind, c.name))
-    return out[:candidate_limit]
+    out = out[:candidate_limit]
+
+    # Post-proposal RAG filter: suppress rulebook items and existing vault pages;
+    # route entities whose matching page lacks evidence content to update suggestions.
+    kept, suppressed_by_rag, update_suggestions = rag_filter_new_entity_proposals(out)
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    proposals_dir.mkdir(parents=True, exist_ok=True)
+    if suppressed_by_rag or update_suggestions:
+        write_json(proposals_dir / "new_entity_rag_filter.json", {
+            "suppressed": suppressed_by_rag,
+            "update_suggestions": update_suggestions,
+        })
+    return kept
+
+
+def _load_rag_api_config() -> tuple[str, str | None]:
+    """Return (base_url, api_key) for the postgres RAG API."""
+    sources = load_local_sources()
+    base_url = str(sources.get("rag_api_url") or "http://localhost:8897").rstrip("/")
+    api_key = str(sources.get("rag_api_key")) if sources.get("rag_api_key") else None
+    if not api_key:
+        env_path = Path("/opt/brain/.env")
+        if env_path.exists():
+            for line in env_path.read_text(encoding="utf-8").splitlines():
+                if line.startswith("RAG_API_KEYS="):
+                    api_key = line.split("=", 1)[1].strip().split(",")[0].strip()
+                    break
+    return base_url, api_key
+
+
+def _rag_search(base_url: str, api_key: str, database: str, query: str, top_k: int = 3) -> list[dict]:
+    try:
+        resp = requests.post(
+            f"{base_url}/search/{database}",
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            json={"query": query, "top_k": top_k, "include_text": True, "max_text_chars": 500},
+            timeout=12,
+        )
+        resp.raise_for_status()
+        return resp.json().get("hits", [])
+    except Exception:
+        return []
+
+
+def _llm_judge_update_candidate(
+    name: str,
+    kind: str,
+    existing_text: str,
+    evidence_sources: list[dict],
+) -> dict:
+    """Ask the configured LLM whether evidence adds new facts to an existing vault page.
+
+    Returns {"verdict": "UPDATE"|"SKIP", "reason": "..."}. Falls back to SKIP on error
+    so a broken LLM call never causes spurious update proposals.
+    """
+    evidence_blocks = []
+    for s in evidence_sources[:4]:
+        excerpt = (s.get("excerpt") or "").strip()
+        if excerpt:
+            evidence_blocks.append(
+                f"Source: {s.get('path','')} §{s.get('section','')}\n{excerpt[:400]}"
+            )
+    if not evidence_blocks:
+        return {"verdict": "SKIP", "reason": "no evidence excerpts"}
+
+    prompt = (
+        f"You are auditing whether campaign evidence warrants updating a vault page.\n\n"
+        f"ENTITY: [{kind}] {name}\n\n"
+        f"EXISTING PAGE (truncated):\n{existing_text[:1500]}\n\n"
+        f"EVIDENCE FROM SESSIONS/SUMMARIES:\n"
+        + "\n\n---\n\n".join(evidence_blocks)
+        + "\n\nDoes the evidence contain NEW FACTUAL INFORMATION about this specific entity "
+        f"that is NOT already in the existing page? "
+        f"New facts = abilities, history, relationships, appearances, game rulings specific to this entity. "
+        f"Do NOT count: tactical plans mentioning the entity, session player lists, "
+        f"incidental references, or information already present in the page.\n\n"
+        f'Return strict JSON: {{"verdict": "UPDATE", "reason": "one sentence"}} '
+        f'or {{"verdict": "SKIP", "reason": "one sentence"}}'
+    )
+    try:
+        result = llm_chat_json(prompt, timeout=60)
+        verdict = str(result.get("verdict", "SKIP")).upper()
+        if verdict not in ("UPDATE", "SKIP"):
+            verdict = "SKIP"
+        return {"verdict": verdict, "reason": str(result.get("reason", ""))}
+    except Exception as exc:
+        return {"verdict": "SKIP", "reason": f"llm error: {str(exc)[:80]}"}
+
+
+def rag_filter_new_entity_proposals(
+    proposals: list[NewEntityCandidate],
+) -> tuple[list[NewEntityCandidate], list[dict], list[dict]]:
+    """Post-proposal filter using both RAG databases.
+
+    Three passes per candidate:
+    1. Mechanics RAG — if the candidate name appears as a bold rulebook entry, it's a
+       standard rules item; suppress it.
+    2. Arden RAG — if a dedicated vault page already covers this candidate (title
+       similarity ≥ 0.88), check whether the candidate's evidence adds new information
+       not present in the existing page.
+       - Fully covered → suppress.
+       - Existing page missing key evidence content → route to update_candidates.
+    3. Neither match → keep for new-page creation.
+
+    Returns (kept, suppressed, update_candidates).
+    update_candidates entries have: name, kind, existing_path, missing_excerpts.
+    """
+    base_url, api_key = _load_rag_api_config()
+    if not api_key:
+        return proposals, [], []
+
+    kept: list[NewEntityCandidate] = []
+    suppressed: list[dict] = []
+    update_candidates: list[dict] = []
+
+    for p in proposals:
+        nl = p.name.lower()
+        outcome: str | None = None  # "suppress" | "update" | None=keep
+        suppress_reason: str | None = None
+        update_info: dict = {}
+
+        # --- Pass 1: mechanics RAG ---
+        if p.kind in ("Item", "Spell", "Monster", "Concept", "Media"):
+            hits = _rag_search(base_url, api_key, "mechanics", p.name, top_k=1)
+            if hits:
+                text = hits[0].get("text", "").lower()
+                if f"**{nl}" in text or f"**{nl} (" in text:
+                    outcome = "suppress"
+                    suppress_reason = f"rulebook item — mechanics RAG: '{hits[0].get('title','')}'"
+
+        # --- Pass 2: Arden RAG ---
+        # Only dedicated entity pages count as existing coverage; session notes and
+        # Discord summaries merely *mention* entities and are not authoritative pages.
+        _ENTITY_PAGE_KINDS = {"npc", "pc", "location", "faction", "item", "monster", "spell", "concept", "lore", "library"}
+        _BOILERPLATE = {"auto nav", "navigation", "weekly knowledge base", "begin auto nav", "end auto nav", "canonical-source"}
+        if not outcome:
+            hits = _rag_search(base_url, api_key, "arden", p.name, top_k=8)
+            for hit in hits:
+                hit_kind = hit.get("kind", "")
+                if hit_kind not in _ENTITY_PAGE_KINDS:
+                    continue  # skip session recaps, Discord summaries, nav chunks
+                title = hit.get("title", "").lower()
+                sim = difflib.SequenceMatcher(None, nl, title).ratio()
+                # Require either strong similarity OR multi-word overlap; single shared
+                # word (e.g. "Chrysalis" inside "Lasselanta Chrysalis Ashcroft") is not
+                # enough unless similarity is also high.
+                overlap = _entity_name_overlap(nl, title)
+                if sim < 0.88 and not overlap:
+                    continue
+                if sim < 0.60 and overlap:
+                    # Overlap fired but names are very different — likely a coincidence
+                    aw = set(re.findall(r"[a-z]{3,}", nl))
+                    bw = set(re.findall(r"[a-z]{3,}", title))
+                    if len(aw & bw) < 2:
+                        continue
+                existing_path = VAULT / hit["path"].removeprefix("vault/")
+                existing_text = read_text(existing_path).lower() if existing_path.exists() else ""
+
+                # Check each evidence excerpt against the existing page content.
+                # An excerpt qualifies as "missing content" only if:
+                #   1. It actually mentions the entity name (not just retrieved by proximity)
+                #   2. It isn't boilerplate (nav, headers, Party Armory table rows)
+                #   3. Less than half its substantive words appear in the existing page
+                missing: list[str] = []
+                name_words = set(re.findall(r"[a-z]{3,}", nl))
+                for ev in p.sources:
+                    excerpt = ev.get("excerpt", "")
+                    if not excerpt:
+                        continue
+                    el = excerpt.lower()
+                    if any(b in el for b in _BOILERPLATE):
+                        continue
+                    # Skip Party Armory table rows (pipes + numbers pattern)
+                    if el.count("|") > 3 and re.search(r"\|\s*\$?\d", el):
+                        continue
+                    # Skip session/recap header metadata
+                    if re.search(r"blog_published|blog_updated|source_url|tags:.*session", el):
+                        continue
+                    # Must mention the entity name (at least one name word present)
+                    if not any(w in el for w in name_words if len(w) >= 4):
+                        continue
+                    # For near-perfect page matches, skip plan/list mentions that don't
+                    # add factual content (e.g. "plan to visit X" or "X is required")
+                    if sim >= 0.95:
+                        if re.search(r"\b(plan|planning|intend|utilize|proceed|explore|deliver|prioritize)\b", el):
+                            continue
+                    words = [w for w in re.findall(r"[a-z]{4,}", el) if w not in NEW_ENTITY_SCAFFOLDING]
+                    if len(words) < 4:
+                        continue
+                    present = sum(1 for w in words if w in existing_text)
+                    if present / len(words) < 0.5:
+                        missing.append(excerpt[:200])
+
+                if missing:
+                    # LLM second opinion: word-overlap fires on incidental mentions.
+                    # Ask the configured model whether the evidence genuinely adds new
+                    # facts about this entity that the existing page lacks.
+                    llm_verdict = _llm_judge_update_candidate(
+                        name=p.name,
+                        kind=p.kind,
+                        existing_text=existing_text,
+                        evidence_sources=p.sources,
+                    )
+                    if llm_verdict.get("verdict", "SKIP").upper() == "UPDATE":
+                        outcome = "update"
+                        update_info = {
+                            "name": p.name,
+                            "kind": p.kind,
+                            "existing_path": hit["path"],
+                            "existing_title": hit["title"],
+                            "arden_sim": round(sim, 2),
+                            "missing_excerpts": missing,
+                            "llm_reason": llm_verdict.get("reason", ""),
+                            "sources": p.sources,
+                        }
+                    else:
+                        outcome = "suppress"
+                        suppress_reason = (
+                            f"arden page exists, llm confirmed covered — "
+                            f"'{hit['title']}' ({hit['path']}, sim={sim:.2f}): "
+                            f"{llm_verdict.get('reason', '')}"
+                        )
+                else:
+                    outcome = "suppress"
+                    suppress_reason = (
+                        f"arden page exists, fully covered — "
+                        f"'{hit['title']}' ({hit['path']}, sim={sim:.2f})"
+                    )
+                break
+
+        if outcome == "suppress":
+            suppressed.append({"name": p.name, "kind": p.kind, "reason": suppress_reason})
+        elif outcome == "update":
+            update_candidates.append(update_info)
+        else:
+            kept.append(p)
+
+    return kept, suppressed, update_candidates
 
 
 def write_new_entity_proposal_report(proposals: list[NewEntityCandidate]) -> None:
@@ -3402,6 +3665,34 @@ def write_new_entity_proposal_report(proposals: list[NewEntityCandidate]) -> Non
                 ex = (s.get("excerpt", "") or "").replace("|", "\\|").replace("\n", " ")
                 lines.append(f"- `{s.get('path','')}` §{s.get('section','')}: > {ex}")
             lines.append("")
+    # Append RAG filter results if available
+    rag_filter_path = proposals_dir / "new_entity_rag_filter.json"
+    if rag_filter_path.exists():
+        try:
+            rf = json.loads(rag_filter_path.read_text(encoding="utf-8"))
+            suppressed = rf.get("suppressed", [])
+            update_sug = rf.get("update_suggestions", [])
+            if suppressed or update_sug:
+                lines.append("---")
+                lines.append("")
+                if suppressed:
+                    lines.append(f"## Suppressed by RAG filter ({len(suppressed)})")
+                    lines.append("")
+                    for s in suppressed:
+                        lines.append(f"- **[{s['kind']}] {s['name']}** — {s['reason']}")
+                    lines.append("")
+                if update_sug:
+                    lines.append(f"## Update suggestions from RAG filter ({len(update_sug)})")
+                    lines.append("")
+                    for u in update_sug:
+                        lines.append(f"### [{u['kind']}] {u['name']}")
+                        lines.append(f"**Existing page**: `{u['existing_path']}` (sim={u['arden_sim']})")
+                        lines.append("**Missing content from evidence**:")
+                        for ex in u.get("missing_excerpts", [])[:2]:
+                            lines.append(f"> {ex[:180].replace(chr(10), ' ')}")
+                        lines.append("")
+        except Exception:
+            pass
     (proposals_dir / "new_entity_proposals.md").write_text("\n".join(lines), encoding="utf-8")
 
 

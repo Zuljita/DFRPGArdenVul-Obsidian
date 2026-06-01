@@ -1,5 +1,7 @@
 ---
 tags:
+  - session/5
+  - session/16
   - location
 ---
 
@@ -15,3 +17,5 @@ TBD
 - Features a scary black portal and a bust of Selket with the teleport trap ([[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]])
 - Traps and teleporters in the area have been noted to not always work consistently.
 - A Wizard Eye lost contact with its user immediately after passing through the black portal ([[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]])
+- Has been used successfully three times in a row (as of [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16]])
+- Small spherical demons have been encountered near the black portal.

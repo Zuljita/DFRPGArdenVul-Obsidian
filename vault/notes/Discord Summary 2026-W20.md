@@ -25,11 +25,11 @@ source_week: week-ending-2026-05-22-2300-central
 **Week Ending:** 2026-05-22 23:00 CDT
 
 **Summary**
-The company Chrysalis successfully hunted and slew a Behir within its lair, though the retreat to the Beacon was marked by a harrowing ambush from a creature descending from the ceiling. Following the combat, the party processed the kill—including skinning the beast—and secured valuables before retreating via magic carpet. While the immediate threat of the Behir has passed, the company must now address cursed magical effects acquired during the encounter and prepare for rising tensions involving the Rudishva.
+The company Chrysalis successfully hunted and slew a Behir within its lair, though the retreat to [[locations/Beacon.md|the Beacon]] was marked by a harrowing ambush from a creature descending from the ceiling. Following the combat, the party processed the kill—including skinning the beast—and secured valuables before retreating via magic carpet. While the immediate threat of the Behir has passed, the company must now address cursed magical effects acquired during the encounter and prepare for rising tensions involving the Rudishva.
 
 **Events & Actions by Character**
 
-**Uvash Edzuson**
+**[[pcs/Uvash Edzuson.md|Uvash Edzuson]]**
 * **Town actions taken:** None this week.
 * **Alchemy/crafting attempts and results:** Expressed intent to consume Behir meat following the hunt.
 * **Research results:** None this week.
@@ -44,7 +44,7 @@ The company Chrysalis successfully hunted and slew a Behir within its lair, thou
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
 
-**Ioannes Grammatikos Byzantios**
+**[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]]**
 * **Town actions taken:** None this week.
 * **Alchemy/crafting attempts and results:** None this week.
 * **Research results:** None this week.
@@ -79,9 +79,9 @@ The company Chrysalis successfully hunted and slew a Behir within its lair, thou
 * **The Dead Inside Key:** A copy of the key to the "Dead Inside" door is to be delivered to the Goblin Keymaster.
 
 **Tactical Planning**
-* **Cloister Operations:** The company intends to prioritize clearing all portable assets from areas connected to the Cloister and mapping the existing teleportation network. Plans include traveling via the Rudishva Teleportation Pad to the Cloister, moving west to the acidic pool room, and proceeding up to the room containing the Chaotic Sweat.
+* **Cloister Operations:** The company intends to prioritize clearing all portable assets from areas connected to the Cloister and mapping the existing teleportation network. Plans include traveling via the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to [[locations/Cloister.md|the Cloister]], moving west to the acidic pool room, and proceeding up to the room containing the Chaotic Sweat.
 * **Logistics & Scouting:** 
-    * The party intends to travel to the Goblin Forum to check in with Gribble, deliver supplies/food, and collect funds.
+    * The party intends to travel to [[locations/Goblin Forum.md|the Goblin Forum]] to check in with [[npcs/Gribble.md|Gribble]], deliver supplies/food, and collect funds.
     * Plans are in place to continue clearing the natural caverns near the Behir lair, attempting to link them to the spiked door off the main hallway.
     * The company aims to clear the area south of the basket elevator to ensure it is safe for goblin patrols.
     * Following this, the party intends to use Scry Gate on five uncertain Teleportation Circle locations.

@@ -92,7 +92,7 @@ The wraiths had forced the group to retreat twice, but this time they were buffe
 Foundry broke hard this session, so we ran things theater of the mind. I found tracking hit points, spell durations, turn order, everyone's positions, etc. in a text file a bit annoying, but doable. I think maybe it's just using too much memory for the dinky little AWS VM I'm running it on, and I might need to move it to one with more memory, or run it locally on my PC.
 
 ## Achievements
-- Regalia: 1 XP for finding the [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]] and returning it to Lady Alexia
+- Regalia: 1 XP for finding the [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]] and returning it to [[npcs/Lady Alexia Basileon.md|Lady Alexia]]
 
 ## XP
 - Exploration: 3 new rooms, 0 XP

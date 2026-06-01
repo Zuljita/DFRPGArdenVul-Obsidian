@@ -20,4 +20,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-TODO: Sessions where players read or interacted with this work.
+- [[notes/Discord Summary 2026-W21.md|Discord Summary 2026-W21]] - Vael read this work.

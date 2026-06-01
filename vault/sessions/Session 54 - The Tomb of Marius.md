@@ -21,7 +21,7 @@ Cool, fair
 
 ## Player Characters:
 
-[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
+[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
 
 [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)

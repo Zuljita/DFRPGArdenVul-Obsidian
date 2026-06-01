@@ -1,5 +1,8 @@
 ---
 tags:
+  - type/temple
+  - site/gosterwick
+  - culture/archontean
   - location
 ---
 

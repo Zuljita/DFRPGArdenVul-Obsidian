@@ -1,6 +1,9 @@
 ---
 title: Green Fang Kobolds
 tags:
+  - status/active
+  - culture/kobold
+  - type/faction
   - faction
 ---
 # Green Fang Kobolds

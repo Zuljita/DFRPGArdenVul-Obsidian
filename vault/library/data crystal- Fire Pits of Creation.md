@@ -2,8 +2,15 @@
 title: "data crystal: Fire Pits of Creation"
 type: data-crystal
 tags:
+  - title/fire-pits-of-creation
+  - site/forge-of-creation
+  - site/arden-vul
+  - culture/rudishva
+  - culture/kaliyani
   - library
   - data-crystal
+related_entities:
+  - [[library/data crystal- Troll Pits.md|Troll Pits]]
 ---
 # data crystal: Fire Pits of Creation
 *Data Crystal*

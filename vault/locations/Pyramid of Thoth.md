@@ -1,11 +1,14 @@
 ---
 title: Pyramid of Thoth
 tags:
+  - session/32
   - location
   - entrance
   - tradition/thothian
 aliases:
   - Great Pyramid of Thoth
+related_entities:
+  - [[locations/Well of Light.md|Well of Light]]
 ---
 # Pyramid of [[Thoth]]
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
@@ -14,4 +17,4 @@ aliases:
 ## Notes
 
 - [[npcs/Trillis Galesson.md|Trillis Galesson]] of [[factions/Arcane Vengeance.md|Arcane Vengeance]] was encountered mapping near the pyramid, searching for arcanum. ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])
-
+- Graffiti found within the pyramid corroborates rumors that removing gemstones from statues of Thoth allows direct contact with the deity but causes them to animate and attack.

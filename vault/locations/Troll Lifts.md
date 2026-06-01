@@ -1,5 +1,10 @@
 ---
 tags:
+  - site/market
+  - site/goblin-town
+  - site/glory-of-thoth
+  - site/arena-w
+  - session/29
   - location
 ---
 

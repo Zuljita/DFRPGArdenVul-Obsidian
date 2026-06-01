@@ -25,7 +25,7 @@ source_week: week-ending-2026-05-15-2300-central
 **Week Ending:** 2026-05-15 23:00 CDT
 
 **Summary**
-The company Chrysalis engaged in extensive scholarly pursuits and propaganda efforts this week, seeking to bolster their reputation within the Azure Keep and beyond. While alchemical endeavors yielded mixed results, significant progress was made in documenting the appearances of key figures and uncovering the nature of local threats.
+The company Chrysalis engaged in extensive scholarly pursuits and propaganda efforts this week, seeking to bolster their reputation within the [[locations/Azure Keep.md|Azure Keep]] and beyond. While alchemical endeavors yielded mixed results, significant progress was made in documenting the appearances of key figures and uncovering the nature of local threats.
 
 **Events & Actions by Character**
 
@@ -37,7 +37,7 @@ The company Chrysalis engaged in extensive scholarly pursuits and propaganda eff
 * **Equipment changes:** None this week.
 
 **Vallium Halcyon**
-* **Town actions taken:** Paid 125 gold to increase Carousing proficiency by +2. He also proposed commissioning Barnaby Goodbarrel to investigate the legitimacy of a property in Archontos for a fee of 100 gold; the expense was approved. During carousing, he encountered Franalis of the company Arcane Vengeance, who shared news regarding magic silver eyes.
+* **Town actions taken:** Paid 125 gold to increase Carousing proficiency by +2. He also proposed commissioning [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]] to investigate the legitimacy of a property in [[locations/Archontos.md|Archontos]] for a fee of 100 gold; the expense was approved. During carousing, he encountered Franalis of the company [[factions/Arcane Vengeance.md|Arcane Vengeance]], who shared news regarding magic silver eyes.
 * **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Agility; the attempt was unsuccessful.
 * **Research results:** Investigated the Archontos property listed on a recently purchased deed; no information regarding the property could be found (Dead end). Read the *Canticle of Revelation*, which details how Thoth revealed language, magic, and knowledge to humanity.
 * **Character advancement:** None this week.
@@ -77,14 +77,14 @@ The company Chrysalis engaged in extensive scholarly pursuits and propaganda eff
 * **NPC Limitations:** NPCs are prohibited from adventuring with the party; while hirelings may be maintained in town, they will not accompany the company into dungeons.
 
 **Item Intelligence**
-* **Magic Silver Eyes:** Found by the company Arcane Vengeance; it is hypothesized that these eyes may interact with the ancient granite toad statues or serve to open the Obsidian Gates (Source: Franalis).
+* **Magic Silver Eyes:** Found by the company Arcane Vengeance; it is hypothesized that these eyes may interact with the ancient granite toad statues or serve to open the [[locations/The Obsidian Gates.md|Obsidian Gates]] (Source: Franalis).
 * **Thothian Glass Activation Tiles:** These tiles are extremely fragile. They must be handled only by anointed Priests of Dexterity and Temperance, using both hands while reciting the "Prayer Against Breakage" (Source: Thothian Network documentation).
 
 **Tactical Planning**
 The company has proposed a plan for Session 52:
-* **Town Business:** Perform blessings for Vaelitharon and Vallium; potentially deliver the disabled Tablet of the Beacon to Lady Alexia.
-* **Exploration Path:** Utilize Rugs to reach the Beacon, then use the Rudishva Teleportation Pad to access the Vault. The route will proceed through the acidic pool room toward the room containing the Chaotic Sweat.
-* **Goblin Forum:** Deliver food supplies and collect outstanding funds; check in with Gribble regarding local stability.
+* **Town Business:** Perform blessings for Vaelitharon and Vallium; potentially deliver the disabled [[items/Tablet of the Beacon.md|Tablet of the Beacon]] to Lady Alexia.
+* **Exploration Path:** Utilize Rugs to reach the [[locations/Beacon.md|Beacon]], then use the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to access the Vault. The route will proceed through the acidic pool room toward the room containing the Chaotic Sweat.
+* **Goblin Forum:** Deliver food supplies and collect outstanding funds; check in with [[npcs/Gribble.md|Gribble]] regarding local stability.
 * **Settite Area Clearing:** Prioritize clearing the area around Theskalon's tomb, specifically the northern hallway from the Dead Inside entrance and the southern sarcophagi/niches.
 * **Advanced Scouting:** Utilize *See Secrets* to inspect newly discovered rooms near Theskalon's Tomb and explore the hallways between the Red Bridge and the basket elevator.
 
