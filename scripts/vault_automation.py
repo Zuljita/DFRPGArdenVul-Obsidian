@@ -3584,7 +3584,7 @@ def rag_filter_new_entity_proposals(
             "Item": {"item"},
             "Faction": {"faction"},
             "Location": {"location"},
-            "Media": {"library"},
+            "Media": {"library", "note"},  # Discord Summaries live in notes/ with kind=note
             "Concept": {"concept", "lore", "npc", "faction", "location"},
         }
         compatible_page_kinds = _KIND_COMPATIBLE_PAGE_KINDS.get(p.kind, _ENTITY_PAGE_KINDS)

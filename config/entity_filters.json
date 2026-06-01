@@ -24,7 +24,11 @@
     "inscription", "stones", "sarcophagus", "sarcophagi", "tools and jars",
     "spices", "key", "plaques", "gear", "objects", "items", "kit",
     "lamp", "helmet", "pebble", "altar", "block", "images", "orb",
-    "agility potion", "invisibility potion"
+    "agility potion", "invisibility potion",
+    "strength potion", "flight potion", "greater healing potion", "major healing potion",
+    "paut potion", "paut", "elixir of health", "invulnerability potion", "aqua vitae",
+    "alchemist's fire", "healing potion", "minor healing potion", "continual light stone",
+    "continual light rock", "continual light stones"
   ],
   "unique_item_patterns": [
     "\\b(Wand|Ring|Amulet|Spear|Sword|Axe|Tablet|Bone Ring|Iron Circlet|Ebon Spear|Bottomless Purse)\\b",
@@ -35,7 +39,8 @@
     "priests of thoth", "priests of set", "priests of horus", "right for riches", "set outpost", "goblin guards", "wraiths", "clerics"
   ],
   "stop_npcs": [
-    "ashe the goblin", "vael lockmaster", "mummy", "coinbase levitated"
+    "ashe the goblin", "vael lockmaster", "mummy", "coinbase levitated",
+    "demented avenger", "archon shiva", "based cosmo", "greybrown", "sharp frank"
   ],
   "stop_concepts": [
     "basilsday", "lunday", "tothsday", "mitrasday", "tahsday", "horasday", "demmasday",
