@@ -3360,6 +3360,22 @@ def build_new_entity_proposals(source_limit: int = 10, candidate_limit: int = 50
             text = read_text(sp)
         except Exception:
             continue
+        # For the Party Armory, normalize table cell names before extraction:
+        # strip comma-separated descriptions (e.g. "pale green horn, with a broad spiral")
+        # so the LLM sees "Pale Green Horn" as a clean proper noun.
+        if sp == PARTY_ARMORY_PATH:
+            # Normalize the first (item-name) cell of each armory table row:
+            # strip comma-separated physical descriptions so the LLM sees clean
+            # proper nouns (e.g. "pale green horn, with..." → "Pale Green Horn").
+            def _normalize_armory_name_cell(m: re.Match) -> str:
+                cell = m.group(1).strip()
+                # Only normalize cells that start lowercase — these are descriptive
+                # names the LLM won't recognise as proper nouns (e.g. "pale green horn,
+                # with a broad spiral..."). Properly-cased entries are left unchanged.
+                if cell and cell[0].islower():
+                    cell = cell.split(",")[0].strip().title()
+                return f"| {cell} |{m.group(2)}"
+            text = re.sub(r"^\|\s*([^|\n]{4,}?)\s*\|(\s*\d)", _normalize_armory_name_cell, text, flags=re.MULTILINE)
         for i in range(0, len(text), 3000):
             chunk = text[i:i + 3000]
             if len(chunk.strip()) < 80:
