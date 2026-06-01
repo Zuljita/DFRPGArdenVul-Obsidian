@@ -3533,7 +3533,22 @@ def rag_filter_new_entity_proposals(
         # --- Pass 2: Arden RAG ---
         # Only dedicated entity pages count as existing coverage; session notes and
         # Discord summaries merely *mention* entities and are not authoritative pages.
+        # Also enforce kind compatibility: a Spell should only match spell pages, a Media
+        # candidate should only match library pages, etc. Prevents library book entries
+        # (which contain spell names in their titles) from suppressing spell proposals.
         _ENTITY_PAGE_KINDS = {"npc", "pc", "location", "faction", "item", "monster", "spell", "concept", "lore", "library"}
+        _KIND_COMPATIBLE_PAGE_KINDS: dict[str, set[str]] = {
+            "Spell": {"spell"},
+            "NPC": {"npc", "pc"},
+            "PC": {"npc", "pc"},
+            "Monster": {"monster"},
+            "Item": {"item"},
+            "Faction": {"faction"},
+            "Location": {"location"},
+            "Media": {"library"},
+            "Concept": {"concept", "lore", "npc", "faction", "location"},
+        }
+        compatible_page_kinds = _KIND_COMPATIBLE_PAGE_KINDS.get(p.kind, _ENTITY_PAGE_KINDS)
         _BOILERPLATE = {"auto nav", "navigation", "weekly knowledge base", "begin auto nav", "end auto nav", "canonical-source"}
         if not outcome:
             hits = _rag_search(base_url, api_key, "arden", p.name, top_k=8)
@@ -3541,6 +3556,8 @@ def rag_filter_new_entity_proposals(
                 hit_kind = hit.get("kind", "")
                 if hit_kind not in _ENTITY_PAGE_KINDS:
                     continue  # skip session recaps, Discord summaries, nav chunks
+                if hit_kind not in compatible_page_kinds:
+                    continue  # skip kind-incompatible pages (e.g. library entry for a Spell)
                 title = hit.get("title", "").lower()
                 sim = difflib.SequenceMatcher(None, nl, title).ratio()
                 # Require either strong similarity OR multi-word overlap; single shared
