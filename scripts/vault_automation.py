@@ -3857,8 +3857,24 @@ def verify_new_entity_proposals(limit: int = 20) -> list[dict]:
         raise RuntimeError("new_entity_proposals.json not found; run propose-new-entities first")
     raw = json.loads(proposals_path.read_text(encoding="utf-8"))
     proposals = [NewEntityCandidate(**r) for r in raw]
-    out: list[dict] = []
-    for p in proposals[:limit]:
+
+    # Load existing verifications so we can skip already-processed proposals
+    # and append new results rather than overwriting.
+    verifications_path = AUTOMATION_DIR / "proposals" / "new_entity_verifications.json"
+    existing: list[dict] = []
+    already_verified_ids: set[str] = set()
+    if verifications_path.exists():
+        try:
+            existing = json.loads(verifications_path.read_text(encoding="utf-8"))
+            already_verified_ids = {e["proposal_id"] for e in existing}
+        except Exception:
+            existing = []
+
+    # Only process proposals not yet verified, up to limit
+    pending = [p for p in proposals if p.proposal_id not in already_verified_ids]
+
+    out: list[dict] = list(existing)
+    for p in pending[:limit]:
         try:
             response = llm_chat_json(new_entity_verifier_prompt(p), timeout=120)
             status = str(response.get("status", "unknown"))
