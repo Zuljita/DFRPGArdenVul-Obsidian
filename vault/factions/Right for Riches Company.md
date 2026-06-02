@@ -6,6 +6,7 @@ tags:
   - faction
 aliases:
   - Left For Loot
+  - Cheese and Crackers
 related_entities:
   - [[npcs/Onyx.md|Onyx]]
   - [[npcs/Basil.md|Basil]]

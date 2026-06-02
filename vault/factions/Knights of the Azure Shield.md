@@ -10,6 +10,8 @@ tags:
 aliases:
   - Order of the Azure Shield
   - Azure Shield
+  - Blue Knights
+  - Azure Knights
 identity_hints:
   - force aligned with the ruler of Gosterwick
 related_entities:

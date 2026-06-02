@@ -5,6 +5,7 @@ tags:
 aliases:
   - beastmen
   - pigmen
+  - Long Range Cavern Patrol
 related_entities:
   - [[npcs/Deino.md|Deino]]
 ---

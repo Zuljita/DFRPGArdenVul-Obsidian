@@ -3877,6 +3877,32 @@ def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
             )
     except Exception:
         pass
+    # Check whether the candidate name matches any unique_item_patterns from entity_filters.
+    # These patterns identify generic DFRPG magic item vocabulary (Amulet, Wand, Ring, etc.)
+    # that frequently signals a rulebook entry. When matched, inject an explicit warning so
+    # the verifier doesn't need a literal mechanics-RAG hit to flag it.
+    generic_item_warning = ""
+    if candidate.kind in ("Item", "Spell"):
+        try:
+            filters = load_entity_filters()
+            for pat_str in filters.get("unique_item_patterns", []):
+                if re.search(pat_str, candidate.name):
+                    generic_item_warning = (
+                        "\n\n⚠️  GENERIC MAGIC ITEM PATTERN MATCH: The candidate name matches a "
+                        "pattern associated with standard DFRPG magic item vocabulary "
+                        f"(matched pattern: `{pat_str}`). "
+                        "Standard named items of this form — 'Amulet of X', 'Wand of X', "
+                        "'Ring of X', 'Potion of X', or items whose entire identity is a "
+                        "mechanical benefit (fire resistance, poison immunity, haste, stealth) "
+                        "with no campaign-specific history — are rulebook_entry. "
+                        "Only confirm if the evidence shows this item has a CAMPAIGN-UNIQUE name "
+                        "or history beyond its mechanical function (e.g. 'Iron Circlet of Ghanor' "
+                        "with documented campaign lore). When in doubt, rulebook_entry."
+                    )
+                    break
+        except Exception:
+            pass
+
     nearest_line = (
         f"\nNearest existing entity in vault/{candidate.canonical_target_dir}/: "
         f"`{candidate.nearest_existing}` (similarity {candidate.nearest_distance:.2f}).\n"
@@ -3892,7 +3918,8 @@ def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
         "raw Discord channel rollups, lore notes, and ignored spreadsheet snapshots):\n\n"
         f"{sources_text}"
         f"{rag_block}"
-        f"{rules_block}\n\n"
+        f"{rules_block}"
+        f"{generic_item_warning}\n\n"
         "Decide one of:\n"
         "- \"confirmed\": evidence clearly establishes this as a named CAMPAIGN-SPECIFIC entity of the proposed kind, with no obvious duplicate. The vault cross-reference did not surface this entity under another name AND the rules cross-reference did not show this is a rulebook entry.\n"
         "- \"rulebook_entry\": the DFRPG rules cross-reference clearly shows this is a generic rulebook entry (a published spell like Awaken or Detect Magic; a generic potion like Paut; a monster stat block from DF_Monsters; an Adventurer power). We do NOT create lore-style vault pages for rulebook entries — those are already covered by the rules. Cite the book/page in rationale.\n"
