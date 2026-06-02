@@ -1,4 +1,0 @@
-Player Loot sheet changes starting with
-
-Zuljita — 8/1/25, 7:53 PM
-We now track effective loot XP for things like keeping gems and coins that might be needed for puzzles.

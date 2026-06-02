@@ -51,7 +51,7 @@ ROOT = Path(__file__).resolve().parents[1]
 VAULT = ROOT / "vault"
 AUTOMATION_DIR = ROOT / "data" / "automation"
 LOCAL_SOURCES_CONFIG = ROOT / "config" / "local_sources.json"
-CHANGELOG_PATH = ROOT / "docs" / "AUTOMATION_CHANGELOG.md"
+CHANGELOG_PATH = AUTOMATION_DIR / "automation_changelog.md"
 CAMPAIGN_CONTEXT_PATH = ROOT / "docs" / "CAMPAIGN_CONTEXT.md"
 BLOG_FEED_URL = "https://dfwhiterock.blogspot.com/feeds/posts/default?alt=json&max-results=50"
 CENTRAL = ZoneInfo("America/Chicago")
@@ -302,6 +302,7 @@ def load_local_sources() -> dict:
         "rag_api_key": os.environ.get("ARDEN_RAG_API_KEY") or config.get("rag_api_key"),
         "entity_link_verify_limit": int(config.get("entity_link_verify_limit", 0) or 0),
         "entity_link_apply_limit": int(config.get("entity_link_apply_limit", 0) or 0),
+        "entity_link_catalog_refresh_sources": int(config.get("entity_link_catalog_refresh_sources", 1) or 1),
         "article_queue_limit": int(os.environ.get("ARDEN_ARTICLE_QUEUE_LIMIT") or config.get("article_queue_limit", 30) or 30),
         "media_queue_limit": int(os.environ.get("ARDEN_MEDIA_QUEUE_LIMIT") or config.get("media_queue_limit", 30) or 30),
         "media_edit_queue_top": int(config.get("media_edit_queue_top", 0) or 0),
@@ -325,6 +326,7 @@ def load_local_sources() -> dict:
         "metadata_edit_apply_limit": int(config.get("metadata_edit_apply_limit", 0) or 0),
         "action_items_enabled": bool(config.get("action_items_enabled", False)),
         "action_items_apply": bool(config.get("action_items_apply", False)),
+        "action_items_refresh_hours": int(config.get("action_items_refresh_hours", 24) or 24),
         "action_items_latest_sessions": int(config.get("action_items_latest_sessions", 8) or 8),
         "action_items_latest_discord_weeks": int(config.get("action_items_latest_discord_weeks", 4) or 4),
         "action_items_max_items": int(config.get("action_items_max_items", 200) or 200),
@@ -1756,26 +1758,56 @@ def build_entity_link_proposals(limit_per_source: int | None = None) -> list[Ent
         cache = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
     except Exception:
         cache = {}
-    cached_sources = cache.get("sources") if cache.get("catalog_sha") == catalog_sha else {}
+    cached_sources = cache.get("sources")
     if not isinstance(cached_sources, dict):
         cached_sources = {}
+    sources = [source for source in latest_canonical_sources() if source.exists()]
+    refresh_state = cache.get("catalog_refresh")
+    if not isinstance(refresh_state, dict) or refresh_state.get("target_sha") != catalog_sha:
+        refresh_state = {
+            "target_sha": catalog_sha,
+            "pending_sources": [
+                source.relative_to(ROOT).as_posix()
+                for source in sources
+            ] if cache.get("catalog_sha") != catalog_sha else [],
+        }
+    pending_refresh = [str(item) for item in refresh_state.get("pending_sources", [])]
+    refresh_limit = max(1, int(load_local_sources().get("entity_link_catalog_refresh_sources", 1) or 1))
+    dirty_sources = []
+    for source in sources:
+        source_key = source.relative_to(ROOT).as_posix()
+        source_sha = hashlib.sha256(read_text(source).encode("utf-8")).hexdigest()
+        cached = cached_sources.get(source_key) or {}
+        if cached.get("sha256") != source_sha or not isinstance(cached.get("proposals"), list):
+            dirty_sources.append(source_key)
+    refresh_queue = list(dict.fromkeys(dirty_sources + pending_refresh))
+    selected_refresh = set(refresh_queue[:refresh_limit])
+    refreshed: set[str] = set()
     next_sources: dict[str, dict] = {}
     proposals: list[EntityLinkProposal] = []
     errors: list[dict[str, str]] = []
-    for source in latest_canonical_sources():
-        if not source.exists():
-            continue
+    for source in sources:
         source_key = source.relative_to(ROOT).as_posix()
         source_sha = hashlib.sha256(read_text(source).encode("utf-8")).hexdigest()
         cached = cached_sources.get(source_key) or {}
         raw_proposals: list[dict]
         cache_source = True
-        if cached.get("sha256") == source_sha and isinstance(cached.get("proposals"), list):
+        if (
+            source_key not in selected_refresh
+            and cached.get("sha256") == source_sha
+            and isinstance(cached.get("proposals"), list)
+        ):
             raw_proposals = cached["proposals"]
+        elif source_key not in selected_refresh:
+            raw_proposals = []
+            cache_source = False
+            if cached:
+                next_sources[source_key] = cached
         else:
             try:
                 fresh = llm_entity_link_proposals_for_source(source, entities, limit_per_source)
                 raw_proposals = [asdict(item) for item in fresh]
+                refreshed.add(source_key)
             except Exception as exc:
                 raw_proposals = []
                 cache_source = False
@@ -1784,7 +1816,15 @@ def build_entity_link_proposals(limit_per_source: int | None = None) -> list[Ent
             next_sources[source_key] = {"sha256": source_sha, "proposals": raw_proposals}
         selected = raw_proposals if limit_per_source is None else raw_proposals[:limit_per_source]
         proposals.extend(EntityLinkProposal(**item) for item in selected)
-    write_json(cache_path, {"catalog_sha": catalog_sha, "sources": next_sources})
+    remaining_refresh = [source for source in pending_refresh if source not in refreshed]
+    write_json(cache_path, {
+        "catalog_sha": catalog_sha if not remaining_refresh else cache.get("catalog_sha"),
+        "catalog_refresh": {
+            "target_sha": catalog_sha,
+            "pending_sources": remaining_refresh,
+        },
+        "sources": next_sources,
+    })
     write_json(AUTOMATION_DIR / "proposals" / "entity_link_proposal_errors.json", errors)
     proposals.sort(key=lambda p: (p.source, p.kind, p.entity.lower(), p.mention.lower()))
     return proposals
@@ -5877,6 +5917,18 @@ def update_action_items_safely(apply_changes: bool, latest_sessions: int, max_it
         return {"enabled": True, "ok": False, "error": str(exc)[:300]}
 
 
+def action_items_refresh_due(import_result: dict, refresh_hours: int) -> tuple[bool, str]:
+    if int(import_result.get("change_count", 0) or 0) > 0:
+        return True, "canonical_sources_changed"
+    inventory_path = AUTOMATION_DIR / "proposals" / "action_item_inventory.json"
+    if not inventory_path.exists():
+        return True, "inventory_missing"
+    age = datetime.now(timezone.utc) - datetime.fromtimestamp(inventory_path.stat().st_mtime, timezone.utc)
+    if age >= timedelta(hours=max(1, refresh_hours)):
+        return True, "periodic_refresh_due"
+    return False, "no_source_changes_and_periodic_refresh_not_due"
+
+
 def cmd_build_action_items(args: argparse.Namespace) -> int:
     try:
         payload = build_action_item_inventory(latest_sessions=args.latest_sessions, max_items=args.max_items, latest_discord_weeks=args.latest_discord_weeks)
@@ -6323,6 +6375,7 @@ def cmd_import(args: argparse.Namespace) -> int:
 
 
 def cmd_run_low_risk(args: argparse.Namespace) -> int:
+    started_at = time.monotonic()
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     run_dir = AUTOMATION_DIR / "runs" / run_id
     manifest = build_source_manifest(args.blog_feed)
@@ -6481,12 +6534,25 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
         try:
             sources_cfg = load_local_sources()
             if sources_cfg.get("action_items_enabled") and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
-                action_items_result = update_action_items_safely(
-                    apply_changes=bool(sources_cfg.get("action_items_apply")),
-                    latest_sessions=int(sources_cfg.get("action_items_latest_sessions", 8) or 8),
-                    latest_discord_weeks=int(sources_cfg.get("action_items_latest_discord_weeks", 4) or 4),
-                    max_items=int(sources_cfg.get("action_items_max_items", 50) or 50),
+                refresh_due, refresh_reason = action_items_refresh_due(
+                    import_result,
+                    int(sources_cfg.get("action_items_refresh_hours", 24) or 24),
                 )
+                if refresh_due:
+                    action_items_result = update_action_items_safely(
+                        apply_changes=bool(sources_cfg.get("action_items_apply")),
+                        latest_sessions=int(sources_cfg.get("action_items_latest_sessions", 8) or 8),
+                        latest_discord_weeks=int(sources_cfg.get("action_items_latest_discord_weeks", 4) or 4),
+                        max_items=int(sources_cfg.get("action_items_max_items", 50) or 50),
+                    )
+                    action_items_result["refresh_reason"] = refresh_reason
+                else:
+                    action_items_result = {
+                        "enabled": True,
+                        "ok": True,
+                        "skipped": True,
+                        "reason": refresh_reason,
+                    }
         except Exception as exc:
             action_items_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
     vault_rag_refresh = refresh_vault_rag_safely() if before["ok"] else {"ok": False, "skipped": True, "reason": "pre_validation_failed"}
@@ -6495,6 +6561,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
         "ok": before["ok"] and import_result["ok"] and after["ok"],
         "run_id": run_id,
         "timestamp": datetime.now(timezone.utc).isoformat(),
+        "elapsed_seconds": round(time.monotonic() - started_at, 3),
         "mode": "scheduled-low-risk",
         "manifest": {
             "source_count": manifest["source_count"],

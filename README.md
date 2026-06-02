@@ -10,11 +10,10 @@ Curated Obsidian vault for a DFRPG campaign set in Arden Vul.
 ## Quick Start
 
 - Edit: open `vault/` in Obsidian
-- Link check: `python3 scripts/check_wikilinks.py vault`
+- Session link check: `python3 scripts/check_wikilinks.py`
 - Quartz preview (maintainer): `cd quartz && pnpm dev`
 - Quartz build (maintainer): `cd quartz && pnpm build` (outputs to `quartz/public/`)
 
 ## Contributing
 
 Please see `CONTRIBUTING.md` for folder layout, naming, and link conventions.
-
