@@ -5280,15 +5280,31 @@ def article_edit_verifier_prompt(proposal: ArticleEditProposal) -> str:
     )
 
 
-def verify_article_edit_proposals(limit: int | None = 10) -> list[dict]:
+def verify_article_edit_proposals(limit: int | None = None) -> list[dict]:
     proposals_path = AUTOMATION_DIR / "proposals" / "article_edit_proposals.json"
     if not proposals_path.exists():
         raise RuntimeError("article_edit_proposals.json not found; run propose-article-edits first")
     raw = json.loads(proposals_path.read_text(encoding="utf-8"))
     proposals = [ArticleEditProposal(**r) for r in raw]
-    out: list[dict] = []
-    selected = proposals if limit is None else proposals[:limit]
-    for p in selected:
+
+    # Load existing verifications and skip already-processed proposals (cursor behaviour).
+    verifications_path = AUTOMATION_DIR / "proposals" / "article_edit_verifications.json"
+    existing: list[dict] = []
+    already_verified_ids: set[str] = set()
+    if verifications_path.exists():
+        try:
+            existing = json.loads(verifications_path.read_text(encoding="utf-8"))
+            already_verified_ids = {e["proposal_id"] for e in existing if e.get("proposal_id")}
+        except Exception:
+            existing = []
+
+    pending = [p for p in proposals if p.proposal_id not in already_verified_ids]
+    # limit=None or limit<0 means all pending
+    if limit is not None and limit >= 0:
+        pending = pending[:limit]
+
+    out: list[dict] = list(existing)
+    for p in pending:
         try:
             response = llm_chat_json(article_edit_verifier_prompt(p), timeout=120)
             status = str(response.get("status", "unknown"))
