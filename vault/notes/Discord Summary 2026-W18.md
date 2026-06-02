@@ -51,7 +51,7 @@ The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] c
 * **Equipment changes:** None this week.
 
 **Vaelitharon "Vael" Sunshadow**
-* **Town actions taken:** Accompanied the mercenary [[npcs/Remagis.md|Remagis]] to [[locations/Gosterwick.md|Gosterwick]]; managed a budget of $300 for [[npcs/Remagis.md|Remagis]]'s supplies and acted as an interpreter. 
+* **Town actions taken:** Accompanied the mercenary [[npcs/Remagis.md|Remagis]] to [[locations/Gosterwick.md|Gosterwick]]; managed a budget of $300 for [[npcs/Remagis.md|Remagis]]'s supplies and acted as an interpreter.
 * **Alchemy/crafting attempts and results:** Attempted to brew a [[items/Potion of Wisdom.md|Potion of Wisdom]]; the attempt resulted in a critical failure and a localized explosion, resulting in the loss of the gold spent on materials.
 * **Research results:** Studied several texts:
     * *The Betrayal*: A difficult text detailing how a Kaliyani named Lisst::stak got bored with peace after victory and twisted the minds of the Kaliyani against the [[factions/Rudishva.md|Rudishva]], leading to "the sickness."

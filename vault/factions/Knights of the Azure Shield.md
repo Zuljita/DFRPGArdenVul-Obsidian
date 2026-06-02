@@ -48,4 +48,3 @@ related_entities:
 - [[npcs/Zoe.md|Zoe]] — Squire
 
 ## Sessions
-
