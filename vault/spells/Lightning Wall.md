@@ -3,6 +3,8 @@ tags:
   - spell
   - identity/uncertain
 status: stub
+aliases:
+  - Wall of Lightning
 ---
 
 # Lightning Wall

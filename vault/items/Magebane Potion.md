@@ -10,6 +10,8 @@ status: stub
 ## Summary
 An alchemical potion that, when smashed, releases a cloud of smoke or gas to temporarily disrupt wizard spellcasting.
 
+Brewing attempts can be difficult and costly, as evidenced by a failed attempt that required a second try.
+
 ## Sources
 - [[sessions/Session 23b - Disrupting Services in the Temple of Set.md|Session 23b - Disrupting Services in the Temple of Set]]
 - [[sessions/Session 34b - Tower of the Ape.md|Session 34b - Tower of the Ape]]

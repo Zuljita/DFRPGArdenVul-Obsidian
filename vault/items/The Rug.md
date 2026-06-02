@@ -9,6 +9,7 @@ status: stub
 
 ## Summary
 A magical item, also known as the Rug of Instant Access, used by the party for teleportation and potentially for hauling heavy cargo or mercenaries.
+- Can be used while holding Onyx the cat; also a 'test rug' is mentioned for market travel.
 
 ## Sources
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]

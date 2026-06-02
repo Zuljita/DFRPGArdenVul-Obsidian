@@ -9,6 +9,9 @@ status: stub
 
 ## Summary
 A jeweler and merchant who provides identification services and accepts commissions for items such as signet rings and chessboards.
+- Also operates Chairduster's Fine Metallurgy.
+- Can move gems or ornate features between items for a fee (e.g., $50 per item).
+- Has undertaken high-value commissions, such as a gold and platinum bicep cuff with a target value of $26,025.
 
 ## Sources
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]

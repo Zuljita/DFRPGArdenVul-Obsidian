@@ -9,6 +9,7 @@ status: stub
 
 ## Summary
 A key used in exchange with the Five Fingers of Destiny for information regarding the treasury of Thoth.
+- A single key given by Prior Jacobus, originally found in a hat.
 
 ## Sources
 - [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]

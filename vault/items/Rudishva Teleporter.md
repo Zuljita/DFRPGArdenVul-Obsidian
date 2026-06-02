@@ -10,6 +10,12 @@ status: stub
 
 ## Summary
 A specialized teleportation device used within the Rudishva network to connect various chambers and levels.
+- **Known Connections:**
+  - Bastion North Pad $\rightarrow$ Beacon West Pad
+  - Bastion East Pad $\rightarrow$ 100ft/North
+  - Bastion South Pad $\rightarrow$ Up 200ft/Southwest
+  - Obsidian Gates NW South Teleporter $\rightarrow$ down 200ft
+  - Obsidian Gates NW NE Teleporter $\rightarrow$ Beacon East Pad
 
 ## Sources
 - [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]

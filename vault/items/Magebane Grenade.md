@@ -9,6 +9,8 @@ status: stub
 
 ## Summary
 A specialized grenade designed to neutralize magic users, which characters have attempted to brew through alchemy.
+- Vallium Halcyon previously attempted to brew one, but failed due to an excess of nightshade, which caused a foul odor and increased production costs by 10%.
+- Vallium Halcyon has since successfully brewed the grenade.
 
 ## Sources
 - [[sessions/Session 34b - Tower of the Ape.md|Session 34b - Tower of the Ape]]

@@ -3,12 +3,16 @@ tags:
   - item
   - identity/uncertain
 status: stub
+aliases:
+  - Rugs of Instant Access
 ---
 
 # Teleport Rug
 
 ## Summary
 A magical rug used for teleportation between specific campaign locations.
+
+They can be activated using the command word 'viator'.
 
 ## Sources
 - [[vault/sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]

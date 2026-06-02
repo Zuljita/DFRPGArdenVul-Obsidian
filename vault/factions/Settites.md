@@ -21,6 +21,8 @@ The faction maintains a vault southwest of the Forum that is reportedly locked a
 
 A conflict with the faction in the Great Cavern resulted in the death of the wizard Bjorn.
 
+Burial customs within the faction vary significantly based on the wealth and power of the deceased.
+
 ## Sources
 - [[vault/sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
 - [[vault/notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]]
