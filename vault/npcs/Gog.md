@@ -2,7 +2,7 @@
 title: Gog
 tags:
   - npc
-  - type/troll
+  - type/varumani
 appears_in:
   - "Session 32 - Fast Exploration"
 ---

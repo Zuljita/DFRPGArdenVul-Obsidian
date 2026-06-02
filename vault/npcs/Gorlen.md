@@ -1,14 +1,14 @@
 ---
 tags:
   - npc
-  - type/troll
+  - type/varumani
 status: active
 ---
 
 # Gorlen
 
 ## Summary
-A Varumani (troll) who operates the lifts within Arden Vul. Member of the [[factions/Varumani.md|Varumani]] faction.
+A Varumani who operates the lifts within Arden Vul. Member of the [[factions/Varumani.md|Varumani]] faction.
 
 ## Notes
 - Operator of the Varumani lifts.

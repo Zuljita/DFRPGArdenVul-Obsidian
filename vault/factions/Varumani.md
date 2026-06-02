@@ -1,7 +1,7 @@
 ---
 title: Loyal Varumani
 tags:
-  - type/troll
+  - type/varumani
   - faction
 aliases:
   - Varumani

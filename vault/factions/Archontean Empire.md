@@ -2,7 +2,6 @@
 title: Archontean Empire
 tags:
   - faction
-  - type/troll
   - culture/archontean
   - culture/archontean
 identity_hints:

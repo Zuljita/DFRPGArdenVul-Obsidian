@@ -1,11 +1,11 @@
 ---
 tags:
   - npc
-  - type/troll
+  - type/varumani
   - culture/varumani
 related_entities:
   - [[factions/Varumani.md|Loyal Varumani]]
-  - [[locations/Troll Thegn.md|Troll Thegn]]
+  - [[locations/Halls of the Troll Thegn.md|Halls of the Troll Thegn]]
 ---
 
 # Varboka

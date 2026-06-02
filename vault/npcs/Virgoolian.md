@@ -5,7 +5,7 @@ tags:
   - race/goblin
   - profession/chemist
   - type/goblin
-  - type/troll
+  - type/varumani
 aliases:
   - Virgoolian, goblin chemist
 appears_in:

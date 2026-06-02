@@ -3,7 +3,6 @@ title: Arena Lord
 tags:
   - npc
   - race/rudishva
-  - type/troll
   - tradition/rudishva
 aliases:
   - Rudishva

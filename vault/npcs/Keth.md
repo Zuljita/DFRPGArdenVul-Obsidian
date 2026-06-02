@@ -2,7 +2,7 @@
 title: Keth
 tags:
 - npc
-  - type/troll
+  - type/varumani
   - tradition/demma
 aliases:
   - Keth, varumani gambler

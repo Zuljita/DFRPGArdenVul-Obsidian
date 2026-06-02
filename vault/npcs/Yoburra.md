@@ -4,7 +4,7 @@ tags:
   - npc
   - race/varumani
   - profession/ambassador
-  - type/troll
+  - type/varumani
 aliases:
   - Yoburra, Varumani ambassador
 ---
