@@ -1,6 +1,8 @@
 ---
 title: Golden Band
 tags:
+  - site/newmarket
+  - site/gosterwick
   - faction
 ---
 # Golden Band
@@ -13,3 +15,4 @@ They are known to employ statue brokers who work out of the [[Inn of the Broken 
 They maintain storage factors in Gosterwick.
 
 ## Sessions
+- [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9]] - Godric the Wise, Thorcin statue broker, Golden Band

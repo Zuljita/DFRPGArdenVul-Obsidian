@@ -1,11 +1,15 @@
 ---
 tags:
+  - site/great-caverns
+  - culture/varumani
   - site/halls-of-arden-vul
   - location
 aliases:
   - Court of the Troll Thegn
 related_entities:
   - [[npcs/Gog.md|Gog]]
+identity_hints:
+  - end of a massive road built for much larger creatures
 ---
 
 # Troll Thegn

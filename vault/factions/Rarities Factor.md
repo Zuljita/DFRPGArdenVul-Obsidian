@@ -1,6 +1,10 @@
 ---
 title: Rarities Factor
 tags:
+  - type/merchant
+  - site/newmarket
+  - site/narsileon
+  - site/gosterwick
   - faction
 ---
 # Rarities Factor

@@ -5,6 +5,8 @@ tags:
   - tradition/mitran
   - culture/archontean
   - culture/archontean
+identity_hints:
+  - old pantheon of gods
 ---
 
 # The Ten

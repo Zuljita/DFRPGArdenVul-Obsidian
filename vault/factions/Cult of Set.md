@@ -1,6 +1,8 @@
 ---
 title: Cult of Set
 tags:
+  - status/banned
+  - status/active
   - faction
   - tradition/settite
 aliases:
@@ -18,6 +20,8 @@ An ancient, banned religious faction devoted to [[npcs/Set.md|Set]]. The group r
 - The [[factions/Settite Guild of Service.md|Settite Guild of Service]] is believed to be a front for the cult.
 - There are no known independent clerics of Set outside the cult.
 - The party has a recorded body count of roughly 50 cultists.
+- Following the assault on the cult, discussions centered on the liberation of captives held by them.
+- Set has a large statue in the Forum of Set and is associated with the First Mystery.
 
 ## Sessions
 - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
@@ -30,6 +34,7 @@ An ancient, banned religious faction devoted to [[npcs/Set.md|Set]]. The group r
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 - [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
+- [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
 
 ## Discord Insights
 

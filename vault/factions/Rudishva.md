@@ -7,6 +7,10 @@ tags:
   - tradition/rudishva
   - culture/thorcin
   - culture/thorcin
+related_entities:
+  - [[locations/Rudishva Bastion.md|Rudishva Bastion]]
+  - [[locations/Beacon.md|Beacon]]
+  - [[items/Rudishva Identity Plaque.md|Rudishva Identity Plaque]]
 ---
 # Rudishva
 
@@ -20,6 +24,8 @@ According to [[Akla-Chah]], the [[factions/Rudishva.md|Rudishva]] have several f
 1.  **Full Recycling:** Considered the best method, but the necessary technology is not available at the [[Beacon]].
 2.  **Spacing:** The second best method, also not possible at the [[Beacon]].
 3.  **Cremation:** The third best and most practical option available to the party, requiring a very hot fire.
+- **Identity Plaques:** Credential devices used for access control, security overrides, and system authentication throughout Rudishva installations, including the [[locations/Beacon.md|Beacon]] and [[locations/Rudishva Bastion.md|Rudishva Bastion]].
+- **Language:** A written script used in the campaign that is associated with certain technological devices.
 
 ## History
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]] — Dundee, Thorcin barbarian [[npcs/Wicktrimmer.md|Wicktrimmer]], [[npcs/Imperial Goblin.md|Imperial Goblin]] banker and merchant [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]], Esq., Halfling lawyer [[npcs/Craastonistorex.md|Craastonistorex]], green dragon [[npcs/Camilla.md|Camilla]], summoned bat Summoned wild boar Summoned cave bears Summoned bat swarms 2 Imperia...

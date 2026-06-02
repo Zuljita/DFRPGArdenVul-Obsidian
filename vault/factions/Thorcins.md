@@ -7,6 +7,10 @@ aliases:
   - Thorcin
 redirect_to: vault/lore/Thorcin.md
 status: redirect
+related_entities:
+  - [[npcs/Vivian.md|Vivian]]
+  - [[notes/Iris.md|Iris]]
+  - [[factions/Thorcin Pantheon.md|Thorcin Pantheon]]
 ---
 
 # Thorcins

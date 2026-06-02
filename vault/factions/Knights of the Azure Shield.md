@@ -10,6 +10,12 @@ tags:
 aliases:
   - Order of the Azure Shield
   - Azure Shield
+identity_hints:
+  - force aligned with the ruler of Gosterwick
+related_entities:
+  - [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]
+  - [[locations/Imperial Road.md|Imperial Road]]
+  - [[locations/Azure Keep.md|Azure Keep]]
 ---
 # Knights of the Azure Shield
 

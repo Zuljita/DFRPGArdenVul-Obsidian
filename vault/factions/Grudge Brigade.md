@@ -1,12 +1,15 @@
 ---
 title: Grudge Brigade
 tags:
+- type/mercenary
 - faction
 - mercenary
 - culture/archontean
 - culture/thorcin
 aliases:
   - Grudge Brigade HQ
+related_entities:
+  - [[locations/Gosterwick.md|Gosterwick]]
 ---
 # Grudge Brigade
 
@@ -14,6 +17,10 @@ aliases:
 The [[Grudge Brigade]] is a mercenary company operating out of [[Gosterwick]], offering its services to adventurers and others in need of combat support or specialized skills. Their headquarters is a small building on the outskirts of [[locations/Gosterwick.md|Gosterwick]].
 
 By some standards, they are considered "basically a bunch of kamikazes."
+
+The company's leader, Coinbase, is an elven illusionist.
+
+As an information broker, Coinbase has access to the undercurrents of Gosterwick's adventurer economy.
 
 ## Members
 
@@ -45,6 +52,7 @@ By some standards, they are considered "basically a bunch of kamikazes."
   - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Uvash was unexpectedly ill (some suspected a hangover after the harvest festivals, but that was also unusual for a dwarf), so they hired [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]] the mercenary archer from the [[factions/Grudge Brigade.md|Grudge Brigade]].
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — What Actually Happened: The Right for Riches company, without Vael or Michael but with [[pcs/grudge-brigade/Coinbase.md|Coinbase]] the head [[factions/Grudge Brigade.md|Grudge Brigade]] Mercenary, left [[locations/Gosterwick.md|Gosterwick]] just before dawn on Horasday.
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]] — When they got there Uvash was still busy trying to convert Torunn the Smith to [[npcs/Zodarrim.md|Zodarrim]], but they'd just lost most of a week walking to [[locations/Newmarket.md|Newmarket]] and back, so they went to the [[factions/Grudge Brigade.md|Grudge Brigade]] and hired [[pcs/grudge-brigade/Ashe Maykum.md|Ashe Maykum]] ...
+- [[pcs/grudge-brigade/Ashe Maykum.md|Ashe Maykum]] is frequently hired by the Right for Riches Company for expeditions into Arden Vul.
 
 ## Notes
 

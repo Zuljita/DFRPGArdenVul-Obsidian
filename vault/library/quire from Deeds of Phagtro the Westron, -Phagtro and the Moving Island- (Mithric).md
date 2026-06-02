@@ -2,6 +2,8 @@
 title: 'quire from Deeds of Phagtro the Westron, "Phagtro and the Moving Island" (Mithric)'
 type: document
 tags:
+  - type/document
+  - title/deeds-of-phagtro-the-westron
   - title/phagtro-and-the-moving-island
   - session/2026-w21
   - culture/mithric

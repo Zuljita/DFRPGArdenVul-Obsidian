@@ -39,7 +39,7 @@ The company Chrysalis engaged in extensive scholarly pursuits and propaganda eff
 **[[pcs/Vallium Halcyon.md|Vallium Halcyon]]**
 * **Town actions taken:** Paid 125 gold to increase Carousing proficiency by +2. He also proposed commissioning [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]] to investigate the legitimacy of a property in [[locations/Archontos.md|Archontos]] for a fee of 100 gold; the expense was approved. During carousing, he encountered Franalis of the company [[factions/Arcane Vengeance.md|Arcane Vengeance]], who shared news regarding magic silver eyes.
 * **Alchemy/crafting attempts and results:** Attempted to brew a Potion of Agility; the attempt was unsuccessful.
-* **Research results:** Investigated the Archontos property listed on a recently purchased deed; no information regarding the property could be found (Dead end). Read the *Canticle of Revelation*, which details how Thoth revealed language, magic, and knowledge to humanity.
+* **Research results:** Investigated the [[locations/Archontos.md|Archontos]] property listed on a recently purchased deed; no information regarding the property could be found (Dead end). Read the *Canticle of Revelation*, which details how [[npcs/Thoth.md|Thoth]] revealed language, magic, and knowledge to humanity.
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
 
@@ -56,7 +56,7 @@ The company Chrysalis engaged in extensive scholarly pursuits and propaganda eff
 * **Research results:** Read several texts, including:
     * *Divine Power is a Manifestation of Collective Will*: A controversial text (banned in human lands) arguing that gods are merely manifestations of human will.
     * *Eighth Collegium - Fact or Fiction?*: A collection of theories regarding the hidden Eighth Collegium, ranging from vampires to goblins.
-    * *Emperors of Archontos: Volume I*: A compilation of 275 biographies.
+    * *Emperors of [[locations/Archontos.md|Archontos]]: Volume I*: A compilation of 275 biographies.
     * *On the Wars of the Old Ones with the Trolls*: A tactical history of Archontean military campaigns against the Varumani.
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
@@ -66,7 +66,7 @@ The company Chrysalis engaged in extensive scholarly pursuits and propaganda eff
 * **The Thothian Teleportation Network:** A network of glass activation tiles exists, utilizing specific color codes for various locations, including the Archon's Palace and the Canyon Vaults (Source: Recovered parchment).
 * **Marius’s Tomb:** The entrance is located via a mechanism in the Shrine of Marius; twisting the ring on the central statue opens a door in the ceiling (Source: Recovered notes).
 * **Lady Alexia:** A tall, slim, middle-aged woman with tanned skin, black hair, green eyes, and an Archontean nose. She wears green dresses and projects absolute authority (Source: Established fact).
-* **King Wiskenim:** A large goblin with old features, black hair, prominent incisors, and a loup nose; he wears bright silks and a colorful turban topped with a crown (Source: Established fact).
+* **[[npcs/Weskenim.md|King Wiskenim]]:** A large goblin with old features, black hair, prominent incisors, and a loup nose; he wears bright silks and a colorful turban topped with a crown (Source: Established fact).
 * **Akla-Cha:** A 7-foot tall, spindly hologram with brown skin, two curved horns, and three fingers plus a thumb on each hand (Source: Established fact).
 
 **World Rulings**
@@ -82,17 +82,17 @@ The company Chrysalis engaged in extensive scholarly pursuits and propaganda eff
 
 **Tactical Planning**
 The company has proposed a plan for Session 52:
-* **Town Business:** Perform blessings for Vaelitharon and Vallium; potentially deliver the disabled [[items/Tablet of the Beacon.md|Tablet of the Beacon]] to Lady Alexia.
+* **Town Business:** Perform blessings for Vaelitharon and [[pcs/Vallium Halcyon.md|Vallium]]; potentially deliver the disabled [[items/Tablet of the Beacon.md|Tablet of the Beacon]] to Lady Alexia.
 * **Exploration Path:** Utilize Rugs to reach the [[locations/Beacon.md|Beacon]], then use the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to access the Vault. The route will proceed through the acidic pool room toward the room containing the Chaotic Sweat.
 * **Goblin Forum:** Deliver food supplies and collect outstanding funds; check in with [[npcs/Gribble.md|Gribble]] regarding local stability.
-* **Settite Area Clearing:** Prioritize clearing the area around Theskalon's tomb, specifically the northern hallway from the Dead Inside entrance and the southern sarcophagi/niches.
+* **Settite Area Clearing:** Prioritize clearing the area around [[locations/Tomb of Theskalon.md|Theskalon's tomb]], specifically the northern hallway from the Dead Inside entrance and the southern sarcophagi/niches.
 * **Advanced Scouting:** Utilize *See Secrets* to inspect newly discovered rooms near Theskalon's Tomb and explore the hallways between the [[locations/Red Bridge of Set.md|Red Bridge]] and the basket elevator.
 
 **Unresolved Threads**
 * **The Archontos Property:** Whether the legitimacy of the property on Vallium’s deed can be verified via Barnaby Goodbarrel.
 * **The Arcanum Geode:** Determining the practical applications or uses for the geode currently held by Vaelitharon.
-* **The Dragon, Craas:** The ongoing debate regarding whether to hunt the dragon for his hoard or avoid him to prevent destabilizing the surface/dungeon economy.
-* **The Tablet of the Beacon:** Whether to disable the tablet before handing it over to Lady Alexia, risking potential future heists in the Azure Keep.
+* **The Dragon, [[npcs/Craastonistorex.md|Craas]]:** The ongoing debate regarding whether to hunt the dragon for his hoard or avoid him to prevent destabilizing the surface/dungeon economy.
+* **The Tablet of the Beacon:** Whether to disable the tablet before handing it over to [[npcs/Lady Alexia Basileon.md|Lady Alexia]], risking potential future heists in the Azure Keep.
 * **Teleportation Mapping:** The need to scry the four remaining unidentified teleportation addresses.
 * **Undead Expertise:** Uvash Edzuson's continued search for a teacher of *Hidden Lore (undead)*.
 * **The Settite Statue:** Plans to destroy the remainder of the Settite statue using an elephant.

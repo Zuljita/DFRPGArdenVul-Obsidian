@@ -1,6 +1,12 @@
 ---
 title: Sun-Scarred Knights
 tags:
+  - session/8a
+  - session/7
+  - session/30
+  - session/26
+  - session/23c
+  - session/22
   - faction
 aliases:
   - Order of the Subterranean Knights
@@ -31,6 +37,7 @@ A knightly order co-founded by [[npcs/Isocritis Half-Hand.md|Isocritis Half-Hand
 ## Notes
 
 - Isocritis Half-Hand and Melacorius had a falling out after founding the order.
+- [[npcs/Sir Simonet.md|Sir Simonet]] was encountered while wounded in the halls.
 
 ## Sessions
 

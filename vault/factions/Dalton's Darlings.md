@@ -1,5 +1,7 @@
 ---
 tags:
+  - type/mercenary-company
+  - type/adventuring-party
   - faction
 ---
 
@@ -21,8 +23,10 @@ Exploration, treasure acquisition, survival.
 
 ## Notes
 They are a recurring presence in the delves into [[Arden Vul]].
+- During Session 32, the group was accused of cheating by the Arena Lord after Isidor used a healing potion.
 
 ## Members
 
 ## Sessions
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]

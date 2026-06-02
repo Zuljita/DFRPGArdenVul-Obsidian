@@ -1,5 +1,6 @@
 ---
 tags:
+  - site/gosterwick
   - faction
 aliases:
   - Arcane Practitioners Club
@@ -43,5 +44,7 @@ TBD
 - Apartments are available for rent to members for $150/week on top of the membership fee.
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]], a PC, once attempted to flirt with [[npcs/Pelteon.md|Pelteon]], who appeared not to notice.
 - Land can be purchased nearby.
+- Lyssandra enforces a rule that livestock or corpses are not permitted at the club.
+- All apartment tenants are required to leave by the 1st of Dikaios due to ongoing evictions.
 
 ## Sessions

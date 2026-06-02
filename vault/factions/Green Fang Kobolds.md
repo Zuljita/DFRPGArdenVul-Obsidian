@@ -1,6 +1,8 @@
 ---
 title: Green Fang Kobolds
 tags:
+  - site/newmarket
+  - site/huge-overgrown-thicket
   - session/3
   - session/23a
   - site/arden-vul

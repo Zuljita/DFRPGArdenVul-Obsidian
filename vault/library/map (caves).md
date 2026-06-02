@@ -2,8 +2,11 @@
 title: "map (caves)"
 type: map
 tags:
+  - session/21
   - library
   - map
+identity_hints:
+  - Troll Lifts and Arena W
 ---
 # map (caves)
 *Map*

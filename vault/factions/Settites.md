@@ -1,8 +1,13 @@
 ---
 tags:
+  - status/undesirable
   - faction
   - identity/uncertain
 status: stub
+identity_hints:
+  - cult of Set
+related_entities:
+  - [[npcs/Bjorn.md|Bjorn]]
 ---
 
 # Settites
@@ -11,6 +16,10 @@ status: stub
 A faction characterized by distinct burial practices ranging from mass pits to ornate tombs and involvement in ritualistic kidnappings.
 
 They are also noted for their fanaticism.
+
+The faction maintains a vault southwest of the Forum that is reportedly locked and trapped.
+
+A conflict with the faction in the Great Cavern resulted in the death of the wizard Bjorn.
 
 ## Sources
 - [[vault/sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]

@@ -19,7 +19,7 @@ TODO: Add description.
 | 2026-03-13 | p.272 | $0 | 1 | No | Party |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+- Includes progress made in mapping the verticality of the megadungeon.
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

@@ -27,3 +27,4 @@ PC clerics are discouraged from choosing patrons from The Twelve without special
 
 ## Sessions
 - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
+- [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]]

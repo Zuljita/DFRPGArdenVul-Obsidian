@@ -1,6 +1,8 @@
 ---
 title: "Survivors of the Stone"
 tags:
+  - session/32
+  - culture/dwarven
   - faction
 aliases:
   - Survivors of the Stone, dwarven adventuring party

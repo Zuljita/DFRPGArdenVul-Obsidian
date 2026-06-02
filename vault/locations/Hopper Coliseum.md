@@ -1,10 +1,13 @@
 ---
 tags:
+  - type/battlefield
   - type/historical-site
   - site/coliseum
   - type/location
   - location
 related_entities:
+  - [[factions/heqeti.md|heqeti]]
+  - [[notes/demon-worshipping hoppers.md|heqeti]]
   - [[npcs/Marius Tricotor.md|Marius Tricotor]]
   - [[npcs/Crallicarus.md|Crallicarus]]
 ---

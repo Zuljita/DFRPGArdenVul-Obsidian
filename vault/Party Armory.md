@@ -27,7 +27,7 @@ title: Party Armory
 | Brooch of Shielding (absorbs Magical Bolt damage) | 1 | p.300 | $1,000 | 2026-04-24 | — |
 | Death Mask of Ptoh-Risus (DR1 golden helmet and mask, See Secrets 1/day, Detect Lies +4, Resist Illusion +5, Will +1, Infravision, hidden magic) | 1 | p.188 | $5,000 | 2025-10-17 | — |
 | destroyed magic goggles | 1 | p.682 | $10 | 2025-12-19 | — |
-| Divine Breath of Thoth | 1 | p.151 | $0 | 2026-01-09 | — |
+| Divine Breath of [[npcs/Thoth.md|Thoth]] | 1 | p.151 | $0 | 2026-01-09 | — |
 | ebony wand of magical bolt (1d, 20 charges, command word "iaculor" engraved on it) | 1 | p.221 | $10,000 | 2025-12-26 | rechargeable $80/charge max 20 |
 | empty data crystal | 1 | p.613 | — | 2026-01-30 | — |
 | Ever-Full Inkwell | 1 | p.140 | $3,500 | 2025-08-01 | — |
@@ -42,7 +42,7 @@ title: Party Armory
 | Hand of Glory (invisibility, silence, can wear 3rd magic ring, cursed: -2 to all rolls if used by non-cleric of Set) | 1 | p.195 | $100 | 2025-08-29 | — |
 | Helm of Underwater Action (Breathe Water, Water Vision) | 1 | p.275 | $20,000 | 2026-02-06 | — |
 | Helm of Underwater Action (Water Vision, Breathe Water) | 3 | p.294 | $20,000 | 2026-03-13 | — |
-| Heqeti Ring (summon giant salamanders, charm amphibians, cursed to make wearer follower demon god) | 1 | p.115 | $2,000 | 2026-05-01 | — |
+| [[factions/heqeti.md|Heqeti]] Ring (summon giant salamanders, charm amphibians, cursed to make wearer follower demon god) | 1 | p.115 | $2,000 | 2026-05-01 | — |
 | huge magic gold key | 1 | p.101 | $100 | 2025-11-14 | — |
 | Infernal Effigy -- can summon devil, if true name known (it's not) | 1 | p.275 | $1,000 | 2026-02-06 | — |
 | insert dwarven lifestone | 1 | p.272 | $0 | 2026-03-13 | — |
@@ -109,7 +109,7 @@ title: Party Armory
 | Tooth of Pol (6"x4" tooth, "Pol" engraved, if worn next to skin, +1 IQ,  wearer becomes surly and sarcastic, -2 to reactions) | 1 | p.302 | $20,000 | 2026-04-24 | — |
 | Torc of Authority (Charisma +2) | 1 | p.221 | $5,000 | 2025-12-26 | — |
 | wand of detect evil (25 charges) | 3 | p.127 | $500 | 2025-08-08 | — |
-| Wand of Illumination (13) | 3 | p.616 | $5,000 | 2026-05-08 | (free) Light, torch brightness (1*Area) Sunlight, centereed on wand, follows it  (2*Area) Sunlight at a point within 20 yards, fixed (1 per level) Sunbolt If out of charges, destroyed on 16+ Regains 1d+1 charges at dawn, if outside in sun |
+| [[items/Wand of Illumination.md|Wand of Illumination]] (13) | 3 | p.616 | $5,000 | 2026-05-08 | (free) Light, torch brightness (1*Area) Sunlight, centereed on wand, follows it  (2*Area) Sunlight at a point within 20 yards, fixed (1 per level) Sunbolt If out of charges, destroyed on 16+ Regains 1d+1 charges at dawn, if outside in sun |
 | Wand of Magical Bolt (1d, 71 charges) | 1 | p.1103 | $700 | 2026-03-13 | — |
 | Wand of See Secrets (15) | 1 | p.130 | $1,500 | 2025-10-24 | — |
 | wand of See Secrets (16 charges) | 11 | p.310 | $1,600 | 2025-07-25 | — |
@@ -178,7 +178,7 @@ title: Party Armory
 | mail suit, Fortify 3 Lighten 2 | 1 | p.613 | $28,700 | 2026-01-30 | — |
 | mail suit, Fortify 3, Lighten 1 | 1 | p.272 | $20,000 | 2026-03-13 | — |
 | orange [[factions/Rudishva.md|Rudishva]] jumpsuit | 3 | p.870 | $10 | 2025-11-21 | — |
-| Personal defense array | 3 | p.873 | $25 | 2025-11-14 | — |
+| [[items/Personal Defense Array.md|Personal defense array]] | 3 | p.873 | $25 | 2025-11-14 | — |
 | plasteel shield | 1 | p.874 | $200 | 2025-11-14 | — |
 | Rudishva breather | 1 | p.362 | — | 2026-02-06 | — |
 | Rudishva desert boots | 1 | p.613 | — | 2026-01-30 | — |
@@ -187,7 +187,7 @@ title: Party Armory
 | Set robes | 1 | p.270 | $10 | 2026-03-20 | — |
 | Suit of Set scale armor, fine, Fortify 2, Lighten 2 | 1 | p.274 | $10,000 | 2026-03-13 | — |
 | Suit of Set scale armor, Fortify 2, Lighten 1 | 1 | p.277 | $2,000 | 2026-03-13 | — |
-| Torc of Protection (force DR6 to head/skull/eyes, without blocking vision/hearing) | 1 | p.137 | $10,000 | 2025-08-08 | — |
+| [[items/Torc of Protection.md|Torc of Protection]] (force DR6 to head/skull/eyes, without blocking vision/hearing) | 1 | p.137 | $10,000 | 2025-08-08 | — |
 
 ## Consumables
 
@@ -312,7 +312,7 @@ title: Party Armory
 | lesser [[factions/Rudishva.md|Rudishva]] power supply | 1 | p.874 | $25 | 2025-11-14 | — |
 | mirror and frame | 3 | p.150 | $0 | 2025-10-24 | — |
 | patches for recovering [[items/Scepter of the Goblins.md|Scepter of the Goblins]] | 0 | — | — | 2026-01-09 | — |
-| Plumthorn's keys | 3 | p.164 | — | 2025-10-10 | — |
+| [[npcs/Phlebotomas Plumthorn.md|Plumthorn's]] keys | 3 | p.164 | — | 2025-10-10 | — |
 | Portable Point Defense Controller | 1 | p.358 | — | 2026-01-30 | — |
 | potion belt | 1 | p.312 | $60 | 2025-07-25 | — |
 | pouch | 1 | p.221 | $10 | 2026-01-02 | — |
@@ -352,20 +352,20 @@ title: Party Armory
 | bag of silver shavings | 1 | p.115 | $10 | 2026-05-01 | — |
 | chest of strange metal | 1 | p.306 | $50 | 2026-01-16 | — |
 | crystal wine glass | 1 | p.275 | $20 | 2026-02-06 | — |
-| ebony and ivory Thoth statue | 1 | p.120 | $1,000 | 2025-07-18 | — |
+| ebony and ivory [[npcs/Thoth.md|Thoth]] statue | 1 | p.120 | $1,000 | 2025-07-18 | — |
 | eye-shaped sapphire, shocks (1d-2) any who touch it, but does not radiate magic | 1 | p.195 | $1,000 | 2025-11-28 | — |
 | gold medallion | 1 | p.101 | $45 | 2025-11-14 | — |
 | gold signet ring with "MT" | 1 | p.619 | $100 | 2026-05-08 | — |
-| heqeti jewelry | 3 | p.613 | $237 | 2026-01-30 | — |
+| [[factions/heqeti.md|heqeti jewelry]] | 3 | p.613 | $237 | 2026-01-30 | — |
 | ivory token | 1 | p.682 | $50 | 2025-12-19 | — |
 | large round rhodechrosite gems shaped like eyes | 3 | p.310 | $2,500 | 2025-07-25 | — |
 | magic glass statue eyes (power dormant but appear to be part of a statue) | 1 | p.233 | $10 | 2025-09-19 | — |
 | pearl (gem) | 1 | p.305 | $75 | 2025-11-28 | — |
 | set of lead soldiers | 0 | p.619 | $125 | 2026-05-08 | — |
 | silver ewer | 1 | p.275 | $35 | 2026-02-06 | — |
-| silver plate with pictures of varuda, [[factions/Varumani.md|varumani]], [[factions/Kaliyani.md|kaliyani]] | 1 | p.361 | $110 | 2026-02-06 | — |
+| silver plate with pictures of [[factions/Varuda.md|varuda]], [[factions/Varumani.md|varumani]], [[factions/Kaliyani.md|kaliyani]] | 1 | p.361 | $110 | 2026-02-06 | — |
 | Silver ring with inscription from [[npcs/Lankios.md|Lankios]] to Guivrel | 0 | p.684 | $20 | 2025-12-19 | — |
-| silver Sortian eye | 1 | p.192 | — | 2026-03-27 | — |
+| silver [[factions/Sortians.md|Sortian]] eye | 1 | p.192 | — | 2026-03-27 | — |
 | small emeralds | 1 | p.313 | $400 | 2025-07-25 | — |
 
 ## Miscellaneous
@@ -386,7 +386,7 @@ title: Party Armory
 | Canticle of Revelation | 1 | p.151 | $100 | 2026-01-09 | — |
 | clairvoyance potion (like wizard eye without the eye) | 1 | p.336 | — | 2025-05-09 | — |
 | deafening light potion (grenade, Flash + Concussion, area only 3) | 1 | p.336 | — | 2025-05-09 | — |
-| Deeds of Ptarmis | 1 | p.151 | $200 | 2026-01-09 | — |
+| Deeds of [[npcs/Ptarmis.md|Ptarmis]] | 1 | p.151 | $200 | 2026-01-09 | — |
 | diary of Hellas (mostly raving) | 1 | p.151 | $0 | 2026-01-09 | — |
 | discs of strange heavy substance | 3 | p.226 | $25 | 2025-11-07 | — |
 | dispel magic potion (grenade, area 2) | 1 | p.336 | — | 2025-05-09 | — |
@@ -399,7 +399,7 @@ title: Party Armory
 | globe of arcanum | 1 | p.150 | $40,000 | 2025-07-11 | — |
 | gold disk with grooves and central hole | 1 | p.187 | — | 2025-04-18 | — |
 | green glass square | 1 | p.185 | — | 2025-04-18 | — |
-| Gwelf corpse (partly eaten, Final Rested so not too gross) | 1 | — | $0 | 2025-10-31 | — |
+| [[npcs/Gwelf.md|Gwelf]] corpse (partly eaten, Final Rested so not too gross) | 1 | — | $0 | 2025-10-31 | — |
 | half a pair of Boots of Elvenkind (give Hush) [second boot 2025-07-04] | 1 | p.227 | — | 2025-04-11 | — |
 | half-eaten minotaur corpse (super gross) | 1 | p.884 | $0 | 2025-10-31 | — |
 | Irene Ballatrix: on the Wars of this Great Archon | 1 | p.151 | $100 | 2026-01-09 | — |
@@ -410,7 +410,7 @@ title: Party Armory
 | Legionary pennant | 1 | p.618 | $500 | 2026-05-08 | — |
 | limed over corpse | 1 | p.221 | $0 | 2026-01-02 | — |
 | Locomotion in Animals and Humanoids | 1 | p.151 | $150 | 2026-01-09 | — |
-| Mace of Muirasso (fine balanced dwarven, +1 Acc/Puissance, +2 Resist Poison, +1 Charisma) | 1 | p.335 | — | 2025-05-09 | — |
+| Mace of [[npcs/Muirasso.md|Muirasso]] (fine balanced dwarven, +1 Acc/Puissance, +2 Resist Poison, +1 Charisma) | 1 | p.335 | — | 2025-05-09 | — |
 | mace: Finisher (fine, balanced, dwarven, +1 Accuracy vs. undead only, +1 Puissance vs. undead only) | 1 | p.187 | — | 2025-04-18 | — |
 | mage scroll of Mystic Mist | 1 | p.335 | — | 2025-05-09 | — |
 | magic blue gem eye | 1 | p.236 | — | 2025-06-20 | — |
@@ -426,11 +426,11 @@ title: Party Armory
 | melted silver | 1 | p.230 | $56 | 2025-05-23 | — |
 | Memorial Codex of the Cult of Thoth | 1 | p.151 | $450 | 2026-01-09 | — |
 | Moralis in Teracleon | 1 | p.151 | $0 | 2026-01-09 | — |
-| Notes on the Followers of the Arch-Traitor, Priscus Pulcher | 1 | p.151 | $75 | 2026-01-09 | — |
+| Notes on the Followers of the Arch-Traitor, [[npcs/Priscus Pulcher.md|Priscus Pulcher]] | 1 | p.151 | $75 | 2026-01-09 | — |
 | On Friends and Enemies | 1 | p.151 | $50 | 2026-01-09 | — |
 | On Profit | 1 | p.151 | $65 | 2026-01-09 | — |
 | On the Care and Feeding of Baboons | 1 | p.151 | $50 | 2026-01-09 | — |
-| On the Errors of the Sortians | 1 | p.151 | $150 | 2026-01-09 | — |
+| On the Errors of the [[factions/Sortians.md|Sortians]] | 1 | p.151 | $150 | 2026-01-09 | — |
 | On the Terrible Old Gods | 1 | p.151 | $10,000 | 2026-01-09 | — |
 | potion of clairvoyance (like Wizard Eye, no eye) | 3 | p.90 | — | 2025-05-16 | — |
 | potion of flying | 1 | p.187 | $3,000 | 2025-04-18 | — |
@@ -445,7 +445,7 @@ title: Party Armory
 | Rescript from Archon Pellas Idreonus to chiliarch Celsus Torquatius | 1 | p.618 | $350 | 2026-05-08 | — |
 | ring of free action (full movement despite web, slow, water, etc.) | 1 | p.187 | — | 2025-04-18 | — |
 | Ring of Protection DR1 | 1 | p.335 | — | 2025-05-09 | — |
-| Rudishva corpse | 3 | p.870 | $0 | 2025-11-21 | — |
+| [[factions/Rudishva.md|Rudishva corpse]] | 3 | p.870 | $0 | 2025-11-21 | — |
 | scroll: Find Familar (allows gaining DF5 Common Familiar advantage) | 148 | p.150 | $700 | 2025-07-11 | — |
 | Seventeen Uses of a Dead Troll | 1 | p.151 | $0 | 2026-01-09 | — |
 | silver ankh (fits in [[locations/Obelisk.md|obelisk]]) | 1 | p.99 | — | 2025-04-25 | — |
@@ -461,7 +461,7 @@ title: Party Armory
 | The Highly Impressive Story of Frigg the Fabulous | 1 | p.151 | $75 | 2026-01-09 | — |
 | The Honorable Life of Ligareus the Archon | 1 | p.151 | $65 | 2026-01-09 | — |
 | The Intelligent User's Guide to the Mystical Properties of Gems | 1 | p.151 | $250 | 2026-01-09 | — |
-| The Lay of Marius Invictus | 1 | p.151 | $100 | 2026-01-09 | — |
+| The Lay of [[npcs/Marius Tricotor.md|Marius]] Invictus | 1 | p.151 | $100 | 2026-01-09 | — |
 | The Politics | 1 | p.151 | $50 | 2026-01-09 | — |
 | Twelve Labors of Arden | 1 | p.151 | $150 | 2026-01-09 | — |
 | unpowered Mage scroll of Continual Light | 1 | p.230 | $120 | 2025-05-23 | — |
@@ -482,7 +482,7 @@ title: Party Armory
 | giant centipede repellent paste | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | giant lizard hide | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | goblin control potion | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
-| Imperial field plate (Heavy Plate, Lighten -50%), Fortify 2 | p.618 | $5,000 | 2026-05-08 | Found and destroyed same session. Was in poor condition. |
+| [[items/Imperial Field Plate.md|Imperial field plate]] (Heavy Plate, Lighten -50%), Fortify 2 | p.618 | $5,000 | 2026-05-08 | Found and destroyed same session. Was in poor condition. |
 | Invisibility potion | — | — | 2025-12-20 | Apartment fire — invisibility potion destroyed (separate from Pearl Necklace of Invisibility, which survived). |
 | iron ankh | p.334 | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | lantern | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |

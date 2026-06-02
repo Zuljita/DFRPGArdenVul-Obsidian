@@ -28,6 +28,9 @@ Members of the [[Cult of Set]].
 
 TBD
 - While displaced, the Guild is reported to be at 100% manpower.
+- Captured Hjalti in the Great Cavern and threw him into a slave pit.
+- Worship of Set was banned by imperial decree in 1839 AEP.
+- Rumors persist regarding a "Forum of Set" within the ruins of Arden Vul.
 
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]

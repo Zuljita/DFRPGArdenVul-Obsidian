@@ -64,14 +64,14 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
 * **Town actions taken:** 
     * Purchased "Fine, Ornate +3 Clothing" from Tasha the Tailor ($2,280) to serve as dungeonwear; the garment features runic and glyph ornamentation.
     * Consulted the hologram [[npcs/Akla-Chah.md|Akla-Chah]] regarding the origins of magic; learned that magic was unknown to her people until they were stranded on the planet Magae.
-    * Celebrated the acquisition of a new power item by sharing wine with Chairduster and the torc; during the celebration, [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] smashed a bottle of wine ($100) against the counter and tipped Chairduster $50 for the mess.
+    * Celebrated the acquisition of a new power item by sharing wine with [[npcs/Chairduster.md|Chairduster]] and the torc; during the celebration, [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] smashed a bottle of wine ($100) against the counter and tipped Chairduster $50 for the mess.
 * **Alchemy/crafting attempts and results:** Successfully brewed a Potion of Wisdom.
 * **Research results:** 
-    * Read *Ancient Incriminating Information*: Discovered evidence that Emperor Marcion V may have $\text{have}$ been fathered by Taxiarch Lucius of the Imperial Tagmata, and that the Cult of Set was bribed to suppress this fact.
+    * Read *Ancient Incriminating Information*: Discovered evidence that Emperor Marcion V may have $\text{have}$ been fathered by Taxiarch Lucius of the Imperial Tagmata, and that the [[factions/Cult of Set.md|Cult of Set]] was bribed to suppress this fact.
     * Read *Courtship of Julius the Exarch*: Identified as an aristocratic romance novel.
     * Read *Phagtro the Scout*: Learned that Phagtro guided imperial legions to Trenner's Rock, providing a tactical advantage against the Thorcinga.
 * **Character advancement:** Spent 5 points on Will specifically to facilitate the conversion of Will into Intelligence (reaching IQ 16).
-* **Equipment changes:** Acquired "The Captain's Broadside" from a local shop; donned a second set of Bracers of $\text{Force}$ (DR 3); when worn in conjunction with Larel's cloak, total protection is increased to DR 5.
+* **Equipment changes:** Acquired "The Captain's Broadside" from a local shop; donned a second set of Bracers of $\text{Force}$ (DR 3); when worn in conjunction with [[items/Larel's Cloak.md|Larel's cloak]], total protection is increased to DR 5.
 
 **Mercenary: Basilisk**
 * **Status:** Active.
@@ -81,7 +81,7 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
 * **Military History:** Phagtro the Scout was instrumental in the success of imperial legions at Trenner's Rock (*Phagtro the Scout*).
 * **Adrienic Expedition:** A memoir from a survivor claims that legionaries in the [[factions/Sheepshead Rangers.md|Sheepshead Rangers]] were destroyed by lightning-wielding trolls and guardsmen of the tagmata by summoned demons.
 * **Planetary Magic:** The presence of magic on the planet Magae is a localized phenomenon, unknown to the "betrayers" prior to their arrival (Akla-Chah).
-* **Local Folklore:** A legend exists regarding a gem-eyed dragonfly in the Forum of Set that cursed a man named Theo after an attempted theft involving a goblin (*Local inquiry/Vallium*).
+* **Local Folklore:** A legend exists regarding a gem-eyed dragonfly in the [[locations/Forum of Set.md|Forum of Set]] that cursed a man named Theo after an attempted theft involving a goblin (*Local inquiry/Vallium*).
 * **Crafting Notes:** Nikandros noted that if he worked with dragonhide, he could potentially produce even stronger armor.
 
 **World Rulings**
@@ -101,7 +101,7 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
 The company intends to execute the following during the next session:
 1. Conduct town business.
 2. Utilize the first set of [[items/Rugs of Instant Access.md|Rugs of Instant Access]] to travel to the Beacon.
- $\text{Use}$ the Rudishva Teleportation Pad to reach the Cloister, proceeding through secret passages (southwest, then north along water, then east).
+ $\text{Use}$ the Rudishva Teleportation Pad to reach the [[locations/Cloister.md|Cloister]], proceeding through secret passages (southwest, then north along water, then east).
 3. Explore the area containing the "Troll Lifts and Arena W" map, with a specific intent to ambush Lesser and Bestial Varumani.
 4. Investigate the surgical bay area.
 5. If the area is cleared, return to the Behir caves to continue exploration.

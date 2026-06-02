@@ -1,9 +1,13 @@
 ---
 tags:
+  - type/military-unit
+  - status/lost
   - faction
   - culture/archontean
   - era/historical
   - culture/archontean
+identity_hints:
+  - 2nd Legion
 ---
 
 # Sheepshead Rangers
@@ -26,6 +30,9 @@ TBD
 All five cohorts were lost in a bloody battle at the [[Cavern of Blood]].
 - Official insignia features a sheep.
 - Identified as the 2nd Legion.
+- [[factions/Adrienic Expedition.md|Guardsmen of the tagmata]] were destroyed by summoned demons.
+- Their battle standards were also lost in the [[Cavern of Blood]].
+- Official insignia features a sheep, distinct from the Sheep's Head Legion.
 
 ## Members
 

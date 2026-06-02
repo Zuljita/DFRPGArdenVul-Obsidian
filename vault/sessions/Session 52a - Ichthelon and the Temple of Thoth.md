@@ -31,7 +31,7 @@ Cool, fair
 
 ## Significant NPCs:
 
-[[npcs/Freydis the Stern.md|Freydis the Stern]], Lady Alexia's steward
+[[npcs/Freydis the Stern.md|Freydis the Stern]], [[npcs/Lady Alexia Basileon.md|Lady Alexia]]'s steward
 
 [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]], ruler of [[locations/Gosterwick.md|Gosterwick]]
 
@@ -44,9 +44,9 @@ Dragonfly Automaton of Kerbog Khan, archmage
 
 Many goblins
 
-[[npcs/Remagis.md|Remagis]], priest of Thoth
+[[npcs/Remagis.md|Remagis]], priest of [[npcs/Thoth.md|Thoth]]
 
-2 Guardians of Thoth
+2 Guardians of [[npcs/Thoth.md|Thoth]]
 [[npcs/Gribble.md|Gribble]], Chief of the [[locations/Goblin Forum.md|Goblin Forum]]
 [[npcs/Dworm.md|Dworm]], [[locations/Goblin Forum.md|Goblin Forum]] guard and food merchant
 [[npcs/Yoburra.md|Yoburra]], Varmani ambassador to the Forum
@@ -78,7 +78,7 @@ They all walked over to the [[locations/Azure Keep.md|Azure Keep]] and told the 
 
 With the reward in hand, they returned to the [[factions/Arcane Practitioners' Club.md|Arcane Practitioners' Club]], where [[pcs/Ioannes.md|Ioannes]] cast Bless spells on Vael and [[pcs/Vallium Halcyon.md|Vallium]] then had his power item recharged.  They then went through the [[items/Teleport Rug.md|Teleport Rug]] to the [[locations/Beacon.md|Beacon]], where [[npcs/Basil.md|Basil]] awaited.  [[npcs/Basil.md|Basil]] suggested moving the purple [[items/Teleport Rug.md|Teleport Rug]] to [[npcs/Akla-Chah.md|Akla-Chah]]'s room to simplify communication, and the company agreed.  [[npcs/Stamelis.md|Stamelis]] asked if he could be taken to the [[locations/Temple of Thoth.md|Temple of Thoth]] to check on [[npcs/Remagis.md|Remagis]], and the group agreed, though Vael asked [[npcs/Stamelis.md|Stamelis]] to keep the secret of the Beacon.
 
-Everyone went through the [[factions/Rudishva.md|Rudishva]] teleporter to the Secure Treasury, through the [[locations/Cloister.md|Cloister]], then through the secret passage to the slime room with the hole leading up to the cavern near the Temple of Set.  At that point both clerics stepped through the Rug, and Vael and Vallium Levitated up.  As they emerged from a secret door into the cavern, they spotted and were spotted by a clockwork dragonfly construct.  The dragonfly flew up to them, and a human-ish voice identifying himself as Kerbog Khan spoke to them.  He congratulated them for finding that secret door, which he had not previously known about.  He mentioned that he was an archmage and could sell information or spells or even teleportation, but all deals must be sealed in blood.  Vael tested Kerbog Khan's knowledge by speaking in [[factions/Rudishva.md|Rudishva]], and Kerbog Khan seemed to understand it.
+Everyone went through the [[factions/Rudishva.md|Rudishva]] teleporter to the [[locations/Secure Treasury.md|Secure Treasury]], through the [[locations/Cloister.md|Cloister]], then through the secret passage to the slime room with the hole leading up to the cavern near the Temple of Set.  At that point both clerics stepped through the Rug, and Vael and Vallium Levitated up.  As they emerged from a secret door into the cavern, they spotted and were spotted by a clockwork dragonfly construct.  The dragonfly flew up to them, and a human-ish voice identifying himself as Kerbog Khan spoke to them.  He congratulated them for finding that secret door, which he had not previously known about.  He mentioned that he was an archmage and could sell information or spells or even teleportation, but all deals must be sealed in blood.  Vael tested Kerbog Khan's knowledge by speaking in [[factions/Rudishva.md|Rudishva]], and Kerbog Khan seemed to understand it.
 
 When the dragonfly departed, they put the [[items/Teleport Rug.md|Teleport Rug]] down so the clerics could rejoin the party, then everyone went south through the [[locations/Temple of Set.md|Temple of Set]], then east to the Temple of Thoth.  There [[npcs/Remagis.md|Remagis]] had done quite a bit of restoration work.  He warned them not to enter without a holy symbol of Thoth, as the newly awakened Ibis Guardians of Thoth were somewhat hostile to those without one.  The goblin guards handed them some cheap wooden Guest Holy Symbols to brandish, while [[npcs/Remagis.md|Remagis]] showed them around.  The pool that had formerly contained a Slime Kraken, then cloudy disgusting liquid, now seemed to hold pure clean water, and [[npcs/Remagis.md|Remagis]] said it had healing properties.  He had worked out a deal with [[npcs/Bottleneck.md|Bottleneck]] and the goblins of Upper [[locations/Goblintown.md|Goblintown]], exchanging healing for food.
 

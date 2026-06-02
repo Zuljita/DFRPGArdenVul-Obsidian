@@ -21,6 +21,7 @@ TBD
 
 ## Notes
 TBD
+- Khumus is a native language for Humans and Half-Elves.
 
 ## Members
 
