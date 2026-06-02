@@ -4998,6 +4998,223 @@ def write_article_edit_proposal_report(proposals: list[ArticleEditProposal]) -> 
     (proposals_dir / "article_edit_proposals.md").write_text("\n".join(lines), encoding="utf-8")
 
 
+def merge_article_edit_proposals(new_proposals: list[ArticleEditProposal]) -> tuple[int, int]:
+    """Merge new proposals into the existing article_edit_proposals.json, deduplicating by proposal_id.
+
+    Returns (added_count, total_count).
+    """
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    proposals_dir.mkdir(parents=True, exist_ok=True)
+    json_path = proposals_dir / "article_edit_proposals.json"
+    existing: list[dict] = []
+    if json_path.exists():
+        try:
+            existing = json.loads(json_path.read_text(encoding="utf-8"))
+        except Exception:
+            existing = []
+    existing_ids = {e.get("proposal_id") for e in existing if e.get("proposal_id")}
+    added = 0
+    for p in new_proposals:
+        if p.proposal_id and p.proposal_id in existing_ids:
+            continue
+        existing.append(asdict(p))
+        existing_ids.add(p.proposal_id)
+        added += 1
+    write_json(json_path, existing)
+    return added, len(existing)
+
+
+def research_agent_round_prompt(
+    article_text: str,
+    chunks: list[dict],
+    private_hints: list[dict],
+    article_path: str,
+    article_title: str,
+    article_kind: str,
+    round_num: int,
+    max_rounds: int,
+    max_additions: int,
+) -> str:
+    article_excerpt = article_text[:2500]
+    evidence_blocks = []
+    for c in chunks:
+        evidence_blocks.append(
+            f"[{c.get('path','?')} §{c.get('section','?')} kind={c.get('kind','?')}]\n{(c.get('text') or '')[:1600]}"
+        )
+    evidence_text = "\n\n---\n\n".join(evidence_blocks) or "(none yet)"
+    hint_blocks = []
+    for h in private_hints:
+        hint_blocks.append(
+            f"[PRIVATE HINT: {h.get('path','?')}]\n{(h.get('text') or '')[:1000]}"
+        )
+    hints_text = "\n\n---\n\n".join(hint_blocks) or "(none)"
+    rounds_left = max_rounds - round_num - 1
+    return (
+        "You are a research agent for the Arden Vul DFRPG campaign vault.\n\n"
+        f"ARTICLE: {article_path}\nTitle: {article_title}\nKind: {article_kind}\n"
+        f"Round {round_num + 1} of {max_rounds} ({rounds_left} search rounds remaining after this).\n\n"
+        "ARTICLE CONTENT:\n---\n"
+        f"{article_excerpt}\n"
+        "---\n\n"
+        "ACCUMULATED EVIDENCE from vault RAG searches:\n\n"
+        f"{evidence_text}\n\n"
+        "PRIVATE AUTOMATION HINTS (non-citable raw Discord; never cite these directly):\n\n"
+        f"{hints_text}\n\n"
+        "YOUR TASK:\n"
+        "1. If you need more evidence, return up to 3 focused `research_queries` for the next RAG search round.\n"
+        "2. Return any `proposals` supported by the EVIDENCE above (not hints alone).\n"
+        "   You may return both queries and proposals in the same response.\n"
+        f"   Propose at most {max_additions} additions total across all rounds.\n"
+        "   If the evidence is sufficient, return an empty `research_queries` list.\n\n"
+        "Allowed addition types:\n"
+        "- append_bullet_to_section: add a sourced bullet to an existing H2 section. "
+        "If the article is a stub with no body sections yet, use target_section='Notes' "
+        "or target_section='Summary' to seed it with factual content.\n"
+        "- add_alias: add an alternate name to the frontmatter aliases list (target_section='aliases').\n"
+        "- extend_summary: add one factual sentence to the Summary section (target_section='Summary').\n\n"
+        "Every proposal MUST cite a specific source excerpt verbatim from the EVIDENCE above.\n"
+        "Do not invent facts, do not paraphrase loosely, do not propose changes already in the article.\n\n"
+        "Return strict JSON only:\n"
+        "{\n"
+        '  "research_queries": ["focused query string", ...],\n'
+        '  "proposals": [\n'
+        "    {\n"
+        '      "addition_type": "append_bullet_to_section",\n'
+        '      "target_section": "Sessions",\n'
+        '      "proposed_text": "- [[sessions/Session 27.md|Session 27]]",\n'
+        '      "rationale": "one sentence",\n'
+        '      "sources": [{"path": "vault/sessions/...", "section": "...", "excerpt": "<verbatim quote>"}]\n'
+        "    }\n"
+        "  ]\n"
+        "}"
+    )
+
+
+def research_article_agent(
+    article_path: Path,
+    max_rounds: int = 5,
+    top_k_per_query: int = 8,
+    max_additions: int = 5,
+) -> list[ArticleEditProposal]:
+    """Iterative research agent: searches the RAG in multiple rounds to build evidence before proposing edits."""
+    rel_path = article_path.relative_to(ROOT).as_posix()
+    article_text = read_text(article_path)
+    item = build_article_queue_item(article_path)
+    if item is None:
+        # Build a minimal queue item for paths not in the scored queue
+        title = article_path.stem
+        kind = vault_rag_kind_for_path(article_path)
+        item = ArticleQueueItem(
+            path=rel_path, title=title, kind=kind, tags=(),
+            score=0, reasons=(), queries=(title,),
+        )
+
+    all_chunks = gather_article_research_chunks(item, top_k_per_query=top_k_per_query)
+    private_hints = gather_private_discord_hints(item)
+
+    accumulated_proposals: list[dict] = []
+    rounds_run = 0
+
+    for round_num in range(max_rounds):
+        rounds_run += 1
+        prompt = research_agent_round_prompt(
+            article_text, all_chunks, private_hints,
+            rel_path, item.title, item.kind,
+            round_num, max_rounds, max_additions,
+        )
+        try:
+            response = llm_chat_json(prompt, timeout=300)
+        except Exception as exc:
+            print(f"  round {round_num + 1} LLM error: {exc}", file=sys.stderr)
+            break
+
+        new_queries = [
+            q.strip() for q in (response.get("research_queries") or [])
+            if isinstance(q, str) and q.strip()
+        ]
+        for raw in (response.get("proposals") or []):
+            if isinstance(raw, dict):
+                accumulated_proposals.append(raw)
+
+        print(
+            f"  round {round_num + 1}: {len(new_queries)} new queries, "
+            f"{len(response.get('proposals') or [])} proposals",
+            file=sys.stderr,
+        )
+
+        if not new_queries or round_num == max_rounds - 1:
+            break
+        all_chunks = expand_article_research_chunks(all_chunks, new_queries, top_k_per_query, max_chunks=40)
+
+    # Parse accumulated proposals into ArticleEditProposal objects
+    results: list[ArticleEditProposal] = []
+    seen_ids: set[str] = set()
+    for raw in accumulated_proposals:
+        addition_type = str(raw.get("addition_type", "")).strip()
+        if addition_type not in ARTICLE_EDIT_ADDITION_TYPES:
+            continue
+        target_section = str(raw.get("target_section", "")).strip()
+        proposed_text = normalize_vault_wikilinks(str(raw.get("proposed_text", "")).strip())
+        rationale = str(raw.get("rationale", "")).strip()
+        sources: list[dict] = []
+        for src in (raw.get("sources") or []):
+            if isinstance(src, dict) and is_citable_article_source(str(src.get("path", ""))):
+                sources.append({
+                    "path": str(src.get("path", "")),
+                    "section": str(src.get("section", "")),
+                    "excerpt": str(src.get("excerpt", ""))[:400],
+                })
+        if not sources or not proposed_text or not target_section:
+            continue
+        proposal_id = hashlib.sha1(
+            f"{rel_path}|{addition_type}|{target_section}|{proposed_text}".encode("utf-8")
+        ).hexdigest()[:12]
+        if proposal_id in seen_ids:
+            continue
+        seen_ids.add(proposal_id)
+        results.append(ArticleEditProposal(
+            article_path=rel_path,
+            article_title=item.title,
+            article_kind=item.kind,
+            article_score=item.score,
+            addition_type=addition_type,
+            target_section=target_section,
+            proposed_text=proposed_text,
+            rationale=rationale,
+            sources=sources,
+            status="needs-verification",
+            proposal_id=proposal_id,
+        ))
+        if len(results) >= max_additions:
+            break
+
+    return results
+
+
+def cmd_research_article(args: argparse.Namespace) -> int:
+    article_path = ROOT / args.article
+    if not article_path.exists():
+        print(json.dumps({"ok": False, "error": f"file not found: {args.article}"}), file=sys.stderr)
+        return 1
+    print(f"Researching {args.article} (max_rounds={args.max_rounds}, top_k={args.top_k}) ...", file=sys.stderr)
+    proposals = research_article_agent(
+        article_path,
+        max_rounds=args.max_rounds,
+        top_k_per_query=args.top_k,
+        max_additions=args.max_additions,
+    )
+    added, total = merge_article_edit_proposals(proposals)
+    print(json.dumps({
+        "ok": True,
+        "article": args.article,
+        "proposals_generated": len(proposals),
+        "proposals_added_to_queue": added,
+        "total_in_queue": total,
+        "next_step": "python3 scripts/vault_automation.py verify-article-edits",
+    }, indent=2))
+    return 0
+
+
 def article_edit_verifier_prompt(proposal: ArticleEditProposal) -> str:
     article_full_path = ROOT / proposal.article_path
     article_text = read_text(article_full_path)[:1800] if article_full_path.exists() else ""
@@ -6429,6 +6646,13 @@ def build_parser() -> argparse.ArgumentParser:
 
     summarize_scratch = sub.add_parser("summarize-scratchpad", help="Condense SCRATCH.md using the configured LLM")
     summarize_scratch.set_defaults(func=cmd_summarize_scratchpad)
+
+    research = sub.add_parser("research-article", help="Run an iterative RAG research agent to propose edits for a vault article")
+    research.add_argument("--article", required=True, help="Repo-relative path to the article (e.g. vault/items/Pale Green Horn.md)")
+    research.add_argument("--max-rounds", type=int, default=5, help="Maximum RAG search rounds (default 5)")
+    research.add_argument("--top-k", type=int, default=8, help="RAG results per query per round (default 8)")
+    research.add_argument("--max-additions", type=int, default=5, help="Maximum proposals to generate (default 5)")
+    research.set_defaults(func=cmd_research_article)
 
     return parser
 
