@@ -36,5 +36,4 @@ A mostly unmapped dungeon area on its own level, connected to the [[locations/We
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — northwest passage explored
 
 ## Maps
-- ![[attachments/discord/Unfinished Business/1445819936005030030-Druids_Retreat_S.png]] — A map showing the layout of the Druid's Retreat area.
 - ![[attachments/discord/Unfinished Business/1445819936005030030-Druids_Retreat_S.png]] — Southern section of Druid's Retreat.
