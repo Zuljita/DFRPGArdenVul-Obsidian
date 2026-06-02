@@ -1,5 +1,7 @@
 ---
 tags:
+  - type/deity
+  - site/newmarket
   - faction
   - culture/archontean
   - culture/archontean

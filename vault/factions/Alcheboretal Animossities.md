@@ -1,6 +1,8 @@
 ---
 tags:
   - faction
+related_entities:
+  - [[lore/The Living Wheelbarrow Project.md|Shroom for Improvement prototype project]]
 ---
 
 # Alcheboretal Animossities
@@ -19,6 +21,7 @@ To create and commercialize practical magical items, raising funds through crowd
 
 ## Notes
 Their initial successful product is [[items/Living Wheelbarrow.md|Living Wheelbarrow]].
+- The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] was developed as part of the "Shroom for Improvement" prototype project.
 
 ## Members
 

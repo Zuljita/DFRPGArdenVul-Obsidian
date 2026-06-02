@@ -1,6 +1,10 @@
 ---
 tags:
+  - title/the-twelve-labours-of-arden
+  - site/halls-of-arden-vul
   - faction
+identity_hints:
+  - elite military cult
 ---
 
 # Cult of [[npcs/Arden.md|Arden]]

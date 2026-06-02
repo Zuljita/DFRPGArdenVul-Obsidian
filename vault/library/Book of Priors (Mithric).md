@@ -2,8 +2,12 @@
 title: "Book of Priors (Mithric)"
 type: book
 tags:
+  - type/mithric-text
+  - culture/thothian
   - library
   - book
+aliases:
+  - The Book of Priors
 ---
 # Book of Priors (Mithric)
 *Book*

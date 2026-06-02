@@ -1,6 +1,10 @@
 ---
 tags:
+  - session/41
+  - session/35
   - faction
+related_entities:
+  - [[pcs/Vallium Halcyon.md|Vallium Halcyon]]
 ---
 
 # Arcane Vengeance

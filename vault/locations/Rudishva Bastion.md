@@ -1,7 +1,11 @@
 ---
 tags:
+  - culture/rudishva
   - tradition/rudishva
   - location
+related_entities:
+  - [[factions/Rudishva.md|Rudishva]]
+  - [[concepts/Rudishva.md|Rudishva technology]]
 ---
 
 # Rudishva Bastion
@@ -16,3 +20,4 @@ Includes the Chamber of the Tablet of the Beacon.
 - Linked by teleporter network to the [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 - Silver-colored Rudishva credential variant recovered during bastion operations.
+- Features a cave outside where point defense turrets are located.

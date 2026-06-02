@@ -1,6 +1,8 @@
 ---
 title: Temple of Thoth
 tags:
+  - site/newmarket
+  - faction/cult-of-set
   - tradition/thothian
   - location
 ---
@@ -12,3 +14,4 @@ tags:
 - Has been trashed to the point where it is no longer of High sanctity. ([[notes/Discord Summary 2025-W41.md|Discord Summary 2025-W41]])
 - Now being used by the Cult of Set
 - Features a pit located east of the Settite Jail
+- Had torches and 'Continual Light areas'.

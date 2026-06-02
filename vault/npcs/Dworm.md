@@ -4,7 +4,7 @@ tags:
   - npc
   - profession/guard
   - profession/fighter
-  - type/troll
+  - type/varumani
 aliases:
   - Dworm, guard
 ---

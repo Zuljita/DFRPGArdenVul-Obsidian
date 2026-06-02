@@ -4,7 +4,7 @@ tags:
   - npc
   - profession/mage
   - faction/eighth-collegium
-  - type/troll
+  - type/varumani
 aliases:
   - Eighth Collegium
 ---

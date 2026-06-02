@@ -1,5 +1,7 @@
 ---
 tags:
+  - type/tavern
+  - site/gosterwick
   - location
 ---
 

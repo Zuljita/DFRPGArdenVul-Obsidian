@@ -1,6 +1,7 @@
 ---
 title: "The Dry"
 tags:
+  - site/ardenvul
   - location
   - entrance
 ---

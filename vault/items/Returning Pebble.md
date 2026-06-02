@@ -10,6 +10,7 @@ status: stub
 
 ## Summary
 A magical pebble that returns to its owner's possession after approximately 30 minutes.
+- Because it cannot be permanently parted with, it is considered difficult to value for trade.
 
 ## Sources
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]

@@ -14,6 +14,8 @@ aliases:
 ## Summary
 A document required for travel into Varumani territory, discovered by the party during their exploration of a Rudishva crisis station.
 
+It is a Rudishva plasteel card featuring a Varumani image on one side.
+
 ## Sources
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
 - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]

@@ -1,12 +1,18 @@
 ---
 title: Silent Factor
 tags:
+  - site/newmarket
+  - site/gosterwick
   - faction
+related_entities:
+  - [[factions/Merchants & Factors.md|Merchants & Factors]]
 ---
 # Silent Factor
 
 ## Summary
 The [[factions/Silent Factor.md|Silent Factor]] is an Empire-wide merchant factor known for its high security, high privacy, and expensive services. They have a branch in [[Gosterwick]].
+
+They also maintain a branch in [[Newmarket]].
 
 ## Characteristics
 - **Secrecy:** They offer the highest level of privacy and security among the factors in [[locations/Gosterwick.md|Gosterwick]].

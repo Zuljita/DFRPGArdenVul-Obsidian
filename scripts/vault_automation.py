@@ -19,6 +19,7 @@ import io
 import json
 import os
 import re
+import requests
 import subprocess
 import sys
 import time
@@ -326,7 +327,7 @@ def load_local_sources() -> dict:
         "action_items_apply": bool(config.get("action_items_apply", False)),
         "action_items_latest_sessions": int(config.get("action_items_latest_sessions", 8) or 8),
         "action_items_latest_discord_weeks": int(config.get("action_items_latest_discord_weeks", 4) or 4),
-        "action_items_max_items": int(config.get("action_items_max_items", 50) or 50),
+        "action_items_max_items": int(config.get("action_items_max_items", 200) or 200),
     }
 
 
@@ -1585,8 +1586,18 @@ PARTY_ARMORY_PATH = VAULT / "Party Armory.md"
 
 
 def latest_canonical_sources(limit: int = 5) -> list[Path]:
-    sessions = list_session_pages()[-limit:]
-    summaries = all_discord_summary_paths()[-limit:]
+    """Return canonical sources for entity proposal scanning.
+
+    limit=0 means all sessions + all Discord summaries (full vault walk).
+    """
+    all_sessions = list_session_pages()
+    all_summaries = all_discord_summary_paths()
+    if limit <= 0:
+        sessions = all_sessions
+        summaries = all_summaries
+    else:
+        sessions = all_sessions[-limit:]
+        summaries = all_summaries[-limit:]
     paths = [path for _sid, path in sessions] + summaries
     # Party Armory is ground-truth current inventory — always include it so items
     # the party currently holds but lack vault pages can be proposed.
@@ -2279,6 +2290,82 @@ def llm_chat_json(prompt: str, timeout: int = 90) -> dict:
     except Exception as exc:
         finish_reason = choice.get("finish_reason", "unknown")
         raise RuntimeError(f"LLM JSON parse failed; finish_reason={finish_reason}; err={exc}") from exc
+
+
+def llm_chat_text(prompt: str, timeout: int = 90, system: str | None = None) -> str:
+    """Like llm_chat_json but returns raw text instead of parsed JSON."""
+    sources = load_local_sources()
+    base_url = sources.get("llm_base_url")
+    model = sources.get("llm_model")
+    if not base_url or not model:
+        raise RuntimeError("LLM is not configured")
+    base = str(base_url).rstrip("/")
+    url = base + "/chat/completions" if base.endswith("/v1") else base + "/v1/chat/completions"
+    messages: list[dict] = []
+    if system:
+        messages.append({"role": "system", "content": system})
+    messages.append({"role": "user", "content": prompt})
+    payload = {
+        "model": model,
+        "messages": messages,
+        "temperature": 0.0,
+        "max_tokens": 16384,
+    }
+    request = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        body = json.loads(response.read().decode("utf-8"))
+    return body["choices"][0]["message"].get("content") or ""
+
+
+SCRATCH_PATH = ROOT / "SCRATCH.md"
+
+
+def summarize_scratchpad() -> dict:
+    if not SCRATCH_PATH.exists():
+        return {"ok": False, "error": "SCRATCH.md not found"}
+    text = SCRATCH_PATH.read_text(encoding="utf-8")
+    if len(text) < 300:
+        return {"ok": True, "skipped": True, "reason": f"only {len(text)} chars — nothing to condense"}
+    prompt = f"""Condense this rolling session scratchpad for the Arden Vul vault automation project.
+
+Preserve:
+- All unresolved issues and open tasks
+- Decisions made and how they were resolved
+- Pipeline state: what ran, what is pending, what errored
+- Named files, proposal IDs, and entity names still relevant
+- Any line prefixed TODO, PENDING, ISSUE, or containing ⚠️
+
+Drop:
+- Completed tasks with no follow-up needed
+- Resolved diagnostic output
+- Repetitive narrative and status updates superseded by later entries
+
+Return condensed markdown only — no preamble, no commentary. Target: under 400 lines.
+
+---SCRATCHPAD---
+{text}
+---END SCRATCHPAD---"""
+    condensed = llm_chat_text(prompt, timeout=600)
+    header = f"<!-- summarized {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')} UTC -->\n\n"
+    original_len = len(text)
+    SCRATCH_PATH.write_text(header + condensed, encoding="utf-8")
+    return {
+        "ok": True,
+        "original_chars": original_len,
+        "condensed_chars": len(condensed),
+        "path": str(SCRATCH_PATH),
+    }
+
+
+def cmd_summarize_scratchpad(args: argparse.Namespace) -> int:
+    result = summarize_scratchpad()
+    print(json.dumps(result, indent=2))
+    return 0 if result.get("ok") else 1
 
 
 def _entity_link_proposal_key(source: str, entity_path: str, mention: str, source_excerpt: str = "") -> str:
@@ -3179,10 +3266,15 @@ def is_candidate_rejected(name: str, kind: str, filters: dict, ignore_npcs: set[
         return True, "all-caps single token (likely acronym/header)"
     if " " not in n and len(n) <= 4 and n[0].isupper():
         return True, "single short title-case word (likely generic)"
-    stop_key = {"NPC": "stop_npcs", "Location": "stop_location", "Faction": "stop_factions", "Item": "stop_items", "Concept": "stop_concepts"}.get(kind)
+    stop_key = {"NPC": "stop_npcs", "Location": "stop_location", "Faction": "stop_factions", "Item": "stop_items", "Concept": "stop_concepts", "Spell": "spells", "Media": "stop_items"}.get(kind)
     if stop_key:
+        # Spells in the stop list may have difficulty suffixes like " (VH)" or " (H)" that
+        # the LLM extractor omits. Strip them before comparing so "Blink Other" matches
+        # "Blink Other (VH)".
+        _DIFF_SUFFIX = re.compile(r"\s+\([VH]+\)\s*$", re.IGNORECASE)
         for stop in filters.get(stop_key, []):
-            if nl == str(stop).lower():
+            stop_norm = _DIFF_SUFFIX.sub("", str(stop)).lower().strip()
+            if nl == stop_norm or nl == str(stop).lower():
                 return True, f"in {stop_key}"
     if kind == "Item":
         for commodity in filters.get("commodity_items", []):
@@ -3248,6 +3340,26 @@ def find_nearest_existing_entity(name: str, kind: str, entity_index: dict[str, l
                 if sim > best_sim:
                     best_sim = sim
                     best_path = ent.path
+    # Cross-directory dedup: entities can legitimately live in a different directory
+    # than the proposed kind (e.g. a merchant guild proposed as Location but filed
+    # under factions/). A high-confidence name match anywhere in the vault is enough
+    # to treat it as already covered.
+    CROSS_DIR_THRESHOLD = 0.92
+    if best_sim < CROSS_DIR_THRESHOLD:
+        for dir_name, pages in entity_index.items():
+            if dir_name in dirs:
+                continue
+            for ent in pages:
+                names_to_check = [ent.title.lower()] + [a.lower() for a in ent.aliases]
+                for cand_name in names_to_check:
+                    if not cand_name:
+                        continue
+                    if _entity_name_overlap(nl, cand_name):
+                        return ent.path, 1.0
+                    sim = difflib.SequenceMatcher(None, nl, cand_name).ratio()
+                    if sim > best_sim:
+                        best_sim = sim
+                        best_path = ent.path
     return best_path, best_sim
 
 
@@ -3324,6 +3436,22 @@ def build_new_entity_proposals(source_limit: int = 10, candidate_limit: int = 50
             text = read_text(sp)
         except Exception:
             continue
+        # For the Party Armory, normalize table cell names before extraction:
+        # strip comma-separated descriptions (e.g. "pale green horn, with a broad spiral")
+        # so the LLM sees "Pale Green Horn" as a clean proper noun.
+        if sp == PARTY_ARMORY_PATH:
+            # Normalize the first (item-name) cell of each armory table row:
+            # strip comma-separated physical descriptions so the LLM sees clean
+            # proper nouns (e.g. "pale green horn, with..." → "Pale Green Horn").
+            def _normalize_armory_name_cell(m: re.Match) -> str:
+                cell = m.group(1).strip()
+                # Only normalize cells that start lowercase — these are descriptive
+                # names the LLM won't recognise as proper nouns (e.g. "pale green horn,
+                # with a broad spiral..."). Properly-cased entries are left unchanged.
+                if cell and cell[0].islower():
+                    cell = cell.split(",")[0].strip().title()
+                return f"| {cell} |{m.group(2)}"
+            text = re.sub(r"^\|\s*([^|\n]{4,}?)\s*\|(\s*\d)", _normalize_armory_name_cell, text, flags=re.MULTILINE)
         for i in range(0, len(text), 3000):
             chunk = text[i:i + 3000]
             if len(chunk.strip()) < 80:
@@ -3374,7 +3502,274 @@ def build_new_entity_proposals(source_limit: int = 10, candidate_limit: int = 50
                 status="needs-verification",
             ))
     out.sort(key=lambda c: (-c.mention_count, c.kind, c.name))
-    return out[:candidate_limit]
+    out = out[:candidate_limit]
+
+    # Post-proposal RAG filter: suppress rulebook items and existing vault pages;
+    # route entities whose matching page lacks evidence content to update suggestions.
+    kept, suppressed_by_rag, update_suggestions = rag_filter_new_entity_proposals(out)
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    proposals_dir.mkdir(parents=True, exist_ok=True)
+    if suppressed_by_rag or update_suggestions:
+        write_json(proposals_dir / "new_entity_rag_filter.json", {
+            "suppressed": suppressed_by_rag,
+            "update_suggestions": update_suggestions,
+        })
+    return kept
+
+
+def _load_rag_api_config() -> tuple[str, str | None]:
+    """Return (base_url, api_key) for the postgres RAG API."""
+    sources = load_local_sources()
+    base_url = str(sources.get("rag_api_url") or "http://localhost:8897").rstrip("/")
+    api_key = str(sources.get("rag_api_key")) if sources.get("rag_api_key") else None
+    if not api_key:
+        env_path = Path("/opt/brain/.env")
+        if env_path.exists():
+            for line in env_path.read_text(encoding="utf-8").splitlines():
+                if line.startswith("RAG_API_KEYS="):
+                    api_key = line.split("=", 1)[1].strip().split(",")[0].strip()
+                    break
+    return base_url, api_key
+
+
+def _rag_search(base_url: str, api_key: str, database: str, query: str, top_k: int = 3) -> list[dict]:
+    try:
+        resp = requests.post(
+            f"{base_url}/search/{database}",
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            json={"query": query, "top_k": top_k, "include_text": True, "max_text_chars": 500},
+            timeout=12,
+        )
+        resp.raise_for_status()
+        return resp.json().get("hits", [])
+    except Exception:
+        return []
+
+
+def _llm_judge_update_candidate(
+    name: str,
+    kind: str,
+    existing_text: str,
+    evidence_sources: list[dict],
+) -> dict:
+    """Ask the configured LLM whether evidence adds new facts to an existing vault page.
+
+    Returns {"verdict": "UPDATE"|"SKIP", "reason": "..."}. Falls back to SKIP on error
+    so a broken LLM call never causes spurious update proposals.
+    """
+    evidence_blocks = []
+    for s in evidence_sources[:4]:
+        excerpt = (s.get("excerpt") or "").strip()
+        if excerpt:
+            evidence_blocks.append(
+                f"Source: {s.get('path','')} §{s.get('section','')}\n{excerpt[:400]}"
+            )
+    if not evidence_blocks:
+        return {"verdict": "SKIP", "reason": "no evidence excerpts"}
+
+    # If the existing page is a definition stub (no Sessions/Appearances section),
+    # any in-world evidence almost certainly adds new lore worth documenting.
+    is_stub = not re.search(r"^##\s+(session|appears in|appearances|discovered|found in|lore)", existing_text, re.IGNORECASE | re.MULTILINE)
+    stub_hint = (
+        "\nNOTE: The existing page has no Sessions or Appearances section, so it is "
+        "a definition stub. Any evidence of the entity being discovered in-world "
+        "(found as a scroll, in a book, used by an NPC, acquired by the party) "
+        "qualifies as new information worth documenting even if the definition is complete.\n"
+    ) if is_stub else ""
+
+    prompt = (
+        f"You are auditing whether campaign evidence warrants updating a vault page.\n\n"
+        f"ENTITY: [{kind}] {name}\n\n"
+        f"EXISTING PAGE (truncated):\n{existing_text[:1500]}\n\n"
+        f"EVIDENCE FROM SESSIONS/SUMMARIES:\n"
+        + "\n\n---\n\n".join(evidence_blocks)
+        + f"\n\n{stub_hint}"
+        + "Does the evidence contain NEW FACTUAL INFORMATION about this specific entity "
+        f"that is NOT already in the existing page? "
+        f"New facts = abilities, history, relationships, appearances, game rulings, "
+        f"or in-world discoveries (finding a scroll, a book, an NPC using the spell, "
+        f"or the party acquiring it). "
+        f"Do NOT count: tactical plans mentioning the entity, session player lists, "
+        f"or incidental references where the entity is not the subject.\n\n"
+        f'Return strict JSON: {{"verdict": "UPDATE", "reason": "one sentence"}} '
+        f'or {{"verdict": "SKIP", "reason": "one sentence"}}'
+    )
+    try:
+        result = llm_chat_json(prompt, timeout=60)
+        verdict = str(result.get("verdict", "SKIP")).upper()
+        if verdict not in ("UPDATE", "SKIP"):
+            verdict = "SKIP"
+        return {"verdict": verdict, "reason": str(result.get("reason", ""))}
+    except Exception as exc:
+        return {"verdict": "SKIP", "reason": f"llm error: {str(exc)[:80]}"}
+
+
+def rag_filter_new_entity_proposals(
+    proposals: list[NewEntityCandidate],
+) -> tuple[list[NewEntityCandidate], list[dict], list[dict]]:
+    """Post-proposal filter using both RAG databases.
+
+    Three passes per candidate:
+    1. Mechanics RAG — if the candidate name appears as a bold rulebook entry, it's a
+       standard rules item; suppress it.
+    2. Arden RAG — if a dedicated vault page already covers this candidate (title
+       similarity ≥ 0.88), check whether the candidate's evidence adds new information
+       not present in the existing page.
+       - Fully covered → suppress.
+       - Existing page missing key evidence content → route to update_candidates.
+    3. Neither match → keep for new-page creation.
+
+    Returns (kept, suppressed, update_candidates).
+    update_candidates entries have: name, kind, existing_path, missing_excerpts.
+    """
+    base_url, api_key = _load_rag_api_config()
+    if not api_key:
+        return proposals, [], []
+
+    kept: list[NewEntityCandidate] = []
+    suppressed: list[dict] = []
+    update_candidates: list[dict] = []
+
+    for p in proposals:
+        nl = p.name.lower()
+        outcome: str | None = None  # "suppress" | "update" | None=keep
+        suppress_reason: str | None = None
+        update_info: dict = {}
+
+        # --- Pass 1: mechanics RAG ---
+        if p.kind in ("Item", "Spell", "Monster", "Concept", "Media"):
+            hits = _rag_search(base_url, api_key, "mechanics", p.name, top_k=1)
+            if hits:
+                text = hits[0].get("text", "").lower()
+                if f"**{nl}" in text or f"**{nl} (" in text:
+                    outcome = "suppress"
+                    suppress_reason = f"rulebook item — mechanics RAG: '{hits[0].get('title','')}'"
+
+        # --- Pass 2: Arden RAG ---
+        # Only dedicated entity pages count as existing coverage; session notes and
+        # Discord summaries merely *mention* entities and are not authoritative pages.
+        # Also enforce kind compatibility: a Spell should only match spell pages, a Media
+        # candidate should only match library pages, etc. Prevents library book entries
+        # (which contain spell names in their titles) from suppressing spell proposals.
+        _ENTITY_PAGE_KINDS = {"npc", "pc", "location", "faction", "item", "monster", "spell", "concept", "lore", "library"}
+        _KIND_COMPATIBLE_PAGE_KINDS: dict[str, set[str]] = {
+            "Spell": {"spell"},
+            "NPC": {"npc", "pc"},
+            "PC": {"npc", "pc"},
+            "Monster": {"monster"},
+            "Item": {"item"},
+            "Faction": {"faction"},
+            "Location": {"location"},
+            "Media": {"library", "note", "summary"},  # Discord Summaries index as kind=summary
+            "Concept": {"concept", "lore", "npc", "faction", "location"},
+        }
+        compatible_page_kinds = _KIND_COMPATIBLE_PAGE_KINDS.get(p.kind, _ENTITY_PAGE_KINDS)
+        _BOILERPLATE = {"auto nav", "navigation", "weekly knowledge base", "begin auto nav", "end auto nav", "canonical-source"}
+        if not outcome:
+            hits = _rag_search(base_url, api_key, "arden", p.name, top_k=8)
+            for hit in hits:
+                hit_kind = hit.get("kind", "")
+                if hit_kind not in _ENTITY_PAGE_KINDS:
+                    continue  # skip session recaps, Discord summaries, nav chunks
+                if hit_kind not in compatible_page_kinds:
+                    continue  # skip kind-incompatible pages (e.g. library entry for a Spell)
+                title = hit.get("title", "").lower()
+                sim = difflib.SequenceMatcher(None, nl, title).ratio()
+                # Require either strong similarity OR multi-word overlap; single shared
+                # word (e.g. "Chrysalis" inside "Lasselanta Chrysalis Ashcroft") is not
+                # enough unless similarity is also high.
+                overlap = _entity_name_overlap(nl, title)
+                if sim < 0.88 and not overlap:
+                    continue
+                if sim < 0.60 and overlap:
+                    # Overlap fired but names are very different — likely a coincidence
+                    aw = set(re.findall(r"[a-z]{3,}", nl))
+                    bw = set(re.findall(r"[a-z]{3,}", title))
+                    if len(aw & bw) < 2:
+                        continue
+                existing_path = VAULT / hit["path"].removeprefix("vault/")
+                existing_text = read_text(existing_path).lower() if existing_path.exists() else ""
+
+                # Check each evidence excerpt against the existing page content.
+                # An excerpt qualifies as "missing content" only if:
+                #   1. It actually mentions the entity name (not just retrieved by proximity)
+                #   2. It isn't boilerplate (nav, headers, Party Armory table rows)
+                #   3. Less than half its substantive words appear in the existing page
+                missing: list[str] = []
+                name_words = set(re.findall(r"[a-z]{3,}", nl))
+                for ev in p.sources:
+                    excerpt = ev.get("excerpt", "")
+                    if not excerpt:
+                        continue
+                    el = excerpt.lower()
+                    if any(b in el for b in _BOILERPLATE):
+                        continue
+                    # Skip Party Armory table rows (pipes + numbers pattern)
+                    if el.count("|") > 3 and re.search(r"\|\s*\$?\d", el):
+                        continue
+                    # Skip session/recap header metadata
+                    if re.search(r"blog_published|blog_updated|source_url|tags:.*session", el):
+                        continue
+                    # Must mention the entity name (at least one name word present)
+                    if not any(w in el for w in name_words if len(w) >= 4):
+                        continue
+                    # For near-perfect page matches, skip plan/list mentions that don't
+                    # add factual content (e.g. "plan to visit X" or "X is required")
+                    if sim >= 0.95:
+                        if re.search(r"\b(plan|planning|intend|utilize|proceed|explore|deliver|prioritize)\b", el):
+                            continue
+                    words = [w for w in re.findall(r"[a-z]{4,}", el) if w not in NEW_ENTITY_SCAFFOLDING]
+                    if len(words) < 4:
+                        continue
+                    present = sum(1 for w in words if w in existing_text)
+                    if present / len(words) < 0.5:
+                        missing.append(excerpt[:200])
+
+                if missing:
+                    # LLM second opinion: word-overlap fires on incidental mentions.
+                    # Ask the configured model whether the evidence genuinely adds new
+                    # facts about this entity that the existing page lacks.
+                    llm_verdict = _llm_judge_update_candidate(
+                        name=p.name,
+                        kind=p.kind,
+                        existing_text=existing_text,
+                        evidence_sources=p.sources,
+                    )
+                    if llm_verdict.get("verdict", "SKIP").upper() == "UPDATE":
+                        outcome = "update"
+                        update_info = {
+                            "name": p.name,
+                            "kind": p.kind,
+                            "existing_path": hit["path"],
+                            "existing_title": hit["title"],
+                            "arden_sim": round(sim, 2),
+                            "missing_excerpts": missing,
+                            "llm_reason": llm_verdict.get("reason", ""),
+                            "sources": p.sources,
+                        }
+                    else:
+                        outcome = "suppress"
+                        suppress_reason = (
+                            f"arden page exists, llm confirmed covered — "
+                            f"'{hit['title']}' ({hit['path']}, sim={sim:.2f}): "
+                            f"{llm_verdict.get('reason', '')}"
+                        )
+                else:
+                    outcome = "suppress"
+                    suppress_reason = (
+                        f"arden page exists, fully covered — "
+                        f"'{hit['title']}' ({hit['path']}, sim={sim:.2f})"
+                    )
+                break
+
+        if outcome == "suppress":
+            suppressed.append({"name": p.name, "kind": p.kind, "reason": suppress_reason})
+        elif outcome == "update":
+            update_candidates.append(update_info)
+        else:
+            kept.append(p)
+
+    return kept, suppressed, update_candidates
 
 
 def write_new_entity_proposal_report(proposals: list[NewEntityCandidate]) -> None:
@@ -3402,6 +3797,34 @@ def write_new_entity_proposal_report(proposals: list[NewEntityCandidate]) -> Non
                 ex = (s.get("excerpt", "") or "").replace("|", "\\|").replace("\n", " ")
                 lines.append(f"- `{s.get('path','')}` §{s.get('section','')}: > {ex}")
             lines.append("")
+    # Append RAG filter results if available
+    rag_filter_path = proposals_dir / "new_entity_rag_filter.json"
+    if rag_filter_path.exists():
+        try:
+            rf = json.loads(rag_filter_path.read_text(encoding="utf-8"))
+            suppressed = rf.get("suppressed", [])
+            update_sug = rf.get("update_suggestions", [])
+            if suppressed or update_sug:
+                lines.append("---")
+                lines.append("")
+                if suppressed:
+                    lines.append(f"## Suppressed by RAG filter ({len(suppressed)})")
+                    lines.append("")
+                    for s in suppressed:
+                        lines.append(f"- **[{s['kind']}] {s['name']}** — {s['reason']}")
+                    lines.append("")
+                if update_sug:
+                    lines.append(f"## Update suggestions from RAG filter ({len(update_sug)})")
+                    lines.append("")
+                    for u in update_sug:
+                        lines.append(f"### [{u['kind']}] {u['name']}")
+                        lines.append(f"**Existing page**: `{u['existing_path']}` (sim={u['arden_sim']})")
+                        lines.append("**Missing content from evidence**:")
+                        for ex in u.get("missing_excerpts", [])[:2]:
+                            lines.append(f"> {ex[:180].replace(chr(10), ' ')}")
+                        lines.append("")
+        except Exception:
+            pass
     (proposals_dir / "new_entity_proposals.md").write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -3454,6 +3877,32 @@ def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
             )
     except Exception:
         pass
+    # Check whether the candidate name matches any unique_item_patterns from entity_filters.
+    # These patterns identify generic DFRPG magic item vocabulary (Amulet, Wand, Ring, etc.)
+    # that frequently signals a rulebook entry. When matched, inject an explicit warning so
+    # the verifier doesn't need a literal mechanics-RAG hit to flag it.
+    generic_item_warning = ""
+    if candidate.kind in ("Item", "Spell"):
+        try:
+            filters = load_entity_filters()
+            for pat_str in filters.get("unique_item_patterns", []):
+                if re.search(pat_str, candidate.name):
+                    generic_item_warning = (
+                        "\n\n⚠️  GENERIC MAGIC ITEM PATTERN MATCH: The candidate name matches a "
+                        "pattern associated with standard DFRPG magic item vocabulary "
+                        f"(matched pattern: `{pat_str}`). "
+                        "Standard named items of this form — 'Amulet of X', 'Wand of X', "
+                        "'Ring of X', 'Potion of X', or items whose entire identity is a "
+                        "mechanical benefit (fire resistance, poison immunity, haste, stealth) "
+                        "with no campaign-specific history — are rulebook_entry. "
+                        "Only confirm if the evidence shows this item has a CAMPAIGN-UNIQUE name "
+                        "or history beyond its mechanical function (e.g. 'Iron Circlet of Ghanor' "
+                        "with documented campaign lore). When in doubt, rulebook_entry."
+                    )
+                    break
+        except Exception:
+            pass
+
     nearest_line = (
         f"\nNearest existing entity in vault/{candidate.canonical_target_dir}/: "
         f"`{candidate.nearest_existing}` (similarity {candidate.nearest_distance:.2f}).\n"
@@ -3469,7 +3918,8 @@ def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
         "raw Discord channel rollups, lore notes, and ignored spreadsheet snapshots):\n\n"
         f"{sources_text}"
         f"{rag_block}"
-        f"{rules_block}\n\n"
+        f"{rules_block}"
+        f"{generic_item_warning}\n\n"
         "Decide one of:\n"
         "- \"confirmed\": evidence clearly establishes this as a named CAMPAIGN-SPECIFIC entity of the proposed kind, with no obvious duplicate. The vault cross-reference did not surface this entity under another name AND the rules cross-reference did not show this is a rulebook entry.\n"
         "- \"rulebook_entry\": the DFRPG rules cross-reference clearly shows this is a generic rulebook entry (a published spell like Awaken or Detect Magic; a generic potion like Paut; a monster stat block from DF_Monsters; an Adventurer power). We do NOT create lore-style vault pages for rulebook entries — those are already covered by the rules. Cite the book/page in rationale.\n"
@@ -3504,14 +3954,36 @@ def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
     )
 
 
-def verify_new_entity_proposals(limit: int = 20) -> list[dict]:
+def verify_new_entity_proposals(limit: int = -1) -> list[dict]:
+    """Verify new entity proposals with the configured LLM.
+
+    limit=-1 (default) processes all unverified proposals.
+    Existing verifications are preserved; only unverified proposals are processed.
+    """
     proposals_path = AUTOMATION_DIR / "proposals" / "new_entity_proposals.json"
     if not proposals_path.exists():
         raise RuntimeError("new_entity_proposals.json not found; run propose-new-entities first")
     raw = json.loads(proposals_path.read_text(encoding="utf-8"))
     proposals = [NewEntityCandidate(**r) for r in raw]
-    out: list[dict] = []
-    for p in proposals[:limit]:
+
+    # Load existing verifications so we can skip already-processed proposals
+    # and append new results rather than overwriting.
+    verifications_path = AUTOMATION_DIR / "proposals" / "new_entity_verifications.json"
+    existing: list[dict] = []
+    already_verified_ids: set[str] = set()
+    if verifications_path.exists():
+        try:
+            existing = json.loads(verifications_path.read_text(encoding="utf-8"))
+            already_verified_ids = {e["proposal_id"] for e in existing}
+        except Exception:
+            existing = []
+
+    # Only process proposals not yet verified; limit=-1 means all
+    pending = [p for p in proposals if p.proposal_id not in already_verified_ids]
+    batch = pending if limit < 0 else pending[:limit]
+
+    out: list[dict] = list(existing)
+    for p in batch:
         try:
             response = llm_chat_json(new_entity_verifier_prompt(p), timeout=120)
             status = str(response.get("status", "unknown"))
@@ -3646,6 +4118,15 @@ def apply_verified_new_entities(apply_changes: bool, limit: int | None = None) -
         if target_path.exists():
             results.append({"name": name, "kind": kind, "action": "skipped", "reason": "page already exists", "path": rel_path})
             continue
+        # Also check every other vault subdirectory — a page may already exist
+        # under a different kind folder (e.g. Discord Summaries live in notes/).
+        existing_elsewhere = next(
+            (p for p in VAULT.rglob(f"{slug}.md") if p != target_path), None
+        )
+        if existing_elsewhere:
+            alt_rel = existing_elsewhere.relative_to(ROOT).as_posix()
+            results.append({"name": name, "kind": kind, "action": "skipped", "reason": "page exists elsewhere", "path": alt_rel})
+            continue
         content = build_new_entity_stub(
             name, kind, v.get("verifier_summary", ""), v.get("sources", []),
             media_subtype=v.get("verifier_media_subtype", ""),
@@ -3674,7 +4155,8 @@ def apply_verified_new_entities(apply_changes: bool, limit: int | None = None) -
 
 
 def cmd_propose_new_entities(args: argparse.Namespace) -> int:
-    proposals = build_new_entity_proposals(source_limit=args.source_limit, candidate_limit=args.limit)
+    source_limit = 0 if getattr(args, "all_sources", False) else args.source_limit
+    proposals = build_new_entity_proposals(source_limit=source_limit, candidate_limit=args.limit)
     write_new_entity_proposal_report(proposals)
     by_kind: dict[str, int] = {}
     for p in proposals:
@@ -4543,6 +5025,223 @@ def write_article_edit_proposal_report(proposals: list[ArticleEditProposal]) -> 
     (proposals_dir / "article_edit_proposals.md").write_text("\n".join(lines), encoding="utf-8")
 
 
+def merge_article_edit_proposals(new_proposals: list[ArticleEditProposal]) -> tuple[int, int]:
+    """Merge new proposals into the existing article_edit_proposals.json, deduplicating by proposal_id.
+
+    Returns (added_count, total_count).
+    """
+    proposals_dir = AUTOMATION_DIR / "proposals"
+    proposals_dir.mkdir(parents=True, exist_ok=True)
+    json_path = proposals_dir / "article_edit_proposals.json"
+    existing: list[dict] = []
+    if json_path.exists():
+        try:
+            existing = json.loads(json_path.read_text(encoding="utf-8"))
+        except Exception:
+            existing = []
+    existing_ids = {e.get("proposal_id") for e in existing if e.get("proposal_id")}
+    added = 0
+    for p in new_proposals:
+        if p.proposal_id and p.proposal_id in existing_ids:
+            continue
+        existing.append(asdict(p))
+        existing_ids.add(p.proposal_id)
+        added += 1
+    write_json(json_path, existing)
+    return added, len(existing)
+
+
+def research_agent_round_prompt(
+    article_text: str,
+    chunks: list[dict],
+    private_hints: list[dict],
+    article_path: str,
+    article_title: str,
+    article_kind: str,
+    round_num: int,
+    max_rounds: int,
+    max_additions: int,
+) -> str:
+    article_excerpt = article_text[:2500]
+    evidence_blocks = []
+    for c in chunks:
+        evidence_blocks.append(
+            f"[{c.get('path','?')} §{c.get('section','?')} kind={c.get('kind','?')}]\n{(c.get('text') or '')[:1600]}"
+        )
+    evidence_text = "\n\n---\n\n".join(evidence_blocks) or "(none yet)"
+    hint_blocks = []
+    for h in private_hints:
+        hint_blocks.append(
+            f"[PRIVATE HINT: {h.get('path','?')}]\n{(h.get('text') or '')[:1000]}"
+        )
+    hints_text = "\n\n---\n\n".join(hint_blocks) or "(none)"
+    rounds_left = max_rounds - round_num - 1
+    return (
+        "You are a research agent for the Arden Vul DFRPG campaign vault.\n\n"
+        f"ARTICLE: {article_path}\nTitle: {article_title}\nKind: {article_kind}\n"
+        f"Round {round_num + 1} of {max_rounds} ({rounds_left} search rounds remaining after this).\n\n"
+        "ARTICLE CONTENT:\n---\n"
+        f"{article_excerpt}\n"
+        "---\n\n"
+        "ACCUMULATED EVIDENCE from vault RAG searches:\n\n"
+        f"{evidence_text}\n\n"
+        "PRIVATE AUTOMATION HINTS (non-citable raw Discord; never cite these directly):\n\n"
+        f"{hints_text}\n\n"
+        "YOUR TASK:\n"
+        "1. If you need more evidence, return up to 3 focused `research_queries` for the next RAG search round.\n"
+        "2. Return any `proposals` supported by the EVIDENCE above (not hints alone).\n"
+        "   You may return both queries and proposals in the same response.\n"
+        f"   Propose at most {max_additions} additions total across all rounds.\n"
+        "   If the evidence is sufficient, return an empty `research_queries` list.\n\n"
+        "Allowed addition types:\n"
+        "- append_bullet_to_section: add a sourced bullet to an existing H2 section. "
+        "If the article is a stub with no body sections yet, use target_section='Notes' "
+        "or target_section='Summary' to seed it with factual content.\n"
+        "- add_alias: add an alternate name to the frontmatter aliases list (target_section='aliases').\n"
+        "- extend_summary: add one factual sentence to the Summary section (target_section='Summary').\n\n"
+        "Every proposal MUST cite a specific source excerpt verbatim from the EVIDENCE above.\n"
+        "Do not invent facts, do not paraphrase loosely, do not propose changes already in the article.\n\n"
+        "Return strict JSON only:\n"
+        "{\n"
+        '  "research_queries": ["focused query string", ...],\n'
+        '  "proposals": [\n'
+        "    {\n"
+        '      "addition_type": "append_bullet_to_section",\n'
+        '      "target_section": "Sessions",\n'
+        '      "proposed_text": "- [[sessions/Session 27.md|Session 27]]",\n'
+        '      "rationale": "one sentence",\n'
+        '      "sources": [{"path": "vault/sessions/...", "section": "...", "excerpt": "<verbatim quote>"}]\n'
+        "    }\n"
+        "  ]\n"
+        "}"
+    )
+
+
+def research_article_agent(
+    article_path: Path,
+    max_rounds: int = 5,
+    top_k_per_query: int = 8,
+    max_additions: int = 5,
+) -> list[ArticleEditProposal]:
+    """Iterative research agent: searches the RAG in multiple rounds to build evidence before proposing edits."""
+    rel_path = article_path.relative_to(ROOT).as_posix()
+    article_text = read_text(article_path)
+    item = build_article_queue_item(article_path)
+    if item is None:
+        # Build a minimal queue item for paths not in the scored queue
+        title = article_path.stem
+        kind = vault_rag_kind_for_path(article_path)
+        item = ArticleQueueItem(
+            path=rel_path, title=title, kind=kind, tags=(),
+            score=0, reasons=(), queries=(title,),
+        )
+
+    all_chunks = gather_article_research_chunks(item, top_k_per_query=top_k_per_query)
+    private_hints = gather_private_discord_hints(item)
+
+    accumulated_proposals: list[dict] = []
+    rounds_run = 0
+
+    for round_num in range(max_rounds):
+        rounds_run += 1
+        prompt = research_agent_round_prompt(
+            article_text, all_chunks, private_hints,
+            rel_path, item.title, item.kind,
+            round_num, max_rounds, max_additions,
+        )
+        try:
+            response = llm_chat_json(prompt, timeout=300)
+        except Exception as exc:
+            print(f"  round {round_num + 1} LLM error: {exc}", file=sys.stderr)
+            break
+
+        new_queries = [
+            q.strip() for q in (response.get("research_queries") or [])
+            if isinstance(q, str) and q.strip()
+        ]
+        for raw in (response.get("proposals") or []):
+            if isinstance(raw, dict):
+                accumulated_proposals.append(raw)
+
+        print(
+            f"  round {round_num + 1}: {len(new_queries)} new queries, "
+            f"{len(response.get('proposals') or [])} proposals",
+            file=sys.stderr,
+        )
+
+        if not new_queries or round_num == max_rounds - 1:
+            break
+        all_chunks = expand_article_research_chunks(all_chunks, new_queries, top_k_per_query, max_chunks=40)
+
+    # Parse accumulated proposals into ArticleEditProposal objects
+    results: list[ArticleEditProposal] = []
+    seen_ids: set[str] = set()
+    for raw in accumulated_proposals:
+        addition_type = str(raw.get("addition_type", "")).strip()
+        if addition_type not in ARTICLE_EDIT_ADDITION_TYPES:
+            continue
+        target_section = str(raw.get("target_section", "")).strip()
+        proposed_text = normalize_vault_wikilinks(str(raw.get("proposed_text", "")).strip())
+        rationale = str(raw.get("rationale", "")).strip()
+        sources: list[dict] = []
+        for src in (raw.get("sources") or []):
+            if isinstance(src, dict) and is_citable_article_source(str(src.get("path", ""))):
+                sources.append({
+                    "path": str(src.get("path", "")),
+                    "section": str(src.get("section", "")),
+                    "excerpt": str(src.get("excerpt", ""))[:400],
+                })
+        if not sources or not proposed_text or not target_section:
+            continue
+        proposal_id = hashlib.sha1(
+            f"{rel_path}|{addition_type}|{target_section}|{proposed_text}".encode("utf-8")
+        ).hexdigest()[:12]
+        if proposal_id in seen_ids:
+            continue
+        seen_ids.add(proposal_id)
+        results.append(ArticleEditProposal(
+            article_path=rel_path,
+            article_title=item.title,
+            article_kind=item.kind,
+            article_score=item.score,
+            addition_type=addition_type,
+            target_section=target_section,
+            proposed_text=proposed_text,
+            rationale=rationale,
+            sources=sources,
+            status="needs-verification",
+            proposal_id=proposal_id,
+        ))
+        if len(results) >= max_additions:
+            break
+
+    return results
+
+
+def cmd_research_article(args: argparse.Namespace) -> int:
+    article_path = ROOT / args.article
+    if not article_path.exists():
+        print(json.dumps({"ok": False, "error": f"file not found: {args.article}"}), file=sys.stderr)
+        return 1
+    print(f"Researching {args.article} (max_rounds={args.max_rounds}, top_k={args.top_k}) ...", file=sys.stderr)
+    proposals = research_article_agent(
+        article_path,
+        max_rounds=args.max_rounds,
+        top_k_per_query=args.top_k,
+        max_additions=args.max_additions,
+    )
+    added, total = merge_article_edit_proposals(proposals)
+    print(json.dumps({
+        "ok": True,
+        "article": args.article,
+        "proposals_generated": len(proposals),
+        "proposals_added_to_queue": added,
+        "total_in_queue": total,
+        "next_step": "python3 scripts/vault_automation.py verify-article-edits",
+    }, indent=2))
+    return 0
+
+
 def article_edit_verifier_prompt(proposal: ArticleEditProposal) -> str:
     article_full_path = ROOT / proposal.article_path
     article_text = read_text(article_full_path)[:1800] if article_full_path.exists() else ""
@@ -4608,15 +5307,31 @@ def article_edit_verifier_prompt(proposal: ArticleEditProposal) -> str:
     )
 
 
-def verify_article_edit_proposals(limit: int | None = 10) -> list[dict]:
+def verify_article_edit_proposals(limit: int | None = None) -> list[dict]:
     proposals_path = AUTOMATION_DIR / "proposals" / "article_edit_proposals.json"
     if not proposals_path.exists():
         raise RuntimeError("article_edit_proposals.json not found; run propose-article-edits first")
     raw = json.loads(proposals_path.read_text(encoding="utf-8"))
     proposals = [ArticleEditProposal(**r) for r in raw]
-    out: list[dict] = []
-    selected = proposals if limit is None else proposals[:limit]
-    for p in selected:
+
+    # Load existing verifications and skip already-processed proposals (cursor behaviour).
+    verifications_path = AUTOMATION_DIR / "proposals" / "article_edit_verifications.json"
+    existing: list[dict] = []
+    already_verified_ids: set[str] = set()
+    if verifications_path.exists():
+        try:
+            existing = json.loads(verifications_path.read_text(encoding="utf-8"))
+            already_verified_ids = {e["proposal_id"] for e in existing if e.get("proposal_id")}
+        except Exception:
+            existing = []
+
+    pending = [p for p in proposals if p.proposal_id not in already_verified_ids]
+    # limit=None or limit<0 means all pending
+    if limit is not None and limit >= 0:
+        pending = pending[:limit]
+
+    out: list[dict] = list(existing)
+    for p in pending:
         try:
             response = llm_chat_json(article_edit_verifier_prompt(p), timeout=120)
             status = str(response.get("status", "unknown"))
@@ -5901,14 +6616,14 @@ def build_parser() -> argparse.ArgumentParser:
     search_vault_rag.set_defaults(func=cmd_vault_rag_search)
 
     propose_article = sub.add_parser("propose-article-edits", help="Generate sourced article edit proposals via vault-rag + LLM")
-    propose_article.add_argument("--limit", type=int, default=5, help="Number of top-scored queue articles to process (ignored when --article is set)")
+    propose_article.add_argument("--limit", type=int, default=-1, help="Number of queue articles to process (-1 = all, default; ignored when --article is set)")
     propose_article.add_argument("--article", default=None, help="Process a single article by repo-relative path (e.g. vault/npcs/Pelteon.md)")
     propose_article.add_argument("--max-additions-per-article", type=int, default=3, help="Maximum proposals to keep per article (default 3)")
     propose_article.add_argument("--top-k-per-query", type=int, default=3, help="vault-rag top_k per generated research query (default 3)")
     propose_article.set_defaults(func=cmd_propose_article_edits)
 
     verify_article = sub.add_parser("verify-article-edits", help="LLM-verify article edit proposals against canonical sources")
-    verify_article.add_argument("--limit", type=int, default=10, help="Maximum proposals to verify (default 10)")
+    verify_article.add_argument("--limit", type=int, default=-1, help="Maximum proposals to verify (-1 = all, default)")
     verify_article.set_defaults(func=cmd_verify_article_edits)
 
     apply_article = sub.add_parser("apply-verified-article-edits", help="Apply supported article edits to vault files")
@@ -5917,7 +6632,7 @@ def build_parser() -> argparse.ArgumentParser:
     apply_article.set_defaults(func=cmd_apply_verified_article_edits)
 
     propose_metadata = sub.add_parser("propose-metadata-edits", help="Generate sourced retrieval-metadata proposals via vault-rag + LLM")
-    propose_metadata.add_argument("--limit", type=int, default=5, help="Number of top-scored queue articles to process")
+    propose_metadata.add_argument("--limit", type=int, default=-1, help="Number of queue articles to process (-1 = all, default)")
     propose_metadata.add_argument("--article", default=None, help="Process a single article by repo-relative path")
     propose_metadata.add_argument("--top-k-per-query", type=int, default=3, help="vault-rag top_k per generated research query")
     propose_metadata.set_defaults(func=cmd_propose_metadata_edits)
@@ -5934,7 +6649,7 @@ def build_parser() -> argparse.ArgumentParser:
     build_actions = sub.add_parser("build-action-items", help="Generate a cited current action-item inventory")
     build_actions.add_argument("--latest-sessions", type=int, default=8, help="Recent session files to include as current-status evidence")
     build_actions.add_argument("--latest-discord-weeks", type=int, default=4, help="Recent Discord summary weeks to include as supplementary context")
-    build_actions.add_argument("--max-items", type=int, default=50, help="Maximum action items to keep")
+    build_actions.add_argument("--max-items", type=int, default=200, help="Maximum action items to keep")
     build_actions.set_defaults(func=cmd_build_action_items)
 
     apply_actions = sub.add_parser("apply-action-items", help="Apply the generated action-item inventory to the canonical note")
@@ -5943,11 +6658,12 @@ def build_parser() -> argparse.ArgumentParser:
 
     propose_new = sub.add_parser("propose-new-entities", help="Extract new entity candidates from canonical sources via IAC + filters")
     propose_new.add_argument("--source-limit", type=int, default=10, help="Latest canonical sources to scan (default 10)")
-    propose_new.add_argument("--limit", type=int, default=50, help="Maximum candidates to keep after filtering (default 50)")
+    propose_new.add_argument("--all-sources", action="store_true", help="Scan every session and Discord summary (full vault walk, ~17 min)")
+    propose_new.add_argument("--limit", type=int, default=500, help="Maximum candidates to keep after filtering (default 500)")
     propose_new.set_defaults(func=cmd_propose_new_entities)
 
     verify_new = sub.add_parser("verify-new-entities", help="LLM-verify new entity candidates against canonical source evidence")
-    verify_new.add_argument("--limit", type=int, default=20, help="Maximum candidates to verify per run (default 20)")
+    verify_new.add_argument("--limit", type=int, default=-1, help="Maximum candidates to verify (-1 = all unverified, default)")
     verify_new.set_defaults(func=cmd_verify_new_entities)
 
     apply_new = sub.add_parser("apply-verified-new-entities", help="Create stub vault pages for confirmed new entity candidates")
@@ -5970,6 +6686,16 @@ def build_parser() -> argparse.ArgumentParser:
     scheduled = sub.add_parser("run-low-risk", help="Scheduled low-risk vault maintenance entry point")
     scheduled.add_argument("--blog-feed", default=BLOG_FEED_URL, help="Blogger JSON feed URL")
     scheduled.set_defaults(func=cmd_run_low_risk)
+
+    summarize_scratch = sub.add_parser("summarize-scratchpad", help="Condense SCRATCH.md using the configured LLM")
+    summarize_scratch.set_defaults(func=cmd_summarize_scratchpad)
+
+    research = sub.add_parser("research-article", help="Run an iterative RAG research agent to propose edits for a vault article")
+    research.add_argument("--article", required=True, help="Repo-relative path to the article (e.g. vault/items/Pale Green Horn.md)")
+    research.add_argument("--max-rounds", type=int, default=5, help="Maximum RAG search rounds (default 5)")
+    research.add_argument("--top-k", type=int, default=8, help="RAG results per query per round (default 8)")
+    research.add_argument("--max-additions", type=int, default=5, help="Maximum proposals to generate (default 5)")
+    research.set_defaults(func=cmd_research_article)
 
     return parser
 

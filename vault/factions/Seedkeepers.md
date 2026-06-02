@@ -2,6 +2,8 @@
 tags:
   - tradition/demma
   - faction
+related_entities:
+  - [[factions/Harvest Guardians.md|Harvest Guardians]]
 ---
 
 # Seedkeepers
@@ -25,3 +27,4 @@ Scholarly priests, such as [[Ioannes]], are more aligned with this branch than t
 ## Notes
 
 - Temples are protected by dedicated warriors known as **Harvest Guardians**, who serve both as defenders of the faith and enforcers of Demma's justice.
+- Each major temple has a contingent of six to twelve fighters, trained in flail combat.

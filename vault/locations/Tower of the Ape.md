@@ -1,5 +1,8 @@
 ---
 tags:
+  - type/fortress
+  - site/newmarket
+  - culture/archontean
   - location
 ---
 
@@ -17,6 +20,9 @@ A fortified tower complex connected to the caverns south of the [[locations/Howl
 - In Session 34c, deeper searches found mostly-emptied lab/storage spaces, a concealed access route, and prison cells holding three human captives plus two baboons used in Thane's training operation.
 - The detached portal frame was carried back to Gosterwick by Vael.
 - As of February 2026, the tower's gates were closed and the snow outside was undisturbed.
+- The tower's defenders included 'Disciplined' soldiers.
+- During the battle, Tikun Thane was forced to retreat three times.
+- At the conclusion of the battle, Ioannes was left unconscious on the Arden Vul side of the teleporter.
 
 ## Sessions
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]

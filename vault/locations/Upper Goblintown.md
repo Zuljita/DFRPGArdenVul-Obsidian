@@ -1,5 +1,9 @@
 ---
 tags:
+  - session/38
+  - session/36
+  - session/35
+  - session/29
   - location
 aliases:
   - - Glory of Weskenim

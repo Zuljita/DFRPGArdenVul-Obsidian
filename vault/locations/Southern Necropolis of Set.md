@@ -1,7 +1,13 @@
 ---
 tags:
+  - site/necropolis
+  - faction/cult-of-set
+  - session/30
   - tradition/settite
   - location
+related_entities:
+  - [[factions/Cult of Set.md|Cult of Set]]
+  - [[npcs/Set.md|Set]]
 ---
 
 # Southern Necropolis of [[Cult of Set]] lies to the east of this location.
@@ -17,6 +23,7 @@ TBD
 ## Inhabitants
 
 TBD
+- [[factions/Cult of Set.md|Cult of Set]] (active in and around the ruins)
 
 ## Notes
 

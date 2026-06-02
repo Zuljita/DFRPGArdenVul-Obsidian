@@ -2,6 +2,8 @@
 tags:
   - era/historical
   - faction
+related_entities:
+  - [[factions/Sheepshead Rangers.md|Sheepshead Rangers]]
 ---
 
 # Adrienic Expedition
@@ -19,3 +21,4 @@ The expedition failed bloodily and all six cohorts were lost in a battle fought 
 A rumor claims that the leader of the expedition, a certain "Adrienic" (presumably [[Archon Phocion IV]]), committed suicide rather than report his failure.
 - [[npcs/Lankios.md|Lankios]] is a former member of the expedition.
 - The third cohort of the [[factions/Imperial Tagmata|Imperial Tagmata]] participated in the expedition.
+- [[npcs/Lankios.md|Lankios]] has claimed to be one of the former leaders of the expedition.

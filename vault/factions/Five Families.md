@@ -1,6 +1,7 @@
 ---
 title: Five Families
 tags:
+  - title/noble
   - faction
   - culture/archontean
 ---

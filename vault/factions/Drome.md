@@ -1,5 +1,7 @@
 ---
 tags:
+  - site/gosterwick
+  - site/archontos
   - faction
   - tradition/settite
   - culture/archontean
@@ -35,3 +37,4 @@ The [[factions/Drome.md|Drome]] operates under official sanction, but its member
 - Has taken interest in the murder, trusts the players, and wants justice. ([[notes/Discord Summary 2025-W35.md|Discord Summary 2025-W35]])
 
 - An authority that will be informed about the murder in Gosterwick. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])
+- An organization in Gosterwick that might not communicate much with its Narsileon counterpart. ([[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]])

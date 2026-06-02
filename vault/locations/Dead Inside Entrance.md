@@ -1,14 +1,14 @@
 ---
 tags:
-  - concept
+  - location
   - identity/uncertain
 status: stub
 ---
 
-# Varumani
+# Dead Inside Entrance
 
 ## Summary
-A language consisting of spoken and written forms that is studied by campaign characters.
+An entrance point featuring a northern hallway that is part of the clearing operations near Theskalon's Tomb.
 
 ## Sources
 - [[notes/Discord Summary 2026-W17.md|Discord Summary 2026-W17]]

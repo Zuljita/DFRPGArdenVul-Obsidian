@@ -3,6 +3,8 @@ title: "Merchants & Factors"
 tags:
   - faction
   - index
+aliases:
+  - Factors
 ---
 # Merchants & Factors
 
@@ -38,6 +40,8 @@ There are several Factors active in the region, with varying scope and specialti
 
 ### [[Wisdom Factor]]
 - Employs statue brokers who operate out of the [[Inn of the Broken Head]].
+- Storage fees for the [[Rarities Factor]] are currently free for the party due to a deal involving Larel's Dagger.
+- The [[Silent Factor]] commands the highest storage fee in Gosterwick.
 
 ## Notable Contacts
 - [[npcs/Wicktrimmer.md|Wicktrimmer]] — Imperial goblin factor; [[Rarities Factor]].

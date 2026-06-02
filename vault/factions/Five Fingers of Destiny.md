@@ -1,7 +1,13 @@
 ---
 tags:
+  - session/45
+  - session/41
+  - session/35
   - faction
   - tradition/thothian
+related_entities:
+  - [[npcs/Weskenim.md|King Weskenim]]
+  - [[npcs/Bottleneck.md|Bottleneck]]
 ---
 
 # Five Fingers of Destiny
@@ -9,9 +15,12 @@ tags:
 ## Summary
 Rival adventuring company active in Arden Vul politics, treasure routes, and key-based expeditions. Led by [[npcs/Roger the Rapier.md|Roger the Rapier]].
 
+Roger is a former employee of Kronos Kettle-Belly.
+
 ## Known Members
 - **[[npcs/Roger the Rapier.md|Roger the Rapier]]** — leader and mage
 - **[[npcs/Jenks.md|Jenks]]** — halfling member; skilled with a sling and capable of finding/disabling traps
+- The group consists of six members (as of Session 37).
 
 ## Key Events
 

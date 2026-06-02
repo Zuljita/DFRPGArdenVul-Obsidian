@@ -1,6 +1,8 @@
 ---
 title: Temple of Mitra
 tags:
+  - site/gosterwick
+  - culture/archontean
   - tradition/mitran
   - location
 ---
@@ -12,8 +14,10 @@ The pediment shows [[Mitra]], dressed in shining mail, striding among worshipper
 The main cult object is a statue of the god dressed in an Archontean-style toga, holding the scales of justice in his left hand. Worshippers place offerings in the right-hand side of the scales.
 
 The apartments and bureaucratic offices of the cult are cleverly set into the wall circling the main shrine.
+The temple contains torches and 'Continual Light areas'.
 
 ## Discord Insights
 
 - Ioannes finds a book about ghosts here. ([[notes/Discord Summary 2025-W22.md|Discord Summary 2025-W22]])
 - Associated with the prominent 'Library of Mitra'. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])
+- The recovery of Lytta (later identified as Versania) involved a significant donation to the temple to restore her sanity. ([[notes/Discord Summary 2025-W24.md|Discord Summary 2025-W24]])

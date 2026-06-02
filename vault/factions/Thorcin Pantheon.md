@@ -1,9 +1,13 @@
 ---
 tags:
+  - site/newmarket
+  - site/gosterwick
   - faction
   - culture/archontean
   - culture/thorcin
   - culture/thorcin
+related_entities:
+  - [[npcs/Vivian.md|Vivian]]
 ---
 
 # Thorcin Pantheon
@@ -22,7 +26,10 @@ The specific members of the Thorcin Pantheon are not fully enumerated in the pro
 
 ## Notes
 Most of the Thorcin pantheon has temples in the city of [[Newmarket]].
+- The Temple of Demma is located in Gosterwick.
 
 ## Members
+- **Demma**: A deity worshipped at the Temple of Demma in Gosterwick.
 
 ## Sessions
+- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27]] - Vivian at the Temple of Demma diagnosed and cast Remove Curse for the group.
