@@ -327,7 +327,7 @@ def load_local_sources() -> dict:
         "action_items_apply": bool(config.get("action_items_apply", False)),
         "action_items_latest_sessions": int(config.get("action_items_latest_sessions", 8) or 8),
         "action_items_latest_discord_weeks": int(config.get("action_items_latest_discord_weeks", 4) or 4),
-        "action_items_max_items": int(config.get("action_items_max_items", 50) or 50),
+        "action_items_max_items": int(config.get("action_items_max_items", 200) or 200),
     }
 
 
@@ -3851,7 +3851,12 @@ def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
     )
 
 
-def verify_new_entity_proposals(limit: int = 20) -> list[dict]:
+def verify_new_entity_proposals(limit: int = -1) -> list[dict]:
+    """Verify new entity proposals with the configured LLM.
+
+    limit=-1 (default) processes all unverified proposals.
+    Existing verifications are preserved; only unverified proposals are processed.
+    """
     proposals_path = AUTOMATION_DIR / "proposals" / "new_entity_proposals.json"
     if not proposals_path.exists():
         raise RuntimeError("new_entity_proposals.json not found; run propose-new-entities first")
@@ -3870,11 +3875,12 @@ def verify_new_entity_proposals(limit: int = 20) -> list[dict]:
         except Exception:
             existing = []
 
-    # Only process proposals not yet verified, up to limit
+    # Only process proposals not yet verified; limit=-1 means all
     pending = [p for p in proposals if p.proposal_id not in already_verified_ids]
+    batch = pending if limit < 0 else pending[:limit]
 
     out: list[dict] = list(existing)
-    for p in pending[:limit]:
+    for p in batch:
         try:
             response = llm_chat_json(new_entity_verifier_prompt(p), timeout=120)
             status = str(response.get("status", "unknown"))
@@ -6265,14 +6271,14 @@ def build_parser() -> argparse.ArgumentParser:
     search_vault_rag.set_defaults(func=cmd_vault_rag_search)
 
     propose_article = sub.add_parser("propose-article-edits", help="Generate sourced article edit proposals via vault-rag + LLM")
-    propose_article.add_argument("--limit", type=int, default=5, help="Number of top-scored queue articles to process (ignored when --article is set)")
+    propose_article.add_argument("--limit", type=int, default=-1, help="Number of queue articles to process (-1 = all, default; ignored when --article is set)")
     propose_article.add_argument("--article", default=None, help="Process a single article by repo-relative path (e.g. vault/npcs/Pelteon.md)")
     propose_article.add_argument("--max-additions-per-article", type=int, default=3, help="Maximum proposals to keep per article (default 3)")
     propose_article.add_argument("--top-k-per-query", type=int, default=3, help="vault-rag top_k per generated research query (default 3)")
     propose_article.set_defaults(func=cmd_propose_article_edits)
 
     verify_article = sub.add_parser("verify-article-edits", help="LLM-verify article edit proposals against canonical sources")
-    verify_article.add_argument("--limit", type=int, default=10, help="Maximum proposals to verify (default 10)")
+    verify_article.add_argument("--limit", type=int, default=-1, help="Maximum proposals to verify (-1 = all, default)")
     verify_article.set_defaults(func=cmd_verify_article_edits)
 
     apply_article = sub.add_parser("apply-verified-article-edits", help="Apply supported article edits to vault files")
@@ -6281,7 +6287,7 @@ def build_parser() -> argparse.ArgumentParser:
     apply_article.set_defaults(func=cmd_apply_verified_article_edits)
 
     propose_metadata = sub.add_parser("propose-metadata-edits", help="Generate sourced retrieval-metadata proposals via vault-rag + LLM")
-    propose_metadata.add_argument("--limit", type=int, default=5, help="Number of top-scored queue articles to process")
+    propose_metadata.add_argument("--limit", type=int, default=-1, help="Number of queue articles to process (-1 = all, default)")
     propose_metadata.add_argument("--article", default=None, help="Process a single article by repo-relative path")
     propose_metadata.add_argument("--top-k-per-query", type=int, default=3, help="vault-rag top_k per generated research query")
     propose_metadata.set_defaults(func=cmd_propose_metadata_edits)
@@ -6298,7 +6304,7 @@ def build_parser() -> argparse.ArgumentParser:
     build_actions = sub.add_parser("build-action-items", help="Generate a cited current action-item inventory")
     build_actions.add_argument("--latest-sessions", type=int, default=8, help="Recent session files to include as current-status evidence")
     build_actions.add_argument("--latest-discord-weeks", type=int, default=4, help="Recent Discord summary weeks to include as supplementary context")
-    build_actions.add_argument("--max-items", type=int, default=50, help="Maximum action items to keep")
+    build_actions.add_argument("--max-items", type=int, default=200, help="Maximum action items to keep")
     build_actions.set_defaults(func=cmd_build_action_items)
 
     apply_actions = sub.add_parser("apply-action-items", help="Apply the generated action-item inventory to the canonical note")
@@ -6308,11 +6314,11 @@ def build_parser() -> argparse.ArgumentParser:
     propose_new = sub.add_parser("propose-new-entities", help="Extract new entity candidates from canonical sources via IAC + filters")
     propose_new.add_argument("--source-limit", type=int, default=10, help="Latest canonical sources to scan (default 10)")
     propose_new.add_argument("--all-sources", action="store_true", help="Scan every session and Discord summary (full vault walk, ~17 min)")
-    propose_new.add_argument("--limit", type=int, default=50, help="Maximum candidates to keep after filtering (default 50; use 200+ with --all-sources)")
+    propose_new.add_argument("--limit", type=int, default=500, help="Maximum candidates to keep after filtering (default 500)")
     propose_new.set_defaults(func=cmd_propose_new_entities)
 
     verify_new = sub.add_parser("verify-new-entities", help="LLM-verify new entity candidates against canonical source evidence")
-    verify_new.add_argument("--limit", type=int, default=20, help="Maximum candidates to verify per run (default 20)")
+    verify_new.add_argument("--limit", type=int, default=-1, help="Maximum candidates to verify (-1 = all unverified, default)")
     verify_new.set_defaults(func=cmd_verify_new_entities)
 
     apply_new = sub.add_parser("apply-verified-new-entities", help="Create stub vault pages for confirmed new entity candidates")
