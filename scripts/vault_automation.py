@@ -2292,6 +2292,82 @@ def llm_chat_json(prompt: str, timeout: int = 90) -> dict:
         raise RuntimeError(f"LLM JSON parse failed; finish_reason={finish_reason}; err={exc}") from exc
 
 
+def llm_chat_text(prompt: str, timeout: int = 90, system: str | None = None) -> str:
+    """Like llm_chat_json but returns raw text instead of parsed JSON."""
+    sources = load_local_sources()
+    base_url = sources.get("llm_base_url")
+    model = sources.get("llm_model")
+    if not base_url or not model:
+        raise RuntimeError("LLM is not configured")
+    base = str(base_url).rstrip("/")
+    url = base + "/chat/completions" if base.endswith("/v1") else base + "/v1/chat/completions"
+    messages: list[dict] = []
+    if system:
+        messages.append({"role": "system", "content": system})
+    messages.append({"role": "user", "content": prompt})
+    payload = {
+        "model": model,
+        "messages": messages,
+        "temperature": 0.0,
+        "max_tokens": 16384,
+    }
+    request = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        body = json.loads(response.read().decode("utf-8"))
+    return body["choices"][0]["message"].get("content") or ""
+
+
+SCRATCH_PATH = ROOT / "SCRATCH.md"
+
+
+def summarize_scratchpad() -> dict:
+    if not SCRATCH_PATH.exists():
+        return {"ok": False, "error": "SCRATCH.md not found"}
+    text = SCRATCH_PATH.read_text(encoding="utf-8")
+    if len(text) < 300:
+        return {"ok": True, "skipped": True, "reason": f"only {len(text)} chars — nothing to condense"}
+    prompt = f"""Condense this rolling session scratchpad for the Arden Vul vault automation project.
+
+Preserve:
+- All unresolved issues and open tasks
+- Decisions made and how they were resolved
+- Pipeline state: what ran, what is pending, what errored
+- Named files, proposal IDs, and entity names still relevant
+- Any line prefixed TODO, PENDING, ISSUE, or containing ⚠️
+
+Drop:
+- Completed tasks with no follow-up needed
+- Resolved diagnostic output
+- Repetitive narrative and status updates superseded by later entries
+
+Return condensed markdown only — no preamble, no commentary. Target: under 400 lines.
+
+---SCRATCHPAD---
+{text}
+---END SCRATCHPAD---"""
+    condensed = llm_chat_text(prompt, timeout=600)
+    header = f"<!-- summarized {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')} UTC -->\n\n"
+    original_len = len(text)
+    SCRATCH_PATH.write_text(header + condensed, encoding="utf-8")
+    return {
+        "ok": True,
+        "original_chars": original_len,
+        "condensed_chars": len(condensed),
+        "path": str(SCRATCH_PATH),
+    }
+
+
+def cmd_summarize_scratchpad(args: argparse.Namespace) -> int:
+    result = summarize_scratchpad()
+    print(json.dumps(result, indent=2))
+    return 0 if result.get("ok") else 1
+
+
 def _entity_link_proposal_key(source: str, entity_path: str, mention: str, source_excerpt: str = "") -> str:
     return f"{source}|{entity_path}|{mention}|{source_excerpt}"
 
@@ -6341,6 +6417,9 @@ def build_parser() -> argparse.ArgumentParser:
     scheduled = sub.add_parser("run-low-risk", help="Scheduled low-risk vault maintenance entry point")
     scheduled.add_argument("--blog-feed", default=BLOG_FEED_URL, help="Blogger JSON feed URL")
     scheduled.set_defaults(func=cmd_run_low_risk)
+
+    summarize_scratch = sub.add_parser("summarize-scratchpad", help="Condense SCRATCH.md using the configured LLM")
+    summarize_scratch.set_defaults(func=cmd_summarize_scratchpad)
 
     return parser
 
