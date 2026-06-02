@@ -8,6 +8,7 @@ aliases:
   - Court of the Troll Thegn
 related_entities:
   - [[npcs/Gog.md|Gog]]
+  - [[npcs/Varboka.md|Varboka]]
 identity_hints:
   - end of a massive road built for much larger creatures
 ---
