@@ -23,5 +23,5 @@ It also functions as an authorization device and allows giving commands to Rudis
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 
 ## Maps
-
+- ![[attachments/discord/pc-notes/1484710971195789312-temrin_map_bracelet.webp]] — A dungeon map showing a red path leading through various rooms.
 - ![[attachments/discord/pc-notes/1484710971195789312-temrin_map_bracelet.webp]] — A dungeon map showing a red path leading through various rooms.

@@ -22,3 +22,4 @@ A secluded location outside [[locations/Gosterwick.md|Gosterwick]] used by [[npc
 
 ## Maps
 - ![[attachments/discord/Unfinished Business/1445819936005030030-Druids_Retreat_S.png]] — A map showing the layout of the Druid's Retreat area.
+- ![[attachments/discord/Unfinished Business/1445819936005030030-Druids_Retreat_S.png]] — A map showing the layout of the Druid's Retreat area.

@@ -31,3 +31,4 @@ Varumani ambassadors and surface merchants, such as Galadnor, Horace Trych, and 
 ## Maps
 - ![[attachments/discord/screenshots/1489788376373657653-Screenshot_2026-04-03_at_7.46.45_PM.png]] — A top-down battle map showing a statue in the Goblin Forum.
 - ![[attachments/discord/screenshots/1489788376373657653-Screenshot_2026-04-03_at_7.46.45_PM.png]] — A top-down battle map showing a statue in the Goblin Forum.
+- ![[attachments/discord/screenshots/1489788376373657653-Screenshot_2026-04-03_at_7.46.45_PM.png]] — A top-down battle map showing a statue in the Goblin Forum.

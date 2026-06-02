@@ -17,3 +17,4 @@ A cellar area beneath the old Archontean palace ruins, also known as the Chamber
 
 ## Maps
 - ![[attachments/discord/screenshots/1459392383190962298-image.png]] — A digital battle map of the Palace Cellar, specifically the Chamber of the Beacon Lower.
+- ![[attachments/discord/screenshots/1459392383190962298-image.png]] — A digital battle map of the Palace Cellar, specifically the Chamber of the Beacon Lower.

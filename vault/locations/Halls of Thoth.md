@@ -21,3 +21,4 @@ TBD
 ## Maps
 - ![[attachments/discord/screenshots/1487293005105856605-image.png]] — A dungeon map featuring the Halls of Thoth and the Chamber of the Beacon.
 - ![[attachments/discord/screenshots/1487293005105856605-image.png]] — A dungeon map featuring the Halls of Thoth and the Chamber of the Beacon.
+- ![[attachments/discord/screenshots/1487293005105856605-image.png]] — A dungeon map featuring the Halls of Thoth and the Chamber of the Beacon.

@@ -46,3 +46,4 @@ A fortified tower complex connected to the caverns south of the [[locations/Howl
 ## Maps
 - ![[attachments/discord/screenshots/1446976387016822995-Tower_of_the_Ape.jpg]] — A top-down dungeon map of the Tower of the Ape.
 - ![[attachments/discord/screenshots/1446976387016822995-Tower_of_the_Ape.jpg]] — A top-down dungeon map of the Tower of the Ape.
+- ![[attachments/discord/screenshots/1446976387016822995-Tower_of_the_Ape.jpg]] — A top-down dungeon map of the Tower of the Ape.

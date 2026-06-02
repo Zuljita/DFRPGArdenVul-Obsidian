@@ -10,6 +10,7 @@ aliases:
   - Chrysalis
   - Lasselanta Ashcroft
   - Thorne Lasselanta Ashcroft
+  - Thorne
 appears_in:
   - "Session 42a - Neferet"
   - "Session 42b - Neferet and the Wraiths"
@@ -18,7 +19,7 @@ appears_in:
 # Lasselanta "Chrysalis" Ashcroft
 
 ## Summary
-Lasselanta "Chrysalis" Ashcroft is a Half-Elven mercenary martial artist affiliated with the [[factions/Grudge Brigade.md|Grudge Brigade]]. She was hired (along with [[npcs/Thrainor Thronebreaker Ironvein.md|Thronebreaker]]) by the Right for Riches company for the battle against [[npcs/Neferet.md|Neferet]] in Sessions 42a–42b. She has a monkey familiar named **Mariposa**.
+Lasselanta "Chrysalis" Ashcroft is a Half-Elven mercenary martial artist affiliated with the [[factions/Grudge Brigade.md|Grudge Brigade]]. Previously contracted under the name **Thorne**; an internal dispute over contracting names was resolved with an exchange of money on 2025-04-29, after which she contracts exclusively as **Chrysalis**. She was hired (along with [[npcs/Thrainor Thronebreaker Ironvein.md|Thronebreaker]]) by the Right for Riches company for the battle against [[npcs/Neferet.md|Neferet]] in Sessions 42a–42b. She has a monkey familiar named **Mariposa**.
 
 ## Known Abilities
 - **Blind Fighting** — can fight effectively while blinded; Neferet's blinding spells were only a minor inconvenience to her.
@@ -58,3 +59,9 @@ Mariposa is Chrysalis's monkey familiar. A gargoyle in the Great Hall swooped at
 ## Earlier Appearances
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]
+
+## Character Sheets
+- ![[attachments/discord/character-sheets/1352734649662836746-Thorne_Lasselanta_Ashcroft-2.png]] — Screenshot of the carried equipment section from Thorne Lasselanta Ashcroft's character sheet.
+- ![[attachments/discord/character-sheets/1352734649662836746-Thorne_Lasselanta_Ashcroft-1.png]] — Character sheet for Thorne Lasselanta Ashcroft.
+- [[attachments/discord/character-sheets/1352733019064107132-Thorne_Lasselanta_Ashcroft.gcs|Thorne_Lasselanta_Ashcroft.gcs]]
+- [[attachments/discord/character-sheets/1352491372858310677-BUILD_Thorne_Lasselanta_Ashcroft.gcs|BUILD_Thorne_Lasselanta_Ashcroft.gcs]]

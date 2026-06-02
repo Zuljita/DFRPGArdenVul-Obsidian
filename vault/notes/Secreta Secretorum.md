@@ -23,3 +23,4 @@ See also: [[notes/Maps and Cartographic Sources Catalog|Maps and Cartographic So
 ## Maps
 - ![[attachments/discord/pc-notes/1460379696620507147-secreta_secretorum_map.webp]] — A top-down dungeon map of Secreta Secretorum.
 - ![[attachments/discord/pc-notes/1460379696620507147-secreta_secretorum_map.webp]] — A top-down dungeon map of Secreta Secretorum.
+- ![[attachments/discord/pc-notes/1460379696620507147-secreta_secretorum_map.webp]] — A top-down dungeon map of Secreta Secretorum.

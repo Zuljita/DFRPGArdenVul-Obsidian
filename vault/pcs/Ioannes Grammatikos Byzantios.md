@@ -101,6 +101,13 @@ aliases:
 - [[attachments/discord/character-sheets/1352789253356130334-Ioannes.gcs|Ioannes.gcs]]
 - [[attachments/discord/character-sheets/1349934492504162374-Ioannes.gcs|Ioannes.gcs]]
 - [[attachments/discord/character-sheets/1508136174038814982-Ioannes20260529.gcs|Ioannes20260529.gcs]]
+- [[attachments/discord/character-sheets/1497372713348497428-Ioannes20260424.gcs|Ioannes20260424.gcs]]
+- [[attachments/discord/character-sheets/1489766899188367523-Ioannes20260403.gcs|Ioannes20260403.gcs]]
+- [[attachments/discord/character-sheets/1362944553187016765-Ioannes.gcs|Ioannes.gcs]]
+- [[attachments/discord/character-sheets/1354520220798025840-Ioannes.gcs|Ioannes.gcs]]
+- [[attachments/discord/character-sheets/1352789253356130334-Ioannes.gcs|Ioannes.gcs]]
+- [[attachments/discord/character-sheets/1349934492504162374-Ioannes.gcs|Ioannes.gcs]]
+- [[attachments/discord/character-sheets/1508136174038814982-Ioannes20260529.gcs|Ioannes20260529.gcs]]
 - [[attachments/discord/character-sheets/1497372713348497428-Ioannes20260424.gcs|Ioannes20260424.gcs]] — source: `#character-sheets` (2026-04-24)
 - [[attachments/discord/character-sheets/1489766899188367523-Ioannes20260403.gcs|Ioannes20260403.gcs]] — source: `#character-sheets` (2026-04-03)
 - [[attachments/discord/character-sheets/1362944553187016765-Ioannes.gcs|Ioannes.gcs]] — source: `#character-sheets` (2025-04-19)

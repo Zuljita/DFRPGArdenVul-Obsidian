@@ -68,3 +68,4 @@ A passage northeast of the Varumani Lifts leads to a Rudishva-architecture room 
 ## Maps
 - ![[attachments/discord/screenshots/1510109119334584361-image.png]] — A dungeon map of the Troll Lifts and Arena W area.
 - ![[attachments/discord/screenshots/1510109119334584361-image.png]] — A dungeon map of the Troll Lifts and Arena W area.
+- ![[attachments/discord/screenshots/1510109119334584361-image.png]] — A dungeon map of the Troll Lifts and Arena W area.

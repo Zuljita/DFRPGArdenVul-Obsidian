@@ -101,3 +101,4 @@ Under goblin control. [[npcs/Gribble.md|Gribble]] (Lord of the Goblin Forum) ove
 ## Maps
 - ![[attachments/discord/screenshots/1499971072261623928-Forum_of_Set_South_Central_-_To_Do.png]] — A dungeon map for the Forum of Set South Central.
 - ![[attachments/discord/screenshots/1499971072261623928-Forum_of_Set_South_Central_-_To_Do.png]] — A dungeon map for the Forum of Set South Central.
+- ![[attachments/discord/screenshots/1499971072261623928-Forum_of_Set_South_Central_-_To_Do.png]] — A dungeon map for the Forum of Set South Central.

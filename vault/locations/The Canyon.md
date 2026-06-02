@@ -26,3 +26,4 @@ TBD
 ## Maps
 - ![[attachments/discord/screenshots/1487297754572259492-image.png]] — A battle map of Drowned Canyon.
 - ![[attachments/discord/screenshots/1487297754572259492-image.png]] — A battle map of Drowned Canyon.
+- ![[attachments/discord/screenshots/1487297754572259492-image.png]] — A battle map of Drowned Canyon.
