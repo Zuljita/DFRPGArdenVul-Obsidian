@@ -25,5 +25,7 @@ TBD
 
 ## Members
 - [[Svenbar]] is a Wiskin blacksmith.
+- [[Jador the Just]] is the Wiskin chief priestess of the Temple of Mitra in Gosterwick.
+- [[Hjalti]] is a Wiskin fighter.
 
 ## Sessions

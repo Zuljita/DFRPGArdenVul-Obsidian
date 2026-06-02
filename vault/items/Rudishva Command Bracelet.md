@@ -24,5 +24,3 @@ It also functions as an authorization device and allows giving commands to Rudis
 
 ## Maps
 - ![[attachments/discord/pc-notes/1484710971195789312-temrin_map_bracelet.webp]] — A dungeon map showing a red path leading through various rooms.
-- ![[attachments/discord/pc-notes/1484710971195789312-temrin_map_bracelet.webp]] — A dungeon map showing a red path leading through various rooms.
-- ![[attachments/discord/pc-notes/1484710971195789312-temrin_map_bracelet.webp]] — A dungeon map showing a red path leading through various rooms.

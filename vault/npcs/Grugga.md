@@ -13,7 +13,6 @@ appears_in:
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 
 ## History
-- [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 28: Teleport Rugs and Baboons Date: Tahsday, 18th of Besemios, 2993 AE Weather: Cool, rainy Player Characters: Vaelethron 'Vael' Sunshadow, Half-Elven mage Vallium Halcyon, Archontean fighter Uvash Edzuson...
   - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — The cave people were impressed by the axes, and their older female leader (who turned out to be named [[npcs/Grugga.md|Grugga]]) sent someone back into the cave to get something.
 
 ## Notes

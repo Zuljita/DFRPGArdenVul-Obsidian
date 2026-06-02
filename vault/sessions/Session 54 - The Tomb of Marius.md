@@ -49,7 +49,7 @@ Publius Lanlius, Oathbound Knight Commander
 
 Lepp, Adventurer
 
-Gorlen, Varumani lift operator
+[[npcs/Gorlen.md|Gorlen]], Varumani lift operator
 
 2 Varumani lift laborers
 

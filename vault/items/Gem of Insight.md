@@ -30,7 +30,6 @@ A rare and valuable gemstone, glowing faintly with an inner light, rumored to en
 
 ## Sessions
 
-- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
 
 ## Discord Insights
 

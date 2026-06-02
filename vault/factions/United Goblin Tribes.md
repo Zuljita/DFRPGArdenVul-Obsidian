@@ -1,8 +1,13 @@
 ---
 tags:
+  - site/goblintown
+  - session/36
   - faction
   - identity/uncertain
 status: stub
+related_entities:
+  - [[npcs/Weskenim.md|Weskenim]]
+  - [[npcs/Gribble.md|Gribble]]
 ---
 
 # United Goblin Tribes
@@ -13,6 +18,7 @@ A collection of goblin groups ruled by King Weskenim, encompassing territories s
 The territory includes the repurposed 'Glory of Weskenim' (formerly the Glory of Thoth).
 - Following the defeat of Plumthorn's Halflings, the Halls of Thoth have been renamed to Upper Goblintown.
 - The faction commands a significant military force, including ogre guards and goblin warriors led by officers such as Killik and Bottleneck.
+- King Weskenim's brother, Gribble, serves as the Lord of the Goblin Forum.
 
 ## Sources
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]

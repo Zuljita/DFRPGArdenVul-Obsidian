@@ -12,7 +12,6 @@ appears_in:
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 
 ## History
-- [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 28: Teleport Rugs and Baboons Date: Tahsday, 18th of Besemios, 2993 AE Weather: Cool, rainy Player Characters: Vaelethron 'Vael' Sunshadow, Half-Elven mage Vallium Halcyon, Archontean fighter Uvash Edzuson...
   - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — She revealed that she was [[npcs/Ptirasa.md|Ptirasa]], a priestess of [[npcs/Thoth.md|Thoth]], and warned the others that Arpostas was a traitor.
 
 ## Notes

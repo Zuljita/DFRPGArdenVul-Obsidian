@@ -24,6 +24,5 @@ A Mithric-language book that details eight famous historical heists.
 | 2026-01-09 | p.151 | $1,000 | 1 | No | Party |
 
 ## Sources
-- [[notes/Discord Summary 2026-W18.md|Discord Summary 2026-W18]]
 - [[Party Armory.md|Party Armory]]
 - [[notes/Books Title Concordance.md|Books Title Concordance]]

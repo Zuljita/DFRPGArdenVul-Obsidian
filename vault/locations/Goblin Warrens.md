@@ -25,7 +25,3 @@ The cave tunnel networks inhabited by Gosterwick's goblin population within Arde
 ## Maps
 - ![[attachments/discord/screenshots/1454298624002359479-image.png]] — A battle map of the Goblin Warrens Upper.
 - ![[attachments/discord/screenshots/1444149006040305734-image.png]] — A top-down dungeon map of the Goblin Warrens Lower.
-- ![[attachments/discord/screenshots/1454298624002359479-image.png]] — A battle map of the Goblin Warrens Upper.
-- ![[attachments/discord/screenshots/1444149006040305734-image.png]] — A top-down dungeon map of the Goblin Warrens Lower.
-- ![[attachments/discord/screenshots/1454298624002359479-image.png]] — A battle map of the Goblin Warrens Upper.
-- ![[attachments/discord/screenshots/1444149006040305734-image.png]] — A top-down dungeon map of the Goblin Warrens Lower.

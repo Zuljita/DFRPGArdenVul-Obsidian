@@ -10,7 +10,6 @@ tags:
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]
 
 ## History
-- [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]] — Iconic Location: [[locations/Pyramid of Thoth.md|Pyramid of Thoth]]: The whole party got this achievement for being the first to find the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].
   - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]] — They didn't visit enough new areas to get the second exploration XP, but they did find the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], which is an Iconic Location, which generated an Achievement for everyone, worth a bonus XP.
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]] — Achievements: The statue of [[npcs/Thoth.md|Thoth]] right under the pyramid (the one with the stone collection box, not the one with the book that opens pits when you play with the arms) is the [[locations/Glory of Thoth.md|Glory of Thoth]], an [[locations/Arden Vul.md|Arden Vul]] Iconic Location.
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]] — Achievements: Iconic Location: [[locations/Well of Light.md|Well of Light]]: The whole party got this achievement for being the first to find the [[locations/Well of Light.md|Well of Light]].

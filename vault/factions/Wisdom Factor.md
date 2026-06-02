@@ -1,6 +1,10 @@
 ---
 title: Wisdom Factor
 tags:
+  - type/merchant
+  - site/inn-of-the-broken-head
+  - session/8a
+  - session/7
   - faction
 ---
 # Wisdom Factor
@@ -10,6 +14,7 @@ The [[factions/Wisdom Factor.md|Wisdom Factor]] is a merchant factor.
 
 They are known to employ statue brokers who work out of the [[Inn of the Broken Head]].
 
+It is considered a regional factor, though its scope is less defined.
 
 ## Sessions
 ## Sessions

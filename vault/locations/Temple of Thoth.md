@@ -18,6 +18,3 @@ tags:
 
 ## Maps
 - ![[attachments/discord/pc-notes/1428922031956562093-player_map_185.webp]] — A dungeon map of the Temple of Thoth.
-- ![[attachments/discord/pc-notes/1428922031956562093-player_map_185.webp]] — A dungeon map of the Temple of Thoth.
-- ![[attachments/discord/pc-notes/1428922031956562093-player_map_185.webp]] — A dungeon map of the Temple of Thoth.
-- ![[attachments/discord/pc-notes/1428922031956562093-player_map_185.webp]] — A dungeon map of the Temple of Thoth.

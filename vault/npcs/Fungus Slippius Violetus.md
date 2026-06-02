@@ -11,6 +11,5 @@ appears_in:
 - [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
 
 ## History
-- [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]] — GOAT used his naturalist skills and an Identify Plant spell to ascertain that this was indeed slippery purple fungus, with Mithric name [[npcs/Fungus Slippius Violetus.md|Fungus Slippius Violetus]], edible but with no known medicinal uses.
 
 ## Notes

@@ -55,5 +55,3 @@ A door marked "Entrance Forbidden — This means you!" (Varumani script) leads s
 
 ## Maps
 - ![[attachments/discord/pc-notes/1510822663180779661-tomb_of_archon_marius.webp]] — A top-down dungeon map of the Tomb of Archon Marius.
-- ![[attachments/discord/pc-notes/1510822663180779661-tomb_of_archon_marius.webp]] — A top-down dungeon map of the Tomb of Archon Marius.
-- ![[attachments/discord/pc-notes/1510822663180779661-tomb_of_archon_marius.webp]] — A top-down dungeon map of the Tomb of Archon Marius.

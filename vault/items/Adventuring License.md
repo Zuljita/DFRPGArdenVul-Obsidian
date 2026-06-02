@@ -1,5 +1,7 @@
 ---
 tags:
+  - site/pyramid-of-thoth
+  - session/2025-w13
   - item
   - identity/uncertain
 status: stub
@@ -18,3 +20,4 @@ A permit required to enter Phlebotomas Plumthorn's territory beneath the Pyramid
 ## Sources
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+- [[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]]

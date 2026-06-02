@@ -14,6 +14,3 @@ An expedition into the tomb encountered a magical suppression zone and [[npcs/Ne
 
 ## Maps
 - ![[attachments/discord/screenshots/1472248621725646858-Neferet_tomb.png]] — A battle map of Neferet's Tomb.
-- ![[attachments/discord/screenshots/1472248621725646858-Neferet_tomb.png]] — A battle map of Neferet's Tomb.
-- ![[attachments/discord/screenshots/1472248621725646858-Neferet_tomb.png]] — A battle map of Neferet's Tomb.
-- ![[attachments/discord/screenshots/1472248621725646858-Neferet_tomb.png]] — A battle map of Neferet's Tomb.

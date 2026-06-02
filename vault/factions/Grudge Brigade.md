@@ -58,21 +58,7 @@ As an information broker, Coinbase has access to the undercurrents of Gosterwick
 
 ## Sessions
 
-- [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]
-- [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
-- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
-- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
-- [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]
-- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]
-- [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]
-- [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
-- [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
-- [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
-- [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 - [[sessions/Session 16.5 Bonus Mid-2993 Summary.md|Session 16.5 Bonus Mid-2993 Summary]]
 
 ## Group Art
-- ![[attachments/discord/off-topic/1381730329328353482-Grudge_Brigade_arms.png]] — A union emblem for the Grudge Brigade featuring a sheep-headed beastman.
-- ![[attachments/discord/off-topic/1381730329328353482-Grudge_Brigade_arms.png]] — A union emblem for the Grudge Brigade featuring a sheep-headed beastman.
 - ![[attachments/discord/off-topic/1381730329328353482-Grudge_Brigade_arms.png]] — A union emblem for the Grudge Brigade featuring a sheep-headed beastman.

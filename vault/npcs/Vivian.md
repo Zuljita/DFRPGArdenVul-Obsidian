@@ -22,10 +22,8 @@ Thorcin chief priest of [[Demma]] in [[Gosterwick]]. A stern but fair cleric cap
 - [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]
 
 ## History
-- [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]] — The Remove Curse was cast by [[npcs/Vivian.md|Vivian]], the Thorcin male chief priest of the temple; it's unclear whether any of the other four priests can cast spells that powerful.
 - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 14: Behind the [[locations/Waterfall.md|Waterfall]] Again Date: Demmasday, 13th of Jelenius, 2993 AE Weather: Cool, overcast Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented...
   - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — Father [[npcs/Vivian.md|Vivian]] said the woman needed stronger healing magic than he knew, and recommended Mother Jador at the [[locations/Temple of Mitra.md|Temple of Mitra]].
-- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]] — Ioannes suspected a magical curse; [[npcs/Vivian.md|Vivian]] at the [[locations/Temple of Demma.md|Temple of Demma]] diagnosed and cast Remove Curse for the group.
 
 ## Notes
 

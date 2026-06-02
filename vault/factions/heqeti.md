@@ -4,6 +4,8 @@ tags:
   - tradition/thothian
   - era/historical
   - faction
+related_entities:
+  - [[factions/Varuda.md|Varuda]]
 ---
 
 # Heqeti
@@ -27,6 +29,8 @@ TBD
 
 ## Notes
 TBD
+- The destruction of the Heqeti Upper Temple was a key event in the historical conflict involving the Rudishva, Varumani, Varuda, and Kalyani forces.
+- The [[Heqeti Ziggurat]] is the main fortress of the Chasm Floor.
 
 ## Members
 

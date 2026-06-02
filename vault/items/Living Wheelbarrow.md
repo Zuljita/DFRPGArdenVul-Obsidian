@@ -34,6 +34,3 @@ The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] is not self-powered, self
 
 ## Reference Images
 - ![[attachments/discord/general/1417560324785311844-Living_Wheelbarrow.png]] — An AI-generated illustration of a wheelbarrow made of vines and roots filled with flowers.
-- ![[attachments/discord/general/1417560324785311844-Living_Wheelbarrow.png]] — An AI-generated illustration of a wheelbarrow made of vines and roots filled with flowers.
-- ![[attachments/discord/general/1417560324785311844-Living_Wheelbarrow.png]] — An AI-generated illustration of a wheelbarrow made of vines and roots filled with flowers.
-- ![[attachments/discord/general/1417560324785311844-Living_Wheelbarrow.png]] — An AI-generated illustration of a wheelbarrow made of vines and roots filled with flowers.

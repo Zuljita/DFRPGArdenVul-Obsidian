@@ -2,6 +2,8 @@
 title: "data crystal: Fire Pits of Creation"
 type: data-crystal
 tags:
+  - type/technology
+  - type/magic
   - session/2026-w05
   - type/data-crystal
   - title/fire-pits-of-creation

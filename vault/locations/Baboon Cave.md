@@ -30,9 +30,3 @@ Cave areas adjacent to or within the [[locations/Howling Caves.md|Howling Caves]
 - ![[attachments/discord/screenshots/1446688860531851396-image.png]] — A battle map showing the Lesser Baboon Caves and surrounding terrain.
 - ![[attachments/discord/screenshots/1446679619624505375-image.png]] — A sketch of the Baboon Cave area.
 - ![[attachments/discord/screenshots/1446679327650353212-image.png]] — A dungeon map showing the Lesser Baboon Caves South and surrounding areas.
-- ![[attachments/discord/screenshots/1446688860531851396-image.png]] — A battle map showing the Lesser Baboon Caves and surrounding terrain.
-- ![[attachments/discord/screenshots/1446679619624505375-image.png]] — A sketch of the Baboon Cave area.
-- ![[attachments/discord/screenshots/1446679327650353212-image.png]] — A dungeon map showing the Lesser Baboon Caves South and surrounding areas.
-- ![[attachments/discord/screenshots/1446688860531851396-image.png]] — A battle map showing the Lesser Baboon Caves and surrounding terrain.
-- ![[attachments/discord/screenshots/1446679619624505375-image.png]] — A sketch of the Baboon Cave area.
-- ![[attachments/discord/screenshots/1446679327650353212-image.png]] — A dungeon map showing the Lesser Baboon Caves South and surrounding areas.

@@ -1,5 +1,6 @@
 ---
 tags:
+  - session/2025-w42
   - npc
 ---
 

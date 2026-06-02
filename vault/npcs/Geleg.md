@@ -14,7 +14,6 @@ appears_in:
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
 
 ## History
-- [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]] — Dundee, Thorcin barbarian Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] Significant NPCs: [[npcs/Susarra.md|Susarra]], Archontean fighter Many [[npcs/Set.md|Set]] guards [[npcs/Hidlat.md|Hidlat]], [[npcs/Set.md|Set]] wizard [[npcs/Kathroc.md|Kathroc]], [[npcs/Set.md|Set]] torturer [[npcs/Lenuel.md|Lenuel]], [[npcs/Set.md|Set]] jailer [[npcs/Eadgithu.md|Eadgithu]], enslaved Thorcin range...
   - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]] — The overweight man was [[npcs/Geleg.md|Geleg]], a wizard, who when ungagged immediately thanked his rescuers then asked if anyone had seen his spellbook.
 
 ## Notes

@@ -3,6 +3,8 @@ tags:
   - item
 aliases:
   - Amulet of the Silver Tongue
+identity_hints:
+  - possibly of Serpent Tongue
 ---
 
 # Amulet of Voice

@@ -28,6 +28,3 @@ An area within the [[Halls of Arden Vul]], ruled by the Varumani [[npcs/Varboka.
 
 ## Maps
 - ![[attachments/discord/screenshots/1502515018321891501-image.png]] — A battle map showing part of the Court of the Troll Thegn.
-- ![[attachments/discord/screenshots/1502515018321891501-image.png]] — A battle map showing part of the Court of the Troll Thegn.
-- ![[attachments/discord/screenshots/1502515018321891501-image.png]] — A battle map showing part of the Court of the Troll Thegn.
-- ![[attachments/discord/screenshots/1502515018321891501-image.png]] — A battle map showing part of the Court of the Troll Thegn.

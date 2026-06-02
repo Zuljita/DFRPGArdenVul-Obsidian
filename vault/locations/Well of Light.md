@@ -27,6 +27,3 @@ The [[locations/Waterfall.md|Waterfall]]
 
 ## Maps
 - ![[attachments/discord/screenshots/1494877749725364234-image.png]] — A dungeon map showing various chambers and mana zones.
-- ![[attachments/discord/screenshots/1494877749725364234-image.png]] — A dungeon map showing various chambers and mana zones.
-- ![[attachments/discord/screenshots/1494877749725364234-image.png]] — A dungeon map showing various chambers and mana zones.
-- ![[attachments/discord/screenshots/1494877749725364234-image.png]] — A dungeon map showing various chambers and mana zones.

@@ -20,7 +20,7 @@ title: Party Armory
 | [[items/Bag of Holding.md|Bag of Holding]] (25#, holds 500# or 70 ft^3) | 1 | p.1103 | $5,000 | 2026-03-13 | — |
 | bag of holding: 35#, holds 1000# or 150 ft^3 | 1 | p.233 | $7,400 | 2025-09-19 | — |
 | [[items/Blue glass square.md|blue magic glass square]] | 0 | p.173 | $5 | 2025-11-28 | — |
-| Bones of Jaken the Proud (protection from Evil, talk to Jaken 1/month) | 0 | p.181 | $20,000 | 2026-01-09 | — |
+| Bones of Jaken the Proud (protection from Evil, talk to [[npcs/Jaken.md|Jaken]] 1/month) | 0 | p.181 | $20,000 | 2026-01-09 | — |
 | [[items/Boots of Levitation.md|Boots of Levitation]] (DR2, 300# limit, resize) | 3 | p.205 | $7,500 | 2026-02-20 | — |
 | [[items/Bottomless Purse.md|Bottomless Purse]] (holds 9 lbs, 6 lbs don't count as encumbrance) | 1 | p.130 | $12,010 | 2025-10-24 | — |
 | broken [[items/Was sticks.md|Was stick]] | 3 | p.310 | $5 | 2025-07-25 | — |
@@ -91,7 +91,7 @@ title: Party Armory
 | serpent amulet | 1 | p.277 | $9,590 | 2026-03-13 | — |
 | Serpent's Amulet | 0 | p.129 | $9,590 | 2026-04-10 | — |
 | set of 6 magic glass teleportation control squares | 1 | p.128 | $100 | 2026-04-17 | Worth more if method of use and locations of teleporters documented |
-| Set Was stick (causes total paralysis and silence but only for Set clerics) | 1 | p.352 | $100 | 2025-07-18 | — |
+| Set [[items/Was sticks.md|Was stick]] (causes total paralysis and silence but only for Set clerics) | 1 | p.352 | $100 | 2025-07-18 | — |
 | silver magic eye | 3 | p.685 | — | 2025-12-19 | — |
 | silver magic eye (some kind of key to another magic item) | 1 | p.137 | $150 | 2025-08-08 | — |
 | Slippers of Stealth (DR0, Invisibility 1/day, Silence 3/day, +4 stealth) | 1 | p.302 | $10,000 | 2026-04-24 | — |
