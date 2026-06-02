@@ -4091,6 +4091,15 @@ def apply_verified_new_entities(apply_changes: bool, limit: int | None = None) -
         if target_path.exists():
             results.append({"name": name, "kind": kind, "action": "skipped", "reason": "page already exists", "path": rel_path})
             continue
+        # Also check every other vault subdirectory — a page may already exist
+        # under a different kind folder (e.g. Discord Summaries live in notes/).
+        existing_elsewhere = next(
+            (p for p in VAULT.rglob(f"{slug}.md") if p != target_path), None
+        )
+        if existing_elsewhere:
+            alt_rel = existing_elsewhere.relative_to(ROOT).as_posix()
+            results.append({"name": name, "kind": kind, "action": "skipped", "reason": "page exists elsewhere", "path": alt_rel})
+            continue
         content = build_new_entity_stub(
             name, kind, v.get("verifier_summary", ""), v.get("sources", []),
             media_subtype=v.get("verifier_media_subtype", ""),
