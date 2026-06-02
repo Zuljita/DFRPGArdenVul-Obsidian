@@ -35,7 +35,6 @@ Warm, rainy
 - [[npcs/Dworm.md|Dworm]], Galadnor's guard
 - [[npcs/Horace Trych.md|Horace Trych]], Archontean merchant and spy
 - [[npcs/Yoburra.md|Yoburra]], Varumani ambassador
-- [[npcs/Gribble.md|Gribble]], Lord of the Goblin Forum
 - [[npcs/Basil.md|Basil of Narsileon]], Right for Riches employee
 - King [[npcs/Weskenim.md|Weskenim]] of the United Goblin Tribes
 - [[npcs/Gribble.md|Gribble]], Weskenim's brother

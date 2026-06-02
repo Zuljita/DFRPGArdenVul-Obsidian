@@ -25,3 +25,6 @@ Owned by [[Ioannes]]
 
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+
+## Reference Images
+- ![[attachments/discord/ooc-planning/1395630787130560572-image.png]] — Stat block for the Belt of Dwarvenkind.

@@ -12,8 +12,6 @@ config/local_sources.json
 data/automation/
 scripts/__pycache__/
 scripts/output/
-notebookLMFiles/.tmp.driveupload/
-notebookLMFiles/.tmp.driveupload/**
 
 # Raw Discord exports must never enter the repo; the vault only ingests curated digests.
 RawFiles/

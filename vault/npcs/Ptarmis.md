@@ -31,12 +31,9 @@ Mysterious [[npcs/Thoth.md|Thoth]]‑aligned wizard tied to the fungal caverns n
 - Thothian orders: strong association in inscriptions and lore; ambiguous across eras.
 
 ## History
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 5: Parleys and [[locations/Great Cavern.md|The Great Cavern]] Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
   - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — The man identified himself as [[npcs/Ptarmis.md|Ptarmis]], the master of the cavern.
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]] — Vallium again tried finding rumors about [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s halfling gang in various drinking establishments, and instead heard something about [[npcs/Ptarmis.md|Ptarmis]], a wizard who lived in the fungal caverns.
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]] — The lead forester talked about how cool [[npcs/Ptarmis.md|Ptarmis]] was and how much he liked the living wheelbarrow and asked if they were friends of [[npcs/Ptarmis.md|Ptarmis]].
   - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]] — Vael indicated that they were also friends of [[npcs/Ptarmis.md|Ptarmis]] and asked if the foresters had a source of cloud cap mushrooms.
-- [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — There was a Mithric inscription on the sarcophagus: Here rests [[npcs/Ptarmis.md|Ptarmis]] loyal servant of [[npcs/Thoth.md|Thoth]] seeker of hidden ways who destroyed the loathsome ones raised his children from spores and opened this cavern Those who disturb his sleep Will ...
   - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — This was a bit confusing, since they'd met a man named [[npcs/Ptarmis.md|Ptarmis]], on the throne a bit to the east, who was very much alive.
 - Built a secret tomb within a fungus cavern in a forest of colossal mushrooms.
 - Built a secret tomb within a fungus cavern on the second level of [[notes/huge forest of colossal mushrooms.md|the huge forest of colossal mushrooms]].

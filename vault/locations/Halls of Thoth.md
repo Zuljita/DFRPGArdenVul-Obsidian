@@ -17,3 +17,6 @@ TBD
 - There is an Overseer of Thoth ([[notes/ancient letter from Uriel Basileon to Kel Bormol.md|ancient letter from Uriel Basileon to Kel Bormol]])
 - The main library room was cleared and its books moved to the [[locations/Beacon.md|Beacon]] in Session 37.
 - Adjacent to the Library of Thoth is a secret room — the **Secret Library of Thoth** — containing a much rarer and more dangerous collection.
+
+## Maps
+- ![[attachments/discord/screenshots/1487293005105856605-image.png]] — A dungeon map featuring the Halls of Thoth and the Chamber of the Beacon.

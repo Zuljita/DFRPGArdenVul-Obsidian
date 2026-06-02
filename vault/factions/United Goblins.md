@@ -1,7 +1,11 @@
 ---
 title: United Goblins
 tags:
+  - culture/goblin
   - faction
+related_entities:
+  - [[npcs/Weskenim.md|Weskenim]]
+  - [[factions/Halflings.md|Plumthorn's Halflings]]
 ---
 # United [[factions/Goblins.md|Goblins]]
 
@@ -10,13 +14,17 @@ Goblin polity led by [[npcs/Weskenim.md|Weskenim]]; controls parts of the Halls 
 
 Following the defeat of [[Plumthorn's Halflings]], the [[Halls of Thoth]] have been renamed to [[Upper Goblintown]].
 
+The territory encompasses the Wet Caves and Goblintown.
+
 ## Members
 - [[npcs/Larakim.md|Larakim]]
 - [[npcs/Harab.md|Harab]]
 - [[npcs/Killick.md|Killick]]
+- [[npcs/Palestrim.md|Palestrim]]
 
 ## Sessions
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
 
 ## Sessions
 

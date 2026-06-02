@@ -17,7 +17,6 @@ appears_in:
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
 
 ## History
-- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 32: Fast Exploration Date: Lunday, 28th of Basilembrios, 2993 AE Weather: Cool, rainy Player Characters: Vallium Halcyon, Archontean fighter Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] ...
 
 ## Notes
 - Big goblin, not quite as big as Weskenim. Middle aged. Executive-style black hair. Wears a goblin military uniform with no insignia.

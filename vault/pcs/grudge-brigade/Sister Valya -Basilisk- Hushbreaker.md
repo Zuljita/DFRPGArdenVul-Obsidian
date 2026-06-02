@@ -30,8 +30,9 @@ Clerical support and expedition logistics. Provides martial arts combat support 
 - Has a bat familiar named Sanguinette
 
 ## Character Sheets
-- [[attachments/discord/character-sheets/1359696635453640816-Basilisk_Valya_Hushbreaker_125.gcs|Basilisk_Valya_Hushbreaker_125.gcs]] — source: `#character-sheets` (2025-04-10)
-- [[attachments/discord/character-sheets/1348745557593686016-Valya_Hushbreaker.gcs|Valya_Hushbreaker.gcs]] — source: `#character-sheets` (2025-03-10)
+- ![[attachments/discord/character-sheets/1359696635453640816-Basilisk_Valya_Hushbreaker_125-2.png]] — Character sheet for Sister Valya Hushbreaker showing traits, skills, spells, and equipment.
+- [[attachments/discord/character-sheets/1359696635453640816-Basilisk_Valya_Hushbreaker_125.gcs|Basilisk_Valya_Hushbreaker_125.gcs]]
+- [[attachments/discord/character-sheets/1348745557593686016-Valya_Hushbreaker.gcs|Valya_Hushbreaker.gcs]]
 
 ## Character Sheet Snapshot
 

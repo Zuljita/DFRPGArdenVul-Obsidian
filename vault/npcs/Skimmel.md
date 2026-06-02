@@ -16,7 +16,6 @@ appears_in:
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 
 ## History
-- [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Dundee, Thorcin barbarian [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]], Elf [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary archer (Archon Shiva) Significant NPCs: [[npcs/Craastonistorex.md|Craastonistorex]], green dragon [[npcs/Briar.md|Briar]], Wyvern Giant Tick [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]], Halfling mob bo...
 - Part of a group of advisors to the King, including Reeflik, Palestrim, and Gribble.
 
 ## Notes

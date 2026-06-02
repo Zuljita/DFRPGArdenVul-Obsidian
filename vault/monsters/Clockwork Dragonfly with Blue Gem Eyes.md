@@ -30,3 +30,6 @@ Found within the ruins, possibly a remnant of ancient Archontean technology or a
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
+
+## Maps
+- ![[attachments/discord/general/1347739077046436001-image.png]] — A Foundry VTT macro for a combat action against a dragon.

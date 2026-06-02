@@ -21,6 +21,4 @@ aliases:
 ## Known History
 
 ## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
-- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]

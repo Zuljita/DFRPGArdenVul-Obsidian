@@ -10,7 +10,6 @@ appears_in:
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 
 ## History
-- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — He saw some Aqua Vitae, and some big red mushrooms that might be fatal Red Veil or might be valuable [[npcs/Lotus.md|Red Lotus]], but since he wasn't sure he recommended not touching them.
 
 ## Notes
 

@@ -56,3 +56,6 @@ She appears as a translucent, 7-foot-tall, spindly hologram with brown skin and 
 - Believes the yellow oval is Captain Leil-Jor's identity plaque, thinks it should open any Rudishva door and activate any Rudishva teleporter. She is a psychologist, not a teleportation engineer. ([[notes/Discord Summary 2026-W03.md|Discord Summary 2026-W03]])
 - GM updated names on the loot sheet based on her input. She teaches the Rudishva word for 'plastic' and indicates that the Beacon had a diverse crew. She expresses sadness over crew members lost due to treason and mentions her voice changed to a pleasant Archontean one, similar to Lady Alexia's. ([[notes/Discord Summary 2026-W04.md|Discord Summary 2026-W04]])
 - is not sure about the door security systems being local. ([[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]])
+
+## Portraits
+- ![[attachments/discord/off-topic/1510126671179808848-image.png]] — A portrait of Akla-Chah, a Rudivisha psychologist.

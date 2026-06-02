@@ -178,5 +178,5 @@ Warnings observed (non-fatal):
 
 ## Next pass
 
-- Recommended skill: `arden-vul-vault-research-assistant`
+- Recommended action: manual evidence review
 - Why: confirm/deny potential identity collisions around similarly named legacy NPCs (especially “Roger*” variants) before broader merge passes.

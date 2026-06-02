@@ -21,5 +21,4 @@ A dry treatise on finance, monopolies, and venture capital.
 |------|------|-------|-----|------|-------|
 
 ## Sources
-- [[notes/Discord Summary 2026-W03.md|Discord Summary 2026-W03]]
 - [[Party Armory.md|Party Armory]]

@@ -1,8 +1,11 @@
 ---
 tags:
+  - site/heqeti-ziggurat
   - faction
   - identity/uncertain
 status: stub
+related_entities:
+  - [[locations/Heqeti Ziggurat.md|Heqeti Ziggurat]]
 ---
 
 # Varuda
@@ -12,6 +15,7 @@ A faction of beings, including crew members of the Shining Beacon, who are allie
 - The *Beacon* originally carried approximately 100 Varuda.
 - They were involved in the historical conflict surrounding the destruction of the Heqeti Upper Temple.
 - They are depicted on a stone slab alongside Rudishva and Varumani beings.
+- The stone slab depicting them contains glyphs in Rudili/Rudishva Glyphis that translate to "Shining Beacon of Glorious Heaven".
 
 ## Sources
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]

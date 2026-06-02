@@ -37,7 +37,7 @@ The company Chrysalis has focused heavily on legal restructuring and long-term l
 **[[pcs/Vallium Halcyon.md|Vallium Halcyon]]**
 * **Town actions taken:** Paid $125 to improve his Carousing roll by +2. Visited Theopilus to commission copies of several non-magical keys (including the large keys from Session 47 and the pentagram room key) for a total cost of $100.
 * **Alchemy/crafting attempts and results:** Attempted to brew an Agility Potion; the attempt failed.
-* **Research results:** Researched Erist Ellagelsson; no information was found, though the name appears elvish in origin. Read *Great Vampire Lords and Their Demise*, which details seven slain lords and methods for resisting charm effects.
+* **Research results:** Researched [[npcs/Erist Ellagelsson.md|Erist Ellagelsson]]; no information was found, though the name appears elvish in origin. Read *Great Vampire Lords and Their Demise*, which details seven slain lords and methods for resisting charm effects.
 * **Equipment changes:** Utilizing a communal Agility Potion obtained during previous expeditions.
 
 **[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]]**
@@ -62,7 +62,7 @@ The company Chrysalis has focused heavily on legal restructuring and long-term l
 **World Rulings**
 * **Alchemy Costs:** Successful alchemy reduces the cost of ingredients by 20%; failed attempts increase the cost by 10%.
 * **Potion Availability:** Only *Minor Healing* and *Major Healing* potions are generally available for purchase in town; all other specialized potions must be brewed or discovered.
-* **Equipment Slots:** The Brooch and Amulet occupy the same equipment slot. The Teeth of Pol occupy their own unique slot, allowing a maximum of two to be worn.
+* **Equipment Slots:** The Brooch and Amulet occupy the same equipment slot. The [[items/Teeth of Pol.md|Teeth of Pol]] occupy their own unique slot, allowing a maximum of two to be worn.
 * **Magic Item Alteration:** There is no known way to resize magical clothing or armor without the risk of destroying the item's enchantments.
 * **Heavy Leather Boots of the Ogre:** These boots provide +1 ST but are sized for humans and elves; they are not suitable for dwarven characters like Uvash.
 

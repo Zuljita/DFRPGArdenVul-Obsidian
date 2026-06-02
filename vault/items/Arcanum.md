@@ -3,6 +3,8 @@ tags:
   - item
   - tradition/thothian
   - magic
+identity_hints:
+  - power source for 'Creation Molds'
 ---
 
 # Arcanum

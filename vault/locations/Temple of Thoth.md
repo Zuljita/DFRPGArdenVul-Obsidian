@@ -15,3 +15,6 @@ tags:
 - Now being used by the Cult of Set
 - Features a pit located east of the Settite Jail
 - Had torches and 'Continual Light areas'.
+
+## Maps
+- ![[attachments/discord/pc-notes/1428922031956562093-player_map_185.webp]] — A dungeon map of the Temple of Thoth.

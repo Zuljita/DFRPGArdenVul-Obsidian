@@ -1,232 +1,57 @@
 ---
 name: arden-vul-discord-pipeline
-description: Operate and troubleshoot the DFRPG Arden Vul Discord ingestion, weekly rollup, LLM digest, QA/revision, Obsidian import, and IAC workflows. Use when working on Discord chat explorer data on Brain, LM Studio model calls on the workstation, weekly digest files, import into this Obsidian repo, or article-candidate extraction scripts.
+description: Operate and troubleshoot the Arden Vul Discord export, weekly rollup, digest, QA, revision, and vault import pipeline.
 ---
 
 # Arden Vul Discord Pipeline
 
 ## Guardrails
 
-1. Do not print or commit secrets. The Discord token lives outside this repo on Brain; use it only in place.
-2. Do not commit raw Discord transcripts unless explicitly requested. The repo should receive curated/revised outputs.
-3. Treat `revised-digest.md` as the final weekly article, not `digest.md` or `qa.md`.
-4. Keep old `vault/notes/Discord Summary YYYY-WNN.md` files unless the user explicitly asks to replace/remove them.
-5. Prefer dry runs for IAC and stub creation. Review `would_create` before writing files.
+1. Do not print or commit Discord tokens or raw Discord transcripts.
+2. Treat `revised-digest.md` as the final weekly source article.
+3. Use the consolidated vault harness for import and vault maintenance.
+4. Keep the proposal workflow dormant until it is deliberately repaired.
 
-## Hosts And Paths
+## Source Pipeline
 
-- Brain pipeline root: `/home/kyle/discord-chat-explorer`
-- Brain weekly rollups: `/home/kyle/discord-chat-explorer/weekly-rollups`
-- Brain weekly digests: `/home/kyle/discord-chat-explorer/weekly-digests`
-- Final per-week output: `weekly-digests/week-ending-YYYY-MM-DD-2300-central/revised-digest.md`
-- Obsidian repo local clone: `/home/kylenorton/openclawject/work/DFRPGArdenVul-Obsidian`
-- Imported vault notes: `vault/notes/weekly-digests/Week Ending YYYY-MM-DD.md`
-- Workstation LM Studio base URL: `http://100.76.165.94:1234`
-- Preferred digest model: `google/gemma-4-26b-a4b`
-- Preferred QA/revision model when available: `qwen/qwen3.6-35b-a3b`, loaded with context `65536` to avoid RAM spill/crawling.
+The source pipeline lives in `/home/kyle/discord-chat-explorer`.
 
-Use the local homelab SSH skill for hostnames, SSH details, and sudo handling. Never copy those secrets into this repo.
+| Stage | Script | Schedule |
+|---|---|---|
+| Export | `discord_chat_explorer.py` | `discord-chat-explorer.timer` |
+| Rollup | `discord_weekly_rollup.py` | Triggered after export |
+| Digest, QA, revision | `run_digest_pipeline.py` | `discord-weekly-digest.timer` |
 
-## Discord Export
-
-Primary script on Brain:
-
-```bash
-/home/kyle/discord-chat-explorer/discord_chat_explorer.py
-```
-
-Exports messages to:
-
-```text
-/home/kyle/discord-chat-explorer/guilds/1346534955357835336/streams/*.jsonl
-```
-
-Known working behavior:
-
-- Guild: `DFRPG Arden Vul`
-- Captures normal channels and threads.
-- Thread parent channel types must include `0, 5, 15, 16`.
-- State is in `/home/kyle/discord-chat-explorer/state/state.json`.
-- Timer/service: `discord-chat-explorer.timer` and `discord-chat-explorer.service`.
+Rollups use a Friday 23:00 Central boundary. `run_digest_pipeline.py` ignores
+the in-progress week and processes only completed rollups.
 
 Useful checks:
 
 ```bash
-systemctl status discord-chat-explorer.timer discord-chat-explorer.service --no-pager
+systemctl status discord-chat-explorer.timer discord-weekly-digest.timer --no-pager
 journalctl -u discord-chat-explorer.service -n 120 --no-pager
-find /home/kyle/discord-chat-explorer/guilds/1346534955357835336/streams -name '*.jsonl' | wc -l
+python3 /home/kyle/discord-chat-explorer/run_digest_pipeline.py --dry-run
 ```
 
-## Weekly Rollups
+## Vault Import
 
-Rollup script:
+The supported vault path is:
 
 ```bash
-/home/kyle/discord-chat-explorer/discord_weekly_rollup.py
+cd /home/kyle/.openclaw/workspace/DFRPGArdenVul-Obsidian
+python3 scripts/vault_automation.py run-low-risk
 ```
 
-Week boundary is Friday at 11 PM Central. Output shape:
+The harness imports completed revised digests into
+`vault/notes/Discord Summary YYYY-WNN.md`, refreshes navigation, performs
+low-risk maintenance, updates Chroma staging indexes, and mirrors the snapshot
+to PostgreSQL for the public RAG API.
 
-```text
-weekly-rollups/week-ending-YYYY-MM-DD-2300-central/
-  all-messages.md
-  manifest.json
-  channels/*.md
-```
-
-Rollup service:
+Manual maintenance should use focused retained tools only:
 
 ```bash
-systemctl status discord-weekly-rollup.service --no-pager
-```
-
-The latest rollup can include the in-progress future Friday. Do not generate a digest for that partial week.
-
-## Digest, QA, Revision
-
-There are three LLM stages:
-
-1. `discord_weekly_digest.py` creates `digest.md` using Gemma.
-2. `discord_digest_qa.py` creates `qa.md` using Qwen QA/fact-checking.
-3. `discord_digest_revise.py` creates `revised-digest.md` by synthesizing original digest, QA, and transcript.
-
-The Saturday digest automation must target the latest completed Friday boundary:
-
-```bash
-/usr/bin/python3 /home/kyle/discord-chat-explorer/discord_weekly_digest.py --root /home/kyle/discord-chat-explorer --week latest-completed
-```
-
-Do not use `--week latest` in automation; it can pick a partial next-week rollup.
-
-Count completion:
-
-```bash
-root=/home/kyle/discord-chat-explorer
-find "$root/weekly-digests" -maxdepth 2 -type f -name digest.md | wc -l
-find "$root/weekly-digests" -maxdepth 2 -type f -name qa.md | wc -l
-find "$root/weekly-digests" -maxdepth 2 -type f -name revised-digest.md | wc -l
-```
-
-Resume missing QA:
-
-```bash
-QA_TIMEOUT_SECONDS=1800 QA_MAX_TOKENS=5000 \
-  /usr/bin/python3 /home/kyle/discord-chat-explorer/discord_digest_qa.py --week missing
-```
-
-Resume missing revision:
-
-```bash
-REVISE_TIMEOUT_SECONDS=1800 REVISE_MAX_TOKENS=9000 \
-  /usr/bin/python3 /home/kyle/discord-chat-explorer/discord_digest_revise.py --week missing
-```
-
-## LM Studio Lessons
-
-- Gemma 4 is good for digesting and IAC-style extraction.
-- Qwen 3.6 35B is useful for QA/revision, but 131k context caused low GPU utilization and spillover. Reload at 65,536 context for this workload.
-- Check current LM Studio state with:
-
-```bash
-/mnt/c/Users/KyleNorton/.lmstudio/bin/lms.exe ps
-```
-
-- Good Qwen reload pattern:
-
-```bash
-/mnt/c/Users/KyleNorton/.lmstudio/bin/lms.exe unload qwen/qwen3.6-35b-a3b
-/mnt/c/Users/KyleNorton/.lmstudio/bin/lms.exe load qwen/qwen3.6-35b-a3b --identifier qwen/qwen3.6-35b-a3b --gpu max --context-length 65536 -y
-```
-
-- Reasoning-capable models may put useful text in `reasoning_content` or produce empty `message.content`. For extractor scripts, prefer `/no_think`, strict JSON prompts, `reasoning_effort: none`, and `enable_thinking: false`.
-- If GPU utilization is very low and generations are slow, suspect over-large context or CPU/RAM spill rather than prompt difficulty.
-
-## Obsidian Import
-
-This repo imports final weekly digests from Brain into:
-
-```text
-vault/notes/weekly-digests/
-```
-
-Use:
-
-```bash
-rm -rf /tmp/arden-vul-revised-digests
-mkdir -p /tmp/arden-vul-revised-digests
-ssh brain 'cd /home/kyle/discord-chat-explorer/weekly-digests && tar -czf - week-ending-*/revised-digest.md' \
-  | tar -xzf - -C /tmp/arden-vul-revised-digests
-python3 scripts/import_revised_weekly_digests.py /tmp/arden-vul-revised-digests
-```
-
-Adjust the `ssh brain` alias to the actual SSH command provided by the homelab SSH skill if no alias exists.
-
-Import helper:
-
-```bash
-scripts/import_revised_weekly_digests.py
-```
-
-It adds frontmatter, writes `Week Ending YYYY-MM-DD.md`, and regenerates `vault/notes/weekly-digests/Index.md`.
-
-## IAC Workflow
-
-No chunking — full files are passed to Gemma directly (262k context window).
-
-Run IAC on a session:
-
-```bash
-python3 scripts/run_iac.py --file "vault/sessions/Session 50 - The Iron Circlet of Ghanor.md" --dry-run --kinds NPC,Location,Faction
-```
-
-Run IAC on a Discord weekly digest:
-
-```bash
-python3 scripts/run_iac.py --digest "vault/notes/Discord Summary 2026-W11.md" --dry-run --kinds NPC,Location,Faction
-```
-
-Run IAC on all Discord digests:
-
-```bash
-python3 scripts/run_iac.py --all-digests --dry-run --kinds NPC,Location,Faction
-```
-
-Override endpoint/model:
-
-```bash
-LMSTUDIO_BASE_URL=http://100.76.165.94:1234 LMSTUDIO_IAC_MODEL=google/gemma-4-26b-a4b python3 scripts/run_iac.py ...
-```
-
-Important behavior:
-
-- `run_iac.py` maps candidates to existing canonical pages using filenames, frontmatter aliases, implicit article stripping, short-name aliases, and fuzzy matching.
-- Treat `would_create` as a triage list, not an instruction to blindly create stubs.
-
-## Discord Digest → Session Linking
-
-Link sessions to Discord weekly summaries (adds a "Discord Discussions" bullet to `## Session Navigation`):
-
-```bash
-# Dry-run a single session
-python3 scripts/link_sessions_to_digests.py --session "vault/sessions/Session 46 - ..." --dry-run
-
-# Dry-run all sessions
-python3 scripts/link_sessions_to_digests.py --all --dry-run
-
-# Write changes
-python3 scripts/link_sessions_to_digests.py --all
-```
-
-- Uses Gemma to determine which Discord summaries belong in the gap between each session and the previous one.
-- Skips sessions whose `source_url` date is after the last available Discord summary.
-- Re-run after importing new Discord summaries to fill coverage gaps for recent sessions.
-- `entity_curator.py` is older and noisier. Use it only for exploratory review unless its mapping logic is upgraded.
-- Candidate quality improves with chunks around 6000 chars for Gemma 4.
-
-Validation:
-
-```bash
-python3 -m py_compile scripts/local_llm_client.py scripts/run_iac.py scripts/entity_curator.py scripts/llm_benchmark.py
 python3 scripts/check_wikilinks.py
-git diff --stat
+python3 scripts/dedup_qc.py
+python3 scripts/discord_media_ingest.py --help
+python3 scripts/tag_enrichment.py --help
 ```

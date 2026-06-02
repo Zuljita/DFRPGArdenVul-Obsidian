@@ -54,7 +54,7 @@ Dragonfly Construct
 
 Gray Ooze
 
-Many Bestial varumani
+Many Bestial [[factions/Varumani.md|varumani]]
 
 Surgical Construct
 
