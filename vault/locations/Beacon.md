@@ -81,5 +81,5 @@ In the Rudishva command chamber, a pool of green liquid with 24 labeled buttons 
 
 ## Maps
 - ![[attachments/discord/tech/1502038754188071114-image.png]] — A screenshot of a battle map in Foundry VTT showing tokens on a grid.
-- ![[attachments/discord/tech/1502038754188071114-image.png]] — A screenshot of a battle map in Foundry VTT showing tokens on a grid.
-- ![[attachments/discord/tech/1502038754188071114-image.png]] — A screenshot of a battle map in Foundry VTT showing tokens on a grid.
+- ![[attachments/discord/screenshots/1459392383190962298-image.png]] — Battle map of the Chamber of the Beacon Lower.
+- ![[attachments/discord/tech/1502038754188071114-image.png]] — Battle map of the Beacon interior showing tokens on a grid.

@@ -47,6 +47,10 @@ Ashe has a well-earned reputation as the "goat-summoning druid." He is a reliabl
 - ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-2.png]] — A screenshot of the character sheet for Ashe Maykum showing advantages, spells, and equipment.
 - ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-1.png]] — A character sheet for Ashe Maykum.
 - [[attachments/discord/character-sheets/1348015137726136412-Ashe_Maykum.gcs|Ashe_Maykum.gcs]]
+- ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-3.png]] — Equipment list for the character Ashe Maykum.
+- ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-2.png]] — A screenshot of the character sheet for Ashe Maykum showing advantages, spells, and equipment.
+- ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-1.png]] — A character sheet for Ashe Maykum.
+- [[attachments/discord/character-sheets/1348015137726136412-Ashe_Maykum.gcs|Ashe_Maykum.gcs]]
 - [[attachments/discord/character-sheets/1348015137726136412-Ashe_Maykum.gcs|Ashe_Maykum.gcs]] — source: `#character-sheets` (2025-03-08)
 
 ## Character Sheet Snapshot

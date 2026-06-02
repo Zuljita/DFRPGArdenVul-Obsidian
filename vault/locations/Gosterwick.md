@@ -73,3 +73,4 @@ Source: `#worldbuilding / Gosterwick`, dripton, 2025-03-16 (messages `1351034478
 - ![[attachments/discord/questions-for-gm/1434012721745231915-arden_vul_church.jpg]] — A top-down blueprint of a proposed church layout in Gosterwick.
 - ![[attachments/discord/questions-for-gm/1434012721745231915-arden_vul_church.jpg]] — A top-down blueprint of a proposed church layout in Gosterwick.
 - ![[attachments/discord/questions-for-gm/1434012721745231915-arden_vul_church.jpg]] — A top-down blueprint of a proposed church layout in Gosterwick.
+- ![[attachments/discord/questions-for-gm/1434012721745231915-arden_vul_church.jpg]] — A top-down blueprint of a proposed church layout in Gosterwick.

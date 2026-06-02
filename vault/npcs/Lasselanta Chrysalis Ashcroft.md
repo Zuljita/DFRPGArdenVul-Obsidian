@@ -65,3 +65,7 @@ Mariposa is Chrysalis's monkey familiar. A gargoyle in the Great Hall swooped at
 - ![[attachments/discord/character-sheets/1352734649662836746-Thorne_Lasselanta_Ashcroft-1.png]] — Character sheet for Thorne Lasselanta Ashcroft.
 - [[attachments/discord/character-sheets/1352733019064107132-Thorne_Lasselanta_Ashcroft.gcs|Thorne_Lasselanta_Ashcroft.gcs]]
 - [[attachments/discord/character-sheets/1352491372858310677-BUILD_Thorne_Lasselanta_Ashcroft.gcs|BUILD_Thorne_Lasselanta_Ashcroft.gcs]]
+- ![[attachments/discord/character-sheets/1352734649662836746-Thorne_Lasselanta_Ashcroft-2.png]] — Screenshot of the carried equipment section from Thorne Lasselanta Ashcroft's character sheet.
+- ![[attachments/discord/character-sheets/1352734649662836746-Thorne_Lasselanta_Ashcroft-1.png]] — Character sheet for Thorne Lasselanta Ashcroft.
+- [[attachments/discord/character-sheets/1352733019064107132-Thorne_Lasselanta_Ashcroft.gcs|Thorne_Lasselanta_Ashcroft.gcs]]
+- [[attachments/discord/character-sheets/1352491372858310677-BUILD_Thorne_Lasselanta_Ashcroft.gcs|BUILD_Thorne_Lasselanta_Ashcroft.gcs]]

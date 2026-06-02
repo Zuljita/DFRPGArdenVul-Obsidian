@@ -35,3 +35,4 @@ A restless ghost haunting the ruined tower near the waterfall. Initially encount
 ## Maps
 - ![[attachments/discord/pc-notes/1444149703871697099-temrin_map_nyema.webp]] — A top-down map showing the path to Nyema.
 - ![[attachments/discord/pc-notes/1444149703871697099-temrin_map_nyema.webp]] — A top-down map showing the path to Nyema.
+- ![[attachments/discord/pc-notes/1444149703871697099-temrin_map_nyema.webp]] — A top-down map showing the path to Nyema.

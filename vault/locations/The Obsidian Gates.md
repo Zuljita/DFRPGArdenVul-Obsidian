@@ -37,3 +37,6 @@ A green dragon (per the hoard).
 - ![[attachments/discord/screenshots/1510076765442281622-image.png]] — A tactical battle map for Obsidian Gates NW showing player tokens.
 - ![[attachments/discord/screenshots/1464441728273748052-Obsidian_Gate_Central.png]] — A top-down dungeon map of Obsidian Gate Central.
 - ![[attachments/discord/screenshots/1444145003960991824-image.png]] — A top-down dungeon map of the Obsidian Gates Central area.
+- ![[attachments/discord/screenshots/1510076765442281622-image.png]] — A tactical battle map for Obsidian Gates NW showing player tokens.
+- ![[attachments/discord/screenshots/1464441728273748052-Obsidian_Gate_Central.png]] — A top-down dungeon map of Obsidian Gate Central.
+- ![[attachments/discord/screenshots/1444145003960991824-image.png]] — A top-down dungeon map of the Obsidian Gates Central area.

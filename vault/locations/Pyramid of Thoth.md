@@ -23,3 +23,4 @@ related_entities:
 - ![[attachments/discord/Loot 2025-07-04/1391161878016688342-player_map_121.webp]] — A dungeon map featuring various labeled rooms and passages.
 - ![[attachments/discord/Loot 2025-07-04/1391161878016688342-player_map_121.webp]] — A dungeon map featuring various labeled rooms and passages.
 - ![[attachments/discord/Loot 2025-07-04/1391161878016688342-player_map_121.webp]] — A dungeon map featuring various labeled rooms and passages.
+- ![[attachments/discord/Loot 2025-07-04/1391161878016688342-player_map_121.webp]] — A dungeon map featuring various labeled rooms and passages.

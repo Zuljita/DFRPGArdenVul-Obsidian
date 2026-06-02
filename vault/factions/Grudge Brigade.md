@@ -75,3 +75,4 @@ As an information broker, Coinbase has access to the undercurrents of Gosterwick
 ## Group Art
 - ![[attachments/discord/off-topic/1381730329328353482-Grudge_Brigade_arms.png]] — A union emblem for the Grudge Brigade featuring a sheep-headed beastman.
 - ![[attachments/discord/off-topic/1381730329328353482-Grudge_Brigade_arms.png]] — A union emblem for the Grudge Brigade featuring a sheep-headed beastman.
+- ![[attachments/discord/off-topic/1381730329328353482-Grudge_Brigade_arms.png]] — A union emblem for the Grudge Brigade featuring a sheep-headed beastman.
