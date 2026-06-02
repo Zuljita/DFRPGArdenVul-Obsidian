@@ -1,15 +1,19 @@
 ---
 tags:
   - npc
-  - identity/uncertain
-status: stub
+  - type/troll
+status: active
 ---
 
 # Gorlen
 
 ## Summary
-The operator of the Varumani lifts.
+A Varumani (troll) who operates the lifts within Arden Vul. Member of the [[factions/Varumani.md|Varumani]] faction.
 
-## Sources
-- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]
+## Notes
+- Operator of the Varumani lifts.
+- Member of the Varumani Thegn faction.
+
+## Sessions
+- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53]]
 - [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]]
