@@ -25,3 +25,5 @@ Includes the Chamber of the Tablet of the Beacon.
 ## Maps
 - ![[attachments/discord/screenshots/1502514827984240700-image.png]] — A dungeon map of Rudishva Bastion and the Chamber of the Tablet of the Beacon.
 - ![[attachments/discord/screenshots/1497448449312817315-image.png]] — A top-down dungeon battle map of Rudshva Bastion.
+- ![[attachments/discord/screenshots/1502514827984240700-image.png]] — A dungeon map of Rudishva Bastion and the Chamber of the Tablet of the Beacon.
+- ![[attachments/discord/screenshots/1497448449312817315-image.png]] — A top-down dungeon battle map of Rudshva Bastion.

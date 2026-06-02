@@ -31,3 +31,7 @@ A restless ghost haunting the ruined tower near the waterfall. Initially encount
 - Upon disappearing, Yrtol left behind two large sapphires known as the [[items/Watcher's eyes|Watcher's eyes]].
 - The tower he haunts was built during the Adrienic Expedition as an attempt by Archon Phocion IV to retake Arden Vul.
 - The spirit has been heard screaming accusations of "Settite murderers."
+
+## Maps
+
+- ![[attachments/discord/pc-notes/1444149703871697099-temrin_map_nyema.webp]] — A top-down map showing the path to Nyema.

@@ -24,5 +24,5 @@ TBD
 - A discovery was made of a Rudishva teleporter route from the Beacon to known parts of the Halls, which avoids the need to travel outside [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]].
 
 ## Maps
-
+- ![[attachments/discord/screenshots/1487297754572259492-image.png]] — A battle map of Drowned Canyon.
 - ![[attachments/discord/screenshots/1487297754572259492-image.png]] — A battle map of Drowned Canyon.

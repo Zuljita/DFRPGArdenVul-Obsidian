@@ -28,5 +28,5 @@ The tower contains a room with two doors and four passages leading out.
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
 
 ## Maps
-
+- ![[attachments/discord/screenshots/1499938416094347386-Tower_of_Scrutiny.jpg]] — Floor plans for various levels of the Tower of Scrutiny.
 - ![[attachments/discord/screenshots/1499938416094347386-Tower_of_Scrutiny.jpg]] — Floor plans for various levels of the Tower of Scrutiny.

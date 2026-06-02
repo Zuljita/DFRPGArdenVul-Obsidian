@@ -35,6 +35,9 @@ aliases:
 - [[attachments/discord/character-sheets/1367555339255418960-Michael_J_Dundee.gcs|Michael_J_Dundee.gcs]]
 - [[attachments/discord/character-sheets/1349808045458198569-Michael_J_Dundee.gcs|Michael_J_Dundee.gcs]]
 - [[attachments/discord/character-sheets/1348811775554093056-Michael_J_Dundee.gcs|Michael_J_Dundee.gcs]]
+- [[attachments/discord/character-sheets/1367555339255418960-Michael_J_Dundee.gcs|Michael_J_Dundee.gcs]]
+- [[attachments/discord/character-sheets/1349808045458198569-Michael_J_Dundee.gcs|Michael_J_Dundee.gcs]]
+- [[attachments/discord/character-sheets/1348811775554093056-Michael_J_Dundee.gcs|Michael_J_Dundee.gcs]]
 - [[attachments/discord/character-sheets/1367555339255418960-Michael_J_Dundee.gcs|Michael_J_Dundee.gcs]] — source: `#character-sheets` (2025-05-01)
 - [[attachments/discord/character-sheets/1349808045458198569-Michael_J_Dundee.gcs|Michael_J_Dundee.gcs]] — source: `#character-sheets` (2025-03-13)
 - [[attachments/discord/character-sheets/1348811775554093056-Michael_J_Dundee.gcs|Michael_J_Dundee.gcs]] — source: `#character-sheets` (2025-03-11)

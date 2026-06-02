@@ -71,3 +71,7 @@ As an information broker, Coinbase has access to the undercurrents of Gosterwick
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 - [[sessions/Session 16.5 Bonus Mid-2993 Summary.md|Session 16.5 Bonus Mid-2993 Summary]]
+
+## Group Art
+
+- ![[attachments/discord/off-topic/1381730329328353482-Grudge_Brigade_arms.png]] — A union emblem for the Grudge Brigade featuring a sheep-headed beastman.

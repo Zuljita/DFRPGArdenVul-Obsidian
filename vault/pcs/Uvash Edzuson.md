@@ -74,6 +74,14 @@ aliases:
 - ![[attachments/discord/character-sheets/1347988148063440927-Uvash-2.png]] — Character sheet for Uvash, a Dwarven Cleric.
 - ![[attachments/discord/character-sheets/1347988148063440927-Uvash-1.png]] — Character sheet for Uvash, a Dwarven Cleric.
 - [[attachments/discord/character-sheets/1347988148063440927-Uvash.gcs|Uvash.gcs]]
+- ![[attachments/discord/Loot 2025-10-25/1431717195293003949-image.png]] — A list of character quirks for Uvash.
+- ![[attachments/discord/character-sheets/1347989610025717852-Uvash-3.png]] — A screenshot of Uvash's carried equipment from his character sheet.
+- ![[attachments/discord/character-sheets/1347989610025717852-Uvash-2.png]] — A screenshot of Uvash Edzon's character sheet showing traits, spells, and equipment.
+- [[attachments/discord/character-sheets/1347989610025717852-Uvash.gcs|Uvash.gcs]]
+- ![[attachments/discord/character-sheets/1347988148063440927-Uvash-3.png]] — A screenshot of the carried equipment for the character Uvash.
+- ![[attachments/discord/character-sheets/1347988148063440927-Uvash-2.png]] — Character sheet for Uvash, a Dwarven Cleric.
+- ![[attachments/discord/character-sheets/1347988148063440927-Uvash-1.png]] — Character sheet for Uvash, a Dwarven Cleric.
+- [[attachments/discord/character-sheets/1347988148063440927-Uvash.gcs|Uvash.gcs]]
 - [[attachments/discord/character-sheets/1347989610025717852-Uvash.gcs|Uvash.gcs]] — source: `#character-sheets` (2025-03-08)
 - [[attachments/discord/character-sheets/1347988148063440927-Uvash.gcs|Uvash.gcs]] — source: `#character-sheets` (2025-03-08)
 
@@ -175,5 +183,7 @@ _Generated from `1347989610025717852-Uvash.gcs` (sheet `modified_date`: **2025-0
 - **Clothing** [2 lb]
 
 ## Portraits
+- ![[attachments/discord/general/1483924451761324283-image.png]] — A portrait of the dwarf cleric Uvash Edzuson.
+- ![[attachments/discord/character-sheets/1347988268544819211-uvash.png]] — Portrait of Uvash and his wife.
 - ![[attachments/discord/general/1483924451761324283-image.png]] — A portrait of the dwarf cleric Uvash Edzuson.
 - ![[attachments/discord/character-sheets/1347988268544819211-uvash.png]] — Portrait of Uvash and his wife.

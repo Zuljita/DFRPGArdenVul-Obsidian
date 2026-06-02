@@ -58,5 +58,5 @@ She appears as a translucent, 7-foot-tall, spindly hologram with brown skin and 
 - is not sure about the door security systems being local. ([[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]])
 
 ## Portraits
-
+- ![[attachments/discord/off-topic/1510126671179808848-image.png]] — A portrait of Akla-Chah, a Rudivisha psychologist.
 - ![[attachments/discord/off-topic/1510126671179808848-image.png]] — A portrait of Akla-Chah, a Rudivisha psychologist.
