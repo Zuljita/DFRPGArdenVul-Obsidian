@@ -64,3 +64,7 @@ A passage northeast of the Varumani Lifts leads to a Rudishva-architecture room 
 
 ## Discord Insights
 - An area located near Gog's underground grotto. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])
+
+## Maps
+
+- ![[attachments/discord/screenshots/1510109119334584361-image.png]] — A dungeon map of the Troll Lifts and Arena W area.

@@ -42,3 +42,7 @@ A fortified tower complex connected to the caverns south of the [[locations/Howl
 
 - Critical successes for Carousing rumors should be directed toward the Tower of the Ape in Newmarket. ([[notes/Discord Summary 2025-W25.md|Discord Summary 2025-W25]])
 - Located in Newmarket and owned by the reclusive Archontean wizard Tikun Thane, rumored to have apes inside. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])
+
+## Maps
+
+- ![[attachments/discord/screenshots/1446976387016822995-Tower_of_the_Ape.jpg]] — A top-down dungeon map of the Tower of the Ape.

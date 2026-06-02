@@ -22,3 +22,7 @@ TBD
 - A pool of green liquid with Rudishva glyphs contains buttons that can display images of various locations, such as the Arena, Sundered Span, and a garden island in the Great Chasm.
 - Exploration of the area involved a rending demon threat [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]].
 - A discovery was made of a Rudishva teleporter route from the Beacon to known parts of the Halls, which avoids the need to travel outside [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]].
+
+## Maps
+
+- ![[attachments/discord/screenshots/1487297754572259492-image.png]] — A battle map of Drowned Canyon.

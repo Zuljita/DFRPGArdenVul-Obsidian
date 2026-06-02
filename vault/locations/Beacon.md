@@ -78,3 +78,7 @@ In the Rudishva command chamber, a pool of green liquid with 24 labeled buttons 
 - Basil is getting extra buckets in case anyone is stuck in it for a while. ([[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]])
 - Has small crafts, one of which Captain Leil-Jor and her engineers were modifying for long-distance space flight. ([[notes/Discord Summary 2026-W03.md|Discord Summary 2026-W03]])
 - A crashed starship that had a crew of diverse species (Rudishva, Kaliyani, Varuda, Varumani) and two AIs. Most of its crew died due to treason. ([[notes/Discord Summary 2026-W04.md|Discord Summary 2026-W04]])
+
+## Maps
+
+- ![[attachments/discord/tech/1502038754188071114-image.png]] — A screenshot of a battle map in Foundry VTT showing tokens on a grid.

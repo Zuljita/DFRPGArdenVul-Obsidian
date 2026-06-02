@@ -21,3 +21,7 @@ Includes the Chamber of the Tablet of the Beacon.
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 - Silver-colored Rudishva credential variant recovered during bastion operations.
 - Features a cave outside where point defense turrets are located.
+
+## Maps
+- ![[attachments/discord/screenshots/1502514827984240700-image.png]] — A dungeon map of Rudishva Bastion and the Chamber of the Tablet of the Beacon.
+- ![[attachments/discord/screenshots/1497448449312817315-image.png]] — A top-down dungeon battle map of Rudshva Bastion.

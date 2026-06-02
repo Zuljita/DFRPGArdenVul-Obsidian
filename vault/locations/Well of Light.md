@@ -24,3 +24,7 @@ The [[locations/Waterfall.md|Waterfall]]
 - The well features a mirrored shaft that can be blindingly bright without the use of magical darkness.
 - During Session 18, the party discovered a "big honking globe of arcanum" within the well.
 - The area is known to be inhabited by albino baboons and intelligent 4-armed baboon cooks.
+
+## Maps
+
+- ![[attachments/discord/screenshots/1494877749725364234-image.png]] — A dungeon map showing various chambers and mana zones.

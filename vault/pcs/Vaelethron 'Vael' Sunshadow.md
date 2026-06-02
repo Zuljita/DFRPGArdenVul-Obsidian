@@ -75,6 +75,10 @@ aliases:
 ## Notes
 
 ## Character Sheets
+- [[attachments/discord/character-sheets/1485979115419992185-VaelSunshadow20260327.gcs|VaelSunshadow20260327.gcs]]
+- [[attachments/discord/character-sheets/1348516364150636544-Vael_Sunshadow_-_Social.gcs|Vael_Sunshadow_-_Social.gcs]]
+- [[attachments/discord/character-sheets/1348189671473020949-Vael_Sunshadow.gcs|Vael_Sunshadow.gcs]]
+- [[attachments/discord/character-sheets/1347449204888436798-Vael_Sunshadow.gcs|Vael_Sunshadow.gcs]]
 - [[attachments/discord/character-sheets/1485979115419992185-VaelSunshadow20260327.gcs|VaelSunshadow20260327.gcs]] — source: `#character-sheets` (2026-03-24)
 - [[attachments/discord/character-sheets/1348516364150636544-Vael_Sunshadow_-_Social.gcs|Vael_Sunshadow_-_Social.gcs]] — source: `#character-sheets` (2025-03-10)
 - [[attachments/discord/character-sheets/1348189671473020949-Vael_Sunshadow.gcs|Vael_Sunshadow.gcs]] — source: `#character-sheets` (2025-03-09)
@@ -252,3 +256,7 @@ _Generated from `1485979115419992185-VaelSunshadow20260327.gcs` (sheet `modified
 - **Paut** — in Delver’s Webbing
 - **Glow Vial** — in Delver’s Webbing
 - **Amulet of the silver tongue** — in Delver’s Webbing
+
+## Maps
+
+- ![[attachments/discord/general/1416214275600416910-image.png]] — A dungeon battle map featuring character tokens, including Vael.
