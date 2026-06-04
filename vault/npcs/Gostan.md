@@ -22,4 +22,3 @@ None specified.
 A typical resident of the area around [[Arden Vul]].
 
 ## Sessions
-- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]

@@ -22,6 +22,8 @@ A mage of the [[factions/Eighth Collegium|Eighth Collegium]] encountered in Gobl
 - Could see invisible creatures (spotted [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] while invisible)
 - Had been waiting in Goblintown for weeks, occasionally meeting with [[npcs/Palestrim.md|Palestrim]] but never the King directly
 - Ambassador from the [[factions/Eighth Collegium|Eighth Collegium]] to the Goblins
+- Is a Thorcin mage of the Eighth Collegium
+- Refused to identify his group during Session 35, stating that his leader had not permitted him to share that information.
 
 ## Sessions
 - [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]

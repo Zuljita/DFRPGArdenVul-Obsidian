@@ -18,7 +18,6 @@ A woman found living behind the waterfall, initially appearing as a dirty, starv
 
 ## History
 - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 14: Behind the [[locations/Waterfall.md|Waterfall]] Again Date: Demmasday, 13th of Jelenius, 2993 AE Weather: Cool, overcast Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented...
-  - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — The no-longer-crazy woman thanked everyone involved profusely, and said that her real name was actually [[npcs/Versania.md|Versania]].
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]] — Number of sessions: 16 Number of players: 8 Number of PCs: 10 Cheese and Crackers / Right for Riches / Left for Loot members: 5 [[factions/Grudge Brigade.md|Grudge Brigade]] mercenaries: 5 Number of PCs killed: 0 (!) Highest PC point tot...
 
 ## Notes
@@ -27,3 +26,4 @@ A woman found living behind the waterfall, initially appearing as a dirty, starv
 - She was a woman-at-arms from [[Narsileon]] who was part of an expedition to explore [[Arden Vul]].
 - Is currently volunteering at the House of the Gods.
 - Survived in the caves for several years by fishing.
+- Traded her "seeing belt" (a Belt of Dwarvenkind) to the party for food and rescue; the belt granted Night Vision, extra fatigue points, extra lifting strength, and poison resistance.

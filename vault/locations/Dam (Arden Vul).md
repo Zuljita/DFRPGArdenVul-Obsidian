@@ -4,4 +4,4 @@ tags:
   - location
 ---
 
-# Dam ([[locations/Pyramid of Thoth.md|Pyramid of Thoth]]
+# Dam (Arden Vul)

@@ -26,4 +26,3 @@ None.
 A classic dungeon hazard, using camouflage and gravity to their advantage.
 
 ## Sessions
-- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]

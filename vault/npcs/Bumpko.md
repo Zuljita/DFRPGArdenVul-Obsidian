@@ -22,3 +22,4 @@ A 4-armed intelligent giant baboon from the [[Howling Caves]].
 ## Notes
 - [[npcs/Bumpko.md|Bumpko]], along with many other baboons, attacked [[The Thane]] and his minions to protect [[Bobo]] and [[Bifki]].
 - [[npcs/The Thane.md|The Thane]] used "bad juju" to stun [[npcs/Bumpko.md|Bumpko]] and several other baboons.
+- Also appeared in [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50]].

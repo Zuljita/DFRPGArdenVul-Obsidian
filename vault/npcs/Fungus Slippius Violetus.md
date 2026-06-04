@@ -13,3 +13,4 @@ appears_in:
 ## History
 
 ## Notes
+- Edible but with no known medicinal uses.

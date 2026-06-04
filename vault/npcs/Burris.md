@@ -14,6 +14,5 @@ appears_in:
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 
 ## History
-  - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — Once they left, Uvash healed the prisoner, a Thorcin warrior named [[npcs/Burris.md|Burris]].
 
 ## Notes

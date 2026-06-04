@@ -83,7 +83,6 @@ tags:
 
 ### Next Steps
 - **3 weeks remaining** to process: 2026-W03, W04, W05
-- Current pace: 3 weeks per run
 - Estimated runs to completion: **1 more scheduled run**
 
 ---
@@ -121,7 +120,6 @@ tags:
 
 ### Next Steps
 - **6 weeks remaining** to process: 2026-W00, W01, W02, W03, W04, W05
-- Current pace: 3 weeks per run
 - Estimated runs to completion: ~2 more scheduled runs
 
 ---
@@ -157,7 +155,6 @@ tags:
 
 ### Next Steps
 - **16 weeks remaining** to process
-- Current pace: 3 weeks per run
 - Estimated runs to completion: ~6 more scheduled runs
 
 ---

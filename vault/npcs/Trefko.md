@@ -19,10 +19,10 @@ Elder giant 4-armed intelligent baboon who barters with delvers and neighboring 
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 
 ## History
-  - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — [[npcs/Yamki.md|Yamki]] wasn't sure exactly who, but said that [[npcs/Trefko.md|Trefko]] the old four-armed baboon, and several female baboons who had formerly been [[npcs/Sisko.md|Sisko]]'s harem, were still living to the west of the [[locations/Hall of Judgment.md|Hall of Judgment]], and d...
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 29: [[locations/Tower of Scrutiny.md|The Tower of Scrutiny]] Date: Horasday, 26th of Besemios, 2993 AE Weather: Cool, cloudy, chance of r...
-  - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — Go through the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] to the [[locations/Well of Light.md|Well of Light]], check on [[npcs/Yamki.md|Yamki]] and the baboons, give the baboons some food if they're behaving, and trade [[npcs/Trefko.md|Trefko]] a live goat (teleport...
 - Traded a dwarven life-stone bearing the name Schist Corundam.
+- Requested a contract stating he was in charge of all the baboons, though Vallium deemed this impractical.
+- Agreed not to cause any trouble with the mirrors in exchange for meat.
 
 ## Roles & Influence
 - Respected elder among baboons west of the [[Hall of Judgment]].

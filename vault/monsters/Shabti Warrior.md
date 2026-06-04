@@ -26,4 +26,3 @@ Aggressively hostile, guardian.
 Often armed with stone weapons and possessing greater durability and fighting skill than standard [[Shabti]].
 
 ## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]

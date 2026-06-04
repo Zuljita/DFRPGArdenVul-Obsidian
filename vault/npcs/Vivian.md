@@ -20,10 +20,10 @@ Thorcin chief priest of [[Demma]] in [[Gosterwick]]. A stern but fair cleric cap
 ## Appears In
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 - [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]
+- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]
 
 ## History
 - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 14: Behind the [[locations/Waterfall.md|Waterfall]] Again Date: Demmasday, 13th of Jelenius, 2993 AE Weather: Cool, overcast Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented...
-  - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]] — Father [[npcs/Vivian.md|Vivian]] said the woman needed stronger healing magic than he knew, and recommended Mother Jador at the [[locations/Temple of Mitra.md|Temple of Mitra]].
 
 ## Notes
 
@@ -33,3 +33,6 @@ Thorcin chief priest of [[Demma]] in [[Gosterwick]]. A stern but fair cleric cap
 - He believes that faith must be practical, service-oriented, and rooted in daily life.
 - He personally trains new clerics in the mysteries of [[Demma]].
 - Trains new clerics in the mysteries of Demma.
+- Performs services such as `Remove Curse` in exchange for donations to feed the poor.
+- Casts `Remove Curse` in exchange for a suitable donation to feed the poor.
+- Casts spells such as `Remove Curse` in exchange for donations to feed the poor.

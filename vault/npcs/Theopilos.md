@@ -13,7 +13,6 @@ appears_in:
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 
 ## History
-  - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — Vallium went to [[npcs/Theopilos.md|Theopilos]] to have copies of [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s keys made for the goblins.
 - Vallium visited him to make a copy of the Large Bronze Key (Page Reference 306), checking it against another Large Bronze Key (Page Reference 193).
 
 ## Notes

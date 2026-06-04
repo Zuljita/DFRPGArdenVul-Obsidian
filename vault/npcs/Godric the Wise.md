@@ -22,4 +22,3 @@ Business-minded, knowledgeable about statuary.
 The nickname "the Wise" suggests a reputation for sound judgment or deep knowledge in his field.
 
 ## Sessions
-- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]

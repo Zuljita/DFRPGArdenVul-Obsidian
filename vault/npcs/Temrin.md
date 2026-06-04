@@ -19,9 +19,11 @@ appears_in:
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
+- [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]]
 
 ## History
-  - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — Vallium walked over to the Merchant's Corner in the southeast of the Hall, and introduced himself to [[npcs/Temrin.md|Temrin]], the goblin artist sitting waiting for customers.
 
 ## Notes
 - Has painted portraits of both [[npcs/Weskenim.md|Weskenim]] and [[Gribble]].
+- Was seen wearing a new patch with a picture of himself holding a paintbrush.
+- Was seen wearing a new patch featuring a picture of himself holding a paintbrush ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35]]).

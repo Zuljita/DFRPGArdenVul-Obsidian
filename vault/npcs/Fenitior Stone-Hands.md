@@ -22,4 +22,3 @@ Business-minded, knowledgeable about statuary.
 The nickname "Stone-Hands" suggests a strength or expertise in handling heavy objects.
 
 ## Sessions
-- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]

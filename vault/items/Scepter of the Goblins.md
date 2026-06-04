@@ -14,10 +14,9 @@ A magical three-foot hollow legbone drilled like a flute. In play it is also cal
 - Discovery context: the party was racing other groups (especially after news of Five Fingers treasure finds) and prioritized immediate retrieval.
 - Session 36 recording notes reference a goblin ceremonial context around the scepter (including finder recognition framing), but do not add new confirmed mechanical properties.
 
-- Located inside an urn in a side cave of the [[locations/Great Cavern.md|Great Cavern]]; identified as a hollowed-out 3-foot legbone flute. ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])
 - The legbone is potentially from an ogre or troll.
 - There may be questions concerning its provenance.
+- Found in an urn surrounded by smaller wooden sticks.
 
 ## Sessions
-- [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]

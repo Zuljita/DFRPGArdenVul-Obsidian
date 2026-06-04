@@ -1,6 +1,9 @@
 ---
 title: "Gem of Insight"
 tags:
+  - status/sold
+  - site/arcane-practitioners-club
+  - session/4
   - item
 ---
 # Gem of Insight

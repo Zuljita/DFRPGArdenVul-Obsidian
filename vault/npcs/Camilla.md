@@ -24,7 +24,5 @@ A favored summoned creature used by [[Ashe Maykum]] — appearing as a primary s
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 
 ## History
-  - [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]] — Goat summoned two more goats (in addition to [[npcs/Camilla.md|Camilla]]) and offered to let the goats carry everyone's backpacks.
-  - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]] — [[npcs/Camilla.md|Camilla]] the bat flew ahead and checked out the doors, magically relaying a picture of them back to [[pcs/grudge-brigade/Ashe Maykum.md|Ashe Maykum]].
 
 ## Notes

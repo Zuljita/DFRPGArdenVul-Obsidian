@@ -29,15 +29,12 @@ aliases:
 - [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]
 - [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
 - [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
-- [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
 - [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23a - Gelatinous Cube and Slime Kraken]]
 - [[sessions/Session 23b - Disrupting Services in the Temple of Set.md|Session 23b - Disrupting Services in the Temple of Set]]
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
 - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]]
-- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]]
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
-- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
@@ -53,9 +50,6 @@ aliases:
 - See also a stray reference to “Vallium Michael” in Session 16; consolidated here.
 
 ## Character Sheets
-- [[attachments/discord/character-sheets/1348347379996164179-Vallium_Halcyon_-_V01-01.gcs|Vallium_Halcyon_-_V01-01.gcs]]
-- [[attachments/discord/character-sheets/1347770876283584633-Vallium_Halcyon.gcs|Vallium_Halcyon.gcs]]
-- [[attachments/discord/character-sheets/1347765795677016066-Vallium_Halcyon.gcs|Vallium_Halcyon.gcs]]
 - [[attachments/discord/character-sheets/1347761113839702098-Vallium_Halcyon.pdf|Vallium_Halcyon.pdf]]
 
 ## Character Sheet Snapshot

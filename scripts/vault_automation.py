@@ -32,12 +32,7 @@ from pathlib import Path
 from typing import Iterable
 from zoneinfo import ZoneInfo
 
-try:
-    import chromadb  # type: ignore[import-not-found]
-    CHROMA_AVAILABLE = True
-except ImportError:
-    chromadb = None  # type: ignore[assignment]
-    CHROMA_AVAILABLE = False
+import psycopg
 
 try:
     import yaml  # type: ignore[import-not-found]
@@ -306,16 +301,8 @@ def load_local_sources() -> dict:
         "article_queue_limit": int(os.environ.get("ARDEN_ARTICLE_QUEUE_LIMIT") or config.get("article_queue_limit", 30) or 30),
         "media_queue_limit": int(os.environ.get("ARDEN_MEDIA_QUEUE_LIMIT") or config.get("media_queue_limit", 30) or 30),
         "media_edit_queue_top": int(config.get("media_edit_queue_top", 0) or 0),
-        "vault_rag_chroma_path": (lambda v: Path(v).expanduser() if v else None)(
-            os.environ.get("ARDEN_VAULT_RAG_PATH") or config.get("vault_rag_chroma_path")
-        ),
-        "vault_rag_collection": os.environ.get("ARDEN_VAULT_RAG_COLLECTION") or config.get("vault_rag_collection", "arden_vul_vault"),
         "vault_rag_embed_model": os.environ.get("ARDEN_VAULT_RAG_EMBED_MODEL") or config.get("vault_rag_embed_model", "bge-m3"),
         "vault_rag_embed_url": os.environ.get("ARDEN_VAULT_RAG_EMBED_URL") or config.get("vault_rag_embed_url", "http://127.0.0.1:11434/api/embeddings"),
-        "mechanics_rag_chroma_path": (lambda v: Path(v).expanduser() if v else None)(
-            os.environ.get("ARDEN_MECHANICS_RAG_PATH") or config.get("mechanics_rag_chroma_path")
-        ),
-        "mechanics_rag_collection": os.environ.get("ARDEN_MECHANICS_RAG_COLLECTION") or config.get("mechanics_rag_collection", "dfrpg"),
         "article_edit_queue_top": int(config.get("article_edit_queue_top", 0) or 0),
         "article_edit_walk_step": int(config.get("article_edit_walk_step", 0) or 0),
         "article_edit_verify_limit": int(config.get("article_edit_verify_limit", 0) or 0),
@@ -2736,26 +2723,16 @@ def vault_rag_embed(text: str) -> list[float]:
     return emb
 
 
-def vault_rag_client():
-    if not CHROMA_AVAILABLE:
-        raise RuntimeError("chromadb is not installed in this Python environment")
-    sources = load_local_sources()
-    path = sources["vault_rag_chroma_path"]
-    if not path:
-        raise RuntimeError(
-            "vault_rag_chroma_path is not configured. Set it in config/local_sources.json or ARDEN_VAULT_RAG_PATH env var."
-        )
-    Path(path).mkdir(parents=True, exist_ok=True)
-    return chromadb.PersistentClient(path=str(path))
-
-
-def vault_rag_collection():
-    sources = load_local_sources()
-    client = vault_rag_client()
-    return client.get_or_create_collection(
-        sources["vault_rag_collection"],
-        metadata={"hnsw:space": "cosine"},
-    )
+def rag_store_database_url() -> str:
+    url = os.environ.get("RAG_STORE_DATABASE_URL", "").strip()
+    if url:
+        return url
+    env_path = Path("/opt/brain/.env")
+    if env_path.exists():
+        for line in env_path.read_text(encoding="utf-8", errors="ignore").splitlines():
+            if line.startswith("RAG_STORE_DATABASE_URL="):
+                return line.partition("=")[2].strip()
+    raise RuntimeError("RAG_STORE_DATABASE_URL is not set and could not be read from /opt/brain/.env")
 
 
 def _split_oversized_chunk(text: str, max_chars: int) -> list[str]:
@@ -2885,7 +2862,7 @@ def vault_rag_kind_for_path(path: Path) -> str:
 
 
 def vault_rag_source_paths() -> list[tuple[Path, str]]:
-    """Return (path, kind) pairs for content to ingest into the vault-rag Chroma collection.
+    """Return (path, kind) pairs for content to ingest into the vault RAG Postgres database.
     Indexes the entire vault (skipping templates/quartz/attachments), plus the spreadsheet snapshot if present.
 
     Do not index raw Discord weekly rollup channel files here. Those files preserve
@@ -2909,27 +2886,36 @@ def vault_rag_source_paths() -> list[tuple[Path, str]]:
     return items
 
 
-def vault_rag_upsert_file(coll, path: Path, kind: str) -> dict:
+def _vector_literal(values: list[float]) -> str:
+    return "[" + ",".join(str(float(v)) for v in values) + "]"
+
+
+def vault_rag_upsert_file(conn: "psycopg.Connection", path: Path, kind: str) -> dict:
     try:
         rel = path.relative_to(ROOT).as_posix()
     except ValueError:
         rel = str(path)
     text = read_text(path)
     sha = hashlib.sha256(text.encode("utf-8")).hexdigest()
-    existing = coll.get(where={"path": rel})
-    existing_ids = existing.get("ids") or []
-    existing_metas = existing.get("metadatas") or []
-    if existing_ids and existing_metas:
-        existing_sha = existing_metas[0].get("sha256")
-        existing_schema = existing_metas[0].get("schema_version")
-        if existing_sha == sha and existing_schema == VAULT_RAG_SCHEMA_VERSION:
-            return {"path": rel, "action": "unchanged", "chunk_count": len(existing_ids)}
-        coll.delete(ids=existing_ids)
+
+    with conn.cursor() as cur:
+        cur.execute(
+            "SELECT metadata->>'sha256', metadata->>'schema_version', count(*) "
+            "FROM rag_chunks WHERE database='arden' AND metadata->>'path'=%s GROUP BY 1,2 LIMIT 1",
+            (rel,),
+        )
+        row = cur.fetchone()
+    if row and row[0] == sha and row[1] == str(VAULT_RAG_SCHEMA_VERSION):
+        return {"path": rel, "action": "unchanged", "chunk_count": int(row[2])}
+
+    with conn.cursor() as cur:
+        cur.execute("DELETE FROM rag_chunks WHERE database='arden' AND metadata->>'path'=%s", (rel,))
+
     chunks = chunk_markdown_for_rag(text)
     if not chunks:
+        conn.commit()
         return {"path": rel, "action": "empty", "chunk_count": 0}
 
-    # Extract filterable frontmatter fields so retrieval can use them.
     try:
         fm = parse_frontmatter(text)
     except Exception:
@@ -2943,10 +2929,7 @@ def vault_rag_upsert_file(coll, path: Path, kind: str) -> dict:
     fm_related_entities = ", ".join(frontmatter_list(text, "related_entities")) or None
     fm_identity_hints = ", ".join(frontmatter_list(text, "identity_hints")) or None
 
-    ids: list[str] = []
-    docs: list[str] = []
-    metas: list[dict] = []
-    embeddings: list[list[float]] = []
+    rows: list[tuple] = []
     skipped: list[dict] = []
     for i, (section, chunk_text) in enumerate(chunks):
         try:
@@ -2955,8 +2938,6 @@ def vault_rag_upsert_file(coll, path: Path, kind: str) -> dict:
             skipped.append({"chunk_index": i, "section": section, "char_count": len(chunk_text), "error": str(exc)[:200]})
             continue
         chunk_id = f"{rel}#{i}:{hashlib.sha1(chunk_text.encode('utf-8')).hexdigest()[:8]}"
-        ids.append(chunk_id)
-        docs.append(chunk_text)
         chunk_meta: dict = {
             "path": rel,
             "kind": vault_rag_chunk_kind(kind, section),
@@ -2978,48 +2959,58 @@ def vault_rag_upsert_file(coll, path: Path, kind: str) -> dict:
             chunk_meta["related_entities"] = fm_related_entities
         if fm_identity_hints:
             chunk_meta["identity_hints"] = fm_identity_hints
-        metas.append(chunk_meta)
-        embeddings.append(emb)
-    if not ids:
+        rows.append((chunk_id, chunk_text, json.dumps(chunk_meta), _vector_literal(emb)))
+
+    if not rows:
+        conn.commit()
         return {"path": rel, "action": "error", "chunk_count": 0, "error": "all chunks failed to embed", "skipped": skipped}
-    coll.add(ids=ids, documents=docs, metadatas=metas, embeddings=embeddings)
-    result: dict = {"path": rel, "action": "upserted", "chunk_count": len(ids)}
+
+    with conn.cursor() as cur:
+        cur.executemany(
+            "INSERT INTO rag_chunks (database, chunk_id, document, metadata, embedding) "
+            "VALUES ('arden', %s, %s, %s::jsonb, %s::vector)",
+            rows,
+        )
+    conn.commit()
+    result: dict = {"path": rel, "action": "upserted", "chunk_count": len(rows)}
     if skipped:
         result["skipped_chunks"] = skipped
     return result
 
 
 def vault_rag_ingest_all(reset: bool = False, limit: int | None = None) -> dict:
-    sources = load_local_sources()
-    collection_name = sources["vault_rag_collection"]
-    if reset:
-        try:
-            vault_rag_client().delete_collection(collection_name)
-        except Exception:
-            pass
-    coll = vault_rag_collection()
+    db_url = rag_store_database_url()
     paths = vault_rag_source_paths()
     if limit:
         paths = paths[:limit]
     results: list[dict] = []
-    for p, kind in paths:
-        try:
-            results.append(vault_rag_upsert_file(coll, p, kind))
-        except Exception as exc:
+    with psycopg.connect(db_url) as conn:
+        if reset:
+            with conn.cursor() as cur:
+                cur.execute("DELETE FROM rag_chunks WHERE database='arden'")
+            conn.commit()
+        for p, kind in paths:
             try:
-                rel = p.relative_to(ROOT).as_posix()
-            except ValueError:
-                rel = str(p)
-            results.append({"path": rel, "action": "error", "error": str(exc)})
+                results.append(vault_rag_upsert_file(conn, p, kind))
+            except Exception as exc:
+                try:
+                    rel = p.relative_to(ROOT).as_posix()
+                except ValueError:
+                    rel = str(p)
+                results.append({"path": rel, "action": "error", "error": str(exc)})
+        with conn.cursor() as cur:
+            cur.execute("ANALYZE rag_chunks")
+            cur.execute("SELECT count(*) FROM rag_chunks WHERE database='arden'")
+            collection_size = cur.fetchone()[0]
+        conn.commit()
     counts: dict[str, int] = {}
     for r in results:
         counts[r.get("action", "?")] = counts.get(r.get("action", "?"), 0) + 1
     return {
         "ok": counts.get("error", 0) == 0,
-        "collection": collection_name,
         "total_files": len(paths),
         "actions": counts,
-        "collection_size": coll.count(),
+        "collection_size": collection_size,
         "results": results,
     }
 
@@ -3073,41 +3064,8 @@ def pgvector_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> 
     ]
 
 
-def chroma_vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> list[dict]:
-    """Query the local vault-rag Chroma staging collection."""
-    coll = vault_rag_collection()
-    where = {"kind": kind} if kind else None
-    query_emb = vault_rag_embed(query)
-    res = coll.query(
-        query_embeddings=[query_emb],
-        n_results=top_k,
-        where=where,
-    )
-    hits: list[dict] = []
-    docs = (res.get("documents") or [[]])[0]
-    metas = (res.get("metadatas") or [[]])[0]
-    dists = (res.get("distances") or [[]])[0]
-    for doc, meta, dist in zip(docs, metas, dists):
-        hits.append({
-            "path": (meta or {}).get("path"),
-            "section": (meta or {}).get("section"),
-            "kind": (meta or {}).get("kind"),
-            "title": (meta or {}).get("title"),
-            "distance": dist,
-            "text": doc,
-        })
-    return hits
-
-
 def vault_rag_search(query: str, top_k: int = 5, kind: str | None = None) -> list[dict]:
-    """Prefer published pgvector retrieval; retain Chroma staging as rollback."""
-    try:
-        hits = pgvector_rag_search(query, top_k=top_k, kind=kind)
-        if hits:
-            return hits
-    except Exception:
-        pass
-    return chroma_vault_rag_search(query, top_k=top_k, kind=kind)
+    return pgvector_rag_search(query, top_k=top_k, kind=kind)
 
 
 def _format_mechanics_hit(doc, meta, dist, match_type) -> dict:
@@ -3136,61 +3094,27 @@ def mechanics_rag_search(query: str, top_k: int = 3) -> list[dict]:
     Returns up to top_k hits; literal-match hits come first, then embedding-
     based hits, with duplicates collapsed by (book, page, section).
     """
-    if not CHROMA_AVAILABLE:
+    base_url, api_key = _load_rag_api_config()
+    if not api_key:
         return []
-    sources = load_local_sources()
-    path = sources.get("mechanics_rag_chroma_path")
-    if not path or not Path(path).exists():
-        return []
-    try:
-        client = chromadb.PersistentClient(path=str(path))
-        coll = client.get_collection(sources["mechanics_rag_collection"])
-    except Exception:
-        return []
-    # Literal name-match: surface chunks whose text contains the candidate name
-    # verbatim (case-insensitive). Strong signal for rulebook entries.
-    literal_hits: list[dict] = []
-    needle = (query or "").strip()
-    if needle:
-        try:
-            res = coll.get(where_document={"$contains": needle}, limit=top_k * 2)
-            for doc, meta in zip(res.get("documents") or [], res.get("metadatas") or []):
-                literal_hits.append(_format_mechanics_hit(doc, meta, 0.0, "literal"))
-        except Exception:
-            pass
-        # Try lowercase too — some chunk text is normalized, queries may not be.
-        if needle != needle.lower():
-            try:
-                res = coll.get(where_document={"$contains": needle.lower()}, limit=top_k * 2)
-                for doc, meta in zip(res.get("documents") or [], res.get("metadatas") or []):
-                    literal_hits.append(_format_mechanics_hit(doc, meta, 0.0, "literal"))
-            except Exception:
-                pass
-    # Embedding-based search as a fallback for fuzzy matches (e.g. abbreviated
-    # or paraphrased names).
-    embedding_hits: list[dict] = []
-    try:
-        query_emb = vault_rag_embed(query)
-        res = coll.query(query_embeddings=[query_emb], n_results=top_k)
-    except Exception:
-        res = {}
-    docs = (res.get("documents") or [[]])[0]
-    metas = (res.get("metadatas") or [[]])[0]
-    dists = (res.get("distances") or [[]])[0]
-    for doc, meta, dist in zip(docs, metas, dists):
-        embedding_hits.append(_format_mechanics_hit(doc, meta, dist, "embedding"))
-    # Merge — literal first, then embedding, deduped by (book, page, section).
+    hits = _rag_search(base_url, api_key, "mechanics", query, top_k=top_k * 2)
     seen: set[tuple] = set()
     out: list[dict] = []
-    for h in literal_hits + embedding_hits:
+    for h in hits:
         key = (h.get("book"), h.get("printed_page"), h.get("section"))
         if key in seen:
             continue
         seen.add(key)
-        out.append(h)
+        out.append(_format_mechanics_hit(
+            h.get("text", ""),
+            {"book": h.get("book"), "printed_page": h.get("printed_page"),
+             "section": h.get("section"), "source": h.get("source_pdf")},
+            h.get("distance", 0.0),
+            h.get("match_type", "embedding"),
+        ))
         if len(out) >= top_k * 2:
             break
-    return out[: top_k * 2]
+    return out
 
 
 # ---- new-entity proposal lane (item 6: IAC/ACE) ----
@@ -4748,12 +4672,41 @@ def media_article_edit_proposer_prompt(
     )
 
 
-def gather_article_research_chunks(item: ArticleQueueItem, top_k_per_query: int = 5, max_chunks: int = 12) -> list[dict]:
+def extract_session_article_paths(session_path: Path) -> list[Path]:
+    """Return deduplicated vault paths for every location/npc/item/faction wikilinked in a session file."""
+    text = read_text(session_path)
+    entity_dirs = {"locations", "npcs", "items", "factions"}
+    pattern = re.compile(r"\[\[(" + "|".join(entity_dirs) + r")/([^\]|]+?)(?:\.md)?(?:\|[^\]]+)?\]\]")
+    seen: set[str] = set()
+    paths: list[Path] = []
+    for m in pattern.finditer(text):
+        folder, name = m.group(1), m.group(2)
+        key = f"{folder}/{name}"
+        if key in seen:
+            continue
+        seen.add(key)
+        candidate = VAULT / folder / f"{name}.md"
+        if candidate.exists():
+            paths.append(candidate)
+    return paths
+
+
+def gather_article_research_chunks(
+    item: ArticleQueueItem,
+    top_k_per_query: int = 5,
+    max_chunks: int = 12,
+    sessions_only: bool = False,
+) -> list[dict]:
     """Collect candidate research chunks from vault-rag for an article.
     Reorders results so chunks that literally mention the article title come first,
-    since multi-topic chunks often bury the most relevant evidence below pure name-similarity."""
+    since multi-topic chunks often bury the most relevant evidence below pure name-similarity.
+    When sessions_only=True, Discord summary chunks are skipped and only vault/sessions/ chunks
+    are returned — use this for session-first enrichment to avoid Discord contamination."""
     seen: set[tuple] = set()
-    chunks = curated_summary_literal_hits(item)
+    if sessions_only:
+        chunks = []
+    else:
+        chunks = curated_summary_literal_hits(item)
     for hit in chunks:
         seen.add((hit.get("path"), hit.get("section")))
     for q in list(item.queries)[:6]:
@@ -4763,6 +4716,8 @@ def gather_article_research_chunks(item: ArticleQueueItem, top_k_per_query: int 
             continue
         for h in hits:
             if h.get("path") == item.path:
+                continue
+            if sessions_only and not (h.get("path") or "").startswith("vault/sessions/"):
                 continue
             key = (h.get("path"), h.get("section"))
             if key in seen:
@@ -4933,6 +4888,7 @@ def build_article_edit_proposals(
     limit: int = 5,
     max_additions_per_article: int = 3,
     top_k_per_query: int = 5,
+    sessions_only: bool = False,
 ) -> list[ArticleEditProposal]:
     queue = build_article_queue(limit=200)
     if article_paths:
@@ -4961,8 +4917,8 @@ def build_article_edit_proposals(
         if not path.exists():
             continue
         article_text = read_text(path)
-        chunks = gather_article_research_chunks(item, top_k_per_query=top_k_per_query)
-        private_hints = gather_private_discord_hints(item)
+        chunks = gather_article_research_chunks(item, top_k_per_query=top_k_per_query, sessions_only=sessions_only)
+        private_hints = [] if sessions_only else gather_private_discord_hints(item)
         exact_digest_hits: list[dict] = []
         if path.parent.name == "library":
             exact_digest_hits = curated_summary_literal_hits(item)
@@ -5299,6 +5255,7 @@ def article_edit_verifier_prompt(proposal: ArticleEditProposal) -> str:
         # Prefer to center the window on the cited excerpt if we can find it verbatim.
         needle = excerpt[:80].strip() if excerpt else ""
         excerpt_idx = src_text.find(needle) if needle else -1
+        excerpt_found_mechanically = bool(needle and excerpt_idx >= 0)
         if excerpt_idx >= 0:
             start = max(0, excerpt_idx - 1200)
             end = min(len(src_text), excerpt_idx + 2000)
@@ -5315,7 +5272,8 @@ def article_edit_verifier_prompt(proposal: ArticleEditProposal) -> str:
         # Last resort: the start of the file.
         if not window:
             window = src_text[:3000]
-        source_blocks.append(f"[{src.get('path','')} §{section or '?'}]\n{window}")
+        mech_label = "EXCERPT FOUND MECHANICALLY" if excerpt_found_mechanically else "EXCERPT NOT FOUND MECHANICALLY"
+        source_blocks.append(f"[{src.get('path','')} §{section or '?'}] [{mech_label}]\n{window}")
     sources_text = "\n\n---\n\n".join(source_blocks)
     return (
         "Verify whether the proposed article addition is supported by the cited canonical sources.\n\n"
@@ -5331,13 +5289,17 @@ def article_edit_verifier_prompt(proposal: ArticleEditProposal) -> str:
         "---\n"
         f"{article_text}\n"
         "---\n\n"
-        "CITED SOURCES (verbatim from disk):\n\n"
+        "CITED SOURCES (verbatim from disk):\n"
+        "Each source header shows [EXCERPT FOUND MECHANICALLY] or [EXCERPT NOT FOUND MECHANICALLY].\n"
+        "If a source shows EXCERPT NOT FOUND MECHANICALLY, the proposer likely cited the wrong source\n"
+        "or fabricated the excerpt. Treat such sources with strong skepticism: return 'not_found' unless\n"
+        "the proposed claim is stated word-for-word elsewhere in the source window pasted below.\n\n"
         f"{sources_text}\n\n"
         "Classify the proposed addition strictly:\n"
-        "- \"supported\": cited sources clearly support adding this content to the article.\n"
+        "- \"supported\": the source window explicitly and clearly supports this content; excerpt found mechanically OR claim is stated verbatim in the window.\n"
         "- \"contradicted\": cited sources contain evidence against this content.\n"
         "- \"ambiguous\": sources mention the topic but do not clearly support the specific claim.\n"
-        "- \"not_found\": cited sources do not contain content relevant to the proposed addition.\n\n"
+        "- \"not_found\": the source does not contain this information, OR excerpt was NOT FOUND MECHANICALLY and the claim is not verbatim in the window.\n\n"
         "Return strict JSON only:\n"
         "{\n"
         '  "status": "supported|contradicted|ambiguous|not_found",\n'
@@ -5419,6 +5381,15 @@ def apply_article_edit_to_text(text: str, edit: dict) -> tuple[str, bool, str]:
         return text, False, "empty proposed_text"
     if proposed_text in text:
         return text, False, "already present"
+    # Near-duplicate check: if any existing bullet shares the first 40 chars with the proposed
+    # bullet, treat it as already present. Catches slight rewordings from multiple session passes.
+    if addition_type == "append_bullet_to_section":
+        needle = re.sub(r"\s+", " ", proposed_text.lstrip("- ").strip())[:40].lower()
+        if needle and len(needle) >= 20:
+            for existing in re.findall(r"^- (.+)", text, re.MULTILINE):
+                existing_norm = re.sub(r"\s+", " ", existing.strip())[:40].lower()
+                if existing_norm == needle:
+                    return text, False, "near-duplicate bullet already present"
     if addition_type == "append_bullet_to_section":
         pat = re.compile(rf"^## {re.escape(target_section)}\s*$", re.MULTILINE)
         m = pat.search(text)
@@ -5443,6 +5414,13 @@ def apply_article_edit_to_text(text: str, edit: dict) -> tuple[str, bool, str]:
         rest = text[fm_match.end():]
         if re.search(rf"(^|\s){re.escape(alias_text)}(\s|$)", fm):
             return text, False, "alias already present"
+        # Reject aliases that look like sub-entities (e.g. "Tasha's Tailor Shop" aliased to "Gosterwick"):
+        # if the proposed alias is longer than the article title, it's likely a sub-location name.
+        h1_match = re.search(r"^#\s+(.+)$", rest, re.MULTILINE)
+        article_title = h1_match.group(1).strip() if h1_match else ""
+        title_plain = re.sub(r"\[\[(?:[^\]|]+\|)?([^\]]+)\]\]", r"\1", article_title).strip()
+        if title_plain and len(alias_text) > len(title_plain) + 10:
+            return text, False, f"alias '{alias_text}' looks like a sub-entity of '{title_plain}' — skipped"
         am = re.search(r"^aliases:[ \t]*(.*)$", fm, re.MULTILINE)
         if am:
             line = am.group(0)
@@ -5960,34 +5938,10 @@ def refresh_vault_rag_safely() -> dict:
         result = vault_rag_ingest_all(reset=False, limit=None)
     except Exception as exc:
         return {"ok": False, "skipped": True, "reason": str(exc)[:200]}
-    summary = {
+    return {
         "ok": result.get("ok", False),
         "actions": result.get("actions", {}),
         "collection_size": result.get("collection_size"),
-    }
-    if summary["ok"]:
-        summary["postgres_sync"] = sync_postgres_rag_safely()
-    return summary
-
-
-def sync_postgres_rag_safely() -> dict:
-    """Publish the refreshed Chroma indexes to the parallel pgvector service."""
-    command = [
-        "docker",
-        "exec",
-        "brain-postgres-rag-api",
-        "python",
-        "/scripts/sync_chroma_to_postgres.py",
-    ]
-    try:
-        completed = subprocess.run(command, capture_output=True, text=True, timeout=300)
-    except Exception as exc:
-        return {"ok": False, "skipped": True, "reason": str(exc)[:200]}
-    output = (completed.stdout or completed.stderr or "").strip()
-    return {
-        "ok": completed.returncode == 0,
-        "returncode": completed.returncode,
-        "output": output[-1000:],
     }
 
 
@@ -6044,19 +5998,291 @@ def apply_verified_article_edits(apply_changes: bool, limit: int | None = None) 
     return payload
 
 
+def cmd_check_title_integrity(args: argparse.Namespace) -> int:
+    """Check that every vault page's H1 heading matches its frontmatter title (or filename stem).
+    Also flags any H1 that contains a wikilink, which is always a content error."""
+    issues: list[dict] = []
+    h1_re = re.compile(r"^#\s+(.+)$", re.MULTILINE)
+    wikilink_re = re.compile(r"\[\[")
+    frontmatter_title_re = re.compile(r"(?m)^title:\s*[\"']?(.+?)[\"']?\s*$")
+
+    skip_dirs = {".obsidian", "attachments", "templates"}
+    skip_stems = {"index", "readme"}
+    # Session files use "DFRPG Arden Vul Session N: {title}" as H1 while frontmatter title is
+    # "N: {title}". This is a known intentional convention — don't flag them.
+    # Also handles "Sessions N and M:" (plural) and plain "NN - title" / "NN: title" prefixes.
+    session_h1_prefix_re = re.compile(
+        r"^(?:DFRPG\s+Arden\s+Vul\s+Sessions?\s+[\w\s]+[:–-]|[\d]+[a-z]?\s+[-:/])",
+        re.IGNORECASE
+    )
+    # Intentional subtitle differences in notes/lore — skip these paths.
+    skip_subtitle_paths = {
+        "vault/notes/Books Title Concordance.md",
+        "vault/notes/Discord Summary 2025-W52.md",
+        "vault/notes/Gedrick() Malachite.md",
+        "vault/notes/Rumors.md",
+        "vault/notes/Session 34-35-42b-43 QA Mining.md",
+        "vault/notes/Weekly Summary Generation Log.md",
+        "vault/lore/Announcing DFRPG Arden Vul.md",
+        "vault/lore/Arden Vul Character Creation Rules.md",
+        "vault/lore/Winding Stair.md",
+        "vault/items/Gold Signet Ring with Gregor inscribed.md",
+    }
+    for md_path in sorted(VAULT.rglob("*.md")):
+        if any(part in skip_dirs for part in md_path.parts):
+            continue
+        if md_path.stem.lower() in skip_stems:
+            continue
+        text = read_text(md_path)
+        rel = md_path.relative_to(ROOT).as_posix()
+        if rel in skip_subtitle_paths:
+            continue
+
+        # Extract frontmatter title if present.
+        fm_match = frontmatter_title_re.search(text[:800])
+        fm_title = fm_match.group(1).strip() if fm_match else None
+
+        # Extract first H1.
+        h1_match = h1_re.search(text)
+        if not h1_match:
+            continue
+        h1_raw = h1_match.group(1).strip()
+
+        # Strip wikilinks to get plain H1 text for comparison.
+        h1_plain = re.sub(r"\[\[(?:[^\]|]+\|)?([^\]]+)\]\]", r"\1", h1_raw).strip()
+        h1_plain = re.sub(r"\[\[([^\]]+)\]\]", r"\1", h1_plain).strip()
+
+        # Skip session files — their H1 prefix "DFRPG Arden Vul Session N:" is intentional.
+        if session_h1_prefix_re.match(h1_plain):
+            continue
+
+        has_wikilink = bool(wikilink_re.search(h1_raw))
+        stem = md_path.stem
+
+        mismatches: list[str] = []
+        if fm_title and fm_title.lower() != h1_plain.lower():
+            mismatches.append(f"H1 '{h1_plain}' ≠ frontmatter title '{fm_title}'")
+        elif not fm_title and stem.lower() != h1_plain.lower():
+            mismatches.append(f"H1 '{h1_plain}' ≠ filename stem '{stem}'")
+        # Allow H1 to be a superset of the frontmatter title — e.g. "Tresti Iredell" is fine
+        # when frontmatter title is "Tresti", because the H1 is simply the full name expansion.
+        if mismatches and fm_title and fm_title.lower() in h1_plain.lower():
+            mismatches = []
+        # Only flag a wikilink-in-H1 as a distinct error when the plain text also mismatches.
+        # Wikilinks in headings that correctly name the page (e.g. "# Ebon Spear of [[Arden]]") are style, not errors.
+        if has_wikilink and mismatches:
+            mismatches.insert(0, f"H1 contains wikilink and plain text mismatches: '{h1_raw}'")
+
+        if mismatches:
+            issues.append({"path": rel, "h1": h1_raw, "fm_title": fm_title or "", "stem": stem, "issues": mismatches})
+
+    if args.json:
+        print(json.dumps({"ok": True, "issue_count": len(issues), "issues": issues}, indent=2))
+    else:
+        if not issues:
+            print("No title integrity issues found.")
+        else:
+            print(f"{len(issues)} title integrity issue(s):\n")
+            for item in issues:
+                print(f"  {item['path']}")
+                for msg in item["issues"]:
+                    print(f"    - {msg}")
+    return 0 if not issues else 1
+
+
+def audit_extract_uncited_claims(text: str, sections: list[str]) -> list[tuple[str, str]]:
+    """Extract (section, claim) pairs from named H2 sections where the claim has no wikilink citation."""
+    results: list[tuple[str, str]] = []
+    h2_split = re.split(r"^## (.+)$", text, flags=re.MULTILINE)
+    # h2_split alternates: [preamble, heading, body, heading, body, ...]
+    for i in range(1, len(h2_split) - 1, 2):
+        heading = h2_split[i].strip()
+        if sections and heading not in sections:
+            continue
+        body = h2_split[i + 1]
+        for line in body.splitlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            # Strip leading bullet markers
+            claim = re.sub(r"^[-*]\s+", "", line).strip()
+            if not claim or len(claim) < 15:
+                continue
+            # Skip lines that already have a parenthetical citation ([[...]])
+            if re.search(r"\(\[\[", claim):
+                continue
+            # Skip lines that cite a session or source inline (wikilink in the text)
+            if re.search(r"\[\[sessions/|\[\[notes/Discord Summary|\[\[lore/Found Notes", claim):
+                continue
+            # Skip lines that are pure wikilinks (session/source lists)
+            if re.match(r"^\[\[", claim) and claim.count("[[") == 1:
+                continue
+            # Skip pure speculative/annotative language — flag separately but don't audit against RAG
+            if re.search(r"\bsuggests?\b|\bpresumably?\b|\blikely\b|\bmay be\b|\bpossibly\b", claim, re.IGNORECASE):
+                continue
+            results.append((heading, claim))
+    return results
+
+
+def cmd_audit_content_claims(args: argparse.Namespace) -> int:
+    """Audit existing vault page content for claims that can't be verified against the RAG.
+
+    For each uncited bullet in the target sections, searches the vault RAG and checks
+    whether the claim appears in any result. Outputs a report of suspicious claims.
+    """
+    target_kinds = {k.strip().lower() for k in args.kinds.split(",")} if args.kinds else None
+    target_sections = [s.strip() for s in args.sections.split(",")] if args.sections else ["Summary", "Notes", "Description"]
+    limit = args.limit if args.limit and args.limit > 0 else None
+
+    entity_dirs_map = {
+        "npc": "npcs", "npcs": "npcs",
+        "location": "locations", "locations": "locations",
+        "faction": "factions", "factions": "factions",
+        "item": "items", "items": "items",
+        "monster": "monsters", "monsters": "monsters",
+    }
+
+    paths: list[Path] = []
+    if args.article:
+        p = ROOT / args.article
+        if p.exists():
+            paths = [p]
+    else:
+        dirs_to_scan = set()
+        for k, d in entity_dirs_map.items():
+            if target_kinds is None or k in target_kinds:
+                dirs_to_scan.add(d)
+        for d in sorted(dirs_to_scan):
+            paths.extend(sorted((VAULT / d).glob("*.md")))
+
+    if limit:
+        paths = paths[:limit]
+
+    suspicious: list[dict] = []
+    supported_count = 0
+    checked_count = 0
+
+    for path in paths:
+        text = read_text(path)
+        rel = path.relative_to(ROOT).as_posix()
+        title = article_title(path, text)
+        claims = audit_extract_uncited_claims(text, target_sections)
+        if not claims:
+            continue
+
+        for section, claim in claims:
+            checked_count += 1
+            # Search the RAG for the claim
+            try:
+                hits = vault_rag_search(claim[:120], top_k=3)
+            except Exception:
+                hits = []
+
+            # Check if claim text appears in any hit (fuzzy: first 40 chars)
+            needle = claim[:40].lower()
+            found = any(needle in (h.get("text") or "").lower() for h in hits)
+
+            if found:
+                supported_count += 1
+            else:
+                # Secondary check: search by title + claim keywords
+                try:
+                    hits2 = vault_rag_search(f"{title} {claim[:60]}", top_k=3)
+                    found2 = any(needle in (h.get("text") or "").lower() for h in hits2)
+                except Exception:
+                    found2 = False
+
+                if found2:
+                    supported_count += 1
+                else:
+                    suspicious.append({
+                        "path": rel,
+                        "title": title,
+                        "section": section,
+                        "claim": claim,
+                        "top_hit": hits[0].get("path", "") if hits else "",
+                    })
+
+    report_lines = [
+        "# Content Audit Report",
+        f"",
+        f"Checked {checked_count} uncited claims across {len(paths)} pages.",
+        f"Supported by RAG: {supported_count} | Suspicious: {len(suspicious)}",
+        "",
+    ]
+    for item in suspicious:
+        report_lines.append(f"## {item['path']}")
+        report_lines.append(f"**Section:** {item['section']}")
+        report_lines.append(f"**Claim:** {item['claim']}")
+        if item["top_hit"]:
+            report_lines.append(f"**Closest RAG hit:** {item['top_hit']}")
+        report_lines.append("")
+
+    report_path = AUTOMATION_DIR / "proposals" / "content_audit_report.md"
+    report_path.write_text("\n".join(report_lines), encoding="utf-8")
+
+    if args.json:
+        print(json.dumps({
+            "ok": True,
+            "checked": checked_count,
+            "supported": supported_count,
+            "suspicious": len(suspicious),
+            "report": str(report_path),
+            "items": suspicious,
+        }, indent=2))
+    else:
+        print(f"Checked {checked_count} uncited claims. Suspicious: {len(suspicious)}")
+        print(f"Report: {report_path}")
+        for item in suspicious[:20]:
+            print(f"  [{item['path'].split('/')[-1]}] §{item['section']}: {item['claim'][:80]}")
+        if len(suspicious) > 20:
+            print(f"  ... and {len(suspicious) - 20} more. See report for full list.")
+    return 0
+
+
 def cmd_propose_article_edits(args: argparse.Namespace) -> int:
-    article_paths = [Path(args.article)] if args.article else None
+    sessions_only: bool = getattr(args, "sessions_only", False)
+    from_session: str | None = getattr(args, "from_session", None)
+
+    article_paths: list[Path] | None = None
+    if from_session:
+        session_path = ROOT / from_session
+        if not session_path.exists():
+            print(json.dumps({"ok": False, "error": f"session file not found: {from_session}"}), file=sys.stderr)
+            return 1
+        article_paths = extract_session_article_paths(session_path)
+        if not article_paths:
+            print(json.dumps({"ok": False, "error": f"no wikilinked entity pages found in {from_session}"}), file=sys.stderr)
+            return 1
+        print(f"Session-first mode: queued {len(article_paths)} article(s) from {from_session}", file=sys.stderr)
+    elif args.article:
+        article_paths = [Path(args.article)]
+
     proposals = build_article_edit_proposals(
         article_paths=article_paths,
         limit=args.limit,
         max_additions_per_article=args.max_additions_per_article,
         top_k_per_query=args.top_k_per_query,
+        sessions_only=sessions_only,
     )
-    write_article_edit_proposal_report(proposals)
+    # When processing a specific session or article, merge into the existing queue
+    # so multiple --from-session runs accumulate without overwriting each other.
+    if from_session or args.article:
+        added, total = merge_article_edit_proposals(proposals)
+        # Re-read merged JSON and regenerate the markdown report.
+        merged_path = AUTOMATION_DIR / "proposals" / "article_edit_proposals.json"
+        merged_proposals = [ArticleEditProposal(**r) for r in json.loads(merged_path.read_text(encoding="utf-8"))]
+        write_article_edit_proposal_report(merged_proposals)
+    else:
+        added, total = len(proposals), len(proposals)
+        write_article_edit_proposal_report(proposals)
     summary = {
         "ok": True,
-        "proposal_count": len(proposals),
+        "proposals_new": added,
+        "proposals_total": total,
         "articles_with_proposals": len({p.article_path for p in proposals}),
+        "sessions_only": sessions_only,
+        "from_session": from_session,
         "markdown": str(AUTOMATION_DIR / "proposals" / "article_edit_proposals.md"),
         "json": str(AUTOMATION_DIR / "proposals" / "article_edit_proposals.json"),
     }
@@ -6343,10 +6569,8 @@ def cmd_refresh_vault_rag(args: argparse.Namespace) -> int:
         return 2
     if not args.verbose:
         result.pop("results", None)
-    if result["ok"]:
-        result["postgres_sync"] = sync_postgres_rag_safely()
     print(json.dumps(result, indent=2))
-    return 0 if result["ok"] and result["postgres_sync"]["ok"] else 2
+    return 0 if result["ok"] else 2
 
 
 def cmd_vault_rag_search(args: argparse.Namespace) -> int:
@@ -6682,11 +6906,25 @@ def build_parser() -> argparse.ArgumentParser:
     search_vault_rag.add_argument("--full", action="store_true", help="Print full chunk text instead of a 300-char preview")
     search_vault_rag.set_defaults(func=cmd_vault_rag_search)
 
+    audit_claims = sub.add_parser("audit-content-claims", help="Audit uncited bullets in vault pages against the RAG — surfaces potential fabrications")
+    audit_claims.add_argument("--kinds", default=None, help="Comma-separated entity kinds to audit (npc,location,faction,item,monster). Default: all.")
+    audit_claims.add_argument("--sections", default=None, help="Comma-separated H2 sections to check. Default: Summary,Notes,Description.")
+    audit_claims.add_argument("--article", default=None, help="Audit a single article by repo-relative path.")
+    audit_claims.add_argument("--limit", type=int, default=None, help="Max pages to audit.")
+    audit_claims.add_argument("--json", action="store_true", help="Output results as JSON.")
+    audit_claims.set_defaults(func=cmd_audit_content_claims)
+
+    check_title = sub.add_parser("check-title-integrity", help="Report vault pages whose H1 heading mismatches their frontmatter title or filename")
+    check_title.add_argument("--json", action="store_true", help="Output results as JSON")
+    check_title.set_defaults(func=cmd_check_title_integrity)
+
     propose_article = sub.add_parser("propose-article-edits", help="Generate sourced article edit proposals via vault-rag + LLM")
     propose_article.add_argument("--limit", type=int, default=-1, help="Number of queue articles to process (-1 = all, default; ignored when --article is set)")
     propose_article.add_argument("--article", default=None, help="Process a single article by repo-relative path (e.g. vault/npcs/Pelteon.md)")
     propose_article.add_argument("--max-additions-per-article", type=int, default=3, help="Maximum proposals to keep per article (default 3)")
     propose_article.add_argument("--top-k-per-query", type=int, default=3, help="vault-rag top_k per generated research query (default 3)")
+    propose_article.add_argument("--sessions-only", action="store_true", help="Restrict research context to session recap chunks only (no Discord summaries or hints)")
+    propose_article.add_argument("--from-session", default=None, metavar="RELPATH", help="Queue locations/NPCs/items/factions wikilinked from a session file (e.g. vault/sessions/Session 55.md)")
     propose_article.set_defaults(func=cmd_propose_article_edits)
 
     verify_article = sub.add_parser("verify-article-edits", help="LLM-verify article edit proposals against canonical sources")

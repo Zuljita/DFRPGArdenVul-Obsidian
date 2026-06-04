@@ -24,4 +24,3 @@ None specified.
 Amphibious creatures, capable of fighting both in and out of water.
 
 ## Sessions
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

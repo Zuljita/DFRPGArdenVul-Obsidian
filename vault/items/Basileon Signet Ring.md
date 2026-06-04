@@ -1,6 +1,9 @@
 ---
 tags:
+  - session/3
   - item
+identity_hints:
+  - highly sensitive political item
 ---
 
 # Basileon Signet Ring

@@ -22,6 +22,8 @@ An ancient, banned religious faction devoted to [[npcs/Set.md|Set]]. The group r
 - The party has a recorded body count of roughly 50 cultists.
 - Following the assault on the cult, discussions centered on the liberation of captives held by them.
 - Set has a large statue in the Forum of Set and is associated with the First Mystery.
+- Stephania is identified as the High Priestess of Set.
+- The Settites' vault is located to the southwest and is reported to be locked and potentially trapped.
 
 ## Sessions
 - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
@@ -32,9 +34,9 @@ An ancient, banned religious faction devoted to [[npcs/Set.md|Set]]. The group r
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
-- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 - [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
 - [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
+- [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]]
 
 ## Discord Insights
 

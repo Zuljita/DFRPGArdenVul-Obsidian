@@ -25,4 +25,3 @@ Often found in overgrown areas, using its vine-like appendages to entangle and c
 - Found underground in [[locations/Fungal Forest.md|Fungal Forest]].
 
 ## Sessions
-- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]

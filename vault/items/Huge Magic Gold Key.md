@@ -1,8 +1,11 @@
 ---
 tags:
+  - session/31
   - item
   - identity/uncertain
 status: stub
+identity_hints:
+  - originally found in a hat
 ---
 
 # Huge Magic Gold Key

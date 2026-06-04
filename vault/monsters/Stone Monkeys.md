@@ -26,4 +26,3 @@ Often linked to ancient magical defenses or puzzles.
 - One instance is found on a stone pedestal with an oversized mouth, which may serve as a trap or mechanism.
 
 ## Sessions
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

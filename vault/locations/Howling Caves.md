@@ -15,12 +15,16 @@ A major baboon-held cave network east of the [[locations/Well of Light.md|Well o
 - [[npcs/The Thane.md|The Thane]] had previously raided this region to kidnap young baboons.
 - [[npcs/The Master.md|The Master]] used to protect the caves.
 - [[npcs/Bumpko.md|Bumpko]] is a 4-armed intelligent giant baboon from this location.
+- A room further north of the entrance contained a dead halfling and a note regarding the use of a small pyramid to access the caves.
+- A room with a door spiked slightly ajar contained a heavy magic spear with Mithric writing and a pouch of coins and small green gems.
 
 ## Sessions
 - [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
+- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]
+- [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
 
 ## Session Notes
 

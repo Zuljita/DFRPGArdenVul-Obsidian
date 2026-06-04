@@ -17,7 +17,6 @@ appears_in:
 
 ## History
 - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — Dundee, Thorcin barbarian Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] Significant NPCs: Jador the Just, chief priestess of [[npcs/Mitra.md|Mitra]] in [[locations/Gosterwick.md|Gosterwick]] [[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]], logothete of the House of Sight ("[[factions/Drome.md|Drome]]") in [[locations/Gosterwick.md|Gosterwick]] Freydi...
-  - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — The party then went to the House of Sight in [[locations/Gosterwick.md|Gosterwick]] where they were granted a meeting with the logothete, [[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]].
 
 ## Notes
 - Audun Yellow-Eyes is Lady Alexia's pick for the Drome post but possibly not offically approved by Keko the Lame in Narsileon.

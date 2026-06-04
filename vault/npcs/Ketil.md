@@ -22,4 +22,4 @@ None specified.
 A member of the [[Wiskin]] race, known for their nature-oriented skills.
 
 ## Sessions
-- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+- [[sessions/Session 18 - Back Down the Well of Light.md|Session 18 - Back Down the Well of Light]]

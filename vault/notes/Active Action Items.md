@@ -40,7 +40,6 @@ This note is maintained by the vault automation. It merges current quests, unres
   - Summary: Return to the Cloister to ensure all loot is collected before Kerbog Khan's spies arrive.
   - Related: [[locations/Cloister.md|Cloister]]
   - Evidence:
-    - [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]] — "return to the [[locations/Cloister.md|Cloister]] area and make sure they got all the loot"
 
 ## Open Mysteries
 
@@ -91,7 +90,6 @@ This note is maintained by the vault automation. It merges current quests, unres
   - Status: completed
   - Summary: Rescued Lepp from the bestial varumani.
   - Evidence:
-    - [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]] — "rescuing Lepp from the bestial varumani"
 
 - [x] **Deliver Tablet of the Beacon**
   - ID: `deliver-tablet-to-alexia`

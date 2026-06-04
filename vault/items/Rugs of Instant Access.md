@@ -20,6 +20,7 @@ A set of linked teleport rugs used by the party as its primary logistics and ext
 - Specific rugs in use include the "Exequor" and "Viator".
 - Approximately 1400 years ago, a rug was used by Sligo the Devious to send assassins to kill Leonidas of Archontos.
 - Following the murder of Leonidas, Emperor Basil confiscated the rugs and banned further enchanting.
+- Confirmed to be useful for bypassing the long climb up the Long Stair, provided someone with Levitation is available.
 
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
@@ -28,7 +29,6 @@ A set of linked teleport rugs used by the party as its primary logistics and ext
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
 - [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
-- [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 - [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]

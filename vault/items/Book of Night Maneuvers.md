@@ -1,9 +1,12 @@
 ---
 tags:
+  - session/2026-w18
   - item
   - media/book
 status: active
 language: Mithric
+related_entities:
+  - [[pcs/Vallium Halcyon.md|Vallium Halcyon]]
 ---
 
 # Book of Night Maneuvers

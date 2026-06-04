@@ -28,9 +28,11 @@ Hostile and extremely dangerous, but willing to negotiate if it serves his inter
 - Session 44 involves his tribute due.
 - In [[sessions/Session 26 - The Scouring of the Shire.md|Session 26]], he considered eating Briar for a paltry gift but let it slide.
 - The encounter occurred during the tenure of [[npcs/Lord Iskander Burdock.md|Lord Burdock]], who died 25 years ago.
+- In [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29]], the party planned to leave a set of silver chess pieces on the dam as tribute for him.
+- The party planned to leave a set of silver chess pieces on the dam as tribute for him.
+- The plan to leave tribute on the dam was still being pursued in [[sessions/Session 31 - I Want to Believe.md|Session 31]].
 
 ## Relationships
 - [[Briar]]: pet wyvern serving as a scout and enforcer.
 - PCs (“Wardens of the Dam”): negotiated arrangement trading tribute for limited non‑interference.
-- [[npcs/Tuftwillig.md|Tuftwillig]]: has a stated dislike of him.
 - [[npcs/Tuftwillig.md|Tuftwillig]]: has a stated dislike of him and the undead in the [[locations/Tower of Scrutiny.md|Tower of Scrutiny]].

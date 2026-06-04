@@ -16,3 +16,5 @@ She was trapped in a Bead of Force sphere in Session 42a alongside Thronebreaker
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
 - [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42b - Neferet and the Wraiths]]
+- [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
+- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]

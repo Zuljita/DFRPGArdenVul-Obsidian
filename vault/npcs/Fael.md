@@ -22,12 +22,14 @@ Provides essential supplies for adventurers and residents.
 In Session 42a, Fael was hired to assist with cat translation during a Bastet offering.
 - Refuses to add information about Green Invasive Algae to her guide.
 - Would be interested in seeing a small cutting of an unknown organism.
+- Is a druid who works at the Grain House.
 
 ## Sessions
-- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
+- [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
 
 ## Discord Insights
 

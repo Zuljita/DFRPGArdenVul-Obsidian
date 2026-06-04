@@ -1,6 +1,8 @@
 ---
 tags:
   - location
+aliases:
+  - Obelisk of the Sun
 ---
 
 # Obelisk

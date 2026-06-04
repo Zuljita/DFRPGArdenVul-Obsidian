@@ -34,6 +34,7 @@ Thothian Teleportation Rings are magical devices created by the priests of [[Tho
 - Rings must be properly attuned or sequenced to function
 - Some rings are part of larger networks (e.g., the Beacon teleporter network)
 - Arcanum was used to enrich or enhance the glass activation squares
+- Removing a colored glass square can cause the shimmering field of a teleportation circle to disappear.
 
 ## Historical Context
 - Created by Thothian priests for transportation and communication

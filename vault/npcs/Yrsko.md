@@ -21,4 +21,4 @@ Likely protective of his troop, focused on his duties.
 An unusual example of a non-humanoid NPC with a specific role, suggesting a more complex baboon society.
 
 ## Sessions
-- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+- [[sessions/Session 18 - Back Down the Well of Light.md|Session 18 - Back Down the Well of Light]]

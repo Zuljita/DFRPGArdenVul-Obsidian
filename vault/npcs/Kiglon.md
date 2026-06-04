@@ -11,8 +11,11 @@ A captive rescued by the party, who unfortunately succumbed to his injuries and 
 
 He was one of the prisoners rescued from the Set slavers.
 
+He was a Thorcin ranger.
+
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
+- [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
 
 ## Discord Insights
 

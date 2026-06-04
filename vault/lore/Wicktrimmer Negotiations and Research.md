@@ -13,7 +13,6 @@ This document details the interactions and research conducted by [[pcs/Vaelethro
 
 - [[Lyssandra Astorion|Lyssandra]] informs [[pcs/Vaelethron 'Vael' Sunshadow|Vael]] and [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] of a note from [[Wicktrimmer]] inquiring about a large quantity of [[Arcanum]] that reportedly showed up in their corner of town. He is interested in buying it.
 - [[Lyssandra Astorion|Lyssandra]] expresses surprise, noting [[Wicktrimmer]] is not a wizard and wonders who he's trying to sell it to.
-- [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] asks about [[Wicktrimmer]]'s identity, learning he runs the [[Rarities Factor]] and is likely the second richest person in [[Gosterwick]], and definitely the richest [[goblin]].
 - [[Lyssandra Astorion|Lyssandra]] advises being polite to [[Wicktrimmer]], as he is not someone to anger.
 - [[pcs/Ioannes Grammatikos Byzantios|Ioannes]] asks [[Lyssandra Astorion|Lyssandra]] about [[Arcanum]], learning it's a magic orange metal found in [[Arden Vul]] used as a spell component, though she has never seen it.
 
@@ -37,8 +36,6 @@ This document details the interactions and research conducted by [[pcs/Vaelethro
 - His reputation is solid; he seems to know everything in town, with various theories as to how.
 
 ### Visit to the [[Rarities Factor]]
-- [[pcs/Vaelethron 'Vael' Sunshadow|Vael]] and friends visit the [[Rarities Factor]]. [[Wicktrimmer]] asks his wizard, [[Ingimund of Arcturus]], to inspect a [[Larel's Pin|letter opener]].
-- [[pcs/Vaelethron 'Vael' Sunshadow|Vael]] warns of obfuscation on the item.
 - [[Wicktrimmer]] asserts his job is to know of all magic items in [[Gosterwick]], implying magical means of detection. He notes the item was unusually confusing due to its concealing effect.
 - The wizard casts Analyze Magic and destroys the [[Larel's Pin|letter opener]] (which was a disguised [[Larel's Pin]]).
 - [[Wicktrimmer]] offers $20,000 plus free banking for life for the entire company, for [[Larel's Pin]].

@@ -13,5 +13,6 @@ appears_in:
 ## History
 - Owned by Ljot.
 - Almost bit Vael when they attempted to pet it without permission.
+- A war dog.
 
 ## Notes

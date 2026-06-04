@@ -26,4 +26,3 @@ Loyal to their purpose, often hostile to intruders.
 Can be armed and dangerous, often appearing as humanoids made of stone or ceramic.
 
 ## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]

@@ -26,4 +26,3 @@ None specified.
 Often found in areas with dead bodies or carrion.
 
 ## Sessions
-- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]

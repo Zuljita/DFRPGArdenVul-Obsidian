@@ -24,6 +24,10 @@ It has not been reached in recent years due to undead guards.
 - Session 21 took place on Basilsday, 2nd of Gerakios, 2993 AE.
 - Many books in the Thoth section of the library are written in the Secret Language of Thoth. [[library/Thoth in All His Forms (secret language).md|Thoth in All His Forms (secret language)]]
 - Notable entities encountered during Session 21 include Isocritis Half-Hand, an Archontean wizard, and intelligent baboons Umsko and Yamki.
+- The session also involved encounters with 6 baboon zombies and 8 logovores.
+- The librarian, Stamelis, was encountered as a magically animated head.
+- During encounters, Isocritis Half-Hand attempted to keep invaders quiet to prevent the logovores from growing.
+- The session also included [[npcs/Fetch.md|Fetch]], an elderly Archontean slave prisoner.
 
 ## Secret Library (Discovered Session 37)
 A secret door on the **south wall** of the librarian's chamber leads to a small room with built-in shelves and a central table.

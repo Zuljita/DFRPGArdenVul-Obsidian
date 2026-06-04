@@ -6,7 +6,7 @@ tags:
   - tradition/mitran
   - location
 ---
-# Temple of [[npcs/Mitra.md|Mitra]] is a circular stone structure fronted by a portico with an impressive pediment.
+# Temple of Mitra
 
 ## Description
 The pediment shows [[Mitra]], dressed in shining mail, striding among worshippers, dispensing justice, and punishing the guilty.

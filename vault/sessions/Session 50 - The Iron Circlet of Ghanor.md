@@ -1,5 +1,5 @@
 ---
-title: "50: The [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]]"
+title: "50: The Iron Circlet of Ghanor"
 tags:
   - session
   - recap
@@ -27,7 +27,7 @@ Cool, rainy
 ## Significant NPCs
 - [[npcs/Basil.md|Basil]], [[factions/Right for Riches Company.md|Right for Riches]] employee
 - [[npcs/Remagis.md|Remagis]], un-petrified ancient Thothian priest
-- [[npcs/Akla-Chah.md|Akla-Chah]], Rudishva AI
+- [[npcs/Akla-Chah.md|Akla-Chah]], [[factions/Rudishva.md|Rudishva]] AI
 - Many goblins
 - [[npcs/Bottleneck.md|Bottleneck]], Goblin sergeant
 - [[npcs/Yamki.md|Yamki]], 3-armed giant baboon
@@ -48,9 +48,9 @@ Cool, rainy
 ## What Happened
 [[pcs/Uvash Edzuson.md|Uvash]]'s wife and son arrived in [[locations/Gosterwick.md|Gosterwick]], as part of a group of several dwarves travelling from Khazildor. [[pcs/Ioannes.md|Ioannes]] started spreading propaganda, telling the merchants of [[locations/Gosterwick.md|Gosterwick]] that they could earn great profits selling to the [[locations/Goblin Forum.md|Goblin Forum]] of Arden Vul.
 
-The group hired [[npcs/Lasselanta Chrysalis Ashcroft.md|Chrysalis]] and then teleported through the Rug to the [[locations/Beacon.md|Beacon]]. There they saw [[npcs/Remagis.md|Remagis]] teaching [[npcs/Basil.md|Basil]] how to tie a tourniquet. [[npcs/Basil.md|Basil]] explained that [[npcs/Remagis.md|Remagis]] was teaching him First Aid, in exchange for [[npcs/Basil.md|Basil]] teaching [[npcs/Remagis.md|Remagis]] Modern Archontean.
+The group hired [[npcs/Lasselanta Chrysalis Ashcroft.md|Chrysalis]] and then teleported through [[items/The Rug.md|the Rug]] to the [[locations/Beacon.md|Beacon]]. There they saw [[npcs/Remagis.md|Remagis]] teaching [[npcs/Basil.md|Basil]] how to tie a tourniquet. [[npcs/Basil.md|Basil]] explained that [[npcs/Remagis.md|Remagis]] was teaching him First Aid, in exchange for [[npcs/Basil.md|Basil]] teaching [[npcs/Remagis.md|Remagis]] Modern Archontean.
 
-[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] gave [[npcs/Basil.md|Basil]] a copy of their delve plan, and then the through went through the Rudishva teleporter to the [[locations/Cloister.md|Cloister]], then flew up the shaft to the caves north of the [[locations/Temple of Set.md|Temple of Set]]. [[pcs/Ioannes.md|Ioannes]] tried using the Cloak of the Bat to fly up, and found that the cloak would not function if he were holding a very bright Continual Light stone, but worked when [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] gave him a dim one.
+[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] gave [[npcs/Basil.md|Basil]] a copy of their delve plan, and then the through went through the [[factions/Rudishva.md|Rudishva]] teleporter to the [[locations/Cloister.md|Cloister]], then flew up the shaft to the caves north of the [[locations/Temple of Set.md|Temple of Set]]. [[pcs/Ioannes.md|Ioannes]] tried using the Cloak of the Bat to fly up, and found that the cloak would not function if he were holding a very bright Continual Light stone, but worked when [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] gave him a dim one.
 
 From the cave, the group went south through the ruined [[locations/Temple of Set.md|Temple of Set]], then east through the ruined [[locations/Temple of Thoth.md|Temple of Thoth]] to [[locations/Upper Goblintown.md|Upper Goblintown]]. They said hello to [[npcs/Bottleneck.md|Bottleneck]] and the goblin guards, then went south and west to the indoor pyramid, then used the lever on top to teleport to the other indoor pyramid on the [[locations/Well of Light.md|Well of Light]] level. They walked to the Well but saw there wasn't much sunlight coming down the shaft, so didn't attempt the Litany of Light. They headed east toward the [[locations/Howling Caves.md|Howling Caves]]. [[npcs/Bumpko.md|Bumpko]] was happy to see them, as he didn't expect a food delivery today. He asked if it were some kind of special extra food holiday. [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] went through the Teleporting Rug back to the [[locations/Beacon.md|Beacon]] and grabbed a wheelbarrow full of food for the baboons.
 
@@ -68,7 +68,7 @@ With all the wraiths eliminated, they searched the tower. There were a lot of co
 
 With the [[locations/Tower of Scrutiny.md|Tower of Scrutiny]] cleared, the group paused to let [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] fully analyze the [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]], which had several beneficial magical effects, but also a drawback. They decided to give it to [[npcs/Lady Alexia Basileon.md|Lady Alexia]] in Gosterwick.
 
-[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] removed the Teeth of Pol from his wrists. His intelligence went back to normal, but his surliness remained. Knowing he wasn't fit for talking to anyone, he asked [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] to take him to the [[locations/Temple of Demma.md|Temple of Demma]] in [[locations/Gosterwick.md|Gosterwick]] and see if they could fix him. One of the priests cast Remove Curse, but charged a high price for it.
+[[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] removed the [[items/Teeth of Pol.md|Teeth of Pol]] from his wrists. His intelligence went back to normal, but his surliness remained. Knowing he wasn't fit for talking to anyone, he asked [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] to take him to the [[locations/Temple of Demma.md|Temple of Demma]] in [[locations/Gosterwick.md|Gosterwick]] and see if they could fix him. One of the priests cast Remove Curse, but charged a high price for it.
 
 With [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] in less danger of saying something that might get them executed, the group went over to the [[locations/Azure Keep.md|Azure Keep]] to give the Circlet to Lady Alexia. After a brief discussion with her guards and a longer discussion with her steward [[npcs/Freydis the Stern.md|Freydis]], [[npcs/Lady Alexia Basileon.md|Lady Alexia]] came into the room. She asked where they had found her Circlet. She was somewhat amused that it had been so close to the surface. She asked if they wanted any particular reward, but neither of [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]]'s ideas were practical, so she just had Freydis give them a lot of gold coins.
 
@@ -82,7 +82,7 @@ The group went south from [[locations/Goblin Forum.md|the Forum]], to the Set st
 
 Vallium pointed out another room on the map, with an altar to Set. The room contained two flimsy Set statues, which they trashed, finding nothing interesting inside. It also had a makeshift stone altar. In one corner were some rocks stacked on top of a bunch of boards. Lifting them up revealed a hole down, to a room full of sarcophagi. [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Levitated down and recognized the room as a tomb they had recently partly looted. He flew back up, then used Shape Earth to seal the hole with stone from the altar, to reduce the chance that someone else would enter the tomb and find any loot there before they could.
 
-Deciding that was enough exploration for one day, the group went back to the Beacon. There [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] experimented with two Rudishva artifacts, a membrane that fit over the face, and a futuristic helmet. The membrane seemed to filter out smoke, but did not allow breathing underwater. The helmet was a helmet, providing excellent protection to the head, and even a translucent visor to protect the eyes. It also had a stud on one side, which when pressed gave the wearer infravision, despite the helmet not appearing magical. Finally, the helmet also filtered out smoke, as the membrane had.
+Deciding that was enough exploration for one day, the group went back to the Beacon. There [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] experimented with two [[factions/Rudishva.md|Rudishva]] artifacts, a membrane that fit over the face, and a futuristic helmet. The membrane seemed to filter out smoke, but did not allow breathing underwater. The helmet was a helmet, providing excellent protection to the head, and even a translucent visor to protect the eyes. It also had a stud on one side, which when pressed gave the wearer infravision, despite the helmet not appearing magical. Finally, the helmet also filtered out smoke, as the membrane had.
 
 ## GM's Comments
 Despite scrying [[npcs/Neferet.md|Neferet]]'s corpse in [[locations/Tower of Scrutiny.md|the Tower of Scrutiny]] multiple times, the players refused to believe she was actually dead. They thought that's how mummies rested, or that was a fake decoy [[npcs/Neferet.md|Neferet]], or something. But, no, it was actually her, and fleeing into the [[locations/Tower of Scrutiny.md|Tower of Scrutiny]] had been a poor tactical choice, as not all undead are on the same team.

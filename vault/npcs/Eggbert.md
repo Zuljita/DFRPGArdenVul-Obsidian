@@ -22,4 +22,4 @@ Loyal, dutiful.
 Part of the local security forces.
 
 ## Sessions
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+- [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]

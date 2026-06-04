@@ -1,5 +1,5 @@
 ---
-title: Lady Alexia Basileon Basileon.md|Lady Alexia Basileon Basileon]]
+title: Lady Alexia Basileon
 tags:
 - npc
 - gender/unknown
@@ -14,7 +14,7 @@ aliases:
 appears_in:
   - Session 8a - Never Trust a Scorpion
 ---
-# Lady Alexia Basileon Basileon
+# Lady Alexia Basileon
 
 ## Summary
 Ruler of [[Gosterwick]] and patron of the [[Knights of the Azure Shield]], [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] (the “[[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]”) is a decisive political force who mixes civic authority with pragmatic deal‑making. She leverages knightly power, patronage networks, and informed advisers to shape events around [[Arden Vul]] while balancing rivals in town and abroad.
@@ -40,17 +40,13 @@ She is described as a tall, slim, middle-aged woman with tanned skin, black hair
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]] — About halfway into the ten-mile hike, the party was overtaken by a group of six mounted [[factions/Knights of the Azure Shield.md|Knights of the Azure Shield]], the force aligned with the ruler of [[locations/Gosterwick.md|Gosterwick]], [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]].
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]] — [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon Basileon]], the [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]], lives in the Residence connected to the Keep.
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 5: Parleys and [[locations/Great Cavern.md|The Great Cavern]] Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
-  - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — Lyssandra mentioned the Gem to [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]]'s steward, [[npcs/Freydis the Stern.md|Freydis the Stern]], who invited the party for a meeting to discuss the Gem.
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 6: Good Ghost, Bad Ghost Date: Demmasday, 18th of Lucrios, 2993 AEP Weather: Warm, sunny Player Characters: Ioannes Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger) Vallium Halcyon, Archontea...
-  - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]] — They then took it to Lyssandra and Pelteon at the Arcane Practitioners' Club, who identified a bunch more enchantments but said it only had a few charges left, and said [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] might want it.
 - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — Dundee, Thorcin barbarian Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] Significant NPCs: Jador the Just, chief priestess of [[npcs/Mitra.md|Mitra]] in [[locations/Gosterwick.md|Gosterwick]] [[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]], logothete of the House of Sight ("[[factions/Drome.md|Drome]]") in [[locations/Gosterwick.md|Gosterwick]] Freydi...
-  - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — They continued to the [[locations/Azure Keep.md|Azure Keep]] to try to arrange a meeting with [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]].
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]] — In exchange they would give him the powerful magic stiletto Larel's Pin and right of first refusal on any magical or historical items the company or its members wanted to sell in the future (except for a few items which [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] speci...
 - A [[Basileon Signet Ring]] was found on the corpse of a noblewoman, possibly herself or a relative.
 
 ## Notes
 
 ## Portraits
-- ![[attachments/discord/off-topic/1504100423462686912-content.png]] — An AI-generated portrait of Lady Alexia.
 - ![[attachments/discord/off-topic/1504100332807000209-19f6a40d-20d1-4181-90d6-a1457c199a5c.png]] — An AI-generated portrait of Lady Alexia Basileon.
 - ![[attachments/discord/off-topic/1503959497389903983-image.png]] — A collection of character portraits intended to represent Lady Alexia.

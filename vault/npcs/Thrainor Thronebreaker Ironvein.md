@@ -19,6 +19,10 @@ appears_in:
 ## Summary
 Thrainor "Thronebreaker" Ironvein is a Dwarven mercenary fighter affiliated with the [[factions/Grudge Brigade.md|Grudge Brigade]]. He was hired (along with [[npcs/Lasselanta Chrysalis Ashcroft.md|Chrysalis]]) by the Right for Riches company for the battle against [[npcs/Neferet.md|Neferet]] in Sessions 42a–42b. Hiring two Grudge Brigade mercenaries for the same mission was against policy, but business was slow during the winter and Coinbase was out of town.
 
+Alongside [[npcs/Ioannes Grammatikos Byzantios.md|Ioannes]], he adopted four cats found in the Great Cavern (Session 12).
+
+He was also hired by the group for a mission to the Great Cavern in Session 11, where he believed he could cast *Bless* due to hearsay from another mercenary.
+
 ## Known Abilities
 - **Power Blow** — used to knock sarcophagus lids off with extreme force.
 - High Will score — resisted wraith ranged attacks that felled more magically-inclined party members.
@@ -58,8 +62,6 @@ Thrainor "Thronebreaker" Ironvein is a Dwarven mercenary fighter affiliated with
 Works alongside the party and other delvers in the Great Cavern region. Noted for brute strength and practical problem-solving when faced with traps, doors, and heavy obstacles.
 
 ## Character Sheets
-- [[attachments/discord/character-sheets/1425082936230809671-Thronebreaker_Thrainor_Ironvein_188.gcs|Thronebreaker_Thrainor_Ironvein_188.gcs]] — source: `#character-sheets` (2025-10-07)
-- [[attachments/discord/character-sheets/1370886719360073788-Thronebreaker_152.gcs|Thronebreaker_152.gcs]] — source: `#character-sheets` (2025-05-10)
 - [[attachments/discord/character-sheets/1370886719360073788-BUILD_Thronebreaker_125.gcs|BUILD_Thronebreaker_125.gcs]] — source: `#character-sheets` (2025-05-10)
 
 ## Character Sheet Snapshot

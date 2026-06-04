@@ -22,4 +22,3 @@ Unknown.
 Mentioned in connection with [[npcs/Kronos Kettle-Belly.md|Kronos]]'s past business dealings.
 
 ## Sessions
-- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]

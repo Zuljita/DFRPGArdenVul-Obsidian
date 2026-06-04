@@ -31,6 +31,8 @@ A restless ghost haunting the ruined tower near the waterfall. Initially encount
 - Upon disappearing, Yrtol left behind two large sapphires known as the [[items/Watcher's eyes|Watcher's eyes]].
 - The tower he haunts was built during the Adrienic Expedition as an attempt by Archon Phocion IV to retake Arden Vul.
 - The spirit has been heard screaming accusations of "Settite murderers."
+- During an encounter in Session 13, he attempted to attack Chrysalis with his "Finger of Doom," which manifested as a purple doom-beam.
+- After being struck by a weapon capable of causing him pain, he retreated back into the tower's walls.
 
 ## Maps
 - ![[attachments/discord/pc-notes/1444149703871697099-temrin_map_nyema.webp]] — A top-down map showing the path to Nyema.

@@ -16,12 +16,10 @@ This document compiles information about the various merchant "Factors" operatin
 - Has locations only in [[Narsileon]], [[Newmarket]], and [[Gosterwick]].
 
 ### [[Prosperity Factor]]
-- An Empire-wide factor.
 - Offers medium storage fees in [[Gosterwick]].
 - Three statue brokers working at the [[Inn of the Broken Head]] represent the [[Prosperity Factor]], [[Golden Band]], and [[Wisdom Factor]].
 
 ### [[Silent Factor]]
-- An Empire-wide factor.
 - Known for dressing in black with veils and using a kind of sign language with interpreters.
 - Commands the highest storage fee in [[Gosterwick]], but offers the highest security and most privacy.
 
@@ -29,7 +27,6 @@ This document compiles information about the various merchant "Factors" operatin
 
 #### [[Golden Band]]
 - An Empire-wide factor.
-- Represented by one of the statue brokers at the [[Inn of the Broken Head]].
 
 #### [[Wisdom Factor]]
 - A merchant factor.

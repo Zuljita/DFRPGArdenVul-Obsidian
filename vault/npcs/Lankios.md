@@ -23,5 +23,5 @@ His long life has likely given him unique insights into the history and secrets 
 - A leg of the Statue of Arden is located in his basement level.
 
 ## Sessions
-- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]
+- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]

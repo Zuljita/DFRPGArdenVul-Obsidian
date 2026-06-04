@@ -10,7 +10,7 @@ related_entities:
   - [[npcs/Set.md|Set]]
 ---
 
-# Southern Necropolis of [[Cult of Set]] lies to the east of this location.
+# Southern Necropolis of Set
 
 ## Key Features
 

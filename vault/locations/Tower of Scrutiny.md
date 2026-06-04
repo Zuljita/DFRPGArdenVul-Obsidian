@@ -22,6 +22,10 @@ The tower contains a room with two doors and four passages leading out.
 - They immediately withdrew rather than engage expected wraith opposition.
 - Wraiths encountered in the tower utilize a ghostly touch attack, a ranged contest of Will, and a "ghostly toxic effect".
 - According to a message from Uriel Basileon, the Second Overseer is said to be cowering within the tower and refusing entry to all.
+- The tower was potentially lethal enough to cause a TPK when the party first encountered it in Session 1.
+- In Session 1, the top floor featured wooden stairways leading down into darkness that appeared quite rotten.
+- During their Session 1 visit, the party recovered magical halfling-sized leather armor, two sets of scale armor, two shortswords, a bandoleer of seven throwing daggers, two scroll cases, and a small golden ornament of a man's head.
+- During the initial visit in Session 1, the party found magical halfling-sized leather armor, two sets of scale armor, two shortswords, a bandoleer of seven throwing daggers, two scroll cases, and a small golden ornament of a man's head.
 
 ## Sessions
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]

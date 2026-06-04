@@ -22,3 +22,6 @@ He is the former employer of [[npcs/Roger.md|Roger]] and [[npcs/Roger's Cousin.m
 - [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23a - Gelatinous Cube and Slime Kraken]]
 
 ## History
+- He is a Thorcin innkeeper.
+- Runs the inn alongside Estelle, an Archontean innkeeper.
+- Has provided mule stabling for up to two weeks as part of trade deals.

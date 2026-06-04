@@ -26,4 +26,3 @@ Could be a source of lost lore or a guardian of ancient texts.
 - Found in the same room as the [[notes/globe of arcanum.md|Globe of Arcanum]] and a note from the Archon.
 
 ## Sessions
-- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]

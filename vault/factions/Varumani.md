@@ -29,11 +29,14 @@ The term 'troll' is an Archontean translation of the Mithric word *varumani*.
 
 They are considered the most powerful faction in the Halls.
 
+The faction is currently threatened by Kerbog Khan, who reportedly kidnaps Varumani for unauthorized medical experiments.
+
 ## Leadership
 - [[npcs/Varboka.md|Varboka]] — the Thegn; rules all loyal Varumani of Arden Vul.
 
 ## Sessions
 - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]
+- Plans include fighting renegade Varumani who disrespected their passport and exploring the Rudishva area near the surgical bay.
 
 ## Discord Insights
 

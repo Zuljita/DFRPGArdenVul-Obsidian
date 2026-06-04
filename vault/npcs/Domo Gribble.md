@@ -15,6 +15,7 @@ appears_in:
 - [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
 - [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 
 ## History
 

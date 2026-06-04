@@ -20,7 +20,6 @@ One of the players posted a list of all the ways they could explore next on the 
 - Square tower and cistern (baboons)
 
 - Down the Well of Light (baboons and giant 4-armed baboons)
-- [[locations/Pyramid of Thoth.md|Pyramid of Thoth]], move statue west 
 
 - [[locations/Halls of Thoth.md|Halls of Thoth]] (halflings)
 

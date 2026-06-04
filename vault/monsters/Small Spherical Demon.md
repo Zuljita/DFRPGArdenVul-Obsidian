@@ -27,4 +27,3 @@ None specified.
 Its small size and rolling ability may make it agile or difficult to hit.
 
 ## Sessions
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

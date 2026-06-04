@@ -28,10 +28,12 @@ aliases:
 ## Notes
 - He was very excited to hear about the defeat of [[Phlebotomas Plumthorn]]'s halflings.
 - He appears to be a key figure in the goblin military command in [[Upper Goblintown]].
-- In [[sessions/Session 33 - Nyema.md]], he was surprised that [[Vallium Halcyon]] had a key to a door in the [[Glory of Weskenim]].
 - Slightly bigger than average goblin, middle-aged, and muscular, with a huge misshapen neck.
 - Wears a goblin military uniform with sergeant insignia and a halfling killer badge.
 - His misshapen neck is like a Formula One driver who just suffered a fatal crash.
+- Gave Vael, Vallium, and Ioannes embroidered patches featuring a goblin impaling a halfling to commemorate the liberation of Goblintown.
+- Warned the party about pit traps and the dangers of wandering zombies and the Cult of Set to the west.
+- Requested that surface dwellers visiting the new goblin territory bring booze.
 
 ## Relationships
 - [[Weskenim]]: serves as master sergeant under the goblin king’s authority.

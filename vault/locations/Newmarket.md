@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Newmarket → ship to Sweetwater Hold.
+# Newmarket
 
 ## Key Features
 
@@ -18,11 +18,15 @@ TBD
 ## Inhabitants
 
 TBD
+- Tikun Thane (presumed to be The Thane) [[sessions/Session 34a - Hunting the Thane.md|Session 34a]]
+- Gedric Malachite, the Priest of Zodarrim
+- Gedric Malachite, Priest of Zodarrim [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14]]
 
 ## Notes
 
 TBD
 - The god Odin has a temple located in Newmarket.
+- The Priest of Zodarrim, Gedric Malachite, has warned travelers to be wary of dopplegangers. [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14]]
 
 ## Discord Insights
 

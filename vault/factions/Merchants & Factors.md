@@ -26,8 +26,6 @@ There are several Factors active in the region, with varying scope and specialti
 - Known for having the cheapest storage fees in [[locations/Gosterwick.md|Gosterwick]], and has been known to house non-cash goods.
 
 ### [[Prosperity Factor]]
-- An Empire-wide factor.
-- Employs statue brokers who operate out of the [[Inn of the Broken Head]].
 - Considered to have medium-priced storage in [[Gosterwick]].
 
 ### [[Silent Factor]]
@@ -36,7 +34,6 @@ There are several Factors active in the region, with varying scope and specialti
 
 ### [[Golden Band]]
 - An Empire-wide factor.
-- Employs statue brokers who operate out of the [[Inn of the Broken Head]].
 
 ### [[Wisdom Factor]]
 - Employs statue brokers who operate out of the [[Inn of the Broken Head]].

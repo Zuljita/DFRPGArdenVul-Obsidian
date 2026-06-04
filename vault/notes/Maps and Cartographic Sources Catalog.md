@@ -23,7 +23,6 @@ Working list of map-like sources in the Arden Vul vault.
   ![Secreta Secretorum map](https://media.discordapp.net/attachments/1350290741632434236/1460379696129769695/secreta_secretorum_map.webp?ex=69c05a14&is=69bf0894&hm=51f79c58e7ddbaf952bf8c23b07554d589620ae8e620b835d16a6105000282a6&=&format=webp&width=1374&height=1216)
 
 ### Temrin map to communication bracelet
-- Related page: [[notes/Temrin's map|Temrin's map]]
 - Image:
   ![Temrin map to communication bracelet](https://media.discordapp.net/attachments/1350290741632434236/1484710970684342445/temrin_map_bracelet.webp?ex=69c089d8&is=69bf3858&hm=29c11ea6b1600358dba42da636282265d23dc3c7d6a97b8ae1fc0f87c51bec42&=&format=webp&width=1083&height=1320)
 

@@ -10,7 +10,7 @@ identity_hints:
 related_entities:
   - [[npcs/Demma.md|Demma]]
 ---
-# Temple of [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
+# Temple of Demma
 
 ## Discord Insights
 

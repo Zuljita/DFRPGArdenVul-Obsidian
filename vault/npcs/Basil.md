@@ -24,16 +24,13 @@ Basil is a young Archontean man from [[locations/Narsileon.md|Narsileon]], rescu
 - In [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]], Basil handled practical setup at the [[locations/Beacon.md|Beacon]] while the party prepared exploration plans.
 - In [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]], Basil processed and sorted battlefield loot/logistics at the Beacon.
 - In [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]], Basil was tasked not to disturb a trapped stone chest moved to the Beacon.
+- During the expansion of the Annex library, Basil helped dump excess stone into a vacant lot next to the Arcane Practitioner's Club.
 
 ## Appears In
-- [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
-- [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
 - [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
-- [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
-- [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
-- [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]]
 - [[sessions/Session 44.md|Session 44]]
+- [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
 
 ## Session Notes
 

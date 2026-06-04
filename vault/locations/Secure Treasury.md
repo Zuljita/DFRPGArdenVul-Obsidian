@@ -10,6 +10,7 @@ status: stub
 ## Summary
 A secure location accessible via Rudishva teleporters that contains a main treasury and a garden.
 - The main treasury can be accessed by propping open the one-way iris door with steel bars, leading south through the treasury and then west through the garden.
+- The eastern teleporter is activated using a yellow Rudishva identity plaque.
 
 ## Sources
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]

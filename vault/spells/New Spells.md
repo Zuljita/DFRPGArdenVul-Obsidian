@@ -9,9 +9,7 @@ This document contains descriptions of various new spells, detailing their effec
 
 ## [[Curse Item]]
 - **College:** Enchantment
-- **Duration:** permanent
 - **Cost:** 10
-- **Casting time:** 1 hour
 - **Prerequisite:** Enchant
 - **Effect:** Gives an item a minor malevolent effect. The caster and others they specify at the time of casting are unaffected. Magic items resist.
 
@@ -22,7 +20,6 @@ This document contains descriptions of various new spells, detailing their effec
 - **Effect:** Triples the lifespan of a torch (normally from 1 hour to 3 hours).
 
 ## [[The Bracteros Effect]]
-- **College:** Light and Darkness
 - **Duration:** 1 hour
 - **Cost:** 4 to cast, 2 to maintain
 - **Prerequisite:** Invisibility
@@ -39,14 +36,11 @@ This document contains descriptions of various new spells, detailing their effec
 ## [[Perpetual Light]]
 - **College:** Light and Darkness
 - **Type:** Regular
-- **Duration:** Permanent
 - **Cost:** 6 for moonlight, 12 for torchlight, 18 for daylight.
 - **Prerequisite:** Continual Light
 - **Effect:** Makes a small object (or a small part of a large object) glow permanently. The light will be orange. A small amount of [[Arcanum]] is required to cast this spell, and is consumed. This is not an enchantment so it can be dispelled, is destroyed by no mana zones, etc.
 
 ## [[The Hekate's Bonds]]
-- **College:** Body Control
-- **Type:** Regular; R-HT
 - **Duration:** 5s (Cannot be maintained)
 - **Cost:** 8
 - **Prerequisite:** Total Paralysis
@@ -72,7 +66,6 @@ This document contains descriptions of various new spells, detailing their effec
 - **Type:** Area
 - **Base Cost:** 5
 - **Casting Time:** 1 hour
-- **Duration:** Permanent
 - **Prerequisite:** PI 5
 - **Effect:** Increases the Sanctity (cleric) or Nature's Strength (druid) of the area by one level, to a maximum of High Sanctity or +3 Nature's Strength. This may only be cast in an appropriate area, such as a temple of the appropriate god for a cleric, or a particularly nice natural area for a druid. It can be used in an opposing temple to reduce its sanctity for the opposing religion, but only to Normal sanctity; getting to High would require extensive changes to the temple.
 

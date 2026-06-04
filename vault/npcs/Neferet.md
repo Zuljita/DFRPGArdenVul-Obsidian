@@ -36,6 +36,7 @@ Neferet is a powerful **Greater Mummy** spellcaster whose tomb is located off th
 - Has at least two **Shadows** as servants.
 - Has lesser mummies guarding her sarcophagi.
 - Wears the **Iron Circlet of Ghanor** (Thothian circlet, magical).
+- A thrown force bead created a dome of force that caused damage to [[npcs/Lasselanta Chrysalis Ashcroft.md|Chrysalis]].
 
 ## The Battle (Sessions 42a–42b)
 

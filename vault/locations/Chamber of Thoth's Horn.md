@@ -4,4 +4,4 @@ tags:
   - location
 ---
 
-# Chamber of [[Thoth]] speak directly.
+# Chamber of Thoth's Horn

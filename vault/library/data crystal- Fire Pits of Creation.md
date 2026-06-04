@@ -2,6 +2,8 @@
 title: "data crystal: Fire Pits of Creation"
 type: data-crystal
 tags:
+  - type/chthonic
+  - status/read
   - type/technology
   - type/magic
   - session/2026-w05
@@ -14,6 +16,7 @@ tags:
   - library
   - data-crystal
 related_entities:
+  - [[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]]
   - [[library/data crystal- Troll Pits.md|Troll Pits]]
 ---
 # data crystal: Fire Pits of Creation

@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# [[npcs/Kaelo.md|Kaelo]], offering cleaning and relaxation services.
+# Kaelo's Bathhouse
 
 ## Level
 Surface in [[npcs/Kaelo.md|Kaelo]]

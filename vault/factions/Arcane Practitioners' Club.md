@@ -31,6 +31,8 @@ The Club aims to provide magical services for a fee and operate as a center for 
 
 ## Location
 The club's building is located within the theoretical boundaries of [[Gosterwick]], and will be inside the new town wall when it is finished, but is currently situated far from other buildings.
+- There is a vacant lot located next to the club.
+- A vacant lot exists next to the club, which was recently used for dumping excess stone from the expansion of the Annex of the Beacon.
 
 ## Leadership & Members
 - [[npcs/Lyssandra Astorion.md|Lyssandra Astorion]]: An older, practical mage who appears to be the senior partner. She is interested in acquiring new spells.
@@ -46,5 +48,8 @@ TBD
 - Land can be purchased nearby.
 - Lyssandra enforces a rule that livestock or corpses are not permitted at the club.
 - All apartment tenants are required to leave by the 1st of Dikaios due to ongoing evictions.
+- Lyssandra Astorion recently used spells to extinguish a fire that started in one of the club's apartments.
+- Members renting apartments may not keep explosive or flammable items powerful enough to damage the structure of the building in their rooms.
+- A fire occurred on the top floor of the club, which Lyssandra Astorion extinguished using spells; the fire reportedly started in one of the member apartments.
 
 ## Sessions

@@ -23,4 +23,3 @@ Yerk is a human gladiator at the [[locations/Arena.md|Arena]] in the Halls of Ar
 - During a Spectacle Day witnessed in [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]], Yerk personally killed four out of six giant beetles in a single match (the other two gladiators killed one each).
 
 ## Appears In
-- [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
