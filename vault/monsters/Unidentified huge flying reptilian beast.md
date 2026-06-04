@@ -24,4 +24,3 @@ None.
 Thought to be [[Craastonistorex]].
 
 ## Sessions
-- [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]

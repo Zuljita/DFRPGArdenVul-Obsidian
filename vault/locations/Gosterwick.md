@@ -5,12 +5,6 @@ tags:
   - culture/thorcin
   - era/historical
 aliases:
-  - Azure Keep
-  - Grudge Brigade Headquarters
-  - Imperial Road
-  - Tasha's Tailor Shop
-  - Totey Lake
-  - Upper Market
   - Vetucaster
 ---
 # Gosterwick
@@ -29,6 +23,10 @@ The hill in the NW is called the **Hill of the Gods**, home to all temples. Wate
 - **Totey Lake** — Fishermen operate by the docks. Near the [[Baliff's Truncheon]]. Some of the fishing and boating people can swim, and one is willing to give swimming lessons.
 - **Town Walls** — A dirt berm with two gatehouses, protecting a walled keep in the northeast by a lake.
 - **Arcane Practitioners' Club** — An isolated building located near the town.
+- **Grain Hall** — A location used for purchasing food supplies.
+- **House of the Gods** — A temple where Uvash has discussed Zodarrim.
+- **Vacant Lot** — Located next to the Arcane Practitioners' Club, this lot contains excess stone dumped by Vael and Basil.
+- **Arcane Practitioners' Club Bulletin Board** — Features rules regarding explosive or flammable items.
 
 ## Notable Establishments
 
@@ -37,6 +35,7 @@ The hill in the NW is called the **Hill of the Gods**, home to all temples. Wate
 - **Taverns**: Baliff's Truncheon, Dripping Hog, Rusty Gauntlet, Old Well, Pyrite, Grinning Skull, Muddy Puddle, Three Hanged Men, Pig and Whistle.
 - **Inns**: Yellow Cloak, Stunned Acolyte.
 - **Torunn the Smith** — A renowned Wiskin smith specializing in metal weapons and armor.
+- **Livestock and Horse Merchant** — Run by Sakeon; sells mules, bits, bridles, and saddlebags.
 
 ## Trades & Notable Residents
 

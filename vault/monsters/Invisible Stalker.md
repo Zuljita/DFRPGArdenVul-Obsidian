@@ -23,4 +23,3 @@ Unknown controller.
 Typically sent to perform specific tasks, such as guarding or retrieving items.
 
 ## Sessions
-- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]

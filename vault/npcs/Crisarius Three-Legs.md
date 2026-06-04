@@ -22,4 +22,4 @@ Business-minded, knowledgeable about statuary.
 The nickname "Three-Legs" suggests a physical characteristic, possibly a cane or prosthetic.
 
 ## Sessions
-- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
+- [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]

@@ -14,6 +14,5 @@ appears_in:
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
 
 ## History
-  - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]] — In the room was the jailer's prisoner [[npcs/Eadgithu.md|Eadgithu]], manacled to the wall.
 
 ## Notes

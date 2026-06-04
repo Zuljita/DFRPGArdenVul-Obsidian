@@ -21,4 +21,3 @@ Adventurous.
 Part of a notable adventuring group.
 
 ## Sessions
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

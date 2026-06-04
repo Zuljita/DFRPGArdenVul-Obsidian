@@ -20,6 +20,7 @@ He is a middle-aged goblin with green skin, red eyes, and black hair, typically 
 
 Twelve years ago, [[npcs/Wicktrimmer.md|Wicktrimmer]] founded the [[Rarities Factor]] in [[Gosterwick]], later expanding to [[Newmarket]] and [[Narsileon]].
 - He has not visited [[notes/The Ruins.md|The Ruins]] in years.
+- In [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35]], he sent word that he was in [[Narsileon]] procuring items from the group's shopping list.
 
 ## Business & Capabilities
 As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offers banking, letters of credit, and shipping via mule caravan at cheaper rates than his competitors. He also has a number of other capabilities:

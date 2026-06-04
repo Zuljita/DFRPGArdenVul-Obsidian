@@ -14,6 +14,7 @@ tags:
 - Used by Vael to assert command authority and designate additional officers/crew.
 - In [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]], the party discussed keeping the tablet in a secret room within the [[locations/Beacon.md|Beacon]].
 - A second Tablet of the Beacon exists in an unknown area, following Temrin's map from the Bastion.
+- The plan for the second tablet is to give it to Lady Alexia [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]].
 
 ## Properties
 
@@ -21,5 +22,5 @@ tags:
 
 ## Sessions
 - [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
-- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
+- [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]

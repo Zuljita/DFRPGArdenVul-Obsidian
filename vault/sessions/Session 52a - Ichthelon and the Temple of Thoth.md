@@ -1,5 +1,5 @@
 ---
-title: "52a: [[npcs/Ichthelon.md|Ichthelon]] and the Temple of [[npcs/Thoth.md|Thoth]]"
+title: "52a: Ichthelon and the Temple of Thoth"
 tags:
   - session
   - recap
@@ -40,7 +40,7 @@ Cool, fair
 
 [[npcs/Stamelis.md|Stamelis]], Librarian Emeritus of [[npcs/Thoth.md|Thoth]]
 
-Dragonfly Automaton of Kerbog Khan, archmage
+Dragonfly Automaton of [[npcs/Kerbog Khan.md|Kerbog Khan]], archmage
 
 Many goblins
 
@@ -57,7 +57,7 @@ Many ghouls
 
 Stone Golem of Set
 Several mummies
-[[npcs/Ichthelon.md|Ichthelon]], mummy and priest of Thoth
+[[npcs/Ichthelon.md|Ichthelon]], mummy and priest of [[npcs/Thoth.md|Thoth]]
 
 Behir
 
@@ -78,7 +78,7 @@ They all walked over to the [[locations/Azure Keep.md|Azure Keep]] and told the 
 
 With the reward in hand, they returned to the [[factions/Arcane Practitioners' Club.md|Arcane Practitioners' Club]], where [[pcs/Ioannes.md|Ioannes]] cast Bless spells on Vael and [[pcs/Vallium Halcyon.md|Vallium]] then had his power item recharged.  They then went through the [[items/Teleport Rug.md|Teleport Rug]] to the [[locations/Beacon.md|Beacon]], where [[npcs/Basil.md|Basil]] awaited.  [[npcs/Basil.md|Basil]] suggested moving the purple [[items/Teleport Rug.md|Teleport Rug]] to [[npcs/Akla-Chah.md|Akla-Chah]]'s room to simplify communication, and the company agreed.  [[npcs/Stamelis.md|Stamelis]] asked if he could be taken to the [[locations/Temple of Thoth.md|Temple of Thoth]] to check on [[npcs/Remagis.md|Remagis]], and the group agreed, though Vael asked [[npcs/Stamelis.md|Stamelis]] to keep the secret of the Beacon.
 
-Everyone went through the [[factions/Rudishva.md|Rudishva]] teleporter to the [[locations/Secure Treasury.md|Secure Treasury]], through the [[locations/Cloister.md|Cloister]], then through the secret passage to the slime room with the hole leading up to the cavern near the Temple of Set.  At that point both clerics stepped through the Rug, and Vael and Vallium Levitated up.  As they emerged from a secret door into the cavern, they spotted and were spotted by a clockwork dragonfly construct.  The dragonfly flew up to them, and a human-ish voice identifying himself as Kerbog Khan spoke to them.  He congratulated them for finding that secret door, which he had not previously known about.  He mentioned that he was an archmage and could sell information or spells or even teleportation, but all deals must be sealed in blood.  Vael tested Kerbog Khan's knowledge by speaking in [[factions/Rudishva.md|Rudishva]], and Kerbog Khan seemed to understand it.
+Everyone went through the [[factions/Rudishva.md|Rudishva]] teleporter to the [[locations/Secure Treasury.md|Secure Treasury]], through the [[locations/Cloister.md|Cloister]], then through the secret passage to the slime room with the hole leading up to the cavern near the Temple of Set.  At that point both clerics stepped through the Rug, and Vael and [[pcs/Vallium Halcyon.md|Vallium]] Levitated up.  As they emerged from a secret door into the cavern, they spotted and were spotted by a clockwork dragonfly construct.  The dragonfly flew up to them, and a human-ish voice identifying himself as [[npcs/Kerbog Khan.md|Kerbog Khan]] spoke to them.  He congratulated them for finding that secret door, which he had not previously known about.  He mentioned that he was an archmage and could sell information or spells or even teleportation, but all deals must be sealed in blood.  Vael tested Kerbog Khan's knowledge by speaking in [[factions/Rudishva.md|Rudishva]], and Kerbog Khan seemed to understand it.
 
 When the dragonfly departed, they put the [[items/Teleport Rug.md|Teleport Rug]] down so the clerics could rejoin the party, then everyone went south through the [[locations/Temple of Set.md|Temple of Set]], then east to the Temple of Thoth.  There [[npcs/Remagis.md|Remagis]] had done quite a bit of restoration work.  He warned them not to enter without a holy symbol of Thoth, as the newly awakened Ibis Guardians of Thoth were somewhat hostile to those without one.  The goblin guards handed them some cheap wooden Guest Holy Symbols to brandish, while [[npcs/Remagis.md|Remagis]] showed them around.  The pool that had formerly contained a Slime Kraken, then cloudy disgusting liquid, now seemed to hold pure clean water, and [[npcs/Remagis.md|Remagis]] said it had healing properties.  He had worked out a deal with [[npcs/Bottleneck.md|Bottleneck]] and the goblins of Upper [[locations/Goblintown.md|Goblintown]], exchanging healing for food.
 
@@ -96,7 +96,7 @@ As the fight continued, they heard the sound of heavy footsteps from the west.  
 
 With all the visible undead finished, Uvash cast Sense Spirits again so they could mark exactly which sarcophagi contained undead.  One had two mummies, another had one mummy, and another had a wight.  The group formed up by each sarcophagus with weapons ready, then had Vael used Apportation to pop off the lid, then quickly attacked the supine and not fully awake inhabitants.  This was very effective.  Once all the undead were finished off, they set to looting all the sarcophagi and putting all the treasure into [[items/Larel's Sack.md|Larel's Sack]], then, when that was full, took it back to the [[locations/Beacon.md|Beacon]], using the purple Teleport Rug.
 
-Vallium noted some runes on the Set statue's leg.  Vael took a close look and determined that there were four runes and that they could be arranged in various orders.  He tried a random order, and the statue gave him the gift of being able to zap people once per hour.  Unfortunately the gift was not optional, and Vael felt compelled to zap someone.  With no enemies nearby, he tried zapping an inanimate object, but that wasn't good enough and he ended up zapping himself.  Ioannes healed him.  Vael also picked up the statue's magical flail, which shocked him.  Ioannes healed him again, and Vael used Apportation to pick up both the flail and the ankh without touching them.  He took them back to the [[locations/Beacon.md|Beacon]] through the Rug, and warned [[npcs/Basil.md|Basil]] not to touch them.
+Vallium noted some runes on the Set statue's leg.  Vael took a close look and determined that there were four runes and that they could be arranged in various orders.  He tried a random order, and the statue gave him the gift of being able to zap people once per hour.  Unfortunately the gift was not optional, and Vael felt compelled to zap someone.  With no enemies nearby, he tried zapping an inanimate object, but that wasn't good enough and he ended up zapping himself.  [[pcs/Ioannes.md|Ioannes]] healed him.  Vael also picked up the statue's magical flail, which shocked him.  Ioannes healed him again, and Vael used Apportation to pick up both the flail and the ankh without touching them.  He took them back to the [[locations/Beacon.md|Beacon]] through the Rug, and warned [[npcs/Basil.md|Basil]] not to touch them.
 
 The group went back west to the burial niches, and looted those as well.  They then returned to the first group of sarcophagi and also emptied those.  They went south to the group of sarcophagi they had found but not completely looted a few weeks before, and found that someone else had completed the looting.  All the southern sarcophagi and burial niches were empty.
 

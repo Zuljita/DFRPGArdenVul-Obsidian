@@ -28,7 +28,6 @@ As an information broker, Coinbase has access to the undercurrents of Gosterwick
 - [[pcs/grudge-brigade/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya "Basilisk" Hushbreaker]]
 - [[pcs/grudge-brigade/Thronebreaker.md|Thronebreaker]]
 - [[pcs/grudge-brigade/Chrysalis.md|Chrysalis (Thorne Lasselanta Ashcroft)]]
-- [[pcs/grudge-brigade/Ashe Maykum.md|Ashe "GOAT" Maykum]]
 - [[pcs/grudge-brigade/Lacrymosa.md|Lacrymosa]]
 
 ## History
@@ -49,7 +48,6 @@ As an information broker, Coinbase has access to the undercurrents of Gosterwick
 - [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]] — Michael was off in the woods somewhere, so the Right for Riches company hired the [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary on call, the goblin druid GOAT.
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]] — A few days after the Right for Riches Company returned to [[locations/Gosterwick.md|Gosterwick]], two things happened: [[pcs/grudge-brigade/Coinbase.md|Coinbase]], leader of the [[factions/Grudge Brigade.md|Grudge Brigade]] Mercenary Company, received an anonymous offer under his door.
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Dundee, Thorcin barbarian [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]], Elf [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary archer (Archon Shiva) Significant NPCs: [[npcs/Craastonistorex.md|Craastonistorex]], green dragon [[npcs/Briar.md|Briar]], Wyvern Giant Tick [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]], Halfling mob bo...
-  - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Uvash was unexpectedly ill (some suspected a hangover after the harvest festivals, but that was also unusual for a dwarf), so they hired [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]] the mercenary archer from the [[factions/Grudge Brigade.md|Grudge Brigade]].
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]] — What Actually Happened: The Right for Riches company, without Vael or Michael but with [[pcs/grudge-brigade/Coinbase.md|Coinbase]] the head [[factions/Grudge Brigade.md|Grudge Brigade]] Mercenary, left [[locations/Gosterwick.md|Gosterwick]] just before dawn on Horasday.
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]] — When they got there Uvash was still busy trying to convert Torunn the Smith to [[npcs/Zodarrim.md|Zodarrim]], but they'd just lost most of a week walking to [[locations/Newmarket.md|Newmarket]] and back, so they went to the [[factions/Grudge Brigade.md|Grudge Brigade]] and hired [[pcs/grudge-brigade/Ashe Maykum.md|Ashe Maykum]] ...
 - [[pcs/grudge-brigade/Ashe Maykum.md|Ashe Maykum]] is frequently hired by the Right for Riches Company for expeditions into Arden Vul.

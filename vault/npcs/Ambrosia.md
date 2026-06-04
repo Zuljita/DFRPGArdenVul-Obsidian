@@ -9,3 +9,4 @@ An entity capable of charming followers. She has charmed beastmen loyal to her r
 
 ## Sessions
 - [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]]
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]

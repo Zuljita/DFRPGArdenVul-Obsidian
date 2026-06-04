@@ -30,7 +30,7 @@ title: Party Armory
 | Divine Breath of [[npcs/Thoth.md|Thoth]] | 1 | p.151 | $0 | 2026-01-09 | — |
 | ebony wand of magical bolt (1d, 20 charges, command word "iaculor" engraved on it) | 1 | p.221 | $10,000 | 2025-12-26 | rechargeable $80/charge max 20 |
 | empty data crystal | 1 | p.613 | — | 2026-01-30 | — |
-| Ever-Full Inkwell | 1 | p.140 | $3,500 | 2025-08-01 | — |
+| [[items/Ever-Full Inkwell.md|Ever-Full Inkwell]] | 1 | p.140 | $3,500 | 2025-08-01 | — |
 | Eye of Seeing (See Secrets, Range 10, 27 charges) | 1 | p.306 | $2,700 | 2026-01-16 | — |
 | Eyes of Pol (magic bowl of mercury, living eyes, act as camera for Pol's Book of Scrying) | 1 | p.972 | $1,000 | 2026-01-09 | — |
 | Eyes of Set (see through Set magical darkness only) | 13 | p.263 | $50 | 2026-03-13 | — |
@@ -52,23 +52,23 @@ title: Party Armory
 | lesser power supply | 0 | p.613 | — | 2026-01-30 | — |
 | Light Cloak of Displacement (Blur 2) | 1 | p.1104 | $10,000 | 2026-03-13 | — |
 | Lover's Token (holder can remotely communicate 1 time with giver of token, 1 hour) | 3 | p.120 | $500 | 2025-07-18 | — |
-| lucky penny (+1 to resist rolls while in possession) | 1 | p.179 | $1,000 | 2025-07-18 | — |
+| [[items/Lucky Penny.md|lucky penny]] (+1 to resist rolls while in possession) | 1 | p.179 | $1,000 | 2025-07-18 | — |
 | lump of [[items/Arcanum.md|arcanum]] | 1 | p.304 | $1,000 | 2026-03-20 | — |
 | magic 6-armed statue, stands guard if activated, command word in [[factions/Rudishva.md|Rudishva]] on bottom of foot, shrieks and confuses if destroyed | 3 | p.471 | $10,000 | 2025-11-21 | — |
 | magic deck of 22 ivory plaques with highly random effects, some good some bad (anyone) | 1 | p.275 | $10,000 | 2026-03-20 | — |
 | magic deck of 22 ivory plaques with highly random effects, some good some bad (mages only) | 1 | p.275 | $10,000 | 2026-03-20 | — |
 | Matched pair of [[items/Rugs of Instant Access.md|Rugs of Instant Access]] (1-hex, SM 0 person can stand on one, Concentrate, say command word, appear on other, Range ?) | 1 | p.189 | $20,000 | 2025-10-17 | — |
-| melted artifact - looks like one of the artifacts in the Beacon except melted | 0 | p.614 | $10 | 2026-01-23 | — |
+| melted artifact - looks like one of the artifacts in the [[locations/Beacon.md|Beacon]] except melted | 0 | p.614 | $10 | 2026-01-23 | — |
 | Mistral: fine balanced scimitar (curved non-thrusting broadsword), +2 Acc/Puissance, seems to have additional hidden powers | 1 | p.305 | $20,000 | 2025-11-28 | — |
 | Non-functioning teleporter | 1 | p.TA-18 | $100 | 2025-12-19 | — |
-| padded Thothian bag | 1 | p.679 | $100 | 2025-12-19 | — |
-| Pale Green Horn (broad spiral, irregular black bristly tufts) | 1 | p.358 | — | 2026-01-30 | — |
+| padded [[factions/Thothian.md|Thothian]] bag | 1 | p.679 | $100 | 2025-12-19 | — |
+| [[items/Pale Green Horn.md|Pale Green Horn]] (broad spiral, irregular black bristly tufts) | 1 | p.358 | — | 2026-01-30 | — |
 | Pearl Necklace of Invisibility (4 pearls left) | 3 | p.204 | $10,000 | 2026-05-01 | — |
 | Periapt of Finding Heqeti (flashes when near heqeti) | 1 | p.115 | $5,000 | 2026-05-01 | — |
 | piece of broken magic item | 1 | p.679 | $25 | 2025-12-19 | — |
 | Point Defense Array | 1 | p.358 | — | 2026-01-30 | — |
 | Pol's Treatise on Scrying (cursed, rips eyes out) | 1 | p.151 | $0 | 2026-01-09 | — |
-| pyramid control rod | 3 | p.134 | $0 | 2025-10-24 | — |
+| [[items/Pyramid Control Rod.md|pyramid control rod]] | 3 | p.134 | $0 | 2025-10-24 | — |
 | red command bracelet | 1 | p.613 | — | 2026-01-30 | — |
 | red garnet gem with Perpetual Light | 1 | p.684 | $500 | 2025-12-19 | — |
 | replicube | 1 | p.874 | $25 | 2025-11-14 | — |
@@ -80,7 +80,7 @@ title: Party Armory
 | Ring of Set: Betzas (cursed) | 1 | p.274 | $0 | 2026-03-13 | — |
 | Ring of Set: Sittas (cursed) | 1 | p.277 | $0 | 2026-03-13 | — |
 | Ring of Truth (Detect Lies-20, but wearer gains Truthfulness, which sticks after removal) | 1 | p.199 | $2,500 | 2025-11-28 | — |
-| Ring of Water Breathing | 1 | p.292 | $2,500 | 2026-05-01 | — |
+| [[items/Ring of Water Breathing.md|Ring of Water Breathing]] | 1 | p.292 | $2,500 | 2026-05-01 | — |
 | [[factions/Rudishva.md|Rudishva]] Useful Palm of the Cleansing Wind | 1 | p.358 | — | 2026-01-30 | — |
 | [[items/Rugs of Instant Access.md|Rugs of Instant Access]] (purple, command word "exequor") | 1 | p.690 | $20,000 | 2025-12-26 | — |
 | [[items/Salamander Amulet.md|Salamander Amulet]] | 149 | p.150 | $4,920 | 2025-07-11 | — |
@@ -94,7 +94,7 @@ title: Party Armory
 | Set [[items/Was sticks.md|Was stick]] (causes total paralysis and silence but only for Set clerics) | 1 | p.352 | $100 | 2025-07-18 | — |
 | silver magic eye | 3 | p.685 | — | 2025-12-19 | — |
 | silver magic eye (some kind of key to another magic item) | 1 | p.137 | $150 | 2025-08-08 | — |
-| Slippers of Stealth (DR0, Invisibility 1/day, Silence 3/day, +4 stealth) | 1 | p.302 | $10,000 | 2026-04-24 | — |
+| [[items/Slippers of Stealth.md|Slippers of Stealth]] (DR0, Invisibility 1/day, Silence 3/day, +4 stealth) | 1 | p.302 | $10,000 | 2026-04-24 | — |
 | sonic fence | 1 | p.874 | $25 | 2025-11-14 | — |
 | Soul Stone (prevents soul from escaping, prevents rising as undead) | 1 | p.191 | $2,000 | 2026-03-27 | — |
 | Staff of the Necromancer (only works for Settite necromancers) | 1 | p.613 | — | 2026-01-30 | — |
@@ -147,7 +147,7 @@ title: Party Armory
 | laser pistol | 1 | p.874 | $25 | 2025-11-14 | — |
 | laser rifle | 0 | p.873 | $25 | 2025-11-14 | — |
 | Marrow Drainer: fine balanced all-wooden spear, Acc/Puissance +1, +2 vs. reptiles, returns if thrown, crit does 2d extra, only usable by people with a certain code | 1 | p.357 | $10,000 | 2026-01-30 | — |
-| Oathbow (fine balanced composite bow, +2 Acc/Puissance) | 1 | p.275 | $15,000 | 2026-02-06 | — |
+| [[items/Oathbow.md|Oathbow]] (fine balanced composite bow, +2 Acc/Puissance) | 1 | p.275 | $15,000 | 2026-02-06 | — |
 | spear | 1 | p.183 | $40 | 2026-01-02 | — |
 | stone hand, with stone mace | 1 | p.305 | $10 | 2025-11-28 | — |
 | structural mine | 1 | p.612 | — | 2026-01-30 | — |
@@ -158,8 +158,8 @@ title: Party Armory
 |------|-----|------|-------|----------|-------|
 | Abyssal Plate Armor (torso/legs only, DR6 , DR8 vs. demons/cold/fire, creepy, -2 to reactions) | 1 | p.302 | $5,000 | 2026-04-24 | — |
 | battle helmet | 1 | p.874 | $25 | 2025-11-14 | — |
-| Bracers of Force DR3 | 1 | p.197 | $20,000 | 2025-08-29 | — |
-| Bracers of Haste (+1 Move)  Heavy Leather armor, DR2, lower arms only | 1 | p.300 | $5,000 | 2026-04-24 | — |
+| [[items/Bracers of Force.md|Bracers of Force]] DR3 | 1 | p.197 | $20,000 | 2025-08-29 | — |
+| [[items/Bracers of Haste.md|Bracers of Haste]] (+1 Move)  Heavy Leather armor, DR2, lower arms only | 1 | p.300 | $5,000 | 2026-04-24 | — |
 | Cloak of Protection (DR1) | 1 | p.141 | $2,000 | 2025-08-01 | — |
 | Cloak of the Bat (DR1, Flight for up to 7 minutes, then 7 minutes to recharge, only in dim/dark, +4 Stealth only in dim/dark) | 1 | p.203 | $20,000 | 2026-04-17 | — |
 | cursed shield | 1 | p.266 | $0 | 2026-03-13 | — |
@@ -280,7 +280,7 @@ title: Party Armory
 | 30 yards elven silk rope (weight of Light Rope, strength of Heavy Rope) | 1 | p.130 | $200 | 2025-10-24 | — |
 | Alchemy lab equipment | 1 | p.TA-27 | $1,000 | 2025-12-19 | — |
 | amphibian skull with candle | 1 | p.200 | $5 | 2025-11-28 | — |
-| ankh key | 3 | p.129 | — | 2026-04-10 | — |
+| [[items/Ankh Key.md|ankh key]] | 3 | p.129 | — | 2026-04-10 | — |
 | armoire | 1 | p.275 | $100 | 2026-02-06 | — |
 | broken mirror tripod (for repair) | 1 | p.124 | $0 | 2025-10-31 | — |
 | carpet | 1 | p.275 | $100 | 2026-02-06 | — |
@@ -376,13 +376,13 @@ title: Party Armory
 | 4 feral cats | 1 | p.227 | $100 | 2025-05-23 | — |
 | Agility potion | 1 | p.189 | $1,650 | 2025-04-04 | — |
 | Amulet of Courage  (+3 to resist fear, Area 3) | 1 | p.335 | — | 2025-05-09 | — |
-| arcanum | 1 | p.99 | $1,000 | 2025-04-25 | — |
+| [[items/Arcanum.md|arcanum]] | 1 | p.99 | $1,000 | 2025-04-25 | — |
 | Azure Knights dwarven (metal) medium shield  (Deflect 1, cursed Deflect -3 vs. demons/devils) | 1 | p.90 | — | 2025-05-16 | — |
 | baboon skull | 1 | p.684 | $1 | 2025-12-19 | — |
 | [[items/Basileon Signet Ring.md|Basileon signet ring]] (Chairduster wouldn't buy it but said to give it to [[npcs/Lady Alexia Basileon.md|Lady Alexia]]) | 3 | p.99 | $3,000 | 2025-04-25 | — |
 | belt of strength +1 | 1 | p.187 | — | 2025-04-18 | — |
 | bone scroll case | 1 | p.230 | $75 | 2025-05-23 | — |
-| Book of Night Maneuvers | 1 | p.151 | $1,000 | 2026-01-09 | — |
+| [[items/Book of Night Maneuvers.md|Book of Night Maneuvers]] | 1 | p.151 | $1,000 | 2026-01-09 | — |
 | Canticle of Revelation | 1 | p.151 | $100 | 2026-01-09 | — |
 | clairvoyance potion (like wizard eye without the eye) | 1 | p.336 | — | 2025-05-09 | — |
 | deafening light potion (grenade, Flash + Concussion, area only 3) | 1 | p.336 | — | 2025-05-09 | — |
@@ -392,7 +392,7 @@ title: Party Armory
 | dispel magic potion (grenade, area 2) | 1 | p.336 | — | 2025-05-09 | — |
 | Divine Power is a Manifestation of Divine Will | 1 | p.151 | $200 | 2026-01-09 | — |
 | Elements of Animal Reproduction | 1 | p.151 | $75 | 2026-01-09 | — |
-| Elves Are the Enemy | 1 | p.151 | $0 | 2026-01-09 | — |
+| [[items/Elves Are the Enemy.md|Elves Are the Enemy]] | 1 | p.151 | $0 | 2026-01-09 | — |
 | Euphronia's Awakening | 1 | p.151 | $50 | 2026-01-09 | — |
 | fine balanced broadsword | 1 | p.187 | $4,800 | 2025-04-04 | — |
 | Fraternal Triumph, or Taticus and Thekla Against the Troll | 1 | p.151 | $150 | 2026-01-09 | — |
@@ -441,7 +441,7 @@ title: Party Armory
 | Powered Cleric Scroll of See Secrets | 1 | p.163 | $250 | 2025-03-21 | — |
 | powered cleric scroll: bless (enough FP for +1) | 1 | p.187 | — | 2025-04-18 | — |
 | powered cleric scroll: command | 1 | p.187 | — | 2025-04-18 | — |
-| Property of Eustachius the Cantor | 1 | p.151 | $0 | 2026-01-09 | — |
+| Property of [[npcs/Eustachius the Cantor.md|Eustachius the Cantor]] | 1 | p.151 | $0 | 2026-01-09 | — |
 | Rescript from Archon Pellas Idreonus to chiliarch Celsus Torquatius | 1 | p.618 | $350 | 2026-05-08 | — |
 | ring of free action (full movement despite web, slow, water, etc.) | 1 | p.187 | — | 2025-04-18 | — |
 | Ring of Protection DR1 | 1 | p.335 | — | 2025-05-09 | — |

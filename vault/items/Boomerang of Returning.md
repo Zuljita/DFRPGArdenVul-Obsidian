@@ -1,5 +1,7 @@
 ---
 tags:
+  - type/weapon
+  - session/7
   - item
 ---
 

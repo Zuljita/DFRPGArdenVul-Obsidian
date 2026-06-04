@@ -25,6 +25,5 @@ aliases:
 ## History
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]] — While they were searching, a wyvern flew by to the south, took a good look at them, then flew off to the west.
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Dundee, Thorcin barbarian [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]], Elf [[factions/Grudge Brigade.md|Grudge Brigade]] mercenary archer (Archon Shiva) Significant NPCs: [[npcs/Craastonistorex.md|Craastonistorex]], green dragon [[npcs/Briar.md|Briar]], Wyvern Giant Tick [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]], Halfling mob bo...
-  - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — [[npcs/Craastonistorex.md|Craastonistorex]] appeared to consider eating her for such a paltry gift, but magnanimously let it slide, as [[npcs/Briar.md|Briar]] the wyvern picked up the potion in his claws.
 
 ## Notes

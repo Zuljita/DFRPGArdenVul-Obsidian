@@ -7,6 +7,7 @@ tags:
   - profession/mercenary
   - faction/grudge-brigade
 aliases:
+  - Archon Shiva
   - Lacrymosa
   - Merenuithiel Lacrymosa Armaris, elven mercenary archer
   - Merenuithiel
@@ -24,6 +25,8 @@ appears_in:
 Merenuithiel Lacrymosa Armaris (known as **Lacrymosa**) is an elven mercenary archer affiliated with the [[factions/Grudge Brigade.md|Grudge Brigade]]. She was hired by the Right for Riches company for the invasion of the [[locations/Forum of Set.md|Forum of Set]] in Sessions 43a–43c.
 
 She was raised as an assassin at the [[locations/Temple of Tychias.md|Temple of Tychias]].
+
+She was also recruited by the company to revisit the Great Cavern during Session 15.
 
 ## Abilities
 - Highly skilled archer with rapid rate of fire; under [[spells/Great Haste.md|Great Haste]] (cast by Vael) she was essentially a one-woman firing line.
@@ -84,7 +87,6 @@ She was raised as an assassin at the [[locations/Temple of Tychias.md|Temple of 
 Lacrymosa has earned a reputation for being 'bloodthirsty.' She is single-minded in her goals, tirelessly advocating for aggressive solutions. This was most evident in her brutal efficiency during the assault on Plumthorn's gang, where she killed stunned, fleeing, or surrendering enemies without pause.
 
 ## Character Sheets
-- [[attachments/discord/character-sheets/1425082936230809671-Lacrymosa_Merenuithiel_Armaris_190.gcs|Lacrymosa_Merenuithiel_Armaris_190.gcs]] — source: `#character-sheets` (2025-10-07)
 - [[attachments/discord/character-sheets/1356981864845279452-Lacrymosa_Merenuithiel_Armaris.gcs|Lacrymosa_Merenuithiel_Armaris.gcs]] — source: `#character-sheets` (2025-04-02)
 
 ## Character Sheet Snapshot

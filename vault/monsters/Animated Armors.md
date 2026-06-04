@@ -26,4 +26,3 @@ Their creator or controller (unknown).
 Typically resistant to many forms of damage due to their metallic composition.
 
 ## Sessions
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

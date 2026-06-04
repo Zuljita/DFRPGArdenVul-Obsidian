@@ -9,11 +9,15 @@ aliases:
 ## Summary
 Leader of [[factions/Dalton's Darlings.md|Dalton's Darlings]], a delving company active around the [[Hall of Judgment]] and adjacent levels.
 
+An Archontean fighter.
+
 ## Appears In
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]
+- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 
 ## Affiliations
 - Member of [[factions/Dalton's Darlings.md|Dalton's Darlings]]
+- Accompanied by Helga and Isidor [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a]]
 
 ## Discord Insights
 

@@ -21,5 +21,4 @@ None specified.
 His physical disability may be a result of past conflicts or capture.
 
 ## Sessions
-- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]
 - [[sessions/Session 18 - Back Down the Well of Light.md|Session 18 - Back Down the Well of Light]]

@@ -11,6 +11,7 @@ tags:
 ## Known History
 
 ## Notes
+- Contains decoy items alongside concealed good ones.
 
 ## Sessions
 - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]

@@ -15,6 +15,6 @@ appears_in:
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
 
 ## History
-  - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — It continued south and peeked in the second room, spying [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]], [[npcs/Blandveg.md|Blandveg]], and three more guards.
 
 ## Notes
+- Archontean mage, alchemist, and poisoner

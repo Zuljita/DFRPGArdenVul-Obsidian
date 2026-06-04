@@ -1,6 +1,8 @@
 ---
 tags:
   - item
+related_entities:
+  - [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20]]
 ---
 
 # Delver's Webbing
@@ -18,8 +20,10 @@ A practical piece of equipment, likely made of sturdy leather or rope, with vari
 
 ## Known History
 A common item for those exploring dangerous ruins.
+- Can be found at Creon's Curios.
 
 ## Notes
+- Purchased by Ioannes Grammatikos Byzantios for $160.
 
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]

@@ -15,3 +15,4 @@ Efforts are underway to clear the area south of the basket elevator to ensure it
 - [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c]]
 - [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]

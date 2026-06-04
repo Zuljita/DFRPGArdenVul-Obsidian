@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Statue of [[Waterfall]].
+# Statue of Arden
 
 ## Notes
 The statue is believed to be magical.

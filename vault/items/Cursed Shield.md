@@ -1,5 +1,6 @@
 ---
 tags:
+  - session/2025-w23
   - item
   - identity/uncertain
 status: stub

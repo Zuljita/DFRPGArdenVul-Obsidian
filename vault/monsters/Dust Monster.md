@@ -23,4 +23,3 @@ None specified.
 Often found in ancient, undisturbed locations, rising from accumulated dust.
 
 ## Sessions
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

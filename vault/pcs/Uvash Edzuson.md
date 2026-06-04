@@ -29,9 +29,7 @@ aliases:
 - [[sessions/Session 23b - Disrupting Services in the Temple of Set.md|Session 23b - Disrupting Services in the Temple of Set]]
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
 - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]]
-- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]]
-- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
@@ -45,12 +43,6 @@ aliases:
 
 ## Character Sheets
 - ![[attachments/discord/Loot 2025-10-25/1431717195293003949-image.png]] — A list of character quirks for Uvash.
-- ![[attachments/discord/character-sheets/1347989610025717852-Uvash-3.png]] — A screenshot of Uvash's carried equipment from his character sheet.
-- ![[attachments/discord/character-sheets/1347989610025717852-Uvash-2.png]] — A screenshot of Uvash Edzon's character sheet showing traits, spells, and equipment.
-- [[attachments/discord/character-sheets/1347989610025717852-Uvash.gcs|Uvash.gcs]]
-- ![[attachments/discord/character-sheets/1347988148063440927-Uvash-3.png]] — A screenshot of the carried equipment for the character Uvash.
-- ![[attachments/discord/character-sheets/1347988148063440927-Uvash-2.png]] — Character sheet for Uvash, a Dwarven Cleric.
-- ![[attachments/discord/character-sheets/1347988148063440927-Uvash-1.png]] — Character sheet for Uvash, a Dwarven Cleric.
 - [[attachments/discord/character-sheets/1347988148063440927-Uvash.gcs|Uvash.gcs]]
 
 ## Character Sheet Snapshot

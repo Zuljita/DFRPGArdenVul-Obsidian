@@ -5,4 +5,4 @@ tags:
   - tradition/mitran
   - location
 ---
-# Oracle of [[npcs/Mitra.md|Mitra]] and The Litany of Light
+# Oracle of Thoth

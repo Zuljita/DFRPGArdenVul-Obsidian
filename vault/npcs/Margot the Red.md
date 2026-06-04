@@ -15,6 +15,8 @@ Her husband is [[Bricwine]], the inn's bartender.
 
 She discovered the body of [[npcs/Susarra.md|Susarra]] and alerted the party.
 
+Bricwine had to throw the contaminated sheets into Totey Lake, resulting in a 5 silver piece charge for new bedding.
+
 ## Appears In
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 

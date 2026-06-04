@@ -1,5 +1,5 @@
 ---
-title: "Lotus.md|Red Lotus]]"
+title: Red Lotus
 tags:
   - npc
 appears_in:

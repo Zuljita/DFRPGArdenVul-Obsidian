@@ -24,5 +24,4 @@ None specified.
 Their earthy composition suggests resistance to certain attacks and vulnerabilities to others. Three were encountered.
 
 ## Sessions
-- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
 - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]

@@ -21,10 +21,15 @@ appears_in:
 ## Summary
 Lasselanta "Chrysalis" Ashcroft is a Half-Elven mercenary martial artist affiliated with the [[factions/Grudge Brigade.md|Grudge Brigade]]. Previously contracted under the name **Thorne**; an internal dispute over contracting names was resolved with an exchange of money on 2025-04-29, after which she contracts exclusively as **Chrysalis**. She was hired (along with [[npcs/Thrainor Thronebreaker Ironvein.md|Thronebreaker]]) by the Right for Riches company for the battle against [[npcs/Neferet.md|Neferet]] in Sessions 42a–42b. She has a monkey familiar named **Mariposa**.
 
+In Session 13, she was hired by Ioannes alongside the druid 'Goat'.
+
+She is played by Archon Shiva.
+
 ## Known Abilities
 - **Blind Fighting** — can fight effectively while blinded; Neferet's blinding spells were only a minor inconvenience to her.
 - Uses a **Staff of Blue Light** — carries permanent light that was *not* extinguished by the dispel corridor (unlike other light sources).
 - Relentless melee combatant; kept pursuing Neferet even while blinded and low on resources.
+- **Staff of Blue Light Origin** — purchased from the Left for Loot company after it was discovered in the Great Cavern.
 
 ## Actions in Sessions 42a–42b
 
@@ -61,7 +66,5 @@ Mariposa is Chrysalis's monkey familiar. A gargoyle in the Great Hall swooped at
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]
 
 ## Character Sheets
-- ![[attachments/discord/character-sheets/1352734649662836746-Thorne_Lasselanta_Ashcroft-2.png]] — Screenshot of the carried equipment section from Thorne Lasselanta Ashcroft's character sheet.
 - ![[attachments/discord/character-sheets/1352734649662836746-Thorne_Lasselanta_Ashcroft-1.png]] — Character sheet for Thorne Lasselanta Ashcroft.
-- [[attachments/discord/character-sheets/1352733019064107132-Thorne_Lasselanta_Ashcroft.gcs|Thorne_Lasselanta_Ashcroft.gcs]]
 - [[attachments/discord/character-sheets/1352491372858310677-BUILD_Thorne_Lasselanta_Ashcroft.gcs|BUILD_Thorne_Lasselanta_Ashcroft.gcs]]

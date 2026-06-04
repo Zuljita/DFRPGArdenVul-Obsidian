@@ -60,7 +60,6 @@
 - [[library/The Song of Jacinth the Rose|The Song of Jacinth the Rose]] ✅ *(found: 2026-03-20)*
 - [[library/The Value of Mud|The Value of Mud]] ✅ *(found: 2026-03-20)*
 - [[library/Thirty Uses for Arcanum|Thirty Uses for Arcanum]] ✅ *(found: 2025-11-14)*
-- [[library/Thorcin Poisons and their Cures|Thorcin Poisons and their Cures]] ✅ *(found: 2026-03-20)*
 - [[library/Thorcin Poisons and their Cures (in Thorcin)|Thorcin Poisons and their Cures (in Thorcin)]] ✅ *(found: 2025-10-10)*
 - [[library/Thoth in All His Forms (secret language)|Thoth in All His Forms (secret language)]] ✅ *(found: 2025-10-24)*
 

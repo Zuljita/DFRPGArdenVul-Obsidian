@@ -24,11 +24,13 @@ aliases:
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 - [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
+- [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
 
 ## Roles & Influence
 - Guardian‑scholar of the [[Library of Thoth]]; dispenses lore, procedures, and cautions.
 - Requests assistance with practical tasks he cannot perform (books, retrieval).
 - Formerly served as Chief Librarian for the Thoth organization.
+- Has employed individuals, such as Basil, to assist with tasks like turning pages while in the [[Beacon]].
 
 ## Relationships
 - [[Library of Thoth]]: bound locale and knowledge source.

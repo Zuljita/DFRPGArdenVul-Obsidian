@@ -1,7 +1,12 @@
 ---
 title: "Bone Ring of Jagri-Naz"
 tags:
+  - type/regalia
+  - session/5
   - item
+related_entities:
+  - [[items/Tablet of the Beacon.md|Tablet of the Beacon]]
+  - [[items/Ebon Spear of Arden.md|Ebon Spear of Arden]]
 ---
 # Bone Ring of Jagri-Naz
 

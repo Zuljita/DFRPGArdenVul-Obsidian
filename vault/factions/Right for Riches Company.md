@@ -33,3 +33,4 @@ A lawful fellowship of no more than five sworn Members, known as *Socii*. The fo
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 - [[sessions/Session 43a - Forum of Set.md|Session 43a - Forum of Set]]
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]

@@ -42,4 +42,3 @@ In [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]
 - The red bracelet he wears may be the second Rudishva Command Bracelet that [[npcs/Temrin.md|Temrin]]'s map indicated was located in the Arena.
 
 ## Appears In
-- [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]

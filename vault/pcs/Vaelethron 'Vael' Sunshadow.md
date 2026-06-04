@@ -22,7 +22,6 @@ aliases:
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
 - [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]]
-- [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
 - [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]]
 - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
 - [[sessions/Session 18 - Back Down the Well of Light.md|Session 18 - Back Down the Well of Light]]
@@ -50,9 +49,6 @@ aliases:
 ## Notes
 
 ## Character Sheets
-- [[attachments/discord/character-sheets/1485979115419992185-VaelSunshadow20260327.gcs|VaelSunshadow20260327.gcs]]
-- [[attachments/discord/character-sheets/1348516364150636544-Vael_Sunshadow_-_Social.gcs|Vael_Sunshadow_-_Social.gcs]]
-- [[attachments/discord/character-sheets/1348189671473020949-Vael_Sunshadow.gcs|Vael_Sunshadow.gcs]]
 - [[attachments/discord/character-sheets/1347449204888436798-Vael_Sunshadow.gcs|Vael_Sunshadow.gcs]]
 
 ## Character Sheet Snapshot

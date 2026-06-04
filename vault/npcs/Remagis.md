@@ -20,8 +20,10 @@ Remagis is an ancient priest of [[npcs/Thoth.md|Thoth]] who was found petrified 
 - Warned travelers not to enter the Temple of Thoth without a holy symbol of Thoth due to hostile Ibis Guardians.
 - Mentioned a pool with healing properties that formerly contained a Slime Kraken.
 - Conversed with Stamelis in a secret Thothian language.
+- Taught [[npcs/Basil.md|Basil]] First Aid (such as tying a tourniquet) in exchange for lessons in Modern Archontean.
 
 ## Appears In
 - [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]
 - [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48 - Thothian Teleportation Rings]]
 - [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
+- [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]

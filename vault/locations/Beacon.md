@@ -13,6 +13,12 @@ The Beacon (official name: **the Shining Beacon**) is a crashed Rudishva starshi
 
 The ship is located near a Rudishva cloister.
 
+The ship features an Annex containing a library that was expanded by Vael and Basil.
+
+The ship is situated under the ruins of Arden Vul.
+
+The ship also contains barracks and a storeroom.
+
 ## Known Crew (Historical)
 - **Captain Leil-Jor** — Issued the quarantine order on the corrupted varuda nests during the crisis.
 - **Entertainment Officer Crellik-Var** — Tentatively identified as the [[npcs/Arena Lord.md|Arena Lord]] currently running the [[locations/Arena.md|Arena]] in the Halls of Arden Vul. If correct, he is a surviving crew member.
@@ -64,7 +70,6 @@ In the Rudishva command chamber, a pool of green liquid with 24 labeled buttons 
 
 ## Sessions
 - [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
-- [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]

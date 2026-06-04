@@ -28,4 +28,3 @@ Its controller (unknown).
 A non-combative variant of a zombie, suggesting a master using undead for utility.
 
 ## Sessions
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

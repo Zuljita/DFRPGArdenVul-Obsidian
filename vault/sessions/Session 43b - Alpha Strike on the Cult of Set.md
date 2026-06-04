@@ -71,7 +71,6 @@ GM's Comments:
 Running a fight with dozens of adversaries is a pain.  Foundry fell over at one point, but recovered.
 
 Achievements:
-- None yet, will be resolved next week.
 
 XP:
 - None yet, will be resolved next week.

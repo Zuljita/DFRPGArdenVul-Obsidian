@@ -26,4 +26,3 @@ Likely former comrades or liege lord.
 Typically immune to physical attacks and possesses chilling magical abilities.
 
 ## Sessions
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

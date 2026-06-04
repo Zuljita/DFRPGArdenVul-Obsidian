@@ -6,6 +6,10 @@ tags:
 
 # Catacombs of [[npcs/Thoth.md|Thoth]]
 
-## Discord Insights
+## Summary
+A subterranean burial complex in the Thothian tradition beneath Arden Vul. Accessible via a rope ladder dropping approximately 20 feet from a hole in the floor in the cave system near the Temple of Thoth, as noted during Session 33.
 
-- An area that could potentially be cleared in 13 minutes. ([[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]])
+## Access
+- Rope ladder from a hole in the cave floor near the Temple of Thoth (Session 33 — approximately 20' drop). ([[sessions/Session 33 - Nyema.md|Session 33]])
+
+## Sources

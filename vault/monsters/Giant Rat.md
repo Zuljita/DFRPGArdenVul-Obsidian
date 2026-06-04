@@ -28,4 +28,3 @@ None.
 Encountered in a nest within the [[Pyramid of Thoth]].
 
 ## Sessions
-- [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]

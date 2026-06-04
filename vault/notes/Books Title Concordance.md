@@ -89,7 +89,6 @@ This page ties Zuljita's title list to loot-sheet occurrences. Only book-like ma
   - date ?, page 151: `Canticle of Revelation`
 - **A Complete Decoding of the Old Ones' Glyphs (Mithric and Rudishva Glyphik)**
   - date ?, page 151: `A Complete Decoding of the Old Ones' Glyphs (Mithric and Rudishva Glyphik)`
-- **Deeds of Phagtro the Westron (Phagtro and the Pirates)**
   - date ?, page 140: `Deeds of Phagtro the Westron (Phagtro the Scout)`
   - date ?, page 185: `quire from Deeds of Phagtro the Westron, "Phagtro and the Moving Island" (Mithric)`
   - date ?, page 151: `Deeds of Phagtro the Westron (Phagtro and the Pirates)`

@@ -22,21 +22,17 @@ She is scheduled to meet with authorities at the House of Sight to share her exp
 
 ## Appears In
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
-- [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]
 - [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23a - Gelatinous Cube and Slime Kraken]]
 - [[sessions/Session 23b - Disrupting Services in the Temple of Set.md|Session 23b - Disrupting Services in the Temple of Set]]
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
 
 ## History
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - Oracle of Thoth and The Litany of Light.md|The Oracle of Thoth and The Litany of Light]]]] — Vael learned the location spells Seeker, Pathfinder, and Trace, and tried using them to find the [[locations/Troll Lifts.md|Troll Lifts]] and [[npcs/Lillian.md|Lillian]] the missing cleric of [[npcs/Mitra.md|Mitra]].
-  - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - Oracle of Thoth and The Litany of Light.md|The Oracle of Thoth and The Litany of Light]]]] — Though there was some talk of trying to rescue [[npcs/Lillian.md|Lillian]], the canon of the [[locations/Temple of Mitra.md|Temple of Mitra]] in [[locations/Newmarket.md|Newmarket]], now that Vael has some knowledge magic that might make it easier to find her.
-  - [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23a - Gelatinous Cube and Slime Kraken]] — They would avoid the halflings, bribe the beastmen (who rumor claimed had taken [[npcs/Lillian.md|Lillian]]) with food for information on [[npcs/Lillian.md|Lillian]] or for her release, bring her back to the Church of [[npcs/Mitra.md|Mitra]], and profit.
-  - [[sessions/Session 23b - Disrupting Services in the Temple of Set.md|Session 23b - Disrupting Services in the Temple of Set]] — After the long battle, and with the [[factions/Cult of Set.md|Cult of Set]] fully alerted to their presence, it was time to decide whether to head back to [[locations/Gosterwick.md|Gosterwick]] or press on looking for [[npcs/Lillian.md|Lillian]].
-  - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]] — Heading west, they found some peepholes into a prison, with seven cells, six prisoners (including [[npcs/Lillian.md|Lillian]]), and four guards.
 - Intended to deliver a letter of introduction to the [[locations/Temple of Thoth.md|Temple of Thoth]].
 - Captured by [[factions/Green Fang Kobolds|Green Fang Kobolds]] while searching for Settite activity.
 - Rumored to have gone missing near the [[locations/Huge Overgrown Thicket|Huge Overgrown Thicket]].
 - Was in Newmarket with [[notes/Azgallatu the cleric.md|Azgallatu]].
+- The rescue plan involved bribing beastmen with food to obtain information or her release, while attempting to avoid the halflings.
 
 ## Notes
 

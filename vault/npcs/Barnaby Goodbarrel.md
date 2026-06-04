@@ -26,6 +26,7 @@ Barnaby has a reputation for keeping his word. He is also known for being except
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]]
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 - [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
+- [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
 
 ## Relationships
 - [[Wicktrimmer]] and the [[Rarities Factor]]: frequent counterparty in artifact contracts.

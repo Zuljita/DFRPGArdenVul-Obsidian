@@ -26,4 +26,3 @@ None.
 A dangerous natural predator, formidable in combat.
 
 ## Sessions
-- [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants?]]

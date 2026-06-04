@@ -1,5 +1,7 @@
 ---
 tags:
+  - session/28
+  - session/25
   - item
   - identity/uncertain
 status: stub

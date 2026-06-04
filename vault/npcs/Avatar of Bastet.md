@@ -14,7 +14,7 @@ A feline divine manifestation contacted via the [[items/Statuette of Feline Frie
 ## Notes
 - Speaks in the language of cats and was translated by [[npcs/Fael.md|Fael]].
 - Confirms a hidden temple of Bastet beneath [[locations/Arden Vul.md|Arden Vul]].
+- Received a gift of fish, which bothered Onyx the cat.
 
 ## Sessions
-- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 - [[sessions/Session 42 - Deliver Food to Apes.md|Session 42 - Deliver Food to Apes]]

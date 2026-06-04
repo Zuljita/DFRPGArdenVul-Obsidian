@@ -21,4 +21,3 @@ Unknown.
 His imprisonment suggests conflict with other denizens of [[Arden Vul]].
 
 ## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]

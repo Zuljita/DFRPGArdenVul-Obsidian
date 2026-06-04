@@ -24,4 +24,3 @@ None.
 Described as having rock-like hides, making them tough.
 
 ## Sessions
-- [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]

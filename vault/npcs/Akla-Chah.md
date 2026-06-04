@@ -36,18 +36,16 @@ She appears as a translucent, 7-foot-tall, spindly hologram with brown skin and 
 - In [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]], Akla-Chah confirmed that not all Beacon crew members were accounted for and that it was possible some were still alive, though the Beacon crashed a very long time ago. Ioannes went through the crew roster with her and tentatively identified the [[npcs/Arena Lord.md|Arena Lord]] as **Entertainment Officer Crellik-Var**.
 - Believes a certain item is a security key to some kind of Rudishva technology.
 - [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48]]
+- Vael hired [[Basil of Narsileon]] to turn pages for Akla-Chah and [[Stamelis]] in the [[Beacon]].
+- [[sessions/Session 34c - Burglary and Death.md|Session 34c]] - Vael hired Basil to turn pages for Akla-Chah and Stamelis in the Beacon.
+- In [[sessions/Session 34c - Burglary and Death.md|Session 34c]], Vael hired Basil to turn pages for Akla-Chah and Stamelis in the Beacon.
 
 ## Sessions
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
-- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 - [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
 - [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
-- [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
-- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
-- [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
-- [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
 
 ## Discord Insights
 

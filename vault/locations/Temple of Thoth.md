@@ -6,7 +6,7 @@ tags:
   - tradition/thothian
   - location
 ---
-# Temple of [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
+# Temple of Thoth
 
 ## Discord Insights
 
@@ -15,6 +15,10 @@ tags:
 - Now being used by the Cult of Set
 - Features a pit located east of the Settite Jail
 - Had torches and 'Continual Light areas'.
+- The pool, which formerly contained a Slime Kraken and cloudy liquid, now holds pure clean water with healing properties. ([[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a]])
+- Features a Set statue that can be challenging in combat.
+- Associated with Stamelis, Librarian Emeritus of Thoth, and Remagis, a priest of Thoth.
+- Features newly awakened Ibis Guardians of Thoth that are hostile to those without a holy symbol. ([[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a]])
 
 ## Maps
 - ![[attachments/discord/pc-notes/1428922031956562093-player_map_185.webp]] — A dungeon map of the Temple of Thoth.

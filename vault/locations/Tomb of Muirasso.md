@@ -9,7 +9,7 @@ identity_hints:
   - decoy burial chamber
 ---
 
-# Tomb of [[npcs/Muirasso.md|Muirasso]] (wight)
+# Tomb of Muirasso
 - Undead (zombies, ghouls)
 
 ## Notes

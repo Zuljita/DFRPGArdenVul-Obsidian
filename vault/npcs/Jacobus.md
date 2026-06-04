@@ -20,9 +20,7 @@ Ghost of a former Claustral Prior of [[Thoth]]; left behind a mapped [[locations
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 
 ## History
-  - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]] — He pointed at some blueprints on the desk, which said "[[locations/Tomb of Jacobus.md|Tomb of Jacobus]], the 52nd Claustral Prior of the Chapter of [[npcs/Thoth.md|Thoth]]." There was a map there, of three rooms.
 - [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]] — From there Vallium led them east toward the room of Prior [[npcs/Jacobus.md|Jacobus]], which he said they'd never searched for treasure since helping [[npcs/Jacobus.md|Jacobus]]'s ghost to his final rest.
-  - [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]] — Vallium led the others through the rest of [[npcs/Jacobus.md|Jacobus]]'s area, but they didn't find any other treasure.
 
 ## Notes
 - Gave a single key, originally found in a hat.

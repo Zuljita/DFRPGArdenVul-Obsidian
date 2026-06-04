@@ -27,5 +27,8 @@ TBD
 - [[Svenbar]] is a Wiskin blacksmith.
 - [[Jador the Just]] is the Wiskin chief priestess of the Temple of Mitra in Gosterwick.
 - [[Hjalti]] is a Wiskin fighter.
+- [[Njal]] is a Wiskin jailer.
 
 ## Sessions
+- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]
+- [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]

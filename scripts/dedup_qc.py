@@ -32,8 +32,7 @@ from dataclasses import dataclass, field, asdict
 from pathlib import Path
 from typing import Any
 
-# Import existing helpers from vault_automation so we use the same Chroma /
-# LLM / embedding plumbing.
+# Import existing helpers from vault_automation so we use the same LLM / embedding plumbing.
 SCRIPT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPT_DIR))
 import vault_automation as va  # type: ignore
@@ -350,17 +349,11 @@ def cluster_by_title_jaccard(arts: list[Article], union: ClusterUnion,
 def cluster_by_rag_similarity(arts: list[Article], union: ClusterUnion,
                               max_distance: float = RAG_SIMILARITY_MAX_DISTANCE,
                               top_k: int = 4) -> None:
-    """Use the vault-rag Chroma collection to find near-neighbor articles.
+    """Use the vault-rag pgvector API to find near-neighbor articles.
 
-    Skips the chunked RAG (which would dominate by sub-section). Uses the
-    article title + first H2 paragraph as the query so we're looking for
-    pages that match the entity headline, not a deep-buried mention.
+    Uses the article title + first H2 paragraph as the query so we're looking
+    for pages that match the entity headline, not a deep-buried mention.
     """
-    if not va.CHROMA_AVAILABLE:
-        print("(skipping RAG similarity: chromadb not available)", file=sys.stderr)
-        return
-
-    coll = va.vault_rag_collection()
     by_path = _index_to_path(arts)
 
     for i, art in enumerate(arts, 1):
@@ -368,27 +361,15 @@ def cluster_by_rag_similarity(arts: list[Article], union: ClusterUnion,
         if not query:
             continue
         try:
-            emb = va.vault_rag_embed(query)
+            hits = va.pgvector_rag_search(query, top_k=top_k * 3)
         except Exception as e:
-            print(f"  embed failed for {art.rel_path}: {e}", file=sys.stderr)
+            print(f"  rag search failed for {art.rel_path}: {e}", file=sys.stderr)
             continue
-        try:
-            res = coll.query(
-                query_embeddings=[emb],
-                n_results=top_k * 3,  # we'll filter to articles only
-                include=["metadatas", "distances", "documents"],
-            )
-        except Exception as e:
-            print(f"  chroma query failed for {art.rel_path}: {e}", file=sys.stderr)
-            continue
-        ids = (res.get("ids") or [[]])[0]
-        metas = (res.get("metadatas") or [[]])[0]
-        dists = (res.get("distances") or [[]])[0]
-        for cid, meta, dist in zip(ids, metas, dists):
+        for hit in hits:
+            dist = hit.get("distance")
             if dist is None or dist > max_distance:
                 continue
-            # Chunk IDs look like "vault/items/Foo.md#0:abc12345"
-            chunk_path = (meta or {}).get("path") or cid.split("#", 1)[0]
+            chunk_path = hit.get("path") or ""
             if not chunk_path:
                 continue
             chunk_path = chunk_path.replace("\\", "/")

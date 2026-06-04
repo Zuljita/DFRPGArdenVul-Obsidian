@@ -26,5 +26,4 @@ Aggressively hostile, leading other undead.
 A more dangerous variant of a regular zombie, possibly retaining some combat skill or tactical awareness from its former life.
 
 ## Sessions
-- [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

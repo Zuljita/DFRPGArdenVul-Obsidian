@@ -16,6 +16,8 @@ A document required for travel into Varumani territory, discovered by the party 
 
 It is a Rudishva plasteel card featuring a Varumani image on one side.
 
+Vallium brandished the passport when encountering a group of Varumani in Session 52b/53.
+
 ## Sources
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
 - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]

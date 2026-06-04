@@ -21,4 +21,3 @@ None specified.
 Her sweetrolls are a local delicacy.
 
 ## Sessions
-- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]

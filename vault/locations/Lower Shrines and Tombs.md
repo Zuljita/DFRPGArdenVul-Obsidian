@@ -3,7 +3,7 @@ tags:
   - location
 ---
 
-# Lower [[Halls of Arden Vul]].
+# Lower Shrines and Tombs
 
 ## Key Features
 

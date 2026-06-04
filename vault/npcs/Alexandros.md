@@ -24,5 +24,5 @@ Alexandros is an aged human librarian who served the [[factions/Cult of Set.md|C
 - Helped translate Mithric writing on a skeleton's notes containing information about many ancient nobles.
 
 ## Appears In
-- [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
+- [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]

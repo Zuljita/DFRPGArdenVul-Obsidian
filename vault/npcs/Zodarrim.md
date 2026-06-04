@@ -13,6 +13,7 @@ appears_in:
 ## Theology
 The faith of [[npcs/Zodarrim.md|Zodarrim]] is a monotheistic religion practiced by dwarves. It appears to be the dominant, if not sole, religious institution for the dwarven people.
 - A sacred text exists that Uvash plans to include in his church ([[notes/Holy Book of Zorradrim.md|Holy Book of Zodarrim]]).
+- Uvash discusses the deity with his dwarven faithful in the [[locations/House of the Gods|House of the Gods]] in [[locations/Gosterwick|Gosterwick]].
 
 ## The Clergy of [[npcs/Zodarrim.md|Zodarrim]]
 Several clerics of [[npcs/Zodarrim.md|Zodarrim]] have been encountered by the party, suggesting an organized priesthood.
@@ -26,3 +27,4 @@ Several clerics of [[npcs/Zodarrim.md|Zodarrim]] have been encountered by the pa
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]] — Uvash meets [[npcs/Hallsted.md|Hallsted]], another cleric of [[npcs/Zodarrim.md|Zodarrim]].
 - [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
 - [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23a - Gelatinous Cube and Slime Kraken]]
+- [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]] — Uvash discusses Zodarrim with his dwarven faithful in the House of the Gods.

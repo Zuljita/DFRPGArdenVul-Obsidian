@@ -1,6 +1,8 @@
 ---
 title: Ebon Spear of Arden
 tags:
+  - title/regalia
+  - session/5
   - item
 ---
 # Ebon Spear of [[npcs/Arden.md|Arden]]

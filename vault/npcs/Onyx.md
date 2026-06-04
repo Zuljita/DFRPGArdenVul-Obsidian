@@ -25,9 +25,11 @@ Familiars are often imbued with magical qualities and share a bond with their ma
 - Has appeared skeptical in the past.
 - Described as a "disturbingly smart cat."
 - The Rugs can be used while holding Onyx.
+- In Session 34c, Onyx ran into the House of the Gods at full speed, meowing at Uvash as if someone were standing on his tail.
+- Becomes bothered when others are given fish, as he considers it his food.
+- In Session 34c, Onyx grabbed the hem of Uvash's mail vestments and started tugging him toward the fire.
 
 ## Sessions
-- [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
 - [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
