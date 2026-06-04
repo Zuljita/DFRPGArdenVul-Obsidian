@@ -15,3 +15,4 @@ aliases:
 - Discovered by Thothians while building temples under Arden Vul.
 - Related to demon-worshipping hoppers.
 - Built around rather than destroyed.
+- The ankh-shaped recess is larger than the recovered iron ankh.

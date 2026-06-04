@@ -12,6 +12,7 @@ A location, presumably a tavern or inn, where one can get a contact for the [[Be
 ## Key Features
 
 TBD
+- Its bad reputation makes it a place to find trainers for less savory skills or potentially get robbed.
 
 ## Connected Areas
 
@@ -20,11 +21,15 @@ Likely located in [[Gosterwick]].
 ## Inhabitants
 
 TBD
+- Egill
 
 ## Notes
 
 TBD
 - A place to find trainers for less savory skills, such as Search and Stealth.
+- Vallium once bought drinks for shady individuals here to search for information regarding Phlebotomas Plumthorn.
+- One may potentially be robbed while attempting to find trainers here.
+- A place to find instructors for skills such as Search, Stealth, and Swimming.
 
 ## Discord Insights
 

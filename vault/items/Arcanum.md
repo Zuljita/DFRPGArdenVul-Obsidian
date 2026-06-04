@@ -16,6 +16,7 @@ A mysterious substance or energy source mentioned in relation to the [[Beacon]] 
 - Fuel for the [[Beacon]]
 - Used to enrich/enhance magical components
 - Orange metallic appearance
+- Raw material for the [[The Forge of Creation]] (alongside lava)
 
 ## Known History
 TBD
@@ -30,7 +31,11 @@ The exact nature and source of [[items/Arcanum.md|Arcanum]] are unknown.
 - A magic orange metal found within Arden Vul, used as a spell component, and a large quantity recently arrived in town for sale. ([[notes/Discord Summary 2025-W27.md|Discord Summary 2025-W27]])
 - Purpose unknown; a topic for research. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])
 - A substance that enriched the glass activation squares of the [[items/Thothian Teleportation Ring.md|Thothian Teleportation Rings]]. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])
+- A magical item found with an undead librarian ([[notes/Discord Summary 2025-W52.md|Discord Summary 2025-W52]])
 
 ## Related Topics
 - [[items/Thothian Teleportation Ring.md|Thothian Teleportation Ring]]
 - [[locations/Beacon.md|Beacon]]
+- [[library/Thirty Uses for Arcanum.md|Thirty Uses for Arcanum]]
+- [[library/book- The Properties of Arcanum (Rudishva).md|The Properties of Arcanum (Rudishva)]]
+- [[library/On the Properties of Arcanum.md|On the Properties of Arcanum]]

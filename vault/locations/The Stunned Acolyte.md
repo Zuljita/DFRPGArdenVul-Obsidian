@@ -17,3 +17,4 @@ This is the kind of establishment where dinner is paid for in gold pieces instea
 
 ## Notable Patrons
 - [[Asrotelion]], a posh wizard from the College of Cinders, was seen here while hunting a rogue archmage.
+- [[Asrotelion]] was involved in inquiries regarding the rogue archmage Cerbactos and stolen tomes.

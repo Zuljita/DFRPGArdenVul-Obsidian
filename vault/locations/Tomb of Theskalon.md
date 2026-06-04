@@ -25,3 +25,5 @@ aliases:
 ## Sessions
 - Session 30 - The Tomb of Theskalon
 - The Tomb of Theskalon
+- Loot recovered during this session included orange objects and slavers' gear.
+- Vael used the Seek Earth spell to sense platinum to the northwest.

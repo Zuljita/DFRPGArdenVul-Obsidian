@@ -1,5 +1,7 @@
 ---
 tags:
+  - session/3
+  - faction/krakteros-family
   - item
 ---
 

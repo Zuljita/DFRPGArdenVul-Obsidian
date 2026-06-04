@@ -5,6 +5,8 @@ tags:
 
 # Swift River
 ## Sessions
+- [[sessions/Session 31 - I Want to Believe.md|Session 31]]
+- [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a]]
 
 ## Discord Insights
 

@@ -23,3 +23,6 @@ TBD
 - A portcullis was located on the left side of the stairs during the encounter with the Cult of Set.
 - In [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a]], Vael Blinked Vallium through the roof at the top of the stairs using the Purple Teleport Rug.
 - During the encounter in [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b]], the Cult of Set paused at the bottom of the stairs to form up and load crossbows.
+- During [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a]], Vael used his new Glass Wall spell to look through the stone roof over the stairs to verify that nobody was around.
+- Vael used his new Glass Wall spell to look through the stone roof over the stairs to verify no one was around during [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a]].
+- Leads down to the Goblin Forum ([[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a]]).

@@ -31,6 +31,11 @@ TBD
 - Captured Hjalti in the Great Cavern and threw him into a slave pit.
 - Worship of Set was banned by imperial decree in 1839 AEP.
 - Rumors persist regarding a "Forum of Set" within the ruins of Arden Vul.
+- Characterized by distinct burial practices ranging from mass/mass pits to ornate tombs and involvement in ritualistic kidnappings.
+- Maintains a vault southwest of the Forum that is reportedly locked and trapped.
+- A conflict with the faction in the Great Cavern resulted in the death of the wizard Bjorn.
+- The deity Set was a Greater God of the 'Ten' pantheon, presiding over power, knowledge, domination, slavery, vengeance, and serpents.
+- A major battle against the cult involved over 20 cultists and a couple of crocodiles.
 
 ## Appears In
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - The Oracle of Thoth and The Litany of Light]]

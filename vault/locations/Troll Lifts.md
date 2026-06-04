@@ -28,3 +28,14 @@ TBD
 - The Upper Lift Station is accessible via the Sundered Span from the Wet Caves and is run by a Varumani operator.
 - The Arena Level Station operator directs visitors to the Inn (north) and the Arena (northeast).
 - The cross-chasm ferry has a maximum capacity of four people per trip.
+- The cross-chasm ferry also provides service to the far (west) side of the Chasm.
+- First-time riders are charged a surcharge, which is waived for returning customers.
+- Riding the lifts does not require a Varumani passport — just payment.
+- The floating garden island features tropical plants lit by bright, non-magical globes and a hill with a pool of green water. [[locations/Varumani Lifts.md|Varumani Lifts]]
+- The loyal faction controls the Varumani Lifts and the Varumani Market. [[locations/Halls of the Troll Thegn.md|Halls of the Troll Thegn]]
+- The operator quipped that the 20 silver per person price was because people have two legs.
+- The lifts are a mechanical system operating within the Great Chasm.
+- The pricing of 20 silver per person was accompanied by a quip from the operator that this was because people have two legs.
+- The Varumani-run facilities are currently threatened by Kerbog Khan, who reportedly kidnaps Varumani.
+- The Upper Lift Station is located at the top of the lifts.
+- The cross-chasm ferry travels to a garden island floating in the center of the Chasm.

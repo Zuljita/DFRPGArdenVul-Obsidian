@@ -16,5 +16,7 @@ appears_in:
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
 
 ## History
+- Ioannes asked Hama for news from Arden Vul and was told the halflings under the pyramid were doing a major construction project, building new doors around the Glory of Thoth.
+- The leader of his company is a big Thorcin fighter.
 
 ## Notes

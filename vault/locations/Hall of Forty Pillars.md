@@ -13,6 +13,7 @@ tags:
 - [[factions/Goblins.md|Goblins]]
 - Hall
 - Quickly
+- Albino Toads
 
 ## Sessions
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]

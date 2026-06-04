@@ -11,16 +11,23 @@ tags:
 
 TBD
 - Serves as the Exarchate capital in this part of Irthuin.
+- Abandoned as a result of the civil war caused by the Sortians.
+- The territory was abandoned following a civil war caused by the Sortians.
+- A territory of the Empire.
+- The Rarities Factor location provides banking, letters of credit, and shipping via mule caravan, including safe deposit boxes.
+- The branch is willing to house non-cash goods and, due to a deal regarding Larel's Dagger, storage is now free for the party.
 
 ## Connected Areas
 
 TBD
+- [[Gosterwick]], [[Newmarket]] (via [[Rarities Factor]])
 
 ## Inhabitants
 
 TBD
 - [[npcs/Basil of Narsileon.md|Basil of Narsileon]]
 - Keko the Lame (Head of the Drome branch)
+- [[npcs/Claudine of Narsileon.md|Claudine of Narsileon]]
 
 ## Notes
 

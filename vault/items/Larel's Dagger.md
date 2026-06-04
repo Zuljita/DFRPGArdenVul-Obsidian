@@ -1,6 +1,8 @@
 ---
 tags:
   - item
+identity_hints:
+  - stiletto
 ---
 
 # Larel's Dagger
@@ -16,6 +18,7 @@ The party made a deal with the [[Rarities Factor]] for free storage due to this 
 
 ## Notes
 TBD
+- Found in a room featuring frescoes of Larel One-Eye.
 
 ## Sessions
 - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]

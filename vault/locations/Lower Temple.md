@@ -23,3 +23,4 @@ Unknown — not yet encountered in play.
 ## Notes
 
 Mentioned only in the Book of Priors. No session evidence yet. Promote with richer detail when the party encounters this location.
+- [[notes/Temple.md|Discord Summary 2026-W02]] - The party plans to return to it at night; contains torches and 'Continual Light areas'.

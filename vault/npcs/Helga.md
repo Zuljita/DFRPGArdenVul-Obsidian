@@ -8,6 +8,9 @@ aliases:
 
 ## Summary
 - TODO: Short description.
+- Member of Dalton's Darlings
+
+Helga is a member of Dalton's Darlings.
 
 ## Appears In
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants]]

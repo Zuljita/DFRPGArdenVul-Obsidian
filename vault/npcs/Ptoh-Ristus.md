@@ -14,3 +14,4 @@ appears_in:
 ## History
 
 ## Notes
+- The Death Mask of Ptoh-Ristus was found within his tomb.

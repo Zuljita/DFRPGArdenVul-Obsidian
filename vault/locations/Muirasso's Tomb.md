@@ -16,3 +16,6 @@ aliases:
 - Has a secret entrance; corpses were found outside. ([[notes/Discord Summary 2025-W19.md|Discord Summary 2025-W19]])
 - The corpses found outside the secret entrance also contained crystals and pearls.
 - A green necklace was found on a corpse within the decoy burial chamber. ([[notes/Discord Summary 2025-W19.md|Discord Summary 2025-W19]])
+- Muirasso was a wight and a former cleric of Thoth [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9]]
+- The wight attacked the party while holding a glowing broadsword [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9]]
+- Zombies emerged from bas reliefs in the walls during encounters.

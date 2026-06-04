@@ -24,6 +24,7 @@ TBD
 
 TBD
 - [[factions/Cult of Set.md|Cult of Set]] (active in and around the ruins)
+- Trefko, the baboon guardian of the mirror, possesses a dwarven life stone necklace and is willing to trade it for a live goat. [[notes/Discord Summary 2025-W42.md|Discord Summary 2025-W42]]
 
 ## Notes
 

@@ -1,18 +1,13 @@
 ---
 title: Red Lotus
 tags:
-  - npc
-appears_in:
-  - "Session 32 - Fast Exploration"
+  - lore
+  - herb
+status: stub
 ---
 # Red Lotus
-## Appears In
-- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 
-## History
+## Summary
+A botanical substance listed in Fael's Manual of Herb Lore. Confirmed to be a plant (not a mushroom); Fael has not personally encountered it but expressed interest in seeing a cutting. ([[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]])
 
-## Notes
-
-## Discord Insights
-
-- Not a mushroom; Fael has not heard of it but would be interested in seeing a small cutting. ([[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]])
+Long-term effects and safety are untested. ([[notes/Discord Summary 2026-W02.md|Discord Summary 2026-W02]])

@@ -1,6 +1,8 @@
 ---
 title: "Larel's Pin"
 tags:
+  - title/larel
+  - faction/rarities-factor
   - item
 ---
 # Larel's Pin

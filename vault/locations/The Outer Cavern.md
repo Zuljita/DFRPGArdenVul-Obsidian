@@ -9,3 +9,4 @@ identity_hints:
 
 ## Sessions
 - [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]]
+- Encountered a roper among fresh corpses, including one that was half eaten.
