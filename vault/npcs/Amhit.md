@@ -17,6 +17,9 @@ Mentioned in a found note.
 ## Notes
 
 TBD
+- The gates he discovered contain a green dragon's hoard.
+- The gates can be opened using the sequence 'Lockmaster', 'Shape Earth', and 'Blink'.
+- The gates he discovered are located within the Ruins.
 
 ## Discord Insights
 

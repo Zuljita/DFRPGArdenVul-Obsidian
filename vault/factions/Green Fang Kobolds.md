@@ -28,3 +28,4 @@ TBD
 - A reward for Lillian's return was posted in Newmarket.
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3]] — Vael inquired about the whereabouts of Lillian and offered a reward for her safe return.
 - [[sessions/Session 23a - Gelatinous Cube and Slime Kraken.md|Session 23a]] — Lillian was noted as a captured NPC.
+- A rumor claimed that the priests of Mitra were looking for Lillian.

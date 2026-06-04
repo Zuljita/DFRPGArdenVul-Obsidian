@@ -17,6 +17,7 @@ appears_in:
 
 ## Notes
 - During his encounter in Session 11, the PCs looted the corpses of his companions and enemies but spared him from being robbed and showed him the way out.
+- Part of the Second Chance Company adventuring party, alongside Geleg, Tresti, and Samantha the Red.
 
 ## Discord Insights
 

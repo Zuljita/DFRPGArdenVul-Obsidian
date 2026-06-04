@@ -12,3 +12,7 @@ He carries titles such as The Archontean Empire and Dickios and Janius Learn Mit
 
 He is aware of a field guide to mushrooms, though it is not currently in his stock.
 
+Books purchased from him vary in weight (1–3 lbs) and cost ($10–$50).
+
+Larger orders may require sourcing from Narsileon.
+

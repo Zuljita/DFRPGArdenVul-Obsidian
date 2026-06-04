@@ -6,6 +6,10 @@ tags:
   - redirect
 redirect_to: vault/items/Rudishva Identity Plaque.md
 status: redirect
+aliases:
+  - - Yellow Card
+  - - yellow card
+  - Yellow Identity Plaque
 ---
 # Yellow Rudishva Identity Plaque
 

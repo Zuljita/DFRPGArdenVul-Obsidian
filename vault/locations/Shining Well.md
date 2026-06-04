@@ -35,5 +35,18 @@ The Litany of Light involves four different locations within the well.
 
 During Session 18, the party discovered a "big honking globe of arcanum" within the well.
 
+The party also recovered a magic cauldron during this session.
+
+One of the intelligent cooks is named Yrsko.
+
+The party used magical flight to ascend from the well back to the surface.
+
+The party also encountered an undead librarian during their time in the well.
+- The party decided to escape from the Halls and analyze the globe back at the Arcane Practitioners' Club.
+- The party made ten trips up and down the well using magical flight to transport members and heavy loot.
+- An Ever-Full Inkwell was found on an illiterate baboon in this area.
+- During Session 22, the mirror was restored and the full Litany of Light was performed.
+- The party members involved in this session included Ioannes Grammatikos Byzantios, Michael J. Dundee, Uvash Edzuson, and Vaelethron 'Vael' Sunshadow.
+
 ## Level
 TBD

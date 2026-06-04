@@ -10,6 +10,7 @@ tags:
 TBD
 - The Newmarket market runs five days a week, and the selection there seems a bit better than in Gosterwick.
 - Branches of all five named Factors operate here (Golden Band, Prosperity Factor, Silent Factor, Rarities Factor, and Wisdom Factor).
+- The Temple of Thoth is associated with the Library of Thoth.
 
 ## Connected Areas
 
@@ -21,12 +22,15 @@ TBD
 - Tikun Thane (presumed to be The Thane) [[sessions/Session 34a - Hunting the Thane.md|Session 34a]]
 - Gedric Malachite, the Priest of Zodarrim
 - Gedric Malachite, Priest of Zodarrim [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14]]
+- Stamelis, Librarian Emeritus of Thoth and Remagis, a priest of Thoth
 
 ## Notes
 
 TBD
 - The god Odin has a temple located in Newmarket.
 - The Priest of Zodarrim, Gedric Malachite, has warned travelers to be wary of dopplegangers. [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14]]
+- A reward for Lillian's return was posted in Newmarket.
+- The Temple of Thoth is currently being used by the Cult of Set.
 
 ## Discord Insights
 

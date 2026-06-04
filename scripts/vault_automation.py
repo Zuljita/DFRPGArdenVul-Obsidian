@@ -5381,14 +5381,20 @@ def apply_article_edit_to_text(text: str, edit: dict) -> tuple[str, bool, str]:
         return text, False, "empty proposed_text"
     if proposed_text in text:
         return text, False, "already present"
-    # Near-duplicate check: if any existing bullet shares the first 40 chars with the proposed
-    # bullet, treat it as already present. Catches slight rewordings from multiple session passes.
+    # Near-duplicate check: if any existing bullet shares the first 25 chars (after
+    # stripping trailing plural 's') with the proposed bullet, treat it as already present.
+    # Uses 25 chars (not 40) to catch "stair"/"stairs" and similar word-boundary variants
+    # that diverge just past a stem.
     if addition_type == "append_bullet_to_section":
-        needle = re.sub(r"\s+", " ", proposed_text.lstrip("- ").strip())[:40].lower()
-        if needle and len(needle) >= 20:
+        def _dedup_key(s: str) -> str:
+            s = re.sub(r"\s+", " ", s.lstrip("- ").strip()).lower()[:30]
+            # Normalize plural 's' at word boundaries so "stair" == "stairs"
+            s = re.sub(r"s\b", "", s)
+            return s
+        needle = _dedup_key(proposed_text)
+        if needle and len(needle) >= 15:
             for existing in re.findall(r"^- (.+)", text, re.MULTILINE):
-                existing_norm = re.sub(r"\s+", " ", existing.strip())[:40].lower()
-                if existing_norm == needle:
+                if _dedup_key(existing) == needle:
                     return text, False, "near-duplicate bullet already present"
     if addition_type == "append_bullet_to_section":
         pat = re.compile(rf"^## {re.escape(target_section)}\s*$", re.MULTILINE)

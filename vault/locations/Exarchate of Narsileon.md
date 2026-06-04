@@ -12,3 +12,11 @@ A territory of the Empire that was abandoned as a result of the civil war caused
 
 The organization Drome is based in Narsileon, led by Keko the Lame.
 
+Balthazar also resides here following his adventuring life.
+
+Messages can reach the location in less than a day, though items travel slowly.
+
+The Rarities Factor branch provides banking, letters of credit, and shipping via mule caravan.
+
+Due to a deal regarding Larel's Dagger, the Rarities Factor branch offers free storage for the party.
+

@@ -33,6 +33,7 @@ All five cohorts were lost in a bloody battle at the [[Cavern of Blood]].
 - [[factions/Adrienic Expedition.md|Guardsmen of the tagmata]] were destroyed by summoned demons.
 - Their battle standards were also lost in the [[Cavern of Blood]].
 - Official insignia features a sheep, distinct from the Sheep's Head Legion.
+- A herald at the Azure Keep identified a silver sheep’s head plate as the insignia of the 2nd Legion.
 
 ## Members
 

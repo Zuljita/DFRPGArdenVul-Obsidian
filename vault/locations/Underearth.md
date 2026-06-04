@@ -30,3 +30,4 @@ TBD
 - Following the conquest of the Heqeti Ziggurat by [[Marius Tricotor]], the surviving heqeti retreated into this region.
 - The heqeti are considered "purely evil."
 - The conquest of the Heqeti Ziggurat by [[Marius Tricotor]] occurred in 1051 AEP.
+- The destruction of the Heqeti Upper Temple was a key event in the historical conflict involving the Rudishva, Varumani, Varuda, and Kalyani forces.

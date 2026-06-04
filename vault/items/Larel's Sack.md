@@ -1,6 +1,8 @@
 ---
 title: "Larel's Sack"
 tags:
+  - status/contaminated
+  - session/24b
   - item
 ---
 # Larel's Sack
@@ -12,6 +14,7 @@ tags:
 
 ## Notes
 - Contains decoy items alongside concealed good ones.
+- Its concealed good items were identified following a critical success on a Per+Magery roll.
 
 ## Sessions
 - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]

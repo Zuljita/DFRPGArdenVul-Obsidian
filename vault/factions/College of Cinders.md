@@ -24,3 +24,6 @@ A college or organization of mages.
 - [[Cerbactos]] was an archmage of the college. - [[notes/Collegium of Cinders.md|Discord Insights]]
 - The stolen tomes are believed to be in the general vicinity of Arden Vul. - [[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]]
 - The outcome of [[Asrotelion]]'s departure to confront Cerbactos is currently unknown. - [[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]]
+- These institutions historically controlled magic, against whom the Sortians rebelled. - [[notes/approved churches and colleges.md|Discord Summary 2025-W46]]
+- Historically controlled magic, against which the Sortians rebelled. - [[notes/approved churches and colleges.md|Discord Summary 2025-W46]]
+- Asrotelion located Cerbactos by casting a `Seeker` spell.

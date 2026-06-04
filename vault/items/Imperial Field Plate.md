@@ -1,5 +1,7 @@
 ---
 tags:
+  - type/armor
+  - session/51
   - item
   - identity/uncertain
 status: stub

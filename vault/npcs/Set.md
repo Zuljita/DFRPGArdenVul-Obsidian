@@ -13,6 +13,8 @@ tags:
 ## Roles & Influence
 - Patron of the [[Cult of Set]] active in and around the ruins; their temples, forums, and caverns are recurring objectives in sessions.
 - Names many features (e.g., [[locations/Forum of Set.md|Forum of Set]]), which are location references rather than the entity himself.
+- His followers are known for using Was sticks, Set animals, and wearing red scale armor.
+- One such feature is the Red Bridge of Set, a red granite bridge flanked by Settite statues that spans a chasm.
 
 ## First Appearance
 
@@ -30,6 +32,7 @@ Malevolent.
 ## Notes
 
 TBD
+- There are no known independent clerics of Set outside the cult.
 
 ## Discord Insights
 

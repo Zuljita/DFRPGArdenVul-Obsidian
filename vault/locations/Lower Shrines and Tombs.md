@@ -10,6 +10,10 @@ tags:
 TBD
 - Eight shrines, seven of which are closed off behind magical force fields; the open shrine contains a book, a quill, and Mithric writing.
 - Two rows of statues of Archontean heroes (some missing).
+- Several old corpses were found in the room, appearing to have been violently killed by something strong.
+- Several old corpses that appeared to have been violently killed by something strong.
+- The corpses contained weapons, armor, coins, potions, and a scroll; Vael detected a magic sling and a magic shield.
+- A magic sling and a magic shield were detected among the items in the room.
 
 ## Connected Areas
 

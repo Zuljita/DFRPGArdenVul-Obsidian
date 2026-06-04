@@ -12,6 +12,9 @@ A group that [[Ptarmis]] claims to be able to control.
 ## Description
 
 TBD
+- Composed of various fungal creatures and other subterranean life.
+- A bioluminescent ecosystem, filled with strange and dangerous plant life.
+- They inhabit a bioluminescent ecosystem filled with strange and dangerous plant life.
 
 ## Goals
 
@@ -29,6 +32,10 @@ TBD
 ## Notes
 
 TBD
+- [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25]]: Many Fungal Foresters were present.
+- Ptarmis was known for breeding giant mushrooms and allegedly lived with them like a "weird Druid."
+- Their habitat is a bioluminescent ecosystem of giant fungi and other subterranean flora.
+- Their territory is located on the second level from the surface, where Ptarmis's tomb is sought.
 
 ## Discord Insights
 

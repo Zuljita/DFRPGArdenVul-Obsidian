@@ -13,3 +13,5 @@ related_entities:
 
 ## Sessions
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
+- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - The Tomb of Ptoh-Ristus]]
+- In Session 6, the ghost of Jacobus pointed to the map and then toward the north to communicate information regarding his tomb.

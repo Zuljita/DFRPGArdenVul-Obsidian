@@ -22,6 +22,7 @@ TBD
 - [[Torunn the Smith]] is a [[Wiskin]] woman.
 - [[Helle]] is a [[Wiskin]] woman.
 - [[Ketil]] is a [[Wiskin]] ranger.
+- [[Helle]] works as the bartender in the main common room of the Yellow Cloak Inn.
 
 ## Members
 - [[Svenbar]] is a Wiskin blacksmith.

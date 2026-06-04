@@ -18,6 +18,9 @@ TBD — add once explicit paths are identified in session notes.
 ## Notes
 - Replace this stub with specific encounters/loot when a session references this location directly.
 - A room contains two white marble sarcophagi, a large black basalt sarcophagus, and animated spearman statues.
+- The tomb can be accessed via a "back door" from the chasm, while the "front door" contains dangerous traps, including a 10'x10'x10' stone block.
+- The tomb features a 'back door' from the chasm and a dangerous 'front door' with a lethal 10'x10'x10' stone block trap.
+- Magic items found within include a pair of Rugs of Instant Access and the Death Mask of Ptoh-Ristus.
 
 ## Sources
 - No direct session recap yet linked; see nearby content under [[locations/The Tomb of Ptoh-Ristus.md|The Tomb of Ptoh‑Ristus]].

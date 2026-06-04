@@ -20,6 +20,9 @@ TBD
 ## Notes
 - A [[Shrine of Lucreon]] exists in [[Gosterwick]], known for its magical coin offering mystery.
 - When a coin is dropped into the shrine's offering box, it magically appears in the air above the statue and falls into the god's money bag.
+- The shrine is a classic, three-chamber structure consisting of an ante-cella for congregation, a cella for main rituals, and a postern for administrative offices and clergy apartments.
+- Clerics empty the god's money bag each night.
+- The main cultic object is a colossal granite statue of Lucreon holding a money bag.
 
 ## Sessions
 

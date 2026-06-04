@@ -1,11 +1,16 @@
 ---
 title: "Iron Circlet of Ghanor"
 tags:
+  - type/item
   - item
 aliases:
   - Iron Crown
   - Circlet of Ghanor
   - Iron Crown of Ghanor
+identity_hints:
+  - circlet of Ganor
+related_entities:
+  - [[items/Bone Ring of Jagri-Naz.md|Bone Ring of Jagri-Naz]]
 ---
 # Iron Circlet of Ghanor
 
@@ -15,6 +20,7 @@ aliases:
 - Part of [[npcs/Lady Alexia.md|Lady Alexia]]'s Regalia.
 
 ## Notes
+- Vael used Apportation to take the item without touching it.
 
 ## Properties
 

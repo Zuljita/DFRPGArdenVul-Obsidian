@@ -23,6 +23,7 @@ Unknown.
 
 - She is responsible for approving company charters in [[Gosterwick]].
 - Handles correspondence regarding donations of building supplies for future town walls.
+- Company charter approval in Gosterwick costs $500 and takes several weeks.
 
 ## Discord Insights
 

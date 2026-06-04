@@ -11,5 +11,6 @@ appears_in:
 - [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]
 
 ## History
+- Was killed by "K".
 
 ## Notes

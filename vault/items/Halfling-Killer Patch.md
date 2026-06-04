@@ -23,6 +23,10 @@ TBD
 - [[Vallium Halcyon]] commissioned a similar patch depicting 11 wooden mugs to commemorate a recent accomplishment.
 - Owned by [[pcs/Michael J. Dundee.md|Michael J Dundee]], [[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], [[Merenuithiel Lacrymosa Armaris|Lacrymosa]], [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]], [[pcs/Vallium Halcyon.md|Vallium Halcyon]].
 - The defeat of Plumthorn's Halflings was achieved by the United Goblins.
+- [[npcs/Bottleneck.md|Bottleneck]] gave these patches to [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]], [[pcs/Vallium Halcyon.md|Vallium]], and [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]].
+- [[npcs/Bottleneck.md|Bottleneck]] wears a halfling killer badge as part of his military uniform.
+- The patches were given to Vael, Vallium, and Ioannes to commemorate the liberation of Goblintown.
+- The defeat of [[npcs/Phlebotomas Plumthorn.md|Plumthorn's]] Halflings resulted in the Halls of Thoth being renamed Upper Goblintown.
 
 ## Notes
 

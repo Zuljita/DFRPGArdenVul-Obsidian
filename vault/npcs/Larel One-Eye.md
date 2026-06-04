@@ -1,19 +1,21 @@
 ---
 title: Larel One-Eye
 tags:
-- npc
-appears_in:
-  - Session 24b - The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines
+  - npc
 aliases:
-  - npcs/Larel
+  - Larel
+appears_in:
+  - Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines
 ---
 # Larel One-Eye
 
-## Appears In
-
-## History
-- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Shrines.md|Hall of Shrines]]]] — The room had frescoes on all the walls featuring the exploits of the Archontean folk hero [[npcs/Larel One-Eye.md|Larel One-Eye]], who both Vallium and Ioannes recognized.
+## Summary
+An Archontean folk hero from historical lore. Frescoes depicting Larel One-Eye's exploits were found in the Hall of Shrines — recognized by both Vallium and Ioannes. ([[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b]])
 
 ## Notes
-aliases:
-  - Larel
+- [[npcs/Wicktrimmer.md|Wicktrimmer]] believes strongly in Larel's historical existence and has reportedly argued the point for 20 years. ([[npcs/Wicktrimmer.md|Wicktrimmer]])
+- [[npcs/Balthazar the Blue.md|Balthazar the Blue]] apparently does not believe Larel was a real person, creating a long-standing argument with Wicktrimmer.
+- His existence, though once thought to be fictitious, has been confirmed and he is associated with a valuable pin.
+
+## Appears In
+- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]

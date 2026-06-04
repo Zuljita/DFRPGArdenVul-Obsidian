@@ -17,3 +17,4 @@ appears_in:
 ## History
 
 ## Notes
+- Was in Newmarket with Lillian and has since returned to Gosterwick. [[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]]
