@@ -6409,6 +6409,70 @@ def cmd_audit_content_claims(args: argparse.Namespace) -> int:
     return 0
 
 
+def build_newest_article_paths(limit: int) -> list[Path]:
+    """Return the most recently modified entity vault pages by filesystem mtime.
+    Used by --newest-first mode to focus on recently created/updated content."""
+    entity_dirs_to_scan = ["npcs", "locations", "factions", "items", "monsters", "concepts", "spells"]
+    paths: list[tuple[float, Path]] = []
+    for folder in entity_dirs_to_scan:
+        d = VAULT / folder
+        if not d.exists():
+            continue
+        for p in d.glob("*.md"):
+            try:
+                paths.append((p.stat().st_mtime, p))
+            except OSError:
+                continue
+    paths.sort(reverse=True)
+    return [p for _, p in paths[:limit]]
+
+
+def cmd_vault_walk_step(args: argparse.Namespace) -> int:
+    """Single propose→verify→apply pipeline step for scheduled vault walk.
+    Designed to run within the Hermes 1200-second scheduler window."""
+    import time
+    t0 = time.time()
+    newest_first: bool = getattr(args, "newest_first", False)
+    sessions_only: bool = getattr(args, "sessions_only", False)
+    limit: int = args.limit
+
+    # --- Propose ---
+    if newest_first:
+        article_paths = build_newest_article_paths(limit)
+        print(f"Vault walk step: newest-first mode, {len(article_paths)} articles", file=sys.stderr)
+    else:
+        article_paths = None
+        print(f"Vault walk step: score-queue mode, limit={limit}", file=sys.stderr)
+
+    proposals = build_article_edit_proposals(
+        article_paths=article_paths,
+        limit=limit,
+        max_additions_per_article=3,
+        top_k_per_query=5,
+        sessions_only=sessions_only,
+    )
+    write_article_edit_proposal_report(proposals)
+
+    # --- Verify ---
+    verifications = verify_article_edit_proposals()
+
+    # --- Apply ---
+    result = apply_verified_article_edits(apply_changes=True)
+
+    elapsed = int(time.time() - t0)
+    status_counts = {v.get("verifier_status", "unknown") for v in verifications}
+    print(json.dumps({
+        "ok": True,
+        "mode": "newest-first" if newest_first else "score-queue",
+        "proposals_generated": len(proposals),
+        "verified": len(verifications),
+        "applied": result.get("total_applied", 0),
+        "elapsed_seconds": elapsed,
+        "rag_collection_size": result.get("vault_rag_refresh", {}).get("collection_size"),
+    }, indent=2))
+    return 0
+
+
 def cmd_propose_article_edits(args: argparse.Namespace) -> int:
     sessions_only: bool = getattr(args, "sessions_only", False)
     from_session: str | None = getattr(args, "from_session", None)
@@ -7074,6 +7138,12 @@ def build_parser() -> argparse.ArgumentParser:
     )
     search_vault_rag.add_argument("--full", action="store_true", help="Print full chunk text instead of a 300-char preview")
     search_vault_rag.set_defaults(func=cmd_vault_rag_search)
+
+    vault_walk = sub.add_parser("vault-walk-step", help="Single propose→verify→apply pipeline step for scheduled vault enrichment")
+    vault_walk.add_argument("--limit", type=int, default=10, help="Articles to process per step (default 10)")
+    vault_walk.add_argument("--newest-first", action="store_true", help="Sort by modification time (newest) instead of weakness score — for weekend catch-up runs")
+    vault_walk.add_argument("--sessions-only", action="store_true", help="Restrict research context to session chunks only")
+    vault_walk.set_defaults(func=cmd_vault_walk_step)
 
     run_context = sub.add_parser("run-context-needed", help="Find context_needed: flagged articles and run targeted --from-session passes, then clear markers")
     run_context.add_argument("--dry-run", action="store_true", help="List flagged articles without running proposals or clearing markers")
