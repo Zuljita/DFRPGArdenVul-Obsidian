@@ -5,6 +5,9 @@ tags:
 aliases:
   - Shining Beacon
   - The Shining Beacon
+context_needed:
+  - vault/sessions/Session 40 - Taking Command.md
+
 ---
 # Beacon
 

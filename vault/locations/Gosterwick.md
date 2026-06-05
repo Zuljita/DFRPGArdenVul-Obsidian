@@ -27,6 +27,7 @@ The hill in the NW is called the **Hill of the Gods**, home to all temples. Wate
 - **House of the Gods** — A temple where Uvash has discussed Zodarrim.
 - **Vacant Lot** — Located next to the Arcane Practitioners' Club, this lot contains excess stone dumped by Vael and Basil.
 - **Arcane Practitioners' Club Bulletin Board** — Features rules regarding explosive or flammable items.
+- **Rarities Factor** — [[npcs/Wicktrimmer.md|Wicktrimmer]]'s business; a collector of magical items with first refusal on anything out of Arden Vul.
 
 ## Notable Establishments
 

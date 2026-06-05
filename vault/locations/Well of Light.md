@@ -26,6 +26,7 @@ The [[locations/Waterfall.md|Waterfall]]
 - The area is known to be inhabited by albino baboons and intelligent 4-armed baboon cooks.
 - The party also recovered a magic cauldron during the session.
 - The party used magical flight to ascend from the well back to the surface.
+- The area contains a magic pool that can cause poisoning. ([[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22]])
 
 ## Maps
 - ![[attachments/discord/screenshots/1494877749725364234-image.png]] — A dungeon map showing various chambers and mana zones.

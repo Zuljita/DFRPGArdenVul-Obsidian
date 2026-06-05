@@ -24,6 +24,11 @@ An ancient, banned religious faction devoted to [[npcs/Set.md|Set]]. The group r
 - Set has a large statue in the Forum of Set and is associated with the First Mystery.
 - Stephania is identified as the High Priestess of Set.
 - The Settites' vault is located to the southwest and is reported to be locked and potentially trapped.
+- During an exploration of their territory, the party took one acolyte and one cultist prisoner.
+- After routing most cultists, the party took one acolyte and one cultist prisoner.
+- During [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c]], the party took one acolyte and one cultist prisoner after finding them hiding.
+- During the looting of the cult, one acolyte and one cultist were found hiding and taken prisoner.
+- The Settites' vault contained a bipedal boar construct.
 
 ## Sessions
 - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]

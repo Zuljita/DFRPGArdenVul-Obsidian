@@ -26,6 +26,8 @@ appears_in:
 ## Summary
 The Forum of Set was a large Settite compound in the Halls of Arden Vul, operated by the [[factions/Cult of Set.md|Cult of Set]]. It served as a marketplace, administrative hub, slave market, and fortified base for the cult. In Sessions 43a–43c, the Right for Riches company, allied with King [[npcs/Weskenim.md|Weskenim]]'s goblins, the Thorcin mercenaries (led by [[npcs/Lella and the Rippers.md|Lella the Ripper]]), and allied merchants, swept the cult out and liberated its slaves. The Forum is now under goblin control, administered by [[npcs/Gribble.md|Gribble]], Lord of the Goblin Forum, on behalf of King Weskenim.
 
+The area also hosts food stalls, such as one managed by [[npcs/Dworm.md|Dworm]].
+
 ## Access
 - **Cliff Face Entrance**: Approximately 800 feet down the cliff face, marked with a red lantern. Guarded by cultists; has a basket for lowering/raising people.
 - **Sighing Stair**: From the former [[locations/Temple of Set.md|Temple of Set]] above (now cleared).
@@ -77,6 +79,9 @@ The Forum of Set was a large Settite compound in the Halls of Arden Vul, operate
 ### Guild of Service Area (East)
 - Slave pits — four types found: better-fed slaves, average slaves, low-value slaves, and a pit of mostly dead/dying slaves.
 - All survivors freed and directed to Gosterwick.
+- **Pantry**: An area found north of the main forum.
+- **Library of Set**: Located northwest of the pantry.
+- **Pantry**: An area located north of the Forum.
 
 ## Current Status (Session 44+)
 Under goblin control. [[npcs/Gribble.md|Gribble]] (Lord of the Goblin Forum) oversees security with a dozen goblin guards. The goblins are focused on making the route from [[locations/Upper Goblintown.md|Upper Goblintown]] to the Forum safe. A food stall is operated by [[npcs/Dworm.md|Dworm]] (standing in until a proper merchant moves in). Varumani ambassadors are buying food from the surface and providing economic support. Several surface merchants (including [[npcs/Galadnor.md|Galadnor]], [[npcs/Horace Trych.md|Horace Trych]], and Claudine of Narsileon) have stalls here.

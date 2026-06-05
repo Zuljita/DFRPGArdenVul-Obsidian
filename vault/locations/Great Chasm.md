@@ -23,3 +23,4 @@ aliases:
 - A treasure map to a secret door on the east side of the Great Chasm is located north of the Sundered Span.
 - The Varumani Lifts also provide cross-chasm ferry service to the far (west) side of the Chasm.
 - The Goblin King reportedly demands tribute for entry when accessing the goblin city via the great stone seat.
+- An underground pond is located here, featuring docks with rowboats, a sandy island, and a cave entrance containing crystal formations.
