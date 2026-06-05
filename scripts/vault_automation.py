@@ -4610,6 +4610,7 @@ def article_edit_proposer_prompt(
         "Return strict JSON only. No commentary, no markdown fences, no preamble. Schema:\n"
         "{\n"
         '  "research_queries": ["optional focused RAG query"],\n'
+        '  "context_sessions": [],\n'
         '  "proposals": [\n'
         "    {\n"
         '      "addition_type": "append_bullet_to_section",\n'
@@ -4622,7 +4623,11 @@ def article_edit_proposer_prompt(
         "    }\n"
         "  ]\n"
         "}\n\n"
-        "Return {\"research_queries\": [], \"proposals\": []} if the evidence does not support any addition."
+        "context_sessions: If the evidence is insufficient because the article needs a SPECIFIC session's full text "
+        "(not just RAG chunks), list the exact session file names here (e.g. 'Session 27 - The Tomb of Ptoh-Ristus'). "
+        "This flags the article for a targeted --from-session run. Only populate when you can identify a specific "
+        "named session that would provide the missing context. Leave empty otherwise.\n\n"
+        "Return {\"research_queries\": [], \"context_sessions\": [], \"proposals\": []} if the evidence does not support any addition."
     )
 
 
@@ -4956,7 +4961,11 @@ def build_article_edit_proposals(
                     )
                 except Exception:
                     continue
+        # If LLM flagged specific sessions needed and produced no proposals, write context_needed marker.
+        context_sessions = [str(s) for s in (response.get("context_sessions") or []) if s]
         raw_proposals = response.get("proposals") or []
+        if context_sessions and not raw_proposals:
+            _write_context_needed(path, context_sessions)
         for raw in raw_proposals[:max_additions_per_article]:
             if not isinstance(raw, dict):
                 continue
@@ -6004,6 +6013,137 @@ def apply_verified_article_edits(apply_changes: bool, limit: int | None = None) 
     return payload
 
 
+def _write_context_needed(article_path: Path, session_names: list[str]) -> None:
+    """Append context_needed: frontmatter to an article when the LLM identifies specific
+    sessions it needs but couldn't get from RAG chunks alone."""
+    try:
+        text = article_path.read_text(encoding="utf-8")
+    except Exception:
+        return
+    fm_match = re.match(r"^---\n(.*?)\n---\n", text, re.DOTALL)
+    if not fm_match:
+        return
+    fm = fm_match.group(1)
+    rest = text[fm_match.end():]
+    # Resolve partial session names to vault paths
+    session_paths: list[str] = []
+    sessions_dir = VAULT / "sessions"
+    for name in session_names:
+        name_clean = name.strip()
+        # Try exact match first, then prefix match
+        exact = sessions_dir / f"{name_clean}.md"
+        if exact.exists():
+            session_paths.append(f"vault/sessions/{name_clean}.md")
+            continue
+        # Prefix/substring match
+        matches = [p for p in sessions_dir.glob("*.md") if name_clean.lower() in p.stem.lower()]
+        if matches:
+            session_paths.append(matches[0].relative_to(ROOT).as_posix())
+        else:
+            session_paths.append(name_clean)  # store raw name if can't resolve
+    if not session_paths:
+        return
+    # Don't duplicate existing entries
+    existing = re.findall(r"context_needed:\s*\n((?:  - .+\n)*)", fm)
+    already = set()
+    if existing:
+        already = set(re.findall(r"  - (.+)", existing[0]))
+    new_paths = [p for p in session_paths if p not in already]
+    if not new_paths:
+        return
+    # Write or extend context_needed block
+    cn_match = re.search(r"^context_needed:\s*\n((?:  - .+\n)*)", fm, re.MULTILINE)
+    if cn_match:
+        insertion = cn_match.group(0) + "".join(f"  - {p}\n" for p in new_paths)
+        new_fm = fm.replace(cn_match.group(0), insertion, 1)
+    else:
+        new_fm = fm.rstrip() + "\ncontext_needed:\n" + "".join(f"  - {p}\n" for p in new_paths)
+    article_path.write_text(f"---\n{new_fm}\n---\n{rest}", encoding="utf-8")
+
+
+def _clear_context_needed(article_path: Path) -> None:
+    """Remove context_needed: frontmatter after a successful context run."""
+    try:
+        text = article_path.read_text(encoding="utf-8")
+    except Exception:
+        return
+    fm_match = re.match(r"^---\n(.*?)\n---\n", text, re.DOTALL)
+    if not fm_match:
+        return
+    fm = fm_match.group(1)
+    rest = text[fm_match.end():]
+    new_fm = re.sub(r"context_needed:\s*\n(?:  - .+\n)*", "", fm, flags=re.MULTILINE)
+    if new_fm != fm:
+        article_path.write_text(f"---\n{new_fm.rstrip()}\n---\n{rest}", encoding="utf-8")
+
+
+def cmd_run_context_needed(args: argparse.Namespace) -> int:
+    """Find vault pages flagged with context_needed: frontmatter and run targeted
+    --from-session --sessions-only passes for each referenced session, then clear the marker."""
+    skip_dirs = {".obsidian", "attachments", "templates"}
+    cn_re = re.compile(r"^context_needed:\s*\n((?:  - .+\n)+)", re.MULTILINE)
+
+    # Collect: {session_path -> [article_paths]}
+    session_to_articles: dict[str, list[Path]] = {}
+    flagged_articles: list[Path] = []
+
+    for md_path in sorted(VAULT.rglob("*.md")):
+        if any(part in skip_dirs for part in md_path.parts):
+            continue
+        try:
+            text = md_path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        m = cn_re.search(text[:1000])
+        if not m:
+            continue
+        session_refs = re.findall(r"  - (.+)", m.group(1))
+        flagged_articles.append(md_path)
+        for ref in session_refs:
+            session_path = ref.strip()
+            session_to_articles.setdefault(session_path, []).append(md_path)
+
+    if not flagged_articles:
+        print("No articles flagged with context_needed.")
+        return 0
+
+    print(f"Found {len(flagged_articles)} flagged article(s) across {len(session_to_articles)} session(s).")
+    for session_path, articles in sorted(session_to_articles.items()):
+        full_session = ROOT / session_path if not session_path.startswith("/") else Path(session_path)
+        if not full_session.exists():
+            print(f"  SKIP (not found): {session_path}", file=sys.stderr)
+            continue
+        article_names = [a.stem for a in articles]
+        print(f"  Running --from-session {session_path} → covers: {', '.join(article_names[:4])}"
+              + (f" +{len(article_names)-4} more" if len(article_names) > 4 else ""))
+        if not args.dry_run:
+            # Use the flagged articles directly (--article mode) rather than extracting
+            # session wikilinks — the flagged pages may not be wikilinked in the session
+            # even though the session contains relevant content.
+            entity_paths = articles
+            proposals = build_article_edit_proposals(
+                article_paths=entity_paths,
+                limit=-1,
+                max_additions_per_article=3,
+                top_k_per_query=6,
+                sessions_only=True,
+            )
+            if proposals:
+                added, total = merge_article_edit_proposals(proposals)
+                print(f"    → {added} new proposals merged (total queue: {total})")
+            else:
+                print(f"    → No new proposals generated")
+
+    if not args.dry_run:
+        # Clear context_needed from all successfully processed articles
+        for md_path in flagged_articles:
+            _clear_context_needed(md_path)
+        print(f"\nCleared context_needed from {len(flagged_articles)} article(s).")
+        print("Next step: python3 scripts/vault_automation.py verify-article-edits")
+
+    return 0
+
+
 def cmd_check_title_integrity(args: argparse.Namespace) -> int:
     """Check that every vault page's H1 heading matches its frontmatter title (or filename stem).
     Also flags any H1 that contains a wikilink, which is always a content error."""
@@ -6911,6 +7051,10 @@ def build_parser() -> argparse.ArgumentParser:
     )
     search_vault_rag.add_argument("--full", action="store_true", help="Print full chunk text instead of a 300-char preview")
     search_vault_rag.set_defaults(func=cmd_vault_rag_search)
+
+    run_context = sub.add_parser("run-context-needed", help="Find context_needed: flagged articles and run targeted --from-session passes, then clear markers")
+    run_context.add_argument("--dry-run", action="store_true", help="List flagged articles without running proposals or clearing markers")
+    run_context.set_defaults(func=cmd_run_context_needed)
 
     audit_claims = sub.add_parser("audit-content-claims", help="Audit uncited bullets in vault pages against the RAG — surfaces potential fabrications")
     audit_claims.add_argument("--kinds", default=None, help="Comma-separated entity kinds to audit (npc,location,faction,item,monster). Default: all.")
