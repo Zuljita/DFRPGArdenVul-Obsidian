@@ -5415,12 +5415,16 @@ def apply_article_edit_to_text(text: str, edit: dict) -> tuple[str, bool, str]:
     # that diverge just past a stem.
     if addition_type == "append_bullet_to_section":
         def _dedup_key(s: str) -> str:
-            s = re.sub(r"\s+", " ", s.lstrip("- ").strip()).lower()[:30]
-            # Normalize plural 's' at word boundaries so "stair" == "stairs"
+            # Strip wikilinks to plain text first
+            s = re.sub(r"\[\[(?:[^\]|]+\|)?([^\]]+)\]\]", r"\1", s)
+            s = re.sub(r"\[\[([^\]]+)\]\]", r"\1", s)
+            s = re.sub(r"\s+", " ", s.lstrip("- ").strip()).lower()
+            # Normalize punctuation and plural-s so variants compare equally
+            s = re.sub(r"[,;:.!?]", "", s)
             s = re.sub(r"s\b", "", s)
-            return s
+            return s[:20]  # 20 chars after normalization catches most variants
         needle = _dedup_key(proposed_text)
-        if needle and len(needle) >= 15:
+        if needle and len(needle) >= 12:
             for existing in re.findall(r"^- (.+)", text, re.MULTILINE):
                 if _dedup_key(existing) == needle:
                     return text, False, "near-duplicate bullet already present"

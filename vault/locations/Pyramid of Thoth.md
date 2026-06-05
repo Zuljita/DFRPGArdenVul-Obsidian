@@ -24,6 +24,7 @@ related_entities:
 - The pyramid steps feature interesting pictures and lore.
 - Located south of the ruined Temple of Thoth.
 - The pyramid steps feature pictures that contain interesting lore.
+- The pyramid is located south of the ruined Temple of Thoth. ([[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48]])
 
 ## Maps
 - ![[attachments/discord/Loot 2025-07-04/1391161878016688342-player_map_121.webp]] — A dungeon map featuring various labeled rooms and passages.
