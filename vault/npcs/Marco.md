@@ -16,6 +16,7 @@ Likely hardened by his past and imprisonment.
 
 ## Known Associates
 None specified.
+- [[sessions/Session 18 - Back Down the Well of Light.md|Egrk]] and [[sessions/Session 18 - Back Down the Well of Light.md|Ketil]] (fellow prisoners)
 
 ## Notes
 His physical disability may be a result of past conflicts or capture.

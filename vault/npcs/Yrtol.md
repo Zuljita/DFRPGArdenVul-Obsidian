@@ -33,6 +33,7 @@ A restless ghost haunting the ruined tower near the waterfall. Initially encount
 - The spirit has been heard screaming accusations of "Settite murderers."
 - During an encounter in Session 13, he attempted to attack Chrysalis with his "Finger of Doom," which manifested as a purple doom-beam.
 - After being struck by a weapon capable of causing him pain, he retreated back into the tower's walls.
+- During his encounter with Chrysalis in Session 13, she was able to parry his attack using her glowing blue staff.
 
 ## Maps
 - ![[attachments/discord/pc-notes/1444149703871697099-temrin_map_nyema.webp]] — A top-down map showing the path to Nyema.

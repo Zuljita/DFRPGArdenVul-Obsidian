@@ -39,6 +39,10 @@ His wife is [[npcs/Maat.md|Maat]], often symbolized by a feather.
 - Stamelis, the Librarian of Thoth, exists as a magically animated head.
 - Stamelis, the Librarian of [[npcs/Thoth.md|Thoth]], exists as a magically animated head.
 - The magically animated head of Stamelis, Librarian of Thoth, has been encountered.
+- During [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4]], Ioannes received what sounded like a direct answer from Thoth by grabbing a specific pillar while asking a question.
+- Ioannes was the first player character to receive a direct answer from a deity in this campaign.
+- Direct communication with Thoth can be attempted by grabbing a specific pillar while asking a question, though this may result in an electric shock.
+- The Temple of Thoth contains Ibis Guardians that are hostile to those without a holy symbol.
 
 ## Appears In
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]

@@ -35,7 +35,7 @@ The company Chrysalis has focused heavily on legal restructuring and long-term l
 * **Equipment changes:** Currently wearing a +2 ring.
 
 **[[pcs/Vallium Halcyon.md|Vallium Halcyon]]**
-* **Town actions taken:** Paid $125 to improve his Carousing roll by +2. Visited Theopilus to commission copies of several non-magical keys (including the large keys from Session 47 and the pentagram room key) for a total cost of $100.
+* **Town actions taken:** Paid $125 to improve his Carousing roll by +2. Visited [[npcs/Theopilos.md|Theopilus]] to commission copies of several non-magical keys (including the large keys from Session 47 and the pentagram room key) for a total cost of $100.
 * **Alchemy/crafting attempts and results:** Attempted to brew an Agility Potion; the attempt failed.
 * **Research results:** Researched [[npcs/Erist Ellagelsson.md|Erist Ellagelsson]]; no information was found, though the name appears elvish in origin. Read *Great Vampire Lords and Their Demise*, which details seven slain lords and methods for resisting charm effects.
 * **Equipment changes:** Utilizing a communal Agility Potion obtained during previous expeditions.
@@ -55,7 +55,7 @@ The company Chrysalis has focused heavily on legal restructuring and long-term l
 
 **Lore & Discoveries**
 * **Teeth of Pol:** These 6-inch tall items grant +1 IQ if worn against the skin. However, wearing them causes the user to become a sarcastic, surly jerk, imposing -10 points of mental disadvantages and a -2 penalty to reactions. Two such teeth can be worn simultaneously, and their reaction penalties stack.
-* **Bracers of Haste:** Provides +1 to Basic Move.
+* **[[items/Bracers of Haste.md|Bracers of Haste]]:** Provides +1 to Basic Move.
 * **Relic of Arden Vul:** A jagged, almost weightless piece of metal with known glyphs was presented to Vallium.
 * **Scroll of Protection from Magic:** A universal scroll that creates an area (Size 2) following the caster for 1d minutes. Within this area, magic is suppressed (effectively a "no mana" zone). The scrolls cannot be copied by the APC.
 
@@ -71,7 +71,7 @@ The company has outlined several objectives for the upcoming session:
 * **Logistics:** Perform town business, including *Blessing* Uvash and purchasing food for the Goblin Forum. The party intends to summon the [[npcs/Avatar of Bastet.md|Avatar of Bastet]] if necessary.
 * **Exploration Path:** Utilize the Rugs to reach the [[locations/Beacon.md|Beacon]], then use the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to reach the Vault. The route will proceed through the acidic pool room and the room containing the Chaotic Sweat.
 * **The Goblin Forum:** Travel east/west to deliver food and collect funds from Gribble.
-* **Clearing Operations:** Systematic clearing of the area around the Goblin Forum, beginning with the northern hallway of the Dead Inside entrance and moving toward Theskalon's Tomb. The party intends to search sarcophagi and niches using *Affect Spirits* and use *See Secrets* on newly discovered rooms.
+* **Clearing Operations:** Systematic clearing of the area around the Goblin Forum, beginning with the northern hallway of the [[locations/Dead Inside Entrance.md|Dead Inside entrance]] and moving toward Theskalon's Tomb. The party intends to search sarcophagi and niches using *Affect Spirits* and use *See Secrets* on newly discovered rooms.
 * **Contingency (Neferet):** If five members are present for a confrontation with Neintet, the plan involves using *Seeker* to locate her, utilizing the teleportation pads to reach the Vault/Acidic Pool, and moving toward the Tower of Scrutiny. The party will use *Trace* to triangulate her position and employ ranged weapons, area spells (*Wall of Lightning*, *[[items/Returning Javelin.md|Returning Javelin]]*), and *Feathers of Maat* to counter her "Blink" ability and the Scrutiny Wraiths.
 
 **Unresolved Threads**

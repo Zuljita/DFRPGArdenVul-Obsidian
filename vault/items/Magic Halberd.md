@@ -1,6 +1,7 @@
 ---
 title: "Magic Halberd"
 tags:
+  - session/3
   - item
   - item/weapon
   - item/magic

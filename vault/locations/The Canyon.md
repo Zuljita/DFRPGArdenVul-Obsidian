@@ -21,6 +21,7 @@ TBD
 - Features Rudishva architecture and hidden turrets [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]].
 - A pool of green liquid with Rudishva glyphs contains buttons that can display images of various locations, such as the Arena, Sundered Span, and a garden island in the Great Chasm.
 - A Varumani Passport was discovered during exploration of this area. [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]]
+- Stirge Lair Notes detail a failed expedition involving the Obsidian Gate, the Chamber of Life, and the Drowned Canyon.
 
 ## Maps
 - ![[attachments/discord/screenshots/1487297754572259492-image.png]] — A battle map of Drowned Canyon.

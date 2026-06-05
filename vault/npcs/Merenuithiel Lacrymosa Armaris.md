@@ -27,6 +27,7 @@ Merenuithiel Lacrymosa Armaris (known as **Lacrymosa**) is an elven mercenary ar
 She was raised as an assassin at the [[locations/Temple of Tychias.md|Temple of Tychias]].
 
 She was also recruited by the company to revisit the Great Cavern during Session 15.
+- Recruited alongside GOAT (a druid) to revisit the Great Cavern in [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15]].
 
 ## Abilities
 - Highly skilled archer with rapid rate of fire; under [[spells/Great Haste.md|Great Haste]] (cast by Vael) she was essentially a one-woman firing line.

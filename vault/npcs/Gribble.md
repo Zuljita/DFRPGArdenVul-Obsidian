@@ -33,3 +33,5 @@ He was previously a captured goblin noble.
 - [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
 - [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c]]
+- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53]]
+- [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]

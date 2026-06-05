@@ -1,6 +1,8 @@
 ---
 title: "Magic Bracer"
 tags:
+  - session/6
+  - session/3
   - item
   - item/armor
   - item/magic

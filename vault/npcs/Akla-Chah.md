@@ -39,6 +39,8 @@ She appears as a translucent, 7-foot-tall, spindly hologram with brown skin and 
 - Vael hired [[Basil of Narsileon]] to turn pages for Akla-Chah and [[Stamelis]] in the [[Beacon]].
 - [[sessions/Session 34c - Burglary and Death.md|Session 34c]] - Vael hired Basil to turn pages for Akla-Chah and Stamelis in the Beacon.
 - In [[sessions/Session 34c - Burglary and Death.md|Session 34c]], Vael hired Basil to turn pages for Akla-Chah and Stamelis in the Beacon.
+- [[Basil of Narsileon]] was hired to turn pages for her and [[Stamelis]] in the [[Beacon]].
+- In [[sessions/Session 34c - Burglary and Death.md|Session 34c]], Basil was hired to turn pages for Akla-Chah and Stamelis in the Beacon.
 
 ## Sessions
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]

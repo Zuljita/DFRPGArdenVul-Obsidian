@@ -27,5 +27,6 @@ related_entities:
 
 ## Members
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Vallium Halcyon]] (fighter)
+- [[sessions/Session 2 - Halfling Rent-Seekers.md|Ioannes Grammatikos Byzantios]] (cleric of Demma)
 
 ## Sessions

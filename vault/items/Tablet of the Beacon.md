@@ -24,3 +24,5 @@ tags:
 - [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
 - [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
+- [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]
+- [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]

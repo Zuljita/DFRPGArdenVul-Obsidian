@@ -15,6 +15,7 @@ tags:
 - Names many features (e.g., [[locations/Forum of Set.md|Forum of Set]]), which are location references rather than the entity himself.
 - His followers are known for using Was sticks, Set animals, and wearing red scale armor.
 - One such feature is the Red Bridge of Set, a red granite bridge flanked by Settite statues that spans a chasm.
+- His followers are associated with 'Settite darkness', which can be seen through using specific magical goggles.
 
 ## First Appearance
 

@@ -1,6 +1,9 @@
 ---
 tags:
+  - session/3
   - item
+aliases:
+  - Rod of Office
 ---
 
 # Magical Rod of Office
