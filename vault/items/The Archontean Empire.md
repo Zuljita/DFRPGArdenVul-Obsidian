@@ -17,5 +17,8 @@ A book or tome discussing the history and workings of the [[factions/Archontean 
 
 ## Notes
 TBD
+- Covers the empire's history, including its civil war against the Sortians and its structure of 20 Worthies (including Arden).
+- Mentions that the empire survived its civil war with reduced borders.
+- Discusses the legal monopoly on magic held by The Collegium.
 
 ## Sessions

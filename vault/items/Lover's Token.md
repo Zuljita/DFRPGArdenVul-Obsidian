@@ -1,5 +1,6 @@
 ---
 tags:
+  - type/item
   - item
   - identity/uncertain
 status: stub

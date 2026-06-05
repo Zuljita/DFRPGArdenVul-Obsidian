@@ -36,12 +36,12 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
 
-**Vallium Halcyon**
+**[[pcs/Vallium Halcyon.md|Vallium Halcyon]]**
 * **Town actions taken:** 
     * Consulted [[npcs/Torunn the Smith.md|Torunn]] regarding the processing of Behir hide; learned that Nikandros is the only proficient leatherworker in town capable of producing armor from such materials.
     * Visited Nikandros to commission two suits of armor: one Flexible Behir Leather (DR 1) and one Hard Behir Leather (DR 2). The cost was double that of standard leather armor, paid upfront.
     * Consulted [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]] regarding the company's equity in the Mt. Juventus Iron Mine Trust.
-    * Visited Theopilus to commission a copy of a newly acquired key ($10).
+    * Visited [[npcs/Theopilos.md|Theopilus]] to commission a copy of a newly acquired key ($10).
     * Attempted to investigate the whereabouts of [[npcs/Asrotelion.md|Asrotelion]] (Assistant Department Head, Collegium of Cinders) via local inquiries; no sightings were reported.
     * Conducted research into the figure [[npcs/Kerbog Khan.md|Kerbog Khan]] through carousing and social inquiry; no definitive information was found regarding his current status or history.
 * **Alchemy/crafting attempts and results:** Successfully brewed an Agility Potion.
@@ -104,7 +104,7 @@ The company intends to execute the following during the next session:
  $\text{Use}$ the Rudishva Teleportation Pad to reach the [[locations/Cloister.md|Cloister]], proceeding through secret passages (southwest, then north along water, then east).
 3. Explore the area containing the "Troll Lifts and Arena W" map, with a specific intent to ambush Lesser and Bestial Varumani.
 4. Investigate the surgical bay area.
-5. If the area is cleared, return to the Behir caves to continue exploration.
+5. If the area is cleared, return to the [[locations/Behir Caves.md|Behir caves]] to continue exploration.
 6. Attempt to scry the five remaining unknown Teleportation Circle codes.
 
 **Unresolved Threads**

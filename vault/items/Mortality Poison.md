@@ -1,5 +1,8 @@
 ---
 tags:
+  - type/poison
+  - status/destroyed
+  - culture/halfling
   - item
   - identity/uncertain
 status: stub

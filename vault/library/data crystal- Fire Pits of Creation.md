@@ -2,6 +2,7 @@
 title: "data crystal: Fire Pits of Creation"
 type: data-crystal
 tags:
+  - culture/heqeti
   - type/chthonic
   - status/read
   - type/technology

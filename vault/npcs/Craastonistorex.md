@@ -16,6 +16,8 @@ aliases:
 
 He has made a deal with the party to act as "Wardens of the Dam" in exchange for tribute.
 
+He is also described as an ancient dragon.
+
 ## Disposition
 
 Hostile and extremely dangerous, but willing to negotiate if it serves his interests.
@@ -31,6 +33,7 @@ Hostile and extremely dangerous, but willing to negotiate if it serves his inter
 - In [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29]], the party planned to leave a set of silver chess pieces on the dam as tribute for him.
 - The party planned to leave a set of silver chess pieces on the dam as tribute for him.
 - The plan to leave tribute on the dam was still being pursued in [[sessions/Session 31 - I Want to Believe.md|Session 31]].
+- He is an ancient dragon.
 
 ## Relationships
 - [[Briar]]: pet wyvern serving as a scout and enforcer.

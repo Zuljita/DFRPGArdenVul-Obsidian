@@ -34,5 +34,6 @@ appears_in:
   - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]] — What Actually Happened: Vael got a tip from [[npcs/Creon.md|Creon]] the pawnbroker than an interesting item was available, and it turned out to be the Eyes of [[npcs/Set.md|Set]], some goggles that allegedly allowed seeing through magical darkness cast by [[factions/Cult of Set.md|Cult of Set]].
   - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — [[npcs/Creon.md|Creon]] sent Vael a note that he had some newly arrived magical items.
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — Sent Vael a note regarding newly arrived magical items (a magical knife, scale armor, and an invisibility potion); Vael paid him a tip for continued early notification.
+- [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30]] — Sent Vael a note regarding newly arrived items, including an expensive magical knife, scale armor, and an invisibility potion.
 
 ## Notes

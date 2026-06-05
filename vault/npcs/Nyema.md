@@ -17,3 +17,5 @@ The deceased wife of the ghost [[Yrtol]]. The party recovered her body from the 
 ## Notes
 - They recovered her body and her platinum torc, and buried her in front of [[Yrtol]]'s tower.
 - The party fought Set-aligned guards while exploring the [[Temple of Set]] during this search.
+- Temrin's magic map was used to locate her remains.
+- Her remains were located using a magic map from [[sessions/Session 33 - Nyema.md|Temrin]].

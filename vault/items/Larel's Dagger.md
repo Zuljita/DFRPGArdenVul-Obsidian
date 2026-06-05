@@ -19,6 +19,8 @@ The party made a deal with the [[Rarities Factor]] for free storage due to this 
 ## Notes
 TBD
 - Found in a room featuring frescoes of Larel One-Eye.
+- The room also contained a weapons rack with various knives, a cloak rack, and a desk with a golden apple and a silver letter opener.
+- Larel is an Archontean folk hero.
 
 ## Sessions
 - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]]

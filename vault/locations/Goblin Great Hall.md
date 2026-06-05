@@ -17,3 +17,4 @@ TBD
 - A squad of goblins carrying meat for 'Mr. Heads' was seen on the stairs leading from the Wet Caves.
 - The map retrieved from Leifcrim's vault detailed a route through stairs and a chasm leading toward the Forum of Set and the Temple of Set.
 - Goblins carrying heavy loads on the stairs from the Wet Caves were given the right of way.
+- Considered a more formal area compared to the nearby Goblin Warrens.

@@ -1,6 +1,7 @@
 ---
 title: "Magic Staff (glowing blue)"
 tags:
+  - site/great-cavern
   - item
   - item/weapon
   - item/magic

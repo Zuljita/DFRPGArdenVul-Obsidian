@@ -25,6 +25,7 @@ aliases:
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 - [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
 - [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
+- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]
 
 ## Roles & Influence
 - Guardian‑scholar of the [[Library of Thoth]]; dispenses lore, procedures, and cautions.

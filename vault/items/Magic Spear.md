@@ -1,6 +1,7 @@
 ---
 title: "Magic Spear"
 tags:
+  - session/3
   - item
   - item/weapon
   - item/magic

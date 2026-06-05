@@ -1,6 +1,9 @@
 ---
 title: Living Wheelbarrow
 tags:
+  - type/item
+  - status/prototype
+  - status/pending
   - item
 ---
 # Living Wheelbarrow
@@ -22,6 +25,8 @@ The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] was originally offered th
 - **Trailblazer Pledge (2,000 silver):** A personalized wheelbarrow with a customized color emblem or design. Free shipping to [[Gosterwick]]. Estimated delivery: Basilembrios 2993.
 
 [[Vael]] acquired a customized wheelbarrow, and both [[Ioannes]] and [[Onyx]] were "befuddled" by it initially. Deliveries for Adventurer and Party Pledges began by Gerakios 2993, with Trailblazer pledges focusing on unique designs.
+- As of September 22, 2025, the Adventurer and Party Pledges had been delivered.
+- Fungal foresters have expressed interest in trading cloud cap mushrooms for the item. [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25]]
 
 ## Warnings
 The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] is not self-powered, self-propelled, or self-levitating. A competent caster and *Levitation* spell is required to make use of the levitating feature. Scroll use by untrained users may result in injury or equipment loss. Designs, components, and plant details are prototypes and subject to change.

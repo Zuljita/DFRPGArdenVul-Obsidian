@@ -41,6 +41,7 @@ Thothian Teleportation Rings are magical devices created by the priests of [[Tho
 - Used extensively in the Library of Thoth and other Thothian installations
 - The Prior of Thoth issued specially constructed bags to protect the fragile activation squares
 - Many rings were lost or destroyed during the collapse of Arden Vul
+- The Right of Riches company spent nearly 50 delves to figure out the operation of the Thothian teleportation circles.
 
 ## Known Rings
 - Rings in the [[Library of Thoth]] (controlled by senior priests)

@@ -27,3 +27,4 @@ appears_in:
 - Owners include Michael J Dundee, Vaelethron 'Vael' Sunshadow, Lacrymosa, Ioannes, and Vallium Halcyon.
 - Owned by Michael J Dundee, Vaelethron 'Vael' Sunshadow, Lacrymosa, Ioannes, and Vallium Halcyon.
 - Vallium Halcyon commissioned a similar patch depicting 11 wooden mugs to commemorate a recent accomplishment.
+- [[npcs/Bottleneck.md|Bottleneck]] wears a halfling killer badge as part of his military uniform.
