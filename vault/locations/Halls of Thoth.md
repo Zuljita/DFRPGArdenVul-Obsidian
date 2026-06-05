@@ -26,6 +26,9 @@ TBD
 - The Church of Thoth maintains a teleportation network in Arden Vul using glass activation tiles.
 - Travelers are warned not to enter the Temple of Thoth without a holy symbol of Thoth due to hostile Ibis Guardians.
 - Numerous statues of Thoth are rumored to have eyes made of huge gemstones; removing them allows contact with the deity but causes the statues to animate and attack. ([[npcs/Thoth.md|Thoth]])
+- To reach the indoor pyramid, one can head east through the ruined Temple of Thoth and then south. ([[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48]])
+- The Library of Thoth is inhabited by various creatures, including large albino baboons, logovores, and giant 4-armed intelligent baboons such as Umsko and Yamki. ([[sessions/Session 21 - The Library of Thoth.md|Session 21]])
+- Recent exploration has mapped more of the Well of Light and Glory of Thoth levels. ([[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48]])
 
 ## Maps
 - ![[attachments/discord/screenshots/1487293005105856605-image.png]] — A dungeon map featuring the Halls of Thoth and the Chamber of the Beacon.

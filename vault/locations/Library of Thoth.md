@@ -28,6 +28,7 @@ It has not been reached in recent years due to undead guards.
 - The librarian, Stamelis, was encountered as a magically animated head.
 - During encounters, Isocritis Half-Hand attempted to keep invaders quiet to prevent the logovores from growing.
 - The session also included [[npcs/Fetch.md|Fetch]], an elderly Archontean slave prisoner.
+- Ioannes researched a copy of the Litany of Light found here, which pointed to it being a forgery.
 
 ## Secret Library (Discovered Session 37)
 A secret door on the **south wall** of the librarian's chamber leads to a small room with built-in shelves and a central table.

@@ -19,6 +19,8 @@ tags:
 - Features a Set statue that can be challenging in combat.
 - Associated with Stamelis, Librarian Emeritus of Thoth, and Remagis, a priest of Thoth.
 - Features newly awakened Ibis Guardians of Thoth that are hostile to those without a holy symbol. ([[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a]])
+- Goblin guards provided cheap wooden Guest Holy Symbols to those entering the temple. [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a]]
+- Goblin guards provide cheap wooden Guest Holy Symbols to visitors. [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a]]
 
 ## Maps
 - ![[attachments/discord/pc-notes/1428922031956562093-player_map_185.webp]] — A dungeon map of the Temple of Thoth.

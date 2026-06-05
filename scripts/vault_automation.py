@@ -5382,6 +5382,25 @@ def verify_article_edit_proposals(limit: int | None = None) -> list[dict]:
     return out
 
 
+def retire_proposals_for_path(article_rel_path: str) -> int:
+    """Mark all supported proposals for a given article as already_applied.
+    Call this after manually rewriting a page so the apply pipeline won't
+    re-add old verified proposals on top of the clean content."""
+    vers_path = AUTOMATION_DIR / "proposals" / "article_edit_verifications.json"
+    if not vers_path.exists():
+        return 0
+    vers = json.loads(vers_path.read_text(encoding="utf-8"))
+    retired = 0
+    for v in vers:
+        if v.get("article_path") == article_rel_path and v.get("verifier_status") == "supported":
+            v["verifier_status"] = "already_applied"
+            v["verifier_rationale"] = "Page manually rewritten; old proposals superseded."
+            retired += 1
+    if retired:
+        write_json(vers_path, vers)
+    return retired
+
+
 def apply_article_edit_to_text(text: str, edit: dict) -> tuple[str, bool, str]:
     addition_type = edit.get("addition_type", "")
     target_section = edit.get("target_section", "")

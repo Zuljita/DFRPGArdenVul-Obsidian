@@ -17,6 +17,7 @@ A major baboon-held cave network east of the [[locations/Well of Light.md|Well o
 - [[npcs/Bumpko.md|Bumpko]] is a 4-armed intelligent giant baboon from this location.
 - A room further north of the entrance contained a dead halfling and a note regarding the use of a small pyramid to access the caves.
 - A room with a door spiked slightly ajar contained a heavy magic spear with Mithric writing and a pouch of coins and small green gems.
+- Giant centipedes were encountered in the entrance room.
 
 ## Sessions
 - [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]

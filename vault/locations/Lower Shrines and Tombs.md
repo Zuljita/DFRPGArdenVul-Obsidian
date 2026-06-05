@@ -6,7 +6,7 @@ tags:
 # Lower Shrines and Tombs
 
 ## Summary
-A large room on the level below the main dungeon entrance, accessed via stairs near the Forum of Set area. Explored in Session 24b.
+A large room on a level below the main dungeon entrance, accessed via stairs near the Forum of Set area. Explored in Session 24b.
 
 ## Key Features
 - Two rows of statues of Archontean heroes (some statues missing).

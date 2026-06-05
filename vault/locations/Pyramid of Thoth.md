@@ -21,6 +21,9 @@ related_entities:
 - A lever on top of the indoor pyramid can be used to teleport to another indoor pyramid on the Well of Light level.
 - [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48 - Thothian Teleportation Rings]]
 - A lever on top of the pyramid can be used to teleport to another indoor pyramid on the Well of Light level.
+- The pyramid steps feature interesting pictures and lore.
+- Located south of the ruined Temple of Thoth.
+- The pyramid steps feature pictures that contain interesting lore.
 
 ## Maps
 - ![[attachments/discord/Loot 2025-07-04/1391161878016688342-player_map_121.webp]] — A dungeon map featuring various labeled rooms and passages.

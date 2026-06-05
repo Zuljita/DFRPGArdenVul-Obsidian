@@ -20,6 +20,8 @@ A cave region traversed by the party on routes between Goblintown and Set-linked
 - The party encountered Killick in the caves during their transit to the Goblin Market.
 - Killick can provide directions to the Troll Lifts.
 - The route through the Wet Caves includes passing through the Cave of Gog.
+- In [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35]], the party traveled south via the secret stairs behind the baboon door through the Cave of Gog and the Wet Caves to reach Goblintown.
+- The route through the Cave of Gog and the Wet Caves can be reached by heading south to secret stairs behind a baboon door [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35]].
 
 ## Sessions
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]

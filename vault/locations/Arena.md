@@ -30,6 +30,8 @@ The Arena Lord is tentatively identified as Crellik-Var, the Entertainment Offic
 - **Gamblers' Area:** Where bettors settle their bets after matches.
 - **Monster Cages:** A room with rows of cages containing arena monsters: giant beetles, hell hounds, mephits, undead, a manticore, a chimera, and owlbears.
 - **Varumani Lifts:** Nearby lifts operated by Varumani staff, giving access to the Floating Gardens and across the Great Chasm.
+- **Gladiators:** Notable combatants include [[npcs/Yerk.md|Yerk]], [[npcs/Basil.md|Basil]], and [[npcs/Nisdis.md|Nisdis]].
+- **Notable Gamblers:** Includes Ida and Odile, twin gamblers, and Razor Face.
 
 ## The Arena Lord
 The Arena is presided over by the [[npcs/Arena Lord.md|Arena Lord]], a Rudishva known as [[npcs/Arena Lord.md|Rudishva]], who announces spectacles from his box. He wears a purple jumpsuit, a white scarf, and a red bracelet (possibly a Rudishva Command Bracelet).

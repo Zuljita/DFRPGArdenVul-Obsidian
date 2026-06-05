@@ -29,6 +29,8 @@ aliases:
 - A foul-smelling cave was discovered on the eastern side of the lake.
 - A newly discovered entrance exists at the south end of the cavern.
 - A nest in a narrow corridor contained two giant lizard eggs and one made of gold, all of which were taken.
+- A locked beastman observation cage was found in the northwest part of the cavern, featuring a door into the rock wall to the north.
+- The cavern contains many twisty little passages that can be difficult to map.
 
 ## Discord Insights
 

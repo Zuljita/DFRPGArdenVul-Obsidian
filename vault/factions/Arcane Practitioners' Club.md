@@ -51,5 +51,7 @@ TBD
 - Lyssandra Astorion recently used spells to extinguish a fire that started in one of the club's apartments.
 - Members renting apartments may not keep explosive or flammable items powerful enough to damage the structure of the building in their rooms.
 - A fire occurred on the top floor of the club, which Lyssandra Astorion extinguished using spells; the fire reportedly started in one of the member apartments.
+- Members renting apartments are prohibited from keeping explosive or flammable items powerful enough to damage the building in their rooms.
+- A fire on the top floor was extinguished by Lyssandra Astorion using spells.
 
 ## Sessions
