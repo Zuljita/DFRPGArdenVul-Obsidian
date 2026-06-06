@@ -60,7 +60,7 @@ Surgical Construct
 
 2 Invisible Stalkers
 
-Gevorda, captured Varumani
+[[npcs/Gevorda.md|Gevorda]], captured Varumani
 
 [[npcs/Akla-Chah.md|Akla-Chah]], [[factions/Rudishva.md|Rudishva]] AI
 
