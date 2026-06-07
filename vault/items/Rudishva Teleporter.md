@@ -17,6 +17,8 @@ A specialized teleportation device used within the Rudishva network to connect v
   - Obsidian Gates NW South Teleporter $\rightarrow$ down 200ft
   - Obsidian Gates NW NE Teleporter $\rightarrow$ Beacon East Pad
 
+The party intends to use *Trace Teleport* or similar methods (potentially via the Returning Pebble) to determine the destinations of all accessible teleporters.
+
 ## Sources
 - [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]
 - [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]

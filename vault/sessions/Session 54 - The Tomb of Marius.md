@@ -138,7 +138,8 @@ They plan on visiting the varumani market and trying to meet the varumani Thegn.
 
 <!-- BEGIN AUTO NAV -->
 - Previous Session: [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]
-- Next Session: (none)
+- Next Session: [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55 - Varboka the Varumani Thegn]]
 - Previous Discord Summary: [[notes/Discord Summary 2026-W21.md|Discord Summary 2026-W21]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W22.md|Discord Summary 2026-W22]]
 - Original Source: https://dfwhiterock.blogspot.com/2026/05/dfrpg-arden-vul-session-54-tomb-of.html
 <!-- END AUTO NAV -->

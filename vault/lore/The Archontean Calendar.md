@@ -29,6 +29,18 @@ aliases:
   - Fidios
   - Mercedonian Days
   - Voluptarian Days
+  - Patebrius
+  - Haenubrius
+  - Toterius
+  - Hosimirius
+  - Sekremius
+  - Jelenius
+  - Isiembrius
+  - Hohrarius
+  - Besemius
+  - Setherius
+  - Vadrius
+  - Draconis
 ---
 
 # The Archontean Calendar

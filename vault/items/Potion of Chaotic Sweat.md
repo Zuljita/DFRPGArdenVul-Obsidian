@@ -1,5 +1,7 @@
 ---
 tags:
+  - type/alchemical
+  - session/45
   - item
   - identity/uncertain
 status: stub

@@ -1,5 +1,7 @@
 ---
 tags:
+  - session/40
+  - faction/rudishva
   - tradition/rudishva
   - item
 ---

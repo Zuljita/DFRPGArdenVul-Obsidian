@@ -1,5 +1,7 @@
 ---
 tags:
+  - session/41
+  - culture/rudishva
   - tradition/rudishva
   - item
 ---

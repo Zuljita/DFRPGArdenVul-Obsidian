@@ -1,8 +1,11 @@
 ---
 tags:
+  - session/49
   - item
   - identity/uncertain
 status: stub
+identity_hints:
+  - essential tool to bypass fire traps
 ---
 
 # Salamander Amulet

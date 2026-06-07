@@ -1,5 +1,9 @@
 ---
 tags:
+  - site/beacon
+  - session/40
+  - session/39
+  - session/32
   - item
   - rudishva
   - technology
@@ -25,6 +29,8 @@ Identity plaques (also called identity cards, ID badges, or access cards) are Ru
 
 ## Description
 These devices appear as cards or plaques made of various materials (plastic, metal, or crystalline) and feature color-coded security clearance levels. They interface with Rudishva door mechanisms, teleporters, security systems, and computer terminals.
+- The party attempted to use them to open a round door on the Arden level during Session 32.
+- Some variants, such as those used for the Beacon's reading room closet, are oval keycards.
 
 ## Known Variants
 

@@ -1,7 +1,13 @@
 ---
 title: Ruby Chair
 tags:
+  - session/29
+  - session/28
+  - session/22
   - item
+related_entities:
+  - [[locations/Well of Light.md|Well of Light]]
+  - [[locations/Druid's Retreat.md|Druid's Retreat]]
 ---
 # Ruby Chair
 

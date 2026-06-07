@@ -15,6 +15,8 @@ aliases:
 
 He is a middle-aged goblin with green skin, red eyes, and black hair, typically wearing fine clothing and magical leather armor.
 
+He is possibly the second richest person in [[Gosterwick]] and is considered the richest goblin.
+
 ## Background
 [[npcs/Wicktrimmer.md|Wicktrimmer]] was formerly a member of an adventuring party called [[Lost and Found]], which was led by the wizard [[Balthazar the Blue]] and the paladin [[Grimley]]. His party explored [[Arden Vul]] extensively, making it as far as the [[Obsidian Gates]] before the party disbanded when Balthazar retired.
 
@@ -22,6 +24,7 @@ Twelve years ago, [[npcs/Wicktrimmer.md|Wicktrimmer]] founded the [[Rarities Fac
 - He has not visited [[notes/The Ruins.md|The Ruins]] in years.
 - In [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35]], he sent word that he was in [[Narsileon]] procuring items from the group's shopping list.
 - In his letter during [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35]], he expressed condolences regarding Uvash's temporary death and concern over the burglary in the party's apartment.
+- He believes strongly in the historical existence of Larel and has reportedly argued this point for 20 years.
 
 ## Business & Capabilities
 As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offers banking, letters of credit, and shipping via mule caravan at cheaper rates than his competitors. He also has a number of other capabilities:
@@ -33,6 +36,8 @@ As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offe
 - Willing to house non-cash goods and provides free storage for the party following a deal regarding Larel's Dagger.
 - Extremely interested in acquiring a [[vault/items/Teleporter with 400 Mile Range.md|teleporter with 400 mile range]] to improve business logistics.
 - Competes against a powerful entity with hundreds of years of reputation.
+- He has expressed interest in purchasing large quantities of Arcanum.
+- He offers lifetime free banking at the Rarities Factor if his wizard identifies certain magical artifacts as genuine and the company sells them to him.
 
 ## Notable Interactions
 - **The Larel Artifacts:** [[npcs/Wicktrimmer.md|Wicktrimmer]]'s interest in collecting led him to negotiate a major deal with the Right for Riches Company for [[Larel's Pin]] and [[Larel's Dagger]]. His motivation was partly personal, as he wanted to prove the existence of the legendary Larel to his old friend [[Balthazar the Blue]].

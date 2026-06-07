@@ -1,5 +1,6 @@
 ---
 tags:
+  - session/3
   - item
 ---
 
@@ -19,6 +20,7 @@ An elegant band of platinum, likely worn around the head as an adornment or symb
 Found on the corpse of a noblewoman.
 
 ## Notes
+- Vael used Apportation to take the item without touching it.
 
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]

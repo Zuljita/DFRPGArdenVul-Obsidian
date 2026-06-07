@@ -1,5 +1,6 @@
 ---
 tags:
+  - faction/heqeti
   - type/battlefield
   - type/historical-site
   - site/coliseum
@@ -10,6 +11,10 @@ related_entities:
   - [[notes/demon-worshipping hoppers.md|heqeti]]
   - [[npcs/Marius Tricotor.md|Marius Tricotor]]
   - [[npcs/Crallicarus.md|Crallicarus]]
+identity_hints:
+  - site of Marius Tricotor's victory over the heqeti in 1051 AEP
+  - site of dramatic readings
+  - near the tomb of Marius Tricotor
 ---
 
 # Hopper Coliseum

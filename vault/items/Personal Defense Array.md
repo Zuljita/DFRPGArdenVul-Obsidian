@@ -1,5 +1,7 @@
 ---
 tags:
+  - status/broken
+  - culture/rudishva
   - item
 ---
 

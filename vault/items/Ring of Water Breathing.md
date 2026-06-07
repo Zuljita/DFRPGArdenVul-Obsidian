@@ -1,6 +1,7 @@
 ---
 title: "Ring of Water Breathing"
 tags:
+  - session/5
   - item
   - item/magic
 ---

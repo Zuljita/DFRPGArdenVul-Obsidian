@@ -180,9 +180,9 @@ title: Party Armory
 | orange [[factions/Rudishva.md|Rudishva]] jumpsuit | 3 | p.870 | $10 | 2025-11-21 | — |
 | [[items/Personal Defense Array.md|Personal defense array]] | 3 | p.873 | $25 | 2025-11-14 | — |
 | plasteel shield | 1 | p.874 | $200 | 2025-11-14 | — |
-| Rudishva breather | 1 | p.362 | — | 2026-02-06 | — |
-| Rudishva desert boots | 1 | p.613 | — | 2026-01-30 | — |
-| Rudishva Tactical Suit | 1 | p.358 | — | 2026-01-30 | — |
+| [[factions/Rudishva.md|Rudishva]] breather | 1 | p.362 | — | 2026-02-06 | — |
+| [[factions/Rudishva.md|Rudishva]] desert boots | 1 | p.613 | — | 2026-01-30 | — |
+| [[factions/Rudishva.md|Rudishva]] Tactical Suit | 1 | p.358 | — | 2026-01-30 | — |
 | scale suit, Fortify 1, Lighten -25% | 1 | p.695 | $4,650 | 2025-10-10 | — |
 | Set robes | 1 | p.270 | $10 | 2026-03-20 | — |
 | Suit of Set scale armor, fine, Fortify 2, Lighten 2 | 1 | p.274 | $10,000 | 2026-03-13 | — |
@@ -318,7 +318,7 @@ title: Party Armory
 | pouch | 1 | p.221 | $10 | 2026-01-02 | — |
 | quills | 1 | p.269 | — | 2026-03-20 | — |
 | Random alchemical ingredients (if available, critical success on alchemy makes the potion free, until used up) | 1 | p.129 | $1,000 | 2026-04-10 | — |
-| Rudishva seed sample | 1 | p.358 | — | 2026-01-30 | — |
+| [[factions/Rudishva.md|Rudishva]] seed sample | 1 | p.358 | — | 2026-01-30 | — |
 | satchel | 1 | p.614 | $10 | 2026-01-23 | — |
 | scroll case | 0 | p.365 | $75 | 2026-02-06 | — |
 | Scroll with some kind of code: 4 lines x 6 pairs x 2 letters | 1 | p.151 | — | 2026-01-09 | — |
@@ -495,7 +495,7 @@ title: Party Armory
 | minor healing potion | — | — | 2025-12-20 | Apartment fire — 1 minor healing potion destroyed. |
 | oil | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | oil of slipperiness (can't be grappled or restrained for a few hours) | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
-| orange Thothian robes | — | — | 2025-12-20 | Apartment fire — 2 dwarf-sized orange Thoth robes destroyed. |
+| orange [[factions/Thothian.md|Thothian]] robes | — | — | 2025-12-20 | Apartment fire — 2 dwarf-sized orange Thoth robes destroyed. |
 | poison | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | potion of berserk | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | potion of ghoul control loyalty spell for a few hours ghouls only | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |

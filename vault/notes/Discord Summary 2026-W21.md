@@ -18,7 +18,7 @@ source_week: week-ending-2026-05-29-2300-central
 
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]
-- Next Discord Summary: (none)
+- Next Discord Summary: [[notes/Discord Summary 2026-W22.md|Discord Summary 2026-W22]]
 <!-- END AUTO NAV -->
 
 # Weekly Knowledge Base: Arden Vul

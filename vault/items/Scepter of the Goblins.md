@@ -1,5 +1,6 @@
 ---
 tags:
+  - site/great-cavern
   - item
 ---
 
@@ -17,6 +18,7 @@ A magical three-foot hollow legbone drilled like a flute. In play it is also cal
 - The legbone is potentially from an ogre or troll.
 - There may be questions concerning its provenance.
 - Found in an urn surrounded by smaller wooden sticks.
+- It is carved from a troll femur. (Source: [[notes/scepter.md|Discord Summary 2025-W52]])
 
 ## Sessions
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]

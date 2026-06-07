@@ -3387,6 +3387,45 @@ def extract_candidate_evidence(name: str, source_paths: list[Path]) -> list[dict
     return evidence
 
 
+def scan_significant_npc_names(session_path: Path) -> list[str]:
+    """Extract plain-text (non-wikilinked) name candidates from a session's Significant NPCs section.
+
+    A single appearance in §Significant NPCs is strong signal an NPC warrants a page.
+    Rather than using brittle regex to decide what's an NPC vs a monster vs a group,
+    we collect ALL non-wikilinked lines and pass them through the LLM verifier, which
+    is better suited to make that judgment than a heuristic skip-list.
+
+    Only structural filtering is applied: skip blank lines, skip lines that are
+    already wikilinked (entity already has a page or known alias).
+    """
+    try:
+        text = read_text(session_path)
+    except Exception:
+        return []
+    sig_match = re.search(r"^## Significant NPCs[:\s]*$", text, re.MULTILINE)
+    if not sig_match:
+        return []
+    section_body = text[sig_match.end():]
+    next_h2 = re.search(r"^## ", section_body, re.MULTILINE)
+    if next_h2:
+        section_body = section_body[:next_h2.start()]
+
+    names: list[str] = []
+    for line in section_body.splitlines():
+        line = line.strip().lstrip("- ").strip()
+        if not line:
+            continue
+        # Skip lines that are already wikilinked — entity is tracked
+        if "[[" in line:
+            continue
+        # Extract the name: everything before the first comma, em-dash, or parenthesis
+        name = re.split(r"[,\—–(]", line)[0].strip()
+        if len(name) < 3 or re.search(r"[<>{}\[\]]", name):
+            continue
+        names.append(name)
+    return names
+
+
 def build_new_entity_proposals(source_limit: int = 10, candidate_limit: int = 50) -> list[NewEntityCandidate]:
     canonical_sources = latest_canonical_sources(limit=source_limit)
     if not canonical_sources:
@@ -3424,6 +3463,14 @@ def build_new_entity_proposals(source_limit: int = 10, candidate_limit: int = 50
             for kind, names in extracted.items():
                 for name in names:
                     raw_by_kind[kind].setdefault(name, []).append(sp)
+    # Pre-pass: scan §Significant NPCs sections of ALL session files.
+    # A single appearance there is sufficient signal — no multi-mention requirement.
+    sig_npc_names: set[str] = set()
+    for session_path in sorted((VAULT / "sessions").glob("*.md")):
+        for name in scan_significant_npc_names(session_path):
+            sig_npc_names.add(name)
+            raw_by_kind["NPC"].setdefault(name, []).append(session_path)
+
     out: list[NewEntityCandidate] = []
     for kind, by_name in raw_by_kind.items():
         for name, sources_seen in by_name.items():
@@ -3431,28 +3478,32 @@ def build_new_entity_proposals(source_limit: int = 10, candidate_limit: int = 50
             if rejected:
                 continue
             unique_sources = list({str(p): p for p in sources_seen}.values())
-            if len(unique_sources) < NEW_ENTITY_MIN_MENTIONS and len(sources_seen) < NEW_ENTITY_MIN_MENTIONS:
+            from_armory = any(str(p) == str(PARTY_ARMORY_PATH) or str(p).endswith("Party Armory.md")
+                              for p in unique_sources)
+            from_sig_npcs = name in sig_npc_names
+            # Single-mention threshold for Party Armory inventory and §Significant NPCs entries
+            min_mentions = 1 if (from_armory or from_sig_npcs) else NEW_ENTITY_MIN_MENTIONS
+            if len(unique_sources) < min_mentions and len(sources_seen) < min_mentions:
                 continue
             nearest_path, nearest_sim = find_nearest_existing_entity(name, kind, entity_index)
             if nearest_sim >= NEW_ENTITY_FUZZY_THRESHOLD:
                 continue
             ev = extract_candidate_evidence(name, unique_sources[:5])
-            from_armory = any(str(s.get("path", "")) == str(PARTY_ARMORY_PATH.relative_to(ROOT)) or
-                               str(s.get("path", "")).endswith("Party Armory.md")
-                               for s in ev)
-            min_mentions = 1 if from_armory else NEW_ENTITY_MIN_MENTIONS
             if len(ev) < min_mentions:
                 continue
             proposal_id = hashlib.sha1(f"{kind}|{name}".encode("utf-8")).hexdigest()[:12]
-            rationale = (
-                f"Listed in Party Armory (current inventory); "
-                f"no existing vault/{IAC_KIND_TO_DIR[kind]}/ page found "
-                f"(nearest match similarity={nearest_sim:.2f})."
-            ) if from_armory else (
-                f"Mentioned across {len(ev)} canonical sources; "
-                f"not found in existing vault/{IAC_KIND_TO_DIR[kind]}/ pages "
-                f"(nearest match similarity={nearest_sim:.2f})."
-            )
+            if from_armory:
+                rationale = (f"Listed in Party Armory (current inventory); "
+                             f"no existing vault/{IAC_KIND_TO_DIR[kind]}/ page found "
+                             f"(nearest match similarity={nearest_sim:.2f}).")
+            elif from_sig_npcs:
+                rationale = (f"Listed in §Significant NPCs of a session recap; "
+                             f"no existing vault/{IAC_KIND_TO_DIR[kind]}/ page found "
+                             f"(nearest match similarity={nearest_sim:.2f}).")
+            else:
+                rationale = (f"Mentioned across {len(ev)} canonical sources; "
+                             f"not found in existing vault/{IAC_KIND_TO_DIR[kind]}/ pages "
+                             f"(nearest match similarity={nearest_sim:.2f}).")
             out.append(NewEntityCandidate(
                 name=name,
                 kind=kind,
