@@ -5460,25 +5460,41 @@ def apply_article_edit_to_text(text: str, edit: dict) -> tuple[str, bool, str]:
         return text, False, "empty proposed_text"
     if proposed_text in text:
         return text, False, "already present"
-    # Near-duplicate check: if any existing bullet shares the first 25 chars (after
-    # stripping trailing plural 's') with the proposed bullet, treat it as already present.
-    # Uses 25 chars (not 40) to catch "stair"/"stairs" and similar word-boundary variants
-    # that diverge just past a stem.
+    # Near-duplicate check: use token-set similarity against ALL lines (bullets and
+    # paragraphs) so that reformulations, bold-marker variants, and "once offered" vs
+    # "offered" word-order differences are all caught.
     if addition_type == "append_bullet_to_section":
-        def _dedup_key(s: str) -> str:
-            # Strip wikilinks to plain text first
+        _STOP = {"the","a","an","and","or","in","on","at","to","for","of","with",
+                 "by","from","is","was","were","be","that","this","it","he","she",
+                 "they","who","which","his","her","their","its","not","but","as",
+                 "also","had","has","have","been","will","would","could","did"}
+        def _tok(s: str) -> set[str]:
             s = re.sub(r"\[\[(?:[^\]|]+\|)?([^\]]+)\]\]", r"\1", s)
             s = re.sub(r"\[\[([^\]]+)\]\]", r"\1", s)
-            s = re.sub(r"\s+", " ", s.lstrip("- ").strip()).lower()
-            # Normalize punctuation and plural-s so variants compare equally
-            s = re.sub(r"[,;:.!?]", "", s)
-            s = re.sub(r"s\b", "", s)
-            return s[:20]  # 20 chars after normalization catches most variants
-        needle = _dedup_key(proposed_text)
-        if needle and len(needle) >= 12:
-            for existing in re.findall(r"^- (.+)", text, re.MULTILINE):
-                if _dedup_key(existing) == needle:
-                    return text, False, "near-duplicate bullet already present"
+            s = re.sub(r"\*+", " ", s)  # strip bold/italic markers
+            s = s.lstrip("- ").strip().lower()
+            s = re.sub(r"[,;:.!?$]", "", s)
+            s = re.sub(r"\s+", " ", s)
+            return {t for t in s.split() if len(t) > 2 and t not in _STOP}
+        needle_tok = _tok(proposed_text)
+        if len(needle_tok) >= 5:
+            for line in text.splitlines():
+                line = line.strip()
+                if len(line) < 20:
+                    continue
+                line_tok = _tok(line)
+                if len(line_tok) < 4:
+                    continue
+                inter = needle_tok & line_tok
+                union = needle_tok | line_tok
+                # Reject if Jaccard similarity >= 0.65 (high overlap regardless of length)
+                if union and len(inter) / len(union) >= 0.65:
+                    return text, False, "near-duplicate content already present"
+                # Also reject if the shorter set is ≥80% contained in the longer
+                # (catches "X acquired on date" vs "X acquired on date for $N and again...")
+                shorter = min(needle_tok, line_tok, key=len)
+                if shorter and len(inter) / len(shorter) >= 0.80:
+                    return text, False, "near-duplicate content already present"
     if addition_type == "append_bullet_to_section":
         pat = re.compile(rf"^## {re.escape(target_section)}\s*$", re.MULTILINE)
         m = pat.search(text)
