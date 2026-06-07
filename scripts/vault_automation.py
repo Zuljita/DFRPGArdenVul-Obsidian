@@ -7037,6 +7037,37 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                         )
         except Exception as exc:
             metadata_edit_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
+    entity_proposal_result: dict = {"enabled": False}
+    if before["ok"]:
+        try:
+            sources_cfg = load_local_sources()
+            if sources_cfg.get("entity_proposal_enabled") and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
+                ep_source_limit = int(sources_cfg.get("entity_proposal_source_limit", 2) or 2)
+                ep_verify_limit = int(sources_cfg.get("entity_proposal_verify_limit", 20) or 20)
+                ep_apply_limit = int(sources_cfg.get("entity_proposal_apply_limit", 20) or 20)
+                ep_verify_limit_arg = None if ep_verify_limit < 0 else ep_verify_limit
+                ep_apply_limit_arg = None if ep_apply_limit < 0 else ep_apply_limit
+                ep_proposals = build_new_entity_proposals(source_limit=ep_source_limit)
+                write_new_entity_proposal_report(ep_proposals)
+                entity_proposal_result = {
+                    "enabled": True,
+                    "proposal_count": len(ep_proposals),
+                }
+                if ep_verify_limit and ep_proposals:
+                    ep_verified = verify_new_entity_proposals(limit=ep_verify_limit_arg)
+                    ep_vcounts: dict[str, int] = {}
+                    for v in ep_verified:
+                        st = str(v.get("verifier_status", "unknown"))
+                        ep_vcounts[st] = ep_vcounts.get(st, 0) + 1
+                    entity_proposal_result["verifier_status_counts"] = ep_vcounts
+                    if ep_apply_limit and ep_proposals:
+                        ep_apply = apply_verified_new_entities(apply_changes=True, limit=ep_apply_limit_arg)
+                        entity_proposal_result["applied"] = {
+                            "created": ep_apply.get("created", 0),
+                            "skipped": ep_apply.get("skipped", 0),
+                        }
+        except Exception as exc:
+            entity_proposal_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
     action_items_result: dict = {"enabled": False}
     if before["ok"]:
         try:
@@ -7100,6 +7131,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
         },
         "article_edit": article_edit_result,
         "metadata_edit": metadata_edit_result,
+        "entity_new_proposals": entity_proposal_result,
         "action_items": action_items_result,
         "vault_rag_refresh": vault_rag_refresh,
         "after_validation": after,
