@@ -1,5 +1,7 @@
 ---
 tags:
+  - session/3
+  - faction/sheepshead-rangers
   - item
 ---
 
@@ -20,6 +22,7 @@ Found by the party.
 
 ## Notes
 Could be related to the [[Sheepshead Rangers]].
+- The Sheep's Head Rangers' insignia is distinct from the Sheep's Head Legion.
 
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
