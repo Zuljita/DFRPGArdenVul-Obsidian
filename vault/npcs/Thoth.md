@@ -43,6 +43,8 @@ His wife is [[npcs/Maat.md|Maat]], often symbolized by a feather.
 - Ioannes was the first player character to receive a direct answer from a deity in this campaign.
 - Direct communication with Thoth can be attempted by grabbing a specific pillar while asking a question, though this may result in an electric shock.
 - The Temple of Thoth contains Ibis Guardians that are hostile to those without a holy symbol.
+- Removing gemstones from statues of Thoth may allow direct contact with the deity but causes them to animate and attack.
+- The Prior of Thoth issued specially constructed bags to protect the fragile activation squares used in teleportation rings.
 
 ## Appears In
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]

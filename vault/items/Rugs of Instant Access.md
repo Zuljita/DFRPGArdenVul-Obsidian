@@ -1,6 +1,7 @@
 ---
 title: "Rugs of Instant Access"
 tags:
+  - session/31
   - item
   - era/historical
 aliases:

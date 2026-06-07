@@ -1,5 +1,7 @@
 ---
 tags:
+  - session/2026-w19
+  - session/2026-w18
   - item
   - identity/uncertain
 status: stub

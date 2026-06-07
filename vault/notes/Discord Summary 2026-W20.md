@@ -76,7 +76,7 @@ The company Chrysalis successfully hunted and slew a Behir within its lair, thou
 
 **Item Intelligence**
 * **The Set Statue:** This large, rune-covered artifact is located at the site of the Behir's death. It was determined to be too massive to transport in one piece and remains in the lair, bearing sword wounds.
-* **The Dead Inside Key:** A copy of the key to the "Dead Inside" door is to be delivered to the Goblin Keymaster.
+* **The Dead Inside Key:** A copy of the key to the [[locations/Dead Inside Entrance.md|"Dead Inside"]] door is to be delivered to the Goblin Keymaster.
 
 **Tactical Planning**
 * **Cloister Operations:** The company intends to prioritize clearing all portable assets from areas connected to the [[locations/Cloister.md|Cloister]] and mapping the existing teleportation network. Plans include traveling via the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to [[locations/Cloister.md|the Cloister]], moving west to the acidic pool room, and proceeding up to the room containing the Chaotic Sweat.
@@ -89,6 +89,6 @@ The company Chrysalis successfully hunted and slew a Behir within its lair, thou
 * **Maintenance:** Immediate priorities include analyzing magic and de-cursing Vaelitharon's "Set blast."
 
 **Unresolved Threads**
-* **The Rudishva Contact:** The intentions and threat level of Kahn remain unknown; the party is debating whether to maintain distance or prepare for a potential calculated assassination and looting should the turf war escalate.
+* **The [[factions/Rudishva.md|Rudishva]] Contact:** The intentions and threat level of Kahn remain unknown; the party is debating whether to maintain distance or prepare for a potential calculated assassination and looting should the turf war escalate.
 * **The Goblin Cult:** There are growing rumors of a "cult" among the goblins centered around the "GOAT," involving the sale of shards from a destroyed statue.
 * **The Statue's Fate:** The remains of the Set statue at the Behir lair remain an unaddressed element of the environment.

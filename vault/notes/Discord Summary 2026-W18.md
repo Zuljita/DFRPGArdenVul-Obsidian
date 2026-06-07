@@ -39,7 +39,7 @@ The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] c
 **[[pcs/Vallium Halcyon.md|Vallium Halcyon]]**
 * **Town actions taken:** Paid $125 to increase Carousing proficiency by +2. 
 * **Alchemy/crafting attempts and results:** Successfully brewed a Potion of Agility.
-* **Research results:** Attempted to research the Ligareon family; no interesting information was found. Read the *Book of Night Maneuvers*, which is written in Mithric and details eight famous historical heists.
+* **Research results:** Attempted to research the Ligareon family; no interesting information was found. Read the *[[items/Book of Night Maneuvers.md|Book of Night Maneuvers]]*, which is written in Mithric and details eight famous historical heists.
 * **Character advancement:** None this week.
 * **Equipment changes:** Currently utilizing the party's communal Boots of Ogre Strength.
 
@@ -54,7 +54,7 @@ The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] c
 * **Town actions taken:** Accompanied the mercenary [[npcs/Remagis.md|Remagis]] to [[locations/Gosterwick.md|Gosterwick]]; managed a budget of $300 for [[npcs/Remagis.md|Remagis]]'s supplies and acted as an interpreter.
 * **Alchemy/crafting attempts and results:** Attempted to brew a [[items/Potion of Wisdom.md|Potion of Wisdom]]; the attempt resulted in a critical failure and a localized explosion, resulting in the loss of the gold spent on materials.
 * **Research results:** Studied several texts:
-    * *The Betrayal*: A difficult text detailing how a Kaliyani named Lisst::stak got bored with peace after victory and twisted the minds of the Kaliyani against the [[factions/Rudishva.md|Rudishva]], leading to "the sickness."
+    * *The Betrayal*: A difficult text detailing how a [[factions/Kaliyani.md|Kaliyani]] named Lisst::stak got bored with peace after victory and twisted the minds of the Kaliyani against the [[factions/Rudishva.md|Rudishva]], leading to "the sickness."
     * *Tales of Larel One-Eye*: A collection of anecdotes regarding the trickster [[npcs/Larel One-Eye.md|Larel]], including his tricks involving a farmer's wife, a chicken used to distract wolves, and his theft of a wizard's spellbook in the tower of Tilgo.
     * *On the Wars of the Old Ones with the Trolls*: A tactical history of Archontean military campaigns against the Varumani.
     * Continued study of spoken [[factions/Varumani.md|Varumani]] and written Rudishva.
@@ -90,7 +90,7 @@ The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] c
     * Use the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to reach the Bastion, employing Salamander Amulets and Rugs to mitigate fire trap risks.
     * Access the cavern containing the statue mimic using the black Rudishva card.
     * Follow [[npcs/Temrin.md|Temrin]]’s map toward the location of the Tablet of the Beacon.
-* **Tower of Scrutiny Operations:** The company intends to reveal unseen areas of the map, consult the Thothian librarian, and test keys on ground-level doors. Plans include analyzing the Ibis Head/Statue and using *See Secrets* to scout the tower. There is an ongoing debate regarding whether to seal the basement with earth or demolish the tower entirely.
+* **Tower of Scrutiny Operations:** The company intends to reveal unseen areas of the map, consult the Thothian librarian, and test keys on ground-level doors. Plans include analyzing the Ibis Head/Statue and using *[[items/Wand of See Secrets.md|See Secrets]]* to scout the tower. There is an ongoing debate regarding whether to seal the basement with earth or demolish the tower entirely.
 
 **Unresolved Threads**
 * **The Lady Alexia Negotiation:** The company has yet to decide what specific reward or favor to request from [[npcs/Lady Alexia Basileon.md|Lady Alexia]] in exchange for the regalia.

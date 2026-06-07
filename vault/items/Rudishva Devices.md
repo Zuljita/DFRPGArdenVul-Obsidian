@@ -1,7 +1,10 @@
 ---
 tags:
+  - type/book
   - tradition/rudishva
   - item
+related_entities:
+  - [[items/Rudishva Identity Plaque.md|Rudishva Identity Plaque]]
 ---
 
 # Rudishva Devices

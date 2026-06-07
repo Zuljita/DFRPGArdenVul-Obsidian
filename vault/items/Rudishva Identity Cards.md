@@ -1,6 +1,8 @@
 ---
 title: "Rudishva Identity Cards"
 tags:
+  - site/beacon
+  - faction/rudishva
   - item
   - rudishva
   - redirect
@@ -11,6 +13,10 @@ aliases:
   - identity plaques
   - access cards
   - ID badges
+identity_hints:
+  - credential devices used for access control, security overrides, and system authentication
+related_entities:
+  - [[factions/Rudishva.md|Rudishva]]
 ---
 # Rudishva Identity Cards
 

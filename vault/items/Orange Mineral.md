@@ -1,6 +1,11 @@
 ---
 tags:
+  - type/mineral
+  - status/depleted
+  - site/arden-vul
   - item
+related_entities:
+  - [[locations/Arden Vul.md|Arden Vul]]
 ---
 
 # Orange Mineral
@@ -23,6 +28,7 @@ The [[city of Arden Vul]] was abandoned when the mines of this mineral ran dry. 
 
 ## Notes
 The orange rocks are a sign of magical energy.
+- This rumor advises to 'look for the orange rocks.'
 
 ## Sessions
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]

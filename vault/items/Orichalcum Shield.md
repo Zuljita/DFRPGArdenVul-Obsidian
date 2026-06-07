@@ -1,6 +1,7 @@
 ---
 title: "Orichalcum Shield"
 tags:
+  - session/3
   - item
   - item/armor
 ---
