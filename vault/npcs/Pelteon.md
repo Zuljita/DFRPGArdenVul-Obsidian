@@ -33,3 +33,7 @@ A young, vain mage and co-owner of the [[Arcane Practitioners' Club]]. She was f
 
 - A woman summoned by Lyssandra who identified a glass square as a key to a teleportation device. Pelteon desires the Gem of Insight. ([[notes/Discord Summary 2025-W13.md|Discord Summary 2025-W13]])
 - Seems to ignore Ioannes slightly less due to Ioannes's apparent wealth and impressive cat; was not impressed by a recent event, implying foresight. ([[notes/Discord Summary 2025-W22.md|Discord Summary 2025-W22]])
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507889158520049672-image0.jpg]] — A portrait of Pelteon.

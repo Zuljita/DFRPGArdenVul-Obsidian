@@ -29,4 +29,5 @@ The [[locations/Waterfall.md|Waterfall]]
 - The area contains a magic pool that can cause poisoning. ([[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22]])
 
 ## Maps
+- ![[attachments/discord/screenshots/1494877749725364234-image.png]] — A dungeon map showing the West of Well of Light and surrounding chambers.
 - ![[attachments/discord/screenshots/1494877749725364234-image.png]] — A dungeon map showing various chambers and mana zones.

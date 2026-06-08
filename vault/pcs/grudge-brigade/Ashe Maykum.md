@@ -35,6 +35,10 @@ Ashe has a well-earned reputation as the "goat-summoning druid." He is a reliabl
 - **Construction at the Beacon (Session 32):** Helped construct a stone cover over a stairway alongside Vaelethron 'Vael' Sunshadow
 
 ## Character Sheets
+- ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-3.png]] — Equipment list from Ashe Maykum's character sheet.
+- ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-2.png]] — A screenshot of the character sheet for Ashe Maykum.
+- ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-1.png]] — A character sheet for Ashe Maykum showing attributes, skills, and traits.
+- [[attachments/discord/character-sheets/1348015137726136412-Ashe_Maykum.gcs|Ashe_Maykum.gcs]]
 - ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-1.png]] — A character sheet for Ashe Maykum.
 - [[attachments/discord/character-sheets/1348015137726136412-Ashe_Maykum.gcs|Ashe_Maykum.gcs]]
 
@@ -211,3 +215,7 @@ _Generated from `1348015137726136412-Ashe_Maykum.gcs` (sheet `modified_date`: **
 - **Personal Basics** [1 lb] — $5 — in Pouch
 - **Rations** ×4 [0.5 lb] — $2 — in Pouch
 - **Water** ×4 [2 lb] — in Wineskin
+
+## Reference Images
+
+- ![[attachments/discord/The GOAT Changelog/1379484267721003189-The_GOAT_2k.png]] — A spreadsheet showing an inventory and loot list for The GOAT.

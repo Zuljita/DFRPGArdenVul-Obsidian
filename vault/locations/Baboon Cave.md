@@ -27,4 +27,5 @@ Cave areas adjacent to or within the [[locations/Howling Caves.md|Howling Caves]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 
 ## Maps
+- ![[attachments/discord/screenshots/1446679619624505375-image.png]] — A black and white illustration of Baboon Cave.
 - ![[attachments/discord/screenshots/1446679327650353212-image.png]] — A dungeon map showing the Lesser Baboon Caves South and surrounding areas.

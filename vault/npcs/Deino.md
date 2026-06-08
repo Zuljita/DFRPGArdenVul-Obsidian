@@ -17,3 +17,7 @@ Powerful beastman matriarch called "Mother," allied with [[npcs/Count Skleros.md
 - Offered limited military support (a tagma) against the dragon threat.
 - A wizard.
 - Leads a group known as the Children of Deino.
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507887093227982960-image0.jpg]] — A portrait of Deino.

@@ -50,6 +50,10 @@ aliases:
 - See also a stray reference to “Vallium Michael” in Session 16; consolidated here.
 
 ## Character Sheets
+- [[attachments/discord/character-sheets/1348347379996164179-Vallium_Halcyon_-_V01-01.gcs|Vallium_Halcyon_-_V01-01.gcs]]
+- [[attachments/discord/character-sheets/1347770876283584633-Vallium_Halcyon.gcs|Vallium_Halcyon.gcs]]
+- [[attachments/discord/character-sheets/1347765795677016066-Vallium_Halcyon.gcs|Vallium_Halcyon.gcs]]
+- [[attachments/discord/character-sheets/1347761113839702098-Vallium_Halcyon.pdf|Vallium_Halcyon.pdf]]
 - [[attachments/discord/character-sheets/1347761113839702098-Vallium_Halcyon.pdf|Vallium_Halcyon.pdf]]
 
 ## Character Sheet Snapshot
@@ -139,3 +143,7 @@ _Generated from `1348347379996164179-Vallium_Halcyon_-_V01-01.gcs` (sheet `modif
 - **Archontean Copper Piece** ×10 [0.02 lb] — $0.1 — in Purse
 - **Archontean Silver Piece** ×14 [0.02 lb] — $1 — in Purse
 - **Medium Shield** [15 lb] — $60
+
+## Maps
+
+- ![[attachments/discord/general/1505019164165804154-image.png]] — A screenshot of a successful Broadsword attack roll including modifiers like Bless and Deceptive Attack.

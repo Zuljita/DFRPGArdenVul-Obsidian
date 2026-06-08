@@ -41,3 +41,7 @@ Basil is a young Archontean man from [[locations/Narsileon.md|Narsileon]], rescu
 
 - Impressed by Vael's Shape Earth, asks Vael to dig a vertical hole for a privy, appears to be a city kid, gets extra buckets, and leaves bricks that disappear. ([[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]])
 - A character the PCs are wary might grab a sensitive letter to show to Stamelis. ([[notes/Discord Summary 2025-W52.md|Discord Summary 2025-W52]])
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507886892241260555-image0.jpg]] — A portrait of Basil.

@@ -48,5 +48,9 @@ She is described as a tall, slim, middle-aged woman with tanned skin, black hair
 ## Notes
 
 ## Portraits
+- ![[attachments/discord/NPC pictures/1507886613898723330-image0.jpg]] — A portrait of Lady Alexia.
+- ![[attachments/discord/off-topic/1504100423462686912-content.png]] — An AI-generated portrait of Lady Alexia.
+- ![[attachments/discord/off-topic/1504100332807000209-19f6a40d-20d1-4181-90d6-a1457c199a5c.png]] — An AI-generated portrait of Lady Alexia Basileon.
+- ![[attachments/discord/off-topic/1503959497389903983-image.png]] — A collage of four AI-generated portraits intended to represent Lady Alexia.
 - ![[attachments/discord/off-topic/1504100332807000209-19f6a40d-20d1-4181-90d6-a1457c199a5c.png]] — An AI-generated portrait of Lady Alexia Basileon.
 - ![[attachments/discord/off-topic/1503959497389903983-image.png]] — A collection of character portraits intended to represent Lady Alexia.

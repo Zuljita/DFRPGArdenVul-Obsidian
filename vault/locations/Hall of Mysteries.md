@@ -17,4 +17,5 @@ A dungeon area within Arden Vul, visible on player-recovered maps alongside the 
 - Likely situated within or near the Thothian complex given association with temple areas on the maps.
 
 ## Maps
+- ![[attachments/discord/general/1385948836576366652-AV_Hall_of_Mysteries.jpg]] — A dungeon map showing various rooms including the Hall of Mysteries.
 - ![[attachments/discord/general/1385948836576366652-AV_Hall_of_Mysteries.jpg]] — A dungeon map showing various chambers including the Hall of Mysteries and Second Temple.

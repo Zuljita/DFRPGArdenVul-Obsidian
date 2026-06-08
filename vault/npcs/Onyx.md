@@ -38,3 +38,7 @@ Familiars are often imbued with magical qualities and share a bond with their ma
 ## Discord Insights
 
 - A being with whom a weekly chat can be arranged for $100. ([[notes/Discord Summary 2026-W01.md|Discord Summary 2026-W01]])
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507887959590965359-image0.jpg]] — A portrait of Onyx.

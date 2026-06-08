@@ -62,6 +62,7 @@ He was also hired by the group for a mission to the Great Cavern in Session 11, 
 Works alongside the party and other delvers in the Great Cavern region. Noted for brute strength and practical problem-solving when faced with traps, doors, and heavy obstacles.
 
 ## Character Sheets
+- ![[attachments/discord/character-sheets/1370886719360073788-Thronebreaker_152-2.png]] — A screenshot of the character sheet for Thronebreaker.
 - [[attachments/discord/character-sheets/1370886719360073788-BUILD_Thronebreaker_125.gcs|BUILD_Thronebreaker_125.gcs]] — source: `#character-sheets` (2025-05-10)
 
 ## Character Sheet Snapshot

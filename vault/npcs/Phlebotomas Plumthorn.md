@@ -57,3 +57,7 @@ After numerous sessions of debate and planning, the [[factions/Right for Riches 
 - A psychotic halfling thug rumored to have taken over the top level just under the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].
 - Reportedly refuses to let anyone pass without buying an 'exploration license'.
 - His goons are said to be armed with potent magic wands.
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507889488356053114-image0.jpg]] — A portrait of Plumthorn.

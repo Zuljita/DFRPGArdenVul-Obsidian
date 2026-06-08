@@ -46,3 +46,7 @@ aliases:
 - Former human librarian of Thoth, Chief Librarian of the Arden Vul Chapter, and later a Head of Thoth and Librarian Emeritus. ([[notes/Discord Summary 2026-W01.md|Discord Summary 2026-W01]])
 - He is greatly pained by Uvash sorting books differently than he had asked Basil to, believing Thothian Mithric alphabetical order is a holy sacrament. ([[notes/Discord Summary 2026-W04.md|Discord Summary 2026-W04]])
 - Senior priests had permission to use them, and their activation squares were made of fragile Arcanum-enriched glass.
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507890237588901958-image0.jpg]] — A detailed portrait of Stamelis.

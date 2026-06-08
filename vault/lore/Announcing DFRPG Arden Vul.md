@@ -73,3 +73,7 @@ The campaign uses the Dungeon Fantasy Roleplaying Game (DFRPG) as its base rule 
 - **Software:** Foundry VTT, GCS, Discord. Voice game requires a microphone.
 - **Spoilers:** Strict "no spoilers" policy for players who have read "The Halls of [[locations/Arden Vul.md|Arden Vul]]" or watched actual plays.
 - **Difficulty:** Hard adventure, caution needed. Experience with fantasy RPGs recommended; new GURPS players advised to avoid spellcasters initially.
+
+## Maps
+
+- ![[attachments/discord/general/1347730110660214806-image.png]] — Foundry VTT login screen for the Arden Vul campaign.

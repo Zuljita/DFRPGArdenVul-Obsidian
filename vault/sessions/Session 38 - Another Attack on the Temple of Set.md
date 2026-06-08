@@ -85,3 +85,7 @@ I haven't seen a formal plan yet, but there was some discussion of following [[n
 - Previous Session: [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 - Next Session: [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
 - Discord Discussions: [[Discord Summary 2026-W02]]
+
+## Maps
+
+- ![[attachments/discord/ooc-planning/1459758899447205949-Session_38_Route.png]] — A map showing the planned route through the Beacon for Session 38.

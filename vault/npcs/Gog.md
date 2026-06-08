@@ -36,3 +36,7 @@ appears_in:
 
 - An old goblin living in an underground grotto near the arena; barters information for meat; exiled from the goblin court due to Mook's treachery. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])
 - A strange half-troll who can provide useful information. ([[notes/Discord Summary 2025-W21.md|Discord Summary 2025-W21]])
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507887152069869699-image0.jpg]] — A portrait of the NPC Gog.

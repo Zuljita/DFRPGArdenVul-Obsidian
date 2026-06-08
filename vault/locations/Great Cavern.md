@@ -36,3 +36,7 @@ aliases:
 
 - Discovered by Ptarmis, brought under Archontean control, and used by Settites as a slave pit. ([[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]])
 - The western part of the Great Cavern is probably the closest explored area to the Beacon. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])
+
+## Maps
+
+- ![[attachments/discord/general/1385832811503681536-player_map_236.webp]] — A dungeon map featuring several rooms, including the Hall of Mysteries and Pit of Fire.

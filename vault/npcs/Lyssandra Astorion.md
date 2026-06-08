@@ -34,3 +34,7 @@ Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A
 - Mentioned the [[items/Gem of Insight.md|Gem of Insight]] to Freydis the Stern, the steward to Lady Alexia Basileon.
 
 ## Sessions
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507888275019272214-image0.jpg]] — A portrait of Lyssandra.

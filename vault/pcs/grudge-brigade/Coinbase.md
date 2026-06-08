@@ -29,6 +29,8 @@ His most significant non-combat interaction involved the Cult of Set. He receive
 - Cult of Set: He was contracted by them to assassinate the party, but betrayed the contract for a better offer
 
 ## Character Sheets
+- [[attachments/discord/character-sheets/1354519001161666741-Coinbase_Ethereum_Thuringwador_130.gcs|Coinbase_Ethereum_Thuringwador_130.gcs]]
+- [[attachments/discord/character-sheets/1350927315206668361-Ethereum_Thuringwador.gcs|Ethereum_Thuringwador.gcs]]
 - [[attachments/discord/character-sheets/1350927315206668361-Ethereum_Thuringwador.gcs|Ethereum_Thuringwador.gcs]]
 
 ## Character Sheet Snapshot

@@ -17,4 +17,5 @@ During the expedition, the party managed to force Neferet to flee the immediate 
 Following the expedition, the company has focused on recovery, research, and preparation within the surrounding territories.
 
 ## Maps
+- ![[attachments/discord/screenshots/1472248621725646858-Neferet_tomb.png]] — A battle map of Neferet's Tomb from Foundry VTT.
 - ![[attachments/discord/screenshots/1472248621725646858-Neferet_tomb.png]] — A battle map of Neferet's Tomb.

@@ -122,3 +122,7 @@ They left a couple of secret doors and a staircase unexplored at the end of the 
 - Previous Session: [[sessions/Session 21 - The Library of Thoth.md|Session 21 - The Library of Thoth]]
 - Next Session: [[sessions/Session 22.5 Interlude - Bonus Downtime Recap.md|Session 22.5 - Interlude Bonus Downtime Recap]]
 - Discord Discussions: [[Discord Summary 2025-W31]], [[Discord Summary 2025-W32]], [[Discord Summary 2025-W34]]
+
+## Maps
+
+- ![[attachments/discord/Unfinished Business/1445658017692385421-image.png]] — A dungeon map screenshot from Session 22.
