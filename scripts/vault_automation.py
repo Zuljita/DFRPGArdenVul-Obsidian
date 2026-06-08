@@ -6965,8 +6965,15 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
             ae_apply_limit = int(sources_cfg.get("article_edit_apply_limit", 0) or 0)
             ae_verify_limit_arg = None if ae_verify_limit < 0 else ae_verify_limit
             ae_apply_limit_arg = None if ae_apply_limit < 0 else ae_apply_limit
-            if (queue_top or media_queue_top or walk_step) and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
+            pinned_paths: list[str] = sources_cfg.get("pinned_article_paths", []) or []
+            if (queue_top or media_queue_top or walk_step or pinned_paths) and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
                 seen: set[str] = set()
+                # Pinned paths always get a research pass regardless of queue score
+                for pp in pinned_paths:
+                    p = ROOT / pp if not Path(pp).is_absolute() else Path(pp)
+                    if p.exists() and str(p) not in seen:
+                        seen.add(str(p))
+                        selected_paths.append(p)
                 if queue_top and article_queue:
                     for it in article_queue[:queue_top]:
                         if it.path not in seen:
