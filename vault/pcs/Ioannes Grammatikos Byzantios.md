@@ -10,6 +10,30 @@ aliases:
 ---
 # Ioannes Grammatikos Byzantios
 
+## Summary
+
+Ioannes Grammatikos Byzantios is a 32-year-old Archontean cleric of [[Demma]] and the primary healer and exorcist of the [[Right for Riches]] company. Ordained in the Thothian and Settite traditions as well as his own faith, he brings an uncommonly broad theological education to the ruins of [[Arden Vul]], where his Research-15 and Occultism-15 have repeatedly unlocked practical intelligence that saved the party — from anti-scrying countermeasures to the mechanics of the [[Thothian Teleportation Rings]]. He is genuinely devout, deeply curious, constitutionally oblivious to social dynamics, and afflicted with hopeless-romantic tendencies that surface at the worst possible moments; his companions find him endearing and occasionally exasperating in equal measure. His black cat [[Onyx]], recovered from the [[Great Cavern]] after its previous owner [[Lyra]] was killed by a giant lizard, lives at the [[Rarities Factor]] in [[Gosterwick]] and serves as an ongoing emotional anchor to the surface world.
+
+## Goals & Hooks
+
+- **Lay the tower ghost to rest.** Ioannes identified the screaming spirit of the [[Haunted Tower]] as a wronged soul rather than a demon, and intends to return to uncover whatever binds it — a hidden corpse, a desecrated relic, or an unfulfilled oath. The ghost's repeated accusation of "Settite murderers" gives him a personal stake, given the company's long war against the [[Cult of Set]]. See [[#Reflections on The Tower Ghost]].
+- **Investigate Asrotelion's Seeker lead on [[Kerbog Khan]].** The party has acquired intelligence that [[Asrotelion]] located the rogue archmage Cerbactos by casting a Seeker spell; Ioannes is pursuing the possibility of using the same method — casting Seeker on one of [[Kerbog Khan]]'s dragonfly constructs — to locate the information-broker construct before committing to his blood-pact terms.
+- **Deepen standing with the Church of Demma.** Ioannes donated to the Temple's spring anti-childhood-hunger program and received a personal thank-you letter from [[Vivian]], High Priest of Demma in [[Gosterwick]]. He regards this as a spiritual obligation, not a transaction, and will continue tithing as the company's fortunes grow.
+- **Continue anti-undead operations.** Every wraith corridor, ghoul-haunted hall, and mummy sarcophagus the company clears in [[Arden Vul]] represents, to Ioannes, a direct expression of Demma's mandate. His Affect Spirits spell at level 19 makes him the linchpin of serious undead engagements.
+- **Communicate with Onyx.** Onyx has communicated (via Fael the druid's Speak with Animals, Session 54) that [[Wicktrimmer]]'s absences have left the Rarities Factor's fish supply inadequate for Onyx and all the cats of Gosterwick under his jurisdiction. Ioannes feels responsible and intends to remedy this.
+- **Advance Propaganda efforts for the Goblin Forum.** Ioannes has been actively spreading word among Gosterwick merchants that trading at the [[Goblin Forum]] of Arden Vul offers serious profit opportunities, and views the Forum's commercial revival as both good for the company's logistics and consistent with Demma's concern for community welfare.
+
+## Relationships
+
+- **[[Vivian]]** — Chief Priest of Demma in Gosterwick. A stern Thorcin cleric capable of Remove Curse and other powerful miracles. Vivian is Ioannes's ecclesiastical superior and a figure of genuine respect; the personal thank-you letter for the spring donation marked a meaningful step toward a warmer institutional relationship. Ioannes is one of very few company members who donates to the Temple.
+- **[[Uvash]] Edzuson** — Dwarven cleric of Zodarrim and the company's other divine caster. The two clerics coordinate closely on undead clearance and healing, providing redundancy that has kept the party alive in extended dungeon operations. Their theological traditions differ but their professional respect is evident.
+- **[[Vael Sunshadow]]** — Half-Elven mage and the company's primary researcher. Vael regularly brings Ioannes into research tasks where occult or theological knowledge is needed; it was Ioannes who located the text on lead-lined walls as a counter-scrying measure ([[Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]]). The relationship is collegial and intellectually compatible.
+- **[[Vallium Halcyon]]** — Archontean fighter and the company's frontline anchor. Vallium and Ioannes have delved together since Session 1 and have a functional, if temperamentally mismatched, working partnership. Vallium declined to donate to the Demma spring program; Ioannes has not commented on this.
+- **[[Lady Alexia Basileon]]** — Lord of Gosterwick and the party's nominal liege authority. The company returned two Tablets of the Beacon to Alexia and engaged her in the matter of slavery abolition; Ioannes participates in these dealings as a credentialed cleric with Clerical Investment, lending the company's requests a degree of formal legitimacy.
+- **[[Wicktrimmer]]** — Goblin proprietor of the Rarities Factor and Gosterwick's most powerful independent merchant. Onyx resides at the Rarities Factor, making Wicktrimmer unwittingly Ioannes's de facto cat-sitter. Wicktrimmer's frequent absences have become a point of mild concern.
+- **[[Onyx]]** — Ioannes's black cat, found in the Great Cavern after the death of its former owner [[Lyra]] at the hands of a giant lizard. Onyx is opinionated (per Fael's translation), imperious about his fish rations, and apparently oversees a network of Gosterwick cats. Ioannes treats him as a genuine companion and moral responsibility.
+- **[[Kerbog Khan]]** — Small bipedal construct encountered in the Goblin Market, known to possess unparalleled knowledge of Arden Vul and willing to trade it only for a blood pact from a "principal." Ioannes is one of the party members investigating how to approach or locate the construct on the party's own terms — specifically whether a Seeker spell cast on one of Kerbog Khan's dragonfly constructs could bypass the need to deal blind.
+
 ## Reflections on The Tower Ghost
 [[Ioannes]] encountered the ghost haunting the [[Haunted Tower]] at the base of the [[Waterfall]]. He concluded that the spirit, which screams accusations of "Settite murderers," is not a random haunt but a "wronged soul" with "unfinished business." Drawing on the teachings of [[Demma]] that proper rest follows proper ritual, Ioannes intends to return to the tower to uncover what binds the ghost—a hidden corpse, a desecrated relic, or an unfulfilled oath—and put it to rest, hoping it is not a demon.
 
@@ -73,7 +97,16 @@ aliases:
 - [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55 - Varboka the Varumani Thegn]]
 
 ## History
+
+Ioannes came to [[Gosterwick]] as a trained cleric, researcher, and exorcist with cross-traditional credentials in Thothian, Settite, and Demman theology — an unusual breadth that reflects his scholarly temperament rather than any ideological promiscuity. His earliest delves with what would become the Right for Riches company established his core role: healer, researcher, and handler of anything that screams at people from the spirit world. He was present for the company's first encounter with the [[Haunted Tower]] ghost, their discovery of the [[Thothian Teleportation Rings]], their sustained campaign against the [[Cult of Set]], and major undead operations including the wraith-clearing assault in Session 50 that relied on his Affect Spirits spell as its tactical centerpiece. He found [[Onyx]] in the [[Great Cavern]] on Session 11 after the cat's previous owner [[Lyra]] was killed by a lizard. In Session 54 a fountain in [[Arden Vul]] granted him a permanent +1 ST, a modest but meaningful physical improvement for a character who has always been better at thinking than fighting.
+
 ## Notes
+
+- Ioannes has the Clueless disadvantage, which produces consistent and sometimes costly gaps between his scholarly competence and his situational awareness.
+- He dislikes charlatans and false prophets — a notable trait given how much of Arden Vul runs on cult authority and manufactured mystique.
+- His Broad-Minded and Careful traits give him a more cautious and open disposition than most Archontean clerics; he is willing to engage goblin merchants, Varumani ambassadors, and former Set librarians without reflexive hostility.
+- He carries a Cloak of the Bat, a Salamander Amulet, Bracers of Force +3, and a Belt of Dwarvenkind — equipment accumulated over 55+ sessions of increasingly dangerous operations.
+- His Propaganda-15 has been actively deployed to seed enthusiasm for the [[Goblin Forum]]'s commercial potential among Gosterwick merchants.
 
 ## Character Sheets
 - [[attachments/discord/character-sheets/1497372713348497428-Ioannes20260424.gcs|Ioannes20260424.gcs]]

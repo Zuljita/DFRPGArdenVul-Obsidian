@@ -2,13 +2,51 @@
 title: "Uvash Edzuson"
 tags:
   - pc
-  - tradition/settite
-  - tradition/demma
-  - tradition/mitran
+  - tradition/zodarrim
 aliases:
   - Uvash
 ---
 # Uvash Edzuson
+
+## Summary
+
+Uvash Edzuson is a dwarven cleric of [[Zodarrim]] and a founding member of the [[Right for Riches Company]], serving as the party's primary healer and its most heavily armored frontline combatant. He fights under a Vow prohibiting edged weapons, wielding a pick and shield in mail from boots to helm, and his Honesty and stubborn sense of duty make him as reliable in negotiation as he is immovable in a shield wall. Beyond the dungeon, he is the sole Zodarrim cleric in [[Gosterwick]], running a fledgling parish from the [[House of the Gods]] with the long-term aim of constructing a dedicated dwarven church — a project that has already produced three converts, brought his wife and son down from [[Khazildor]], and put him in correspondence with the broader Zodarrim clergy. He has the distinction of being the first PC to die in Arden Vul, killed by a Disciplined fighter in the Tower of the Ape during Session 34c and subsequently resurrected by [[Jador the Just]] at the [[Church of Mitra|Church of Mitra]] in Gosterwick.
+
+## Goals & Hooks
+
+- **Kill [[Kerbog Khan]].** The party accepted a commission from [[Varboka]], Thegn of the Varumani, to eliminate Kerbog Khan — a small bipedal construct accused of performing unspeakable experiments on the Thegn's sister Gevorda. The group's next plan is to use a Seeker spell on the mage Asrotelion, believed to be tracking Khan, to locate him. Uvash was absent from Session 55, the session in which this deal was struck.
+- **Establish a permanent church of Zodarrim in Gosterwick.** Uvash holds services in the shared [[House of the Gods]], but his stated intention is to build a dedicated dwarven church with the Holy Book of Zodarrim as its central text. He has sought grants and alms from [[Gedrick Malachite]] to fund the construction.
+- **Grow the Zodarrim congregation.** He has successfully converted two dwarves and one human to dwarven monotheism. His wife and son arrived from Khazildor during the events of Session 50, forming part of the small dwarven community now resident in Gosterwick that he serves.
+- **Theological outreach among humans.** Beginning as early as Session 15, Uvash has made repeated attempts to explain Zodarrim to non-dwarves. Torunn the Smith is among those he has worked on. The tension between his missionary zeal and Gosterwick's Archontean polytheist mainstream is a persistent undercurrent.
+- **Maintain contact with the broader Zodarrim clergy.** He met [[Gedrick Malachite]], a senior priest of Zodarrim, in Newmarket during Session 14, and [[Hallsted]] of the Survivors of the Stone in Session 32. Both represent threads to the wider dwarven world that could pull Uvash toward or away from Gosterwick.
+- **Manage the debt of his own resurrection.** His death in Session 34c required a substantial financial donation to the Church of Mitra and the cooperative effort of all clerics of both Mitra and Demma in town. That social and material cost has not been fully explored as a hook.
+
+## Relationships
+
+- **[[Ioannes Grammatikos Byzantios]]** — Fellow cleric and co-Socius of the Right for Riches Company. The two clerics operate as a complementary pair in the dungeon, with Ioannes providing offensive and support divine magic while Uvash anchors the front line and handles most of the healing. In town they pursue separate religious agendas; Ioannes tithed to the Church of Demma's anti-hunger program while Uvash handles his own parish duties.
+- **[[Vallium Halcyon]]** — Archontean fighter and Socius. Uvash and Vallium form the party's armored core; ghouls and ghasts, the GM notes, have a hard time hurting either of them. Vallium carried Uvash's body out of the Tower of the Ape after the Session 34c death.
+- **[[Vael Sunshadow]]** — Half-elven mage and Socius. Vael cast Blur on Uvash immediately before the fatal combat in Session 34c, which suggests a habitual protective dynamic. Vael's relationship to Uvash's church is more distant — he did not donate to the Church of Demma's charity drive and has shown no particular interest in Zodarrim.
+- **[[Gedrick Malachite]]** — Priest of Zodarrim encountered in Newmarket (Session 14). A senior cleric of Uvash's own faith, Gedrick warned about doppelganger activity connected to the War of Dwarves and Doppelgangers. Uvash intends to seek formal grants and alms from him to fund the Gosterwick parish.
+- **[[Hallsted]]** — Cleric of Zodarrim and member of the Survivors of the Stone, met in Session 32. Hallsted offered to carry a life-stone recovered by the party back to Khazildor, representing a living connection to the dwarven homeland.
+- **[[Jador the Just]]** — Cleric of Mitra who performed Uvash's resurrection. The ritual required a very large donation plus the participation of all the Mitra and Demma clergy in Gosterwick. Uvash owes Jador — and by extension the Church of Mitra — a significant debt of gratitude.
+- **[[Onyx]]** — The party cat familiar. Onyx interrupted Uvash's church service in Session 34c to lead him to the fire at the Arcane Practitioners' Club, and later alerted the party to apartment security issues. The cat's intervention arguably set off the chain of events that ended in Uvash's death.
+- **[[Varboka]]** — Varumani Thegn. A new and formal relationship established in Session 55 (which Uvash missed): the party agreed to kill Kerbog Khan on Varboka's behalf in exchange for political access and reward. Uvash is bound by this compact through his company membership even without having been present.
+- **Uvash's wife** — Arrived in Gosterwick from Khazildor during the events of Session 50, along with their son and a group of travelling dwarves. Her presence transforms the Gosterwick parish from a solo missionary venture into something closer to a settled dwarven community.
+
+## History
+
+Uvash joined the Right for Riches Company at its founding and has been present for the majority of the campaign's fifty-five sessions, missing only a handful including Session 55. His religious mission runs parallel to the dungeon-diving: as early as Session 15 he was attempting to explain Zodarrim to humans in the Great Cavern, and by Session 34c he was leading regular services in Gosterwick's House of the Gods while the rest of the party invaded the Tower of the Ape.
+
+That separation proved costly. After Onyx fetched him from the service to deal with a burglary and fire at the party apartment, Uvash rejoined the others for a follow-up assault on the Tower and was struck down by a Disciplined fighter's scimitar — a fatal blow that left him the first PC death of the campaign. Ioannes carried his body to the Church of Mitra, where [[Jador the Just]] performed a full Resurrection requiring a large donation and the combined effort of all the clerics of Mitra and Demma in town. Uvash was restored, exhausted, and returned to the dungeon the same night.
+
+He has since continued in his dual roles as front-line combat cleric and parish builder. By early 2026 the congregation had grown to three converts, his family had relocated from Khazildor, and the party had struck a deal with Varboka the Varumani Thegn to eliminate [[Kerbog Khan]] — a mission that will require finding the construct before it can be carried out.
+
+## Notes
+
+- Tags corrected from tradition/settite, tradition/demma, and tradition/mitran (all erroneous) to tradition/zodarrim.
+- Uvash carries Holy Water ×3 and refuses to touch anything Set-related before it has been bathed in Holy Water.
+- His AI-generated portrait shows him with a large sundial pendant and a "ROCK AND STONE" belt buckle; the reference photo used by the player is of Graham McTavish.
+- A blueprint for a proposed church layout in Gosterwick exists in the attachments.
 
 ## Appears In
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]
@@ -62,9 +100,6 @@ aliases:
 - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]
 - [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]]
 - [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55 - Varboka the Varumani Thegn]]
-
-## History
-## Notes
 
 ## Character Sheets
 - ![[attachments/discord/Loot 2025-10-25/1431717195293003949-image.png]] — A list of personality quirks for the character Uvash.
