@@ -87,9 +87,6 @@ She was also recruited by the company to revisit the Great Cavern during Session
 ## Personality and Reputation
 Lacrymosa has earned a reputation for being 'bloodthirsty.' She is single-minded in her goals, tirelessly advocating for aggressive solutions. This was most evident in her brutal efficiency during the assault on Plumthorn's gang, where she killed stunned, fleeing, or surrendering enemies without pause.
 
-## Character Sheets
-- [[attachments/discord/character-sheets/1356981864845279452-Lacrymosa_Merenuithiel_Armaris.gcs|Lacrymosa_Merenuithiel_Armaris.gcs]] — source: `#character-sheets` (2025-04-02)
-
 ## Character Sheet Snapshot
 
 _Generated from `1425082936230809671-Lacrymosa_Merenuithiel_Armaris_190.gcs` (sheet `modified_date`: **2025-10-07**, total points: **150**)._
