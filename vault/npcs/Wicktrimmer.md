@@ -33,15 +33,18 @@ As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offe
 - **Logistics:** He can arrange for concierge shopping in [[Narsileon]] and can send messages there in less than a day.
 - **Connections:** He is apparently friends with other important local figures, such as the [[Green Lady]] and [[Lady Alexia Basileon]].
 - **Operation Type:** An Archontean goblin-run local operation working with the native Arden Vul goblins.
-- Willing to house non-cash goods and provides free storage for the party following a deal regarding Larel's Dagger.
+- Willing to house non-cash goods and provides free storage for the party following a deal regarding [[Larel's Pin]].
 - Extremely interested in acquiring a [[vault/items/Teleporter with 400 Mile Range.md|teleporter with 400 mile range]] to improve business logistics.
 - Competes against a powerful entity with hundreds of years of reputation.
 - He has expressed interest in purchasing large quantities of Arcanum.
 - He offers lifetime free banking at the Rarities Factor if his wizard identifies certain magical artifacts as genuine and the company sells them to him.
 - He provides concierge shopping services where messages reach [[Narsileon]] in less than a day, though item delivery via mule train takes approximately one month.
+- The [[Rarities Factor]] offers banking, letters, and mule caravans at slightly cheaper prices than competitors, though with a smaller geographical range.
+- Offers lifetime free banking at the [[Rarities Factor]] to parties that sell him magical artifacts verified as genuine by his wizard.
+- He provides concierge shopping services via message, though item delivery occurs at the speed of mule trains (approximately one month).
 
 ## Notable Interactions
-- **The Larel Artifacts:** [[npcs/Wicktrimmer.md|Wicktrimmer]]'s interest in collecting led him to negotiate a major deal with the Right for Riches Company for [[Larel's Pin]] and [[Larel's Dagger]]. His motivation was partly personal, as he wanted to prove the existence of the legendary Larel to his old friend [[Balthazar the Blue]].
+- **The Larel Artifacts:** [[npcs/Wicktrimmer.md|Wicktrimmer]]'s interest in collecting led him to negotiate a major deal with the Right for Riches Company for [[Larel's Pin]]. His motivation was partly personal, as he wanted to prove the existence of the legendary Larel to his old friend [[Balthazar the Blue]].
 - **Enemies of the Party:** He provided intelligence on the murder of [[Susarra]], attributing it to the [[Cult of Set]]. He also advised the party to be cautious of local politics involving [[Lady Alexia Basileon]], her half-brother [[Lord Iskander Burdock]], and the [[Drome]] in [[locations/Narsileon.md|Narsileon]], led by [[Keko the Lame]].
 - **Teleportation:** He is extremely interested in acquiring a reliable method of long-range (400-mile) teleportation to improve his business logistics.
  

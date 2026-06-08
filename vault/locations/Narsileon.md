@@ -15,7 +15,7 @@ TBD
 - The territory was abandoned following a civil war caused by the Sortians.
 - A territory of the Empire.
 - The Rarities Factor location provides banking, letters of credit, and shipping via mule caravan, including safe deposit boxes.
-- The branch is willing to house non-cash goods and, due to a deal regarding Larel's Dagger, storage is now free for the party.
+- The branch is willing to house non-cash goods and, due to a deal regarding [[items/Larel's Pin.md|Larel's Pin]], storage is now free for the party.
 
 ## Connected Areas
 
