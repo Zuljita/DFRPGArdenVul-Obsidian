@@ -108,6 +108,9 @@ Ioannes came to [[Gosterwick]] as a trained cleric, researcher, and exorcist wit
 - He carries a Cloak of the Bat, a Salamander Amulet, Bracers of Force +3, and a Belt of Dwarvenkind — equipment accumulated over 55+ sessions of increasingly dangerous operations.
 - His Propaganda-15 has been actively deployed to seed enthusiasm for the [[Goblin Forum]]'s commercial potential among Gosterwick merchants.
 
+## Portraits
+- ![[attachments/discord/Ioannes character updates/1354658076149420112-adventurer.jpeg]] — A character portrait of Ioannes.
+
 ## Character Sheets
 - [[attachments/discord/character-sheets/1497372713348497428-Ioannes20260424.gcs|Ioannes20260424.gcs]]
 - [[attachments/discord/character-sheets/1489766899188367523-Ioannes20260403.gcs|Ioannes20260403.gcs]]
