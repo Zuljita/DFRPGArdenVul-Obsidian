@@ -7502,6 +7502,14 @@ def build_parser() -> argparse.ArgumentParser:
     summarize_scratch = sub.add_parser("summarize-scratchpad", help="Condense SCRATCH.md using the configured LLM")
     summarize_scratch.set_defaults(func=cmd_summarize_scratchpad)
 
+    polish_queue = sub.add_parser("polish-queue", help="Polish top-N articles from the staleness+quality queue")
+    polish_queue.add_argument("--limit", type=int, default=5, help="Number of articles to polish (default 5)")
+    polish_queue.add_argument("--apply", action="store_true", help="Write changes; omit for dry-run diff")
+    polish_queue.add_argument("--top-k", type=int, default=8, help="RAG results per query (default 8)")
+    polish_queue.add_argument("--kinds", nargs="*", metavar="KIND",
+                              help="Restrict to article kinds e.g. --kinds pc npc faction")
+    polish_queue.set_defaults(func=cmd_polish_queue)
+
     polish = sub.add_parser("polish-article", help="Full-rewrite polishing pass: RAG research + LLM rewrite of a single vault article")
     polish.add_argument("--article", required=True, help="Repo-relative path to the article (e.g. vault/pcs/Vallium Halcyon.md)")
     polish.add_argument("--apply", action="store_true", help="Write the rewritten article to disk; omit for dry-run diff")
@@ -7605,6 +7613,95 @@ def cmd_polish_article(args) -> int:
 
     path.write_text(rewritten, encoding="utf-8")
     print(json.dumps({"ok": True, "changed": True, "path": article_rel, "diff_lines": len(diff)}))
+    return 0
+
+
+def cmd_polish_queue(args) -> int:
+    """Run the polish pass on the top-N articles from the staleness+quality queue."""
+    import difflib
+
+    limit = getattr(args, "limit", 5)
+    apply_ = getattr(args, "apply", False)
+    top_k = getattr(args, "top_k", 8)
+    kinds = set(getattr(args, "kinds", None) or [])
+
+    queue = build_article_queue(limit=200)
+    if kinds:
+        queue = [it for it in queue if it.kind in kinds]
+    queue = queue[:limit]
+
+    if not queue:
+        print(json.dumps({"ok": True, "message": "Queue is empty"}))
+        return 0
+
+    results = []
+    for item in queue:
+        path = ROOT / item.path
+        if not path.exists():
+            continue
+        article_text = read_text(path)
+        sections = _split_article_sections(article_text)
+        preserved = {h: c for h, c in sections.items()
+                     if any(h.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS)}
+        prose_sections = {h: c for h, c in sections.items()
+                          if not any(h.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS)}
+        prose_text = "".join(prose_sections.values())
+
+        print(f"[{item.score}] {item.path}", file=sys.stderr)
+        chunks = gather_article_research_chunks(item, top_k_per_query=top_k, max_chunks=20)
+        print(f"  {len(chunks)} chunks", file=sys.stderr)
+
+        prompt = article_polish_prompt(prose_text, chunks, item.path, item.title, item.kind)
+        try:
+            rewritten_prose = llm_chat_text(prompt, timeout=300)
+        except Exception as exc:
+            print(f"  polish failed: {exc}", file=sys.stderr)
+            results.append({"path": item.path, "ok": False, "error": str(exc)})
+            continue
+
+        if rewritten_prose.startswith("```"):
+            rewritten_prose = re.sub(r"^```[^\n]*\n", "", rewritten_prose)
+            rewritten_prose = re.sub(r"\n```\s*$", "", rewritten_prose.rstrip())
+
+        try:
+            rewritten_prose = llm_chat_text(article_typo_fix_prompt(rewritten_prose), timeout=180)
+            if rewritten_prose.startswith("```"):
+                rewritten_prose = re.sub(r"^```[^\n]*\n", "", rewritten_prose)
+                rewritten_prose = re.sub(r"\n```\s*$", "", rewritten_prose.rstrip())
+        except Exception as exc:
+            print(f"  typo-fix skipped: {exc}", file=sys.stderr)
+
+        rewritten_sections = _split_article_sections(rewritten_prose)
+        for h in list(rewritten_sections.keys()):
+            if any(h.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS):
+                del rewritten_sections[h]
+        rewritten = "".join(rewritten_sections.values())
+        for heading in sections:
+            if heading in preserved:
+                rewritten = rewritten.rstrip("\n") + "\n" + preserved[heading]
+
+        diff = list(difflib.unified_diff(
+            article_text.splitlines(keepends=True),
+            rewritten.splitlines(keepends=True),
+            fromfile=f"a/{item.path}", tofile=f"b/{item.path}", n=2,
+        ))
+
+        if not diff:
+            print(f"  no changes", file=sys.stderr)
+            results.append({"path": item.path, "ok": True, "changed": False})
+            continue
+
+        if apply_:
+            path.write_text(rewritten, encoding="utf-8")
+            print(f"  written", file=sys.stderr)
+        else:
+            sys.stdout.writelines(diff)
+
+        results.append({"path": item.path, "ok": True, "changed": True, "diff_lines": len(diff)})
+
+    changed = [r["path"] for r in results if r.get("changed")]
+    print(json.dumps({"ok": True, "processed": len(results), "changed": len(changed),
+                      "applied": apply_, "pages": results}))
     return 0
 
 
