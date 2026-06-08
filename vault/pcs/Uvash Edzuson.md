@@ -235,7 +235,6 @@ _Generated from `1510078682415239288-Uvash52926_Fixed.gcs` (sheet `modified_date
 - **Clothing**
 
 ## Portraits
-- ![[attachments/discord/general/1509619965593128991-content.png]] — AI-generated portrait of a dwarf wearing a large sundial pendant and a 'ROCK AND STONE' belt buckle.
 - ![[attachments/discord/general/1509404130563719311-Graham_McTavish_Photo_Op_GalaxyCon_Raleigh_2019.png]] — A photo of Graham McTavish used as a reference for the character Uvash.
 - ![[attachments/discord/general/1483924451761324283-image.png]] — A portrait of the dwarf cleric Uvash Edzuson.
 - ![[attachments/discord/character-sheets/1347988268544819211-uvash.png]] — A line drawing of Uvash and his wife.
