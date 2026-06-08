@@ -55,7 +55,7 @@ Beginning in [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44]], 
 
 ### Varumani Passports
 
-Each core company member now holds a modern bronze Varumani passport, granted by [[Varboka]] the Thegn as part of the [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]] deal. The company declined to trade their ancient plasteel passport to Varboka despite his interest in recovering it. The passports grant free movement through Varumani territory in Arden Vul, including use of the Varumani Lifts.
+Each core company member now holds a modern bronze Varumani passport, received in [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]] in exchange for their ancient plasteel Varumani passport — a historical relic Varboka wished to recover for his people. Vael and Vallium were reluctant but agreed on condition that Varboka will lend the ancient passport back if they ever need it. The bronze passports grant free movement through Varumani territory in Arden Vul, including use of the Varumani Lifts.
 
 ## Current Missions
 

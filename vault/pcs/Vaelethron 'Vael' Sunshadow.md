@@ -103,7 +103,7 @@ Vaelitharon "Vael" Sunshadow is a 47-year-old half-elven mage who studied magic 
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]]: translated a Rudishva crisis hologram broadcast on the Beacon's northern dais, learning of the varuda nest corruption and Captain Leil-Jor's quarantine order.
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]]: investigated the Arena Lord (possibly the surviving crew member Crellik-Var) and researched defenses against the Five Fingers of Destiny scrying the Beacon.
 - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53]]: called Akla-Chah on the command bracelet to interpret Rudishva console readouts during a Varumani medical emergency. Found a previously unseen button in the Beacon's auditorium that activated view screens displaying unknown locations including an underground pyramid.
-- [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]]: negotiated the Kerbog Khan contract with Varboka, declined to trade away the ancient plasteel Varumani passport despite multiple offers.
+- [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]]: negotiated the Kerbog Khan contract with Varboka; traded the ancient plasteel Varumani passport for four modern bronze ones (one per party member), with Varboka agreeing to lend it back if needed. The lift operator Trijax had also tried to buy it earlier in the session, which Vael refused.
 
 ## Notes
 
