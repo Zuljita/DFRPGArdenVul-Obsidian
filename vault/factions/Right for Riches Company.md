@@ -109,7 +109,7 @@ The patches are worn on clothing, functioning as a visible record of company his
 
 ## Origins
 
-- Originally chartered as "Left for Loot"; renamed to "Right for Riches" in 2025. (Zuljita on 2025-07-19: *"Number of Shares should now only reflect full members of the ~~Left For Loot~~ Right for RIches company."*)
+- The company's public name "Right for Riches" is a deliberate misdirection: their actual navigational rule of thumb is "if in doubt of where to go, left for loot." Naming themselves after the opposite direction throws off rivals who might try to second-guess their dungeon routes. (Formally adopted 2025; Zuljita on 2025-07-19: *"Number of Shares should now only reflect full members of the ~~Left For Loot~~ Right for RIches company."*)
 - Articles of Incorporation drafted on 2025-04-19 in the OOC planning channel: *"The Company is a lawful fellowship of no more than five sworn Members, known henceforth as Socii."*
 - Visited [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]]'s office to formalize company legalities ($1000 fee).
 
