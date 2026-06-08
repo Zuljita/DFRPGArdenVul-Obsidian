@@ -4746,6 +4746,80 @@ def article_edit_proposer_prompt(
     )
 
 
+_POLISH_PRESERVED_HEADINGS = (
+    "## Appears In",
+    "## Character Sheet Snapshot",
+    "## Character Sheets",
+    "## Maps",
+    "## Portraits",
+)
+
+
+def _split_article_sections(text: str) -> dict[str, str]:
+    """Return {heading: content} for every H2 section in the article.
+    The special key '' holds everything before the first H2 (frontmatter + H1)."""
+    result: dict[str, str] = {}
+    current_heading = ""
+    current_lines: list[str] = []
+    for line in text.splitlines(keepends=True):
+        if line.startswith("## "):
+            result[current_heading] = "".join(current_lines)
+            current_heading = line.rstrip("\n")
+            current_lines = [line]
+        else:
+            current_lines.append(line)
+    result[current_heading] = "".join(current_lines)
+    return result
+
+
+def article_polish_prompt(
+    prose_text: str,
+    source_chunks: list[dict],
+    article_path: str,
+    article_title: str,
+    article_kind: str,
+) -> str:
+    """Full-rewrite prompt for prose sections only (preserved sections stripped out beforehand)."""
+    blocks = []
+    for c in source_chunks:
+        blocks.append(
+            f"[{c.get('path','?')} §{c.get('section','?')} kind={c.get('kind','?')}]\n{(c.get('text') or '')[:900]}"
+        )
+    sources_text = "\n\n---\n\n".join(blocks) or "(no evidence retrieved)"
+
+    pc_rule = (
+        "\nPARTY-LEVEL FACTS RULE: This is a PC article. Facts that apply equally to all Right for Riches "
+        "members — company deals, alliances, shared assets, passport arrangements, contract terms — belong "
+        "on the [[Right for Riches Company]] page, not here. Only include what is personal and unique to "
+        "this character.\n"
+        if article_kind == "pc" else ""
+    )
+
+    return (
+        "You are an Obsidian vault editor for the Arden Vul DFRPG tabletop campaign.\n\n"
+        f"ARTICLE PATH: {article_path}\n"
+        f"Title: {article_title}\n"
+        f"Kind: {article_kind}\n\n"
+        "CURRENT ARTICLE (prose sections only — auto-generated sections have been removed):\n---\n"
+        f"{prose_text}\n"
+        "---\n\n"
+        "SOURCE EVIDENCE from canonical vault sources (Blogspot session recaps, weekly Discord digests, lore docs):\n\n"
+        f"{sources_text}\n\n"
+        "YOUR TASK: Rewrite the prose sections of this article so they are accurate, well-organised, and "
+        "complete based on the evidence and existing content. Fix inaccuracies, tighten prose, remove "
+        "redundancy, and fill gaps where the evidence supports it.\n"
+        f"{pc_rule}\n"
+        "STRICT RULES:\n"
+        "1. Return ONLY the rewritten markdown — no commentary, no code fences, no preamble.\n"
+        "2. Reproduce the YAML frontmatter block (---...---) exactly as-is. Do NOT alter any frontmatter fields.\n"
+        "3. Only state facts supported by the source evidence or already present in the article. "
+        "Do not invent facts or paraphrase loosely.\n"
+        "4. Preserve all wikilinks — do not strip [[...]] markup.\n"
+        "5. Do not add H2 sections that do not already exist in the article.\n"
+        "6. Sections with nothing to improve should be reproduced as-is.\n"
+    )
+
+
 def media_article_edit_proposer_prompt(
     article_text: str,
     source_chunks: list[dict],
@@ -7408,6 +7482,12 @@ def build_parser() -> argparse.ArgumentParser:
     summarize_scratch = sub.add_parser("summarize-scratchpad", help="Condense SCRATCH.md using the configured LLM")
     summarize_scratch.set_defaults(func=cmd_summarize_scratchpad)
 
+    polish = sub.add_parser("polish-article", help="Full-rewrite polishing pass: RAG research + LLM rewrite of a single vault article")
+    polish.add_argument("--article", required=True, help="Repo-relative path to the article (e.g. vault/pcs/Vallium Halcyon.md)")
+    polish.add_argument("--apply", action="store_true", help="Write the rewritten article to disk; omit for dry-run diff")
+    polish.add_argument("--top-k", type=int, default=8, help="RAG results per query (default 8)")
+    polish.set_defaults(func=cmd_polish_article)
+
     research = sub.add_parser("research-article", help="Run an iterative RAG research agent to propose edits for a vault article")
     research.add_argument("--article", required=True, help="Repo-relative path to the article (e.g. vault/items/Pale Green Horn.md)")
     research.add_argument("--max-rounds", type=int, default=5, help="Maximum RAG search rounds (default 5)")
@@ -7416,6 +7496,86 @@ def build_parser() -> argparse.ArgumentParser:
     research.set_defaults(func=cmd_research_article)
 
     return parser
+
+
+def cmd_polish_article(args) -> int:
+    """Full-rewrite polishing pass for a single vault article."""
+    import difflib
+
+    article_rel = args.article
+    path = ROOT / article_rel
+    if not path.exists():
+        print(json.dumps({"ok": False, "error": f"Article not found: {article_rel}"}), file=sys.stderr)
+        return 1
+
+    article_text = read_text(path)
+    item = build_article_queue_item(path)
+    if item is None:
+        print(json.dumps({"ok": False, "error": "Could not build queue item for article"}), file=sys.stderr)
+        return 1
+
+    # Split into sections; extract preserved ones so the LLM never sees them.
+    sections = _split_article_sections(article_text)
+    preserved: dict[str, str] = {}
+    prose_sections: dict[str, str] = {}
+    for heading, content in sections.items():
+        if any(heading.startswith(h) for h in _POLISH_PRESERVED_HEADINGS):
+            preserved[heading] = content
+        else:
+            prose_sections[heading] = content
+    prose_text = "".join(prose_sections.values())
+
+    top_k = getattr(args, "top_k", 8)
+    print(f"Gathering research for {article_rel} ...", file=sys.stderr)
+    chunks = gather_article_research_chunks(item, top_k_per_query=top_k, max_chunks=20)
+    print(f"  {len(chunks)} research chunks retrieved", file=sys.stderr)
+
+    prompt = article_polish_prompt(prose_text, chunks, item.path, item.title, item.kind)
+    print("Calling LLM for polish pass ...", file=sys.stderr)
+    try:
+        rewritten_prose = llm_chat_text(prompt, timeout=300)
+    except Exception as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}), file=sys.stderr)
+        return 1
+
+    # Strip accidental markdown code fences the model sometimes wraps output in
+    if rewritten_prose.startswith("```"):
+        rewritten_prose = re.sub(r"^```[^\n]*\n", "", rewritten_prose)
+        rewritten_prose = re.sub(r"\n```\s*$", "", rewritten_prose.rstrip())
+
+    # Splice preserved sections back in at the end (or at their original positions
+    # if the LLM happened to include placeholder headings).
+    rewritten_sections = _split_article_sections(rewritten_prose)
+    # Remove any stub versions the LLM may have emitted for preserved headings
+    for h in list(rewritten_sections.keys()):
+        if any(h.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS):
+            del rewritten_sections[h]
+    # Reassemble: prose sections in LLM order, then preserved sections in original order
+    rewritten = "".join(rewritten_sections.values())
+    for heading in sections:  # original order
+        if heading in preserved:
+            rewritten = rewritten.rstrip("\n") + "\n" + preserved[heading]
+
+    # Show diff
+    original_lines = article_text.splitlines(keepends=True)
+    rewritten_lines = rewritten.splitlines(keepends=True)
+    diff = list(difflib.unified_diff(
+        original_lines, rewritten_lines,
+        fromfile=f"a/{article_rel}", tofile=f"b/{article_rel}", n=3
+    ))
+
+    if not diff:
+        print(json.dumps({"ok": True, "changed": False, "message": "No changes produced"}))
+        return 0
+
+    if not getattr(args, "apply", False):
+        sys.stdout.writelines(diff)
+        print(f"\n--- DRY RUN: pass --apply to write changes ---", file=sys.stderr)
+        return 0
+
+    path.write_text(rewritten, encoding="utf-8")
+    print(json.dumps({"ok": True, "changed": True, "path": article_rel, "diff_lines": len(diff)}))
+    return 0
 
 
 def main(argv: list[str] | None = None) -> int:
