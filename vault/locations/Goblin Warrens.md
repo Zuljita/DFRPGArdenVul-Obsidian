@@ -23,5 +23,6 @@ The cave tunnel networks inhabited by Gosterwick's goblin population within Arde
 - A concealed door in the baboon facade area provides a passage down toward [[npcs/Gog.md|Gog]]'s cave and the [[locations/Arena.md|Arena]] level.
 
 ## Maps
+- ![[attachments/discord/screenshots/1454298624002359479-image.png]] — A dungeon map of the Goblin Warrens Upper.
 - ![[attachments/discord/screenshots/1454298624002359479-image.png]] — A battle map of the Goblin Warrens Upper.
 - ![[attachments/discord/screenshots/1444149006040305734-image.png]] — A top-down dungeon map of the Goblin Warrens Lower.

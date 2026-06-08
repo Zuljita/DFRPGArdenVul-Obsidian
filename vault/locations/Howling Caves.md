@@ -35,4 +35,5 @@ A major baboon-held cave network east of the [[locations/Well of Light.md|Well o
 
 
 ## Maps
+- ![[attachments/discord/screenshots/1446714246233587747-image.png]] — A dungeon map showing South of Howling Caves.
 - ![[attachments/discord/screenshots/1446714246233587747-image.png]] — A battle map showing the area south of the Howling Caves and the Chamber of the Beacon.

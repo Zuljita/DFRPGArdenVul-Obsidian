@@ -31,8 +31,14 @@ appears_in:
 - The party asked [[npcs/Gog.md|Gog]] about [[factions/Varumani.md|Varumani]] passports and tested his linguistic skills. He seems to understand Elvish, Dwarvish, and [[factions/Rudishva.md|Rudishva]].
 - He was exiled from [[factions/Varumani.md|Varumani]] territory but did not provide details.
 - The [[Cave of Gog]] and the Wet Caves are part of a route leading to Goblintown.
+- A concealed door in the baboon facade area provides a passage down toward Gog's cave and the Arena level.
+- As a Varumani, he can regenerate unless killed by fire or acid.
 
 ## Discord Insights
 
 - An old goblin living in an underground grotto near the arena; barters information for meat; exiled from the goblin court due to Mook's treachery. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])
 - A strange half-troll who can provide useful information. ([[notes/Discord Summary 2025-W21.md|Discord Summary 2025-W21]])
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507887152069869699-image0.jpg]] — A portrait of the NPC Gog.

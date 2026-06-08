@@ -31,4 +31,5 @@ Gribble, the Lord of the Forum, is the brother of King Weskenim.
 - [[vault/sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 
 ## Maps
+- ![[attachments/discord/screenshots/1489788376373657653-Screenshot_2026-04-03_at_7.46.45_PM.png]] — A battle map showing the poison gas-spewing statue in the Goblin Forum.
 - ![[attachments/discord/screenshots/1489788376373657653-Screenshot_2026-04-03_at_7.46.45_PM.png]] — A top-down battle map showing a statue in the Goblin Forum.

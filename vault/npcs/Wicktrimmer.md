@@ -38,6 +38,7 @@ As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offe
 - Competes against a powerful entity with hundreds of years of reputation.
 - He has expressed interest in purchasing large quantities of Arcanum.
 - He offers lifetime free banking at the Rarities Factor if his wizard identifies certain magical artifacts as genuine and the company sells them to him.
+- He provides concierge shopping services where messages reach [[Narsileon]] in less than a day, though item delivery via mule train takes approximately one month.
 
 ## Notable Interactions
 - **The Larel Artifacts:** [[npcs/Wicktrimmer.md|Wicktrimmer]]'s interest in collecting led him to negotiate a major deal with the Right for Riches Company for [[Larel's Pin]] and [[Larel's Dagger]]. His motivation was partly personal, as he wanted to prove the existence of the legendary Larel to his old friend [[Balthazar the Blue]].
@@ -59,3 +60,7 @@ As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offe
 
 - A retired adventurer who used to plunder Arden Vul with a group called Lost and Found. He founded the Rarities Factor in Gosterwick 12 years ago, is interested in buying magical artifacts, and has a 20-year argument with Balthazar the Blue about the reality of Larel. ([[notes/Discord Summary 2025-W36.md|Discord Summary 2025-W36]])
 - A prominent figure who recommends Barnaby Goodbarrel, asks for Larel's Pin, and is competing against Imperial Factors. ([[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]])
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507887198354018315-image0.jpg]] — A portrait of Wicktrimmer.

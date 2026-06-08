@@ -58,3 +58,7 @@ He maintains a court with a major-domo named [[npcs/Palestrim|Palestrim]] and ad
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 - [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507886686955376682-image0.jpg]] — A portrait of King Wiskenim.

@@ -131,3 +131,7 @@ I haven't heard any concrete plans yet.  There was a bit of the usual discussion
 - Previous Session: [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8B/9 - Muirasso's Tomb and the Broken Head]]
 - Next Session: [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]]
 - Discord Discussions: [[Discord Summary 2025-W19]], [[Discord Summary 2025-W20]], [[Discord Summary 2025-W21]]
+
+## Maps
+
+- ![[attachments/discord/general/1423429785190797502-rn_image_picker_lib_temp_56b99b45-b1c9-4f03-82d9-7fc8a8cfbfb5.jpg]] — A hand-drawn tactical sketch of a room layout and chasm for an upcoming encounter.

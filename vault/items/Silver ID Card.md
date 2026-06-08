@@ -1,6 +1,8 @@
 ---
 title: "Silver ID Card"
 tags:
+  - type/credential
+  - status/uncertain
   - item
   - rudishva
   - redirect

@@ -18,3 +18,4 @@ A Priest of [[Zodarrim]] who warned a party member about doppelgangers.
 - [[npcs/Uvash Edzuson|Uvash]] plans to seek grants or alms from Brother Malachite to support his new parish.
 - His warning regarding doppelgangers is connected to the [[lore/War of Dwarves and Doppelgangers|War of Dwarves and Doppelgangers]].
 - Uvash's planned parish in Gosterwick may seek grants or alms from him.
+- Uvash's planned parish in Gosterwick is intended to be located within the House of the Gods.

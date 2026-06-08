@@ -49,6 +49,10 @@ aliases:
 ## Notes
 
 ## Character Sheets
+- [[attachments/discord/character-sheets/1485979115419992185-VaelSunshadow20260327.gcs|VaelSunshadow20260327.gcs]]
+- [[attachments/discord/character-sheets/1348516364150636544-Vael_Sunshadow_-_Social.gcs|Vael_Sunshadow_-_Social.gcs]]
+- [[attachments/discord/character-sheets/1348189671473020949-Vael_Sunshadow.gcs|Vael_Sunshadow.gcs]]
+- [[attachments/discord/character-sheets/1347449204888436798-Vael_Sunshadow.gcs|Vael_Sunshadow.gcs]]
 - [[attachments/discord/character-sheets/1347449204888436798-Vael_Sunshadow.gcs|Vael_Sunshadow.gcs]]
 
 ## Character Sheet Snapshot

@@ -104,4 +104,5 @@ Under goblin control. [[npcs/Gribble.md|Gribble]] (Lord of the Goblin Forum) ove
 - In Session 34c prisoner testimony, Settite slavers sold captives to Tikun Thane through a slave market operating in/through the forum.
 
 ## Maps
+- ![[attachments/discord/screenshots/1499971072261623928-Forum_of_Set_South_Central_-_To_Do.png]] — A dungeon map of the Forum of Set South Central area.
 - ![[attachments/discord/screenshots/1499971072261623928-Forum_of_Set_South_Central_-_To_Do.png]] — A dungeon map for the Forum of Set South Central.

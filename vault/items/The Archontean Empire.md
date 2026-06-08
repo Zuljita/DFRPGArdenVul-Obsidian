@@ -1,5 +1,6 @@
 ---
 tags:
+  - type/book
   - culture/archontean
   - item
 ---

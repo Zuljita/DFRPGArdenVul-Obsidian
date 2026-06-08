@@ -1,5 +1,7 @@
 ---
 tags:
+  - title/silver-chalice
+  - session/3
   - item
 ---
 

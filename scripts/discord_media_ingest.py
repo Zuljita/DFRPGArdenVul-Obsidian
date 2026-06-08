@@ -263,10 +263,10 @@ def find_rollup_context(channel_id: str, message_id: str, window_hours: float = 
 VISION_SYSTEM = """You are classifying images posted to a private Discord server for an Arden Vul DFRPG campaign. For each image, decide:
   1. What kind of image it is (portrait, map, character-sheet-screenshot, item-photo, monster-stat-block, group-art, meme, chat-screenshot, off-topic).
   2. Whether it belongs in the campaign vault knowledge-base.
-  3. If yes, which vault entity it is about (NPC name, PC name, location name, item name, monster name, or just "general lore").
+  3. If yes, which vault entity it is about (NPC name, PC name, location name, item name, monster name, session number, or "general lore").
 
 Classification rules:
-- INCLUDE: AI-generated or hand-drawn portraits of named campaign NPCs or PCs, even if posted casually in #off-topic. Use surrounding Discord context to identify the character — if messages nearby ask "which looks most like [Name]?" or name the character, that IS the entity.
+- INCLUDE: AI-generated or hand-drawn portraits of named campaign NPCs or PCs, even if posted casually in #off-topic or #npc-pictures. Use surrounding Discord context to identify the character — if the message text names the character (e.g. "Wicktrimmer" or "Lady Alexia"), that IS the entity. Set entity_kind="npc" for NPCs and entity_kind="pc" for player characters.
 - INCLUDE: Maps, handouts, monster stat blocks, item art, and group faction art relevant to the campaign.
 - INCLUDE: Images from #screenshots are almost always dungeon maps, battle grids, or in-session reference images — include them and classify as "map" unless obviously off-topic.
 - INCLUDE: Images from #character-sheets that are portraits, character art, or illustrated character reference images.
@@ -277,8 +277,13 @@ Classification rules:
 - SKIP: Memes, real-world photos, weather screenshots, food photos, and other off-topic personal content.
 - SKIP: LLM "thinking" traces or internal reasoning dumps (walls of small text, no images).
 
+Entity rules for maps:
+- If the map caption, filename, or surrounding context names a specific location (e.g. "Halls of Thoth", "Goblin Forum", "Tower of the Ape"), use that as entity with entity_kind="location".
+- If the map is a generic battle grid or VTT combat screenshot with no identifiable location name, use the session number from the surrounding context as entity (e.g. "Session 55") with entity_kind="session". Look at the message timestamp and nearby messages to infer the session.
+- Only use entity="general lore" with entity_kind="lore" if the map is clearly reference material unrelated to any specific session or location.
+
 Output JSON exactly:
-{"kind":"...","include":true|false,"entity":"<title or empty>","entity_kind":"npc|pc|location|item|monster|lore|skip","caption":"<one short sentence>","reason":"<why include/skip>"}
+{"kind":"...","include":true|false,"entity":"<title, NPC name, or Session N>","entity_kind":"npc|pc|location|item|monster|session|lore|skip","caption":"<one short sentence>","reason":"<why include/skip>"}
 """
 
 
@@ -373,11 +378,22 @@ def match_vault_page(entity: str, entity_kind: str) -> tuple[str | None, str]:
     if not entity or entity_kind == "skip":
         return None, "no entity"
     folder_map = {"npc": "npcs", "pc": "pcs", "location": "locations",
-                  "item": "items", "monster": "monsters", "lore": "lore"}
+                  "item": "items", "monster": "monsters", "lore": "lore",
+                  "session": "sessions"}
     folder = folder_map.get(entity_kind)
     if not folder:
         return None, f"unknown entity_kind '{entity_kind}'"
     name_lower = entity.lower().strip()
+    # Session shorthand: "Session 55" or "55" → match by session number in stem
+    if entity_kind == "session":
+        num = re.search(r"\d+", name_lower)
+        if num:
+            n = num.group(0)
+            # Prefer exact session number match (e.g. "Session 55 -")
+            for md in sorted((VAULT / folder).glob("*.md")):
+                stem_lower = md.stem.lower()
+                if re.search(rf'\bsession\s+{n}\b', stem_lower):
+                    return str(md.relative_to(ROOT)), f"session number {n}"
     # Direct stem match
     for md in (VAULT / folder).rglob("*.md"):
         if md.stem.lower() == name_lower:

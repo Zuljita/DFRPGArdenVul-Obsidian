@@ -26,6 +26,8 @@ A young, vain mage and co-owner of the [[Arcane Practitioners' Club]]. She was f
 - Youngish Archontean woman with brown eyes, frizzy blonde hair, and very stylish wizard's robes.
 - She charges [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]]'s robes.
 - She cannot afford the [[items/Gem of Insight.md|Gem of Insight]].
+- Onyx noted that she was 'insufficiently attentive because of her own problems with some human.'
+- Along with Lyssandra, she identified the [[items/Rod of Imperium.md|Rod of Imperium]] as a significant artifact of Archonal power. ([[notes/Discord Summary 2025-W17.md|Discord Summary 2025-W17]])
 
 ## Sessions
 
@@ -33,3 +35,7 @@ A young, vain mage and co-owner of the [[Arcane Practitioners' Club]]. She was f
 
 - A woman summoned by Lyssandra who identified a glass square as a key to a teleportation device. Pelteon desires the Gem of Insight. ([[notes/Discord Summary 2025-W13.md|Discord Summary 2025-W13]])
 - Seems to ignore Ioannes slightly less due to Ioannes's apparent wealth and impressive cat; was not impressed by a recent event, implying foresight. ([[notes/Discord Summary 2025-W22.md|Discord Summary 2025-W22]])
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507889158520049672-image0.jpg]] — A portrait of Pelteon.

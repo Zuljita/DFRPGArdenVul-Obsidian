@@ -11,4 +11,5 @@ status: redirect
 This page has been merged into [[locations/Goblin Forum.md|Goblin Forum]].
 
 ## Maps
+- ![[attachments/discord/screenshots/1489792398585495554-Screenshot_2026-04-03_at_8.02.44_PM.png]] — A dungeon map showing a section of the route from the Goblin Market towards the Arena.
 - ![[attachments/discord/screenshots/1489792398585495554-Screenshot_2026-04-03_at_8.02.44_PM.png]] — A dungeon map showing storage and ogre guard quarters near the Goblin Market.

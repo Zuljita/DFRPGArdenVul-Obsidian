@@ -18,3 +18,7 @@ An outdoor surface-level plaza area in the ruins of Arden Vul. Contains [[npcs/T
 
 ## Sources
 - [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
+
+## Maps
+
+- ![[attachments/discord/screenshots/1479696826494877729-Screenshot.png]] — A VTT battle grid showing an active combat encounter.

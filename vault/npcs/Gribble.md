@@ -35,3 +35,7 @@ He was previously a captured goblin noble.
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c]]
 - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53]]
 - [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c - Set Jailbreak and Down to Goblintown]]
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507887037628547214-image0.jpg]] — A portrait of Gribble.

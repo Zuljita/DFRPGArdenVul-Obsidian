@@ -39,3 +39,7 @@ aliases:
 - [[Weskenim]]: serves as master sergeant under the goblin king’s authority.
 - [[Gribble]] and other goblin leaders: coordinates patrols and messages.
 - [[Right for Riches Company]]: occasional parley and coordination at the “Glory of [[npcs/Weskenim.md|Weskenim]]”.
+
+## Portraits
+
+- ![[attachments/discord/NPC pictures/1507886958888882357-image0.jpg]] — A portrait of Bottleneck.

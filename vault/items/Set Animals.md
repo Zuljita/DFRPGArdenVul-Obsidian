@@ -1,7 +1,14 @@
 ---
 tags:
+  - session/20
   - tradition/settite
   - item
+aliases:
+  - dam
+identity_hints:
+  - weird mean dogs
+related_entities:
+  - [[locations/Archontos.md|Archontos]]
 ---
 
 # [[npcs/Set.md|Set]] Animals

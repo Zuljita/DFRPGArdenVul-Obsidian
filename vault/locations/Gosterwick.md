@@ -70,4 +70,5 @@ Source: `#worldbuilding / Gosterwick`, dripton, 2025-03-16 (messages `1351034478
 - A location where shopping activities take place. ([[notes/Discord Summary 2025-W12.md|Discord Summary 2025-W12]])
 
 ## Maps
+- ![[attachments/discord/general/1352832979675643944-image.png]] — A top-down map of Gosterwick featuring journal notes for points of interest.
 - ![[attachments/discord/questions-for-gm/1434012721745231915-arden_vul_church.jpg]] — A top-down blueprint of a proposed church layout in Gosterwick.
