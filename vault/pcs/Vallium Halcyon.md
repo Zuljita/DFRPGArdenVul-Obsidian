@@ -2,9 +2,6 @@
 title: "Vallium Halcyon"
 tags:
   - pc
-  - tradition/thothian
-  - tradition/settite
-  - tradition/demma
 aliases:
   - Vallium
 ---
@@ -81,11 +78,11 @@ Vallium personally led the push into the Forum of Set across multiple sessions, 
 
 One of his more characteristic moments came in [[sessions/Session 49 - Demons and Mummies.md|Session 49]], when the party found a candle-lit room in the Halls. Rather than leave, Vallium stayed alone until the last candle guttered out to see what would happen. A blood-red tentacled demon appeared and gated in two more ape-like demons. Vallium's response: attack first. The party helped from outside and they prevailed. He wears three patches on his clothing — the Halfling-Killer, the Goblin Scepter, and the 11 Tankards — memorializing campaign milestones. He also wore Behir Light Leather after the behir kill, having a full suit crafted from its hide.
 
-In [[sessions/Session 47 - The No Mana Zone.md|Session 47]], he and Ioannes met with Roger the Rapier's company, the [[Five Fingers of Destiny]], explained the Beacon's danger, and warned them to stay away — a notably generous act for a party protective of its base. He has also been present for major diplomatic successes, including the audience with [[Varboka]], Thegn of the Varumani, in [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]], where the party negotiated free passage through Varumani territory in exchange for killing [[Kerbog Khan]]. Both Vael and Vallium were reluctant to trade away the ancient plasteel Varumani passport in the deal, but ultimately agreed on condition the thegn would lend it back if needed.
+In [[sessions/Session 47 - The No Mana Zone.md|Session 47]], he and Ioannes met with Roger the Rapier's company, the [[Five Fingers of Destiny]], explained the Beacon's danger, and warned them to stay away — a notably generous act for a party protective of its base. He has also been present for major diplomatic successes, including the audience with [[Varboka]], Thegn of the Varumani, in [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]], where the party agreed to kill [[Kerbog Khan]] in exchange for one item of Vael's choice from Varboka's personal hoard (plus half of any Rudishva power supplies found on Khan). Both Vael and Vallium were reluctant to trade away the ancient plasteel Varumani passport in the deal, but ultimately declined to do so.
 
 ## Goals & Hooks
 
-- Kill [[Kerbog Khan]]. The party has committed to this both by personal inclination and by formal deal with [[Varboka]], Thegn of the Varumani, who wants Khan dead for “unspeakable things” done to his sister Gevorda. The plan as of [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]] is to use a Seeker spell on Asrotelion — a mage believed to have been sent after Kerbog Khan — to locate him, then close to kill.
+- Kill [[Kerbog Khan]]. The party has committed to this by formal deal with [[Varboka]], Thegn of the Varumani, who wants Khan dead for “unspeakable things” done to his sister Gevorda; in exchange, Vael gets one item from Varboka's personal hoard. The plan is to use Vael's Seeker spell on Asrotelion — a mage believed to have been sent after Kerbog Khan — to locate him.
 - Advance alchemy skill. Vallium is actively trying to improve his Alchemy (currently level 7, IQ/VH) and carries a stocked potion belt. He has Fast-Draw (Potion) at 14 to make combat use reliable even if the brew process is not.
 - Continue clearing paths through Varumani territory. The deal with Varboka opens new areas; Vallium was part of the group that wanted to preserve the ancient Varumani passport and remains invested in the relationship.
 - Finish mapping and locking down the post-Settite Forum of Set region. The party cleared the Cult but left some unexplored side passages and at least one spiked-shut door they bypassed as potentially too dangerous.
@@ -101,7 +98,7 @@ In [[sessions/Session 47 - The No Mana Zone.md|Session 47]], he and Ioannes met 
 - [[Gribble]]: Lord of the Goblin Forum. The party helped restart commerce in the Forum after driving out the Cult of Set; Gribble assigned them a room for their use. Vallium's early donation of boar meat to the goblins is consistent with his Compulsive Generosity. Gribble is a regular contact when the party passes through the Forum.
 - [[Dworm]]: Guard to [[Galadnor]] the half-elven merchant, stationed at the Goblin Forum. Dworm was drafted into running the party's food stall when no proper merchant was available; he complained he was a fighter, not a merchant, but agreed. A minor but recurring presence in post-Settite Forum activity.
 - [[Varboka]]: Varumani Thegn. Newly established relationship as of Session 55. The deal — kill Kerbog Khan in exchange for free passage through Varumani territory and ancillary benefits — is the party's primary current external commitment. Varboka's personal motivation (vengeance for his sister Gevorda) gives the mission an additional moral charge that is unlikely to sit lightly on Vallium.
-- [[Kerbog Khan]]: The archmage construct the party has committed to kill. Khan has been observed in the Goblin Market and his dragonfly automaton has been encountered multiple times. He conducts unauthorized medical experiments on varumani, is wanted by at least one Collegium faction, and demands blood pacts for any dealings.
+- [[Kerbog Khan]]: The archmage the party has contracted to kill. Khan has been observed in the Goblin Market and his dragonfly constructs encountered multiple times — he can control or inhabit them. He conducts unauthorized medical experiments on varumani, is wanted by at least one Collegium faction, and demands blood pacts for any dealings.
 - [[Five Fingers of Destiny]] / [[Roger the Rapier]]: Rival adventuring company. Vallium warned Roger's group away from the Beacon in Session 47, trading enough information to make the danger credible without fully disclosing their base. A truce rather than alliance.
 
 ## Notes
@@ -111,7 +108,6 @@ In [[sessions/Session 47 - The No Mana Zone.md|Session 47]], he and Ioannes met 
 - [[attachments/discord/character-sheets/1348347379996164179-Vallium_Halcyon_-_V01-01.gcs|Vallium_Halcyon_-_V01-01.gcs]]
 - [[attachments/discord/character-sheets/1347770876283584633-Vallium_Halcyon.gcs|Vallium_Halcyon.gcs]]
 - [[attachments/discord/character-sheets/1347765795677016066-Vallium_Halcyon.gcs|Vallium_Halcyon.gcs]]
-- [[attachments/discord/character-sheets/1347761113839702098-Vallium_Halcyon.pdf|Vallium_Halcyon.pdf]]
 - [[attachments/discord/character-sheets/1347761113839702098-Vallium_Halcyon.pdf|Vallium_Halcyon.pdf]]
 
 ## Character Sheet Snapshot
@@ -295,6 +291,3 @@ _Generated from `1512192891382927370-Vallium_Halcyon_-_V03-23.gcs` (sheet `modif
 - **Wand of See Secrets** — in Larel's Sack
 - **Water** — in Wineskin
 
-## Maps
-
-- ![[attachments/discord/general/1505019164165804154-image.png]] — A screenshot of a successful Broadsword attack roll including modifiers like Bless and Deceptive Attack.
