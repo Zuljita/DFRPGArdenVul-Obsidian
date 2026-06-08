@@ -34,11 +34,36 @@ aliases:
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
+- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
+- [[sessions/Session 34b - Tower of the Ape.md|Session 34b - Tower of the Ape]]
+- [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
+- [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
+- [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
+- [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
+- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
+- [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42b - Neferet and the Wraiths]]
+- [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
+- [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]]
+- [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
+- [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
+- [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
+- [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]
+- [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48 - Thothian Teleportation Rings]]
+- [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
+- [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
+- [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
+- [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
+- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]
+- [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]]
+- [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55 - Varboka the Varumani Thegn]]
 
 ## History
-- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Shrines.md|Hall of Shrines]]]] — Dundee, Thorcin barbarian Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] Significant NPCs: Many [[npcs/Set.md|Set]] guards Several [[npcs/Set.md|Set]] acolytes Several [[npcs/Set.md|Set]] sergeants [[factions/Cult of Set.md|Some Set Guild of Service fighters]]
-- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - Tomb of Ptoh-Ristus.md|The Tomb of Ptoh-Ristus]]]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 27: locations/The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]].md|The [[locations/Tomb of Ptoh.md|Tomb of Ptoh-Ristus]] Date: Mitrasday, 10th of Besemios, 2993 AE Weather: Cool, dry Player Characters: V...
-
 ## Notes
 
 ## Character Sheets
@@ -56,7 +81,7 @@ aliases:
 
 ## Character Sheet Snapshot
 
-_Generated from `1347989610025717852-Uvash.gcs` (sheet `modified_date`: **2025-03-08**, total points: **125**)._
+_Generated from `1510078682415239288-Uvash52926_Fixed.gcs` (sheet `modified_date`: **2026-05-29**, total points: **260**)._
 
 - **Name:** Uvash Edzuson
 - **Age:** 32
@@ -67,29 +92,38 @@ _Generated from `1347989610025717852-Uvash.gcs` (sheet `modified_date`: **2025-0
 
 | Attribute | Value |
 | --- | --- |
-| ST | 10 |
+| ST | 11 |
 | DX | 10 |
 | IQ | 11 |
-| HT | 11 |
-| Will | 11 |
+| HT | 13 |
+| Will | 12 |
 | Per | 11 |
-| HP | 10 |
-| FP | 14 |
-| Basic Speed | 5.25 |
+| HP | 11 |
+| FP | 16 |
+| Basic Speed | 5.75 |
 | Basic Move | 4 |
-| Basic Lift | 29 lb |
-| Swing | 1d |
-| Thrust | 1d-2 |
+| Basic Lift | 34 lb |
+| Swing | 2d-1 |
+| Thrust | 1d |
 | Move (encumbrance levels) | 4 / 3 / 2 / 1 / 1 |
 | Dodge (encumbrance levels) | 8 / 7 / 6 / 5 / 4 |
 
-### Advantages / Traits (16)
+### Advantages / Traits (25)
 
+- **Increased Health** [20 pts]
+- **Pickaxe Penchant** [5 pts]
+- **Shield-Wall Training** [1 pts]
+- **Increased Will** [5 pts]
+- **Heroic Might** [9 pts]
+- **Heroic Grace** [18 pts]
+- **Luck** [15 pts]
+- **Wealth** [30 pts]
+- **Striking ST** [10 pts]
+- **Contingency Casting** [14 pts]
 - **Increased Intelligence** [20 pts]
 - **Power Investiture** [20 pts]
 - **Energy Reserve (Holy)** [12 pts]
 - **Spirit Empathy** [10 pts]
-- **Heroic Grace** [9 pts]
 - **Clerical Investment** [5 pts]
 - **Language: @Language@** [4 pts]
 - **Language: @Language@** [3 pts]
@@ -102,8 +136,13 @@ _Generated from `1347989610025717852-Uvash.gcs` (sheet `modified_date`: **2025-0
 - **Tough Skin** [3 pts]
 - **Dwarven Gear** [1 pts]
 
-### Disadvantages (7)
+### Disadvantages (12)
 
+- **Likes his Donkey Ears** [-1 pts]
+- **Refuses to touch anything Sett related before it is bathed in Holy Water** [-1 pts]
+- **Proud** [-1 pts]
+- **Drinks from most fountains in dungeons** [-1 pts]
+- **Heavily prefers beer to water** [-1 pts]
 - **Sense of Duty** [-5 pts]
 - **Vow (No Edged Weapons)** [-10 pts]
 - **Honesty** [-10 pts]
@@ -112,22 +151,30 @@ _Generated from `1347989610025717852-Uvash.gcs` (sheet `modified_date`: **2025-0
 - **Stubbornness** [-5 pts]
 - **Greed** [-15 pts]
 
-### Skills (11)
+### Skills (16)
 
-- **Axe/Mace** (dx/a) — level **14**
-- **Shield (Shield)** (dx/e) — level **12**
+- **Axe/Mace** (dx/a) — level **15**
+- **Shield (Shield)** (dx/e) — level **13**
 - **First Aid** (iq/e) — level **12**
-- **Thrown Weapon (Axe/Mace)** (dx/e) — level **11**
+- **Thrown Weapon (Axe/Mace)** (dx/e) — level **12**
 - **Esoteric Medicine (Holy)** (per/h) — level **12**
-- **Exorcism** (will/h) — level **10**
+- **Exorcism** (will/h) — level **11**
 - **Religious Ritual** (iq/h) — level **10**
 - **Theology** (iq/h) — level **10**
-- **Stealth** (dx/a) — level **10**
+- **Stealth** (dx/a) — level **9**
 - **Survival (Mountain)** (per/a) — level **10**
-- **Climbing** (dx/a) — level **10**
+- **Climbing** (dx/a) — level **9**
+- **Leadership** (iq/a) — level **10**
+- **Research** (iq/a) — level **10**
+- **Alchemy** (iq/vh) — level **8**
+- **Forced Entry** (dx/e) — level **13**
+- **Prospecting** (iq/a) — level **12**
 
-### Spells (14)
+### Spells (17)
 
+- **Resist Lightning** — *Air, Protection & Warning, Weather* — level **9**
+- **Stop Bleeding** — *Healing* — level **12**
+- **Shield** — *Protection & Warning* — level **12**
 - **Detect Magic** — *Knowledge* — level **11**
 - **Detect Poison** — *Healing, Protection & Warning* — level **11**
 - **Minor Healing** — *Healing* — level **12**
@@ -143,13 +190,23 @@ _Generated from `1347989610025717852-Uvash.gcs` (sheet `modified_date`: **2025-0
 - **Major Healing** — *Healing* — level **11**
 - **Protection from Evil** — *Meta, Protection & Warning* — level **11**
 
-### Equipment (5 equipped of 5 total)
+### Equipment (15 equipped of 15 total)
 
-- **Mace** [5 lb] — $50
-- **Small Shield** [8 lb] — $40
-- **Light Leather Gloves** [0.6 lb] — $5
-- **Light Leather Boots** [2.1 lb] — $17
-- **Clothing** [2 lb]
+- **Pick**
+- **Finisher**
+- **Large Shield**
+- **Ring of Protection +2**
+- **Light Cloak of Displacement**
+- **Ring of Climbing**
+- **Amulet of Courage**
+- **Holy Water** ×3
+- **Mail Body Armor** — in Uvash's Amazing Mail Suit
+- **Mail Boots** — in Uvash's Amazing Mail Suit
+- **Mail Gloves** — in Uvash's Amazing Mail Suit
+- **Mail Helmet** — in Uvash's Amazing Mail Suit
+- **Mail Leggings** — in Uvash's Amazing Mail Suit
+- **Mail Sleeves** — in Uvash's Amazing Mail Suit
+- **Clothing**
 
 ## Portraits
 - ![[attachments/discord/general/1509619965593128991-content.png]] — AI-generated portrait of a dwarf wearing a large sundial pendant and a 'ROCK AND STONE' belt buckle.

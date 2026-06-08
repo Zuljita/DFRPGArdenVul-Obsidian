@@ -46,12 +46,33 @@ aliases:
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 - [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
 - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgi...md|Sessions 52b and 53: Behir, Varumani, and the Surgi...]]
+- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
+- [[sessions/Session 34b - Tower of the Ape.md|Session 34b - Tower of the Ape]]
+- [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
+- [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
+- [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
+- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
+- [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42b - Neferet and the Wraiths]]
+- [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
+- [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]]
+- [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
+- [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
+- [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
+- [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]
+- [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48 - Thothian Teleportation Rings]]
+- [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
+- [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
+- [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
+- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]
+- [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]]
+- [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55 - Varboka the Varumani Thegn]]
 
 ## History
-- [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - Oracle of Thoth and The Litany of Light.md|The Oracle of Thoth and The Litany of Light]]]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 22: locations/The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light.md|The [[locations/Oracle of Thoth.md|Oracle of Thoth and The Litany of Light]] Date: Basilsday, 9nd of Gerakios, 29...
-- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Shrines.md|Hall of Shrines]]]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 24b: The [[factions/Cult of Set.md|Cult of Set]] Strikes Back, Larel's Stuff, and the locations/Hall of [[locations/Shrines.md|Shrines]].md|Hall of [[locations/Shrines.md|Shrines]] Date: Mitrasday, 19th of Gerakios, 2993 AE Weather: Hot, ...
-- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - Tomb of Ptoh-Ristus.md|The Tomb of Ptoh-Ristus]]]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 27: locations/The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]].md|The [[locations/Tomb of Ptoh.md|Tomb of Ptoh-Ristus]] Date: Mitrasday, 10th of Besemios, 2993 AE Weather: Cool, dry Player Characters: V...
-
 ## Notes
 
 ## Character Sheets

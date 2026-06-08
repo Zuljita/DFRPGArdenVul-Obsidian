@@ -40,12 +40,36 @@ aliases:
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
+- [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
+- [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
+- [[sessions/Session 34b - Tower of the Ape.md|Session 34b - Tower of the Ape]]
+- [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
+- [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
+- [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
+- [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39 - Diving for the Yellow Card]]
+- [[sessions/Session 40 - Taking Command.md|Session 40 - Taking Command]]
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
+- [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
+- [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42b - Neferet and the Wraiths]]
+- [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
+- [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]]
+- [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
+- [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
+- [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]
+- [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]
+- [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48 - Thothian Teleportation Rings]]
+- [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
+- [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
+- [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
+- [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
+- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]
+- [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]]
+- [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55 - Varboka the Varumani Thegn]]
 
 ## History
-- [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22 - Oracle of Thoth and The Litany of Light.md|The Oracle of Thoth and The Litany of Light]]]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 22: locations/The Oracle of [[npcs/Thoth.md|Thoth]] and The Litany of Light.md|The [[locations/Oracle of Thoth.md|Oracle of Thoth and The Litany of Light]] Date: Basilsday, 9nd of Gerakios, 29...
-- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Shrines.md|Hall of Shrines]]]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 24b: The [[factions/Cult of Set.md|Cult of Set]] Strikes Back, Larel's Stuff, and the locations/Hall of [[locations/Shrines.md|Shrines]].md|Hall of [[locations/Shrines.md|Shrines]] Date: Mitrasday, 19th of Gerakios, 2993 AE Weather: Hot, ...
-- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27 - Tomb of Ptoh-Ristus.md|The Tomb of Ptoh-Ristus]]]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 27: locations/The Tomb of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]].md|The [[locations/Tomb of Ptoh.md|Tomb of Ptoh-Ristus]] Date: Mitrasday, 10th of Besemios, 2993 AE Weather: Cool, dry Player Characters: V...
-
 ## Notes
 - See also a stray reference to “Vallium Michael” in Session 16; consolidated here.
 
@@ -58,7 +82,7 @@ aliases:
 
 ## Character Sheet Snapshot
 
-_Generated from `1348347379996164179-Vallium_Halcyon_-_V01-01.gcs` (sheet `modified_date`: **2025-03-09**, total points: **125**)._
+_Generated from `1512192891382927370-Vallium_Halcyon_-_V03-23.gcs` (sheet `modified_date`: **2026-06-04**, total points: **295**)._
 
 - **Name:** Vallium Halcyon
 - **Age:** 25
@@ -70,31 +94,38 @@ _Generated from `1348347379996164179-Vallium_Halcyon_-_V01-01.gcs` (sheet `modif
 
 | Attribute | Value |
 | --- | --- |
-| ST | 14 |
-| DX | 12 |
+| ST | 17 |
+| DX | 13 |
 | IQ | 10 |
-| HT | 12 |
+| HT | 15 |
 | Will | 10 |
 | Per | 10 |
-| HP | 14 |
-| FP | 12 |
-| Basic Speed | 6 |
-| Basic Move | 6 |
-| Basic Lift | 39 lb |
-| Swing | 2d |
-| Thrust | 1d |
-| Move (encumbrance levels) | 6 / 4 / 3 / 2 / 1 |
-| Dodge (encumbrance levels) | 9 / 8 / 7 / 6 / 5 |
+| HP | 17 |
+| FP | 15 |
+| Basic Speed | 7 |
+| Basic Move | 7 |
+| Basic Lift | 58 lb |
+| Swing | 3d-1 |
+| Thrust | 1d+2 |
+| Move (encumbrance levels) | 7 / 5 / 4 / 2 / 1 |
+| Dodge (encumbrance levels) | 11 / 10 / 9 / 8 / 7 |
 
-### Advantages / Traits (7)
+### Advantages / Traits (14)
 
 - **Armor Mastery** [5 pts]
+- **Combat Reflexes** [15 pts]
 - **Fearlessness** [2 pts]
 - **Hard to Kill** [2 pts]
 - **Hard to Subdue** [2 pts]
 - **High Pain Threshold** [10 pts]
+- **Language: @Language@** [2 pts]
 - **Sacrificial Parry** [1 pts]
 - **Tough Skin** [3 pts]
+- **Shield-Wall Training** [1 pts]
+- **Luck** [15 pts]
+- **Weapon Master** [20 pts]
+- **Extra Attack** [25 pts]
+- **Resistant to Poison** [2 pts]
 
 ### Disadvantages (9)
 
@@ -108,41 +139,127 @@ _Generated from `1348347379996164179-Vallium_Halcyon_-_V01-01.gcs` (sheet `modif
 - **Responsible** [-1 pts]
 - **Responsive** [-1 pts]
 
-### Skills (17)
+### Skills (25)
 
-- **Brawling** (dx/e) — level **13**
-- **Broadsword** (dx/a) — level **15**
-- **Carousing** (ht/e) — level **12**
-- **Climbing** (dx/a) — level **10**
-- **Fast-Draw (Knife)** (dx/e) — level **12**
-- **Fast-Draw (Sword)** (dx/e) — level **12**
-- **Forced Entry** (dx/e) — level **12**
+- **Alchemy** (iq/vh) — level **7**
+- **Body Sense** (dx/h) — level **11**
+- **Brawling** (dx/e) — level **14**
+- **Broadsword** (dx/a) — level **17**
+- **Carousing** (ht/e) — level **15**
+- **Climbing** (dx/a) — level **11**
+- **Detect Lies** (per/h) — level **4**
+- **Fast-Draw (Knife)** (dx/e) — level **14**
+- **Fast-Draw (Potion)** (dx/e) — level **14**
+- **Fast-Draw (Sword)** (dx/e) — level **14**
+- **Forced Entry** (dx/e) — level **13**
 - **Gesture** (iq/e) — level **10**
-- **Hiking** (ht/a) — level **11**
+- **Hiking** (ht/a) — level **14**
 - **Intimidation** (will/a) — level **9**
-- **Knife** (dx/e) — level **13**
+- **Knife** (dx/e) — level **14**
 - **Observation** (per/a) — level **9**
+- **Research** (iq/a) — level **9**
 - **Search** (per/a) — level **9**
-- **Shield (Shield)** (dx/e) — level **14**
+- **Shield (Shield)** (dx/e) — level **15**
+- **Stealth** (dx/a) — level **11**
 - **Survival (Plains)** (per/a) — level **9**
-- **Swimming** (ht/e) — level **10**
-- **Thrown Weapon (Knife)** (dx/e) — level **12**
+- **Swimming** (ht/e) — level **13**
+- **Throwing** (dx/a) — level **12**
+- **Thrown Weapon (Knife)** (dx/e) — level **13**
+- **Thrown Weapon (Spear)** (dx/e) — level **13**
 
-### Equipment (13 equipped of 13 total)
+### Equipment (91 equipped of 101 total)
 
-- **Clothing** [2 lb]
-- **Broadsword** [3 lb] — $600
-- **Heavy Leather Body Armor** [12.6 lb] — $158
-- **Heavy Leather Boots** [4.2 lb] — $52
-- **Blanket** [4 lb] — $20 — in Backpack, Small
-- **Torch** [1 lb] — $3 — in Backpack, Small
-- **Rations** [0.5 lb] — $2 — in Backpack, Small
-- **Personal Basics** [1 lb] — $5 — in Backpack, Small
-- **Rope, 3/8”** [1.5 lb] — $5 — in Backpack, Small
-- **Water** [8 lb] — in Wineskin
-- **Archontean Copper Piece** ×10 [0.02 lb] — $0.1 — in Purse
-- **Archontean Silver Piece** ×14 [0.02 lb] — $1 — in Purse
-- **Medium Shield** [15 lb] — $60
+- **Torc of Protection**
+- **Ring of Free Action**
+- **Ring of Protection + 3**
+- **Amulet of Missile Shield**
+- **Returning Javelin**
+- **Small Shield**
+- **Large Knife of Venom**
+- **Broadsword** — in Lanyard, Chain
+- **11 Tankards Patch** — in Clothing
+- **Goblin Scepter Patch** — in Clothing
+- **Halfling-Killer Patch** — in Clothing
+- **Behir Light Leather Body Armor** — in Behir Light Leather Armor Suit
+- **Behir Light Leather Boots** — in Behir Light Leather Armor Suit
+- **Behir Light Leather Gloves** — in Behir Light Leather Armor Suit
+- **Behir Light Leather Leggings** — in Behir Light Leather Armor Suit
+- **Behir Light Leather Sleeves** — in Behir Light Leather Armor Suit
+- **Boots of Levitation** — in Imperial Field Plate Suit
+- **Gauntlet of Flaming Fury** — in Imperial Field Plate Suit
+- **Heavy Plate Body Armor** — in Imperial Field Plate Suit
+- **Heavy Plate Gloves** — in Imperial Field Plate Suit
+- **Heavy Plate Leggings** — in Imperial Field Plate Suit
+- **Heavy Plate Sleeves** — in Imperial Field Plate Suit
+- **Agility Potion** — in Potion Belt
+- **Fire Resistance Potion** — in Potion Belt
+- **Flight Potion** — in Potion Belt
+- **Healing Potion, Major** — in Potion Belt
+- **Magebane** — in Potion Belt
+- **Keyring, Tower of Scrutiny**
+- **Key** — in Master Keyring
+- **Bronze Key** — in Master Keyring
+- **Elaborate Bronze Key** — in Master Keyring
+- **Huge Gold Key** — in Master Keyring
+- **Iron Key** — in Master Keyring
+- **Iron Key** — in Master Keyring
+- **Key** ×3 — in Master Keyring
+- **Key** — in Master Keyring
+- **Key** — in Master Keyring
+- **Key** — in Master Keyring
+- **Key** — in Master Keyring
+- **Key** — in Master Keyring
+- **Key** — in Master Keyring
+- **Key** — in Master Keyring
+- **Key** — in Master Keyring
+- **Key** — in Master Keyring
+- **Key** — in Master Keyring
+- **Key** — in Master Keyring
+- **Key (to Library of Thoth)** — in Master Keyring
+- **Key (To Pentagram Room)** — in Master Keyring
+- **Key to Prisoners' Shackles** — in Master Keyring
+- **Keyring, Gerrilad's** — in Master Keyring
+- **Keyring, Plumthorn's** — in Master Keyring
+- **Large Bronze Key** — in Master Keyring
+- **Large Bronze Key** — in Master Keyring
+- **Large Key** ×2 — in Master Keyring
+- **Key** ×47 — in Settite Keyring
+- **Keyring, Settite Jail** — in Settite Keyring
+- **Archontean Copper Piece** ×10 — in Purse
+- **Archontean Gold Piece** ×10 — in Purse
+- **Archontean Silver Piece** ×10 — in Purse
+- **Feather of Maat** — in Purse
+- **Ivory Token** — in Purse
+- **Platinum Token of Arden** — in Purse
+- **Ring of Illusion Disguise** — in Purse
+- **Ring of Water Breathing** — in Purse
+- **Ring of Wish (One Wish)** — in Purse
+- **Rudishva Pep Pills** — in Purse
+- **Signet Ring** — in Purse
+- **Silver Ring** — in Purse
+- **Agility Potion** — in Backpack, Small
+- **Agility Potion** — in Backpack, Small
+- **Agility Potion** — in Backpack, Small
+- **Alkahest** — in Backpack, Small
+- **Archontean Platinum Piece** ×100 — in Backpack, Small
+- **Blanket** — in Backpack, Small
+- **Elixir of Health** — in Backpack, Small
+- **Healing Potion, Major** ×2 — in Backpack, Small
+- **Large Gold Magic Key** — in Backpack, Small
+- **Large Platinum Magic Key** — in Backpack, Small
+- **Personal Basics** — in Backpack, Small
+- **Potion of Levitation** — in Backpack, Small
+- **Rations** ×3 — in Backpack, Small
+- **Rope, 3/8”** — in Backpack, Small
+- **Torch** — in Backpack, Small
+- **Elven Silk Rope** — in Larel's Sack
+- **Elven Silk Rope** — in Larel's Sack
+- **Ladder, 10’** — in Larel's Sack
+- **Mistral** — in Larel's Sack
+- **Portable Ram** — in Larel's Sack
+- **Rug of Instant Access** — in Larel's Sack
+- **Wand of See Secrets** — in Larel's Sack
+- **Water** — in Wineskin
 
 ## Maps
 
