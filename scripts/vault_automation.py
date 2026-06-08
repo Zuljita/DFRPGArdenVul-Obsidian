@@ -1887,6 +1887,30 @@ def article_queue_queries(title: str, kind: str, aliases: list[str], tags: tuple
     return tuple(queries)
 
 
+_LATEST_VAULT_SESSION: int | None = None
+
+def _latest_vault_session_number() -> int:
+    """Return the highest session number present in vault/sessions/, cached per process."""
+    global _LATEST_VAULT_SESSION
+    if _LATEST_VAULT_SESSION is not None:
+        return _LATEST_VAULT_SESSION
+    best = 0
+    for p in (VAULT / "sessions").glob("*.md"):
+        m = re.search(r"Session\s+(\d+)", p.stem)
+        if m:
+            best = max(best, int(m.group(1)))
+    _LATEST_VAULT_SESSION = best
+    return best
+
+
+def _article_latest_session_number(text: str) -> int:
+    """Return the highest session number referenced anywhere in the article text."""
+    best = 0
+    for m in re.finditer(r"[Ss]ession[s]?\s+(\d+)", text):
+        best = max(best, int(m.group(1)))
+    return best
+
+
 def score_article(path: Path, text: str) -> tuple[int, tuple[str, ...]]:
     body = strip_frontmatter(text)
     line_count = len([line for line in body.splitlines() if line.strip()])
@@ -1925,6 +1949,16 @@ def score_article(path: Path, text: str) -> tuple[int, tuple[str, ...]]:
     if path.parent.name == "items" and re.search(r"\bunknown\b|\btbd\b", lower):
         score += 5
         reasons.append("item has unresolved function or identity")
+    # Staleness signal: each session in the vault that postdates the article's
+    # latest session reference adds 4 points. An article stuck at Session 42
+    # in a 55-session vault scores +52, pushing it ahead of structural stubs.
+    article_session = _article_latest_session_number(text)
+    if article_session > 0:
+        vault_session = _latest_vault_session_number()
+        gap = vault_session - article_session
+        if gap > 0:
+            score += gap * 4
+            reasons.append(f"stale: references up to Session {article_session}, vault at {vault_session} (+{gap * 4})")
     return score, tuple(reasons)
 
 
