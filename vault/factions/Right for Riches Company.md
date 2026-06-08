@@ -22,7 +22,7 @@ The Right for Riches Company is a lawful fellowship of no more than five sworn S
 
 ### Socii (Core Members)
 
-- **[[Vaelethron 'Vael' Sunshadow]]** — Half-elven mage, 47, Thothian/Settite/Demma traditions. Captain of the [[Beacon]] by recognition of the ship AI [[Akla-Chah]]. Primary arcane and technical specialist; 68 spells, Thaumatology-17, fluent in Rudishva. Drives arcane research, Beacon operations, and most diplomatic openings with unusual factions.
+- **[[Vaelethron 'Vael' Sunshadow]]** — Half-elven mage, 47. Captain of the [[Beacon]] by recognition of the ship AI [[Akla-Chah]]. Primary arcane and technical specialist; 68 spells, Thaumatology-17, fluent in Rudishva. Drives arcane research, Beacon operations, and most diplomatic openings with unusual factions.
 - **[[Ioannes Grammatikos Byzantios]]** — Archontean cleric of Demma, 32. Primary healer, exorcist, and researcher. Research-15, Occultism-15, Affect Spirits-19. Officer of the Beacon. The company's institutional memory for theology, library resources, and counter-intelligence research.
 - **[[Vallium Halcyon]]** — Archontean fighter, 25. Primary combatant; Broadsword-17, Weapon Master, Extra Attack. Officer of the Beacon. The company's moral compass as much as its shield wall — Charitable and Compulsive Generosity have made him the source of more than one alliance cemented by a timely gift of food or a fair warning to a rival party.
 - **[[Uvash Edzuson]]** — Dwarven cleric of Zodarrim, 32. Heavily armored front-line cleric and secondary healer; Axe/Mace-15, Spirit Empathy, full mail suit. Officer of the Beacon. Runs the sole Zodarrim parish in Gosterwick in parallel with dungeon operations.
@@ -55,13 +55,13 @@ Beginning in [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44]], 
 
 ### Varumani Passports
 
-Each core company member now holds a modern bronze Varumani passport, granted by [[Varboka]] the Thegn in [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]] in exchange for the company's ancient plasteel Varumani passport (a historical relic Varboka wished to recover for his people). Vael retains the right to borrow the ancient plasteel passport back from Varboka if needed. The passports grant free movement through Varumani territory in Arden Vul, including use of the Varumani Lifts.
+Each core company member now holds a modern bronze Varumani passport, received in [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]] in exchange for their ancient plasteel Varumani passport — a historical relic Varboka wished to recover for his people. Vael and Vallium were reluctant but agreed on condition that Varboka will lend the ancient passport back if they ever need it. The bronze passports grant free movement through Varumani territory in Arden Vul, including use of the Varumani Lifts.
 
 ## Current Missions
 
 ### Kill Kerbog Khan (Active)
 
-In Session 55, [[Varboka]], Thegn of the Varumani, commissioned the company to locate and kill [[Kerbog Khan]] — a small bipedal construct/archmage who performed "unspeakable" experiments on Varboka's sister [[Gevorda]]. Reward: one item of Vael's choice from Varboka's personal hoard.
+In Session 55, [[Varboka]], Thegn of the Varumani, commissioned the company to locate and kill [[Kerbog Khan]] — an archmage who performed "unspeakable" experiments on Varboka's sister [[Gevorda]]. Reward: one item of Vael's choice from Varboka's personal hoard.
 
 The party's current plan to locate Khan: cast a Seeker spell on [[Asrotelion]], a mage believed to have been dispatched after Kerbog Khan — the same method reportedly used to locate the rogue archmage Cerbactos. Kerbog Khan has previously been observed in the Goblin Market and his dragonfly construct has been encountered multiple times in the Halls.
 
@@ -69,17 +69,17 @@ The party's current plan to locate Khan: cast a Seeker spell on [[Asrotelion]], 
 
 A second Tablet of the Beacon was located and subsequently turned over to [[Lady Alexia Basileon]] without documentation. Temrin's map to a second Command Bracelet also remains an unfollowed lead. The Beacon's full restoration — including fuel — is a long-horizon company goal.
 
-### Haunted Tower Ghost (Ioannes's Personal Mission)
+### Haunted Tower Ghost (Resolved)
 
-[[Ioannes]] intends to return to the [[Haunted Tower]] near the Waterfall to lay its spirit to rest. Secondary to main company objectives but tracked as an open obligation.
+[[Ioannes]] identified and laid to rest the ghost of [[Yrtol]] haunting the [[Haunted Tower]] near the Waterfall ([[sessions/Session 13 - Yrtol and the Turtle.md|Session 13]]).
 
 ## Key Alliances
 
 - **[[Varboka]]** (Varumani Thegn) — Formal deal-relationship established Session 55. Varboka controls all loyal Varumani in Arden Vul, reportedly the most powerful faction in the Halls. The Kerbog Khan contract is the current basis of cooperation; the passport exchange and Varboka's personal motivation (vengeance for Gevorda) give the alliance unusual depth.
-- **[[Weskenim]]** (King of the United Goblin Tribes) — Freed from Settite captivity in [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c]]. Promised rewards to his liberators on their next visit. The company's sustained food-supply work at the Goblin Forum directly benefits his people's economic recovery.
+- **[[Weskenim]]** (King of the United Goblin Tribes) — Relationship established in [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c]] when the company freed his brother [[Gribble]] from Settite captivity and Gribble brought them to court. Weskenim promised rewards on their next visit. The company's sustained food-supply work at the Goblin Forum directly benefits his people's economic recovery.
 - **[[Gribble]]** (Lord of the Goblin Forum) — The party helped restart commerce in the Forum after clearing the Cult of Set; Gribble assigned the company a room for their use and relies on the food operation they established.
 - **[[Lady Alexia Basileon]]** (Lord of Gosterwick) — The company's nominal liege authority on the surface. Cooperative relationship: the company delivered two Tablets of the Beacon to Alexia and engaged her on the matter of slavery abolition (she had already banned slavery in Gosterwick). Ioannes's Clerical Investment lends formal legitimacy to these dealings.
-- **[[Wicktrimmer]]** (Rarities Factor, Gosterwick) — Powerful Imperial Goblin merchant-banker and retired adventurer. Primary artifact broker and letter-of-credit handler for the company. Purchased Larel's Pin and Larel's Dagger; has persistently attempted to buy the company's Teleport Rugs. Transactional relationship — valuable to both sides, neither fully trusts the other's agenda. Wicktrimmer's frequent absences from Gosterwick have been remarked upon by multiple third parties.
+- **[[Wicktrimmer]]** (Rarities Factor, Gosterwick) — Powerful Imperial Goblin merchant-banker and retired adventurer. Primary artifact broker and letter-of-credit handler for the company. Purchased [[items/Larel's Pin.md|Larel's Pin]]; has persistently attempted to buy the company's Teleport Rugs. Transactional relationship — valuable to both sides, neither fully trusts the other's agenda. Wicktrimmer's frequent absences from Gosterwick have been remarked upon by multiple third parties.
 
 ## Major Achievements
 
@@ -90,7 +90,7 @@ A second Tablet of the Beacon was located and subsequently turned over to [[Lady
 - **Defeat of the Behir** — Vallium killed the behir south of the Goblin Forum in Sessions 52b–53, clearing a significant threat to Goblin Forum access. Behir Light Leather armor was subsequently crafted from its hide.
 - **Defeat of the Vengeance Aspect** — Session 51. A blinding, fire-resistant fight that included a Symbol of Death and animated ghouls; the company survived and prevailed through Ioannes's Affect Spirits and Vallium's armored anchor tactics.
 - **Thothian Teleportation Rings** — Session 48. After nearly 50 delves, the company decoded the operation of the Thothian teleportation circles.
-- **Freeing of Weskenim** — The Set Jailbreak in Session 23c freed the King of the United Goblin Tribes from Settite captivity, establishing the foundational goodwill with goblin factions that has compounded ever since.
+- **The Set Jailbreak** — Session 23c. Freed [[Gribble]] (the goblin king's brother) and other prisoners from Settite captivity. Gribble led the party to Goblintown to meet his brother [[Weskenim]], establishing the foundational goodwill with goblin factions that has compounded ever since.
 
 ## Company Patches System
 
@@ -104,12 +104,12 @@ The patches are worn on clothing, functioning as a visible record of company his
 
 ## Rivals & Threats
 
-- **[[Kerbog Khan]]** — Small bipedal construct and archmage operating inside Arden Vul. Possesses unparalleled knowledge of the Halls and trades information only for blood pacts with "principals." Conducted unauthorized medical experiments on Varumani. The company has committed to killing him; he is now their primary active threat and target simultaneously.
-- **[[Five Fingers of Destiny]]** / [[Roger the Rapier]] — Rival adventuring company. Were caught scouting above the Beacon in Session 46. The company negotiated a working truce in Session 47: Vallium and Ioannes warned Roger's group away from the Beacon, trading enough information about the ankh-key puzzle to make the danger credible. The two groups showed each other different dungeon approaches as a mutual exchange. Status: managed truce, not alliance.
+- **[[Kerbog Khan]]** — Archmage operating inside Arden Vul, able to control or inhabit constructs including dragonfly automata. Possesses unparalleled knowledge of the Halls and trades information only for blood pacts with "principals." Conducted unauthorized medical experiments on Varumani. The company has committed to killing him; he is now their primary active threat and target simultaneously.
+- **[[Five Fingers of Destiny]]** / [[Roger the Rapier]] — Rival adventuring company. Were caught scouting above the Beacon in Session 46. The company negotiated a working truce in Session 47: Vallium and Ioannes warned Roger's group away from the Beacon, trading enough information about the ankh-key puzzle to make the danger credible. Roger showed R4R the approach to the Thothian treasury in exchange for an ankh key. Status: managed truce, not alliance.
 
 ## Origins
 
-- Originally chartered as "Left for Loot"; renamed to "Right for Riches" in 2025. (Zuljita on 2025-07-19: *"Number of Shares should now only reflect full members of the ~~Left For Loot~~ Right for RIches company."*)
+- The company's public name "Right for Riches" is a deliberate misdirection: their actual navigational rule of thumb is "if in doubt of where to go, left for loot." Naming themselves after the opposite direction throws off rivals who might try to second-guess their dungeon routes. (Formally adopted 2025; Zuljita on 2025-07-19: *"Number of Shares should now only reflect full members of the ~~Left For Loot~~ Right for RIches company."*)
 - Articles of Incorporation drafted on 2025-04-19 in the OOC planning channel: *"The Company is a lawful fellowship of no more than five sworn Members, known henceforth as Socii."*
 - Visited [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]]'s office to formalize company legalities ($1000 fee).
 

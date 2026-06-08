@@ -12,15 +12,13 @@ aliases:
 
 ## Summary
 
-Ioannes Grammatikos Byzantios is a 32-year-old Archontean cleric of [[Demma]] and the primary healer and exorcist of the [[Right for Riches]] company. Ordained in the Thothian and Settite traditions as well as his own faith, he brings an uncommonly broad theological education to the ruins of [[Arden Vul]], where his Research-15 and Occultism-15 have repeatedly unlocked practical intelligence that saved the party — from anti-scrying countermeasures to the mechanics of the [[Thothian Teleportation Rings]]. He is genuinely devout, deeply curious, constitutionally oblivious to social dynamics, and afflicted with hopeless-romantic tendencies that surface at the worst possible moments; his companions find him endearing and occasionally exasperating in equal measure. His black cat [[Onyx]], recovered from the [[Great Cavern]] after its previous owner [[Lyra]] was killed by a giant lizard, lives at the [[Rarities Factor]] in [[Gosterwick]] and serves as an ongoing emotional anchor to the surface world.
+Ioannes Grammatikos Byzantios is a 32-year-old Archontean cleric of [[Demma]] and the primary healer and exorcist of the [[Right for Riches]] company. Ordained in the Thothian and Settite traditions as well as his own faith, he brings an uncommonly broad theological education to the ruins of [[Arden Vul]], where his Research-15 and Occultism-15 have repeatedly unlocked practical intelligence that saved the party — from anti-scrying countermeasures to the mechanics of the [[Thothian Teleportation Rings]]. He is genuinely devout, deeply curious, constitutionally oblivious to social dynamics, and afflicted with hopeless-romantic tendencies that surface at the worst possible moments; his companions find him endearing and occasionally exasperating in equal measure. He lives primarily at the [[Arcane Practitioner's Club]] in [[Gosterwick]] alongside the rest of the company. His black cat [[Onyx]], recovered from the [[Great Cavern]] after its previous owner [[Lyra]] was killed by a giant lizard, gets around on his own and serves as an ongoing emotional anchor to the surface world.
 
 ## Goals & Hooks
 
-- **Lay the tower ghost to rest.** Ioannes identified the screaming spirit of the [[Haunted Tower]] as a wronged soul rather than a demon, and intends to return to uncover whatever binds it — a hidden corpse, a desecrated relic, or an unfulfilled oath. The ghost's repeated accusation of "Settite murderers" gives him a personal stake, given the company's long war against the [[Cult of Set]]. See [[#Reflections on The Tower Ghost]].
-- **Investigate Asrotelion's Seeker lead on [[Kerbog Khan]].** The party has acquired intelligence that [[Asrotelion]] located the rogue archmage Cerbactos by casting a Seeker spell; Ioannes is pursuing the possibility of using the same method — casting Seeker on one of [[Kerbog Khan]]'s dragonfly constructs — to locate the information-broker construct before committing to his blood-pact terms.
 - **Deepen standing with the Church of Demma.** Ioannes donated to the Temple's spring anti-childhood-hunger program and received a personal thank-you letter from [[Vivian]], High Priest of Demma in [[Gosterwick]]. He regards this as a spiritual obligation, not a transaction, and will continue tithing as the company's fortunes grow.
 - **Continue anti-undead operations.** Every wraith corridor, ghoul-haunted hall, and mummy sarcophagus the company clears in [[Arden Vul]] represents, to Ioannes, a direct expression of Demma's mandate. His Affect Spirits spell at level 19 makes him the linchpin of serious undead engagements.
-- **Communicate with Onyx.** Onyx has communicated (via Fael the druid's Speak with Animals, Session 54) that [[Wicktrimmer]]'s absences have left the Rarities Factor's fish supply inadequate for Onyx and all the cats of Gosterwick under his jurisdiction. Ioannes feels responsible and intends to remedy this.
+- **Communicate with Onyx.** Onyx has communicated (via Fael the druid's Speak with Animals, Session 54) that the fish supply for Onyx and all the cats of Gosterwick under his jurisdiction has been inadequate. Ioannes feels responsible and intends to remedy this.
 - **Advance Propaganda efforts for the Goblin Forum.** Ioannes has been actively spreading word among Gosterwick merchants that trading at the [[Goblin Forum]] of Arden Vul offers serious profit opportunities, and views the Forum's commercial revival as both good for the company's logistics and consistent with Demma's concern for community welfare.
 
 ## Relationships
@@ -29,13 +27,13 @@ Ioannes Grammatikos Byzantios is a 32-year-old Archontean cleric of [[Demma]] an
 - **[[Uvash]] Edzuson** — Dwarven cleric of Zodarrim and the company's other divine caster. The two clerics coordinate closely on undead clearance and healing, providing redundancy that has kept the party alive in extended dungeon operations. Their theological traditions differ but their professional respect is evident.
 - **[[Vael Sunshadow]]** — Half-Elven mage and the company's primary arcane and technical specialist. Vael regularly brings Ioannes into research tasks where occult or theological knowledge is needed; it was Ioannes who located the text on lead-lined walls as a counter-scrying measure ([[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]]). The relationship is collegial and intellectually compatible.
 - **[[Vallium Halcyon]]** — Archontean fighter and the company's frontline anchor. Vallium and Ioannes have delved together since Session 1 and have a functional, if temperamentally mismatched, working partnership. Vallium declined to donate to the Demma spring program; Ioannes has not commented on this.
-- **[[Lady Alexia Basileon]]** — Lord of Gosterwick and the party's nominal liege authority. The company returned two Tablets of the Beacon to Alexia and engaged her in the matter of slavery abolition; Ioannes participates in these dealings as a credentialed cleric with Clerical Investment, lending the company's requests a degree of formal legitimacy.
-- **[[Wicktrimmer]]** — Goblin proprietor of the Rarities Factor and Gosterwick's most powerful independent merchant. Onyx resides at the Rarities Factor, making Wicktrimmer unwittingly Ioannes's de facto cat-sitter. Wicktrimmer's frequent absences have become a point of mild concern.
-- **[[Onyx]]** — Ioannes's black cat, found in the Great Cavern after the death of its former owner [[Lyra]] at the hands of a giant lizard. Onyx is opinionated (per Fael's translation), imperious about his fish rations, and apparently oversees a network of Gosterwick cats. Ioannes treats him as a genuine companion and moral responsibility.
-- **[[Kerbog Khan]]** — Small bipedal construct encountered in the Goblin Market, known to possess unparalleled knowledge of Arden Vul and willing to trade it only for a blood pact from a "principal." Ioannes is one of the party members investigating how to approach or locate the construct on the party's own terms — specifically whether a Seeker spell cast on one of Kerbog Khan's dragonfly constructs could bypass the need to deal blind.
+- **[[Lady Alexia Basileon]]** — Lord of Gosterwick. Ioannes participates in company dealings with her as a credentialed cleric with Clerical Investment, lending the company's requests formal legitimacy.
+- **[[Wicktrimmer]]** — Goblin proprietor of the Rarities Factor and Gosterwick's most powerful independent merchant. A transactional but reliable relationship; Wicktrimmer's frequent absences from Gosterwick have been remarked upon by multiple parties.
+- **[[Onyx]]** — Ioannes's black cat, found in the Great Cavern after the death of its former owner [[Lyra]] at the hands of a giant lizard. Onyx gets around on his own terms. He is opinionated (per Fael's translation), imperious about his fish rations, and apparently oversees a network of Gosterwick cats. Ioannes treats him as a genuine companion and moral responsibility.
+- **[[Kerbog Khan]]** — The party's current primary target. See [[Right for Riches Company]] for details.
 
 ## Reflections on The Tower Ghost
-[[Ioannes]] encountered the ghost haunting the [[Haunted Tower]] at the base of the [[Waterfall]]. He concluded that the spirit, which screams accusations of "Settite murderers," is not a random haunt but a "wronged soul" with "unfinished business." Drawing on the teachings of [[Demma]] that proper rest follows proper ritual, Ioannes intends to return to the tower to uncover what binds the ghost—a hidden corpse, a desecrated relic, or an unfulfilled oath—and put it to rest, hoping it is not a demon.
+[[Ioannes]] encountered the ghost haunting the [[Haunted Tower]] at the base of the [[Waterfall]] and identified it as a wronged soul rather than a demon — a spirit screaming accusations of "Settite murderers." The ghost was [[Yrtol]], and Ioannes successfully laid it to rest ([[sessions/Session 13 - Yrtol and the Turtle.md|Session 13]]). This was an early demonstration of his value to the company as an exorcist operating in accordance with Demma's teachings on proper funerary rites.
 
 ## Appears In
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]
@@ -108,15 +106,8 @@ Ioannes came to [[Gosterwick]] as a trained cleric, researcher, and exorcist wit
 - He carries a Cloak of the Bat, a Salamander Amulet, Bracers of Force +3, and a Belt of Dwarvenkind — equipment accumulated over 55+ sessions of increasingly dangerous operations.
 - His Propaganda-15 has been actively deployed to seed enthusiasm for the [[Goblin Forum]]'s commercial potential among Gosterwick merchants.
 
-## Character Sheets
-- [[attachments/discord/character-sheets/1497372713348497428-Ioannes20260424.gcs|Ioannes20260424.gcs]]
-- [[attachments/discord/character-sheets/1489766899188367523-Ioannes20260403.gcs|Ioannes20260403.gcs]]
-- [[attachments/discord/character-sheets/1362944553187016765-Ioannes.gcs|Ioannes.gcs]]
-- [[attachments/discord/character-sheets/1354520220798025840-Ioannes.gcs|Ioannes.gcs]]
-- [[attachments/discord/character-sheets/1352789253356130334-Ioannes.gcs|Ioannes.gcs]]
-- [[attachments/discord/character-sheets/1349934492504162374-Ioannes.gcs|Ioannes.gcs]]
-- [[attachments/discord/character-sheets/1508136174038814982-Ioannes20260529.gcs|Ioannes20260529.gcs]]
-- [[attachments/discord/character-sheets/1508136174038814982-Ioannes20260529.gcs|Ioannes20260529.gcs]]
+## Portraits
+- ![[attachments/discord/Ioannes character updates/1354658076149420112-adventurer.jpeg]] — A character portrait of Ioannes.
 
 ## Character Sheet Snapshot
 

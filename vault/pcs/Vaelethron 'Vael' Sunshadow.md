@@ -2,9 +2,6 @@
 title: "Vaelethron 'Vael' Sunshadow"
 tags:
   - pc
-  - tradition/thothian
-  - tradition/settite
-  - tradition/demma
 aliases:
   - Vael
   - vael
@@ -72,11 +69,11 @@ aliases:
 
 ## Summary
 
-Vaelitharon "Vael" Sunshadow is a 47-year-old half-elven mage of the Thothian, Settite, and Demma traditions, serving as the primary arcane powerhouse of the [[Right for Riches]] company. He holds the rank of Captain of the [[Beacon]], a crashed [[Rudishva]] starship the party uses as a fortified base of operations, a title recognized by the ship's AI [[Akla-Chah]] after he inserted the Command Tablet into the bridge console in [[sessions/Session 40 - Taking Command.md|Session 40]]. His eclectic magical education spans 68 spells across a dozen colleges, anchored by a anarcho-punk code of honor, a bone-deep curiosity he cannot reliably override, and an unshakeable conviction that everything ought to be handled dramatically. He gives everyone a nickname.
+Vaelitharon "Vael" Sunshadow is a 47-year-old half-elven mage who studied magic in the Elf lands and later at the [[Collegium of Macrina]] in the Archontean Empire before boredom set him loose toward Narselion, serving as the primary arcane powerhouse of the [[Right for Riches]] company. He holds a pragmatic antipathy toward gods and organized religion — he has fought Settites, looted Thothian vaults, and freed Settite-held slaves, but as strategic objectives, never acts of faith. He holds the rank of Captain of the [[Beacon]], a crashed [[Rudishva]] starship the party uses as a fortified base of operations, a title recognized by the ship's AI [[Akla-Chah]] after he inserted the Command Tablet into the bridge console in [[sessions/Session 40 - Taking Command.md|Session 40]]. His eclectic magical education spans 68 spells across a dozen colleges, anchored by a anarcho-punk code of honor, a bone-deep curiosity he cannot reliably override, and an unshakeable conviction that everything ought to be handled dramatically. He gives everyone a nickname.
 
 ## Goals & Hooks
 
-- **Kill [[Kerbog Khan]]**: [[Varboka]], Thegn of the [[Varumani]], commissioned the party to slay the archmage Kerbog Khan in exchange for one item of Vael's choice from Varboka's personal hoard. The party's next lead is to use a Seeker spell on a mage named Asrotelion, believed to have been dispatched after Kerbog Khan, in order to locate him.
+- **Kill [[Kerbog Khan]]**: The party's primary active mission. See [[Right for Riches Company]] for contract details.
 - **Expand captaincy of the Beacon**: The crashed Rudishva starship is the party's base, and Vael is its recognized captain. Restoring the ship to full function — including finding the fuel needed to make it operational again — would substantially increase his power and that of the [[Right for Riches]] company. A second [[Rudishva Command Bracelet]] is known to exist and its location was mapped by the goblin artist [[Temrin]].
 - **Protect the Beacon from rival parties**: The [[Five Fingers of Destiny]] were caught scouting above the Beacon. Vael researched anti-scrying and anti-teleportation countermeasures, ultimately learning that lead-lined walls could help. The threat from other adventuring companies gaining access to the ship has not been fully resolved.
 - **Decode Rudishva technology and history**: Vael spent a week at the Beacon learning spoken Rudishva from Akla-Chah (they began with Mithric as common ground) and has translated at least one Rudishva crisis hologram. Further fluency and understanding of the ship's systems — including the Repli-Cube and the Point Defense Array — remain unfinished business.
@@ -86,17 +83,18 @@ Vaelitharon "Vael" Sunshadow is a 47-year-old half-elven mage of the Thothian, S
 ## Relationships
 
 - **[[Akla-Chah]]**: The Rudishva hologram AI psychologist aboard the Beacon addresses Vael as "Captain Vael" and defers to his command authority. They share a language-exchange relationship — she taught him Rudishva vocabulary while he taught her Archontean — and he contacts her via the Red Rudishva Command Bracelet. She provided medical consultation during a surgical emergency with a Varumani patient and assists with interpreting the ship's systems. She is one of the more consistent and reliable sources of information and support Vael has.
-- **[[Varboka]]**: The Varumani Thegn who rules the Varumani community within Arden Vul. Vael brokered the audience by bringing live animals as gifts and holding both a modern bronze and an ancient plasteel Varumani passport (which he declined to trade away to either Varboka or the lift operator Trijax). The deal for Kerbog Khan's head was agreed to in [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]]; Varboka's trust is engaged but conditional on delivery.
-- **[[Ioannes Grammatikos Byzantios]]**: Archontean cleric of Demma and fellow core member of the Right for Riches company. Vael and Ioannes collaborated on anti-scrying research and are both officers of the Beacon by Vael's own officer assignments to Akla-Chah. Ioannes is one of the people Vael relies on for research support.
-- **[[Vallium Halcyon]]**: The party's Archontean fighter. Named an officer of the Beacon alongside Ioannes and Uvash. Vael and Vallium frequently operate as a two-man forward team during dungeon exploration.
-- **[[Uvash Edzuson]]**: Dwarven cleric of [[Zodarrim]], party member since early delves, and the fourth officer named by Vael to Akla-Chah on the Beacon's crew roster.
-- **[[Wicktrimmer]]**: Wealthy goblin merchant, head of the Rarities Factor, retired adventurer, and one of the most powerful figures in Gosterwick. He purchased [[Larel's Pin]] and [[Larel's Dagger]] from the Right for Riches company and has persistently attempted to buy a pair of teleport rugs from them. He has intelligence on enemy activities and a network that watches for new magic items entering town. The relationship is transactional and mildly tense — valuable to both sides but neither fully trusts the other's agenda.
-- **[[Lady Alexia Basileon]]**: Ruler of Gosterwick. Vael and Uvash met with her directly (accompanied by their lawyer Barnaby Goodbarrel) to clarify the legality of freeing former Settite slaves; she had already banned slavery in Gosterwick. She also received a second Tablet of the Beacon from the party, delivered without documentation. The relationship is cautiously cooperative.
-- **[[Weskenim]]**: King of the United Goblin Tribes, freed from Settite captivity during the [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Set Jailbreak]]. Promised rewards for his liberators on their next visit. The party has subsequently worked to stabilize the Goblin Forum's economy by seeding it with food merchants from Gosterwick.
-- **[[Five Fingers of Destiny]]**: Rival adventuring company led by [[Roger the Rapier]], a mage. The two groups traded access to different dungeon locations as a deal — the Right for Riches showed Roger the Thothian treasury approach in exchange for information, while also warning them away from the Beacon. Vael treats them as a manageable risk but not friends.
+- **[[Varboka]]**: The Varumani Thegn. Vael brokered the audience with gifts of live animals and handled the negotiations directly; Varboka's trust is engaged but conditional on delivery of Khan's head. Declined to sell the Rudishva Command Bracelet to Varboka despite a standing offer.
+- **[[Ioannes Grammatikos Byzantios]]**: Vael and Ioannes collaborate on research whenever occult or theological knowledge is needed — it was Ioannes who found the lead-lined-walls counter-scrying solution. One of the people Vael relies on most for intellectual support.
+- **[[Vallium Halcyon]]**: Vael and Vallium frequently operate as a two-man forward team. Vael casts Blink Other on Vallium to bypass entry obstacles, and they levitate together over chasms while the clerics use Teleport Rugs.
+- **[[Uvash Edzuson]]**: Dwarven cleric of [[Zodarrim]], party member since early delves, named fourth officer of the Beacon by Vael.
+- **[[Wicktrimmer]]**: Head of the Rarities Factor. Transactional and mildly tense — valuable to both sides, neither fully trusts the other's agenda.
+- **[[Lady Alexia Basileon]]**: Ruler of Gosterwick. Vael has met with her directly on matters of company legality and delivered Beacon Tablets. Cautiously cooperative.
+- **[[Weskenim]]**: King of the United Goblin Tribes. Vael addressed him directly in Goblintown after the Set Jailbreak and negotiated passage and commerce arrangements across multiple sessions.
+- **[[Five Fingers of Destiny]]**: Rival company. Vael treats them as a manageable risk but not friends.
 
 ## History
 
+- **Pre-campaign**: Studied magic in the Elf lands, then later at the [[Collegium of Macrina]] in the Archontean Empire. Left when boredom outweighed the curriculum and set out for Narselion, where he eventually fell in with the adventurers who became the [[Right for Riches]] company.
 - Sessions 8b and 9 — [[npcs/Muirasso.md|Muirasso]]'s Tomb and the Broken Head: early delve alongside Thorcin barbarian Michael J. Dundee, Dwarven cleric Uvash Edzuson, and Elven archer [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]].
 - [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b]]: the party explored the Hall of Shrines, encountering frescoes of the Archontean folk hero [[Larel]] One-Eye. Larel's cloak and other artifacts became major acquisitions for Vael.
 - [[sessions/Session 31 - I Want to Believe.md|Session 31]] and [[sessions/Session 32 - Fast Exploration.md|Session 32]]: first extended contact with the Rudishva Bastion and Akla-Chah; Vael pushed the food button in the cafeteria and ate an Arden Vul cake. He and Akla-Chah began their language exchange.
@@ -105,16 +103,9 @@ Vaelitharon "Vael" Sunshadow is a 47-year-old half-elven mage of the Thothian, S
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]]: translated a Rudishva crisis hologram broadcast on the Beacon's northern dais, learning of the varuda nest corruption and Captain Leil-Jor's quarantine order.
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]]: investigated the Arena Lord (possibly the surviving crew member Crellik-Var) and researched defenses against the Five Fingers of Destiny scrying the Beacon.
 - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53]]: called Akla-Chah on the command bracelet to interpret Rudishva console readouts during a Varumani medical emergency. Found a previously unseen button in the Beacon's auditorium that activated view screens displaying unknown locations including an underground pyramid.
-- [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]]: negotiated the Kerbog Khan contract with Varboka, declined to trade away the ancient plasteel Varumani passport despite multiple offers.
+- [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]]: negotiated the Kerbog Khan contract with Varboka. Earlier in the session, spotted and spoke to one of Kerbog Khan's dragonfly constructs in the slime pits — Khan's voice emerged from it; Vael told him not to follow them. Refused to sell the Rudishva Command Bracelet to either the lift operator Trijax or Varboka.
 
 ## Notes
-
-## Character Sheets
-- [[attachments/discord/character-sheets/1485979115419992185-VaelSunshadow20260327.gcs|VaelSunshadow20260327.gcs]]
-- [[attachments/discord/character-sheets/1348516364150636544-Vael_Sunshadow_-_Social.gcs|Vael_Sunshadow_-_Social.gcs]]
-- [[attachments/discord/character-sheets/1348189671473020949-Vael_Sunshadow.gcs|Vael_Sunshadow.gcs]]
-- [[attachments/discord/character-sheets/1347449204888436798-Vael_Sunshadow.gcs|Vael_Sunshadow.gcs]]
-- [[attachments/discord/character-sheets/1347449204888436798-Vael_Sunshadow.gcs|Vael_Sunshadow.gcs]]
 
 ## Character Sheet Snapshot
 

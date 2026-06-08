@@ -11,7 +11,7 @@ This document compiles information about the various merchant "Factors" operatin
 
 ### [[Rarities Factor]]
 - Led by local goblin [[Wicktrimmer]].
-- Offers the lowest storage fee in [[Gosterwick]]; now free for the party due to a deal for [[Larel's Dagger]].
+- Offers the lowest storage fee in [[Gosterwick]]; now free for the party due to a deal for [[items/Larel's Pin.md|Larel's Pin]].
 - Willing to house non-cash goods.
 - Has locations only in [[Narsileon]], [[Newmarket]], and [[Gosterwick]].
 

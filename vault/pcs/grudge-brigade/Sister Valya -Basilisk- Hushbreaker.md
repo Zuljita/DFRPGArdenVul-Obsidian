@@ -29,12 +29,6 @@ Clerical support and expedition logistics. Provides martial arts combat support 
 - Recruited from the Grudge Brigade as an on-call mercenary
 - Has a bat familiar named Sanguinette
 
-## Character Sheets
-- [[attachments/discord/character-sheets/1359696635453640816-Basilisk_Valya_Hushbreaker_125.gcs|Basilisk_Valya_Hushbreaker_125.gcs]]
-- [[attachments/discord/character-sheets/1348745557593686016-Valya_Hushbreaker.gcs|Valya_Hushbreaker.gcs]]
-- ![[attachments/discord/character-sheets/1359696635453640816-Basilisk_Valya_Hushbreaker_125-2.png]] — Character sheet for Sister Valya Hushbreaker showing traits, skills, spells, and equipment.
-- [[attachments/discord/character-sheets/1348745557593686016-Valya_Hushbreaker.gcs|Valya_Hushbreaker.gcs]]
-
 ## Character Sheet Snapshot
 
 _Generated from `1359696635453640816-Basilisk_Valya_Hushbreaker_125.gcs` (sheet `modified_date`: **2025-04-05**, total points: **125**)._

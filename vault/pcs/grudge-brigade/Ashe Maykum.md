@@ -34,14 +34,6 @@ Ashe has a well-earned reputation as the "goat-summoning druid." He is a reliabl
 - **Great Cavern Exploration (Session 15):** His summoned bears and bat swarms were instrumental in fighting off local fauna
 - **Construction at the Beacon (Session 32):** Helped construct a stone cover over a stairway alongside Vaelethron 'Vael' Sunshadow
 
-## Character Sheets
-- ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-3.png]] — Equipment list from Ashe Maykum's character sheet.
-- ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-2.png]] — A screenshot of the character sheet for Ashe Maykum.
-- ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-1.png]] — A character sheet for Ashe Maykum showing attributes, skills, and traits.
-- [[attachments/discord/character-sheets/1348015137726136412-Ashe_Maykum.gcs|Ashe_Maykum.gcs]]
-- ![[attachments/discord/character-sheets/1348015448435986556-Ashe_Maykum-1.png]] — A character sheet for Ashe Maykum.
-- [[attachments/discord/character-sheets/1348015137726136412-Ashe_Maykum.gcs|Ashe_Maykum.gcs]]
-
 ## Character Sheet Snapshot
 
 _Generated from `1348015137726136412-Ashe_Maykum.gcs` (sheet `modified_date`: **2025-03-08**, total points: **125**)._

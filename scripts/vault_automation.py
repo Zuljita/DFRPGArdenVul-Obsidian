@@ -1887,6 +1887,46 @@ def article_queue_queries(title: str, kind: str, aliases: list[str], tags: tuple
     return tuple(queries)
 
 
+_LATEST_VAULT_SESSION: int | None = None
+_LATEST_SESSION_TEXT: str | None = None
+
+def _latest_vault_session_number() -> int:
+    """Return the highest session number present in vault/sessions/, cached per process."""
+    global _LATEST_VAULT_SESSION
+    if _LATEST_VAULT_SESSION is not None:
+        return _LATEST_VAULT_SESSION
+    best = 0
+    for p in (VAULT / "sessions").glob("*.md"):
+        m = re.search(r"Session\s+(\d+)", p.stem)
+        if m:
+            best = max(best, int(m.group(1)))
+    _LATEST_VAULT_SESSION = best
+    return best
+
+
+def _latest_session_text() -> str:
+    """Return the lowercased text of the highest-numbered session file, cached per process."""
+    global _LATEST_SESSION_TEXT
+    if _LATEST_SESSION_TEXT is not None:
+        return _LATEST_SESSION_TEXT
+    target = _latest_vault_session_number()
+    for p in (VAULT / "sessions").glob("*.md"):
+        m = re.search(r"Session\s+(\d+)", p.stem)
+        if m and int(m.group(1)) == target:
+            _LATEST_SESSION_TEXT = p.read_text(errors="replace").lower()
+            return _LATEST_SESSION_TEXT
+    _LATEST_SESSION_TEXT = ""
+    return _LATEST_SESSION_TEXT
+
+
+def _article_latest_session_number(text: str) -> int:
+    """Return the highest session number referenced anywhere in the article text."""
+    best = 0
+    for m in re.finditer(r"[Ss]ession[s]?\s+(\d+)", text):
+        best = max(best, int(m.group(1)))
+    return best
+
+
 def score_article(path: Path, text: str) -> tuple[int, tuple[str, ...]]:
     body = strip_frontmatter(text)
     line_count = len([line for line in body.splitlines() if line.strip()])
@@ -1925,6 +1965,23 @@ def score_article(path: Path, text: str) -> tuple[int, tuple[str, ...]]:
     if path.parent.name == "items" and re.search(r"\bunknown\b|\btbd\b", lower):
         score += 5
         reasons.append("item has unresolved function or identity")
+    # Staleness signal: each session in the vault that postdates the article's
+    # latest session reference adds 4 points. An article stuck at Session 42
+    # in a 55-session vault scores +52, pushing it ahead of structural stubs.
+    article_session = _article_latest_session_number(text)
+    if article_session > 0:
+        vault_session = _latest_vault_session_number()
+        gap = vault_session - article_session
+        if gap > 0:
+            score += gap * 4
+            reasons.append(f"stale: references up to Session {article_session}, vault at {vault_session} (+{gap * 4})")
+    # Fresh-drop signal: if this article's subject is named in the latest session
+    # file, immediately push it to the top of the queue regardless of its other scores.
+    subject = path.stem.lower()
+    if subject and subject in _latest_session_text():
+        latest = _latest_vault_session_number()
+        score += 500
+        reasons.append(f"named in latest session (Session {latest}) — immediate priority")
     return score, tuple(reasons)
 
 
@@ -4631,7 +4688,14 @@ def article_edit_proposer_prompt(
         f"{sources_text}\n\n"
         "YOUR TASK: Propose at most 3 small, sourced additions to the article based ONLY on the source evidence above. "
         "Be conservative: do not invent facts, do not paraphrase loosely, do not propose changes already present in the article.\n\n"
-        "For library and media pages, prioritize recent citable evidence that explicitly names the current work. If the "
+        + (
+            "PARTY-LEVEL FACTS RULE: This is a PC article. Facts that apply equally to all Right for Riches "
+            "members — company deals, alliances, shared assets, passport arrangements, contract terms — belong "
+            "on the [[Right for Riches Company]] page, not here. Do not propose additions that duplicate "
+            "party-level content. Only propose additions specific to this individual character.\n\n"
+            if article_kind == "pc" else ""
+        )
+        + "For library and media pages, prioritize recent citable evidence that explicitly names the current work. If the "
         "page has TODO placeholders in `Content` or `Reading Events`, propose concise bullets for those sections from an "
         "explicitly named reading result before exploring loosely related works or older similarly named research. A raw "
         "private hint may help locate the curated digest, but the proposed bullet must cite the curated digest. When a "
@@ -4679,6 +4743,100 @@ def article_edit_proposer_prompt(
         "This flags the article for a targeted --from-session run. Only populate when you can identify a specific "
         "named session that would provide the missing context. Leave empty otherwise.\n\n"
         "Return {\"research_queries\": [], \"context_sessions\": [], \"proposals\": []} if the evidence does not support any addition."
+    )
+
+
+_POLISH_PRESERVED_HEADINGS = (
+    "## Appears In",
+    "## Character Sheet Snapshot",
+    "## Character Sheets",
+    "## Maps",
+    "## Portraits",
+)
+
+
+def _split_article_sections(text: str) -> dict[str, str]:
+    """Return {heading: content} for every H2 section in the article.
+    The special key '' holds everything before the first H2 (frontmatter + H1)."""
+    result: dict[str, str] = {}
+    current_heading = ""
+    current_lines: list[str] = []
+    for line in text.splitlines(keepends=True):
+        if line.startswith("## "):
+            result[current_heading] = "".join(current_lines)
+            current_heading = line.rstrip("\n")
+            current_lines = [line]
+        else:
+            current_lines.append(line)
+    result[current_heading] = "".join(current_lines)
+    return result
+
+
+def article_polish_prompt(
+    prose_text: str,
+    source_chunks: list[dict],
+    article_path: str,
+    article_title: str,
+    article_kind: str,
+) -> str:
+    """Full-rewrite prompt for prose sections only (preserved sections stripped out beforehand)."""
+    blocks = []
+    for c in source_chunks:
+        blocks.append(
+            f"[{c.get('path','?')} §{c.get('section','?')} kind={c.get('kind','?')}]\n{(c.get('text') or '')[:900]}"
+        )
+    sources_text = "\n\n---\n\n".join(blocks) or "(no evidence retrieved)"
+
+    pc_rule = (
+        "\nPARTY-LEVEL FACTS RULE: This is a PC article. Facts that apply equally to all Right for Riches "
+        "members — company deals, alliances, shared assets, passport arrangements, contract terms — belong "
+        "on the [[Right for Riches Company]] page, not here. Only include what is personal and unique to "
+        "this character.\n"
+        if article_kind == "pc" else ""
+    )
+
+    return (
+        "You are an Obsidian vault editor for the Arden Vul DFRPG tabletop campaign.\n\n"
+        f"ARTICLE PATH: {article_path}\n"
+        f"Title: {article_title}\n"
+        f"Kind: {article_kind}\n\n"
+        "CURRENT ARTICLE (prose sections only — auto-generated sections have been removed):\n---\n"
+        f"{prose_text}\n"
+        "---\n\n"
+        "SOURCE EVIDENCE from canonical vault sources (Blogspot session recaps, weekly Discord digests, lore docs):\n\n"
+        f"{sources_text}\n\n"
+        "YOUR TASK: Rewrite the prose sections of this article so they are accurate, well-organised, and "
+        "complete based on the evidence and existing content. Fix inaccuracies, tighten prose, remove "
+        "redundancy, and fill gaps where the evidence supports it.\n"
+        f"{pc_rule}\n"
+        "STRICT RULES:\n"
+        "1. Return ONLY the rewritten markdown — no commentary, no code fences, no preamble.\n"
+        "2. Reproduce the YAML frontmatter block (---...---) exactly as-is. Do NOT alter any frontmatter fields.\n"
+        "3. Only state facts supported by the source evidence or already present in the article. "
+        "Do not invent facts or paraphrase loosely.\n"
+        "4. Preserve all wikilinks — do not strip [[...]] markup.\n"
+        "5. Do not add H2 sections that do not already exist in the article.\n"
+        "6. Sections with nothing to improve should be reproduced as-is.\n"
+    )
+
+
+def article_typo_fix_prompt(text: str) -> str:
+    """Second-pass QA prompt: fix only mechanical typos, touch nothing else."""
+    return (
+        "You are a proofreader for an Obsidian markdown vault. "
+        "Your only job is to fix clear typographical errors in the text below.\n\n"
+        "FIX:\n"
+        "- Corrupted or garbled words (e.g. 'Goster $terwick' → 'Gosterwick')\n"
+        "- Spurious characters inserted mid-word (e.g. 'dun geon' → 'dungeon')\n"
+        "- Obvious digit transpositions in session references (e.g. 'Session 1s' → 'Session 15')\n"
+        "- Doubled or missing spaces\n\n"
+        "DO NOT:\n"
+        "- Change any content, facts, phrasing, or meaning\n"
+        "- Alter wikilinks ([[...]]) in any way\n"
+        "- Rewrite sentences\n"
+        "- 'Fix' anything you are uncertain about — leave it unchanged\n\n"
+        "Return ONLY the corrected text. No commentary, no fences, no preamble.\n\n"
+        f"{text}"
     )
 
 
@@ -6965,8 +7123,15 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
             ae_apply_limit = int(sources_cfg.get("article_edit_apply_limit", 0) or 0)
             ae_verify_limit_arg = None if ae_verify_limit < 0 else ae_verify_limit
             ae_apply_limit_arg = None if ae_apply_limit < 0 else ae_apply_limit
-            if (queue_top or media_queue_top or walk_step) and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
+            pinned_paths: list[str] = sources_cfg.get("pinned_article_paths", []) or []
+            if (queue_top or media_queue_top or walk_step or pinned_paths) and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
                 seen: set[str] = set()
+                # Pinned paths always get a research pass regardless of queue score
+                for pp in pinned_paths:
+                    p = ROOT / pp if not Path(pp).is_absolute() else Path(pp)
+                    if p.exists() and str(p) not in seen:
+                        seen.add(str(p))
+                        selected_paths.append(p)
                 if queue_top and article_queue:
                     for it in article_queue[:queue_top]:
                         if it.path not in seen:
@@ -7337,6 +7502,20 @@ def build_parser() -> argparse.ArgumentParser:
     summarize_scratch = sub.add_parser("summarize-scratchpad", help="Condense SCRATCH.md using the configured LLM")
     summarize_scratch.set_defaults(func=cmd_summarize_scratchpad)
 
+    polish_queue = sub.add_parser("polish-queue", help="Polish top-N articles from the staleness+quality queue")
+    polish_queue.add_argument("--limit", type=int, default=5, help="Number of articles to polish (default 5)")
+    polish_queue.add_argument("--apply", action="store_true", help="Write changes; omit for dry-run diff")
+    polish_queue.add_argument("--top-k", type=int, default=8, help="RAG results per query (default 8)")
+    polish_queue.add_argument("--kinds", nargs="*", metavar="KIND",
+                              help="Restrict to article kinds e.g. --kinds pc npc faction")
+    polish_queue.set_defaults(func=cmd_polish_queue)
+
+    polish = sub.add_parser("polish-article", help="Full-rewrite polishing pass: RAG research + LLM rewrite of a single vault article")
+    polish.add_argument("--article", required=True, help="Repo-relative path to the article (e.g. vault/pcs/Vallium Halcyon.md)")
+    polish.add_argument("--apply", action="store_true", help="Write the rewritten article to disk; omit for dry-run diff")
+    polish.add_argument("--top-k", type=int, default=8, help="RAG results per query (default 8)")
+    polish.set_defaults(func=cmd_polish_article)
+
     research = sub.add_parser("research-article", help="Run an iterative RAG research agent to propose edits for a vault article")
     research.add_argument("--article", required=True, help="Repo-relative path to the article (e.g. vault/items/Pale Green Horn.md)")
     research.add_argument("--max-rounds", type=int, default=5, help="Maximum RAG search rounds (default 5)")
@@ -7345,6 +7524,185 @@ def build_parser() -> argparse.ArgumentParser:
     research.set_defaults(func=cmd_research_article)
 
     return parser
+
+
+def cmd_polish_article(args) -> int:
+    """Full-rewrite polishing pass for a single vault article."""
+    import difflib
+
+    article_rel = args.article
+    path = ROOT / article_rel
+    if not path.exists():
+        print(json.dumps({"ok": False, "error": f"Article not found: {article_rel}"}), file=sys.stderr)
+        return 1
+
+    article_text = read_text(path)
+    item = build_article_queue_item(path)
+    if item is None:
+        print(json.dumps({"ok": False, "error": "Could not build queue item for article"}), file=sys.stderr)
+        return 1
+
+    # Split into sections; extract preserved ones so the LLM never sees them.
+    sections = _split_article_sections(article_text)
+    preserved: dict[str, str] = {}
+    prose_sections: dict[str, str] = {}
+    for heading, content in sections.items():
+        if any(heading.startswith(h) for h in _POLISH_PRESERVED_HEADINGS):
+            preserved[heading] = content
+        else:
+            prose_sections[heading] = content
+    prose_text = "".join(prose_sections.values())
+
+    top_k = getattr(args, "top_k", 8)
+    print(f"Gathering research for {article_rel} ...", file=sys.stderr)
+    chunks = gather_article_research_chunks(item, top_k_per_query=top_k, max_chunks=20)
+    print(f"  {len(chunks)} research chunks retrieved", file=sys.stderr)
+
+    prompt = article_polish_prompt(prose_text, chunks, item.path, item.title, item.kind)
+    print("Calling LLM for polish pass ...", file=sys.stderr)
+    try:
+        rewritten_prose = llm_chat_text(prompt, timeout=300)
+    except Exception as exc:
+        print(json.dumps({"ok": False, "error": str(exc)}), file=sys.stderr)
+        return 1
+
+    # Strip accidental markdown code fences the model sometimes wraps output in
+    if rewritten_prose.startswith("```"):
+        rewritten_prose = re.sub(r"^```[^\n]*\n", "", rewritten_prose)
+        rewritten_prose = re.sub(r"\n```\s*$", "", rewritten_prose.rstrip())
+
+    # QA pass: fix typos introduced by the rewrite model
+    print("Running typo-fix QA pass ...", file=sys.stderr)
+    try:
+        rewritten_prose = llm_chat_text(article_typo_fix_prompt(rewritten_prose), timeout=180)
+        if rewritten_prose.startswith("```"):
+            rewritten_prose = re.sub(r"^```[^\n]*\n", "", rewritten_prose)
+            rewritten_prose = re.sub(r"\n```\s*$", "", rewritten_prose.rstrip())
+    except Exception as exc:
+        print(f"  typo-fix pass failed ({exc}), continuing without it", file=sys.stderr)
+
+    # Splice preserved sections back in at the end (or at their original positions
+    # if the LLM happened to include placeholder headings).
+    rewritten_sections = _split_article_sections(rewritten_prose)
+    # Remove any stub versions the LLM may have emitted for preserved headings
+    for h in list(rewritten_sections.keys()):
+        if any(h.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS):
+            del rewritten_sections[h]
+    # Reassemble: prose sections in LLM order, then preserved sections in original order
+    rewritten = "".join(rewritten_sections.values())
+    for heading in sections:  # original order
+        if heading in preserved:
+            rewritten = rewritten.rstrip("\n") + "\n" + preserved[heading]
+
+    # Show diff
+    original_lines = article_text.splitlines(keepends=True)
+    rewritten_lines = rewritten.splitlines(keepends=True)
+    diff = list(difflib.unified_diff(
+        original_lines, rewritten_lines,
+        fromfile=f"a/{article_rel}", tofile=f"b/{article_rel}", n=3
+    ))
+
+    if not diff:
+        print(json.dumps({"ok": True, "changed": False, "message": "No changes produced"}))
+        return 0
+
+    if not getattr(args, "apply", False):
+        sys.stdout.writelines(diff)
+        print(f"\n--- DRY RUN: pass --apply to write changes ---", file=sys.stderr)
+        return 0
+
+    path.write_text(rewritten, encoding="utf-8")
+    print(json.dumps({"ok": True, "changed": True, "path": article_rel, "diff_lines": len(diff)}))
+    return 0
+
+
+def cmd_polish_queue(args) -> int:
+    """Run the polish pass on the top-N articles from the staleness+quality queue."""
+    import difflib
+
+    limit = getattr(args, "limit", 5)
+    apply_ = getattr(args, "apply", False)
+    top_k = getattr(args, "top_k", 8)
+    kinds = set(getattr(args, "kinds", None) or [])
+
+    queue = build_article_queue(limit=200)
+    if kinds:
+        queue = [it for it in queue if it.kind in kinds]
+    queue = queue[:limit]
+
+    if not queue:
+        print(json.dumps({"ok": True, "message": "Queue is empty"}))
+        return 0
+
+    results = []
+    for item in queue:
+        path = ROOT / item.path
+        if not path.exists():
+            continue
+        article_text = read_text(path)
+        sections = _split_article_sections(article_text)
+        preserved = {h: c for h, c in sections.items()
+                     if any(h.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS)}
+        prose_sections = {h: c for h, c in sections.items()
+                          if not any(h.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS)}
+        prose_text = "".join(prose_sections.values())
+
+        print(f"[{item.score}] {item.path}", file=sys.stderr)
+        chunks = gather_article_research_chunks(item, top_k_per_query=top_k, max_chunks=20)
+        print(f"  {len(chunks)} chunks", file=sys.stderr)
+
+        prompt = article_polish_prompt(prose_text, chunks, item.path, item.title, item.kind)
+        try:
+            rewritten_prose = llm_chat_text(prompt, timeout=300)
+        except Exception as exc:
+            print(f"  polish failed: {exc}", file=sys.stderr)
+            results.append({"path": item.path, "ok": False, "error": str(exc)})
+            continue
+
+        if rewritten_prose.startswith("```"):
+            rewritten_prose = re.sub(r"^```[^\n]*\n", "", rewritten_prose)
+            rewritten_prose = re.sub(r"\n```\s*$", "", rewritten_prose.rstrip())
+
+        try:
+            rewritten_prose = llm_chat_text(article_typo_fix_prompt(rewritten_prose), timeout=180)
+            if rewritten_prose.startswith("```"):
+                rewritten_prose = re.sub(r"^```[^\n]*\n", "", rewritten_prose)
+                rewritten_prose = re.sub(r"\n```\s*$", "", rewritten_prose.rstrip())
+        except Exception as exc:
+            print(f"  typo-fix skipped: {exc}", file=sys.stderr)
+
+        rewritten_sections = _split_article_sections(rewritten_prose)
+        for h in list(rewritten_sections.keys()):
+            if any(h.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS):
+                del rewritten_sections[h]
+        rewritten = "".join(rewritten_sections.values())
+        for heading in sections:
+            if heading in preserved:
+                rewritten = rewritten.rstrip("\n") + "\n" + preserved[heading]
+
+        diff = list(difflib.unified_diff(
+            article_text.splitlines(keepends=True),
+            rewritten.splitlines(keepends=True),
+            fromfile=f"a/{item.path}", tofile=f"b/{item.path}", n=2,
+        ))
+
+        if not diff:
+            print(f"  no changes", file=sys.stderr)
+            results.append({"path": item.path, "ok": True, "changed": False})
+            continue
+
+        if apply_:
+            path.write_text(rewritten, encoding="utf-8")
+            print(f"  written", file=sys.stderr)
+        else:
+            sys.stdout.writelines(diff)
+
+        results.append({"path": item.path, "ok": True, "changed": True, "diff_lines": len(diff)})
+
+    changed = [r["path"] for r in results if r.get("changed")]
+    print(json.dumps({"ok": True, "processed": len(results), "changed": len(changed),
+                      "applied": apply_, "pages": results}))
+    return 0
 
 
 def main(argv: list[str] | None = None) -> int:
