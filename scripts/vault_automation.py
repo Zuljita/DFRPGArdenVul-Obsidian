@@ -4688,7 +4688,14 @@ def article_edit_proposer_prompt(
         f"{sources_text}\n\n"
         "YOUR TASK: Propose at most 3 small, sourced additions to the article based ONLY on the source evidence above. "
         "Be conservative: do not invent facts, do not paraphrase loosely, do not propose changes already present in the article.\n\n"
-        "For library and media pages, prioritize recent citable evidence that explicitly names the current work. If the "
+        + (
+            "PARTY-LEVEL FACTS RULE: This is a PC article. Facts that apply equally to all Right for Riches "
+            "members — company deals, alliances, shared assets, passport arrangements, contract terms — belong "
+            "on the [[Right for Riches Company]] page, not here. Do not propose additions that duplicate "
+            "party-level content. Only propose additions specific to this individual character.\n\n"
+            if article_kind == "pc" else ""
+        )
+        + "For library and media pages, prioritize recent citable evidence that explicitly names the current work. If the "
         "page has TODO placeholders in `Content` or `Reading Events`, propose concise bullets for those sections from an "
         "explicitly named reading result before exploring loosely related works or older similarly named research. A raw "
         "private hint may help locate the curated digest, but the proposed bullet must cite the curated digest. When a "
