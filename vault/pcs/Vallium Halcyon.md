@@ -104,12 +104,6 @@ In [[sessions/Session 47 - The No Mana Zone.md|Session 47]], he and Ioannes met 
 ## Notes
 - See also a stray reference to “Vallium Michael” in Session 16; consolidated here.
 
-## Character Sheets
-- [[attachments/discord/character-sheets/1348347379996164179-Vallium_Halcyon_-_V01-01.gcs|Vallium_Halcyon_-_V01-01.gcs]]
-- [[attachments/discord/character-sheets/1347770876283584633-Vallium_Halcyon.gcs|Vallium_Halcyon.gcs]]
-- [[attachments/discord/character-sheets/1347765795677016066-Vallium_Halcyon.gcs|Vallium_Halcyon.gcs]]
-- [[attachments/discord/character-sheets/1347761113839702098-Vallium_Halcyon.pdf|Vallium_Halcyon.pdf]]
-
 ## Character Sheet Snapshot
 
 _Generated from `1512192891382927370-Vallium_Halcyon_-_V03-23.gcs` (sheet `modified_date`: **2026-06-04**, total points: **295**)._

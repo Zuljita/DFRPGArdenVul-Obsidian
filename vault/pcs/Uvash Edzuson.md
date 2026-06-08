@@ -101,10 +101,6 @@ He has since continued in his dual roles as front-line combat cleric and parish 
 - [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]]
 - [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55 - Varboka the Varumani Thegn]]
 
-## Character Sheets
-- [[attachments/discord/character-sheets/1347989610025717852-Uvash.gcs|Uvash.gcs]]
-- [[attachments/discord/character-sheets/1347988148063440927-Uvash.gcs|Uvash.gcs]]
-
 ## Character Sheet Snapshot
 
 _Generated from `1510078682415239288-Uvash52926_Fixed.gcs` (sheet `modified_date`: **2026-05-29**, total points: **260**)._

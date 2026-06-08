@@ -109,16 +109,6 @@ Ioannes came to [[Gosterwick]] as a trained cleric, researcher, and exorcist wit
 ## Portraits
 - ![[attachments/discord/Ioannes character updates/1354658076149420112-adventurer.jpeg]] — A character portrait of Ioannes.
 
-## Character Sheets
-- [[attachments/discord/character-sheets/1497372713348497428-Ioannes20260424.gcs|Ioannes20260424.gcs]]
-- [[attachments/discord/character-sheets/1489766899188367523-Ioannes20260403.gcs|Ioannes20260403.gcs]]
-- [[attachments/discord/character-sheets/1362944553187016765-Ioannes.gcs|Ioannes.gcs]]
-- [[attachments/discord/character-sheets/1354520220798025840-Ioannes.gcs|Ioannes.gcs]]
-- [[attachments/discord/character-sheets/1352789253356130334-Ioannes.gcs|Ioannes.gcs]]
-- [[attachments/discord/character-sheets/1349934492504162374-Ioannes.gcs|Ioannes.gcs]]
-- [[attachments/discord/character-sheets/1508136174038814982-Ioannes20260529.gcs|Ioannes20260529.gcs]]
-- [[attachments/discord/character-sheets/1508136174038814982-Ioannes20260529.gcs|Ioannes20260529.gcs]]
-
 ## Character Sheet Snapshot
 
 _Generated from `1508136174038814982-Ioannes20260529.gcs` (sheet `modified_date`: **2026-05-23**, total points: **296**)._
