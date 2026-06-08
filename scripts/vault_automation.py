@@ -4820,6 +4820,26 @@ def article_polish_prompt(
     )
 
 
+def article_typo_fix_prompt(text: str) -> str:
+    """Second-pass QA prompt: fix only mechanical typos, touch nothing else."""
+    return (
+        "You are a proofreader for an Obsidian markdown vault. "
+        "Your only job is to fix clear typographical errors in the text below.\n\n"
+        "FIX:\n"
+        "- Corrupted or garbled words (e.g. 'Goster $terwick' → 'Gosterwick')\n"
+        "- Spurious characters inserted mid-word (e.g. 'dun geon' → 'dungeon')\n"
+        "- Obvious digit transpositions in session references (e.g. 'Session 1s' → 'Session 15')\n"
+        "- Doubled or missing spaces\n\n"
+        "DO NOT:\n"
+        "- Change any content, facts, phrasing, or meaning\n"
+        "- Alter wikilinks ([[...]]) in any way\n"
+        "- Rewrite sentences\n"
+        "- 'Fix' anything you are uncertain about — leave it unchanged\n\n"
+        "Return ONLY the corrected text. No commentary, no fences, no preamble.\n\n"
+        f"{text}"
+    )
+
+
 def media_article_edit_proposer_prompt(
     article_text: str,
     source_chunks: list[dict],
@@ -7542,6 +7562,16 @@ def cmd_polish_article(args) -> int:
     if rewritten_prose.startswith("```"):
         rewritten_prose = re.sub(r"^```[^\n]*\n", "", rewritten_prose)
         rewritten_prose = re.sub(r"\n```\s*$", "", rewritten_prose.rstrip())
+
+    # QA pass: fix typos introduced by the rewrite model
+    print("Running typo-fix QA pass ...", file=sys.stderr)
+    try:
+        rewritten_prose = llm_chat_text(article_typo_fix_prompt(rewritten_prose), timeout=180)
+        if rewritten_prose.startswith("```"):
+            rewritten_prose = re.sub(r"^```[^\n]*\n", "", rewritten_prose)
+            rewritten_prose = re.sub(r"\n```\s*$", "", rewritten_prose.rstrip())
+    except Exception as exc:
+        print(f"  typo-fix pass failed ({exc}), continuing without it", file=sys.stderr)
 
     # Splice preserved sections back in at the end (or at their original positions
     # if the LLM happened to include placeholder headings).
