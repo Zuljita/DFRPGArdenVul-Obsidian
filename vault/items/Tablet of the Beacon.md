@@ -1,7 +1,13 @@
 ---
 title: Tablet of the Beacon
 tags:
+  - type/regalia
   - item
+aliases:
+  - Command Tablet
+related_entities:
+  - [[npcs/Temrin.md|Temrin]]
+  - [[npcs/Lady Alexia Basileon.md|Lady Alexia]]
 ---
 # Tablet of the [[locations/Beacon.md|Beacon]]
 
@@ -15,6 +21,7 @@ tags:
 - In [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]], the party discussed keeping the tablet in a secret room within the [[locations/Beacon.md|Beacon]].
 - A second Tablet of the Beacon exists in an unknown area, following Temrin's map from the Bastion.
 - The plan for the second tablet is to give it to Lady Alexia [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]].
+- When used, Akla-Chah accepted Ioannes, Vallium, and Uvash as officers, and Basil of Narsileon as crew.
 
 ## Properties
 

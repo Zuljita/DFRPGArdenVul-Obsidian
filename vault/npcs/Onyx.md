@@ -28,6 +28,15 @@ Familiars are often imbued with magical qualities and share a bond with their ma
 - In Session 34c, Onyx ran into the House of the Gods at full speed, meowing at Uvash as if someone were standing on his tail.
 - Becomes bothered when others are given fish, as he considers it his food.
 - In Session 34c, Onyx grabbed the hem of Uvash's mail vestments and started tugging him toward the fire.
+- Was the leader of a group of four cats found in the Great Cavern.
+- His former master, Lyra, was killed by a giant lizard while adventuring.
+- Is a black cat.
+- Survived in the Great Cavern by eating mice and small lizards and sleeping in a damp cave.
+- Was adopted by Ioannes and Thronebreaker.
+- Fael the druid was paid to cast Beast Speech to communicate with him.
+- Met the other cats while looking for a way out of the Great Cavern.
+- Disliked his primitive lifestyle of eating mice and small lizards and sleeping in a damp cave.
+- Was looking for a way out of the Great Cavern so that the cats could find a wizard to adopt them and provide a civilized existence.
 
 ## Sessions
 - [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]

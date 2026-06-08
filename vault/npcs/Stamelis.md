@@ -38,6 +38,7 @@ aliases:
 - PCs: recurring consultations and errands.
 - [[Undead Librarian]]s: He provides information about these creatures that inhabit the library.
 - [[Akla-Chah]]: The party brought [[npcs/Stamelis.md|Stamelis]] to the [[Beacon]] to keep the [[factions/Rudishva.md|Rudishva]] AI company.
+- [[npcs/Akla-Chah.md|Akla-Chah]] can translate for him using fluent Mithric and Vael-accented Archontean.
 
 ## Discord Insights
 

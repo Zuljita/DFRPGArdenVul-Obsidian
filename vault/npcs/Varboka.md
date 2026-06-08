@@ -26,3 +26,5 @@ The Thegn of the Varumani — ruler of all loyal Varumani within Arden Vul and t
 - Referenced in [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53]] — Gevorda confirms all "proper respectable varumani" know the Thegn.
 - [[sessions/Session 54 - The Tomb of Marius.md|Session 54]] — party plans to visit the Varumani market and try to meet the Thegn.
 - [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]] — Traded four modern bronze passports to the party in exchange for an ancient historical relic.
+- [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]] — Informed the party that their weapons could be recovered from ogre guards to the west.
+- [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]] — Agreed to lend the party the ancient passport back if they ever truly need it.

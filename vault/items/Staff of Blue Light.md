@@ -1,5 +1,7 @@
 ---
 tags:
+  - site/great-cavern
+  - session/6
   - item
 aliases:
   - Magic Staff (glowing blue)

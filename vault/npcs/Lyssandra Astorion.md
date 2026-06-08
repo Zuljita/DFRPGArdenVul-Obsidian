@@ -32,6 +32,12 @@ Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A
 - Is currently evicting tenants from the [[Arcane Practitioners' Club]], with all apartment tenants required to leave by the 1st of Dikaios.
 - Used spells to extinguish a fire that started in one of the apartments at the [[Arcane Practitioners' Club]].
 - Mentioned the [[items/Gem of Insight.md|Gem of Insight]] to Freydis the Stern, the steward to Lady Alexia Basileon.
+- A noble who advises on land discounts and bounties for attracting merchants/craftsmen.
+- A magical snob who wants Ioannes or Vael supervising Vallium's potion making attempts.
+- Knocked on the alchemy lab door to tell Vael and Ioannis about a note she received regarding Arcanum.
+- Recommended selling the [[items/Gem of Insight.md|Gem of Insight]] to Lady Alexia or the Green Lady.
+- Identified the Rod of Imperium as a significant artifact of Archonal power alongside [[Pelteon]].
+- Her club, the [[Arcane Practitioners' Club]], provides services such as alchemy, magical research, and training.
 
 ## Sessions
 

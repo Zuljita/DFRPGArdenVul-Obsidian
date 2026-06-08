@@ -23,12 +23,17 @@ appears_in:
 ## Summary
 [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]] was the halfling mob boss who ran an extortion racket near the pyramid landings under [[locations/Arden Vul|Arden Vul]]. For a long time, he and his gang of thugs controlled access to the [[locations/Halls of Thoth|Halls of Thoth]], demanding payment from all who passed. His operation was ultimately dismantled by the [[factions/Right for Riches Company|Right for Riches Company]] in a decisive assault.
 
+Following the defeat of his gang by the United Goblins, the Halls of Thoth were renamed Upper Goblintown.
+
 ## Criminal Enterprise
 [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s gang controlled the territory beneath the [[locations/Pyramid of Thoth|Pyramid of Thoth]]. His business model involved:
 - **"Adventuring Licenses":** Forcing adventurers to purchase a license for 25 gp to enter the area.
 - **Tithing:** Demanding a 10% tithe on all treasure recovered by licensed parties.
 - **Protection Racket:** Extending his influence beyond the ruins, running a protection racket for merchants as far away as [[locations/Newmarket|Newmarket]].
 - **Armed Enforcement:** His gang was known to be well-armed, reportedly using magic wands and poison.
+- **Plumthorn's Keys:** His original keys were stripped from him and copies were subsequently provided to the goblins.
+- He avoided conducting his criminal operations within established towns.
+- Three copies of his original keys were produced at a cost of $30 ($10 per key).
 
 ## Relationships
 - **[[npcs/Roskelly Winterleaf|Roskelly Winterleaf]]:** [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s primary lieutenant, responsible for managing the day-to-day operations of the toll collection. He was killed by [[npcs/Merenuithiel Lacrymosa Armaris|Lacrymosa]] while attempting to flee during the party's final assault.

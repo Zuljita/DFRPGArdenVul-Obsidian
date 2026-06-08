@@ -26,6 +26,8 @@ A young, vain mage and co-owner of the [[Arcane Practitioners' Club]]. She was f
 - Youngish Archontean woman with brown eyes, frizzy blonde hair, and very stylish wizard's robes.
 - She charges [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]]'s robes.
 - She cannot afford the [[items/Gem of Insight.md|Gem of Insight]].
+- Onyx noted that she was 'insufficiently attentive because of her own problems with some human.'
+- Along with Lyssandra, she identified the [[items/Rod of Imperium.md|Rod of Imperium]] as a significant artifact of Archonal power. ([[notes/Discord Summary 2025-W17.md|Discord Summary 2025-W17]])
 
 ## Sessions
 

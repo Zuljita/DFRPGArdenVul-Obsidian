@@ -31,6 +31,8 @@ appears_in:
 - The party asked [[npcs/Gog.md|Gog]] about [[factions/Varumani.md|Varumani]] passports and tested his linguistic skills. He seems to understand Elvish, Dwarvish, and [[factions/Rudishva.md|Rudishva]].
 - He was exiled from [[factions/Varumani.md|Varumani]] territory but did not provide details.
 - The [[Cave of Gog]] and the Wet Caves are part of a route leading to Goblintown.
+- A concealed door in the baboon facade area provides a passage down toward Gog's cave and the Arena level.
+- As a Varumani, he can regenerate unless killed by fire or acid.
 
 ## Discord Insights
 

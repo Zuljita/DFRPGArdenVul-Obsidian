@@ -31,6 +31,7 @@ Yoburra is a Varumani ambassador who has been involved in diplomatic and trade a
 - [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
 - [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
 - [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
+- [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
 
 ## Portraits
 

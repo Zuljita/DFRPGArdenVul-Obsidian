@@ -38,7 +38,7 @@ As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offe
 - Competes against a powerful entity with hundreds of years of reputation.
 - He has expressed interest in purchasing large quantities of Arcanum.
 - He offers lifetime free banking at the Rarities Factor if his wizard identifies certain magical artifacts as genuine and the company sells them to him.
-- The [[Rarities Factor]] offers banking, letters, and mule caravans at slightly cheaper prices than competitors, though with a smaller geographical range.
+- He provides concierge shopping services where messages reach [[Narsileon]] in less than a day, though item delivery via mule train takes approximately one month.
 
 ## Notable Interactions
 - **The Larel Artifacts:** [[npcs/Wicktrimmer.md|Wicktrimmer]]'s interest in collecting led him to negotiate a major deal with the Right for Riches Company for [[Larel's Pin]] and [[Larel's Dagger]]. His motivation was partly personal, as he wanted to prove the existence of the legendary Larel to his old friend [[Balthazar the Blue]].

@@ -30,6 +30,7 @@ TBD
 - Vallium once bought drinks for shady individuals here to search for information regarding Phlebotomas Plumthorn.
 - One may potentially be robbed while attempting to find trainers here.
 - A place to find instructors for skills such as Search, Stealth, and Swimming.
+- Vallium once bought drinks for shady-looking people here while searching for information about Phlebotomas Plumthorn. ([[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4]])
 
 ## Discord Insights
 

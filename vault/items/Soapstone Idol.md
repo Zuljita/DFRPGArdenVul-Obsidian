@@ -3,6 +3,8 @@ tags:
   - item
   - identity/uncertain
 status: stub
+related_entities:
+  - [[Party Armory.md|Party Armory]]
 ---
 
 # Soapstone Idol

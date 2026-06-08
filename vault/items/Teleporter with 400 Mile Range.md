@@ -1,6 +1,9 @@
 ---
 tags:
+  - type/item
   - item
+related_entities:
+  - [[library/quire with 20 teleporter addresses.md|quire with 20 teleporter addresses]]
 ---
 
 # Teleporter with 400 Mile Range
