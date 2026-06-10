@@ -24,7 +24,6 @@ TBD
 - [[Ketil]] is a [[Wiskin]] ranger.
 - [[Helle]] works as the bartender in the main common room of the Yellow Cloak Inn.
 - [[Torunn the Smith]] is regarded as the best smith in Gosterwick.
-- Newmarket contains a temple for the Wiskin god [[Odin]].
 - Wiskin berserkers were among the foes defeated during Arden's Twelve Labors.
 - [[Ketil]] was a prisoner in the ruins of Arden Vul.
 

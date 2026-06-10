@@ -20,7 +20,7 @@ During Session 31, Vael used this disc to open a suspicious door featuring an ib
 
 The disc was discovered falling from a book while looting during Session 31.
 
-The party recorded acquisitions on 2025-11-14 for $25 and 2026-02-06 for $100.
+The item was acquired by the party on 2025-11-14.
 
 ## Sources
 - [[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]]
