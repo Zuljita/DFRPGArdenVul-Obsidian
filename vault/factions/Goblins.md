@@ -12,7 +12,7 @@ Efforts are underway to clear the area south of the basket elevator to ensure it
 
 Following the defeat of Plumthorn's Halflings, the Halls of Thoth have been renamed to Upper Goblintown.
 
-In Session 43c, Weskenim appointed his brother Gribble as Lord of the Forum of Set.
+In Session 43c, Weskenim appointed his brother Gribble as Lord of the Goblin Forum.
 
 His military force includes ogre guards and warriors led by officers such as Killik and Bottleneck.
 
