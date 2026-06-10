@@ -17,3 +17,5 @@ appears_in:
 - Staff includes [[npcs/Bricwine.md|Bricwine]], the upper-class bartender, and Helle, who tends bar in the main common room.
 - A standard $150/week cost of living covers a room and three meals per day.
 - The inn staff dislikes people casting spells on the premises, especially if critical failures occur.
+- The inn features an upper-class common room that offers better, but more expensive, food.
+- Individual guest rooms have a maximum occupancy of 3.

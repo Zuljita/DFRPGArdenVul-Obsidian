@@ -12,7 +12,7 @@ source_url: https://dfwhiterock.blogspot.com/2025/12/dfrpg-arden-vul-session-34b
 
 Auto-imported from the GM blog (2025-12-13). Needs light cleanup for style, but captures current facts.
 
-The battle resumed in the [[locations/Tower of the Ape.md|Tower of the Ape]], with Great Hasted, Blurred [[npcs/Vallium.md|Vallium]] at the front of the murder room fighting two [[factions/Disciplined.md|Disciplined]] and four trained baboons, with [[npcs/Ioannes.md|Ioannes]] and [[npcs/Vael.md|Vael]] behind him. A [[factions/Disciplined.md|Disciplined]] above dropped an Alchemist's Fire grenade through a murder hole, but Ioannes blocked it with his shield and survived via his Salamander Amulet. The session remained an extended multi-stage fight against [[npcs/Tikun Thane.md|Tikun Thane]] and tower defenders.
+The battle resumed in the [[locations/Tower of the Ape.md|Tower of the Ape]], with Great Hasted, Blurred [[pcs/Vallium Halcyon.md|Vallium]] at the front of the murder room fighting two [[factions/Disciplined.md|Disciplined]] and four trained baboons, with [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] and [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] behind him. A [[factions/Disciplined.md|Disciplined]] above dropped an Alchemist's Fire grenade through a murder hole, but Ioannes blocked it with his shield and survived via his Salamander Amulet. The session remained an extended multi-stage fight against [[npcs/Tikun Thane.md|Tikun Thane]] and tower defenders.
 
 ## Full Recap (Imported)
 

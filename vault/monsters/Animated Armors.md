@@ -2,6 +2,7 @@
 title: "Animated Armors"
 type: monster
 tags:
+  - session/6
   - monster
   - classification/construct
   - body_plan/humanoid

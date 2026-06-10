@@ -6,7 +6,6 @@ tags:
   - tradition/demma
   - tradition/rudishva
   - culture/thorcin
-  - culture/thorcin
 related_entities:
   - [[locations/Rudishva Bastion.md|Rudishva Bastion]]
   - [[locations/Beacon.md|Beacon]]
@@ -16,6 +15,7 @@ related_entities:
 
 ## Appears In
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
+- [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 
 ## Culture
 

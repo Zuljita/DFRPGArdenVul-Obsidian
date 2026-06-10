@@ -1,6 +1,10 @@
 ---
 tags:
+  - session/33
   - item
+related_entities:
+  - [[npcs/Yrtol.md|Yrtol]]
+  - [[npcs/Nyema.md|Nyema]]
 ---
 
 # Watcher's eyes

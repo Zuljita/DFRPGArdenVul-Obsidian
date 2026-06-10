@@ -2,6 +2,8 @@
 title: "Carcass Creeper"
 type: monster
 tags:
+  - session/34a
+  - session/17
   - monster
   - classification/beast
   - body_plan/vermin
@@ -26,3 +28,4 @@ None specified.
 Often found in areas with dead bodies or carrion.
 
 ## Sessions
+- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]

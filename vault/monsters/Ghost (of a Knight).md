@@ -2,6 +2,7 @@
 title: "Ghost (of a Knight)"
 type: monster
 tags:
+  - session/6
   - monster
   - classification/undead
   - type/ghost

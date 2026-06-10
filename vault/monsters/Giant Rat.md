@@ -2,6 +2,7 @@
 title: "Giant Rat"
 type: monster
 tags:
+  - session/2
   - monster
   - classification/beast
   - body_plan/quadruped

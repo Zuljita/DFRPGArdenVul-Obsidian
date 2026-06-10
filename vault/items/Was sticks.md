@@ -1,5 +1,6 @@
 ---
 tags:
+  - faction/cult-of-set
   - tradition/settite
   - item
 aliases:

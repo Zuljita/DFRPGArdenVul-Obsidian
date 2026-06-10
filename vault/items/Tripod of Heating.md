@@ -14,6 +14,9 @@ A magical item used for heating and drying clothes, notably utilized at the Beac
 
 It burns continuously without a fuel source, providing both warmth and light without producing smoke.
 
+It is valued at $2,500 (p.164).
+
 ## Sources
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
+- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]

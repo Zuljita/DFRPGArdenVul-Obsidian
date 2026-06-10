@@ -61,7 +61,7 @@ The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] c
 * **Character advancement:** Continued writing the "Chronicle of the [[factions/Right for Riches Company.md|Right for Riches Company]] By Vaelitharon 'Vael' Sunshadow."
 * **Equipment changes:** None this week.
 
-**Remagis (Mercenary)**
+**[[npcs/Remagis.md|Remagis]] (Mercenary)**
 * **Town actions taken:** Traveled to Gosterwick with Vaelitharon; attempted to use broken Archontean on various townspeople. Purchased food, holy water, cleaning supplies, and several wooden holy symbols of Thoth.
 * **Character advancement:** Expressed intent to reopen the Temple of Thoth within Arden Vul once proficient in Archontean.
 * **Equipment changes:** None this week.
@@ -90,9 +90,9 @@ The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] c
     * Use the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to reach the Bastion, employing Salamander Amulets and Rugs to mitigate fire trap risks.
     * Access the cavern containing the statue mimic using the black Rudishva card.
     * Follow [[npcs/Temrin.md|Temrin]]’s map toward the location of the Tablet of the Beacon.
-* **Tower of Scrutiny Operations:** The company intends to reveal unseen areas of the map, consult the Thothian librarian, and test keys on ground-level doors. Plans include analyzing the Ibis Head/Statue and using *[[items/Wand of See Secrets.md|See Secrets]]* to scout the tower. There is an ongoing debate regarding whether to seal the basement with earth or demolish the tower entirely.
+* **[[locations/Tower of Scrutiny.md|Tower of Scrutiny]] Operations:** The company intends to reveal unseen areas of the map, consult the Thothian librarian, and test keys on ground-level doors. Plans include analyzing the Ibis Head/Statue and using *[[items/Wand of See Secrets.md|See Secrets]]* to scout the tower. There is an ongoing debate regarding whether to seal the basement with earth or demolish the tower entirely.
 
 **Unresolved Threads**
 * **The Lady Alexia Negotiation:** The company has yet to decide what specific reward or favor to request from [[npcs/Lady Alexia Basileon.md|Lady Alexia]] in exchange for the regalia.
 * **Tower Security:** A decision must be reached on how to secure the Tower of Scrutiny area to prevent incursions by the [[factions/Children of Deino.md|Children of Deino]] or the Apes.
-* **The Tablet of the Beacon:** The exact location and method of retrieval remain a primary objective for the next expedition.
+* **The [[items/Tablet of the Beacon.md|Tablet of the Beacon]]:** The exact location and method of retrieval remain a primary objective for the next expedition.

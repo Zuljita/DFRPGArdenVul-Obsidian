@@ -18,7 +18,7 @@ Weather:
 Warm, partly cloudy
 
 Player Characters:
-- [[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
+- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of Demma (Demented Avenger)
 - [[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of Zodarrim
 - [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] Sunshadow, Half-Elven mage
 - [[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter
