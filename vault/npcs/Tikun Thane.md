@@ -13,7 +13,7 @@ A hostile wizard based in the [[locations/Tower of the Ape.md|Tower of the Ape]]
 ## Notes
 - Commanded groups of [[factions/Disciplined.md|Disciplined]] guards and trained baboons from the [[locations/Tower of the Ape.md|Tower of the Ape]].
 - Demonstrated high-mobility wizard tactics (Blink, missile pressure, counter-mage actions including Purify Air after Magebane deployment).
-- In Session 34b, resisted or mitigated at least one direct lightning strike from [[npcs/Vael.md|Vael]] and maintained combat tempo despite repeated pressure.
+- In Session 34b, resisted or mitigated at least one direct lightning strike from [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] and maintained combat tempo despite repeated pressure.
 - In Session 34b, repeatedly disengaged/repositioned between tower levels to force the party into unfavorable stair and balcony engagements.
 - Survived multiple near-catches by retreating between levels and eventually abandoning the tower.
 - Human captives recovered in Session 34c reported they were sold to him at the slave market in the [[locations/Forum of Set.md|Forum of Set]] and forced into Disciplined-style combat drills under coercion.

@@ -19,4 +19,3 @@ Messages can reach the location in less than a day, though items travel slowly.
 The Rarities Factor branch provides banking, letters of credit, and shipping via mule caravan.
 
 Due to a deal regarding [[items/Larel's Pin.md|Larel's Pin]], the Rarities Factor branch offers free storage for the party.
-

@@ -28,6 +28,10 @@ The hill in the NW is called the **Hill of the Gods**, home to all temples. Wate
 - **Vacant Lot** — Located next to the Arcane Practitioners' Club, this lot contains excess stone dumped by Vael and Basil.
 - **Arcane Practitioners' Club Bulletin Board** — Features rules regarding explosive or flammable items.
 - **Rarities Factor** — [[npcs/Wicktrimmer.md|Wicktrimmer]]'s business; a collector of magical items with first refusal on anything out of Arden Vul.
+- [[locations/The Stunned Acolyte.md|The Stunned Acolyte]] — An expensive inn catering to wealthy patrons.
+- **Guard Houses** — Large wooden structures located in empty areas.
+- **Temple of Mitra** — A circular stone structure with a portico and an impressive pediment depicting Mitra dispensing justice.
+- **Shrine of Lucreon** — A three-chamber structure featuring a colossal granite statue that causes coins to appear in the air.
 
 ## Notable Establishments
 

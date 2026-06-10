@@ -1,7 +1,18 @@
 ---
 tags:
+  - type/god
+  - status/banned
+  - session/12
   - tradition/settite
   - npc
+related_entities:
+  - [[npcs/Stephania, High Priestess of Set.md|Stephania, High Priestess of Set]]
+  - [[locations/Forum of Set.md|Forum of Set]]
+  - [[locations/Red Bridge of Set.md|Red Bridge of Set]]
+identity_hints:
+  - Greater God of the old pantheon
+  - associated with the First Mystery
+  - god of power, knowledge, domination, slavery, vengeance, and serpents
 ---
 
 # Set

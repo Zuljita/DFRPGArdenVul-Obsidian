@@ -1,5 +1,7 @@
 ---
 tags:
+  - status/destroyed
+  - session/42b
   - monster
   - identity/uncertain
 status: stub

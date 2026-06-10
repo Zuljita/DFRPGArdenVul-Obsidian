@@ -1,9 +1,12 @@
 ---
 tags:
+  - session/2026-w03
   - item
   - media/book
   - identity/uncertain
 status: stub
+related_entities:
+  - [[notes/Vul.md|Vul]]
 ---
 
 # Vul Speaks

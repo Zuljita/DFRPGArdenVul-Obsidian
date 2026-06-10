@@ -2,8 +2,11 @@
 title: "Dust Monster"
 type: monster
 tags:
+  - session/6
   - monster
 aliases:
+identity_hints:
+  - animated dust
 ---
 # Dust Monster
 

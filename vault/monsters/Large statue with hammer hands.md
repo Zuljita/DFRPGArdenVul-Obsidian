@@ -1,6 +1,8 @@
 ---
 title: "Large statue with hammer hands"
 tags:
+  - type/monster
+  - session/14
   - monster
   - npc
 aliases:

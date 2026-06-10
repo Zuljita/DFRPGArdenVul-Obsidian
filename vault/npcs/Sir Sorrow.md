@@ -1,10 +1,15 @@
 ---
 title: Sir Sorrow
 tags:
-- npc
+  - type/knight
+  - session/22
+  - session/26
+  - faction/sun-scarred-knights
+  - npc
   - tradition/settite
-aliases:
-  - Sir Sorrow Rizzit
+related_entities:
+  - [[factions/Sun-Scarred Knights.md|Sun-Scarred Knights]]
+  - [[factions/Cult of Set.md|Cult of Set]]
 ---
 # Sir Sorrow
 

@@ -2,6 +2,7 @@
 title: "Huge Spiders"
 type: monster
 tags:
+  - session/1
   - monster
   - classification/beast
   - body_plan/vermin

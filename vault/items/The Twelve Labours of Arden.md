@@ -27,6 +27,7 @@ A book or manuscript recounting the "Twelve Labors" performed by the historical 
 
 ## Notes
 - Provides insight into the origins and legends surrounding the setting.
+- A cult of military officials in Arden Vul reportedly attempted to replicate these labors at their headquarters within the Halls.
 
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]

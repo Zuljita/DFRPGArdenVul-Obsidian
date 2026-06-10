@@ -18,7 +18,7 @@ title: Party Armory
 | Baculus (fine balanced baton with Staff spell) | 20 | p.121 | $170 | 2025-07-18 | — |
 | badge of mailed fist | 1 | p.684 | $0 | 2025-12-19 | — |
 | [[items/Bag of Holding.md|Bag of Holding]] (25#, holds 500# or 70 ft^3) | 1 | p.1103 | $5,000 | 2026-03-13 | — |
-| bag of holding: 35#, holds 1000# or 150 ft^3 | 1 | p.233 | $7,400 | 2025-09-19 | — |
+| [[items/Bag of Holding.md|bag of holding]]: 35#, holds 1000# or 150 ft^3 | 1 | p.233 | $7,400 | 2025-09-19 | — |
 | [[items/Blue glass square.md|blue magic glass square]] | 0 | p.173 | $5 | 2025-11-28 | — |
 | Bones of Jaken the Proud (protection from Evil, talk to [[npcs/Jaken.md|Jaken]] 1/month) | 0 | p.181 | $20,000 | 2026-01-09 | — |
 | [[items/Boots of Levitation.md|Boots of Levitation]] (DR2, 300# limit, resize) | 3 | p.205 | $7,500 | 2026-02-20 | — |
@@ -213,7 +213,7 @@ title: Party Armory
 | incense of Relaxation (magic intoxicant) | 1 | p.302 | $400 | 2026-04-24 | — |
 | Invulnerability potion | 1 | p.613 | $2,100 | 2026-01-30 | — |
 | Jug of Purple Mist | 3 | p.359 | $2,500 | 2026-03-27 | — |
-| large flask of magical liquid - you think it's got arcanum in it | 1 | p.614 | $100 | 2026-01-23 | — |
+| large flask of magical liquid - you think it's got [[items/Arcanum.md|arcanum]] in it | 1 | p.614 | $100 | 2026-01-23 | — |
 | mage scroll: Blink (unpowered) | 149 | p.150 | $40 | 2025-07-11 | — |
 | mage scroll: Seeker (unpowered) | 148 | p.150 | $60 | 2025-07-11 | — |
 | mind eater mushroom | 1 | p.TA-26 | $30 | 2025-12-19 | — |
@@ -387,7 +387,7 @@ title: Party Armory
 | clairvoyance potion (like wizard eye without the eye) | 1 | p.336 | — | 2025-05-09 | — |
 | deafening light potion (grenade, Flash + Concussion, area only 3) | 1 | p.336 | — | 2025-05-09 | — |
 | Deeds of [[npcs/Ptarmis.md|Ptarmis]] | 1 | p.151 | $200 | 2026-01-09 | — |
-| diary of Hellas (mostly raving) | 1 | p.151 | $0 | 2026-01-09 | — |
+| diary of [[npcs/Hellas.md|Hellas]] (mostly raving) | 1 | p.151 | $0 | 2026-01-09 | — |
 | discs of strange heavy substance | 3 | p.226 | $25 | 2025-11-07 | — |
 | dispel magic potion (grenade, area 2) | 1 | p.336 | — | 2025-05-09 | — |
 | Divine Power is a Manifestation of Divine Will | 1 | p.151 | $200 | 2026-01-09 | — |
@@ -396,7 +396,7 @@ title: Party Armory
 | Euphronia's Awakening | 1 | p.151 | $50 | 2026-01-09 | — |
 | fine balanced broadsword | 1 | p.187 | $4,800 | 2025-04-04 | — |
 | Fraternal Triumph, or Taticus and Thekla Against the Troll | 1 | p.151 | $150 | 2026-01-09 | — |
-| globe of arcanum | 1 | p.150 | $40,000 | 2025-07-11 | — |
+| globe of [[items/Arcanum.md|arcanum]] | 1 | p.150 | $40,000 | 2025-07-11 | — |
 | gold disk with grooves and central hole | 1 | p.187 | — | 2025-04-18 | — |
 | green glass square | 1 | p.185 | — | 2025-04-18 | — |
 | [[npcs/Gwelf.md|Gwelf]] corpse (partly eaten, Final Rested so not too gross) | 1 | — | $0 | 2025-10-31 | — |
@@ -411,7 +411,7 @@ title: Party Armory
 | limed over corpse | 1 | p.221 | $0 | 2026-01-02 | — |
 | Locomotion in Animals and Humanoids | 1 | p.151 | $150 | 2026-01-09 | — |
 | Mace of [[npcs/Muirasso.md|Muirasso]] (fine balanced dwarven, +1 Acc/Puissance, +2 Resist Poison, +1 Charisma) | 1 | p.335 | — | 2025-05-09 | — |
-| mace: Finisher (fine, balanced, dwarven, +1 Accuracy vs. undead only, +1 Puissance vs. undead only) | 1 | p.187 | — | 2025-04-18 | — |
+| mace: [[items/Finisher.md|Finisher]] (fine, balanced, dwarven, +1 Accuracy vs. undead only, +1 Puissance vs. undead only) | 1 | p.187 | — | 2025-04-18 | — |
 | mage scroll of Mystic Mist | 1 | p.335 | — | 2025-05-09 | — |
 | magic blue gem eye | 1 | p.236 | — | 2025-06-20 | — |
 | Magic fish-shaped rod (controls a boat) | 1 | p.189 | $0 | 2025-04-04 | — |
@@ -422,13 +422,13 @@ title: Party Armory
 | magic stone statue head (matches plinth and feet in cave) | 3 | p.237 | — | 2025-06-20 | — |
 | Magic white glass square  (something to do with teleportation) | 1 | p.166 | $0 | 2025-04-04 | — |
 | major healing potion | 4 | p.336 | $350 | 2025-05-09 | — |
-| manikin of heqeti | 3 | p.613 | $100 | 2026-01-30 | — |
+| manikin of [[factions/heqeti.md|heqeti]] | 3 | p.613 | $100 | 2026-01-30 | — |
 | melted silver | 1 | p.230 | $56 | 2025-05-23 | — |
 | Memorial Codex of the Cult of Thoth | 1 | p.151 | $450 | 2026-01-09 | — |
 | Moralis in Teracleon | 1 | p.151 | $0 | 2026-01-09 | — |
 | Notes on the Followers of the Arch-Traitor, [[npcs/Priscus Pulcher.md|Priscus Pulcher]] | 1 | p.151 | $75 | 2026-01-09 | — |
 | On Friends and Enemies | 1 | p.151 | $50 | 2026-01-09 | — |
-| On Profit | 1 | p.151 | $65 | 2026-01-09 | — |
+| [[items/On Profit.md|On Profit]] | 1 | p.151 | $65 | 2026-01-09 | — |
 | On the Care and Feeding of Baboons | 1 | p.151 | $50 | 2026-01-09 | — |
 | On the Errors of the [[factions/Sortians.md|Sortians]] | 1 | p.151 | $150 | 2026-01-09 | — |
 | On the Terrible Old Gods | 1 | p.151 | $10,000 | 2026-01-09 | — |
@@ -443,7 +443,7 @@ title: Party Armory
 | powered cleric scroll: command | 1 | p.187 | — | 2025-04-18 | — |
 | Property of [[npcs/Eustachius the Cantor.md|Eustachius the Cantor]] | 1 | p.151 | $0 | 2026-01-09 | — |
 | Rescript from Archon Pellas Idreonus to chiliarch Celsus Torquatius | 1 | p.618 | $350 | 2026-05-08 | — |
-| ring of free action (full movement despite web, slow, water, etc.) | 1 | p.187 | — | 2025-04-18 | — |
+| [[items/Ring of Free Action.md|ring of free action]] (full movement despite web, slow, water, etc.) | 1 | p.187 | — | 2025-04-18 | — |
 | Ring of Protection DR1 | 1 | p.335 | — | 2025-05-09 | — |
 | [[factions/Rudishva.md|Rudishva corpse]] | 3 | p.870 | $0 | 2025-11-21 | — |
 | scroll: Find Familar (allows gaining DF5 Common Familiar advantage) | 148 | p.150 | $700 | 2025-07-11 | — |
@@ -456,14 +456,14 @@ title: Party Armory
 | small palm tree in a pot | 1 | p.269 | $10 | 2026-03-13 | — |
 | Staff of Blue Light (Wizard's Staff, permanent bright blue Continual Light, fine, balanced, "Balthazarr" engraved in silver) | 1 | p.233 | $1,500 | 2025-05-23 | — |
 | The Ancient Ones | 1 | p.151 | $1,000 | 2026-01-09 | — |
-| The First History of the Order of Thoth in Arden Vul | 1 | p.151 | $900 | 2026-01-09 | — |
+| The First History of the Order of [[npcs/Thoth.md|Thoth]] in Arden Vul | 1 | p.151 | $900 | 2026-01-09 | — |
 | The Founder and His Deeds | 1 | p.151 | $0 | 2026-01-09 | — |
 | The Highly Impressive Story of Frigg the Fabulous | 1 | p.151 | $75 | 2026-01-09 | — |
 | The Honorable Life of Ligareus the Archon | 1 | p.151 | $65 | 2026-01-09 | — |
 | The Intelligent User's Guide to the Mystical Properties of Gems | 1 | p.151 | $250 | 2026-01-09 | — |
 | The Lay of [[npcs/Marius Tricotor.md|Marius]] Invictus | 1 | p.151 | $100 | 2026-01-09 | — |
 | The Politics | 1 | p.151 | $50 | 2026-01-09 | — |
-| Twelve Labors of Arden | 1 | p.151 | $150 | 2026-01-09 | — |
+| Twelve Labors of [[npcs/Arden.md|Arden]] | 1 | p.151 | $150 | 2026-01-09 | — |
 | unpowered Mage scroll of Continual Light | 1 | p.230 | $120 | 2025-05-23 | — |
 | Vul Speaks | 1 | p.151 | $750 | 2026-01-09 | — |
 | Why All So-Called Gods Are Merely Avatars of the One Deity | 1 | p.151 | $75 | 2026-01-09 | — |
@@ -516,11 +516,11 @@ title: Party Armory
 | rod of turning 20 charges allows turning undead variable charges used depending on undead | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | Set animal mask (Per +2, 1% daily chance of insanity when used) | — | — | 2025-12-20 | Apartment fire — all Set animal masks destroyed. |
 | shrink potion 8 to sm if all drunk 2 to sm if half drunk | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
-| singing goblin head (must pour alcohol in mouth)  (note: deeply offensive to goblins) | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
+| singing goblin head (must pour alcohol in mouth)  (note: deeply offensive to [[factions/Goblins.md|goblins]]) | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | soapstone idol | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | strength potion | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | Thothian headdress | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
-| Thothian mask - human NOT fragile, Move -1  See Secrets 1/day, cursed, can't be removed, monster attraction | — | — | 2025-12-20 | Apartment fire — all Thothian masks destroyed (Destruction 2025-12-29 thread). |
+| [[factions/Thothian.md|Thothian]] mask - human NOT fragile, Move -1  See Secrets 1/day, cursed, can't be removed, monster attraction | — | — | 2025-12-20 | Apartment fire — all Thothian masks destroyed (Destruction 2025-12-29 thread). |
 | Thothian mask - various (ibis, human, baboon) fragile, Move -1, See Secrets 1/day | — | — | 2025-12-20 | Apartment fire — all Thothian masks destroyed (Destruction 2025-12-29 thread). |
 | trapped statue head with many-faceted amber eyes | — | — | 2025-12-20 | Apartment fire — statue head from NW Great Cavern. SW Great Cavern head survived (Destruction 2025-12-29 thread). |
 | Universal Antidote potion | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |

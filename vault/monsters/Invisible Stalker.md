@@ -2,6 +2,8 @@
 title: "Invisible Stalker"
 type: monster
 tags:
+  - type/elemental
+  - session/12
   - monster
 aliases:
 ---
@@ -23,3 +25,4 @@ Unknown controller.
 Typically sent to perform specific tasks, such as guarding or retrieving items.
 
 ## Sessions
+- [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
