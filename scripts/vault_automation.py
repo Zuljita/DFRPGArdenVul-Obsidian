@@ -211,6 +211,7 @@ class EntityLinkProposal:
     context: str
     status: str
     source_excerpt: str = ""
+    batch_id: str = ""
 
 
 @dataclass
@@ -225,6 +226,7 @@ class NewEntityCandidate:
     nearest_distance: float
     proposal_id: str = ""
     status: str = "needs-verification"
+    batch_id: str = ""
 
 
 @dataclass
@@ -240,6 +242,7 @@ class ArticleEditProposal:
     sources: list[dict]
     status: str = "needs-verification"
     proposal_id: str = ""
+    batch_id: str = ""
 
 
 @dataclass
@@ -253,6 +256,7 @@ class MetadataEditProposal:
     sources: list[dict]
     status: str = "needs-verification"
     proposal_id: str = ""
+    batch_id: str = ""
 
 
 @dataclass(frozen=True)
@@ -307,6 +311,8 @@ def load_local_sources() -> dict:
         "article_edit_walk_step": int(config.get("article_edit_walk_step", 0) or 0),
         "article_edit_verify_limit": int(config.get("article_edit_verify_limit", 0) or 0),
         "article_edit_apply_limit": int(config.get("article_edit_apply_limit", 0) or 0),
+        "article_edit_enabled": bool(config.get("article_edit_enabled", True)),
+        "pinned_article_paths": list(config.get("pinned_article_paths", []) or []),
         "metadata_edit_enabled": bool(config.get("metadata_edit_enabled", False)),
         "metadata_edit_queue_top": int(config.get("metadata_edit_queue_top", 5) or 5),
         "metadata_edit_verify_limit": int(config.get("metadata_edit_verify_limit", 0) or 0),
@@ -317,6 +323,13 @@ def load_local_sources() -> dict:
         "action_items_latest_sessions": int(config.get("action_items_latest_sessions", 8) or 8),
         "action_items_latest_discord_weeks": int(config.get("action_items_latest_discord_weeks", 4) or 4),
         "action_items_max_items": int(config.get("action_items_max_items", 200) or 200),
+        "entity_proposal_enabled": bool(config.get("entity_proposal_enabled", False)),
+        "entity_proposal_source_limit": int(config.get("entity_proposal_source_limit", 2) or 2),
+        "entity_proposal_verify_limit": int(config.get("entity_proposal_verify_limit", 3) or 3),
+        "entity_proposal_apply_limit": int(config.get("entity_proposal_apply_limit", 3) or 3),
+        "mutation_file_limit": int(config.get("mutation_file_limit", 15) if config.get("mutation_file_limit") is not None else 15),
+        "polish_retry_days": int(config.get("polish_retry_days", 7) if config.get("polish_retry_days") is not None else 7),
+        "polish_verifier_model": config.get("polish_verifier_model"),
     }
 
 
@@ -2187,7 +2200,19 @@ def write_media_queue_report(items: list[MediaQueueItem]) -> None:
     (run_dir / "media_improvement_queue.md").write_text("\n".join(lines), encoding="utf-8")
 
 
-def write_entity_link_proposal_report(proposals: list[EntityLinkProposal]) -> None:
+def assign_proposal_batch(proposals: Iterable[object], batch_id: str | None) -> None:
+    if not batch_id:
+        return
+    for proposal in proposals:
+        if hasattr(proposal, "batch_id"):
+            setattr(proposal, "batch_id", batch_id)
+
+
+def write_entity_link_proposal_report(
+    proposals: list[EntityLinkProposal],
+    batch_id: str | None = None,
+) -> None:
+    assign_proposal_batch(proposals, batch_id)
     run_dir = AUTOMATION_DIR / "proposals"
     write_json(run_dir / "entity_link_proposals.json", [asdict(p) for p in proposals])
     lines = [
@@ -2336,10 +2361,14 @@ def _parse_llm_json(content: str) -> dict:
     raise RuntimeError(f"could not parse LLM JSON: {last_err}; content head: {content[:200]!r}")
 
 
-def llm_chat_json(prompt: str, timeout: int = 90) -> dict:
+def llm_chat_json(
+    prompt: str,
+    timeout: int = 90,
+    model_override: str | None = None,
+) -> dict:
     sources = load_local_sources()
     base_url = sources.get("llm_base_url")
-    model = sources.get("llm_model")
+    model = model_override or sources.get("llm_model")
     if not base_url or not model:
         raise RuntimeError("LLM verifier is not configured")
     base = str(base_url).rstrip("/")
@@ -2456,7 +2485,10 @@ def _entity_link_proposal_key(source: str, entity_path: str, mention: str, sourc
     return f"{source}|{entity_path}|{mention}|{source_excerpt}"
 
 
-def verify_entity_link_proposals(limit: int | None = None) -> list[dict]:
+def verify_entity_link_proposals(
+    limit: int | None = None,
+    batch_id: str | None = None,
+) -> list[dict]:
     proposals_path = AUTOMATION_DIR / "proposals" / "entity_link_proposals.json"
     if proposals_path.exists():
         raw = json.loads(proposals_path.read_text(encoding="utf-8"))
@@ -2478,6 +2510,8 @@ def verify_entity_link_proposals(limit: int | None = None) -> list[dict]:
         except Exception:
             prior = []
         for v in prior:
+            if batch_id is not None and v.get("batch_id") != batch_id:
+                continue
             status = str(v.get("status", "")).lower()
             if status in {"supported", "contradicted", "ambiguous", "not_found"}:
                 verified_keys.add(_entity_link_proposal_key(
@@ -2489,6 +2523,7 @@ def verify_entity_link_proposals(limit: int | None = None) -> list[dict]:
     pending = [
         p for p in proposals
         if _entity_link_proposal_key(p.source, p.entity_path, p.mention, p.source_excerpt) not in verified_keys
+        and (batch_id is None or p.batch_id == batch_id)
     ]
     fresh: list[dict] = []
     selected = pending if limit is None else pending[:limit]
@@ -2566,7 +2601,12 @@ def contextual_link_edit(text: str, mention: str, entity_path: str, source_excer
     return start, end, f"[[{target}|{text[start:end]}]]"
 
 
-def apply_verified_entity_links(apply: bool, limit: int | None = None) -> dict:
+def apply_verified_entity_links(
+    apply: bool,
+    limit: int | None = None,
+    batch_id: str | None = None,
+    max_files: int | None = None,
+) -> dict:
     verifications_path = AUTOMATION_DIR / "proposals" / "entity_link_verifications.json"
     if not verifications_path.exists():
         return {"ok": False, "error": "missing_verifications"}
@@ -2588,6 +2628,8 @@ def apply_verified_entity_links(apply: bool, limit: int | None = None) -> dict:
     for item in verifications:
         if item.get("status") != "supported":
             continue
+        if batch_id is not None and item.get("batch_id") != batch_id:
+            continue
         key = _entity_link_proposal_key(
             str(item.get("source", "")),
             str(item.get("entity_path", "")),
@@ -2599,11 +2641,14 @@ def apply_verified_entity_links(apply: bool, limit: int | None = None) -> dict:
         candidates.append(item)
     changes: list[str] = []
     applied = 0
+    files: list[str] = []
     by_source: dict[str, list[dict]] = {}
     for item in candidates:
         by_source.setdefault(str(item.get("source", "")), []).append(item)
     for source_key, items in sorted(by_source.items()):
         if limit is not None and applied >= limit:
+            break
+        if max_files is not None and len(files) >= max_files:
             break
         source = ROOT / source_key
         if not source.is_relative_to(VAULT) or not source.exists():
@@ -2630,11 +2675,15 @@ def apply_verified_entity_links(apply: bool, limit: int | None = None) -> dict:
             applied += 1
         if apply:
             source.write_text(updated, encoding="utf-8")
+        files.append(source_key)
     return {
         "ok": True,
         "mode": "apply" if apply else "dry-run",
         "change_count": len(changes),
         "changes": changes,
+        "files": files,
+        "files_touched": len(files),
+        "deferred_file_count": max(0, len(by_source) - len(files)),
     }
 
 
@@ -2659,6 +2708,33 @@ def write_json(path: Path, payload: object) -> None:
     tmp = path.with_suffix(path.suffix + ".tmp")
     tmp.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     tmp.replace(path)
+
+
+def scheduled_limit(config: dict, key: str, default: int, hard_max: int) -> int:
+    """Return a bounded scheduler limit. Negative values mean use the safe default."""
+    raw = int(config.get(key, default) or 0)
+    if raw < 0:
+        raw = default
+    return min(raw, hard_max)
+
+
+def applied_result_files(result: dict) -> set[str]:
+    files = {str(path) for path in result.get("files", []) if path}
+    for item in result.get("results", []):
+        if item.get("applied", 0) > 0 and item.get("article_path"):
+            files.add(str(item["article_path"]))
+        if item.get("action") == "created" and item.get("path"):
+            files.add(str(item["path"]))
+    return files
+
+
+def import_result_files(result: dict) -> set[str]:
+    files: set[str] = set()
+    for change in result.get("changes", []):
+        _action, separator, path = str(change).partition(" ")
+        if separator and path:
+            files.add(path)
+    return files
 
 
 def build_source_manifest(feed_url: str = BLOG_FEED_URL) -> dict:
@@ -2724,7 +2800,7 @@ def append_changelog(run_id: str, import_result: dict) -> None:
         f.write("\n".join(lines) + "\n")
 
 
-# ---- vault-rag (local Chroma) ----
+# ---- vault-rag (PostgreSQL/pgvector) ----
 
 VAULT_RAG_H2_SPLIT_RE = re.compile(r"^## (?!#)", re.MULTILINE)
 VAULT_RAG_FRONTMATTER_RE = re.compile(r"^---\n.*?\n---\n+", re.DOTALL)
@@ -3058,7 +3134,7 @@ def vault_rag_ingest_all(reset: bool = False, limit: int | None = None) -> dict:
         with conn.cursor() as cur:
             cur.execute("ANALYZE rag_chunks")
             cur.execute("SELECT count(*) FROM rag_chunks WHERE database='arden'")
-            collection_size = cur.fetchone()[0]
+            row_count = cur.fetchone()[0]
         conn.commit()
     counts: dict[str, int] = {}
     for r in results:
@@ -3067,7 +3143,7 @@ def vault_rag_ingest_all(reset: bool = False, limit: int | None = None) -> dict:
         "ok": counts.get("error", 0) == 0,
         "total_files": len(paths),
         "actions": counts,
-        "collection_size": collection_size,
+        "row_count": row_count,
         "results": results,
     }
 
@@ -3139,7 +3215,7 @@ def _format_mechanics_hit(doc, meta, dist, match_type) -> dict:
 
 
 def mechanics_rag_search(query: str, top_k: int = 3) -> list[dict]:
-    """Hybrid search of the DFRPG rules MechanicsVault Chroma collection.
+    """Hybrid search of the DFRPG rules database through the PostgreSQL RAG API.
 
     bge-m3 embeddings rank thematically-similar chunks (e.g. searching for
     "Wall of Lightning" returns Weather Spells intro and Lightning Missiles
@@ -3844,7 +3920,11 @@ def rag_filter_new_entity_proposals(
     return kept, suppressed, update_candidates
 
 
-def write_new_entity_proposal_report(proposals: list[NewEntityCandidate]) -> None:
+def write_new_entity_proposal_report(
+    proposals: list[NewEntityCandidate],
+    batch_id: str | None = None,
+) -> None:
+    assign_proposal_batch(proposals, batch_id)
     proposals_dir = AUTOMATION_DIR / "proposals"
     proposals_dir.mkdir(parents=True, exist_ok=True)
     write_json(proposals_dir / "new_entity_proposals.json", [asdict(p) for p in proposals])
@@ -4026,7 +4106,10 @@ def new_entity_verifier_prompt(candidate: NewEntityCandidate) -> str:
     )
 
 
-def verify_new_entity_proposals(limit: int = -1) -> list[dict]:
+def verify_new_entity_proposals(
+    limit: int = -1,
+    batch_id: str | None = None,
+) -> list[dict]:
     """Verify new entity proposals with the configured LLM.
 
     limit=-1 (default) processes all unverified proposals.
@@ -4046,12 +4129,19 @@ def verify_new_entity_proposals(limit: int = -1) -> list[dict]:
     if verifications_path.exists():
         try:
             existing = json.loads(verifications_path.read_text(encoding="utf-8"))
-            already_verified_ids = {e["proposal_id"] for e in existing}
+            already_verified_ids = {
+                e["proposal_id"] for e in existing
+                if batch_id is None or e.get("batch_id") == batch_id
+            }
         except Exception:
             existing = []
 
     # Only process proposals not yet verified; limit=-1 means all
-    pending = [p for p in proposals if p.proposal_id not in already_verified_ids]
+    pending = [
+        p for p in proposals
+        if p.proposal_id not in already_verified_ids
+        and (batch_id is None or p.batch_id == batch_id)
+    ]
     batch = pending if limit < 0 else pending[:limit]
 
     out: list[dict] = list(existing)
@@ -4097,7 +4187,7 @@ def verify_new_entity_proposals(limit: int = -1) -> list[dict]:
                 lines.append(f"**Suggested kind**: {r['verifier_suggested_kind']}")
             lines.append("")
     (proposals_dir / "new_entity_verifications.md").write_text("\n".join(lines), encoding="utf-8")
-    return out
+    return out[-len(batch):] if batch else []
 
 
 def slugify_entity_name(name: str) -> str:
@@ -4154,18 +4244,34 @@ def build_new_entity_stub(name: str, kind: str, summary: str, sources: list[dict
     return "\n".join(lines)
 
 
-def apply_verified_new_entities(apply_changes: bool, limit: int | None = None) -> dict:
+def apply_verified_new_entities(
+    apply_changes: bool,
+    limit: int | None = None,
+    batch_id: str | None = None,
+    max_files: int | None = None,
+    publish_rag: bool = True,
+) -> dict:
     ver_path = AUTOMATION_DIR / "proposals" / "new_entity_verifications.json"
     if not ver_path.exists():
         return {"ok": False, "error": "verifications_not_found", "hint": "Run verify-new-entities first"}
     verifications = json.loads(ver_path.read_text(encoding="utf-8"))
-    confirmed = [v for v in verifications if v.get("verifier_status") == "confirmed"]
+    confirmed = [
+        v for v in verifications
+        if v.get("verifier_status") == "confirmed"
+        and (batch_id is None or v.get("batch_id") == batch_id)
+    ]
     if limit is not None:
         confirmed = confirmed[:limit]
-    rulebook_count = sum(1 for v in verifications if v.get("verifier_status") == "rulebook_entry")
+    rulebook_count = sum(
+        1 for v in verifications
+        if v.get("verifier_status") == "rulebook_entry"
+        and (batch_id is None or v.get("batch_id") == batch_id)
+    )
     results: list[dict] = []
     created: list[str] = []
     for v in confirmed:
+        if max_files is not None and len(created) >= max_files:
+            break
         name = v.get("name", "")
         kind = v.get("kind", "")
         # PC pages are maintained by players; never auto-create them. Log so we
@@ -4219,9 +4325,10 @@ def apply_verified_new_entities(apply_changes: bool, limit: int | None = None) -
         "rulebook_filtered_count": rulebook_count,
         "created_count": len(created),
         "skipped_count": sum(1 for r in results if r["action"] in ("skipped", "error")),
+        "deferred_count": max(0, len(confirmed) - len(results)),
         "results": results,
     }
-    if apply_changes and created:
+    if apply_changes and created and publish_rag:
         payload["vault_rag_refresh"] = refresh_vault_rag_safely()
     return payload
 
@@ -4503,7 +4610,11 @@ def build_metadata_edit_proposals(
     return sorted(unique.values(), key=lambda item: (item.article_path, item.proposal_type, item.value.lower()))
 
 
-def write_metadata_edit_report(proposals: list[MetadataEditProposal]) -> None:
+def write_metadata_edit_report(
+    proposals: list[MetadataEditProposal],
+    batch_id: str | None = None,
+) -> None:
+    assign_proposal_batch(proposals, batch_id)
     out = AUTOMATION_DIR / "proposals"
     write_json(out / "metadata_edit_proposals.json", [asdict(item) for item in proposals])
     lines = ["# Metadata Edit Proposals", ""]
@@ -4539,12 +4650,16 @@ def metadata_edit_verifier_prompt(proposal: MetadataEditProposal) -> str:
     )
 
 
-def verify_metadata_edit_proposals(limit: int | None = None) -> list[dict]:
+def verify_metadata_edit_proposals(
+    limit: int | None = None,
+    batch_id: str | None = None,
+) -> list[dict]:
     path = AUTOMATION_DIR / "proposals" / "metadata_edit_proposals.json"
     if not path.exists():
         raise RuntimeError("metadata_edit_proposals.json not found; run propose-metadata-edits first")
     proposals = [MetadataEditProposal(**item) for item in json.loads(path.read_text(encoding="utf-8"))]
-    selected = proposals if limit is None else proposals[:limit]
+    pending = [p for p in proposals if batch_id is None or p.batch_id == batch_id]
+    selected = pending if limit is None else pending[:limit]
     out = []
     for proposal in selected:
         try:
@@ -4601,11 +4716,21 @@ def add_frontmatter_list_item(text: str, key: str, value: str) -> tuple[str, boo
     return "---\n" + fm + "\n---\n" + rest, True, f"added {key}"
 
 
-def apply_verified_metadata_edits(apply_changes: bool, limit: int | None = None) -> dict:
+def apply_verified_metadata_edits(
+    apply_changes: bool,
+    limit: int | None = None,
+    batch_id: str | None = None,
+    max_files: int | None = None,
+    publish_rag: bool = True,
+) -> dict:
     path = AUTOMATION_DIR / "proposals" / "metadata_edit_verifications.json"
     if not path.exists():
         return {"ok": False, "error": "verifications_not_found"}
-    supported = [item for item in json.loads(path.read_text(encoding="utf-8")) if item.get("verifier_status") == "supported"]
+    supported = [
+        item for item in json.loads(path.read_text(encoding="utf-8"))
+        if item.get("verifier_status") == "supported"
+        and (batch_id is None or item.get("batch_id") == batch_id)
+    ]
     if limit is not None:
         supported = supported[:limit]
     key_by_type = {
@@ -4619,6 +4744,8 @@ def apply_verified_metadata_edits(apply_changes: bool, limit: int | None = None)
         by_article.setdefault(item["article_path"], []).append(item)
     results = []
     for article_path, edits in by_article.items():
+        if max_files is not None and len([r for r in results if r.get("applied", 0) > 0]) >= max_files:
+            break
         full_path = ROOT / article_path
         if not full_path.exists():
             results.append({"article_path": article_path, "applied": 0, "error": "file_not_found"})
@@ -4642,9 +4769,10 @@ def apply_verified_metadata_edits(apply_changes: bool, limit: int | None = None)
         "supported_count": len(supported),
         "articles_touched": len(by_article),
         "total_applied": sum(item["applied"] for item in results),
+        "deferred_file_count": max(0, len(by_article) - len(results)),
         "results": results,
     }
-    if apply_changes and payload["total_applied"]:
+    if apply_changes and payload["total_applied"] and publish_rag:
         payload["vault_rag_refresh"] = refresh_vault_rag_safely()
     return payload
 
@@ -4838,6 +4966,184 @@ def article_typo_fix_prompt(text: str) -> str:
         "Return ONLY the corrected text. No commentary, no fences, no preamble.\n\n"
         f"{text}"
     )
+
+
+def article_polish_verifier_prompt(
+    original_text: str,
+    rewritten_text: str,
+    source_chunks: list[dict],
+    article_path: str,
+    article_title: str,
+    article_kind: str,
+) -> str:
+    evidence = "\n\n---\n\n".join(
+        f"[{chunk.get('path','?')} §{chunk.get('section','?')} kind={chunk.get('kind','?')}]\n"
+        f"{chunk.get('text') or ''}"
+        for chunk in source_chunks
+    ) or "(no external evidence retrieved)"
+    return (
+        "You are the independent factual auditor for an Arden Vul campaign-vault rewrite.\n\n"
+        f"ARTICLE: {article_path}\n"
+        f"Previous title: {article_title}\n"
+        f"Kind: {article_kind}\n\n"
+        "The source material is written by humans and may be messy, inconsistent, incomplete, or corrected by later "
+        "sessions. Evaluate meaning with contextual judgment. Do not reject a rewrite merely because it changes a title, "
+        "relationship, section structure, identity, or earlier conclusion. New revelations and corrections are desirable "
+        "when the evidence supports them.\n\n"
+        "Approve only when the rewrite is a net improvement and all meaningful factual changes are supported either by "
+        "the original article or by the retrieved evidence. Reject when it invents claims, overstates ambiguous evidence, "
+        "loses still-valid facts, creates mistaken relationships, changes meaning without support, or degrades readability.\n\n"
+        "Also inspect Markdown, YAML frontmatter, and Obsidian links using judgment. Mechanical repairs are allowed. Do "
+        "not enforce exact textual preservation or rigid schemas.\n\n"
+        "Return strict JSON only with this schema:\n"
+        "{\n"
+        '  "status": "approved|rejected",\n'
+        '  "rationale": "concise overall judgment",\n'
+        '  "supported_revelations": ["important evidence-backed corrections or discoveries"],\n'
+        '  "unsupported_changes": ["claims or implications lacking support"],\n'
+        '  "lost_valid_facts": ["material facts removed despite remaining valid"],\n'
+        '  "relationship_concerns": ["mistaken merges, identities, links, or associations"],\n'
+        '  "quality_concerns": ["clarity, organization, markdown, or frontmatter problems"]\n'
+        "}\n\n"
+        "ORIGINAL ARTICLE:\n"
+        "-----------------\n"
+        f"{original_text}\n\n"
+        "PROPOSED REWRITE:\n"
+        "-----------------\n"
+        f"{rewritten_text}\n\n"
+        "RETRIEVED SOURCE CONTEXT:\n"
+        "-------------------------\n"
+        f"{evidence}"
+    )
+
+
+def verify_article_polish(
+    original_text: str,
+    rewritten_text: str,
+    source_chunks: list[dict],
+    article_path: str,
+    article_title: str,
+    article_kind: str,
+) -> dict:
+    sources = load_local_sources()
+    verifier_model = str(sources.get("polish_verifier_model") or "").strip() or None
+    try:
+        response = llm_chat_json(
+            article_polish_verifier_prompt(
+                original_text,
+                rewritten_text,
+                source_chunks,
+                article_path,
+                article_title,
+                article_kind,
+            ),
+            timeout=300,
+            model_override=verifier_model,
+        )
+    except Exception as exc:
+        return {
+            "status": "error",
+            "rationale": f"polish verifier failed: {str(exc)[:300]}",
+            "supported_revelations": [],
+            "unsupported_changes": [],
+            "lost_valid_facts": [],
+            "relationship_concerns": [],
+            "quality_concerns": [],
+        }
+    status = str(response.get("status", "rejected")).strip().lower()
+    if status not in {"approved", "rejected"}:
+        status = "rejected"
+
+    def string_list(key: str) -> list[str]:
+        value = response.get(key) or []
+        if isinstance(value, str):
+            return [value] if value.strip() else []
+        if not isinstance(value, list):
+            return []
+        return [str(item).strip() for item in value if str(item).strip()]
+
+    return {
+        "status": status,
+        "rationale": str(response.get("rationale", "")).strip(),
+        "supported_revelations": string_list("supported_revelations"),
+        "unsupported_changes": string_list("unsupported_changes"),
+        "lost_valid_facts": string_list("lost_valid_facts"),
+        "relationship_concerns": string_list("relationship_concerns"),
+        "quality_concerns": string_list("quality_concerns"),
+        "model": verifier_model or str(sources.get("llm_model") or ""),
+    }
+
+
+def write_polish_verification_report(batch_id: str, results: list[dict]) -> Path:
+    output = AUTOMATION_DIR / "polish" / f"{batch_id}.json"
+    write_json(output, {
+        "batch_id": batch_id,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "results": results,
+    })
+    return output
+
+
+def polish_rotation_path() -> Path:
+    return AUTOMATION_DIR / "polish" / "rotation.json"
+
+
+def load_polish_rotation() -> dict:
+    path = polish_rotation_path()
+    if not path.exists():
+        return {"paths": {}}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {"paths": {}}
+    if not isinstance(payload, dict) or not isinstance(payload.get("paths"), dict):
+        return {"paths": {}}
+    return payload
+
+
+def select_polish_queue(
+    items: list[ArticleQueueItem],
+    limit: int,
+    cooldown_days: int,
+    now: datetime | None = None,
+) -> tuple[list[ArticleQueueItem], int]:
+    now = now or datetime.now(timezone.utc)
+    rotation = load_polish_rotation().get("paths", {})
+    selected: list[ArticleQueueItem] = []
+    deferred = 0
+    for item in items:
+        prior = rotation.get(item.path, {})
+        attempted_at = parse_datetime(str(prior.get("attempted_at", "")))
+        if attempted_at and (now - attempted_at.astimezone(timezone.utc)).total_seconds() < cooldown_days * 86400:
+            deferred += 1
+            continue
+        selected.append(item)
+        if len(selected) >= limit:
+            break
+    return selected, deferred
+
+
+def update_polish_rotation(results: list[dict], attempted_at: datetime | None = None) -> None:
+    attempted_at = attempted_at or datetime.now(timezone.utc)
+    payload = load_polish_rotation()
+    paths = payload.setdefault("paths", {})
+    for result in results:
+        path = str(result.get("path", "")).strip()
+        if not path:
+            continue
+        verification_status = result.get("verification", {}).get("status")
+        if verification_status:
+            status = str(verification_status)
+        elif result.get("changed"):
+            status = "approved"
+        else:
+            status = "unchanged"
+        paths[path] = {
+            "attempted_at": attempted_at.isoformat(),
+            "status": status,
+        }
+    payload["updated_at"] = attempted_at.isoformat()
+    write_json(polish_rotation_path(), payload)
 
 
 def media_article_edit_proposer_prompt(
@@ -5213,7 +5519,11 @@ def build_article_edit_proposals(
     return proposals
 
 
-def write_article_edit_proposal_report(proposals: list[ArticleEditProposal]) -> None:
+def write_article_edit_proposal_report(
+    proposals: list[ArticleEditProposal],
+    batch_id: str | None = None,
+) -> None:
+    assign_proposal_batch(proposals, batch_id)
     proposals_dir = AUTOMATION_DIR / "proposals"
     proposals_dir.mkdir(parents=True, exist_ok=True)
     write_json(proposals_dir / "article_edit_proposals.json", [asdict(p) for p in proposals])
@@ -5527,7 +5837,10 @@ def article_edit_verifier_prompt(proposal: ArticleEditProposal) -> str:
     )
 
 
-def verify_article_edit_proposals(limit: int | None = None) -> list[dict]:
+def verify_article_edit_proposals(
+    limit: int | None = None,
+    batch_id: str | None = None,
+) -> list[dict]:
     proposals_path = AUTOMATION_DIR / "proposals" / "article_edit_proposals.json"
     if not proposals_path.exists():
         raise RuntimeError("article_edit_proposals.json not found; run propose-article-edits first")
@@ -5541,11 +5854,19 @@ def verify_article_edit_proposals(limit: int | None = None) -> list[dict]:
     if verifications_path.exists():
         try:
             existing = json.loads(verifications_path.read_text(encoding="utf-8"))
-            already_verified_ids = {e["proposal_id"] for e in existing if e.get("proposal_id")}
+            already_verified_ids = {
+                e["proposal_id"] for e in existing
+                if e.get("proposal_id")
+                and (batch_id is None or e.get("batch_id") == batch_id)
+            }
         except Exception:
             existing = []
 
-    pending = [p for p in proposals if p.proposal_id not in already_verified_ids]
+    pending = [
+        p for p in proposals
+        if p.proposal_id not in already_verified_ids
+        and (batch_id is None or p.batch_id == batch_id)
+    ]
     # limit=None or limit<0 means all pending
     if limit is not None and limit >= 0:
         pending = pending[:limit]
@@ -5588,7 +5909,7 @@ def verify_article_edit_proposals(limit: int | None = None) -> list[dict]:
                 lines.append(f"**Evidence**: > {ev}")
             lines.append("")
     (proposals_dir / "article_edit_verifications.md").write_text("\n".join(lines), encoding="utf-8")
-    return out
+    return out[-len(pending):] if pending else []
 
 
 def retire_proposals_for_path(article_rel_path: str) -> int:
@@ -6204,16 +6525,26 @@ def refresh_vault_rag_safely() -> dict:
     return {
         "ok": result.get("ok", False),
         "actions": result.get("actions", {}),
-        "collection_size": result.get("collection_size"),
+        "row_count": result.get("row_count"),
     }
 
 
-def apply_verified_article_edits(apply_changes: bool, limit: int | None = None) -> dict:
+def apply_verified_article_edits(
+    apply_changes: bool,
+    limit: int | None = None,
+    batch_id: str | None = None,
+    max_files: int | None = None,
+    publish_rag: bool = True,
+) -> dict:
     ver_path = AUTOMATION_DIR / "proposals" / "article_edit_verifications.json"
     if not ver_path.exists():
         return {"ok": False, "error": "verifications_not_found", "hint": "Run verify-article-edits first"}
     verifications = json.loads(ver_path.read_text(encoding="utf-8"))
-    supported = [v for v in verifications if v.get("verifier_status") == "supported"]
+    supported = [
+        v for v in verifications
+        if v.get("verifier_status") == "supported"
+        and (batch_id is None or v.get("batch_id") == batch_id)
+    ]
     if limit is not None:
         supported = supported[:limit]
     by_article: dict[str, list[dict]] = {}
@@ -6221,6 +6552,8 @@ def apply_verified_article_edits(apply_changes: bool, limit: int | None = None) 
         by_article.setdefault(v["article_path"], []).append(v)
     results: list[dict] = []
     for article_path, edits in by_article.items():
+        if max_files is not None and len([r for r in results if r.get("applied", 0) > 0]) >= max_files:
+            break
         full_path = ROOT / article_path
         if not full_path.exists():
             results.append({"article_path": article_path, "applied": 0, "skipped": len(edits), "error": "file_not_found"})
@@ -6254,9 +6587,10 @@ def apply_verified_article_edits(apply_changes: bool, limit: int | None = None) 
         "supported_count": len(supported),
         "articles_touched": len(by_article),
         "total_applied": sum(r["applied"] for r in results),
+        "deferred_file_count": max(0, len(by_article) - len(results)),
         "results": results,
     }
-    if apply_changes and payload["total_applied"] > 0:
+    if apply_changes and payload["total_applied"] > 0 and publish_rag:
         payload["vault_rag_refresh"] = refresh_vault_rag_safely()
     return payload
 
@@ -6657,6 +6991,7 @@ def cmd_vault_walk_step(args: argparse.Namespace) -> int:
     Designed to run within the Hermes 1200-second scheduler window."""
     import time
     t0 = time.time()
+    batch_id = datetime.now(timezone.utc).strftime("vault-walk-%Y%m%dT%H%M%SZ")
     newest_first: bool = getattr(args, "newest_first", False)
     sessions_only: bool = getattr(args, "sessions_only", False)
     limit: int = args.limit
@@ -6676,24 +7011,30 @@ def cmd_vault_walk_step(args: argparse.Namespace) -> int:
         top_k_per_query=5,
         sessions_only=sessions_only,
     )
-    write_article_edit_proposal_report(proposals)
+    write_article_edit_proposal_report(proposals, batch_id=batch_id)
 
     # --- Verify ---
-    verifications = verify_article_edit_proposals()
+    verifications = verify_article_edit_proposals(limit=3, batch_id=batch_id)
 
     # --- Apply ---
-    result = apply_verified_article_edits(apply_changes=True)
+    result = apply_verified_article_edits(
+        apply_changes=True,
+        limit=3,
+        batch_id=batch_id,
+        max_files=3,
+    )
 
     elapsed = int(time.time() - t0)
     status_counts = {v.get("verifier_status", "unknown") for v in verifications}
     print(json.dumps({
         "ok": True,
+        "batch_id": batch_id,
         "mode": "newest-first" if newest_first else "score-queue",
         "proposals_generated": len(proposals),
         "verified": len(verifications),
         "applied": result.get("total_applied", 0),
         "elapsed_seconds": elapsed,
-        "rag_collection_size": result.get("vault_rag_refresh", {}).get("collection_size"),
+        "rag_row_count": result.get("vault_rag_refresh", {}).get("row_count"),
     }, indent=2))
     return 0
 
@@ -7059,13 +7400,42 @@ def cmd_import(args: argparse.Namespace) -> int:
 def cmd_run_low_risk(args: argparse.Namespace) -> int:
     started_at = time.monotonic()
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    batch_id = f"run-low-risk-{run_id}"
     run_dir = AUTOMATION_DIR / "runs" / run_id
+    sources_cfg = load_local_sources()
+    configured_file_limit = sources_cfg.get("mutation_file_limit", 15)
+    mutation_file_limit = max(
+        0,
+        min(int(15 if configured_file_limit is None else configured_file_limit), 15),
+    )
+    mutated_files: set[str] = set()
+
+    def remaining_file_budget() -> int:
+        return max(0, mutation_file_limit - len(mutated_files))
+
     manifest = build_source_manifest(args.blog_feed)
     before = validate_state()
-    import_result = import_low_risk(True, args.blog_feed) if before["ok"] else {
-        "ok": False,
-        "error": "pre_validation_failed",
-    }
+    if before["ok"]:
+        import_preview = import_low_risk(False, args.blog_feed)
+        import_files = import_result_files(import_preview)
+        if len(import_files) > remaining_file_budget():
+            import_result = {
+                "ok": True,
+                "skipped": True,
+                "reason": "projected mutation file limit exceeded",
+                "projected_file_count": len(import_files),
+                "file_budget": remaining_file_budget(),
+                "changes": import_preview.get("changes", []),
+                "change_count": import_preview.get("change_count", 0),
+            }
+        else:
+            import_result = import_low_risk(True, args.blog_feed)
+            mutated_files.update(import_result_files(import_result))
+    else:
+        import_result = {
+            "ok": False,
+            "error": "pre_validation_failed",
+        }
     proposals: list[EntityLinkProposal] = []
     verification_result: dict = {"enabled": False}
     link_apply_result: dict = {"enabled": False}
@@ -7073,8 +7443,8 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
     media_queue: list[MediaQueueItem] = []
     if before["ok"]:
         proposals = build_entity_link_proposals()
-        write_entity_link_proposal_report(proposals)
-        sources = load_local_sources()
+        write_entity_link_proposal_report(proposals, batch_id=batch_id)
+        sources = sources_cfg
         article_queue = build_article_queue(int(sources.get("article_queue_limit", 30)))
         write_article_queue_report(article_queue)
         media_queue = build_media_queue(int(sources.get("media_queue_limit", 30)))
@@ -7089,11 +7459,11 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
             except Exception as exc:
                 spreadsheet_result = {"configured": True, "ok": False, "error": str(exc)}
         loot_reconciliation = write_loot_reconciliation_report()
-        verify_limit = sources.get("entity_link_verify_limit", 0)
-        apply_limit = sources.get("entity_link_apply_limit", 0)
+        verify_limit = scheduled_limit(sources, "entity_link_verify_limit", 10, 10)
+        apply_limit = scheduled_limit(sources, "entity_link_apply_limit", 10, 10)
         if verify_limit and sources.get("llm_base_url") and sources.get("llm_model"):
             try:
-                verified = verify_entity_link_proposals(None if int(verify_limit) < 0 else int(verify_limit))
+                verified = verify_entity_link_proposals(verify_limit, batch_id=batch_id)
                 counts: dict[str, int] = {}
                 for item in verified:
                     status = str(item.get("status", "unknown"))
@@ -7105,9 +7475,16 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                     "markdown": str(AUTOMATION_DIR / "proposals" / "entity_link_verifications.md"),
                 }
                 if apply_limit:
+                    link_apply = apply_verified_entity_links(
+                        True,
+                        apply_limit,
+                        batch_id=batch_id,
+                        max_files=remaining_file_budget(),
+                    )
+                    mutated_files.update(applied_result_files(link_apply))
                     link_apply_result = {
                         "enabled": True,
-                        **apply_verified_entity_links(True, None if int(apply_limit) < 0 else int(apply_limit)),
+                        **link_apply,
                     }
             except Exception as exc:
                 verification_result = {"enabled": True, "ok": False, "error": str(exc)}
@@ -7115,16 +7492,19 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
     selected_paths: list[Path] = []
     if before["ok"]:
         try:
-            sources_cfg = load_local_sources()
+            article_edit_enabled = bool(sources_cfg.get("article_edit_enabled", True))
             queue_top = int(sources_cfg.get("article_edit_queue_top", 0) or 0)
             media_queue_top = int(sources_cfg.get("media_edit_queue_top", 0) or 0)
             walk_step = int(sources_cfg.get("article_edit_walk_step", 0) or 0)
-            ae_verify_limit = int(sources_cfg.get("article_edit_verify_limit", 0) or 0)
-            ae_apply_limit = int(sources_cfg.get("article_edit_apply_limit", 0) or 0)
-            ae_verify_limit_arg = None if ae_verify_limit < 0 else ae_verify_limit
-            ae_apply_limit_arg = None if ae_apply_limit < 0 else ae_apply_limit
+            ae_verify_limit = scheduled_limit(sources_cfg, "article_edit_verify_limit", 3, 3)
+            ae_apply_limit = scheduled_limit(sources_cfg, "article_edit_apply_limit", 3, 3)
             pinned_paths: list[str] = sources_cfg.get("pinned_article_paths", []) or []
-            if (queue_top or media_queue_top or walk_step or pinned_paths) and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
+            if (
+                article_edit_enabled
+                and (queue_top or media_queue_top or walk_step or pinned_paths)
+                and sources_cfg.get("llm_base_url")
+                and sources_cfg.get("llm_model")
+            ):
                 seen: set[str] = set()
                 # Pinned paths always get a research pass regardless of queue score
                 for pp in pinned_paths:
@@ -7154,7 +7534,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                     max_additions_per_article=3,
                     top_k_per_query=3,
                 )
-                write_article_edit_proposal_report(article_edit_proposals)
+                write_article_edit_proposal_report(article_edit_proposals, batch_id=batch_id)
                 article_edit_result = {
                     "enabled": True,
                     "queue_top": queue_top,
@@ -7165,14 +7545,21 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                     "proposal_count": len(article_edit_proposals),
                 }
                 if ae_verify_limit and article_edit_proposals:
-                    verified = verify_article_edit_proposals(limit=ae_verify_limit_arg)
+                    verified = verify_article_edit_proposals(limit=ae_verify_limit, batch_id=batch_id)
                     vcounts: dict[str, int] = {}
                     for v in verified:
                         st = str(v.get("verifier_status", "unknown"))
                         vcounts[st] = vcounts.get(st, 0) + 1
                     article_edit_result["verifier_status_counts"] = vcounts
                     if ae_apply_limit:
-                        apply_result = apply_verified_article_edits(apply_changes=True, limit=ae_apply_limit_arg)
+                        apply_result = apply_verified_article_edits(
+                            apply_changes=True,
+                            limit=ae_apply_limit,
+                            batch_id=batch_id,
+                            max_files=remaining_file_budget(),
+                            publish_rag=False,
+                        )
+                        mutated_files.update(applied_result_files(apply_result))
                         article_edit_result["applied"] = {
                             "supported_count": apply_result.get("supported_count", 0),
                             "articles_touched": apply_result.get("articles_touched", 0),
@@ -7182,13 +7569,18 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                                 for r in apply_result.get("results", [])
                                 if r.get("applied", 0) > 0
                             ],
+                            "deferred_file_count": apply_result.get("deferred_file_count", 0),
                         }
+            elif not article_edit_enabled:
+                article_edit_result = {
+                    "enabled": False,
+                    "reason": "disabled; vault-walk-step is the scheduled article-enrichment path",
+                }
         except Exception as exc:
             article_edit_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
     metadata_edit_result: dict = {"enabled": False}
     if before["ok"]:
         try:
-            sources_cfg = load_local_sources()
             if sources_cfg.get("metadata_edit_enabled") and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
                 metadata_paths = selected_paths
                 if not metadata_paths:
@@ -7196,76 +7588,90 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
                         item.path for item in build_article_queue(limit=sources_cfg["metadata_edit_queue_top"])
                     ]
                 proposals = build_metadata_edit_proposals(article_paths=metadata_paths)
-                write_metadata_edit_report(proposals)
+                write_metadata_edit_report(proposals, batch_id=batch_id)
                 metadata_edit_result = {
                     "enabled": True,
                     "articles_processed": len(metadata_paths),
                     "proposal_count": len(proposals),
                 }
-                verify_limit = int(sources_cfg.get("metadata_edit_verify_limit", 0) or 0)
-                apply_limit = int(sources_cfg.get("metadata_edit_apply_limit", 0) or 0)
+                verify_limit = scheduled_limit(sources_cfg, "metadata_edit_verify_limit", 5, 5)
+                apply_limit = scheduled_limit(sources_cfg, "metadata_edit_apply_limit", 5, 5)
                 if verify_limit and proposals:
-                    verified = verify_metadata_edit_proposals(None if verify_limit < 0 else verify_limit)
+                    verified = verify_metadata_edit_proposals(verify_limit, batch_id=batch_id)
                     counts: dict[str, int] = {}
                     for item in verified:
                         status = str(item.get("verifier_status", "unknown"))
                         counts[status] = counts.get(status, 0) + 1
                     metadata_edit_result["verifier_status_counts"] = counts
                     if apply_limit:
-                        metadata_edit_result["applied"] = apply_verified_metadata_edits(
+                        metadata_apply = apply_verified_metadata_edits(
                             apply_changes=True,
-                            limit=None if apply_limit < 0 else apply_limit,
+                            limit=apply_limit,
+                            batch_id=batch_id,
+                            max_files=remaining_file_budget(),
+                            publish_rag=False,
                         )
+                        mutated_files.update(applied_result_files(metadata_apply))
+                        metadata_edit_result["applied"] = metadata_apply
         except Exception as exc:
             metadata_edit_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
     entity_proposal_result: dict = {"enabled": False}
     if before["ok"]:
         try:
-            sources_cfg = load_local_sources()
             if sources_cfg.get("entity_proposal_enabled") and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
                 ep_source_limit = int(sources_cfg.get("entity_proposal_source_limit", 2) or 2)
-                ep_verify_limit = int(sources_cfg.get("entity_proposal_verify_limit", 20) or 20)
-                ep_apply_limit = int(sources_cfg.get("entity_proposal_apply_limit", 20) or 20)
-                ep_verify_limit_arg = None if ep_verify_limit < 0 else ep_verify_limit
-                ep_apply_limit_arg = None if ep_apply_limit < 0 else ep_apply_limit
+                ep_verify_limit = scheduled_limit(sources_cfg, "entity_proposal_verify_limit", 3, 3)
+                ep_apply_limit = scheduled_limit(sources_cfg, "entity_proposal_apply_limit", 3, 3)
                 ep_proposals = build_new_entity_proposals(source_limit=ep_source_limit)
-                write_new_entity_proposal_report(ep_proposals)
+                write_new_entity_proposal_report(ep_proposals, batch_id=batch_id)
                 entity_proposal_result = {
                     "enabled": True,
                     "proposal_count": len(ep_proposals),
                 }
                 if ep_verify_limit and ep_proposals:
-                    ep_verified = verify_new_entity_proposals(limit=ep_verify_limit_arg)
+                    ep_verified = verify_new_entity_proposals(limit=ep_verify_limit, batch_id=batch_id)
                     ep_vcounts: dict[str, int] = {}
                     for v in ep_verified:
                         st = str(v.get("verifier_status", "unknown"))
                         ep_vcounts[st] = ep_vcounts.get(st, 0) + 1
                     entity_proposal_result["verifier_status_counts"] = ep_vcounts
                     if ep_apply_limit and ep_proposals:
-                        ep_apply = apply_verified_new_entities(apply_changes=True, limit=ep_apply_limit_arg)
+                        ep_apply = apply_verified_new_entities(
+                            apply_changes=True,
+                            limit=ep_apply_limit,
+                            batch_id=batch_id,
+                            max_files=remaining_file_budget(),
+                            publish_rag=False,
+                        )
+                        mutated_files.update(applied_result_files(ep_apply))
                         entity_proposal_result["applied"] = {
-                            "created": ep_apply.get("created", 0),
-                            "skipped": ep_apply.get("skipped", 0),
+                            "created": ep_apply.get("created_count", 0),
+                            "skipped": ep_apply.get("skipped_count", 0),
+                            "deferred": ep_apply.get("deferred_count", 0),
                         }
         except Exception as exc:
             entity_proposal_result = {"enabled": True, "ok": False, "error": str(exc)[:200]}
     action_items_result: dict = {"enabled": False}
     if before["ok"]:
         try:
-            sources_cfg = load_local_sources()
             if sources_cfg.get("action_items_enabled") and sources_cfg.get("llm_base_url") and sources_cfg.get("llm_model"):
                 refresh_due, refresh_reason = action_items_refresh_due(
                     import_result,
                     int(sources_cfg.get("action_items_refresh_hours", 24) or 24),
                 )
                 if refresh_due:
+                    action_items_apply = bool(sources_cfg.get("action_items_apply")) and remaining_file_budget() > 0
                     action_items_result = update_action_items_safely(
-                        apply_changes=bool(sources_cfg.get("action_items_apply")),
+                        apply_changes=action_items_apply,
                         latest_sessions=int(sources_cfg.get("action_items_latest_sessions", 8) or 8),
                         latest_discord_weeks=int(sources_cfg.get("action_items_latest_discord_weeks", 4) or 4),
                         max_items=int(sources_cfg.get("action_items_max_items", 50) or 50),
                     )
                     action_items_result["refresh_reason"] = refresh_reason
+                    if action_items_apply and action_items_result.get("applied", {}).get("changed"):
+                        mutated_files.add("vault/notes/Active Action Items.md")
+                    elif bool(sources_cfg.get("action_items_apply")) and not action_items_apply:
+                        action_items_result["deferred"] = "mutation file budget exhausted"
                 else:
                     action_items_result = {
                         "enabled": True,
@@ -7280,6 +7686,7 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
     payload = {
         "ok": before["ok"] and import_result["ok"] and after["ok"],
         "run_id": run_id,
+        "batch_id": batch_id,
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "elapsed_seconds": round(time.monotonic() - started_at, 3),
         "mode": "scheduled-low-risk",
@@ -7314,6 +7721,16 @@ def cmd_run_low_risk(args: argparse.Namespace) -> int:
         "metadata_edit": metadata_edit_result,
         "entity_new_proposals": entity_proposal_result,
         "action_items": action_items_result,
+        "mutation_budget": {
+            "file_limit": mutation_file_limit,
+            "files_touched": len(mutated_files),
+            "files": sorted(mutated_files),
+            "remaining": remaining_file_budget(),
+        },
+        "rag_publication": {
+            "strategy": "single_final_refresh",
+            "nested_refreshes": 0,
+        },
         "vault_rag_refresh": vault_rag_refresh,
         "after_validation": after,
     }
@@ -7380,18 +7797,18 @@ def build_parser() -> argparse.ArgumentParser:
     loot_reconcile = sub.add_parser("reconcile-loot", help="Write a review-only loot inventory reconciliation report")
     loot_reconcile.set_defaults(func=cmd_reconcile_loot)
 
-    ingest_vault_rag = sub.add_parser("ingest-vault-rag", help="Ingest vault sessions/summaries/lore into the local Chroma vault-rag collection")
-    ingest_vault_rag.add_argument("--reset", action="store_true", help="Delete the existing collection first and rebuild from scratch")
+    ingest_vault_rag = sub.add_parser("ingest-vault-rag", help="Ingest vault content into the PostgreSQL/pgvector Arden RAG database")
+    ingest_vault_rag.add_argument("--reset", action="store_true", help="Delete existing Arden RAG rows first and rebuild from scratch")
     ingest_vault_rag.add_argument("--limit", type=int, default=None, help="Maximum number of files to process (for testing)")
     ingest_vault_rag.add_argument("--verbose", action="store_true", help="Include per-file results in the JSON output")
     ingest_vault_rag.set_defaults(func=cmd_ingest_vault_rag)
 
-    refresh_vault_rag = sub.add_parser("refresh-vault-rag", help="Refresh the vault-rag collection (sha256-gated; only changed files get re-embedded)")
+    refresh_vault_rag = sub.add_parser("refresh-vault-rag", help="Refresh PostgreSQL Arden RAG rows (sha256-gated; only changed files get re-embedded)")
     refresh_vault_rag.add_argument("--limit", type=int, default=None, help="Maximum number of files to process (for testing)")
     refresh_vault_rag.add_argument("--verbose", action="store_true", help="Include per-file results in the JSON output")
     refresh_vault_rag.set_defaults(func=cmd_refresh_vault_rag)
 
-    search_vault_rag = sub.add_parser("vault-rag-search", help="Query the vault-rag Chroma collection")
+    search_vault_rag = sub.add_parser("vault-rag-search", help="Query the PostgreSQL Arden RAG database")
     search_vault_rag.add_argument("query", help="Natural-language query")
     search_vault_rag.add_argument("--top-k", type=int, default=5, help="Number of results to return (default 5)")
     search_vault_rag.add_argument(
@@ -7502,7 +7919,7 @@ def build_parser() -> argparse.ArgumentParser:
     summarize_scratch = sub.add_parser("summarize-scratchpad", help="Condense SCRATCH.md using the configured LLM")
     summarize_scratch.set_defaults(func=cmd_summarize_scratchpad)
 
-    polish_queue = sub.add_parser("polish-queue", help="Polish top-N articles from the staleness+quality queue")
+    polish_queue = sub.add_parser("polish-queue", help="Polish top-N articles and independently verify each rewrite before writing")
     polish_queue.add_argument("--limit", type=int, default=5, help="Number of articles to polish (default 5)")
     polish_queue.add_argument("--apply", action="store_true", help="Write changes; omit for dry-run diff")
     polish_queue.add_argument("--top-k", type=int, default=8, help="RAG results per query (default 8)")
@@ -7510,7 +7927,7 @@ def build_parser() -> argparse.ArgumentParser:
                               help="Restrict to article kinds e.g. --kinds pc npc faction")
     polish_queue.set_defaults(func=cmd_polish_queue)
 
-    polish = sub.add_parser("polish-article", help="Full-rewrite polishing pass: RAG research + LLM rewrite of a single vault article")
+    polish = sub.add_parser("polish-article", help="RAG-research, rewrite, and independently verify one vault article")
     polish.add_argument("--article", required=True, help="Repo-relative path to the article (e.g. vault/pcs/Vallium Halcyon.md)")
     polish.add_argument("--apply", action="store_true", help="Write the rewritten article to disk; omit for dry-run diff")
     polish.add_argument("--top-k", type=int, default=8, help="RAG results per query (default 8)")
@@ -7531,6 +7948,7 @@ def cmd_polish_article(args) -> int:
     import difflib
 
     article_rel = args.article
+    batch_id = datetime.now(timezone.utc).strftime("polish-%Y%m%dT%H%M%SZ")
     path = ROOT / article_rel
     if not path.exists():
         print(json.dumps({"ok": False, "error": f"Article not found: {article_rel}"}), file=sys.stderr)
@@ -7603,8 +8021,48 @@ def cmd_polish_article(args) -> int:
     ))
 
     if not diff:
-        print(json.dumps({"ok": True, "changed": False, "message": "No changes produced"}))
+        report = write_polish_verification_report(batch_id, [{
+            "path": article_rel,
+            "status": "unchanged",
+            "rationale": "No rewrite changes were produced.",
+        }])
+        print(json.dumps({
+            "ok": True,
+            "changed": False,
+            "message": "No changes produced",
+            "batch_id": batch_id,
+            "verification_report": str(report),
+        }))
         return 0
+
+    print("Running independent polish verifier ...", file=sys.stderr)
+    verification = verify_article_polish(
+        article_text,
+        rewritten,
+        chunks,
+        item.path,
+        item.title,
+        item.kind,
+    )
+    report_item = {
+        "path": article_rel,
+        "candidate_changed": True,
+        "diff_lines": len(diff),
+        **verification,
+    }
+    report = write_polish_verification_report(batch_id, [report_item])
+
+    if verification["status"] != "approved":
+        print(json.dumps({
+            "ok": verification["status"] != "error",
+            "changed": False,
+            "candidate_changed": True,
+            "path": article_rel,
+            "verification": verification,
+            "verification_report": str(report),
+            "message": "Rewrite rejected; original article retained.",
+        }))
+        return 1 if verification["status"] == "error" else 0
 
     if not getattr(args, "apply", False):
         sys.stdout.writelines(diff)
@@ -7612,7 +8070,15 @@ def cmd_polish_article(args) -> int:
         return 0
 
     path.write_text(rewritten, encoding="utf-8")
-    print(json.dumps({"ok": True, "changed": True, "path": article_rel, "diff_lines": len(diff)}))
+    print(json.dumps({
+        "ok": True,
+        "changed": True,
+        "path": article_rel,
+        "diff_lines": len(diff),
+        "batch_id": batch_id,
+        "verification": verification,
+        "verification_report": str(report),
+    }))
     return 0
 
 
@@ -7624,14 +8090,22 @@ def cmd_polish_queue(args) -> int:
     apply_ = getattr(args, "apply", False)
     top_k = getattr(args, "top_k", 8)
     kinds = set(getattr(args, "kinds", None) or [])
+    batch_id = datetime.now(timezone.utc).strftime("polish-queue-%Y%m%dT%H%M%SZ")
+    sources = load_local_sources()
+    cooldown_days = max(0, int(sources.get("polish_retry_days", 7) or 0))
 
-    queue = build_article_queue(limit=200)
+    queue = build_article_queue(limit=10000)
     if kinds:
         queue = [it for it in queue if it.kind in kinds]
-    queue = queue[:limit]
+    queue, cooldown_deferred = select_polish_queue(queue, limit, cooldown_days)
 
     if not queue:
-        print(json.dumps({"ok": True, "message": "Queue is empty"}))
+        print(json.dumps({
+            "ok": True,
+            "message": "No eligible polish candidates outside the retry cooldown.",
+            "cooldown_days": cooldown_days,
+            "cooldown_deferred": cooldown_deferred,
+        }))
         return 0
 
     results = []
@@ -7691,18 +8165,69 @@ def cmd_polish_queue(args) -> int:
             results.append({"path": item.path, "ok": True, "changed": False})
             continue
 
+        print(f"  running independent verifier", file=sys.stderr)
+        verification = verify_article_polish(
+            article_text,
+            rewritten,
+            chunks,
+            item.path,
+            item.title,
+            item.kind,
+        )
+        if verification["status"] != "approved":
+            print(f"  rejected: {verification['rationale']}", file=sys.stderr)
+            results.append({
+                "path": item.path,
+                "ok": verification["status"] != "error",
+                "changed": False,
+                "candidate_changed": True,
+                "diff_lines": len(diff),
+                "verification": verification,
+            })
+            continue
+
         if apply_:
             path.write_text(rewritten, encoding="utf-8")
-            print(f"  written", file=sys.stderr)
+            print(f"  approved and written", file=sys.stderr)
         else:
             sys.stdout.writelines(diff)
 
-        results.append({"path": item.path, "ok": True, "changed": True, "diff_lines": len(diff)})
+        results.append({
+            "path": item.path,
+            "ok": True,
+            "changed": True,
+            "diff_lines": len(diff),
+            "verification": verification,
+        })
 
     changed = [r["path"] for r in results if r.get("changed")]
-    print(json.dumps({"ok": True, "processed": len(results), "changed": len(changed),
-                      "applied": apply_, "pages": results}))
-    return 0
+    update_polish_rotation(results)
+    report = write_polish_verification_report(batch_id, results)
+    run_ok = not any(not result.get("ok", False) for result in results)
+    print(json.dumps({
+        "ok": run_ok,
+        "batch_id": batch_id,
+        "processed": len(results),
+        "cooldown_days": cooldown_days,
+        "cooldown_deferred": cooldown_deferred,
+        "changed": len(changed),
+        "approved": sum(
+            1 for result in results
+            if result.get("verification", {}).get("status") == "approved"
+        ),
+        "rejected": sum(
+            1 for result in results
+            if result.get("verification", {}).get("status") == "rejected"
+        ),
+        "verifier_errors": sum(
+            1 for result in results
+            if result.get("verification", {}).get("status") == "error"
+        ),
+        "applied": apply_,
+        "verification_report": str(report),
+        "pages": results,
+    }))
+    return 0 if run_ok else 1
 
 
 def main(argv: list[str] | None = None) -> int:

@@ -12,8 +12,8 @@ Hermes runs that command through `/home/kyle/.hermes/scripts/arden_vault_run.sh`
 The wrapper uses `flock` so overlapping runs exit instead of competing.
 
 The harness imports completed Discord revisions, maintains navigation and
-low-risk vault edits, refreshes Chroma staging indexes, and mirrors a consistent
-snapshot to the PostgreSQL RAG service on port `8897`.
+low-risk vault edits, and refreshes the PostgreSQL/pgvector RAG store exposed by
+the local RAG service on port `8897`.
 
 ## Source Boundaries
 
