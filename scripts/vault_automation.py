@@ -201,7 +201,7 @@ class EntityPage:
     aliases: tuple[str, ...]
 
 
-@dataclass(frozen=True)
+@dataclass
 class EntityLinkProposal:
     source: str
     entity: str
