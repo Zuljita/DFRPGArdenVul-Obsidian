@@ -117,6 +117,54 @@ class BatchIsolationTests(unittest.TestCase):
         )
         self.assertEqual(payload[0]["batch_id"], "batch-123")
 
+    def test_batch_stamping_covers_every_proposal_dataclass(self):
+        proposals = [
+            va.EntityLinkProposal(
+                source="vault/sessions/Session 1.md",
+                entity="First",
+                entity_path="vault/npcs/First.md",
+                kind="npc",
+                mention="First",
+                context="First did a thing.",
+                status="proposed",
+            ),
+            va.NewEntityCandidate(
+                name="First",
+                kind="npc",
+                canonical_target_dir="vault/npcs",
+                mention_count=1,
+                sources=[],
+                rationale="test",
+                nearest_existing=None,
+                nearest_distance=1.0,
+            ),
+            va.ArticleEditProposal(
+                article_path="vault/npcs/First.md",
+                article_title="First",
+                article_kind="npc",
+                article_score=1,
+                addition_type="fact",
+                target_section="Notes",
+                proposed_text="text",
+                rationale="test",
+                sources=[],
+            ),
+            va.MetadataEditProposal(
+                article_path="vault/npcs/First.md",
+                article_title="First",
+                article_kind="npc",
+                proposal_type="add_tag",
+                value="status/known",
+                rationale="test",
+                sources=[],
+            ),
+        ]
+
+        va.assign_proposal_batch(proposals, "batch-456")
+
+        for proposal in proposals:
+            self.assertEqual(proposal.batch_id, "batch-456")
+
     def test_historical_verification_does_not_starve_current_batch(self):
         article = self._write_article("First")
         proposal = va.ArticleEditProposal(

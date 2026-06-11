@@ -30,8 +30,8 @@ The hill in the NW is called the **Hill of the Gods**, home to all temples. Wate
 - **Rarities Factor** — [[npcs/Wicktrimmer.md|Wicktrimmer]]'s business; a collector of magical items with first refusal on anything out of Arden Vul.
 - [[locations/The Stunned Acolyte.md|The Stunned Acolyte]] — An expensive inn catering to wealthy patrons.
 - **Guard Houses** — Large wooden structures located in empty areas.
-- **Temple of Mitra** — A circular stone structure with a portico and a pediment depicting the god in mail.
-- **Temple of Lucreon** — A three-chamber structure housing a massive granite statue; coins placed in an offering box appear to fall from the air into the god's money bag.
+- **Temple of Mitra** — A circular stone structure with a portico and a pediment depicting the god in mail. Inside, a statue of Mitra holds scales of justice where worshippers place offerings; apartments and bureaucratic offices ring the outer wall.
+- **Temple of Lucreon** — A three-chamber structure (ante-cella, cella, postern/offices) housing a massive granite statue holding a money bag. Coins placed in an offering chest appear to fall from the air into the statue's bag; clerics empty the bag nightly.
 
 ## Notable Establishments
 
@@ -39,12 +39,11 @@ The hill in the NW is called the **Hill of the Gods**, home to all temples. Wate
 - **Astableon's Bookstore** — Bookstore in town. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])
 - **Taverns**: Baliff's Truncheon, Dripping Hog, Rusty Gauntlet, Old Well, Pyrite, Grinning Skull, Muddy Puddle, Three Hanged Men, Pig and Whistle.
 - **Inns**: Yellow Cloak, Stunned Acolyte.
-- **Torunn the Smith** — A renowned Wiskin smith specializing in metal weapons and armor.
+- **Torunn the Smith** — A renowned Wiskin smith specializing in metal weapons and armor, regarded as the best smith in town. Offers Good, Fine, Balanced, and Dwarven quality; handles the finest work herself with several apprentices.
 - **Livestock and Horse Merchant** — Run by Sakeon; sells mules, bits, bridles, and saddlebags.
 
 ## Trades & Notable Residents
 
-- **Smith:** A Gosterwick woman is regarded as the best smith in town.
 - **Tailor:** [[Margot the Red]] (also: **Tasha** the tailor)
 - **Goblin merchant — Rarities Factor:** [[npcs/Wicktrimmer.md|Wicktrimmer]], proprietor of the Rarities Factor (probably the second richest person in town); intensely interested in Larel's items; has right of first refusal to buy magical items out of Arden Vul. ([[notes/Discord Summary 2025-W27.md|Discord Summary 2025-W27]])
 - **Gem / jewelry merchant:** **Chairduster**

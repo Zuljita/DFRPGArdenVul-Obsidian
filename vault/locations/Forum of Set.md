@@ -2,6 +2,7 @@
 title: Forum of Set
 aliases:
   - Goblin Forum
+  - Forum of the Goblins
   - Set Forum
 tags:
   - location
@@ -33,6 +34,7 @@ The area also hosts food stalls, such as one managed by [[npcs/Dworm.md|Dworm]].
 - **Sighing Stair**: From the former [[locations/Temple of Set.md|Temple of Set]] above (now cleared).
 - **Thothian Teleportation Circle**: Located in the finished room near the cliff entrance (stairs up).
 - **Southern Orientation**: The cliff face entrance is located on the southern side of the Forum.
+- **Settite-era access signal** (historical): Traders who wanted entry would shine two lanterns from the left side of the river at night. ([[notes/Discord Summary 2025-W24.md|Discord Summary 2025-W24]])
 
 ## Layout (Sessions 43a–43c)
 
