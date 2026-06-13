@@ -7,7 +7,7 @@ tags:
 # Wiskin
 
 ## Summary
-One of the four major human cultures in the setting, described as "vikings from the northern islands." They have their own pantheon, which includes the god [[Odin]].
+One of the four major human cultures in the setting, described as "vikings from the northern islands." They follow the Wiskin Pantheon, which includes the god [[Odin]].
 
 ## Goals
 TBD
@@ -19,13 +19,11 @@ TBD
 TBD
 
 ## Notes
-- [[Torunn the Smith]] is a [[Wiskin]] woman.
-- [[Helle]] is a [[Wiskin]] woman.
-- [[Ketil]] is a [[Wiskin]] ranger.
-- [[Helle]] works as the bartender in the main common room of the Yellow Cloak Inn.
-- [[Torunn the Smith]] is regarded as the best smith in Gosterwick.
+- [[Torunn the Smith]] is a large Wiskin woman regarded as the best smith in Gosterwick.
+- [[Helle]] is a Wiskin woman who works as the bartender in the main common room of the Yellow Cloak Inn.
+- [[Ketil]] is a Wiskin ranger who was a prisoner in the ruins of Arden Vul.
+- The god [[Odin]] is worshipped in [[Newmarket]].
 - Wiskin berserkers were among the foes defeated during Arden's Twelve Labors.
-- [[Ketil]] was a prisoner in the ruins of Arden Vul.
 
 ## Members
 - [[Svenbar]] is a Wiskin blacksmith.

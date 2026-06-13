@@ -62,8 +62,8 @@ The company Chrysalis spent the week in [[locations/Gosterwick.md|Gosterwick]] c
 * **Equipment changes:** None this week.
 
 **[[npcs/Remagis.md|Remagis]] (Mercenary)**
-* **Town actions taken:** Traveled to Gosterwick with Vaelitharon; attempted to use broken Archontean on various townspeople. Purchased food, holy water, cleaning supplies, and several wooden holy symbols of Thoth.
-* **Character advancement:** Expressed intent to reopen the Temple of Thoth within Arden Vul once proficient in Archontean.
+* **Town actions taken:** Traveled to [[locations/Gosterwick.md|Gosterwick]] with Vaelitharon; attempted to use broken Archontean on various townspeople. Purchased food, holy water, cleaning supplies, and several wooden holy symbols of Thoth.
+* **Character advancement:** Expressed intent to reopen the Temple of Thoth within [[locations/Arden Vul.md|Arden Vul]] once proficient in Archontean.
 * **Equipment changes:** None this week.
 
 **Lore & Discoveries**

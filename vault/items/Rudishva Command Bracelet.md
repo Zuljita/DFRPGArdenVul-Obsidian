@@ -9,15 +9,13 @@ tags:
 # Rudishva Command Bracelet
 
 ## Summary
-A Rudishva control/interface bracelet used by Vael for translation, system queries, and operational interpretation of ancient devices.
-
-It also functions as an authorization device and allows giving commands to Rudishva machines up to about 100' away.
+A Rudishva control and interface bracelet used by Vael for translation, system queries, and the operational interpretation of ancient devices. It also functions as an authorization device that allows commands to be issued to Rudishva machinery within a range of approximately 100'.
 
 ## Notes
-- Translated spoken lizardman speech for Vael during first contact in lower passages.
+- Translated spoken lizardman speech for Vael during first contact in the lower passages.
 - Identified unknown machinery (e.g., airflow systems, food machines) and provided operational context.
-- Served as a practical bridge between party actions and surviving Rudishva infrastructure.
-- In [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]], the bracelet enabled clear two-way contact with [[npcs/Akla-Chah.md|Akla-Chah]] from [[locations/Gosterwick.md|Gosterwick]], confirming practical remote comms use away from the Beacon.
+- Serves as a practical bridge between party actions and surviving Rudishva infrastructure.
+- In [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]], the bracelet enabled clear two-way contact with [[npcs/Akla-Chah.md|Akla-Chah]] from [[locations/Gosterwick.md|Gosterwick]], confirming practical remote communications use away from the Beacon.
 - A red version of this bracelet may be located in the Arena, according to Temrin's map.
 
 ## Sessions
