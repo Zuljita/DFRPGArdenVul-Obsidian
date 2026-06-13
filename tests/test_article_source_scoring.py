@@ -50,7 +50,8 @@ class SourceAwareScoringTests(unittest.TestCase):
         path.write_text(body, encoding="utf-8")
         return path
 
-    def test_uncited_recent_summary_adds_bonus(self):
+    def test_newest_source_mention_is_immediate_priority(self):
+        # An uncited mention in the newest summary jumps the page to the +500 tier.
         self._summary("2026-W23", "Akla-Chah revealed the Varumani are Rudishva constructs.")
         path = self._article(
             "factions", "Varumani",
@@ -58,8 +59,22 @@ class SourceAwareScoringTests(unittest.TestCase):
         )
         score, reasons = va.score_article(path, va.read_text(path))
         joined = " ".join(reasons)
-        self.assertIn("unincorporated recent sources", joined)
-        self.assertIn("Discord Summary 2026-W23", joined)
+        self.assertIn("named in newest source (Discord Summary 2026-W23)", joined)
+        self.assertGreaterEqual(score, 500)
+
+    def test_older_recent_source_adds_breadth_bonus_only(self):
+        # Entity is absent from the newest summary but present in an older recent one:
+        # breadth bonus, not the immediate-priority jump.
+        self._summary("2026-W23", "A quiet week in Gosterwick with no notable factions.")
+        self._summary("2026-W18", "Study of the Varumani language continued this week.")
+        path = self._article(
+            "factions", "Varumani",
+            "---\ntitle: Loyal Varumani\naliases:\n  - Varumani\n---\n# Loyal Varumani\n\n## Summary\nThe Varumani faction.\n",
+        )
+        score, reasons = va.score_article(path, va.read_text(path))
+        joined = " ".join(reasons)
+        self.assertNotIn("named in newest source", joined)
+        self.assertIn("unincorporated recent sources (+25): Discord Summary 2026-W18", joined)
 
     def test_cited_summary_yields_no_source_bonus(self):
         self._summary("2026-W23", "Akla-Chah revealed the Varumani are Rudishva constructs.")
@@ -69,7 +84,9 @@ class SourceAwareScoringTests(unittest.TestCase):
             "## Summary\nThe Varumani faction. ([[notes/Discord Summary 2026-W23.md|Discord Summary 2026-W23]])\n",
         )
         score, reasons = va.score_article(path, va.read_text(path))
-        self.assertNotIn("unincorporated recent sources", " ".join(reasons))
+        joined = " ".join(reasons)
+        self.assertNotIn("unincorporated recent sources", joined)
+        self.assertNotIn("named in newest source", joined)
 
     def test_short_name_not_matched(self):
         # "Set" is below the 4-char floor and must not trigger incidental matches.
@@ -79,7 +96,9 @@ class SourceAwareScoringTests(unittest.TestCase):
             "---\ntitle: Set\n---\n# Set\n\n## Summary\nA deity.\n",
         )
         score, reasons = va.score_article(path, va.read_text(path))
-        self.assertNotIn("unincorporated recent sources", " ".join(reasons))
+        joined = " ".join(reasons)
+        self.assertNotIn("unincorporated recent sources", joined)
+        self.assertNotIn("named in newest source", joined)
 
     def test_lore_dir_is_scanned_by_article_queue(self):
         self.assertIn("lore", va.ARTICLE_QUEUE_DIRS)
