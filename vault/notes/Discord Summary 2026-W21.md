@@ -62,7 +62,7 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
 
 **Vaelitharon "Vael" Sunshadow**
 * **Town actions taken:** 
-    * Purchased "Fine, Ornate +3 Clothing" from Tasha the Tailor ($2,280) to serve as dungeonwear; the garment features runic and glyph ornamentation.
+    * Purchased "Fine, Ornate +3 Clothing" from [[npcs/Tasha.md|Tasha]] the Tailor ($2,280) to serve as dungeonwear; the garment features runic and glyph ornamentation.
     * Consulted the hologram [[npcs/Akla-Chah.md|Akla-Chah]] regarding the origins of magic; learned that magic was unknown to her people until they were stranded on the planet Magae.
     * Celebrated the acquisition of a new power item by sharing wine with [[npcs/Chairduster.md|Chairduster]] and the torc; during the celebration, [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] smashed a bottle of wine ($100) against the counter and tipped Chairduster $50 for the mess.
 * **Alchemy/crafting attempts and results:** Successfully brewed a Potion of Wisdom.
@@ -93,7 +93,7 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
 
 **Item Intelligence**
 * **Octagonal Platinum Coins:** These rare, heavy coins ($3750 value) feature a dragon's head or an obelisk with an eye on the obverse, surrounded by the legend *"Imp. Archon. Regn. est"* (The Archontean Emperor shall rule). The reverse bears the legend *"Auc. est otest."* (Authority is power). They were issued for significant political events such as coronations or victories.
-* **Bracers of Force (DR 3):** When stacked with [[items/Larel's Cloak.md|Larel's cloak]], these provide a cumulative DR of 5.
+* **[[items/Bracers of Force.md|Bracers of Force]] (DR 3):** When stacked with [[items/Larel's Cloak.md|Larel's cloak]], these provide a cumulative DR of 5.
 * **The Captain's Broadside:** A recently acquired power item used by Vaelitharon.
 * **Behir Hide Inventory:** The company possesses approximately 200 lbs of Behir hide.
 

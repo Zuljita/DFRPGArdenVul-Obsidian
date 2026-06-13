@@ -6,9 +6,9 @@ tags:
 # Goblins
 
 ## Summary
-Widespread presence in and around the Halls; includes the United [[factions/Goblins.md|Goblins]] polity under [[npcs/Weskenim.md|Weskenim]] and various units (sergeants, cooks, porters).
+The [[factions/Goblins.md|Goblins]] are a widespread presence in and around the Halls, organized under the United Goblins polity led by Grand King [[npcs/Weskenim.md|Weskenim]]. Their territory encompasses Goblintown, the Wet Caves, and the repurposed "Glory of Weskenim" (formerly the Glory of Thoth). Following the defeat of Phlebotomas Plumthorn's halfling gang, the Halls of Thoth were renamed Upper Goblintown. The faction continues to expand, recently taking over the conquered Forum of Set with [[npcs/Weskenim.md|Weskenim]] appointing his brother Gribble as its Lord.
 
-Efforts are underway to clear the area south of the basket elevator to ensure it is safe for goblin patrols.
+The goblin military force includes ogre guards and warriors led by officers such as Killik and Bottleneck, while the court is managed by the major-domo [[npcs/Palestrim.md|Palestrim]]. The faction's presence includes various units of sergeants, cooks, and porters. Efforts are underway to clear the area south of the basket elevator to ensure it is safe for goblin patrols.
 
 Following the defeat of Plumthorn's Halflings, the Halls of Thoth have been renamed to Upper Goblintown.
 

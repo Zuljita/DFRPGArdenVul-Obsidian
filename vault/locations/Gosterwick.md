@@ -9,7 +9,7 @@ aliases:
 ---
 # Gosterwick
 
-Originally a tiny Thorcin farming village, Gosterwick was expanded into a town about 20 years ago by the Archontean noblewoman [[npcs/Lady Alexia Basileon.md|Lady Alexia]]. The town has 9 taverns and 2 inns, is ruled by the Green Lady, and is the current game's starting location. It has a small dwarven population — a small used house costs around $2000, and one street has 6 dwarven buildings near each other.
+Originally a tiny Thorcin farming village, Gosterwick was expanded into a boom town about 20 years ago by the Archontean noblewoman [[npcs/Lady Alexia Basileon.md|Lady Alexia]], who established the Azure Keep. The town has 9 taverns and 2 inns, is ruled by the Green Lady, and serves as the current game's starting location. It has a small dwarven population—a small used house costs around $2000—and one street features six adjacent dwarven buildings.
 
 The hill in the NW is called the **Hill of the Gods**, home to all temples. Water level fluctuates due to melting snow.
 
@@ -64,7 +64,7 @@ Source: `#worldbuilding / Gosterwick`, dripton, 2025-03-16 (messages `1351034478
 - Wicktrimmer founded the Rarities Factor here; its secure vault is located in town. Company charters require approval. ([[notes/Discord Summary 2025-W36.md|Discord Summary 2025-W36]], [[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]])
 - A murder occurred here; "murder is not tolerated" in this town. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])
 - [[npcs/Azgallatu.md|Azgallatu]] the cleric is back here. [[pcs/Uvash Edzuson.md|Uvash]] is the Theological Leader of Zorradrim here. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])
-- [[npcs/Ioannes Grammatikos Byzantios.md|Ioannes]] failed to find any written record of the teleportation rings here. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])
+- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] failed to find any written record of the teleportation rings here. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])
 - The Collegium is not yet established here. ([[notes/Discord Summary 2025-W13.md|Discord Summary 2025-W13]])
 
 ## Discord Insights

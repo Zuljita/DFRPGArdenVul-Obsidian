@@ -9,7 +9,7 @@ aliases:
 # Skalla
 
 ## Summary
-- TODO: Short description.
+- Skalla is a Wiskin arms dealer and a skeleton warrior.
 
 Skalla is a Wiskin arms dealer.
 
