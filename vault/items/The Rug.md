@@ -14,11 +14,9 @@ related_entities:
 # The Rug
 
 ## Summary
-A magical item, also known as the Rug of Instant Access, used by the party for teleportation and potentially for hauling heavy cargo or mercenaries.
-- Can be used while holding Onyx the cat; also a 'test rug' is mentioned for market travel.
+A magical item, also known as the Rug of Instant Access, used for teleportation between specific campaign locations. It can be activated using the command word 'viator'. The rug can be used while holding Onyx the cat; a 'test rug' is also mentioned for use during market travel.
 
-The party has used existing magic rugs to reach the Beacon and descend to the Well of Light.
-- Vaelitharon Sunshadow used the *History* skill on the stolen rug to reconstruct its recent movements.
+The party has utilized existing magic rugs to reach the Beacon and descend to the Well of Light, potentially bypassing the long climb up the Long Stair if Levitation is available. Vaelitharon Sunshadow used the *History* skill on the stolen rug to reconstruct its recent movements.
 
 ## Sources
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]

@@ -22,7 +22,7 @@ The discovery of the site took place in 829 AEP.
 
 ## History & Lore
 
-According to historical records, [[npcs/Arden.md|Arden]] completed eleven of the "Twelve Labors," which involved defeating a host of formidable foes like owlbears, trolls, undead, dragons, and [[factions/Wiskin.md|Wiskin]] berserkers. The twelfth labor is said to be "still to be done at the time of the Empire's Need."
+According to historical records, [[npcs/Arden.md|Arden]] completed eleven of the "Twelve Labors," which involved defeating a host of formidable foes like owlbears, trolls, undead, dragons, and [[factions/Wiskin.md|Wiskin]] berserkers. The twelfth labor is said to be "still to be done at the time of the Empire's Need." A collection of her alleged sayings, known as [[library/Arden Speaks.md|Arden Speaks]], was recorded in Mithric and emphasizes values such as hard work, loyalty, obedience, and respect for authority.
 
 At the peak of their power, both [[npcs/Arden.md|Arden]] and Vul mysteriously disappeared, and their bodies were never recovered. Some popular tales claim that [[npcs/Arden.md|Arden]] did not die but ascended to a state of demi-godhood, though official histories dispute this.
 
@@ -32,6 +32,12 @@ A [[factions/Cult of Arden.md|Cult of Arden]] was known to exist among the milit
 ### The Twelve Labours of [[npcs/Arden.md|Arden]]
 A book titled `[[items/The Twelve Labours of Arden.md|The Twelve Labours of Arden]]` is believed to be a guide for a puzzle that begins with a purification ritual at the fountain beneath the [[locations/Waterfall.md|waterfall]].
 
+## Discord Insights
+
+- Discovered the site of Arden Vul in 829 AEP. ([[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]])
+- One of the 20 Worthies of the Empire, lived around 2100 years ago; some claim she ascended to demi-godhood. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])
+- A topic for research. Uvash is the Theological Leader of Zorradrim here. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])
+
 ## Appears In
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]
@@ -40,10 +46,3 @@ A book titled `[[items/The Twelve Labours of Arden.md|The Twelve Labours of Arde
 - [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 
-## Discord Insights
-
-- Discovered the site of Arden Vul in 829 AEP. ([[notes/Discord Summary 2025-W16.md|Discord Summary 2025-W16]])
-- One of the 20 Worthies of the Empire, lived around 2100 years ago, with some claiming she ascended to demi-godhood. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])
-- allegedly said things in Mithric and was in favor of hard work, loyalty, obedience, and respect for authority. ([[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]])
-
-- A topic for research. Uvash is the Theological Leader of Zorradrim here. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])

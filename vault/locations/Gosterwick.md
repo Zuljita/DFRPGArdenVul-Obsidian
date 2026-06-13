@@ -9,7 +9,7 @@ aliases:
 ---
 # Gosterwick
 
-Originally a tiny Thorcin farming village, Gosterwick was expanded into a town about 20 years ago by the Archontean noblewoman [[npcs/Lady Alexia Basileon.md|Lady Alexia]]. The town has 9 taverns and 2 inns, is ruled by the Green Lady, and is the current game's starting location. It has a small dwarven population — a small used house costs around $2000, and one street has 6 dwarven buildings near each other.
+Originally a tiny Thorcin farming village, Gosterwick was expanded into a boom town about 20 years ago by the Archontean noblewoman [[npcs/Lady Alexia Basileon.md|Lady Alexia]], who established the Azure Keep. The town has 9 taverns and 2 inns, is ruled by the Green Lady, and serves as the current game's starting location. It has a small dwarven population—a small used house costs around $2000—and one street features six adjacent dwarven buildings.
 
 The hill in the NW is called the **Hill of the Gods**, home to all temples. Water level fluctuates due to melting snow.
 
@@ -28,6 +28,10 @@ The hill in the NW is called the **Hill of the Gods**, home to all temples. Wate
 - **Vacant Lot** — Located next to the Arcane Practitioners' Club, this lot contains excess stone dumped by Vael and Basil.
 - **Arcane Practitioners' Club Bulletin Board** — Features rules regarding explosive or flammable items.
 - **Rarities Factor** — [[npcs/Wicktrimmer.md|Wicktrimmer]]'s business; a collector of magical items with first refusal on anything out of Arden Vul.
+- [[locations/The Stunned Acolyte.md|The Stunned Acolyte]] — An expensive inn catering to wealthy patrons.
+- **Guard Houses** — Large wooden structures located in empty areas.
+- **Temple of Mitra** — A circular stone structure with a portico and a pediment depicting the god in mail. Inside, a statue of Mitra holds scales of justice where worshippers place offerings; apartments and bureaucratic offices ring the outer wall.
+- **Temple of Lucreon** — A three-chamber structure (ante-cella, cella, postern/offices) housing a massive granite statue holding a money bag. Coins placed in an offering chest appear to fall from the air into the statue's bag; clerics empty the bag nightly.
 
 ## Notable Establishments
 
@@ -35,12 +39,11 @@ The hill in the NW is called the **Hill of the Gods**, home to all temples. Wate
 - **Astableon's Bookstore** — Bookstore in town. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])
 - **Taverns**: Baliff's Truncheon, Dripping Hog, Rusty Gauntlet, Old Well, Pyrite, Grinning Skull, Muddy Puddle, Three Hanged Men, Pig and Whistle.
 - **Inns**: Yellow Cloak, Stunned Acolyte.
-- **Torunn the Smith** — A renowned Wiskin smith specializing in metal weapons and armor.
+- **Torunn the Smith** — A renowned Wiskin smith specializing in metal weapons and armor, regarded as the best smith in town. Offers Good, Fine, Balanced, and Dwarven quality; handles the finest work herself with several apprentices.
 - **Livestock and Horse Merchant** — Run by Sakeon; sells mules, bits, bridles, and saddlebags.
 
 ## Trades & Notable Residents
 
-- **Smith:** A Gosterwick woman is regarded as the best smith in town.
 - **Tailor:** [[Margot the Red]] (also: **Tasha** the tailor)
 - **Goblin merchant — Rarities Factor:** [[npcs/Wicktrimmer.md|Wicktrimmer]], proprietor of the Rarities Factor (probably the second richest person in town); intensely interested in Larel's items; has right of first refusal to buy magical items out of Arden Vul. ([[notes/Discord Summary 2025-W27.md|Discord Summary 2025-W27]])
 - **Gem / jewelry merchant:** **Chairduster**
@@ -61,7 +64,7 @@ Source: `#worldbuilding / Gosterwick`, dripton, 2025-03-16 (messages `1351034478
 - Wicktrimmer founded the Rarities Factor here; its secure vault is located in town. Company charters require approval. ([[notes/Discord Summary 2025-W36.md|Discord Summary 2025-W36]], [[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]])
 - A murder occurred here; "murder is not tolerated" in this town. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])
 - [[npcs/Azgallatu.md|Azgallatu]] the cleric is back here. [[pcs/Uvash Edzuson.md|Uvash]] is the Theological Leader of Zorradrim here. ([[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]])
-- [[npcs/Ioannes Grammatikos Byzantios.md|Ioannes]] failed to find any written record of the teleportation rings here. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])
+- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] failed to find any written record of the teleportation rings here. ([[notes/Discord Summary 2025-W48.md|Discord Summary 2025-W48]])
 - The Collegium is not yet established here. ([[notes/Discord Summary 2025-W13.md|Discord Summary 2025-W13]])
 
 ## Discord Insights

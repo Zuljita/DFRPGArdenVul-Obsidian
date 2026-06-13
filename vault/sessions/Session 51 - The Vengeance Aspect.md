@@ -23,7 +23,7 @@ Cool, rainy
 
 ## Player Characters:
 
-[[pcs/Ioannes.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] Grammatikos Byzantios, Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 [[pcs/Vallium Halcyon.md|Vallium]] Halcyon, Archontean fighter
 [[pcs/Uvash Edzuson.md|Uvash]] Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]]
 [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] [[pcs/Vaelethron 'Vael' Sunshadow.md|Sunshadow]], Half-Elven mage
@@ -77,9 +77,9 @@ The [[factions/Right for Riches Company.md|Right for Riches company]] gathered i
 
 Vael cast Shape Earth to open a hole from the cave leading to the Bastion into the wider [[locations/Great Chasm.md|Great Chasm]] floor.Â  He cast Bracteros Effect on a Continual Light rock to render its light invisible to those far away, and then the group hikedÂ  north.Â  They scrambled down from a plateau to a natural floor, into the western edge of a giant mushroom grove.
 
-There they were ambushed by two tenebrous worms.Â  The worms failed to achieve ambush, and [[pcs/Vallium Halcyon.md|Vallium]] and [[pcs/Uvash Edzuson.md|Uvash]] hacked the worms apart, while Vael and [[pcs/Ioannes.md|Ioannes]] stayed back.Â  The worms' poisonous spikes didn't manage to hurt anyone.Â  [[pcs/Uvash Edzuson.md|Uvash]] was curious as to the nature of the poison, but not enough to risk taking a sample.
+There they were ambushed by two tenebrous worms.Â  The worms failed to achieve ambush, and [[pcs/Vallium Halcyon.md|Vallium]] and [[pcs/Uvash Edzuson.md|Uvash]] hacked the worms apart, while Vael and [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] stayed back.Â  The worms' poisonous spikes didn't manage to hurt anyone.Â  [[pcs/Uvash Edzuson.md|Uvash]] was curious as to the nature of the poison, but not enough to risk taking a sample.
 
-The group continued north and saw a raised pediment, with a couple of ballistae sticking over the edge.Â  They warily climbed some stairs up to the pediment, and were charged by three Imperial stone guardians, like the ones that had been guarding the Beacon.Â  Once again, Vallium and Uvash fought the enemies, while Vael and [[pcs/Ioannes.md|Ioannes]] hung back.Â  There was a fourth stone guardian that was intact and appeared magical but was completely inert.Â  The group decided to leave it alone.
+The group continued north and saw a raised pediment, with a couple of ballistae sticking over the edge.Â  They warily climbed some stairs up to the pediment, and were charged by three Imperial stone guardians, like the ones that had been guarding the Beacon.Â  Once again, Vallium and Uvash fought the enemies, while Vael and [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] hung back.Â  There was a fourth stone guardian that was intact and appeared magical but was completely inert.Â  The group decided to leave it alone.
 
 Exploring the pediment, they found a few other sets of stairs down to the cavern floor, and an Archontean teleportation circle in the northwest corner.Â  They also found a crack in the western wall leading to a natural passage, as [[npcs/Temrin.md|Temrin]]'s map indicated.
 

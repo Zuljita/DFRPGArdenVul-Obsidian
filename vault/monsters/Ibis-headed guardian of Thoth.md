@@ -2,6 +2,7 @@
 title: Ibis-headed guardian of Thoth
 type: monster
 tags:
+- session/19
 - monster
 - classification/construct
 - body_plan/humanoid
@@ -10,6 +11,8 @@ tags:
 aliases:
   - Ibis-headed guardians of Thoth
   - Ibis Constructs
+related_entities:
+  - [[npcs/Thoth.md|Thoth]]
 ---
 # [[npcs/Ibis.md|Ibis]]-headed guardian of [[npcs/Thoth.md|Thoth]]
 

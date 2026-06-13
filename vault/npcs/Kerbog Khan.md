@@ -2,10 +2,8 @@
 title: Kerbog Khan
 tags:
   - npc
-  - race/construct
-  - culture/thorcin
+  - race/unknown
 aliases:
-  - Kerbog Khan, construct
   - the Khan
 appears_in:
   - "Session 42a - Neferet"
@@ -17,15 +15,17 @@ appears_in:
 # Kerbog Khan
 
 ## Summary
-Kerbog Khan is a small bipedal construct and self-described archmage, of unknown origin, operating deep within [[locations/Goblintown.md|Arden Vul]]. He claims knowledge of the Halls surpassing that of anyone else living, maintains a fortress near a Rudishva surgical bay, and commands an array of constructs including combat constructs, a Surgical Construct, and clockwork dragonfly scouts. He is also described as an evil sorcerer.
+Kerbog Khan is an archmage and evil sorcerer of unknown origin and unknown true form, operating deep within Arden Vul. A small bipedal construct in the Goblin Market claimed to be Kerbog Khan in Session 42a; later contacts occurred through clockwork dragonfly automata. It is not known whether the first construct was his body or another remote intermediary. He claims knowledge of the Halls surpassing that of anyone else living, maintains a fortress near a Rudishva surgical bay, and commands an array of constructs including combat constructs, a Surgical Construct, and clockwork dragonfly scouts.
 
 He kidnapped [[npcs/Gevorda.md|Gevorda]], the sister of [[npcs/Varboka.md|Varboka the Varumani Thegn]], and subjected her to unauthorized medical experiments. As of Session 55, the [[factions/Right for Riches Company.md|Right for Riches Company]] has accepted a formal kill contract from Varboka and is actively hunting the Khan. He is the party's primary quest target.
 
 He is additionally wanted by the [[factions/College of Cinders.md|College of Cinders]] (the Collegium).
 
 ## Appearance
-- Small bipedal construct (not humanoid-sized).
-- Exact physical appearance not further described in person; typically interacts remotely through dragonfly constructs.
+- True physical form unknown.
+- Session 42a: A small bipedal construct in the Goblin Market claimed to be Kerbog Khan; the source does not establish whether it was his body or a proxy.
+- Session 52a onward: Uses clockwork dragonfly automata as remote communication and scouting relays.
+- Has a "human-ish voice" as heard through the dragonfly constructs.
 
 ## Known Behavior
 - **"All Deals Must Be Sealed in Blood"** — requires a literal blood pact from anyone he does business with.
@@ -56,7 +56,7 @@ The party fought and defeated both Invisible Stalkers and the Surgical Construct
 [[pcs/Vallium Halcyon.md|Vallium]] salvaged the wrecked Surgical Construct and brought it to the [[locations/Beacon.md|Beacon]].
 
 ### Session 55 — Kill Contract, Dragonfly in the Cloister
-In the slime-pit chamber south of the Cloister, [[pcs/Ioannes.md|Ioannes]] spotted one of the Khan's dragonfly constructs watching and waiting. When Vael spoke to it, the Khan's voice emerged. The Khan expressed pleasure that the party had led his dragonflies to that secret area. Vael told the Khan not to follow them; the dragonfly did not visibly pursue, but the encounter confirmed the Khan is actively mapping the party's routes.
+In the slime-pit chamber south of the Cloister, [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] spotted one of the Khan's dragonfly constructs watching and waiting. When Vael spoke to it, the Khan's voice emerged. The Khan expressed pleasure that the party had led his dragonflies to that secret area. Vael told the Khan not to follow them; the dragonfly did not visibly pursue, but the encounter confirmed the Khan is actively mapping the party's routes.
 
 Later that session, the party met with [[npcs/Varboka.md|Varboka the Thegn]], who formally commissioned them to kill Kerbog Khan. See [[#Kill Contract]] below.
 
@@ -93,7 +93,7 @@ The party intends to cast Seeker on [[npcs/Asrotelion.md|Asrotelion]] — a mage
 
 ## Notes
 - Khan has confirmed knowledge of at least one secret door near the Temple of Set caverns (the party inadvertently revealed it in Session 52a).
-- Described as both a construct and an evil sorcerer — the exact nature of this dual identity is unresolved.
+- An archmage and evil sorcerer whose true physical nature has not been established. The Session 42a construct may have been his body or a proxy; later dragonflies were clearly remote communication relays.
 - Reports suggest he kidnaps Varumani (and possibly others) for unauthorized medical experiments; Gevorda's case confirms this.
 - His constructs are welcome in the Varumani Market, suggesting he has cultivated a public-facing relationship with the Varumani even while victimizing them.
 - Varboka suspects the Khan holds a large stash of Rudishva power supplies.

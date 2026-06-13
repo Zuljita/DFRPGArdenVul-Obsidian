@@ -26,8 +26,8 @@ As an information broker, Coinbase has access to the undercurrents of Gosterwick
 
 - [[pcs/grudge-brigade/Coinbase.md|Coinbase]] (leader)
 - [[pcs/grudge-brigade/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya "Basilisk" Hushbreaker]]
-- [[pcs/grudge-brigade/Thronebreaker.md|Thronebreaker]]
-- [[pcs/grudge-brigade/Chrysalis.md|Chrysalis (Thorne Lasselanta Ashcroft)]]
+- [[npcs/Thrainor Thronebreaker Ironvein.md|Thronebreaker]]
+- [[npcs/Lasselanta Chrysalis Ashcroft.md|Chrysalis (Thorne Lasselanta Ashcroft)]]
 - [[pcs/grudge-brigade/Lacrymosa.md|Lacrymosa]]
 
 ## History

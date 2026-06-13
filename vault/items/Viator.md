@@ -1,5 +1,6 @@
 ---
 tags:
+  - type/rug
   - item
   - identity/uncertain
 status: stub

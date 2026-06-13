@@ -1,11 +1,15 @@
 ---
 type: monster
 tags:
+- site/arden-vul
+- session/3
 - monster
 - classification/construct
 aliases:
   - monsters/Flying Monkey Statue (Huge Ears)
   - monsters/Flying Monkey Statue (Huge Eyes)
+related_entities:
+  - [[locations/Stone Pedestal with Monkey Statue.md|Stone Pedestal with Monkey Statue]]
 ---
 
 # Flying Monkey Statues

@@ -1,6 +1,8 @@
 ---
 title: "Yellow Rudishva Identity Plaque"
 tags:
+  - type/credential
+  - site/beacon
   - item
   - rudishva
   - redirect
@@ -10,6 +12,8 @@ aliases:
   - - Yellow Card
   - - yellow card
   - Yellow Identity Plaque
+identity_hints:
+  - high-priority captain's credential
 ---
 # Yellow Rudishva Identity Plaque
 

@@ -1,5 +1,7 @@
 ---
 tags:
+  - site/rudishva
+  - faction/varumani
   - item
   - identity/uncertain
 status: stub
@@ -7,6 +9,8 @@ aliases:
   - passport
   - varumani passport
   - Varumani passport
+related_entities:
+  - [[factions/Varumani.md|Varumani]]
 ---
 
 # Varumani Passport

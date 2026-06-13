@@ -1,5 +1,8 @@
 ---
 tags:
+  - session/48
+  - session/28
+  - session/2025-w48
   - item
   - magic
   - thoth

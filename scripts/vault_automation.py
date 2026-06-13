@@ -11,6 +11,7 @@ the deterministic applicator mutates vault Markdown.
 from __future__ import annotations
 
 import argparse
+import collections
 import csv
 import difflib
 import hashlib
@@ -66,6 +67,15 @@ MEDIA_DIRS = {
     "items": "Media Item",
     "locations": "Repository",
 }
+
+# Directories whose prose pages are eligible for the article-improvement walk.
+# Extends ENTITY_DIRS with lore/, which otherwise only flows through the media
+# pipeline and so never receives prose enrichment from session/Discord sources.
+ARTICLE_QUEUE_DIRS = {**ENTITY_DIRS, "lore": "Lore"}
+
+# How many of the most recent Discord summaries count as "recent" when checking
+# whether a page has unincorporated source material it should be enriched from.
+ARTICLE_SOURCE_RECENCY_WINDOW = 8
 
 MEDIA_TITLE_PATTERNS = re.compile(
     r"\b(book|books|journal|scroll|codex|treatise|manuscript|litany|map|cartographic|crystal|library|bookstore|archive|catalog)\b",
@@ -1902,6 +1912,7 @@ def article_queue_queries(title: str, kind: str, aliases: list[str], tags: tuple
 
 _LATEST_VAULT_SESSION: int | None = None
 _LATEST_SESSION_TEXT: str | None = None
+_RECENT_DISCORD_SUMMARIES: list[tuple[str, str]] | None = None
 
 def _latest_vault_session_number() -> int:
     """Return the highest session number present in vault/sessions/, cached per process."""
@@ -1918,7 +1929,7 @@ def _latest_vault_session_number() -> int:
 
 
 def _latest_session_text() -> str:
-    """Return the lowercased text of the highest-numbered session file, cached per process."""
+    """Return the text of the highest-numbered session file, cached per process."""
     global _LATEST_SESSION_TEXT
     if _LATEST_SESSION_TEXT is not None:
         return _LATEST_SESSION_TEXT
@@ -1926,7 +1937,7 @@ def _latest_session_text() -> str:
     for p in (VAULT / "sessions").glob("*.md"):
         m = re.search(r"Session\s+(\d+)", p.stem)
         if m and int(m.group(1)) == target:
-            _LATEST_SESSION_TEXT = p.read_text(errors="replace").lower()
+            _LATEST_SESSION_TEXT = p.read_text(errors="replace")
             return _LATEST_SESSION_TEXT
     _LATEST_SESSION_TEXT = ""
     return _LATEST_SESSION_TEXT
@@ -1938,6 +1949,47 @@ def _article_latest_session_number(text: str) -> int:
     for m in re.finditer(r"[Ss]ession[s]?\s+(\d+)", text):
         best = max(best, int(m.group(1)))
     return best
+
+
+def _recent_discord_summaries() -> list[tuple[str, str]]:
+    """The most recent Discord Summary notes as (note_stem, lowercased_text) pairs,
+    capped at ARTICLE_SOURCE_RECENCY_WINDOW and cached per process. Summary stems
+    sort chronologically (zero-padded YYYY-WNN), so the tail is the newest window."""
+    global _RECENT_DISCORD_SUMMARIES
+    if _RECENT_DISCORD_SUMMARIES is not None:
+        return _RECENT_DISCORD_SUMMARIES
+    recent = sorted(all_discord_summary_paths(), key=lambda p: p.stem)[-ARTICLE_SOURCE_RECENCY_WINDOW:]
+    _RECENT_DISCORD_SUMMARIES = [(p.stem, read_text(p).lower()) for p in recent]
+    return _RECENT_DISCORD_SUMMARIES
+
+
+def _newest_discord_summary_stem() -> str | None:
+    """Stem of the single most recent Discord summary, or None if there are none.
+    Summaries are cached newest-last, so the tail is the freshest import."""
+    summaries = _recent_discord_summaries()
+    return summaries[-1][0] if summaries else None
+
+
+def _uncited_recent_source_mentions(title: str, aliases: list[str], body: str) -> list[str]:
+    """Recent Discord summaries that name this entity (by title or alias, whole-word)
+    but are not yet cited in the article body. These represent source material the
+    page should be enriched from. Names shorter than 4 characters are skipped to
+    avoid incidental matches (e.g. "Set", "Vul")."""
+    patterns = [
+        re.compile(r"\b" + re.escape(name.strip().lower()) + r"\b")
+        for name in (title, *aliases)
+        if len(name.strip()) >= 4
+    ]
+    if not patterns:
+        return []
+    body_lower = body.lower()
+    uncited: list[str] = []
+    for stem, summary_text in _recent_discord_summaries():
+        if stem.lower() in body_lower:
+            continue  # the page already cites this summary
+        if any(pattern.search(summary_text) for pattern in patterns):
+            uncited.append(stem)
+    return uncited
 
 
 def score_article(path: Path, text: str) -> tuple[int, tuple[str, ...]]:
@@ -1988,13 +2040,41 @@ def score_article(path: Path, text: str) -> tuple[int, tuple[str, ...]]:
         if gap > 0:
             score += gap * 4
             reasons.append(f"stale: references up to Session {article_session}, vault at {vault_session} (+{gap * 4})")
-    # Fresh-drop signal: if this article's subject is named in the latest session
-    # file, immediately push it to the top of the queue regardless of its other scores.
-    subject = path.stem.lower()
-    if subject and subject in _latest_session_text():
+    # Fresh-drop signal: only explicit wikilinks count. Plain substring matching made
+    # short subjects such as "Set" look current whenever the word appeared incidentally.
+    article_rel = path.relative_to(VAULT).as_posix()
+    article_targets = {
+        article_rel.lower(),
+        article_rel.removesuffix(".md").lower(),
+        path.stem.lower(),
+    }
+    latest_targets = {
+        target.split("#", 1)[0].strip().removesuffix(".md").lower()
+        for target in re.findall(r"\[\[([^\]|]+)", _latest_session_text())
+    }
+    normalized_article_targets = {target.removesuffix(".md") for target in article_targets}
+    if normalized_article_targets & latest_targets:
         latest = _latest_vault_session_number()
         score += 500
-        reasons.append(f"named in latest session (Session {latest}) — immediate priority")
+        reasons.append(f"linked in latest session (Session {latest}) — immediate priority")
+    # Source-aware signal: a page named in recent Discord summaries it does not yet
+    # cite has unincorporated canonical material waiting to be folded in. A mention in
+    # the *newest* summary (just imported) is immediate priority — the same tier as a
+    # latest-session drop — so a word that shows up in a fresh source jumps to the top.
+    # Mentions across the rest of the recent window add a smaller breadth bonus that
+    # orders pages within the tier and lifts well-formed pages the structural signals
+    # would otherwise miss.
+    uncited_sources = _uncited_recent_source_mentions(article_title(path, text), article_aliases(text), body)
+    if uncited_sources:
+        newest = _newest_discord_summary_stem()
+        if newest in uncited_sources:
+            score += 500
+            reasons.append(f"named in newest source ({newest}) — immediate priority")
+        others = [stem for stem in uncited_sources if stem != newest]
+        if others:
+            bonus = min(len(others) * 25, 100)
+            score += bonus
+            reasons.append(f"unincorporated recent sources (+{bonus}): {', '.join(others[:3])}")
     return score, tuple(reasons)
 
 
@@ -2023,7 +2103,7 @@ def build_article_queue_item(path: Path) -> ArticleQueueItem | None:
 
 def build_article_queue(limit: int = 30) -> list[ArticleQueueItem]:
     items: list[ArticleQueueItem] = []
-    for folder in ENTITY_DIRS:
+    for folder in ARTICLE_QUEUE_DIRS:
         root = VAULT / folder
         if not root.exists():
             continue
@@ -3041,11 +3121,10 @@ def vault_rag_upsert_file(conn: "psycopg.Connection", path: Path, kind: str) -> 
     if row and row[0] == sha and row[1] == str(VAULT_RAG_SCHEMA_VERSION):
         return {"path": rel, "action": "unchanged", "chunk_count": int(row[2])}
 
-    with conn.cursor() as cur:
-        cur.execute("DELETE FROM rag_chunks WHERE database='arden' AND metadata->>'path'=%s", (rel,))
-
     chunks = chunk_markdown_for_rag(text)
     if not chunks:
+        with conn.cursor() as cur:
+            cur.execute("DELETE FROM rag_chunks WHERE database='arden' AND metadata->>'path'=%s", (rel,))
         conn.commit()
         return {"path": rel, "action": "empty", "chunk_count": 0}
 
@@ -3094,11 +3173,18 @@ def vault_rag_upsert_file(conn: "psycopg.Connection", path: Path, kind: str) -> 
             chunk_meta["identity_hints"] = fm_identity_hints
         rows.append((chunk_id, chunk_text, json.dumps(chunk_meta), _vector_literal(emb)))
 
-    if not rows:
-        conn.commit()
-        return {"path": rel, "action": "error", "chunk_count": 0, "error": "all chunks failed to embed", "skipped": skipped}
+    if skipped:
+        conn.rollback()
+        return {
+            "path": rel,
+            "action": "error",
+            "chunk_count": 0,
+            "error": "one or more chunks failed to embed; existing indexed document was retained",
+            "skipped": skipped,
+        }
 
     with conn.cursor() as cur:
+        cur.execute("DELETE FROM rag_chunks WHERE database='arden' AND metadata->>'path'=%s", (rel,))
         cur.executemany(
             "INSERT INTO rag_chunks (database, chunk_id, document, metadata, embedding) "
             "VALUES ('arden', %s, %s, %s::jsonb, %s::vector)",
@@ -3126,6 +3212,7 @@ def vault_rag_ingest_all(reset: bool = False, limit: int | None = None) -> dict:
             try:
                 results.append(vault_rag_upsert_file(conn, p, kind))
             except Exception as exc:
+                conn.rollback()
                 try:
                     rel = p.relative_to(ROOT).as_posix()
                 except ValueError:
@@ -4883,21 +4970,83 @@ _POLISH_PRESERVED_HEADINGS = (
 )
 
 
-def _split_article_sections(text: str) -> dict[str, str]:
-    """Return {heading: content} for every H2 section in the article.
-    The special key '' holds everything before the first H2 (frontmatter + H1)."""
-    result: dict[str, str] = {}
+def _split_article_sections(text: str) -> list[tuple[str, str]]:
+    """Return ordered ``(heading, content)`` pairs for every H2 section.
+
+    The empty heading holds everything before the first H2. A list is deliberate:
+    malformed or repeated headings must not silently overwrite earlier sections.
+    """
+    result: list[tuple[str, str]] = []
     current_heading = ""
     current_lines: list[str] = []
     for line in text.splitlines(keepends=True):
         if line.startswith("## "):
-            result[current_heading] = "".join(current_lines)
+            result.append((current_heading, "".join(current_lines)))
             current_heading = line.rstrip("\n")
             current_lines = [line]
         else:
             current_lines.append(line)
-    result[current_heading] = "".join(current_lines)
+    result.append((current_heading, "".join(current_lines)))
     return result
+
+
+def _frontmatter_block(text: str) -> str:
+    match = re.match(r"\A---\n.*?\n---(?:\n|\Z)", text, re.DOTALL)
+    return match.group(0) if match else ""
+
+
+def _h1_heading(text: str) -> str:
+    match = re.search(r"(?m)^# (.+)$", text)
+    return match.group(1).strip() if match else ""
+
+
+def _wikilink_targets(text: str) -> list[str]:
+    return [target.strip() for target in re.findall(r"\[\[([^\]|]+)", text)]
+
+
+def _assemble_polished_article(original: str, rewritten_prose: str) -> tuple[str | None, str | None]:
+    """Validate LLM output and reinsert preserved sections at their original positions."""
+    if _frontmatter_block(rewritten_prose) != _frontmatter_block(original):
+        return None, "frontmatter changed or was omitted"
+    if _h1_heading(rewritten_prose) != _h1_heading(original):
+        return None, "H1 heading changed or was omitted"
+    if yaml is not None:
+        try:
+            parsed = yaml.safe_load(_frontmatter_block(rewritten_prose)[4:-4])
+        except Exception as exc:
+            return None, f"invalid YAML frontmatter: {exc}"
+        if parsed is not None and not isinstance(parsed, dict):
+            return None, "frontmatter must parse as a mapping"
+
+    original_sections = _split_article_sections(original)
+    rewritten_sections = _split_article_sections(rewritten_prose)
+    original_prose_headings = [
+        heading for heading, _ in original_sections
+        if not any(heading.startswith(prefix) for prefix in _POLISH_PRESERVED_HEADINGS)
+    ]
+    rewritten_headings = [heading for heading, _ in rewritten_sections]
+    if rewritten_headings != original_prose_headings:
+        return None, "H2 headings were added, removed, duplicated, or reordered"
+
+    rewritten_iter = iter(rewritten_sections)
+    assembled: list[str] = []
+    for heading, content in original_sections:
+        if any(heading.startswith(prefix) for prefix in _POLISH_PRESERVED_HEADINGS):
+            assembled.append(content)
+        else:
+            rewritten_heading, rewritten_content = next(rewritten_iter)
+            if rewritten_heading != heading:
+                return None, "internal section-order mismatch"
+            assembled.append(rewritten_content)
+    result = "".join(assembled)
+
+    original_links = collections.Counter(_wikilink_targets(original))
+    result_links = collections.Counter(_wikilink_targets(result))
+    missing_links = original_links - result_links
+    if missing_links:
+        preview = ", ".join(sorted(missing_links)[:5])
+        return None, f"wikilinks removed or changed: {preview}"
+    return result, None
 
 
 def article_polish_prompt(
@@ -7962,14 +8111,10 @@ def cmd_polish_article(args) -> int:
 
     # Split into sections; extract preserved ones so the LLM never sees them.
     sections = _split_article_sections(article_text)
-    preserved: dict[str, str] = {}
-    prose_sections: dict[str, str] = {}
-    for heading, content in sections.items():
-        if any(heading.startswith(h) for h in _POLISH_PRESERVED_HEADINGS):
-            preserved[heading] = content
-        else:
-            prose_sections[heading] = content
-    prose_text = "".join(prose_sections.values())
+    prose_text = "".join(
+        content for heading, content in sections
+        if not any(heading.startswith(h) for h in _POLISH_PRESERVED_HEADINGS)
+    )
 
     top_k = getattr(args, "top_k", 8)
     print(f"Gathering research for {article_rel} ...", file=sys.stderr)
@@ -7999,18 +8144,10 @@ def cmd_polish_article(args) -> int:
     except Exception as exc:
         print(f"  typo-fix pass failed ({exc}), continuing without it", file=sys.stderr)
 
-    # Splice preserved sections back in at the end (or at their original positions
-    # if the LLM happened to include placeholder headings).
-    rewritten_sections = _split_article_sections(rewritten_prose)
-    # Remove any stub versions the LLM may have emitted for preserved headings
-    for h in list(rewritten_sections.keys()):
-        if any(h.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS):
-            del rewritten_sections[h]
-    # Reassemble: prose sections in LLM order, then preserved sections in original order
-    rewritten = "".join(rewritten_sections.values())
-    for heading in sections:  # original order
-        if heading in preserved:
-            rewritten = rewritten.rstrip("\n") + "\n" + preserved[heading]
+    rewritten, validation_error = _assemble_polished_article(article_text, rewritten_prose)
+    if validation_error or rewritten is None:
+        print(json.dumps({"ok": False, "error": f"Rejected polish output: {validation_error}"}), file=sys.stderr)
+        return 1
 
     # Show diff
     original_lines = article_text.splitlines(keepends=True)
@@ -8109,17 +8246,17 @@ def cmd_polish_queue(args) -> int:
         return 0
 
     results = []
+    pending_writes: list[tuple[Path, str]] = []
     for item in queue:
         path = ROOT / item.path
         if not path.exists():
             continue
         article_text = read_text(path)
         sections = _split_article_sections(article_text)
-        preserved = {h: c for h, c in sections.items()
-                     if any(h.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS)}
-        prose_sections = {h: c for h, c in sections.items()
-                          if not any(h.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS)}
-        prose_text = "".join(prose_sections.values())
+        prose_text = "".join(
+            content for heading, content in sections
+            if not any(heading.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS)
+        )
 
         print(f"[{item.score}] {item.path}", file=sys.stderr)
         chunks = gather_article_research_chunks(item, top_k_per_query=top_k, max_chunks=20)
@@ -8145,14 +8282,11 @@ def cmd_polish_queue(args) -> int:
         except Exception as exc:
             print(f"  typo-fix skipped: {exc}", file=sys.stderr)
 
-        rewritten_sections = _split_article_sections(rewritten_prose)
-        for h in list(rewritten_sections.keys()):
-            if any(h.startswith(ph) for ph in _POLISH_PRESERVED_HEADINGS):
-                del rewritten_sections[h]
-        rewritten = "".join(rewritten_sections.values())
-        for heading in sections:
-            if heading in preserved:
-                rewritten = rewritten.rstrip("\n") + "\n" + preserved[heading]
+        rewritten, validation_error = _assemble_polished_article(article_text, rewritten_prose)
+        if validation_error or rewritten is None:
+            print(f"  rejected: {validation_error}", file=sys.stderr)
+            results.append({"path": item.path, "ok": False, "error": validation_error})
+            continue
 
         diff = list(difflib.unified_diff(
             article_text.splitlines(keepends=True),
@@ -8187,8 +8321,8 @@ def cmd_polish_queue(args) -> int:
             continue
 
         if apply_:
-            path.write_text(rewritten, encoding="utf-8")
-            print(f"  approved and written", file=sys.stderr)
+            pending_writes.append((path, rewritten))
+            print(f"  validated", file=sys.stderr)
         else:
             sys.stdout.writelines(diff)
 
@@ -8199,6 +8333,15 @@ def cmd_polish_queue(args) -> int:
             "diff_lines": len(diff),
             "verification": verification,
         })
+
+    failures = [r for r in results if not r.get("ok")]
+    if apply_ and failures:
+        print("  queue contains rejected pages; no files written", file=sys.stderr)
+    elif apply_:
+        for path, rewritten in pending_writes:
+            path.write_text(rewritten, encoding="utf-8")
+        if pending_writes:
+            print(f"  wrote {len(pending_writes)} validated page(s)", file=sys.stderr)
 
     changed = [r["path"] for r in results if r.get("changed")]
     update_polish_rotation(results)
