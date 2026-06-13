@@ -146,5 +146,6 @@ The PCs plan to possibly use a Seeker spell on [[npcs/Asrotelion.md|Asrotelion]]
 - Previous Session: [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]]
 - Next Session: (none)
 - Previous Discord Summary: [[notes/Discord Summary 2026-W22.md|Discord Summary 2026-W22]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W23.md|Discord Summary 2026-W23]]
 - Original Source: https://dfwhiterock.blogspot.com/2026/06/dfrpg-arden-vul-session-55-varboka.html
 <!-- END AUTO NAV -->
