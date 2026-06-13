@@ -68,6 +68,15 @@ MEDIA_DIRS = {
     "locations": "Repository",
 }
 
+# Directories whose prose pages are eligible for the article-improvement walk.
+# Extends ENTITY_DIRS with lore/, which otherwise only flows through the media
+# pipeline and so never receives prose enrichment from session/Discord sources.
+ARTICLE_QUEUE_DIRS = {**ENTITY_DIRS, "lore": "Lore"}
+
+# How many of the most recent Discord summaries count as "recent" when checking
+# whether a page has unincorporated source material it should be enriched from.
+ARTICLE_SOURCE_RECENCY_WINDOW = 8
+
 MEDIA_TITLE_PATTERNS = re.compile(
     r"\b(book|books|journal|scroll|codex|treatise|manuscript|litany|map|cartographic|crystal|library|bookstore|archive|catalog)\b",
     flags=re.IGNORECASE,
@@ -1903,6 +1912,7 @@ def article_queue_queries(title: str, kind: str, aliases: list[str], tags: tuple
 
 _LATEST_VAULT_SESSION: int | None = None
 _LATEST_SESSION_TEXT: str | None = None
+_RECENT_DISCORD_SUMMARIES: list[tuple[str, str]] | None = None
 
 def _latest_vault_session_number() -> int:
     """Return the highest session number present in vault/sessions/, cached per process."""
@@ -1939,6 +1949,47 @@ def _article_latest_session_number(text: str) -> int:
     for m in re.finditer(r"[Ss]ession[s]?\s+(\d+)", text):
         best = max(best, int(m.group(1)))
     return best
+
+
+def _recent_discord_summaries() -> list[tuple[str, str]]:
+    """The most recent Discord Summary notes as (note_stem, lowercased_text) pairs,
+    capped at ARTICLE_SOURCE_RECENCY_WINDOW and cached per process. Summary stems
+    sort chronologically (zero-padded YYYY-WNN), so the tail is the newest window."""
+    global _RECENT_DISCORD_SUMMARIES
+    if _RECENT_DISCORD_SUMMARIES is not None:
+        return _RECENT_DISCORD_SUMMARIES
+    recent = sorted(all_discord_summary_paths(), key=lambda p: p.stem)[-ARTICLE_SOURCE_RECENCY_WINDOW:]
+    _RECENT_DISCORD_SUMMARIES = [(p.stem, read_text(p).lower()) for p in recent]
+    return _RECENT_DISCORD_SUMMARIES
+
+
+def _newest_discord_summary_stem() -> str | None:
+    """Stem of the single most recent Discord summary, or None if there are none.
+    Summaries are cached newest-last, so the tail is the freshest import."""
+    summaries = _recent_discord_summaries()
+    return summaries[-1][0] if summaries else None
+
+
+def _uncited_recent_source_mentions(title: str, aliases: list[str], body: str) -> list[str]:
+    """Recent Discord summaries that name this entity (by title or alias, whole-word)
+    but are not yet cited in the article body. These represent source material the
+    page should be enriched from. Names shorter than 4 characters are skipped to
+    avoid incidental matches (e.g. "Set", "Vul")."""
+    patterns = [
+        re.compile(r"\b" + re.escape(name.strip().lower()) + r"\b")
+        for name in (title, *aliases)
+        if len(name.strip()) >= 4
+    ]
+    if not patterns:
+        return []
+    body_lower = body.lower()
+    uncited: list[str] = []
+    for stem, summary_text in _recent_discord_summaries():
+        if stem.lower() in body_lower:
+            continue  # the page already cites this summary
+        if any(pattern.search(summary_text) for pattern in patterns):
+            uncited.append(stem)
+    return uncited
 
 
 def score_article(path: Path, text: str) -> tuple[int, tuple[str, ...]]:
@@ -2006,6 +2057,24 @@ def score_article(path: Path, text: str) -> tuple[int, tuple[str, ...]]:
         latest = _latest_vault_session_number()
         score += 500
         reasons.append(f"linked in latest session (Session {latest}) — immediate priority")
+    # Source-aware signal: a page named in recent Discord summaries it does not yet
+    # cite has unincorporated canonical material waiting to be folded in. A mention in
+    # the *newest* summary (just imported) is immediate priority — the same tier as a
+    # latest-session drop — so a word that shows up in a fresh source jumps to the top.
+    # Mentions across the rest of the recent window add a smaller breadth bonus that
+    # orders pages within the tier and lifts well-formed pages the structural signals
+    # would otherwise miss.
+    uncited_sources = _uncited_recent_source_mentions(article_title(path, text), article_aliases(text), body)
+    if uncited_sources:
+        newest = _newest_discord_summary_stem()
+        if newest in uncited_sources:
+            score += 500
+            reasons.append(f"named in newest source ({newest}) — immediate priority")
+        others = [stem for stem in uncited_sources if stem != newest]
+        if others:
+            bonus = min(len(others) * 25, 100)
+            score += bonus
+            reasons.append(f"unincorporated recent sources (+{bonus}): {', '.join(others[:3])}")
     return score, tuple(reasons)
 
 
@@ -2034,7 +2103,7 @@ def build_article_queue_item(path: Path) -> ArticleQueueItem | None:
 
 def build_article_queue(limit: int = 30) -> list[ArticleQueueItem]:
     items: list[ArticleQueueItem] = []
-    for folder in ENTITY_DIRS:
+    for folder in ARTICLE_QUEUE_DIRS:
         root = VAULT / folder
         if not root.exists():
             continue
