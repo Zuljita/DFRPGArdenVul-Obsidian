@@ -23,7 +23,7 @@ appears_in:
 # Roskelly Winterleaf
 
 ## Summary
-[[Roskelly Winterleaf]] is a [[Halfling]] lieutenant and toll collector operating under [[Phlebotomas Plumthorn]] in the pyramid approaches. He manages checkpoints, demands an "Adventuring License" fee and a tithe from delvers, and keeps [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]’s interest protected with a mix of charm and muscle.
+[[Roskelly Winterleaf]] is a Halfling lieutenant and toll collector operating under [[Phlebotomas Plumthorn]] in the pyramid approaches. He manages checkpoints, demands an "Adventuring License" fee and a tithe from delvers, and keeps [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]’s interest protected with a mix of charm and muscle.
 
 He was killed by [[npcs/Merenuithiel Lacrymosa Armaris|Lacrymosa]] during an engagement in the [[locations/Glory of Thoth.md|Glory of Thoth]].
 
@@ -48,7 +48,7 @@ He died while attempting to flee during the party's final assault.
 ## History
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 5: Parleys and [[locations/Great Cavern.md|The Great Cavern]] Date: Demmasday, 11th of Lucrios, 2993 AEP Weather: Cool, overcast, rainy Player Char...
 - [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Session 8b and 9 - Muirasso's Tomb and the Broken Head]] — Dundee, Thorcin barbarian Vaelethron 'Vael' Sunshadow, Half-Elven mage Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo) Merenuithiel "[[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]]" [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]], Elven mercenary archer (Archon Shiva) Significant NPCs: [[npcs/Muirasso.md|Muirasso]], wight, fo...
-- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Shrines.md|Hall of Shrines]]]] — Dundee, Thorcin barbarian Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] Significant NPCs: Many [[npcs/Set.md|Set]] guards Several [[npcs/Set.md|Set]] acolytes Several [[npcs/Set.md|Set]] sergeants [[factions/Cult of Set.md|Some Set Guild of Service fighters]]
+- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines]] — Dundee, Thorcin barbarian Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] Significant NPCs: Many [[npcs/Set.md|Set]] guards Several [[npcs/Set.md|Set]] acolytes Several [[npcs/Set.md|Set]] sergeants [[factions/Cult of Set.md|Some Set Guild of Service fighters]]
   - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]] — Roskelly led his followers from the [[locations/Glory of Thoth.md|Glory of Thoth]] through the portcullis.
 
 ## Notes

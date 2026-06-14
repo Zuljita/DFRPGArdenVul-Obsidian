@@ -8,7 +8,7 @@ tags:
 
 ## Ioannes' Research Project
 
-[[Ioannes]] brewed a [[Flight Potion|Flight potion]] and researched a dragon.
+[[Ioannes]] brewed a Flight potion and researched a dragon.
 
 ### Research Findings:
 

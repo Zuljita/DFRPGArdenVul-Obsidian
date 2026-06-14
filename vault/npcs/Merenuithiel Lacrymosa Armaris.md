@@ -11,6 +11,7 @@ aliases:
   - Lacrymosa
   - Merenuithiel Lacrymosa Armaris, elven mercenary archer
   - Merenuithiel
+  - Lacrymosa Merenuithiel Armaris
 appears_in:
   - "Session 38 - Another Attack on the Temple of Set"
   - "Session 39 - Diving for the Yellow Card"
@@ -30,7 +31,7 @@ She was also recruited by the company to revisit the Great Cavern during Session
 - Recruited alongside GOAT (a druid) to revisit the Great Cavern in [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15]].
 
 ## Abilities
-- Highly skilled archer with rapid rate of fire; under [[spells/Great Haste.md|Great Haste]] (cast by Vael) she was essentially a one-woman firing line.
+- Highly skilled archer with rapid rate of fire; under Great Haste (cast by Vael) she was essentially a one-woman firing line.
 - Carries alchemical grenades: Concussion, Flash, and Smoke nagetempos.
 - Drinks Agility and Strength potions before major engagements.
 - Has **Luck** (used it to survive Dobby's invisible backstab attempt in Session 43b).

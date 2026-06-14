@@ -16,7 +16,7 @@ Language of magic used for spellbooks and scrolls in [[locations/Arden Vul.md|Ar
 
 ## Mithric Texts
 - [[items/Dickios and Janius Learn Mithric.md|Dickios and Janius Learn Mithric]]
-- [[items/Book of Priors.md|Book of Priors]]
+- [[lore/The Book of Priors.md|Book of Priors]]
 - [[lore/The Book of Priors.md|The Book of Priors]]
 
 ## Discord Insights

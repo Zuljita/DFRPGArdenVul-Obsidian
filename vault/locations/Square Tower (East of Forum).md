@@ -13,7 +13,7 @@ related_entities:
 A mostly intact, large square tower (40' square and 45' tall) located on the east side of the [[Arden Vul]].
 
 ## Connections
-- Located on the east side of the [[Forum]].
+- Located on the east side of the Forum.
 - Contains a statue of an 8' tall ibis head.
 - Features wooden stairways leading down, which are suspiciously dark and potentially dangerous.
 

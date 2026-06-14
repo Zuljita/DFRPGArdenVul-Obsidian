@@ -9,6 +9,8 @@ tags:
 aliases:
   - Thronebreaker
   - Thrainor Ironvein
+  - Thrainor "Thronebreaker" Ironvein
+  - Thrainor “Thronebreaker” Ironvein
 appears_in:
   - "Session 42a - Neferet"
   - "Session 42b - Neferet and the Wraiths"

@@ -24,5 +24,5 @@ A major transit and control area in the upper Arden Vul complex near the Great C
 ## Discord Insights
 
 - An iconic location associated with a group achievement; light is very important to Thoth. ([[notes/Discord Summary 2025-W11.md|Discord Summary 2025-W11]])
-- Features include a bronze floating head, a statue east of the bridge, and the Fountain of Donkey Ears. ([[ooc-planning-unfinished-business.md|ooc-planning-unfinished-business]])
+- Features include a bronze floating head, a statue east of the bridge, and the Fountain of Donkey Ears. (ooc-planning-unfinished-business)
 - A room to the west contains three sarcophagi (two open, one magical/closed) and a giant centipede.
