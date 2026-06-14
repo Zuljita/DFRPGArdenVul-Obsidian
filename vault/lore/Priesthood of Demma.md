@@ -60,7 +60,7 @@ A holy-symbol image was shared to the thread on 2025-03-22 (Demented Avenger, me
 ## Notable Clergy
 
 - **Chief Priest Vivian** — Head of the temple in [[locations/Gosterwick.md|Gosterwick]]; stern Thorcin cleric, practical orientation.
-- [[npcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]] — scholarly priest of Demma; more ornate vestments; absentminded.
+- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]] — scholarly priest of Demma; more ornate vestments; absentminded.
 
 ## Source
 

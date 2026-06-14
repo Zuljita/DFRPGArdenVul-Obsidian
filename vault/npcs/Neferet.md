@@ -65,7 +65,7 @@ Neferet is a powerful **Greater Mummy** spellcaster whose tomb is located off th
 Vael used Seeker followed by Trace and confirmed Neferet was in the Tower of Scrutiny as of the end of Session 42b, but the party was forced to retreat due to a wraith swarm before they could reach her. She was recovering her mana. As of Session 43a, the party chose to leave the Neferet situation temporarily in order to invade the Forum of Set.
 
 ## Loot / Items of Interest
-- The **Iron Circlet of Ghanor** she wears is a piece of [[npcs/Lady Alexia.md|Lady Alexia]]'s Regalia, which the party is actively seeking.
+- The **Iron Circlet of Ghanor** she wears is a piece of [[notes/Lady Alexia.md|Lady Alexia]]'s Regalia, which the party is actively seeking.
 - Her tomb also contained jade jewelry, Boots of Levitation, and some scrolls.
 
 ## Sessions

@@ -35,7 +35,7 @@ He died while attempting to flee during the party's final assault.
 - [[sessions/Session 4 - Cheese and Crackers and Thoth and Demons.md|Session 4 - Cheese and Crackers and Thoth and Demons]]
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
-- [[sessions/Session 24b - The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines]]
+- [[sessions/Session 24b - The Set Cult Strikes Back, Larel's Stuff, and the Hall of Shrines.md|Session 24b - The Cult of Set Strikes Back, Larel's Stuff, and the Hall of Shrines]]
 
 ## Roles & Influence
 - Lieutenant for [[Phlebotomas Plumthorn]]; oversees halfling toll operations near the pyramid landings.

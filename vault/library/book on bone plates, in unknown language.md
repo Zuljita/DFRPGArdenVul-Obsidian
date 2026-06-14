@@ -20,4 +20,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 27]]: Vael discovered the book inside a chest while exploring the Tomb of Ptoh-Ristus.
+- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27]]: Vael discovered the book inside a chest while exploring the Tomb of Ptoh-Ristus.

@@ -10,6 +10,7 @@ tags:
   - sentience/mindless
 aliases:
   - Clockwork Dragonfly with Blue Gem Eyes
+  - Dragonfly Construct
 ---
 # Clockwork Dragonfly
 

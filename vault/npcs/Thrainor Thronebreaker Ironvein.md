@@ -19,7 +19,7 @@ appears_in:
 ## Summary
 Thrainor "Thronebreaker" Ironvein is a Dwarven mercenary fighter affiliated with the [[factions/Grudge Brigade.md|Grudge Brigade]]. He was hired (along with [[npcs/Lasselanta Chrysalis Ashcroft.md|Chrysalis]]) by the Right for Riches company for the battle against [[npcs/Neferet.md|Neferet]] in Sessions 42a–42b. Hiring two Grudge Brigade mercenaries for the same mission was against policy, but business was slow during the winter and Coinbase was out of town.
 
-Alongside [[npcs/Ioannes Grammatikos Byzantios.md|Ioannes]], he adopted four cats found in the Great Cavern (Session 12).
+Alongside [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]], he adopted four cats found in the Great Cavern (Session 12).
 
 He was also hired by the group for a mission to the Great Cavern in Session 11, where he believed he could cast *Bless* due to hearsay from another mercenary.
 

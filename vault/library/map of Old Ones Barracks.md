@@ -20,4 +20,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 31]]: The players discovered three large sheets of parchment on an oval table, one of which was a map of the "Barracks of the Old Ones" written in Mithric. Using the annotations from these maps, they navigated to rooms labeled "power" and "strange ghost."
+- [[sessions/Session 31 - I Want to Believe.md|Session 31]]: The players discovered three large sheets of parchment on an oval table, one of which was a map of the "Barracks of the Old Ones" written in Mithric. Using the annotations from these maps, they navigated to rooms labeled "power" and "strange ghost."

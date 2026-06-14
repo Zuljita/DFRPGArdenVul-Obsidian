@@ -16,7 +16,7 @@ Stephania is the High Priestess of [[npcs/Set.md|Set]] in the [[locations/Temple
 ## Notes
 - Her personal quarters in the Temple of Set were infiltrated by the Right for Riches company during their stealth mission to recover their stolen Teleport Rug.
 - The room was described as opulent, containing a bed, armoire, writing desk, and screens blocking off the south end.
-- The room contained poisoned wine (which [[npcs/Uvash Edzuson.md|Uvash]] survived due to dwarven constitution).
+- The room contained poisoned wine (which [[pcs/Uvash Edzuson.md|Uvash]] survived due to dwarven constitution).
 - A secret door in her quarters led to a small treasure room containing significant wealth and magical items.
 - Another secret door led to a room containing several kaliyani (six-armed snake-men).
 - There is canonical uncertainty whether she is the same person as the Stephania who acts as a supplier to The Forum.

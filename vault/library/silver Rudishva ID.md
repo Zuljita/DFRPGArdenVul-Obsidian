@@ -22,7 +22,7 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 41]]: Ioannes read two scrolls found in scroll cases, identifying one as a mage scroll and the other as a clerical scroll.
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41]]: Ioannes read two scrolls found in scroll cases, identifying one as a mage scroll and the other as a clerical scroll.
 
 ## Discord Discussions
 - [[Discord Summary 2026-W10]]

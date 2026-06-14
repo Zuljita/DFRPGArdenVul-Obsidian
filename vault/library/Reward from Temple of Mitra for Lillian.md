@@ -20,4 +20,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 23c]]: Jador the Just at the Temple of Mitra arranged for a lesser cleric to transfer reward money to Lillian's account following her rescue.
+- [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c]]: Jador the Just at the Temple of Mitra arranged for a lesser cleric to transfer reward money to Lillian's account following her rescue.

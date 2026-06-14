@@ -24,7 +24,7 @@ appears_in:
 ## Summary
 Merenuithiel Lacrymosa Armaris (known as **Lacrymosa**) is an elven mercenary archer affiliated with the [[factions/Grudge Brigade.md|Grudge Brigade]]. She was hired by the Right for Riches company for the invasion of the [[locations/Forum of Set.md|Forum of Set]] in Sessions 43a–43c.
 
-She was raised as an assassin at the [[locations/Temple of Tychias.md|Temple of Tychias]].
+She was raised as an assassin at the [[notes/Temple of Tychias.md|Temple of Tychias]].
 
 She was also recruited by the company to revisit the Great Cavern during Session 15.
 - Recruited alongside GOAT (a druid) to revisit the Great Cavern in [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15]].

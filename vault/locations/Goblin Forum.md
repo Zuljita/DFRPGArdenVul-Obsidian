@@ -24,11 +24,11 @@ Varumani ambassadors and surface merchants, such as Galadnor, Horace Trych, and 
 Gribble, the Lord of the Forum, is the brother of King Weskenim.
 
 ## Sources
-- [[vault/sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
-- [[vault/sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
-- [[vault/notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]]
-- [[vault/notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]
-- [[vault/sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
+- [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
+- [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
+- [[notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]]
+- [[notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 
 ## Maps
 - ![[attachments/discord/screenshots/1489788376373657653-Screenshot_2026-04-03_at_7.46.45_PM.png]] — A battle map showing the poison gas-spewing statue in the Goblin Forum.

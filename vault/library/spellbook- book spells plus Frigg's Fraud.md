@@ -20,5 +20,5 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 21]]: [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] used *Seek Magic* to locate the spellbook within the library stacks.
-- [[Session 23c]]: [[npcs/Geleg.md|Geleg]] requested his spellbook and granted [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] permission to copy any spells from it.
+- [[sessions/Session 21 - The Library of Thoth.md|Session 21]]: [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] used *Seek Magic* to locate the spellbook within the library stacks.
+- [[sessions/Session 23c - Set Jailbreak and Down to Goblintown.md|Session 23c]]: [[npcs/Geleg.md|Geleg]] requested his spellbook and granted [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] permission to copy any spells from it.

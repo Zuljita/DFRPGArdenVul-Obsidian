@@ -27,10 +27,10 @@ Cool, overcast, light rain
 
 Player Characters:
 
-- [[vault/pcs/Ioannes Grammatikos Byzantios|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
+- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 - [[vault/pcs/Michael J Dundee|Michael J Dundee]], Thorcin barbarian
-- [[vault/pcs/Vaelethron 'Vael' Sunshadow|Vaelethron 'Vael' Sunshadow]], Half-Elven mage
-- [[vault/pcs/Vallium Halcyon|Vallium Halcyon]], Archontean fighter
+- [[pcs/Vaelethron 'Vael' Sunshadow.md|Vaelethron 'Vael' Sunshadow]], Half-Elven mage
+- [[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter
 - [[vault/pcs/Coinbase Ethereum Thuringwador|Coinbase Ethereum Thuringwador]], Elven Shield Bro (mercenary) (Archon Shiva)
 
 

@@ -20,4 +20,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 22]]: Vallium Halcyon and Merenuithiel Lacrymosa Armaris took a scroll containing a recipe for baboon stew from a skeleton chef in a corridor.
+- [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22]]: Vallium Halcyon and Merenuithiel Lacrymosa Armaris took a scroll containing a recipe for baboon stew from a skeleton chef in a corridor.
