@@ -18,6 +18,10 @@ related_entities:
 
 The Right for Riches Company is a lawful fellowship of no more than five sworn Socii, chartered in Gosterwick and operating as one of the most capable adventuring companies currently active in [[Arden Vul]]. Founded as "Left for Loot" and renamed in 2025, the company comprises four core members — the half-elven mage [[Vaelethron 'Vael' Sunshadow|Vael Sunshadow]], the Archontean cleric [[Ioannes Grammatikos Byzantios]], the Archontean fighter [[Vallium Halcyon]], and the dwarven cleric [[Uvash Edzuson]] — with [[npcs/Basil.md|Basil of Narsileon]] as a paid employee and [[Thrainor "Thronebreaker" Ironvein]] as a recurring mercenary. After 55 sessions, the company controls the crashed Rudishva starship [[Beacon|the Beacon]], holds passports to Varumani territory, has dismantled the [[Cult of Set]], liberated the [[Goblin Forum]], and secured a kill contract on [[Kerbog Khan]] from the Varumani Thegn [[Varboka]] — making them one of the most politically connected and physically dangerous groups in the Halls.
 
+The company has conducted propaganda efforts highlighting their service to [[npcs/Weskenim.md|King Weskenim]] and the prowess of Vael Sunshadow.
+
+Company legalities were formalized through [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]] for a fee of $1000.
+
 ## Members
 
 ### Socii (Core Members)
