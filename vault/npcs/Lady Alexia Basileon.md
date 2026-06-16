@@ -30,12 +30,14 @@ She is described as a tall, slim, middle-aged woman with tanned skin, black hair
 - Ruler of [[Gosterwick]]; de facto authority over access, security, and diplomacy around the ruins.
 - Patron of the [[Knights of the Azure Shield]], frequently deploying them as escorts, muscle, and civic order.
 - Political broker between mercantile interests (e.g., [[Rarities Factor]]) and religious factions (e.g., [[Mitra]], [[Thoth]] circles).
+- Pays bounties to Wardens and sells noble titles to attract settlers to [[Gosterwick]].
 
 ## Relationships
 - [[Freydis the Stern]]: trusted steward and gatekeeper for audiences and requests.
 - [[Lord Iskander Burdock]]: half‑brother; tense/political rivalry noted in town dynamics.
 - [[Wicktrimmer]]: cordial, influential merchant ally with overlapping interests in trade and security.
 - [[npcs/Horace Trych.md|Horace Trych]]: Claims her as his employer.
+- [[Lyssandra]]: adviser who recommends the company sell valuable finds (e.g. the [[Gem of Insight]]) to her.
 
 ## History
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]] — About halfway into the ten-mile hike, the party was overtaken by a group of six mounted [[factions/Knights of the Azure Shield.md|Knights of the Azure Shield]], the force aligned with the ruler of [[locations/Gosterwick.md|Gosterwick]], [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]].
@@ -47,6 +49,13 @@ She is described as a tall, slim, middle-aged woman with tanned skin, black hair
 - A [[Basileon Signet Ring]] was found on the corpse of a noblewoman, possibly herself or a relative.
 
 ## Notes
+
+## Discord Insights
+- Potential buyer for the [[Gem of Insight]]; [[Lyssandra]] recommends selling it to her. ([[notes/Discord Summary 2025-W13.md|Discord Summary 2025-W13]])
+- An authority figure to be informed about the murder in [[Gosterwick]]. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])
+- Strongly in favor of people forming companies, and politically active alongside her half-brother [[Lord Iskander Burdock]]. ([[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]])
+- Owner of the Regalia that [[Freydis the Stern]] wants [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] to find. ([[notes/Discord Summary 2025-W46.md|Discord Summary 2025-W46]])
+- Sometimes grants land directly to people. ([[notes/Discord Summary 2025-W50.md|Discord Summary 2025-W50]])
 
 ## Portraits
 - ![[attachments/discord/NPC pictures/1507886613898723330-image0.jpg]] — A portrait of Lady Alexia.
