@@ -11,48 +11,51 @@ Auto-generated adjacency map of Arden Vul locations, clustered by graph communit
 
 ```mermaid
 flowchart LR
-  subgraph c_n_Glory_of_Thoth["Glory of Thoth cluster"]
-    n_Forum_of_Arden_Vul["Forum of Arden Vul"]
-    n_Pyramid_of_Thoth["Pyramid of Thoth"]
-    n_Tower_of_Scrutiny["Tower of Scrutiny"]
+  subgraph c_n_Great_Cavern["Great Cavern cluster"]
+    n_Halls_of_the_Troll_Thegn["Halls of the Troll Thegn"]
+    n_Troll_Lifts["Troll Lifts"]
+    n_Great_Chasm["Great Chasm"]
+    n_Varumani_Lifts["Varumani Lifts"]
+    n_Great_Cavern["Great Cavern"]
+    n_Waterfall["Waterfall"]
+    n_Sundered_Span["Sundered Span"]
+    n_Chasm_Floor["Chasm Floor"]
+  end
+  subgraph c_n_Forum_of_Set["Forum of Set cluster"]
     n_Forum_of_Set["Forum of Set"]
+    n_Temple_of_Set["Temple of Set"]
     n_Upper_Goblintown["Upper Goblintown"]
     n_Goblin_Market["Goblin Market"]
-    n_Great_Hall["Great Hall"]
-    n_Great_Pyramid["Great Pyramid"]
-    n_Cliff_Face["Cliff Face"]
-    n_Howling_Caves["Howling Caves"]
-    n_Glory_of_Thoth["Glory of Thoth"]
-    n_Goblintown["Goblintown"]
-    n_Square_Tower_East_of_Forum["Square Tower (East of Forum)"]
+    n_Sighing_Stair["Sighing Stair"]
   end
   subgraph c_n_Beacon["Beacon cluster"]
+    n_Great_Hall["Great Hall"]
+    n_Great_Pyramid["Great Pyramid"]
     n_Beacon["Beacon"]
     n_Cloister["Cloister"]
     n_Rudishva_Bastion["Rudishva Bastion"]
-    n_Chasm_Floor["Chasm Floor"]
     n_Tomb_of_Archon_Marius["Tomb of Archon Marius"]
   end
   subgraph c_n_Newmarket["Newmarket cluster"]
     n_Narsileon["Narsileon"]
     n_Newmarket["Newmarket"]
   end
-  subgraph c_n_Great_Chasm["Great Chasm cluster"]
-    n_Halls_of_the_Troll_Thegn["Halls of the Troll Thegn"]
-    n_Troll_Lifts["Troll Lifts"]
-    n_Great_Chasm["Great Chasm"]
-    n_Varumani_Lifts["Varumani Lifts"]
-    n_Sundered_Span["Sundered Span"]
+  subgraph c_n_Pyramid_of_Thoth["Pyramid of Thoth cluster"]
+    n_Forum_of_Arden_Vul["Forum of Arden Vul"]
+    n_Pyramid_of_Thoth["Pyramid of Thoth"]
+    n_Tower_of_Scrutiny["Tower of Scrutiny"]
+    n_Square_Tower_East_of_Forum["Square Tower (East of Forum)"]
+  end
+  subgraph c_n_Cliff_Face["Cliff Face cluster"]
+    n_Cliff_Face["Cliff Face"]
+    n_Howling_Caves["Howling Caves"]
   end
   subgraph c_n_Hubs["Hubs cluster"]
     n_Arden_Vul["Arden Vul"]
     n_Long_Stair["Long Stair"]
     n_Gosterwick["Gosterwick"]
-    n_Great_Cavern["Great Cavern"]
-  end
-  subgraph c_n_Temple_of_Set["Temple of Set cluster"]
-    n_Sighing_Stair["Sighing Stair"]
-    n_Temple_of_Set["Temple of Set"]
+    n_Glory_of_Thoth["Glory of Thoth"]
+    n_Well_of_Light["Well of Light"]
   end
   subgraph c_n_The_Obsidian_Gates["The Obsidian Gates cluster"]
     n_Hall_of_Forty_Pillars["Hall of Forty Pillars"]
@@ -68,7 +71,7 @@ flowchart LR
   end
   n_Arden_Vul ---|road| n_Gosterwick
   n_Arden_Vul ---|climb| n_Long_Stair
-  n_Beacon ---|teleporter| n_Gosterwick
+  n_Beacon ---|rug| n_Gosterwick
   n_Great_Cavern ---|passage| n_Long_Stair
   n_Glory_of_Thoth ---|passage| n_Well_of_Light
   n_Arden_Vul ---|contains| n_Pyramid_of_Thoth

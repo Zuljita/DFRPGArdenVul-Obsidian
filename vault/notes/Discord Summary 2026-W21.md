@@ -100,7 +100,7 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
 **Tactical Planning**
 The company intends to execute the following during the next session:
 1. Conduct town business.
-2. Utilize the first set of [[items/Rugs of Instant Access.md|Rugs of Instant Access]] to travel to the Beacon.
+2. Utilize the first set of [[items/Teleport Rug.md|Rugs of Instant Access]] to travel to the Beacon.
  $\text{Use}$ the Rudishva Teleportation Pad to reach the [[locations/Cloister.md|Cloister]], proceeding through secret passages (southwest, then north along water, then east).
 3. Explore the area containing the "Troll Lifts and Arena W" map, with a specific intent to ambush Lesser and Bestial Varumani.
 4. Investigate the surgical bay area.

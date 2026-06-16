@@ -49,7 +49,7 @@
     {"a": "Troll Lifts", "b": "Sundered Span", "type": "passage", "note": "Upper Lift Station reached via the Sundered Span from the Wet Caves (Troll Lifts page)."},
     {"a": "Arena", "b": "Inn of the Lost", "type": "passage", "note": "Inn of the Lost is east of the Arena stalls through an unlocked door (explicit Connections)."},
 
-    {"a": "Gosterwick", "b": "Beacon", "type": "teleporter", "note": "Rug of Instant Access links the Arcane Practitioners' Club in Gosterwick to the Beacon (Sessions 51-56)."},
+    {"a": "Gosterwick", "b": "Beacon", "type": "rug", "access": "Fixed paired Rug of Instant Access (Arcane Practitioners' Club <-> Beacon), reusable both ways because both ends stay in place. A rug DEPLOYED to evacuate a dungeon site is left behind instead (see the Teleport Rug item).", "note": "Rug of Instant Access links the Arcane Practitioners' Club in Gosterwick to the Beacon (Sessions 51-56)."},
     {"a": "Beacon", "b": "Cloister", "type": "teleporter", "note": "The Beacon teleporter pads reach only two places; one is the vault/Cloister area (Session 45; Vallium S55; GM 2026-06)."},
     {"a": "Beacon", "b": "Rudishva Bastion", "type": "teleporter", "note": "The Beacon's other teleporter pad reaches the Rudishva Bastion on the chasm floor (GM 2026-06)."},
     {"a": "Rudishva Bastion", "b": "Chasm Floor", "type": "passage", "note": "The Rudishva Bastion sits on the Chasm Floor."},

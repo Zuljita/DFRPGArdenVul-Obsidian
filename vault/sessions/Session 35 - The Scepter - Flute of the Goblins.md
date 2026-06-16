@@ -43,7 +43,7 @@ GM's Comments:
 The Right for Riches Company learned that other adventuring parties can find treasure too. They did not like this.
 They got their map to the Gold Rudishva ID from Temrin, and spent some time figuring it out. The map seemed to lead them deeper than they have gone so far under Arden Vul. We'll see if they follow it soon, or prioritize goals that seem easier to reach.
 They found a giant bone flute that *Seeker* said was the [[items/Scepter of the Goblins.md|Scepter of the Goblins]]. They plan to bring it to [[npcs/Weskenim.md|King Weskenim]].
-They also found a second set of the [[items/Rugs of Instant Access.md|Rugs of Instant Access]]. The first set has been very useful. Do they keep the second set for themselves, or sell it to Wicktrimmer?
+They also found a second set of the [[items/Teleport Rug.md|Rugs of Instant Access]]. The first set has been very useful. Do they keep the second set for themselves, or sell it to Wicktrimmer?
 
 XP: - Exploration: 6 new locations, 1 XP
 - Loot: They will sell enough of the loot they found to get 2 XP
