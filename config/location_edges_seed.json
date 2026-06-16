@@ -444,6 +444,24 @@
       "b": "Behir Caves",
       "type": "passage",
       "note": "Secret passages from the Cloister lead toward the Behir Caves (Cloister page)."
+    },
+    {
+      "a": "Wet Caves",
+      "b": "Glory of Thoth",
+      "type": "passage",
+      "note": "The Wet Caves connect directly to the Glory of Thoth / Glory of Weskenim (GM 2026-06)."
+    },
+    {
+      "a": "Glory of Thoth",
+      "b": "Temple of Thoth",
+      "type": "passage",
+      "note": "Connected by a secret western passage from the Glory of Thoth (GM 2026-06)."
+    },
+    {
+      "a": "Temple of Thoth",
+      "b": "Temple of Set",
+      "type": "passage",
+      "note": "Connected by a secret southern passage from the Temple of Thoth (GM 2026-06)."
     }
   ],
   "reject": [
@@ -556,6 +574,11 @@
       "a": "Beacon",
       "b": "Great Chasm",
       "reason": "Beacon teleporter does not reach a chasm garden island; it reaches the Rudishva Bastion on the chasm floor instead (GM 2026-06)."
+    },
+    {
+      "a": "Wet Caves",
+      "b": "Temple of Set",
+      "reason": "No direct connection (GM). The route is Wet Caves -> Glory of Thoth -> (secret W passage) Temple of Thoth -> (secret S passage) Temple of Set."
     }
   ],
   "base_nodes": [

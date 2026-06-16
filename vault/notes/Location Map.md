@@ -11,17 +11,6 @@ Auto-generated adjacency map of Arden Vul locations, clustered by graph communit
 
 ```mermaid
 flowchart LR
-  subgraph c_n_Glory_of_Thoth["Glory of Thoth cluster"]
-    n_Forum_of_Arden_Vul["Forum of Arden Vul"]
-    n_Pyramid_of_Thoth["Pyramid of Thoth"]
-    n_Tower_of_Scrutiny["Tower of Scrutiny"]
-    n_Great_Hall["Great Hall"]
-    n_Great_Pyramid["Great Pyramid"]
-    n_Hall_of_Heroes["Hall of Heroes"]
-    n_Glory_of_Thoth["Glory of Thoth"]
-    n_Goblin_Market["Goblin Market"]
-    n_Square_Tower_East_of_Forum["Square Tower (East of Forum)"]
-  end
   subgraph c_n_Great_Cavern["Great Cavern cluster"]
     n_Haunted_Tower["Haunted Tower"]
     n_Waterfall["Waterfall"]
@@ -29,14 +18,23 @@ flowchart LR
     n_Great_Chasm["Great Chasm"]
     n_Chasm_Floor["Chasm Floor"]
   end
-  subgraph c_n_Forum_of_Set["Forum of Set cluster"]
+  subgraph c_n_Pyramid_of_Thoth["Pyramid of Thoth cluster"]
+    n_Forum_of_Arden_Vul["Forum of Arden Vul"]
+    n_Pyramid_of_Thoth["Pyramid of Thoth"]
+    n_Tower_of_Scrutiny["Tower of Scrutiny"]
+    n_Hall_of_Heroes["Hall of Heroes"]
+    n_Square_Tower_East_of_Forum["Square Tower (East of Forum)"]
+  end
+  subgraph c_n_Well_of_Light["Well of Light cluster"]
+    n_Druid_s_Retreat["Druid's Retreat"]
+    n_Well_of_Light["Well of Light"]
+    n_Library_of_Thoth["Library of Thoth"]
     n_Forum_of_Set["Forum of Set"]
-    n_Temple_of_Set["Temple of Set"]
     n_Red_Bridge_of_Set["Red Bridge of Set"]
     n_Upper_Goblintown["Upper Goblintown"]
+    n_Goblin_Market["Goblin Market"]
     n_Goblin_Great_Hall["Goblin Great Hall"]
     n_Goblin_Warrens["Goblin Warrens"]
-    n_Sighing_Stair["Sighing Stair"]
   end
   subgraph c_n_Cliff_Face["Cliff Face cluster"]
     n_Baboon_Cave["Baboon Cave"]
@@ -44,10 +42,12 @@ flowchart LR
     n_Cave_with_Spider_Webs["Cave with Spider Webs"]
     n_Cliff_Face["Cliff Face"]
   end
-  subgraph c_n_Newmarket["Newmarket cluster"]
-    n_Narsileon["Narsileon"]
-    n_Newmarket["Newmarket"]
-    n_Temple_of_Thoth["Temple of Thoth"]
+  subgraph c_n_Sundered_Span["Sundered Span cluster"]
+    n_Great_Hall["Great Hall"]
+    n_Great_Pyramid["Great Pyramid"]
+    n_Sundered_Span["Sundered Span"]
+    n_Varumani_Lifts["Varumani Lifts"]
+    n_Wet_Caves["Wet Caves"]
   end
   subgraph c_n_Beacon["Beacon cluster"]
     n_Beacon["Beacon"]
@@ -60,23 +60,25 @@ flowchart LR
     n_Arden_Vul["Arden Vul"]
     n_Long_Stair["Long Stair"]
     n_Gosterwick["Gosterwick"]
+    n_Glory_of_Thoth["Glory of Thoth"]
+    n_Thothian_Teleportation_Network["Thothian Teleportation Network"]
+  end
+  subgraph c_n_Newmarket["Newmarket cluster"]
+    n_Narsileon["Narsileon"]
+    n_Newmarket["Newmarket"]
   end
   subgraph c_n_Hall_of_Forty_Pillars["Hall of Forty Pillars cluster"]
     n_Hall_of_Forty_Pillars["Hall of Forty Pillars"]
     n_The_Obsidian_Gates["The Obsidian Gates"]
   end
-  subgraph c_n_Sundered_Span["Sundered Span cluster"]
-    n_Sundered_Span["Sundered Span"]
-    n_Varumani_Lifts["Varumani Lifts"]
-    n_Wet_Caves["Wet Caves"]
+  subgraph c_n_Temple_of_Set["Temple of Set cluster"]
+    n_Sighing_Stair["Sighing Stair"]
+    n_Temple_of_Set["Temple of Set"]
+    n_Temple_of_Thoth["Temple of Thoth"]
   end
   subgraph c_n_Arena["Arena cluster"]
     n_Arena["Arena"]
     n_Inn_of_the_Lost["Inn of the Lost"]
-  end
-  subgraph c_n_Druid_s_Retreat["Druid's Retreat cluster"]
-    n_Druid_s_Retreat["Druid's Retreat"]
-    n_Library_of_Thoth["Library of Thoth"]
   end
   subgraph c_n_Troll_Lifts["Troll Lifts cluster"]
     n_Halls_of_the_Troll_Thegn["Halls of the Troll Thegn"]
@@ -99,6 +101,7 @@ flowchart LR
   n_Glory_of_Thoth ---|stairs| n_Pyramid_of_Thoth
   n_Glory_of_Thoth ---|passage| n_Goblin_Market
   n_Arden_Vul ---|climb| n_Cliff_Face
+  n_Temple_of_Set ---|passage| n_Temple_of_Thoth
   n_Upper_Goblintown ---|passage| n_Well_of_Light
   n_Forum_of_Set ---|passage| n_Upper_Goblintown
   n_Gosterwick ---|road| n_Narsileon
@@ -119,6 +122,7 @@ flowchart LR
   n_Southern_Necropolis_of_Set ---|passage| n_Tomb_of_Theskalon
   n_Sundered_Span ---|lift| n_Varumani_Lifts
   n_Cliff_Face ---|passage| n_Great_Cavern
+  n_Glory_of_Thoth ---|passage| n_Wet_Caves
   n_Goblin_Market ---|passage| n_Well_of_Light
   n_Azure_Keep ---|contains| n_Gosterwick
   n_Burdock_Valley ---|contains| n_Gosterwick
@@ -127,6 +131,7 @@ flowchart LR
   n_Gosterwick ---|road| n_Imperial_Road
   n_Great_Chasm ---|lift| n_Varumani_Lifts
   n_Goblin_Market ---|passage| n_Howling_Caves
+  n_Glory_of_Thoth ---|passage| n_Temple_of_Thoth
   n_Baboon_Cave ---|passage| n_Howling_Caves
   n_Baliff_s_Truncheon ---|contains| n_Gosterwick
   n_Arden_Vul ---|contains| n_Burdock_Valley
