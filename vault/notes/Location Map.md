@@ -45,6 +45,7 @@ flowchart LR
   subgraph c_n_Forum_of_Set["Forum of Set cluster"]
     n_Forum_of_Set["Forum of Set"]
     n_Temple_of_Set["Temple of Set"]
+    n_Red_Bridge_of_Set["Red Bridge of Set"]
     n_Upper_Goblintown["Upper Goblintown"]
     n_Goblin_Market["Goblin Market"]
     n_Sighing_Stair["Sighing Stair"]
@@ -59,15 +60,15 @@ flowchart LR
     n_Narsileon["Narsileon"]
     n_Newmarket["Newmarket"]
   end
+  subgraph c_n_Cliff_Face["Cliff Face cluster"]
+    n_Cliff_Face["Cliff Face"]
+    n_Howling_Caves["Howling Caves"]
+  end
   subgraph c_n_Beacon["Beacon cluster"]
     n_Beacon["Beacon"]
     n_Cloister["Cloister"]
     n_Rudishva_Bastion["Rudishva Bastion"]
     n_Tomb_of_Archon_Marius["Tomb of Archon Marius"]
-  end
-  subgraph c_n_Cliff_Face["Cliff Face cluster"]
-    n_Cliff_Face["Cliff Face"]
-    n_Howling_Caves["Howling Caves"]
   end
   subgraph c_n_Hubs["Hubs cluster"]
     n_Arden_Vul["Arden Vul"]

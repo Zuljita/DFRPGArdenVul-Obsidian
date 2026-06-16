@@ -246,6 +246,18 @@ def apply_seed(edges, link_surface):
                                        if {canon(r.get("a", "")), canon(r.get("b", ""))} == set(key)), "")
             e["suppressed"] = True
             rejected += 1
+
+    # Base nodes (e.g. the Beacon): teleport-hub bases the party stages from.
+    # Their real connectivity is fully curated in the seed; every other edge is
+    # travel/recap co-occurrence, not a real passage -- suppress it.
+    base = {c for c in (canon(b) for b in spec.get("base_nodes", [])) if c}
+    for key, e in edges.items():
+        if e.get("suppressed") or "seed" in e["signals"]:
+            continue
+        if base & set(key):
+            e["suppressed"] = True
+            e["reject_reason"] = "non-curated edge from a base node (staging/co-occurrence, not a real connection)"
+            rejected += 1
     return added, rejected, warnings
 
 
