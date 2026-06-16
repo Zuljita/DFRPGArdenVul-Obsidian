@@ -342,6 +342,108 @@
       "b": "Varumani Lifts",
       "type": "lift",
       "note": "Sundered Span connects to the Varumani Lifts Upper Lift Station (Sundered Span page)."
+    },
+    {
+      "a": "Forum of Set",
+      "b": "Red Bridge of Set",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Library of Thoth",
+      "b": "Well of Light",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Hall of Heroes",
+      "b": "Pyramid of Thoth",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Hall of Heroes",
+      "b": "Well of Light",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Goblin Warrens",
+      "b": "Upper Goblintown",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Goblin Warrens",
+      "b": "Goblin Great Hall",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Goblin Warrens",
+      "b": "Forum of Set",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Baboon Cave",
+      "b": "Howling Caves",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Cliff Face",
+      "b": "Cave with Spider Webs",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Cave with Fire Pit",
+      "b": "Long Stair",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Druid's Retreat",
+      "b": "Well of Light",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Druid's Retreat",
+      "b": "Library of Thoth",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Haunted Tower",
+      "b": "Waterfall",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Baliff's Truncheon",
+      "type": "contains",
+      "note": "Town establishment within Gosterwick (location page)."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Kaelo's Bathhouse",
+      "type": "contains",
+      "note": "Town establishment within Gosterwick (location page)."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "The Stunned Acolyte",
+      "type": "contains",
+      "note": "Town establishment within Gosterwick (location page)."
+    },
+    {
+      "a": "Cloister",
+      "b": "Behir Caves",
+      "type": "passage",
+      "note": "Secret passages from the Cloister lead toward the Behir Caves (Cloister page)."
     }
   ],
   "reject": [
@@ -458,7 +560,8 @@
   ],
   "base_nodes": [
     "Beacon",
-    "Gosterwick"
+    "Gosterwick",
+    "Cloister"
   ],
   "teleport_network": {
     "_doc": "Thothian teleportation-circle network catalogued by Vallium (Greybrown), 2026-05-09. Any circle reaches any other by dialling the destination's six-colour code. Modelled as a hub: each circle <-> the hub. Circle names matching a vault location resolve to it; others are virtual nodes aliased by their code.",
