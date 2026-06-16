@@ -439,7 +439,8 @@
     }
   ],
   "base_nodes": [
-    "Beacon"
+    "Beacon",
+    "Gosterwick"
   ],
   "teleport_network": {
     "_doc": "Thothian teleportation-circle network catalogued by Vallium (Greybrown), 2026-05-09. Any circle reaches any other by dialling the destination's six-colour code. Modelled as a hub: each circle <-> the hub. Circle names matching a vault location resolve to it; others are virtual nodes aliased by their code.",
