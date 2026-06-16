@@ -11,42 +11,15 @@ Auto-generated adjacency map of Arden Vul locations, clustered by graph communit
 
 ```mermaid
 flowchart LR
-  subgraph c_n_Thothian_Teleportation_Network["Thothian Teleportation Network cluster"]
-    n_Archon_s_Palace["Archon's Palace"]
-    n_Thothian_Teleportation_Network["Thothian Teleportation Network"]
-    n_Citadel_Donjon_Cellar["Citadel Donjon Cellar"]
-    n_Thothian_Administration_Building_Cellar["Thothian Administration Building Cellar"]
-    n_Hall_of_Seeing["Hall of Seeing"]
-    n_Summoning_Chamber["Summoning Chamber"]
-    n_Halls_of_Thoth["Halls of Thoth"]
-    n_Bridge_of_Set["Bridge of Set"]
-    n_Ancient_Hall_of_Set["Ancient Hall of Set"]
-    n_Sanctum_of_Thoth["Sanctum of Thoth"]
-    n_Coliseum["Coliseum"]
-    n_The_Lady_s_Asylum["The Lady's Asylum"]
-    n_Deep_Shrine_of_Thoth["Deep Shrine of Thoth"]
-    n_Chamber_of_Several_Uses["Chamber of Several Uses"]
-    n_Archontean_Pediment["Archontean Pediment"]
-    n_Hall_of_Shrines["Hall of Shrines"]
-    n_Hall_of_Servants["Hall of Servants"]
-    n_Archontean_Parvis["Archontean Parvis"]
-    n_Canyon_Vaults["Canyon Vaults"]
-  end
-  subgraph c_n_Forum_of_Set["Forum of Set cluster"]
-    n_Forum_of_Set["Forum of Set"]
-    n_Temple_of_Set["Temple of Set"]
-    n_Red_Bridge_of_Set["Red Bridge of Set"]
-    n_Upper_Goblintown["Upper Goblintown"]
-    n_Goblin_Market["Goblin Market"]
-    n_Goblin_Great_Hall["Goblin Great Hall"]
-    n_Goblin_Warrens["Goblin Warrens"]
-    n_Sighing_Stair["Sighing Stair"]
-  end
-  subgraph c_n_Pyramid_of_Thoth["Pyramid of Thoth cluster"]
+  subgraph c_n_Glory_of_Thoth["Glory of Thoth cluster"]
     n_Forum_of_Arden_Vul["Forum of Arden Vul"]
     n_Pyramid_of_Thoth["Pyramid of Thoth"]
     n_Tower_of_Scrutiny["Tower of Scrutiny"]
+    n_Great_Hall["Great Hall"]
+    n_Great_Pyramid["Great Pyramid"]
     n_Hall_of_Heroes["Hall of Heroes"]
+    n_Glory_of_Thoth["Glory of Thoth"]
+    n_Goblin_Market["Goblin Market"]
     n_Square_Tower_East_of_Forum["Square Tower (East of Forum)"]
   end
   subgraph c_n_Great_Cavern["Great Cavern cluster"]
@@ -55,6 +28,15 @@ flowchart LR
     n_Great_Cavern["Great Cavern"]
     n_Great_Chasm["Great Chasm"]
     n_Chasm_Floor["Chasm Floor"]
+  end
+  subgraph c_n_Forum_of_Set["Forum of Set cluster"]
+    n_Forum_of_Set["Forum of Set"]
+    n_Temple_of_Set["Temple of Set"]
+    n_Red_Bridge_of_Set["Red Bridge of Set"]
+    n_Upper_Goblintown["Upper Goblintown"]
+    n_Goblin_Great_Hall["Goblin Great Hall"]
+    n_Goblin_Warrens["Goblin Warrens"]
+    n_Sighing_Stair["Sighing Stair"]
   end
   subgraph c_n_Cliff_Face["Cliff Face cluster"]
     n_Baboon_Cave["Baboon Cave"]
@@ -65,6 +47,7 @@ flowchart LR
   subgraph c_n_Newmarket["Newmarket cluster"]
     n_Narsileon["Narsileon"]
     n_Newmarket["Newmarket"]
+    n_Temple_of_Thoth["Temple of Thoth"]
   end
   subgraph c_n_Beacon["Beacon cluster"]
     n_Beacon["Beacon"]
@@ -77,14 +60,12 @@ flowchart LR
     n_Arden_Vul["Arden Vul"]
     n_Long_Stair["Long Stair"]
     n_Gosterwick["Gosterwick"]
-    n_Glory_of_Thoth["Glory of Thoth"]
-    n_Well_of_Light["Well of Light"]
   end
-  subgraph c_n_The_Obsidian_Gates["The Obsidian Gates cluster"]
+  subgraph c_n_Hall_of_Forty_Pillars["Hall of Forty Pillars cluster"]
     n_Hall_of_Forty_Pillars["Hall of Forty Pillars"]
     n_The_Obsidian_Gates["The Obsidian Gates"]
   end
-  subgraph c_n_Wet_Caves["Wet Caves cluster"]
+  subgraph c_n_Sundered_Span["Sundered Span cluster"]
     n_Sundered_Span["Sundered Span"]
     n_Varumani_Lifts["Varumani Lifts"]
     n_Wet_Caves["Wet Caves"]
@@ -93,7 +74,7 @@ flowchart LR
     n_Arena["Arena"]
     n_Inn_of_the_Lost["Inn of the Lost"]
   end
-  subgraph c_n_Library_of_Thoth["Library of Thoth cluster"]
+  subgraph c_n_Druid_s_Retreat["Druid's Retreat cluster"]
     n_Druid_s_Retreat["Druid's Retreat"]
     n_Library_of_Thoth["Library of Thoth"]
   end
@@ -168,7 +149,6 @@ flowchart LR
   n_Gosterwick ---|contains| n_Kaelo_s_Bathhouse
   n_Library_of_Thoth ---|passage| n_Well_of_Light
   n_Sundered_Span ---|passage| n_Wet_Caves
-  n_Forum_of_Set --- n_Great_Cavern
   n_Great_Chasm ---|lift| n_Troll_Lifts
   n_Arden_Vul ---|contains| n_Forum_of_Arden_Vul
   n_Forum_of_Arden_Vul ---|passage| n_Square_Tower_East_of_Forum
@@ -199,9 +179,7 @@ flowchart LR
   n_Hall_of_Servants ---|teleporter| n_Thothian_Teleportation_Network
   n_Archontean_Parvis ---|teleporter| n_Thothian_Teleportation_Network
   n_Canyon_Vaults ---|teleporter| n_Thothian_Teleportation_Network
-  n_Glory_of_Thoth --- n_Goblintown
   n_Newmarket --- n_Temple_of_Thoth
-  n_Glory_of_Thoth --- n_Temple_of_Thoth
   n_Great_Hall --- n_Great_Pyramid
   n_Great_Chasm --- n_Tomb_of_Archon_Marius
 ```

@@ -323,6 +323,27 @@ def write_network_note():
     NETWORK_NOTE.write_text("\n".join(rows) + "\n", encoding="utf-8")
 
 
+STRUCTURAL_SIGNALS = ("seed", "explicit", "page-link")
+
+
+def drop_cooccurrence_only(edges):
+    """Remove edges attested ONLY by travel-seq / plan co-occurrence.
+
+    In this campaign the party teleports and back-tracks constantly, so
+    "mentioned in sequence" does not imply "adjacent" -- those signals create a
+    dense false mesh. Keep travel-seq/plan as CORROBORATION (they still add
+    weight to edges that have a structural basis: a curated seed, an explicit
+    `## Connections` entry, a location-page link, or an LLM citation), but never
+    let them stand up an edge on their own.
+    """
+    drop = [k for k, e in edges.items()
+            if not e.get("citation")
+            and not any(s in e["signals"] for s in STRUCTURAL_SIGNALS)]
+    for k in drop:
+        del edges[k]
+    return len(drop)
+
+
 def assign_tiers(edges):
     for e in edges.values():
         if e.get("suppressed"):
@@ -560,6 +581,7 @@ def cmd_build(args):
     if args.llm:
         run_llm_pass(edges, aliases, args.llm, args.eval)
     cached = apply_llm_cache(edges)   # merge all prior verified verdicts
+    dropped_cooc = drop_cooccurrence_only(edges)   # travel-seq/plan are corroboration-only
     comms, degree = detect_communities(edges)
     recs = edge_records(edges)
     graph_json = json.dumps({
@@ -580,6 +602,7 @@ def cmd_build(args):
     tiers = Counter_tier(recs)
     print(f"nodes: {len(aliases)}   edges: {len(recs)}   communities: {len(comms)}")
     print(f"  seeded(curated): {seeded}   suppressed(artifacts): {suppressed}   teleport-circles: {circles}")
+    print(f"  dropped co-occurrence-only (travel-seq/plan): {dropped_cooc}")
     print(f"  confirmed: {tiers['confirmed']}   candidate: {tiers['candidate']}   hint: {tiers['hint']}")
     print(f"  rag-eligible: {sum(1 for r in recs if r['rag_eligible'])}   (LLM-cited applied: {cached})")
     for w in warns:
