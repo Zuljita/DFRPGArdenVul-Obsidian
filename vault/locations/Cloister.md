@@ -16,6 +16,8 @@ A teleporter in a Rudishva command chamber south-east of the Beacon area leads t
 
 A secret passage leads from the Cloister to a slime pit room.
 
+The secret passages from this location lead toward the Behir caves.
+
 ## Sources
-- [[vault/sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
-- [[vault/notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]
+- [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
+- [[notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]

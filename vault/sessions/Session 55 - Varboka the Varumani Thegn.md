@@ -39,7 +39,7 @@ Dragonfly construct of Kerbog Khan
 
 Many [[factions/Varumani.md|Varumani]]
 
-Gorlen, Varumani lift operator
+[[npcs/Gorlen.md|Gorlen]], Varumani lift operator
 
 Trijax, Varumani lift operator
 
@@ -73,7 +73,7 @@ Poltergeist
 
 3 ogres
 
-Gribble, Goblin prince
+[[npcs/Gribble.md|Gribble]], Goblin prince
 
 Many goblins
 
@@ -144,7 +144,7 @@ The PCs plan to possibly use a Seeker spell on [[npcs/Asrotelion.md|Asrotelion]]
 
 <!-- BEGIN AUTO NAV -->
 - Previous Session: [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]]
-- Next Session: (none)
+- Next Session: [[sessions/Session 56 - War Against Kerbog Khan.md|Session 56 - War Against Kerbog Khan]]
 - Previous Discord Summary: [[notes/Discord Summary 2026-W22.md|Discord Summary 2026-W22]]
 - Next Discord Summary: [[notes/Discord Summary 2026-W23.md|Discord Summary 2026-W23]]
 - Original Source: https://dfwhiterock.blogspot.com/2026/06/dfrpg-arden-vul-session-55-varboka.html

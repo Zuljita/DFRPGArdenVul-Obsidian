@@ -30,7 +30,7 @@ This document details the interactions and research conducted by [[pcs/Vaelethro
 - [[Lost and Found]] was led by the wizard [[Balthazar the Blue]] and the paladin [[Grimley]].
 - [[Wicktrimmer]] founded the [[Rarities Factor]] in [[Gosterwick]] 12 years ago, expanding to [[Newmarket]] and [[Narsileon]].
 - The [[Rarities Factor]] offers banking, letters, and mule caravans at slightly cheaper prices than competitors, with a smaller geographical range.
-- [[Wicktrimmer]] is possibly the second richest person in [[Gosterwick]] and the richest [[goblin]].
+- [[Wicktrimmer]] is possibly the second richest person in [[Gosterwick]] and the richest goblin.
 - He is a collector of historical treasures and magic items.
 - He is friends with important people like the [[Green Lady]].
 - His reputation is solid; he seems to know everything in town, with various theories as to how.
@@ -57,7 +57,7 @@ This document details the interactions and research conducted by [[pcs/Vaelethro
 - [[Wicktrimmer]] accepts the proposal as a first draft, advising them not to sell any other found items and to include less valuable items for his collection.
 - He expresses personal interest in [[Larel's Mom's Rabbit Soup Recipe]] and other [[Larel]] artifacts, wanting to prove [[Larel]]'s existence to [[Balthazar the Blue]].
 - He reveals that [[Lady Alexia Basileon]] and a noble in [[Narsileon]] already hold rights of first and second refusal, respectively.
-- He offers a "right of third refusal" in exchange for a reliable [[Teleporter with 400 Mile Range|teleporter with 400 mile range]] or a [[Fast Flying Carpet|fast flying carpet]], citing the inefficiency of mule trains.
+- He offers a "right of third refusal" in exchange for a reliable [[Teleporter with 400 Mile Range|teleporter with 400 mile range]] or a fast flying carpet, citing the inefficiency of mule trains.
 - He confirms that concierge shopping services are possible for specific items, with messages reaching [[Narsileon]] in less than a day, but item delivery at mule train speed (around a month). Analyze Magic costs would be on the party.
 
 ### Further Research and Political Intel

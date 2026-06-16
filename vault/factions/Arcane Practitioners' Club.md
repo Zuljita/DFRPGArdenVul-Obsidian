@@ -18,8 +18,8 @@ The Club aims to provide magical services for a fee and operate as a center for 
 
 ## Services Offered
 - Access to a standard alchemy lab and a small research library.
-- Magical training and teaching of skills like [[Thaumatology]], [[Alchemy]], and [[Research]].
-- Identification of magic items using [[Magery]], *Detect Magic*, *Analyze Magic*, [[Alchemy]], and [[Mithric]].
+- Magical training and teaching of skills like Thaumatology, Alchemy, and Research.
+- Identification of magic items using Magery, *Detect Magic*, *Analyze Magic*, Alchemy, and [[Mithric]].
 - Spellcasting for hire.
 - Purchasing of some magic items, particularly scrolls and spellbooks with rare spells.
 - Recharging of Mage Power Items.

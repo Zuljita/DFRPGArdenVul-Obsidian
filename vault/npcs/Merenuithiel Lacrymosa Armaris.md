@@ -11,6 +11,7 @@ aliases:
   - Lacrymosa
   - Merenuithiel Lacrymosa Armaris, elven mercenary archer
   - Merenuithiel
+  - Lacrymosa Merenuithiel Armaris
 appears_in:
   - "Session 38 - Another Attack on the Temple of Set"
   - "Session 39 - Diving for the Yellow Card"
@@ -24,13 +25,13 @@ appears_in:
 ## Summary
 Merenuithiel Lacrymosa Armaris (known as **Lacrymosa**) is an elven mercenary archer affiliated with the [[factions/Grudge Brigade.md|Grudge Brigade]]. She was hired by the Right for Riches company for the invasion of the [[locations/Forum of Set.md|Forum of Set]] in Sessions 43a–43c.
 
-She was raised as an assassin at the [[locations/Temple of Tychias.md|Temple of Tychias]].
+She was raised as an assassin at the [[notes/Temple of Tychias.md|Temple of Tychias]].
 
 She was also recruited by the company to revisit the Great Cavern during Session 15.
 - Recruited alongside GOAT (a druid) to revisit the Great Cavern in [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15]].
 
 ## Abilities
-- Highly skilled archer with rapid rate of fire; under [[spells/Great Haste.md|Great Haste]] (cast by Vael) she was essentially a one-woman firing line.
+- Highly skilled archer with rapid rate of fire; under Great Haste (cast by Vael) she was essentially a one-woman firing line.
 - Carries alchemical grenades: Concussion, Flash, and Smoke nagetempos.
 - Drinks Agility and Strength potions before major engagements.
 - Has **Luck** (used it to survive Dobby's invisible backstab attempt in Session 43b).

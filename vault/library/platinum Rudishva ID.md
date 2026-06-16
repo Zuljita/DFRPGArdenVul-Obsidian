@@ -20,7 +20,7 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 40]]: The players discovered several items in a teleporter room, including an item shaped like a Rudishva hand.
+- [[sessions/Session 40 - Taking Command.md|Session 40]]: The players discovered several items in a teleporter room, including an item shaped like a Rudishva hand.
 
 ## Discord Discussions
 - [[Discord Summary 2025-W45]]

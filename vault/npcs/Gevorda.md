@@ -11,6 +11,8 @@ appears_in:
 ## Summary
 A Varumani warrior who came to negotiate with [[npcs/Kerbog Khan.md|Kerbog Khan]], was instead knocked unconscious by him, kidnapped, and subjected to unauthorized medical experiments by his [[monsters/Surgical Construct.md|Surgical Construct]]. Rescued by the Right for Riches company in Session 52b/53. Upon waking, her immediate goal was to kill the Khan.
 
+She is the sister of [[npcs/Varboka.md|Varboka the Thegn]].
+
 ## Events in Session 52b/53
 - Rescued after [[pcs/grudge-brigade/Sister Valya -Basilisk- Hushbreaker.md|Sister Valya]] cast Awaken on her.
 - Confirmed she had come to make a deal with the Khan; he betrayed and kidnapped her instead.

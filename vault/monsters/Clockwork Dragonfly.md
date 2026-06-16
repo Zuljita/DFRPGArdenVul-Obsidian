@@ -1,5 +1,5 @@
 ---
-title: "Clockwork Dragonfly with Blue Gem Eyes"
+title: "Clockwork Dragonfly"
 type: monster
 tags:
   - session/5
@@ -9,8 +9,10 @@ tags:
   - body_plan/vermin
   - sentience/mindless
 aliases:
+  - Clockwork Dragonfly with Blue Gem Eyes
+  - Dragonfly Construct
 ---
-# Clockwork Dragonfly with Blue Gem Eyes
+# Clockwork Dragonfly
 
 ## Summary
 A small, intricate clockwork construct resembling a dragonfly, with eyes made of blue gems.

@@ -6429,6 +6429,22 @@ def source_excerpt_supported(src: dict) -> bool:
     return _normalized_contains(read_text(path), excerpt)
 
 
+def source_is_self_citation(src: dict) -> bool:
+    """True if the source points back at the Active Action Items note itself.
+
+    The action-items note is regenerated from this inventory, so citing it as
+    evidence is circular — the excerpt always "matches" but proves nothing.
+    """
+    path_str = str(src.get("path", "")).strip()
+    if not path_str:
+        return False
+    path = Path(path_str) if path_str.startswith("/") else ROOT / path_str
+    try:
+        return path.resolve() == ACTION_ITEMS_PATH.resolve()
+    except OSError:
+        return False
+
+
 def verify_action_item_inventory(items: list[dict]) -> tuple[list[dict], list[dict]]:
     accepted: list[dict] = []
     rejected: list[dict] = []
@@ -6441,7 +6457,11 @@ def verify_action_item_inventory(items: list[dict]) -> tuple[list[dict], list[di
         if clean["id"] in seen:
             rejected.append({"item": clean, "reason": "duplicate id"})
             continue
-        supported_sources = [src for src in clean["sources"] if source_excerpt_supported(src)]
+        supported_sources = [
+            src
+            for src in clean["sources"]
+            if source_excerpt_supported(src) and not source_is_self_citation(src)
+        ]
         if not supported_sources:
             rejected.append({"item": clean, "reason": "no cited excerpt found in source files"})
             continue
@@ -6594,6 +6614,36 @@ def apply_action_item_inventory(apply_changes: bool = False) -> dict:
     }
 
 
+def _label_matches_page(path: Path, label: str) -> bool:
+    """True if ``label`` is a plausible display name for the page at ``path``.
+
+    A label is accepted when it equals — or is a token-subset of — the page's
+    filename stem, frontmatter ``title``, or any of its declared aliases. This
+    rejects LLM-hallucinated labels (e.g. ``M0arius`` for ``Marius Tricotor``)
+    while still allowing legitimate short forms (e.g. ``Vael`` for the page
+    ``Vaelethron 'Vael' Sunshadow``).
+    """
+    norm = lambda s: re.sub(r"\s+", " ", str(s)).strip().casefold()
+    candidates = {norm(path.stem)}
+    try:
+        text = read_text(path)
+    except Exception:
+        text = ""
+    if text:
+        title = parse_frontmatter(text).get("title")
+        if isinstance(title, str) and title.strip():
+            candidates.add(norm(title))
+        for alias in article_aliases(text):
+            candidates.add(norm(alias))
+    label_norm = norm(label)
+    if label_norm in candidates:
+        return True
+    label_tokens = set(re.findall(r"\w+", label_norm))
+    if not label_tokens:
+        return False
+    return any(label_tokens <= set(re.findall(r"\w+", cand)) for cand in candidates)
+
+
 def normalize_vault_wikilink(link: str) -> str | None:
     match = re.match(r"^\[\[([^|\]]+)(?:\|([^\]]+))?\]\]$", link.strip())
     if not match:
@@ -6608,6 +6658,8 @@ def normalize_vault_wikilink(link: str) -> str | None:
             target = stem_target
     if not path.exists():
         return None
+    if label and not _label_matches_page(path, label):
+        label = None
     return f"[[{target}|{label or Path(target).stem}]]"
 
 

@@ -9,7 +9,7 @@ Recent Additions
 
 - [[npcs/Sligo the Devious.md|Sligo the Devious]]
 - [[npcs/Leonidas of Archontos.md|Leonidas of Archontos]]
-- [[npcs/GOAT.md|GOAT]]
+- GOAT
 - [[npcs/Licinia the Seer.md|Licinia the Seer]]
 - [[npcs/Nyema.md|Nyema]]
 - [[npcs/Yrsko.md|Yrsko]]

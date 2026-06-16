@@ -13,7 +13,7 @@ appears_in:
 ## Theology
 The faith of [[npcs/Zodarrim.md|Zodarrim]] is a monotheistic religion practiced by dwarves. It appears to be the dominant, if not sole, religious institution for the dwarven people.
 - A sacred text exists that Uvash plans to include in his church ([[notes/Holy Book of Zorradrim.md|Holy Book of Zodarrim]]).
-- Uvash discusses the deity with his dwarven faithful in the [[locations/House of the Gods|House of the Gods]] in [[locations/Gosterwick|Gosterwick]].
+- Uvash discusses the deity with his dwarven faithful in the [[notes/House of the Gods.md|House of the Gods]] in [[locations/Gosterwick|Gosterwick]].
 - Uvash has attempted to convert humans to dwarven monotheism.
 - Uvash has been observed attempting to convert humans to the dwarven monotheistic faith.
 - [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15]] — Uvash attempted to convert humans to dwarven monotheism.

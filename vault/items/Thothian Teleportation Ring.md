@@ -61,4 +61,4 @@ Thothian Teleportation Rings are magical devices created by the priests of [[Tho
 - [[items/Arcanum.md|Arcanum]] - used to enrich the activation squares
 - [[locations/Library of Thoth.md|Library of Thoth]]
 - [[locations/Beacon.md|Beacon]]
-- [[factions/Thoth.md|Thoth]]
+- [[npcs/Thoth.md|Thoth]]

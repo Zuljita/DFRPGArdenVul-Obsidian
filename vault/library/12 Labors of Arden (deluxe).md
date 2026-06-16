@@ -20,4 +20,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 13]]: The party discovered a well-preserved deluxe folio of *The Twelve Labors of Arden* near four ancient bodies in a room found via stairs to the east of the big room.
+- [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13]]: The party discovered a well-preserved deluxe folio of *The Twelve Labors of Arden* near four ancient bodies in a room found via stairs to the east of the big room.

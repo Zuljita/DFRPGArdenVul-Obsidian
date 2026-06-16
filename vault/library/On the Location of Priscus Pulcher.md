@@ -20,4 +20,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 44]]: Vael used the *Copy* spell to create a duplicate of the book after receiving a list of available works from Alexandros.
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44]]: Vael used the *Copy* spell to create a duplicate of the book after receiving a list of available works from Alexandros.
