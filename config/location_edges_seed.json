@@ -87,5 +87,32 @@
     {"a": "Beacon", "b": "Arena", "reason": "Beacon's pool only shows an Arena CAMERA feed (surveillance), not a teleporter/passage. Beacon teleporters reach only the Rudishva Bastion and the vault/Cloister (GM 2026-06)."},
     {"a": "Beacon", "b": "Sundered Span", "reason": "Not a Beacon teleporter destination (GM 2026-06)."},
     {"a": "Beacon", "b": "Great Chasm", "reason": "Beacon teleporter does not reach a chasm garden island; it reaches the Rudishva Bastion on the chasm floor instead (GM 2026-06)."}
-  ]
+  ],
+  "teleport_network": {
+    "_doc": "Thothian teleportation-circle network catalogued by Vallium (Greybrown), 2026-05-09. Any circle reaches any other by dialling the destination's six-colour code. Modelled as a hub: each circle <-> the hub. Circle names matching a vault location resolve to it; others are virtual nodes aliased by their code.",
+    "hub": "Thothian Teleportation Network",
+    "edge_type": "teleporter",
+    "circles": [
+      {"name": "Archon's Palace", "code": "GR-RE-YE-WH-BK-BL", "status": "located", "hint": "Circle on the Arden Vul Ruins map, on the island with the ruins of the Archon's Palace."},
+      {"name": "Citadel Donjon Cellar", "code": "GR-RE-YE-BL-BK-WH", "status": "scryed-unvisited", "hint": "Citadel of Arden Vul Donjon cellar; near surface, windowless stone room, unrepaired, stairs up."},
+      {"name": "Thothian Administration Building Cellar", "code": "GR-WH-RE-BL-BK-YE", "status": "located", "hint": "Probably the Lankios basement teleportation circle."},
+      {"name": "Hall of Seeing", "code": "WH-YE-BL-RE-BK-GR", "status": "located", "hint": "Probably the Well of Light map circle, found in Session 22."},
+      {"name": "Summoning Chamber", "code": "WH-YE-BL-GR-RE-BK", "status": "located", "hint": "Probably the West-of-Well-of-Light map (pentagram) beyond the No Mana Zone."},
+      {"name": "Glory of Thoth", "code": "YE-BL-GR-RE-BK-WH", "status": "located", "hint": "Circle in the room NE of the Glory of Thoth statue; goblin territory now, overseen by Bottleneck."},
+      {"name": "Halls of Thoth", "code": "YE-BL-GR-WH-BK-RE", "status": "confirmed", "hint": "Halls of Thoth Central map, outside Deino's chambers. Confirmed."},
+      {"name": "Bridge of Set", "code": "BK-RE-BL-WH-YE-GR", "status": "confirmed", "hint": "Forum of Set South Central map, south of the Red Bridge of Set. Confirmed."},
+      {"name": "Ancient Hall of Set", "code": "BK-RE-BL-GR-YE-WH", "status": "unknown", "hint": "Unknown location; not scryed."},
+      {"name": "Hall of Forty Pillars", "code": "RE-GR-WH-BL-BK-YE", "status": "scryed-unvisited", "hint": "Scryed: <600-700ft down, dark rectangular room."},
+      {"name": "Sanctum of Thoth", "code": "RE-GR-WH-BK-BL-YE", "status": "scryed-unvisited", "hint": "Scryed: <600-700ft down, near the Well of Light, corner of a rectangular room."},
+      {"name": "Coliseum", "code": "BL-GR-BK-YE-WH-RE", "status": "located", "hint": "Probably the Arena and Troll Lift map circle, near the Arena Corner Bar."},
+      {"name": "The Lady's Asylum", "code": "BL-GR-BK-WH-RE-YE", "status": "scryed-unvisited", "hint": "Scryed: 600-700ft down from the Well of Light, snow and ice."},
+      {"name": "Deep Shrine of Thoth", "code": "YE-RE-GR-BL-BK-WH", "status": "unknown", "hint": "Unknown location; not scryed."},
+      {"name": "Chamber of Several Uses", "code": "RE-BK-BL-GR-YE-WH", "status": "scryed-unvisited", "hint": "Scryed: down a lot, dark, well in the room."},
+      {"name": "Archontean Pediment", "code": "BL-YE-GR-RE-BK-WH", "status": "unknown", "hint": "Unknown location; not scryed."},
+      {"name": "Hall of Shrines", "code": "YE-BL-RE-GR-BK-WH", "status": "confirmed", "hint": "Halls of Shrines map, by the Pneuma statue. Confirmed."},
+      {"name": "Hall of Servants", "code": "BK-RE-YE-GR-BL-WH", "status": "unknown", "hint": "Unknown location; not scryed."},
+      {"name": "Archontean Parvis", "code": "RE-BK-YE-BL-GR-WH", "status": "scryed-unvisited", "hint": "Scryed: ~500ft down from the Well of Light, dark, cobblestones, huge room, stairs down, cliff edge, moving water."},
+      {"name": "Canyon Vaults", "code": "YE-RE-BL-GR-BK-WH", "status": "unknown", "hint": "Unknown location; not scryed."}
+    ]
+  }
 }

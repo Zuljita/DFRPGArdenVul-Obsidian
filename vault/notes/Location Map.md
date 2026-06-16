@@ -11,6 +11,27 @@ Auto-generated adjacency map of Arden Vul locations, clustered by graph communit
 
 ```mermaid
 flowchart LR
+  subgraph c_n_Thothian_Teleportation_Network["Thothian Teleportation Network cluster"]
+    n_Archon_s_Palace["Archon's Palace"]
+    n_Thothian_Teleportation_Network["Thothian Teleportation Network"]
+    n_Citadel_Donjon_Cellar["Citadel Donjon Cellar"]
+    n_Thothian_Administration_Building_Cellar["Thothian Administration Building Cellar"]
+    n_Hall_of_Seeing["Hall of Seeing"]
+    n_Summoning_Chamber["Summoning Chamber"]
+    n_Halls_of_Thoth["Halls of Thoth"]
+    n_Bridge_of_Set["Bridge of Set"]
+    n_Ancient_Hall_of_Set["Ancient Hall of Set"]
+    n_Sanctum_of_Thoth["Sanctum of Thoth"]
+    n_Coliseum["Coliseum"]
+    n_The_Lady_s_Asylum["The Lady's Asylum"]
+    n_Deep_Shrine_of_Thoth["Deep Shrine of Thoth"]
+    n_Chamber_of_Several_Uses["Chamber of Several Uses"]
+    n_Archontean_Pediment["Archontean Pediment"]
+    n_Hall_of_Shrines["Hall of Shrines"]
+    n_Hall_of_Servants["Hall of Servants"]
+    n_Archontean_Parvis["Archontean Parvis"]
+    n_Canyon_Vaults["Canyon Vaults"]
+  end
   subgraph c_n_Great_Cavern["Great Cavern cluster"]
     n_Halls_of_the_Troll_Thegn["Halls of the Troll Thegn"]
     n_Troll_Lifts["Troll Lifts"]
@@ -28,23 +49,21 @@ flowchart LR
     n_Goblin_Market["Goblin Market"]
     n_Sighing_Stair["Sighing Stair"]
   end
-  subgraph c_n_Beacon["Beacon cluster"]
-    n_Great_Hall["Great Hall"]
-    n_Great_Pyramid["Great Pyramid"]
-    n_Beacon["Beacon"]
-    n_Cloister["Cloister"]
-    n_Rudishva_Bastion["Rudishva Bastion"]
-    n_Tomb_of_Archon_Marius["Tomb of Archon Marius"]
-  end
-  subgraph c_n_Newmarket["Newmarket cluster"]
-    n_Narsileon["Narsileon"]
-    n_Newmarket["Newmarket"]
-  end
   subgraph c_n_Pyramid_of_Thoth["Pyramid of Thoth cluster"]
     n_Forum_of_Arden_Vul["Forum of Arden Vul"]
     n_Pyramid_of_Thoth["Pyramid of Thoth"]
     n_Tower_of_Scrutiny["Tower of Scrutiny"]
     n_Square_Tower_East_of_Forum["Square Tower (East of Forum)"]
+  end
+  subgraph c_n_Newmarket["Newmarket cluster"]
+    n_Narsileon["Narsileon"]
+    n_Newmarket["Newmarket"]
+  end
+  subgraph c_n_Beacon["Beacon cluster"]
+    n_Beacon["Beacon"]
+    n_Cloister["Cloister"]
+    n_Rudishva_Bastion["Rudishva Bastion"]
+    n_Tomb_of_Archon_Marius["Tomb of Archon Marius"]
   end
   subgraph c_n_Cliff_Face["Cliff Face cluster"]
     n_Cliff_Face["Cliff Face"]
@@ -123,12 +142,29 @@ flowchart LR
   n_Chasm_Floor ---|passage| n_Rudishva_Bastion
   n_Chasm_Floor ---|passage| n_Great_Chasm
   n_Cloister ---|passage| n_Tomb_of_Archon_Marius
+  n_Archon_s_Palace ---|teleporter| n_Thothian_Teleportation_Network
+  n_Citadel_Donjon_Cellar ---|teleporter| n_Thothian_Teleportation_Network
+  n_Thothian_Administration_Building_Cellar ---|teleporter| n_Thothian_Teleportation_Network
+  n_Hall_of_Seeing ---|teleporter| n_Thothian_Teleportation_Network
+  n_Summoning_Chamber ---|teleporter| n_Thothian_Teleportation_Network
+  n_Glory_of_Thoth ---|teleporter| n_Thothian_Teleportation_Network
+  n_Halls_of_Thoth ---|teleporter| n_Thothian_Teleportation_Network
+  n_Bridge_of_Set ---|teleporter| n_Thothian_Teleportation_Network
+  n_Ancient_Hall_of_Set ---|teleporter| n_Thothian_Teleportation_Network
+  n_Hall_of_Forty_Pillars ---|teleporter| n_Thothian_Teleportation_Network
+  n_Sanctum_of_Thoth ---|teleporter| n_Thothian_Teleportation_Network
+  n_Coliseum ---|teleporter| n_Thothian_Teleportation_Network
+  n_The_Lady_s_Asylum ---|teleporter| n_Thothian_Teleportation_Network
+  n_Deep_Shrine_of_Thoth ---|teleporter| n_Thothian_Teleportation_Network
+  n_Chamber_of_Several_Uses ---|teleporter| n_Thothian_Teleportation_Network
+  n_Archontean_Pediment ---|teleporter| n_Thothian_Teleportation_Network
+  n_Hall_of_Shrines ---|teleporter| n_Thothian_Teleportation_Network
+  n_Hall_of_Servants ---|teleporter| n_Thothian_Teleportation_Network
+  n_Archontean_Parvis ---|teleporter| n_Thothian_Teleportation_Network
+  n_Canyon_Vaults ---|teleporter| n_Thothian_Teleportation_Network
   n_Glory_of_Thoth --- n_Goblintown
   n_Forum_of_Set --- n_Red_Bridge_of_Set
   n_Newmarket --- n_Temple_of_Thoth
-  n_Glory_of_Thoth --- n_Upper_Goblintown
-  n_Howling_Caves --- n_Upper_Goblintown
-  n_Long_Stair --- n_Upper_Goblintown
   n_Glory_of_Thoth --- n_Temple_of_Thoth
   n_Great_Hall --- n_Great_Pyramid
   n_Great_Chasm --- n_Tomb_of_Archon_Marius

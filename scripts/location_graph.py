@@ -51,6 +51,7 @@ OUT_JSON = ROOT / "data" / "automation" / "location_graph.json"
 LLM_CACHE = ROOT / "data" / "automation" / "location_graph_llm_cache.json"
 SEED_FILE = ROOT / "config" / "location_edges_seed.json"
 MAP_NOTE = VAULT / "notes" / "Location Map.md"
+NETWORK_NOTE = VAULT / "notes" / "Thothian Teleportation Circle Network.md"
 
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]")
 DIRECTION_RE = re.compile(
@@ -102,13 +103,17 @@ def frontmatter_aliases(text: str) -> list[str]:
 
 def build_lexicon():
     aliases: dict[str, set[str]] = {}
-    link_surface: dict[str, str] = {}
     for p in sorted(VAULT.glob("locations/*.md")):
         canon = p.stem
-        names = {canon, *frontmatter_aliases(read(p))}
-        aliases[canon] = names
+        aliases[canon] = {canon, *frontmatter_aliases(read(p))}
+    # Canon-first resolution (matches the API): a page's own name always wins,
+    # then aliases fill only the gaps -- so an alias can't shadow a real page.
+    link_surface: dict[str, str] = {}
+    for canon in aliases:
+        link_surface[canon.lower()] = canon
+    for canon, names in aliases.items():
         for n in names:
-            link_surface[n.lower()] = canon
+            link_surface.setdefault(n.lower(), canon)
     return aliases, link_surface
 
 
@@ -242,6 +247,68 @@ def apply_seed(edges, link_surface):
             e["suppressed"] = True
             rejected += 1
     return added, rejected, warnings
+
+
+def _register_virtual_node(aliases, link_surface, name, extra_aliases=()):
+    aliases.setdefault(name, set()).add(name)
+    aliases[name].update(extra_aliases)
+    link_surface.setdefault(name.lower(), name)
+    for a in extra_aliases:
+        link_surface.setdefault(str(a).lower(), name)
+    return name
+
+
+def apply_teleport_network(edges, aliases, link_surface):
+    """Wire the Thothian teleportation-circle network as a hub: every circle
+    connects to one hub node, so any circle reaches any other in two hops
+    (circle -> network -> circle). Circle names matching a real location page
+    resolve to it; the rest become virtual nodes keyed by their circle name and
+    aliased by their six-colour code."""
+    if not SEED_FILE.exists():
+        return 0
+    net = json.loads(read(SEED_FILE)).get("teleport_network")
+    if not net:
+        return 0
+    hub = net["hub"]
+    etype = net.get("edge_type", "teleporter")
+    _register_virtual_node(aliases, link_surface, hub)
+    n = 0
+    for c in net.get("circles", []):
+        name, code = c["name"], c.get("code", "")
+        canon = link_surface.get(name.lower())
+        if canon:
+            if code:
+                aliases[canon].add(code)
+                link_surface.setdefault(code.lower(), canon)
+        else:
+            canon = _register_virtual_node(aliases, link_surface, name, [code] if code else [])
+        add_edge(edges, canon, hub, "seed", "seed:thothian-network")
+        e = edges[tuple(sorted((canon, hub)))]
+        e["type"] = etype
+        e["access"] = ("Thothian teleportation circle: from any circle in the network, "
+                       "dial the destination's six-colour code.")
+        bits = [b for b in (code, c.get("hint", ""), f"[{c['status']}]" if c.get("status") else "") if b]
+        e["citation"] = {"curated": " — ".join(bits)}
+        n += 1
+    return n
+
+
+def write_network_note():
+    if not SEED_FILE.exists():
+        return
+    net = json.loads(read(SEED_FILE)).get("teleport_network")
+    if not net:
+        return
+    rows = ["---", "tags:", "  - note", "  - reference",
+            "generated_by: scripts/location_graph.py", "---", "",
+            "# Thothian Teleportation Circle Network", "",
+            "Dial a destination's six-colour code from any circle in the network to "
+            "teleport there. Codes and locations as catalogued by Vallium (Greybrown).", "",
+            "| Code | Location | Status | Notes |", "|---|---|---|---|"]
+    for c in net.get("circles", []):
+        rows.append(f"| `{c.get('code','')}` | {c['name']} | {c.get('status','')} | "
+                    f"{c.get('hint','').replace('|','/')} |")
+    NETWORK_NOTE.write_text("\n".join(rows) + "\n", encoding="utf-8")
 
 
 def assign_tiers(edges):
@@ -476,6 +543,7 @@ def cmd_build(args):
     aliases, link_surface = build_lexicon()
     edges = collect_deterministic(aliases, link_surface)
     seeded, suppressed, warns = apply_seed(edges, link_surface)  # curated trusted layer
+    circles = apply_teleport_network(edges, aliases, link_surface)
     assign_tiers(edges)
     if args.llm:
         run_llm_pass(edges, aliases, args.llm, args.eval)
@@ -495,10 +563,11 @@ def cmd_build(args):
         pub.write_text(graph_json, encoding="utf-8")
         print(f"published graph -> {pub}")
     write_map_note(edges, comms, degree)
+    write_network_note()
 
     tiers = Counter_tier(recs)
     print(f"nodes: {len(aliases)}   edges: {len(recs)}   communities: {len(comms)}")
-    print(f"  seeded(curated): {seeded}   suppressed(artifacts): {suppressed}")
+    print(f"  seeded(curated): {seeded}   suppressed(artifacts): {suppressed}   teleport-circles: {circles}")
     print(f"  confirmed: {tiers['confirmed']}   candidate: {tiers['candidate']}   hint: {tiers['hint']}")
     print(f"  rag-eligible: {sum(1 for r in recs if r['rag_eligible'])}   (LLM-cited applied: {cached})")
     for w in warns:
