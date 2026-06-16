@@ -11,47 +11,48 @@ Auto-generated adjacency map of Arden Vul locations, clustered by graph communit
 
 ```mermaid
 flowchart LR
-  subgraph c_n_Goblin_Forum["Goblin Forum cluster"]
-    n_Goblin_Forum["Goblin Forum"]
-    n_Red_Bridge_of_Set["Red Bridge of Set"]
-    n_Sighing_Stair["Sighing Stair"]
-    n_Temple_of_Set["Temple of Set"]
-    n_Upper_Goblintown["Upper Goblintown"]
-    n_Cloister["Cloister"]
-    n_Tomb_of_Archon_Marius["Tomb of Archon Marius"]
-  end
   subgraph c_n_Glory_of_Thoth["Glory of Thoth cluster"]
     n_Forum_of_Arden_Vul["Forum of Arden Vul"]
     n_Pyramid_of_Thoth["Pyramid of Thoth"]
     n_Tower_of_Scrutiny["Tower of Scrutiny"]
-    n_Glory_of_Thoth["Glory of Thoth"]
-    n_Great_Hall["Great Hall"]
-    n_Goblintown["Goblintown"]
+    n_Goblin_Forum["Goblin Forum"]
     n_Goblin_Market["Goblin Market"]
+    n_Great_Hall["Great Hall"]
+    n_Great_Pyramid["Great Pyramid"]
+    n_Cliff_Face["Cliff Face"]
+    n_Howling_Caves["Howling Caves"]
+    n_Glory_of_Thoth["Glory of Thoth"]
+    n_Upper_Goblintown["Upper Goblintown"]
+    n_Goblintown["Goblintown"]
     n_Square_Tower_East_of_Forum["Square Tower (East of Forum)"]
   end
-  subgraph c_n_Great_Cavern["Great Cavern cluster"]
-    n_Halls_of_the_Troll_Thegn["Halls of the Troll Thegn"]
-    n_Troll_Lifts["Troll Lifts"]
-    n_Great_Chasm["Great Chasm"]
-    n_Varumani_Lifts["Varumani Lifts"]
-    n_Great_Cavern["Great Cavern"]
-    n_Waterfall["Waterfall"]
-    n_Sundered_Span["Sundered Span"]
+  subgraph c_n_Beacon["Beacon cluster"]
+    n_Beacon["Beacon"]
+    n_Cloister["Cloister"]
+    n_Rudishva_Bastion["Rudishva Bastion"]
+    n_Chasm_Floor["Chasm Floor"]
+    n_Tomb_of_Archon_Marius["Tomb of Archon Marius"]
   end
   subgraph c_n_Newmarket["Newmarket cluster"]
     n_Narsileon["Narsileon"]
     n_Newmarket["Newmarket"]
   end
-  subgraph c_n_Cliff_Face["Cliff Face cluster"]
-    n_Cliff_Face["Cliff Face"]
-    n_Howling_Caves["Howling Caves"]
+  subgraph c_n_Great_Chasm["Great Chasm cluster"]
+    n_Halls_of_the_Troll_Thegn["Halls of the Troll Thegn"]
+    n_Troll_Lifts["Troll Lifts"]
+    n_Great_Chasm["Great Chasm"]
+    n_Varumani_Lifts["Varumani Lifts"]
+    n_Sundered_Span["Sundered Span"]
   end
   subgraph c_n_Hubs["Hubs cluster"]
     n_Arden_Vul["Arden Vul"]
     n_Long_Stair["Long Stair"]
     n_Gosterwick["Gosterwick"]
-    n_Beacon["Beacon"]
+    n_Great_Cavern["Great Cavern"]
+  end
+  subgraph c_n_Temple_of_Set["Temple of Set cluster"]
+    n_Sighing_Stair["Sighing Stair"]
+    n_Temple_of_Set["Temple of Set"]
   end
   subgraph c_n_The_Obsidian_Gates["The Obsidian Gates cluster"]
     n_Hall_of_Forty_Pillars["Hall of Forty Pillars"]
@@ -75,12 +76,10 @@ flowchart LR
   n_Gosterwick ---|road| n_Newmarket
   n_Cliff_Face ---|climb| n_Long_Stair
   n_Arena ---|passage| n_Inn_of_the_Lost
-  n_Arena ---|teleporter| n_Beacon
   n_Glory_of_Thoth ---|stairs| n_Pyramid_of_Thoth
   n_Glory_of_Thoth ---|passage| n_Goblin_Market
   n_Arden_Vul ---|climb| n_Cliff_Face
   n_Upper_Goblintown ---|passage| n_Well_of_Light
-  n_Beacon ---|teleporter| n_Great_Chasm
   n_Gosterwick ---|road| n_Narsileon
   n_Goblin_Forum ---|passage| n_Upper_Goblintown
   n_Goblin_Forum ---|passage| n_Goblin_Market
@@ -98,7 +97,6 @@ flowchart LR
   n_Forum_of_Arden_Vul ---|passage| n_Tower_of_Scrutiny
   n_Goblin_Forum ---|stairs| n_Sighing_Stair
   n_Southern_Necropolis_of_Set ---|passage| n_Tomb_of_Theskalon
-  n_Beacon ---|teleporter| n_Sundered_Span
   n_Cliff_Face ---|passage| n_Great_Cavern
   n_Goblin_Market ---|passage| n_Well_of_Light
   n_Azure_Keep ---|contains| n_Gosterwick
@@ -118,6 +116,9 @@ flowchart LR
   n_Forum_of_Arden_Vul ---|passage| n_Square_Tower_East_of_Forum
   n_Arena ---|lift| n_Troll_Lifts
   n_Sundered_Span ---|passage| n_Troll_Lifts
+  n_Beacon ---|teleporter| n_Rudishva_Bastion
+  n_Chasm_Floor ---|passage| n_Rudishva_Bastion
+  n_Chasm_Floor ---|passage| n_Great_Chasm
   n_Cloister ---|passage| n_Tomb_of_Archon_Marius
   n_Glory_of_Thoth --- n_Goblintown
   n_Newmarket --- n_Temple_of_Thoth

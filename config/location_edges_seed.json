@@ -50,10 +50,10 @@
     {"a": "Arena", "b": "Inn of the Lost", "type": "passage", "note": "Inn of the Lost is east of the Arena stalls through an unlocked door (explicit Connections)."},
 
     {"a": "Gosterwick", "b": "Beacon", "type": "teleporter", "note": "Rug of Instant Access links the Arcane Practitioners' Club in Gosterwick to the Beacon (Sessions 51-56)."},
-    {"a": "Beacon", "b": "Cloister", "type": "teleporter", "note": "Rudishva teleportation pad from the Beacon to the nearby Cloister (Session 45; Vallium S55)."},
-    {"a": "Beacon", "b": "Arena", "type": "teleporter", "note": "One of four teleporters in the Rudishva command chamber SE of the Beacon leads to the Arena (Session 45/46)."},
-    {"a": "Beacon", "b": "Sundered Span", "type": "teleporter", "note": "Beacon command-chamber teleporter to the Sundered Span (Session 45)."},
-    {"a": "Beacon", "b": "Great Chasm", "type": "teleporter", "access": "Teleporter lands on the floating garden island in the middle of the chasm; leaving the island requires the cross-chasm ferry (max 4 per trip) or flight.", "note": "Teleporter to the floating garden island in the Great Chasm (Session 45)."},
+    {"a": "Beacon", "b": "Cloister", "type": "teleporter", "note": "The Beacon teleporter pads reach only two places; one is the vault/Cloister area (Session 45; Vallium S55; GM 2026-06)."},
+    {"a": "Beacon", "b": "Rudishva Bastion", "type": "teleporter", "note": "The Beacon's other teleporter pad reaches the Rudishva Bastion on the chasm floor (GM 2026-06)."},
+    {"a": "Rudishva Bastion", "b": "Chasm Floor", "type": "passage", "note": "The Rudishva Bastion sits on the Chasm Floor."},
+    {"a": "Chasm Floor", "b": "Great Chasm", "type": "passage", "access": "The Chasm Floor is the bottom of the vertical chasm; reaching it otherwise means descent/diving or flight.", "note": "The Chasm Floor is the bottom level of the Great Chasm."},
     {"a": "Cloister", "b": "Tomb of Archon Marius", "type": "passage", "directed": false, "note": "Reached via the Cloister secret passage, north along the water (Vallium S55; Session 54)."},
 
     {"a": "Tomb of Theskalon", "b": "Southern Necropolis of Set", "type": "passage", "note": "Explicit Connections."},
@@ -83,6 +83,9 @@
     {"a": "Arden Vul", "b": "Upper Goblintown", "reason": "Surface-to-deep recap co-occurrence; multi-hop."},
     {"a": "Arden Vul", "b": "Newmarket", "reason": "Newmarket connects to Gosterwick, not directly to the ruins."},
     {"a": "Gosterwick", "b": "Upper Goblintown", "reason": "Town-to-deep-dungeon recap/staging artifact."},
-    {"a": "Glory of Thoth", "b": "Great Chasm", "reason": "No walkable passage: Glory of Thoth is ~1000ft ABOVE the chasm floor/lifts. Reaching the chasm needs the lifts; this false edge let routes 'walk' up the void."}
+    {"a": "Glory of Thoth", "b": "Great Chasm", "reason": "No walkable passage: Glory of Thoth is ~1000ft ABOVE the chasm floor/lifts. Reaching the chasm needs the lifts; this false edge let routes 'walk' up the void."},
+    {"a": "Beacon", "b": "Arena", "reason": "Beacon's pool only shows an Arena CAMERA feed (surveillance), not a teleporter/passage. Beacon teleporters reach only the Rudishva Bastion and the vault/Cloister (GM 2026-06)."},
+    {"a": "Beacon", "b": "Sundered Span", "reason": "Not a Beacon teleporter destination (GM 2026-06)."},
+    {"a": "Beacon", "b": "Great Chasm", "reason": "Beacon teleporter does not reach a chasm garden island; it reaches the Rudishva Bastion on the chasm floor instead (GM 2026-06)."}
   ]
 }
