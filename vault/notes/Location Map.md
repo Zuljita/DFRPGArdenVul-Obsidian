@@ -15,14 +15,14 @@ flowchart LR
     n_Forum_of_Arden_Vul["Forum of Arden Vul"]
     n_Pyramid_of_Thoth["Pyramid of Thoth"]
     n_Tower_of_Scrutiny["Tower of Scrutiny"]
-    n_Goblin_Forum["Goblin Forum"]
+    n_Forum_of_Set["Forum of Set"]
+    n_Upper_Goblintown["Upper Goblintown"]
     n_Goblin_Market["Goblin Market"]
     n_Great_Hall["Great Hall"]
     n_Great_Pyramid["Great Pyramid"]
     n_Cliff_Face["Cliff Face"]
     n_Howling_Caves["Howling Caves"]
     n_Glory_of_Thoth["Glory of Thoth"]
-    n_Upper_Goblintown["Upper Goblintown"]
     n_Goblintown["Goblintown"]
     n_Square_Tower_East_of_Forum["Square Tower (East of Forum)"]
   end
@@ -80,9 +80,10 @@ flowchart LR
   n_Glory_of_Thoth ---|passage| n_Goblin_Market
   n_Arden_Vul ---|climb| n_Cliff_Face
   n_Upper_Goblintown ---|passage| n_Well_of_Light
+  n_Forum_of_Set ---|passage| n_Upper_Goblintown
   n_Gosterwick ---|road| n_Narsileon
-  n_Goblin_Forum ---|passage| n_Upper_Goblintown
-  n_Goblin_Forum ---|passage| n_Goblin_Market
+  n_Forum_of_Set ---|passage| n_Temple_of_Set
+  n_Forum_of_Set ---|passage| n_Goblin_Market
   n_Howling_Caves ---|passage| n_Well_of_Light
   n_Cliff_Face ---|passage| n_Howling_Caves
   n_Arden_Vul ---|contains| n_Obelisk
@@ -91,11 +92,10 @@ flowchart LR
   n_Halls_of_the_Troll_Thegn ---|lift| n_Troll_Lifts
   n_Glory_of_Thoth ---|passage| n_Great_Hall
   n_Great_Cavern ---|passage| n_Great_Chasm
-  n_Goblin_Forum ---|passage| n_Temple_of_Set
   n_Great_Cavern ---|passage| n_Waterfall
   n_Forum_of_Arden_Vul ---|passage| n_Pyramid_of_Thoth
   n_Forum_of_Arden_Vul ---|passage| n_Tower_of_Scrutiny
-  n_Goblin_Forum ---|stairs| n_Sighing_Stair
+  n_Forum_of_Set ---|stairs| n_Sighing_Stair
   n_Southern_Necropolis_of_Set ---|passage| n_Tomb_of_Theskalon
   n_Cliff_Face ---|passage| n_Great_Cavern
   n_Goblin_Market ---|passage| n_Well_of_Light
@@ -110,7 +110,7 @@ flowchart LR
   n_Gosterwick ---|contains| n_Totey_Lake
   n_Gosterwick ---|contains| n_Upper_Market
   n_Gosterwick ---|road| n_Vetucaster
-  n_Goblin_Forum --- n_Great_Cavern
+  n_Forum_of_Set --- n_Great_Cavern
   n_Great_Chasm ---|lift| n_Troll_Lifts
   n_Arden_Vul ---|contains| n_Forum_of_Arden_Vul
   n_Forum_of_Arden_Vul ---|passage| n_Square_Tower_East_of_Forum
@@ -121,12 +121,12 @@ flowchart LR
   n_Chasm_Floor ---|passage| n_Great_Chasm
   n_Cloister ---|passage| n_Tomb_of_Archon_Marius
   n_Glory_of_Thoth --- n_Goblintown
+  n_Forum_of_Set --- n_Red_Bridge_of_Set
   n_Newmarket --- n_Temple_of_Thoth
   n_Glory_of_Thoth --- n_Upper_Goblintown
   n_Howling_Caves --- n_Upper_Goblintown
   n_Long_Stair --- n_Upper_Goblintown
   n_Glory_of_Thoth --- n_Temple_of_Thoth
   n_Great_Hall --- n_Great_Pyramid
-  n_Goblin_Forum --- n_Red_Bridge_of_Set
   n_Great_Chasm --- n_Tomb_of_Archon_Marius
 ```

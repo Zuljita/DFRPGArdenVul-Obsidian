@@ -23,7 +23,7 @@ Warm, rainy
 ## Significant NPCs
 - [[npcs/Tresti.md|Tresti Iredell]], Half-Elven wizard of the Rarities Factor
 - [[npcs/Temrin.md|Temrin]], Goblin Royal Artist
-- [[npcs/Domo Gribble.md|Gribble]], Lord of the [[locations/Goblin Forum.md|Goblin Forum]]
+- [[npcs/Domo Gribble.md|Gribble]], Lord of the [[locations/Forum of Set.md|Goblin Forum]]
 - Many goblins
 - [[npcs/Dworm.md|Dworm]], human guard/merchant
 - [[npcs/Yoburra.md|Yoburra]], Varumani ambassador
@@ -50,17 +50,17 @@ Warm, rainy
 - Various summoned goats, bats, bears, and an elephant
 
 ## The Plan
-- Sell food in the [[locations/Goblin Forum.md|Goblin Forum]]
+- Sell food in the [[locations/Forum of Set.md|Goblin Forum]]
 - Visit the [[locations/Arena.md|Arena]] and learn things
 
 ## What Happened
-After finding the [[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]] poking around above the [[locations/Beacon.md|Beacon]], Vael got worried and started looking for a way to prevent them from scrying or teleporting in. He asked Ioannes to help with the research, and Ioannes found a text suggesting lead-lined walls as a solution for both problems. The party split up, with Vael, Vallium, Uvash, and Basil looking for large quantities of lead roofing tiles, while Ioannes would make the weekly food delivery to the [[locations/Goblin Forum.md|Goblin Forum]], then head down to the [[locations/Arena.md|Arena]] to gather information on the Rudishva Command Bracelet that [[npcs/Temrin.md|Temrin]]'s map indicated was there.
+After finding the [[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]] poking around above the [[locations/Beacon.md|Beacon]], Vael got worried and started looking for a way to prevent them from scrying or teleporting in. He asked Ioannes to help with the research, and Ioannes found a text suggesting lead-lined walls as a solution for both problems. The party split up, with Vael, Vallium, Uvash, and Basil looking for large quantities of lead roofing tiles, while Ioannes would make the weekly food delivery to the [[locations/Forum of Set.md|Goblin Forum]], then head down to the [[locations/Arena.md|Arena]] to gather information on the Rudishva Command Bracelet that [[npcs/Temrin.md|Temrin]]'s map indicated was there.
 
 Ioannes hired the goblin mercenary GOAT for help, then went down to the Grain Hall and bought a wheelbarrow load of assorted foods. Without a Blink spell to easily get from the [[locations/Beacon.md|Beacon]] to the surface, they decided to just hike from [[locations/Gosterwick.md|Gosterwick]] to the [[locations/Cliff Face.md|Cliff Face]], then walk up the [[locations/Long Stair.md|Long Stair]] to the ruins. GOAT summoned a goat to pull the wheelbarrow, a bat swarm for scouting, and a couple of cave bears for protection.
 
 After trudging though the rain for ten miles then climbing the [[locations/Long Stair.md|Long Stair]], the duo walked north to the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]] then went down through the Pyramid to [[locations/Upper Goblintown.md|Upper Goblintown]]. There, Bottleneck greeted Ioannes and said the goats were fine but bears were not allowed in goblin territory.
 
-They went west through the not-so-secret-anymore door to the ruined [[locations/Temple of Thoth.md|Temple of Thoth]], then through the also ruined [[locations/Temple of Set.md|Temple of Set]], then down the [[locations/Sighing Stair.md|Sighing Stair]] to the [[locations/Goblin Forum.md|Goblin Forum]]. There [[npcs/Domo Gribble.md|Gribble]] greeted them, thanked them for bringing more food, and directed them to [[npcs/Dworm.md|Dworm]] the Food Merchant. [[npcs/Dworm.md|Dworm]] repeated that he was a guard, not a merchant, but wrote down the food they brought and gave them a receipt, and paid them for their previously sold food.
+They went west through the not-so-secret-anymore door to the ruined [[locations/Temple of Thoth.md|Temple of Thoth]], then through the also ruined [[locations/Temple of Set.md|Temple of Set]], then down the [[locations/Sighing Stair.md|Sighing Stair]] to the [[locations/Forum of Set.md|Goblin Forum]]. There [[npcs/Domo Gribble.md|Gribble]] greeted them, thanked them for bringing more food, and directed them to [[npcs/Dworm.md|Dworm]] the Food Merchant. [[npcs/Dworm.md|Dworm]] repeated that he was a guard, not a merchant, but wrote down the food they brought and gave them a receipt, and paid them for their previously sold food.
 
 [[npcs/Domo Gribble.md|Gribble]] mentioned that the Set animal statue in the center of the Forum was still emitting some kind of weird gas that caused one of his guards to face plant after standing in the wrong place. Ioannes and GOAT offered to take a look. First GOAT cast Shape Earth to seal up the statue's nostrils and make the gas stop coming out. Then he decided to go for a more complete solution, Levitated up to the ceiling, and summoned an Irthuin elephant. The huge animal materialized in mid-air then crashed down onto the statue, causing extensive damage to both the statue and the elephant. GOAT dismissed the wounded elephant as he and Ioannes looked at the wrecked statue. The head had been knocked off the body, and gas was again coming out of a couple of small holes in the neck. Not wanting to spend too much more time here, GOAT sealed off the holes. A Varumani ambassador came out to check on the noise, saw it was just adventurers wrecking more Settite stuff, had a brief conversation with Ioannes, and went back to his room.
 

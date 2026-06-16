@@ -37,8 +37,8 @@ Cool, rainy
 - [[npcs/Neferet.md|Corpse of Neferet]], greater mummy
 - [[npcs/Lady Alexia Basileon.md|Lady Alexia]], ruler of [[locations/Gosterwick.md|Gosterwick]]
 - [[npcs/Freydis the Stern.md|Freydis the Stern]], Lady Alexia's steward
-- [[npcs/Gribble.md|Gribble]], Chief of the [[locations/Goblin Forum.md|Goblin Forum]]
-- [[npcs/Dworm.md|Dworm]], [[locations/Goblin Forum.md|Goblin Forum]] guard and food merchant
+- [[npcs/Gribble.md|Gribble]], Chief of the [[locations/Forum of Set.md|Goblin Forum]]
+- [[npcs/Dworm.md|Dworm]], [[locations/Forum of Set.md|Goblin Forum]] guard and food merchant
 - [[npcs/Yoburra.md|Yoburra]], [[factions/Varumani.md|Varumani]] ambassador to the Forum
 
 ## The Plan
@@ -46,7 +46,7 @@ Cool, rainy
 - Explore more rooms south of the [[locations/Forum of Set.md|Goblin Forum]]
 
 ## What Happened
-[[pcs/Uvash Edzuson.md|Uvash]]'s wife and son arrived in [[locations/Gosterwick.md|Gosterwick]], as part of a group of several dwarves travelling from Khazildor. [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] started spreading propaganda, telling the merchants of [[locations/Gosterwick.md|Gosterwick]] that they could earn great profits selling to the [[locations/Goblin Forum.md|Goblin Forum]] of Arden Vul.
+[[pcs/Uvash Edzuson.md|Uvash]]'s wife and son arrived in [[locations/Gosterwick.md|Gosterwick]], as part of a group of several dwarves travelling from Khazildor. [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] started spreading propaganda, telling the merchants of [[locations/Gosterwick.md|Gosterwick]] that they could earn great profits selling to the [[locations/Forum of Set.md|Goblin Forum]] of Arden Vul.
 
 The group hired [[npcs/Lasselanta Chrysalis Ashcroft.md|Chrysalis]] and then teleported through [[items/The Rug.md|the Rug]] to the [[locations/Beacon.md|Beacon]]. There they saw [[npcs/Remagis.md|Remagis]] teaching [[npcs/Basil.md|Basil]] how to tie a tourniquet. [[npcs/Basil.md|Basil]] explained that [[npcs/Remagis.md|Remagis]] was teaching him First Aid, in exchange for [[npcs/Basil.md|Basil]] teaching [[npcs/Remagis.md|Remagis]] Modern Archontean.
 
@@ -72,11 +72,11 @@ With the [[locations/Tower of Scrutiny.md|Tower of Scrutiny]] cleared, the group
 
 With [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] in less danger of saying something that might get them executed, the group went over to the [[locations/Azure Keep.md|Azure Keep]] to give the Circlet to Lady Alexia. After a brief discussion with her guards and a longer discussion with her steward [[npcs/Freydis the Stern.md|Freydis]], [[npcs/Lady Alexia Basileon.md|Lady Alexia]] came into the room. She asked where they had found her Circlet. She was somewhat amused that it had been so close to the surface. She asked if they wanted any particular reward, but neither of [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]]'s ideas were practical, so she just had Freydis give them a lot of gold coins.
 
-The group bought more food for the [[locations/Goblin Forum.md|Goblin Forum]], then teleported back to the [[locations/Beacon.md|Beacon]] and took their usual complicated underground path to the Forum. [[npcs/Gribble.md|Gribble]] greeted them and said he had awards for them. He gave each of them a patch depicting an elephant crushing a statue of a Set animal, and also gave each of them a rock which he said was an authentic piece of the actual destroyed statue.
+The group bought more food for the [[locations/Forum of Set.md|Goblin Forum]], then teleported back to the [[locations/Beacon.md|Beacon]] and took their usual complicated underground path to the Forum. [[npcs/Gribble.md|Gribble]] greeted them and said he had awards for them. He gave each of them a patch depicting an elephant crushing a statue of a Set animal, and also gave each of them a rock which he said was an authentic piece of the actual destroyed statue.
 
 [[npcs/Dworm.md|Dworm]] said that the [[factions/Varumani.md|Varumani]] had bought all the surplus food from last week, but had complained about the price increase. [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] went over to the [[factions/Varumani.md|Varumani]] embassy to tell [[npcs/Yoburra.md|Yoburra]] that he couldn't subsidize the food forever and that prices would gradually return to normal. [[npcs/Yoburra.md|Yoburra]] said that if prices went up, the [[factions/Varumani.md|Varumani]] might not buy all the extra food. He then returned to his card game with the junior ambassadors.
 
-The group went south from [[locations/Goblin Forum.md|the Forum]], to the Set statue that was still standing. [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] tried Dispelling the magic on the statue, then grabbed the gem eyes, which shocked him, but not very badly. A sound spell calling for guards and warning about thieves also triggered, but since the only guards in the area were friendly goblins, it didn't matter. [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] took the onyx ears and ivory teeth from the statue, then told the goblin guards that the statue was still somewhat dangerous and he didn't recommend touching it. One guard dared another guard to touch it anyway, and he did and got non-fatally shocked, to the amusement of all the other guards.
+The group went south from [[locations/Forum of Set.md|the Forum]], to the Set statue that was still standing. [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] tried Dispelling the magic on the statue, then grabbed the gem eyes, which shocked him, but not very badly. A sound spell calling for guards and warning about thieves also triggered, but since the only guards in the area were friendly goblins, it didn't matter. [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] took the onyx ears and ivory teeth from the statue, then told the goblin guards that the statue was still somewhat dangerous and he didn't recommend touching it. One guard dared another guard to touch it anyway, and he did and got non-fatally shocked, to the amusement of all the other guards.
 
 [[pcs/Vallium Halcyon.md|Vallium]] led the group further south, to a room with a fireplace that had not been searched to his satisfaction. [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] sent a Continually-Lit Wizard Eye up the chimney. Just a foot above the fireplace, the Eye spotted a soot-covered ring hanging on a nail. [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] reached in and grabbed the ring, which felt magical. He then sent the Wizard Eye all the way up to the surface. It emerged in the swamp in the southwest corner of Arden Vul. A giant frog spotted the glowing eye and tried to eat it. [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] tried leading the frog all the way to the dragon's tower, but the frog declined to leave the swamp.
 

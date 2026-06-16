@@ -28,8 +28,8 @@ Warm, sunny
 - [[npcs/Bottleneck.md|Bottleneck]], Goblin sergeant
 - [[npcs/Temrin.md|Temrin]], Goblin Royal Artist
 - [[npcs/Lukor.md|Lukor]], Ambassador from the [[factions/Eighth Collegium.md|Eighth Collegium]] to the [[factions/Goblins.md|Goblins]]
-- [[npcs/Gribble.md|Gribble]], Chief of the [[locations/Goblin Forum.md|Goblin Forum]]
-- [[npcs/Dworm.md|Dworm]], [[locations/Goblin Forum.md|Goblin Forum]] guard and food merchant
+- [[npcs/Gribble.md|Gribble]], Chief of the [[locations/Forum of Set.md|Goblin Forum]]
+- [[npcs/Dworm.md|Dworm]], [[locations/Forum of Set.md|Goblin Forum]] guard and food merchant
 - [[npcs/Yoburra.md|Yoburra]], [[factions/Varumani.md|Varumani]] ambassador to the Forum
 - Blood-Seeking Demon
 - 2 Flensing Demons
