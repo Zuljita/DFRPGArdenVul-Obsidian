@@ -3034,7 +3034,14 @@ def chunk_markdown_for_rag(text: str) -> list[tuple[str, str]]:
         else:
             for sub in _split_oversized_chunk(body, VAULT_RAG_MAX_CHUNK_CHARS):
                 chunks.append((section, sub))
-    return [(s, c) for s, c in chunks if len(c.strip()) >= VAULT_RAG_MIN_CHUNK_CHARS]
+    kept = [(s, c) for s, c in chunks if len(c.strip()) >= VAULT_RAG_MIN_CHUNK_CHARS]
+    # Short pages whose individual sections are each below the minimum (stubs,
+    # brief NPC/location notes) would otherwise produce zero chunks and never be
+    # indexed. Fall back to one whole-body chunk when the page as a whole has
+    # enough content to be worth retrieving.
+    if not kept and len(text) >= VAULT_RAG_MIN_CHUNK_CHARS:
+        kept = [(raw_chunks[0][0] if raw_chunks else "", text[:VAULT_RAG_MAX_CHUNK_CHARS])]
+    return kept
 
 
 def vault_rag_chunk_kind(base_kind: str, section: str) -> str:
@@ -3218,6 +3225,27 @@ def vault_rag_ingest_all(reset: bool = False, limit: int | None = None) -> dict:
                 except ValueError:
                     rel = str(p)
                 results.append({"path": rel, "action": "error", "error": str(exc)})
+        # Prune chunks for files that no longer exist in the vault (deleted /
+        # renamed pages). Only on a full run, and guarded so a broken source
+        # enumeration can never wipe the store.
+        pruned = 0
+        if limit is None:
+            def _rel(p: Path) -> str:
+                try:
+                    return p.relative_to(ROOT).as_posix()
+                except ValueError:
+                    return str(p)
+            current = {_rel(p) for p, _ in paths}
+            with conn.cursor() as cur:
+                cur.execute("SELECT DISTINCT metadata->>'path' FROM rag_chunks WHERE database='arden'")
+                stored = {r[0] for r in cur.fetchall() if r[0]}
+            orphans = stored - current
+            if orphans and len(current) >= 50:
+                with conn.cursor() as cur:
+                    for op in orphans:
+                        cur.execute("DELETE FROM rag_chunks WHERE database='arden' AND metadata->>'path'=%s", (op,))
+                conn.commit()
+                pruned = len(orphans)
         with conn.cursor() as cur:
             cur.execute("ANALYZE rag_chunks")
             cur.execute("SELECT count(*) FROM rag_chunks WHERE database='arden'")
@@ -3230,6 +3258,7 @@ def vault_rag_ingest_all(reset: bool = False, limit: int | None = None) -> dict:
         "ok": counts.get("error", 0) == 0,
         "total_files": len(paths),
         "actions": counts,
+        "pruned": pruned,
         "row_count": row_count,
         "results": results,
     }
