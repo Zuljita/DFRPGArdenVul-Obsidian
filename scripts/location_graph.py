@@ -143,7 +143,7 @@ def text_sequence(text: str, pat, surface) -> list[str]:
 # ---------------------------------------------------------------- edges
 def new_edge():
     return {"weight": 0, "signals": defaultdict(int), "sources": set(),
-            "type": None, "citation": None, "tier": None}
+            "type": None, "access": None, "citation": None, "tier": None}
 
 
 def add_edge(edges, a, b, signal, source, directed=False):
@@ -224,6 +224,8 @@ def apply_seed(edges, link_surface):
         add_edge(edges, a, b, "seed", "seed:curated")
         e = edges[tuple(sorted((a, b)))]
         e["type"] = ed.get("type") or e["type"]
+        if ed.get("access"):
+            e["access"] = ed["access"]
         e["citation"] = {"curated": ed.get("note", "")}
         added += 1
 
@@ -313,7 +315,7 @@ def edge_records(edges):
                      or bool(e["citation"]))
         recs.append({
             "a": a, "b": b, "directed": False, "weight": e["weight"],
-            "tier": e["tier"], "type": e["type"], "citation": e["citation"],
+            "tier": e["tier"], "type": e["type"], "access": e.get("access"), "citation": e["citation"],
             "signals": dict(e["signals"]), "sources": sorted(e["sources"])[:6],
             "rag_eligible": e["tier"] == "confirmed" and has_basis,
         })

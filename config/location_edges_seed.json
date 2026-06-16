@@ -23,10 +23,9 @@
     {"a": "Square Tower (East of Forum)", "b": "Forum of Arden Vul", "type": "passage", "note": "Located on the east side of the Forum (location page)."},
 
     {"a": "Pyramid of Thoth", "b": "Glory of Thoth", "type": "stairs", "note": "Stairs down from the pyramid into the Glory of Thoth level."},
-    {"a": "Pyramid of Thoth", "b": "Well of Light", "type": "stairs", "note": "The Well of Light descends from the upper Thoth complex."},
+    {"a": "Pyramid of Thoth", "b": "Well of Light", "type": "stairs", "access": "Deep vertical shaft; ascending requires magical flight or levitation.", "note": "The Well of Light descends from the upper Thoth complex."},
     {"a": "Glory of Thoth", "b": "Well of Light", "type": "passage", "note": "Adjacent transit areas in the upper Halls."},
     {"a": "Glory of Thoth", "b": "Great Hall", "type": "passage", "note": "Adjacent in the upper Halls."},
-    {"a": "Glory of Thoth", "b": "Great Chasm", "type": "passage", "note": "The Glory of Thoth sits near the Great Chasm (~1000ft above the Troll Lifts)."},
     {"a": "Glory of Thoth", "b": "Goblin Market", "type": "passage", "note": "Passage between the two (Discord Summary 2026-W16)."},
     {"a": "Well of Light", "b": "Howling Caves", "type": "passage", "note": "Connected in the upper Halls."},
     {"a": "Well of Light", "b": "Goblin Market", "type": "passage", "note": "Connected toward Goblintown."},
@@ -43,8 +42,8 @@
     {"a": "Forum of Set", "b": "Temple of Set", "type": "passage", "note": "The Temple of Set sits within the Forum of Set complex."},
     {"a": "Goblin Market", "b": "Howling Caves", "type": "passage", "note": "Connected within the middle Halls."},
 
-    {"a": "Great Chasm", "b": "Troll Lifts", "type": "lift", "note": "The Troll/Varumani Lifts run up and down the Great Chasm."},
-    {"a": "Great Chasm", "b": "Varumani Lifts", "type": "lift", "note": "Lift system on the Great Chasm."},
+    {"a": "Great Chasm", "b": "Troll Lifts", "type": "lift", "access": "The Great Chasm is a vertical void: no walking across or up it. Use the Varumani/Troll Lifts between levels; the floating garden island and far (west) side need the cross-chasm ferry (max 4 per trip), or flight.", "note": "The Troll/Varumani Lifts run up and down the Great Chasm."},
+    {"a": "Great Chasm", "b": "Varumani Lifts", "type": "lift", "access": "Vertical chasm; Varumani Lifts between levels, cross-chasm ferry (max 4) to the garden island and far side, or flight.", "note": "Lift system on the Great Chasm."},
     {"a": "Troll Lifts", "b": "Halls of the Troll Thegn", "type": "lift", "note": "Lifts descend to the Varumani / Troll Thegn level (Vallium's Session 55 proposal)."},
     {"a": "Troll Lifts", "b": "Arena", "type": "lift", "note": "Arena Level Station; operator directs to the Arena, NE (Troll Lifts page)."},
     {"a": "Troll Lifts", "b": "Sundered Span", "type": "passage", "note": "Upper Lift Station reached via the Sundered Span from the Wet Caves (Troll Lifts page)."},
@@ -54,7 +53,7 @@
     {"a": "Beacon", "b": "Cloister", "type": "teleporter", "note": "Rudishva teleportation pad from the Beacon to the nearby Cloister (Session 45; Vallium S55)."},
     {"a": "Beacon", "b": "Arena", "type": "teleporter", "note": "One of four teleporters in the Rudishva command chamber SE of the Beacon leads to the Arena (Session 45/46)."},
     {"a": "Beacon", "b": "Sundered Span", "type": "teleporter", "note": "Beacon command-chamber teleporter to the Sundered Span (Session 45)."},
-    {"a": "Beacon", "b": "Great Chasm", "type": "teleporter", "note": "Teleporter to the floating garden island in the Great Chasm (Session 45)."},
+    {"a": "Beacon", "b": "Great Chasm", "type": "teleporter", "access": "Teleporter lands on the floating garden island in the middle of the chasm; leaving the island requires the cross-chasm ferry (max 4 per trip) or flight.", "note": "Teleporter to the floating garden island in the Great Chasm (Session 45)."},
     {"a": "Cloister", "b": "Tomb of Archon Marius", "type": "passage", "directed": false, "note": "Reached via the Cloister secret passage, north along the water (Vallium S55; Session 54)."},
 
     {"a": "Tomb of Theskalon", "b": "Southern Necropolis of Set", "type": "passage", "note": "Explicit Connections."},
@@ -83,6 +82,7 @@
     {"a": "Arden Vul", "b": "Goblin Forum", "reason": "Surface-to-deep recap co-occurrence; multi-hop."},
     {"a": "Arden Vul", "b": "Upper Goblintown", "reason": "Surface-to-deep recap co-occurrence; multi-hop."},
     {"a": "Arden Vul", "b": "Newmarket", "reason": "Newmarket connects to Gosterwick, not directly to the ruins."},
-    {"a": "Gosterwick", "b": "Upper Goblintown", "reason": "Town-to-deep-dungeon recap/staging artifact."}
+    {"a": "Gosterwick", "b": "Upper Goblintown", "reason": "Town-to-deep-dungeon recap/staging artifact."},
+    {"a": "Glory of Thoth", "b": "Great Chasm", "reason": "No walkable passage: Glory of Thoth is ~1000ft ABOVE the chasm floor/lifts. Reaching the chasm needs the lifts; this false edge let routes 'walk' up the void."}
   ]
 }
