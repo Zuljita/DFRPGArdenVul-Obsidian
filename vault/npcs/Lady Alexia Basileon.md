@@ -11,6 +11,7 @@ tags:
 aliases:
   - Lady Alexia Basileon
   - Lady Alexia Basileon Basilion
+  - Lady Alexia
 appears_in:
   - Session 8a - Never Trust a Scorpion
 ---
