@@ -1,0 +1,461 @@
+#!/usr/bin/env python3
+"""Build a typed location adjacency graph for the Arden Vul vault.
+
+Deterministic signal fusion + an optional LLM proposer/verifier pass.
+
+Signals (each edge carries provenance + a confidence tier):
+  explicit    bullets under a location page's `## Connections` header
+  page-link   a location page body linking to another location page
+  travel-seq  consecutive distinct location mentions in a session's prose
+  plan        ordered location mentions inside Vallium's (Greybrown's)
+              ooc-planning messages  --  PRIVATE, non-citable hint
+
+Confidence tiers:
+  confirmed   explicit, OR >=2 distinct deterministic signals,
+              OR an LLM-typed edge with a verbatim vault citation
+  candidate   a single non-explicit deterministic signal
+  hint        LLM says connected but produced no valid vault citation
+              (kept out of the RAG-eligible set)
+
+The LLM pass only ever *proposes/types* edges; a deterministic check that the
+cited excerpt appears verbatim in a real `vault/sessions` or
+`vault/notes/Discord Summary` file is what makes an edge RAG-eligible. This
+honours the source boundary: raw Discord planning can suggest an edge but
+cannot, by itself, put it in front of players.
+
+Outputs:
+  data/automation/location_graph.json
+  vault/notes/Location Map.md     (Mermaid, community-clustered)
+
+Usage:
+  python3 scripts/location_graph.py build              # deterministic only
+  python3 scripts/location_graph.py build --llm 15      # + verify 15 candidates
+  python3 scripts/location_graph.py build --llm 15 --eval   # print LLM eval table
+"""
+from __future__ import annotations
+import argparse, json, re, sys
+from collections import defaultdict
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+VAULT = ROOT / "vault"
+OUT_JSON = ROOT / "data" / "automation" / "location_graph.json"
+LLM_CACHE = ROOT / "data" / "automation" / "location_graph_llm_cache.json"
+MAP_NOTE = VAULT / "notes" / "Location Map.md"
+
+WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]")
+DIRECTION_RE = re.compile(
+    r"\b(north|south|east|west|northeast|northwest|southeast|southwest|up|down|above|below|"
+    r"passage|corridor|tunnel|stairs?|ladder|ramp|teleporter|lift|ferry|bridge|door|gate)\b", re.I)
+MSG_RE = re.compile(r"^## .*? - (.+?) - \d+\s*$")
+SENT_SPLIT = re.compile(r"(?<=[.!?])\s+")
+# generic page names that are too ambiguous for free-text matching
+TEXT_STOP = {"arena", "tomb", "tower", "market", "forum", "cave", "caves", "hall",
+             "well", "river", "gate", "gates", "road", "lift", "lifts", "inn", "span",
+             "vault", "keep", "residence", "donjon", "stair", "stairs", "pit", "shaft"}
+SIGNAL_WEIGHT = {"explicit": 3, "page-link": 1, "travel-seq": 1, "plan": 2}
+
+
+def read(p: Path) -> str:
+    return p.read_text(encoding="utf-8", errors="replace")
+
+
+def norm_contains(haystack: str, needle: str) -> bool:
+    n = re.sub(r"\s+", " ", needle).strip().lower()
+    return bool(n) and n in re.sub(r"\s+", " ", haystack).strip().lower()
+
+
+def rollup_root() -> Path:
+    cfg = ROOT / "config" / "local_sources.json"
+    if cfg.exists():
+        root = json.loads(read(cfg)).get("discord_rollup_root")
+        if root:
+            return Path(root)
+    return Path("/home/kyle/discord-chat-explorer/weekly-rollups")
+
+
+# ---------------------------------------------------------------- lexicon
+def frontmatter_aliases(text: str) -> list[str]:
+    out: list[str] = []
+    m = re.match(r"^---\n(.*?)\n---", text, re.S)
+    if not m:
+        return out
+    block = m.group(1)
+    am = re.search(r"^aliases:\s*\n((?:\s*-\s.*\n?)+)", block, re.M)
+    if am:
+        out += [re.sub(r"^\s*-\s*", "", ln).strip().strip("\"'")
+                for ln in am.group(1).splitlines() if ln.strip().startswith("-")]
+    tm = re.search(r"^title:\s*(.+)$", block, re.M)
+    if tm:
+        out.append(tm.group(1).strip().strip("\"'"))
+    return [a for a in out if a]
+
+
+def build_lexicon():
+    aliases: dict[str, set[str]] = {}
+    link_surface: dict[str, str] = {}
+    for p in sorted(VAULT.glob("locations/*.md")):
+        canon = p.stem
+        names = {canon, *frontmatter_aliases(read(p))}
+        aliases[canon] = names
+        for n in names:
+            link_surface[n.lower()] = canon
+    return aliases, link_surface
+
+
+def resolve_link(target: str, link_surface: dict[str, str]) -> str | None:
+    t = target.strip()
+    t = t[len("vault/"):] if t.startswith("vault/") else t
+    if t.lower().startswith("locations/"):
+        return link_surface.get(Path(t).stem.lower())
+    return link_surface.get(Path(t).stem.lower())
+
+
+def build_text_matcher(aliases):
+    surface: dict[str, str] = {}
+    for canon, names in aliases.items():
+        for n in names:
+            key = n.lower()
+            if len(key) >= 4 and key not in TEXT_STOP:
+                surface[key] = canon
+    pat = re.compile(r"\b(" + "|".join(re.escape(k) for k in sorted(surface, key=len, reverse=True)) + r")\b", re.I)
+    return pat, surface
+
+
+def text_sequence(text: str, pat, surface) -> list[str]:
+    seq: list[str] = []
+    for m in pat.finditer(text):
+        c = surface.get(m.group(1).lower())
+        if c and (not seq or seq[-1] != c):
+            seq.append(c)
+    return seq
+
+
+# ---------------------------------------------------------------- edges
+def new_edge():
+    return {"weight": 0, "signals": defaultdict(int), "sources": set(), "directed": True,
+            "type": None, "citation": None, "tier": None}
+
+
+def add_edge(edges, a, b, signal, source, directed):
+    if a == b:
+        return
+    key = (a, b) if directed else tuple(sorted((a, b)))
+    e = edges[key]
+    e["weight"] += SIGNAL_WEIGHT[signal]
+    e["signals"][signal] += 1
+    e["sources"].add(source)
+    e["directed"] = e["directed"] and directed
+
+
+def collect_deterministic(aliases, link_surface):
+    edges: dict = defaultdict(new_edge)
+
+    for p in sorted(VAULT.glob("locations/*.md")):
+        canon, in_conn = p.stem, False
+        for ln in read(p).splitlines():
+            if ln.startswith("## "):
+                in_conn = ln.strip().lower() == "## connections"
+                continue
+            for m in WIKILINK_RE.finditer(ln):
+                other = resolve_link(m.group(1), link_surface)
+                if other and other != canon:
+                    if in_conn:
+                        add_edge(edges, canon, other, "explicit", f"locations/{canon}", True)
+                    else:
+                        add_edge(edges, canon, other, "page-link", f"locations/{canon}",
+                                 bool(DIRECTION_RE.search(ln)))
+
+    for p in sorted(VAULT.glob("sessions/*.md")):
+        seq = []
+        for m in WIKILINK_RE.finditer(read(p)):
+            other = resolve_link(m.group(1), link_surface)
+            if other and (not seq or seq[-1] != other):
+                seq.append(other)
+        for a, b in zip(seq, seq[1:]):
+            add_edge(edges, a, b, "travel-seq", f"sessions/{p.stem}", True)
+
+    pat, surface = build_text_matcher(aliases)
+    for ooc in sorted(rollup_root().glob("*/channels/ooc-planning.md")):
+        week = ooc.parent.parent.name
+        author, buf = None, []
+        def flush():
+            if author != "Greybrown":
+                return
+            seq = text_sequence("\n".join(buf), pat, surface)
+            for a, b in zip(seq, seq[1:]):
+                add_edge(edges, a, b, "plan", f"plan:{week}", True)
+        for ln in read(ooc).splitlines():
+            m = MSG_RE.match(ln)
+            if m:
+                flush(); author, buf = m.group(1).strip(), []
+            else:
+                buf.append(ln)
+        flush()
+    return edges
+
+
+def assign_tiers(edges):
+    for e in edges.values():
+        if "explicit" in e["signals"] or len(e["signals"]) >= 2:
+            e["tier"] = "confirmed"
+        else:
+            e["tier"] = "candidate"
+
+
+# ---------------------------------------------------------------- community detection
+def detect_communities(edges):
+    adj: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
+    for (a, b), e in edges.items():
+        adj[a][b] += e["weight"]
+        adj[b][a] += e["weight"]
+    degree = {n: sum(adj[n].values()) for n in adj}
+
+    # Cross-region connectors (town, the surface ruins, the party's teleport
+    # base) link everything and collapse label propagation into one blob.
+    # Pull them out so genuine sub-regions separate; render them as a "Hubs"
+    # group. A connector is a node whose weighted degree is a strong outlier.
+    nonzero = sorted(degree.values())
+    median = nonzero[len(nonzero) // 2] if nonzero else 0
+    hubs = {n for n, d in degree.items() if d >= max(8, 5 * median)}
+    hubs = set(sorted(hubs, key=lambda n: -degree[n])[:5])  # cap
+
+    label = {n: n for n in adj if n not in hubs}
+    for _ in range(30):
+        changed = False
+        for n in sorted(label):
+            tally: dict[str, int] = defaultdict(int)
+            for nb, w in adj[n].items():
+                if nb in label:                      # ignore hub neighbours
+                    tally[label[nb]] += w
+            if tally:
+                best = max(sorted(tally), key=lambda l: tally[l])
+                if label[n] != best:
+                    label[n] = best; changed = True
+        if not changed:
+            break
+    comms: dict[str, list[str]] = defaultdict(list)
+    for n, l in label.items():
+        comms[l].append(n)
+    named = {}
+    for members in comms.values():
+        hub = max(members, key=lambda n: degree.get(n, 0))
+        named[hub] = sorted(members)
+    if hubs:
+        named["Hubs"] = sorted(hubs)
+    return named, degree
+
+
+# ---------------------------------------------------------------- serialise + map
+VAULT_SIGNALS = ("explicit", "page-link", "travel-seq")
+
+
+def edge_records(edges):
+    recs = []
+    for (a, b), e in edges.items():
+        # An edge may go to the player-facing RAG only if it has a vault-sourced
+        # basis: an explicit/page/session signal, or an LLM-validated citation.
+        # The `plan` signal alone (raw Discord) is never sufficient.
+        has_vault_signal = any(s in e["signals"] for s in VAULT_SIGNALS)
+        recs.append({
+            "a": a, "b": b, "directed": e["directed"], "weight": e["weight"],
+            "tier": e["tier"], "type": e["type"], "citation": e["citation"],
+            "signals": dict(e["signals"]), "sources": sorted(e["sources"])[:6],
+            "rag_eligible": e["tier"] == "confirmed" and (has_vault_signal or bool(e["citation"])),
+        })
+    recs.sort(key=lambda r: r["weight"], reverse=True)
+    return recs
+
+
+def mermaid_id(name):
+    return "n_" + re.sub(r"[^0-9a-zA-Z]+", "_", name).strip("_")
+
+
+def write_map_note(edges, comms, degree):
+    confirmed = [(a, b, e) for (a, b), e in edges.items() if e["tier"] == "confirmed"]
+    lines = ["---", "tags:", "  - note", "  - map", "generated_by: scripts/location_graph.py",
+             "---", "", "# Location Map", "",
+             "Auto-generated adjacency map of Arden Vul locations, clustered by graph "
+             "community. Only **confirmed** edges (explicit connection, ≥2 independent "
+             "signals, or LLM-cited) are drawn. Edge labels show inferred type/direction "
+             "where known. This is inferred from text and may contain errors.", "",
+             "```mermaid", "flowchart LR"]
+    drawn_nodes = set()
+    for hub, members in sorted(comms.items(), key=lambda kv: -len(kv[1])):
+        memberset = set(members)
+        sub = [(a, b, e) for (a, b, e) in confirmed if a in memberset and b in memberset]
+        if not sub:
+            continue
+        lines.append(f'  subgraph c_{mermaid_id(hub)}["{hub} cluster"]')
+        for a, b, e in sub:
+            for n in (a, b):
+                if n not in drawn_nodes:
+                    lines.append(f'    {mermaid_id(n)}["{n}"]')
+                    drawn_nodes.add(n)
+        lines.append("  end")
+    for a, b, e in sorted(confirmed, key=lambda x: -x[2]["weight"]):
+        lbl = e["type"] or ""
+        arrow = "-->" if e["directed"] else "---"
+        lab = f'|{lbl}|' if lbl else ""
+        lines.append(f"  {mermaid_id(a)} {arrow}{lab} {mermaid_id(b)}")
+    lines += ["```", ""]
+    MAP_NOTE.write_text("\n".join(lines), encoding="utf-8")
+
+
+# ---------------------------------------------------------------- LLM proposer/verifier
+def evidence_sentences(a, b, aliases, max_n=6):
+    """Vault sentences (sessions + Discord summaries) mentioning both endpoints."""
+    names_a = [n for n in aliases[a]]
+    names_b = [n for n in aliases[b]]
+    out = []
+    pool = list(VAULT.glob("sessions/*.md")) + list(VAULT.glob("notes/Discord Summary*.md"))
+    for p in pool:
+        rel = f"vault/{p.relative_to(VAULT)}"
+        for sent in SENT_SPLIT.split(re.sub(r"\s+", " ", read(p))):
+            la = any(n.lower() in sent.lower() for n in names_a)
+            lb = any(n.lower() in sent.lower() for n in names_b)
+            if la and lb:
+                out.append({"file": rel, "quote": sent.strip()[:300]})
+                if len(out) >= max_n:
+                    return out
+    return out
+
+
+def verify_prompt(a, b, evidence):
+    ev = "\n".join(f'- FILE: {e["file"]}\n  TEXT: "{e["quote"]}"' for e in evidence) or "(none found)"
+    return (
+        f'Two candidate locations in the dungeon "Arden Vul": A="{a}", B="{b}".\n'
+        f"Vault excerpts that mention both:\n{ev}\n\n"
+        "Decide if A and B are DIRECTLY connected (one is reachable from the other without "
+        "passing through a third named location), based ONLY on the excerpts.\n"
+        "Return strict JSON with keys:\n"
+        '  connected (bool),\n'
+        '  type (one of: passage, stairs, door, teleporter, lift, ferry, bridge, road, region-contains, unknown),\n'
+        '  direction (short string like "A is north of B", or ""),\n'
+        '  citation (object {file, quote} where quote is copied VERBATIM from one excerpt above and '
+        "supports a direct connection, or null if no excerpt supports it).\n"
+        "Do not invent quotes. If no excerpt supports a direct connection, set connected=false and citation=null."
+    )
+
+
+def cache_key(a, b):
+    return "|||".join(sorted((a, b)))
+
+
+def load_llm_cache() -> dict:
+    return json.loads(read(LLM_CACHE)) if LLM_CACHE.exists() else {}
+
+
+def apply_llm_cache(edges):
+    """Merge previously-verified LLM verdicts onto the freshly-built edges."""
+    cache = load_llm_cache()
+    applied = 0
+    for (a, b), e in edges.items():
+        v = cache.get(cache_key(a, b))
+        if not v or not v.get("validated"):
+            continue
+        e["type"] = v.get("type") or e["type"]
+        e["citation"] = v.get("citation")
+        e["tier"] = "confirmed"
+        applied += 1
+    return applied
+
+
+def run_llm_pass(edges, aliases, limit, eval_mode):
+    from vault_automation import llm_chat_json  # reuse configured client
+    cache = load_llm_cache()
+    candidates = [(k, e) for k, e in edges.items()
+                  if e["tier"] == "candidate" and cache_key(*k) not in cache]
+    # prioritise plan-only leads (most interesting: only Vallium suggests them)
+    candidates.sort(key=lambda kv: (("plan" not in kv[1]["signals"]), -kv[1]["weight"]))
+    sample = candidates[:limit]
+    rows = []
+    for (a, b), e in sample:
+        ev = evidence_sentences(a, b, aliases)
+        verdict, note = None, ""
+        try:
+            verdict = llm_chat_json(verify_prompt(a, b, ev), timeout=120)
+        except Exception as exc:
+            note = f"LLM error: {str(exc)[:80]}"
+        result = "skip"
+        if verdict and verdict.get("connected"):
+            cit = verdict.get("citation") or None
+            valid = False
+            if isinstance(cit, dict) and cit.get("file") and cit.get("quote"):
+                fpath = ROOT / cit["file"] if cit["file"].startswith("vault/") else None
+                if fpath and fpath.exists() and norm_contains(read(fpath), cit["quote"]):
+                    valid = True
+            e["type"] = (verdict.get("type") or "unknown")
+            if valid:
+                e["tier"] = "confirmed"; e["citation"] = cit; result = "confirmed+cited"
+            else:
+                e["tier"] = "hint"; result = "hint (no valid citation)"
+            cache[cache_key(a, b)] = {"connected": True, "validated": valid,
+                                      "type": e["type"], "citation": cit if valid else None}
+        elif verdict is not None:
+            result = "rejected"
+            cache[cache_key(a, b)] = {"connected": False, "validated": False}
+        rows.append({"a": a, "b": b, "signals": dict(e["signals"]),
+                     "evidence": len(ev), "result": result, "note": note,
+                     "type": e.get("type"), "citation": e.get("citation")})
+    LLM_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    LLM_CACHE.write_text(json.dumps(cache, indent=2), encoding="utf-8")
+    if eval_mode:
+        print("\n=== LLM verifier evaluation ===")
+        print(f"{'result':<26}{'type':<16}{'ev':>3}  edge")
+        for r in rows:
+            print(f"{r['result']:<26}{str(r['type'] or ''):<16}{r['evidence']:>3}  "
+                  f"{r['a']} -> {r['b']}  {dict(r['signals'])}")
+        from collections import Counter
+        tally = Counter(r["result"] for r in rows)
+        print("\nsummary:", dict(tally))
+    return rows
+
+
+# ---------------------------------------------------------------- main
+def cmd_build(args):
+    aliases, link_surface = build_lexicon()
+    edges = collect_deterministic(aliases, link_surface)
+    assign_tiers(edges)
+    if args.llm:
+        run_llm_pass(edges, aliases, args.llm, args.eval)
+    cached = apply_llm_cache(edges)   # merge all prior verified verdicts
+    comms, degree = detect_communities(edges)
+    recs = edge_records(edges)
+    OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    OUT_JSON.write_text(json.dumps({
+        "nodes": {c: {"aliases": sorted(aliases[c]), "degree": degree.get(c, 0)} for c in sorted(aliases)},
+        "communities": {hub: members for hub, members in comms.items()},
+        "edges": recs,
+    }, indent=2), encoding="utf-8")
+    write_map_note(edges, comms, degree)
+
+    tiers = Counter_tier(recs)
+    print(f"nodes: {len(aliases)}   edges: {len(recs)}   communities: {len(comms)}")
+    print(f"  confirmed: {tiers['confirmed']}   candidate: {tiers['candidate']}   hint: {tiers['hint']}")
+    print(f"  rag-eligible: {sum(1 for r in recs if r['rag_eligible'])}   (LLM-cited applied: {cached})")
+    print(f"wrote {OUT_JSON.relative_to(ROOT)} and {MAP_NOTE.relative_to(ROOT)}")
+    return 0
+
+
+def Counter_tier(recs):
+    out = defaultdict(int)
+    for r in recs:
+        out[r["tier"]] += 1
+    return out
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description="Build the Arden Vul location graph")
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    b = sub.add_parser("build", help="build the graph + map")
+    b.add_argument("--llm", type=int, default=0, metavar="N",
+                   help="run the LLM verifier on N candidate edges")
+    b.add_argument("--eval", action="store_true", help="print an LLM evaluation table")
+    b.set_defaults(func=cmd_build)
+    args = ap.parse_args(argv)
+    return args.func(args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
