@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Build a typed location adjacency graph for the Arden Vul vault.
 
-Deterministic signal fusion + an optional LLM proposer/verifier pass.
+Curated trusted layer + deterministic signal fusion + an optional LLM pass.
 
 Signals (each edge carries provenance + a confidence tier):
+  seed        a curated, typed edge from config/location_edges_seed.json --
+              the TRUSTED layer, hand-authored from canon; also suppresses
+              travel/staging artifacts via its `reject` list
   explicit    bullets under a location page's `## Connections` header
   page-link   a location page body linking to another location page
   travel-seq  consecutive distinct location mentions in a session's prose
@@ -11,11 +14,16 @@ Signals (each edge carries provenance + a confidence tier):
               ooc-planning messages  --  PRIVATE, non-citable hint
 
 Confidence tiers:
-  confirmed   explicit, OR >=2 distinct deterministic signals,
-              OR an LLM-typed edge with a verbatim vault citation
+  confirmed   seed, explicit, >=2 distinct deterministic signals, OR an
+              LLM-typed edge with a verbatim vault citation
   candidate   a single non-explicit deterministic signal
   hint        LLM says connected but produced no valid vault citation
-              (kept out of the RAG-eligible set)
+  suppressed  on the seed reject list (a travel/staging artifact)
+
+The local LLM pass is OPTIONAL and secondary: its judgement is not trusted on
+its own, so the curated seed carries the map. When run, it can only *propose*
+a type + a quote that is deterministically checked to appear verbatim in a
+real vault file before the edge is promoted.
 
 The LLM pass only ever *proposes/types* edges; a deterministic check that the
 cited excerpt appears verbatim in a real `vault/sessions` or
@@ -41,6 +49,7 @@ ROOT = Path(__file__).resolve().parent.parent
 VAULT = ROOT / "vault"
 OUT_JSON = ROOT / "data" / "automation" / "location_graph.json"
 LLM_CACHE = ROOT / "data" / "automation" / "location_graph_llm_cache.json"
+SEED_FILE = ROOT / "config" / "location_edges_seed.json"
 MAP_NOTE = VAULT / "notes" / "Location Map.md"
 
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]")
@@ -53,7 +62,7 @@ SENT_SPLIT = re.compile(r"(?<=[.!?])\s+")
 TEXT_STOP = {"arena", "tomb", "tower", "market", "forum", "cave", "caves", "hall",
              "well", "river", "gate", "gates", "road", "lift", "lifts", "inn", "span",
              "vault", "keep", "residence", "donjon", "stair", "stairs", "pit", "shaft"}
-SIGNAL_WEIGHT = {"explicit": 3, "page-link": 1, "travel-seq": 1, "plan": 2}
+SIGNAL_WEIGHT = {"seed": 6, "explicit": 3, "page-link": 1, "travel-seq": 1, "plan": 2}
 
 
 def read(p: Path) -> str:
@@ -133,19 +142,20 @@ def text_sequence(text: str, pat, surface) -> list[str]:
 
 # ---------------------------------------------------------------- edges
 def new_edge():
-    return {"weight": 0, "signals": defaultdict(int), "sources": set(), "directed": True,
+    return {"weight": 0, "signals": defaultdict(int), "sources": set(),
             "type": None, "citation": None, "tier": None}
 
 
-def add_edge(edges, a, b, signal, source, directed):
+def add_edge(edges, a, b, signal, source, directed=False):
+    # The graph is modelled as undirected: travel-sequence / plan order is just
+    # movement order, not one-way passages, so A->B and B->A are the same edge.
     if a == b:
         return
-    key = (a, b) if directed else tuple(sorted((a, b)))
+    key = tuple(sorted((a, b)))
     e = edges[key]
     e["weight"] += SIGNAL_WEIGHT[signal]
     e["signals"][signal] += 1
     e["sources"].add(source)
-    e["directed"] = e["directed"] and directed
 
 
 def collect_deterministic(aliases, link_surface):
@@ -195,9 +205,48 @@ def collect_deterministic(aliases, link_surface):
     return edges
 
 
+def apply_seed(edges, link_surface):
+    """Ingest the curated trusted layer: typed edges + a reject (suppress) list."""
+    if not SEED_FILE.exists():
+        return 0, 0, []
+    spec = json.loads(read(SEED_FILE))
+    warnings: list[str] = []
+
+    def canon(name):
+        return link_surface.get(name.strip().lower())
+
+    added = 0
+    for ed in spec.get("edges", []):
+        a, b = canon(ed.get("a", "")), canon(ed.get("b", ""))
+        if not a or not b:
+            warnings.append(f"seed edge endpoint not a location page: {ed.get('a')} / {ed.get('b')}")
+            continue
+        add_edge(edges, a, b, "seed", "seed:curated")
+        e = edges[tuple(sorted((a, b)))]
+        e["type"] = ed.get("type") or e["type"]
+        e["citation"] = {"curated": ed.get("note", "")}
+        added += 1
+
+    rejected = 0
+    reject_pairs = set()
+    for rj in spec.get("reject", []):
+        a, b = canon(rj.get("a", "")), canon(rj.get("b", ""))
+        if a and b:
+            reject_pairs.add(frozenset((a, b)))
+    for key, e in edges.items():
+        if frozenset(key) in reject_pairs:
+            e["reject_reason"] = next((r.get("reason") for r in spec.get("reject", [])
+                                       if {canon(r.get("a", "")), canon(r.get("b", ""))} == set(key)), "")
+            e["suppressed"] = True
+            rejected += 1
+    return added, rejected, warnings
+
+
 def assign_tiers(edges):
     for e in edges.values():
-        if "explicit" in e["signals"] or len(e["signals"]) >= 2:
+        if e.get("suppressed"):
+            e["tier"] = "suppressed"
+        elif "seed" in e["signals"] or "explicit" in e["signals"] or len(e["signals"]) >= 2:
             e["tier"] = "confirmed"
         else:
             e["tier"] = "candidate"
@@ -207,6 +256,8 @@ def assign_tiers(edges):
 def detect_communities(edges):
     adj: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
     for (a, b), e in edges.items():
+        if e.get("tier") == "suppressed":
+            continue
         adj[a][b] += e["weight"]
         adj[b][a] += e["weight"]
     degree = {n: sum(adj[n].values()) for n in adj}
@@ -253,15 +304,18 @@ VAULT_SIGNALS = ("explicit", "page-link", "travel-seq")
 def edge_records(edges):
     recs = []
     for (a, b), e in edges.items():
+        if e.get("tier") == "suppressed":
+            continue
         # An edge may go to the player-facing RAG only if it has a vault-sourced
-        # basis: an explicit/page/session signal, or an LLM-validated citation.
-        # The `plan` signal alone (raw Discord) is never sufficient.
-        has_vault_signal = any(s in e["signals"] for s in VAULT_SIGNALS)
+        # basis: a curated seed, an explicit/page/session signal, or an
+        # LLM-validated citation. The `plan` signal alone (raw Discord) never is.
+        has_basis = ("seed" in e["signals"] or any(s in e["signals"] for s in VAULT_SIGNALS)
+                     or bool(e["citation"]))
         recs.append({
-            "a": a, "b": b, "directed": e["directed"], "weight": e["weight"],
+            "a": a, "b": b, "directed": False, "weight": e["weight"],
             "tier": e["tier"], "type": e["type"], "citation": e["citation"],
             "signals": dict(e["signals"]), "sources": sorted(e["sources"])[:6],
-            "rag_eligible": e["tier"] == "confirmed" and (has_vault_signal or bool(e["citation"])),
+            "rag_eligible": e["tier"] == "confirmed" and has_basis,
         })
     recs.sort(key=lambda r: r["weight"], reverse=True)
     return recs
@@ -276,9 +330,11 @@ def write_map_note(edges, comms, degree):
     lines = ["---", "tags:", "  - note", "  - map", "generated_by: scripts/location_graph.py",
              "---", "", "# Location Map", "",
              "Auto-generated adjacency map of Arden Vul locations, clustered by graph "
-             "community. Only **confirmed** edges (explicit connection, ≥2 independent "
-             "signals, or LLM-cited) are drawn. Edge labels show inferred type/direction "
-             "where known. This is inferred from text and may contain errors.", "",
+             "community. Only **confirmed** edges are drawn: a curated typed edge "
+             "(`config/location_edges_seed.json`), an explicit page connection, or one "
+             "backed by ≥2 independent signals. Travel/staging artifacts (e.g. teleporting "
+             "from the Beacon base) are suppressed. Edge labels show the connection type. "
+             "Inferred from canon + Vallium's route plans; may contain errors.", "",
              "```mermaid", "flowchart LR"]
     drawn_nodes = set()
     for hub, members in sorted(comms.items(), key=lambda kv: -len(kv[1])):
@@ -295,9 +351,8 @@ def write_map_note(edges, comms, degree):
         lines.append("  end")
     for a, b, e in sorted(confirmed, key=lambda x: -x[2]["weight"]):
         lbl = e["type"] or ""
-        arrow = "-->" if e["directed"] else "---"
-        lab = f'|{lbl}|' if lbl else ""
-        lines.append(f"  {mermaid_id(a)} {arrow}{lab} {mermaid_id(b)}")
+        lab = f"|{lbl}|" if lbl else ""
+        lines.append(f"  {mermaid_id(a)} ---{lab} {mermaid_id(b)}")
     lines += ["```", ""]
     MAP_NOTE.write_text("\n".join(lines), encoding="utf-8")
 
@@ -351,6 +406,8 @@ def apply_llm_cache(edges):
     cache = load_llm_cache()
     applied = 0
     for (a, b), e in edges.items():
+        if e.get("suppressed"):
+            continue
         v = cache.get(cache_key(a, b))
         if not v or not v.get("validated"):
             continue
@@ -416,6 +473,7 @@ def run_llm_pass(edges, aliases, limit, eval_mode):
 def cmd_build(args):
     aliases, link_surface = build_lexicon()
     edges = collect_deterministic(aliases, link_surface)
+    seeded, suppressed, warns = apply_seed(edges, link_surface)  # curated trusted layer
     assign_tiers(edges)
     if args.llm:
         run_llm_pass(edges, aliases, args.llm, args.eval)
@@ -432,8 +490,11 @@ def cmd_build(args):
 
     tiers = Counter_tier(recs)
     print(f"nodes: {len(aliases)}   edges: {len(recs)}   communities: {len(comms)}")
+    print(f"  seeded(curated): {seeded}   suppressed(artifacts): {suppressed}")
     print(f"  confirmed: {tiers['confirmed']}   candidate: {tiers['candidate']}   hint: {tiers['hint']}")
     print(f"  rag-eligible: {sum(1 for r in recs if r['rag_eligible'])}   (LLM-cited applied: {cached})")
+    for w in warns:
+        print(f"  WARN: {w}")
     print(f"wrote {OUT_JSON.relative_to(ROOT)} and {MAP_NOTE.relative_to(ROOT)}")
     return 0
 

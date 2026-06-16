@@ -1,0 +1,88 @@
+{
+  "_doc": "Curated, typed location edges for the Arden Vul map -- the TRUSTED layer. Authored by analysis of canon (session recaps, location pages, Vallium's ooc-planning route proposals), not by the local LLM. Each edge names its evidence basis. `reject` suppresses deterministic edges that are travel/staging artifacts (e.g. the party teleporting from their Beacon base), not real adjacency. Endpoints must be real vault/locations pages. Edges are two-way unless directed=true with a from/to.",
+  "edges": [
+    {"a": "Gosterwick", "b": "Arden Vul", "type": "road", "note": "Roughly a ten-mile hike from Gosterwick up to the surface ruins (Session 1; Session 2)."},
+    {"a": "Gosterwick", "b": "Imperial Road", "type": "road", "note": "The Imperial Road runs out of Gosterwick."},
+    {"a": "Gosterwick", "b": "Newmarket", "type": "road", "note": "Surface road between the cities."},
+    {"a": "Newmarket", "b": "Narsileon", "type": "road", "note": "Neighbouring surface cities."},
+    {"a": "Gosterwick", "b": "Narsileon", "type": "road", "note": "Surface trade route."},
+    {"a": "Gosterwick", "b": "Burdock Valley", "type": "contains", "note": "Gosterwick sits in Burdock's Valley."},
+    {"a": "Gosterwick", "b": "Azure Keep", "type": "contains", "note": "Lady Alexia's keep/residence in Gosterwick (seat of the Knights of the Azure Shield)."},
+
+    {"a": "Arden Vul", "b": "Long Stair", "type": "climb", "note": "The Long Stair is the treacherous cliff climb from the base up to the ruins."},
+    {"a": "Cliff Face", "b": "Long Stair", "type": "climb", "note": "The Long Stair ascends the Cliff Face."},
+    {"a": "Cliff Face", "b": "Arden Vul", "type": "climb", "note": "The Cliff Face lies directly below the ruins."},
+    {"a": "Cliff Face", "b": "Howling Caves", "type": "passage", "note": "Caves in the cliff face connect toward the Howling Caves."},
+    {"a": "Cliff Face", "b": "Great Cavern", "type": "passage", "note": "The waterfall plunge pool below the Cliff Face leads toward Arden Vul / the Great Cavern."},
+
+    {"a": "Arden Vul", "b": "Pyramid of Thoth", "type": "contains", "note": "The Pyramid of Thoth stands in the ruins; the party's main dungeon entrance."},
+    {"a": "Arden Vul", "b": "Forum of Arden Vul", "type": "contains", "note": "The Forum is part of the surface ruins."},
+    {"a": "Arden Vul", "b": "Obelisk", "type": "contains", "note": "Surface ruin feature."},
+    {"a": "Forum of Arden Vul", "b": "Pyramid of Thoth", "type": "passage", "note": "Adjacent in the ruins (explicit Connections)."},
+    {"a": "Forum of Arden Vul", "b": "Tower of Scrutiny", "type": "passage", "note": "Explicit Connections."},
+    {"a": "Square Tower (East of Forum)", "b": "Forum of Arden Vul", "type": "passage", "note": "Located on the east side of the Forum (location page)."},
+
+    {"a": "Pyramid of Thoth", "b": "Glory of Thoth", "type": "stairs", "note": "Stairs down from the pyramid into the Glory of Thoth level."},
+    {"a": "Pyramid of Thoth", "b": "Well of Light", "type": "stairs", "note": "The Well of Light descends from the upper Thoth complex."},
+    {"a": "Glory of Thoth", "b": "Well of Light", "type": "passage", "note": "Adjacent transit areas in the upper Halls."},
+    {"a": "Glory of Thoth", "b": "Great Hall", "type": "passage", "note": "Adjacent in the upper Halls."},
+    {"a": "Glory of Thoth", "b": "Great Chasm", "type": "passage", "note": "The Glory of Thoth sits near the Great Chasm (~1000ft above the Troll Lifts)."},
+    {"a": "Glory of Thoth", "b": "Goblin Market", "type": "passage", "note": "Passage between the two (Discord Summary 2026-W16)."},
+    {"a": "Well of Light", "b": "Howling Caves", "type": "passage", "note": "Connected in the upper Halls."},
+    {"a": "Well of Light", "b": "Goblin Market", "type": "passage", "note": "Connected toward Goblintown."},
+    {"a": "Well of Light", "b": "Upper Goblintown", "type": "passage", "note": "Descends toward Upper Goblintown."},
+
+    {"a": "Long Stair", "b": "Great Cavern", "type": "passage", "note": "The Great Cavern is reached from the Long Stair level."},
+    {"a": "Great Cavern", "b": "Great Chasm", "type": "passage", "note": "Adjacent major cave systems."},
+    {"a": "Great Cavern", "b": "Waterfall", "type": "passage", "note": "The waterfall feeds the Great Cavern."},
+
+    {"a": "Goblin Forum", "b": "Goblin Market", "type": "passage", "note": "Both in the Goblintown complex."},
+    {"a": "Goblin Forum", "b": "Upper Goblintown", "type": "passage", "note": "Goblintown complex."},
+    {"a": "Goblin Forum", "b": "Sighing Stair", "type": "stairs", "note": "The Sighing Stair adjoins the Forum."},
+    {"a": "Sighing Stair", "b": "Temple of Set", "type": "passage", "note": "The Sighing Stair leads toward the Temple of Set."},
+    {"a": "Forum of Set", "b": "Temple of Set", "type": "passage", "note": "The Temple of Set sits within the Forum of Set complex."},
+    {"a": "Goblin Market", "b": "Howling Caves", "type": "passage", "note": "Connected within the middle Halls."},
+
+    {"a": "Great Chasm", "b": "Troll Lifts", "type": "lift", "note": "The Troll/Varumani Lifts run up and down the Great Chasm."},
+    {"a": "Great Chasm", "b": "Varumani Lifts", "type": "lift", "note": "Lift system on the Great Chasm."},
+    {"a": "Troll Lifts", "b": "Halls of the Troll Thegn", "type": "lift", "note": "Lifts descend to the Varumani / Troll Thegn level (Vallium's Session 55 proposal)."},
+    {"a": "Troll Lifts", "b": "Arena", "type": "lift", "note": "Arena Level Station; operator directs to the Arena, NE (Troll Lifts page)."},
+    {"a": "Troll Lifts", "b": "Sundered Span", "type": "passage", "note": "Upper Lift Station reached via the Sundered Span from the Wet Caves (Troll Lifts page)."},
+    {"a": "Arena", "b": "Inn of the Lost", "type": "passage", "note": "Inn of the Lost is east of the Arena stalls through an unlocked door (explicit Connections)."},
+
+    {"a": "Gosterwick", "b": "Beacon", "type": "teleporter", "note": "Rug of Instant Access links the Arcane Practitioners' Club in Gosterwick to the Beacon (Sessions 51-56)."},
+    {"a": "Beacon", "b": "Cloister", "type": "teleporter", "note": "Rudishva teleportation pad from the Beacon to the nearby Cloister (Session 45; Vallium S55)."},
+    {"a": "Beacon", "b": "Arena", "type": "teleporter", "note": "One of four teleporters in the Rudishva command chamber SE of the Beacon leads to the Arena (Session 45/46)."},
+    {"a": "Beacon", "b": "Sundered Span", "type": "teleporter", "note": "Beacon command-chamber teleporter to the Sundered Span (Session 45)."},
+    {"a": "Beacon", "b": "Great Chasm", "type": "teleporter", "note": "Teleporter to the floating garden island in the Great Chasm (Session 45)."},
+    {"a": "Cloister", "b": "Tomb of Archon Marius", "type": "passage", "directed": false, "note": "Reached via the Cloister secret passage, north along the water (Vallium S55; Session 54)."},
+
+    {"a": "Tomb of Theskalon", "b": "Southern Necropolis of Set", "type": "passage", "note": "Explicit Connections."},
+    {"a": "Hall of Forty Pillars", "b": "The Obsidian Gates", "type": "passage", "note": "The Hall is right next to the Obsidian Gates (explicit Connections; Rumor 4)."},
+
+    {"a": "Arden Vul", "b": "Burdock Valley", "type": "contains", "note": "The Arden Vul plateau lies within Burdock's Valley."},
+    {"a": "Gosterwick", "b": "Upper Market", "type": "contains", "note": "Market within Gosterwick."},
+    {"a": "Gosterwick", "b": "Totey Lake", "type": "contains", "note": "Lake beside Gosterwick (Session 2)."},
+    {"a": "Gosterwick", "b": "Vetucaster", "type": "road", "note": "Surface settlement reachable from Gosterwick."}
+  ],
+  "reject": [
+    {"a": "Beacon", "b": "Goblin Forum", "reason": "Frequent staging route from the party's Beacon base via teleporter + passages, not a direct edge."},
+    {"a": "Beacon", "b": "Glory of Thoth", "reason": "Staging route from Beacon base, not adjacency."},
+    {"a": "Beacon", "b": "Well of Light", "reason": "Staging route from Beacon base."},
+    {"a": "Beacon", "b": "Goblintown", "reason": "Staging route from Beacon base."},
+    {"a": "Beacon", "b": "Goblin Market", "reason": "Staging route from Beacon base."},
+    {"a": "Beacon", "b": "Pyramid of Thoth", "reason": "Staging route from Beacon base."},
+    {"a": "Beacon", "b": "Arden Vul", "reason": "Recap/staging co-occurrence, not adjacency."},
+    {"a": "Beacon", "b": "Great Cavern", "reason": "Staging route from Beacon base."},
+    {"a": "Beacon", "b": "Azure Keep", "reason": "Recap co-occurrence; Azure Keep is in Gosterwick."},
+    {"a": "Beacon", "b": "Tomb of Archon Marius", "reason": "Multi-hop via the Cloister, not a direct Beacon edge."},
+    {"a": "Goblin Market", "b": "Beacon", "reason": "Staging route from Beacon base."},
+    {"a": "Beacon", "b": "Obelisk", "reason": "Staging/recap co-occurrence; Obelisk is a surface ruin feature."},
+    {"a": "Arden Vul", "b": "Great Cavern", "reason": "Multi-hop (via Long Stair); not direct adjacency."},
+    {"a": "Arden Vul", "b": "Well of Light", "reason": "Multi-hop (via Pyramid of Thoth); not direct."},
+    {"a": "Arden Vul", "b": "Goblin Forum", "reason": "Surface-to-deep recap co-occurrence; multi-hop."},
+    {"a": "Arden Vul", "b": "Upper Goblintown", "reason": "Surface-to-deep recap co-occurrence; multi-hop."},
+    {"a": "Arden Vul", "b": "Newmarket", "reason": "Newmarket connects to Gosterwick, not directly to the ruins."},
+    {"a": "Gosterwick", "b": "Upper Goblintown", "reason": "Town-to-deep-dungeon recap/staging artifact."}
+  ]
+}
