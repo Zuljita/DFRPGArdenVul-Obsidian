@@ -7561,12 +7561,33 @@ def cmd_ingest_vault_rag(args: argparse.Namespace) -> int:
     return 0 if result["ok"] else 2
 
 
+def publish_location_graph_safely() -> dict:
+    """Rebuild and publish the location adjacency graph for the /route/arden
+    endpoint. Best-effort: never fail the RAG refresh on a graph error."""
+    sources = load_local_sources()
+    publish_path = sources.get("location_graph_publish_path", "/opt/brain/arden-location-graph.json")
+    script = ROOT / "scripts" / "location_graph.py"
+    try:
+        proc = subprocess.run(
+            [sys.executable, str(script), "build", "--publish", str(publish_path)],
+            capture_output=True, text=True, timeout=300,
+        )
+        if proc.returncode == 0:
+            tail = proc.stdout.strip().splitlines()[-1] if proc.stdout.strip() else ""
+            return {"ok": True, "publish_path": str(publish_path), "detail": tail}
+        return {"ok": False, "publish_path": str(publish_path), "error": (proc.stderr or proc.stdout)[-300:]}
+    except Exception as exc:
+        return {"ok": False, "error": str(exc)[:200]}
+
+
 def cmd_refresh_vault_rag(args: argparse.Namespace) -> int:
     try:
         result = vault_rag_ingest_all(reset=False, limit=args.limit)
     except RuntimeError as exc:
         print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
         return 2
+    if result.get("ok"):
+        result["location_graph"] = publish_location_graph_safely()
     if not args.verbose:
         result.pop("results", None)
     print(json.dumps(result, indent=2))
