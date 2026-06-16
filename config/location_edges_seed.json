@@ -324,6 +324,24 @@
       "b": "Vetucaster",
       "type": "road",
       "note": "Surface settlement reachable from Gosterwick."
+    },
+    {
+      "a": "Sundered Span",
+      "b": "Great Hall",
+      "type": "passage",
+      "note": "The Troll/Varumani Lifts connect to the Great Hall via the Sundered Span (GM 2026-06)."
+    },
+    {
+      "a": "Sundered Span",
+      "b": "Wet Caves",
+      "type": "passage",
+      "note": "The Sundered Span Upper Lift Station is reached via the Wet Caves (Sundered Span page)."
+    },
+    {
+      "a": "Sundered Span",
+      "b": "Varumani Lifts",
+      "type": "lift",
+      "note": "Sundered Span connects to the Varumani Lifts Upper Lift Station (Sundered Span page)."
     }
   ],
   "reject": [

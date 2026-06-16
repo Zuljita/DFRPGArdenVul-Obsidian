@@ -33,13 +33,9 @@ flowchart LR
     n_Canyon_Vaults["Canyon Vaults"]
   end
   subgraph c_n_Great_Cavern["Great Cavern cluster"]
-    n_Halls_of_the_Troll_Thegn["Halls of the Troll Thegn"]
-    n_Troll_Lifts["Troll Lifts"]
-    n_Great_Chasm["Great Chasm"]
-    n_Varumani_Lifts["Varumani Lifts"]
     n_Great_Cavern["Great Cavern"]
+    n_Great_Chasm["Great Chasm"]
     n_Waterfall["Waterfall"]
-    n_Sundered_Span["Sundered Span"]
     n_Chasm_Floor["Chasm Floor"]
   end
   subgraph c_n_Forum_of_Set["Forum of Set cluster"]
@@ -81,9 +77,18 @@ flowchart LR
     n_Hall_of_Forty_Pillars["Hall of Forty Pillars"]
     n_The_Obsidian_Gates["The Obsidian Gates"]
   end
+  subgraph c_n_Wet_Caves["Wet Caves cluster"]
+    n_Sundered_Span["Sundered Span"]
+    n_Varumani_Lifts["Varumani Lifts"]
+    n_Wet_Caves["Wet Caves"]
+  end
   subgraph c_n_Arena["Arena cluster"]
     n_Arena["Arena"]
     n_Inn_of_the_Lost["Inn of the Lost"]
+  end
+  subgraph c_n_Troll_Lifts["Troll Lifts cluster"]
+    n_Halls_of_the_Troll_Thegn["Halls of the Troll Thegn"]
+    n_Troll_Lifts["Troll Lifts"]
   end
   subgraph c_n_Southern_Necropolis_of_Set["Southern Necropolis of Set cluster"]
     n_Southern_Necropolis_of_Set["Southern Necropolis of Set"]
@@ -120,6 +125,7 @@ flowchart LR
   n_Forum_of_Arden_Vul ---|passage| n_Tower_of_Scrutiny
   n_Forum_of_Set ---|stairs| n_Sighing_Stair
   n_Southern_Necropolis_of_Set ---|passage| n_Tomb_of_Theskalon
+  n_Sundered_Span ---|lift| n_Varumani_Lifts
   n_Cliff_Face ---|passage| n_Great_Cavern
   n_Goblin_Market ---|passage| n_Well_of_Light
   n_Azure_Keep ---|contains| n_Gosterwick
@@ -133,6 +139,7 @@ flowchart LR
   n_Gosterwick ---|contains| n_Totey_Lake
   n_Gosterwick ---|contains| n_Upper_Market
   n_Gosterwick ---|road| n_Vetucaster
+  n_Sundered_Span ---|passage| n_Wet_Caves
   n_Forum_of_Set --- n_Great_Cavern
   n_Great_Chasm ---|lift| n_Troll_Lifts
   n_Arden_Vul ---|contains| n_Forum_of_Arden_Vul
@@ -143,6 +150,7 @@ flowchart LR
   n_Chasm_Floor ---|passage| n_Rudishva_Bastion
   n_Chasm_Floor ---|passage| n_Great_Chasm
   n_Cloister ---|passage| n_Tomb_of_Archon_Marius
+  n_Great_Hall ---|passage| n_Sundered_Span
   n_Archon_s_Palace ---|teleporter| n_Thothian_Teleportation_Network
   n_Citadel_Donjon_Cellar ---|teleporter| n_Thothian_Teleportation_Network
   n_Thothian_Administration_Building_Cellar ---|teleporter| n_Thothian_Teleportation_Network
