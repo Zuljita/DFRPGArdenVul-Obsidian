@@ -43,11 +43,10 @@ flowchart LR
     n_Cliff_Face["Cliff Face"]
   end
   subgraph c_n_Sundered_Span["Sundered Span cluster"]
-    n_Great_Hall["Great Hall"]
-    n_Great_Pyramid["Great Pyramid"]
     n_Sundered_Span["Sundered Span"]
     n_Varumani_Lifts["Varumani Lifts"]
     n_Wet_Caves["Wet Caves"]
+    n_Great_Hall["Great Hall"]
   end
   subgraph c_n_Beacon["Beacon cluster"]
     n_Beacon["Beacon"]
@@ -88,12 +87,12 @@ flowchart LR
     n_Southern_Necropolis_of_Set["Southern Necropolis of Set"]
     n_Tomb_of_Theskalon["Tomb of Theskalon"]
   end
-  n_Arden_Vul ---|road| n_Gosterwick
   n_Arden_Vul ---|climb| n_Long_Stair
   n_Beacon ---|rug| n_Gosterwick
   n_Great_Cavern ---|passage| n_Long_Stair
   n_Glory_of_Thoth ---|passage| n_Well_of_Light
   n_Arden_Vul ---|contains| n_Pyramid_of_Thoth
+  n_Gosterwick ---|road| n_Long_Stair
   n_Beacon ---|teleporter| n_Cloister
   n_Gosterwick ---|road| n_Newmarket
   n_Cliff_Face ---|climb| n_Long_Stair
@@ -134,7 +133,6 @@ flowchart LR
   n_Glory_of_Thoth ---|passage| n_Temple_of_Thoth
   n_Baboon_Cave ---|passage| n_Howling_Caves
   n_Baliff_s_Truncheon ---|contains| n_Gosterwick
-  n_Arden_Vul ---|contains| n_Burdock_Valley
   n_Cave_with_Spider_Webs ---|passage| n_Cliff_Face
   n_Druid_s_Retreat ---|passage| n_Well_of_Light
   n_Goblin_Great_Hall ---|passage| n_Goblin_Warrens
@@ -184,7 +182,4 @@ flowchart LR
   n_Hall_of_Servants ---|teleporter| n_Thothian_Teleportation_Network
   n_Archontean_Parvis ---|teleporter| n_Thothian_Teleportation_Network
   n_Canyon_Vaults ---|teleporter| n_Thothian_Teleportation_Network
-  n_Newmarket --- n_Temple_of_Thoth
-  n_Great_Hall --- n_Great_Pyramid
-  n_Great_Chasm --- n_Tomb_of_Archon_Marius
 ```

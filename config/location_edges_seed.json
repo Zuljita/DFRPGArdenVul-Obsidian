@@ -3,9 +3,10 @@
   "edges": [
     {
       "a": "Gosterwick",
-      "b": "Arden Vul",
+      "b": "Long Stair",
       "type": "road",
-      "note": "Roughly a ten-mile hike from Gosterwick up to the surface ruins (Session 1; Session 2)."
+      "note": "The long (~ten-mile) walk from Gosterwick to the base of the Long Stair, climbed to reach the ruins (Session 1; Session 2).",
+      "cost": 10
     },
     {
       "a": "Gosterwick",
@@ -579,6 +580,16 @@
       "a": "Wet Caves",
       "b": "Temple of Set",
       "reason": "No direct connection (GM). The route is Wet Caves -> Glory of Thoth -> (secret W passage) Temple of Thoth -> (secret S passage) Temple of Set."
+    },
+    {
+      "a": "Arden Vul",
+      "b": "Burdock Valley",
+      "reason": "Region containment, not a travel path. Both the ruins and Gosterwick sit in Burdock's Valley but are ~10mi apart via the Long Stair hike; this edge created a false cheap shortcut."
+    },
+    {
+      "a": "Newmarket",
+      "b": "Temple of Thoth",
+      "reason": "False shortcut. The Temple of Thoth in the dungeon connects via Glory of Thoth; the Newmarket page-link is a description/possible node conflation, not a passage."
     }
   ],
   "base_nodes": [

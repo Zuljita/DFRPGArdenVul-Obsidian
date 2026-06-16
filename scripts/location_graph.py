@@ -64,6 +64,12 @@ TEXT_STOP = {"arena", "tomb", "tower", "market", "forum", "cave", "caves", "hall
              "well", "river", "gate", "gates", "road", "lift", "lifts", "inn", "span",
              "vault", "keep", "residence", "donjon", "stair", "stairs", "pit", "shaft"}
 SIGNAL_WEIGHT = {"seed": 6, "explicit": 3, "page-link": 1, "travel-seq": 1, "plan": 2}
+# Travel cost per edge type (effort/time, not physical distance). Teleporters are
+# ~free; a long surface hike is expensive. Overridable per-edge via seed "cost".
+TYPE_COST = {"teleporter": 1, "rug": 1, "contains": 1, "region-contains": 1,
+             "lift": 2, "ferry": 2, "stairs": 2, "door": 2, "gate": 2,
+             "passage": 3, "climb": 4, "road": 6}
+DEFAULT_COST = 3
 
 
 def read(p: Path) -> str:
@@ -148,7 +154,7 @@ def text_sequence(text: str, pat, surface) -> list[str]:
 # ---------------------------------------------------------------- edges
 def new_edge():
     return {"weight": 0, "signals": defaultdict(int), "sources": set(),
-            "type": None, "access": None, "citation": None, "tier": None}
+            "type": None, "access": None, "cost": None, "citation": None, "tier": None}
 
 
 def add_edge(edges, a, b, signal, source, directed=False):
@@ -231,6 +237,8 @@ def apply_seed(edges, link_surface):
         e["type"] = ed.get("type") or e["type"]
         if ed.get("access"):
             e["access"] = ed["access"]
+        if ed.get("cost") is not None:
+            e["cost"] = ed["cost"]
         e["citation"] = {"curated": ed.get("note", "")}
         added += 1
 
@@ -348,7 +356,13 @@ def assign_tiers(edges):
     for e in edges.values():
         if e.get("suppressed"):
             e["tier"] = "suppressed"
-        elif "seed" in e["signals"] or "explicit" in e["signals"] or len(e["signals"]) >= 2:
+        elif "seed" in e["signals"] or "explicit" in e["signals"]:
+            # Default-routing (confirmed) trusts only intentional adjacency:
+            # curated seed or a page's `## Connections`. (LLM-cited edges are
+            # promoted to confirmed separately in apply_llm_cache.) Page links
+            # and travel/plan corroboration stay candidate -- "two weak signals"
+            # is not enough, since cost-weighting turns a false edge into a
+            # tempting shortcut.
             e["tier"] = "confirmed"
         else:
             e["tier"] = "candidate"
@@ -413,8 +427,11 @@ def edge_records(edges):
         # LLM-validated citation. The `plan` signal alone (raw Discord) never is.
         has_basis = ("seed" in e["signals"] or any(s in e["signals"] for s in VAULT_SIGNALS)
                      or bool(e["citation"]))
+        cost = e.get("cost")
+        if cost is None:
+            cost = TYPE_COST.get(e["type"], DEFAULT_COST)
         recs.append({
-            "a": a, "b": b, "directed": False, "weight": e["weight"],
+            "a": a, "b": b, "directed": False, "weight": e["weight"], "cost": cost,
             "tier": e["tier"], "type": e["type"], "access": e.get("access"), "citation": e["citation"],
             "signals": dict(e["signals"]), "sources": sorted(e["sources"])[:6],
             "rag_eligible": e["tier"] == "confirmed" and has_basis,
