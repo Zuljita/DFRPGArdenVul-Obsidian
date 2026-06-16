@@ -480,12 +480,18 @@ def cmd_build(args):
     cached = apply_llm_cache(edges)   # merge all prior verified verdicts
     comms, degree = detect_communities(edges)
     recs = edge_records(edges)
-    OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUT_JSON.write_text(json.dumps({
+    graph_json = json.dumps({
         "nodes": {c: {"aliases": sorted(aliases[c]), "degree": degree.get(c, 0)} for c in sorted(aliases)},
         "communities": {hub: members for hub, members in comms.items()},
         "edges": recs,
-    }, indent=2), encoding="utf-8")
+    }, indent=2)
+    OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    OUT_JSON.write_text(graph_json, encoding="utf-8")
+    if args.publish:
+        pub = Path(args.publish)
+        pub.parent.mkdir(parents=True, exist_ok=True)
+        pub.write_text(graph_json, encoding="utf-8")
+        print(f"published graph -> {pub}")
     write_map_note(edges, comms, degree)
 
     tiers = Counter_tier(recs)
@@ -513,6 +519,8 @@ def main(argv=None):
     b.add_argument("--llm", type=int, default=0, metavar="N",
                    help="run the LLM verifier on N candidate edges")
     b.add_argument("--eval", action="store_true", help="print an LLM evaluation table")
+    b.add_argument("--publish", metavar="PATH", default=None,
+                   help="also write the graph JSON to PATH (e.g. the RAG API's mounted data file)")
     b.set_defaults(func=cmd_build)
     args = ap.parse_args(argv)
     return args.func(args)
