@@ -477,6 +477,12 @@
       "b": "Pillar of Faces",
       "type": "passage",
       "note": "A long hallway runs from the eastern Settite guard post to the Pillar of Faces (GM)."
+    },
+    {
+      "a": "Territory of Deino",
+      "b": "Glory of Thoth",
+      "type": "passage",
+      "note": "The Children of Deino's territory connects up to the Glory of Thoth / Glory of Weskenim (GM)."
     }
   ],
   "reject": [

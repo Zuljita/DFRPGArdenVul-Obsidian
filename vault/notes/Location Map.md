@@ -169,6 +169,7 @@ flowchart LR
   n_Great_Cavern ---|passage| n_Territory_of_Deino
   n_Eastern_Settite_Guard_Post ---|passage| n_Great_Cavern
   n_Eastern_Settite_Guard_Post ---|passage| n_Pillar_of_Faces
+  n_Glory_of_Thoth ---|passage| n_Territory_of_Deino
   n_Archon_s_Palace ---|teleporter| n_Thothian_Teleportation_Network
   n_Citadel_Donjon_Cellar ---|teleporter| n_Thothian_Teleportation_Network
   n_Thothian_Administration_Building_Cellar ---|teleporter| n_Thothian_Teleportation_Network
