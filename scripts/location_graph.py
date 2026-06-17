@@ -216,12 +216,17 @@ def collect_deterministic(aliases, link_surface):
     return edges
 
 
-def apply_seed(edges, link_surface):
+def apply_seed(edges, aliases, link_surface):
     """Ingest the curated trusted layer: typed edges + a reject (suppress) list."""
     if not SEED_FILE.exists():
         return 0, 0, []
     spec = json.loads(read(SEED_FILE))
     warnings: list[str] = []
+
+    # Intentional virtual nodes (real campaign locations that don't have a vault
+    # page yet) so seed edges can reference them without a stub page.
+    for vn in spec.get("extra_nodes", []):
+        _register_virtual_node(aliases, link_surface, vn)
 
     def canon(name):
         return link_surface.get(name.strip().lower())
@@ -592,7 +597,7 @@ def run_llm_pass(edges, aliases, limit, eval_mode):
 def cmd_build(args):
     aliases, link_surface = build_lexicon()
     edges = collect_deterministic(aliases, link_surface)
-    seeded, suppressed, warns = apply_seed(edges, link_surface)  # curated trusted layer
+    seeded, suppressed, warns = apply_seed(edges, aliases, link_surface)  # curated trusted layer
     circles = apply_teleport_network(edges, aliases, link_surface)
     assign_tiers(edges)
     if args.llm:

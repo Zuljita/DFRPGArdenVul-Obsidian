@@ -11,12 +11,13 @@ Auto-generated adjacency map of Arden Vul locations, clustered by graph communit
 
 ```mermaid
 flowchart LR
-  subgraph c_n_Great_Cavern["Great Cavern cluster"]
-    n_Haunted_Tower["Haunted Tower"]
-    n_Waterfall["Waterfall"]
-    n_Great_Cavern["Great Cavern"]
-    n_Great_Chasm["Great Chasm"]
+  subgraph c_n_Beacon["Beacon cluster"]
+    n_Beacon["Beacon"]
+    n_Cloister["Cloister"]
+    n_Behir_Caves["Behir Caves"]
+    n_Rudishva_Bastion["Rudishva Bastion"]
     n_Chasm_Floor["Chasm Floor"]
+    n_Tomb_of_Archon_Marius["Tomb of Archon Marius"]
   end
   subgraph c_n_Pyramid_of_Thoth["Pyramid of Thoth cluster"]
     n_Forum_of_Arden_Vul["Forum of Arden Vul"]
@@ -42,29 +43,33 @@ flowchart LR
     n_Cave_with_Spider_Webs["Cave with Spider Webs"]
     n_Cliff_Face["Cliff Face"]
   end
+  subgraph c_n_Great_Cavern["Great Cavern cluster"]
+    n_Great_Cavern["Great Cavern"]
+    n_Great_Chasm["Great Chasm"]
+    n_Beastman_Entrance["Beastman Entrance"]
+    n_Territory_of_Deino["Territory of Deino"]
+    n_Eastern_Settite_Guard_Post["Eastern Settite Guard Post"]
+    n_Pillar_of_Faces["Pillar of Faces"]
+  end
   subgraph c_n_Sundered_Span["Sundered Span cluster"]
     n_Sundered_Span["Sundered Span"]
     n_Varumani_Lifts["Varumani Lifts"]
     n_Wet_Caves["Wet Caves"]
     n_Great_Hall["Great Hall"]
   end
-  subgraph c_n_Beacon["Beacon cluster"]
-    n_Beacon["Beacon"]
-    n_Cloister["Cloister"]
-    n_Behir_Caves["Behir Caves"]
-    n_Rudishva_Bastion["Rudishva Bastion"]
-    n_Tomb_of_Archon_Marius["Tomb of Archon Marius"]
-  end
   subgraph c_n_Hubs["Hubs cluster"]
-    n_Arden_Vul["Arden Vul"]
-    n_Long_Stair["Long Stair"]
     n_Gosterwick["Gosterwick"]
+    n_Long_Stair["Long Stair"]
     n_Glory_of_Thoth["Glory of Thoth"]
     n_Thothian_Teleportation_Network["Thothian Teleportation Network"]
   end
   subgraph c_n_Newmarket["Newmarket cluster"]
     n_Narsileon["Narsileon"]
     n_Newmarket["Newmarket"]
+  end
+  subgraph c_n_Waterfall["Waterfall cluster"]
+    n_Haunted_Tower["Haunted Tower"]
+    n_Waterfall["Waterfall"]
   end
   subgraph c_n_Hall_of_Forty_Pillars["Hall of Forty Pillars cluster"]
     n_Hall_of_Forty_Pillars["Hall of Forty Pillars"]
@@ -87,9 +92,7 @@ flowchart LR
     n_Southern_Necropolis_of_Set["Southern Necropolis of Set"]
     n_Tomb_of_Theskalon["Tomb of Theskalon"]
   end
-  n_Arden_Vul ---|climb| n_Long_Stair
   n_Beacon ---|rug| n_Gosterwick
-  n_Great_Cavern ---|passage| n_Long_Stair
   n_Glory_of_Thoth ---|passage| n_Well_of_Light
   n_Arden_Vul ---|contains| n_Pyramid_of_Thoth
   n_Gosterwick ---|road| n_Long_Stair
@@ -99,7 +102,6 @@ flowchart LR
   n_Arena ---|passage| n_Inn_of_the_Lost
   n_Glory_of_Thoth ---|stairs| n_Pyramid_of_Thoth
   n_Glory_of_Thoth ---|passage| n_Goblin_Market
-  n_Arden_Vul ---|climb| n_Cliff_Face
   n_Temple_of_Set ---|passage| n_Temple_of_Thoth
   n_Upper_Goblintown ---|passage| n_Well_of_Light
   n_Forum_of_Set ---|passage| n_Upper_Goblintown
@@ -114,7 +116,6 @@ flowchart LR
   n_Halls_of_the_Troll_Thegn ---|lift| n_Troll_Lifts
   n_Glory_of_Thoth ---|passage| n_Great_Hall
   n_Great_Cavern ---|passage| n_Great_Chasm
-  n_Great_Cavern ---|passage| n_Waterfall
   n_Forum_of_Arden_Vul ---|passage| n_Pyramid_of_Thoth
   n_Forum_of_Arden_Vul ---|passage| n_Tower_of_Scrutiny
   n_Forum_of_Set ---|stairs| n_Sighing_Stair
@@ -162,6 +163,12 @@ flowchart LR
   n_Chasm_Floor ---|passage| n_Great_Chasm
   n_Cloister ---|passage| n_Tomb_of_Archon_Marius
   n_Great_Hall ---|passage| n_Sundered_Span
+  n_Beastman_Entrance ---|climb| n_Long_Stair
+  n_Arden_Vul ---|climb| n_Beastman_Entrance
+  n_Beastman_Entrance ---|passage| n_Great_Cavern
+  n_Great_Cavern ---|passage| n_Territory_of_Deino
+  n_Eastern_Settite_Guard_Post ---|passage| n_Great_Cavern
+  n_Eastern_Settite_Guard_Post ---|passage| n_Pillar_of_Faces
   n_Archon_s_Palace ---|teleporter| n_Thothian_Teleportation_Network
   n_Citadel_Donjon_Cellar ---|teleporter| n_Thothian_Teleportation_Network
   n_Thothian_Administration_Building_Cellar ---|teleporter| n_Thothian_Teleportation_Network

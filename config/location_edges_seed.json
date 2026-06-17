@@ -45,22 +45,10 @@
       "note": "Lady Alexia's keep/residence in Gosterwick (seat of the Knights of the Azure Shield)."
     },
     {
-      "a": "Arden Vul",
-      "b": "Long Stair",
-      "type": "climb",
-      "note": "The Long Stair is the treacherous cliff climb from the base up to the ruins."
-    },
-    {
       "a": "Cliff Face",
       "b": "Long Stair",
       "type": "climb",
       "note": "The Long Stair ascends the Cliff Face."
-    },
-    {
-      "a": "Cliff Face",
-      "b": "Arden Vul",
-      "type": "climb",
-      "note": "The Cliff Face lies directly below the ruins."
     },
     {
       "a": "Cliff Face",
@@ -160,22 +148,10 @@
       "note": "Descends toward Upper Goblintown."
     },
     {
-      "a": "Long Stair",
-      "b": "Great Cavern",
-      "type": "passage",
-      "note": "The Great Cavern is reached from the Long Stair level."
-    },
-    {
       "a": "Great Cavern",
       "b": "Great Chasm",
       "type": "passage",
       "note": "Adjacent major cave systems."
-    },
-    {
-      "a": "Great Cavern",
-      "b": "Waterfall",
-      "type": "passage",
-      "note": "The waterfall feeds the Great Cavern."
     },
     {
       "a": "Goblin Forum",
@@ -463,6 +439,44 @@
       "b": "Temple of Set",
       "type": "passage",
       "note": "Connected by a secret southern passage from the Temple of Thoth (GM 2026-06)."
+    },
+    {
+      "a": "Long Stair",
+      "b": "Beastman Entrance",
+      "type": "climb",
+      "cost": 5,
+      "note": "Lower half of the Long Stair, from the bottom up to the beastman entrance (GM)."
+    },
+    {
+      "a": "Beastman Entrance",
+      "b": "Arden Vul",
+      "type": "climb",
+      "cost": 5,
+      "note": "Upper half of the Long Stair, from the beastman entrance to the ruins at the top (GM)."
+    },
+    {
+      "a": "Beastman Entrance",
+      "b": "Great Cavern",
+      "type": "passage",
+      "note": "The Great Cavern opens off the Long Stair at the beastman entrance, halfway up (GM)."
+    },
+    {
+      "a": "Great Cavern",
+      "b": "Territory of Deino",
+      "type": "passage",
+      "note": "Connected to the Children of Deino's territory via the lowered cage in the NW of the cavern (GM)."
+    },
+    {
+      "a": "Great Cavern",
+      "b": "Eastern Settite Guard Post",
+      "type": "passage",
+      "note": "The Great Cavern connects to the eastern Settite guard post (GM)."
+    },
+    {
+      "a": "Eastern Settite Guard Post",
+      "b": "Pillar of Faces",
+      "type": "passage",
+      "note": "A long hallway runs from the eastern Settite guard post to the Pillar of Faces (GM)."
     }
   ],
   "reject": [
@@ -590,6 +604,16 @@
       "a": "Newmarket",
       "b": "Temple of Thoth",
       "reason": "False shortcut. The Temple of Thoth in the dungeon connects via Glory of Thoth; the Newmarket page-link is a description/possible node conflation, not a passage."
+    },
+    {
+      "a": "Great Cavern",
+      "b": "Waterfall",
+      "reason": "No connection (GM)."
+    },
+    {
+      "a": "Cliff Face",
+      "b": "Arden Vul",
+      "reason": "No separate free-climb to the ruins; the way up is the Long Stair (via the beastman entrance). Direct edge undercut the intended town->top cost of 20."
     }
   ],
   "base_nodes": [
@@ -723,5 +747,11 @@
         "hint": "Unknown location; not scryed."
       }
     ]
-  }
+  },
+  "extra_nodes": [
+    "Beastman Entrance",
+    "Territory of Deino",
+    "Eastern Settite Guard Post",
+    "Pillar of Faces"
+  ]
 }
