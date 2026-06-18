@@ -1,7 +1,6 @@
 ---
 title: Glory of Thoth
 aliases:
-  - locations/Glory of Weskenim
   - Glory of Weskenim
 tags:
   - tradition/thothian

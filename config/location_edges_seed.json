@@ -1,0 +1,763 @@
+{
+  "_doc": "Curated, typed location edges for the Arden Vul map -- the TRUSTED layer. Authored by analysis of canon (session recaps, location pages, Vallium's ooc-planning route proposals), not by the local LLM. Each edge names its evidence basis. `reject` suppresses deterministic edges that are travel/staging artifacts (e.g. the party teleporting from their Beacon base), not real adjacency. Endpoints must be real vault/locations pages. Edges are two-way unless directed=true with a from/to.",
+  "edges": [
+    {
+      "a": "Gosterwick",
+      "b": "Long Stair",
+      "type": "road",
+      "note": "The long (~ten-mile) walk from Gosterwick to the base of the Long Stair, climbed to reach the ruins (Session 1; Session 2).",
+      "cost": 10
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Imperial Road",
+      "type": "road",
+      "note": "The Imperial Road runs out of Gosterwick."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Newmarket",
+      "type": "road",
+      "note": "Surface road between the cities."
+    },
+    {
+      "a": "Newmarket",
+      "b": "Narsileon",
+      "type": "road",
+      "note": "Neighbouring surface cities."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Narsileon",
+      "type": "road",
+      "note": "Surface trade route."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Burdock Valley",
+      "type": "contains",
+      "note": "Gosterwick sits in Burdock's Valley."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Azure Keep",
+      "type": "contains",
+      "note": "Lady Alexia's keep/residence in Gosterwick (seat of the Knights of the Azure Shield)."
+    },
+    {
+      "a": "Cliff Face",
+      "b": "Long Stair",
+      "type": "climb",
+      "note": "The Long Stair ascends the Cliff Face."
+    },
+    {
+      "a": "Cliff Face",
+      "b": "Howling Caves",
+      "type": "passage",
+      "note": "Caves in the cliff face connect toward the Howling Caves."
+    },
+    {
+      "a": "Cliff Face",
+      "b": "Great Cavern",
+      "type": "passage",
+      "note": "The waterfall plunge pool below the Cliff Face leads toward Arden Vul / the Great Cavern."
+    },
+    {
+      "a": "Arden Vul",
+      "b": "Pyramid of Thoth",
+      "type": "contains",
+      "note": "The Pyramid of Thoth stands in the ruins; the party's main dungeon entrance."
+    },
+    {
+      "a": "Arden Vul",
+      "b": "Forum of Arden Vul",
+      "type": "contains",
+      "note": "The Forum is part of the surface ruins."
+    },
+    {
+      "a": "Arden Vul",
+      "b": "Obelisk",
+      "type": "contains",
+      "note": "Surface ruin feature."
+    },
+    {
+      "a": "Forum of Arden Vul",
+      "b": "Pyramid of Thoth",
+      "type": "passage",
+      "note": "Adjacent in the ruins (explicit Connections)."
+    },
+    {
+      "a": "Forum of Arden Vul",
+      "b": "Tower of Scrutiny",
+      "type": "passage",
+      "note": "Explicit Connections."
+    },
+    {
+      "a": "Square Tower (East of Forum)",
+      "b": "Forum of Arden Vul",
+      "type": "passage",
+      "note": "Located on the east side of the Forum (location page)."
+    },
+    {
+      "a": "Pyramid of Thoth",
+      "b": "Glory of Thoth",
+      "type": "stairs",
+      "note": "Stairs down from the pyramid into the Glory of Thoth level."
+    },
+    {
+      "a": "Pyramid of Thoth",
+      "b": "Well of Light",
+      "type": "stairs",
+      "access": "Deep vertical shaft; ascending requires magical flight or levitation.",
+      "note": "The Well of Light descends from the upper Thoth complex."
+    },
+    {
+      "a": "Glory of Thoth",
+      "b": "Well of Light",
+      "type": "passage",
+      "note": "Adjacent transit areas in the upper Halls."
+    },
+    {
+      "a": "Glory of Thoth",
+      "b": "Great Hall",
+      "type": "passage",
+      "note": "Adjacent in the upper Halls."
+    },
+    {
+      "a": "Glory of Thoth",
+      "b": "Goblin Market",
+      "type": "passage",
+      "note": "Passage between the two (Discord Summary 2026-W16)."
+    },
+    {
+      "a": "Well of Light",
+      "b": "Howling Caves",
+      "type": "passage",
+      "note": "Connected in the upper Halls."
+    },
+    {
+      "a": "Well of Light",
+      "b": "Goblin Market",
+      "type": "passage",
+      "note": "Connected toward Goblintown."
+    },
+    {
+      "a": "Well of Light",
+      "b": "Upper Goblintown",
+      "type": "passage",
+      "note": "Descends toward Upper Goblintown."
+    },
+    {
+      "a": "Great Cavern",
+      "b": "Great Chasm",
+      "type": "passage",
+      "note": "Adjacent major cave systems."
+    },
+    {
+      "a": "Goblin Forum",
+      "b": "Goblin Market",
+      "type": "passage",
+      "note": "Both in the Goblintown complex."
+    },
+    {
+      "a": "Goblin Forum",
+      "b": "Upper Goblintown",
+      "type": "passage",
+      "note": "Goblintown complex."
+    },
+    {
+      "a": "Goblin Forum",
+      "b": "Sighing Stair",
+      "type": "stairs",
+      "note": "The Sighing Stair adjoins the Forum."
+    },
+    {
+      "a": "Sighing Stair",
+      "b": "Temple of Set",
+      "type": "passage",
+      "note": "The Sighing Stair leads toward the Temple of Set."
+    },
+    {
+      "a": "Forum of Set",
+      "b": "Temple of Set",
+      "type": "passage",
+      "note": "The Temple of Set sits within the Forum of Set complex."
+    },
+    {
+      "a": "Goblin Market",
+      "b": "Howling Caves",
+      "type": "passage",
+      "note": "Connected within the middle Halls."
+    },
+    {
+      "a": "Great Chasm",
+      "b": "Troll Lifts",
+      "type": "lift",
+      "access": "The Great Chasm is a vertical void: no walking across or up it. Use the Varumani/Troll Lifts between levels; the floating garden island and far (west) side need the cross-chasm ferry (max 4 per trip), or flight.",
+      "note": "The Troll/Varumani Lifts run up and down the Great Chasm."
+    },
+    {
+      "a": "Great Chasm",
+      "b": "Varumani Lifts",
+      "type": "lift",
+      "access": "Vertical chasm; Varumani Lifts between levels, cross-chasm ferry (max 4) to the garden island and far side, or flight.",
+      "note": "Lift system on the Great Chasm."
+    },
+    {
+      "a": "Troll Lifts",
+      "b": "Halls of the Troll Thegn",
+      "type": "lift",
+      "note": "Lifts descend to the Varumani / Troll Thegn level (Vallium's Session 55 proposal)."
+    },
+    {
+      "a": "Troll Lifts",
+      "b": "Arena",
+      "type": "lift",
+      "note": "Arena Level Station; operator directs to the Arena, NE (Troll Lifts page)."
+    },
+    {
+      "a": "Troll Lifts",
+      "b": "Sundered Span",
+      "type": "passage",
+      "note": "Upper Lift Station reached via the Sundered Span from the Wet Caves (Troll Lifts page)."
+    },
+    {
+      "a": "Arena",
+      "b": "Inn of the Lost",
+      "type": "passage",
+      "note": "Inn of the Lost is east of the Arena stalls through an unlocked door (explicit Connections)."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Beacon",
+      "type": "rug",
+      "access": "Fixed paired Rug of Instant Access (Arcane Practitioners' Club <-> Beacon), reusable both ways because both ends stay in place. A rug DEPLOYED to evacuate a dungeon site is left behind instead (see the Teleport Rug item).",
+      "note": "Rug of Instant Access links the Arcane Practitioners' Club in Gosterwick to the Beacon (Sessions 51-56)."
+    },
+    {
+      "a": "Beacon",
+      "b": "Cloister",
+      "type": "teleporter",
+      "note": "The Beacon teleporter pads reach only two places; one is the vault/Cloister area (Session 45; Vallium S55; GM 2026-06)."
+    },
+    {
+      "a": "Beacon",
+      "b": "Rudishva Bastion",
+      "type": "teleporter",
+      "note": "The Beacon's other teleporter pad reaches the Rudishva Bastion on the chasm floor (GM 2026-06)."
+    },
+    {
+      "a": "Rudishva Bastion",
+      "b": "Chasm Floor",
+      "type": "passage",
+      "note": "The Rudishva Bastion sits on the Chasm Floor."
+    },
+    {
+      "a": "Chasm Floor",
+      "b": "Great Chasm",
+      "type": "passage",
+      "access": "The Chasm Floor is the bottom of the vertical chasm; reaching it otherwise means descent/diving or flight.",
+      "note": "The Chasm Floor is the bottom level of the Great Chasm."
+    },
+    {
+      "a": "Cloister",
+      "b": "Tomb of Archon Marius",
+      "type": "passage",
+      "directed": false,
+      "note": "Reached via the Cloister secret passage, north along the water (Vallium S55; Session 54)."
+    },
+    {
+      "a": "Tomb of Theskalon",
+      "b": "Southern Necropolis of Set",
+      "type": "passage",
+      "note": "Explicit Connections."
+    },
+    {
+      "a": "Hall of Forty Pillars",
+      "b": "The Obsidian Gates",
+      "type": "passage",
+      "note": "The Hall is right next to the Obsidian Gates (explicit Connections; Rumor 4)."
+    },
+    {
+      "a": "Arden Vul",
+      "b": "Burdock Valley",
+      "type": "contains",
+      "note": "The Arden Vul plateau lies within Burdock's Valley."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Upper Market",
+      "type": "contains",
+      "note": "Market within Gosterwick."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Totey Lake",
+      "type": "contains",
+      "note": "Lake beside Gosterwick (Session 2)."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Vetucaster",
+      "type": "road",
+      "note": "Surface settlement reachable from Gosterwick."
+    },
+    {
+      "a": "Sundered Span",
+      "b": "Great Hall",
+      "type": "passage",
+      "note": "The Troll/Varumani Lifts connect to the Great Hall via the Sundered Span (GM 2026-06)."
+    },
+    {
+      "a": "Sundered Span",
+      "b": "Wet Caves",
+      "type": "passage",
+      "note": "The Sundered Span Upper Lift Station is reached via the Wet Caves (Sundered Span page)."
+    },
+    {
+      "a": "Sundered Span",
+      "b": "Varumani Lifts",
+      "type": "lift",
+      "note": "Sundered Span connects to the Varumani Lifts Upper Lift Station (Sundered Span page)."
+    },
+    {
+      "a": "Forum of Set",
+      "b": "Red Bridge of Set",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Library of Thoth",
+      "b": "Well of Light",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Hall of Heroes",
+      "b": "Pyramid of Thoth",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Hall of Heroes",
+      "b": "Well of Light",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Goblin Warrens",
+      "b": "Upper Goblintown",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Goblin Warrens",
+      "b": "Goblin Great Hall",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Goblin Warrens",
+      "b": "Forum of Set",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Baboon Cave",
+      "b": "Howling Caves",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Cliff Face",
+      "b": "Cave with Spider Webs",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Cave with Fire Pit",
+      "b": "Long Stair",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Druid's Retreat",
+      "b": "Well of Light",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Druid's Retreat",
+      "b": "Library of Thoth",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Haunted Tower",
+      "b": "Waterfall",
+      "type": "passage",
+      "note": "Connection stated on a location page (2026-06; verify)."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Baliff's Truncheon",
+      "type": "contains",
+      "note": "Town establishment within Gosterwick (location page)."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Kaelo's Bathhouse",
+      "type": "contains",
+      "note": "Town establishment within Gosterwick (location page)."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "The Stunned Acolyte",
+      "type": "contains",
+      "note": "Town establishment within Gosterwick (location page)."
+    },
+    {
+      "a": "Cloister",
+      "b": "Behir Caves",
+      "type": "passage",
+      "note": "Secret passages from the Cloister lead toward the Behir Caves (Cloister page)."
+    },
+    {
+      "a": "Wet Caves",
+      "b": "Glory of Thoth",
+      "type": "passage",
+      "note": "The Wet Caves connect directly to the Glory of Thoth / Glory of Weskenim (GM 2026-06)."
+    },
+    {
+      "a": "Glory of Thoth",
+      "b": "Temple of Thoth",
+      "type": "passage",
+      "note": "Connected by a secret western passage from the Glory of Thoth (GM 2026-06)."
+    },
+    {
+      "a": "Temple of Thoth",
+      "b": "Temple of Set",
+      "type": "passage",
+      "note": "Connected by a secret southern passage from the Temple of Thoth (GM 2026-06)."
+    },
+    {
+      "a": "Long Stair",
+      "b": "Beastman Entrance",
+      "type": "climb",
+      "cost": 5,
+      "note": "Lower half of the Long Stair, from the bottom up to the beastman entrance (GM)."
+    },
+    {
+      "a": "Beastman Entrance",
+      "b": "Arden Vul",
+      "type": "climb",
+      "cost": 5,
+      "note": "Upper half of the Long Stair, from the beastman entrance to the ruins at the top (GM)."
+    },
+    {
+      "a": "Beastman Entrance",
+      "b": "Great Cavern",
+      "type": "passage",
+      "note": "The Great Cavern opens off the Long Stair at the beastman entrance, halfway up (GM)."
+    },
+    {
+      "a": "Great Cavern",
+      "b": "Territory of Deino",
+      "type": "passage",
+      "note": "Connected to the Children of Deino's territory via the lowered cage in the NW of the cavern (GM)."
+    },
+    {
+      "a": "Great Cavern",
+      "b": "Eastern Settite Guard Post",
+      "type": "passage",
+      "note": "The Great Cavern connects to the eastern Settite guard post (GM)."
+    },
+    {
+      "a": "Eastern Settite Guard Post",
+      "b": "Pillar of Faces",
+      "type": "passage",
+      "note": "A long hallway runs from the eastern Settite guard post to the Pillar of Faces (GM)."
+    },
+    {
+      "a": "Territory of Deino",
+      "b": "Glory of Thoth",
+      "type": "passage",
+      "note": "The Children of Deino's territory connects up to the Glory of Thoth / Glory of Weskenim (GM)."
+    }
+  ],
+  "reject": [
+    {
+      "a": "Beacon",
+      "b": "Goblin Forum",
+      "reason": "Frequent staging route from the party's Beacon base via teleporter + passages, not a direct edge."
+    },
+    {
+      "a": "Beacon",
+      "b": "Glory of Thoth",
+      "reason": "Staging route from Beacon base, not adjacency."
+    },
+    {
+      "a": "Beacon",
+      "b": "Well of Light",
+      "reason": "Staging route from Beacon base."
+    },
+    {
+      "a": "Beacon",
+      "b": "Goblintown",
+      "reason": "Staging route from Beacon base."
+    },
+    {
+      "a": "Beacon",
+      "b": "Goblin Market",
+      "reason": "Staging route from Beacon base."
+    },
+    {
+      "a": "Beacon",
+      "b": "Pyramid of Thoth",
+      "reason": "Staging route from Beacon base."
+    },
+    {
+      "a": "Beacon",
+      "b": "Arden Vul",
+      "reason": "Recap/staging co-occurrence, not adjacency."
+    },
+    {
+      "a": "Beacon",
+      "b": "Great Cavern",
+      "reason": "Staging route from Beacon base."
+    },
+    {
+      "a": "Beacon",
+      "b": "Azure Keep",
+      "reason": "Recap co-occurrence; Azure Keep is in Gosterwick."
+    },
+    {
+      "a": "Beacon",
+      "b": "Tomb of Archon Marius",
+      "reason": "Multi-hop via the Cloister, not a direct Beacon edge."
+    },
+    {
+      "a": "Goblin Market",
+      "b": "Beacon",
+      "reason": "Staging route from Beacon base."
+    },
+    {
+      "a": "Beacon",
+      "b": "Obelisk",
+      "reason": "Staging/recap co-occurrence; Obelisk is a surface ruin feature."
+    },
+    {
+      "a": "Arden Vul",
+      "b": "Great Cavern",
+      "reason": "Multi-hop (via Long Stair); not direct adjacency."
+    },
+    {
+      "a": "Arden Vul",
+      "b": "Well of Light",
+      "reason": "Multi-hop (via Pyramid of Thoth); not direct."
+    },
+    {
+      "a": "Arden Vul",
+      "b": "Goblin Forum",
+      "reason": "Surface-to-deep recap co-occurrence; multi-hop."
+    },
+    {
+      "a": "Arden Vul",
+      "b": "Upper Goblintown",
+      "reason": "Surface-to-deep recap co-occurrence; multi-hop."
+    },
+    {
+      "a": "Arden Vul",
+      "b": "Newmarket",
+      "reason": "Newmarket connects to Gosterwick, not directly to the ruins."
+    },
+    {
+      "a": "Gosterwick",
+      "b": "Upper Goblintown",
+      "reason": "Town-to-deep-dungeon recap/staging artifact."
+    },
+    {
+      "a": "Glory of Thoth",
+      "b": "Great Chasm",
+      "reason": "No walkable passage: Glory of Thoth is ~1000ft ABOVE the chasm floor/lifts. Reaching the chasm needs the lifts; this false edge let routes 'walk' up the void."
+    },
+    {
+      "a": "Beacon",
+      "b": "Arena",
+      "reason": "Beacon's pool only shows an Arena CAMERA feed (surveillance), not a teleporter/passage. Beacon teleporters reach only the Rudishva Bastion and the vault/Cloister (GM 2026-06)."
+    },
+    {
+      "a": "Beacon",
+      "b": "Sundered Span",
+      "reason": "Not a Beacon teleporter destination (GM 2026-06)."
+    },
+    {
+      "a": "Beacon",
+      "b": "Great Chasm",
+      "reason": "Beacon teleporter does not reach a chasm garden island; it reaches the Rudishva Bastion on the chasm floor instead (GM 2026-06)."
+    },
+    {
+      "a": "Wet Caves",
+      "b": "Temple of Set",
+      "reason": "No direct connection (GM). The route is Wet Caves -> Glory of Thoth -> (secret W passage) Temple of Thoth -> (secret S passage) Temple of Set."
+    },
+    {
+      "a": "Arden Vul",
+      "b": "Burdock Valley",
+      "reason": "Region containment, not a travel path. Both the ruins and Gosterwick sit in Burdock's Valley but are ~10mi apart via the Long Stair hike; this edge created a false cheap shortcut."
+    },
+    {
+      "a": "Newmarket",
+      "b": "Temple of Thoth",
+      "reason": "False shortcut. The Temple of Thoth in the dungeon connects via Glory of Thoth; the Newmarket page-link is a description/possible node conflation, not a passage."
+    },
+    {
+      "a": "Great Cavern",
+      "b": "Waterfall",
+      "reason": "No connection (GM)."
+    },
+    {
+      "a": "Cliff Face",
+      "b": "Arden Vul",
+      "reason": "No separate free-climb to the ruins; the way up is the Long Stair (via the beastman entrance). Direct edge undercut the intended town->top cost of 20."
+    }
+  ],
+  "base_nodes": [
+    "Beacon",
+    "Gosterwick",
+    "Cloister"
+  ],
+  "teleport_network": {
+    "_doc": "Thothian teleportation-circle network catalogued by Vallium (Greybrown), 2026-05-09. Any circle reaches any other by dialling the destination's six-colour code. Modelled as a hub: each circle <-> the hub. Circle names matching a vault location resolve to it; others are virtual nodes aliased by their code.",
+    "hub": "Thothian Teleportation Network",
+    "edge_type": "teleporter",
+    "circles": [
+      {
+        "name": "Archon's Palace",
+        "code": "GR-RE-YE-WH-BK-BL",
+        "status": "located",
+        "hint": "Circle on the Arden Vul Ruins map, on the island with the ruins of the Archon's Palace."
+      },
+      {
+        "name": "Citadel Donjon Cellar",
+        "code": "GR-RE-YE-BL-BK-WH",
+        "status": "scryed-unvisited",
+        "hint": "Citadel of Arden Vul Donjon cellar; near surface, windowless stone room, unrepaired, stairs up."
+      },
+      {
+        "name": "Thothian Administration Building Cellar",
+        "code": "GR-WH-RE-BL-BK-YE",
+        "status": "located",
+        "hint": "Probably the Lankios basement teleportation circle."
+      },
+      {
+        "name": "Hall of Seeing",
+        "code": "WH-YE-BL-RE-BK-GR",
+        "status": "located",
+        "hint": "Probably the Well of Light map circle, found in Session 22."
+      },
+      {
+        "name": "Summoning Chamber",
+        "code": "WH-YE-BL-GR-RE-BK",
+        "status": "located",
+        "hint": "Probably the West-of-Well-of-Light map (pentagram) beyond the No Mana Zone."
+      },
+      {
+        "name": "Glory of Thoth",
+        "code": "YE-BL-GR-RE-BK-WH",
+        "status": "located",
+        "hint": "Circle in the room NE of the Glory of Thoth statue; goblin territory now, overseen by Bottleneck."
+      },
+      {
+        "name": "Halls of Thoth",
+        "code": "YE-BL-GR-WH-BK-RE",
+        "status": "confirmed",
+        "hint": "Halls of Thoth Central map, outside Deino's chambers. Confirmed."
+      },
+      {
+        "name": "Bridge of Set",
+        "code": "BK-RE-BL-WH-YE-GR",
+        "status": "confirmed",
+        "hint": "Forum of Set South Central map, south of the Red Bridge of Set. Confirmed."
+      },
+      {
+        "name": "Ancient Hall of Set",
+        "code": "BK-RE-BL-GR-YE-WH",
+        "status": "unknown",
+        "hint": "Unknown location; not scryed."
+      },
+      {
+        "name": "Hall of Forty Pillars",
+        "code": "RE-GR-WH-BL-BK-YE",
+        "status": "scryed-unvisited",
+        "hint": "Scryed: <600-700ft down, dark rectangular room."
+      },
+      {
+        "name": "Sanctum of Thoth",
+        "code": "RE-GR-WH-BK-BL-YE",
+        "status": "scryed-unvisited",
+        "hint": "Scryed: <600-700ft down, near the Well of Light, corner of a rectangular room."
+      },
+      {
+        "name": "Coliseum",
+        "code": "BL-GR-BK-YE-WH-RE",
+        "status": "located",
+        "hint": "Probably the Arena and Troll Lift map circle, near the Arena Corner Bar."
+      },
+      {
+        "name": "The Lady's Asylum",
+        "code": "BL-GR-BK-WH-RE-YE",
+        "status": "scryed-unvisited",
+        "hint": "Scryed: 600-700ft down from the Well of Light, snow and ice."
+      },
+      {
+        "name": "Deep Shrine of Thoth",
+        "code": "YE-RE-GR-BL-BK-WH",
+        "status": "unknown",
+        "hint": "Unknown location; not scryed."
+      },
+      {
+        "name": "Chamber of Several Uses",
+        "code": "RE-BK-BL-GR-YE-WH",
+        "status": "scryed-unvisited",
+        "hint": "Scryed: down a lot, dark, well in the room."
+      },
+      {
+        "name": "Archontean Pediment",
+        "code": "BL-YE-GR-RE-BK-WH",
+        "status": "unknown",
+        "hint": "Unknown location; not scryed."
+      },
+      {
+        "name": "Hall of Shrines",
+        "code": "YE-BL-RE-GR-BK-WH",
+        "status": "confirmed",
+        "hint": "Halls of Shrines map, by the Pneuma statue. Confirmed."
+      },
+      {
+        "name": "Hall of Servants",
+        "code": "BK-RE-YE-GR-BL-WH",
+        "status": "unknown",
+        "hint": "Unknown location; not scryed."
+      },
+      {
+        "name": "Archontean Parvis",
+        "code": "RE-BK-YE-BL-GR-WH",
+        "status": "scryed-unvisited",
+        "hint": "Scryed: ~500ft down from the Well of Light, dark, cobblestones, huge room, stairs down, cliff edge, moving water."
+      },
+      {
+        "name": "Canyon Vaults",
+        "code": "YE-RE-BL-GR-BK-WH",
+        "status": "unknown",
+        "hint": "Unknown location; not scryed."
+      }
+    ]
+  },
+  "extra_nodes": [
+    "Beastman Entrance",
+    "Territory of Deino",
+    "Eastern Settite Guard Post",
+    "Pillar of Faces"
+  ]
+}

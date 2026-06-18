@@ -19,7 +19,7 @@ The cave tunnel networks inhabited by Gosterwick's goblin population within Arde
 
 ## Notes
 - The Warrens have at least two distinct elevations (Upper and Lower) mapped from session screenshots.
-- Connected to the broader goblin territory including [[locations/Goblin Great Hall.md|Goblin Great Hall]], [[locations/Upper Goblintown.md|Upper Goblintown]], and the [[locations/Goblin Forum.md|Goblin Forum]].
+- Connected to the broader goblin territory including [[locations/Goblin Great Hall.md|Goblin Great Hall]], [[locations/Upper Goblintown.md|Upper Goblintown]], and the [[locations/Forum of Set.md|Goblin Forum]].
 - A concealed door in the baboon facade area provides a passage down toward [[npcs/Gog.md|Gog]]'s cave and the [[locations/Arena.md|Arena]] level.
 
 ## Maps
