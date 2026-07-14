@@ -20,7 +20,7 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44]]: Vallium found an invisible book under a bed in the Settite bedrooms; the party transported it back to the [[locations/Beacon.md|Beacon]] and placed it on the conference table inside a chalk square for safekeeping.
+- [[Session 44]]: Vallium found an invisible book under a bed in the Settite bedrooms; the party transported it back to the [[locations/Beacon.md|Beacon]] and placed it on the conference table inside a chalk square for safekeeping.
 
 ## Discord Discussions
 - **[[Discord Summary 2026-W10]]**: - Vallium Halcyon discovered an invisible book under a bed in the Settite sleeping quarters; the book was recovered and secured at the Beacon for future study. [session-44 | 2026-03-13]

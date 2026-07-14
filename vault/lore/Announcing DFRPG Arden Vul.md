@@ -25,10 +25,10 @@ The campaign uses the Dungeon Fantasy Roleplaying Game (DFRPG) as its base rule 
 - **Templates:** Uses "Five Easy Pieces" from Pyramid 3/113, which are 50-point mini-templates. PCs can afford three Pieces (or two with an expensive racial template). Disadvantage points embedded in a Piece count against the limit.
 - **Playable Races:** Dwarves, Elves, Half-elves, [[factions/Halflings.md|Halflings]], Humans, and [[Imperial Goblin]]s. Cat-folk, half-orcs, half-ogres, and gnomes are not allowed.
 - **Languages:** Languages can be taken at Accented and Broken levels to save points.
-- **Starting Money:** Per DFRPG rules, with options to buy Wealth or trade points for cash.
+- **Starting Money:** Per DFRPG rules, with options to buy [[Wealth]] or trade points for cash.
 - **Equipment:** Standard DFRPG: Adventurers equipment is available at list price, except for plate armor (which does not exist in the setting). Some non-magical items can be requested from the GM. Special orders or magical equipment may require availability rolls or travel to larger cities.
 - **Coinage:** Uses AD&D coin value ratios with a silver piece standard ($1 = 1 silver piece). A copper is $0.1, a gold is $10, and a platinum is $50.
-- **Perks:** "[[Burdock's Valley Local]]" [1] grants extra rumors, an area map, and default Area Knowledge for the local area.
+- **Perks:** "[[Burdock's Valley Local]]" [1] grants extra rumors, an area map, and default [[Area Knowledge]] for the local area.
 
 ## Setting Introduction
 
@@ -39,12 +39,12 @@ The campaign uses the Dungeon Fantasy Roleplaying Game (DFRPG) as its base rule 
 
 ## Cultures
 
--   **Archonteans**: Rulers of the empire, Byzantine feel.
+-   **[[Archonteans]]**: Rulers of the empire, Byzantine feel.
 -   **[[lore/Thorcin.md|Thorcin]]**: Local population in [[lore/Irthuin.md|Irthuin]], conquered then independent, now conquered again.
 -   **[[Wiskin]]**: Vikings from northern islands.
 -   **[[Khumus]]**: Horse nomads from far to the west.
 -   **[[Halflings]] & [[Imperial Goblin]]s**: Assimilated into the [[factions/Archontean Empire.md|Archontean Empire]], though goblins are second-class citizens.
--   **Elves & Dwarves**: Independent, secretive kingdoms outside the Empire.
+-   **[[Elves]] & [[Dwarves]]**: Independent, secretive kingdoms outside the Empire.
 
 ## Languages
 

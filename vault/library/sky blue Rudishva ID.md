@@ -20,4 +20,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39]]: Ioannes searched the bodies of two Rudishva and discovered a sky blue identity plaque among their possessions.
+- [[Session 39]]: Ioannes searched the bodies of two Rudishva and discovered a sky blue identity plaque among their possessions.

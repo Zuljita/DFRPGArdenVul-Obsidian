@@ -20,4 +20,4 @@ TODO: Add description.
 - It was an ancient erotic book written in Mithric that contained illustrations.
 
 ## Reading Events
-- [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6]]: The group found the book while searching, but they stopped looking at it once they became tired of the content.
+- [[Session 6]]: The group found the book while searching, but they stopped looking at it once they became tired of the content.

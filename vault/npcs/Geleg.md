@@ -16,7 +16,7 @@ appears_in:
 ## History
 
 ## Notes
-- Has been encountered at [[locations/Muddy Puddle.md|Muddy Puddle]].
+- Has been encountered at [[vault/locations/Muddy Puddle.md|Muddy Puddle]].
 - Vallium advised the survivor Harald to seek him out via the Second Chance Company. [[notes/Discord Summary 2025-W45.md|Discord Summary 2025-W45]]
 - During Session 23c, he requested his missing spellbook and granted Vael permission to copy any spells contained within it.
 

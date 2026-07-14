@@ -34,7 +34,7 @@ As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offe
 - **Connections:** He is apparently friends with other important local figures, such as the [[Green Lady]] and [[Lady Alexia Basileon]].
 - **Operation Type:** An Archontean goblin-run local operation working with the native Arden Vul goblins.
 - Willing to house non-cash goods and provides free storage for the party following a deal regarding [[Larel's Pin]].
-- Extremely interested in acquiring a [[items/Teleporter with 400 Mile Range.md|teleporter with 400 mile range]] to improve business logistics.
+- Extremely interested in acquiring a [[vault/items/Teleporter with 400 Mile Range.md|teleporter with 400 mile range]] to improve business logistics.
 - Competes against a powerful entity with hundreds of years of reputation.
 - He has expressed interest in purchasing large quantities of Arcanum.
 - He offers lifetime free banking at the Rarities Factor if his wizard identifies certain magical artifacts as genuine and the company sells them to him.

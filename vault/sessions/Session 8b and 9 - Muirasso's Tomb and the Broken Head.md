@@ -28,7 +28,7 @@ Player Characters:
 - [[pcs/Michael J. Dundee]], Thorcin barbarian
 - [[pcs/Vaelethron 'Vael' Sunshadow]], Half-Elven mage
 - [[pcs/Uvash Edzuson]], Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] (Based Cosmo)
-- [[npcs/Merenuithiel Lacrymosa Armaris.md]], Elven mercenary archer (Archon Shiva)
+- [[pcs/Merenuithiel Lacrymosa Armaris]], Elven mercenary archer (Archon Shiva)
 
 Significant NPCs:
 

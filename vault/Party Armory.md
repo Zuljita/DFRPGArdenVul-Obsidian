@@ -43,7 +43,7 @@ title: Party Armory
 | Helm of Underwater Action (Breathe Water, Water Vision) | 1 | p.275 | $20,000 | 2026-02-06 | — |
 | Helm of Underwater Action (Water Vision, Breathe Water) | 3 | p.294 | $20,000 | 2026-03-13 | — |
 | [[factions/heqeti.md|Heqeti]] Ring (summon giant salamanders, charm amphibians, cursed to make wearer follower demon god) | 1 | p.115 | $2,000 | 2026-05-01 | — |
-| huge magic gold key | 1 | p.101 | $100 | 2025-11-14 | — |
+| [[items/Huge Magic Gold Key.md|huge magic gold key]] | 1 | p.101 | $100 | 2025-11-14 | — |
 | Infernal Effigy -- can summon devil, if true name known (it's not) | 1 | p.275 | $1,000 | 2026-02-06 | — |
 | insert dwarven lifestone | 1 | p.272 | $0 | 2026-03-13 | — |
 | [[items/Larel's Sack.md|Larel's Sack]] (bag of holding, holds 500# or 70 ft^3, creates mundane item up to $15 15# 3/day, no weapons monsters sentients, conceal magic) | 1 | p.181 | $20,000 | 2025-09-12 | — |
@@ -51,23 +51,23 @@ title: Party Armory
 | large platinum magic key | 1 | p.613 | — | 2026-01-30 | — |
 | lesser power supply | 0 | p.613 | — | 2026-01-30 | — |
 | Light Cloak of Displacement (Blur 2) | 1 | p.1104 | $10,000 | 2026-03-13 | — |
-| Lover's Token (holder can remotely communicate 1 time with giver of token, 1 hour) | 3 | p.120 | $500 | 2025-07-18 | — |
+| [[items/Lover's Token.md|Lover's Token]] (holder can remotely communicate 1 time with giver of token, 1 hour) | 3 | p.120 | $500 | 2025-07-18 | — |
 | [[items/Lucky Penny.md|lucky penny]] (+1 to resist rolls while in possession) | 1 | p.179 | $1,000 | 2025-07-18 | — |
 | lump of [[items/Arcanum.md|arcanum]] | 1 | p.304 | $1,000 | 2026-03-20 | — |
 | magic 6-armed statue, stands guard if activated, command word in [[factions/Rudishva.md|Rudishva]] on bottom of foot, shrieks and confuses if destroyed | 3 | p.471 | $10,000 | 2025-11-21 | — |
 | magic deck of 22 ivory plaques with highly random effects, some good some bad (anyone) | 1 | p.275 | $10,000 | 2026-03-20 | — |
 | magic deck of 22 ivory plaques with highly random effects, some good some bad (mages only) | 1 | p.275 | $10,000 | 2026-03-20 | — |
-| Matched pair of [[items/Teleport Rug.md|Rugs of Instant Access]] (1-hex, SM 0 person can stand on one, Concentrate, say command word, appear on other, Range ?) | 1 | p.189 | $20,000 | 2025-10-17 | — |
+| Matched pair of [[items/Rugs of Instant Access.md|Rugs of Instant Access]] (1-hex, SM 0 person can stand on one, Concentrate, say command word, appear on other, Range ?) | 1 | p.189 | $20,000 | 2025-10-17 | — |
 | melted artifact - looks like one of the artifacts in the [[locations/Beacon.md|Beacon]] except melted | 0 | p.614 | $10 | 2026-01-23 | — |
 | Mistral: fine balanced scimitar (curved non-thrusting broadsword), +2 Acc/Puissance, seems to have additional hidden powers | 1 | p.305 | $20,000 | 2025-11-28 | — |
 | Non-functioning teleporter | 1 | p.TA-18 | $100 | 2025-12-19 | — |
 | padded [[factions/Thothian.md|Thothian]] bag | 1 | p.679 | $100 | 2025-12-19 | — |
 | [[items/Pale Green Horn.md|Pale Green Horn]] (broad spiral, irregular black bristly tufts) | 1 | p.358 | — | 2026-01-30 | — |
-| Pearl Necklace of Invisibility (4 pearls left) | 3 | p.204 | $10,000 | 2026-05-01 | — |
+| [[items/Pearl Necklace of Invisibility.md|Pearl Necklace of Invisibility]] (4 pearls left) | 3 | p.204 | $10,000 | 2026-05-01 | — |
 | Periapt of Finding Heqeti (flashes when near heqeti) | 1 | p.115 | $5,000 | 2026-05-01 | — |
 | piece of broken magic item | 1 | p.679 | $25 | 2025-12-19 | — |
 | Point Defense Array | 1 | p.358 | — | 2026-01-30 | — |
-| Pol's Treatise on Scrying (cursed, rips eyes out) | 1 | p.151 | $0 | 2026-01-09 | — |
+| [[items/Pol's Treatise on Scrying.md|Pol's Treatise on Scrying]] (cursed, rips eyes out) | 1 | p.151 | $0 | 2026-01-09 | — |
 | [[items/Pyramid Control Rod.md|pyramid control rod]] | 3 | p.134 | $0 | 2025-10-24 | — |
 | red command bracelet | 1 | p.613 | — | 2026-01-30 | — |
 | red garnet gem with Perpetual Light | 1 | p.684 | $500 | 2025-12-19 | — |
@@ -82,7 +82,7 @@ title: Party Armory
 | Ring of Truth (Detect Lies-20, but wearer gains Truthfulness, which sticks after removal) | 1 | p.199 | $2,500 | 2025-11-28 | — |
 | [[items/Ring of Water Breathing.md|Ring of Water Breathing]] | 1 | p.292 | $2,500 | 2026-05-01 | — |
 | [[factions/Rudishva.md|Rudishva]] Useful Palm of the Cleansing Wind | 1 | p.358 | — | 2026-01-30 | — |
-| [[items/Teleport Rug.md|Rugs of Instant Access]] (purple, command word "exequor") | 1 | p.690 | $20,000 | 2025-12-26 | — |
+| [[items/Rugs of Instant Access.md|Rugs of Instant Access]] (purple, command word "exequor") | 1 | p.690 | $20,000 | 2025-12-26 | — |
 | [[items/Salamander Amulet.md|Salamander Amulet]] | 149 | p.150 | $4,920 | 2025-07-11 | — |
 | scarab of protection from death magic (absorbs death magic attacks) | 1 | p.233 | $10,000 | 2025-09-19 | — |
 | scrying ball, attuned to [[locations/Forum of Set.md|Forum of Set]] | 1 | p.278 | $4,000 | 2026-03-13 | — |
@@ -106,7 +106,7 @@ title: Party Armory
 | tear-shaped chaos gem (climbing-16, require daily full immersion in water or -2 to HT) | 3 | p.294 | $2,500 | 2026-03-13 | — |
 | Theodorus's Chair of Great Ease (miniature chair, becomes full-sized chair on command) | 1 | p.188 | $1,000 | 2025-10-17 | — |
 | Thorstein's Oculae (+1 to Vision up close, no vision beyond 3 yards) | 1 | p.193 | $500 | 2026-03-27 | — |
-| Tooth of Pol (6"x4" tooth, "Pol" engraved, if worn next to skin, +1 IQ,  wearer becomes surly and sarcastic, -2 to reactions) | 1 | p.302 | $20,000 | 2026-04-24 | — |
+| [[items/Teeth of Pol.md|Tooth of Pol]] (6"x4" tooth, "Pol" engraved, if worn next to skin, +1 IQ,  wearer becomes surly and sarcastic, -2 to reactions) | 1 | p.302 | $20,000 | 2026-04-24 | — |
 | Torc of Authority (Charisma +2) | 1 | p.221 | $5,000 | 2025-12-26 | — |
 | wand of detect evil (25 charges) | 3 | p.127 | $500 | 2025-08-08 | — |
 | [[items/Wand of Illumination.md|Wand of Illumination]] (13) | 3 | p.616 | $5,000 | 2026-05-08 | (free) Light, torch brightness (1*Area) Sunlight, centereed on wand, follows it  (2*Area) Sunlight at a point within 20 yards, fixed (1 per level) Sunbolt If out of charges, destroyed on 16+ Regains 1d+1 charges at dawn, if outside in sun |
@@ -196,7 +196,7 @@ title: Party Armory
 | Alchemist's Fire Potion | 1 | p.1103 | $100 | 2026-03-13 | — |
 | Ankh of Healing (4d HP, 2 charges, not rechargeable) | 1 | p.302 | $1,000 | 2026-04-24 | — |
 | aqua vitae mushroom | 1 | p.TA-26 | $60 | 2025-12-19 | — |
-| Arden Vul cake | 1 | p.877 | $15 | 2025-11-14 | — |
+| [[locations/Arden Vul.md|Arden Vul]] cake | 1 | p.877 | $15 | 2025-11-14 | — |
 | blue haze mushroom | 1 | p.TA-26 | $90 | 2025-12-19 | — |
 | blue trumpet mushroom | 1 | p.TA-26 | $20 | 2025-12-19 | — |
 | cloud cap mushroom | 1 | p.TA-26 | Gre | 2025-12-19 | — |
@@ -291,7 +291,7 @@ title: Party Armory
 | embalming tools | 1 | p.302 | $75 | 2026-04-24 | — |
 | fire extinguisher | 3 | p.873 | $25 | 2025-11-14 | — |
 | fish-shaped control rod for boat | 3 | p.360 | $10 | 2026-03-27 | — |
-| Gnucoder 1000 data reader | 1 | p.613 | — | 2026-01-30 | — |
+| [[items/GnuCoder 1000 Data Reader.md|Gnucoder 1000 data reader]] | 1 | p.613 | — | 2026-01-30 | — |
 | GnuCoder 3000 data recorder | 1 | p.613 | — | 2026-01-30 | — |
 | gold censer | 1 | p.120 | $150 | 2025-07-18 | — |
 | greater [[factions/Rudishva.md|Rudishva]] power supply | 1 | p.874 | $25 | 2025-11-14 | — |
@@ -377,7 +377,7 @@ title: Party Armory
 | Agility potion | 1 | p.189 | $1,650 | 2025-04-04 | — |
 | Amulet of Courage  (+3 to resist fear, Area 3) | 1 | p.335 | — | 2025-05-09 | — |
 | [[items/Arcanum.md|arcanum]] | 1 | p.99 | $1,000 | 2025-04-25 | — |
-| Azure Knights dwarven (metal) medium shield  (Deflect 1, cursed Deflect -3 vs. demons/devils) | 1 | p.90 | — | 2025-05-16 | — |
+| [[factions/Knights of the Azure Shield.md|Azure Knights]] dwarven (metal) medium shield  (Deflect 1, cursed Deflect -3 vs. demons/devils) | 1 | p.90 | — | 2025-05-16 | — |
 | baboon skull | 1 | p.684 | $1 | 2025-12-19 | — |
 | [[items/Basileon Signet Ring.md|Basileon signet ring]] (Chairduster wouldn't buy it but said to give it to [[npcs/Lady Alexia Basileon.md|Lady Alexia]]) | 3 | p.99 | $3,000 | 2025-04-25 | — |
 | belt of strength +1 | 1 | p.187 | — | 2025-04-18 | — |
@@ -456,7 +456,7 @@ title: Party Armory
 | small palm tree in a pot | 1 | p.269 | $10 | 2026-03-13 | — |
 | Staff of Blue Light (Wizard's Staff, permanent bright blue Continual Light, fine, balanced, "Balthazarr" engraved in silver) | 1 | p.233 | $1,500 | 2025-05-23 | — |
 | The Ancient Ones | 1 | p.151 | $1,000 | 2026-01-09 | — |
-| The First History of the Order of [[npcs/Thoth.md|Thoth]] in Arden Vul | 1 | p.151 | $900 | 2026-01-09 | — |
+| The First History of the Order of [[npcs/Thoth.md|Thoth]] in [[locations/Arden Vul.md|Arden Vul]] | 1 | p.151 | $900 | 2026-01-09 | — |
 | The Founder and His Deeds | 1 | p.151 | $0 | 2026-01-09 | — |
 | The Highly Impressive Story of Frigg the Fabulous | 1 | p.151 | $75 | 2026-01-09 | — |
 | The Honorable Life of Ligareus the Archon | 1 | p.151 | $65 | 2026-01-09 | — |
@@ -521,7 +521,7 @@ title: Party Armory
 | strength potion | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | Thothian headdress | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | [[factions/Thothian.md|Thothian]] mask - human NOT fragile, Move -1  See Secrets 1/day, cursed, can't be removed, monster attraction | — | — | 2025-12-20 | Apartment fire — all Thothian masks destroyed (Destruction 2025-12-29 thread). |
-| Thothian mask - various (ibis, human, baboon) fragile, Move -1, See Secrets 1/day | — | — | 2025-12-20 | Apartment fire — all Thothian masks destroyed (Destruction 2025-12-29 thread). |
+| [[factions/Thothian.md|Thothian]] mask - various (ibis, human, baboon) fragile, Move -1, See Secrets 1/day | — | — | 2025-12-20 | Apartment fire — all Thothian masks destroyed (Destruction 2025-12-29 thread). |
 | trapped statue head with many-faceted amber eyes | — | — | 2025-12-20 | Apartment fire — statue head from NW Great Cavern. SW Great Cavern head survived (Destruction 2025-12-29 thread). |
 | Universal Antidote potion | — | — | 2025-12-20 | Apartment fire (Destruction 2025-12-29 thread). |
 | unpowered mage scroll of fireball (Treat as 6 FP) | — | — | 2025-12-20 | Apartment fire — Scroll of Fireball (Destruction 2025-12-29 thread). |

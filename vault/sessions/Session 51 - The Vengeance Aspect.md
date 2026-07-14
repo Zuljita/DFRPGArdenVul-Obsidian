@@ -52,9 +52,9 @@ Several [[npcs/chasm cephalopods.md|chasm cephalopods]]
 
 Many [[factions/Goblins.md|goblins]]
 
-[[npcs/Gribble.md|Gribble]], Chief of the [[locations/Forum of Set.md|Goblin Forum]]
+[[npcs/Gribble.md|Gribble]], Chief of the [[locations/Goblin Forum.md|Goblin Forum]]
 
-[[npcs/Dworm.md|Dworm]], [[locations/Forum of Set.md|Goblin Forum]] guard and food merchant
+[[npcs/Dworm.md|Dworm]], [[locations/Goblin Forum.md|Goblin Forum]] guard and food merchant
 
 [[npcs/Galadnor.md|Galadnor]], Half-Elven merchant
 
@@ -67,7 +67,7 @@ Many [[factions/Goblins.md|goblins]]
 - Travel to the [[factions/Rudishva.md|Rudishva]] Bastion using the [[factions/Rudishva.md|Rudishva]] teleporter in the [[locations/Beacon.md|Beacon]]
 - Travel north from the Bastion along the floor of the [[locations/Great Chasm.md|Great Chasm]], following [[npcs/Temrin.md|Temrin]]'s map
 - Recover the second Tablet of the [[locations/Beacon.md|Beacon]]
-- Clear more rooms near the [[locations/Forum of Set.md|Goblin Forum]]
+- Clear more rooms near the [[locations/Goblin Forum.md|Goblin Forum]]
 
 ## What Happened:
 
@@ -131,7 +131,7 @@ Regalia: 1 XP for bringing the [[items/Tablet of the Beacon.md|Tablet of the Bea
 
 ## Next Week:
 
-They're going to try to clear more rooms around the [[locations/Forum of Set.md|Goblin Forum]], opening it up for easier and safer commerce.
+They're going to try to clear more rooms around the [[locations/Goblin Forum.md|Goblin Forum]], opening it up for easier and safer commerce.
 
 ## Source
 - https://dfwhiterock.blogspot.com/2026/05/dfrpg-arden-vul-session-51-vengeance.html

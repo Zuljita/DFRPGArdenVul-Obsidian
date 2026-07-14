@@ -16,6 +16,15 @@ aliases:
 ## Notes
 - See session write-ups for exploration history and routes.
 - Magical features discovered during exploration included a colossal statue of Arden, the double doors of the square tower, and darkness in the stairs of the square tower.
+- A significant secret passage leading to the Workshop of Kerbog Khan was uncovered in the Halls of Thoth. [[notes/Discord Summary 2026-W24.md|Discord Summary 2026-W24]]
+- At the peak of their power, both Arden and Vul mysteriously disappeared, and their bodies were never recovered.
+- [[lore/Iconic Location.md|Session 1]] - First Visit to the Ruins of Arden Vul
+- [[locations/The Dry.md|The Dry]] is a specific, arid region within the ruins.
+- A Cult of Arden, consisting of military officials, reportedly built a headquarters within the Halls.
+- The company Chrysalis emerged from the workshop of [[npcs/Kerbog Khan.md|Kerbog Khan]] with a massive haul of treasures, artifacts, and heavy codices. [[notes/Discord Summary 2026-W25.md|Discord Summary 2026-W25]]
+- The site is a cavern system discovered by [[npcs/Arden.md|Arden]] and [[npcs/Vul.md|Vul]].
+- The [[factions/Second Chance Company.md|Second Chance Company]] is an adventuring party operating in the Arden Vul area.
+- The city founded at the site was later named in honor of Arden and Vul.
 
 ## Discord Insights
 
@@ -44,3 +53,4 @@ aliases:
 - A letter exists from the Archon of Arden Vul to the Overseer of Thoth. ([[notes/ancient letter from Uriel Basileon to Kel Bormol.md|ancient letter from Uriel Basileon to Kel Bormol]])
 - The Great Pyramid of Thoth was presumably built here. ([[notes/Great Pyramid of Thoth.md|Great Pyramid of Thoth]])
 - The Drowned Canyon is an iconic location within the ruins. ([[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]])
+- Uvash is the Theological Leader of Zorradrim here. (Discord Summary 2025-W45)

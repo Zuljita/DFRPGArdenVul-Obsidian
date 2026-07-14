@@ -40,7 +40,7 @@ Several [[npcs/Set.md|Set]] sergeants
 Some [[npcs/Set.md|Set]] Guild of Service fighters
 [[npcs/Roskelly Winterleaf.md|Roskelly Winterleaf]], halfling Toll Collector
 Several halfling Assistant Toll Collectors
-2 [[monsters/Ibis-headed guardian of Thoth.md|Ibis-headed guardians of Thoth]]
+2 [[npcs/Ibis-headed guardian of Thoth.md|Ibis-headed guardians of Thoth]]
 Several [[factions/Knights of the Azure Shield.md|Knights of the Azure Shield]]
 
 

@@ -20,4 +20,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[sessions/Session 21 - The Library of Thoth.md|Session 21]]: [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] used *Seek Magic* to locate the spellbook within the library stacks.
+- [[Session 21]]: [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] used *Seek Magic* to locate the spellbook within the library stacks.

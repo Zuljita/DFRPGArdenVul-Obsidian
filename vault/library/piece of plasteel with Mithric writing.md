@@ -20,7 +20,7 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]]: The party discovered a piece of plasteel with Mithric writing among the belongings of deceased individuals.
+- [[Session 45]]: The party discovered a piece of plasteel with Mithric writing among the belongings of deceased individuals.
 
 ## Discord Discussions
 - [[Discord Summary 2026-W11]]

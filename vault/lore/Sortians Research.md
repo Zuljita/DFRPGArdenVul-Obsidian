@@ -15,7 +15,7 @@ tags:
 Ioannes finds a very old book about the ancient [[Sortians]], who were traitors under [[Priscus Pulcher]]. They rebelled against the natural order of having magic controlled by approved churches and colleges, advocating for allowing anyone with magical aptitude to cast spells. This rebellion caused the [[Civil War]] and the abandonment of the [[Exarchate of Narsileon]], setting the [[Archontean Empire|Empire]] back a thousand years.
 
 Among their "sins" were:
-- Summoning demons.
+- Summoning [[demons]].
 - Letting women and elves hold leadership positions.
 - Creating "graven images" or magical statues of their vain leader [[Priscus Pulcher]] for worship.
 
@@ -24,7 +24,7 @@ One confirmed ritual involved inserting magical eyes of various types into the e
 - Teleportation.
 - Causing nearby children to disobey their parents.
 
-The author of the book advises funding a mission to find and destroy any surviving [[factions/Sortians.md|Sortian]] statues and eyes to prevent their use for evil.
+The author of the book advises funding a mission to find and destroy any surviving [[Sortian]] statues and eyes to prevent their use for evil.
 
 ## Discussion on the Sortian Civil War
 

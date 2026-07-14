@@ -43,7 +43,7 @@ Many [[npcs/Set.md|Set]] guards
 Several [[npcs/Set.md|Set]] acolytes
 Several [[npcs/Set.md|Set]] sergeants
 [[npcs/Sparky the goat.md|Sparky the goat]], mascot of Alpha Sept
-[[monsters/Apophis the giant lizard.md|Apophis the giant lizard]]
+[[npcs/Apophis the giant lizard.md|Apophis the giant lizard]]
 Two boars
 
 

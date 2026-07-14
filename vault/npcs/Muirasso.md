@@ -13,7 +13,7 @@ Powerful undead wight, formerly a cleric of [[Thoth]], now guarding his tomb. Ho
 
 ## Appears In
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
-- [[sessions/Session 8b and 9 - Muirasso's Tomb and the Broken Head.md|Sessions 8b and 9 - Muirasso's Tomb and the Broken Head]]
+- [[sessions/Sessions 8b and 9 - Muirasso's Tomb and the Broken Head.md|Sessions 8b and 9 - Muirasso's Tomb and the Broken Head]]
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants]]
 
 ## Notes

@@ -21,7 +21,7 @@ Primary crosswalk: [[notes/Books Title Concordance|Books Title Concordance]] (ma
 
 - [[lore/The Book of Priors.md|Book of Priors]]
   - Summary: Six-volume Thothian history of Arden Vul (937–1782 AEP), in Mithric.
-- [[lore/The Book of Priors.md|The Book of Priors]]
+- [[notes/The Book of Priors|The Book of Priors]]
   - Notes: Candidate merge target with other Book of Priors pages.
 - [[lore/The Book of Priors|The Book of Priors (lore)]]
   - Notes: Likely overlaps with note pages; verify which page should be canonical.

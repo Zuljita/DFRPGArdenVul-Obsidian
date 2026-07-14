@@ -20,4 +20,4 @@ TODO: Add description.
 - Contained information regarding general Archontean cuisine.
 
 ## Reading Events
-- [[sessions/Session 18 - Back Down the Well of Light.md|Session 18]]: [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] discovered the cookbook on a bookshelf inside a baboon's bedroom and took it.
+- [[Session 18]]: [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] discovered the cookbook on a bookshelf inside a baboon's bedroom and took it.

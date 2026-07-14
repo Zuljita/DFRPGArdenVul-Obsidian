@@ -13,7 +13,7 @@ Note: Reconstructed stub. TODO: restore full narrative.
 
 ## Highlights
 - Returns near the [[locations/Waterfall.md|Waterfall]]; botanical threats (stirges, plant monsters) encountered.
-- [[monsters/Undead Librarian.md|Undead Librarian]] and librarian lore surfaces.
+- [[npcs/Undead Librarian.md|Undead Librarian]] and librarian lore surfaces.
 
 ## Player Characters
 - [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]]
@@ -22,7 +22,7 @@ Note: Reconstructed stub. TODO: restore full narrative.
 - [[pcs/Michael J. Dundee.md|Michael]] returns this session.
 
 ## Notable Mentions
-- [[monsters/Wyvern.md|Wyvern]] sighting to the west.
+- [[npcs/Wyvern.md|Wyvern]] sighting to the west.
 - [[locations/Great Cavern.md|Great Cavern]] connections.
 
 ## Session Navigation

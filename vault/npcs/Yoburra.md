@@ -12,7 +12,7 @@ aliases:
 # Yoburra
 
 ## Summary
-Yoburra is a Varumani ambassador who has been involved in diplomatic and trade activities in the [[locations/Forum of Set.md|Goblin Forum]] and surrounding areas. He represents Varumani interests in negotiations with surface dwellers and the goblin tribes.
+Yoburra is a Varumani ambassador who has been involved in diplomatic and trade activities in the [[locations/Goblin Forum.md|Goblin Forum]] and surrounding areas. He represents Varumani interests in negotiations with surface dwellers and the goblin tribes.
 
 ## Notes
 - Present in the [[locations/Forum of Set.md|Forum of Set]] during the Right for Riches company's defeat of the Cult of Set.

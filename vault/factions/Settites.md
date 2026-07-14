@@ -24,6 +24,6 @@ A conflict with the faction in the Great Cavern resulted in the death of the wiz
 Burial customs within the faction vary significantly based on the wealth and power of the deceased.
 
 ## Sources
-- [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
-- [[notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]]
-- [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]]
+- [[vault/sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
+- [[vault/notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]]
+- [[vault/sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]]

@@ -24,4 +24,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14]]: The players discovered a room containing twenty large, well-crafted statues of various ancient Archontean lumarnies, including recognizable figures such as [[npcs/Arden.md|Arden]], Vul, and [[npcs/Marius Tricotor.md|Marius Tricotor]].
+- [[Session 14]]: The players discovered a room containing twenty large, well-crafted statues of various ancient Archontean lumarnies, including recognizable figures such as [[npcs/Arden.md|Arden]], Vul, and [[npcs/Marius Tricotor.md|Marius Tricotor]].

@@ -17,7 +17,7 @@ The best part? It requires little more care than a house plant and can survive f
 
 Available in Fungus White, Moss Green and Yellow Rattle.
 
-The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] is not self-powered, self-propelled or self-levitating. A competent caster and *Levitation* spell is required to make use of the levitating feature. Scroll use by untrained users may result in injury or equipment loss. All designs, components, and plant details are prototypes and are subject to change. Final design, colors, and materials may vary as we continue development and incorporate feedback. We're committed to delivering the best possible product and will keep you updated throughout the process.
+The [[items/Living Wheelbarrow.md|Living Wheelbarrow]] is not self-powered, self-propelled or self-levitating. A competent caster and *Levitation* spell is required to make use of the levitating feature. [[Scroll]] use by untrained users may result in injury or equipment loss. All designs, components, and plant details are prototypes and are subject to change. Final design, colors, and materials may vary as we continue development and incorporate feedback. We're committed to delivering the best possible product and will keep you updated throughout the process.
 
 ## Crowdfunding Pledges
 

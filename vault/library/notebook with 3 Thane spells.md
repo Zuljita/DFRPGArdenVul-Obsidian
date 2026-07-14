@@ -20,4 +20,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[sessions/Session 34a - Hunting the Thane.md|Session 34a]]: The party discovered the notebook on a work table alongside various alchemical supplies and other magical items.
+- [[Session 34a]]: The party discovered the notebook on a work table alongside various alchemical supplies and other magical items.

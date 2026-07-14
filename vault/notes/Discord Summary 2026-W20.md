@@ -81,7 +81,7 @@ The company Chrysalis successfully hunted and slew a Behir within its lair, thou
 **Tactical Planning**
 * **Cloister Operations:** The company intends to prioritize clearing all portable assets from areas connected to the [[locations/Cloister.md|Cloister]] and mapping the existing teleportation network. Plans include traveling via the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to [[locations/Cloister.md|the Cloister]], moving west to the acidic pool room, and proceeding up to the room containing the Chaotic Sweat.
 * **Logistics & Scouting:** 
-    * The party intends to travel to [[locations/Forum of Set.md|the Goblin Forum]] to check in with [[npcs/Gribble.md|Gribble]], deliver supplies/food, and collect funds.
+    * The party intends to travel to [[locations/Goblin Forum.md|the Goblin Forum]] to check in with [[npcs/Gribble.md|Gribble]], deliver supplies/food, and collect funds.
     * Plans are in place to continue clearing the natural caverns near the Behir lair, attempting to link them to the spiked door off the main hallway.
     * The company aims to clear the area south of the basket elevator to ensure it is safe for goblin patrols.
     * Following this, the party intends to use Scry Gate on five uncertain Teleportation Circle locations.

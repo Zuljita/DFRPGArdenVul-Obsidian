@@ -47,7 +47,7 @@ This note is maintained by the vault automation. It merges current quests, unres
   - ID: `status-of-marius`
   - Status: open
   - Summary: Investigate whether Archon Marius remains active or animate within the Halls.
-  - Related: [[npcs/Marius Tricotor.md|Marius Tricotor]]
+  - Related: [[npcs/Marius Tricotor.md|M0arius]]
   - Evidence:
     - [[notes/Discord Summary 2026-W22.md|Discord Summary 2026-W22]] — "There is ongoing speculation regarding whether Archon Marius remains active or animate in some form within the Halls."
 
@@ -59,7 +59,7 @@ This note is maintained by the vault automation. It merges current quests, unres
   - Summary: Decide whether to hunt the dragon for his hoard or avoid him to prevent economic destabilization.
   - Related: [[npcs/Craastonistorex.md|Craastonistorex]]
   - Evidence:
-    - [[notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]] — "The ongoing debate regarding whether to hunt the dragon for his hoard or avoid him to prevent destabilizing the surface/dungeon economy."
+    - [[notes/Active Action Items.md|Active Action Items]] — "Decide whether to hunt the dragon for his hoard or avoid him to prevent economic destabilization."
 
 - [ ] **Monitor Set Statue remains**
   - ID: `statue-fate`

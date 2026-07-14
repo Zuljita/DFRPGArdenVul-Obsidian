@@ -60,7 +60,7 @@ A week consists of 7 days, named for major Archontean deities and celestial bodi
 | --- | --- | --- |
 | 1 | **Basilsday** | Named after the Basileus (the Emperor). |
 | 2 | **Lunday** | Named after the Moon. |
-| 3 | **Tothsday** | Named after the god [[npcs/Thoth.md|Thoth]]. |
+| 3 | **Tothsday** | Named after the god [[npcs/Thoth.md\|Thoth]]. |
 | 4 | **Mitrasday** | Named after the god [[Mitra]]. |
 | 5 | **Tahsday** | Named after the god [[Ptah]]. |
 | 6 | **Horasday** | Named after the god [[Horus]]. |

@@ -22,4 +22,4 @@ TODO: Add description.
 - Three books were present: one in Mithric regarding the creation of mummies, and two written in unknown languages.
 
 ## Reading Events
-- [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30]]: Vallium opened the inner sarcophagus, triggering a fire trap that burned him before the party discovered the contents.
+- [[Session 30]]: Vallium opened the inner sarcophagus, triggering a fire trap that burned him before the party discovered the contents.

@@ -28,14 +28,14 @@ This document outlines the specific rules for character creation in the DFRPG [[
 
 ## Playable Races and Languages
 
-- **Available Racial Templates:** Dwarf, Elf, Half-Elf, Halfling, Human, and [[Imperial Goblin]].
+- **Available Racial Templates:** Dwarf, Elf, Half-Elf, [[Halfling]], Human, and [[Imperial Goblin]].
 - **Unavailable Races:** Cat-folk, half-orcs, half-ogres, gnomes.
 - **Native Languages (per race):**
     - **Human:** Choose from [[lore/Archontean.md|Archontean]], [[lore/Thorcin.md|Thorcin]], [[Wiskin]], or [[Khumus]]. Default is [[lore/Archontean.md|Archontean]] if none chosen.
-    - **Elf:** Elvish.
-    - **Half-Elf:** Choose from [[lore/Archontean.md|Archontean]], [[lore/Thorcin.md|Thorcin]], [[Wiskin]], [[Khumus]], or Elvish. Can take a second native language if raised in both cultures.
-    - **Dwarf:** Dwarvish.
-    - **Halfling**: [[lore/Archontean.md|Archontean]].
+    - **Elf:** [[Elvish]].
+    - **Half-Elf:** Choose from [[lore/Archontean.md|Archontean]], [[lore/Thorcin.md|Thorcin]], [[Wiskin]], [[Khumus]], or [[Elvish]]. Can take a second native language if raised in both cultures.
+    - **Dwarf:** [[Dwarvish]].
+    - **[[Halfling]]**: [[lore/Archontean.md|Archontean]].
     - **[[Imperial Goblin]]**: [[lore/Archontean.md|Archontean]].
 
 - **Important Languages in the Area:**
@@ -46,7 +46,7 @@ This document outlines the specific rules for character creation in the DFRPG [[
 
 ## Equipment and Economy
 
-- **Starting Equipment:** Per DFRPG rules. Can buy Wealth or trade points for cash at the start.
+- **Starting Equipment:** Per DFRPG rules. Can buy [[Wealth]] or trade points for cash at the start.
 - **Available Equipment:** Any non-magical equipment from DFRPG: Adventurers (excluding plate armor, which does not exist in the setting). GM approval needed for common non-magical items not listed.
 - **Post-Start Equipment:** Special orders and magical equipment may not be reliably available, possibly requiring availability rolls, travel to major cities, or hiring an enchanter.
 - **Coinage:** Uses AD&D coin value ratios with a silver piece standard.
@@ -59,4 +59,4 @@ This document outlines the specific rules for character creation in the DFRPG [[
 
 ## Perks
 
-- **[[Burdock's Valley Local]] [1]:** A new perk. If taken, the PC has lived in the [[Burdock's Valley]] area long enough to gain extra rumors, an area map, and default Area Knowledge. PCs without this perk arrive as outsiders and must ask NPCs for directions.
+- **[[Burdock's Valley Local]] [1]:** A new perk. If taken, the PC has lived in the [[Burdock's Valley]] area long enough to gain extra rumors, an area map, and default [[Area Knowledge]]. PCs without this perk arrive as outsiders and must ask NPCs for directions.

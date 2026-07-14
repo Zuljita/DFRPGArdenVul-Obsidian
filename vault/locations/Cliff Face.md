@@ -13,9 +13,9 @@ A steep exterior approach beneath the ruins of [[locations/Arden Vul.md|Arden Vu
 ## Notes
 - In Session 34a, the party located a cave exit high above the Long Stair but judged the descent too dangerous without strong climbing or magical support.
 - Nearby caves can function as temporary staging points during ascent/descent.
-- [[locations/Cave with Spider Webs.md|Cave with Spider Webs]] is located over a switchback on the cliff face.
+- [[vault/locations/Cave with Spider Webs.md|Cave with Spider Webs]] is located over a switchback on the cliff face.
 - A cliff face entrance west of the waterfall may be used by Lizardmen.
-- [[npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]] used the cliff-face entrance during the Session 43a invasion.
+- [[vault/npcs/Merenuithiel Lacrymosa Armaris.md|Merenuithiel Lacrymosa Armaris]] used the cliff-face entrance during the Session 43a invasion.
 - The waterfall beneath the Cliff Face features a plunge pool that leads to Arden Vul.
 - During Session 15, the party reached the Cliff Face without encountering anything more interesting than wild goats.
 - Baskets are located on the cliff face.
@@ -29,4 +29,4 @@ A steep exterior approach beneath the ruins of [[locations/Arden Vul.md|Arden Vu
 - [[sessions/Session 10 - Baboons, Ghouls, and a Mule.md|Session 10 - Baboons, Ghouls, and a Mule]]
 - [[sessions/Session 14 - Behind the Waterfall Again.md|Session 14 - Behind the Waterfall Again]]
 - [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
-- [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
+- [[sessions/Session 52a - Ichhelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]

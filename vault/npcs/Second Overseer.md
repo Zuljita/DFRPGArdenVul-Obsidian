@@ -7,7 +7,7 @@ tags:
 # Second Overseer
 
 ## Summary
-Assistant to [[Kel Bormol]], Overseer of [[Thoth]]. He is described as cowardly for retreating before a [[factions/Sortians.md|Sortian]] onslaught and is currently cowering within the [[Tower of Scrutiny]].
+Assistant to [[Kel Bormol]], Overseer of [[Thoth]]. He is described as cowardly for retreating before a [[Sortian]] onslaught and is currently cowering within the [[Tower of Scrutiny]].
 
 ## First Appearance
 Mentioned in a message from [[Uriel Basileon]] to [[Kel Bormol]].

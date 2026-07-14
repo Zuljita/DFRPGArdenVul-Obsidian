@@ -20,4 +20,4 @@ TODO: Add description.
 - The writing contained information regarding many ancient nobles in Mithric.
 
 ## Reading Events
-- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44]]: Alexandros was able to read the writing found on the skeleton.
+- [[Session 44]]: Alexandros was able to read the writing found on the skeleton.

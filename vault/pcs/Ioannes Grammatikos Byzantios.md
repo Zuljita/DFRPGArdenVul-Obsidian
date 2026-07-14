@@ -13,6 +13,11 @@ aliases:
 ## Summary
 
 Ioannes Grammatikos Byzantios is a 32-year-old Archontean cleric of [[Demma]] and the primary healer and exorcist of the [[Right for Riches]] company. Ordained in the Thothian and Settite traditions as well as his own faith, he brings an uncommonly broad theological education to the ruins of [[Arden Vul]], where his Research-15 and Occultism-15 have repeatedly unlocked practical intelligence that saved the party — from anti-scrying countermeasures to the mechanics of the [[Thothian Teleportation Rings]]. He is genuinely devout, deeply curious, constitutionally oblivious to social dynamics, and afflicted with hopeless-romantic tendencies that surface at the worst possible moments; his companions find him endearing and occasionally exasperating in equal measure. He lives primarily at the [[Arcane Practitioner's Club]] in [[Gosterwick]] alongside the rest of the company. His black cat [[Onyx]], recovered from the [[Great Cavern]] after its previous owner [[Lyra]] was killed by a giant lizard, gets around on his own and serves as an ongoing emotional anchor to the surface world.
+- His recent research into a captured statue head revealed that the object resembles "The Philosopher," a classic Archontean archetype.
+- He holds the title to the [[items/Cursed Shield.md|Cursed Shield]].
+- He has commissioned the [[Arcane Practitioner's Club]] for trap identification and paid Fael the druid to identify local fungi.
+- Purchased [[items/Delver's Webbing.md|Delver's Webbing]] for $160.
+- He has taken responsibility for shepherding and feeding newly acquired cats, including [[Onyx]] and Bootstraps.
 
 ## Goals & Hooks
 
@@ -20,6 +25,11 @@ Ioannes Grammatikos Byzantios is a 32-year-old Archontean cleric of [[Demma]] an
 - **Continue anti-undead operations.** Every wraith corridor, ghoul-haunted hall, and mummy sarcophagus the company clears in [[Arden Vul]] represents, to Ioannes, a direct expression of Demma's mandate. His Affect Spirits spell at level 19 makes him the linchpin of serious undead engagements.
 - **Communicate with Onyx.** Onyx has communicated (via Fael the druid's Speak with Animals, Session 54) that the fish supply for Onyx and all the cats of Gosterwick under his jurisdiction has been inadequate. Ioannes feels responsible and intends to remedy this.
 - **Advance Propaganda efforts for the Goblin Forum.** Ioannes has been actively spreading word among Gosterwick merchants that trading at the [[Goblin Forum]] of Arden Vul offers serious profit opportunities, and views the Forum's commercial revival as both good for the company's logistics and consistent with Demma's concern for community welfare.
+- **Learn 'cat' language.** He is attempting to learn enough 'cat' to better manage and find suitable food for the new arrivals, with [[Onyx]] providing training in Animal Handling at no cost.
+- Increase Intelligence to 13.
+- **Increase Intelligence.** Currently working toward increasing Intelligence to 13.
+- Increase Intelligence to 13 and learn enough "cat" via [[Onyx]] to better manage new arrivals.
+- Increase Intelligence to 13 and acquire *Gift of Tongues* or *Resist Fire*.
 
 ## Relationships
 
@@ -67,7 +77,7 @@ Ioannes Grammatikos Byzantios is a 32-year-old Archontean cleric of [[Demma]] an
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 - [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
-- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Sessions 52b and 53: Behir, Varumani, and the Surgi...]]
+- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgi...md|Sessions 52b and 53: Behir, Varumani, and the Surgi...]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
 - [[sessions/Session 34b - Tower of the Ape.md|Session 34b - Tower of the Ape]]

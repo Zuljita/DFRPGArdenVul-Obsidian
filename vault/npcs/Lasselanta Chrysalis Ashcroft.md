@@ -30,6 +30,8 @@ She is played by Archon Shiva.
 - Uses a **Staff of Blue Light** — carries permanent light that was *not* extinguished by the dispel corridor (unlike other light sources).
 - Relentless melee combatant; kept pursuing Neferet even while blinded and low on resources.
 - **Staff of Blue Light Origin** — purchased from the Left for Loot company after it was discovered in the Great Cavern.
+- Wields dual long staves with specialized parrying capabilities at range 2-3; her spear is equipped with a $880 power item providing 7 FP.
+- Successfully parried an attack from Yrtol in Session 13 using her glowing blue staff.
 
 ## Actions in Sessions 42a–42b
 

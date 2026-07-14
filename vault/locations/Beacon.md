@@ -19,11 +19,27 @@ The ship is situated under the ruins of Arden Vul.
 
 The ship also contains barracks and a storeroom.
 
+The [[items/Tripod of Heating.md|Tripod of Heating]] is notably utilized at the Beacon.
+
+If recognized as genuine by the bridge computer, the holder of the [[library/Command Tablet a.k.a. Tablet of the Beacon.md|Command Tablet]] can assert command over the remaining parts of the ship.
+- A route through the ship was utilized during [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38]].
+
+The Rudishva command chamber contains a pool of green liquid that displays camera feeds, including one of the [[locations/Arena.md|Arena]].
+- [[items/Nataraja Watcher.md|Vaelethron 'Vael' Sunshadow]] placed a [[items/Nataraja Watcher.md|Nataraja Watcher]] on the stairs to the Beacon.
+- The Rudishva command chamber is located southeast of the Arena level.
+
+The [[library/Command Tablet a.k.a. Tablet of the Beacon.md|Command Tablet]] is considered one of the four pieces of the Regalia.
+
+The party uses the GnuCoder 1000 aboard the Beacon as their primary tool for interfacing with recovered Rudishva data crystals.
+
 ## Known Crew (Historical)
 - **Captain Leil-Jor** — Issued the quarantine order on the corrupted varuda nests during the crisis.
 - **Entertainment Officer Crellik-Var** — Tentatively identified as the [[npcs/Arena Lord.md|Arena Lord]] currently running the [[locations/Arena.md|Arena]] in the Halls of Arden Vul. If correct, he is a surviving crew member.
 - Not all crew members are accounted for; [[npcs/Akla-Chah.md|Akla-Chah]] confirmed in Session 46 that it is possible some are still alive despite the ship having crashed long ago.
 - [[npcs/Basil.md|Basil]] — A Beacon hireling.
+- [[npcs/Basil.md|Basil]] has been tasked with beginning an inventory of "blood" to identify potential leads.
+- [[npcs/Basil.md|Basil]] — A hireling introduced in [[sessions/Session 34c.md|Session 34c]].
+- **Akla-Chah** — Rudishva AI psychologist who serves as an intermediary and translator
 
 ## Recorded Crisis Message (Session 45)
 A hologram recorded for the crew plays on the northern dais in a large Rudishva chamber connected to the Beacon. Translated by Vael in Session 45:

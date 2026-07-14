@@ -10,7 +10,7 @@ tags:
 
 ## Ioannes' Inquiry
 
-[[Ioannes]] inquired about available minor healing potions in [[Gosterwick]], prompting a suspicious look from [[Freydis the Stern]], who noted the frequency of such requests.
+[[Ioannes]] inquired about available [[minor healing potions]] in [[Gosterwick]], prompting a suspicious look from [[Freydis the Stern]], who noted the frequency of such requests.
 
 ## Research on [[npcs/Ptarmis.md|Ptarmis]]
 

@@ -21,7 +21,7 @@ source_week: week-ending-2026-06-05-2300-central
 - Next Discord Summary: [[notes/Discord Summary 2026-W23.md|Discord Summary 2026-W23]]
 <!-- END AUTO NAV -->
 
-# Weekly Knowledge Base: Arden Vul
+# Weekly Knowledge Base: [[locations/Arden Vul.md|Arden Vul]]
 **Week Ending:** 2026-06-05 23:00 CDT
 
 **Summary**
@@ -41,11 +41,11 @@ The company Chrysalis focused on funerary preparations for their fallen comrades
     * Visited the [[locations/Gosterwick.md|Gosterwick]] cemetery to arrange honorable burials for eight fallen company members; coordinated with Groat, the caretaker, to secure individual plots, stone sarcophagi, and inscribed headstones at a total cost of $10,400.
     * Commissioned Vaelitharon to consult on Mythric inscriptions for the new headstones.
     * Spent $125 to enhance his ability to navigate local social circles (Carousing).
-    * Visited Theopilus to commission a copy of a newly acquired key (Page Reference 442) for $10.
+    * Visited [[npcs/Theopilos.md|Theopilus]] to commission a copy of a newly acquired key (Page Reference 442) for $10.
     * Conducted research into "The Lady's Asylum" using the *Book of Priors*.
 * **Alchemy/crafting attempts and results:** Successfully brewed a *True Water Potion*.
 * **Research results:** 
-    * Read *The Lay of Marius Invictus*; learned of the Archon’s use of a sky-sled, the [[items/Tablet of the Beacon.md|Tablet of the Beacon]], the Iron Circlet, and the Ebon Spear during his campaign.
+    * Read *The Lay of Marius Invictus*; learned of the Archon’s use of a sky-sled, the [[items/Tablet of the Beacon.md|Tablet of the Beacon]], the [[items/Iron Circlet of Ghanor.md|Iron Circlet]], and the Ebon Spear during his campaign.
     * Through research into The Lady's $Asylum$, discovered the location was an area within the Halls dedicated to Lady Clementia, wife of Marius.
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
@@ -58,7 +58,7 @@ The company Chrysalis focused on funerary preparations for their fallen comrades
 * **Research results:** 
     * Completed reading *On the Terrible Old Gods*; learned of seven primordial deities: Rimmaq-Isfet, Frelothian, Mzingaloq, Viirdo Star-Eater, Piqor-Piqaad, Jeqellathon, and Nzimballik. 
     * Detailed findings on Rimmaq-Isfet include his titles (The Devourer, The Corroder, The Worm Who Licks the Heart of the Earth, The Extruder of Potent Slimes, and The Fecund Sire) and various physical forms (huge worm, salamander, or worm-headed biped).
-    * Research into the Thegn revealed that [[npcs/Varboka.md|Varboka]] rules the [[factions/Varumani.md|Varumani]] of Arden Vul, the most powerful faction in the Halls. Learned that Varumani territory requires a passport for entry and that they control both the Varumani Lifts and the Varumani Market.
+    * Research into the Thegn revealed that [[npcs/Varboka.md|Varboka]] rules the [[factions/Varumani.md|Varumani]] of [[locations/Arden Vul.md|Arden Vul]], the most powerful faction in the Halls. Learned that Varumani territory requires a passport for entry and that they control both the Varumani Lifts and the Varumani Market.
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
 
@@ -69,7 +69,7 @@ The company Chrysalis focused on funerary preparations for their fallen comrades
     * Contributed a personal share toward the burial costs for the fallen company members.
 * **Alchemy/crafting attempts and results:** None this week.
 * **Research results:** 
-    * Learned that Varumani crew members historically consumed ration cakes, with a noted preference for the "flying desert avian" flavor.
+    * Learned that [[factions/Varumani.md|Varumani]] crew members historically consumed ration cakes, with a noted preference for the "flying desert avian" flavor.
 * **Character advancement:** None this week.
 * **Equipment changes:** None this week.
 
@@ -112,7 +112,7 @@ The company Chrysalis focused on funerary preparations for their fallen comrades
 
 **Unresolved Threads**
 * **The Fate of Pelteon:** It remains unknown how [[npcs/Pelteon.md|Pelteon]] reacted to Ioannes's anonymous gift of fine clothing.
-* **The Rimmaq-Isfet Connection:** A hypothesis has been raised that the biological anomalies and slime-related phenomena encountered in Arden Vul may be linked to the influence of the deity Rimmaq-Isfet.
+* **The Rimmaq-Isfet Connection:** A hypothesis has been raised that the biological anomalies and slime-related phenomena encountered in [[locations/Arden Vul.md|Arden Vul]] may be linked to the influence of the deity Rimmaq-Isfet.
 * **The Status of Marius:** There is ongoing speculation regarding whether Archon Marius remains active or animate in some form within the Halls.
 * **Mercenary Recruitment:** The decision to officially retain the mercenary Thronebreaker for upcoming operations is pending.
 * **Ioannes's Familiar:** Whether Ioannes should acquire a cat familiar to assist with communication and "vibes" remains undecided.

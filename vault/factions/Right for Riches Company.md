@@ -22,6 +22,13 @@ The company has conducted propaganda efforts highlighting their service to [[npc
 
 Company legalities were formalized through [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]] for a fee of $1000.
 
+The company's research endeavors include studying Settite burial practices, eschaology, and the spoken Varumani and written Rudishva languages.
+- [[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]] - The company was formally incorporated in Gosterwick following approval by the Thesmothete, Eusebia Phokas.
+- Established a commercial partnership with Wicktrimmer of the Rarities Factor, providing lifetime banking and vault services for members as well as a concierge shopping service via mule train. - [[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]]
+- Their research into Settite burial practices discovered that customs vary significantly based on the wealth and power of the deceased. - [[notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]]
+- [[pcs/grudge-brigade/Coinbase.md|Coinbase]] identifies the company as his primary clients. - [[pcs/grudge-brigade/Coinbase.md|Coinbase]]
+- Research into "Pol" revealed that Pol the Devious was an archmage who went insane due to exposure to the orange mineral in [[locations/Arden Vul.md|Arden Vul]], leaving behind an empty tower near the Tomb of Marius. [[notes/Discord Summary 2026-W17.md|Discord Summary 2026-W17]]
+
 ## Members
 
 ### Socii (Core Members)
@@ -126,7 +133,7 @@ The patches are worn on clothing, functioning as a visible record of company his
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]]
 - [[sessions/Session 26 - The Scouring of the Shire.md|Session 26 - The Scouring of the Shire]]
 - [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
-- [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]]
+- [[sessions/Session 43a - Forum of Set.md|Session 43a - Forum of Set]]
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45 - Purple Mist and the Drowned Canyon]]
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46 - The Arena Lord and the Inn of the Lost]]

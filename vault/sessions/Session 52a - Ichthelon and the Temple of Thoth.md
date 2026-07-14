@@ -47,8 +47,8 @@ Many goblins
 [[npcs/Remagis.md|Remagis]], priest of [[npcs/Thoth.md|Thoth]]
 
 2 Guardians of [[npcs/Thoth.md|Thoth]]
-[[npcs/Gribble.md|Gribble]], Chief of the [[locations/Forum of Set.md|Goblin Forum]]
-[[npcs/Dworm.md|Dworm]], [[locations/Forum of Set.md|Goblin Forum]] guard and food merchant
+[[npcs/Gribble.md|Gribble]], Chief of the [[locations/Goblin Forum.md|Goblin Forum]]
+[[npcs/Dworm.md|Dworm]], [[locations/Goblin Forum.md|Goblin Forum]] guard and food merchant
 [[npcs/Yoburra.md|Yoburra]], Varmani ambassador to the Forum
 Several wights
 Many ghasts
@@ -64,8 +64,8 @@ Behir
 ## The Plan:
 
 - Give the (second) Tablet of the [[locations/Beacon.md|Beacon]] to Lady Alexia
-- Bring food to the [[locations/Forum of Set.md|Goblin Forum]]
-- Finish clearing the tombs southeast of the [[locations/Forum of Set.md|Goblin Forum]]
+- Bring food to the [[locations/Goblin Forum.md|Goblin Forum]]
+- Finish clearing the tombs southeast of the [[locations/Goblin Forum.md|Goblin Forum]]
 - Use See Secrets in the cleared tombs
 - Explore west and south from the tombs
 

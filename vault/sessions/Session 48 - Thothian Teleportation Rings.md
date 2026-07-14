@@ -47,7 +47,7 @@ Warm, sunny
 ## The Plan
 - Finish exploring and searching the No Mana Zone west of the [[locations/Well of Light.md|Well of Light]]
 - Get a map from [[npcs/Temrin.md|Temrin]] in the [[locations/Goblin Market.md|Goblin Market]]
-- Clear more rooms near the [[locations/Forum of Set.md|Goblin Forum]]
+- Clear more rooms near the [[locations/Goblin Forum.md|Goblin Forum]]
 
 ## What Happened
 Not wanting to give anyone else a chance to loot the no mana zone, the [[factions/Right for Riches Company.md|Right for Riches]] company rested, healed, identified some loot, and then headed right back to the Halls of Arden Vul the next day. This time they recruited Chrysalis, to provide more protection in areas without spells. Once again they took the Rudishva teleporter to the Cloister, then went down the secret tunnel to the slime pit room. Most of the party went through the Teleport Rug back to the [[locations/Beacon.md|Beacon]], while [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] and [[pcs/Vallium Halcyon.md|Vallium]] Levitated up the shaft to the cavern north of the ruined [[locations/Temple of Set.md|Temple of Set]]. They didn't run into any trouble, and set the Rug down so everyone else could rejoin them.
@@ -91,7 +91,7 @@ It took almost 50 delves, but the Right of Riches company finally figured out th
 - Total: 3-4 XP
 
 ## Next Week
-They're planning on securing more of the unexplored areas around the [[locations/Forum of Set.md|Goblin Forum]]. After that, they'll decide between going after [[npcs/Neferet.md|Neferet]] and the [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]], or trying to kill the green dragon Craastonistorex.
+They're planning on securing more of the unexplored areas around the [[locations/Goblin Forum.md|Goblin Forum]]. After that, they'll decide between going after [[npcs/Neferet.md|Neferet]] and the [[items/Iron Circlet of Ghanor.md|Iron Circlet of Ghanor]], or trying to kill the green dragon Craastonistorex.
 
 ## Source
 - https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-48-thothian.html

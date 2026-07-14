@@ -20,7 +20,7 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[sessions/Session 39 - Diving for the Yellow Card.md|Session 39]]: The players searched the bodies of Rudishva and found a rectangular black card among their possessions.
+- [[Session 39]]: The players searched the bodies of Rudishva and found a rectangular black card among their possessions.
 
 ## Discord Discussions
 - [[Discord Summary 2026-W03]]

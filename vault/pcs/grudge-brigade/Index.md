@@ -22,5 +22,5 @@ The Grudge Brigade is a mercenary company operating out of Gosterwick, offering 
 - [[Thronebreaker.md|Thrainor "Thronebreaker" Ironvein]] - Dwarven fighter
 
 ## See Also
-- [[factions/Grudge Brigade.md|Grudge Brigade (Faction)]]
-- [[locations/Grudge Brigade Headquarters.md|Grudge Brigade Headquarters]]
+- [[../factions/Grudge Brigade.md|Grudge Brigade (Faction)]]
+- [[../locations/Grudge Brigade Headquarters.md|Grudge Brigade Headquarters]]

@@ -26,22 +26,19 @@ flowchart LR
     n_Hall_of_Heroes["Hall of Heroes"]
     n_Square_Tower_East_of_Forum["Square Tower (East of Forum)"]
   end
-  subgraph c_n_Well_of_Light["Well of Light cluster"]
-    n_Druid_s_Retreat["Druid's Retreat"]
-    n_Well_of_Light["Well of Light"]
-    n_Library_of_Thoth["Library of Thoth"]
-    n_Forum_of_Set["Forum of Set"]
-    n_Red_Bridge_of_Set["Red Bridge of Set"]
-    n_Upper_Goblintown["Upper Goblintown"]
-    n_Goblin_Market["Goblin Market"]
-    n_Goblin_Great_Hall["Goblin Great Hall"]
-    n_Goblin_Warrens["Goblin Warrens"]
-  end
   subgraph c_n_Cliff_Face["Cliff Face cluster"]
     n_Baboon_Cave["Baboon Cave"]
     n_Howling_Caves["Howling Caves"]
     n_Cave_with_Spider_Webs["Cave with Spider Webs"]
     n_Cliff_Face["Cliff Face"]
+  end
+  subgraph c_n_Well_of_Light["Well of Light cluster"]
+    n_Druid_s_Retreat["Druid's Retreat"]
+    n_Well_of_Light["Well of Light"]
+    n_Library_of_Thoth["Library of Thoth"]
+    n_Goblin_Forum["Goblin Forum"]
+    n_Goblin_Market["Goblin Market"]
+    n_Upper_Goblintown["Upper Goblintown"]
   end
   subgraph c_n_Great_Cavern["Great Cavern cluster"]
     n_Great_Cavern["Great Cavern"]
@@ -56,6 +53,13 @@ flowchart LR
     n_Varumani_Lifts["Varumani Lifts"]
     n_Wet_Caves["Wet Caves"]
     n_Great_Hall["Great Hall"]
+  end
+  subgraph c_n_Temple_of_Set["Temple of Set cluster"]
+    n_Forum_of_Set["Forum of Set"]
+    n_Temple_of_Set["Temple of Set"]
+    n_Red_Bridge_of_Set["Red Bridge of Set"]
+    n_Sighing_Stair["Sighing Stair"]
+    n_Temple_of_Thoth["Temple of Thoth"]
   end
   subgraph c_n_Hubs["Hubs cluster"]
     n_Gosterwick["Gosterwick"]
@@ -75,14 +79,13 @@ flowchart LR
     n_Hall_of_Forty_Pillars["Hall of Forty Pillars"]
     n_The_Obsidian_Gates["The Obsidian Gates"]
   end
-  subgraph c_n_Temple_of_Set["Temple of Set cluster"]
-    n_Sighing_Stair["Sighing Stair"]
-    n_Temple_of_Set["Temple of Set"]
-    n_Temple_of_Thoth["Temple of Thoth"]
-  end
   subgraph c_n_Arena["Arena cluster"]
     n_Arena["Arena"]
     n_Inn_of_the_Lost["Inn of the Lost"]
+  end
+  subgraph c_n_Goblin_Warrens["Goblin Warrens cluster"]
+    n_Goblin_Great_Hall["Goblin Great Hall"]
+    n_Goblin_Warrens["Goblin Warrens"]
   end
   subgraph c_n_Troll_Lifts["Troll Lifts cluster"]
     n_Halls_of_the_Troll_Thegn["Halls of the Troll Thegn"]
@@ -94,31 +97,30 @@ flowchart LR
   end
   n_Beacon ---|rug| n_Gosterwick
   n_Glory_of_Thoth ---|passage| n_Well_of_Light
+  n_Beacon ---|teleporter| n_Cloister
   n_Arden_Vul ---|contains| n_Pyramid_of_Thoth
   n_Gosterwick ---|road| n_Long_Stair
-  n_Beacon ---|teleporter| n_Cloister
   n_Gosterwick ---|road| n_Newmarket
   n_Cliff_Face ---|climb| n_Long_Stair
   n_Arena ---|passage| n_Inn_of_the_Lost
   n_Glory_of_Thoth ---|stairs| n_Pyramid_of_Thoth
-  n_Glory_of_Thoth ---|passage| n_Goblin_Market
   n_Temple_of_Set ---|passage| n_Temple_of_Thoth
+  n_Glory_of_Thoth ---|passage| n_Goblin_Market
   n_Upper_Goblintown ---|passage| n_Well_of_Light
-  n_Forum_of_Set ---|passage| n_Upper_Goblintown
   n_Gosterwick ---|road| n_Narsileon
-  n_Forum_of_Set ---|passage| n_Temple_of_Set
-  n_Forum_of_Set ---|passage| n_Goblin_Market
+  n_Halls_of_the_Troll_Thegn ---|lift| n_Troll_Lifts
   n_Howling_Caves ---|passage| n_Well_of_Light
   n_Cliff_Face ---|passage| n_Howling_Caves
   n_Arden_Vul ---|contains| n_Obelisk
   n_Narsileon ---|road| n_Newmarket
   n_Sighing_Stair ---|passage| n_Temple_of_Set
-  n_Halls_of_the_Troll_Thegn ---|lift| n_Troll_Lifts
   n_Glory_of_Thoth ---|passage| n_Great_Hall
   n_Great_Cavern ---|passage| n_Great_Chasm
+  n_Goblin_Forum ---|passage| n_Upper_Goblintown
   n_Forum_of_Arden_Vul ---|passage| n_Pyramid_of_Thoth
   n_Forum_of_Arden_Vul ---|passage| n_Tower_of_Scrutiny
-  n_Forum_of_Set ---|stairs| n_Sighing_Stair
+  n_Forum_of_Set ---|passage| n_Temple_of_Set
+  n_Goblin_Forum ---|passage| n_Goblin_Market
   n_Southern_Necropolis_of_Set ---|passage| n_Tomb_of_Theskalon
   n_Sundered_Span ---|lift| n_Varumani_Lifts
   n_Cliff_Face ---|passage| n_Great_Cavern
@@ -147,13 +149,13 @@ flowchart LR
   n_Cave_with_Fire_Pit ---|passage| n_Long_Stair
   n_Druid_s_Retreat ---|passage| n_Library_of_Thoth
   n_Goblin_Warrens ---|passage| n_Upper_Goblintown
-  n_Forum_of_Set ---|passage| n_Goblin_Warrens
   n_Hall_of_Heroes ---|passage| n_Pyramid_of_Thoth
   n_Hall_of_Heroes ---|passage| n_Well_of_Light
   n_Gosterwick ---|contains| n_Kaelo_s_Bathhouse
   n_Library_of_Thoth ---|passage| n_Well_of_Light
   n_Sundered_Span ---|passage| n_Wet_Caves
   n_Great_Chasm ---|lift| n_Troll_Lifts
+  n_Goblin_Forum ---|stairs| n_Sighing_Stair
   n_Arden_Vul ---|contains| n_Forum_of_Arden_Vul
   n_Forum_of_Arden_Vul ---|passage| n_Square_Tower_East_of_Forum
   n_Arena ---|lift| n_Troll_Lifts
@@ -163,6 +165,7 @@ flowchart LR
   n_Chasm_Floor ---|passage| n_Great_Chasm
   n_Cloister ---|passage| n_Tomb_of_Archon_Marius
   n_Great_Hall ---|passage| n_Sundered_Span
+  n_Forum_of_Set ---|passage| n_Goblin_Warrens
   n_Beastman_Entrance ---|climb| n_Long_Stair
   n_Arden_Vul ---|climb| n_Beastman_Entrance
   n_Beastman_Entrance ---|passage| n_Great_Cavern
