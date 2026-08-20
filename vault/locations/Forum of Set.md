@@ -86,7 +86,7 @@ The area also hosts food stalls, such as one managed by [[npcs/Dworm.md|Dworm]].
 - **Pantry**: An area located north of the Forum.
 
 ## Current Status (Session 44+)
-Under goblin control. [[npcs/Gribble.md|Gribble]] (Lord of the Goblin Forum) oversees security with a dozen goblin guards. The goblins are focused on making the route from [[locations/Upper Goblintown.md|Upper Goblintown]] to the Forum safe. A food stall is operated by [[npcs/Dworm.md|Dworm]] (standing in until a proper merchant moves in). Varumani ambassadors are buying food from the surface and providing economic support. Several surface merchants (including [[npcs/Galadnor.md|Galadnor]], [[npcs/Horace Trych.md|Horace Trych]], and Claudine of Narsileon) have stalls here.
+Now generally called the **Goblin Forum**. Under goblin control. [[npcs/Gribble.md|Gribble]] (Lord of the Goblin Forum), the brother of King [[npcs/Weskenim.md|Weskenim]], oversees security with a dozen goblin guards. The goblins are focused on making the route from [[locations/Upper Goblintown.md|Upper Goblintown]] to the Forum safe. A food stall is operated by [[npcs/Dworm.md|Dworm]] (standing in until a proper merchant moves in). Varumani ambassadors are buying food from the surface and providing economic support. Several surface merchants (including [[npcs/Galadnor.md|Galadnor]], [[npcs/Horace Trych.md|Horace Trych]], and Claudine of Narsileon) have stalls here.
 
 ## Sources
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25]]
@@ -98,6 +98,10 @@ Under goblin control. [[npcs/Gribble.md|Gribble]] (Lord of the Goblin Forum) ove
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44]]
 - [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]]
 - [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]]
+- [[sessions/Session 51 - The Vengeance Aspect.md|Session 51]]
+- [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a]]
+- [[notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]]
+- [[notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]
 
 ## Discord Insights
 - Visited by the party, contains a big statue of Set and a marketplace. ([[notes/Discord Summary 2025-W23.md|Discord Summary 2025-W23]])

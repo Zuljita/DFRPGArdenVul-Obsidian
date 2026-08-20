@@ -57,7 +57,7 @@ title: Party Armory
 | magic 6-armed statue, stands guard if activated, command word in [[factions/Rudishva.md|Rudishva]] on bottom of foot, shrieks and confuses if destroyed | 3 | p.471 | $10,000 | 2025-11-21 | — |
 | magic deck of 22 ivory plaques with highly random effects, some good some bad (anyone) | 1 | p.275 | $10,000 | 2026-03-20 | — |
 | magic deck of 22 ivory plaques with highly random effects, some good some bad (mages only) | 1 | p.275 | $10,000 | 2026-03-20 | — |
-| Matched pair of [[items/Rugs of Instant Access.md|Rugs of Instant Access]] (1-hex, SM 0 person can stand on one, Concentrate, say command word, appear on other, Range ?) | 1 | p.189 | $20,000 | 2025-10-17 | — |
+| Matched pair of [[items/Teleport Rug.md|Rugs of Instant Access]] (1-hex, SM 0 person can stand on one, Concentrate, say command word, appear on other, Range ?) | 1 | p.189 | $20,000 | 2025-10-17 | — |
 | melted artifact - looks like one of the artifacts in the [[locations/Beacon.md|Beacon]] except melted | 0 | p.614 | $10 | 2026-01-23 | — |
 | Mistral: fine balanced scimitar (curved non-thrusting broadsword), +2 Acc/Puissance, seems to have additional hidden powers | 1 | p.305 | $20,000 | 2025-11-28 | — |
 | Non-functioning teleporter | 1 | p.TA-18 | $100 | 2025-12-19 | — |
@@ -82,7 +82,7 @@ title: Party Armory
 | Ring of Truth (Detect Lies-20, but wearer gains Truthfulness, which sticks after removal) | 1 | p.199 | $2,500 | 2025-11-28 | — |
 | [[items/Ring of Water Breathing.md|Ring of Water Breathing]] | 1 | p.292 | $2,500 | 2026-05-01 | — |
 | [[factions/Rudishva.md|Rudishva]] Useful Palm of the Cleansing Wind | 1 | p.358 | — | 2026-01-30 | — |
-| [[items/Rugs of Instant Access.md|Rugs of Instant Access]] (purple, command word "exequor") | 1 | p.690 | $20,000 | 2025-12-26 | — |
+| [[items/Teleport Rug.md|Rugs of Instant Access]] (purple, command word "exequor") | 1 | p.690 | $20,000 | 2025-12-26 | — |
 | [[items/Salamander Amulet.md|Salamander Amulet]] | 149 | p.150 | $4,920 | 2025-07-11 | — |
 | scarab of protection from death magic (absorbs death magic attacks) | 1 | p.233 | $10,000 | 2025-09-19 | — |
 | scrying ball, attuned to [[locations/Forum of Set.md|Forum of Set]] | 1 | p.278 | $4,000 | 2026-03-13 | — |

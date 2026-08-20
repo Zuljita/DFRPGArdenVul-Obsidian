@@ -18,7 +18,7 @@ continuing until 1782 AEP.
 - Discovery of the site by [[Arden]] and [[Vul the Sorcerer]] (829 AEP),
 - Founding of [[Arden Vul|city of Arden Vul]] (893 AEP),
 - Building the [[Great Pyramid of Thoth]], the [[Halls of Thoth]], the [[Well of Light]], etc.,
-- Discovery of [[The Great Chasm]] and [[The Obsidian Gates]],
+- Discovery of [[locations/Great Chasm.md|The Great Chasm]] and [[The Obsidian Gates]],
 - Wars against the [[Varumani]] (trolls), defeated by [[Marius Tricotor]] (1043 AEP),
 - Wars against the the [[heqeti]] (hoppers), defeated by [[Marius Tricotor]] (1051 AEP),
 - Breaking of the [[Compact of Ennius]] with the [[Dragons]] (1588 AEP),

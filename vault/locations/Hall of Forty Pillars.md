@@ -6,7 +6,7 @@ tags:
 # Hall of Forty Pillars
 
 ## Connections
-- [[locations/Obsidian Gates.md|Obsidian Gates]]
+- [[notes/Obsidian Gates.md|Obsidian Gates]]
 
 ## Residents
 

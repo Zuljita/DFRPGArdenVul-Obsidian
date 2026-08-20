@@ -20,7 +20,7 @@ An undead leader, a zombie with apparent command over other zombies.
 Aggressively hostile, leading other undead.
 
 ## Known Associates
-- [[Zombies]] (under his command)
+- Zombies (under his command)
 
 ## Notes
 A more dangerous variant of a regular zombie, possibly retaining some combat skill or tactical awareness from its former life.

@@ -20,4 +20,4 @@ TODO: Add description.
 - A note indicated that a little pyramid could be used to access the [[locations/Howling Caves.md|Howling Caves]].
 
 ## Reading Events
-- [[Session 17]]: The party found a note describing how to use a little pyramid to access the [[locations/Howling Caves.md|Howling Caves]].
+- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17]]: The party found a note describing how to use a little pyramid to access the [[locations/Howling Caves.md|Howling Caves]].

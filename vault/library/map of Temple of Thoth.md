@@ -20,7 +20,7 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 33]]: Temrin began working on a map for the players that depicted a dangerous path through Settite territory.
+- [[sessions/Session 33 - Nyema.md|Session 33]]: Temrin began working on a map for the players that depicted a dangerous path through Settite territory.
 
 ## Discord Discussions
 - [[Discord Summary 2025-W11]]

@@ -20,5 +20,5 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 27]]: Vael discovered the book in a chest within the Tomb of Ptoh-Ristus.
-- [[Session 28]]: Vael searched through books in the Thoth section of the library hoping to find a secret name, noting that many were written in the Secret Language of Thoth.
+- [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27]]: Vael discovered the book in a chest within the Tomb of Ptoh-Ristus.
+- [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28]]: Vael searched through books in the Thoth section of the library hoping to find a secret name, noting that many were written in the Secret Language of Thoth.

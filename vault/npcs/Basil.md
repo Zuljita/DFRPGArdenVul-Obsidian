@@ -36,7 +36,7 @@ Basil is a young Archontean man from [[locations/Narsileon.md|Narsileon]], rescu
 ## Appears In
 - [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
-- [[sessions/Session 44.md|Session 44]]
+- [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44]]
 - [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
 
 ## Session Notes

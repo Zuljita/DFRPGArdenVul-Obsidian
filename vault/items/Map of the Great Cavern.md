@@ -20,7 +20,7 @@ A parchment or other material depicting the geographical features, paths, and po
 
 ## Known History
 Found by the party during their explorations.
-- Found at [[locations/Secreta Secretorum.md|Secreta Secretorum]]
+- Found at [[notes/Secreta Secretorum.md|Secreta Secretorum]]
 - Acquired on 2025-06-20 (p.236)
 
 ## Notes

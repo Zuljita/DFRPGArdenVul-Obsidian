@@ -22,4 +22,4 @@ TODO: Add description.
 - It included a map of an unknown area consisting of nine rooms and stairs leading up and down.
 
 ## Reading Events
-- [[Session 15]]: [[pcs/Vallium Halcyon.md|Vallium]] found the parchment on a corpse in a room with abandoned mining tools and interpreted its color sequence as potentially linked to teleportation squares.
+- [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15]]: [[pcs/Vallium Halcyon.md|Vallium]] found the parchment on a corpse in a room with abandoned mining tools and interpreted its color sequence as potentially linked to teleportation squares.

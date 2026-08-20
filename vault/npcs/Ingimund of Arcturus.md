@@ -11,7 +11,7 @@ A wizard employed by [[Wicktrimmer]] at the [[Rarities Factor]].
 ## Notes
 - He assists [[npcs/Wicktrimmer.md|Wicktrimmer]] in identifying magical items.
 - He is discreet and claims to be elsewhere ("in [[locations/Newmarket.md|Newmarket]]") when conducting business.
-- He used [[notes/Analyze Magic.md|Analyze Magic]] to inspect the [[notes/letter opener.md|letter opener]].
+- He used Analyze Magic to inspect the [[notes/letter opener.md|letter opener]].
 
 ## Discord Insights
 

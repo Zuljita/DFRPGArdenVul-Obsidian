@@ -77,7 +77,7 @@ Ioannes Grammatikos Byzantios is a 32-year-old Archontean cleric of [[Demma]] an
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44 - Clearing the Goblin Forum]]
 - [[sessions/Session 49 - Demons and Mummies.md|Session 49 - Demons and Mummies]]
-- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgi...md|Sessions 52b and 53: Behir, Varumani, and the Surgi...]]
+- [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Sessions 52b and 53: Behir, Varumani, and the Surgi...]]
 - [[sessions/Session 33 - Nyema.md|Session 33 - Nyema]]
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
 - [[sessions/Session 34b - Tower of the Ape.md|Session 34b - Tower of the Ape]]

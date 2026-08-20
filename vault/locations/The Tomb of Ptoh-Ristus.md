@@ -18,7 +18,7 @@ The burial site of [[npcs/Ptoh-Ristus.md|Ptoh-Ristus]], a Thothian servant descr
 ## Contents (Looted in Session 27)
 - **[[npcs/Ptoh-Ristus.md|Ptoh-Ristus]] (mummy)** — inert, found in the large sarcophagus with a magical golden death mask and doll-sized furniture including a tiny magic chair.
 - **Two additional mummies** — emerged from the white marble sarcophagi when the large lid was removed; defeated.
-- **[[items/Rugs of Instant Access.md|Rugs of Instant Access]]** — a pair of teleportation rugs; very useful, exact limits initially unknown.
+- **[[items/Teleport Rug.md|Rugs of Instant Access]]** — a pair of teleportation rugs; very useful, exact limits initially unknown.
 - **Death Mask of Ptoh-Ristus** — magical; provides Infravision, See Secrets, Will bonus, and bonuses to detect lies and illusions. Also contains an unidentified residual magic that defeated three separate identification attempts.
 - Various coins and pit-trap loot.
 

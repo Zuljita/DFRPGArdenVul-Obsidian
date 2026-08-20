@@ -38,7 +38,7 @@ Significant NPCs:
 [[npcs/Kronos Kettle-Belly.md|Kronos]], Innkeeper at the Sign of the Broken Head
 4 Ghouls
 Gelatinous Cube
-[[npcs/Slime Kraken.md|Slime Kraken]]
+[[monsters/Slime Kraken.md|Slime Kraken]]
 [[npcs/Susarra.md|Susarra]], Archontean fighter
 Several [[npcs/Set.md|Set]] guards
 

@@ -20,4 +20,4 @@ TODO: Add description.
 - If recognized as genuine by the bridge computer, the holder of the Tablet can assert command over the remaining parts of the Beacon.
 
 ## Reading Events
-- [[Session 40]]: The party showed the Tablet to Akla-Chah, who identified it as the Command Tablet; subsequently, [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] plugged it into a slot in the central chair on the bridge, causing a black mirror to light up.
+- [[sessions/Session 40 - Taking Command.md|Session 40]]: The party showed the Tablet to Akla-Chah, who identified it as the Command Tablet; subsequently, [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] plugged it into a slot in the central chair on the bridge, causing a black mirror to light up.

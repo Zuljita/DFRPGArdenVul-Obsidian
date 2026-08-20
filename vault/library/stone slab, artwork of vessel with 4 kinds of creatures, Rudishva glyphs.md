@@ -20,4 +20,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 41]]: Vael encountered an inscribed plaque with alien glyphs similar to Rudishvan, but was unable to decipher the text.
+- [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41]]: Vael encountered an inscribed plaque with alien glyphs similar to Rudishvan, but was unable to decipher the text.

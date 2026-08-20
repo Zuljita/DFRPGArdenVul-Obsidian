@@ -82,7 +82,7 @@ When Vallium went down I thought there was a decent chance of a total party kill
 - Total: 2 XP
 
 ## Next Week
-They're planning on heading right back to the western [[locations/Well of Light.md|Well of Light]] area to finish exploring there. They will then go down to the [[locations/Goblin Market.md|Goblin Market]] to get their [[npcs/Temrin.md|Temrin]] map to the second [[items/Tablet of the Beacon.md|Tablet of the Beacon]]. They may then return to the [[locations/Goblin Forum.md|Goblin Forum]] and try to clear more rooms on that level.
+They're planning on heading right back to the western [[locations/Well of Light.md|Well of Light]] area to finish exploring there. They will then go down to the [[locations/Goblin Market.md|Goblin Market]] to get their [[npcs/Temrin.md|Temrin]] map to the second [[items/Tablet of the Beacon.md|Tablet of the Beacon]]. They may then return to the [[locations/Forum of Set.md|Goblin Forum]] and try to clear more rooms on that level.
 
 ## Source
 - https://dfwhiterock.blogspot.com/2026/04/dfrpg-arden-vul-session-47-no-mana-zone.html

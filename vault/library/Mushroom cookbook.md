@@ -20,4 +20,4 @@ TODO: Add description.
 TODO: What the work contains (GM-provided information).
 
 ## Reading Events
-- [[Session 18]]: [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] discovered the mushroom cookbook on a bookshelf inside a baboon's bedroom and added it to their inventory.
+- [[sessions/Session 18 - Back Down the Well of Light.md|Session 18]]: [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] discovered the mushroom cookbook on a bookshelf inside a baboon's bedroom and added it to their inventory.

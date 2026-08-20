@@ -29,7 +29,6 @@ The cloister teleporter, when used with the treasury's yellow-ID teleporter, pro
 The oversized GnuCoder units in the library were found powered off.
 
 A one-way door leading to the Cloister level was propped open during Session 47.
-
 ## Sources
-- [[vault/sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
-- [[vault/notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]
+- [[sessions/Session 52a - Ichthelon and the Temple of Thoth.md|Session 52a - Ichthelon and the Temple of Thoth]]
+- [[notes/Discord Summary 2026-W20.md|Discord Summary 2026-W20]]

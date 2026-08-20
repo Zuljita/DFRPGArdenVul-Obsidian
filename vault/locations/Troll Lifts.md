@@ -21,7 +21,7 @@ TBD
 - Dwarves have been seen using the lifts, clutching strange stones around their necks.
 - Located roughly 1000 ft below Glory of Thoth.
 - A market is accessible via a lift.
-- [[vault/npcs/Killick.md|Killick]] can provide directions to the Troll Lifts.
+- [[npcs/Killick.md|Killick]] can provide directions to the Troll Lifts.
 - Connects multiple levels of the Chasm, including the Arena level, the Varumani level, and the floating garden island.
 - Travel costs 10 silver per 'leg' of travel (or 20 silver per person).
 - Passengers at the Arena Level Station must take a cross-chasm ferry to reach the floating garden island.

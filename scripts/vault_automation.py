@@ -3053,7 +3053,14 @@ def chunk_markdown_for_rag(text: str) -> list[tuple[str, str]]:
         else:
             for sub in _split_oversized_chunk(body, VAULT_RAG_MAX_CHUNK_CHARS):
                 chunks.append((section, sub))
-    return [(s, c) for s, c in chunks if len(c.strip()) >= VAULT_RAG_MIN_CHUNK_CHARS]
+    kept = [(s, c) for s, c in chunks if len(c.strip()) >= VAULT_RAG_MIN_CHUNK_CHARS]
+    # Short pages whose individual sections are each below the minimum (stubs,
+    # brief NPC/location notes) would otherwise produce zero chunks and never be
+    # indexed. Fall back to one whole-body chunk when the page as a whole has
+    # enough content to be worth retrieving.
+    if not kept and len(text) >= VAULT_RAG_MIN_CHUNK_CHARS:
+        kept = [(raw_chunks[0][0] if raw_chunks else "", text[:VAULT_RAG_MAX_CHUNK_CHARS])]
+    return kept
 
 
 def vault_rag_chunk_kind(base_kind: str, section: str) -> str:
@@ -3237,21 +3244,27 @@ def vault_rag_ingest_all(reset: bool = False, limit: int | None = None) -> dict:
                 except ValueError:
                     rel = str(p)
                 results.append({"path": rel, "action": "error", "error": str(exc)})
-        # Prune orphaned chunks: documents indexed previously whose source file no
-        # longer exists (deleted or renamed). The SHA-gated upsert only ever adds or
-        # updates chunks for current files, so without this orphans accumulate and
-        # pollute retrieval. Only prune on full runs — a --limit pass sees a partial
-        # source set and must not treat the unscanned remainder as orphaned.
+        # Prune chunks for files that no longer exist in the vault (deleted /
+        # renamed pages). Only on a full run, and guarded so a broken source
+        # enumeration can never wipe the store.
         pruned = 0
         if limit is None:
-            valid = {p.relative_to(ROOT).as_posix() for p, _ in paths}
+            def _rel(p: Path) -> str:
+                try:
+                    return p.relative_to(ROOT).as_posix()
+                except ValueError:
+                    return str(p)
+            current = {_rel(p) for p, _ in paths}
             with conn.cursor() as cur:
                 cur.execute("SELECT DISTINCT metadata->>'path' FROM rag_chunks WHERE database='arden'")
-                orphans = [r[0] for r in cur.fetchall() if r[0] and r[0] not in valid]
-                for op in orphans:
-                    cur.execute("DELETE FROM rag_chunks WHERE database='arden' AND metadata->>'path'=%s", (op,))
-            conn.commit()
-            pruned = len(orphans)
+                stored = {r[0] for r in cur.fetchall() if r[0]}
+            orphans = stored - current
+            if orphans and len(current) >= 50:
+                with conn.cursor() as cur:
+                    for op in orphans:
+                        cur.execute("DELETE FROM rag_chunks WHERE database='arden' AND metadata->>'path'=%s", (op,))
+                conn.commit()
+                pruned = len(orphans)
         with conn.cursor() as cur:
             cur.execute("ANALYZE rag_chunks")
             cur.execute("SELECT count(*) FROM rag_chunks WHERE database='arden'")
@@ -6464,6 +6477,22 @@ def source_excerpt_supported(src: dict) -> bool:
     return _normalized_contains(read_text(path), excerpt)
 
 
+def source_is_self_citation(src: dict) -> bool:
+    """True if the source points back at the Active Action Items note itself.
+
+    The action-items note is regenerated from this inventory, so citing it as
+    evidence is circular — the excerpt always "matches" but proves nothing.
+    """
+    path_str = str(src.get("path", "")).strip()
+    if not path_str:
+        return False
+    path = Path(path_str) if path_str.startswith("/") else ROOT / path_str
+    try:
+        return path.resolve() == ACTION_ITEMS_PATH.resolve()
+    except OSError:
+        return False
+
+
 def verify_action_item_inventory(items: list[dict]) -> tuple[list[dict], list[dict]]:
     accepted: list[dict] = []
     rejected: list[dict] = []
@@ -6476,7 +6505,11 @@ def verify_action_item_inventory(items: list[dict]) -> tuple[list[dict], list[di
         if clean["id"] in seen:
             rejected.append({"item": clean, "reason": "duplicate id"})
             continue
-        supported_sources = [src for src in clean["sources"] if source_excerpt_supported(src)]
+        supported_sources = [
+            src
+            for src in clean["sources"]
+            if source_excerpt_supported(src) and not source_is_self_citation(src)
+        ]
         if not supported_sources:
             rejected.append({"item": clean, "reason": "no cited excerpt found in source files"})
             continue
@@ -6629,6 +6662,36 @@ def apply_action_item_inventory(apply_changes: bool = False) -> dict:
     }
 
 
+def _label_matches_page(path: Path, label: str) -> bool:
+    """True if ``label`` is a plausible display name for the page at ``path``.
+
+    A label is accepted when it equals — or is a token-subset of — the page's
+    filename stem, frontmatter ``title``, or any of its declared aliases. This
+    rejects LLM-hallucinated labels (e.g. ``M0arius`` for ``Marius Tricotor``)
+    while still allowing legitimate short forms (e.g. ``Vael`` for the page
+    ``Vaelethron 'Vael' Sunshadow``).
+    """
+    norm = lambda s: re.sub(r"\s+", " ", str(s)).strip().casefold()
+    candidates = {norm(path.stem)}
+    try:
+        text = read_text(path)
+    except Exception:
+        text = ""
+    if text:
+        title = parse_frontmatter(text).get("title")
+        if isinstance(title, str) and title.strip():
+            candidates.add(norm(title))
+        for alias in article_aliases(text):
+            candidates.add(norm(alias))
+    label_norm = norm(label)
+    if label_norm in candidates:
+        return True
+    label_tokens = set(re.findall(r"\w+", label_norm))
+    if not label_tokens:
+        return False
+    return any(label_tokens <= set(re.findall(r"\w+", cand)) for cand in candidates)
+
+
 def normalize_vault_wikilink(link: str) -> str | None:
     match = re.match(r"^\[\[([^|\]]+)(?:\|([^\]]+))?\]\]$", link.strip())
     if not match:
@@ -6643,6 +6706,8 @@ def normalize_vault_wikilink(link: str) -> str | None:
             target = stem_target
     if not path.exists():
         return None
+    if label and not _label_matches_page(path, label):
+        label = None
     return f"[[{target}|{label or Path(target).stem}]]"
 
 
@@ -7544,12 +7609,33 @@ def cmd_ingest_vault_rag(args: argparse.Namespace) -> int:
     return 0 if result["ok"] else 2
 
 
+def publish_location_graph_safely() -> dict:
+    """Rebuild and publish the location adjacency graph for the /route/arden
+    endpoint. Best-effort: never fail the RAG refresh on a graph error."""
+    sources = load_local_sources()
+    publish_path = sources.get("location_graph_publish_path", "/opt/brain/arden-location-graph.json")
+    script = ROOT / "scripts" / "location_graph.py"
+    try:
+        proc = subprocess.run(
+            [sys.executable, str(script), "build", "--publish", str(publish_path)],
+            capture_output=True, text=True, timeout=300,
+        )
+        if proc.returncode == 0:
+            tail = proc.stdout.strip().splitlines()[-1] if proc.stdout.strip() else ""
+            return {"ok": True, "publish_path": str(publish_path), "detail": tail}
+        return {"ok": False, "publish_path": str(publish_path), "error": (proc.stderr or proc.stdout)[-300:]}
+    except Exception as exc:
+        return {"ok": False, "error": str(exc)[:200]}
+
+
 def cmd_refresh_vault_rag(args: argparse.Namespace) -> int:
     try:
         result = vault_rag_ingest_all(reset=False, limit=args.limit)
     except RuntimeError as exc:
         print(json.dumps({"ok": False, "error": str(exc)}, indent=2))
         return 2
+    if result.get("ok"):
+        result["location_graph"] = publish_location_graph_safely()
     if not args.verbose:
         result.pop("results", None)
     print(json.dumps(result, indent=2))
