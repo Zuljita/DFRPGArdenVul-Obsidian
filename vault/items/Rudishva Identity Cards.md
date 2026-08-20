@@ -9,7 +9,7 @@ tags:
 redirect_to: vault/items/Rudishva Identity Plaque.md
 status: redirect
 aliases:
-  - - Rudishva IDs
+  - Rudishva IDs
   - identity plaques
   - access cards
   - ID badges

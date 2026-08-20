@@ -42,14 +42,7 @@ The Beacon's facility relies on her machine for food and drink.
 - In [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]], the party successfully contacted [[Akla-Chah]] from [[locations/Gosterwick.md|Gosterwick]] via communication bracelet, confirming practical remote contact range. She also identified the air circulation fans found in the Rudishva section southwest of the Beacon garden as exactly that — fans for air circulation. She confirmed that the table of NutriVore food machines and the heating/incubation unit (containing baby Varuda skeletons) could be controlled remotely via bracelet. She noted both the Captain's and First Officer's Command Bracelets were red, but was unsure about others.
 - In [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]], Vael called Akla-Chah on the Command Bracelet to translate the Rudishva glyphs on the pool of green liquid's buttons in the Rudishva command chamber.
 - In [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]], Akla-Chah confirmed that not all Beacon crew members were accounted for and that it was possible some were still alive, though the Beacon crashed a very long time ago. Ioannes went through the crew roster with her and tentatively identified the [[npcs/Arena Lord.md|Arena Lord]] as **Entertainment Officer Crellik-Var**.
-- Believes a certain item is a security key to some kind of Rudishva technology.
-- [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48]]
-- Vael hired [[Basil of Narsileon]] to turn pages for Akla-Chah and [[Stamelis]] in the [[Beacon]].
-- [[sessions/Session 34c - Burglary and Death.md|Session 34c]] - Vael hired Basil to turn pages for Akla-Chah and Stamelis in the Beacon.
-- In [[sessions/Session 34c - Burglary and Death.md|Session 34c]], Vael hired Basil to turn pages for Akla-Chah and Stamelis in the Beacon.
-- [[Basil of Narsileon]] was hired to turn pages for her and [[Stamelis]] in the [[Beacon]].
-- In [[sessions/Session 34c - Burglary and Death.md|Session 34c]], Basil was hired to turn pages for Akla-Chah and Stamelis in the Beacon.
-- In [[sessions/Session 46.md|Session 46]], she confirmed that it is possible some crew members are still alive despite the ship having crashed long ago.
+- In [[sessions/Session 34c - Burglary and Death.md|Session 34c]], Vael hired [[npcs/Basil.md|Basil of Narsileon]] to turn pages for Akla-Chah and [[npcs/Stamelis.md|Stamelis]] in the Beacon.
 - Vallium Halcyon provided reading materials for Akla-Chah and Stamelis during downtime in the Beacon.
 
 ## Sessions

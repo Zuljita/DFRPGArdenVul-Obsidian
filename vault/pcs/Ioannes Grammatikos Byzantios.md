@@ -26,10 +26,7 @@ Ioannes Grammatikos Byzantios is a 32-year-old Archontean cleric of [[Demma]] an
 - **Communicate with Onyx.** Onyx has communicated (via Fael the druid's Speak with Animals, Session 54) that the fish supply for Onyx and all the cats of Gosterwick under his jurisdiction has been inadequate. Ioannes feels responsible and intends to remedy this.
 - **Advance Propaganda efforts for the Goblin Forum.** Ioannes has been actively spreading word among Gosterwick merchants that trading at the [[locations/Forum of Set.md|Goblin Forum]] of Arden Vul offers serious profit opportunities, and views the Forum's commercial revival as both good for the company's logistics and consistent with Demma's concern for community welfare.
 - **Learn 'cat' language.** He is attempting to learn enough 'cat' to better manage and find suitable food for the new arrivals, with [[Onyx]] providing training in Animal Handling at no cost.
-- Increase Intelligence to 13.
-- **Increase Intelligence.** Currently working toward increasing Intelligence to 13.
-- Increase Intelligence to 13 and learn enough "cat" via [[Onyx]] to better manage new arrivals.
-- Increase Intelligence to 13 and acquire *Gift of Tongues* or *Resist Fire*.
+- **Increase Intelligence.** Working toward increasing Intelligence to 13, acquiring *Gift of Tongues* or *Resist Fire*, and deepening spell capability.
 
 ## Relationships
 

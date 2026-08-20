@@ -4,7 +4,7 @@ tags:
 - npc
   - culture/thorcin
 aliases:
-  - - Set wizard
+  - Set wizard
   - Kathroc, Set torturer
 appears_in:
   - Session 23c - Set Jailbreak and Down to Goblintown

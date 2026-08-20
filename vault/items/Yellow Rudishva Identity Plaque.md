@@ -9,8 +9,8 @@ tags:
 redirect_to: vault/items/Rudishva Identity Plaque.md
 status: redirect
 aliases:
-  - - Yellow Card
-  - - yellow card
+  - Yellow Card
+  - yellow card
   - Yellow Identity Plaque
 identity_hints:
   - high-priority captain's credential

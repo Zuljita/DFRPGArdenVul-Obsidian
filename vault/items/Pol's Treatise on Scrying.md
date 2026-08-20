@@ -5,7 +5,7 @@ tags:
   - identity/uncertain
 status: stub
 aliases:
-  - - The Cursed Scrying Book
+  - The Cursed Scrying Book
 ---
 
 # Pol's Treatise on Scrying
