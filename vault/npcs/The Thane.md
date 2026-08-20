@@ -6,7 +6,7 @@ tags:
 redirect_to: vault/npcs/Tikun Thane.md
 status: redirect
 aliases:
-  - - Tikun Thane
+  - Tikun Thane
 ---
 # The Thane
 

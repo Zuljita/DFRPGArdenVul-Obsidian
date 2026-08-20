@@ -16,12 +16,18 @@ related_entities:
 
 ## Summary
 
-The Right for Riches Company is a lawful fellowship of no more than five sworn Socii, chartered in Gosterwick and operating as one of the most capable adventuring companies currently active in [[Arden Vul]]. Founded as "Left for Loot" and renamed in 2025, the company comprises four core members — the half-elven mage [[Vaelethron 'Vael' Sunshadow|Vael Sunshadow]], the Archontean cleric [[Ioannes Grammatikos Byzantios]], the Archontean fighter [[Vallium Halcyon]], and the dwarven cleric [[Uvash Edzuson]] — with [[npcs/Basil.md|Basil of Narsileon]] as a paid employee and [[Thrainor "Thronebreaker" Ironvein]] as a recurring mercenary. After 55 sessions, the company controls the crashed Rudishva starship [[Beacon|the Beacon]], holds passports to Varumani territory, has dismantled the [[Cult of Set]], liberated the [[Goblin Forum]], and secured a kill contract on [[Kerbog Khan]] from the Varumani Thegn [[Varboka]] — making them one of the most politically connected and physically dangerous groups in the Halls.
+The Right for Riches Company is a lawful fellowship of no more than five sworn Socii, chartered in Gosterwick and operating as one of the most capable adventuring companies currently active in [[Arden Vul]]. Founded as "Left for Loot" and renamed in 2025, the company comprises four core members — the half-elven mage [[Vaelethron 'Vael' Sunshadow|Vael Sunshadow]], the Archontean cleric [[Ioannes Grammatikos Byzantios]], the Archontean fighter [[Vallium Halcyon]], and the dwarven cleric [[Uvash Edzuson]] — with [[npcs/Basil.md|Basil of Narsileon]] as a paid employee and [[Thrainor "Thronebreaker" Ironvein]] as a recurring mercenary. After 55 sessions, the company controls the crashed Rudishva starship [[Beacon|the Beacon]], holds passports to Varumani territory, has dismantled the [[Cult of Set]], liberated the [[locations/Forum of Set.md|Goblin Forum]], and secured a kill contract on [[Kerbog Khan]] from the Varumani Thegn [[Varboka]] — making them one of the most politically connected and physically dangerous groups in the Halls.
 
 The company has conducted propaganda efforts highlighting their service to [[npcs/Weskenim.md|King Weskenim]] and the prowess of Vael Sunshadow.
 
 Company legalities were formalized through [[npcs/Barnaby Goodbarrel.md|Barnaby Goodbarrel]] for a fee of $1000.
 
+The company's research endeavors include studying Settite burial practices, eschaology, and the spoken Varumani and written Rudishva languages.
+- [[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]] - The company was formally incorporated in Gosterwick following approval by the Thesmothete, Eusebia Phokas.
+- Established a commercial partnership with Wicktrimmer of the Rarities Factor, providing lifetime banking and vault services for members as well as a concierge shopping service via mule train. - [[notes/Discord Summary 2025-W37.md|Discord Summary 2025-W37]]
+- Their research into Settite burial practices discovered that customs vary significantly based on the wealth and power of the deceased. - [[notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]]
+- [[pcs/grudge-brigade/Coinbase.md|Coinbase]] identifies the company as his primary clients. - [[pcs/grudge-brigade/Coinbase.md|Coinbase]]
+- Research into "Pol" revealed that Pol the Devious was an archmage who went insane due to exposure to the orange mineral in [[locations/Arden Vul.md|Arden Vul]], leaving behind an empty tower near the Tomb of Marius. [[notes/Discord Summary 2026-W17.md|Discord Summary 2026-W17]]
 ## Members
 
 ### Socii (Core Members)
@@ -51,7 +57,7 @@ The Five Fingers of Destiny were caught scouting above the Beacon; Vael and Ioan
 
 ### Teleport Rug Network
 
-The company operates at least one Rug of Instant Access (carried by Vallium in Larel's Sack), providing a rapid transit connection between the Beacon, the [[Goblin Forum]], and the [[Arcane Practitioners Club]] in Gosterwick. The rugs are the company's primary logistics backbone for moving food, supplies, and people between the surface and the dungeon without using the normal approach routes.
+The company operates at least one Rug of Instant Access (carried by Vallium in Larel's Sack), providing a rapid transit connection between the Beacon, the [[locations/Forum of Set.md|Goblin Forum]], and the [[Arcane Practitioners Club]] in Gosterwick. The rugs are the company's primary logistics backbone for moving food, supplies, and people between the surface and the dungeon without using the normal approach routes.
 
 ### Goblin Forum Food Operation
 

@@ -25,6 +25,7 @@ Basil is a young Archontean man from [[locations/Narsileon.md|Narsileon]], rescu
 - In [[sessions/Session 43a - Alpha Strike on the Cult of Set.md|Session 43a - Alpha Strike on the Cult of Set]], Basil processed and sorted battlefield loot/logistics at the Beacon.
 - In [[sessions/Session 43b - Alpha Strike on the Cult of Set.md|Session 43b - Alpha Strike on the Cult of Set]], Basil was tasked not to disturb a trapped stone chest moved to the Beacon.
 - During the expansion of the Annex library, Basil helped dump excess stone into a vacant lot next to the Arcane Practitioner's Club.
+- Serves as the primary salaried employee of the Right for Riches Company, handling logistics, library maintenance, and base security at the Beacon.
 
 ## Appears In
 - [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38 - Another Attack on the Temple of Set]]

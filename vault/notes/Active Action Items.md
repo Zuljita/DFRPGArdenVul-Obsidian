@@ -59,7 +59,7 @@ This note is maintained by the vault automation. It merges current quests, unres
   - Summary: Decide whether to hunt the dragon for his hoard or avoid him to prevent economic destabilization.
   - Related: [[npcs/Craastonistorex.md|Craastonistorex]]
   - Evidence:
-    - [[notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]] — "The ongoing debate regarding whether to hunt the dragon for his hoard or avoid him to prevent destabilizing the surface/dungeon economy."
+    - [[notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]] — "Decide whether to hunt the dragon for his hoard or avoid him to prevent economic destabilization."
 
 - [ ] **Monitor Set Statue remains**
   - ID: `statue-fate`

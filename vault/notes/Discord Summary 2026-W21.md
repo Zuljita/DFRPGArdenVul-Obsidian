@@ -67,7 +67,7 @@ The company Chrysalis focused heavily on logistics, research, and preparation wi
     * Celebrated the acquisition of a new power item by sharing wine with [[npcs/Chairduster.md|Chairduster]] and the torc; during the celebration, [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] smashed a bottle of wine ($100) against the counter and tipped Chairduster $50 for the mess.
 * **Alchemy/crafting attempts and results:** Successfully brewed a Potion of Wisdom.
 * **Research results:** 
-    * Read *Ancient Incriminating Information*: Discovered evidence that Emperor Marcion V may have $\text{have}$ been fathered by Taxiarch Lucius of the Imperial Tagmata, and that the [[factions/Cult of Set.md|Cult of Set]] was bribed to suppress this fact.
+    * Read *Ancient Incriminating Information*: Discovered evidence that Emperor Marcion V may have $\text{have}$ been fathered by Taxiarch Lucius of the [[factions/Imperial Tagmata.md|Imperial Tagmata]], and that the [[factions/Cult of Set.md|Cult of Set]] was bribed to suppress this fact.
     * Read *Courtship of Julius the Exarch*: Identified as an aristocratic romance novel.
     * Read *Phagtro the Scout*: Learned that Phagtro guided imperial legions to Trenner's Rock, providing a tactical advantage against the Thorcinga.
 * **Character advancement:** Spent 5 points on Will specifically to facilitate the conversion of Will into Intelligence (reaching IQ 16).

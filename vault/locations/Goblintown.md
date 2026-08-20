@@ -3,6 +3,7 @@ title: Goblintown
 tags:
   - location
 aliases:
+  - Upper Goblintown
   - Glory of Weskenim
   - Halls of Thoth
 ---

@@ -2975,10 +2975,20 @@ def _split_oversized_chunk(text: str, max_chars: int) -> list[str]:
     return out
 
 
-def _section_from_line(line: str) -> str | None:
+def _section_from_line(line: str, summary_mode: bool = False) -> str | None:
     stripped = line.strip()
     if stripped.startswith("## ") and not stripped.startswith("### "):
         return stripped[3:].strip()
+    if summary_mode:
+        # Discord weekly summaries use a single '# H1' plus standalone **bold**
+        # labels (per-character and per-topic) instead of H2 headings. Treat both
+        # as section boundaries so each character/topic becomes a focused chunk
+        # rather than collapsing the whole summary into a few giant blobs.
+        if stripped.startswith("# ") and not stripped.startswith("## "):
+            return stripped[2:].strip()
+        summary_bold = re.match(r"^\*\*(?P<label>[^*]+?)\*\*:?$", stripped)
+        if summary_bold:
+            return summary_bold.group("label").strip().rstrip(":").strip()
     bold = re.match(r"^\*\*(?P<label>[^*:\n]+):\*\*\s*$", stripped)
     if bold:
         label = bold.group("label").strip()
@@ -2992,7 +3002,7 @@ def _section_from_line(line: str) -> str | None:
     return None
 
 
-def _split_markdown_sections(text: str) -> list[tuple[str, str]]:
+def _split_markdown_sections(text: str, summary_mode: bool = False) -> list[tuple[str, str]]:
     """Split at H2s plus common imported recap labels.
 
     Many early imported sessions use plain labels such as "GM's Comments:" or
@@ -3004,7 +3014,7 @@ def _split_markdown_sections(text: str) -> list[tuple[str, str]]:
     current_section = "(intro)"
     current_lines: list[str] = []
     for line in lines:
-        section = _section_from_line(line)
+        section = _section_from_line(line, summary_mode)
         if section and current_lines:
             sections.append((current_section, current_lines))
             current_section = section
@@ -3019,13 +3029,22 @@ def _split_markdown_sections(text: str) -> list[tuple[str, str]]:
     return [(section, "\n".join(lines).strip()) for section, lines in sections if "\n".join(lines).strip()]
 
 
+def _is_discord_summary(text: str) -> bool:
+    """Detect Discord weekly summaries, which need bold-label/H1-aware chunking."""
+    fm = re.match(r"---\n(.*?)\n---", text, re.DOTALL)
+    if fm and "discord-summary" in fm.group(1):
+        return True
+    return "# Weekly Knowledge Base" in text
+
+
 def chunk_markdown_for_rag(text: str) -> list[tuple[str, str]]:
     """Split markdown by sections; sub-split large sections at paragraph breaks."""
+    summary_mode = _is_discord_summary(text)
     text = strip_frontmatter(text).strip()
     if not text:
         return []
     raw_chunks: list[tuple[str, str]] = []
-    for section, body in _split_markdown_sections(text):
+    for section, body in _split_markdown_sections(text, summary_mode):
         raw_chunks.append((section, body))
     chunks: list[tuple[str, str]] = []
     for section, body in raw_chunks:

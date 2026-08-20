@@ -20,6 +20,8 @@ appears_in:
 
 She appears as a translucent, 7-foot-tall, spindly hologram with brown skin and two small curved horns.
 
+The Beacon's facility relies on her machine for food and drink.
+
 ## Knowledge & Abilities
 - **[[factions/Rudishva.md|Rudishva]] Funeral Rites:** [[npcs/Akla-Chah.md|Akla-Chah]] can describe various [[Rudishva]] funeral traditions:
     - **Full Recycling:** Considered the best method, but the [[Beacon]] currently lacks the ability to perform it.
@@ -27,6 +29,12 @@ She appears as a translucent, 7-foot-tall, spindly hologram with brown skin and 
     - **Cremation:** The third-best option, feasible if a suitably hot fire can be built outside the [[Beacon]].
 - **Language Training:** Can provide language training to the party as a downtime activity.
 - **Therapeutic Abilities:** Good at asking questions and functions as a therapist or psychologist.
+- Translation: Can translate for [[npcs/Stamelis.md|Stamelis]] using fluent Mithric and Vael-accented Archontean.
+- **Rudishva Technology:** Believes a yellow oval can open Rudishva doors and activate Rudishva teleporters.
+- **Nataraja Command Word:** Her name serves as a command word for the Nataraja statue.
+- **Nataraja Properties:** The owner of the statue can perceive through its eyes.
+- The facility's [[Nutri-vore 2500]] dispenses nutritional cakes and Rudishva aquavit.
+- Uses reading materials provided by [[npcs/Basil.md|Basil]] and the party.
 
 ## Notes
 - In [[sessions/Session 33 - Nyema.md]], [[Stamelis]] was brought to the [[Beacon]] to keep her company.
@@ -34,13 +42,8 @@ She appears as a translucent, 7-foot-tall, spindly hologram with brown skin and 
 - In [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]], the party successfully contacted [[Akla-Chah]] from [[locations/Gosterwick.md|Gosterwick]] via communication bracelet, confirming practical remote contact range. She also identified the air circulation fans found in the Rudishva section southwest of the Beacon garden as exactly that — fans for air circulation. She confirmed that the table of NutriVore food machines and the heating/incubation unit (containing baby Varuda skeletons) could be controlled remotely via bracelet. She noted both the Captain's and First Officer's Command Bracelets were red, but was unsure about others.
 - In [[sessions/Session 45 - Purple Mist and the Drowned Canyon.md|Session 45]], Vael called Akla-Chah on the Command Bracelet to translate the Rudishva glyphs on the pool of green liquid's buttons in the Rudishva command chamber.
 - In [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]], Akla-Chah confirmed that not all Beacon crew members were accounted for and that it was possible some were still alive, though the Beacon crashed a very long time ago. Ioannes went through the crew roster with her and tentatively identified the [[npcs/Arena Lord.md|Arena Lord]] as **Entertainment Officer Crellik-Var**.
-- Believes a certain item is a security key to some kind of Rudishva technology.
-- [[sessions/Session 48 - Thothian Teleportation Rings.md|Session 48]]
-- Vael hired [[Basil of Narsileon]] to turn pages for Akla-Chah and [[Stamelis]] in the [[Beacon]].
-- [[sessions/Session 34c - Burglary and Death.md|Session 34c]] - Vael hired Basil to turn pages for Akla-Chah and Stamelis in the Beacon.
-- In [[sessions/Session 34c - Burglary and Death.md|Session 34c]], Vael hired Basil to turn pages for Akla-Chah and Stamelis in the Beacon.
-- [[Basil of Narsileon]] was hired to turn pages for her and [[Stamelis]] in the [[Beacon]].
-- In [[sessions/Session 34c - Burglary and Death.md|Session 34c]], Basil was hired to turn pages for Akla-Chah and Stamelis in the Beacon.
+- In [[sessions/Session 34c - Burglary and Death.md|Session 34c]], Vael hired [[npcs/Basil.md|Basil of Narsileon]] to turn pages for Akla-Chah and [[npcs/Stamelis.md|Stamelis]] in the Beacon.
+- Vallium Halcyon provided reading materials for Akla-Chah and Stamelis during downtime in the Beacon.
 
 ## Sessions
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
