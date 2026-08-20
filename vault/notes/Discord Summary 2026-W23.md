@@ -103,7 +103,7 @@ The company intends to execute the following plan for the upcoming session:
 1. Utilize the Rugs to travel to the Beacon, wearing Salamander Amulets and using the [[items/Rudishva Teleportation Pad.md|Rudishva Teleportation Pad]] to reach the Bastion to retrieve a cleaning unit.
 2. Use the Rudishva Teleportation Pad to travel to the [[locations/Cloister.md|Cloister]], then navigate through secret passages toward the Behir caves.
 3. Use the [[items/Thothian Teleportation Ring.md|Thothian Teleportation Ring]] to visit the [[locations/Well of Light.md|Well of Light]] and deliver food to Yamki.
-4. Return to the area south of the [[locations/Goblin Forum.md|Goblin Forum]] and proceed through the acid pool room and tunnels toward the [[locations/Troll Lifts.md|Troll Lifts]]/Arena.
+4. Return to the area south of the [[locations/Forum of Set.md|Goblin Forum]] and proceed through the acid pool room and tunnels toward the [[locations/Troll Lifts.md|Troll Lifts]]/Arena.
 5. Visit the fountain of golden liquid for hydration.
 6. Navigate to the Rudishva surgical bay area with the primary objective of locating and neutralizing Kerbog Khan. The company is considering using *Seeker* on Asrotelle or utilizing [[npcs/Gevorda.md|Gevorda]]'s blood as a secondary tracking method.
 

@@ -24,7 +24,7 @@ Ioannes Grammatikos Byzantios is a 32-year-old Archontean cleric of [[Demma]] an
 - **Deepen standing with the Church of Demma.** Ioannes donated to the Temple's spring anti-childhood-hunger program and received a personal thank-you letter from [[Vivian]], High Priest of Demma in [[Gosterwick]]. He regards this as a spiritual obligation, not a transaction, and will continue tithing as the company's fortunes grow.
 - **Continue anti-undead operations.** Every wraith corridor, ghoul-haunted hall, and mummy sarcophagus the company clears in [[Arden Vul]] represents, to Ioannes, a direct expression of Demma's mandate. His Affect Spirits spell at level 19 makes him the linchpin of serious undead engagements.
 - **Communicate with Onyx.** Onyx has communicated (via Fael the druid's Speak with Animals, Session 54) that the fish supply for Onyx and all the cats of Gosterwick under his jurisdiction has been inadequate. Ioannes feels responsible and intends to remedy this.
-- **Advance Propaganda efforts for the Goblin Forum.** Ioannes has been actively spreading word among Gosterwick merchants that trading at the [[Goblin Forum]] of Arden Vul offers serious profit opportunities, and views the Forum's commercial revival as both good for the company's logistics and consistent with Demma's concern for community welfare.
+- **Advance Propaganda efforts for the Goblin Forum.** Ioannes has been actively spreading word among Gosterwick merchants that trading at the [[locations/Forum of Set.md|Goblin Forum]] of Arden Vul offers serious profit opportunities, and views the Forum's commercial revival as both good for the company's logistics and consistent with Demma's concern for community welfare.
 - **Learn 'cat' language.** He is attempting to learn enough 'cat' to better manage and find suitable food for the new arrivals, with [[Onyx]] providing training in Animal Handling at no cost.
 - Increase Intelligence to 13.
 - **Increase Intelligence.** Currently working toward increasing Intelligence to 13.
@@ -114,7 +114,7 @@ Ioannes came to [[Gosterwick]] as a trained cleric, researcher, and exorcist wit
 - He dislikes charlatans and false prophets — a notable trait given how much of Arden Vul runs on cult authority and manufactured mystique.
 - His Broad-Minded and Careful traits give him a more cautious and open disposition than most Archontean clerics; he is willing to engage goblin merchants, Varumani ambassadors, and former Set librarians without reflexive hostility.
 - He carries a Cloak of the Bat, a Salamander Amulet, Bracers of Force +3, and a Belt of Dwarvenkind — equipment accumulated over 55+ sessions of increasingly dangerous operations.
-- His Propaganda-15 has been actively deployed to seed enthusiasm for the [[Goblin Forum]]'s commercial potential among Gosterwick merchants.
+- His Propaganda-15 has been actively deployed to seed enthusiasm for the [[locations/Forum of Set.md|Goblin Forum]]'s commercial potential among Gosterwick merchants.
 
 ## Portraits
 - ![[attachments/discord/Ioannes character updates/1354658076149420112-adventurer.jpeg]] — A character portrait of Ioannes.
