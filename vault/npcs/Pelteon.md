@@ -28,6 +28,7 @@ A young, vain mage and co-owner of the [[Arcane Practitioners' Club]]. She was f
 - She cannot afford the [[items/Gem of Insight.md|Gem of Insight]].
 - Onyx noted that she was 'insufficiently attentive because of her own problems with some human.'
 - Along with Lyssandra, she identified the [[items/Rod of Imperium.md|Rod of Imperium]] as a significant artifact of Archonal power. ([[notes/Discord Summary 2025-W17.md|Discord Summary 2025-W17]])
+- Identified the Shortsword (Luck Blade Variant) as a fine and balanced weapon that assists in resisting spells, though it has no remaining "Wishes" to grant.
 
 ## Sessions
 

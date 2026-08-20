@@ -12,6 +12,19 @@ aliases:
 
 Uvash Edzuson is a dwarven cleric of [[Zodarrim]] and a founding member of the [[Right for Riches Company]], serving as the party's primary healer and its most heavily armored frontline combatant. He fights under a Vow prohibiting edged weapons, wielding a pick and shield in mail from boots to helm, and his Honesty and stubborn sense of duty make him as reliable in negotiation as he is immovable in a shield wall. Beyond the dungeon, he is the sole Zodarrim cleric in [[Gosterwick]], running a fledgling parish from the [[House of the Gods]] with the long-term aim of constructing a dedicated dwarven church — a project that has already produced three converts, brought his wife and son down from [[Khazildor]], and put him in correspondence with the broader Zodarrim clergy. He has the distinction of being the first PC to die in Arden Vul, killed by a Disciplined fighter in the Tower of the Ape during Session 34c and subsequently resurrected by [[Jador the Just]] at the [[Church of Mitra|Church of Mitra]] in Gosterwick.
 
+Recent exposure to a fountain has resulted in permanent physiological changes, increasing his Heightened Toughness to 14, Body Strength to 6, and Movement to 5.
+
+He has conducted intensive study of the text *Rudishva Devices* and begun compiling a personal notebook documenting his encounters with various undead entities.
+
+His research includes identifying Tenebrous Worms and studying *The Honorable Life of Ligaruis, Archon*.
+
+He has also engaged in conversation with the hologram Akla-Chah using Mithric (Broken for spoken, Accented for written).
+
+He received 3,210 gold pieces as part of a recent wealth redistribution.
+- His study of *Rudishva Devices* allowed for the identification of several previously unnamed items on the company loot sheet.
+
+He recently utilized a powerful item to facilitate the casting of *Great Healing*.
+
 ## Goals & Hooks
 
 - **Kill [[Kerbog Khan]].** The party accepted a commission from [[Varboka]], Thegn of the Varumani, to eliminate Kerbog Khan — an archmage and evil sorcerer who kidnapped and experimented on the Thegn's sister Gevorda. The group's next plan is to use a Seeker spell on the mage Asrotelion, believed to be tracking Khan, to locate him. Uvash was absent from Session 55, the session in which this deal was struck.

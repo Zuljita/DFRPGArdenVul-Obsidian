@@ -94,7 +94,7 @@ Meanwhile, Vael cast the Copy spell on all three maps.  All seemed very old.  On
 
 Eventually the knights got suspicious and pounded on the door, but by then everything was back in place and the bodies were gone, so their suspicions were unfounded.  Vallium tested the key in the door, and it fit, so he gave it to the Knight Commander.
 
-Everyone went back west and tried the spiral stairs.  They went up hundreds of feet, to a cellar room just beneath the surface, containing a Thothian teleportation ring.  Looking at their book of Teleportation Ring coordinates, Vallium theorized where this must be, but they popped up the ladder to the surface to be sure.  It seemed to be the northern island with the Donjon, which they had never visited because of warnings from Cronos's men about deadly constructs.  Not wanting to be spotted by the dragon, they immediately went back underground.
+Everyone went back west and tried the spiral stairs.  They went up hundreds of feet, to a cellar room just beneath the surface, containing a Thothian teleportation ring.  Looking at their book of Teleportation Ring coordinates, Vallium theorized where this must be, but they popped up the ladder to the surface to be sure.  It seemed to be the northern island with the Donjon, which they had never visited because of warnings from Cronos's men about deadly constructs.  Not wanting to be spotted by [[npcs/Craastonistorex.md|the dragon]], they immediately went back underground.
 
 They tried the other stairs, which led up a shorter distance to a room containing some spearman statues and several fishman corpses.  The only other exit was some narrow stairs leading to a flooded area, so they went back.
 

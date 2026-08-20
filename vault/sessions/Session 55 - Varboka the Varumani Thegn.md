@@ -39,7 +39,7 @@ Dragonfly construct of Kerbog Khan
 
 Many [[factions/Varumani.md|Varumani]]
 
-Gorlen, Varumani lift operator
+[[npcs/Gorlen.md|Gorlen]], Varumani lift operator
 
 Trijax, Varumani lift operator
 
@@ -73,7 +73,7 @@ Poltergeist
 
 3 ogres
 
-Gribble, Goblin prince
+[[npcs/Gribble.md|Gribble]], Goblin prince
 
 Many goblins
 
@@ -91,7 +91,7 @@ Many goblins
 
 The Church of Demma sent letters to all members of the [[factions/Right for Riches Company.md|Right for Riches company]], asking for donations for the spring anti-childhood-hunger program.  [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]] donated and got a personal thank-you from High Priest Vivian.  Vael and Vallium did not donate.
 
-[[pcs/Uvash Edzuson.md|Uvash]] had church business and was not available to adventure.  The others hired [[npcs/Thrainor Thronebreaker Ironvein.md|Thronebreaker]] as a backup dwarf and went through the Teleport Rugs to the Beacon.  After sharing their delve plan with [[npcs/Akla-Chah.md|Akla-Chah]] and Basil, they used the Rudishva teleporter to the vault near the Cloister, then proceeded through the secret door from the Cloister to the western part of that level.
+[[pcs/Uvash Edzuson.md|Uvash]] had church business and was not available to adventure.  The others hired [[npcs/Thrainor Thronebreaker Ironvein.md|Thronebreaker]] as a backup dwarf and went through the Teleport Rugs to the Beacon.  After sharing their delve plan with [[npcs/Akla-Chah.md|Akla-Chah]] and [[npcs/Basil.md|Basil]], they used the Rudishva teleporter to the vault near the Cloister, then proceeded through the secret door from the Cloister to the western part of that level.
 
 However, in the chamber with the slime pits, Ioannes spotted a dragonfly construct, watching and waiting.  Vael spoke to it, and a few minutes later, the distinctive voice of Kerbog Khan emerged.  The Khan seemed happy that the party had led his dragonflies to this secret area for his constructs to explore.  Vael was less happy and told the Khan not to have his dragonfly follow them.  Vael watched behind them as they walked away, but the dragonfly did not appear to be following.
 
@@ -99,7 +99,7 @@ They went down a slope to the level below, then through the cavern where they ki
 
 Arriving at the other Lift station a level down, Trijax asked to see their passport.  Vael showed him both the modern and ancient passports.  Trijax tried to buy the ancient one, but Vael refused.  He said that they could all travel on one passport as long as they stayed together; anyone straying from the group could get in trouble.  He also noted that most of the varumani who didn't have critical jobs like standing guard or operating the Lifts were doing a Cleansing of the Sorrows ceremony today, so the visitors were unlikely to meet anyone important today.  However, they could still walk around public areas or go to the market and buy things from non-varumani shopkeepers.
 
-From the Lifts they headed west past three statues of varumani, reaching a large columned hall.  The hall was quiet, but there was a Sun-Scarred Knight and his varlet present, along with a few ogre guards.  The Knight introduced himself as Sir Prudence, and his varlet as Beuvon.  He said that he was an emissary from the Knights to the Varumani, and asked about the party.  He recalled their names from Sir Sorrow and Sir Simonet.  They spoke a bit about the fall of the [[factions/Settites.md|Settites]] and the new Goblin Forum.  Sir Prudence indicated that most of the varumani were doing a private holiday ritual so it would be a bad day to see them, but he pointed southeast and said the market was open.
+From the Lifts they headed west past three statues of varumani, reaching a large columned hall.  The hall was quiet, but there was a Sun-Scarred Knight and his varlet present, along with a few ogre guards.  The Knight introduced himself as Sir Prudence, and his varlet as Beuvon.  He said that he was an emissary from the Knights to the Varumani, and asked about the party.  He recalled their names from [[npcs/Sir Sorrow.md|Sir Sorrow]] and Sir Simonet.  They spoke a bit about the fall of the [[factions/Settites.md|Settites]] and the new Goblin Forum.  Sir Prudence indicated that most of the varumani were doing a private holiday ritual so it would be a bad day to see them, but he pointed southeast and said the market was open.
 
 The Varumani market was a large cave, with elevated wooden platforms and walkways erected about 20' above the floor, and then shops in small side caverns off the main cavern.  The party systematically visited all the shops.  One was a bar run by a halfling named Jacoby, where Vael bought an ale.  Another was a food stand run by a goblin named Fat Yeskim, where Vael and Ioannes got some stew.  They bought a Token of Arden, a book, and a random key from a man named Chaudri.  They got another book and a scroll of Pol's Endless Sneezes from an elf named Hallar.  After they got done shopping, they went back to the long hall and sat on the floor and waited for the varumani ceremony to finish.
 
@@ -144,7 +144,7 @@ The PCs plan to possibly use a Seeker spell on [[npcs/Asrotelion.md|Asrotelion]]
 
 <!-- BEGIN AUTO NAV -->
 - Previous Session: [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]]
-- Next Session: (none)
+- Next Session: [[sessions/Session 56 - War Against Kerbog Khan.md|Session 56 - War Against Kerbog Khan]]
 - Previous Discord Summary: [[notes/Discord Summary 2026-W22.md|Discord Summary 2026-W22]]
 - Next Discord Summary: [[notes/Discord Summary 2026-W23.md|Discord Summary 2026-W23]]
 - Original Source: https://dfwhiterock.blogspot.com/2026/06/dfrpg-arden-vul-session-55-varboka.html
