@@ -11,13 +11,16 @@ Auto-generated adjacency map of Arden Vul locations, clustered by graph communit
 
 ```mermaid
 flowchart LR
-  subgraph c_n_Arden_Vul["Arden Vul cluster"]
-    n_Arden_Vul["Arden Vul"]
-    n_Pyramid_of_Thoth["Pyramid of Thoth"]
+  subgraph c_n_Glory_of_Thoth["Glory of Thoth cluster"]
     n_Forum_of_Arden_Vul["Forum of Arden Vul"]
+    n_Pyramid_of_Thoth["Pyramid of Thoth"]
     n_Tower_of_Scrutiny["Tower of Scrutiny"]
     n_Hall_of_Heroes["Hall of Heroes"]
-    n_Obelisk["Obelisk"]
+    n_Sundered_Span["Sundered Span"]
+    n_Varumani_Lifts["Varumani Lifts"]
+    n_Wet_Caves["Wet Caves"]
+    n_Glory_of_Thoth["Glory of Thoth"]
+    n_Great_Hall["Great Hall"]
     n_Square_Tower_East_of_Forum["Square Tower (East of Forum)"]
   end
   subgraph c_n_Beacon["Beacon cluster"]
@@ -34,7 +37,7 @@ flowchart LR
     n_Cave_with_Spider_Webs["Cave with Spider Webs"]
     n_Cliff_Face["Cliff Face"]
   end
-  subgraph c_n_Forum_of_Set["Forum of Set cluster"]
+  subgraph c_n_Upper_Goblintown["Upper Goblintown cluster"]
     n_Forum_of_Set["Forum of Set"]
     n_Red_Bridge_of_Set["Red Bridge of Set"]
     n_Upper_Goblintown["Upper Goblintown"]
@@ -50,18 +53,9 @@ flowchart LR
     n_Eastern_Settite_Guard_Post["Eastern Settite Guard Post"]
     n_Pillar_of_Faces["Pillar of Faces"]
   end
-  subgraph c_n_Sundered_Span["Sundered Span cluster"]
-    n_Sundered_Span["Sundered Span"]
-    n_Varumani_Lifts["Varumani Lifts"]
-    n_Wet_Caves["Wet Caves"]
-    n_Great_Hall["Great Hall"]
-  end
   subgraph c_n_Hubs["Hubs cluster"]
     n_Gosterwick["Gosterwick"]
     n_Long_Stair["Long Stair"]
-    n_Glory_of_Thoth["Glory of Thoth"]
-    n_Well_of_Light["Well of Light"]
-    n_Thothian_Teleportation_Network["Thothian Teleportation Network"]
   end
   subgraph c_n_Newmarket["Newmarket cluster"]
     n_Narsileon["Narsileon"]
@@ -97,31 +91,28 @@ flowchart LR
     n_Tomb_of_Theskalon["Tomb of Theskalon"]
   end
   n_Beacon ---|rug| n_Gosterwick
+  n_Upper_Goblintown ---|passage| n_Well_of_Light
   n_Beacon ---|teleporter| n_Cloister
-  n_Glory_of_Thoth ---|passage| n_Well_of_Light
   n_Arden_Vul ---|contains| n_Pyramid_of_Thoth
-  n_Glory_of_Thoth ---|passage| n_Goblin_Market
   n_Gosterwick ---|road| n_Long_Stair
   n_Gosterwick ---|road| n_Newmarket
   n_Cliff_Face ---|climb| n_Long_Stair
   n_Arena ---|passage| n_Inn_of_the_Lost
   n_Glory_of_Thoth ---|stairs| n_Pyramid_of_Thoth
   n_Temple_of_Set ---|passage| n_Temple_of_Thoth
+  n_Goblin_Warrens ---|passage| n_Upper_Goblintown
   n_Gosterwick ---|road| n_Narsileon
-  n_Upper_Goblintown ---|passage| n_Well_of_Light
+  n_Halls_of_the_Troll_Thegn ---|lift| n_Troll_Lifts
   n_Forum_of_Set ---|passage| n_Upper_Goblintown
   n_Forum_of_Set ---|passage| n_Temple_of_Set
-  n_Halls_of_the_Troll_Thegn ---|lift| n_Troll_Lifts
-  n_Forum_of_Set ---|passage| n_Goblin_Market
   n_Howling_Caves ---|passage| n_Well_of_Light
+  n_Forum_of_Set ---|passage| n_Goblin_Market
   n_Cliff_Face ---|passage| n_Howling_Caves
   n_Arden_Vul ---|contains| n_Obelisk
   n_Goblin_Market ---|passage| n_Well_of_Light
   n_Narsileon ---|road| n_Newmarket
   n_Sighing_Stair ---|passage| n_Temple_of_Set
-  n_Glory_of_Thoth ---|passage| n_Great_Hall
   n_Great_Cavern ---|passage| n_Great_Chasm
-  n_Glory_of_Thoth ---|passage| n_Temple_of_Thoth
   n_Forum_of_Arden_Vul ---|passage| n_Pyramid_of_Thoth
   n_Forum_of_Arden_Vul ---|passage| n_Tower_of_Scrutiny
   n_Forum_of_Set ---|stairs| n_Sighing_Stair
@@ -135,6 +126,7 @@ flowchart LR
   n_Hall_of_Forty_Pillars ---|passage| n_The_Obsidian_Gates
   n_Gosterwick ---|road| n_Imperial_Road
   n_Great_Chasm ---|lift| n_Varumani_Lifts
+  n_Glory_of_Thoth ---|passage| n_Great_Hall
   n_Goblin_Market ---|passage| n_Howling_Caves
   n_Baboon_Cave ---|passage| n_Howling_Caves
   n_Baliff_s_Truncheon ---|contains| n_Gosterwick
@@ -147,10 +139,10 @@ flowchart LR
   n_Gosterwick ---|contains| n_Totey_Lake
   n_Gosterwick ---|contains| n_Upper_Market
   n_Gosterwick ---|road| n_Vetucaster
+  n_Glory_of_Thoth ---|passage| n_Well_of_Light
   n_Behir_Caves ---|passage| n_Cloister
   n_Cave_with_Fire_Pit ---|passage| n_Long_Stair
   n_Druid_s_Retreat ---|passage| n_Library_of_Thoth
-  n_Goblin_Warrens ---|passage| n_Upper_Goblintown
   n_Forum_of_Set ---|passage| n_Goblin_Warrens
   n_Hall_of_Heroes ---|passage| n_Pyramid_of_Thoth
   n_Hall_of_Heroes ---|passage| n_Well_of_Light
@@ -158,8 +150,10 @@ flowchart LR
   n_Library_of_Thoth ---|passage| n_Well_of_Light
   n_Sundered_Span ---|passage| n_Wet_Caves
   n_Great_Chasm ---|lift| n_Troll_Lifts
+  n_Glory_of_Thoth ---|passage| n_Temple_of_Thoth
   n_Arden_Vul ---|contains| n_Forum_of_Arden_Vul
   n_Forum_of_Arden_Vul ---|passage| n_Square_Tower_East_of_Forum
+  n_Glory_of_Thoth ---|passage| n_Goblin_Market
   n_Arena ---|lift| n_Troll_Lifts
   n_Sundered_Span ---|passage| n_Troll_Lifts
   n_Beacon ---|teleporter| n_Rudishva_Bastion

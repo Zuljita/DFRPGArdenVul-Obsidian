@@ -21,13 +21,13 @@ Warm, foggy, rainy
 
 ## Player Characters:
 
-[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of Demma (Demented Avenger)
+[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]], Archontean cleric of [[npcs/Demma.md|Demma]] (Demented Avenger)
 
 [[pcs/Uvash Edzuson.md|Uvash Edzuson]], Dwarven cleric of Zodarrim (Cosmo)
 
 [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael Sunshadow]], Half-Elven mage (Kyle)
 
-Vallium Halcyon, Archontean fighter (Greybrown)
+[[pcs/Vallium Halcyon.md|Vallium Halcyon]], Archontean fighter (Greybrown)
 
 ## Significant NPCs:
 
@@ -81,9 +81,9 @@ Forgetting he could see through the Watcher Nataraja's eyes, Vael cast Seeker to
 
 Vael sent the others out through the hole with a Teleport Rug, then stayed behind to cast Shape Earth to seal up the hole, then went through the matching Teleport Rug to meet them.  The group then piled some debris on top of the newly sealed hole to camouflage it.  Everyone then walked north around the lake toward the Inn of the Broken Head.  Some of [[npcs/Kronos Kettle-Belly.md|Kronos]]'s guards in a tower along the north wall yelled to them.  The guard explained that some evil statue had chased some of their comrades, and everyone should be careful.  Continuing to the Inn, they saw the Watcher Nataraja aggressively dancing, facing the inn.  Kronos and three of his guards were standing outside the Inn, facing down the Nataraja but not actually fighting it.
 
-Vael used the command word to tell the Nataraja to stand down.  He then spoke with Kronos, who said that some of his men had been looking for treasure in the ruins and had been attacked by this statue.  They fled and it followed them all the way back.  Vael explained to Kronos that the statue was theirs and it was guarding their territory and that he would pay Kronos and his men to forget what they saw and never go back to that island.  Kronos asked to step out of the rain into the stable (also away from his guards) to continue the discussion.  Vael offered a very large bribe to comply with his instructions, and also said to remember the dead Settites and dead halflings before turning it down.  Kronos took Vael's money (actually Vallium's money, as Vallium was the only one carrying that much cash) and then went to give some of it to his men.  Kronos promised that he and his men would never return to that island and would never tell anyone what they saw there.  He also invited the company into the Inn for a free drink.  (Well, a very expensive "free" drink, considering the stack of platinum coins that Vallium had just handed him.)
+Vael used the command word to tell the Nataraja to stand down.  He then spoke with Kronos, who said that some of his men had been looking for treasure in the ruins and had been attacked by this statue.  They fled and it followed them all the way back.  Vael explained to Kronos that the statue was theirs and it was guarding their territory and that he would pay Kronos and his men to forget what they saw and never go back to that island.  Kronos asked to step out of the rain into the stable (also away from his guards) to continue the discussion.  Vael offered a very large bribe to comply with his instructions, and also said to remember the dead [[factions/Settites.md|Settites]] and dead halflings before turning it down.  Kronos took Vael's money (actually Vallium's money, as Vallium was the only one carrying that much cash) and then went to give some of it to his men.  Kronos promised that he and his men would never return to that island and would never tell anyone what they saw there.  He also invited the company into the Inn for a free drink.  (Well, a very expensive "free" drink, considering the stack of platinum coins that Vallium had just handed him.)
 
-Ioannes was sad that the Inn didn't have any milk today, and had some water.  The others enjoyed some high-quality locally brewed beer.  Vael asked Kronos about Craas, and Kronos admitted that they'd had encounters with the dragon, and had come to an agreement where they paid the dragon regular tribute in exchange for leaving the Inn and his men alone.  Vael also spoke with [[npcs/Estelle.md|Estelle]], who told the same story about the dragon.
+Ioannes was sad that the Inn didn't have any milk today, and had some water.  The others enjoyed some high-quality locally brewed beer.  Vael asked Kronos about [[npcs/Craastonistorex.md|Craas]], and Kronos admitted that they'd had encounters with the dragon, and had come to an agreement where they paid the dragon regular tribute in exchange for leaving the Inn and his men alone.  Vael also spoke with [[npcs/Estelle.md|Estelle]], who told the same story about the dragon.
 
 Vael commanded the Nataraja to follow him, and they all went back toward the Beacon, but stopped at the palace ruins to use the Thothian Teleportation Circle there.  Everyone teleported to the Circle in the Hall of Shrines, with Vallium carrying the Nataraja through the teleporter.  The force fields had not changed since their last visit.  Vael used a Teleport Rug to carry the Nataraja back to the Beacon.  The rest of the group used the Teleport Circle to go near the Red Bridge, then Vallium decided it was too long a walk from there, and had them teleport again to the room next to the Glory of Weskenim.
 
@@ -95,9 +95,9 @@ King Weskenim was in his room, petting several of his cats.  He asked why they w
 
 Vael offered to speak with the Queen, but Weskenim said that no intact males other than himself were allowed to enter the harem, so Vael would not be speaking with the Queen unless he wanted to become a eunuch first.  Vael declined.  Vael then showed the King his fancy armband and asked if the Queen was looking for something like that.  Weskenim agreed, but said the Queen was a bit shorter than Vael so it would need to be a bit smaller.
 
-Leaving the King's room, the group went to their private guest room within Goblintown.  Vael used the Teleport Rugs to go from there to the Beacon and then to Gosterwick, then met with Chairduster the jeweler to explain the piece he would like to commission.  Chairduster agreed to perform the work, and said that, given the amount of money involved, he could move it to the top of his priority list and finish it within a week if all the necessary materials were available in Gosterwick, or a few weeks if he needed anything brought from Newmarket.
+Leaving the King's room, the group went to their private guest room within Goblintown.  Vael used the Teleport Rugs to go from there to the Beacon and then to Gosterwick, then met with Chairduster the jeweler to explain the piece he would like to commission.  Chairduster agreed to perform the work, and said that, given the amount of money involved, he could move it to the top of his priority list and finish it within a week if all the necessary materials were available in [[locations/Gosterwick.md|Gosterwick]], or a few weeks if he needed anything brought from Newmarket.
 
-Vael went back to the [[factions/Arcane Practitioners' Club.md|Arcane Practitioners' Club]] then through both Teleport Rugs to meet the others in Goblintown.  They retraced their steps back up to the Glory of Weskenim, then used the teleporter on top of the indoor pyramid to the other pyramid near the Well of Light.  They walked east toward the howling caves, when they heard some loud hooting and then a group of four baboons charged them.  As the lead baboon got close, he realized who they were charging, then abruptly stopped, tackled the second baboon, and lead the four baboons running back the way they came.
+Vael went back to the [[factions/Arcane Practitioners' Club.md|Arcane Practitioners' Club]] then through both Teleport Rugs to meet the others in Goblintown.  They retraced their steps back up to the Glory of Weskenim, then used the teleporter on top of the indoor pyramid to the other pyramid near the Well of Light.  They walked east toward the [[locations/Howling Caves.md|howling caves]], when they heard some loud hooting and then a group of four baboons charged them.  As the lead baboon got close, he realized who they were charging, then abruptly stopped, tackled the second baboon, and lead the four baboons running back the way they came.
 
 When the group reached the portcullis near the Howling Caves, they saw a baboon in heating conversation with Yamki.  Yamki said that the baboon was apologizing for almost attacking them; he thought they were intruders, not the Bringers of Food, until he got close.   Vallium said it was fine, and asked if they could go through the Howling Cave to the Chasm.  Yamki said that was permitted, but warned them that the Scary Glowing Orange Room was that way, and to be careful.
 
@@ -149,7 +149,7 @@ None
 
 ## Next Week:
 
-They plan to go back to the bottom of that shaft the next day, rather than taking their usual week of downtime.  They want to fully explore the area around the dragon statue, including the secret door and the four doors around the room.  If they finish exploring that area, they will go back to the Well of Light level and continue exploring the tunnels off the Great Chasm.
+They plan to go back to the bottom of that shaft the next day, rather than taking their usual week of downtime.  They want to fully explore the area around the dragon statue, including the secret door and the four doors around the room.  If they finish exploring that area, they will go back to the [[locations/Well of Light.md|Well of Light]] level and continue exploring the tunnels off the Great Chasm.
 
 ## Source
 - https://dfwhiterock.blogspot.com/2026/08/dfrpg-arden-vul-session-63-angry.html
@@ -158,7 +158,8 @@ They plan to go back to the bottom of that shaft the next day, rather than takin
 
 <!-- BEGIN AUTO NAV -->
 - Previous Session: [[sessions/Session 62 - Behind the Fireball Traps.md|Session 62 - Behind the Fireball Traps]]
-- Next Session: (none)
+- Next Session: [[sessions/Session 64 - Looting Behind the Fireball Traps.md|Session 64 - Looting Behind the Fireball Traps]]
 - Previous Discord Summary: [[notes/Discord Summary 2026-W32.md|Discord Summary 2026-W32]]
+- Next Discord Summary: [[notes/Discord Summary 2026-W33.md|Discord Summary 2026-W33]]
 - Original Source: https://dfwhiterock.blogspot.com/2026/08/dfrpg-arden-vul-session-63-angry.html
 <!-- END AUTO NAV -->

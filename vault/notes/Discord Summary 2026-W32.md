@@ -18,14 +18,14 @@ source_week: week-ending-2026-08-14-2300-central
 
 <!-- BEGIN AUTO NAV -->
 - Previous Discord Summary: [[notes/Discord Summary 2026-W31.md|Discord Summary 2026-W31]]
-- Next Discord Summary: (none)
+- Next Discord Summary: [[notes/Discord Summary 2026-W33.md|Discord Summary 2026-W33]]
 <!-- END AUTO NAV -->
 
 # Weekly Knowledge Base: Arden Vul
 **Week Ending:** 2026-08-14 23:00 CDT
 
 **Summary**
-The week was characterized by the strategic liquidation of magical artifacts and intensive scholarly pursuits regarding both alchemical processes and the mechanics of magical imprisonment. While the company successfully navigated several research endeavors, preparations are now underway for a significant expedition through the lower levels of the dungeon.
+The week was highlighted by the strategic sale of two surplus Mirrors of Life Trapping while retaining the third alongside the newly acquired platinum scales. The party engaged in extensive scholarly research at the Arcane Practitioners' Club, successfully brewed potions of True Water and Wisdom, and prepared multi-tiered tactical plans for delving deep into the dungeon and executing an ambitious "roadtrip" via the Tower of Pol.
 
 **Events & Actions by Character**
 
@@ -33,59 +33,70 @@ The week was characterized by the strategic liquidation of magical artifacts and
 * **Town actions taken:** None this week.
 * **Alchemy/crafting attempts and results:** None this week.
 * **Research undertaken and findings:** None this week.
-* **Character advancement:** Purchased 2 CP through the sale of mirrors; purchased 1 CP through the sale of platinum scales.
+* **Character advancement:** Received 2 CP from the party's sale of two *Mirrors of Life Trapping*.
 * **Equipment changes:** None this week.
 
 **Vallium Halcyon**
-* **Town actions taken:** Engaged in carousing at a cost of $125 to secure a +2 bonus to future carousing rolls; attended chess instruction with Theopolis, continuing a streak of losses; researched the history of the Azure Keep. Expenses included Ape Food ($500), Rations ($6), Healing Costs ($16), and Basil's weekly wages ($7).
-* **Alchemy/crafting attempts and results:** Successfully brewed a *Potion of True Water*.
-* **Research undertaken and findings:** Consulted *The Value of Mud*, learning of the process for creating loyal servants from mud via expensive ingredients and specific spells; researched the Azure Keep, discovering it was an ancient citadel undergoing restoration by Lady Alexia and the Knights of the Azure Shield for approximately twenty-five years.
-* **Character advancement:** None this week.
+* **Town actions taken:** Engaged in carousing at a cost of $125 to secure a +2 bonus to future carousing rolls; attended chess instruction with Theopolis ($50); researched the history of the Azure Keep. Total expenses included Cost of Living ($300), Potion Brewing ($600), Carousing ($125), Ape Food ($500), Chess Lessons ($50), Healing Costs ($16), APC Membership Fee ($13), Basil's Weekly Wages share ($7), and Rations ($6).
+* **Alchemy/crafting attempts and results:** Successfully brewed a *Potion of True Water* ($600 discounted materials).
+* **Research undertaken and findings:** Consulted *The Value of Mud*, learning of the process for creating loyal servants from mud via expensive rare ingredients and specific spells; researched the Azure Keep, discovering it was an ancient citadel undergoing ongoing restoration by Lady Alexia and the Knights of the Azure Shield for the past twenty-five years.
+* **Character advancement:** Spent 1 CP to learn **Games (Chess)** following lessons with Theopolis; received 2 CP from the sale of two *Mirrors of Life Trapping*.
 * **Equipment changes:** None this week.
 
 **Ioannes Grammatikos Byzantios**
 * **Town actions taken:** Conducted extensive research at the Arcane Practitioners' Club with assistance from Pelteon; paid APC membership fee ($13).
 * **Alchemy/crafting attempts and results:** Successfully brewed a *Major Healing Potion*.
-* **Research undertaken and findings:** Consulted the *Grimoire of Infamous Items Used By Nefarious Wizards*, which provided critical details on the mechanics of the Mirror of Life Trapping; studied *Summoning From the Beyond* (noting the names of three specific demons); studied *Sorcerous Properties of Gems* (regarding the application of gems to spells and potions); studied *Principles of Comedy* (detailing the biological basis and human benefits of laughter).
-* **Character advancement:** None this week.
-* **Equipment changes:** None this week.
+* **Research undertaken and findings:** Consulted the *Grimoire of Infamous Items Used By Nefarious Wizards*, which provided critical details on the mechanics and operational risks of the *Mirror of Life Trapping*; studied *Summoning From the Beyond* (noting summoning circles and the names of three specific demons); studied *Sorcerous Properties of Gems* (regarding the application of gems to enhance spells and potions); studied *Principles of Comedy* (detailing the biological basis and human benefits of laughter, omitting dwarves and elves).
+* **Character advancement:** Advanced **IQ to 17**; received 1 CP from the sale of two *Mirrors of Life Trapping*.
+* **Equipment changes:** Minor equipment tweaks.
 
 **Vaelitharon "Vael" Sunshadow**
-* **Town actions/Social:** Interviewed the alchemist Lyssandra to gauge her proficiency; allocated $5,000 for a bribe to Cronos. Personal expenses included rent ($150), shared deluxe apartment supplement ($50), Basil food budget ($100), and APC membership fee ($13).
-* **Alchemy/crafting attempts and results:** Attempted to brew a *Potion of Wisdom*; the attempt failed at a cost of $1,650.
-* **Research undertaken and findings:** Consulted *Service Manual for Optical Devices produced by GnuCoder S.A.* (noting its high mathematical complexity); studied *Solutions to the Propulsion Problem* by Chemical Engineer Fek-Prail, which details how orange rocks from local caves can be used to create a time-dilation jump drive for the LOAV; attempted to read *Successful Reamination*, but found it impossible as the company no longer possesses the text. Vael also verified that the two copies of *Properties of Arcanum* held by the company are completely identical.
-* **Character advancement:** Advanced written Rudishva to "Accented" through intensive glyph study; gained the mage spell *Pol's Recall*.
+* **Town actions/Social:** Interviewed the alchemist Lyssandra to gauge her proficiency; allocated $5,000 for a bribe to Cronos. Personal expenses included rent ($150), shared deluxe apartment supplement ($50), Basil food budget ($100), APC membership fee ($13), and potion ingredients ($1,650).
+* **Alchemy/crafting attempts and results:** Successfully brewed a *Potion of Wisdom* (Alchemy roll: success; ingredient cost $1,650).
+* **Research undertaken and findings:** Consulted *Service Manual for Optical Devices produced by GnuCoder S.A.* (describing the internal mechanisms for repairing GnuCoder optical devices, noting its high mathematical complexity); studied *Solutions to the Propulsion Problem* by Chemical Engineer Fek-Prail (details converting the LOAV's short-range pulse engines into an interstellar time-dilation jump drive for up to 10 crew using centrifuged local orange rocks, propellant, and deuterium-2 extracted by Spiv-Kol); read *Successful Reanimation* (details preserving a living brain outside the body using electricity, arcanum, and an herbal concoction—clearly illegal necromancy); verified that the company's two copies of *Properties of Arcanum* are completely identical.
+* **Character advancement:** Advanced written Rudishva to "Accented" through intensive glyph study with Akla-Chah; gained the mage spell *Pol's Recall*; gained permanent +1 Will from Thothian interrogation; received 2 CP from the sale of two *Mirrors of Life Trapping*.
 * **Equipment changes:** Expended one charge from the *Ebony Wand of Magical Bolt*.
 
 **Mercenaries**
-* **Lyssandra:** Noted by Vaelitharon to be a more proficient alchemist than himself, though she possesses less experience regarding arcanum.
+* **Lyssandra:** Assessed by Vaelitharon to be a more proficient alchemist than himself, though possessing less experience regarding arcanum.
 
 **Lore & Discoveries**
-* **The Azure Keep:** An ancient citadel currently being restored by Lady Alexia and the Knights of the Azure Shield (Research: Vallium Halcyon).
-* **LOAV Propulsion:** The LOAV's pulse engines can be converted into a time-dilation jump drive using centrifuged orange rocks, deuterium-2, and standard propellant; this system supports a crew of ten for interstellar travel (Source: *Solutions to the Propulsion Problem*).
-* **Demonic Entities:** Three specific demons are identified within the text *Summoning From the Beyond* (Source: Ioannes Grammatikos Byzantios).
-* **Historical Authorship:** The authors of several notable texts include Isadora the Seer, Keladon the Strong, and Lucius Cornelius Scriptor (Source: GM Ruling).
+* **The Azure Keep:** An ancient citadel undergoing restoration by Lady Alexia and the Knights of the Azure Shield for the past 25 years (Source: Vallium Halcyon research).
+* **LOAV Propulsion:** The LOAV's pulse engines can be converted into a time-dilation jump drive supporting a crew of ten for interstellar travel using centrifuged local orange rocks, standard propellant, and deuterium-2 extracted by Spiv-Kol (Source: *Solutions to the Propulsion Problem* by Chemical Engineer Fek-Prail).
+* **Successful Reanimation:** Outlines illegal necromantic procedures for keeping a disembodied brain alive outside the body via electricity, arcanum, and herbal concoctions (Source: *Successful Reanimation*).
+* **Demonic Entities:** Identifies summoning circles, pentagrams, and the specific names of three demons (Source: *Summoning From the Beyond*).
+* **Historical Authorship:** Confirmed authors for specific texts (Source: GM Ruling):
+  * *Copper Plaques*: Anonymous / No author listed.
+  * *Eighth Collegium - Fact or Fiction*: Isadora the Seer.
+  * *The Intelligent User's Guide to the Mystical Properties of Gems*: Keladon the Strong.
+  * *The Lay of Marius Invictus*: Lucius Cornelius Scriptor.
 
 **World Rulings**
-* **The Pneuma of Thoth:** The physiological effects of the pneuma (+2 IQ, -2 ST, -2 HT) expire after one day; however, any permanent Will increases granted by such an encounter remain.
-* **Spell Casting Efficiency:** For a caster with Bless-20, the casting time for *Bless +1* (at 8 FP) is exactly 4 minutes.
-* **Mirror Dimensions:** A Mirror of Life Trapping is too large to be stored within a Bag of Holding or Larel's Sack.
+* **The Pneuma of Thoth:** The physiological and mental effects on Vallium (+2 IQ, -2 ST, -2 HT, and religious openness to Thoth) expire after one day; however, Vael's permanent +1 Will gain remains.
+* **Spell Casting Efficiency:** For a caster with Bless-20, the casting time for *Bless +1* (reduced to 8 FP) is exactly 4 minutes.
+* **Mirror Dimensions:** A Mirror of Life Trapping is too large to fit into the opening of a Bag of Holding or Larel's Sack.
 
 **Item Intelligence**
-* **Platinum Scales:** These scales possess the ability to magically appraise coins, gems, and jewels. They are considered a vital strategic asset for preventing the misidentification of loot.
+* **Platinum Scales:** Retained by the party as a permanent strategic asset / insurance policy against the misidentification of coins, gems, and jewels.
 * **Mirrors of Life Trapping:** 
-    * **Mechanism:** Looking into the mirror without a command word results in imprisonment; the mirror can hold up to fifteen individuals. The Warden can use a command word to view prisoners, call one to the foreground for conversation, or release them.
-    * **Risks:** Breaking the mirror releases all captives but inflicts "Seven Years of Ill Luck" upon the breaker. 
-    * **Status:** Two mirrors were sold (one to Wicktrimmer, one to Lady Alexia). One remains in company possession.
-    * **Handling Instructions:** The command word must be used before looking into the glass to ensure safety.
+    * **Mechanism:** Looking into the mirror without a command word results in extra-dimensional stasis imprisonment (no food, drink, air, or aging), **leaving behind a pile of the captive's clothing**. The mirror holds up to fifteen individuals; trapping a sixteenth automatically frees an existing captive. The Warden can use command words to survey prisoners in a shared "Zoom-like" view, call an individual to the foreground for conversation without release, or release captives on command.
+    * **Risks:** Breaking the mirror frees all captives simultaneously but inflicts "Seven Years of Ill Luck" upon the breaker.
+    * **Status:** Two empty mirrors were sold (one to Wicktrimmer, one to Lady Alexia); one mirror remains in company possession.
+    * **Handling Instructions:** The command word must be used prior to looking into the glass to ensure safety.
 
 **Tactical Planning**
-* **Session 63 Objectives:** The company intends to utilize magical rugs for travel through the dungeon, specifically targeting the Cloister, Slime Pool, Chaotic Sweat room, Temple of Thoth, Glory of Thoth, and the Goblin Warrens. A secondary goal involves commissioning a map from Temrin at the Goblin Market using the *Symbols of Power* as a reference.
-* **The "Roadtrip" Proposal:** A plan was discussed to travel to Archontos via the Tower of Pol. This would involve using the Mirror of Life Trapping as a transport vessel: companions would be placed in the mirror, and Vaelitharon would use *Pol's Recall* to transport the mirror back to the Beacon.
+* **Session 63 Objectives:**
+  1. *Dungeon Travel*: Utilize magical rugs to the Beacon, teleporters through the Cloister, Slime Pool, Chaotic Sweat room, consecrated Temple of Thoth, Glory of Thoth, and down into the Goblin Warrens.
+  2. *Goblin Market*: Commission Temrin to produce a map to the Bone Ring of Jagri-Naz regalia using the illustration in *Symbols of Power*.
+  3. *Hall of Shrines*: Check the teleportation circle to inspect force field shifts across shrines.
+  4. *Hall of Seeing & Well of Light*: If sunny, perform the *Litany of Light* with Yamki; otherwise cross the chasm to the fireball trap room and explore the secret area beyond.
+  5. *Scribe Statues*: Explore beyond the chamber containing the 10 scribe statues.
+  6. *Eastern Chasm*: Explore the eastern side of the Well of Light chasm.
+* **The "Roadtrip" Proposal:** A plan was discussed to travel to Archontos via the Tower of Pol for shopping, sightseeing, and carousing. Companions (Uvash, Vallium, Ioannes) would enter the retained Mirror of Life Trapping (accounting for leaving clothing behind), and Vaelitharon would cast *Pol's Recall* to transport the mirror back to the Beacon before releasing everyone.
 
 **Unresolved Threads**
-* **Mirror Testing:** The physical testing of the Mirror of Life Trapping (specifically the safety of the "transport" method) is scheduled for the start of the next session.
-* **Command Word Research:** The company needs to establish a protocol for researching or securing command words for any mirrors kept in common areas.
-* **The Goblin Market Map:** Verification of Temrin's ability to produce the requested map.
-* **Shrine Status:** Determining if any changes have occurred regarding the force fields at the Hall of Shrines.
-* **Pol's Recall Destination:** Deciding whether the destination for *Pol's Recall* should be the bridge or the lounge where Akla-Cha is located.
+* **Mirror Testing:** Physical in-session testing of the Mirror of Life Trapping (specifically verifying the safety and mechanics of the transport method) scheduled for the start of the next session.
+* **Command Word Protocol:** Establishing protocols for securing and using command words for any mirrors kept in common areas.
+* **The Goblin Market Map:** Meeting Temrin to commission the regalia map.
+* **Shrine Status:** Checking for force field changes at the Hall of Shrines.
+* **Pol's Recall Destination:** Deciding between anchoring *Pol's Recall* at the Beacon bridge vs. the lounge where Akla-Chah is located.
