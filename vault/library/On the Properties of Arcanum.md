@@ -1,23 +1,30 @@
 ---
-title: "On the Properties of Arcanum"
+title: "The Properties of Arcanum"
 type: book
+language: "Rudishva"
+read: false
+copies: 1
 tags:
   - library
   - book
+  - media/book
+aliases:
+  - "On the Properties of Arcanum"
 ---
-# On the Properties of Arcanum
+
+# The Properties of Arcanum
 *Book*
 
 ## Summary
-TODO: Add description.
+A book recorded in Rudishva found in Arden Vul.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2025-07-11 | p.150 | $300 | 147 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 30-Jan-2026 | p.358 | 1 | 2 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+*Unread or unsummarized.*
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

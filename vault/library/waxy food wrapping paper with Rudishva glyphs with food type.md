@@ -1,23 +1,32 @@
 ---
-title: "waxy food wrapping paper with Rudishva glyphs with food type"
-type: parchment
+title: "Waxy Food Wrapping Paper"
+type: book
+language: "Rudishva"
+read: true
+copies: 9
 tags:
   - library
-  - parchment
+  - book
+  - media/book
+aliases:
+  - "waxy food wrapping paper with Rudishva glyphs with food type"
 ---
-# waxy food wrapping paper with Rudishva glyphs with food type
-*Parchment*
+
+# Waxy Food Wrapping Paper
+*Book*
 
 ## Summary
-TODO: Add description.
+A book recorded in Rudishva found in Arden Vul.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2026-01-30 | p.613 | $1 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 30-Jan-2026 | p.613 | 3 | 0.3 lbs | — |
+| 30-Jan-2026 | p.613 | 3 | 0.3 lbs | — |
+| 30-Jan-2026 | p.613 | 3 | 0.3 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+*Unread or unsummarized.*
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

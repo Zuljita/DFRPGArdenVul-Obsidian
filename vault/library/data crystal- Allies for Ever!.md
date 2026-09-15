@@ -1,23 +1,30 @@
 ---
-title: "data crystal: Allies for Ever!"
-type: data-crystal
+title: "Allies For Ever!"
+type: data crystal
+language: "Rudishva"
+read: true
+copies: 1
 tags:
   - library
-  - data-crystal
+  - data crystal
+  - media/book
+aliases:
+  - "data crystal- Allies for Ever!"
 ---
-# data crystal: Allies for Ever!
-*Data Crystal*
+
+# Allies For Ever!
+*Data crystal*
 
 ## Summary
-TODO: Add description.
+A work in Rudishva. This is a 2-hour fancy production with many speakers, a mix of Rudishva and Kaliyani.  It's about how great the Rudishva and Kaliyani alliance is.  After watching it, you have a bit of a headache. According to the video, they were absolute equals and it was the best alliance ever.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2026-01-30 | p.612 | — | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 30-Jan-2026 | p.612 | 1 | 0.2 lbs | Data Crystal |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+> This is a 2-hour fancy production with many speakers, a mix of Rudishva and Kaliyani.  It's about how great the Rudishva and Kaliyani alliance is.  After watching it, you have a bit of a headache. According to the video, they were absolute equals and it was the best alliance ever.
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

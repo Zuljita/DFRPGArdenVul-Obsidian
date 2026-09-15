@@ -1,16 +1,26 @@
 ---
+title: "The Politics"
+type: book
+author: "Teracleon"
+language: "Mithric"
+read: true
+copies: 1
 tags:
-  - item
+  - library
+  - book
   - media/book
-  - identity/uncertain
-status: stub
 ---
 
 # The Politics
+*Book*
 
 ## Summary
-A written work authored by Teracleon.
+A work in Mithric authored by Teracleon. This text argues that the ends justify the means.
 
-## Sources
-- [[notes/Discord Summary 2026-W34.md|Discord Summary 2026-W34]]
-- [[Party Armory.md|Party Armory]]
+## Acquisitions
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 9-Jan-2026 | p.151 | 1 | 4 lbs | — |
+
+## Content
+> This text argues that the ends justify the means.

@@ -1,21 +1,26 @@
 ---
+title: "Vul Speaks"
+type: book
+author: "Vul the Sorceror"
+language: "Mithric"
+read: true
+copies: 1
 tags:
-  - session/2026-w03
-  - item
+  - library
+  - book
   - media/book
-  - identity/uncertain
-status: stub
-related_entities:
-  - [[notes/Vul.md|Vul]]
 ---
 
 # Vul Speaks
+*Book*
 
 ## Summary
-A text containing details regarding Vul’s travels and his construction of a laboratory near the city.
+A work in Mithric authored by Vul the Sorceror. You are not sure if all of it was actually written by Vul.  There are discussions of Vul's travels, his life with Arden, mastering arcanum, and building a house and laboratory "within sight of the city that bears my name."  There's a lot of magical theory that's hard to follow.
 
-The text is written in archaic Mithric, which can be difficult to read.
+## Acquisitions
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 9-Jan-2026 | p.151 | 1 | 5.5 lbs | — |
 
-## Sources
-- [[notes/Discord Summary 2026-W03.md|Discord Summary 2026-W03]]
-- [[Party Armory.md|Party Armory]]
+## Content
+> You are not sure if all of it was actually written by Vul.  There are discussions of Vul's travels, his life with Arden, mastering arcanum, and building a house and laboratory "within sight of the city that bears my name."  There's a lot of magical theory that's hard to follow.

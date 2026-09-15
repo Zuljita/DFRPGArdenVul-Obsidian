@@ -1,23 +1,30 @@
 ---
 title: "Archons of Arden Vul"
 type: book
+author: "Anonymous"
+language: "Mithric"
+read: true
+copies: 4
 tags:
   - library
   - book
+  - media/book
 ---
+
 # Archons of Arden Vul
 *Book*
 
 ## Summary
-TODO: Add description.
+A work in Mithric authored by Anonymous. This is a list of archons from AEP 893 to AEP 1783.  Short summeries of each one's reign.  Super boring.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2026-05-08 | p.619 | $50 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 8-May-2026 | p.619 | 2 | 1 lbs | — |
+| 9-Jan-2026 | p.151 | 2 | 1 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+> This is a list of archons from AEP 893 to AEP 1783.  Short summeries of each one's reign.  Super boring.
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

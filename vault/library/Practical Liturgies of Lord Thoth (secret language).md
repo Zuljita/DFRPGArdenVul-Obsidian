@@ -1,23 +1,31 @@
 ---
-title: "Practical Liturgies of Lord Thoth (secret language)"
+title: "Practical Liturgies of Lord Thoth"
 type: book
+language: "Secret Thoth Language"
+read: false
+copies: 4
 tags:
   - library
   - book
+  - media/book
+aliases:
+  - "Practical Liturgies of Lord Thoth (secret language)"
 ---
-# Practical Liturgies of Lord Thoth (secret language)
+
+# Practical Liturgies of Lord Thoth
 *Book*
 
 ## Summary
-TODO: Add description.
+A book recorded in Secret Thoth Language found in Arden Vul.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2025-10-24 | p.149 | $0 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 9-Jan-2026 | p.151 | 2 | 15 lbs | — |
+| 24-Oct-2025 | p.149 | 2 | 15 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+*Unread or unsummarized.*
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

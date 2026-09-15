@@ -1,23 +1,29 @@
 ---
 title: "Rudishva Devices"
 type: book
+author: "Junius Zofer"
+language: "Mithric"
+read: true
+copies: 1
 tags:
   - library
   - book
+  - media/book
 ---
+
 # Rudishva Devices
 *Book*
 
 ## Summary
-TODO: Add description.
+A work in Mithric authored by Junius Zofer. Rudishva Devices has sketches of common Rudishva devices and whatever the ancient Archonteans figured out about them.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2025-11-14 | p.874 | $1000 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 14-Nov-2025 | p.874 | 1 | 5 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+> Rudishva Devices has sketches of common Rudishva devices and whatever the ancient Archonteans figured out about them.
 
 ## Reading Events
 - [[sessions/Session 40 - Taking Command.md|Session 40]]: The players discovered a book that appeared to be a work in progress, containing translations of approximately 250 Rudishva glyphs into Mithric.

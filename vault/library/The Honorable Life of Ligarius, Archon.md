@@ -1,25 +1,32 @@
 ---
-title: "The Honorable Life of Ligarius, Archon"
+title: "The Honorable Life of Ligareus the Archon"
 type: book
+author: "Junius Octavus"
+language: "Mithric"
+read: true
+copies: 4
 tags:
   - library
   - book
+  - media/book
 aliases:
-  - "Honorable Life of Ligarius, Archon"
+  - "The Honorable Life of Ligarius, Archon"
 ---
-# The Honorable Life of Ligarius, Archon
+
+# The Honorable Life of Ligareus the Archon
 *Book*
 
 ## Summary
-TODO: Add description.
+A work in Mithric authored by Junius Octavus. Ligarius was the son of fishmongers, became a soldier, and rose all the way to Archon of Arden Vul.  He was a paragon of virtue and never did anything wrong ever.  He is also the patriarch of the Ligarion clan.  Trivia: Living Mosaic was popularized under his rule.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2026-05-08 | p.619 | $65 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 8-May-2026 | p.619 | 2 | 3 lbs | — |
+| 9-Jan-2026 | p.151 | 2 | 3 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+> Ligarius was the son of fishmongers, became a soldier, and rose all the way to Archon of Arden Vul.  He was a paragon of virtue and never did anything wrong ever.  He is also the patriarch of the Ligarion clan.  Trivia: Living Mosaic was popularized under his rule.
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

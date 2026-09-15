@@ -1,30 +1,31 @@
 ---
-title: 'quire from Deeds of Phagtro the Westron, "Phagtro and the Moving Island" (Mithric)'
-type: document
+title: "Phagtro the Western (Phagtro and the Moving Island)"
+type: book
+author: "Anonymous"
+language: "Mithric"
+read: true
+copies: 1
 tags:
-  - type/document
-  - title/deeds-of-phagtro-the-westron
-  - title/phagtro-and-the-moving-island
-  - session/2026-w21
-  - culture/mithric
   - library
-  - document
-related_entities:
-  - [[library/Deeds of Phagtro the Westron (Phagtro the Scout).md|Deeds of Phagtro the Westron]]
+  - book
+  - media/book
+aliases:
+  - "quire from Deeds of Phagtro the Westron, -Phagtro and the Moving Island- (Mithric)"
 ---
-# quire from Deeds of Phagtro the Westron, "Phagtro and the Moving Island" (Mithric)
-*Document*
+
+# Phagtro the Western (Phagtro and the Moving Island)
+*Book*
 
 ## Summary
-TODO: Add description.
+A work in Mithric authored by Anonymous. Phagtro the Thorcin warrior explores a floating island.  It's actually a giant turtle.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2025-10-17 | p.185 | $50 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 17-Oct-2025 | p.185 | 1 | 1 lbs | Quire |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+> Phagtro the Thorcin warrior explores a floating island.  It's actually a giant turtle
 
 ## Reading Events
 - [[notes/Discord Summary 2026-W21.md|Discord Summary 2026-W21]] - Vael read this work.

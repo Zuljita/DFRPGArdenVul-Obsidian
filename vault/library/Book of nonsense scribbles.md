@@ -1,23 +1,30 @@
 ---
-title: "Book of nonsense scribbles"
+title: "Nonsense Scribbles"
 type: book
+language: "Nonsense"
+read: false
+copies: 1
 tags:
   - library
   - book
+  - media/book
+aliases:
+  - "Book of nonsense scribbles"
 ---
-# Book of nonsense scribbles
+
+# Nonsense Scribbles
 *Book*
 
 ## Summary
-TODO: Add description.
+A book recorded in Nonsense found in Arden Vul.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2025-08-01 | p.140 | $1 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 1-Aug-2025 | p.140 | 1 | 3 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+*Unread or unsummarized.*
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

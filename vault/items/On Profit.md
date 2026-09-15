@@ -1,24 +1,29 @@
 ---
+title: "On Profit"
+type: book
+author: "Fulvius the Factor"
+language: "Mithric"
+read: true
+copies: 1
 tags:
-  - item
+  - library
+  - book
   - media/book
-status: active
 ---
 
 # On Profit
+*Book*
 
 ## Summary
-A dry treatise on finance, monopolies, and venture capital.
+A work in Mithric authored by Fulvius the Factor. Seems to be about venture capital, finance, and making monpolies.  Pretty dry.
+
+## Acquisitions
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 9-Jan-2026 | p.151 | 1 | 5 lbs | — |
 
 ## Content
-- Covers finance, monopolies, and venture capital. Described as pretty dry reading.
+> Seems to be about venture capital, finance, and making monpolies.  Pretty dry.
 
 ## Reading Events
 - [[notes/Discord Summary 2026-W03.md|Discord Summary 2026-W03]] — Read by Vael during town actions; found to be a dry treatise on finance and monopolies.
-
-## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-
-## Sources
-- [[Party Armory.md|Party Armory]]

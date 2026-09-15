@@ -1,16 +1,26 @@
 ---
+title: "Euphronia's Awakening"
+type: book
+author: "Anonymous"
+language: "Mithric"
+read: true
+copies: 1
 tags:
-  - item
+  - library
+  - book
   - media/book
-  - identity/uncertain
-status: stub
 ---
 
 # Euphronia's Awakening
+*Book*
 
 ## Summary
-A text reviewed by Pelteon during downtime, acquired by the party for $50.
+A work in Mithric authored by Anonymous. Euphronia is a noblewoman who has affairs with gardeners, valets, and grooms, each more handsome than the last.
 
-## Sources
-- [[notes/Discord Summary 2026-W31.md|Discord Summary 2026-W31]]
-- [[Party Armory.md|Party Armory]]
+## Acquisitions
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 9-Jan-2026 | p.151 | 1 | 2.5 lbs | — |
+
+## Content
+> Euphronia is a noblewoman who has affairs with gardeners, valets, and grooms, each more handsome than the last.

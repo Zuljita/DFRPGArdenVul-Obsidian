@@ -1,25 +1,29 @@
 ---
 title: "The Value of Mud"
 type: book
+author: "Herodian the Blessed"
+language: "Mithric"
+read: true
+copies: 1
 tags:
   - library
   - book
-aliases:
-  - "Value of Mud"
+  - media/book
 ---
+
 # The Value of Mud
 *Book*
 
 ## Summary
-TODO: Add description.
+A work in Mithric authored by Herodian the Blessed. This book is about creating mud people.  Apparently you spend a lot of money on rare ingredients and cast some spells, and you end up with loyal servants made of mud.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2026-03-20 | p.276 | — | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 20-Mar-2026 | p.276 | 1 | 3 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+> This book is about creating mud people.  Apparently you spend a lot of money on rare ingredients and cast some spells, and you end up with loyal servants made of mud.
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

@@ -30,7 +30,7 @@ At the peak of their power, both [[npcs/Arden.md|Arden]] and Vul mysteriously di
 A [[factions/Cult of Arden.md|Cult of Arden]] was known to exist among the military officials in [[locations/Arden Vul.md|Arden Vul]]. This cult reportedly built their own headquarters within the Halls and attempted to replicate the famous Labors of [[npcs/Arden.md|Arden]].
 
 ### The Twelve Labours of [[npcs/Arden.md|Arden]]
-A book titled `[[items/The Twelve Labours of Arden.md|The Twelve Labours of Arden]]` is believed to be a guide for a puzzle that begins with a purification ritual at the fountain beneath the [[locations/Waterfall.md|waterfall]].
+A book titled `[[library/Twelve Labors of Arden.md|Twelve Labors of Arden]]` is believed to be a guide for a puzzle that begins with a purification ritual at the fountain beneath the [[locations/Waterfall.md|waterfall]].
 
 ## Discord Insights
 

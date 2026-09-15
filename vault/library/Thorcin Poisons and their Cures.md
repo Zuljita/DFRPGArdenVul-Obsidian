@@ -1,23 +1,30 @@
 ---
 title: "Thorcin Poisons and their Cures"
 type: book
+author: "Anonymous"
+language: "Thorcin"
+read: false
+copies: 4
 tags:
   - library
   - book
+  - media/book
 ---
+
 # Thorcin Poisons and their Cures
 *Book*
 
 ## Summary
-TODO: Add description.
+A book recorded in Thorcin by Anonymous found in Arden Vul.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2026-03-20 | p.276 | — | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 10-Oct-2025 | p.164 | 2 | 4 lbs | — |
+| 20-Mar-2026 | p.276 | 2 | 4 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+*Unread or unsummarized.*
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

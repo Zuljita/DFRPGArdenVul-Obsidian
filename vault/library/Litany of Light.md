@@ -1,25 +1,31 @@
 ---
 title: "Litany of Light"
-type: ritual-text
+type: book
+author: "Anonymous"
+language: "Mithric"
+read: true
+copies: 9
 tags:
   - library
-  - ritual-text
+  - book
+  - media/book
 ---
+
 # Litany of Light
-*Ritual Text*
+*Book*
 
 ## Summary
-TODO: Add description.
+A work in Mithric authored by Anonymous. This describes four religious rituals that can be done in 4 rooms around the Well of Light in detail.  Any priest with this book should be able to attempt to conduct the rituals in those rooms.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2025-08-01 | p.150 | $50 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 8-Aug-2025 | p.137 | 3 | 5 lbs | Simple |
+| 1-Aug-2025 | p.151 | 3 | 5 lbs | Standard |
+| 9-Jan-2026 | p.151 | 3 | 10 lbs | Super Deluxe |
 
 ## Content
-- The work was identified as a potential forgery by research conducted on its copy found in the Library of Thoth.
-- Performing the ritual provided the ability to "See Secrets."
-- The ritual requires sunlight to be performed successfully.
+> This describes four religious rituals that can be done in 4 rooms around the Well of Light in detail.  Any priest with this book should be able to attempt to conduct the rituals in those rooms.
 
 ## Reading Events
 - [[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22]]: Ioannes researched a copy of the Litany of Light found in the Library of Thoth, which suggested the work might be a forgery.

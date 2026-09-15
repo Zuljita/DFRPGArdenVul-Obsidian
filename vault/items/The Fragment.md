@@ -1,16 +1,26 @@
 ---
+title: "The Fragment"
+type: book
+author: "Anonymous"
+language: "Mithric"
+read: true
+copies: 1
 tags:
-  - item
+  - library
+  - book
   - media/book
-  - identity/uncertain
-status: stub
 ---
 
 # The Fragment
+*Book*
 
 ## Summary
-A text concerning Priscus Pulcher and his acquisition of 'the item' and 'words of power' to summon ancient allies.
+A work in Mithric authored by Anonymous. This book is about Priscus Pulcher.  It claims he acquired "the item" with "the words of power" and this allowed him to summon "the ancient allies".  One of the ancient allies' names began with "YAS".  This is all very incomplete and confusing.
 
-## Sources
-- [[notes/Discord Summary 2026-W26.md|Discord Summary 2026-W26]]
-- [[notes/Discord Summary 2026-W27.md|Discord Summary 2026-W27]]
+## Acquisitions
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 19-Jun-2026 | p.849 | 1 | 0.5 lbs | — |
+
+## Content
+> This book is about Priscus Pulcher.  It claims he acquired "the item" with "the words of power" and this allowed him to summon "the ancient allies".  One of the ancient allies' names began with "YAS".  This is all very incomplete and confusing.

@@ -1,23 +1,30 @@
 ---
-title: "data crystal: Letters Home"
-type: data-crystal
+title: "Letters Home"
+type: data crystal
+language: "Rudishva"
+read: false
+copies: 1
 tags:
   - library
-  - data-crystal
+  - data crystal
+  - media/book
+aliases:
+  - "data crystal- Letters Home"
 ---
-# data crystal: Letters Home
-*Data Crystal*
+
+# Letters Home
+*Data crystal*
 
 ## Summary
-TODO: Add description.
+A data crystal recorded in Rudishva found in Arden Vul.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2026-01-30 | p.612 | — | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 30-Jan-2026 | p.612 | 1 | 0.2 lbs | Data Crystal |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+*Unread or unsummarized.*
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

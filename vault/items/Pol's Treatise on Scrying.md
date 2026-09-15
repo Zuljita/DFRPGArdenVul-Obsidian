@@ -1,23 +1,26 @@
 ---
+title: "Pol's Treatise on Scrying"
+type: book
+author: "Pol"
+language: "Mithric"
+read: false
+copies: 1
 tags:
-  - item
+  - library
+  - book
   - media/book
-  - identity/uncertain
-status: stub
-aliases:
-  - The Cursed Scrying Book
 ---
 
 # Pol's Treatise on Scrying
+*Book*
 
 ## Summary
-A cursed book known to rip the eyes out of its readers.
+A work in Mithric authored by Pol. Pages that showed interesting scenes from within Arden Vul. Sarcophagi, a puppet theater (?), piles of treasure, some large human in red robes on a red couch surrounded by sickly-looking guys, and a room with  beds and treasure and demon statue and some humans walking about.
 
-A blue leather book with a gold lidless eye, containing approximately ten pages of crystalline material; currently held in the 'Chest of Do Not Open.'
+## Acquisitions
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 9-Jan-2026 | p.151 | 1 | 3 lbs | Cursed, rips eyes out, 10 pages, blue leather with gold lidless eye; Crystalline pages; Pages are scrying devices;  Looking at the side of the book without opening it, you think it has about 10 pages. |
 
-Looking at a blank page results in the loss of eyes.
-
-## Sources
-- [[sessions/Session 57b - The Engine Room.md|Session 57b - The Engine Room]]
-- [[Party Armory.md|Party Armory]]
-- [[notes/Discord Summary 2026-W02.md|Discord Summary 2026-W02]]
+## Content
+> Pages that showed interesting scenes from within Arden Vul. Sarcophagi, a puppet theater (?), piles of treasure, some large human in red robes on a red couch surrounded by sickly-looking guys, and a room with  beds and treasure and demon statue and some humans walking about.

@@ -1,38 +1,30 @@
 ---
-title: "data crystal: Fire Pits of Creation"
-type: data-crystal
+title: "Fire Pits of Creation"
+type: data crystal
+language: "Rudishva"
+read: true
+copies: 1
 tags:
-  - culture/heqeti
-  - type/chthonic
-  - status/read
-  - type/technology
-  - type/magic
-  - session/2026-w05
-  - type/data-crystal
-  - title/fire-pits-of-creation
-  - site/forge-of-creation
-  - site/arden-vul
-  - culture/rudishva
-  - culture/kaliyani
   - library
-  - data-crystal
-related_entities:
-  - [[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]]
-  - [[library/data crystal- Troll Pits.md|Troll Pits]]
+  - data crystal
+  - media/book
+aliases:
+  - "data crystal- Fire Pits of Creation"
 ---
-# data crystal: Fire Pits of Creation
-*Data Crystal*
+
+# Fire Pits of Creation
+*Data crystal*
 
 ## Summary
-TODO: Add description.
+A work in Rudishva. The Rudishva and Kaliyani built a forge inside Arden Vul, that uses a combination of tech and magic.  There are molds for making various items.  You need to use the right mold, the right settings of 3 controls (temperature, chthonic energy, phase), and then the right raw materals (which include steel ingots, arcanum, and lava).   Items mentioned in the video include struts and plates and fuel cells (replacement parts for the Beacon), teleportation plates, melee weapons (knife, sword, spear), jewelry (shaped like identity plaques but without the tech inside, and made of metal), and something called a control rod and collar which looks like a rather evil device for controlling somebody.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2026-01-30 | p.358 | — | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 30-Jan-2026 | p.358 | 1 | 0.2 lbs | Data Crystal |
 
 ## Content
-- The Forge of Creation: A forge within Arden Vul utilized by the Rudishva and Kaliyani that integrates technology and magic, requiring specific temperature, chthonic energy, and phase settings alongside raw materials like arcanum and lava.
+> The Rudishva and Kaliyani built a forge inside Arden Vul, that uses a combination of tech and magic.  There are molds for making various items.  You need to use the right mold, the right settings of 3 controls (temperature, chthonic energy, phase), and then the right raw materals (which include steel ingots, arcanum, and lava).   Items mentioned in the video include struts and plates and fuel cells (replacement parts for the Beacon), teleportation plates, melee weapons (knife, sword, spear), jewelry (shaped like identity plaques but without the tech inside, and made of metal), and something called a control rod and collar which looks like a rather evil device for controlling somebody.
 
 ## Reading Events
 - [[notes/Discord Summary 2026-W05.md|Discord Summary 2026-W05]] - Players read this work.

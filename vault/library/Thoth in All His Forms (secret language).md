@@ -1,23 +1,31 @@
 ---
-title: "Thoth in All His Forms (secret language)"
+title: "Thoth in all His Forms"
 type: book
+language: "Secret Thoth Language"
+read: false
+copies: 4
 tags:
   - library
   - book
+  - media/book
+aliases:
+  - "Thoth in All His Forms (secret language)"
 ---
-# Thoth in All His Forms (secret language)
+
+# Thoth in all His Forms
 *Book*
 
 ## Summary
-TODO: Add description.
+A book recorded in Secret Thoth Language found in Arden Vul.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2025-10-24 | p.149 | $0 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 9-Jan-2026 | p.151 | 2 | 9 lbs | — |
+| 24-Oct-2025 | p.149 | 2 | 9 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+*Unread or unsummarized.*
 
 ## Reading Events
 - [[sessions/Session 27 - The Tomb of Ptoh-Ristus.md|Session 27]]: Vael discovered the book in a chest within the Tomb of Ptoh-Ristus.

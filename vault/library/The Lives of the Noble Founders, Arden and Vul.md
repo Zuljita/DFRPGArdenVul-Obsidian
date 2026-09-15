@@ -1,26 +1,31 @@
 ---
 title: "The Lives of the Noble Founders, Arden and Vul"
 type: book
+author: "Herodocius the Legate"
+language: "Mithric"
+read: true
+copies: 9
 tags:
   - library
   - book
-aliases:
-  - "Lives of the Noble Founders, Arden and Vul"
+  - media/book
 ---
+
 # The Lives of the Noble Founders, Arden and Vul
 *Book*
 
 ## Summary
-TODO: Add description.
+A work in Mithric authored by Herodocius the Legate. Very glowing biography of both.  Talks about the 12 labors of Arden and the 4 summonings of Vul, but not in as much detail as the full 12 Labors of Arden book.  The author believes that Arden is the best person in history and Vul is second.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2025-08-01 | p.150 | $45 | 1 | No | Party |
-| 2026-03-20 | p.276 | — | 0 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 1-Aug-2025 | p.150 | 3 | 6 lbs | — |
+| 9-Jan-2026 | p.151 | 3 | 6 lbs | — |
+| 20-Mar-2026 | p.276 | 3 | 6 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+> Very glowing biography of both.  Talks about the 12 labors of Arden and the 4 summonings of Vul, but not in as much detail as the full 12 Labors of Arden book.  The author believes that Arden is the best person in history and Vul is second.
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

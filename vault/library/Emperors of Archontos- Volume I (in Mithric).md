@@ -1,23 +1,32 @@
 ---
-title: "Emperors of Archontos: Volume I (in Mithric)"
+title: "Emperors of Archontos, Volume 1"
 type: book
+author: "Mucius the Lesser"
+language: "Mithric"
+read: true
+copies: 4
 tags:
   - library
   - book
+  - media/book
+aliases:
+  - "Emperors of Archontos- Volume I (in Mithric)"
 ---
-# Emperors of Archontos: Volume I (in Mithric)
+
+# Emperors of Archontos, Volume 1
 *Book*
 
 ## Summary
-TODO: Add description.
+A work in Mithric authored by Mucius the Lesser. 275 short biographies.  Boring.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2025-10-10 | p.164 | $250 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 9-Jan-2026 | p.151 | 2 | 8 lbs | — |
+| 10-Oct-2025 | p.164 | 2 | 8 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+> 275 short biographies.  Boring.
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

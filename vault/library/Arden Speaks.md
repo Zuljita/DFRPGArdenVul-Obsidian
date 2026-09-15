@@ -1,23 +1,30 @@
 ---
 title: "Arden Speaks"
 type: book
+author: "Mercellinus Septimus"
+language: "Mithric"
+read: true
+copies: 4
 tags:
   - library
   - book
+  - media/book
 ---
+
 # Arden Speaks
 *Book*
 
 ## Summary
-TODO: Add description.
+A work in Mithric authored by Mercellinus Septimus. A collection of things Arden allegedly said.  Arden was clearly in favor of hard work, loyalty, obedience, and respect for authority.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2025-11-14 | p.874 | $200 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 9-Jan-2026 | p.151 | 2 | 2 lbs | — |
+| 14-Nov-2025 | p.874 | 2 | 2 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+> A collection of things Arden allegedly said.  Arden was clearly in favor of hard work, loyalty, obedience, and respect for authority.
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

@@ -1,16 +1,26 @@
 ---
+title: "On Friends and Enemies"
+type: book
+author: "Teracleon"
+language: "Mithric"
+read: true
+copies: 1
 tags:
-  - item
+  - library
+  - book
   - media/book
-  - identity/uncertain
-status: stub
 ---
 
 # On Friends and Enemies
+*Book*
 
 ## Summary
-A text reviewed by the alchemist Pelteon.
+A work in Mithric authored by Teracleon. This is about using deceit to get ahead, while appearing virtuous.
 
-## Sources
-- [[notes/Discord Summary 2026-W31.md|Discord Summary 2026-W31]]
-- [[Party Armory.md|Party Armory]]
+## Acquisitions
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 9-Jan-2026 | p.151 | 1 | 3 lbs | — |
+
+## Content
+> This is about using deceit to get ahead, while appearing virtuous.

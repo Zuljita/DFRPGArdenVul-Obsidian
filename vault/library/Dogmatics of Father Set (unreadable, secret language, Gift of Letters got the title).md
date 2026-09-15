@@ -1,23 +1,30 @@
 ---
-title: "Dogmatics of Father Set (unreadable, secret language, Gift of Letters got the title)"
+title: "Dogmatics of Father Set"
 type: book
+language: "Secret Set Language"
+read: false
+copies: 1
 tags:
   - library
   - book
+  - media/book
+aliases:
+  - "Dogmatics of Father Set (unreadable, secret language, Gift of Letters got the title)"
 ---
-# Dogmatics of Father Set (unreadable, secret language, Gift of Letters got the title)
+
+# Dogmatics of Father Set
 *Book*
 
 ## Summary
-TODO: Add description.
+A book recorded in Secret Set Language found in Arden Vul.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2026-04-24 | p.300 | $50 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 24-Jan-2026 | p.300 | 1 | 3 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+*Unread or unsummarized.*
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.

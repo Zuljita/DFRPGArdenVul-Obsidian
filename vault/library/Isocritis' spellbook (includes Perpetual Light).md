@@ -1,23 +1,31 @@
 ---
-title: "Isocritis' spellbook (includes Perpetual Light)"
-type: spellbook
+title: "Isocritis' spellbook"
+type: book
+author: "Isocritis"
+language: "Mithric"
+read: true
+copies: 1
 tags:
   - library
-  - spellbook
+  - book
+  - media/book
+aliases:
+  - "Isocritis' spellbook (includes Perpetual Light)"
 ---
-# Isocritis' spellbook (includes Perpetual Light)
-*Spellbook*
+
+# Isocritis' spellbook
+*Book*
 
 ## Summary
-TODO: Add description.
+A work in Mithric authored by Isocritis. Included Perpetual Light.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2025-08-01 | p.150 | $500 | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 1-Aug-2025 | p.150 | 1 | 3 lbs | — |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+> Included Perpetual Light
 
 ## Reading Events
 - [[sessions/Session 21 - The Library of Thoth.md|Session 21]]: [[pcs/Vaelethron 'Vael' Sunshadow.md|Vael]] used *Seek Magic* to locate the spellbook within the library stacks.

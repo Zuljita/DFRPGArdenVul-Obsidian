@@ -1,23 +1,30 @@
 ---
-title: "data crystal: Solutions to the Propulsion Problem"
-type: data-crystal
+title: "Solutions to the Propulsion Problem"
+type: data crystal
+language: "Rudishva"
+read: false
+copies: 1
 tags:
   - library
-  - data-crystal
+  - data crystal
+  - media/book
+aliases:
+  - "data crystal- Solutions to the Propulsion Problem"
 ---
-# data crystal: Solutions to the Propulsion Problem
-*Data Crystal*
+
+# Solutions to the Propulsion Problem
+*Data crystal*
 
 ## Summary
-TODO: Add description.
+A work in Rudishva. This is narrated by Chemical Engineer Fek-Prail.  He claims they have transformed the LOAV's short range pulse engines into a time-dilation jump drive.  This involves centrifuging the orange rocks from these caves then combining that at high heat with deuterium-2 and standard propellant.  The LOAV can support a crew of up to ten for interstellar travel.  Someone named Spiv-Kol is credited with extracting the deuterium.
 
 ## Acquisitions
-| Date | Page | Value | Qty | Sold | Owner |
-|------|------|-------|-----|------|-------|
-| 2026-01-30 | p.613 | — | 1 | No | Party |
+| Date | Page | Copies | Weight | Notes |
+|---|---|---|---|---|
+| 30-Jan-2026 | p.613 | 1 | 0.2 lbs | Data Crystal |
 
 ## Content
-TODO: What the work contains (GM-provided information).
+> This is narrated by Chemical Engineer Fek-Prail.  He claims they have transformed the LOAV's short range pulse engines into a time-dilation jump drive.  This involves centrifuging the orange rocks from these caves then combining that at high heat with deuterium-2 and standard propellant.  The LOAV can support a crew of up to ten for interstellar travel.  Someone named Spiv-Kol is credited with extracting the deuterium.
 
 ## Reading Events
 TODO: Sessions where players read or interacted with this work.
