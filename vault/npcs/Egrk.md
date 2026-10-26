@@ -24,6 +24,7 @@ A representative of a more primitive culture within the world.
 - The party promised to bring metal goods next time.
 - The southern entrance is used by blue knights on big horses, who are described as jerks.
 - Was seen alongside many other cave people in [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20]].
+- His people speak a language unique to their tribe and possess little knowledge of outside 'invader' cultures.
 
 ## Sessions
 - [[sessions/Session 18 - Back Down the Well of Light.md|Session 18 - Back Down the Well of Light]]

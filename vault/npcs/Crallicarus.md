@@ -19,6 +19,7 @@ Mentioned on a blackboard note.
 
 - He organizes dramatic readings in the old [[Hopper Coliseum]] near the tomb of [[Marius Tricotor]].
 - Has offered much assistance to the archon of Arden Vul.
+- Identified as a survivor of an extinct race and part of a group of dangerous, sorcery-adept beings residing within Arden Vul. [[notes/Discord Summary 2026-W18.md]]
 
 ## Discord Insights
 

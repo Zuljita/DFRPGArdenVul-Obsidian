@@ -51,6 +51,7 @@ TBD
 - A slave market operated in/through the Forum of Set, where Settite slavers sold captives to Tikun Thane.
 - He is associated with the First Mystery and has a large statue located in the Forum of Set.
 - The Forum of Set is currently under goblin control, administered by Gribble, Lord of the Goblin Forum.
+- [[npcs/Lillian.md|Lillian]] held a meeting at the [[notes/House of Sight.md|House of Sight]] to share her experience with the Cult of Set with authorities.
 
 ## Discord Insights
 

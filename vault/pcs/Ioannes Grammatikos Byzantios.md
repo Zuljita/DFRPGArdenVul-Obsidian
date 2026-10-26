@@ -112,6 +112,7 @@ Ioannes came to [[Gosterwick]] as a trained cleric, researcher, and exorcist wit
 - His Broad-Minded and Careful traits give him a more cautious and open disposition than most Archontean clerics; he is willing to engage goblin merchants, Varumani ambassadors, and former Set librarians without reflexive hostility.
 - He carries a Cloak of the Bat, a Salamander Amulet, Bracers of Force +3, and a Belt of Dwarvenkind — equipment accumulated over 55+ sessions of increasingly dangerous operations.
 - His Propaganda-15 has been actively deployed to seed enthusiasm for the [[locations/Forum of Set.md|Goblin Forum]]'s commercial potential among Gosterwick merchants.
+- Research into *Thorcin Poisons and Their Cures* revealed a collection of 93 potions that may serve as a foundation for learning poisons.
 
 ## Portraits
 - ![[attachments/discord/Ioannes character updates/1354658076149420112-adventurer.jpeg]] — A character portrait of Ioannes.

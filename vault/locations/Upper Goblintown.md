@@ -38,3 +38,4 @@ aliases:
 - The Eighth Collegium, a group associated with Lukor, has been encountered in the area.
 - Considered a more formal area compared to the Goblin Warrens.
 - The [[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]] discovered an ancient goblin treasury here, causing a city-wide celebration. ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])
+- Passage through United Goblin territory is permitted provided donations of food, alcohol, or coin are made. [[notes/Discord Summary 2025-W44.md|Discord Summary 2025-W44]]

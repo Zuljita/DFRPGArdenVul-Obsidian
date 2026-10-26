@@ -21,3 +21,5 @@ Adventurous.
 Part of a notable adventuring group.
 
 ## Sessions
+- [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]
+- [[sessions/Session 67 - Tuftwillig and Kerbog Khan's Kids.md|Session 67 - Tuftwillig and Kerbog Khan's Kids]]

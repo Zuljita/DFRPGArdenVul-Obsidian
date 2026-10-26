@@ -26,3 +26,4 @@ Beastman commander in the [[locations/Halls of Thoth.md|Halls of Thoth]] who neg
 - Was upset by news of dragon attacks.
 - Appreciated the recovery of his lost troopers.
 - Allied with [[npcs/Deino.md|Deino]].
+- Requested wood, iron, steel, Cloud Cap mushrooms, fresh produce, magic items, and coins to prevent dragon attacks on his troops.

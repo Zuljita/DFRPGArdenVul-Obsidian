@@ -31,6 +31,8 @@ A [[factions/Cult of Arden.md|Cult of Arden]] was known to exist among the milit
 
 ### The Twelve Labours of [[npcs/Arden.md|Arden]]
 A book titled `[[library/Twelve Labors of Arden.md|Twelve Labors of Arden]]` is believed to be a guide for a puzzle that begins with a purification ritual at the fountain beneath the [[locations/Waterfall.md|waterfall]].
+- [[library/Twelve Labors of Arden.md|The Twelve Labors of Arden]] is a work in Archontean authored by Anonymous.
+- Other foes encountered during these labors include ogre magi, frost giants, evil Thorcin priests, a water elemental, an evil priestess, an undead bard, and a lich.
 
 ## Discord Insights
 

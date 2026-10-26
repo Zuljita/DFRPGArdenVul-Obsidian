@@ -32,10 +32,14 @@ According to [[Akla-Chah]], the [[factions/Rudishva.md|Rudishva]] have several f
 - **Power Discs:** Power supply discs used to activate the Rudishva glyph on devices (such as the GnuCoder 1000 Data Reader). They are available in greater and lesser sizes, and the size must match the device being powered.
 - Two yellow captain's plaques were registered in the Beacon system.
 - Some identity plaque variants, such as those used for the Beacon's reading room closet, are oval keycards.
+- **Command Tablet:** An oval-shaped object covered with Rudishva glyphs and small displays, which fits into the command chair on the Beacon's bridge. ([[notes/Discord Summary 2026-W00.md|Discord Summary 2026-W00]])
+- **Black Card:** A device that Akla-Chah believes is a security key to some form of Rudishva technology.
+- Progress has been made in mapping the Rudishva teleporter network. ([[sessions/Session 71 - Exploring the Rudishva Teleportation Network.md|Session 71]])
 
 ## History
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]: Akla-Chah, a Rudishva hologram therapist, has been tutoring Vaelitharon Sunshadow in the written script and vocabulary of the [[factions/Rudishva.md|Rudishva]].
 - [[sessions/Session 32 - Fast Exploration.md|Session 32 - Fast Exploration]]: The party attempted to open a round door on the Arden level using Rudishva IDs; Vael's orange ID worked, but Vallium's brown ID did not.
+- Akla-Chah believes Salorikus (one of the survivors named in *The Ancient Ones*) is probably Psalor-Ki, the first Rudishva born on this planet — a very big deal at the time.
 
 ## Notes
 

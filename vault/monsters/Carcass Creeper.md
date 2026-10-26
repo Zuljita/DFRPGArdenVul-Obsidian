@@ -29,3 +29,4 @@ Often found in areas with dead bodies or carrion.
 
 ## Sessions
 - [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]
+- [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]

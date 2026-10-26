@@ -25,6 +25,7 @@ related_entities:
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]
 - [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]
 - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]]
+- [[sessions/Session 43c - Looting the Cult of Set.md|Session 43c - Looting the Cult of Set]]
 
 ## History
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]] — The [[locations/Azure Keep.md|Azure Keep]] is home to the local sept of the [[factions/Knights of the Azure Shield.md|Knights of the Azure Shield]].
@@ -34,6 +35,7 @@ related_entities:
 - [[npcs/Sir Lucia.md|Sir Lucia]] is a [[npcs/Knight Commander.md|Knight Commander]] of the [[Order of the Azure Shield]].
 
 ## Notes
+- The Knights have been involved in the ongoing restoration of the Azure Keep for the past twenty-five years. [[notes/Discord Summary 2026-W32.md|Discord Summary 2026-W32]]
 
 ## Members
 

@@ -39,3 +39,4 @@ TBD
 - The Varumani-run facilities are currently threatened by Kerbog Khan, who reportedly kidnaps Varumani.
 - The Upper Lift Station is located at the top of the lifts.
 - The cross-chasm ferry travels to a garden island floating in the center of the Chasm.
+- A Pathfinder check regarding the "right" way to the troll lifts yielded no sensed path.

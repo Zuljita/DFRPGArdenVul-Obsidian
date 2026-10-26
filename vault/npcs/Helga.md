@@ -16,3 +16,4 @@ Helga is a member of Dalton's Darlings.
 - [[sessions/Session 7 - Why Did It Have to Be Plants.md|Session 7 - Why Did It Have to Be Plants]]
 - [[sessions/Session 16 - Random Scorpion Teleport to the Hall of Judgment.md|Session 16 - Random Scorpion Teleport to the Hall of Judgment]]
 - [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a - Never Trust a Scorpion]]
+- [[sessions/Session 67 - Tuftwillig and Kerbog Khan's Kids.md|Session 67 - Tuftwillig and Kerbog Khan's Kids]]

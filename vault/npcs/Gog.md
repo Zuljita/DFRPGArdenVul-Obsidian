@@ -33,6 +33,7 @@ appears_in:
 - The [[Cave of Gog]] and the Wet Caves are part of a route leading to Goblintown.
 - A concealed door in the baboon facade area provides a passage down toward Gog's cave and the Arena level.
 - As a Varumani, he can regenerate unless killed by fire or acid.
+- Does not like halflings, preferring the company of goblins.
 
 ## Discord Insights
 

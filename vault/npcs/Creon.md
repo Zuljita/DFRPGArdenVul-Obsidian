@@ -35,5 +35,7 @@ appears_in:
   - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — [[npcs/Creon.md|Creon]] sent Vael a note that he had some newly arrived magical items.
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]] — Sent Vael a note regarding newly arrived magical items (a magical knife, scale armor, and an invisibility potion); Vael paid him a tip for continued early notification.
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30]] — Sent Vael a note regarding newly arrived items, including an expensive magical knife, scale armor, and an invisibility potion.
+- [[notes/Discord Summary 2025-W30.md|Discord Summary 2025-W30]] — Offered an *Air Jet Wand* (37 charges, non-rechargeable) for $13,000.
+- [[notes/Discord Summary 2025-W40.md|Discord Summary 2025-W40]] — Provided a tip that led to the purchase of a *Potion of Frost Cage* for $500.
 
 ## Notes

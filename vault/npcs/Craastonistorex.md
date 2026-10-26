@@ -34,6 +34,7 @@ Hostile and extremely dangerous, but willing to negotiate if it serves his inter
 - The party planned to leave a set of silver chess pieces on the dam as tribute for him.
 - The plan to leave tribute on the dam was still being pursued in [[sessions/Session 31 - I Want to Believe.md|Session 31]].
 - He is an ancient dragon.
+- Following his death, the company focused on identifying his hoard and processing his remains (including claws, teeth, blood, heart, etc.).
 
 ## Relationships
 - [[Briar]]: pet wyvern serving as a scout and enforcer.

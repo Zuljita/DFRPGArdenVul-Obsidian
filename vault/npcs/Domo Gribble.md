@@ -25,3 +25,5 @@ appears_in:
 - Big goblin, not quite as big as Weskenim. Middle aged. Executive-style black hair. Wears a goblin military uniform with no insignia.
 - Lord of the [[locations/Forum of Set.md|Goblin Forum]]
 - Brother of King [[npcs/Weskenim.md|Weskenim]]
+- One of King Weskenim's advisors
+- Also referred to as Prince of the Goblin Forum

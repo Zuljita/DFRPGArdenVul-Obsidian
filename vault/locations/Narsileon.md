@@ -25,7 +25,7 @@ TBD
 ## Inhabitants
 
 TBD
-- [[npcs/Basil of Narsileon.md|Basil of Narsileon]]
+- [[npcs/Basil.md|Basil of Narsileon]]
 - Keko the Lame (Head of the Drome branch)
 - [[npcs/Claudine of Narsileon.md|Claudine of Narsileon]]
 

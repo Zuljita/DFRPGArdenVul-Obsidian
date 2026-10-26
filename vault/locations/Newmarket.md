@@ -41,6 +41,7 @@ TBD
 - The Temple of Thoth has been trashed to the point where it is no longer of High sanctity.
 - Critical successes for Carousing rumors should be directed toward the Tower of the Ape. [[locations/Tower of the Ape.md|Tower of the Ape]] [[notes/Discord Summary 2025-W25.md|Discord Summary 2025-W25]]
 - The Temple of Thoth is the destination for Lillian to deliver a letter of introduction. [[locations/Temple of Thoth.md|Temple of Thoth]] [[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]]
+- Lord Burdock holds Newcastle near Newmarket. [[notes/Discord Summary 2026-W35.md|Discord Summary 2026-W35]]
 
 ## Discord Insights
 

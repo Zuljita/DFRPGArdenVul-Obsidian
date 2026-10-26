@@ -44,6 +44,8 @@ The Beacon's facility relies on her machine for food and drink.
 - In [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]], Akla-Chah confirmed that not all Beacon crew members were accounted for and that it was possible some were still alive, though the Beacon crashed a very long time ago. Ioannes went through the crew roster with her and tentatively identified the [[npcs/Arena Lord.md|Arena Lord]] as **Entertainment Officer Crellik-Var**.
 - In [[sessions/Session 34c - Burglary and Death.md|Session 34c]], Vael hired [[npcs/Basil.md|Basil of Narsileon]] to turn pages for Akla-Chah and [[npcs/Stamelis.md|Stamelis]] in the Beacon.
 - Vallium Halcyon provided reading materials for Akla-Chah and Stamelis during downtime in the Beacon.
+- Vael advanced his written [[factions/Rudishva.md|Rudishva]] proficiency to "Accented" through intensive glyph study with her. [[notes/Discord Summary 2026-W32.md|Discord Summary 2026-W32]]
+- Vael conducted mapping of the [[Beacon]]’s annex and surrounding chambers to assist her with sanitation planning. [[notes/Discord Summary 2026-W00.md|Discord Summary 2026-W00]]
 
 ## Sessions
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]

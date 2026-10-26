@@ -23,3 +23,4 @@ She was trapped in a Bead of Force sphere in Session 42a alongside Thronebreaker
 - [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42b - Neferet and the Wraiths]]
 - [[sessions/Session 30 - The Tomb of Theskalon.md|Session 30 - The Tomb of Theskalon]]
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
+- [[sessions/Session 69 - Clearing the Path to the Forum.md|Session 69 - Clearing the Path to the Forum]]

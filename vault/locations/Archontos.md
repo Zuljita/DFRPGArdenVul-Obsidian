@@ -13,3 +13,5 @@ tags:
 - The historical event involving Sligo the Devious and Leonidas occurred here approximately 1400 years ago ([[npcs/Leonidas of Archontos.md|Leonidas of Archontos]])
 - [[library/Great Villains of Archontos Part V- Priscus the Tratior.md|Great Villains of Archontos, Part V]] features Priscus the Tratior.
 - Leonidas was killed by assassins who entered through a Rug of Instant Access gifted to him by Sligo the Devious ([[notes/Discord Summary 2025-W43.md|Discord Summary 2025-W43]])
+- The company's banking branch does not exist in Archontos, requiring funds to be carried manually or transferred via legacy factors with significant time lag ([[notes/Discord Summary 2026-W39.md|Discord Summary 2026-W39]])
+- The property named in the company's Archontos Property Deed was destroyed by an earthquake and replaced by a temple ([[notes/Discord Summary 2026-W34.md|Discord Summary 2026-W34]])

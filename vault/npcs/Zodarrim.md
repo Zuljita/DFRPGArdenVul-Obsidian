@@ -17,6 +17,8 @@ The faith of [[npcs/Zodarrim.md|Zodarrim]] is a monotheistic religion practiced 
 - Uvash has attempted to convert humans to dwarven monotheism.
 - Uvash has been observed attempting to convert humans to the dwarven monotheistic faith.
 - [[sessions/Session 15 - The Great Cavern Re-Revisited.md|Session 15]] — Uvash attempted to convert humans to dwarven monotheism.
+- Uvash's flock consists of 52 members, including 42 dwarves, 8 humans, and 2 imperial goblins.
+
 ## The Clergy of [[npcs/Zodarrim.md|Zodarrim]]
 Several clerics of [[npcs/Zodarrim.md|Zodarrim]] have been encountered by the party, suggesting an organized priesthood.
 

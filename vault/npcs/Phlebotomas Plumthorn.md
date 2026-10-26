@@ -34,6 +34,7 @@ Following the defeat of his gang by the United Goblins, the Halls of Thoth were 
 - **Plumthorn's Keys:** His original keys were stripped from him and copies were subsequently provided to the goblins.
 - He avoided conducting his criminal operations within established towns.
 - Three copies of his original keys were produced at a cost of $30 ($10 per key).
+- **"The Hack's Special":** Sells a dangerous narcotic known as "mushroom ale" that renders the user subject to suggestion.
 
 ## Relationships
 - **[[npcs/Roskelly Winterleaf|Roskelly Winterleaf]]:** [[npcs/Phlebotomas Plumthorn.md|Phlebotomas Plumthorn]]'s primary lieutenant, responsible for managing the day-to-day operations of the toll collection. He was killed by [[npcs/Merenuithiel Lacrymosa Armaris|Lacrymosa]] while attempting to flee during the party's final assault.

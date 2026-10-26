@@ -59,6 +59,7 @@ He was also hired by the group for a mission to the Great Cavern in Session 11, 
 ## Earlier Appearances
 - [[sessions/Session 11 - The Great Cavern Redux.md|Session 11 - The Great Cavern Redux]]
 - [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]
+- [[sessions/Session 28 - Teleport Rugs and Baboons.md|Session 28 - Teleport Rugs and Baboons]]
 
 ## Notable Traits
 Works alongside the party and other delvers in the Great Cavern region. Noted for brute strength and practical problem-solving when faced with traps, doors, and heavy obstacles.

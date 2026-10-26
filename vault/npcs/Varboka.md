@@ -17,6 +17,7 @@ The Thegn of the Varumani — ruler of all loyal Varumani within Arden Vul and t
 - Rules all loyal Varumani of Arden Vul; the Varumani are considered the most powerful faction in the Halls.
 - Hard to find much information about Varboka outside the Halls.
 - The party intends to meet him; Ioannes has researched him in preparation.
+- He paid the company a gold bounty for kaliyani teeth and confirmed they could recharge his power supplies. ([[sessions/Session 68 - Ambushed!.md|Session 68]])
 
 ## Research
 - Name and role confirmed by Ioannes via Research during town actions. ([[notes/Discord Summary 2026-W06.md|Discord Summary 2026-W06]])

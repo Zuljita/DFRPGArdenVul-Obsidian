@@ -79,6 +79,8 @@ Vallium personally led the push into the Forum of Set across multiple sessions, 
 One of his more characteristic moments came in [[sessions/Session 49 - Demons and Mummies.md|Session 49]], when the party found a candle-lit room in the Halls. Rather than leave, Vallium stayed alone until the last candle guttered out to see what would happen. A blood-red tentacled demon appeared and gated in two more ape-like demons. Vallium's response: attack first. The party helped from outside and they prevailed. He wears three patches on his clothing — the Halfling-Killer, the Goblin Scepter, and the 11 Tankards — memorializing campaign milestones. He also wore Behir Light Leather after the behir kill, having a full suit crafted from its hide.
 
 In [[sessions/Session 47 - The No Mana Zone.md|Session 47]], he and Ioannes met with Roger the Rapier's company, the [[Five Fingers of Destiny]], explained the Beacon's danger, and warned them to stay away — a notably generous act for a party protective of its base. He was also present for the audience with [[Varboka]], Thegn of the Varumani, in [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]]. See [[Right for Riches Company]] for the deal terms.
+- He successfully brewed an Alkahest Grenade ( [[notes/Discord Summary 2026-W14.md|Discord Summary 2026-W14]]).
+- He purchased a Ghost Weapon Broadsword for $30,000 ( [[notes/Discord Summary 2026-W40.md|Discord Summary 2026-W40]]).
 
 ## Goals & Hooks
 

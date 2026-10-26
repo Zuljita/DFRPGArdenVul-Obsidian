@@ -37,6 +37,8 @@ The [[locations/Arena.md|Arena]] he presides over is located near the Varumani L
 
 ## Identification
 In [[sessions/Session 46 - The Arena Lord and the Inn of the Lost.md|Session 46]], Ioannes went through the Beacon's crew roster with [[npcs/Akla-Chah.md|Akla-Chah]] and believed he recognized the Arena Lord as **Entertainment Officer Crellik-Var**. Akla-Chah confirmed that not all Beacon crew members were accounted for and that it was possible some were still alive, though the Beacon crashed a very long time ago.
+- Research suggests he may be an undead entity with no known name who has ruled the arena for centuries and holds absolute authority over gladiators and combat rules.
+- His authority includes governing the life or death of combatants.
 
 ## Notes
 - The red bracelet he wears may be the second Rudishva Command Bracelet that [[npcs/Temrin.md|Temrin]]'s map indicated was located in the Arena.

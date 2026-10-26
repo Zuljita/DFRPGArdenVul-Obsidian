@@ -29,6 +29,8 @@ A young, vain mage and co-owner of the [[Arcane Practitioners' Club]]. She was f
 - Onyx noted that she was 'insufficiently attentive because of her own problems with some human.'
 - Along with Lyssandra, she identified the [[items/Rod of Imperium.md|Rod of Imperium]] as a significant artifact of Archonal power. ([[notes/Discord Summary 2025-W17.md|Discord Summary 2025-W17]])
 - Identified the Shortsword (Luck Blade Variant) as a fine and balanced weapon that assists in resisting spells, though it has no remaining "Wishes" to grant.
+- Noted that she found the variations between pairs of custom footwear difficult to distinguish. ([[notes/Discord Summary 2026-W40.md|Discord Summary 2026-W40]])
+- Ioannes scheduled an appointment with her for a "milk date." ([[notes/Discord Summary 2025-W42.md|Discord Summary 2025-W42]])
 
 ## Sessions
 

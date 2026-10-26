@@ -26,3 +26,4 @@ None specified.
 Often found in ancient, undisturbed locations, rising from accumulated dust.
 
 ## Sessions
+- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]

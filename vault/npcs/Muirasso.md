@@ -21,3 +21,5 @@ Powerful undead wight, formerly a cleric of [[Thoth]], now guarding his tomb. Ho
 - Attacked Vallium with a glowing broadsword.
 - Zombies emerged from bas reliefs in the walls during his encounter.
 - Jumped out of his sarcophagus to attack Vallium upon being disturbed.
+- Looted from his sarcophagus were ancient silver and copper coins, a magic jug, and flasks containing bright blue liquid.
+- Sarcophagi in his tomb contained canopic jars that released green gas when disturbed.

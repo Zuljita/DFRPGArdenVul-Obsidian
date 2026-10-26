@@ -27,6 +27,7 @@ The [[locations/Waterfall.md|Waterfall]]
 - The party also recovered a magic cauldron during the session.
 - The party used magical flight to ascend from the well back to the surface.
 - The area contains a magic pool that can cause poisoning. ([[sessions/Session 22 - The Oracle of Thoth and The Litany of Light.md|Session 22]])
+- A small room contains benches and a Mithric inscription: 'Let the Faithful Render Honor and Glory to the Light Which Reveals All'. [[sessions/Session 18 - Back Down the Well of Light.md|Session 18]]
 
 ## Maps
 - ![[attachments/discord/screenshots/1494877749725364234-image.png]] — A dungeon map showing the West of Well of Light and surrounding chambers.

@@ -106,6 +106,8 @@ Vaelitharon "Vael" Sunshadow is a 47-year-old half-elven mage who studied magic 
 - [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]]: negotiated the Kerbog Khan contract with Varboka. Earlier in the session, spotted and spoke to one of Kerbog Khan's dragonfly constructs in the slime pits — Khan's voice emerged from it; Vael told him not to follow them. Refused to sell the Rudishva Command Bracelet to either the lift operator Trijax or Varboka.
 
 ## Notes
+- Has previously prepared several *Gaseous Form* potions, which are currently stored at the beacon.
+- Purchased **Fine, Ornate +3 Clothing** from [[npcs/Tasha.md|Tasha]] ($2,280).
 
 ## Character Sheet Snapshot
 

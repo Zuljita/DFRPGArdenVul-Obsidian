@@ -37,12 +37,14 @@ Familiars are often imbued with magical qualities and share a bond with their ma
 - Met the other cats while looking for a way out of the Great Cavern.
 - Disliked his primitive lifestyle of eating mice and small lizards and sleeping in a damp cave.
 - Was looking for a way out of the Great Cavern so that the cats could find a wizard to adopt them and provide a civilized existence.
+- Ioannes Grammatikos Byzantios drafted a Last Will and Testament naming Onyx the Cat as his heir to his personal estate.
 
 ## Sessions
 - [[sessions/Session 34c - Burglary and Death.md|Session 34c - Burglary and Death]]
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 37 - Deino and the Eyeballs.md|Session 37 - Deino and the Eyeballs]]
 - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
+- [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]]
 
 ## Discord Insights
 

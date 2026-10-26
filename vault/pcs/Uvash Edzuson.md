@@ -60,6 +60,7 @@ He has since continued in his dual roles as front-line combat cleric and parish 
 - Uvash carries Holy Water ×3 and refuses to touch anything Set-related before it has been bathed in Holy Water.
 - His AI-generated portrait shows him with a large sundial pendant and a "ROCK AND STONE" belt buckle; the reference photo used by the player is of Graham McTavish.
 - A blueprint for a proposed church layout in Gosterwick exists in the attachments.
+- Acquired the Weapon Master (Mace) advantage.
 
 ## Appears In
 - [[sessions/Session 1 - First Visit to the Ruins of Arden Vul.md|Session 1 - First Visit to the Ruins of Arden Vul]]

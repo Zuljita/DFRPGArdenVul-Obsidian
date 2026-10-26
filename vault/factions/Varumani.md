@@ -30,6 +30,7 @@ The term 'troll' is an Archontean translation of the Mithric word *varumani*.
 They are considered the most powerful faction in the Halls.
 
 The faction is currently threatened by Kerbog Khan, who reportedly kidnaps Varumani for unauthorized medical experiments.
+- The Varumani consider the term "troll" to be derogatory.
 
 ## Culture
 - Varumani crew historically subsisted on ration cakes, with a noted preference for the "flying desert avian" flavor. ([[notes/Discord Summary 2026-W22.md|Discord Summary 2026-W22]])

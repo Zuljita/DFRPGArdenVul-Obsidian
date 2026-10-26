@@ -25,6 +25,8 @@ A fortified tower complex connected to the caverns south of the [[locations/Howl
 - At the conclusion of the battle, Ioannes was left unconscious on the Arden Vul side of the teleporter.
 - Tikun Thane's three retreats were caused by a Magebane grenade, Vallium eliminating Disciplined on the stairs, and Vallium engaging him in melee on the balcony.
 - In a middle level of the tower, the party encountered the bodies of approximately twelve Disciplined and several baboons.
+- The tower contains a magical cold storage room filled with fresh meat.
+- The prisoners in the cells had been captured by Settite slavers and sold to Tikun Thane, having been forced to fight each other with sticks as part of their training.
 
 ## Sessions
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]

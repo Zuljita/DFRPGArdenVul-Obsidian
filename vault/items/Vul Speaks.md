@@ -24,3 +24,4 @@ A work in Mithric authored by Vul the Sorceror. You are not sure if all of it wa
 
 ## Content
 > You are not sure if all of it was actually written by Vul.  There are discussions of Vul's travels, his life with Arden, mastering arcanum, and building a house and laboratory "within sight of the city that bears my name."  There's a lot of magical theory that's hard to follow.
+- [[notes/Discord Summary 2026-W39.md|Discord Summary 2026-W39]] - Research noted accounts of Arden Vul habitation and travel, but found no mention of the bridge.
