@@ -18,6 +18,8 @@ He was apparently big on self-promotion, and some of his party's exploits were l
 - He and [[Wicktrimmer]] have argued about whether [[Larel]] existed for 20 years.
 - His co-leader in the [[Lost and Found]] was the paladin [[Grimley]].
 - The [[Lost and Found]] party explored as far as the [[Obsidian Gates]] during his career.
+- The [[Larel's Pin]] is a stiletto disguised as a letter opener, found within a Thothian funerary complex alongside a golden apple and love notes.
+- A staff with "Balthazar" engraved on it was discovered in the sands of the Great Cavern.
 
 ## Discord Insights
 

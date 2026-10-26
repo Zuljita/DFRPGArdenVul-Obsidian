@@ -53,6 +53,8 @@ He maintains a court with a major-domo named [[npcs/Palestrim|Palestrim]] and ad
 
 - Received a portion of an ancient goblin treasury from the [[factions/Five Fingers of Destiny.md|Five Fingers of Destiny]] and initiated a city-wide celebration; promoted [[npcs/Temrin.md|Temrin]] to Royal Artist and commissioned him to locate the [[items/Scepter of the Goblins.md|Scepter of the Goblins]]. ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter / Flute of the Goblins]])
 - In Session 43c, agreed to take over the conquered Forum of Set and appointed his brother [[npcs/Gribble.md|Gribble]] as its new Lord.
+- The [[items/Scepter of the Goblins|Scepter of the Goblins]] is a flute carved from a troll femur. [[notes/Discord Summary 2026-W00.md|Discord Summary 2026-W00]]
+- Delivering jewelry to him is required to secure the right to commission maps from [[npcs/Temrin|Temrin]]. [[notes/Discord Summary 2026-W38.md|Discord Summary 2026-W38]]
 
 ## Sessions
 - [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]

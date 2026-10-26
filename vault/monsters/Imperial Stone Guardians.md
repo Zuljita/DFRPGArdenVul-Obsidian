@@ -19,6 +19,8 @@ Two were noted as significant NPCs during Session 31.
 
 An Imperial Stone Construct was destroyed alongside wraiths during Session 42b.
 
+They were also present during Session 63, though they did not deal significant damage.
+
 ## Sources
 - [[sessions/Session 31 - I Want to Believe.md|Session 31 - I Want to Believe]]
 - [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]

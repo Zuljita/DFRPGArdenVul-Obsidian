@@ -24,6 +24,7 @@ She is the sister of [[npcs/Varboka.md|Varboka the Thegn]].
 ## Notes
 - Stated she could put in a good word with the Thegn in exchange for the rescue.
 - Her arrival in Varumani territory after this session is untracked — potential future hook.
+- Her brother, [[npcs/Varboka.md|Varboka the Thegn]], noted that the Khan's actions against her were "unspeakable" and required his death. [[sessions/Session 55 - Varboka the Varumani Thegn.md|Session 55]]
 
 ## Appears In
 - [[sessions/Session 52b and 53 - Behir, Varumani, and the Surgical Construct.md|Session 52b and 53 - Behir, Varumani, and the Surgical Construct]]

@@ -21,11 +21,13 @@ A ring, often simple in appearance, that provides continuous magical protection 
 - Magical.
 - Grants freedom of movement.
 - Protects against paralysis, entanglement, etc.
+- Does not grant the ability to pass through solid walls, even when interacting with magical barriers like the Force dome.
 
 ## Known History
 A highly sought-after magic item for adventurers. The party possesses one.
 
 ## Notes
+- Purchased for $50,000 by Vaelitharon Sunshadow. - [[notes/Discord Summary 2026-W41.md|Discord Summary 2026-W41]]
 
 ## Sessions
 - [[sessions/Session 5 - Parleys and The Great Cavern.md|Session 5 - Parleys and The Great Cavern]]

@@ -22,12 +22,14 @@ They were considered heretical for many reasons, including:
 - Creating "graven images" in the form of magical statues of their leader for worship. Rituals involving these statues sometimes used magical eyes to achieve effects like passing messages or teleportation.
 - Their magical eyes were made of silver, gold, and sapphire, each containing an actual human eye as an ingredient.
 - Rituals involving these statues could use magical eyes to cause nearby children to disobey their parents.
+- According to *Rise of the Sortians*, they rose up against the Order of Thoth and the great temples of Thoth, Set, and Horus. ([[notes/Discord Summary 2026-W39.md|Discord Summary 2026-W39]])
 
 ## History
 The Sortians' rebellion against the established order led to a long and costly Civil War. The conflict is blamed for the abandonment of the [[Exarchate of Narsileon]] and setting the Empire back a thousand years.
 
 Though the Empire survived with smaller borders and spell use was eventually opened up, the Sortians and their leader [[Priscus Pulcher]] (who was executed by an Exarch) are still considered traitors.
 - Their rebellion is associated with the war of the Sortians and Theosophs.
+- Their leader was Priscus Pulcher, who had a close connection with the Elder Ally Yasidoranicil. ([[notes/Discord Summary 2026-W39.md|Discord Summary 2026-W39]])
 
 ## Notes
 - Information about them is found in the [[Book of Priors]] and in old books in the [[Library of Mitra]].

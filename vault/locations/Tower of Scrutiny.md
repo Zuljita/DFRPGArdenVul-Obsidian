@@ -26,6 +26,8 @@ The tower contains a room with two doors and four passages leading out.
 - In Session 1, the top floor featured wooden stairways leading down into darkness that appeared quite rotten.
 - During their Session 1 visit, the party recovered magical halfling-sized leather armor, two sets of scale armor, two shortswords, a bandoleer of seven throwing daggers, two scroll cases, and a small golden ornament of a man's head.
 - During the initial visit in Session 1, the party found magical halfling-sized leather armor, two sets of scale armor, two shortswords, a bandoleer of seven throwing daggers, two scroll cases, and a small golden ornament of a man's head.
+- The Heqeti Ring was recovered from the finger of a corpse found within the tower.
+- An ancient letter from Uriel Basileon to Kel Bormol says the Second Overseer fled the Sortian onslaught and cowered within the tower, refusing entry to all. ([[notes/Discord Summary 2026-W00.md|Discord Summary 2026-W00]])
 
 ## Sessions
 - [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29 - The Tower of Scrutiny]]

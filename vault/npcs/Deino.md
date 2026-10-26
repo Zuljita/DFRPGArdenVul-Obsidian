@@ -17,6 +17,7 @@ Powerful beastman matriarch called "Mother," allied with [[npcs/Count Skleros.md
 - Offered limited military support (a tagma) against the dragon threat.
 - A wizard.
 - Leads a group known as the Children of Deino.
+- She stopped paying tribute to [[npcs/Craastonistorex.md|Craastonistorex]], and the dragon began eating her beastmen; he demanded she resume paying or he would eat more of her kids. ([[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36]])
 
 ## Portraits
 

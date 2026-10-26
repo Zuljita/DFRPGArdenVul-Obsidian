@@ -24,6 +24,7 @@ Lasselanta "Chrysalis" Ashcroft is a Half-Elven mercenary martial artist affilia
 In Session 13, she was hired by Ioannes alongside the druid 'Goat'.
 
 She is played by Archon Shiva.
+- Successfully collected bounties for a Strix ($25), a Giant Centipede ($50), and a Mountain Lion ($200).
 
 ## Known Abilities
 - **Blind Fighting** — can fight effectively while blinded; Neferet's blinding spells were only a minor inconvenience to her.
@@ -32,6 +33,7 @@ She is played by Archon Shiva.
 - **Staff of Blue Light Origin** — purchased from the Left for Loot company after it was discovered in the Great Cavern.
 - Wields dual long staves with specialized parrying capabilities at range 2-3; her spear is equipped with a $880 power item providing 7 FP.
 - Successfully parried an attack from Yrtol in Session 13 using her glowing blue staff.
+- **Character Advancement (2026-W38):** Will increased to 11; Lifting Strength increased from 1 to 2; acquired Weapon Master advantage (specializing in the simultaneous use of Staff and Longstaff); Enhanced Parry (Staff) increased from +1 to +2; Innate Attack (Projectile) decreased to -11; Staff proficiency increased from 20 to 22.
 
 ## Actions in Sessions 42a–42b
 
@@ -62,6 +64,7 @@ Mariposa is Chrysalis's monkey familiar. A gargoyle in the Great Hall swooped at
 ## Appears In
 - [[sessions/Session 42a - Neferet.md|Session 42a - Neferet]]
 - [[sessions/Session 42b - Neferet and the Wraiths.md|Session 42b - Neferet and the Wraiths]]
+- [[sessions/Session 13 - Yrtol and the Turtle.md|Session 13 - Yrtol and the Turtle]]
 
 ## Earlier Appearances
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]

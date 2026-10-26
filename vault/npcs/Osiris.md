@@ -13,6 +13,7 @@ appears_in:
 ## Appears In
 - [[sessions/Session 2 - Halfling Rent-Seekers.md|Session 2 - Halfling Rent-Seekers]]
 - [[sessions/Session 19 - The Pool of Donkey Ears.md|Session 19 - The Pool of Donkey Ears]]
+- [[sessions/Session 57b - The Engine Room.md|Session 57b - The Engine Room]]
 
 ## History
 

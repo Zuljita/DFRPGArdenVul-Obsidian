@@ -32,6 +32,9 @@ Basil is a young Archontean man from [[locations/Narsileon.md|Narsileon]], rescu
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 - [[sessions/Session 44 - Clearing the Goblin Forum.md|Session 44]]
 - [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
+- [[sessions/Session 36 - Rescuing Deino's Kids.md|Session 36 - Rescuing Deino's Kids]]
+- [[sessions/Session 70 - Shopping in Archontos.md|Session 70 - Shopping in Archontos]]
+- [[sessions/Session 67 - Tuftwillig and Kerbog Khan's Kids.md|Session 67 - Tuftwillig and Kerbog Khan's Kids]]
 
 ## Session Notes
 

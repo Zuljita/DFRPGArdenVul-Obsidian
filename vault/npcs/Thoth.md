@@ -98,6 +98,9 @@ His wife is [[npcs/Maat.md|Maat]], often symbolized by a feather.
 
 - A rumor suggests that while Thoth represented the light of knowledge that erased the darkness of ignorance, he was also the guardian of secrets, revealing his most potent wisdom only to the devout.
 - Another rumor claims that the numerous statues of [[npcs/Thoth.md|Thoth]] have eyes made of huge gemstones. Removing these gems is said to allow the bearer to contact [[npcs/Thoth.md|Thoth]] directly, but doing so causes the statues to animate and attack. This is corroborated by a piece of graffiti found in the [[locations/Pyramid of Thoth.md|Pyramid of Thoth]].
+- The first priests of the Ibis Lord utilized a three-part ritual involving specific poses of the three main images of the God to reveal the treasury.
+- Gnaeus, a Thothian cleric, founded the temple in Arden and later became Ptoh-Ristus.
+- The book *Thoth in All His Forms* (by Gaufridus magister) contains an alphabetical list of Thoth's forms and four secret names.
 
 ## Discord Insights
 

@@ -19,6 +19,9 @@ Jenks is a halfling adventurer and member of the [[factions/Five Fingers of Dest
 - Accompanied [[npcs/Roger.md|Roger the Rapier]] and the Five Fingers of Destiny to demonstrate the secret of the Treasury of [[npcs/Thoth.md|Thoth]] to the Right for Riches company.
 - Demonstrated his skill with a sling by shooting a Continual Light bullet across the Great Chasm to illuminate the ibis-headed statue of Thoth.
 - Capable of finding and disabling traps, as evidenced by his discovery of a trap on the treasury door.
+- Provided intelligence regarding the "hoppers"—a toad-like race believed to be the original builders of Arden Vul.
+- The identity of the group that intercepted his treasure remains unknown.
+- His current status and location are unconfirmed, as it is unclear if he is intentionally avoiding contact or if communications have failed.
 
 ## Relationships
 - [[npcs/Roger.md|Roger the Rapier]]: Leader of the Five Fingers of Destiny

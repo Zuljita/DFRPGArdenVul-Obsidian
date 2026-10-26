@@ -25,6 +25,7 @@ aliases:
 - The site is a cavern system discovered by [[npcs/Arden.md|Arden]] and [[npcs/Vul.md|Vul]].
 - The [[factions/Second Chance Company.md|Second Chance Company]] is an adventuring party operating in the Arden Vul area.
 - The city founded at the site was later named in honor of Arden and Vul.
+- An insignia of the II Legion (a sheep's head) was found on a cave floor under the stalls in the Varumani market.
 
 ## Discord Insights
 

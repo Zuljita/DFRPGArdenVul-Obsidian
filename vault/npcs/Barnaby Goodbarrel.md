@@ -18,6 +18,8 @@ He was hired by the adventuring party to create their company charter and to rev
 - **Initial Consultation:** $100
 - **Company Charter ([[locations/Gosterwick.md|Gosterwick]]):** $500. This requires approval from [[Eusebia Phokas]], the [[Thesmothete of Vetucaster]], and can take several weeks. He accepted a $750 fee to "rush" the process.
 - **Retainer:** For a starting fee of $500, Barnaby can be kept on retainer. This includes a confidentiality clause, makes him on-call for any work in [[locations/Gosterwick.md|Gosterwick]], and gives the client priority over others.
+- **Official Meeting Escort:** $200
+- Property Investigation (e.g., Archontos): $100
 
 ## Reputation
 Barnaby has a reputation for keeping his word. He is also known for being exceptionally well-informed about the happenings in [[Gosterwick]], a trait some attribute to his practice of hiring wizards. He is motivated to be reliable as he competes with established Imperial Factors.
@@ -32,6 +34,7 @@ Barnaby has a reputation for keeping his word. He is also known for being except
 - [[Wicktrimmer]] and the [[Rarities Factor]]: frequent counterparty in artifact contracts.
 - PCs: formed companies, reviewed contracts, and provided ongoing legal guidance.
 - Michael J. Dundee: Handled separation agreement for his departure from the party.
+- [[pcs/Ioannes Grammatikos Byzantios.md|Ioannes]]: Entrusted (with Basil) with executing his Last Will and Testament. ([[notes/Discord Summary 2026-W15.md|Discord Summary 2026-W15]])
 
 ## Discord Insights
 

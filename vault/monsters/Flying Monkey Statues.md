@@ -28,6 +28,7 @@ Three instances have been recorded.
 ### Huge-Eyes Variant
 - Noted for oversized eyes.
 - Potential visual/sensory specialization.
+- Fire can shoot out of its eyes.
 
 ## Significant Notes
 - Both variants are recorded in the same operational context and are likely related manifestations of one construct line.
@@ -36,3 +37,4 @@ Three instances have been recorded.
 
 ## Sessions
 - [[sessions/Session 3 - Dragons and Baboons and Beastmen, Oh My!.md|Session 3 - Dragons and Baboons and Beastmen, Oh My!]]
+- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17 - Cleaning Out the Vermin]]

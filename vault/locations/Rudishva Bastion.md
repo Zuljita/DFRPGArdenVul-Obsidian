@@ -22,6 +22,8 @@ Includes the Chamber of the Tablet of the Beacon.
 - Silver-colored Rudishva credential variant recovered during bastion operations.
 - Features a cave outside where point defense turrets are located.
 - The yellow identity plaque can be used to activate the complex's teleporter panels.
+- This area is a fragment of the crashed *Beacon*, containing quarters for the Captain, the First Officer, and the Security Officer (Akla-Chah).
+- Contains a library with Rudishva Glyphik scrolls and a translation work in progress for approximately 250 glyphs.
 
 ## Maps
 - ![[attachments/discord/screenshots/1502514827984240700-image.png]] — A dungeon map of Rudishva Bastion and the Chamber of the Tablet of the Beacon.

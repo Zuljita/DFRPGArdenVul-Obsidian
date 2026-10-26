@@ -23,6 +23,7 @@ A hostile wizard based in the [[locations/Tower of the Ape.md|Tower of the Ape]]
 - Came to the Howling Caves with bald human followers and kidnapped [[npcs/Bobo.md|Bobo]] and [[npcs/Bifki.md|Bifki]].
 - His base at the [[locations/Tower of the Ape.md|Tower of the Ape]] contains a deactivated teleporter that connects to the ruins of Arden Vul.
 - Avoided entering the Howling Caves while [[npcs/The Master.md|The Master]] was present.
+- Is one of the figures who oversees auctions along the slave route. ([[notes/Discord Summary 2026-W03.md|Discord Summary 2026-W03]])
 
 ## Sessions
 - [[sessions/Session 34a - Hunting the Thane.md|Session 34a - Hunting the Thane]]
@@ -40,6 +41,7 @@ A hostile wizard based in the [[locations/Tower of the Ape.md|Tower of the Ape]]
 
 - A reclusive Archontean wizard who owns the Tower of the Ape in Newmarket, rumored to have apes inside. ([[notes/Discord Summary 2025-W34.md|Discord Summary 2025-W34]])
 - Has a workshop where pieces of broken magic items were found. ([[notes/Discord Summary 2025-W51.md|Discord Summary 2025-W51]])
+- Rumors suggest the presence of white-furred apes within his tower. ([[notes/Discord Summary 2025-W35.md|Discord Summary 2025-W35]])
 
 ## Initial Identification
 - First appeared as 'The Thane', a wizard from [[locations/Newmarket.md|Newmarket]] who kidnaps baboons from the [[locations/Howling Caves.md|Howling Caves]]. ([[sessions/Session 33 - Nyema.md|Session 33 - Nyema]])

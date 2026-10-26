@@ -26,6 +26,7 @@ A major Setite stronghold in Arden Vul. The party repeatedly treats it as hostil
 - During [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38]], the party encountered Rolf, an enslaved Set prisoner and would-be human sacrifice.
 - A trap door in the ceiling leads to a cave featuring "Stilicho was here" graffiti.
 - During [[sessions/Session 38 - Another Attack on the Temple of Set.md|Session 38]], the party encountered Settite archers positioned below a 20' high cliff.
+- A vision revealed a male goblin and human female conversing with a red-haired, middle-aged woman previously seen in the temple [[notes/Discord Summary 2026-W09.md|Discord Summary 2026-W09]]
 
 ## Sessions
 - [[sessions/Session 23b - Disrupting Services in the Temple of Set.md|Session 23b - Disrupting Services in the Temple of Set]]

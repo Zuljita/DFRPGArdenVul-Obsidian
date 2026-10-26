@@ -47,6 +47,7 @@ She is described as a tall, slim, middle-aged woman with tanned skin, black hair
 - [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a - Revenge on the Set Cult]] — Dundee, Thorcin barbarian Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] Significant NPCs: Jador the Just, chief priestess of [[npcs/Mitra.md|Mitra]] in [[locations/Gosterwick.md|Gosterwick]] [[npcs/Audun Yellow-Eyes.md|Audun Yellow-Eyes]], logothete of the House of Sight ("[[factions/Drome.md|Drome]]") in [[locations/Gosterwick.md|Gosterwick]] Freydi...
 - [[sessions/Session 25 - Looking for the Back Door to the Forum of Set.md|Session 25 - Looking for the Back Door to the Forum of Set]] — In exchange they would give him the powerful magic stiletto Larel's Pin and right of first refusal on any magical or historical items the company or its members wanted to sell in the future (except for a few items which [[npcs/Lady Alexia Basileon.md|Lady Alexia Basileon]] speci...
 - A [[Basileon Signet Ring]] was found on the corpse of a noblewoman, possibly herself or a relative.
+- [[sessions/Session 8a - Never Trust a Scorpion.md|Session 8a]] — Purchased a magical rod and a magic shortsword from the party.
 
 ## Notes
 

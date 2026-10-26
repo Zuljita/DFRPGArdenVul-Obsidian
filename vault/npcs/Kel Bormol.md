@@ -13,6 +13,8 @@ tags:
 ## Notes
 - [[Archon Uriel Basileon]] intends to "smoke out" the [[Second Overseer]] and deliver him to [[Kel Bormol]] for punishment once conditions improve.
 - He often sent minions to fetch books with "an imperious note" stating that Library rules did not apply.
+- His Grimoire contains several previously unknown spells, including *Cleophalus's Look-Away Spell*, *Friend of the Hekate*, and *The Pummeling Fists of Arak-Zhorr*.
+- The message from Uriel Basileon also warned that agents had noticed a messenger from Hithra Paleologos entering the Tower of Scrutiny.
 
 ## Discord Insights
 

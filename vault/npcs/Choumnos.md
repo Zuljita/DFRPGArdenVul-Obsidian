@@ -24,6 +24,8 @@ The top floor also contains a chest containing several magical items that Choumn
 
 His recent enslavement was facilitated by the use of the Collar of Servitude.
 
+He has requested that overdue books from the Royal Library be returned to him.
+
 ## Sources
 - [[sessions/Session 59 - Choumnos and Kerbog.md|Session 59 - Choumnos and Kerbog]]
 - [[sessions/Session 60a - Hunting the Vampires.md|Session 60a - Hunting the Vampires]]

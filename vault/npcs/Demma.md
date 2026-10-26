@@ -37,6 +37,7 @@ The standard attire for [[npcs/Demma.md|Demma]]'s clergy consists of a long tuni
 ## Notable Followers
 - **[[pcs/Ioannes Grammatikos Byzantios|Ioannes Grammatikos Byzantios]]:** A player character and a scholarly, Archontean cleric of [[npcs/Demma.md|Demma]]. His personal attire is more ornate than that of the rural clergy, consisting of a deep blue tunic with golden embroidery and a red woolen cloak fastened with a bronze brooch.
 - **[[npcs/Vivian|Vivian]]:** The stern but fair Thorcin chief priest of the [[locations/Temple of Demma|Temple of Demma]] in [[locations/Gosterwick|Gosterwick]]. He is a practical leader who prioritizes aid to the rural poor and is capable of casting powerful spells, such as *Remove Curse*.
+- **Brother Lukas**: A priest of [[npcs/Demma.md|Demma]] identified by [[pcs/Ioannes Grammatikos Byzantios|Ioannes]].
 
 ## Associated Locations
 - **[[locations/Temple of Demma|Temple of Demma]]:** The temple in [[locations/Gosterwick|Gosterwick]] is a modest but well-maintained structure that serves as a center for healing, wisdom, and rural devotion. It is a frequent destination for the [[factions/Right for Riches Company|Right for Riches Company]] to receive healing and find refuge. The temple contains areas of 'Continual Light' and provides services at a 'book rate' under certain conditions.
@@ -46,6 +47,7 @@ The standard attire for [[npcs/Demma.md|Demma]]'s clergy consists of a long tuni
 [[npcs/Demma.md|Demma]]'s influence is felt frequently in the party's adventures, primarily through her cleric, [[pcs/Ioannes Grammatikos Byzantios|Ioannes]]. The [[locations/Temple of Demma|Temple in Gosterwick]] has proven to be a crucial resource, providing vital services like curse removal on multiple occasions.
 
 An early incident at the [[locations/Yellow Cloak Inn|Yellow Cloak Inn]], where an accidental *Continual Darkness* spell was cast on some bedsheets, resulted in clerics of [[npcs/Demma.md|Demma]] being forbidden from casting spells on the premises. The party also regularly visits the Demmasday market in town to procure supplies.
+- The company brought the automaton Corbel to the Church of Demma to seek spiritual guidance regarding the construct's "life." ([[notes/Discord Summary 2026-W37.md|Discord Summary 2026-W37]])
 
 ## Notes
 

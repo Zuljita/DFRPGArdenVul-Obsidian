@@ -12,6 +12,8 @@ appears_in:
 ## Appears In
 - [[sessions/Session 6 - Good Ghost, Bad Ghost.md|Session 6 - Good Ghost, Bad Ghost]]
 - [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
+- [[sessions/Session 60b - Killing Cinna Minux.md|Session 60b - Killing Cinna Minux]]
+- [[sessions/Session 58 - Vertical Exploration.md|Session 58 - Vertical Exploration]]
 
 ## History
 - [[sessions/Session 20 - The Outer Caverns of Set.md|Session 20 - The Outer Caverns of Set]] — # DFRPG [[locations/Arden Vul.md|Arden Vul]] Session 20: The Outer Caverns of [[npcs/Set.md|Set]] Date: Basilsday, 26th of Masporios, 2993 AE Weather: Hot, dry Player Characters: Uvash Edzuson, Dwarven cleric of [[npcs/Zodarrim.md|Zodarrim]] Vaelethron 'Vael' Sunshadow, Half-Elven mage Vallium Halc...

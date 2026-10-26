@@ -23,6 +23,7 @@ TBD
 - The shrine is a classic, three-chamber structure consisting of an ante-cella for congregation, a cella for main rituals, and a postern for administrative offices and clergy apartments.
 - Clerics empty the god's money bag each night.
 - The main cultic object is a colossal granite statue of Lucreon holding a money bag.
+- The priests charge a $100 fee for the appraisal of metals, which is collected via an offering box that deposits funds directly into "Lucreon's Coin Bag".
 
 ## Sessions
 

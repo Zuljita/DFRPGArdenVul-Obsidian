@@ -42,12 +42,14 @@ As the head of the [[Rarities Factor]], [[npcs/Wicktrimmer.md|Wicktrimmer]] offe
 - The [[Rarities Factor]] offers banking, letters, and mule caravans at slightly cheaper prices than competitors, though with a smaller geographical range.
 - Offers lifetime free banking at the [[Rarities Factor]] to parties that sell him magical artifacts verified as genuine by his wizard.
 - He provides concierge shopping services via message, though item delivery occurs at the speed of mule trains (approximately one month).
+- Provides various supplies, including trapfinding kits.
 
 ## Notable Interactions
 - **The Larel Artifacts:** [[npcs/Wicktrimmer.md|Wicktrimmer]]'s interest in collecting led him to negotiate a major deal with the Right for Riches Company for [[Larel's Pin]]. His motivation was partly personal, as he wanted to prove the existence of the legendary Larel to his old friend [[Balthazar the Blue]].
 - **Enemies of the Party:** He provided intelligence on the murder of [[Susarra]], attributing it to the [[Cult of Set]]. He also advised the party to be cautious of local politics involving [[Lady Alexia Basileon]], her half-brother [[Lord Iskander Burdock]], and the [[Drome]] in [[locations/Narsileon.md|Narsileon]], led by [[Keko the Lame]].
 - **Teleportation:** He is extremely interested in acquiring a reliable method of long-range (400-mile) teleportation to improve his business logistics.
- 
+- Provided information on a halfling named Jenks and a cleric named Klibo, though he refused to provide further details.
+
 ## Relationships
 - [[Lady Alexia Basileon]]: mutual respect; aligned on town order and trade vitality.
 - [[Right for Riches Company]]: frequent counterparties for artifact brokerage and financing.

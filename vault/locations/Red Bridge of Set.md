@@ -21,3 +21,4 @@ The Red Bridge of Set is a red granite bridge that spans a chasm within the doma
 - A force field at the Forum-side entrance blocks access from the chasm side, though it can be bypassed by flying to the balcony.
 - The torchlit balcony contains levers that can release poison gas depending on the combination used.
 - A hanging chest containing platinum bars, a magic helmet, and wrapped stone was suspended in the chasm here, protected by a wind trap.
+- On the north side of the bridge, there is a plaque with a riddle.

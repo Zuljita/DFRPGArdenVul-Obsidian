@@ -21,11 +21,11 @@ source_week: week-ending-2026-08-28-2300-central
 - Next Discord Summary: [[notes/Discord Summary 2026-W35.md|Discord Summary 2026-W35]]
 <!-- END AUTO NAV -->
 
-# Weekly Knowledge Base: Arden Vul
+# Weekly Knowledge Base: [[locations/Arden Vul.md|Arden Vul]]
 **Week Ending:** 2026-08-28 23:00 CDT
 
 **Summary**
-The company spent the week engaged in intensive scholarly pursuits, alchemical endeavors, and urban logistics. While significant progress was made in expanding magical knowledge and duplicating essential keys, efforts to manipulate the mechanical defenses of the Beacon via the iris valves were unsuccessful. Preparations are now focused on a multi-stage expedition through the snow and ice regions toward the Court of the Troll Thegn.
+The company spent the week engaged in intensive scholarly pursuits, alchemical endeavors, and urban logistics. While significant progress was made in expanding magical knowledge and duplicating essential keys, efforts to manipulate the mechanical defenses of the [[locations/Beacon.md|Beacon]] via the iris valves were unsuccessful. Preparations are now focused on a multi-stage expedition through the snow and ice regions toward the Court of the Troll Thegn.
 
 **Events & Actions by Character**
 
@@ -42,21 +42,21 @@ The company spent the week engaged in intensive scholarly pursuits, alchemical e
 * **Research undertaken and findings:** 
     * Investigated Lady Clementia, discovering she was revered as a protector and mother figure to the families of her husband's legions.
     * Inquired regarding the Archontos Property Deed; learned the property was destroyed by an earthquake and replaced by a temple.
-    * Inquired regarding Mt. Juventus Shares; no information was found.
+    * Inquired regarding [[locations/Mt. Juventus.md|Mt. Juventus]] Shares; no information was found.
     * Read *Sixteen Steps to Successful Administration*; concluded he could likely run a successful trans-empire trading company if he followed the steps.
 * **Character advancement:** None this and week.
 * **Equipment changes:** Purchased rations ($6) and a carousing boon ($125).
 
-**Ioannes Grammatikos Byzantios**
+**[[pcs/Ioannes Grammatikos Byzantios.md|Ioannes Grammatikos Byzantios]]**
 * **Town actions taken:** Conducted metadata research on various historical texts to identify authors.
 * **Alchemy/crafting attempts and results:** None this week.
 * **Research undertaken and findings:** 
-    * *Account of Cult of Set*: Written by Helena of Archontos.
+    * *Account of [[factions/Cult of Set.md|Cult of Set]]*: Written by Helena of Archontos.
     * *Elves are the Enemy*: Written by Holger of Archontos.
     * *Fraternal Triumph, or Taticus and Thekla Against the Troll*: Written by Verdonius the Blessed.
     * *Seventeen Uses of a Dead Troll*: Written by Jacobus One-Arm.
-    * *The Politics*: Written by Teracleon.
-    * *Writ (Kerbog Khan)*: Sealed by the College of Cinder in Narsileon and the House of Sight in Narsileon.
+    * *[[items/The Politics.md|The Politics]]*: Written by Teracleon.
+    * *Writ ([[npcs/Kerbog Khan.md|Kerbog Khan]])*: Sealed by the College of Cinder in [[locations/Narsileon.md|Narsileon]] and the House of Sight in Narsileon.
     * *The Art of Becoming*: Confirmed that Lyssandra no longer possesses this text, having sold it to Wicktrimmer.
 * **Character advancement:** Planning to acquire the *Remove Curse* spell immediately, with *Levitation* to follow once sufficient funds are secured (motivated by a desire to keep up with his wizard girlfriend).
 * **Equipment changes:** None this week.
@@ -67,7 +67,7 @@ The company spent the week engaged in intensive scholarly pursuits, alchemical e
 * **Research undertaken and findings:** 
     * Read *Fraternal Triumph*: An epic poem regarding twin duelists who slew a troll and founded an academy; the twins possessed matching magic swords.
     * Read *The Politics*: A text arguing that the ends justify the means.
-    * Read *On the Errors of the Sortians*: An anonymous tract arguing that the needs of the state outweigh individual rights.
+    * Read *On the Errors of the [[factions/Sortians.md|Sortians]]*: An anonymous tract arguing that the needs of the state outweigh individual rights.
 * **Character advancement:** Learned *Simple Illusion* and *History*.
 * **Equipment changes:** Acquired two doses of Wolfsbane, a wax tablet, and a Wand of Illusions ($12,000).
 

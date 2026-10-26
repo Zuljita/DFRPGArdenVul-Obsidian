@@ -18,3 +18,5 @@ appears_in:
 - A standard $150/week cost of living covers a room and three meals per day.
 - The inn staff dislikes people casting spells on the premises, especially if critical failures occur.
 - The inn features an upper-class common room that offers better, but more expensive, food.
+- The establishment is managed by Margot the Red (a Thorcin) and her husband Bricwine, with Helle (a Wiskin) tending the main bar. - [[notes/Discord Summary 2025-W12.md|Discord Summary 2025-W12]]
+- Individual guest rooms have a maximum occupancy of 3. - [[lore/Yellow Cloak Inn Details.md|Yellow Cloak Inn Details]]

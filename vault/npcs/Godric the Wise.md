@@ -20,5 +20,6 @@ Business-minded, knowledgeable about statuary.
 
 ## Notes
 The nickname "the Wise" suggests a reputation for sound judgment or deep knowledge in his field.
+- He is a member of the Golden Band.
 
 ## Sessions

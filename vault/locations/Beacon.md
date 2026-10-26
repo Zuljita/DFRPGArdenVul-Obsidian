@@ -64,6 +64,8 @@ In [[sessions/Session 40 - Taking Command.md|Session 40]], Vael found the **Comm
 - **Personal Defense Array (broken)**: A belt-style force field device; discovered to be defective — seals the user inside and cuts off air. Labeled as broken and dangerous.
 - **Rudishva Pep Pills**: Tested in Session 41; make the user very fast for a few seconds, then slow and sleepy for hours.
 - **Laser weapons**: Laser rifles and pistols, functional; Vael practiced on a wall in Session 41.
+- The iris doors possess a safety mechanism: if an object or living being is placed within the door's path, the door will cease its closing motion to prevent injury.
+- The structure is situated on a low island within the river; vertical tunneling beneath it is known to cause immediate flooding.
 
 ## Teleporter Route (Discovered Session 45)
 A Rudishva command chamber south-east of the Beacon area contains four teleporters:

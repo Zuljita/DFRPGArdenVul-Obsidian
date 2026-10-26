@@ -19,6 +19,7 @@ The Varumani are not trolls. They share superficial traits with what fantasy tra
 The word "troll" is the Archontean Common translation of the Mithric word *varumani*, as confirmed by a copper slate found in the Halls: *"varumani (in Mithric) — that is, troll (in Archontean)."* This translation reflects Archontean ignorance, not Varumani identity. The Varumani consider the word "troll" derogatory.
 
 > *"The trolls preferred to be called varumani."* — Session 26
+- Their territory requires a passport for entry.
 
 ## Origin and Nature
 
@@ -29,6 +30,7 @@ Per [[npcs/Akla-Chah.md|Akla-Chah]], the Varumani are **Rudishva constructs** �
 - **Model G** — independent.
 
 This reframes their "otherworldly" character: it derives from their Rudishva makers — a spacefaring people stranded on this world — not from a separate Varumani homeworld. ([[notes/Discord Summary 2026-W23.md|Discord Summary 2026-W23]])
+- They were defeated by Marius Tricotor in 1043 AEP and are now loyal Imperial subjects.
 
 ## Language
 
@@ -48,3 +50,4 @@ A [[library/copper slate, says -varumani- (in Mithric) -that is, troll- (in Arch
 - The faction page is [[factions/Varumani.md|Loyal Varumani]] (those who follow [[npcs/Varboka.md|Varboka]], the Thegn).
 - The dungeon level is [[locations/Halls of the Troll Thegn.md|Halls of the Troll Thegn]] — named by outsiders.
 - Session notes and historical lore retain "troll" as written, reflecting in-world outsider usage at the time.
+- An insignia of the II Legion (a sheep's head) was found on a cave floor under the stalls in the Varumani market.

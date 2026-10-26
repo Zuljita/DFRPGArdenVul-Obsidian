@@ -14,3 +14,4 @@ appears_in:
 - Was killed by "K".
 
 ## Notes
+- A silver ring inscribed "To Guivrel, with love from Lankios" was found in a pool of water during the search for The Thane.

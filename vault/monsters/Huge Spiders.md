@@ -28,3 +28,5 @@ TBD
 - They were defeated by a combination of [[Ashe Maykum|Ashe's]] summoned rat and bat swarms and direct combat from the PCs.
 
 ## Sessions
+- [[sessions/Session 17 - Cleaning Out the Vermin.md|Session 17]]
+- [[sessions/Session 29 - The Tower of Scrutiny.md|Session 29]]

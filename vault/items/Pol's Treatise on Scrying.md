@@ -9,6 +9,8 @@ tags:
   - library
   - book
   - media/book
+aliases:
+  - The Cursed Scrying Book
 ---
 
 # Pol's Treatise on Scrying
@@ -17,6 +19,8 @@ tags:
 ## Summary
 A work in Mithric authored by Pol. Pages that showed interesting scenes from within Arden Vul. Sarcophagi, a puppet theater (?), piles of treasure, some large human in red robes on a red couch surrounded by sickly-looking guys, and a room with  beds and treasure and demon statue and some humans walking about.
 
+As of [[notes/Discord Summary 2026-W02.md|Discord Summary 2026-W02]], it was kept in the "Chest of Do Not Open."
+
 ## Acquisitions
 | Date | Page | Copies | Weight | Notes |
 |---|---|---|---|---|
@@ -24,3 +28,4 @@ A work in Mithric authored by Pol. Pages that showed interesting scenes from wit
 
 ## Content
 > Pages that showed interesting scenes from within Arden Vul. Sarcophagi, a puppet theater (?), piles of treasure, some large human in red robes on a red couch surrounded by sickly-looking guys, and a room with  beds and treasure and demon statue and some humans walking about.
+- Looking at a blank page results in the loss of eyes. ([[notes/Discord Summary 2026-W02.md|Discord Summary 2026-W02]])

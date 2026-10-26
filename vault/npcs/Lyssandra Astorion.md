@@ -38,6 +38,7 @@ Senior Archontean wizard and co‑owner of the [[Arcane Practitioners' Club]]. A
 - Recommended selling the [[items/Gem of Insight.md|Gem of Insight]] to Lady Alexia or the Green Lady.
 - Identified the Rod of Imperium as a significant artifact of Archonal power alongside [[Pelteon]].
 - Her club, the [[Arcane Practitioners' Club]], provides services such as alchemy, magical research, and training.
+- Attempted to reverse-engineer a *Potion of Rock Melting*; the attempt failed.
 
 ## Sessions
 

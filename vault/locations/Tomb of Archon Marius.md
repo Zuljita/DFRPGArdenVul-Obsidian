@@ -49,6 +49,7 @@ A door marked "Entrance Forbidden — This means you!" (Varumani script) leads s
 - Vallium had a key copied by Theopilos the Locksmith and replaced it before the knights noticed.
 - Three maps were found and copied by Vael using the Copy spell.
 - Confirmed connection to the Drowned Canyon via a constructed spillway visible from a passage near the Varumani Lifts barrier.
+- The tomb's map indicates undiscovered rooms located to the south, within the cold region of the Halls.
 
 ## Sessions
 - [[sessions/Session 54 - The Tomb of Marius.md|Session 54 - The Tomb of Marius]]

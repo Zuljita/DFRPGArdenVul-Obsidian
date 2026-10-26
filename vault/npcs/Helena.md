@@ -22,3 +22,4 @@ Helena is an accountant for the [[factions/Cult of Set.md|Cult of Set]], found w
 - Was sent to join the other former slaves in the Forum
 - Her ledgers likely contained financial records of the Cult's operations
 - Had a significant speaking role.
+- Author of the *Account of [[factions/Cult of Set.md|Cult of Set]]*

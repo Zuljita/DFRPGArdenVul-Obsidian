@@ -26,3 +26,5 @@ Typically sent to perform specific tasks, such as guarding or retrieving items.
 
 ## Sessions
 - [[sessions/Session 12 - First Encounter with the Cult of Set.md|Session 12 - First Encounter with the Cult of Set]]
+- [[sessions/Session 64 - Looting Behind the Fireball Traps.md|Session 64 - Looting Behind the Fireball Traps]]
+- [[sessions/Session 60a - Hunting the Vampires.md|Session 60a - Hunting the Vampires]]

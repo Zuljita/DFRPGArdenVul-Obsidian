@@ -27,6 +27,7 @@ She is a key figure in the administration of [[Gosterwick]].
 
 ## Sessions
 - [[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35 - The Scepter - Flute of the Goblins]]
+- [[sessions/Session 24a - Revenge on the Set Cult.md|Session 24a]]
 
 ## Discord Insights
 

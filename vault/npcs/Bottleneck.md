@@ -24,6 +24,8 @@ aliases:
 - [[sessions/Session 41 - Theft and Counter-Theft.md|Session 41 - Theft and Counter-Theft]]
 - [[sessions/Session 47 - The No Mana Zone.md|Session 47 - The No Mana Zone]]
 - [[sessions/Session 50 - The Iron Circlet of Ghanor.md|Session 50 - The Iron Circlet of Ghanor]]
+- [[sessions/Session 63 - Angry Constructs.md|Session 63 - Angry Constructs]]
+- [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]]
 
 ## Notes
 - He was very excited to hear about the defeat of [[Phlebotomas Plumthorn]]'s halflings.

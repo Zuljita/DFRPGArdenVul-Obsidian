@@ -26,3 +26,4 @@ appears_in:
 ## Notes
 - Has painted portraits of both [[npcs/Weskenim.md|Weskenim]] and [[Gribble]].
 - Was seen wearing a new patch featuring a picture of himself holding a paintbrush ([[sessions/Session 35 - The Scepter - Flute of the Goblins.md|Session 35]]).
+- Holds a map leading to the Tablet of the Beacon.
