@@ -82,5 +82,5 @@ The repair of the Crossbow of Speed was achieved by applying one pound of spider
 **Unresolved Threads**
 
 * **The Lost Trace**: Because all active spells were deactivated, the party currently lacks a magical trace to follow, making it impossible to track their previous path without further investigation.
-* **The Kerbog Khan Lead**: The whereabouts of the Rogue Wizard Cerbactos (Kerbog Khan) remain unknown, despite the existence of the Narsileon warrant.
+* **The Kerbog Khan Bounty**: Cerbactos (Kerbog Khan) is dead; a reward for his head and the stolen books is offered in Narsileon (see [[sessions/Session 70 - Shopping in Archontos.md|Session 70]]).
 * **The Apes' Sustenance**: The upcoming deadline for the Ape food shipment remains a pressing logistical concern.

@@ -4,7 +4,7 @@ tags:
   - action-items
   - open-threads
 generated_by: vault_automation.py action-items
-updated: 2026-06-14T02:15:43.849623+00:00
+updated: 2026-10-26T13:28:28.523523+00:00
 ---
 
 # Active Action Items
@@ -18,30 +18,29 @@ This note is maintained by the vault automation. It merges current quests, unres
 
 ## Active Quests
 
-- [ ] **Neutralize Kerbog Khan**
-  - ID: `hunt-kerbog-khan`
+- [ ] **Explore Rudishva Teleporter Network**
+  - ID: `explore-rudishva-network`
   - Status: active
-  - Summary: Locate and neutralize the source of the dragonfly attacks and stolen artifacts.
-  - Next step: Continue hunting for Kerbog Khan following the trail through the surgical bay.
+  - Summary: Continue mapping and exploring the Rudishva teleporter pad network.
+  - Next step: Use the rug network to reach the Beacon and traverse the network.
   - Evidence:
-    - [[notes/Discord Summary 2026-W23.md|Discord Summary 2026-W23]] — "primary objective of locating and neutralizing Kerbog Khan."
+    - [[notes/Discord Summary 2026-W40.md|Discord Summary 2026-W40]] — "The primary objective is to map the teleporter pad network, specifically targeting R-J, R-L, R-M, R-N, and R-O."
 
 ## Open Mysteries
 
-- [ ] **Verify Archontos property legitimacy**
-  - ID: `archontos-property-legitimacy`
+- [ ] **Find Zhorak's Forge**
+  - ID: `find-zhorak-forge`
   - Status: open
-  - Summary: Determine if the legitimacy of the property on Vallium's deed can be verified.
-  - Related: [[pcs/Vallium Halcyon.md|Vallium]]
+  - Summary: Locate the specific site of Zhorak's Forge within the dungeon.
   - Evidence:
-    - [[sessions/Session 51 - The Vengeance Aspect.md|Session 51 - The Vengeance Aspect]] — "Vallium wasn't sure whether it was still valid, but bought it anyway."
+    - [[notes/Discord Summary 2026-W40.md|Discord Summary 2026-W40]] — "The search continues for the specific site within the dungeon"
 
-- [ ] **Investigate Rimmaq-Isfet connection**
-  - ID: `rimmaq-isfet-connection`
+- [ ] **Locate Priscus Pulcher Tomb**
+  - ID: `locate-priscus-pulcher-tomb`
   - Status: open
-  - Summary: Determine if biological anomalies and slime phenomena are linked to the deity Rimmaq-Isfet.
+  - Summary: Determine the exact location of the traitor's tomb under the cliff.
   - Evidence:
-    - [[notes/Discord Summary 2026-W22.md|Discord Summary 2026-W22]] — "A hypothesis has been raised that the biological anomalies and slime-related phenomena encountered in Arden Vul may be linked to the influence of the deity Rimmaq-Isfet."
+    - [[notes/Discord Summary 2026-W41.md|Discord Summary 2026-W41]] — "The exact location of the traitor's tomb under the cliff remains unknown."
 
 - [ ] **Determine status of Archon Marius**
   - ID: `status-of-marius`
@@ -53,13 +52,27 @@ This note is maintained by the vault automation. It merges current quests, unres
 
 ## Watch List
 
-- [ ] **Monitor Dragon Craas**
-  - ID: `dragon-craas-hunt`
+- [ ] **Manage Ape food shipment**
+  - ID: `apes-sustenance`
   - Status: watch
-  - Summary: Decide whether to hunt the dragon for his hoard or avoid him to prevent economic destabilization.
-  - Related: [[npcs/Craastonistorex.md|Craastonistorex]]
+  - Summary: Address the upcoming deadline for the Ape food shipment.
   - Evidence:
-    - [[notes/Discord Summary 2026-W19.md|Discord Summary 2026-W19]] — "Decide whether to hunt the dragon for his hoard or avoid him to prevent economic destabilization."
+    - [[notes/Discord Summary 2026-W42.md|Discord Summary 2026-W42]] — "The upcoming deadline for the Ape food shipment remains a pressing logistical concern."
+
+- [ ] **Secure storage for the Mirror**
+  - ID: `mirror-storage`
+  - Status: watch
+  - Summary: Determine a secure method for storing or covering the Mirror of Life Trapping while in Archontos.
+  - Related: [[items/Mirror of Life Trapping.md|Mirror of Life Trapping]]
+  - Evidence:
+    - [[notes/Discord Summary 2026-W39.md|Discord Summary 2026-W39]] — "The party has yet to determine a secure method for storing or covering the mirror while in Archontos."
+
+- [ ] **Investigate the Lost Trace**
+  - ID: `the-lost-trace`
+  - Status: watch
+  - Summary: Address the lack of a magical trace to follow previous paths due to deactivated spells.
+  - Evidence:
+    - [[notes/Discord Summary 2026-W42.md|Discord Summary 2026-W42]] — "Because all active spells were deactivated, the party currently lacks a magical trace to follow"
 
 - [ ] **Monitor Set Statue remains**
   - ID: `statue-fate`
@@ -76,6 +89,14 @@ This note is maintained by the vault automation. It merges current quests, unres
     - [[notes/Discord Summary 2026-W21.md|Discord Summary 2026-W21]] — "The massive accumulation of Behir remains (bones, meat, and offal) at the cave site requires urgent disposal to prevent rot and disease."
 
 ## Completed / Resolved
+
+- [x] **Neutralize Kerbog Khan**
+  - ID: `neutralize-kerbog-khan`
+  - Status: completed
+  - Summary: Kerbog Khan has been confirmed dead.
+  - Related: [[npcs/Kerbog Khan.md|Kerbog Khan]]
+  - Evidence:
+    - [[sessions/Session 67 - Tuftwillig and Kerbog Khan's Kids.md|Session 67 - Tuftwillig and Kerbog Khan's Kids]] — "Vallium revealed that Kerbog Khan was dead"
 
 - [x] **Rescue Gevorda**
   - ID: `rescue-gevorda`
